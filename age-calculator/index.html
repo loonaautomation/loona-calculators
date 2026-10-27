@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Age Calculator — Calculate Your Exact Age Online Free | Loona Calculators</title>
+<meta name="description" content="Free age calculator: enter your date of birth and get your exact age in years, months and days, plus total days, weeks and hours lived and your next birthday. No signup.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/age-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Age Calculator — Calculate Your Exact Age Online Free | Loona Calculators">
+<meta property="og:description" content="Free age calculator: enter your date of birth and get your exact age in years, months and days, plus total days, weeks and hours lived and your next birthday. No signup.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/age-calculator/">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Age Calculator — Calculate Your Exact Age Online Free | Loona Calculators">
+<meta name="twitter:description" content="Free age calculator: enter your date of birth and get your exact age in years, months and days, plus total days, weeks and hours lived and your next birthday. No signup.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "Loona Age Calculator", "url": "https://loonaautomation.github.io/loona-calculators/age-calculator/", "applicationCategory": "UtilitiesApplication", "operatingSystem": "Any", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "publisher": {"@type": "Organization", "name": "Loona Automation", "url": "https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Is the age calculator free?", "acceptedAnswer": {"@type": "Answer", "text": "Yes \u2014 100% free, no signup, no limit. Your dates never leave your device; the calculation happens in your browser."}}, {"@type": "Question", "name": "Can I calculate my age on a specific date?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Change the second date (Age at Date) to any past or future date, for example an exam or job application deadline."}}, {"@type": "Question", "name": "Does it count leap years?", "acceptedAnswer": {"@type": "Answer", "text": "Yes \u2014 the calendar calculation handles leap years automatically."}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+</head><body>
+<header>
+<img class="logo" src="../icon-192.png" alt="Loona Automation logo">
+<div class="brand">Loona <span>Calculators</span></div>
+<nav>
+<a href="../index.html">Home</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">About</a>
+<a href="../contact.html">Contact</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../index.html">Loona Calculators</a> › Date & Time › Age Calculator</div>
+<h1 class="pagetitle">📅 Age Calculator</h1>
+<p class="lead">Apni date of birth likhen aur apni bilkul sahi umar maloom karen — saal, mahine aur din ke sath. Forms, naukri applications aur school admission ke liye umar ka sahi hisab bohat kaam ata hai.</p>
+<div class="toolbox"><div data-calc="age-calculator"></div></div>
+<section class="txt"><h2>How to use the Age Calculator</h2><ol><li>Apni date of birth select karen.</li><li>Doosri date aaj ki pehle se lagi hai — chaaho to badal sakte ho (masalan kisi khaas date par umar).</li><li>Calculate dabayein — poori tafseel neeche aa jaye gi.</li></ol>
+<div class="exbox"><strong>Example:</strong> Agar aap 15 January 2000 ko paida huay aur aaj 28 October 2026 hai, to aap ki umar 26 saal, 9 mahine, 13 din hai — kul 9,778 din.</div>
+<h2>Frequently Asked Questions</h2></section><div class="faq"><h3>Is the age calculator free?</h3><p>Yes — 100% free, no signup, no limit. Your dates never leave your device; the calculation happens in your browser.</p></div><div class="faq"><h3>Can I calculate my age on a specific date?</h3><p>Yes. Change the second date (Age at Date) to any past or future date, for example an exam or job application deadline.</p></div><div class="faq"><h3>Does it count leap years?</h3><p>Yes — the calendar calculation handles leap years automatically.</p></div>
+<h2 class="sec">Related Calculators</h2><div class="grid"><a class="card" href="../days-between-dates-calculator/"><div class="ic">🗓️</div><h3>Days Between Dates</h3><p>Date & Time</p></a><a class="card" href="../time-calculator/"><div class="ic">⏱️</div><h3>Time Calculator</h3><p>Date & Time</p></a><a class="card" href="../zakat-calculator/"><div class="ic">🕌</div><h3>Zakat Calculator</h3><p>Money & Islamic</p></a><a class="card" href="../cgpa-calculator/"><div class="ic">🎓</div><h3>CGPA Calculator</h3><p>Education</p></a></div>
+</div>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Popular Calculators</h4><ul><li><a href="../age-calculator/">Age Calculator</a></li>
+<li><a href="../zakat-calculator/">Zakat Calculator</a></li>
+<li><a href="../cgpa-calculator/">CGPA Calculator</a></li>
+<li><a href="../percentage-calculator/">Percentage Calculator</a></li>
+<li><a href="../hijri-date-converter/">Hijri Date Converter</a></li>
+<li><a href="../emi-calculator/">EMI & Loan Calculator</a></li></ul></div>
+<div><h4>More Loona Tools</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/Loona-Image-Compressor/">Loona Image Compressor</a></li>
+<li><a href="https://loonaautomation.github.io/Loona-AI/">Loona AI Assistant</a></li>
+<li><a href="https://loonaautomation.github.io/">All Loona Tools</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">About</a></li>
+<li><a href="../contact.html">Contact</a></li>
+<li><a href="../privacy-policy.html">Privacy Policy</a></li>
+<li><a href="../terms.html">Terms of Use</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — a <a href="https://loonaautomation.github.io/">Loona Automation</a> project. Free online calculators, no signup.
+Contact: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>/* Loona Calculators — shared calculation engine (pure functions, unit-testable).
+   Each CALCS[slug].run(v) takes string values and returns result HTML (or "ERR:..."). */
+"use strict";
+function N(x){var n=parseFloat(x);return isNaN(n)?0:n;}
+function F(x,d){if(d===undefined)d=2;var p=Math.pow(10,d);var r=Math.round(x*p)/p;
+  return r.toLocaleString("en-IN",{minimumFractionDigits:0,maximumFractionDigits:d});}
+function Rs(x){return "Rs "+F(x,2);}
+function row(k,v){return '<tr><td>'+k+'</td><td><strong>'+v+'</strong></td></tr>';}
+function big(label,val){return '<div class="resbig"><span>'+label+'</span><strong>'+val+'</strong></div>';}
+function tbl(rows){return '<table class="restbl">'+rows+'</table>';}
+function note(t){return '<p class="resnote">'+t+'</p>';}
+function pdate(s){if(!s)return null;var p=s.split("-");if(p.length<3)return null;
+  return new Date(+p[0],+p[1]-1,+p[2]);}
+function fdate(d){var M=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+  var W=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+  return W[d.getDay()]+", "+d.getDate()+" "+M[d.getMonth()]+" "+d.getFullYear();}
+function iso(d){return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");}
+function dayDiff(a,b){return Math.round((b-a)/86400000);}
+function ymdDiff(a,b){ /* a<=b -> {y,m,d} calendar difference */
+  var y=b.getFullYear()-a.getFullYear(),m=b.getMonth()-a.getMonth(),d=b.getDate()-a.getDate();
+  if(d<0){m--;var prev=new Date(b.getFullYear(),b.getMonth(),0);d+=prev.getDate();}
+  if(m<0){y--;m+=12;}
+  return {y:y,m:m,d:d};
+}
+const HIJRI_MONTHS=["Muharram","Safar","Rabi al-Awwal","Rabi al-Thani","Jumada al-Ula","Jumada al-Akhirah","Rajab","Shaban","Ramadan","Shawwal","Dhul Qadah","Dhul Hijjah"];
+function hijriParts(gd){
+  var fmt=new Intl.DateTimeFormat("en-u-ca-islamic",{day:"numeric",month:"numeric",year:"numeric"});
+  var parts=fmt.formatToParts(gd),o={};
+  parts.forEach(function(p){o[p.type]=p.value;});
+  return {y:+o.year,m:+o.month,d:+o.day};
+}
+function hijriToGreg(hy,hm,hd){
+  /* approximate start: Hijri epoch 16 Jul 622; year length 354.367 days */
+  var approx=new Date(622,6,16).getTime()+((hy-1)*354.367+ (hm-1)*29.53 + (hd-1))*86400000;
+  var d=new Date(approx),p=hijriParts(d),guard=0;
+  function key(pp){return pp.y*10000+pp.m*100+pp.d;}
+  var target=hy*10000+hm*100+hd;
+  while(key(p)!==target&&guard<500){
+    var diff=(hy-p.y)*354+((hm-p.m)*30)+(hd-p.d);
+    if(diff===0)diff=(target>key(p))?1:-1;
+    d=new Date(d.getTime()+diff*86400000);p=hijriParts(d);guard++;
+  }
+  return d;
+}
+
+const CALCS={
+
+/* 1 — AGE */
+"age-calculator":{
+ fields:[
+  {id:"dob",l:"Date of Birth",t:"d",req:1},
+  {id:"to",l:"Age at Date (aaj ki tareekh pehle se hai)",t:"d",def:"today"}],
+ run:function(v){
+  var dob=pdate(v.dob),to=pdate(v.to)||new Date();
+  if(!dob)return "ERR:Apni date of birth likhen.";
+  if(dob>to)return "ERR:Date of birth, age wali tareekh se pehle honi chahiye.";
+  var a=ymdDiff(dob,to),days=dayDiff(dob,to);
+  var nb=new Date(to.getFullYear(),dob.getMonth(),dob.getDate());
+  if(nb<to)nb=new Date(to.getFullYear()+1,dob.getMonth(),dob.getDate());
+  var until=dayDiff(to,nb);
+  return big("Your Age",a.y+" years, "+a.m+" months, "+a.d+" days")
+   +tbl(row("Total days lived",F(days,0))
+     +row("Total months",F(a.y*12+a.m,0)+" months, "+a.d+" days")
+     +row("Total weeks",F(Math.floor(days/7),0)+" weeks, "+(days%7)+" days")
+     +row("Total hours",F(days*24,0))
+     +row("Born on",fdate(dob))
+     +row("Next birthday",fdate(nb)+" ("+until+" days to go)"));
+ }},
+
+/* 2 — ZAKAT */
+"zakat-calculator":{
+ fields:[
+  {id:"cash",l:"Cash in hand (Rs)",t:"n"},
+  {id:"bank",l:"Bank balance (Rs)",t:"n"},
+  {id:"gold_g",l:"Gold (grams)",t:"n"},
+  {id:"gold_rate",l:"Gold rate per gram (Rs)",t:"n"},
+  {id:"silver_g",l:"Silver (grams)",t:"n"},
+  {id:"silver_rate",l:"Silver rate per gram (Rs)",t:"n"},
+  {id:"goods",l:"Business goods / stock value (Rs)",t:"n"},
+  {id:"recv",l:"Money others owe you (Rs)",t:"n"},
+  {id:"debts",l:"Your debts to pay (Rs)",t:"n"}],
+ run:function(v){
+  var goldVal=N(v.gold_g)*N(v.gold_rate),silVal=N(v.silver_g)*N(v.silver_rate);
+  var assets=N(v.cash)+N(v.bank)+goldVal+silVal+N(v.goods)+N(v.recv);
+  var net=Math.max(0,assets-N(v.debts));
+  var nisabs=[];
+  if(N(v.gold_rate)>0)nisabs.push({n:"Gold nisab (87.48 g)",val:87.48*N(v.gold_rate)});
+  if(N(v.silver_rate)>0)nisabs.push({n:"Silver nisab (612.36 g)",val:612.36*N(v.silver_rate)});
+  var rows=tbl(row("Total assets",Rs(assets))+row("Debts",Rs(N(v.debts)))+row("Net wealth (zakatable)",Rs(net)));
+  if(!nisabs.length)return rows+note("Nisab check karne ke liye sone (gold) ya chandi (silver) ka per-gram rate lazmi likhen.");
+  var nisab=nisabs.reduce(function(a,b){return b.val<a.val?b:a;});
+  rows+=tbl(row("Nisab used (lower of gold/silver)",nisab.n+" = "+Rs(nisab.val)));
+  if(net>=nisab.val){
+    return big("Your Zakat (2.5%)",Rs(net*0.025))+rows
+      +note("Ye hisab ek andaza hai. Zakat ke sharai masail ke liye apne mufti/alim se tasdeek karen.");
+  }
+  return big("Zakat Due","Rs 0 — nisab se kam")+rows
+    +note("Aap ki net wealth nisab ("+Rs(nisab.val)+") se kam hai, is andaze par zakat wajib nahi. Sharai tasdeek ke liye alim se raabta karen.");
+ }},
+
+/* 3 — CGPA */
+"cgpa-calculator":{
+ fields:[
+  {id:"subjects",l:"Subjects (har subject ke marks 100 me se + credit hours)",t:"sub"},
+  {id:"prev_cgpa",l:"Previous CGPA (agar hai to — warna khali chor den)",t:"n"},
+  {id:"prev_cr",l:"Previous total credit hours",t:"n"}],
+ run:function(v){
+  function gp(m){if(m>=85)return 4.0;if(m>=80)return 3.7;if(m>=75)return 3.3;if(m>=70)return 3.0;
+    if(m>=65)return 2.7;if(m>=61)return 2.3;if(m>=58)return 2.0;if(m>=55)return 1.7;
+    if(m>=51)return 1.3;if(m>=50)return 1.0;return 0;}
+  var pts=0,cr=0,rows="";
+  for(var i=1;i<=8;i++){
+    var m=v["s"+i+"m"],c=N(v["s"+i+"c"]);
+    if(m===""||m===undefined||c<=0)continue;
+    var g=gp(N(m));pts+=g*c;cr+=c;
+    rows+=row("Subject "+i+" ("+F(N(m),0)+" marks, "+c+" cr)",g.toFixed(2)+" grade points");
+  }
+  if(cr===0)return "ERR:Kam az kam ek subject ke marks aur credit hours likhen.";
+  var sgpa=pts/cr,html=tbl(rows);
+  if(N(v.prev_cgpa)>0&&N(v.prev_cr)>0){
+    var cum=(N(v.prev_cgpa)*N(v.prev_cr)+pts)/(N(v.prev_cr)+cr);
+    return big("Your CGPA (cumulative)",cum.toFixed(2))+html
+      +tbl(row("This semester GPA",sgpa.toFixed(2))+row("Semester credit hours",F(cr,0)));
+  }
+  return big("Your GPA (this semester)",sgpa.toFixed(2))+html
+    +note("Grade points aam HEC scale par hain: 85+ = 4.0, 80 = 3.7, 75 = 3.3, 70 = 3.0, 65 = 2.7, 61 = 2.3, 58 = 2.0, 55 = 1.7, 51 = 1.3, 50 = 1.0. Aap ki university ka scale mukhtalif ho sakta hai.");
+ }},
+
+/* 4 — PERCENTAGE */
+"percentage-calculator":{
+ fields:[
+  {id:"mode",l:"Kya hisab karna hai?",t:"s",o:[["of","X% of Y kya hoga?"],["iswhat","X, Y ka kitna % hai?"],["change","X se Y tak kitna % change hua?"]]},
+  {id:"x",l:"X (pehli value)",t:"n",req:1},
+  {id:"y",l:"Y (doosri value)",t:"n",req:1}],
+ run:function(v){
+  var x=N(v.x),y=N(v.y);
+  if(v.mode==="of")return big("Result",F(x/100*y))+tbl(row("Formula",F(x,0)+"% \u00D7 "+F(y,0)+" \u00F7 100"));
+  if(v.mode==="iswhat"){if(y===0)return "ERR:Y zero nahi ho sakta.";return big("Result",F(x/y*100)+"%")+tbl(row("Formula",F(x,0)+" \u00F7 "+F(y,0)+" \u00D7 100"));}
+  if(x===0)return "ERR:X (starting value) zero nahi ho sakta.";
+  var ch=(y-x)/x*100;
+  return big("Change",(ch>=0?"+":"")+F(ch)+"%") + tbl(row("Difference",F(y-x))+row("Type",ch>=0?"Increase (izafa)":"Decrease (kami)"));
+ }},
+
+/* 5 — HIJRI CONVERTER */
+"hijri-date-converter":{
+ fields:[
+  {id:"dir",l:"Direction",t:"s",o:[["toH","Gregorian (English) \u2192 Hijri (Islamic)"],["toG","Hijri (Islamic) \u2192 Gregorian (English)"]]},
+  {id:"gdate",l:"Gregorian date (pehli direction ke liye)",t:"d"},
+  {id:"hy",l:"Hijri year (doosri direction ke liye)",t:"n"},
+  {id:"hm",l:"Hijri month",t:"s",o:HIJRI_MONTHS.map(function(m,i){return [String(i+1),m];})},
+  {id:"hd",l:"Hijri day",t:"n"}],
+ run:function(v){
+  if(v.dir==="toG"){
+    var hy=N(v.hy),hm=N(v.hm),hd=N(v.hd);
+    if(hy<1||hd<1||hd>30)return "ERR:Sahi Hijri year aur day (1-30) likhen.";
+    var g=hijriToGreg(hy,hm,hd);
+    return big("Gregorian Date",fdate(g))
+      +tbl(row("Hijri date",hd+" "+HIJRI_MONTHS[hm-1]+" "+hy+" AH")+row("Day",fdate(g).split(",")[0]));
+  }
+  var gd=pdate(v.gdate);
+  if(!gd)return "ERR:Gregorian date select karen.";
+  var p=hijriParts(gd);
+  return big("Hijri Date",p.d+" "+HIJRI_MONTHS[p.m-1]+" "+p.y+" AH")
+    +tbl(row("Gregorian date",fdate(gd))+row("Hijri month",HIJRI_MONTHS[p.m-1])+row("Hijri year",p.y+" AH"))
+    +note("Dates Umm al-Qura calendar ke mutabiq hain jo aap ke mulk ke official calendar se 1 din aage/peeche ho sakti hain.");
+ }},
+
+/* 6 — EMI / LOAN */
+"emi-calculator":{
+ fields:[
+  {id:"amt",l:"Loan amount (Rs)",t:"n",req:1},
+  {id:"rate",l:"Yearly interest / profit rate (%)",t:"n",req:1},
+  {id:"ten",l:"Tenure (muddat)",t:"n",req:1},
+  {id:"unit",l:"Tenure unit",t:"s",o:[["m","Months"],["y","Years"]]}],
+ run:function(v){
+  var P=N(v.amt),r=N(v.rate)/1200,n=N(v.ten)*(v.unit==="y"?12:1);
+  if(P<=0||n<=0)return "ERR:Sahi loan amount aur muddat likhen.";
+  var emi,total;
+  if(r===0){emi=P/n;total=P;}
+  else{var f=Math.pow(1+r,n);emi=P*r*f/(f-1);total=emi*n;}
+  return big("Monthly Payment",Rs(emi))
+   +tbl(row("Loan amount",Rs(P))+row("Total interest / profit",Rs(total-P))
+     +row("Total payment",Rs(total))+row("Number of payments",F(n,0)));
+ }}
+};
+
+Object.assign(CALCS,{
+
+/* 7 — BMI */
+"bmi-calculator":{
+ fields:[
+  {id:"w",l:"Weight (kg)",t:"n",req:1},
+  {id:"hcm",l:"Height (cm) — ya neeche feet/inches likhen",t:"n"},
+  {id:"hft",l:"Height feet (optional)",t:"n"},
+  {id:"hin",l:"Height inches (optional)",t:"n"}],
+ run:function(v){
+  var w=N(v.w),h=N(v.hcm);
+  if(N(v.hft)>0||N(v.hin)>0)h=(N(v.hft)*12+N(v.hin))*2.54;
+  if(w<=0||h<=0)return "ERR:Sahi weight aur height likhen.";
+  var m=h/100,bmi=w/(m*m),cat;
+  if(bmi<18.5)cat="Underweight (wazan kam)";else if(bmi<25)cat="Normal (sehatmand)";
+  else if(bmi<30)cat="Overweight (wazan zyada)";else cat="Obese (motapa)";
+  return big("Your BMI",F(bmi,1)+" — "+cat)
+   +tbl(row("Healthy weight for your height",F(18.5*m*m,1)+" kg to "+F(24.9*m*m,1)+" kg")
+     +row("Height",F(h,0)+" cm")+row("Weight",F(w,1)+" kg"))
+   +note("BMI ek aam andaza hai; athletes aur khawateen ke liye ye mukammal hidayat nahi. Sehat ke faislon ke liye doctor se mashwara karen.");
+ }},
+
+/* 8 — DAYS BETWEEN DATES */
+"days-between-dates-calculator":{
+ fields:[
+  {id:"s",l:"Start date",t:"d",req:1},
+  {id:"e",l:"End date",t:"d",def:"today"}],
+ run:function(v){
+  var a=pdate(v.s),b=pdate(v.e)||new Date();
+  if(!a)return "ERR:Start date select karen.";
+  if(b<a){var t=a;a=b;b=t;}
+  var days=dayDiff(a,b),d=ymdDiff(a,b);
+  return big("Total Days",F(days,0))
+   +tbl(row("Breakdown",d.y+" years, "+d.m+" months, "+d.d+" days")
+     +row("Weeks",F(Math.floor(days/7),0)+" weeks, "+(days%7)+" days")
+     +row("Including end date",F(days+1,0)+" days")
+     +row("Total hours",F(days*24,0))+row("From",fdate(a))+row("To",fdate(b)));
+ }},
+
+/* 9 — COMPOUND INTEREST */
+"compound-interest-calculator":{
+ fields:[
+  {id:"p",l:"Starting amount (Rs)",t:"n",req:1},
+  {id:"rate",l:"Yearly interest rate (%)",t:"n",req:1},
+  {id:"yrs",l:"Years",t:"n",req:1},
+  {id:"freq",l:"Compounds per year",t:"s",o:[["1","Yearly (1)"],["2","Half-yearly (2)"],["4","Quarterly (4)"],["12","Monthly (12)"],["365","Daily (365)"]]},
+  {id:"dep",l:"Monthly deposit (Rs, optional)",t:"n"}],
+ run:function(v){
+  var P=N(v.p),r=N(v.rate)/100,t=N(v.yrs),m=N(v.freq)||1,dep=N(v.dep);
+  if(P<0||t<=0)return "ERR:Sahi values likhen.";
+  var bal=P,rows="";
+  for(var yr=1;yr<=Math.min(t,50);yr++){
+    bal=P*Math.pow(1+r/m,m*yr);
+    if(dep>0&&r>0){var rm=r/12;bal+=dep*((Math.pow(1+rm,12*yr)-1)/rm)*(1);}
+    else if(dep>0){bal+=dep*12*yr;}
+    rows+=row("Year "+yr,Rs(bal));
+  }
+  var fin=P*Math.pow(1+r/m,m*t);
+  if(dep>0&&r>0){var rm2=r/12;fin+=dep*((Math.pow(1+rm2,12*t)-1)/rm2);}
+  else if(dep>0){fin+=dep*12*t;}
+  var invested=P+dep*12*t;
+  return big("Final Amount",Rs(fin))
+   +tbl(row("You invested",Rs(invested))+row("Interest earned",Rs(fin-invested)))
+   +tbl(rows);
+ }},
+
+/* 10 — MARKS PERCENTAGE */
+"marks-percentage-calculator":{
+ fields:[
+  {id:"obt",l:"Obtained marks",t:"n",req:1},
+  {id:"tot",l:"Total marks",t:"n",req:1}],
+ run:function(v){
+  var o=N(v.obt),t=N(v.tot);
+  if(t<=0||o<0||o>t)return "ERR:Sahi marks likhen (obtained, total se zyada nahi ho sakte).";
+  var p=o/t*100,g;
+  if(p>=90)g="A+";else if(p>=80)g="A";else if(p>=70)g="B";else if(p>=60)g="C";else if(p>=50)g="D";else g="F (Fail)";
+  return big("Percentage",F(p)+"%")
+   +tbl(row("Grade (common scale)",g)+row("Obtained",F(o,0)+" / "+F(t,0))
+     +row("Marks needed for 90%",F(Math.max(0,Math.ceil(0.9*t-o)),0)+" more"));
+ }},
+
+/* 11 — ELECTRICITY (BIJLI) BILL */
+"electricity-bill-calculator":{
+ fields:[
+  {id:"units",l:"Units consumed (kWh)",t:"n",req:1},
+  {id:"r1",l:"Rate: units 1-100 (Rs per unit)",t:"n",def:"23.51"},
+  {id:"r2",l:"Rate: units 101-200",t:"n",def:"30.07"},
+  {id:"r3",l:"Rate: units 201-300",t:"n",def:"33.39"},
+  {id:"r4",l:"Rate: units 301-400",t:"n",def:"36.50"},
+  {id:"r5",l:"Rate: units 401-700",t:"n",def:"39.47"},
+  {id:"r6",l:"Rate: units 700+",t:"n",def:"41.20"},
+  {id:"gst",l:"GST (%)",t:"n",def:"18"},
+  {id:"other",l:"Other charges (Rs) — FPA, fixed charges waghera",t:"n"}],
+ run:function(v){
+  var u=N(v.units);
+  if(u<=0)return "ERR:Units likhen.";
+  var slabs=[[100,N(v.r1)],[100,N(v.r2)],[100,N(v.r3)],[100,N(v.r4)],[300,N(v.r5)],[Infinity,N(v.r6)]];
+  var left=u,cost=0,rows="";
+  for(var i=0;i<slabs.length&&left>0;i++){
+    var take=Math.min(left,slabs[i][0]),c=take*slabs[i][1];
+    cost+=c;left-=take;
+    rows+=row("Slab "+(i+1)+" — "+F(take,0)+" units \u00D7 Rs "+F(slabs[i][1]),Rs(c));
+  }
+  var gst=cost*N(v.gst)/100,total=cost+gst+N(v.other);
+  return big("Estimated Bill",Rs(total))
+   +tbl(rows)+tbl(row("Energy cost",Rs(cost))+row("GST ("+F(N(v.gst),0)+"%)",Rs(gst))
+     +row("Other charges",Rs(N(v.other)))+row("Average rate per unit",Rs(total/u)))
+   +note("Ye sirf andaza hai. Rates waqt ke sath aur company (LESCO, IESCO, K-Electric waghera) ke hisab se badalte hain — sahi hisab ke liye apne taaza bill ke rates upar wale khano me likh len; saare rates badle ja sakte hain.");
+ }},
+
+/* 12 — MARLA / KANAL AREA CONVERTER */
+"marla-kanal-area-converter":{
+ fields:[
+  {id:"val",l:"Value (kitna area?)",t:"n",req:1},
+  {id:"from",l:"From (kis unit me hai)",t:"s",o:[["sqft","Square Feet"],["sqyd","Square Yards (Gaj)"],["sqm","Square Metres"],["marla","Marla"],["kanal","Kanal"],["acre","Acre"],["hectare","Hectare"]]},
+  {id:"msize",l:"Marla size",t:"s",o:[["272.25","Standard — 272.25 sq ft"],["225","Old / small — 225 sq ft"]]}],
+ run:function(v){
+  var ms=N(v.msize)||272.25;
+  var base={"sqft":1,"sqyd":9,"sqm":10.7639,"marla":ms,"kanal":20*ms,"acre":43560,"hectare":107639};
+  var labels={"sqft":"Square Feet","sqyd":"Square Yards (Gaj)","sqm":"Square Metres","marla":"Marla","kanal":"Kanal","acre":"Acre","hectare":"Hectare"};
+  var val=N(v.val);
+  if(val<=0)return "ERR:Sahi value likhen.";
+  var inFt=val*base[v.from],rows="";
+  for(var k in base)rows+=row(labels[k],F(inFt/base[k],4));
+  return big(labels[v.from]+" \u2192 all units","")+tbl(rows)
+   +note("1 Kanal = 20 Marla. 1 Acre = 8 Kanal = 43,560 sq ft. Marla ka size kuch ilaqon me 225 sq ft bhi hota hai — upar select kar len.");
+ }},
+
+/* 13 — SALARY / TAX (PAKISTAN) */
+"salary-calculator":{
+ fields:[
+  {id:"gross",l:"Monthly gross salary (Rs)",t:"n",req:1},
+  {id:"mode",l:"Tax method",t:"s",o:[["pk","Pakistan salaried tax slabs (Tax Year 2026)"],["flat","Custom flat % (neeche likhen)"]]},
+  {id:"flat",l:"Custom tax (%) — sirf flat mode ke liye",t:"n"}],
+ run:function(v){
+  var g=N(v.gross);
+  if(g<=0)return "ERR:Sahi salary likhen.";
+  var annual=g*12,taxA;
+  if(v.mode==="flat"){taxA=annual*N(v.flat)/100;}
+  else{
+    var slabs=[[600000,0,0],[600000,6000,0.01],[1000000,6000,0.01],[1000000,116000,0.11],[1000000,346000,0.23],[900000,346000,0.30],[Infinity,616000,0.35]];
+    /* progressive: [width, baseTaxAtStartOfThisBand... handled below] */
+    var bands=[[600000,0],[600000,0.01],[1000000,0.11],[1000000,0.23],[900000,0.30],[Infinity,0.35]];
+    var bases=[0,0,6000,116000,346000,616000];
+    taxA=0;var rem=annual;
+    for(var i=0;i<bands.length;i++){
+      var w=bands[i][0];
+      if(rem>w){taxA=bases[i]+w*bands[i][1];rem-=w;}
+      else{taxA=bases[i]+rem*bands[i][1];rem=0;break;}
+    }
+    if(rem>0){/* beyond last finite band already handled by Infinity width */}
+  }
+  var taxM=taxA/12;
+  return big("Net Monthly Salary",Rs(g-taxM))
+   +tbl(row("Gross monthly",Rs(g))+row("Tax per month",Rs(taxM))
+     +row("Tax per year",Rs(taxA))+row("Effective tax rate",F(taxA/annual*100)+"%")
+     +row("Net yearly",Rs(annual-taxA)))
+   +note("Pakistan salaried income tax, Tax Year 2026 ke aam slabs par. Tax rates budget me badal sakte hain — final tasdeek ke liye FBR ki taaza table ya apna salary slip check karen.");
+ }}
+});
+
+Object.assign(CALCS,{
+
+/* 14 — DISCOUNT */
+"discount-calculator":{
+ fields:[
+  {id:"price",l:"Original price (Rs)",t:"n",req:1},
+  {id:"d1",l:"Discount (%)",t:"n",req:1},
+  {id:"d2",l:"Extra discount on top (%) — optional",t:"n"},
+  {id:"tax",l:"Tax / GST to add after discount (%) — optional",t:"n"}],
+ run:function(v){
+  var p=N(v.price);
+  if(p<=0)return "ERR:Sahi price likhen.";
+  var after=p*(1-N(v.d1)/100)*(1-N(v.d2)/100);
+  var fin=after*(1+N(v.tax)/100);
+  return big("Final Price",Rs(fin))
+   +tbl(row("Original price",Rs(p))+row("Price after discounts",Rs(after))
+     +row("You save",Rs(p-after))+row("Effective discount",F((p-after)/p*100)+"%"));
+ }},
+
+/* 15 — CGPA TO PERCENTAGE */
+"cgpa-to-percentage-calculator":{
+ fields:[
+  {id:"val",l:"Your CGPA / GPA",t:"n",req:1},
+  {id:"scale",l:"Scale",t:"s",o:[["10","Out of 10 (CGPA)"],["4","Out of 4 (GPA)"],["c","Custom multiplier (neeche)"]]},
+  {id:"mult",l:"Custom multiplier — sirf custom ke liye",t:"n",def:"9.5"}],
+ run:function(v){
+  var x=N(v.val),pct,how;
+  if(x<=0)return "ERR:Sahi CGPA likhen.";
+  if(v.scale==="10"){if(x>10)return "ERR:10 scale par CGPA 10 se zyada nahi ho sakta.";pct=x*9.5;how="CGPA \u00D7 9.5";}
+  else if(v.scale==="4"){if(x>4)return "ERR:4 scale par GPA 4 se zyada nahi ho sakta.";pct=x/4*100;how="GPA \u00F7 4 \u00D7 100";}
+  else{var m=N(v.mult);if(m<=0)return "ERR:Multiplier likhen.";pct=x*m;how="CGPA \u00D7 "+F(m);}
+  return big("Percentage",F(pct)+"%")+tbl(row("Formula used",how))
+   +note("Har board aur university ka formula mukhtalif ho sakta hai (masalan CBSE = CGPA \u00D7 9.5). Official kaam ke liye apni university/board ka formula tasdeek kar len.");
+ }},
+
+/* 16 — TIME CALCULATOR */
+"time-calculator":{
+ fields:[
+  {id:"op",l:"Operation",t:"s",o:[["add","Add (jama)"],["sub","Subtract (minus)"]]},
+  {id:"h1",l:"Time 1 — Hours",t:"n"},{id:"m1",l:"Time 1 — Minutes",t:"n"},{id:"s1",l:"Time 1 — Seconds",t:"n"},
+  {id:"h2",l:"Time 2 — Hours",t:"n"},{id:"m2",l:"Time 2 — Minutes",t:"n"},{id:"s2",l:"Time 2 — Seconds",t:"n"}],
+ run:function(v){
+  var a=N(v.h1)*3600+N(v.m1)*60+N(v.s1),b=N(v.h2)*3600+N(v.m2)*60+N(v.s2);
+  var t=v.op==="sub"?a-b:a+b;
+  if(t<0)return "ERR:Result negative hai — Time 1, Time 2 se chhota hai.";
+  var d=Math.floor(t/86400),h=Math.floor(t%86400/3600),m=Math.floor(t%3600/60),s=Math.floor(t%60);
+  return big("Result",(d>0?d+"d ":"")+h+"h : "+m+"m : "+s+"s")
+   +tbl(row("Total hours",F(t/3600,4))+row("Total minutes",F(t/60,2))+row("Total seconds",F(t,0)));
+ }},
+
+/* 17 — PREGNANCY DUE DATE */
+"pregnancy-due-date-calculator":{
+ fields:[{id:"lmp",l:"Last period ki pehli tareekh (LMP)",t:"d",req:1}],
+ run:function(v){
+  var lmp=pdate(v.lmp);
+  if(!lmp)return "ERR:LMP date select karen.";
+  var today=new Date();today.setHours(0,0,0,0);
+  if(lmp>today)return "ERR:LMP aaj se pehle ki tareekh honi chahiye.";
+  var due=new Date(lmp.getTime()+280*86400000);
+  var days=dayDiff(lmp,today),wk=Math.floor(days/7),wd=days%7;
+  var tri=wk<14?"First (1st)":(wk<28?"Second (2nd)":"Third (3rd)");
+  var left=dayDiff(today,due);
+  return big("Expected Due Date",fdate(due))
+   +tbl(row("You are pregnant (approx)",wk+" weeks, "+wd+" days")
+     +row("Trimester",tri)+row("Days left to due date",left>0?F(left,0):"Due date guzar chuki hai")
+     +row("Estimated conception",fdate(new Date(lmp.getTime()+14*86400000))))
+   +note("Ye andaza aam 28-din cycle par hai. Sahi maloomat ke liye apni doctor/gynecologist se mashwara karen.");
+ }},
+
+/* 18 — SIMPLE INTEREST */
+"simple-interest-calculator":{
+ fields:[
+  {id:"p",l:"Principal amount (Rs)",t:"n",req:1},
+  {id:"rate",l:"Yearly interest rate (%)",t:"n",req:1},
+  {id:"yrs",l:"Years",t:"n"},
+  {id:"mos",l:"Months (additional)",t:"n"}],
+ run:function(v){
+  var P=N(v.p),r=N(v.rate),t=N(v.yrs)+N(v.mos)/12;
+  if(P<=0||t<=0)return "ERR:Sahi amount aur time likhen.";
+  var I=P*r*t/100;
+  return big("Total Amount",Rs(P+I))
+   +tbl(row("Principal",Rs(P))+row("Interest earned",Rs(I))+row("Time",F(t,2)+" years"));
+ }},
+
+/* 19 — ATTENDANCE */
+"attendance-calculator":{
+ fields:[
+  {id:"held",l:"Total classes held (ab tak)",t:"n",req:1},
+  {id:"att",l:"Classes attended (hazri)",t:"n",req:1},
+  {id:"target",l:"Target attendance (%)",t:"n",def:"75"}],
+ run:function(v){
+  var h=N(v.held),a=N(v.att),tg=N(v.target)/100;
+  if(h<=0||a<0||a>h)return "ERR:Sahi numbers likhen (attended, held se zyada nahi ho sakte).";
+  if(tg<=0||tg>=1)return "ERR:Target 1% se 99% ke darmiyan rakhen.";
+  var cur=a/h*100,html=big("Current Attendance",F(cur)+"%");
+  if(cur/100>=tg){
+    var miss=Math.floor(a/tg-h);
+    html+=tbl(row("Status","Target pura hai \u2713")+row("Classes you can still miss",F(Math.max(0,miss),0)));
+  }else{
+    var need=Math.ceil((tg*h-a)/(1-tg));
+    html+=tbl(row("Status","Target se neeche hai")+row("Classes to attend (lagatar)",F(need,0)+" more, bina chhutti kiye"));
+  }
+  return html+note("Ye hisab baqi classes ki tadaad par bhi nirbhar karta hai — ye sirf abhi ki position batata hai.");
+ }},
+
+/* 20 — LOVE CALCULATOR (fun) */
+"love-calculator":{
+ fields:[
+  {id:"n1",l:"Your name",t:"t",req:1},
+  {id:"n2",l:"Partner / crush ka naam",t:"t",req:1}],
+ run:function(v){
+  var a=(v.n1||"").trim().toLowerCase(),b=(v.n2||"").trim().toLowerCase();
+  if(!a||!b)return "ERR:Donon naam likhen.";
+  var s=a+"\u2764"+b,h=0;
+  for(var i=0;i<s.length;i++)h+=s.charCodeAt(i)*(i+7);
+  var pct=41+(h%60),msg;
+  if(pct>=90)msg="Made for each other! \uD83D\uDC98";
+  else if(pct>=75)msg="Bohat achi jodi \u2764\uFE0F";
+  else if(pct>=60)msg="Achi chemistry hai \uD83D\uDE0A";
+  else msg="Dosti bhi khoobsurat hoti hai \uD83D\uDE04";
+  return big(a+" \u2764 "+b,pct+"%")+tbl(row("Result",msg))
+   +note("Ye sirf tafreeh (fun) ke liye hai — asal mohabbat kisi hisab se nahi napti. \uD83D\uDE0A");
+ }}
+});
+
+/* ---------- Form binder (browser only) ---------- */
+function fieldHTML(f){
+  if(f.t==="sub"){
+    var h='<div class="subgrid"><div class="subhead"><span>Marks /100</span><span>Credit hrs</span></div>';
+    for(var i=1;i<=8;i++){
+      h+='<div class="subrow"><input type="number" min="0" max="100" id="s'+i+'m" placeholder="Subject '+i+' marks"><input type="number" min="0" step="0.5" id="s'+i+'c" placeholder="Cr hrs"></div>';
+    }
+    return h+"</div>";
+  }
+  var req=f.req?' required':"";
+  if(f.t==="s"){
+    var o=f.o.map(function(x){return '<option value="'+x[0]+'">'+x[1]+"</option>";}).join("");
+    return '<select id="'+f.id+'">'+o+"</select>";
+  }
+  if(f.t==="d")return '<input type="date" id="'+f.id+'"'+req+">";
+  if(f.t==="t")return '<input type="text" id="'+f.id+'" placeholder="'+(f.ph||"")+'"'+req+">";
+  return '<input type="number" step="any" id="'+f.id+'"'+(f.def?' value="'+f.def+'"':"")+' placeholder="'+(f.ph||"0")+'"'+req+">";
+}
+function buildCalc(slug,mount){
+  var C=CALCS[slug];if(!C||!mount)return;
+  var form=document.createElement("form");form.className="calcform";
+  C.fields.forEach(function(f){
+    var wrap=document.createElement("div");wrap.className="fld";
+    var lab=document.createElement("label");lab.textContent=f.l;lab.setAttribute("for",f.id);
+    wrap.appendChild(lab);
+    var tmp=document.createElement("div");tmp.innerHTML=fieldHTML(f);
+    while(tmp.firstChild)wrap.appendChild(tmp.firstChild);
+    form.appendChild(wrap);
+    if(f.def==="today"){var inp=wrap.querySelector("input");if(inp)inp.value=iso(new Date());}
+  });
+  var btn=document.createElement("button");btn.type="submit";btn.className="calcbtn";btn.textContent="Calculate";
+  form.appendChild(btn);
+  var res=document.createElement("div");res.className="calcresult";res.style.display="none";
+  mount.appendChild(form);mount.appendChild(res);
+  form.addEventListener("submit",function(e){
+    e.preventDefault();
+    var v={};
+    C.fields.forEach(function(f){
+      if(f.t==="sub"){for(var i=1;i<=8;i++){v["s"+i+"m"]=document.getElementById("s"+i+"m").value;v["s"+i+"c"]=document.getElementById("s"+i+"c").value;}return;}
+      var el=form.querySelector("#"+CSS.escape(f.id));v[f.id]=el?el.value:"";
+    });
+    var out=C.run(v);
+    res.style.display="block";
+    if(out.indexOf("ERR:")===0)res.innerHTML='<p class="err">'+out.slice(4)+"</p>";
+    else res.innerHTML=out;
+    if(res.scrollIntoView)res.scrollIntoView({behavior:"smooth",block:"nearest"});
+  });
+}
+if(typeof document!=="undefined"){
+  document.addEventListener("DOMContentLoaded",function(){
+    document.querySelectorAll("[data-calc]").forEach(function(el){buildCalc(el.getAttribute("data-calc"),el);});
+  });
+}
+if(typeof module!=="undefined"&&module.exports){module.exports={CALCS:CALCS,hijriParts:hijriParts,hijriToGreg:hijriToGreg};}
+</script>
+</body></html>
