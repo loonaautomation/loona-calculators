@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Love Calculator — Fun Love Percentage by Names | Loona Calculators</title>
@@ -86,6 +85,7 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 .lead{color:#2c3e3b;font-size:16px;max-width:760px}
 @media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
 </style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
 </head><body>
 <header>
 <img class="logo" src="../icon-192.png" alt="Loona Automation logo">
@@ -301,7 +301,7 @@ const CALCS={
  fields:[
   {id:"amt",l:"Loan amount (Rs)",t:"n",req:1},
   {id:"rate",l:"Yearly interest / profit rate (%)",t:"n",req:1},
-  {id:"ten",l:"Tenure (muddat)",t:"n",req:1},
+  {id:"ten",l:"Tenure",t:"n",req:1},
   {id:"unit",l:"Tenure unit",t:"s",o:[["m","Months"],["y","Years"]]}],
  run:function(v){
   var P=N(v.amt),r=N(v.rate)/1200,n=N(v.ten)*(v.unit==="y"?12:1);
@@ -429,7 +429,7 @@ Object.assign(CALCS,{
 "marla-kanal-area-converter":{
  fields:[
   {id:"val",l:"Value (how much area?)",t:"n",req:1},
-  {id:"from",l:"From (kis unit me hai)",t:"s",o:[["sqft","Square Feet"],["sqyd","Square Yards (Gaj)"],["sqm","Square Metres"],["marla","Marla"],["kanal","Kanal"],["acre","Acre"],["hectare","Hectare"]]},
+  {id:"from",l:"From Unit",t:"s",o:[["sqft","Square Feet"],["sqyd","Square Yards (Gaj)"],["sqm","Square Metres"],["marla","Marla"],["kanal","Kanal"],["acre","Acre"],["hectare","Hectare"]]},
   {id:"msize",l:"Marla size",t:"s",o:[["272.25","Standard — 272.25 sq ft"],["225","Old / small — 225 sq ft"]]}],
  run:function(v){
   var ms=N(v.msize)||272.25;
@@ -600,6 +600,316 @@ Object.assign(CALCS,{
    +note("This is just for fun — real love is never measured by a calculator. \uD83D\uDE0A");
  }}
 });
+
+Object.assign(CALCS,{
+
+/* 21 — LOAN (BATCH 2) */
+"loan-calculator":{
+ fields:[
+  {id:"amt",l:"Loan amount (Rs)",t:"n",req:1},
+  {id:"rate",l:"Annual interest rate (%)",t:"n",req:1},
+  {id:"ten",l:"Tenure",t:"n",req:1},
+  {id:"unit",l:"Tenure unit",t:"s",o:[["m","Months"],["y","Years"]]}],
+ run:function(v){
+  var P=N(v.amt),r=N(v.rate)/1200,n=N(v.ten)*(v.unit==="y"?12:1);
+  if(P<=0||n<=0)return "ERR:Enter a valid loan amount and tenure.";
+  var pay,total;
+  if(r===0){pay=P/n;total=P;}
+  else{var f=Math.pow(1+r,n);pay=P*r*f/(f-1);total=pay*n;}
+  return big("Monthly Payment",Rs(pay))
+   +tbl(row("Loan amount",Rs(P))+row("Total interest",Rs(total-P))
+     +row("Total payment",Rs(total))+row("Number of payments",F(n,0)))
+   +note("This is an estimate based on equal monthly payments. Your bank may add processing fees, insurance or taxes — always confirm the final schedule before signing.");
+ }},
+
+/* 22 — MORTGAGE (BATCH 2) */
+"mortgage-calculator":{
+ fields:[
+  {id:"price",l:"Home price (Rs)",t:"n",req:1},
+  {id:"down",l:"Down payment (Rs)",t:"n",req:1},
+  {id:"rate",l:"Annual interest rate (%)",t:"n",req:1},
+  {id:"yrs",l:"Loan term (years)",t:"n",req:1}],
+ run:function(v){
+  var price=N(v.price),down=N(v.down),loan=price-down,r=N(v.rate)/1200,n=N(v.yrs)*12;
+  if(price<=0||down<0||loan<=0||n<=0)return "ERR:Enter a valid home price and a down payment smaller than the price.";
+  var pay,total;
+  if(r===0){pay=loan/n;total=loan;}
+  else{var f=Math.pow(1+r,n);pay=loan*r*f/(f-1);total=pay*n;}
+  return big("Monthly Payment",Rs(pay))
+   +tbl(row("Home price",Rs(price))+row("Down payment",Rs(down))+row("Loan amount",Rs(loan))
+     +row("Total interest",Rs(total-loan))+row("Total cost of the home",Rs(total+down)))
+   +note("Estimate only — taxes, insurance, valuation and bank fees are not included. Confirm the exact figures with your bank or housing finance provider.");
+ }},
+
+/* 23 — SAVINGS (BATCH 2) */
+"savings-calculator":{
+ fields:[
+  {id:"dep",l:"Monthly deposit (Rs)",t:"n",req:1},
+  {id:"rate",l:"Annual interest rate (%)",t:"n",req:1},
+  {id:"yrs",l:"Years",t:"n",req:1}],
+ run:function(v){
+  var dep=N(v.dep),rate=N(v.rate),yrs=N(v.yrs),r=rate/1200,n=yrs*12;
+  if(dep<=0||yrs<=0)return "ERR:Enter a valid monthly deposit and number of years.";
+  var fv,depTotal=dep*n;
+  if(r===0)fv=depTotal;
+  else fv=dep*((Math.pow(1+r,n)-1)/r)*(1+r); /* deposit at the start of each month */
+  return big("Future Value",Rs(fv))
+   +tbl(row("Total deposited",Rs(depTotal))+row("Interest earned",Rs(fv-depTotal))
+     +row("Monthly deposit",Rs(dep))+row("Number of deposits",F(n,0)))
+   +note("Assumes a fixed rate, monthly compounding, and each deposit made at the START of the month. Real savings accounts and schemes may credit profit differently.");
+ }},
+
+/* 24 — INVESTMENT (BATCH 2) */
+"investment-calculator":{
+ fields:[
+  {id:"init",l:"Initial amount (Rs)",t:"n",req:1},
+  {id:"add",l:"Monthly addition (Rs, optional)",t:"n"},
+  {id:"rate",l:"Expected annual return (%)",t:"n",req:1},
+  {id:"yrs",l:"Years",t:"n",req:1}],
+ run:function(v){
+  var P=N(v.init),add=N(v.add),rate=N(v.rate),yrs=N(v.yrs),r=rate/1200,n=yrs*12;
+  if(P<0||yrs<=0||(P===0&&add<=0))return "ERR:Enter an initial amount or a monthly addition, and the number of years.";
+  var fv;
+  if(r===0)fv=P+add*n;
+  else fv=P*Math.pow(1+r,n)+add*((Math.pow(1+r,n)-1)/r); /* additions at month end */
+  var invested=P+add*n;
+  return big("Future Value",Rs(fv))
+   +tbl(row("Total invested",Rs(invested))+row("Total gain",Rs(fv-invested))
+     +row("Initial amount",Rs(P))+row("Monthly additions total",Rs(add*n)))
+   +note("Assumes a steady return with monthly compounding and additions made at the END of each month. Real investments go up and down — past performance never guarantees future returns.");
+ }},
+
+/* 25 — TIP (BATCH 2) */
+"tip-calculator":{
+ fields:[
+  {id:"bill",l:"Bill amount",t:"n",req:1},
+  {id:"tip",l:"Tip (%)",t:"n",req:1,def:"10"},
+  {id:"people",l:"Number of people splitting",t:"n",req:1,def:"1"}],
+ run:function(v){
+  var bill=N(v.bill),tipPct=N(v.tip),ppl=Math.floor(N(v.people));
+  if(bill<=0)return "ERR:Enter a valid bill amount.";
+  if(ppl<1)return "ERR:The number of people must be at least 1.";
+  var tip=bill*tipPct/100,total=bill+tip;
+  return big("Total to Pay",Rs(total))
+   +tbl(row("Bill amount",Rs(bill))+row("Tip ("+F(tipPct,0)+"%)",Rs(tip))
+     +row("Per person ("+ppl+(ppl===1?" person":" people")+")",Rs(total/ppl))
+     +row("Tip per person",Rs(tip/ppl)))
+   +note("Tip customs differ by country and by service quality — 10% is a common starting point, and generous service often earns 15-20%.");
+ }},
+
+/* 26 — VAT / GST (BATCH 2) */
+"vat-calculator":{
+ fields:[
+  {id:"amt",l:"Amount",t:"n",req:1},
+  {id:"rate",l:"VAT / GST / sales tax rate (%)",t:"n",req:1,def:"18"},
+  {id:"mode",l:"Mode",t:"s",o:[["add","Add tax — my amount is WITHOUT tax (net)"],["remove","Remove tax — my amount INCLUDES tax (gross)"]]}],
+ run:function(v){
+  var a=N(v.amt),rate=N(v.rate),net,tax,gross;
+  if(a<=0)return "ERR:Enter a valid amount.";
+  if(rate<0)return "ERR:The tax rate cannot be negative.";
+  if(v.mode==="remove"){gross=a;net=a/(1+rate/100);tax=gross-net;}
+  else{net=a;tax=a*rate/100;gross=net+tax;}
+  return big("Gross Amount (with tax)",Rs(gross))
+   +tbl(row("Net amount (without tax)",Rs(net))+row("Tax amount ("+F(rate,0)+"%)",Rs(tax))
+     +row("Gross amount (with tax)",Rs(gross)))
+   +note("Works for VAT, GST and sales tax anywhere in the world. Rates differ by country and by product — enter the rate that applies to your purchase or invoice.");
+ }},
+
+/* 27 — BMR & TDEE (BATCH 2) */
+"bmr-calculator":{
+ fields:[
+  {id:"sex",l:"Gender",t:"s",o:[["m","Male"],["f","Female"]]},
+  {id:"age",l:"Age (years)",t:"n",req:1},
+  {id:"w",l:"Weight (kg)",t:"n",req:1},
+  {id:"h",l:"Height (cm)",t:"n",req:1},
+  {id:"act",l:"Activity level",t:"s",o:[["1.2","Sedentary — desk job, little exercise"],["1.375","Light — exercise 1-3 days/week"],["1.55","Moderate — exercise 3-5 days/week"],["1.725","Active — exercise 6-7 days/week"],["1.9","Athlete — very hard daily training"]]}],
+ run:function(v){
+  var age=N(v.age),w=N(v.w),h=N(v.h),act=N(v.act)||1.2;
+  if(age<=0||w<=0||h<=0)return "ERR:Enter a valid age, weight and height.";
+  var bmr=10*w+6.25*h-5*age+(v.sex==="f"?-161:5);
+  var tdee=bmr*act;
+  return big("Your TDEE (calories per day)",F(tdee,0)+" kcal")
+   +tbl(row("BMR (calories burned at complete rest)",F(bmr,0)+" kcal")
+     +row("TDEE (BMR \u00D7 activity)",F(tdee,0)+" kcal"))
+   +note("Calculated with the Mifflin-St Jeor formula, the most widely used estimate. Your real metabolism can differ — treat this as a starting point, not a medical measurement.");
+ }},
+
+/* 28 — DAILY CALORIES (BATCH 2) */
+"calorie-calculator":{
+ fields:[
+  {id:"sex",l:"Gender",t:"s",o:[["m","Male"],["f","Female"]]},
+  {id:"age",l:"Age (years)",t:"n",req:1},
+  {id:"w",l:"Weight (kg)",t:"n",req:1},
+  {id:"h",l:"Height (cm)",t:"n",req:1},
+  {id:"act",l:"Activity level",t:"s",o:[["1.2","Sedentary — desk job, little exercise"],["1.375","Light — exercise 1-3 days/week"],["1.55","Moderate — exercise 3-5 days/week"],["1.725","Active — exercise 6-7 days/week"],["1.9","Athlete — very hard daily training"]]},
+  {id:"goal",l:"Your goal",t:"s",o:[["maintain","Maintain my weight"],["lose","Lose weight"],["gain","Gain weight"]]}],
+ run:function(v){
+  var age=N(v.age),w=N(v.w),h=N(v.h),act=N(v.act)||1.2;
+  if(age<=0||w<=0||h<=0)return "ERR:Enter a valid age, weight and height.";
+  var bmr=10*w+6.25*h-5*age+(v.sex==="f"?-161:5);
+  var tdee=bmr*act,target=tdee,gnote="to maintain your current weight";
+  if(v.goal==="lose"){target=tdee-500;gnote="to lose about 0.5 kg per week";}
+  if(v.goal==="gain"){target=tdee+500;gnote="to gain about 0.5 kg per week";}
+  var clamped=false;
+  if(target<1200){target=1200;clamped=true;}
+  return big("Your Daily Calorie Target",F(target,0)+" kcal")
+   +tbl(row("Maintenance calories (TDEE)",F(tdee,0)+" kcal")
+     +row("Your goal","Eat "+F(target,0)+" kcal per day "+gnote))
+   +(clamped?note("Safety minimum applied: eating fewer than 1,200 kcal per day is not recommended without medical supervision, so your target has been set to 1,200 kcal."):note("A 500 kcal daily difference changes weight by roughly 0.5 kg per week. Never go below 1,200 kcal per day without medical supervision — and for a personal diet plan, please consult a doctor or dietitian."));
+ }},
+
+/* 29 — WATER INTAKE (BATCH 2) */
+"water-intake-calculator":{
+ fields:[
+  {id:"w",l:"Your weight (kg)",t:"n",req:1},
+  {id:"ex",l:"Exercise per day (minutes)",t:"n",def:"0"}],
+ run:function(v){
+  var w=N(v.w),ex=N(v.ex);
+  if(w<=0)return "ERR:Enter a valid weight.";
+  var ml=w*35+(ex/30)*350;
+  return big("Recommended Water Intake",F(ml/1000,2)+" litres per day")
+   +tbl(row("In millilitres",F(ml,0)+" ml")
+     +row("In glasses (250 ml each)",F(ml/250,1)+" glasses")
+     +row("From your weight (35 ml per kg)",F(w*35,0)+" ml")
+     +row("Extra for exercise",F((ex/30)*350,0)+" ml"))
+   +note("A general guide: 35 ml per kg of body weight, plus about 350 ml for every 30 minutes of exercise. Hot weather, physical work and illness increase your needs — and plain thirst is also a useful signal.");
+ }},
+
+/* 30 — IDEAL WEIGHT (BATCH 2) */
+"ideal-weight-calculator":{
+ fields:[
+  {id:"sex",l:"Gender",t:"s",o:[["m","Male"],["f","Female"]]},
+  {id:"h",l:"Height (cm)",t:"n",req:1}],
+ run:function(v){
+  var h=N(v.h);
+  if(h<=0)return "ERR:Enter a valid height.";
+  var m=h/100,over=h/2.54-60;
+  var devine=(v.sex==="f"?45.5:50)+2.3*over;
+  return big("Your Ideal Weight (Devine formula)",F(devine,1)+" kg")
+   +tbl(row("Healthy BMI weight range for your height",F(18.5*m*m,1)+" kg to "+F(24.9*m*m,1)+" kg")
+     +row("Height",F(h,0)+" cm")+row("Healthy BMI range","18.5 to 24.9"))
+   +note("The Devine formula and the BMI range are general population guides. Muscle, bone structure and health conditions matter too — for personal advice, consult a doctor.");
+ }},
+
+/* 31 — DATE CALCULATOR ADD/SUBTRACT (BATCH 2) */
+"date-calculator":{
+ fields:[
+  {id:"s",l:"Start date",t:"d",req:1},
+  {id:"op",l:"Operation",t:"s",o:[["add","Add to the date"],["sub","Subtract from the date"]]},
+  {id:"d",l:"Days",t:"n",def:"0"},
+  {id:"wk",l:"Weeks",t:"n",def:"0"},
+  {id:"mo",l:"Months",t:"n",def:"0"},
+  {id:"yr",l:"Years",t:"n",def:"0"}],
+ run:function(v){
+  var s=pdate(v.s);
+  if(!s)return "ERR:Please select a start date.";
+  var sgn=v.op==="sub"?-1:1;
+  var out=new Date(s.getFullYear(),s.getMonth(),s.getDate());
+  out.setFullYear(out.getFullYear()+sgn*N(v.yr));
+  out.setMonth(out.getMonth()+sgn*N(v.mo));
+  out.setDate(out.getDate()+sgn*(N(v.d)+N(v.wk)*7));
+  var moved=Math.abs(dayDiff(s,out));
+  return big("Resulting Date",fdate(out))
+   +tbl(row("Start date",fdate(s))
+     +row("Change",(v.op==="sub"?"\u2212 ":"")+F(Math.abs(N(v.yr)),0)+" years, "+F(Math.abs(N(v.mo)),0)+" months, "+F(Math.abs(N(v.wk)),0)+" weeks, "+F(Math.abs(N(v.d)),0)+" days")
+     +row("Total days moved",F(moved,0)));
+ }},
+
+/* 32 — WORKING DAYS (BATCH 2) */
+"working-days-calculator":{
+ fields:[
+  {id:"s",l:"Start date",t:"d",req:1},
+  {id:"e",l:"End date",t:"d",def:"today"}],
+ run:function(v){
+  var a=pdate(v.s),b=pdate(v.e)||new Date();
+  if(!a)return "ERR:Please select a start date.";
+  if(b<a){var t=a;a=b;b=t;}
+  var total=0,work=0,weekend=0,cur=new Date(a.getTime());
+  while(cur<=b){
+    total++;
+    var dw=cur.getDay();
+    if(dw===0||dw===6)weekend++;else work++;
+    cur.setDate(cur.getDate()+1);
+    if(total>36600)return "ERR:That date range is too large (over 100 years).";
+  }
+  return big("Working Days (Mon-Fri)",F(work,0))
+   +tbl(row("Total days (including both dates)",F(total,0))
+     +row("Weekend days (Sat-Sun)",F(weekend,0))
+     +row("From",fdate(a))+row("To",fdate(b)))
+   +note("Working days here mean Monday to Friday. Public holidays differ by country and are not subtracted — check your local holiday calendar for exact leave or deadline planning.");
+ }},
+
+/* 33 — OVULATION (BATCH 2) */
+"ovulation-calculator":{
+ fields:[
+  {id:"lmp",l:"First day of your last period",t:"d",req:1},
+  {id:"cycle",l:"Cycle length (days)",t:"n",req:1,def:"28"}],
+ run:function(v){
+  var lmp=pdate(v.lmp),cyc=N(v.cycle);
+  if(!lmp)return "ERR:Please select the first day of your last period.";
+  if(cyc<21||cyc>40)return "ERR:Enter a cycle length between 21 and 40 days.";
+  function add(d,n){return new Date(d.getTime()+n*86400000);}
+  var ov=add(lmp,cyc-14),fert=add(ov,-5),next=add(lmp,cyc),due=add(ov,266);
+  return big("Estimated Ovulation Day",fdate(ov))
+   +tbl(row("Fertile window",fdate(fert)+" to "+fdate(ov))
+     +row("Next period expected",fdate(next))
+     +row("Estimated due date if you conceive",fdate(due)))
+   +note("This is an estimate based on an average cycle: ovulation is assumed to occur 14 days before the next period. Real cycles vary from month to month — this calculator is not a medical device and must not be relied on as contraception. For pregnancy planning or concerns, please consult a doctor.");
+ }},
+
+/* 34 — FUEL COST (BATCH 2) */
+"fuel-cost-calculator":{
+ fields:[
+  {id:"dist",l:"Distance (km)",t:"n",req:1},
+  {id:"mil",l:"Vehicle mileage (km per litre)",t:"n",req:1},
+  {id:"price",l:"Fuel price (per litre)",t:"n",req:1},
+  {id:"trip",l:"Trip type",t:"s",o:[["one","One way"],["round","Round trip"]]}],
+ run:function(v){
+  var d=N(v.dist),mil=N(v.mil),price=N(v.price);
+  if(d<=0||mil<=0||price<=0)return "ERR:Enter a valid distance, mileage and fuel price.";
+  var totalDist=v.trip==="round"?d*2:d;
+  var litres=totalDist/mil,cost=litres*price;
+  return big("Total Fuel Cost",Rs(cost))
+   +tbl(row("Total distance",F(totalDist,0)+" km")
+     +row("Fuel needed",F(litres,2)+" litres")
+     +row("Fuel price per litre",Rs(price))
+     +row("Cost per km",Rs(cost/totalDist)))
+   +note("An estimate based on your vehicle's average mileage. Traffic, air conditioning, load and road conditions change real consumption — keep a small buffer for long trips.");
+ }},
+
+/* 35 — UNIT CONVERTER (BATCH 2) */
+"unit-converter":{
+ fields:[
+  {id:"cat",l:"Category",t:"s",o:[["length","Length"],["weight","Weight"],["temperature","Temperature"],["volume","Volume"],["area","Area"]]},
+  {id:"val",l:"Value to convert",t:"n",req:1},
+  {id:"from",l:"From Unit",t:"s",o:[["mm","Length \u2014 Millimetre (mm)"],["cm","Length \u2014 Centimetre (cm)"],["m","Length \u2014 Metre (m)"],["km","Length \u2014 Kilometre (km)"],["in","Length \u2014 Inch"],["ft","Length \u2014 Foot"],["yd","Length \u2014 Yard"],["mi","Length \u2014 Mile"],["g","Weight \u2014 Gram (g)"],["kg","Weight \u2014 Kilogram (kg)"],["t","Weight \u2014 Tonne"],["lb","Weight \u2014 Pound (lb)"],["oz","Weight \u2014 Ounce (oz)"],["c","Temperature \u2014 Celsius (\u00B0C)"],["f","Temperature \u2014 Fahrenheit (\u00B0F)"],["k","Temperature \u2014 Kelvin (K)"],["ml","Volume \u2014 Millilitre (ml)"],["l","Volume \u2014 Litre (L)"],["gal","Volume \u2014 US Gallon"],["m3","Volume \u2014 Cubic Metre (m\u00B3)"],["m2","Area \u2014 Square Metre (m\u00B2)"],["ft2","Area \u2014 Square Foot (ft\u00B2)"],["yd2","Area \u2014 Square Yard (yd\u00B2)"],["acre","Area \u2014 Acre"],["ha","Area \u2014 Hectare"]]},
+  {id:"to",l:"To Unit",t:"s",o:[["mm","Length \u2014 Millimetre (mm)"],["cm","Length \u2014 Centimetre (cm)"],["m","Length \u2014 Metre (m)"],["km","Length \u2014 Kilometre (km)"],["in","Length \u2014 Inch"],["ft","Length \u2014 Foot"],["yd","Length \u2014 Yard"],["mi","Length \u2014 Mile"],["g","Weight \u2014 Gram (g)"],["kg","Weight \u2014 Kilogram (kg)"],["t","Weight \u2014 Tonne"],["lb","Weight \u2014 Pound (lb)"],["oz","Weight \u2014 Ounce (oz)"],["c","Temperature \u2014 Celsius (\u00B0C)"],["f","Temperature \u2014 Fahrenheit (\u00B0F)"],["k","Temperature \u2014 Kelvin (K)"],["ml","Volume \u2014 Millilitre (ml)"],["l","Volume \u2014 Litre (L)"],["gal","Volume \u2014 US Gallon"],["m3","Volume \u2014 Cubic Metre (m\u00B3)"],["m2","Area \u2014 Square Metre (m\u00B2)"],["ft2","Area \u2014 Square Foot (ft\u00B2)"],["yd2","Area \u2014 Square Yard (yd\u00B2)"],["acre","Area \u2014 Acre"],["ha","Area \u2014 Hectare"]]}],
+ run:function(v){
+  var FACT={
+   length:{base:"metres",u:{mm:0.001,cm:0.01,m:1,km:1000,"in":0.0254,ft:0.3048,yd:0.9144,mi:1609.344},lab:{mm:"millimetres",cm:"centimetres",m:"metres",km:"kilometres","in":"inches",ft:"feet",yd:"yards",mi:"miles"}},
+   weight:{base:"kilograms",u:{g:0.001,kg:1,t:1000,lb:0.45359237,oz:0.028349523125},lab:{g:"grams",kg:"kilograms",t:"tonnes",lb:"pounds",oz:"ounces"}},
+   volume:{base:"litres",u:{ml:0.001,l:1,gal:3.785411784,m3:1000},lab:{ml:"millilitres",l:"litres",gal:"US gallons",m3:"cubic metres"}},
+   area:{base:"square metres",u:{m2:1,ft2:0.09290304,yd2:0.83612736,acre:4046.8564224,ha:10000},lab:{m2:"square metres",ft2:"square feet",yd2:"square yards",acre:"acres",ha:"hectares"}}};
+  var val=N(v.val),cat=v.cat;
+  if(v.from===v.to&&val!==0){/* same unit: handled naturally below */}
+  if(cat==="temperature"){
+    if(["c","f","k"].indexOf(v.from)<0||["c","f","k"].indexOf(v.to)<0)
+      return "ERR:For Temperature, choose the From and To units from the Temperature group (\u00B0C, \u00B0F, K).";
+    var cval=v.from==="c"?val:(v.from==="f"?(val-32)*5/9:val-273.15);
+    var out=v.to==="c"?cval:(v.to==="f"?cval*9/5+32:cval+273.15);
+    var names={c:"\u00B0C",f:"\u00B0F",k:"K"};
+    return big(F(val)+names[v.from]+" =",F(out)+" "+names[v.to])
+     +tbl(row("In Celsius",F(cval)+"\u00B0C")+row("In Fahrenheit",F(cval*9/5+32)+"\u00B0F")+row("In Kelvin",F(cval+273.15)+" K"))
+     +note("Temperature is converted with the exact formulas: \u00B0F = \u00B0C \u00D7 9/5 + 32 and K = \u00B0C + 273.15.");
+  }
+  var C=FACT[cat];
+  if(!C||!(v.from in C.u)||!(v.to in C.u))
+    return "ERR:The From and To units must both belong to the selected category. Change the category or pick units from its group.";
+  var res=val*C.u[v.from]/C.u[v.to];
+  return big(F(val)+" "+C.lab[v.from]+" =",F(res,4)+" "+C.lab[v.to])
+   +tbl(row("Category",cat.charAt(0).toUpperCase()+cat.slice(1))+row("Result in "+C.base,F(val*C.u[v.from],4)))
+   +note("Conversions use exact international standard factors (for example 1 mile = 1,609.344 metres and 1 pound = 0.45359237 kg). Results are rounded to 4 decimal places.");
+ }}});
 
 /* ---------- Form binder (browser only) ---------- */
 function fieldHTML(f){
