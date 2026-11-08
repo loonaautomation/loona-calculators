@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pregnancy Weight Gain Calculator — IOM Weekly Ranges by BMI | Loona Calculators</title>
+<meta name="description" content="Free pregnancy weight gain calculator: IOM recommended total and week-by-week weight gain ranges based on your pre-pregnancy BMI category. Educational guide only.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/pregnancy-weight-gain-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Pregnancy Weight Gain Calculator — IOM Weekly Ranges by BMI | Loona Calculators">
+<meta property="og:description" content="Free pregnancy weight gain calculator: IOM recommended total and week-by-week weight gain ranges based on your pre-pregnancy BMI category. Educational guide only.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/pregnancy-weight-gain-calculator/">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Pregnancy Weight Gain Calculator — IOM Weekly Ranges by BMI | Loona Calculators">
+<meta name="twitter:description" content="Free pregnancy weight gain calculator: IOM recommended total and week-by-week weight gain ranges based on your pre-pregnancy BMI category. Educational guide only.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "Loona Pregnancy Weight Gain Calculator", "url": "https://loonaautomation.github.io/loona-calculators/pregnancy-weight-gain-calculator/", "applicationCategory": "UtilitiesApplication", "operatingSystem": "Any", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "publisher": {"@type": "Organization", "name": "Loona Automation", "url": "https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What are the IOM pregnancy weight gain recommendations?", "acceptedAnswer": {"@type": "Answer", "text": "Underweight (BMI below 18.5): 12.5\u201318 kg total. Normal weight (18.5\u201324.9): 11.5\u201316 kg. Overweight (25\u201329.9): 7\u201311.5 kg. Obese (30 or more): 5\u20139 kg. These are the widely used Institute of Medicine (IOM/NAM) guidelines for a single baby."}}, {"@type": "Question", "name": "How is the expected range for my week worked out?", "acceptedAnswer": {"@type": "Answer", "text": "The first trimester (to week 13) typically adds about 0.5\u20132 kg in total. From week 13 to week 40 the range is spread evenly up to the IOM total range for your BMI category, which matches the IOM weekly-rate guidance for the second and third trimesters."}}, {"@type": "Question", "name": "What are the IOM weekly rates after the first trimester?", "acceptedAnswer": {"@type": "Answer", "text": "About 0.44\u20130.58 kg per week if underweight, 0.35\u20130.50 kg if normal weight, 0.23\u20130.33 kg if overweight and 0.17\u20130.27 kg if obese."}}, {"@type": "Question", "name": "What if I am carrying twins?", "acceptedAnswer": {"@type": "Answer", "text": "These ranges are for a single baby. Twin pregnancies have higher IOM ranges (for example 16.8\u201324.5 kg at normal weight). Ask your doctor for the right range for you."}}, {"@type": "Question", "name": "Is this medical advice?", "acceptedAnswer": {"@type": "Answer", "text": "No. It is an educational guide based on published IOM ranges. Your doctor or midwife knows your full situation and their advice always comes first."}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "BreadcrumbList",
+ "itemListElement": [
+  {
+   "@type": "ListItem",
+   "position": 1,
+   "name": "Loona Automation",
+   "item": "https://loonaautomation.github.io/"
+  },
+  {
+   "@type": "ListItem",
+   "position": 2,
+   "name": "Loona Calculators",
+   "item": "https://loonaautomation.github.io/loona-calculators/"
+  },
+  {
+   "@type": "ListItem",
+   "position": 3,
+   "name": "Pregnancy Weight Gain Calculator",
+   "item": "https://loonaautomation.github.io/loona-calculators/pregnancy-weight-gain-calculator/"
+  }
+ ]
+}
+</script>
+</head><body>
+<header>
+<img class="logo" src="../icon-192.png" alt="Loona Automation logo">
+<div class="brand">Loona <span>Calculators</span></div>
+<nav>
+<a href="../index.html">Home</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">About</a>
+<a href="../contact.html">Contact</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../index.html">Loona Calculators</a> › Health › Pregnancy Weight Gain Calculator</div>
+<h1 class="pagetitle">🤰 Pregnancy Weight Gain Calculator</h1>
+<p class="lead">Enter your height, your weight before pregnancy and your current week to see the Institute of Medicine (IOM) recommended total weight gain for your BMI category and the expected gain range for your current week.</p>
+<div class="exbox"><strong>Quick answer:</strong> The IOM recommends a total pregnancy weight gain of 12.5–18 kg if underweight (BMI under 18.5), 11.5–16 kg if normal weight (18.5–24.9), 7–11.5 kg if overweight (25–29.9) and 5–9 kg if obese (BMI 30 or more).</div>
+<div class="toolbox"><form class="calcform" id="pwgForm">
+<div class="fld"><label for="pwgH">Height (cm)</label><input type="number" id="pwgH" value="165" min="100" max="250" step="0.1"></div>
+<div class="fld"><label for="pwgW">Weight before pregnancy (kg)</label><input type="number" id="pwgW" value="60" min="25" max="300" step="0.1"></div>
+<div class="fld"><label for="pwgWeek">Current week of pregnancy (1–42)</label><input type="number" id="pwgWeek" value="28" min="1" max="42"></div>
+<div class="fld"><label for="pwgNow">Current weight (kg, optional)</label><input type="number" id="pwgNow" min="25" max="300" step="0.1" placeholder="Optional"></div>
+<button class="calcbtn" type="submit">Calculate</button>
+<div class="calcresult" id="pwgResult" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>How to use the Pregnancy Weight Gain Calculator</h2><ol><li>Enter your height in centimetres.</li><li>Enter your weight before pregnancy in kilograms.</li><li>Enter your current week of pregnancy (1–42).</li><li>Optionally enter your current weight to see the gain so far compared with the expected range for this week.</li></ol>
+<div class="exbox"><strong>Example:</strong> Height 165 cm, pre-pregnancy weight 60 kg (BMI 22.0, normal category) at week 28: the expected gain range for week 28 is about 6.6–9.8 kg, and the recommended total for the whole pregnancy is 11.5–16 kg.</div>
+<h2>Frequently Asked Questions</h2></section><div class="faq"><h3>What are the IOM pregnancy weight gain recommendations?</h3><p>Underweight (BMI below 18.5): 12.5–18 kg total. Normal weight (18.5–24.9): 11.5–16 kg. Overweight (25–29.9): 7–11.5 kg. Obese (30 or more): 5–9 kg. These are the widely used Institute of Medicine (IOM/NAM) guidelines for a single baby.</p></div><div class="faq"><h3>How is the expected range for my week worked out?</h3><p>The first trimester (to week 13) typically adds about 0.5–2 kg in total. From week 13 to week 40 the range is spread evenly up to the IOM total range for your BMI category, which matches the IOM weekly-rate guidance for the second and third trimesters.</p></div><div class="faq"><h3>What are the IOM weekly rates after the first trimester?</h3><p>About 0.44–0.58 kg per week if underweight, 0.35–0.50 kg if normal weight, 0.23–0.33 kg if overweight and 0.17–0.27 kg if obese.</p></div><div class="faq"><h3>What if I am carrying twins?</h3><p>These ranges are for a single baby. Twin pregnancies have higher IOM ranges (for example 16.8–24.5 kg at normal weight). Ask your doctor for the right range for you.</p></div><div class="faq"><h3>Is this medical advice?</h3><p>No. It is an educational guide based on published IOM ranges. Your doctor or midwife knows your full situation and their advice always comes first.</p></div>
+<h2 class="sec">Related Calculators</h2><div class="grid"><a class="card" href="../period-calculator/"><div class="ic">🌸</div><h3>Period Calculator</h3><p>Health</p></a><a class="card" href="../bmi-calculator/"><div class="ic">⚖️</div><h3>BMI Calculator</h3><p>Health</p></a><a class="card" href="../calorie-calculator/"><div class="ic">🍽️</div><h3>Calorie Calculator</h3><p>Health</p></a><a class="card" href="../pregnancy-due-date-calculator/"><div class="ic">🤰</div><h3>Pregnancy Due Date Calculator</h3><p>Health</p></a><a class="card" href="../ovulation-calculator/"><div class="ic">🌸</div><h3>Ovulation Calculator</h3><p>Health</p></a><a class="card" href="../conception-calculator/"><div class="ic">👶</div><h3>Conception Calculator</h3><p>Health</p></a></div>
+</div>
+<section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>How it works — the formula</h2>
+<p>First, pre-pregnancy BMI = weight (kg) ÷ height (m)², which selects the IOM category and its total range. For a week <em>w</em> up to 13, the expected gain is the first-trimester range 0.5–2 kg scaled by w ÷ 13. For weeks 14–42: minimum(w) = 0.5 + (total minimum − 0.5) × (w − 13) ÷ 27 and maximum(w) = 2 + (total maximum − 2) × (w − 13) ÷ 27, so the range reaches exactly the IOM total at week 40 and stays capped there afterwards.</p>
+<h3>Worked example</h3><div class="exbox"><p><strong>Inputs:</strong> height 165 cm, pre-pregnancy weight 60 kg, week 28.</p><p><strong>Steps:</strong> BMI = 60 ÷ 1.65² = 60 ÷ 2.7225 = 22.0 — Normal category, total range 11.5–16 kg. Week 28 minimum = 0.5 + (11.5 − 0.5) × 15 ÷ 27 = 0.5 + 6.11 = 6.6 kg. Maximum = 2 + (16 − 2) × 15 ÷ 27 = 2 + 7.78 = 9.8 kg.</p><p><strong>Result:</strong> Expected gain at week 28 is <strong>6.6–9.8 kg</strong>; recommended total <strong>11.5–16 kg</strong>.</p></div>
+<p class="resnote"><strong>Health disclaimer:</strong> Educational guide only, based on IOM (National Academy of Medicine) ranges for a single baby. It is not medical advice — always follow your own doctor or midwife.</p>
+</section>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Embed this calculator on your website — free</h2>
+<p style="margin:0 0 12px;line-height:1.6">Add this calculator to your own website or blog — it is completely free, needs no sign-up, and always shows the latest version. Copy the code below and paste it into your page where you want the calculator to appear. Keeping the small &ldquo;Powered by Loona Automation&rdquo; credit line under the embed helps keep this tool free &mdash; but you are free to style or remove it; the tool works either way.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/pregnancy-weight-gain-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Pregnancy Weight Gain Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Powered by &lt;a href="https://loonaautomation.github.io/loona-calculators/pregnancy-weight-gain-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; free Pregnancy Weight Gain Calculator&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Copy embed code</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='Copy embed code';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Popular Calculators</h4><ul><li><a href="../age-calculator/">Age Calculator</a></li>
+<li><a href="../zakat-calculator/">Zakat Calculator</a></li>
+<li><a href="../cgpa-calculator/">CGPA Calculator</a></li>
+<li><a href="../percentage-calculator/">Percentage Calculator</a></li>
+<li><a href="../hijri-date-converter/">Hijri Date Converter</a></li>
+<li><a href="../emi-calculator/">EMI & Loan Calculator</a></li></ul></div>
+<div><h4>More Loona Tools</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Image Compressor</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI Assistant</a></li>
+<li><a href="https://loonaautomation.github.io/">All Loona Tools</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">About</a></li>
+<li><a href="../contact.html">Contact</a></li>
+<li><a href="../privacy-policy.html">Privacy Policy</a></li>
+<li><a href="../terms.html">Terms of Use</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — a <a href="https://loonaautomation.github.io/">Loona Automation</a> project. Free online calculators, no signup.
+Contact: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+var IOM_RANGES={"underweight":{label:"Underweight",totalMin:12.5,totalMax:18,weeklyMin:0.44,weeklyMax:0.58},
+"normal":{label:"Normal weight",totalMin:11.5,totalMax:16,weeklyMin:0.35,weeklyMax:0.5},
+"overweight":{label:"Overweight",totalMin:7,totalMax:11.5,weeklyMin:0.23,weeklyMax:0.33},
+"obese":{label:"Obese",totalMin:5,totalMax:9,weeklyMin:0.17,weeklyMax:0.27}};
+function bmiCategory(bmi){return bmi<18.5?"underweight":bmi<25?"normal":bmi<30?"overweight":"obese";}
+function pwgCalc(heightCm,preKg,week){
+  if(!(heightCm>0)||!(preKg>0)||!(week>=1&&week<=42)) return null;
+  var bmi=preKg/Math.pow(heightCm/100,2), cat=bmiCategory(bmi), R=IOM_RANGES[cat];
+  var lo,hi;
+  if(week<=13){lo=0.5*week/13;hi=2*week/13;}
+  else if(week<=40){lo=0.5+(R.totalMin-0.5)*(week-13)/27;hi=2+(R.totalMax-2)*(week-13)/27;}
+  else {lo=R.totalMin;hi=R.totalMax;}
+  return {bmi:bmi,category:cat,label:R.label,totalMin:R.totalMin,totalMax:R.totalMax,weeklyMin:R.weeklyMin,weeklyMax:R.weeklyMax,weekMin:lo,weekMax:hi};
+}
+/*TESTABLE_END*/
+document.getElementById('pwgForm').addEventListener('submit',function(e){e.preventDefault();
+ var r=pwgCalc(parseFloat(document.getElementById('pwgH').value),parseFloat(document.getElementById('pwgW').value),parseFloat(document.getElementById('pwgWeek').value));
+ var box=document.getElementById('pwgResult'); box.style.display='block';
+ if(!r){box.innerHTML='<p class="err">Please check your height, pre-pregnancy weight and week (1–42).</p>';return;}
+ var now=document.getElementById('pwgNow').value, pre=parseFloat(document.getElementById('pwgW').value), extra='';
+ if(now){var gain=parseFloat(now)-pre; var pos=gain<r.weekMin?'below':gain>r.weekMax?'above':'inside';
+  extra='<tr><td>Your gain so far</td><td><strong>'+gain.toFixed(1)+' kg — '+pos+' the expected range for this week</strong></td></tr>';}
+ box.innerHTML='<div class="resbig"><span>Expected gain this week</span><strong>'+r.weekMin.toFixed(1)+' – '+r.weekMax.toFixed(1)+' kg</strong></div>'
+ +'<table class="restbl"><tr><td>Pre-pregnancy BMI</td><td><strong>'+r.bmi.toFixed(1)+' ('+r.label+')</strong></td></tr>'
+ +'<tr><td>Recommended total gain</td><td><strong>'+r.totalMin+' – '+r.totalMax+' kg</strong></td></tr>'
+ +'<tr><td>Typical weekly gain after week 13</td><td><strong>'+r.weeklyMin+' – '+r.weeklyMax+' kg/week</strong></td></tr>'+extra+'</table>'
+ +'<p class="resnote">IOM ranges for a single baby. Educational guide only — your doctor or midwife\u2019s advice always comes first.</p>';});
+
+</script>
+</body>
+</html>

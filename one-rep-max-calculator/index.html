@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>One-Rep Max (1RM) Calculator — Epley, Brzycki & Lombardi | Loona Calculators</title>
+<meta name="description" content="Free one-rep max calculator: estimate your 1RM from a set's weight and reps with the Epley, Brzycki and Lombardi formulas, plus training percentages.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/one-rep-max-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="One-Rep Max (1RM) Calculator — Epley, Brzycki & Lombardi | Loona Calculators">
+<meta property="og:description" content="Free one-rep max calculator: estimate your 1RM from a set's weight and reps with the Epley, Brzycki and Lombardi formulas, plus training percentages.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/one-rep-max-calculator/">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="One-Rep Max (1RM) Calculator — Epley, Brzycki & Lombardi | Loona Calculators">
+<meta name="twitter:description" content="Free one-rep max calculator: estimate your 1RM from a set's weight and reps with the Epley, Brzycki and Lombardi formulas, plus training percentages.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "Loona One-Rep Max Calculator", "url": "https://loonaautomation.github.io/loona-calculators/one-rep-max-calculator/", "applicationCategory": "UtilitiesApplication", "operatingSystem": "Any", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "publisher": {"@type": "Organization", "name": "Loona Automation", "url": "https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Which formula is most accurate?", "acceptedAnswer": {"@type": "Answer", "text": "All three agree closely for low rep counts and drift apart above 10 reps. Brzycki is popular for general training, Epley is the most widely used, and averaging them is a sensible approach. None replaces an actual, safely tested max."}}, {"@type": "Question", "name": "Why not just test my true 1RM?", "acceptedAnswer": {"@type": "Answer", "text": "A true maximal attempt carries injury risk and needs spotters and experience. Estimating from a submaximal set is the safer everyday method used by most programmes."}}, {"@type": "Question", "name": "Do the percentages programme my training?", "acceptedAnswer": {"@type": "Answer", "text": "They are the standard guide: about 95% \u2248 2 reps, 90% \u2248 4, 85% \u2248 6, 80% \u2248 8, 75% \u2248 10, 70% \u2248 12 for many lifters \u2014 individual variation is real, so treat them as starting points."}}, {"@type": "Question", "name": "Is this medical advice?", "acceptedAnswer": {"@type": "Answer", "text": "No \u2014 a training maths estimate. Lift within your ability, use proper form and supervision for heavy attempts."}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "BreadcrumbList",
+ "itemListElement": [
+  {
+   "@type": "ListItem",
+   "position": 1,
+   "name": "Loona Automation",
+   "item": "https://loonaautomation.github.io/"
+  },
+  {
+   "@type": "ListItem",
+   "position": 2,
+   "name": "Loona Calculators",
+   "item": "https://loonaautomation.github.io/loona-calculators/"
+  },
+  {
+   "@type": "ListItem",
+   "position": 3,
+   "name": "One-Rep Max Calculator",
+   "item": "https://loonaautomation.github.io/loona-calculators/one-rep-max-calculator/"
+  }
+ ]
+}
+</script>
+</head><body>
+<header>
+<img class="logo" src="../icon-192.png" alt="Loona Automation logo">
+<div class="brand">Loona <span>Calculators</span></div>
+<nav>
+<a href="../index.html">Home</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">About</a>
+<a href="../contact.html">Contact</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../index.html">Loona Calculators</a> › Health › One-Rep Max Calculator</div>
+<h1 class="pagetitle">🏋️ One-Rep Max Calculator</h1>
+<p class="lead">Enter the weight you lifted and how many reps you completed, and estimate your one-rep maximum with three standard formulas — then see working weights at common training percentages of that max.</p>
+<div class="exbox"><strong>Quick answer:</strong> Epley: 1RM = weight × (1 + reps ÷ 30). Lifting 100 kg for 5 reps gives 100 × (1 + 5/30) = 116.7 kg. Estimates are most reliable for sets of 1–10 reps.</div>
+<div class="toolbox"><form class="calcform" id="rmForm">
+<div class="fld"><label for="rmW">Weight lifted</label><input type="number" id="rmW" value="100" step="any" min="0"></div>
+<div class="fld"><label for="rmR">Reps completed</label><input type="number" id="rmR" value="5" min="1" max="30"></div>
+<button class="calcbtn" type="submit">Estimate my 1RM</button>
+<div class="calcresult" id="rmResult" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>How to use the One-Rep Max Calculator</h2><ol><li>Enter the weight you lifted (any unit — results use the same unit).</li><li>Enter the reps completed with good form (1–15 sensible).</li><li>Compare the three formula estimates and the percentage table for training loads.</li></ol>
+<div class="exbox"><strong>Example:</strong> 100 kg × 5 reps: Epley 116.7 kg, Brzycki 112.5 kg, Lombardi 117.5 kg — a consensus around 112–118 kg. At 80% of the Epley max, the working weight is 93.3 kg.</div>
+<h2>Frequently Asked Questions</h2></section><div class="faq"><h3>Which formula is most accurate?</h3><p>All three agree closely for low rep counts and drift apart above 10 reps. Brzycki is popular for general training, Epley is the most widely used, and averaging them is a sensible approach. None replaces an actual, safely tested max.</p></div><div class="faq"><h3>Why not just test my true 1RM?</h3><p>A true maximal attempt carries injury risk and needs spotters and experience. Estimating from a submaximal set is the safer everyday method used by most programmes.</p></div><div class="faq"><h3>Do the percentages programme my training?</h3><p>They are the standard guide: about 95% ≈ 2 reps, 90% ≈ 4, 85% ≈ 6, 80% ≈ 8, 75% ≈ 10, 70% ≈ 12 for many lifters — individual variation is real, so treat them as starting points.</p></div><div class="faq"><h3>Is this medical advice?</h3><p>No — a training maths estimate. Lift within your ability, use proper form and supervision for heavy attempts.</p></div>
+<h2 class="sec">Related Calculators</h2><div class="grid"><a class="card" href="../bmi-calculator/"><div class="ic">⚖️</div><h3>BMI Calculator</h3><p>Health</p></a><a class="card" href="../calorie-calculator/"><div class="ic">🍽️</div><h3>Calorie Calculator</h3><p>Health</p></a><a class="card" href="../macro-calculator/"><div class="ic">🥗</div><h3>Macro Calculator</h3><p>Health</p></a><a class="card" href="../ideal-weight-calculator/"><div class="ic">🎯</div><h3>Ideal Weight Calculator</h3><p>Health</p></a><a class="card" href="../lean-body-mass-calculator/"><div class="ic">💪</div><h3>Lean Body Mass Calculator</h3><p>Health</p></a><a class="card" href="../protein-intake-calculator/"><div class="ic">🥩</div><h3>Protein Intake Calculator</h3><p>Health</p></a></div>
+</div>
+<section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>How it works — the formula</h2>
+<p><strong>Epley:</strong> 1RM = w × (1 + r ÷ 30). <strong>Brzycki:</strong> 1RM = w × 36 ÷ (37 − r). <strong>Lombardi:</strong> 1RM = w × r^0.10. All three are empirical fits to strength data; they coincide at r = 1 (the weight itself).</p>
+<h3>Worked example</h3><div class="exbox"><p><strong>Inputs:</strong> w = 100, r = 5.</p><p><strong>Steps:</strong> Epley: 100 × (1 + 5÷30) = 100 × 1.16667 = 116.7. Brzycki: 100 × 36 ÷ 32 = 112.5. Lombardi: 100 × 5^0.10 = 100 × 1.1746 = 117.5. 80% of Epley max = 0.8 × 116.7 = 93.3.</p><p><strong>Result:</strong> Estimated 1RM ≈ <strong>112.5–117.5</strong> across the three formulas.</p></div>
+<p class="resnote"><strong>Health disclaimer:</strong> Educational estimate only — not medical advice, diagnosis or treatment. Always consult a qualified health professional about your own or your child’s health.</p>
+</section>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Embed this calculator on your website — free</h2>
+<p style="margin:0 0 12px;line-height:1.6">Add this calculator to your own website or blog — it is completely free, needs no sign-up, and always shows the latest version. Copy the code below and paste it into your page where you want the calculator to appear. Keeping the small &ldquo;Powered by Loona Automation&rdquo; credit line under the embed helps keep this tool free &mdash; but you are free to style or remove it; the tool works either way.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/one-rep-max-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="One-Rep Max Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Powered by &lt;a href="https://loonaautomation.github.io/loona-calculators/one-rep-max-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; free One-Rep Max Calculator&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Copy embed code</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='Copy embed code';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Popular Calculators</h4><ul><li><a href="../age-calculator/">Age Calculator</a></li>
+<li><a href="../zakat-calculator/">Zakat Calculator</a></li>
+<li><a href="../cgpa-calculator/">CGPA Calculator</a></li>
+<li><a href="../percentage-calculator/">Percentage Calculator</a></li>
+<li><a href="../hijri-date-converter/">Hijri Date Converter</a></li>
+<li><a href="../emi-calculator/">EMI & Loan Calculator</a></li></ul></div>
+<div><h4>More Loona Tools</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Image Compressor</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI Assistant</a></li>
+<li><a href="https://loonaautomation.github.io/">All Loona Tools</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">About</a></li>
+<li><a href="../contact.html">Contact</a></li>
+<li><a href="../privacy-policy.html">Privacy Policy</a></li>
+<li><a href="../terms.html">Terms of Use</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — a <a href="https://loonaautomation.github.io/">Loona Automation</a> project. Free online calculators, no signup.
+Contact: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+function oneRepMax(w,r){
+  if(!(w>0)||!(r>=1&&r<=30))return null;
+  if(r===1)return {epley:w,brzycki:w,lombardi:w};
+  return {epley:w*(1+r/30),brzycki:w*36/(37-r),lombardi:w*Math.pow(r,0.10)};
+}
+/*TESTABLE_END*/
+document.getElementById('rmForm').addEventListener('submit',function(e){e.preventDefault();
+ var w=parseFloat(document.getElementById('rmW').value);
+ var r=oneRepMax(w,parseFloat(document.getElementById('rmR').value));
+ var box=document.getElementById('rmResult'); box.style.display='block';
+ if(!r){box.innerHTML='<p class="err">Enter a weight above 0 and 1–30 reps.</p>';return;}
+ function f(v){return v.toFixed(1);}
+ var rows=[95,90,85,80,75,70,60,50].map(function(p){return '<tr><td>'+p+'% of Epley max</td><td><strong>'+f(r.epley*p/100)+'</strong></td></tr>';}).join("");
+ box.innerHTML='<div class="resbig"><span>Estimated 1RM (Epley)</span><strong>'+f(r.epley)+'</strong></div>'
+ +'<table class="restbl"><tr><td>Brzycki</td><td><strong>'+f(r.brzycki)+'</strong></td></tr><tr><td>Lombardi</td><td><strong>'+f(r.lombardi)+'</strong></td></tr>'+rows+'</table>'
+ +'<p class="resnote">Estimates are most reliable at 10 reps or fewer. Train safely — this is not medical advice.</p>';});
+
+</script>
+</body>
+</html>

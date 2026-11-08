@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Schengen 90/180 Calculator — Rolling Days, Remaining & Re-entry | Loona Calculators</title>
+<meta name="description" content="Free Schengen 90/180 calculator: enter past and planned trips to see days used in any rolling 180-day window, days remaining, overstay warnings and earliest safe re-entry.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/schengen-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Schengen 90/180 Calculator — Rolling Days, Remaining & Re-entry | Loona Calculators">
+<meta property="og:description" content="Free Schengen 90/180 calculator: enter past and planned trips to see days used in any rolling 180-day window, days remaining, overstay warnings and earliest safe re-entry.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/schengen-calculator/">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Schengen 90/180 Calculator — Rolling Days, Remaining & Re-entry | Loona Calculators">
+<meta name="twitter:description" content="Free Schengen 90/180 calculator: enter past and planned trips to see days used in any rolling 180-day window, days remaining, overstay warnings and earliest safe re-entry.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "Loona Schengen 90/180 Calculator", "url": "https://loonaautomation.github.io/loona-calculators/schengen-calculator/", "applicationCategory": "UtilitiesApplication", "operatingSystem": "Any", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "publisher": {"@type": "Organization", "name": "Loona Automation", "url": "https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How does the 90/180 rule actually work?", "acceptedAnswer": {"@type": "Answer", "text": "On any day you are in the Schengen area, count your days of presence in the previous 180 days including that day. The total must never exceed 90. The window rolls forward daily, which this calculator checks day by day across all your trips."}}, {"@type": "Question", "name": "Do the entry and exit days count?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Under the EU rule both the day you enter and the day you leave count as full days of presence, and this calculator counts them that way."}}, {"@type": "Question", "name": "What counts as one trip if I leave and return quickly?", "acceptedAnswer": {"@type": "Answer", "text": "Every day physically inside the Schengen area counts, however short the gap outside. Enter each stay separately and the calculator adds them all into the same rolling windows."}}, {"@type": "Question", "name": "Is this legal advice?", "acceptedAnswer": {"@type": "Answer", "text": "No. It is guidance based on the standard EU 90/180 short-stay rule for visa-free and short-stay visa visitors. It does not cover residence permits, long-stay visas, or the special rules some nationalities have under bilateral agreements. Border authorities decide; check official EU sources for your case."}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+
+.sgrow{display:grid;grid-template-columns:1fr 1fr auto;gap:8px;margin-bottom:8px;align-items:end}.sgrow button{padding:10px 12px;border-radius:10px;border:1.5px solid #f5c6c6;background:#fdecea;color:#8d2020;cursor:pointer;font-weight:700}@media(max-width:600px){.sgrow{grid-template-columns:1fr 1fr}}</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "BreadcrumbList",
+ "itemListElement": [
+  {
+   "@type": "ListItem",
+   "position": 1,
+   "name": "Loona Automation",
+   "item": "https://loonaautomation.github.io/"
+  },
+  {
+   "@type": "ListItem",
+   "position": 2,
+   "name": "Loona Calculators",
+   "item": "https://loonaautomation.github.io/loona-calculators/"
+  },
+  {
+   "@type": "ListItem",
+   "position": 3,
+   "name": "Schengen 90/180 Calculator",
+   "item": "https://loonaautomation.github.io/loona-calculators/schengen-calculator/"
+  }
+ ]
+}
+</script>
+</head><body>
+<header>
+<img class="logo" src="../icon-192.png" alt="Loona Automation logo">
+<div class="brand">Loona <span>Calculators</span></div>
+<nav>
+<a href="../index.html">Home</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">About</a>
+<a href="../contact.html">Contact</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../index.html">Loona Calculators</a> › Date & Time › Schengen 90/180 Calculator</div>
+<h1 class="pagetitle">🇪🇺 Schengen 90/180 Calculator</h1>
+<p class="lead">Enter your past and planned trips to the Schengen area. The calculator checks every rolling 180-day window — not just calendar halves — counts the days used, shows how many you have left, warns about any overstay, and finds the earliest date you could start a fresh full 90-day stay.</p>
+<div class="exbox"><strong>Quick answer:</strong> The Schengen short-stay rule allows at most 90 days in any rolling 180-day period. Both the entry day and the exit day count as days of presence, and the window moves every day — it is not split into fixed six-month blocks.</div>
+<div class="toolbox"><form class="calcform" id="sgForm">
+<div id="sgTrips"></div>
+<button class="calcbtn" type="button" id="sgAdd" style="background:#fff;border:2px solid var(--teal2);color:var(--teal);margin-bottom:10px">+ Add another trip</button>
+<div class="fld"><label for="sgCheck">Check date</label><input type="date" id="sgCheck"></div>
+<button class="calcbtn" type="submit">Check my 90/180 days</button>
+<div class="calcresult" id="sgResult" style="display:none"></div>
+</form>
+<div style="margin-top:22px;border-top:2px solid var(--line);padding-top:16px">
+<h3 style="color:var(--teal);margin-bottom:6px">✈️ Trip planner — check a planned trip</h3>
+<p style="font-size:14.5px;color:var(--mut)">Uses the trips entered above as your history. Enter a planned trip and see whether every day of it stays within the 90/180 limit.</p>
+<div class="fld" style="margin-top:10px"><label for="sgPlanStart">Planned entry date</label><input type="date" id="sgPlanStart" style="width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px"></div>
+<div class="fld"><label for="sgPlanDays">Planned length (days)</label><input type="number" id="sgPlanDays" value="30" min="1" max="180" style="width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px"></div>
+<button class="calcbtn" type="button" id="sgPlanBtn">Check planned trip</button>
+<div class="calcresult" id="sgPlanResult" style="display:none"></div>
+</div></div>
+<section class="txt"><h2>How to use the Schengen 90/180 Calculator</h2><ol><li>Add each trip with its entry and exit dates (both days count).</li><li>Set the check date — today is the default — to see days used in the 180-day window ending on that date and days remaining.</li><li>Read the maximum days found in any rolling window: above 90 means an overstay under the rule.</li><li>Use the earliest full-stay result if you are planning a long new trip.</li></ol>
+<div class="exbox"><strong>Example:</strong> Two trips of 45 days each — 1 Jan–14 Feb 2026 and 1 Mar–14 Apr 2026 — use exactly 90 days. On 14 April 2026 the window holds all 90 days, 0 days remain, and there is no overstay because 90 is allowed.</div>
+<h2>Frequently Asked Questions</h2></section><div class="faq"><h3>How does the 90/180 rule actually work?</h3><p>On any day you are in the Schengen area, count your days of presence in the previous 180 days including that day. The total must never exceed 90. The window rolls forward daily, which this calculator checks day by day across all your trips.</p></div><div class="faq"><h3>Do the entry and exit days count?</h3><p>Yes. Under the EU rule both the day you enter and the day you leave count as full days of presence, and this calculator counts them that way.</p></div><div class="faq"><h3>What counts as one trip if I leave and return quickly?</h3><p>Every day physically inside the Schengen area counts, however short the gap outside. Enter each stay separately and the calculator adds them all into the same rolling windows.</p></div><div class="faq"><h3>Is this legal advice?</h3><p>No. It is guidance based on the standard EU 90/180 short-stay rule for visa-free and short-stay visa visitors. It does not cover residence permits, long-stay visas, or the special rules some nationalities have under bilateral agreements. Border authorities decide; check official EU sources for your case.</p></div>
+<h2 class="sec">Related Calculators</h2><div class="grid"><a class="card" href="../date-calculator/"><div class="ic">📆</div><h3>Date Calculator</h3><p>Date & Time</p></a><a class="card" href="../days-between-dates-calculator/"><div class="ic">🗓️</div><h3>Days Between Dates</h3><p>Date & Time</p></a><a class="card" href="../age-calculator/"><div class="ic">📅</div><h3>Age Calculator</h3><p>Date & Time</p></a><a class="card" href="../working-days-calculator/"><div class="ic">🏢</div><h3>Working Days Calculator</h3><p>Date & Time</p></a><a class="card" href="../time-calculator/"><div class="ic">⏱️</div><h3>Time Calculator</h3><p>Date & Time</p></a><a class="card" href="../eu261-compensation-calculator/"><div class="ic">✈️</div><h3>EU261 Compensation Checker</h3><p>Money & Travel</p></a></div>
+</div>
+<section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>How it works — the formula</h2>
+<p>For every date <em>D</em>, presence(D) = the number of your trip days falling in the window <strong>[D − 179 days, D]</strong>. The rule is broken only if presence(D) &gt; 90 for some D. This calculator evaluates presence for every relevant day — each trip day and the days around it — instead of sampling, so rolling-window edge cases are caught exactly. Days remaining on the check date = 90 − presence(check date). The earliest full-stay start is found by testing candidate start dates day by day: a 90-day stay starting on S is safe only if presence stays at or below 90 on every day of the stay, including the new days themselves.</p>
+<h3>Worked example</h3><div class="exbox"><p><strong>Inputs:</strong> Trip 1: 1 Jan–14 Feb 2026 (31 + 14 = 45 days). Trip 2: 1 Mar–14 Apr 2026 (31 + 14 = 45 days). Check date 14 Apr 2026.</p><p><strong>Steps:</strong> The 180-day window ending 14 Apr 2026 starts on 17 Oct 2025, so it contains both trips in full: 45 + 45 = 90 days used. Days remaining = 90 − 90 = 0. The maximum in any window is 90, which is allowed — no overstay.</p><p><strong>Result:</strong> <strong>90 days used, 0 remaining, no overstay</strong> — but one more day on 15 Apr 2026 would make 91 in the window and break the rule.</p></div>
+<p class="resnote"><strong>Disclaimer:</strong> Guidance only, based on the EU 90/180 short-stay rule. Rules checked: 8 November 2026. Not legal advice. Residence permits, long-stay visas and bilateral agreements can change the position — always confirm with official EU or national sources.</p>
+</section>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Embed this calculator on your website — free</h2>
+<p style="margin:0 0 12px;line-height:1.6">Add this calculator to your own website or blog — it is completely free, needs no sign-up, and always shows the latest version. Copy the code below and paste it into your page where you want the calculator to appear. Keeping the small &ldquo;Powered by Loona Automation&rdquo; credit line under the embed helps keep this tool free &mdash; but you are free to style or remove it; the tool works either way.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/schengen-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Schengen 90/180 Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Powered by &lt;a href="https://loonaautomation.github.io/loona-calculators/schengen-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; free Schengen 90/180 Calculator&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Copy embed code</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='Copy embed code';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Popular Calculators</h4><ul><li><a href="../age-calculator/">Age Calculator</a></li>
+<li><a href="../zakat-calculator/">Zakat Calculator</a></li>
+<li><a href="../cgpa-calculator/">CGPA Calculator</a></li>
+<li><a href="../percentage-calculator/">Percentage Calculator</a></li>
+<li><a href="../hijri-date-converter/">Hijri Date Converter</a></li>
+<li><a href="../emi-calculator/">EMI & Loan Calculator</a></li></ul></div>
+<div><h4>More Loona Tools</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Image Compressor</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI Assistant</a></li>
+<li><a href="https://loonaautomation.github.io/">All Loona Tools</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">About</a></li>
+<li><a href="../contact.html">Contact</a></li>
+<li><a href="../privacy-policy.html">Privacy Policy</a></li>
+<li><a href="../terms.html">Terms of Use</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — a <a href="https://loonaautomation.github.io/">Loona Automation</a> project. Free online calculators, no signup.
+Contact: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+function sgParse(isoStr){var p=isoStr.split("-");return Date.UTC(+p[0],+p[1]-1,+p[2])/86400000;}
+function sgISO(dayNum){var d=new Date(dayNum*86400000);return d.getUTCFullYear()+"-"+String(d.getUTCMonth()+1).padStart(2,"0")+"-"+String(d.getUTCDate()).padStart(2,"0");}
+function sgDaySet(trips){
+  var set={};
+  trips.forEach(function(t){var a=sgParse(t[0]),b=sgParse(t[1]);if(b<a){var tmp=a;a=b;b=tmp;}for(var d=a;d<=b;d++)set[d]=1;});
+  return set;
+}
+function sgPresence(set,day){var c=0;for(var d=day-179;d<=day;d++)if(set[d])c++;return c;}
+function analyzeSchengen(trips,checkISO){
+  var set=sgDaySet(trips), days=Object.keys(set).map(Number).sort(function(a,b){return a-b;});
+  var total=days.length;
+  if(!total)return {total:0,usedAtCheck:0,remaining:90,maxUsed:0,maxDate:null,overstay:false};
+  var check=sgParse(checkISO), usedAtCheck=sgPresence(set,check);
+  var maxUsed=0,maxDay=days[0];
+  var from=days[0], to=days[days.length-1]+179;
+  for(var d=from;d<=to;d++){var p=sgPresence(set,d); if(p>maxUsed){maxUsed=p;maxDay=d;}}
+  return {total:total,usedAtCheck:usedAtCheck,remaining:Math.max(0,90-usedAtCheck),maxUsed:maxUsed,maxDate:sgISO(maxDay),overstay:maxUsed>90};
+}
+function earliestFullStay(trips,fromISO){
+  var set=sgDaySet(trips);
+  var start0=sgParse(fromISO);
+  for(var s=start0;s<start0+730;s++){
+    var ok=true;
+    for(var k=0;k<90&&ok;k++){
+      var d=s+k, presence=0;
+      for(var x=d-179;x<=d;x++){ if(set[x]||(x>=s&&x<=d)) presence++; }
+      if(presence>90) ok=false;
+    }
+    if(ok)return sgISO(s);
+  }
+  return null;
+}
+/*TESTABLE_END*/
+var sgCount=0;
+function sgAddRow(entry,exit){
+  sgCount++;
+  var div=document.createElement('div'); div.className='sgrow';
+  div.innerHTML='<div class="fld" style="margin:0"><label>Entry date</label><input type="date" class="sgIn" value="'+(entry||'')+'"></div>'
+   +'<div class="fld" style="margin:0"><label>Exit date</label><input type="date" class="sgOut" value="'+(exit||'')+'"></div>'
+   +'<button type="button" aria-label="Remove trip">✕</button>';
+  div.querySelector('button').addEventListener('click',function(){div.remove();});
+  document.getElementById('sgTrips').appendChild(div);
+}
+sgAddRow(); sgAddRow();
+document.getElementById('sgAdd').addEventListener('click',function(){sgAddRow();});
+document.getElementById('sgCheck').value=new Date().toISOString().slice(0,10);
+document.getElementById('sgForm').addEventListener('submit',function(e){e.preventDefault();
+ var trips=[];
+ document.querySelectorAll('#sgTrips .sgrow').forEach(function(r){
+   var a=r.querySelector('.sgIn').value, b=r.querySelector('.sgOut').value;
+   if(a&&b)trips.push([a,b]);
+ });
+ var box=document.getElementById('sgResult'); box.style.display='block';
+ if(!trips.length){box.innerHTML='<p class="err">Add at least one trip with entry and exit dates.</p>';return;}
+ var check=document.getElementById('sgCheck').value||new Date().toISOString().slice(0,10);
+ var r=analyzeSchengen(trips,check);
+ var lastExit=trips.map(function(t){return t[1];}).sort().pop();
+ var fromForFull=r.overstay?lastExit:check;
+ var full=earliestFullStay(trips,fromForFull);
+ function fmtD(s){var M=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];var p=s.split("-");return (+p[2])+" "+M[(+p[1])-1]+" "+p[0];}
+ box.innerHTML='<div class="resbig"><span>Days used in window ending '+fmtD(check)+'</span><strong>'+r.usedAtCheck+' / 90</strong></div>'
+  +'<table class="restbl">'
+  +'<tr><td>Days remaining on check date</td><td><strong>'+r.remaining+'</strong></td></tr>'
+  +'<tr><td>Total trip days entered</td><td><strong>'+r.total+'</strong></td></tr>'
+  +'<tr><td>Maximum in any rolling 180-day window</td><td><strong>'+r.maxUsed+' days (window ending '+fmtD(r.maxDate)+')</strong></td></tr>'
+  +'<tr><td>Earliest start for a fresh full 90-day stay</td><td><strong>'+(full?fmtD(full):'Not within the next 2 years')+'</strong></td></tr></table>'
+  +(r.overstay?'<p class="err">Overstay warning: these trips reach '+r.maxUsed+' days in a rolling 180-day window, which exceeds the 90-day limit.</p>':'<p class="resnote">No overstay found in any rolling window for the trips entered.</p>')
+  +'<p class="resnote">Guidance only, not legal advice. Entry and exit days both count. Residence permits, long-stay visas and bilateral agreements are not covered.</p>';});
+
+</script>
+
+<script>
+/*TESTABLE_START*/
+function planTripCheck(historyTrips, planStartISO, planDays){
+  var trips=historyTrips.slice();
+  var start=sgParse(planStartISO);
+  trips.push([planStartISO, sgISO(start+planDays-1)]);
+  var set=sgDaySet(trips);
+  var maxP=0, firstBad=null;
+  for(var k=0;k<planDays;k++){
+    var d=start+k, pr=sgPresence(set,d);
+    if(pr>maxP)maxP=pr;
+    if(pr>90&&firstBad===null)firstBad=sgISO(d);
+  }
+  return {compliant:firstBad===null, firstViolation:firstBad, maxPresence:maxP, planEnd:sgISO(start+planDays-1)};
+}
+/*TESTABLE_END*/
+document.getElementById('sgPlanBtn').addEventListener('click',function(){
+  var trips=[];
+  document.querySelectorAll('#sgTrips .sgrow').forEach(function(r){
+    var a=r.querySelector('.sgIn').value, b=r.querySelector('.sgOut').value;
+    if(a&&b)trips.push([a,b]);
+  });
+  var box=document.getElementById('sgPlanResult'); box.style.display='block';
+  var start=document.getElementById('sgPlanStart').value, days=parseInt(document.getElementById('sgPlanDays').value,10);
+  if(!start||!(days>=1&&days<=180)){box.innerHTML='<p class="err">Enter a planned entry date and a length of 1-180 days.</p>';return;}
+  var r=planTripCheck(trips,start,days);
+  box.innerHTML='<div class="resbig"><span>Planned trip verdict</span><strong>'+(r.compliant?'COMPLIANT':'NOT COMPLIANT')+'</strong></div>'
+   +'<table class="restbl"><tr><td>Planned exit date</td><td><strong>'+r.planEnd+'</strong></td></tr>'
+   +'<tr><td>Highest rolling-window count during the trip</td><td><strong>'+r.maxPresence+' / 90</strong></td></tr>'
+   +(r.firstViolation?'<tr><td>First day over the limit</td><td><strong>'+r.firstViolation+'</strong></td></tr>':'')
+   +'</table><p class="resnote">Planner guidance only, based on the trips entered above. Rules checked: 8 November 2026.</p>';
+});
+</script>
+</body>
+</html>
