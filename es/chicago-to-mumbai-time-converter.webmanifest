@@ -1,0 +1,29 @@
+{
+  "name": "Conversor de hora de Chicago a Mumbai de Loona",
+  "short_name": "De Chicago a la hora de Bombay",
+  "description": "Convierte la hora de Chicago a la hora de Bombay. Bombay está 11 horas y 30 minutos por delante de Chicago en enero y 10 horas y 30 minutos por delante de en julio, con las fechas del horario de verano, una tabla de 24 horas y la mejor franja para reunirse. Conversor en vivo incluido.",
+  "id": "/loona-calculators/es/chicago-to-mumbai-time-converter.html",
+  "start_url": "./chicago-to-mumbai-time-converter.html",
+  "scope": "./chicago-to-mumbai-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Conversor de Km/h a Mph de Loona",
+  "short_name": "Conversor de Km/h a Mph",
+  "description": "Convierte kilómetros por hora a millas por hora al instante. Fórmula exacta, una tabla de conversión completa de km/h a mph y ejemplos resueltos. Gratis, sin registro.",
+  "id": "/loona-calculators/es/kmh-to-mph-converter.html",
+  "start_url": "./kmh-to-mph-converter.html",
+  "scope": "./kmh-to-mph-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

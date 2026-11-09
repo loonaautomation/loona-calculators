@@ -1,0 +1,29 @@
+{
+  "name": "Conversor de Terabyte a Megabyte de Loona",
+  "short_name": "Conversor de terabyte a megabyte",
+  "description": "Convierte terabytes a megabytes al instante. Fórmula exacta, una tabla de conversión completa de TB a MB, un ejemplo resuelto y preguntas frecuentes. Gratis, sin registro.",
+  "id": "/loona-calculators/es/terabytes-to-megabytes-converter.html",
+  "start_url": "./terabytes-to-megabytes-converter.html",
+  "scope": "./terabytes-to-megabytes-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

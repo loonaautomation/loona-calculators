@@ -1,0 +1,29 @@
+{
+  "name": "Conversor de Bar a Milímetro de Mercurio de Loona",
+  "short_name": "De Bar a Milímetro de mercurio",
+  "description": "Convierte bar a milímetros de mercurio al instante. Fórmula exacta, una tabla de conversión completa de bar a mmHg, un ejemplo resuelto y preguntas frecuentes. Gratis, sin registro.",
+  "id": "/loona-calculators/es/bars-to-millimeters-of-mercury-converter.html",
+  "start_url": "./bars-to-millimeters-of-mercury-converter.html",
+  "scope": "./bars-to-millimeters-of-mercury-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

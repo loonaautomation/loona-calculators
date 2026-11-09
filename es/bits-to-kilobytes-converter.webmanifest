@@ -1,0 +1,29 @@
+{
+  "name": "Conversor de Bit a Kilobyte de Loona",
+  "short_name": "Conversor de Bit a Kilobyte",
+  "description": "Convierte bits a kilobytes al instante. Fórmula exacta, una tabla de conversión completa de bit a KB, un ejemplo resuelto y preguntas frecuentes. Gratis, sin registro.",
+  "id": "/loona-calculators/es/bits-to-kilobytes-converter.html",
+  "start_url": "./bits-to-kilobytes-converter.html",
+  "scope": "./bits-to-kilobytes-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

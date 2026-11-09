@@ -1,0 +1,29 @@
+{
+  "name": "Conversor de revolución por minuto a Hertz de Loona",
+  "short_name": "Revolución por minuto to",
+  "description": "Convierte revoluciones por minuto a hercios al instante. Fórmula exacta, una tabla de conversión completa de rpm a Hz, un ejemplo resuelto y preguntas frecuentes. Gratis, sin registro.",
+  "id": "/loona-calculators/es/rpm-to-hertz-converter.html",
+  "start_url": "./rpm-to-hertz-converter.html",
+  "scope": "./rpm-to-hertz-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

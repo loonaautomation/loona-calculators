@@ -1,0 +1,29 @@
+{
+  "name": "Loona Días laborables en Canadá",
+  "short_name": "Días laborables en Canadá",
+  "description": "Calculadora de días laborables para Canadá: cuenta los días laborables entre dos fechas con los fines de semana y los 11 festivos federales canadienses de 2026 eliminados. Herramienta en línea gratuita.",
+  "id": "/loona-calculators/es/working-days-in-canada.html",
+  "start_url": "./working-days-in-canada.html",
+  "scope": "./working-days-in-canada.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Días laborables en Letonia",
+  "short_name": "Días laborables en Letonia",
+  "description": "Calculadora de días laborables para Letonia: cuenta los días laborables entre dos fechas con los fines de semana y los 17 festivos públicos letones de 2026 eliminados. Herramienta en línea gratuita.",
+  "id": "/loona-calculators/es/working-days-in-latvia.html",
+  "start_url": "./working-days-in-latvia.html",
+  "scope": "./working-days-in-latvia.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

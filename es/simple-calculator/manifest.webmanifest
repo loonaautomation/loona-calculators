@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora sencilla de Loona",
+  "short_name": "Calculadora simple",
+  "description": "Calculadora simple gratuita con botones grandes y fáciles para sumar, restar, multiplicar y dividir. Cinta de historial, tecla de porcentaje, botón de copiar y compatibilidad completa con teclado: sin registro.",
+  "id": "/loona-calculators/es/simple-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

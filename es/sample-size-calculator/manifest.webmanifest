@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora de tamaño de muestra de Loona",
+  "short_name": "Calculadora de tamaño de muestra",
+  "description": "Calculadora gratuita de tamaño de muestra: cuántas respuestas necesitas para una proporción o una media de encuesta, con tu nivel de confianza y tu margen de error, con corrección por población finita.",
+  "id": "/loona-calculators/es/sample-size-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

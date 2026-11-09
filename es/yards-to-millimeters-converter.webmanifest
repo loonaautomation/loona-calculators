@@ -1,0 +1,29 @@
+{
+  "name": "Conversor de yarda a milímetro de Loona",
+  "short_name": "Conversor de Yarda a Milímetro",
+  "description": "Convierte yardas a milímetros al instante. Fórmula exacta, una tabla de conversión completa de yd a mm, un ejemplo resuelto y preguntas frecuentes. Gratis, sin registro.",
+  "id": "/loona-calculators/es/yards-to-millimeters-converter.html",
+  "start_url": "./yards-to-millimeters-converter.html",
+  "scope": "./yards-to-millimeters-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

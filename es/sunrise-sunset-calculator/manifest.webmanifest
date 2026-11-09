@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora de amanecer y atardecer de Loona",
+  "short_name": "Calculadora de salida y puesta del sol",
+  "description": "Calculadora gratuita de amanecer y atardecer: introduce una fecha y la latitud/longitud para obtener el amanecer, el atardecer, la duración del día y el mediodía solar en UTC y en términos solares locales. Matemáticas de la NOAA.",
+  "id": "/loona-calculators/es/sunrise-sunset-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

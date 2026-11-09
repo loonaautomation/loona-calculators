@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora de distribución de Poisson de Loona",
+  "short_name": "Distribución de Poisson",
+  "description": "Calculadora gratuita de la distribución de Poisson: probabilidad de exactamente k eventos, como máximo k o al menos k, dada la tasa media lambda. Para llamadas, llegadas, defectos y eventos raros.",
+  "id": "/loona-calculators/es/poisson-distribution-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

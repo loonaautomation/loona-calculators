@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora de ANOVA de un factor de Loona",
+  "short_name": "Calculadora de ANOVA de un factor",
+  "description": "Calculadora gratuita de ANOVA de un factor: introduce los números de cada grupo en su propia línea para obtener las sumas de cuadrados, el estadístico F, los grados de libertad y el valor p, con las medias de los grupos.",
+  "id": "/loona-calculators/es/anova-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora de porcentajes de Loona",
+  "short_name": "Calculadora de porcentajes",
+  "description": "Calculadora gratuita de porcentajes con tres herramientas en una: cuánto es el X% de Y, X es qué porcentaje de Y, y el aumento o la disminución porcentual entre dos números.",
+  "id": "/loona-calculators/es/percentage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

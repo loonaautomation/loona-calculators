@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora de BMR de Loona",
+  "short_name": "Calculadora de BMR",
+  "description": "Calculadora gratuita de TMB y GET: introduce edad, peso, altura y nivel de actividad para encontrar las calorías que tu cuerpo quema en reposo y en la vida diaria (Mifflin-St Jeor).",
+  "id": "/loona-calculators/es/bmr-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

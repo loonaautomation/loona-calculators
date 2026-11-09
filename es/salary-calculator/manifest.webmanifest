@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora de impuesto sobre el salario de Pakistán 2026 de Loona",
+  "short_name": "Calculadora de impuesto salarial",
+  "description": "Calculadora gratuita del impuesto salarial de Pakistán (año fiscal 2026): introduce tu salario bruto mensual para ver el impuesto sobre la renta por mes y por año, el salario neto y la tasa fiscal efectiva. Tramos de asalariados de la FBR.",
+  "id": "/loona-calculators/es/salary-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

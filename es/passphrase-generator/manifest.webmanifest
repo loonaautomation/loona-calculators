@@ -1,0 +1,29 @@
+{
+  "name": "Generador de frases de contraseña de Loona",
+  "short_name": "Generador de frases de contraseña",
+  "description": "Generador gratuito de frases de contraseña: crea frases de contraseña fuertes y memorables desde palabras reales aleatorias, con opciones de número de palabras, separador, mayúsculas y números. Funciona en tu navegador.",
+  "id": "/loona-calculators/es/passphrase-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

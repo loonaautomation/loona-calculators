@@ -1,0 +1,29 @@
+{
+  "name": "Conversor de Días a Horas de Loona",
+  "short_name": "Convertidor de días a horas",
+  "description": "Convierte días a horas al instante. Fórmula exacta, una tabla de conversión completa de days a h y ejemplos resueltos. Gratis, sin registro.",
+  "id": "/loona-calculators/es/days-to-hours-converter.html",
+  "start_url": "./days-to-hours-converter.html",
+  "scope": "./days-to-hours-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

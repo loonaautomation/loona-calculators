@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora de probabilidad de Loona",
+  "short_name": "Calculadora de probabilidad",
+  "description": "Calculadora gratuita de probabilidad: probabilidad de A y B, A o B, ninguno y exactamente uno; conversión de cuotas; combinaciones y permutaciones. Con fórmulas y ejemplos.",
+  "id": "/loona-calculators/es/probability-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

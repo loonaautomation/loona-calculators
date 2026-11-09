@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora de la Prueba Chi-Cuadrado de Loona",
+  "short_name": "Calculadora de la prueba chi-cuadrado",
+  "description": "Calculadora gratuita de la prueba de chi-cuadrado: introduce una tabla observada para una prueba de independencia, o recuentos observados frente a esperados para la bondad de ajuste. Chi-cuadrado, gl y valor p.",
+  "id": "/loona-calculators/es/chi-square-test-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

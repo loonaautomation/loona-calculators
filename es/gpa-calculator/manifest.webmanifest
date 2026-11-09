@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora de GPA de Loona",
+  "short_name": "Calculadora de GPA",
+  "description": "Calculadora gratuita de GPA: introduce hasta 8 asignaturas con notas en letras (de A a F) y horas de crédito para obtener tu GPA en la escala estándar de 4.0. Rápida, privada, sin registro.",
+  "id": "/loona-calculators/es/gpa-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

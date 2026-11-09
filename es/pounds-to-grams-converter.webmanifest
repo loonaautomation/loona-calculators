@@ -1,0 +1,29 @@
+{
+  "name": "Conversor de libras a gramos de Loona",
+  "short_name": "Conversor de libras a gramos",
+  "description": "Convierte libras a gramos al instante. Fórmula exacta, una tabla de conversión completa de lb a g y ejemplos resueltos. Gratis, sin registro.",
+  "id": "/loona-calculators/es/pounds-to-grams-converter.html",
+  "start_url": "./pounds-to-grams-converter.html",
+  "scope": "./pounds-to-grams-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

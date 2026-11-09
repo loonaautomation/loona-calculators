@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora de semanas de embarazo de Loona",
+  "short_name": "Calculadora de semanas de embarazo",
+  "description": "Calculadora gratuita de semanas de embarazo: introduce la fecha de tu último periodo o tu fecha probable de parto para ver exactamente de cuántas semanas y días estás embarazada, tu trimestre y los días que faltan.",
+  "id": "/loona-calculators/es/weeks-pregnant-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

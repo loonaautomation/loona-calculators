@@ -1,0 +1,29 @@
+{
+  "name": "Conversor de Bar a Pascal de Loona",
+  "short_name": "Conversor de Bar a Pascal",
+  "description": "Convierte bar a pascales al instante. Fórmula exacta, una tabla de conversión completa de bar a Pa, un ejemplo resuelto y preguntas frecuentes. Gratis, sin registro.",
+  "id": "/loona-calculators/es/bars-to-pascals-converter.html",
+  "start_url": "./bars-to-pascals-converter.html",
+  "scope": "./bars-to-pascals-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

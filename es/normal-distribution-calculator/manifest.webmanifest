@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora de distribución normal de Loona",
+  "short_name": "Calculadora de distribución normal",
+  "description": "Calculadora gratuita de distribución normal: para cualquier media y desviación estándar, encuentra P(X<x), P(X>x), P(a<X<b) y el valor en un percentil dado.",
+  "id": "/loona-calculators/es/normal-distribution-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

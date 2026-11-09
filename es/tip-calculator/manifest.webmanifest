@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora de propinas de Loona",
+  "short_name": "Calculadora de propinas",
+  "description": "Calculadora gratuita de propinas: introduce la cuenta, el porcentaje de propina y el número de personas para obtener el importe de la propina, la cuenta total y la parte exacta que paga cada persona.",
+  "id": "/loona-calculators/es/tip-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

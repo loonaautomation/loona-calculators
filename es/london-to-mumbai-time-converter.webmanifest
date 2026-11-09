@@ -1,0 +1,29 @@
+{
+  "name": "Conversor de hora de Londres a Mumbai de Loona",
+  "short_name": "Hora de Londres a Mumbai",
+  "description": "Convierte la hora de Londres a la hora de Bombay. Bombay está 5 horas y 30 minutos por delante de Londres en enero y 4 horas y 30 minutos por delante de en julio, con las fechas del horario de verano, una tabla de 24 horas y la mejor franja para reunirse. Conversor en vivo incluido.",
+  "id": "/loona-calculators/es/london-to-mumbai-time-converter.html",
+  "start_url": "./london-to-mumbai-time-converter.html",
+  "scope": "./london-to-mumbai-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

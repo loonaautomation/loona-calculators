@@ -1,0 +1,29 @@
+{
+  "name": "Conversor de hora de Berlín a Nueva York de Loona",
+  "short_name": "De Berlín a la hora de Nueva York",
+  "description": "Convierte la hora de Berlín a la hora de Nueva York. Nueva York está 6 horas por detrás de Berlín durante todo el año, con las fechas del horario de verano, una tabla de 24 horas y la mejor franja para reunirse. Conversor en vivo incluido.",
+  "id": "/loona-calculators/es/berlin-to-new-york-time-converter.html",
+  "start_url": "./berlin-to-new-york-time-converter.html",
+  "scope": "./berlin-to-new-york-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

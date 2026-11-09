@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora de Costo de Combustible de Loona",
+  "short_name": "Calculadora de coste de combustible",
+  "description": "Calculadora gratuita de coste de combustible: introduce la distancia, el consumo del vehículo y el precio del combustible para obtener los litros necesarios y el coste total del viaje, con opción de ida y vuelta.",
+  "id": "/loona-calculators/es/fuel-cost-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Conversor de tonelada a gramo de Loona",
+  "short_name": "Conversor de Tonelada a Gramo",
+  "description": "Convierte toneladas métricas a gramos al instante. Fórmula exacta, una tabla de conversión completa de t a g, un ejemplo resuelto y preguntas frecuentes. Gratis, sin registro.",
+  "id": "/loona-calculators/es/tonnes-to-grams-converter.html",
+  "start_url": "./tonnes-to-grams-converter.html",
+  "scope": "./tonnes-to-grams-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

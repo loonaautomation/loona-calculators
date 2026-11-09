@@ -1,0 +1,29 @@
+{
+  "name": "Edad de Loona por Año de Nacimiento",
+  "short_name": "Edad por año de nacimiento",
+  "description": "La edad que se cumple en 2026 para cada año de nacimiento de 1946–2025, con etiquetas de generación y años de hitos.",
+  "id": "/loona-calculators/es/age-by-birth-year.html",
+  "start_url": "./age-by-birth-year.html",
+  "scope": "./age-by-birth-year.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

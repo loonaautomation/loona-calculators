@@ -1,0 +1,29 @@
+{
+  "name": "Conversor de libras a Kg de Loona",
+  "short_name": "Conversor de libras a kg",
+  "description": "Convierte libras a kilogramos al instante. Fórmula exacta, una tabla de conversión completa de lb a kg y ejemplos resueltos. Gratis, sin registro.",
+  "id": "/loona-calculators/es/pounds-to-kg-converter.html",
+  "start_url": "./pounds-to-kg-converter.html",
+  "scope": "./pounds-to-kg-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Conversor de Hertz a Gigahertz de Loona",
+  "short_name": "Convertidor de hercio a gigahercio",
+  "description": "Convierte hercios a gigahercios al instante. Fórmula exacta, una tabla de conversión completa de Hz a GHz, un ejemplo resuelto y preguntas frecuentes. Gratis, sin registro.",
+  "id": "/loona-calculators/es/hertz-to-gigahertz-converter.html",
+  "start_url": "./hertz-to-gigahertz-converter.html",
+  "scope": "./hertz-to-gigahertz-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

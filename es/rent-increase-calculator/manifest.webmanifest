@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora de aumento del alquiler de Loona",
+  "short_name": "Calculadora de aumento del alquiler",
+  "description": "Calculadora gratuita de aumento del alquiler: introduce tu alquiler actual y el porcentaje de aumento (o el nuevo alquiler) para ver el nuevo alquiler mensual, el coste extra por mes y por año, y una proyección año por año.",
+  "id": "/loona-calculators/es/rent-increase-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

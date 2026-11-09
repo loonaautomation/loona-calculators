@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora del Día 10,000 de Loona",
+  "short_name": "Calculadora del Día 10,000",
+  "description": "Calculadora gratuita de días hito: introduce una fecha de nacimiento para encontrar tu día 10,000, otros aniversarios de días de número redondo, tu edad en días y tu próxima fecha hito.",
+  "id": "/loona-calculators/es/day-milestone-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

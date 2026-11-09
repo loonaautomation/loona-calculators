@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora de Zakat de Loona",
+  "short_name": "Calculadora de Zakat",
+  "description": "Calculadora gratuita de zakat: efectivo, saldo bancario, oro, plata, bienes comerciales y deudas: comprueba el nisab y calcula tu zakat del 2.5% en rupias al instante. Sencilla y privada.",
+  "id": "/loona-calculators/es/zakat-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

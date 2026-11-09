@@ -1,0 +1,29 @@
+{
+  "name": "Conversor de fecha hijri de Loona",
+  "short_name": "Convertidor de fechas Hijri",
+  "description": "Convertidor gratuito de fechas Hijri: convierte cualquier fecha gregoriana a la fecha islámica Hijri y viceversa, usando el calendario Umm al-Qura. Comprobaciones de Ramadán, Eid y fechas islámicas hechas fáciles.",
+  "id": "/loona-calculators/es/hijri-date-converter/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

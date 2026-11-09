@@ -1,0 +1,29 @@
+{
+  "name": "Conversor de hora de Karachi a Sídney de Loona",
+  "short_name": "Hora de Karachi a Sídney",
+  "description": "Convierte la hora de Karachi a la hora de Sídney. Sídney está 6 horas por delante de Karachi en enero y 5 horas por delante de en julio, con las fechas del horario de verano, una tabla de 24 horas y la mejor franja para reunirse. Conversor en vivo incluido.",
+  "id": "/loona-calculators/es/karachi-to-sydney-time-converter.html",
+  "start_url": "./karachi-to-sydney-time-converter.html",
+  "scope": "./karachi-to-sydney-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

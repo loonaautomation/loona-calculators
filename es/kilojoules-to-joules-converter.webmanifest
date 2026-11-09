@@ -1,0 +1,29 @@
+{
+  "name": "Conversor de kilojulio a julio de Loona",
+  "short_name": "Conversor de Kilojulio a Julio",
+  "description": "Convierte kilojulios a julios al instante. Fórmula exacta, una tabla de conversión completa de kJ a J, un ejemplo resuelto y preguntas frecuentes. Gratis, sin registro.",
+  "id": "/loona-calculators/es/kilojoules-to-joules-converter.html",
+  "start_url": "./kilojoules-to-joules-converter.html",
+  "scope": "./kilojoules-to-joules-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

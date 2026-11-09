@@ -1,0 +1,29 @@
+{
+  "name": "Conversor de CHF a SEK de Loona",
+  "short_name": "Conversor de CHF a SEK",
+  "description": "Convierte franco suizo (CHF) a corona sueca (SEK). Tipo de referencia del BCE con fecha de 06 noviembre 2026, tipo inverso, tabla de conversión y notas del corredor. Solo orientativo.",
+  "id": "/loona-calculators/es/chf-to-sek-converter.html",
+  "start_url": "./chf-to-sek-converter.html",
+  "scope": "./chf-to-sek-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

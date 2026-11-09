@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora de EMI de Loona",
+  "short_name": "Calculadora de EMI",
+  "description": "Calculadora gratuita de EMI y préstamos: introduce la cantidad del préstamo, la tasa de interés o beneficio y el plazo para obtener tu cuota mensual, el interés total y el pago total. Para préstamos bancarios, de coche y personales.",
+  "id": "/loona-calculators/es/emi-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

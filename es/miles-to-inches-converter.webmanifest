@@ -1,0 +1,29 @@
+{
+  "name": "Conversor de milla a pulgada de Loona",
+  "short_name": "Conversor de milla a pulgada",
+  "description": "Convierte millas a pulgadas al instante. Fórmula exacta, una tabla de conversión completa de mi a in, un ejemplo resuelto y preguntas frecuentes. Gratis, sin registro.",
+  "id": "/loona-calculators/es/miles-to-inches-converter.html",
+  "start_url": "./miles-to-inches-converter.html",
+  "scope": "./miles-to-inches-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

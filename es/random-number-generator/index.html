@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Generador de números aleatorios — Números aleatorios seguros en línea | Loona Calculators</title>
+<meta name="description" content="Generador gratuito de números aleatorios usando la aleatoriedad segura del navegador. Elige números en cualquier rango, elige cuántos, con una opción de números únicos solamente.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/es/random-number-generator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/random-number-generator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/random-number-generator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/random-number-generator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/random-number-generator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/random-number-generator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/random-number-generator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/random-number-generator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Generador de números aleatorios — Números aleatorios seguros en línea | Loona Calculators">
+<meta property="og:description" content="Generador gratuito de números aleatorios usando la aleatoriedad segura del navegador. Elige números en cualquier rango, elige cuántos, con una opción de números únicos solamente.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/es/random-number-generator/"><meta property="og:locale" content="es_ES">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Generador de números aleatorios — Números aleatorios seguros en línea | Loona Calculators">
+<meta name="twitter:description" content="Generador gratuito de números aleatorios usando la aleatoriedad segura del navegador. Elige números en cualquier rango, elige cuántos, con una opción de números únicos solamente.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Generador de números aleatorios de Loona","url":"https://loonaautomation.github.io/loona-calculators/es/random-number-generator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"¿Es este generador de números aleatorios realmente aleatorio?","acceptedAnswer":{"@type":"Answer","text":"Utiliza crypto.getRandomValues, la fuente aleatoria criptográficamente segura integrada en todos los navegadores modernos. Los sistemas operativos la alimentan de la imprevisibilidad del mundo real (tiempos, ruido del hardware), por lo que los números no pueden predecirse ni repetirse a demanda — una fuente mucho más robusta que la función Math.random que usan la mayoría de los generadores sencillos."}},{"@type":"Question","name":"¿Qué hace la opción de únicos?","acceptedAnswer":{"@type":"Answer","text":"Con 'solo números únicos', cada número generado es diferente: ideal para sorteos estilo lotería, rifas y elegir estudiantes o ganadores. Con 'repeticiones permitidas', cada extracción es independiente, así que el mismo número puede aparecer más de una vez, como al lanzar dados."}},{"@type":"Question","name":"¿Puede repetir el mismo conjunto dos veces?","acceptedAnswer":{"@type":"Answer","text":"En teoría, cualquier conjunto puede volver a aparecer por azar, pero con una aleatoriedad segura no hay patrón, semilla ni memoria entre sorteos. Al pulsar Generar siempre comienza un sorteo completamente nuevo e independiente."}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/es/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Generador de números aleatorios",
+      "item": "https://loonaautomation.github.io/loona-calculators/es/random-number-generator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Logotipo de Loona Automation">
+<div class="brand">Loona <span>Calculadoras</span></div>
+<nav>
+<a href="../">Inicio</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">Sobre</a>
+<a href="../contact.html">Contacto</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › Diversión › Generador de números aleatorios</div>
+<h1 class="pagetitle">🎲 Generador de números aleatorios</h1>
+<p class="lead">Genera números realmente aleatorios en cualquier rango, justo en tu navegador. A diferencia de la mayoría de los generadores en línea, este usa la fuente aleatoria segura de tu navegador —la misma que los sitios web usan para el cifrado—, así que los resultados son impredecibles e imparciales.</p>
+<div class="toolbox"><form class="calcform" id="rngForm">
+<div class="fld"><label for="rngMin">Mínimo</label><input type="number" id="rngMin" value="1" step="1"></div>
+<div class="fld"><label for="rngMax">Máximo</label><input type="number" id="rngMax" value="100" step="1"></div>
+<div class="fld"><label for="rngCount">¿Cuántos números?</label><input type="number" id="rngCount" value="5" step="1" min="1" max="10000"></div>
+<div class="fld"><label for="rngUnique">Duplicados</label><select id="rngUnique"><option value="unique" selected>Solo números únicos (sin repeticiones)</option><option value="allow">Se permiten repeticiones</option></select></div>
+<button class="calcbtn" type="submit">Generar números</button>
+<div class="calcresult" id="rngResult" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>Cómo usar el Generador de Números Aleatorios</h2><ol><li>Introduce el número más pequeño (mínimo) y el número más grande (máximo) que quieres.</li><li>Elige cuántos números generar (hasta 10,000).</li><li>Elige si los números deben ser únicos o pueden repetirse, y luego pulsa Generar números.</li></ol>
+<div class="exbox"><strong>Ejemplo:</strong> Un profesor necesita 6 estudiantes elegidos justamente de los números de lista del 1 al 40: fija mínimo 1, máximo 40, cantidad 6, solo únicos — aparecen seis números de lista diferentes, sin que sea posible ningún favoritismo.</div>
+<h2>Preguntas frecuentes</h2></section><div class="faq"><h3>¿Es este generador de números aleatorios realmente aleatorio?</h3><p>Utiliza crypto.getRandomValues, la fuente aleatoria criptográficamente segura integrada en todos los navegadores modernos. Los sistemas operativos la alimentan de la imprevisibilidad del mundo real (tiempos, ruido del hardware), por lo que los números no pueden predecirse ni repetirse a demanda — una fuente mucho más robusta que la función Math.random que usan la mayoría de los generadores sencillos.</p></div><div class="faq"><h3>¿Qué hace la opción de únicos?</h3><p>Con 'solo números únicos', cada número generado es diferente: ideal para sorteos estilo lotería, rifas y elegir estudiantes o ganadores. Con 'repeticiones permitidas', cada extracción es independiente, así que el mismo número puede aparecer más de una vez, como al lanzar dados.</p></div><div class="faq"><h3>¿Puede repetir el mismo conjunto dos veces?</h3><p>En teoría, cualquier conjunto puede volver a aparecer por azar, pero con una aleatoriedad segura no hay patrón, semilla ni memoria entre sorteos. Al pulsar Generar siempre comienza un sorteo completamente nuevo e independiente.</p></div>
+<h2 class="sec">Calculadoras relacionadas</h2><div class="grid"><a class="card" href="../dice-roller/"><div class="ic">🎲</div><h3>Lanzador de dados</h3><p>Diversión</p></a><a class="card" href="../coin-flip/"><div class="ic">🪙</div><h3>Lanzamiento de moneda</h3><p>Diversión</p></a><a class="card" href="../lottery-number-generator/"><div class="ic">🍀</div><h3>Generador de números de lotería</h3><p>Diversión</p></a><a class="card" href="../love-calculator/"><div class="ic">❤️</div><h3>Calculadora del amor</h3><p>Diversión</p></a><a class="card" href="../age-calculator/"><div class="ic">📅</div><h3>Calculadora de edad</h3><p>Fecha y hora</p></a></div>
+</div>
+<section class="txt"><h2>Cómo funciona &mdash; la fórmula</h2>
+<p>El generador usa <strong>muestreo por rechazo</strong> sobre valores aleatorios seguros de 32 bits, lo que elimina el sutil sesgo de los métodos más simples:</p>
+<p>1. El navegador rellena un entero sin signo de 32 bits <em>x</em> usando <strong>crypto.getRandomValues</strong>.<br>
+2. Deja <em>rango</em> = máx − mín + 1. Valores de <em>x</em> igual o superior a <em>límite</em> = ⌊2³² ÷ rango⌋ × rango se rechazan y se vuelven a sacar, así que los valores restantes se dividen uniformemente por el rango.<br>
+3. El resultado es <strong>min + (x mod range)</strong> — cada número de tu rango tiene exactamente la misma probabilidad.</p>
+<h3>Ejemplo resuelto</h3>
+<div class="exbox"><strong>Ejemplo:</strong> Sacar un número de 1 a 6 (una tirada de dado). El rango es 6, así que límite = ⌊4,294,967,296 ÷ 6⌋ × 6 = 4,294,967,296 − 4 = 4,294,967,292. Se acepta casi cualquier valor aleatorio de 32 bits; si x = 1,000,000,007, entonces 1,000,000,007 mod 6 = 5, y el resultado es 1 + 5 = <strong>6</strong>. Cada uno de los seis resultados es exactamente igual de probable.</div>
+<h3>Preguntas frecuentes</h3></section><div class="faq"><h3>¿Cuál es el rango y el recuento mayores?</h3><p>Puedes generar hasta 10,000 números por sorteo, y el rango puede abarcar miles de millones de valores (la herramienta trabaja con números enteros; los decimales que escribas se redondean hacia abajo a números enteros).</p></div><div class="faq"><h3>¿Se envían mis números a un servidor o se almacenan?</h3><p>No. El generador se ejecuta por completo en tu navegador usando JavaScript. No se sube, no se registra ni se guarda nada — cierra la pestaña y los números desaparecen.</p></div><div class="faq"><h3>¿Por qué no usar simplemente Math.random?</h3><p>Math.random es un generador pseudoaleatorio diseñado por comodidad, no por equidad: su secuencia es determinista y en principio puede predecirse. Para sorteos, concursos y juegos, importa contar con una fuente segura, por eso esta herramienta se basa en crypto.getRandomValues con muestreo por rechazo, de modo que cada valor de tu rango tiene la misma probabilidad.</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Inserta esta calculadora en tu sitio web: gratis</h2>
+<p style="margin:0 0 12px;line-height:1.6">Añade esta calculadora a tu propio sitio web o blog: es completamente gratis, no requiere registro y siempre muestra la versión más reciente. Copia el código de abajo y pégalo en tu página donde quieras que aparezca la calculadora. Mantener la pequeña línea de crédito &ldquo;Powered by Loona Automation&rdquo; debajo del código incrustado ayuda a que esta herramienta siga siendo gratuita &mdash; pero puedes darle el estilo que quieras o quitarla; la herramienta funciona de las dos maneras.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/es/random-number-generator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Random Number Generator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Desarrollado por &lt;a href="https://loonaautomation.github.io/loona-calculators/es/random-number-generator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; gratis Generador de números aleatorios&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Copiar código de incrustación</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='Copiar código de inserción';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Calculadoras populares</h4><ul><li><a href="../age-calculator/">Calculadora de edad</a></li>
+<li><a href="../zakat-calculator/">Calculadora de Zakat</a></li>
+<li><a href="../cgpa-calculator/">Calculadora de CGPA</a></li>
+<li><a href="../percentage-calculator/">Calculadora de porcentajes</a></li>
+<li><a href="../hijri-date-converter/">Convertidor de fechas Hijri</a></li>
+<li><a href="../emi-calculator/">Calculadora de EMI y préstamos</a></li></ul></div>
+<div><h4>Más herramientas de Loona</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona Códigos QR</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Compresor de imágenes de Loona</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Asistente de IA de Loona</a></li>
+<li><a href="https://loonaautomation.github.io/">Todas las herramientas de Loona</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">Sobre</a></li>
+<li><a href="../contact.html">Contacto</a></li>
+<li><a href="../privacy-policy.html">Privacy Policy</a></li>
+<li><a href="../terms.html">Términos de uso</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — un <a href="https://loonaautomation.github.io/">Loona Automation</a> proyecto. Calculadoras en línea gratuitas, sin registro.
+Contacto: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+function cryptoRandomInt(min, max) {
+  var range = max - min + 1;
+  if (!(range >= 1)) throw new Error("Rango no válido.");
+  if (range > 4294967296) throw new Error("Rango demasiado grande.");
+  var limit = Math.floor(4294967296 / range) * range;
+  var buf = new Uint32Array(1), x;
+  do { crypto.getRandomValues(buf); x = buf[0]; } while (x >= limit);
+  return min + (x % range);
+}
+function generateRandomNumbers(min, max, count, unique) {
+  min = Math.floor(min); max = Math.floor(max); count = Math.floor(count);
+  if (isNaN(min) || isNaN(max) || isNaN(count)) throw new Error("Introduce números válidos en todos los campos.");
+  if (max < min) throw new Error("El máximo debe ser mayor o igual que el mínimo.");
+  if (count < 1 || count > 10000) throw new Error("Elige entre 1 y 10,000 números.");
+  if (unique && count > (max - min + 1)) throw new Error("No hay suficientes números únicos en ese rango.");
+  var out = [], seen = {};
+  while (out.length < count) {
+    var v = cryptoRandomInt(min, max);
+    if (unique) { if (seen[v]) continue; seen[v] = 1; }
+    out.push(v);
+  }
+  return out;
+}
+function generateUniqueSorted(count, max) {
+  var seen = {}, out = [];
+  while (out.length < count) {
+    var v = cryptoRandomInt(1, max);
+    if (!seen[v]) { seen[v] = 1; out.push(v); }
+  }
+  out.sort(function (a, b) { return a - b; });
+  return out;
+}
+/*TESTABLE_END*/
+
+function rngRun() {
+  var box = document.getElementById('rngResult');
+  try {
+    var nums = generateRandomNumbers(
+      parseFloat(document.getElementById('rngMin').value),
+      parseFloat(document.getElementById('rngMax').value),
+      parseFloat(document.getElementById('rngCount').value),
+      document.getElementById('rngUnique').value === 'unique');
+    box.style.display = 'block';
+    box.innerHTML = '<div class="resbig"><span>Tus números aleatorios</span><strong>' + nums.length + ' extraídos</strong></div>' +
+      '<p style="font-size:19px;line-height:1.9;word-break:break-word"><strong>' + nums.join(', ') + '</strong></p>' +
+      '<p class="resnote">Generados localmente en tu navegador con crypto.getRandomValues: no se envía nada a un servidor. Pulsa Generar de nuevo para obtener un conjunto nuevo.</p>';
+  } catch (e) {
+    box.style.display = 'block';
+    box.innerHTML = '<p class="err">' + e.message + '</p>';
+  }
+}
+document.getElementById('rngForm').addEventListener('submit', function (e) { e.preventDefault(); rngRun(); });
+rngRun();
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Instalar aplicación';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Instala esta aplicación: toca el botón Compartir y luego elige "Añadir a pantalla de inicio".');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

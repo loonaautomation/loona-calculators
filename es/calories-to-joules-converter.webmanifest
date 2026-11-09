@@ -1,0 +1,29 @@
+{
+  "name": "Conversor de Calorías a Julios de Loona",
+  "short_name": "Conversor de Calorías a Julios",
+  "description": "Convierte calorías a julios al instante. Fórmula exacta, una tabla de conversión completa de cal a J y ejemplos resueltos. Gratis, sin registro.",
+  "id": "/loona-calculators/es/calories-to-joules-converter.html",
+  "start_url": "./calories-to-joules-converter.html",
+  "scope": "./calories-to-joules-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

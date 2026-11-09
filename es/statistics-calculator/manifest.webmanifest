@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora de estadística de Loona",
+  "short_name": "Calculadora de estadística",
+  "description": "Calculadora gratuita de estadística: pega una lista de números para obtener la media, la mediana, la moda, el rango, la varianza y la desviación estándar (poblacional y muestral), la suma y el recuento.",
+  "id": "/loona-calculators/es/statistics-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

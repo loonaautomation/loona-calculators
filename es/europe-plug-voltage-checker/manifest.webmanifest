@@ -1,0 +1,29 @@
+{
+  "name": "Verificador de Enchufes y Voltaje en Europa de Loona",
+  "short_name": "Comprobador de enchufes y voltaje de Europa",
+  "description": "Comprobador gratuito de enchufes y voltaje de Europa: elige un país europeo para ver sus tipos de enchufe, voltaje y frecuencia, y si necesitas un adaptador o un convertidor.",
+  "id": "/loona-calculators/es/europe-plug-voltage-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

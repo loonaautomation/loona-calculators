@@ -1,0 +1,29 @@
+{
+  "name": "Conversor de litro a cuarto (líquido US) de Loona",
+  "short_name": "Litro a Cuarto (Líquido de EE. UU.)",
+  "description": "Convierte litros a cuartos (líquidos de ee. uu.) al instante. Fórmula exacta, una tabla de conversión completa de L a qt, un ejemplo resuelto y preguntas frecuentes. Gratis, sin registro.",
+  "id": "/loona-calculators/es/liters-to-quarts-converter.html",
+  "start_url": "./liters-to-quarts-converter.html",
+  "scope": "./liters-to-quarts-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

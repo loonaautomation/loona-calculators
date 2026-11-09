@@ -1,0 +1,29 @@
+{
+  "name": "Conversor de Terabyte a Bit de Loona",
+  "short_name": "Conversor de terabyte a bit",
+  "description": "Convierte terabytes a bits al instante. Fórmula exacta, una tabla de conversión completa de TB a bit, un ejemplo resuelto y preguntas frecuentes. Gratis, sin registro.",
+  "id": "/loona-calculators/es/terabytes-to-bits-converter.html",
+  "start_url": "./terabytes-to-bits-converter.html",
+  "scope": "./terabytes-to-bits-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

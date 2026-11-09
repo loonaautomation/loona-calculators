@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Generador de frases de contraseña — Contraseñas de palabras memorables (estilo Diceware) | Loona</title>
+<meta name="description" content="Generador gratuito de frases de contraseña: crea frases de contraseña fuertes y memorables desde palabras reales aleatorias, con opciones de número de palabras, separador, mayúsculas y números. Funciona en tu navegador.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/es/passphrase-generator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/passphrase-generator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/passphrase-generator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/passphrase-generator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/passphrase-generator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/passphrase-generator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/passphrase-generator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/passphrase-generator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Generador de frases de contraseña — Contraseñas de palabras memorables (estilo Diceware) | Loona">
+<meta property="og:description" content="Generador gratuito de frases de contraseña: crea frases de contraseña fuertes y memorables desde palabras reales aleatorias, con opciones de número de palabras, separador, mayúsculas y números. Funciona en tu navegador.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/es/passphrase-generator/"><meta property="og:locale" content="es_ES">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Generador de frases de contraseña — Contraseñas de palabras memorables (estilo Diceware) | Loona">
+<meta name="twitter:description" content="Generador gratuito de frases de contraseña: crea frases de contraseña fuertes y memorables desde palabras reales aleatorias, con opciones de número de palabras, separador, mayúsculas y números. Funciona en tu navegador.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Generador de frases de contraseña de Loona","url":"https://loonaautomation.github.io/loona-calculators/es/passphrase-generator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"¿En qué se diferencia esto del Generador de contraseñas de Loona Text Tools?","acceptedAnswer":{"@type":"Answer","text":"Esa herramienta crea contraseñas de caracteres (letras, dígitos y símbolos aleatorios de una longitud fijada). Esta crea frases de contraseña con palabras, un formato diferente y deliberadamente memorable popularizado por Diceware y recomendado por las guías de seguridad para humanos. Son herramientas separadas para preferencias separadas; mucha gente usa frases de contraseña como contraseñas maestras y contraseñas de caracteres en un gestor."}},{"@type":"Question","name":"¿Qué tan segura es una frase de contraseña de palabras?","acceptedAnswer":{"@type":"Answer","text":"La fuerza viene de la aleatoriedad y del número de palabras: cada palabra de una lista de 160 palabras añade unos 7.3 bits de entropía, así que 5 palabras ≈ 37 bits y 7 palabras ≈ 51 bits, antes de las variaciones de separador/mayúsculas/números. Para las cuentas más críticas, usa más palabras."}},{"@type":"Question","name":"¿Las palabras se eligen realmente al azar?","acceptedAnswer":{"@type":"Answer","text":"Sí — unos números aleatorios de grado criptográfico eligen cada palabra de forma independiente, con reposición, así que las repeticiones son posibles y todas las combinaciones son igual de probables."}},{"@type":"Question","name":"¿Debo usar una frase de contraseña que generé aquí para la banca?","acceptedAnswer":{"@type":"Answer","text":"Las frases generadas nunca se almacenan ni se transmiten, y las matemáticas son sólidas, pero para cuentas críticas, generar dentro de tu gestor de contraseñas es el estándar de oro. Esta herramienta es ideal para aprender el formato y para inicios de sesión de menor riesgo."}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/es/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Generador de frases de contraseña",
+      "item": "https://loonaautomation.github.io/loona-calculators/es/passphrase-generator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Logotipo de Loona Automation">
+<div class="brand">Loona <span>Calculadoras</span></div>
+<nav>
+<a href="../">Inicio</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">Sobre</a>
+<a href="../contact.html">Contacto</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › Diversión › Generador de frases de contraseña</div>
+<h1 class="pagetitle">🔑 Generador de frases de contraseña</h1>
+<p class="lead">Genera una contraseña fuerte que sí puedas recordar: una cadena de palabras reales elegidas al azar, estilo Diceware. Elige cuántas palabras, el separador, las mayúsculas y si añades un número.</p>
+<div class="exbox"><strong>Respuesta rápida:</strong> Una frase de contraseña de 5 palabras sacada de la lista de más de 160 palabras de esta página tiene unas 160^5 ≈ 10^11 combinaciones antes de las opciones de mayúsculas y números — fuerte por su longitud, pero mucho más fácil de escribir y recordar que caracteres aleatorios.</div>
+<div class="toolbox"><form class="calcform" id="ppForm">
+<div class="fld"><label for="ppCount">Número de palabras</label><select id="ppCount"><option>4</option><option selected>5</option><option>6</option><option>7</option><option>8</option></select></div>
+<div class="fld"><label for="ppSep">Separador</label><select id="ppSep"><option value="-">Guion (-)</option><option value=" ">Espacio</option><option value="_">Guión bajo (_)</option><option value="">Ninguno</option></select></div>
+<div class="fld"><label><input type="checkbox" id="ppCap" checked style="width:auto;margin-right:8px">Pon en mayúscula cada palabra</label></div>
+<div class="fld"><label><input type="checkbox" id="ppNum" checked style="width:auto;margin-right:8px">Añade un número aleatorio al final</label></div>
+<button class="calcbtn" type="submit">🔑 Genera una frase de contraseña</button>
+<div class="calcresult" id="ppResult" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>Cómo usar el Generador de Frases de Contraseña</h2><ol><li>Elige el número de palabras (4–8; 5 o 6 es un buen valor predeterminado).</li><li>Elige un separador y si quieres poner cada palabra en mayúscula inicial o añadir un número aleatorio.</li><li>Pulsa Generar: pulsa otra vez para obtener una frase nueva. No se almacena ni se envía nada a ninguna parte.</li></ol>
+<div class="exbox"><strong>Ejemplo:</strong> Una frase de contraseña generada podría verse así: Copper-Willow-Anchor-Planet-Ember-42 — seis palabras, con mayúsculas, separadas por guiones, con un número al final.</div>
+<h2>Preguntas frecuentes</h2></section><div class="faq"><h3>¿En qué se diferencia esto del Generador de contraseñas de Loona Text Tools?</h3><p>Esa herramienta crea contraseñas de caracteres (letras, dígitos y símbolos aleatorios de una longitud fijada). Esta crea frases de contraseña con palabras, un formato diferente y deliberadamente memorable popularizado por Diceware y recomendado por las guías de seguridad para humanos. Son herramientas separadas para preferencias separadas; mucha gente usa frases de contraseña como contraseñas maestras y contraseñas de caracteres en un gestor.</p></div><div class="faq"><h3>¿Qué tan segura es una frase de contraseña de palabras?</h3><p>La fuerza viene de la aleatoriedad y del número de palabras: cada palabra de una lista de 160 palabras añade unos 7.3 bits de entropía, así que 5 palabras ≈ 37 bits y 7 palabras ≈ 51 bits, antes de las variaciones de separador/mayúsculas/números. Para las cuentas más críticas, usa más palabras.</p></div><div class="faq"><h3>¿Las palabras se eligen realmente al azar?</h3><p>Sí — unos números aleatorios de grado criptográfico eligen cada palabra de forma independiente, con reposición, así que las repeticiones son posibles y todas las combinaciones son igual de probables.</p></div><div class="faq"><h3>¿Debo usar una frase de contraseña que generé aquí para la banca?</h3><p>Las frases generadas nunca se almacenan ni se transmiten, y las matemáticas son sólidas, pero para cuentas críticas, generar dentro de tu gestor de contraseñas es el estándar de oro. Esta herramienta es ideal para aprender el formato y para inicios de sesión de menor riesgo.</p></div>
+<h2 class="sec">Calculadoras relacionadas</h2><div class="grid"><a class="card" href="../random-number-generator/"><div class="ic">🎲</div><h3>Generador de números aleatorios</h3><p>Diversión</p></a><a class="card" href="../dice-roller/"><div class="ic">🎲</div><h3>Lanzador de dados</h3><p>Diversión</p></a><a class="card" href="../coin-flip/"><div class="ic">🪙</div><h3>Lanzamiento de moneda</h3><p>Diversión</p></a><a class="card" href="../lottery-number-generator/"><div class="ic">🍀</div><h3>Generador de números de lotería</h3><p>Diversión</p></a><a class="card" href="../love-calculator/"><div class="ic">❤️</div><h3>Calculadora del amor</h3><p>Diversión</p></a><a class="card" href="../random-number-generator/"><div class="ic">🎲</div><h3>Generador de números aleatorios</h3><p>Diversión</p></a></div>
+</div>
+<section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>Cómo funciona — la fórmula</h2>
+<p>Cada palabra se extrae de forma independiente y uniforme de la lista de palabras integrada de W palabras usando aleatoriedad de grado criptográfico, así que una frase de k palabras tiene <strong>W^k</strong> resultados equiprobables y entropía <strong>k × log₂(W)</strong> bits. Con W ≈ 160: log₂(160) ≈ 7.32 bits por palabra.</p>
+<h3>Ejemplo resuelto</h3><div class="exbox"><p><strong>Entradas:</strong> 6 palabras, tamaño de lista 160.</p><p><strong>Pasos:</strong> Combinaciones = 160^6 = 16,777,216 × 10^6 ≈ 1.68 × 10^13. Entropía = 6 × log₂(160) = 6 × 7.32 = 43.9 bits, antes de la incertidumbre extra derivada de la elección de mayúsculas y del número opcional de dos dígitos (×100 → unos +6.6 bits cuando está activado y es desconocido para un atacante).</p><p><strong>Resultado:</strong> Una frase de 6 palabras conlleva aproximadamente <strong>44–50 bits</strong> de entropía — fuerte para un secreto memorable.</p></div>
+
+</section>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Inserta esta calculadora en tu sitio web: gratis</h2>
+<p style="margin:0 0 12px;line-height:1.6">Añade esta calculadora a tu propio sitio web o blog: es completamente gratis, no requiere registro y siempre muestra la versión más reciente. Copia el código de abajo y pégalo en tu página donde quieras que aparezca la calculadora. Mantener la pequeña línea de crédito &ldquo;Powered by Loona Automation&rdquo; debajo del código incrustado ayuda a que esta herramienta siga siendo gratuita &mdash; pero puedes darle el estilo que quieras o quitarla; la herramienta funciona de las dos maneras.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/es/passphrase-generator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Passphrase Generator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Desarrollado por &lt;a href="https://loonaautomation.github.io/loona-calculators/es/passphrase-generator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; gratis Generador de frases de contraseña&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Copiar código de incrustación</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='Copiar código de inserción';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Calculadoras populares</h4><ul><li><a href="../age-calculator/">Calculadora de edad</a></li>
+<li><a href="../zakat-calculator/">Calculadora de Zakat</a></li>
+<li><a href="../cgpa-calculator/">Calculadora de CGPA</a></li>
+<li><a href="../percentage-calculator/">Calculadora de porcentajes</a></li>
+<li><a href="../hijri-date-converter/">Convertidor de fechas Hijri</a></li>
+<li><a href="../emi-calculator/">Calculadora de EMI y préstamos</a></li></ul></div>
+<div><h4>Más herramientas de Loona</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona Códigos QR</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Compresor de imágenes de Loona</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Asistente de IA de Loona</a></li>
+<li><a href="https://loonaautomation.github.io/">Todas las herramientas de Loona</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">Sobre</a></li>
+<li><a href="../contact.html">Contacto</a></li>
+<li><a href="../privacy-policy.html">Privacy Policy</a></li>
+<li><a href="../terms.html">Términos de uso</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — un <a href="https://loonaautomation.github.io/">Loona Automation</a> proyecto. Calculadoras en línea gratuitas, sin registro.
+Contacto: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+var PASSPHRASE_WORDS=["apple", "river", "mountain", "silver", "garden", "bridge", "harbor", "meadow", "velvet", "thunder", "copper", "marble", "sunset", "forest", "island", "breeze", "castle", "window", "planet", "rocket", "pencil", "notebook", "camera", "guitar", "violin", "trumpet", "banana", "orange", "lemon", "melon", "cherry", "walnut", "almond", "coffee", "cocoa", "honey", "pepper", "ginger", "valley", "desert", "ocean", "lagoon", "glacier", "volcano", "canyon", "prairie", "tundra", "jungle", "savanna", "oasis", "cliff", "cave", "reef", "wave", "storm", "cloud", "rain", "snow", "frost", "ember", "flame", "spark", "pearl", "ruby", "topaz", "opal", "jade", "amber", "coral", "ivory", "onyx", "quartz", "bronze", "iron", "steel", "nickel", "zinc", "linen", "cotton", "denim", "satin", "tulip", "daisy", "poppy", "violet", "jasmine", "laurel", "maple", "birch", "cedar", "pine", "oak", "elm", "falcon", "eagle", "heron", "raven", "sparrow", "robin", "finch", "osprey", "badger", "otter", "beaver", "lynx", "moose", "bison", "zebra", "giraffe", "panda", "koala", "lemur", "gecko", "viper", "salmon", "trout", "perch", "cod", "bass", "atlas", "comet", "orbit", "lunar", "solar", "astro", "cosmos", "nebula", "quasar", "meteor", "eclipse", "zenith", "aurora", "mirage", "tempest", "monsoon", "zephyr", "sailor", "anchor", "compass", "lantern", "beacon", "harbour", "voyage", "journey", "willow", "aspen", "rowan", "sorrel", "clover", "heather", "bracken", "nettle", "thistle", "kestrel", "merlin", "plover", "curlew", "avocet", "egret", "stork", "crane", "ibis"];
+function makePassphrase(count,sep,capitalise,addNumber,rng){
+  var rand=rng||function(max){var a=new Uint32Array(1);crypto.getRandomValues(a);return a[0]%max;};
+  if(count<3||count>12)return null;
+  var words=[];
+  for(var i=0;i<count;i++){var w=PASSPHRASE_WORDS[rand(PASSPHRASE_WORDS.length)];if(capitalise)w=w.charAt(0).toUpperCase()+w.slice(1);words.push(w);}
+  var phrase=words.join(sep);
+  if(addNumber)phrase+= (sep?sep:"") + rand(100);
+  return phrase;
+}
+function passphraseEntropy(count){return count*Math.log2(PASSPHRASE_WORDS.length);}
+/*TESTABLE_END*/
+document.getElementById('ppForm').addEventListener('submit',function(e){e.preventDefault();
+ var n=parseInt(document.getElementById('ppCount').value,10);
+ var phrase=makePassphrase(n,document.getElementById('ppSep').value,document.getElementById('ppCap').checked,document.getElementById('ppNum').checked);
+ var box=document.getElementById('ppResult'); box.style.display='block';
+ box.innerHTML='<div class="resbig"><span>Tu frase de contraseña</span><strong style="font-size:17px;word-break:break-all">'+phrase+'</strong></div>'
+ +'<p class="resnote">Unos '+passphraseEntropy(n).toFixed(1)+' bits de entropía solo de las palabras (lista de '+PASSPHRASE_WORDS.length+' palabras). Generada localmente: no se guarda ni se envía nada. Pulsa Generar para obtener otra.</p>';});
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Instalar aplicación';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Instala esta aplicación: toca el botón Compartir y luego elige "Añadir a pantalla de inicio".');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

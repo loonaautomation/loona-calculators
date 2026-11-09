@@ -1,0 +1,29 @@
+{
+  "name": "Generador de calendarios imprimibles de Loona",
+  "short_name": "Generador de calendarios imprimibles",
+  "description": "Generador gratuito de calendarios imprimibles: elige cualquier mes y año (o un año completo) y genera una cuadrícula de calendario limpia que puedes imprimir. Inicio en lunes o domingo.",
+  "id": "/loona-calculators/es/printable-calendar-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora de Promedios de Loona",
+  "short_name": "Calculadora de promedios",
+  "description": "Calculadora gratuita de promedios: pega una lista de números para obtener la media, la mediana, la moda, la suma, el recuento, el mínimo, el máximo y el rango, al instante, para hasta 50 números.",
+  "id": "/loona-calculators/es/average-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

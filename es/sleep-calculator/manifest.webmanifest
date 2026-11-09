@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora de sueño de Loona",
+  "short_name": "Calculadora de sueño",
+  "description": "Calculadora gratuita del sueño: introduce una hora de despertar para obtener las mejores horas de acostarse, o una hora de acostarse para obtener las mejores horas de despertar, basada en ciclos de sueño de 90 minutos más el tiempo para dormirse.",
+  "id": "/loona-calculators/es/sleep-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

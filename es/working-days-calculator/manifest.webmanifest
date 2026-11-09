@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora de días laborables de Loona",
+  "short_name": "Calculadora de días laborables",
+  "description": "Calculadora gratuita de días laborables: cuenta los días totales, los días laborables (de lunes a viernes) y los días de fin de semana entre dos fechas cualesquiera. Para vacaciones, plazos y planes de proyecto.",
+  "id": "/loona-calculators/es/working-days-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

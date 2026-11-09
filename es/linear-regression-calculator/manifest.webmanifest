@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora de regresión lineal de Loona",
+  "short_name": "Calculadora de Regresión Lineal",
+  "description": "Calculadora gratuita de regresión lineal: pega datos emparejados para obtener la recta de mínimos cuadrados y = a + bx, la correlación, predicciones y un gráfico de dispersión con la recta ajustada dibujada.",
+  "id": "/loona-calculators/es/linear-regression-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Rueda de nombres",
+  "short_name": "Rueda de nombres",
+  "description": "Rueda de nombres gratuita: añade nombres, gira la rueda de colores y elige un ganador realmente aleatorio para rifas, aulas y sorteos. Sin registro, funciona en tu navegador.",
+  "id": "/loona-calculators/es/wheel-of-names/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

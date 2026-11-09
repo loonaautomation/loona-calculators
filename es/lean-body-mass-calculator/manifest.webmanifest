@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora de masa corporal magra de Loona",
+  "short_name": "Calculadora de Masa Corporal Magra",
+  "description": "Calculadora gratuita de masa corporal magra usando las fórmulas de Boer, James y Hume desde el peso, la altura y el sexo: no hacen falta cintas métricas. Estimación educativa.",
+  "id": "/loona-calculators/es/lean-body-mass-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

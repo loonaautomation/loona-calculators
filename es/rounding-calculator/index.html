@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculadora de redondeo — Redondea a decimales, millares y cifras significativas | Loona</title>
+<meta name="description" content="Calculadora gratuita de redondeo: redondea cualquier número a decimales, al 10, 100 o 1,000 más cercano, o a cifras significativas, con la regla explicada.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/es/rounding-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/rounding-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/rounding-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/rounding-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/rounding-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/rounding-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/rounding-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/rounding-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Calculadora de redondeo — Redondea a decimales, millares y cifras significativas | Loona">
+<meta property="og:description" content="Calculadora gratuita de redondeo: redondea cualquier número a decimales, al 10, 100 o 1,000 más cercano, o a cifras significativas, con la regla explicada.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/es/rounding-calculator/"><meta property="og:locale" content="es_ES">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Calculadora de redondeo — Redondea a decimales, millares y cifras significativas | Loona">
+<meta name="twitter:description" content="Calculadora gratuita de redondeo: redondea cualquier número a decimales, al 10, 100 o 1,000 más cercano, o a cifras significativas, con la regla explicada.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Calculadora de redondeo de Loona","url":"https://loonaautomation.github.io/loona-calculators/es/rounding-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"¿Qué es redondear la mitad hacia arriba?","acceptedAnswer":{"@type":"Answer","text":"Cuando la parte descartada es exactamente la mitad (un 5 seguido de nada), el número se redondea hacia arriba, alejándose de cero para los positivos. Es la convención que se enseña en las escuelas y se usa en la mayoría de los contextos cotidianos. El redondeo bancario (la mitad al par) existe en finanzas e informática, pero no es el predeterminado aquí."}},{"@type":"Question","name":"¿Qué son las cifras significativas?","acceptedAnswer":{"@type":"Answer","text":"Dígitos que aportan significado, contados desde el primer dígito distinto de cero. 0.004560 tiene 4 cifras significativas (4, 5, 6 y el 0 final). Redondear a cifras significativas mantiene la precisión proporcional al tamaño del número, y por eso los científicos lo prefieren."}},{"@type":"Question","name":"¿Cómo redondeo al millar más cercano?","acceptedAnswer":{"@type":"Answer","text":"Eso es redondear en el valor posicional −3: observa el dígito de las centenas; 1,234 tiene como dígito de centenas el 2, así que redondea hacia abajo a 1,000, mientras que 1,567 redondea hacia arriba a 2,000."}},{"@type":"Question","name":"¿Por qué los ordenadores pueden mostrar 2.675 como 2.67?","acceptedAnswer":{"@type":"Answer","text":"El binario de coma flotante no puede almacenar la mayoría de las fracciones decimales con exactitud, así que un código ingenuo a veces redondea «mal». Esta calculadora lo corrige con un épsilon diminuto para que las mitades exactas se comporten como espera la matemática escolar."}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/es/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Calculadora de redondeo",
+      "item": "https://loonaautomation.github.io/loona-calculators/es/rounding-calculator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Logotipo de Loona Automation">
+<div class="brand">Loona <span>Calculadoras</span></div>
+<nav>
+<a href="../">Inicio</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">Sobre</a>
+<a href="../contact.html">Contacto</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › Matemáticas › Calculadora de redondeo</div>
+<h1 class="pagetitle">🎯 Calculadora de redondeo</h1>
+<p class="lead">Redondea cualquier número de la forma escolar estándar — la mitad hacia arriba — a un número elegido de decimales, a la decena, centena o millar más cercano, o a un número determinado de cifras significativas.</p>
+<div class="exbox"><strong>Respuesta rápida:</strong> El redondeo observa el primer dígito que se elimina: 5 o más redondea hacia arriba, menos de 5 redondea hacia abajo. Así, 1,234.5678 se redondea a 1,234.57 con 2 decimales, a 1,230 al 10 más cercano, a 1,200 al 100 más cercano y a 1,235 con 4 cifras significativas.</div>
+<div class="toolbox"><form class="calcform" id="rdForm">
+<div class="fld"><label for="rdNum">Número</label><input type="number" id="rdNum" value="1234.5678" step="any"></div>
+<div class="fld"><label for="rdMode">Redondear a</label><select id="rdMode"><option value="dp">Decimales</option><option value="place">10 / 100 / 1,000 más cercano…</option><option value="sig">Cifras significativas</option></select></div>
+<div class="fld"><label for="rdPrec">Precisión (decimales / potencia de diez / cifras significativas)</label><input type="number" id="rdPrec" value="2" min="-10" max="15"></div>
+<button class="calcbtn" type="submit">Redondéalo</button>
+<div class="calcresult" id="rdResult" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>Cómo usar la Calculadora de Redondeo</h2><ol><li>Introduce el número a redondear.</li><li>Elige el modo de redondeo y la precisión.</li><li>Lee el resultado redondeado y la regla aplicada.</li></ol>
+<div class="exbox"><strong>Ejemplo:</strong> 1,234.5678: a 2 cifras decimales → 1,234.57; al 100 más cercano → 1,200; a 4 cifras significativas → 1,235 (como el 5.º dígito significativo es 5, el 4.º se redondea hacia arriba de 4 a 5 — dando 1,235).</div>
+<h2>Preguntas frecuentes</h2></section><div class="faq"><h3>¿Qué es redondear la mitad hacia arriba?</h3><p>Cuando la parte descartada es exactamente la mitad (un 5 seguido de nada), el número se redondea hacia arriba, alejándose de cero para los positivos. Es la convención que se enseña en las escuelas y se usa en la mayoría de los contextos cotidianos. El redondeo bancario (la mitad al par) existe en finanzas e informática, pero no es el predeterminado aquí.</p></div><div class="faq"><h3>¿Qué son las cifras significativas?</h3><p>Dígitos que aportan significado, contados desde el primer dígito distinto de cero. 0.004560 tiene 4 cifras significativas (4, 5, 6 y el 0 final). Redondear a cifras significativas mantiene la precisión proporcional al tamaño del número, y por eso los científicos lo prefieren.</p></div><div class="faq"><h3>¿Cómo redondeo al millar más cercano?</h3><p>Eso es redondear en el valor posicional −3: observa el dígito de las centenas; 1,234 tiene como dígito de centenas el 2, así que redondea hacia abajo a 1,000, mientras que 1,567 redondea hacia arriba a 2,000.</p></div><div class="faq"><h3>¿Por qué los ordenadores pueden mostrar 2.675 como 2.67?</h3><p>El binario de coma flotante no puede almacenar la mayoría de las fracciones decimales con exactitud, así que un código ingenuo a veces redondea «mal». Esta calculadora lo corrige con un épsilon diminuto para que las mitades exactas se comporten como espera la matemática escolar.</p></div>
+<h2 class="sec">Calculadoras relacionadas</h2><div class="grid"><a class="card" href="../percentage-calculator/"><div class="ic">％</div><h3>Calculadora de porcentajes</h3><p>Matemáticas</p></a><a class="card" href="../statistics-calculator/"><div class="ic">📊</div><h3>Calculadora de estadística</h3><p>Matemáticas</p></a><a class="card" href="../fraction-calculator/"><div class="ic">½</div><h3>Calculadora de fracciones</h3><p>Matemáticas</p></a><a class="card" href="../equation-solver/"><div class="ic">🧮</div><h3>Solucionador de ecuaciones</h3><p>Matemáticas</p></a><a class="card" href="../scientific-calculator/"><div class="ic">🔬</div><h3>Calculadora científica</h3><p>Matemáticas</p></a><a class="card" href="../average-calculator/"><div class="ic">📐</div><h3>Calculadora de promedios</h3><p>Matemáticas</p></a></div>
+</div>
+<section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>Cómo funciona — la fórmula</h2>
+<p><strong>Decimales:</strong> redondeado = round(x × 10ᵈ) ÷ 10ᵈ usando redondeo hacia arriba en los medios (con una corrección épsilon para el punto flotante binario). <strong>Valor posicional:</strong> la misma fórmula con d negativo — redondear al múltiplo de 100 más cercano es d = −2. <strong>Cifras significativas:</strong> si x ≠ 0, d = sig − 1 − floor(log₁₀|x|), luego aplica la regla de los decimales con ese d.</p>
+<h3>Ejemplo resuelto</h3><div class="exbox"><p><strong>Entradas:</strong> x = 1,234.5678.</p><p><strong>Pasos:</strong> 2 cifras decimales: 1,234.5678 × 100 = 123,456.78 → redondear → 123,457 → ÷ 100 = 1,234.57. 100 más cercano: 1,234.5678 ÷ 100 = 12.345678 → redondear → 12 → × 100 = 1,200. 4 cifras significativas: los primeros cuatro dígitos significativos son 1, 2, 3, 4 (el número hasta el lugar de las unidades, 1,234); el siguiente dígito es 5 (el dígito de las décimas), así que el dígito de las unidades se redondea hacia arriba de 4 a 5, dando 1,235. En términos de fórmula, floor(log₁₀ 1234.5678) = 3, así que d = 4 − 1 − 3 = 0 cifras decimales.</p><p><strong>Resultado:</strong> <strong>1,234.57</strong> (2 c.d.), <strong>1,200</strong> (redondeado al 100 más cercano), <strong>1,235</strong> (4 c.s.).</p></div>
+
+</section>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Inserta esta calculadora en tu sitio web: gratis</h2>
+<p style="margin:0 0 12px;line-height:1.6">Añade esta calculadora a tu propio sitio web o blog: es completamente gratis, no requiere registro y siempre muestra la versión más reciente. Copia el código de abajo y pégalo en tu página donde quieras que aparezca la calculadora. Mantener la pequeña línea de crédito &ldquo;Powered by Loona Automation&rdquo; debajo del código incrustado ayuda a que esta herramienta siga siendo gratuita &mdash; pero puedes darle el estilo que quieras o quitarla; la herramienta funciona de las dos maneras.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/es/rounding-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Rounding Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Desarrollado por &lt;a href="https://loonaautomation.github.io/loona-calculators/es/rounding-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; gratis Calculadora de redondeo&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Copiar código de incrustación</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='Copiar código de inserción';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Calculadoras populares</h4><ul><li><a href="../age-calculator/">Calculadora de edad</a></li>
+<li><a href="../zakat-calculator/">Calculadora de Zakat</a></li>
+<li><a href="../cgpa-calculator/">Calculadora de CGPA</a></li>
+<li><a href="../percentage-calculator/">Calculadora de porcentajes</a></li>
+<li><a href="../hijri-date-converter/">Convertidor de fechas Hijri</a></li>
+<li><a href="../emi-calculator/">Calculadora de EMI y préstamos</a></li></ul></div>
+<div><h4>Más herramientas de Loona</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona Códigos QR</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Compresor de imágenes de Loona</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Asistente de IA de Loona</a></li>
+<li><a href="https://loonaautomation.github.io/">Todas las herramientas de Loona</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">Sobre</a></li>
+<li><a href="../contact.html">Contacto</a></li>
+<li><a href="../privacy-policy.html">Privacy Policy</a></li>
+<li><a href="../terms.html">Términos de uso</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — un <a href="https://loonaautomation.github.io/">Loona Automation</a> proyecto. Calculadoras en línea gratuitas, sin registro.
+Contacto: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+function roundHalfUp(x){
+  var s=x<0?-1:1, ax=Math.abs(x);
+  return s*Math.floor(ax+0.5+1e-9);
+}
+function roundToDP(x,d){var f=Math.pow(10,d);return roundHalfUp(x*f)/f;}
+function roundToPlace(x,power){return roundToDP(x,-power);}
+function roundToSig(x,sig){
+  if(x===0)return 0;
+  var d=sig-1-Math.floor(Math.log10(Math.abs(x)));
+  return roundToDP(x,d);
+}
+/*TESTABLE_END*/
+document.getElementById('rdForm').addEventListener('submit',function(e){e.preventDefault();
+ var x=parseFloat(document.getElementById('rdNum').value), mode=document.getElementById('rdMode').value, p=parseInt(document.getElementById('rdPrec').value,10);
+ var box=document.getElementById('rdResult'); box.style.display='block';
+ if(!isFinite(x)||!isFinite(p)){box.innerHTML='<p class="err">Introduce un número y una precisión válidos.</p>';return;}
+ var r,label;
+ if(mode==='dp'){r=roundToDP(x,p);label=p+' decimales';}
+ else if(mode==='place'){r=roundToPlace(x,p);label='nearest 10^'+p;}
+ else{r=roundToSig(x,p);label=p+' cifras significativas';}
+ box.innerHTML='<div class="resbig"><span>Redondeado a '+label+'</span><strong>'+r.toLocaleString('en-US',{maximumFractionDigits:15})+'</strong></div>'
+ +'<p class="resnote">Regla de redondeo hacia arriba en los medios: una parte descartada de exactamente la mitad redondea hacia arriba.</p>';});
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Instalar aplicación';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Instala esta aplicación: toca el botón Compartir y luego elige "Añadir a pantalla de inicio".');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

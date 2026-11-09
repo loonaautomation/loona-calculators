@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora de reparto del alquiler de Loona",
+  "short_name": "Calculadora para dividir el alquiler",
+  "description": "Calculadora gratuita de división del alquiler: divide el alquiler mensual entre 2 y 8 compañeros de piso: a partes iguales, por tamaño de habitación en pies cuadrados o por ingresos. Las partes siempre suman el total exacto.",
+  "id": "/loona-calculators/es/rent-split-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

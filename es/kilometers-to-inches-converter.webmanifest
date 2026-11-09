@@ -1,0 +1,29 @@
+{
+  "name": "Conversor de kilómetro a pulgada de Loona",
+  "short_name": "Conversor de Kilómetro a Pulgada",
+  "description": "Convierte kilómetros a pulgadas al instante. Fórmula exacta, una tabla de conversión completa de km a in, un ejemplo resuelto y preguntas frecuentes. Gratis, sin registro.",
+  "id": "/loona-calculators/es/kilometers-to-inches-converter.html",
+  "start_url": "./kilometers-to-inches-converter.html",
+  "scope": "./kilometers-to-inches-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

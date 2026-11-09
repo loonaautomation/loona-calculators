@@ -1,0 +1,29 @@
+{
+  "name": "Loona Días laborables en Suecia",
+  "short_name": "Días laborables en Suecia",
+  "description": "Calculadora de días laborables para Suecia: cuenta los días laborables entre dos fechas con los fines de semana y los 13 festivos públicos suecos (días rojos) de 2026 eliminados. Gratis.",
+  "id": "/loona-calculators/es/working-days-in-sweden.html",
+  "start_url": "./working-days-in-sweden.html",
+  "scope": "./working-days-in-sweden.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Generador de números aleatorios de Loona",
+  "short_name": "Generador de números aleatorios",
+  "description": "Generador gratuito de números aleatorios usando la aleatoriedad segura del navegador. Elige números en cualquier rango, elige cuántos, con una opción de números únicos solamente.",
+  "id": "/loona-calculators/es/random-number-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

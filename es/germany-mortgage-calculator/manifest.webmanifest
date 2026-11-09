@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora de Hipotecas de Alemania de Loona",
+  "short_name": "Calculadora de hipotecas de Alemania",
+  "description": "Calculadora gratuita de hipotecas alemanas (Baufinanzierung) en euros: anualidad mensual a partir de la tasa de interés y la Tilgung inicial, deuda restante después del periodo fijo.",
+  "id": "/loona-calculators/es/germany-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

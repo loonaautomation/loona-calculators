@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora de fecha probable de parto por FIV de Loona",
+  "short_name": "Calculadora de Fecha de Parto por FIV",
+  "description": "Calculadora gratuita de fecha probable de parto por FIV: introduce la fecha de tu transferencia de embrión y la edad del embrión (día 3 o día 5) para obtener tu fecha probable de parto estimada y la edad gestacional actual.",
+  "id": "/loona-calculators/es/ivf-due-date-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

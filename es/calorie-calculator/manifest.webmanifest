@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora de Calorías de Loona",
+  "short_name": "Calculadora de calorías",
+  "description": "Calculadora gratuita de calorías: introduce tus datos, tu actividad y tu objetivo para obtener tu objetivo diario de calorías para perder, mantener o ganar peso, con un mínimo seguro.",
+  "id": "/loona-calculators/es/calorie-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

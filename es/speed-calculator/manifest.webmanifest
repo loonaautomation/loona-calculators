@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora de velocidad de Loona",
+  "short_name": "Calculadora de velocidad",
+  "description": "Calculadora gratuita de velocidad: introduce una distancia en kilómetros o millas y el tiempo empleado para obtener la velocidad en km/h y mph, además del ritmo por kilómetro y por milla.",
+  "id": "/loona-calculators/es/speed-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

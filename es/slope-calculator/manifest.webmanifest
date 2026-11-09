@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora de pendiente de Loona",
+  "short_name": "Calculadora de pendiente",
+  "description": "Calculadora gratuita de pendiente: introduce dos puntos para obtener la pendiente, la distancia entre ellos, el punto medio y la ecuación de la recta en forma pendiente-intersección, con el desarrollo.",
+  "id": "/loona-calculators/es/slope-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

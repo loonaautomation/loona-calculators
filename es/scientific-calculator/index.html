@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculadora científica — Sen, cos, tan, log y potencias en línea gratis | Loona Calculators</title>
+<meta name="description" content="Calculadora científica gratuita con sin, cos, tan y sus inversas, log y ln, potencias, raíces, factorial y porcentaje. Modos DEG/RAD y compatibilidad completa con teclado: sin registro.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/es/scientific-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/scientific-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/scientific-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/scientific-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/scientific-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/scientific-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/scientific-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/scientific-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Calculadora científica — Sen, cos, tan, log y potencias en línea gratis | Loona Calculators">
+<meta property="og:description" content="Calculadora científica gratuita con sin, cos, tan y sus inversas, log y ln, potencias, raíces, factorial y porcentaje. Modos DEG/RAD y compatibilidad completa con teclado: sin registro.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/es/scientific-calculator/"><meta property="og:locale" content="es_ES">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Calculadora científica — Sen, cos, tan, log y potencias en línea gratis | Loona Calculators">
+<meta name="twitter:description" content="Calculadora científica gratuita con sin, cos, tan y sus inversas, log y ln, potencias, raíces, factorial y porcentaje. Modos DEG/RAD y compatibilidad completa con teclado: sin registro.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Calculadora científica de Loona","url":"https://loonaautomation.github.io/loona-calculators/es/scientific-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"¿Cuál es la diferencia entre DEG y RAD?","acceptedAnswer":{"@type":"Answer","text":"DEG mide los ángulos en grados (una vuelta completa es 360°) y RAD los mide en radianes (una vuelta completa es 2π). Las matemáticas escolares y cotidianas suelen usar grados; las matemáticas avanzadas y la ciencia suelen usar radianes. Comprueba siempre el modo antes de usar sin, cos o tan: sin(30) es 0.5 en modo DEG pero aproximadamente −0.988 en modo RAD."}},{"@type":"Question","name":"¿Cómo calculo una potencia como 5 al cubo?","acceptedAnswer":{"@type":"Answer","text":"Toca 5, luego el botón xʸ, luego 3 y luego =. También puedes escribir 5^3 con tu teclado. El botón x² es un atajo que eleva al cuadrado el número anterior."}},{"@type":"Question","name":"¿Qué hace el botón %?","acceptedAnswer":{"@type":"Answer","text":"Divide el número que lo precede entre 100, así que 50% se convierte en 0.5 y 8% en 0.08. Por ejemplo, 200 × 8% = 16 — útil para cálculos rápidos de impuestos, propinas y descuentos. Para el cambio porcentual entre dos números, usa nuestra Calculadora de Porcentajes."}}]}</script>
+
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/es/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Calculadora científica",
+      "item": "https://loonaautomation.github.io/loona-calculators/es/scientific-calculator/"
+    }
+  ]
+}</script>
+
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Logotipo de Loona Automation">
+<div class="brand">Loona <span>Calculadoras</span></div>
+<nav>
+<a href="../">Inicio</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">Sobre</a>
+<a href="../contact.html">Contacto</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › Matemáticas › Calculadora científica</div>
+<h1 class="pagetitle">🧮 Calculadora científica</h1>
+<p class="lead">Una calculadora científica completa en tu navegador: funciones trigonométricas y sus inversas, logaritmos, potencias y raíces, factorial y porcentaje — con modos de ángulo DEG/RAD y soporte completo de teclado.</p>
+<div class="toolbox">
+<style>
+#sciDisp{width:100%;padding:14px 14px;border:1.5px solid var(--line);border-radius:10px;font-size:21px;text-align:right;background:#fbfdfd;font-family:ui-monospace,Menlo,Consolas,monospace;color:var(--teal)}
+#sciDisp:focus{outline:none;border-color:var(--gold)}
+.scikeys{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin-top:12px}
+.scikeys button{padding:12px 2px;font-size:15.5px;font-weight:700;border:1.5px solid var(--line);border-radius:10px;background:#fff;cursor:pointer;color:var(--teal)}
+.scikeys button:hover{border-color:var(--gold);background:#fdfaf1}
+.scikeys .sciop{background:#eef6f3}
+.scikeys .sciac{background:#fdecea;color:#8d2020}
+.scikeys .scieq{background:var(--gold);color:#231a00;font-size:19px}
+.scikeys .scieq:hover{background:var(--gold2);color:#fff}
+.scikeys .span2{grid-column:span 2}
+.scikeys .rowspan2{grid-row:span 2}
+#sciMsg{font-size:13.5px;color:var(--mut);margin-top:10px;min-height:18px}
+</style>
+<input id="sciDisp" type="text" autocomplete="off" spellcheck="false" placeholder="Escribe o toca: prueba sin(30) + 2^3">
+<div class="scikeys">
+<button type="button" id="sciMode" data-sci="mode">DEG</button>
+<button type="button" data-sci="(">(</button>
+<button type="button" data-sci=")">)</button>
+<button type="button" data-sci="back">⌫</button>
+<button type="button" class="sciac" data-sci="clr">AC</button>
+<button type="button" class="sciop" data-sci="sin(">sin</button>
+<button type="button" class="sciop" data-sci="cos(">cos</button>
+<button type="button" class="sciop" data-sci="tan(">tan</button>
+<button type="button" class="sciop" data-sci="pi">π</button>
+<button type="button" class="sciop" data-sci="e">e</button>
+<button type="button" class="sciop" data-sci="asin(">sin⁻¹</button>
+<button type="button" class="sciop" data-sci="acos(">cos⁻¹</button>
+<button type="button" class="sciop" data-sci="atan(">tan⁻¹</button>
+<button type="button" class="sciop" data-sci="!">n!</button>
+<button type="button" class="sciop" data-sci="%">%</button>
+<button type="button" class="sciop" data-sci="log(">log</button>
+<button type="button" class="sciop" data-sci="ln(">ln</button>
+<button type="button" class="sciop" data-sci="sqrt(">√</button>
+<button type="button" class="sciop" data-sci="^2">x²</button>
+<button type="button" class="sciop" data-sci="^">xʸ</button>
+<button type="button" data-sci="7">7</button>
+<button type="button" data-sci="8">8</button>
+<button type="button" data-sci="9">9</button>
+<button type="button" class="sciop" data-sci="/">÷</button>
+<button type="button" class="sciop" data-sci="*">×</button>
+<button type="button" data-sci="4">4</button>
+<button type="button" data-sci="5">5</button>
+<button type="button" data-sci="6">6</button>
+<button type="button" class="sciop" data-sci="-">−</button>
+<button type="button" class="sciop" data-sci="+">+</button>
+<button type="button" data-sci="1">1</button>
+<button type="button" data-sci="2">2</button>
+<button type="button" data-sci="3">3</button>
+<button type="button" class="sciop" data-sci="^(-1)">1/x</button>
+<button type="button" class="scieq rowspan2" data-sci="eq">=</button>
+<button type="button" class="span2" data-sci="0">0</button>
+<button type="button" data-sci=".">.</button>
+<button type="button" data-sci="00">00</button>
+</div>
+<div id="sciMsg">Toca DEG/RAD para cambiar el modo de ángulo. Tu teclado también funciona: escribe una expresión y pulsa Enter.</div>
+</div>
+<section class="txt"><h2>Cómo usar la Calculadora Científica</h2><ol><li>Toca los botones, o escribe directamente con tu teclado, para construir tu expresión, por ejemplo sin(30) + 2^3.</li><li>Usa el botón DEG/RAD para elegir cómo se miden los ángulos antes de usar sen, cos o tan.</li><li>Pulsa = (o Enter) para ver la respuesta. Puedes seguir calculando desde la respuesta, o pulsar AC para empezar de nuevo.</li></ol>
+<div class="exbox"><strong>Ejemplo:</strong> sin(30) en modo DEG = 0.5, y 2^3^2 = 512, porque las potencias se calculan primero desde la derecha (3² = 9, luego 2⁹ = 512).</div>
+<h2>Preguntas frecuentes</h2></section><div class="faq"><h3>¿Cuál es la diferencia entre DEG y RAD?</h3><p>DEG mide los ángulos en grados (una vuelta completa es 360°) y RAD los mide en radianes (una vuelta completa es 2π). Las matemáticas escolares y cotidianas suelen usar grados; las matemáticas avanzadas y la ciencia suelen usar radianes. Comprueba siempre el modo antes de usar sin, cos o tan: sin(30) es 0.5 en modo DEG pero aproximadamente −0.988 en modo RAD.</p></div><div class="faq"><h3>¿Cómo calculo una potencia como 5 al cubo?</h3><p>Toca 5, luego el botón xʸ, luego 3 y luego =. También puedes escribir 5^3 con tu teclado. El botón x² es un atajo que eleva al cuadrado el número anterior.</p></div><div class="faq"><h3>¿Qué hace el botón %?</h3><p>Divide el número que lo precede entre 100, así que 50% se convierte en 0.5 y 8% en 0.08. Por ejemplo, 200 × 8% = 16 — útil para cálculos rápidos de impuestos, propinas y descuentos. Para el cambio porcentual entre dos números, usa nuestra Calculadora de Porcentajes.</p></div>
+<h2 class="sec">Calculadoras relacionadas</h2><div class="grid"><a class="card" href="../percentage-calculator/"><div class="ic">％</div><h3>Calculadora de porcentajes</h3><p>Matemáticas</p></a><a class="card" href="../exponent-calculator/"><div class="ic">x²</div><h3>Calculadora de exponentes</h3><p>Matemáticas</p></a><a class="card" href="../square-root-calculator/"><div class="ic">√</div><h3>Calculadora de raíz cuadrada</h3><p>Matemáticas</p></a><a class="card" href="../fraction-calculator/"><div class="ic">🍕</div><h3>Calculadora de fracciones</h3><p>Matemáticas</p></a><a class="card" href="../statistics-calculator/"><div class="ic">📉</div><h3>Calculadora de estadística</h3><p>Matemáticas</p></a></div>
+</div>
+<section class="txt"><h2>Cómo funciona &mdash; las reglas que sigue</h2>
+<p>Esta calculadora lee tu expresión completa y la resuelve usando el orden estándar de las operaciones: las mismas reglas que se enseñan en la escuela:</p>
+<p><strong>1. Primero los paréntesis</strong> — todo lo que está dentro de ( ) se calcula antes que todo lo demás.<br>
+<strong>2. Potencias y raíces</strong> — xʸ, x² y √ vienen después. Las potencias son asociativas por la derecha: 2^3^2 significa 2^(3^2) = 512.<br>
+<strong>3. Multiplicación y división</strong> — × y ÷ se hacen de izquierda a derecha. También puedes escribir la multiplicación colocando las cosas una junto a otra, como 2π o 2(3 + 4).<br>
+<strong>4. Suma y resta</strong> — + y − se hacen al final, de izquierda a derecha.</p>
+<p>Funciones como sin, log y ln se aplican al valor entre sus paréntesis. log es base 10 (log 1000 = 3) y ln es el logaritmo natural, base e. El botón n! da el factorial —5! = 5 × 4 × 3 × 2 × 1 = 120— y funciona para números enteros desde 0 en adelante.</p>
+<h3>Ejemplo resuelto</h3>
+<div class="exbox"><strong>Ejemplo:</strong> Encuentra el lado más largo de un triángulo rectángulo de lados 3 y 4. Escribe √(3² + 4²): primero los paréntesis (9 + 16 = 25), después la raíz cuadrada: la respuesta es <strong>5</strong>. En el teclado: toca √, 3, x², +, 4, x², ), luego =.</div>
+<h3>Preguntas frecuentes</h3></section>
+<div class="faq"><h3>¿Por qué sen(30) dio la respuesta equivocada?</h3><p>Casi siempre es el modo de ángulo. Si la calculadora está en modo RAD, trata el 30 como 30 radianes, no como 30 grados. Toca el botón DEG/RAD para que muestre DEG y vuelve a intentarlo. El modo se muestra en el botón de la parte superior izquierda del teclado.</p></div>
+<div class="faq"><h3>¿Cómo calculo una raíz cúbica u otras raíces?</h3><p>Usa una potencia fraccionaria: la raíz cúbica de 27 es 27^(1/3) = 3. En general, la raíz n-ésima de un número x es x^(1/n). El botón √ cubre el caso común de la raíz cuadrada.</p></div>
+<div class="faq"><h3>¿Es gratuita esta calculadora y almacena mis cálculos?</h3><p>Sí, es completamente gratis y sin registro. Todo se calcula en tu propio navegador — tus expresiones nunca se envían a un servidor ni se almacenan en él.</p></div>
+
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Inserta esta calculadora en tu sitio web: gratis</h2>
+<p style="margin:0 0 12px;line-height:1.6">Añade esta calculadora a tu propio sitio web o blog: es completamente gratis, no requiere registro y siempre muestra la versión más reciente. Copia el código de abajo y pégalo en tu página donde quieras que aparezca la calculadora. Mantener la pequeña línea de crédito &ldquo;Powered by Loona Automation&rdquo; debajo del código incrustado ayuda a que esta herramienta siga siendo gratuita &mdash; pero puedes darle el estilo que quieras o quitarla; la herramienta funciona de las dos maneras.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/es/scientific-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Scientific Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Desarrollado por &lt;a href="https://loonaautomation.github.io/loona-calculators/es/scientific-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; gratis Calculadora científica&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Copiar código de incrustación</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='Copiar código de inserción';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Calculadoras populares</h4><ul><li><a href="../age-calculator/">Calculadora de edad</a></li>
+<li><a href="../zakat-calculator/">Calculadora de Zakat</a></li>
+<li><a href="../cgpa-calculator/">Calculadora de CGPA</a></li>
+<li><a href="../percentage-calculator/">Calculadora de porcentajes</a></li>
+<li><a href="../hijri-date-converter/">Convertidor de fechas Hijri</a></li>
+<li><a href="../emi-calculator/">Calculadora de EMI y préstamos</a></li></ul></div>
+<div><h4>Más herramientas de Loona</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona Códigos QR</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Compresor de imágenes de Loona</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Asistente de IA de Loona</a></li>
+<li><a href="https://loonaautomation.github.io/">Todas las herramientas de Loona</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">Sobre</a></li>
+<li><a href="../contact.html">Contacto</a></li>
+<li><a href="../privacy-policy.html">Privacy Policy</a></li>
+<li><a href="../terms.html">Términos de uso</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — un <a href="https://loonaautomation.github.io/">Loona Automation</a> proyecto. Calculadoras en línea gratuitas, sin registro.
+Contacto: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+/* Scientific Calculator — pure logic (also exported for node tests) */
+var SCI_FUNCS={sin:1,cos:1,tan:1,asin:1,acos:1,atan:1,log:1,ln:1,sqrt:1};
+function factorialSci(n){
+  if(n<0||Math.floor(n)!==n)throw new Error("El factorial necesita un número entero de 0 o más");
+  if(n>170)throw new Error("Factorial demasiado grande");
+  var r=1;for(var i=2;i<=n;i++)r*=i;return r;
+}
+function applyFuncSci(name,a,mode){
+  var deg=(mode==="DEG");
+  switch(name){
+    case "sin":return Math.sin(deg?a*Math.PI/180:a);
+    case "cos":return Math.cos(deg?a*Math.PI/180:a);
+    case "tan":return Math.tan(deg?a*Math.PI/180:a);
+    case "asin":var r=Math.asin(a);return deg?r*180/Math.PI:r;
+    case "acos":var r2=Math.acos(a);return deg?r2*180/Math.PI:r2;
+    case "atan":var r3=Math.atan(a);return deg?r3*180/Math.PI:r3;
+    case "log":return Math.log10(a);
+    case "ln":return Math.log(a);
+    case "sqrt":return Math.sqrt(a);
+  }
+  throw new Error("Unknown function "+name);
+}
+function tokenizeSci(src){
+  var s=String(src).replace(/×/g,"*").replace(/÷/g,"/").replace(/−/g,"-").replace(/π/g,"pi").replace(/√/g,"sqrt");
+  var toks=[],i=0;
+  while(i<s.length){
+    var ch=s[i];
+    if(ch===" "||ch==="\t"){i++;continue;}
+    if((ch>="0"&&ch<="9")||ch==="."){
+      var j=i,num="";
+      while(j<s.length&&((s[j]>="0"&&s[j]<="9")||s[j]===".")){num+=s[j];j++;}
+      var v=parseFloat(num);
+      if(isNaN(v))throw new Error("Número no válido: "+num);
+      toks.push({t:"num",v:v});i=j;continue;
+    }
+    if(ch>="a"&&ch<="z"){
+      var k=i,id="";
+      while(k<s.length&&s[k]>="a"&&s[k]<="z"){id+=s[k];k++;}
+      if(id==="pi")toks.push({t:"const",v:Math.PI});
+      else if(id==="e")toks.push({t:"const",v:Math.E});
+      else if(SCI_FUNCS[id])toks.push({t:"func",v:id});
+      else throw new Error("Nombre desconocido: "+id);
+      i=k;continue;
+    }
+    if("+-*/^!%()".indexOf(ch)>=0){toks.push({t:"op",v:ch});i++;continue;}
+    throw new Error("Carácter inesperado: "+ch);
+  }
+  return toks;
+}
+function evaluateExpression(src,mode){
+  var toks=tokenizeSci(src),pos=0;
+  function peek(){return toks[pos];}
+  function next(){return toks[pos++];}
+  function parseExpr(){
+    var v=parseTerm();
+    while(peek()&&peek().t==="op"&&(peek().v==="+"||peek().v==="-")){var op=next().v;var r=parseTerm();v=(op==="+")?v+r:v-r;}
+    return v;
+  }
+  function parseTerm(){
+    var v=parsePow();
+    while(peek()){
+      var tk=peek();
+      if(tk.t==="op"&&(tk.v==="*"||tk.v==="/")){next();var r=parsePow();v=(tk.v==="*")?v*r:v/r;}
+      else if(tk.t==="op"&&tk.v==="("||tk.t==="func"||tk.t==="const"){var r2=parsePow();v=v*r2;}
+      else break;
+    }
+    return v;
+  }
+  function parsePow(){
+    var base=parseUnary();
+    if(peek()&&peek().t==="op"&&peek().v==="^"){next();var ex=parsePow();return Math.pow(base,ex);}
+    return base;
+  }
+  function parseUnary(){
+    var tk=peek();
+    if(tk&&tk.t==="op"&&(tk.v==="-"||tk.v==="+")){next();var v=parseUnary();return tk.v==="-"?-v:v;}
+    return parsePostfix();
+  }
+  function parsePostfix(){
+    var v=parsePrimary();
+    while(peek()&&peek().t==="op"&&(peek().v==="!"||peek().v==="%")){var op=next().v;v=(op==="!")?factorialSci(v):v/100;}
+    return v;
+  }
+  function parsePrimary(){
+    var tk=next();
+    if(!tk)throw new Error("Fin inesperado de la expresión");
+    if(tk.t==="num"||tk.t==="const")return tk.v;
+    if(tk.t==="op"&&tk.v==="("){var v=parseExpr();var c=next();if(!c||c.v!==")")throw new Error("Falta un paréntesis de cierre");return v;}
+    if(tk.t==="func"){
+      var o=next();if(!o||o.v!=="(")throw new Error("Expected ( after "+tk.v);
+      var a=parseExpr();var cl=next();if(!cl||cl.v!==")")throw new Error("Falta un paréntesis de cierre");
+      return applyFuncSci(tk.v,a,mode);
+    }
+    throw new Error("Elemento inesperado: "+tk.v);
+  }
+  var val=parseExpr();
+  if(pos<toks.length)throw new Error("Entrada extra al final");
+  return val;
+}
+function formatSci(v){
+  if(typeof v!=="number"||isNaN(v))return "Error";
+  if(v===Infinity)return "Infinity";
+  if(v===-Infinity)return "-Infinity";
+  if(Math.abs(v)<1e-12)v=0;
+  return String(parseFloat(v.toPrecision(12)));
+}
+if(typeof module!=="undefined"&&module.exports){module.exports={evaluateExpression:evaluateExpression,formatSci:formatSci,tokenizeSci:tokenizeSci,factorialSci:factorialSci};}
+
+/* ---------- Browser wiring ---------- */
+if(typeof document!=="undefined"){
+  document.addEventListener("DOMContentLoaded",function(){
+    var disp=document.getElementById("sciDisp"),msg=document.getElementById("sciMsg"),modeBtn=document.getElementById("sciMode");
+    if(!disp)return;
+    var expr="",mode="DEG",fresh=false;
+    function pretty(e){return e.replace(/pi/g,"π").replace(/sqrt\(/g,"√(").replace(/\*/g,"×").replace(/\//g,"÷");}
+    function render(){disp.value=pretty(expr);disp.scrollLeft=disp.scrollWidth;}
+    function note(t){msg.textContent=t||"";}
+    function ins(txt){
+      if(fresh&&( /[0-9.]/.test(txt.charAt(0))||txt==="pi"||txt==="e" )){expr="";fresh=false;}
+      else fresh=false;
+      expr+=txt;note("");render();
+    }
+    function equals(){
+      if(!expr){note("Escribe o toca primero una expresión.");return;}
+      try{var v=evaluateExpression(expr,mode);expr=String(v);disp.value=formatSci(v);note("Answer in "+(mode==="DEG"?"modo grados (DEG)":"modo radianes (RAD)")+". Sigue escribiendo para continuar calculando.");fresh=true;}
+      catch(err){note("Error: "+err.message);}
+    }
+    document.querySelectorAll("[data-sci]").forEach(function(b){
+      b.addEventListener("click",function(){
+        var a=b.getAttribute("data-sci");
+        if(a==="eq")equals();
+        else if(a==="clr"){expr="";fresh=false;note("");render();}
+        else if(a==="back"){expr=expr.slice(0,-1);render();}
+        else if(a==="mode"){mode=(mode==="DEG")?"RAD":"DEG";modeBtn.textContent=mode;note("Modo de ángulo: "+(mode==="DEG"?"degrees":"radians")+".");}
+        else ins(a);
+      });
+    });
+    disp.addEventListener("input",function(){
+      expr=disp.value.replace(/π/g,"pi").replace(/×/g,"*").replace(/÷/g,"/").replace(/√/g,"sqrt").replace(/−/g,"-");
+      fresh=false;
+    });
+    disp.addEventListener("keydown",function(e){
+      if(e.key==="Enter"){e.preventDefault();equals();}
+      else if(e.key==="="){e.preventDefault();equals();}
+    });
+    render();
+  });
+}
+</script>
+
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Instalar aplicación';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Instala esta aplicación: toca el botón Compartir y luego elige "Añadir a pantalla de inicio".');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body></html>

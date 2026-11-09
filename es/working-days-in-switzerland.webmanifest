@@ -1,0 +1,29 @@
+{
+  "name": "Loona Días laborables en Suiza",
+  "short_name": "Días laborables en Suiza",
+  "description": "Calculadora de días laborables para Suiza: días laborables entre dos fechas menos los fines de semana y los 4 festivos públicos observados en cada cantón suizo en 2026.",
+  "id": "/loona-calculators/es/working-days-in-switzerland.html",
+  "start_url": "./working-days-in-switzerland.html",
+  "scope": "./working-days-in-switzerland.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Conversor de hora de Denver a Dubái de Loona",
+  "short_name": "Convertidor de hora de Denver a Dubái",
+  "description": "Convierte la hora de Denver a la hora de Dubái. Dubái está 11 horas por delante de Denver en enero y 10 horas por delante de en julio, con las fechas del horario de verano, una tabla de 24 horas y la mejor franja para reunirse. Conversor en vivo incluido.",
+  "id": "/loona-calculators/es/denver-to-dubai-time-converter.html",
+  "start_url": "./denver-to-dubai-time-converter.html",
+  "scope": "./denver-to-dubai-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

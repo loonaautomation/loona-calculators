@@ -1,0 +1,29 @@
+{
+  "name": "Generador de equipos aleatorios de Loona",
+  "short_name": "Generador de equipos aleatorios",
+  "description": "Generador gratuito de equipos aleatorios: pega una lista de nombres y divídelos en equipos aleatorios equilibrados para deportes, clases, juegos y talleres. Mezcla justa, sin registro.",
+  "id": "/loona-calculators/es/random-team-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

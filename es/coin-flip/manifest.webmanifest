@@ -1,0 +1,29 @@
+{
+  "name": "Lanzamiento de Moneda de Loona",
+  "short_name": "Lanzamiento de moneda",
+  "description": "Lanzamiento de moneda gratuito en línea: lanza una moneda virtual una vez o de diez en diez, con recuentos de caras/cruces, porcentajes, estadísticas de rachas y un modo de partida al mejor de.",
+  "id": "/loona-calculators/es/coin-flip/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

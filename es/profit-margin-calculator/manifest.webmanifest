@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora de margen de beneficio de Loona",
+  "short_name": "Calculadora de margen de beneficio",
+  "description": "Calculadora gratuita de margen de beneficio: introduce el precio de coste y el precio de venta para obtener el beneficio, el porcentaje de margen de beneficio y el porcentaje de recargo al instante. Para tiendas y vendedores en línea.",
+  "id": "/loona-calculators/es/profit-margin-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

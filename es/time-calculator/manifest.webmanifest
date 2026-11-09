@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora de tiempo de Loona",
+  "short_name": "Calculadora de tiempo",
+  "description": "Calculadora gratuita de tiempo: suma o resta horas, minutos y segundos entre dos duraciones. Perfecta para horas de trabajo, duraciones de vídeos, tiempo de viaje y horarios de estudio.",
+  "id": "/loona-calculators/es/time-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Días laborables en Chipre",
+  "short_name": "Días laborables en Chipre",
+  "description": "Calculadora de días laborables para Chipre: cuenta los días laborables entre dos fechas con los fines de semana y los 14 festivos públicos chipriotas de 2026 eliminados. Herramienta en línea gratuita.",
+  "id": "/loona-calculators/es/working-days-in-cyprus.html",
+  "start_url": "./working-days-in-cyprus.html",
+  "scope": "./working-days-in-cyprus.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

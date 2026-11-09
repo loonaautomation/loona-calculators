@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora de duración de tiempo de Loona",
+  "short_name": "Calculadora de duración de tiempo",
+  "description": "Calculadora gratuita de duración de tiempo: introduce una hora de inicio y de fin para obtener la duración en horas y minutos, el total de minutos y las horas decimales. Cuenta correctamente a través de la medianoche.",
+  "id": "/loona-calculators/es/time-duration-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

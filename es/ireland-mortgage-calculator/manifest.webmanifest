@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora de hipotecas de Irlanda de Loona",
+  "short_name": "Calculadora de Hipotecas de Irlanda",
+  "description": "Calculadora gratuita de hipotecas de Irlanda en euros: cuota mensual, interés total y fecha de fin de deuda para cualquier precio de vivienda, depósito, tasa de interés y plazo, además de una comparación de pagos extra.",
+  "id": "/loona-calculators/es/ireland-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

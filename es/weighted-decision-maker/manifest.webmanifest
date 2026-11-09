@@ -1,0 +1,29 @@
+{
+  "name": "Herramienta de decisiones ponderadas de Loona",
+  "short_name": "Tomador de decisiones ponderado",
+  "description": "Tomador de decisiones ponderado gratuito: enumera opciones con pesos y elige una con probabilidad proporcional a su peso. Muestra la probabilidad porcentual exacta de cada opción.",
+  "id": "/loona-calculators/es/weighted-decision-maker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

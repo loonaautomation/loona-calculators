@@ -1,0 +1,29 @@
+{
+  "name": "Conversor de Galones a Litros de Loona",
+  "short_name": "Convertidor de galones a litros",
+  "description": "Convierte galones (EE. UU.) a litros al instante. Fórmula exacta, una tabla de conversión completa de gal a L y ejemplos resueltos. Gratis, sin registro.",
+  "id": "/loona-calculators/es/gallons-to-liters-converter.html",
+  "start_url": "./gallons-to-liters-converter.html",
+  "scope": "./gallons-to-liters-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

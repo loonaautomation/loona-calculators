@@ -1,0 +1,29 @@
+{
+  "name": "Reloj mundial de Loona",
+  "short_name": "Reloj mundial",
+  "description": "Reloj mundial gratuito en vivo: la hora y la fecha locales actuales en 24 ciudades importantes, incluidas Londres, Nueva York, Dubái, Karachi y Tokio, actualizándose cada segundo mediante las zonas horarias.",
+  "id": "/loona-calculators/es/world-clock/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

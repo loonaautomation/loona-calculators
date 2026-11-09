@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora de porcentaje de calificaciones de Loona",
+  "short_name": "Calculadora de porcentaje de calificaciones",
+  "description": "Calculadora gratuita de porcentaje de notas: introduce las notas obtenidas y las totales para obtener tu porcentaje y tu nota al instante. Para secundaria, bachillerato, universidad y todos los exámenes.",
+  "id": "/loona-calculators/es/marks-percentage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

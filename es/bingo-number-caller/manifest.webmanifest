@@ -1,0 +1,29 @@
+{
+  "name": "Cantador de Números de Bingo de Loona",
+  "short_name": "Llamador de números de bingo",
+  "description": "Cantador gratuito de números de bingo para juegos de 75 bolas (B-I-N-G-O) y 90 bolas: extrae números sin repeticiones, muestra la bola actual en grande y sigue cada número cantado en un tablero.",
+  "id": "/loona-calculators/es/bingo-number-caller/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

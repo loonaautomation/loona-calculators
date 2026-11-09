@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora de ingesta de proteínas de Loona",
+  "short_name": "Calculadora de ingesta de proteínas",
+  "description": "Calculadora gratuita de ingesta de proteínas: gramos diarios de proteína desde el peso corporal, el nivel de actividad y el objetivo usando rangos en g/kg basados en la evidencia. Distinta de los repartos de macros basados en calorías.",
+  "id": "/loona-calculators/es/protein-intake-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

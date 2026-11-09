@@ -1,0 +1,29 @@
+{
+  "name": "Conversor de hora de Karachi a Mumbai de Loona",
+  "short_name": "Hora de Karachi a Mumbai",
+  "description": "Convierte la hora de Karachi a la hora de Bombay. Bombay está 0 horas y 30 minutos por delante de Karachi durante todo el año, con las fechas del horario de verano, una tabla de 24 horas y la mejor franja para reunirse. Conversor en vivo incluido.",
+  "id": "/loona-calculators/es/karachi-to-mumbai-time-converter.html",
+  "start_url": "./karachi-to-mumbai-time-converter.html",
+  "scope": "./karachi-to-mumbai-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

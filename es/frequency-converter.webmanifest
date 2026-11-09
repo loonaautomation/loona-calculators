@@ -1,0 +1,29 @@
+{
+  "name": "Conversor de Frecuencia de Loona",
+  "short_name": "Convertidor de frecuencia",
+  "description": "Cada par de conversión de frecuencia en un solo índice: factores exactos, fórmulas y una página de convertidor dedicada para cada par. Gratis, sin registro.",
+  "id": "/loona-calculators/es/frequency-converter.html",
+  "start_url": "./frequency-converter.html",
+  "scope": "./frequency-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

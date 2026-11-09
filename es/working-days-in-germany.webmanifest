@@ -1,0 +1,29 @@
+{
+  "name": "Loona Días laborables en Alemania",
+  "short_name": "Días laborables en Alemania",
+  "description": "Calculadora de días laborables para Alemania: cuenta los días laborables entre dos fechas con los fines de semana y los 9 festivos públicos alemanes de todo el país de 2026 eliminados.",
+  "id": "/loona-calculators/es/working-days-in-germany.html",
+  "start_url": "./working-days-in-germany.html",
+  "scope": "./working-days-in-germany.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

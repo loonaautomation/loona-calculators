@@ -1,0 +1,29 @@
+{
+  "name": "Conversor de kilómetro a yarda de Loona",
+  "short_name": "Conversor de Kilómetro a Yarda",
+  "description": "Convierte kilómetros a yardas al instante. Fórmula exacta, una tabla de conversión completa de km a yd, un ejemplo resuelto y preguntas frecuentes. Gratis, sin registro.",
+  "id": "/loona-calculators/es/kilometers-to-yards-converter.html",
+  "start_url": "./kilometers-to-yards-converter.html",
+  "scope": "./kilometers-to-yards-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

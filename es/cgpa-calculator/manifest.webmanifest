@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora de CGPA de Loona",
+  "short_name": "Calculadora de CGPA",
+  "description": "Calculadora gratuita de CGPA para estudiantes universitarios: introduce las notas de las asignaturas y las horas de crédito para obtener tu GPA del semestre, y añade tu CGPA anterior para el resultado acumulado. Escala de notas HEC.",
+  "id": "/loona-calculators/es/cgpa-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

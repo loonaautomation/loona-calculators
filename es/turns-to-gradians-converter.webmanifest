@@ -1,0 +1,29 @@
+{
+  "name": "Conversor de Turn a Gradian de Loona",
+  "short_name": "Conversor de Vuelta a Gradián",
+  "description": "Convierte vueltas a gradianes al instante. Fórmula exacta, una tabla de conversión completa de turn a gon, un ejemplo resuelto y preguntas frecuentes. Gratis, sin registro.",
+  "id": "/loona-calculators/es/turns-to-gradians-converter.html",
+  "start_url": "./turns-to-gradians-converter.html",
+  "scope": "./turns-to-gradians-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

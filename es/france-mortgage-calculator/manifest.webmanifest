@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora de Hipotecas de Francia de Loona",
+  "short_name": "Calculadora de hipotecas de Francia",
+  "description": "Calculadora gratuita de hipotecas de Francia en euros: cuota mensual con seguro del prestatario opcional (assurance emprunteur), interés total y fecha de fin de deuda para cualquier precio, depósito, tasa y plazo.",
+  "id": "/loona-calculators/es/france-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

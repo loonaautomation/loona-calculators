@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora de EMI de préstamos hipotecarios de la India de Loona",
+  "short_name": "Calculadora de EMI de Préstamos Hipotecarios de la India",
+  "description": "Calculadora gratuita de EMI de préstamos hipotecarios de la India en rupias: EMI mensual, interés total y fecha de fin de deuda para cualquier precio de vivienda, pago inicial, tasa de interés y plazo, además de una comparación de pagos anticipados.",
+  "id": "/loona-calculators/es/india-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

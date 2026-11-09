@@ -1,0 +1,29 @@
+{
+  "name": "Conversor de mililitro a pinta (líquido US) de Loona",
+  "short_name": "Mililitro a Pinta (US",
+  "description": "Convierte mililitros a pintas (líquidas de EE. UU.) al instante. Fórmula exacta, una tabla de conversión completa de mL a pt, un ejemplo resuelto y preguntas frecuentes. Gratis, sin registro.",
+  "id": "/loona-calculators/es/milliliters-to-pints-converter.html",
+  "start_url": "./milliliters-to-pints-converter.html",
+  "scope": "./milliliters-to-pints-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

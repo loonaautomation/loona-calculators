@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora de Hipotecas de Canadá de Loona",
+  "short_name": "Calculadora de hipotecas de Canadá",
+  "description": "Calculadora gratuita de hipotecas canadienses en CAD con la capitalización semestral correcta (j2), cuotas mensuales, interés total y una comparación de pagos extra.",
+  "id": "/loona-calculators/es/canada-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

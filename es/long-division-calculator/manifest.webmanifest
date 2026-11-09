@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora de división larga de Loona",
+  "short_name": "Calculadora de División Larga",
+  "description": "Calculadora gratuita de división larga que muestra cada paso: divide números con resto o decimales y mira el desarrollo escrito completo, dígito a dígito. Para estudiantes y profesores.",
+  "id": "/loona-calculators/es/long-division-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

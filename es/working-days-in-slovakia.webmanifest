@@ -1,0 +1,29 @@
+{
+  "name": "Loona Días laborables en Eslovaquia",
+  "short_name": "Días laborables en Eslovaquia",
+  "description": "Calculadora de días laborables para Eslovaquia: cuenta los días laborables entre dos fechas con los fines de semana y los 11 festivos públicos eslovacos de 2026 eliminados. Herramienta en línea gratuita.",
+  "id": "/loona-calculators/es/working-days-in-slovakia.html",
+  "start_url": "./working-days-in-slovakia.html",
+  "scope": "./working-days-in-slovakia.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora de macros de Loona",
+  "short_name": "Calculadora de macros",
+  "description": "Calculadora gratuita de macros: introduce tu objetivo diario de calorías y elige un reparto —Equilibrado, Alta proteína, Bajo en carbohidratos o Keto— para obtener carbohidratos, proteína y grasa en gramos por día.",
+  "id": "/loona-calculators/es/macro-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

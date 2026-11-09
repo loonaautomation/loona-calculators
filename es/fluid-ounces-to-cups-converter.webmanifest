@@ -1,0 +1,29 @@
+{
+  "name": "Conversor de Onzas Líquidas a Tazas de Loona",
+  "short_name": "Convertidor de onzas líquidas a tazas",
+  "description": "Convierte fluid ounces a tazas al instante. Fórmula exacta, una tabla de conversión completa de fl oz a cup y ejemplos resueltos. Gratis, sin registro.",
+  "id": "/loona-calculators/es/fluid-ounces-to-cups-converter.html",
+  "start_url": "./fluid-ounces-to-cups-converter.html",
+  "scope": "./fluid-ounces-to-cups-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

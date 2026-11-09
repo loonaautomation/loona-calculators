@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora de Hipotecas de Australia de Loona",
+  "short_name": "Calculadora de hipotecas de Australia",
+  "description": "Calculadora gratuita de préstamos hipotecarios australianos en AUD: cuotas mensuales, interés total y coste total, además de una comparación de pagos extra para terminar antes.",
+  "id": "/loona-calculators/es/australia-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

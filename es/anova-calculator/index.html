@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculadora de ANOVA de un factor — Estadístico F y valor P a partir de datos de grupos | Loona</title>
+<meta name="description" content="Calculadora gratuita de ANOVA de un factor: introduce los números de cada grupo en su propia línea para obtener las sumas de cuadrados, el estadístico F, los grados de libertad y el valor p, con las medias de los grupos.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/es/anova-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/anova-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/anova-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/anova-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/anova-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/anova-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/anova-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/anova-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Calculadora de ANOVA de un factor — Estadístico F y valor P a partir de datos de grupos | Loona">
+<meta property="og:description" content="Calculadora gratuita de ANOVA de un factor: introduce los números de cada grupo en su propia línea para obtener las sumas de cuadrados, el estadístico F, los grados de libertad y el valor p, con las medias de los grupos.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/es/anova-calculator/"><meta property="og:locale" content="es_ES">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Calculadora de ANOVA de un factor — Estadístico F y valor P a partir de datos de grupos | Loona">
+<meta name="twitter:description" content="Calculadora gratuita de ANOVA de un factor: introduce los números de cada grupo en su propia línea para obtener las sumas de cuadrados, el estadístico F, los grados de libertad y el valor p, con las medias de los grupos.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Calculadora de ANOVA de un factor de Loona","url":"https://loonaautomation.github.io/loona-calculators/es/anova-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"¿Por qué no hacer simplemente varias pruebas t?","acceptedAnswer":{"@type":"Answer","text":"Cada prueba t conlleva su propio riesgo de falso positivo; tres grupos significan tres pruebas y una tasa de error familiar de aproximadamente el 14% con α = 0.05 en lugar del 5%. ANOVA controla eso con una prueba global primero."}},{"@type":"Question","name":"¿Qué me dice un ANOVA significativo, y qué no me dice?","acceptedAnswer":{"@type":"Answer","text":"Dice que al menos una media de grupo difiere de las demás, pero no qué pares difieren. Continúa con comparaciones post-hoc (como la HSD de Tukey) para conocer la historia par por par."}},{"@type":"Question","name":"¿Qué supuestos hay debajo?","acceptedAnswer":{"@type":"Answer","text":"Observaciones independientes, datos aproximadamente normales dentro de cada grupo y varianzas similares entre grupos (homocedasticidad). Dispersiones muy desiguales o una asimetría marcada requieren alternativas como el ANOVA de Welch o Kruskal–Wallis."}},{"@type":"Question","name":"¿Qué son SS-entre y SS-dentro en palabras sencillas?","acceptedAnswer":{"@type":"Answer","text":"SS-dentro mide cuánto se dispersan los individuos alrededor de la media de su propio grupo (ruido). SS-entre mide cuánto se dispersan las medias de los grupos alrededor de la media general (señal, escalada por el tamaño del grupo). F es la razón señal-ruido tras ajustar por los grados de libertad."}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/es/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Calculadora de ANOVA de un factor",
+      "item": "https://loonaautomation.github.io/loona-calculators/es/anova-calculator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Logotipo de Loona Automation">
+<div class="brand">Loona <span>Calculadoras</span></div>
+<nav>
+<a href="../">Inicio</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">Sobre</a>
+<a href="../contact.html">Contacto</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › Matemáticas › Calculadora de ANOVA de un factor</div>
+<h1 class="pagetitle">🗂️ Calculadora de ANOVA de un factor</h1>
+<p class="lead">Introduce las mediciones de cada grupo en su propia línea y ejecuta un análisis de varianza de un factor: ¿difieren las medias de los grupos más de lo que la dispersión dentro de los grupos puede explicar? Obtén SS-entre, SS-dentro, el estadístico F y su valor p.</p>
+<div class="exbox"><strong>Respuesta rápida:</strong> ANOVA compara la varianza entre las medias de grupo con la varianza dentro de los grupos: F = (SS-entre ÷ gl-entre) ÷ (SS-dentro ÷ gl-dentro). Los grupos [1,2,3], [4,5,6], [7,8,9] dan F = 27 en (2, 6) gl, p ≈ 0.001.</div>
+<div class="toolbox"><form class="calcform" id="anForm">
+<div class="fld"><label for="anGroups">Grupos (un grupo por línea, números separados por espacios o comas)</label><textarea id="anGroups" rows="4" style="width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px">1 2 3
+4 5 6
+7 8 9</textarea></div>
+<button class="calcbtn" type="submit">Ejecutar ANOVA</button>
+<div class="calcresult" id="anResult" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>Cómo usar la Calculadora de ANOVA de Un Factor</h2><ol><li>Escribe los números de cada grupo en su propia línea, separados por espacios o comas.</li><li>Usa al menos 2 grupos con al menos 2 números cada uno.</li><li>Lee la tabla ANOVA: sumas de cuadrados, cuadrados medios, F y p.</li></ol>
+<div class="exbox"><strong>Ejemplo:</strong> Tres métodos de enseñanza puntuados [1,2,3], [4,5,6], [7,8,9] en un ejemplo de juguete: las medias de grupo (2, 5, 8) están muy separadas en relación con la ordenada dispersión dentro de cada grupo, así que F = 27 y p ≈ 0.001.</div>
+<h2>Preguntas frecuentes</h2></section><div class="faq"><h3>¿Por qué no hacer simplemente varias pruebas t?</h3><p>Cada prueba t conlleva su propio riesgo de falso positivo; tres grupos significan tres pruebas y una tasa de error familiar de aproximadamente el 14% con α = 0.05 en lugar del 5%. ANOVA controla eso con una prueba global primero.</p></div><div class="faq"><h3>¿Qué me dice un ANOVA significativo, y qué no me dice?</h3><p>Dice que al menos una media de grupo difiere de las demás, pero no qué pares difieren. Continúa con comparaciones post-hoc (como la HSD de Tukey) para conocer la historia par por par.</p></div><div class="faq"><h3>¿Qué supuestos hay debajo?</h3><p>Observaciones independientes, datos aproximadamente normales dentro de cada grupo y varianzas similares entre grupos (homocedasticidad). Dispersiones muy desiguales o una asimetría marcada requieren alternativas como el ANOVA de Welch o Kruskal–Wallis.</p></div><div class="faq"><h3>¿Qué son SS-entre y SS-dentro en palabras sencillas?</h3><p>SS-dentro mide cuánto se dispersan los individuos alrededor de la media de su propio grupo (ruido). SS-entre mide cuánto se dispersan las medias de los grupos alrededor de la media general (señal, escalada por el tamaño del grupo). F es la razón señal-ruido tras ajustar por los grados de libertad.</p></div>
+<h2 class="sec">Calculadoras relacionadas</h2><div class="grid"><a class="card" href="../percentage-calculator/"><div class="ic">％</div><h3>Calculadora de porcentajes</h3><p>Matemáticas</p></a><a class="card" href="../statistics-calculator/"><div class="ic">📊</div><h3>Calculadora de estadística</h3><p>Matemáticas</p></a><a class="card" href="../fraction-calculator/"><div class="ic">½</div><h3>Calculadora de fracciones</h3><p>Matemáticas</p></a><a class="card" href="../equation-solver/"><div class="ic">🧮</div><h3>Solucionador de ecuaciones</h3><p>Matemáticas</p></a><a class="card" href="../scientific-calculator/"><div class="ic">🔬</div><h3>Calculadora científica</h3><p>Matemáticas</p></a><a class="card" href="../average-calculator/"><div class="ic">📐</div><h3>Calculadora de promedios</h3><p>Matemáticas</p></a><a class="card" href="../z-score-calculator/"><div class="ic">🔔</div><h3>Calculadora de Puntuación Z</h3><p>Matemáticas</p></a><a class="card" href="../probability-calculator/"><div class="ic">🎲</div><h3>Calculadora de probabilidad</h3><p>Matemáticas</p></a></div>
+</div>
+<section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>Cómo funciona — la fórmula</h2>
+<p>Media general sobre todos los valores N. <strong>SS-entre = Σ nᵢ(mediaᵢ − general)²</strong> con df = grupos − 1. <strong>SS-within = Σ Σ (x − meanᵢ)²</strong> con df = N − grupos. <strong>F = (SS-entre ÷ gl-entre) ÷ (SS-dentro ÷ gl-dentro)</strong>, y el valor p es la cola derecha de la distribución F, calculado mediante la función beta incompleta.</p>
+<h3>Ejemplo resuelto</h3><div class="exbox"><p><strong>Entradas:</strong> grupos [1,2,3], [4,5,6], [7,8,9].</p><p><strong>Pasos:</strong> Medias de grupo 2, 5, 8; media general 5. SS-entre = 3×(2−5)² + 3×(5−5)² + 3×(8−5)² = 27 + 0 + 27 = 54. SS-dentro: cada grupo aporta (1² + 0² + 1²) = 2, así que 6. MS-entre = 54 ÷ 2 = 27; MS-dentro = 6 ÷ 6 = 1. F = 27 ÷ 1 = 27, gl (2, 6), p ≈ 0.0010.</p><p><strong>Resultado:</strong> F = <strong>27.00</strong>, p ≈ <strong>0.001</strong> — las medias de los grupos difieren mucho más allá del ruido dentro de los grupos.</p></div>
+
+</section>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Inserta esta calculadora en tu sitio web: gratis</h2>
+<p style="margin:0 0 12px;line-height:1.6">Añade esta calculadora a tu propio sitio web o blog: es completamente gratis, no requiere registro y siempre muestra la versión más reciente. Copia el código de abajo y pégalo en tu página donde quieras que aparezca la calculadora. Mantener la pequeña línea de crédito &ldquo;Powered by Loona Automation&rdquo; debajo del código incrustado ayuda a que esta herramienta siga siendo gratuita &mdash; pero puedes darle el estilo que quieras o quitarla; la herramienta funciona de las dos maneras.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/es/anova-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="One-Way ANOVA Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Desarrollado por &lt;a href="https://loonaautomation.github.io/loona-calculators/es/anova-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; gratis Calculadora de ANOVA de un factor&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Copiar código de incrustación</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='Copiar código de inserción';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Calculadoras populares</h4><ul><li><a href="../age-calculator/">Calculadora de edad</a></li>
+<li><a href="../zakat-calculator/">Calculadora de Zakat</a></li>
+<li><a href="../cgpa-calculator/">Calculadora de CGPA</a></li>
+<li><a href="../percentage-calculator/">Calculadora de porcentajes</a></li>
+<li><a href="../hijri-date-converter/">Convertidor de fechas Hijri</a></li>
+<li><a href="../emi-calculator/">Calculadora de EMI y préstamos</a></li></ul></div>
+<div><h4>Más herramientas de Loona</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona Códigos QR</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Compresor de imágenes de Loona</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Asistente de IA de Loona</a></li>
+<li><a href="https://loonaautomation.github.io/">Todas las herramientas de Loona</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">Sobre</a></li>
+<li><a href="../contact.html">Contacto</a></li>
+<li><a href="../privacy-policy.html">Privacy Policy</a></li>
+<li><a href="../terms.html">Términos de uso</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — un <a href="https://loonaautomation.github.io/">Loona Automation</a> proyecto. Calculadoras en línea gratuitas, sin registro.
+Contacto: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+/*TESTABLE_START*/
+function lgamma(x){
+  var c=[0.99999999999980993,676.5203681218851,-1259.1392167224028,771.32342877765313,-176.61502916214059,12.507343278686905,-0.13857109526572012,9.9843695780195716e-6,1.5056327351493116e-7];
+  if(x<0.5)return Math.log(Math.PI/Math.sin(Math.PI*x))-lgamma(1-x);
+  x-=1; var a=c[0], t=x+7.5;
+  for(var i=1;i<c.length;i++)a+=c[i]/(x+i);
+  return 0.5*Math.log(2*Math.PI)+(x+0.5)*Math.log(t)-t+Math.log(a);
+}
+function betacf(a,b,x){
+  var MAXIT=200,EPS=3e-12,FPMIN=1e-300;
+  var qab=a+b,qap=a+1,qam=a-1,c=1,d=1-qab*x/qap;
+  if(Math.abs(d)<FPMIN)d=FPMIN; d=1/d; var h=d;
+  for(var m=1;m<=MAXIT;m++){
+    var m2=2*m;
+    var aa=m*(b-m)*x/((qam+m2)*(a+m2));
+    d=1+aa*d; if(Math.abs(d)<FPMIN)d=FPMIN;
+    c=1+aa/c; if(Math.abs(c)<FPMIN)c=FPMIN;
+    d=1/d; h*=d*c;
+    aa=-(a+m)*(qab+m)*x/((a+m2)*(qap+m2));
+    d=1+aa*d; if(Math.abs(d)<FPMIN)d=FPMIN;
+    c=1+aa/c; if(Math.abs(c)<FPMIN)c=FPMIN;
+    d=1/d; var del=d*c; h*=del;
+    if(Math.abs(del-1)<EPS)break;
+  }
+  return h;
+}
+function betai(a,b,x){
+  if(x<=0)return 0; if(x>=1)return 1;
+  var bt=Math.exp(lgamma(a+b)-lgamma(a)-lgamma(b)+a*Math.log(x)+b*Math.log(1-x));
+  if(x<(a+1)/(a+b+2))return bt*betacf(a,b,x)/a;
+  return 1-bt*betacf(b,a,1-x)/b;
+}
+function normCdf(z){
+  var t=1/(1+0.2316419*Math.abs(z));
+  var poly=t*(0.319381530+t*(-0.356563782+t*(1.781477937+t*(-1.821255978+t*1.330274429))));
+  var phi=Math.exp(-z*z/2)/Math.sqrt(2*Math.PI);
+  var p=1-phi*poly;
+  return z>=0?p:1-p;
+}
+function normInv(p){
+  if(p<=0||p>=1)return NaN;
+  var a=[-3.969683028665376e+01,2.209460984245205e+02,-2.759285104469687e+02,1.383577518672690e+02,-3.066479806614716e+01,2.506628277459239e+00];
+  var b=[-5.447609879822406e+01,1.615858368580409e+02,-1.556989798598866e+02,6.680131188771972e+01,-1.328068155288572e+01];
+  var c=[-7.784894002430293e-03,-3.223964580411365e-01,-2.400758277161838e+00,-2.549732539343734e+00,4.374664141464968e+00,2.938163982698783e+00];
+  var d=[7.784695709041462e-03,3.224671290700398e-01,2.445134137142996e+00,3.754408661907416e+00];
+  var plow=0.02425, phigh=1-plow, q, r;
+  if(p<plow){q=Math.sqrt(-2*Math.log(p));return (((((c[0]*q+c[1])*q+c[2])*q+c[3])*q+c[4])*q+c[5])/((((d[0]*q+d[1])*q+d[2])*q+d[3])*q+1);}
+  if(p<=phigh){q=p-0.5;r=q*q;return (((((a[0]*r+a[1])*r+a[2])*r+a[3])*r+a[4])*r+a[5])*q/(((((b[0]*r+b[1])*r+b[2])*r+b[3])*r+b[4])*r+1);}
+  q=Math.sqrt(-2*Math.log(1-p));return -(((((c[0]*q+c[1])*q+c[2])*q+c[3])*q+c[4])*q+c[5])/((((d[0]*q+d[1])*q+d[2])*q+d[3])*q+1);
+}
+function tCdf(t,df){
+  var x=df/(df+t*t);
+  var ib=betai(df/2,0.5,x);
+  return t>=0?1-0.5*ib:0.5*ib;
+}
+function fCdf(f,d1,d2){
+  if(f<=0)return 0;
+  var x=(d1*f)/(d1*f+d2);
+  return betai(d1/2,d2/2,x);
+}
+function gammpSeries(a,x){
+  if(x===0)return 0;
+  var ap=a, sum=1/a, del=sum;
+  for(var n=1;n<=200;n++){ap++; del*=x/ap; sum+=del; if(Math.abs(del)<Math.abs(sum)*3e-12)break;}
+  return sum*Math.exp(-x+a*Math.log(x)-lgamma(a));
+}
+function gammqCf(a,x){
+  var FPMIN=1e-300, b=x+1-a, c=1/FPMIN, d=1/b, h=d;
+  for(var i=1;i<=200;i++){
+    var an=-i*(i-a); b+=2; d=an*d+b; if(Math.abs(d)<FPMIN)d=FPMIN;
+    c=b+an/c; if(Math.abs(c)<FPMIN)c=FPMIN;
+    d=1/d; var del=d*c; h*=del;
+    if(Math.abs(del-1)<3e-12)break;
+  }
+  return Math.exp(-x+a*Math.log(x)-lgamma(a))*h;
+}
+function gammp(a,x){if(x<0||a<=0)return NaN;return x<a+1?gammpSeries(a,x):1-gammqCf(a,x);}
+function chi2Cdf(x,df){if(x<=0)return 0;return gammp(df/2,x/2);}
+function factL(n){return Math.exp(lgamma(n+1));}
+function parseNums(s){var parts=String(s).split(/[\s,;]+/).filter(function(x){return x.length>0;});var out=[];for(var i=0;i<parts.length;i++){var v=Number(parts[i]);if(!isFinite(v))return null;out.push(v);}return out.length?out:null;}
+
+function anovaCalc(groups){
+  var g=groups.filter(function(x){return x&&x.length>=2;});
+  if(g.length<2)return null;
+  var all=[]; g.forEach(function(x){all=all.concat(x);});
+  var N=all.length, grand=all.reduce(function(a,b){return a+b;},0)/N;
+  var means=g.map(function(x){return x.reduce(function(a,b){return a+b;},0)/x.length;});
+  var ssb=0, ssw=0;
+  g.forEach(function(x,i){ssb+=x.length*Math.pow(means[i]-grand,2);x.forEach(function(v){ssw+=Math.pow(v-means[i],2);});});
+  var dfb=g.length-1, dfw=N-g.length;
+  if(dfw<=0||ssw===0)return null;
+  var F=(ssb/dfb)/(ssw/dfw);
+  return {ssb:ssb,ssw:ssw,dfb:dfb,dfw:dfw,F:F,p:1-fCdf(F,dfb,dfw),means:means,grand:grand};
+}
+/*TESTABLE_END*/
+document.getElementById('anForm').addEventListener('submit',function(e){e.preventDefault();
+ var lines=document.getElementById('anGroups').value.split(/\r?\n/).filter(function(l){return l.trim();});
+ var groups=lines.map(function(l){return parseNums(l);});
+ var r=groups.every(function(x){return x;})?anovaCalc(groups):null;
+ var box=document.getElementById('anResult'); box.style.display='block';
+ if(!r){box.innerHTML='<p class="err">Introduce al menos 2 grupos, cada uno con al menos 2 números, y algo de variación dentro de los grupos.</p>';return;}
+ box.innerHTML='<div class="resbig"><span>Estadístico F</span><strong>'+r.F.toFixed(4)+'</strong></div>'
+ +'<table class="restbl"><tr><td>SC entre (gl '+r.dfb+')</td><td><strong>'+r.ssb.toFixed(3)+'</strong></td></tr><tr><td>SC dentro (gl '+r.dfw+')</td><td><strong>'+r.ssw.toFixed(3)+'</strong></td></tr><tr><td>valor p</td><td><strong>'+r.p.toFixed(5)+'</strong></td></tr><tr><td>Medias de grupo</td><td><strong>'+r.means.map(function(m){return m.toFixed(2);}).join(", ")+'</strong></td></tr><tr><td>Veredicto (α=0.05)</td><td><strong>'+(r.p<0.05?'Significativo: al menos una media difiere':'Not significant')+'</strong></td></tr></table>';});
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Instalar aplicación';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Instala esta aplicación: toca el botón Compartir y luego elige "Añadir a pantalla de inicio".');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

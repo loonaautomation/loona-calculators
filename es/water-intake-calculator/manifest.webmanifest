@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora de ingesta de agua de Loona",
+  "short_name": "Calculadora de ingesta de agua",
+  "description": "Calculadora gratuita de ingesta de agua: introduce tu peso y tu ejercicio diario para obtener tu ingesta de agua recomendada en litros, mililitros y vasos por día.",
+  "id": "/loona-calculators/es/water-intake-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
