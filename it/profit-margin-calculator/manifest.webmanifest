@@ -1,0 +1,29 @@
+{
+  "name": "Calcolatore Loona del margine di profitto",
+  "short_name": "Calcolatore del margine di profitto",
+  "description": "Calcolatore gratuito del margine di profitto: inserisci prezzo di costo e prezzo di vendita per ottenere subito profitto, percentuale di margine di profitto e percentuale di markup. Per negozi e venditori online.",
+  "id": "/loona-calculators/it/profit-margin-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

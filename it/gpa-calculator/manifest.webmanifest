@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calcolatrice del GPA",
+  "short_name": "Calcolatore GPA",
+  "description": "Calcolatore GPA gratuito: inserisci fino a 8 corsi con voti in lettere (da A a F) e ore di credito per ottenere il tuo GPA sulla scala standard 4.0. Veloce, privato, senza registrazione.",
+  "id": "/loona-calculators/it/gpa-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Generatore di numeri EuroMillions",
+  "short_name": "Generatore di numeri EuroMillions",
+  "description": "Generatore di numeri EuroMillions gratuito: estrai 5 numeri principali da 50 più 2 Lucky Stars da 12, con fino a 5 righe alla volta. Estrazioni casuali sicure, senza registrazione.",
+  "id": "/loona-calculators/it/euromillions-number-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

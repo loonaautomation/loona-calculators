@@ -1,0 +1,29 @@
+{
+  "name": "Calcolatore Loona Schengen 90/180",
+  "short_name": "Calcolatore Schengen 90/180",
+  "description": "Calcolatore gratuito Schengen 90/180: inserisci viaggi passati e pianificati per vedere i giorni usati in qualsiasi finestra mobile di 180 giorni, i giorni rimanenti, avvisi di superamento e la reintroduzione sicura più vicina.",
+  "id": "/loona-calculators/it/schengen-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

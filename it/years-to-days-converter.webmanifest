@@ -1,0 +1,29 @@
+{
+  "name": "Convertitore Loona da anno (giuliano) a giorno",
+  "short_name": "Convertitore da Anno (giuliano) a Giorno",
+  "description": "Converti anni in giorni all'istante. Formula esatta, una tabella di conversione completa da yr a d, un esempio pratico e le FAQ. Gratuito, senza registrazione.",
+  "id": "/loona-calculators/it/years-to-days-converter.html",
+  "start_url": "./years-to-days-converter.html",
+  "scope": "./years-to-days-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

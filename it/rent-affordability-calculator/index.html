@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calcolatore di sostenibilità dell'affitto — Quanto affitto posso permettermi? | Loona Calculators</title>
+<meta name="description" content="Calcolatore gratuito della sostenibilità dell’affitto: inserisci il tuo reddito lordo, la quota che puoi spendere per l’affitto e i tuoi debiti mensili per vedere l’affitto massimo che puoi permetterti — con la linea guida 28/36.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/it/rent-affordability-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/rent-affordability-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/rent-affordability-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/rent-affordability-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/rent-affordability-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/rent-affordability-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/rent-affordability-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/rent-affordability-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Calcolatore di sostenibilità dell'affitto — Quanto affitto posso permettermi? | Loona Calculators">
+<meta property="og:description" content="Calcolatore gratuito della sostenibilità dell’affitto: inserisci il tuo reddito lordo, la quota che puoi spendere per l’affitto e i tuoi debiti mensili per vedere l’affitto massimo che puoi permetterti — con la linea guida 28/36.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/it/rent-affordability-calculator/"><meta property="og:locale" content="it_IT">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Calcolatore di sostenibilità dell'affitto — Quanto affitto posso permettermi? | Loona Calculators">
+<meta name="twitter:description" content="Calcolatore gratuito della sostenibilità dell’affitto: inserisci il tuo reddito lordo, la quota che puoi spendere per l’affitto e i tuoi debiti mensili per vedere l’affitto massimo che puoi permetterti — con la linea guida 28/36.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Calcolatore Loona dell'affitto sostenibile","url":"https://loonaautomation.github.io/loona-calculators/it/rent-affordability-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Quanto affitto posso permettermi con il mio stipendio?","acceptedAnswer":{"@type":"Answer","text":"Un punto di partenza comune è il 30% del tuo reddito mensile lordo — su Rs 1,50,000 sono Rs 45,000. Se hai altri debiti, la linea guida 28/36 è più sicura: mantieni l'affitto sotto il 28% del reddito, e affitto più debiti sotto il 36%. Questa calcolatrice mostra tutte e tre le cifre affiancate così puoi scegliere quella adatta alla tua situazione."}},{"@type":"Question","name":"Cos'è la regola 28/36?","acceptedAnswer":{"@type":"Answer","text":"È una linea guida usata da molti finanziatori. Il primo numero è il rapporto front-end: i costi abitativi (affitto, o mutuo più tasse e assicurazione) non dovrebbero superare il 28% del reddito lordo. Il secondo è il rapporto back-end: abitazione più tutti gli altri debiti ricorrenti — prestiti auto, carte di credito, prestiti personali — non dovrebbero superare il 36% del reddito lordo."}},{"@type":"Question","name":"Devo usare il reddito lordo o netto?","acceptedAnswer":{"@type":"Answer","text":"Le regole classiche sono scritte per il reddito lordo (prima delle tasse), ed è ciò che usa questo calcolatore. Se preferisci pianificare dal tuo stipendio netto, il risultato sarà semplicemente più severo — inserisci il tuo reddito netto e una percentuale leggermente più alta, e tratta la risposta come un tetto prudente piuttosto che un obiettivo."}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/it/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Calcolatore di sostenibilità dell'affitto",
+      "item": "https://loonaautomation.github.io/loona-calculators/it/rent-affordability-calculator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Logo di Loona Automation">
+<div class="brand">Loona <span>Calcolatrici</span></div>
+<nav>
+<a href="../">Home</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">Informazioni</a>
+<a href="../contact.html">Contatti</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › Denaro &amp; Finanza › Calcolatore di sostenibilità dell'affitto</div>
+<h1 class="pagetitle">🔑 Calcolatore di sostenibilità dell'affitto</h1>
+<p class="lead">L'affitto è di solito la bolletta più grande del mese, e firmare per una casa leggermente troppo cara rende ogni altra spesa una lotta. Inserisci il tuo reddito sotto e questo calcolatore mostra l'affitto massimo che puoi assumerti in sicurezza — usando la tua percentuale, più la linea guida 28/36 che usano i finanziatori.</p>
+<div class="toolbox"><form class="calcform" id="raForm">
+<div class="fld"><label for="raPeriod">Come viene inserito il reddito qui sotto?</label><select id="raPeriod"><option value="monthly">Reddito mensile</option><option value="yearly">Reddito annuo</option></select></div>
+<div class="fld"><label for="raIncome">Reddito lordo (prima delle imposte)</label><input type="number" step="any" min="0" id="raIncome" value="150000"></div>
+<div class="fld"><label for="raPct">Quota del reddito che puoi spendere per l'affitto (%)</label><input type="number" step="any" min="0" max="100" id="raPct" value="30"></div>
+<div class="fld"><label for="raDebts">Debiti mensili (rate di prestiti, carte di credito — escluso l'affitto)</label><input type="number" step="any" min="0" id="raDebts" value="0"></div>
+<button class="calcbtn" type="submit">Calcola l'affitto accessibile</button>
+</form>
+<div class="calcresult" id="raRes" style="display:none"></div></div>
+<section class="txt"><h2>Come usare la calcolatrice dell'affitto sostenibile</h2><ol><li>Inserisci il tuo reddito lordo e scegli se è la cifra mensile o quella annua.</li><li>Imposta la quota del tuo reddito che sei disposto a spendere per l'affitto: il 30% è il classico punto di partenza.</li><li>Aggiungi gli altri debiti mensili (rate di prestiti, carte di credito) se ne hai, poi premi Calculate.</li><li>Confronta le tre cifre: la tua percentuale, la linea guida abitativa del 28% e il limite del 36% dopo i debiti. Un affitto pari o inferiore alla più piccola di queste è la scelta sicura.</li></ol>
+<h2>Domande frequenti</h2></section><div class="faq"><h3>Quanto affitto posso permettermi con il mio stipendio?</h3><p>Un punto di partenza comune è il 30% del tuo reddito mensile lordo — su Rs 1,50,000 sono Rs 45,000. Se hai altri debiti, la linea guida 28/36 è più sicura: mantieni l'affitto sotto il 28% del reddito, e affitto più debiti sotto il 36%. Questa calcolatrice mostra tutte e tre le cifre affiancate così puoi scegliere quella adatta alla tua situazione.</p></div><div class="faq"><h3>Cos'è la regola 28/36?</h3><p>È una linea guida usata da molti finanziatori. Il primo numero è il rapporto front-end: i costi abitativi (affitto, o mutuo più tasse e assicurazione) non dovrebbero superare il 28% del reddito lordo. Il secondo è il rapporto back-end: abitazione più tutti gli altri debiti ricorrenti — prestiti auto, carte di credito, prestiti personali — non dovrebbero superare il 36% del reddito lordo.</p></div><div class="faq"><h3>Devo usare il reddito lordo o netto?</h3><p>Le regole classiche sono scritte per il reddito lordo (prima delle tasse), ed è ciò che usa questo calcolatore. Se preferisci pianificare dal tuo stipendio netto, il risultato sarà semplicemente più severo — inserisci il tuo reddito netto e una percentuale leggermente più alta, e tratta la risposta come un tetto prudente piuttosto che un obiettivo.</p></div>
+<h2 class="sec">Calcolatori correlati</h2><div class="grid"><a class="card" href="../rent-vs-buy-calculator/" data-name="rent vs buy calculator rent-vs-buy-calculator"><div class="ic">⚖️</div><h3>Calcolatore affitto o acquisto</h3><p>Calcolatore gratuito affitto vs acquisto: confronta il costo totale dell’affitto con l’acquisto di una casa negli anni in cui prevedi di restare.</p></a><a class="card" href="../rent-split-calculator/" data-name="rent split calculator rent-split-calculator"><div class="ic">🤝</div><h3>Calcolatore per dividere l'affitto</h3><p>Calcolatore gratuito di divisione dell’affitto: dividi l’affitto equamente tra coinquilini — in parti uguali, per dimensione della stanza o per reddito.</p></a><a class="card" href="../rent-increase-calculator/" data-name="rent increase calculator rent-increase-calculator"><div class="ic">📈</div><h3>Calcolatore dell'aumento dell'affitto</h3><p>Calcolatore gratuito dell’aumento dell’affitto: vedi il tuo nuovo affitto dopo un aumento percentuale, più una proiezione anno per anno.</p></a><a class="card" href="../mortgage-calculator/" data-name="mortgage calculator mortgage-calculator"><div class="ic">🏠</div><h3>Calcolatore dei mutui</h3><p>Calcolatore gratuito di mutui: prezzo della casa, acconto, tasso di interesse e durata — ottieni l’importo del prestito, la rata mensile, gli interessi totali e il costo totale della tua casa.</p></a><a class="card" href="../emi-calculator/" data-name="emi & loan calculator emi-calculator"><div class="ic">🏦</div><h3>Calcolatore EMI e prestiti</h3><p>Calcolatore EMI e prestiti gratuito: inserisci importo del prestito, tasso di interesse o profitto e durata per ottenere la tua rata mensile e il costo totale.</p></a></div>
+</div>
+<section class="txt"><h2>Come funziona — la formula</h2><p>La regola di base è una sola moltiplicazione: il canone che puoi permetterti è il tuo reddito mensile lordo moltiplicato per la percentuale che scegli. Il noto <strong>regola del 30%</strong> dice che l'abitazione non dovrebbe assorbire più di circa il 30% del reddito lordo. I finanziatori spesso usano la più rigorosa <strong>regola 28/36</strong> invece: i soli costi abitativi dovrebbero restare sotto il 28% del reddito lordo, e abitazione più ogni altro pagamento mensile di debiti sotto il 36% — quindi con i debiti, lo spazio rimasto per l'affitto è il 36% del reddito meno quei debiti.</p>
+<p><strong>Formula:</strong> Affitto massimo = reddito mensile lordo × percentuale ÷ 100. Margine posteriore (DTI) per l'affitto = reddito mensile lordo × 36% − debiti mensili.</p><h3>Esempio svolto</h3><div class="exbox"><p><strong>Input:</strong> Reddito lordo Rs 1,50,000 al mese; percentuale per l’affitto 30%; debiti mensili Rs 10,000.</p>
+<p><strong>Passaggi:</strong> 30% di Rs 1,50,000 = Rs 45,000, quindi in un anno sono Rs 45,000 × 12 = Rs 5,40,000. La linea guida del 28% dà Rs 42,000. Il limite del 36% sul back-end è Rs 54,000, meno gli Rs 10,000 di debiti = Rs 44,000.</p>
+<p><strong>Risultato:</strong> Affitto massimo <strong>Rs 45,000 al mese</strong> sulla tua percentuale — e le linee guida in stile finanziatore suggeriscono di restare più vicini <strong>Rs 42,000–44,000</strong>, restano Rs 1,05,000 del reddito per tutto il resto.</p></div><h3>Domande frequenti</h3></section><div class="faq"><h3>La regola del 30% funziona ancora nelle città costose?</h3><p>Nelle città con affitti alti molte persone spendono il 40–50% del reddito in affitto perché non c'è un'opzione più economica nelle vicinanze. La regola è una linea guida, non una legge — ma più la superi, più attentamente deve essere gestito il resto del bilancio, perché i soldi per risparmi, trasporti ed emergenze devono venire da ciò che resta.</p></div><div class="faq"><h3>E se il mio reddito cambia di mese in mese?</h3><p>Basa il calcolo su un mese prudente, non sul tuo migliore — ad esempio il mese tipico più basso degli ultimi tre, o una media di tre mesi ridotta un po'. L'affitto resta lo stesso in un mese cattivo, quindi il budget deve essere costruito sul reddito su cui puoi contare.</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Incorpora questo calcolatore nel tuo sito web — gratis</h2>
+<p style="margin:0 0 12px;line-height:1.6">Aggiungi questa calcolatrice al tuo sito web o blog — è completamente gratuita, non richiede registrazione e mostra sempre la versione più recente. Copia il codice qui sotto e incollalo nella tua pagina nel punto in cui vuoi che appaia la calcolatrice. Mantenere la piccola riga di credito &ldquo;Powered by Loona Automation&rdquo; sotto l'incorporamento aiuta a mantenere gratuito questo strumento &mdash; ma sei libero di personalizzarla o rimuoverla; lo strumento funziona in ogni caso.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/it/rent-affordability-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Rent Affordability Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Realizzato da &lt;a href="https://loonaautomation.github.io/loona-calculators/it/rent-affordability-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; gratuito Calcolatore di sostenibilità dell'affitto&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Copia il codice di incorporamento</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='Copia codice di incorporamento';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Calcolatori popolari</h4><ul><li><a href="../age-calculator/">Calcolatrice dell'età</a></li>
+<li><a href="../zakat-calculator/">Calcolatore della Zakat</a></li>
+<li><a href="../cgpa-calculator/">Calcolatrice CGPA</a></li>
+<li><a href="../percentage-calculator/">Calcolatore di percentuali</a></li>
+<li><a href="../hijri-date-converter/">Convertitore di data Hijri</a></li>
+<li><a href="../emi-calculator/">Calcolatore EMI e prestiti</a></li></ul></div>
+<div><h4>Altri strumenti Loona</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Codici QR Loona</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Compressore di immagini Loona</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona Assistente AI</a></li>
+<li><a href="https://loonaautomation.github.io/">Tutti gli strumenti Loona</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">Informazioni</a></li>
+<li><a href="../contact.html">Contatti</a></li>
+<li><a href="../privacy-policy.html">Informativa sulla privacy</a></li>
+<li><a href="../terms.html">Termini di utilizzo</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — un <a href="https://loonaautomation.github.io/">Loona Automation</a> progetto. Calcolatori online gratuiti, senza registrazione.
+Contatto: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+/* Rent Affordability — pure logic (unit-tested, inlined into the page) */
+function rentAffordability(grossMonthly, pct, debtsMonthly){
+  var maxRent = grossMonthly * pct / 100;
+  var guide28 = grossMonthly * 0.28;
+  var dti36 = grossMonthly * 0.36 - debtsMonthly;
+  if (dti36 < 0) dti36 = 0;
+  return {
+    maxMonthlyRent: maxRent,
+    maxYearlyRent: maxRent * 12,
+    guide28: guide28,
+    dti36: dti36,
+    leftAfterRent: grossMonthly - maxRent,
+    pctOfIncome: pct
+  };
+}
+function fmt(n){return "Rs " + Math.round(n).toLocaleString("en-IN");}
+function fmt2(n){return "Rs " + n.toLocaleString("en-IN",{minimumFractionDigits:2,maximumFractionDigits:2});}
+function pctFmt(n){return parseFloat(n.toFixed(2)) + "%";}
+function num(id){var v=parseFloat(document.getElementById(id).value);return isNaN(v)?0:v;}
+document.getElementById("raForm").addEventListener("submit", function(e){
+  e.preventDefault();
+  var res = document.getElementById("raRes");
+  var income = num("raIncome"), pct = num("raPct"), debts = num("raDebts");
+  if (income <= 0){ res.style.display = "block"; res.innerHTML = '<div class="err">Inserisci il tuo reddito lordo — deve essere maggiore di zero.</div>'; return; }
+  if (pct <= 0 || pct > 100){ res.style.display = "block"; res.innerHTML = '<div class="err">La percentuale dell\'affitto deve essere tra 1 e 100.</div>'; return; }
+  var monthly = document.getElementById("raPeriod").value === "yearly" ? income / 12 : income;
+  var r = rentAffordability(monthly, pct, debts);
+  res.style.display = "block";
+  res.innerHTML = '<div class="resbig"><span>Affitto mensile massimo che puoi permetterti</span><strong>' + fmt(r.maxMonthlyRent) + '</strong></div>'
+    + '<table class="restbl">'
+    + '<tr><td>Affitto annuale massimo (mensile × 12)</td><td>' + fmt(r.maxYearlyRent) + '</td></tr>'
+    + '<tr><td>Reddito mensile lordo usato</td><td>' + fmt(monthly) + '</td></tr>'
+    + '<tr><td>Linea guida front-end 28% (solo alloggio)</td><td>' + fmt(r.guide28) + '</td></tr>'
+    + '<tr><td>Limite back-end 36% dopo i tuoi debiti di ' + fmt(debts) + '/mese</td><td>' + fmt(r.dti36) + '</td></tr>'
+    + '<tr><td>Reddito rimanente dopo l\'affitto massimo</td><td>' + fmt(r.leftAfterRent) + '</td></tr>'
+    + '</table>'
+    + '<p class="resnote">La linea guida 28/36 usata dai finanziatori: l\'alloggio dovrebbe restare sotto il 28% del reddito lordo, e alloggio più tutti gli altri debiti mensili sotto il 36%. La tua percentuale potrebbe dare un affitto più alto o più basso di entrambi — il budget più sicuro mantiene l\'affitto pari o inferiore al più piccolo dei tre valori.</p>';
+});
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Installa app';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Installa questa app: tocca il pulsante Condividi, poi scegli "Aggiungi alla schermata Home".');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body></html>

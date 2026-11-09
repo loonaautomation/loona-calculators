@@ -1,0 +1,29 @@
+{
+  "name": "Loona Giorni mancanti al nuovo anno",
+  "short_name": "Giorni mancanti a Capodanno",
+  "description": "Conto alla rovescia in tempo reale per Capodanno: giorni, ore, minuti e secondi esatti rimanenti, la data di quest'anno e dei prossimi tre anni, curiosità e FAQ.",
+  "id": "/loona-calculators/it/days-until-new-year.html",
+  "start_url": "./days-until-new-year.html",
+  "scope": "./days-until-new-year.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Convertitore Loona da Tazze a Litri",
+  "short_name": "Convertitore da Tazze a Litri",
+  "description": "Converti tazze in litri all'istante. Formula esatta, una tabella di conversione completa da cup a L ed esempi pratici. Gratuito, senza registrazione.",
+  "id": "/loona-calculators/it/cups-to-liters-converter.html",
+  "start_url": "./cups-to-liters-converter.html",
+  "scope": "./cups-to-liters-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

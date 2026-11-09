@@ -1,0 +1,29 @@
+{
+  "name": "Calcolatore Loona dei logaritmi",
+  "short_name": "Calcolatrice dei logaritmi",
+  "description": "Calcolatore gratuito di logaritmi: trova il logaritmo in qualsiasi base, più il logaritmo comune (base 10), il logaritmo naturale (ln) e il logaritmo binario (base 2), ciascuno verificato dal suo antilogaritmo. Formula del cambio di base spiegata.",
+  "id": "/loona-calculators/it/logarithm-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

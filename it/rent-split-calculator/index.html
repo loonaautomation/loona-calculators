@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calcolatore per dividere l'affitto — Dividi l'affitto equamente tra coinquilini | Loona Calculators</title>
+<meta name="description" content="Calcolatore gratuito di divisione dell’affitto: dividi l’affitto mensile tra 2 e 8 coinquilini — in parti uguali, per dimensione della stanza in piedi quadrati o per reddito. Le quote sommano sempre esattamente al totale.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/it/rent-split-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/rent-split-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/rent-split-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/rent-split-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/rent-split-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/rent-split-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/rent-split-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/rent-split-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Calcolatore per dividere l'affitto — Dividi l'affitto equamente tra coinquilini | Loona Calculators">
+<meta property="og:description" content="Calcolatore gratuito di divisione dell’affitto: dividi l’affitto mensile tra 2 e 8 coinquilini — in parti uguali, per dimensione della stanza in piedi quadrati o per reddito. Le quote sommano sempre esattamente al totale.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/it/rent-split-calculator/"><meta property="og:locale" content="it_IT">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Calcolatore per dividere l'affitto — Dividi l'affitto equamente tra coinquilini | Loona Calculators">
+<meta name="twitter:description" content="Calcolatore gratuito di divisione dell’affitto: dividi l’affitto mensile tra 2 e 8 coinquilini — in parti uguali, per dimensione della stanza in piedi quadrati o per reddito. Le quote sommano sempre esattamente al totale.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Calcolatore Loona della divisione dell'affitto","url":"https://loonaautomation.github.io/loona-calculators/it/rent-split-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Qual è il modo più equo per dividere l'affitto?","acceptedAnswer":{"@type":"Answer","text":"Non c'è una risposta unica — dipende da ciò che la tua famiglia apprezza. La divisione equa è la più semplice e funziona quando le stanze sono simili. Dividere in base alla dimensione della stanza è più equo quando una camera è molto più grande o ha il proprio bagno. Dividere in base al reddito mantiene l'onere proporzionale quando i guadagni differiscono molto. Il metodo più equo è quello su cui tutti concordano prima di firmare il contratto."}},{"@type":"Question","name":"Come si divide l'affitto in base alla dimensione delle stanze?","acceptedAnswer":{"@type":"Answer","text":"Misura ogni camera da letto (lunghezza × larghezza, in piedi) per ottenere la sua superficie in piedi quadrati, poi ogni persona paga la quota di affitto corrispondente alla sua quota della superficie totale delle camere. Una stanza di 500 sq ft in una casa con 1,000 sq ft di camere paga metà dell'affitto. Le aree comuni come cucina e soggiorno sono usate da tutti, ed è per questo che la maggior parte delle famiglie divide in base alla dimensione delle camere e mantiene il resto in parti uguali."}},{"@type":"Question","name":"Una coppia che condivide una stanza deve pagare una quota o due?","acceptedAnswer":{"@type":"Answer","text":"Esistono entrambe le convenzioni. Molte famiglie addebitano l'affitto per stanza (la coppia paga una quota stanza) ma dividono utenze e spesa per persona (la coppia conta come due). Questa calcolatrice funziona per persona — per modellare “la coppia paga come una stanza”, inserisci semplicemente la coppia come una singola riga in modalità dimensione stanza."}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/it/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Calcolatore per dividere l'affitto",
+      "item": "https://loonaautomation.github.io/loona-calculators/it/rent-split-calculator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Logo di Loona Automation">
+<div class="brand">Loona <span>Calcolatrici</span></div>
+<nav>
+<a href="../">Home</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">Informazioni</a>
+<a href="../contact.html">Contatti</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › Denaro &amp; Finanza › Calcolatore di divisione dell'affitto</div>
+<h1 class="pagetitle">🤝 Calcolatore di divisione dell'affitto</h1>
+<p class="lead">Dividere l'affitto in parti uguali sembra equo — finché una camera da letto non è grande il doppio di un'altra, o un coinquilino guadagna la metà degli altri. Questo calcolatore divide l'affitto in tre modi — in parti uguali, per dimensione della stanza o per reddito — così l'accordo che la tua casa sceglie è anche quello sostenuto dai numeri.</p>
+<div class="toolbox"><form class="calcform" id="rsForm">
+<div class="fld"><label for="rsTotal">Affitto mensile totale</label><input type="number" step="any" min="0" id="rsTotal" value="60000"></div>
+<div class="fld"><label for="rsCount">Numero di coinquilini (te incluso)</label><select id="rsCount"><option>2</option><option selected>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option></select></div>
+<div class="fld"><label for="rsMode">Dividi l'affitto…</label><select id="rsMode"><option value="equal">In parti uguali tra tutti</option><option value="size">Per dimensione della stanza (sq ft)</option><option value="income">Per reddito (chi guadagna di più, paga di più)</option></select></div>
+<div id="rsRows"></div>
+<button class="calcbtn" type="submit">Dividi l'affitto</button>
+</form>
+<div class="calcresult" id="rsRes" style="display:none"></div></div>
+<section class="txt"><h2>Come usare la calcolatrice per la divisione dell'affitto</h2><ol><li>Inserisci l’affitto mensile totale per l’intera casa.</li><li>Scegli quanti coinquilini lo dividono (2 to 8), incluso te stesso.</li><li>Scegli il metodo di divisione: in parti uguali, per dimensione della stanza o per reddito. Per i metodi per dimensione e per reddito, inserisci i dati di ciascuna persona.</li><li>Premi Dividi l'affitto: la quota mensile e la percentuale di ciascuno appaiono in una tabella.</li></ol>
+<h2>Domande frequenti</h2></section><div class="faq"><h3>Qual è il modo più equo per dividere l'affitto?</h3><p>Non c'è una risposta unica — dipende da ciò che la tua famiglia apprezza. La divisione equa è la più semplice e funziona quando le stanze sono simili. Dividere in base alla dimensione della stanza è più equo quando una camera è molto più grande o ha il proprio bagno. Dividere in base al reddito mantiene l'onere proporzionale quando i guadagni differiscono molto. Il metodo più equo è quello su cui tutti concordano prima di firmare il contratto.</p></div><div class="faq"><h3>Come si divide l'affitto in base alla dimensione delle stanze?</h3><p>Misura ogni camera da letto (lunghezza × larghezza, in piedi) per ottenere la sua superficie in piedi quadrati, poi ogni persona paga la quota di affitto corrispondente alla sua quota della superficie totale delle camere. Una stanza di 500 sq ft in una casa con 1,000 sq ft di camere paga metà dell'affitto. Le aree comuni come cucina e soggiorno sono usate da tutti, ed è per questo che la maggior parte delle famiglie divide in base alla dimensione delle camere e mantiene il resto in parti uguali.</p></div><div class="faq"><h3>Una coppia che condivide una stanza deve pagare una quota o due?</h3><p>Esistono entrambe le convenzioni. Molte famiglie addebitano l'affitto per stanza (la coppia paga una quota stanza) ma dividono utenze e spesa per persona (la coppia conta come due). Questa calcolatrice funziona per persona — per modellare “la coppia paga come una stanza”, inserisci semplicemente la coppia come una singola riga in modalità dimensione stanza.</p></div>
+<h2 class="sec">Calcolatori correlati</h2><div class="grid"><a class="card" href="../rent-affordability-calculator/" data-name="rent affordability calculator rent-affordability-calculator"><div class="ic">🔑</div><h3>Calcolatore di sostenibilità dell'affitto</h3><p>Calcolatore gratuito della sostenibilità dell’affitto: inserisci reddito e debiti per vedere l’affitto massimo che puoi permetterti con le regole del 30% e 28/36.</p></a><a class="card" href="../rent-vs-buy-calculator/" data-name="rent vs buy calculator rent-vs-buy-calculator"><div class="ic">⚖️</div><h3>Calcolatore affitto o acquisto</h3><p>Calcolatore gratuito affitto vs acquisto: confronta il costo totale dell’affitto con l’acquisto di una casa negli anni in cui prevedi di restare.</p></a><a class="card" href="../rent-increase-calculator/" data-name="rent increase calculator rent-increase-calculator"><div class="ic">📈</div><h3>Calcolatore dell'aumento dell'affitto</h3><p>Calcolatore gratuito dell’aumento dell’affitto: vedi il tuo nuovo affitto dopo un aumento percentuale, più una proiezione anno per anno.</p></a><a class="card" href="../mortgage-calculator/" data-name="mortgage calculator mortgage-calculator"><div class="ic">🏠</div><h3>Calcolatore dei mutui</h3><p>Calcolatore gratuito di mutui: prezzo della casa, acconto, tasso di interesse e durata — ottieni l’importo del prestito, la rata mensile, gli interessi totali e il costo totale della tua casa.</p></a><a class="card" href="../emi-calculator/" data-name="emi & loan calculator emi-calculator"><div class="ic">🏦</div><h3>Calcolatore EMI e prestiti</h3><p>Calcolatore EMI e prestiti gratuito: inserisci importo del prestito, tasso di interesse o profitto e durata per ottenere la tua rata mensile e il costo totale.</p></a></div>
+</div>
+<section class="txt"><h2>Come funziona — la formula</h2><p>Ogni persona paga in proporzione al proprio peso. In modalità uguale ogni peso è 1. In modalità dimensione della stanza il peso è la dimensione della stanza di quella persona in piedi quadrati, e in modalità reddito è il reddito mensile di quella persona. Una quota è l’affitto totale moltiplicato per il peso della persona, diviso per la somma di tutti i pesi.</p>
+<p><strong>Formula:</strong> Affitto della persona = affitto totale × peso della persona ÷ somma di tutti i pesi. Le quote sono arrotondate a rupie intere; se l'arrotondamento lascia il totale inferiore o superiore di una rupia o due, la quota dell'ultima persona viene aggiustata in modo che le quote sommino sempre esattamente all'affitto totale.</p><h3>Esempio svolto</h3><div class="exbox"><p><strong>Input:</strong> Affitto totale Rs 60,000; tre coinquilini con stanze di 500, 300 e 200 sq ft.</p>
+<p><strong>Passaggi:</strong> I pesi sommano a 1,000 sq ft. La Persona 1 paga 60,000 × 500 ÷ 1,000 = Rs 30,000; la Persona 2 paga 60,000 × 300 ÷ 1,000 = Rs 18,000; la Persona 3 paga 60,000 × 200 ÷ 1,000 = Rs 12,000 — insieme esattamente Rs 60,000.</p>
+<p><strong>Risultato:</strong> Per dimensione della stanza: <strong>Rs 30,000 / Rs 18,000 / Rs 12,000</strong>. Diviso equamente invece, lo stesso affitto è semplicemente <strong>Rs 20,000 ciascuno</strong>.</p></div><h3>Domande frequenti</h3></section><div class="faq"><h3>Come dovremmo dividere le bollette e le altre spese condivise?</h3><p>Per bollette che crescono con il numero di persone — elettricità nelle aree condivise, acqua, internet, pulizia — una divisione uguale per persona è di solito la più equa, qualunque sia l’accordo sull’affitto. Puoi usare questo stesso calcolatore: inserisci l’importo della bolletta come “affitto” e scegli la divisione uguale.</p></div><div class="faq"><h3>E se una stanza ha un bagno annesso o un balcone?</h3><p>Pesalo. In modalità dimensione stanza, inserisci la dimensione di quella stanza più un po' extra — aggiungere il 10–20% alla sua superficie misurata è un modo comune per prezzare un bagno privato o un balcone. Ciò che conta è che tutti vedano e accettino i valori aggiustati prima che la divisione venga calcolata.</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Incorpora questo calcolatore nel tuo sito web — gratis</h2>
+<p style="margin:0 0 12px;line-height:1.6">Aggiungi questa calcolatrice al tuo sito web o blog — è completamente gratuita, non richiede registrazione e mostra sempre la versione più recente. Copia il codice qui sotto e incollalo nella tua pagina nel punto in cui vuoi che appaia la calcolatrice. Mantenere la piccola riga di credito &ldquo;Powered by Loona Automation&rdquo; sotto l'incorporamento aiuta a mantenere gratuito questo strumento &mdash; ma sei libero di personalizzarla o rimuoverla; lo strumento funziona in ogni caso.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/it/rent-split-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Rent Split Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Realizzato da &lt;a href="https://loonaautomation.github.io/loona-calculators/it/rent-split-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; gratuito Calcolatore per dividere l'affitto&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Copia il codice di incorporamento</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='Copia codice di incorporamento';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Calcolatori popolari</h4><ul><li><a href="../age-calculator/">Calcolatrice dell'età</a></li>
+<li><a href="../zakat-calculator/">Calcolatore della Zakat</a></li>
+<li><a href="../cgpa-calculator/">Calcolatrice CGPA</a></li>
+<li><a href="../percentage-calculator/">Calcolatore di percentuali</a></li>
+<li><a href="../hijri-date-converter/">Convertitore di data Hijri</a></li>
+<li><a href="../emi-calculator/">Calcolatore EMI e prestiti</a></li></ul></div>
+<div><h4>Altri strumenti Loona</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Codici QR Loona</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Compressore di immagini Loona</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona Assistente AI</a></li>
+<li><a href="https://loonaautomation.github.io/">Tutti gli strumenti Loona</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">Informazioni</a></li>
+<li><a href="../contact.html">Contatti</a></li>
+<li><a href="../privacy-policy.html">Informativa sulla privacy</a></li>
+<li><a href="../terms.html">Termini di utilizzo</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — un <a href="https://loonaautomation.github.io/">Loona Automation</a> progetto. Calcolatori online gratuiti, senza registrazione.
+Contatto: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+/* Rent Split — pure logic (unit-tested, inlined into the page) */
+function splitRent(total, weights){
+  var sum = 0, i;
+  for (i = 0; i < weights.length; i++) sum += weights[i];
+  if (sum <= 0) return null;
+  var shares = [], used = 0;
+  for (i = 0; i < weights.length; i++){
+    var s = Math.round(total * weights[i] / sum);
+    shares.push(s); used += s;
+  }
+  shares[shares.length - 1] += (total - used); /* rounding lands on the last person */
+  return shares;
+}
+function fmt(n){return "Rs " + Math.round(n).toLocaleString("en-IN");}
+function fmt2(n){return "Rs " + n.toLocaleString("en-IN",{minimumFractionDigits:2,maximumFractionDigits:2});}
+function pctFmt(n){return parseFloat(n.toFixed(2)) + "%";}
+function num(id){var v=parseFloat(document.getElementById(id).value);return isNaN(v)?0:v;}
+var rsRows = document.getElementById("rsRows");
+function rsBuildRows(){
+  var n = parseInt(document.getElementById("rsCount").value, 10);
+  var mode = document.getElementById("rsMode").value;
+  var wlabel = mode === "size" ? "Dimensione della stanza (sq ft)" : mode === "income" ? "Monthly income" : "";
+  var h = "";
+  for (var i = 1; i <= n; i++){
+    h += '<div class="subgrid"><div class="subrow"><div class="fld" style="margin:0"><label for="rsName' + i + '">Person ' + i + ' nome (facoltativo)</label><input type="text" id="rsName' + i + '" placeholder="Person ' + i + '"></div>'
+       + '<div class="fld" style="margin:0' + (mode === "equal" ? ";display:none" : "") + '"><label for="rsW' + i + '">' + wlabel + '</label><input type="number" step="any" min="0" id="rsW' + i + '"></div></div></div>';
+  }
+  rsRows.innerHTML = h;
+}
+document.getElementById("rsCount").addEventListener("change", rsBuildRows);
+document.getElementById("rsMode").addEventListener("change", rsBuildRows);
+rsBuildRows();
+document.getElementById("rsForm").addEventListener("submit", function(e){
+  e.preventDefault();
+  var res = document.getElementById("rsRes");
+  var total = num("rsTotal");
+  var n = parseInt(document.getElementById("rsCount").value, 10);
+  var mode = document.getElementById("rsMode").value;
+  if (total <= 0){ res.style.display = "block"; res.innerHTML = '<div class="err">Inserisci l\'affitto mensile totale.</div>'; return; }
+  var weights = [], names = [];
+  for (var i = 1; i <= n; i++){
+    var nm = document.getElementById("rsName" + i).value.trim();
+    names.push(nm || ("Person " + i));
+    weights.push(mode === "equal" ? 1 : num("rsW" + i));
+  }
+  var shares = splitRent(total, weights);
+  if (!shares){ res.style.display = "block"; res.innerHTML = '<div class="err">Inserisci almeno un ' + (mode === "size" ? "room size" : "income") + ' sopra lo zero — oppure cambia la divisione in “In parti uguali”.</div>'; return; }
+  var rows = "";
+  for (var j = 0; j < n; j++){
+    rows += '<tr><td>' + names[j].replace(/</g, "&lt;") + '</td><td>' + fmt(shares[j]) + '</td><td>' + pctFmt(shares[j] / total * 100) + '</td></tr>';
+  }
+  res.style.display = "block";
+  res.innerHTML = '<div class="resbig"><span>Affitto totale diviso tra ' + n + ' persone</span><strong>' + fmt(total) + '</strong></div>'
+    + '<table class="restbl"><tr><td><strong>Persona</strong></td><td><strong>Paga al mese</strong></td><td><strong>Quota</strong></td></tr>' + rows + '</table>'
+    + '<p class="resnote">Le quote sono arrotondate a rupie intere e sommano sempre esattamente all\'affitto totale — qualsiasi differenza di arrotondamento va all\'ultima persona. Concordate la divisione prima di trasferirvi e mettetela per iscritto; la maggior parte delle discussioni tra coinquilini riguarda cose che nessuno ha scritto.</p>';
+});
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Installa app';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Installa questa app: tocca il pulsante Condividi, poi scegli "Aggiungi alla schermata Home".');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body></html>

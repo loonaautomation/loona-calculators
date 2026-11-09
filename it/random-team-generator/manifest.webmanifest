@@ -1,0 +1,29 @@
+{
+  "name": "Generatore Loona di squadre casuali",
+  "short_name": "Generatore di squadre casuali",
+  "description": "Generatore gratuito di squadre casuali: incolla un elenco di nomi e dividili in squadre casuali equilibrate per sport, classi, giochi e workshop. Mescolamento equo, senza registrazione.",
+  "id": "/loona-calculators/it/random-team-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

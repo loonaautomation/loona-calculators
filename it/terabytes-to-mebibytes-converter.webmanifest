@@ -1,0 +1,29 @@
+{
+  "name": "Convertitore Loona da terabyte a mebibyte",
+  "short_name": "Convertitore da Terabyte a Mebibyte",
+  "description": "Converti terabyte in mebibyte all'istante. Formula esatta, una tabella di conversione completa da TB a MiB, un esempio pratico e le FAQ. Gratuito, senza registrazione.",
+  "id": "/loona-calculators/it/terabytes-to-mebibytes-converter.html",
+  "start_url": "./terabytes-to-mebibytes-converter.html",
+  "scope": "./terabytes-to-mebibytes-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

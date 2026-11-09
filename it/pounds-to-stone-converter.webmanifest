@@ -1,0 +1,29 @@
+{
+  "name": "Convertitore Loona da libbre a stone",
+  "short_name": "Convertitore da Libbre a Stone",
+  "description": "Converti libbre in stone all'istante. Formula esatta, una tabella di conversione completa da lb a st ed esempi pratici. Gratuito, senza registrazione.",
+  "id": "/loona-calculators/it/pounds-to-stone-converter.html",
+  "start_url": "./pounds-to-stone-converter.html",
+  "scope": "./pounds-to-stone-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Convertitore Loona da Grado a Grado centesimale",
+  "short_name": "Convertitore da Grado a Gradiante",
+  "description": "Converti gradi in gradianti all'istante. Formula esatta, una tabella di conversione completa da ° a gon, un esempio pratico e le FAQ. Gratuito, senza registrazione.",
+  "id": "/loona-calculators/it/degrees-to-gradians-converter.html",
+  "start_url": "./degrees-to-gradians-converter.html",
+  "scope": "./degrees-to-gradians-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

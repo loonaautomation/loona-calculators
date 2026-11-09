@@ -1,0 +1,29 @@
+{
+  "name": "Loona Risolutore di equazioni (lineari e quadratiche)",
+  "short_name": "Risolutore di equazioni (Lineari e",
+  "description": "Risolutore gratuito di equazioni per equazioni lineari (ax + b = cx + d) e quadratiche (ax² + bx + c = 0), con svolgimento completo passo dopo passo, il discriminante, radici complesse e una verifica finale.",
+  "id": "/loona-calculators/it/equation-solver/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

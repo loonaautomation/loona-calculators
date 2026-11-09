@@ -1,0 +1,29 @@
+{
+  "name": "Convertitore orario Loona da Los Angeles a Tokyo",
+  "short_name": "Orario da Los Angeles a Tokyo",
+  "description": "Converti l'ora di Los Angeles in quella di Tokyo. Tokyo è avanti di 17 ore rispetto a Los Angeles a gennaio e avanti di 16 ore a luglio, con le date dell'ora legale, una tabella di 24 ore e la fascia oraria migliore per le riunioni. Convertitore in tempo reale incluso.",
+  "id": "/loona-calculators/it/los-angeles-to-tokyo-time-converter.html",
+  "start_url": "./los-angeles-to-tokyo-time-converter.html",
+  "scope": "./los-angeles-to-tokyo-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Convertitore Loona da megabyte a mebibyte",
+  "short_name": "Convertitore da megabyte a mebibyte",
+  "description": "Converti megabyte in mebibyte all'istante. Formula esatta, una tabella di conversione completa da MB a MiB, un esempio pratico e le FAQ. Gratuito, senza registrazione.",
+  "id": "/loona-calculators/it/megabytes-to-mebibytes-converter.html",
+  "start_url": "./megabytes-to-mebibytes-converter.html",
+  "scope": "./megabytes-to-mebibytes-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

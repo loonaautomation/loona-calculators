@@ -1,0 +1,29 @@
+{
+  "name": "Loona Tassi di cambio valutari",
+  "short_name": "Tassi di cambio valutari",
+  "description": "Tassi di cambio di riferimento BCE datati 06 novembre 2026 per 20 valute — tutte le 380 coppie con convertitori, tassi inversi e tabelle.",
+  "id": "/loona-calculators/it/currency-exchange-rates.html",
+  "start_url": "./currency-exchange-rates.html",
+  "scope": "./currency-exchange-rates.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Convertitore di orario da Denver a Los Angeles",
+  "short_name": "Da Denver a Ora di Los Angeles",
+  "description": "Converti l'ora di Denver in quella di Los Angeles. Los Angeles è indietro di 1 ora rispetto a Denver tutto l'anno, con le date dell'ora legale, una tabella di 24 ore e la fascia oraria migliore per le riunioni. Convertitore in tempo reale incluso.",
+  "id": "/loona-calculators/it/denver-to-los-angeles-time-converter.html",
+  "start_url": "./denver-to-los-angeles-time-converter.html",
+  "scope": "./denver-to-los-angeles-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Convertitore Loona di unità",
+  "short_name": "Convertitore di Unità",
+  "description": "Convertitore di unità gratuito: converti unità di lunghezza, peso, temperatura, volume e area con fattori standard esatti — da km a miglia, da kg a libbre, da Celsius a Fahrenheit.",
+  "id": "/loona-calculators/it/unit-converter/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

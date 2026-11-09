@@ -1,0 +1,29 @@
+{
+  "name": "Convertitore Loona da Byte a Kilobyte",
+  "short_name": "Convertitore da Byte a Kilobyte",
+  "description": "Converti byte in kilobyte all'istante. Formula esatta, una tabella di conversione completa da B a KB, un esempio pratico e le FAQ. Gratuito, senza registrazione.",
+  "id": "/loona-calculators/it/bytes-to-kilobytes-converter.html",
+  "start_url": "./bytes-to-kilobytes-converter.html",
+  "scope": "./bytes-to-kilobytes-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calcolatrice del concepimento",
+  "short_name": "Calcolatrice del concepimento",
+  "description": "Calcolatore gratuito del concepimento: inserisci la data prevista del parto per stimare la data del concepimento, il primo giorno dell’ultima mestruazione e la fine del primo trimestre.",
+  "id": "/loona-calculators/it/conception-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

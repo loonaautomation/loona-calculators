@@ -1,0 +1,29 @@
+{
+  "name": "Generatore Loona di calendari stampabili",
+  "short_name": "Generatore di calendari stampabili",
+  "description": "Generatore gratuito di calendari stampabili: scegli un mese e un anno qualsiasi (o un anno completo) e genera una griglia di calendario pulita che puoi stampare. Inizio lunedì o domenica.",
+  "id": "/loona-calculators/it/printable-calendar-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

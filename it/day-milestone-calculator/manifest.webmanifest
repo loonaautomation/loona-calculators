@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calcolatrice del 10,000° giorno",
+  "short_name": "Calcolatrice del 10,000° Giorno",
+  "description": "Calcolatore gratuito dei giorni di traguardo: inserisci una data di nascita per trovare il tuo 10,000° giorno, altri anniversari di giorni a numero tondo, la tua età in giorni e la tua prossima data di traguardo.",
+  "id": "/loona-calculators/it/day-milestone-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Calcolatore Loona di mcm e MCD",
+  "short_name": "Calcolatrice di mcm e MCD",
+  "description": "Calcolatore gratuito di mcm e MCD: inserisci due o tre numeri interi per ottenere subito il minimo comune multiplo (mcm) e il massimo comune divisore (MCD/GCD).",
+  "id": "/loona-calculators/it/lcm-hcf-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Generatore Loona di passphrase",
+  "short_name": "Generatore di passphrase",
+  "description": "Generatore gratuito di passphrase: crea passphrase forti e memorabili da parole reali casuali, con opzioni per numero di parole, separatore, maiuscole e numeri. Funziona nel tuo browser.",
+  "id": "/loona-calculators/it/passphrase-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

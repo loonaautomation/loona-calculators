@@ -1,0 +1,29 @@
+{
+  "name": "Calcolatore Loona di statistica",
+  "short_name": "Calcolatore statistico",
+  "description": "Calcolatore gratuito di statistica: incolla un elenco di numeri per media, mediana, moda, intervallo, varianza e deviazione standard (popolazione e campione), somma e conteggio.",
+  "id": "/loona-calculators/it/statistics-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

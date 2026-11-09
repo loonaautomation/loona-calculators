@@ -1,0 +1,29 @@
+{
+  "name": "Loona Convertitore di orario da Chicago a Mumbai",
+  "short_name": "Da ora di Chicago a ora di Mumbai",
+  "description": "Converti l'ora di Chicago in quella di Mumbai. Mumbai è avanti di 11 ore e 30 minuti rispetto a Chicago a gennaio e avanti di 10 ore e 30 minuti a luglio, con le date dell'ora legale, una tabella di 24 ore e la fascia oraria migliore per le riunioni. Convertitore in tempo reale incluso.",
+  "id": "/loona-calculators/it/chicago-to-mumbai-time-converter.html",
+  "start_url": "./chicago-to-mumbai-time-converter.html",
+  "scope": "./chicago-to-mumbai-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Convertitore Loona delle taglie di scarpe",
+  "short_name": "Convertitore di misure di scarpe",
+  "description": "Convertitore gratuito di taglie di scarpe per uomini e donne: converti tra taglie US, UK e UE e lunghezza del piede in cm e pollici, usando le tabelle di conversione standard con corrispondenza più vicina.",
+  "id": "/loona-calculators/it/shoe-size-converter/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Calcolatrice semplice Loona",
+  "short_name": "Calcolatrice semplice",
+  "description": "Calcolatrice semplice gratuita con pulsanti grandi e facili per sommare, sottrarre, moltiplicare e dividere. Nastro della cronologia, tasto percentuale, pulsante di copia e supporto completo della tastiera — senza registrazione.",
+  "id": "/loona-calculators/it/simple-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Età per anno di nascita",
+  "short_name": "Età per anno di nascita",
+  "description": "Età compiuta nel 2026 per ogni anno di nascita 1946–2025, con etichette generazionali e anni di tappa.",
+  "id": "/loona-calculators/it/age-by-birth-year.html",
+  "start_url": "./age-by-birth-year.html",
+  "scope": "./age-by-birth-year.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

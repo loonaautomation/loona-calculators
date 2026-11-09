@@ -1,0 +1,29 @@
+{
+  "name": "Convertitore Loona da kibibyte a bit",
+  "short_name": "Convertitore da Kibibyte a Bit",
+  "description": "Converti kibibyte in bit all'istante. Formula esatta, una tabella di conversione completa da KiB a bit, un esempio pratico e le FAQ. Gratuito, senza registrazione.",
+  "id": "/loona-calculators/it/kibibytes-to-bits-converter.html",
+  "start_url": "./kibibytes-to-bits-converter.html",
+  "scope": "./kibibytes-to-bits-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

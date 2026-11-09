@@ -1,0 +1,29 @@
+{
+  "name": "Convertitore Loona da ore a minuti",
+  "short_name": "Convertitore da Ore a Minuti",
+  "description": "Converti ore in minuti all'istante. Formula esatta, una tabella di conversione completa da h a min ed esempi pratici. Gratuito, senza registrazione.",
+  "id": "/loona-calculators/it/hours-to-minutes-converter.html",
+  "start_url": "./hours-to-minutes-converter.html",
+  "scope": "./hours-to-minutes-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

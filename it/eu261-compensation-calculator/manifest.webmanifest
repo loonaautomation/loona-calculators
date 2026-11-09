@@ -1,0 +1,29 @@
+{
+  "name": "Loona Verificatore del risarcimento EU261",
+  "short_name": "Verifica del risarcimento EU261",
+  "description": "Verifica gratuita del risarcimento EU261: inserisci distanza del volo e ritardo all’arrivo per vedere se potresti avere diritto a €250, €400 o €600 ai sensi dell’EC 261/2004, inclusa la regola di riduzione del 50%.",
+  "id": "/loona-calculators/it/eu261-compensation-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

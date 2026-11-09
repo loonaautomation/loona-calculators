@@ -1,0 +1,29 @@
+{
+  "name": "Calcolatore Loona dei risparmi",
+  "short_name": "Calcolatore dei risparmi",
+  "description": "Calcolatore gratuito dei risparmi: inserisci un deposito mensile, il tasso di interesse e gli anni per vedere il valore futuro dei tuoi risparmi, il totale depositato e gli interessi guadagnati.",
+  "id": "/loona-calculators/it/savings-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

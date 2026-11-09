@@ -1,0 +1,29 @@
+{
+  "name": "Loona Giorni lavorativi in Slovacchia",
+  "short_name": "Giorni Lavorativi in Slovacchia",
+  "description": "Calcolatore di giorni lavorativi per la Slovacchia: conta i giorni lavorativi tra due date escludendo i fine settimana e tutti gli 11 giorni festivi slovacchi del 2026. Strumento online gratuito.",
+  "id": "/loona-calculators/it/working-days-in-slovakia.html",
+  "start_url": "./working-days-in-slovakia.html",
+  "scope": "./working-days-in-slovakia.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

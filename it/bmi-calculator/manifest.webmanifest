@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calcolatrice dell'IMC",
+  "short_name": "Calcolatrice BMI",
+  "description": "Calcolatore BMI gratuito: inserisci peso e altezza (cm o piedi/pollici) per controllare il tuo Indice di Massa Corporea, la tua categoria e l’intervallo di peso sano per la tua altezza.",
+  "id": "/loona-calculators/it/bmi-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

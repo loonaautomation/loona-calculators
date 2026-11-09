@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calcolatrice dell'interesse composto",
+  "short_name": "Calcolatrice dell'interesse composto",
+  "description": "Calcolatore gratuito dell’interesse composto: vedi come crescono i tuoi soldi con capitalizzazione annuale, trimestrale, mensile o giornaliera, con depositi mensili facoltativi e una tabella anno per anno.",
+  "id": "/loona-calculators/it/compound-interest-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calcolatrice dei voti",
+  "short_name": "Calcolatore dei voti",
+  "description": "Calcolatore gratuito dei voti ponderati: inserisci fino a 8 punteggi di compiti con i loro pesi per ottenere la tua percentuale di voto complessiva e il voto in lettere. I pesi non devono sommare a 100.",
+  "id": "/loona-calculators/it/grade-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

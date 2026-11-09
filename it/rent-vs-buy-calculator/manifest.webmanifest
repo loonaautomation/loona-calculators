@@ -1,0 +1,29 @@
+{
+  "name": "Calcolatore Loona affitto o acquisto",
+  "short_name": "Calcolatore affitto o acquisto",
+  "description": "Calcolatore gratuito affitto vs acquisto: confronta il costo totale dell’affitto con il costo netto dell’acquisto di una casa negli anni in cui prevedi di restare — mutuo, aumenti dell’affitto, crescita dei prezzi ed equity inclusi.",
+  "id": "/loona-calculators/it/rent-vs-buy-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

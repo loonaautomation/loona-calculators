@@ -1,0 +1,29 @@
+{
+  "name": "Convertitore Loona da HKD a JPY",
+  "short_name": "Convertitore da HKD a JPY",
+  "description": "Converti il dollaro di Hong Kong (HKD) in yen giapponese (JPY). Tasso di riferimento BCE del 06 novembre 2026, tasso inverso, tabella di conversione e note sul corridoio valutario. Solo a titolo indicativo.",
+  "id": "/loona-calculators/it/hkd-to-jpy-converter.html",
+  "start_url": "./hkd-to-jpy-converter.html",
+  "scope": "./hkd-to-jpy-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

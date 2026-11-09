@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calcolatrice del tasso alcolemico",
+  "short_name": "Calcolatrice dell'alcol nel sangue",
+  "description": "Calcolatore gratuito del contenuto di alcol nel sangue (BAC) con la formula di Widmark: peso, sesso, bevande e tempo per stimare la percentuale di BAC. Solo stima a scopo educativo, non guidare mai.",
+  "id": "/loona-calculators/it/blood-alcohol-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Calcolatore Loona dell'aumento dell'affitto",
+  "short_name": "Calcolatore dell'aumento dell'affitto",
+  "description": "Calcolatore gratuito dell’aumento dell’affitto: inserisci il tuo affitto attuale e l’aumento percentuale (o il nuovo affitto) per vedere il nuovo affitto mensile, il costo extra per mese e anno e una proiezione anno per anno.",
+  "id": "/loona-calculators/it/rent-increase-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

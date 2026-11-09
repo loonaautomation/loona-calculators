@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calcolatore della pendenza — Pendenza, distanza e punto medio tra due punti | Loona</title>
+<meta name="description" content="Calcolatore gratuito della pendenza: inserisci due punti per ottenere la pendenza, la distanza tra loro, il punto medio e l’equazione della retta in forma pendenza-intercetta, con lo svolgimento.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/it/slope-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/slope-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/slope-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/slope-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/slope-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/slope-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/slope-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/slope-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Calcolatore della pendenza — Pendenza, distanza e punto medio tra due punti | Loona">
+<meta property="og:description" content="Calcolatore gratuito della pendenza: inserisci due punti per ottenere la pendenza, la distanza tra loro, il punto medio e l’equazione della retta in forma pendenza-intercetta, con lo svolgimento.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/it/slope-calculator/"><meta property="og:locale" content="it_IT">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Calcolatore della pendenza — Pendenza, distanza e punto medio tra due punti | Loona">
+<meta name="twitter:description" content="Calcolatore gratuito della pendenza: inserisci due punti per ottenere la pendenza, la distanza tra loro, il punto medio e l’equazione della retta in forma pendenza-intercetta, con lo svolgimento.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Calcolatore Loona della pendenza","url":"https://loonaautomation.github.io/loona-calculators/it/slope-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Cosa significa una pendenza di 2?","acceptedAnswer":{"@type":"Answer","text":"Spostandoti a destra di 1 unità, la retta sale di 2 unità. Una pendenza di 0 è piatta, una pendenza negativa scende verso destra, e una pendenza indefinita (divisione per zero) è una retta verticale."}},{"@type":"Question","name":"Come viene calcolata la distanza tra due punti?","acceptedAnswer":{"@type":"Answer","text":"Con Pitagora: distanza = √((x₂ − x₁)² + (y₂ − y₁)²). Le differenze di coordinate sono i due cateti di un triangolo rettangolo e la distanza è la sua ipotenusa."}},{"@type":"Question","name":"Cos'è la formula del punto medio?","acceptedAnswer":{"@type":"Answer","text":"Fai la media delle coordinate: punto medio = ((x₁ + x₂) ÷ 2, (y₁ + y₂) ÷ 2). È il punto esattamente a metà del segmento."}},{"@type":"Question","name":"E se entrambi i valori x sono uguali?","acceptedAnswer":{"@type":"Answer","text":"La retta è verticale: la pendenza è indefinita e non esiste un'equazione y = mx + b. Il calcolatore riporta la retta verticale x = quel valore, più la distanza e il punto medio come al solito."}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/it/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Calcolatore della pendenza",
+      "item": "https://loonaautomation.github.io/loona-calculators/it/slope-calculator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Logo di Loona Automation">
+<div class="brand">Loona <span>Calcolatrici</span></div>
+<nav>
+<a href="../">Home</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">Informazioni</a>
+<a href="../contact.html">Contatti</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › Matematica › Calcolatore della pendenza</div>
+<h1 class="pagetitle">📉 Calcolatore della pendenza</h1>
+<p class="lead">Inserisci due punti (x₁, y₁) e (x₂, y₂) per ottenere tutto sulla retta tra loro: pendenza, distanza, punto medio, angolo e l’equazione y = mx + b — con la sostituzione di ogni formula mostrata.</p>
+<div class="exbox"><strong>Risposta rapida:</strong> Pendenza = (y₂ − y₁) ÷ (x₂ − x₁). Per (1, 2) e (4, 8): pendenza = 6 ÷ 3 = 2, distanza = √(3² + 6²) = √45 ≈ 6.71, e il punto medio è (2.5, 5).</div>
+<div class="toolbox"><form class="calcform" id="slForm">
+<div class="fld"><label for="slX1">x₁</label><input type="number" id="slX1" value="1" step="any"></div>
+<div class="fld"><label for="slY1">y₁</label><input type="number" id="slY1" value="2" step="any"></div>
+<div class="fld"><label for="slX2">x₂</label><input type="number" id="slX2" value="4" step="any"></div>
+<div class="fld"><label for="slY2">y₂</label><input type="number" id="slY2" value="8" step="any"></div>
+<button class="calcbtn" type="submit">Calcola pendenza, distanza &amp; punto medio</button>
+<div class="calcresult" id="slResult" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>Come usare la calcolatrice della pendenza</h2><ol><li>Inserisci le coordinate del primo punto.</li><li>Inserisci le coordinate del secondo punto.</li><li>Leggi la pendenza, la distanza, il punto medio e l'equazione della retta.</li></ol>
+<div class="exbox"><strong>Esempio:</strong> Punti (1, 2) e (4, 8): pendenza 2, distanza √45 ≈ 6.708, punto medio (2.5, 5), e l'equazione della retta y = 2x + 0 — passa per l'origine, come puoi verificare: con x = 1, y = 2 ✓.</div>
+<h2>Domande frequenti</h2></section><div class="faq"><h3>Cosa significa una pendenza di 2?</h3><p>Spostandoti a destra di 1 unità, la retta sale di 2 unità. Una pendenza di 0 è piatta, una pendenza negativa scende verso destra, e una pendenza indefinita (divisione per zero) è una retta verticale.</p></div><div class="faq"><h3>Come viene calcolata la distanza tra due punti?</h3><p>Con Pitagora: distanza = √((x₂ − x₁)² + (y₂ − y₁)²). Le differenze di coordinate sono i due cateti di un triangolo rettangolo e la distanza è la sua ipotenusa.</p></div><div class="faq"><h3>Cos'è la formula del punto medio?</h3><p>Fai la media delle coordinate: punto medio = ((x₁ + x₂) ÷ 2, (y₁ + y₂) ÷ 2). È il punto esattamente a metà del segmento.</p></div><div class="faq"><h3>E se entrambi i valori x sono uguali?</h3><p>La retta è verticale: la pendenza è indefinita e non esiste un'equazione y = mx + b. Il calcolatore riporta la retta verticale x = quel valore, più la distanza e il punto medio come al solito.</p></div>
+<h2 class="sec">Calcolatori correlati</h2><div class="grid"><a class="card" href="../percentage-calculator/"><div class="ic">％</div><h3>Calcolatore di percentuali</h3><p>Matematica</p></a><a class="card" href="../statistics-calculator/"><div class="ic">📊</div><h3>Calcolatore statistico</h3><p>Matematica</p></a><a class="card" href="../fraction-calculator/"><div class="ic">½</div><h3>Calcolatore di frazioni</h3><p>Matematica</p></a><a class="card" href="../equation-solver/"><div class="ic">🧮</div><h3>Risolutore di equazioni</h3><p>Matematica</p></a><a class="card" href="../scientific-calculator/"><div class="ic">🔬</div><h3>Calcolatrice scientifica</h3><p>Matematica</p></a><a class="card" href="../average-calculator/"><div class="ic">📐</div><h3>Calcolatrice della media</h3><p>Matematica</p></a><a class="card" href="../graphing-calculator/"><div class="ic">📈</div><h3>Calcolatrice grafica</h3><p>Matematica</p></a></div>
+</div>
+<section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>Come funziona — la formula</h2>
+<p><strong>Pendenza:</strong> m = (y₂ − y₁) ÷ (x₂ − x₁). <strong>Distanza:</strong> d = √((x₂ − x₁)² + (y₂ − y₁)²). <strong>Punto medio:</strong> ((x₁ + x₂) ÷ 2, (y₁ + y₂) ÷ 2). <strong>Equazione della retta:</strong> usando il punto 1, b = y₁ − m·x₁, ottenendo y = mx + b. <strong>Angolo:</strong> θ = arctan(m), in gradi dall'asse x positivo.</p>
+<h3>Esempio svolto</h3><div class="exbox"><p><strong>Input:</strong> (1, 2) e (4, 8).</p><p><strong>Passaggi:</strong> Pendenza = (8 − 2) ÷ (4 − 1) = 6 ÷ 3 = 2. Distanza = √((4−1)² + (8−2)²) = √(9 + 36) = √45 = 6.708. Punto medio = ((1+4)÷2, (2+8)÷2) = (2.5, 5). Intercetta: b = 2 − 2×1 = 0, quindi la retta è y = 2x.</p><p><strong>Risultato:</strong> Pendenza <strong>2</strong>, distanza <strong>6.708</strong>, punto medio <strong>(2.5, 5)</strong>, equazione <strong>y = 2x</strong>.</p></div>
+
+</section>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Incorpora questo calcolatore nel tuo sito web — gratis</h2>
+<p style="margin:0 0 12px;line-height:1.6">Aggiungi questa calcolatrice al tuo sito web o blog — è completamente gratuita, non richiede registrazione e mostra sempre la versione più recente. Copia il codice qui sotto e incollalo nella tua pagina nel punto in cui vuoi che appaia la calcolatrice. Mantenere la piccola riga di credito &ldquo;Powered by Loona Automation&rdquo; sotto l'incorporamento aiuta a mantenere gratuito questo strumento &mdash; ma sei libero di personalizzarla o rimuoverla; lo strumento funziona in ogni caso.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/it/slope-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Slope Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Realizzato da &lt;a href="https://loonaautomation.github.io/loona-calculators/it/slope-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; gratuito Calcolatore della pendenza&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Copia il codice di incorporamento</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='Copia codice di incorporamento';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Calcolatori popolari</h4><ul><li><a href="../age-calculator/">Calcolatrice dell'età</a></li>
+<li><a href="../zakat-calculator/">Calcolatore della Zakat</a></li>
+<li><a href="../cgpa-calculator/">Calcolatrice CGPA</a></li>
+<li><a href="../percentage-calculator/">Calcolatore di percentuali</a></li>
+<li><a href="../hijri-date-converter/">Convertitore di data Hijri</a></li>
+<li><a href="../emi-calculator/">Calcolatore EMI e prestiti</a></li></ul></div>
+<div><h4>Altri strumenti Loona</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Codici QR Loona</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Compressore di immagini Loona</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona Assistente AI</a></li>
+<li><a href="https://loonaautomation.github.io/">Tutti gli strumenti Loona</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">Informazioni</a></li>
+<li><a href="../contact.html">Contatti</a></li>
+<li><a href="../privacy-policy.html">Informativa sulla privacy</a></li>
+<li><a href="../terms.html">Termini di utilizzo</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — un <a href="https://loonaautomation.github.io/">Loona Automation</a> progetto. Calcolatori online gratuiti, senza registrazione.
+Contatto: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+function slopeCalc(x1,y1,x2,y2){
+  var dx=x2-x1, dy=y2-y1;
+  var dist=Math.sqrt(dx*dx+dy*dy);
+  var mid=[(x1+x2)/2,(y1+y2)/2];
+  if(dx===0)return {vertical:true,slope:null,distance:dist,midpoint:mid,equation:"x = "+x1,angle:90};
+  var m=dy/dx, b=y1-m*x1;
+  return {vertical:false,slope:m,distance:dist,midpoint:mid,intercept:b,
+    equation:"y = "+(Math.round(m*10000)/10000)+"x "+(b<0?"− "+(Math.round(-b*10000)/10000):"+ "+(Math.round(b*10000)/10000)),
+    angle:Math.atan(m)*180/Math.PI};
+}
+/*TESTABLE_END*/
+document.getElementById('slForm').addEventListener('submit',function(e){e.preventDefault();
+ var r=slopeCalc(parseFloat(document.getElementById('slX1').value),parseFloat(document.getElementById('slY1').value),parseFloat(document.getElementById('slX2').value),parseFloat(document.getElementById('slY2').value));
+ var box=document.getElementById('slResult'); box.style.display='block';
+ function f(v){return Math.round(v*10000)/10000;}
+ box.innerHTML='<div class="resbig"><span>Pendenza</span><strong>'+(r.vertical?'Non definita (retta verticale)':f(r.slope))+'</strong></div>'
+ +'<table class="restbl"><tr><td>Distanza</td><td><strong>'+f(r.distance)+'</strong></td></tr>'
+ +'<tr><td>Punto medio</td><td><strong>('+f(r.midpoint[0])+', '+f(r.midpoint[1])+')</strong></td></tr>'
+ +'<tr><td>Equazione della retta</td><td><strong>'+r.equation+'</strong></td></tr>'
+ +'<tr><td>Angolo di inclinazione</td><td><strong>'+f(r.angle)+'°</strong></td></tr></table>';});
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Installa app';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Installa questa app: tocca il pulsante Condividi, poi scegli "Aggiungi alla schermata Home".');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

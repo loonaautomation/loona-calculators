@@ -1,0 +1,29 @@
+{
+  "name": "Calcolatore Loona delle mance",
+  "short_name": "Calcolatore di Mancia",
+  "description": "Calcolatore gratuito della mancia: inserisci il conto, la percentuale di mancia e il numero di persone per ottenere l’importo della mancia, il conto totale e la quota esatta che paga ogni persona.",
+  "id": "/loona-calculators/it/tip-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

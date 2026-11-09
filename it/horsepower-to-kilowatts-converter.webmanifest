@@ -1,0 +1,29 @@
+{
+  "name": "Convertitore Loona da cavalli vapore a chilowatt",
+  "short_name": "Da Cavallo vapore a Chilowatt",
+  "description": "Converti cavalli vapore in kilowatt all'istante. Formula esatta, una tabella di conversione completa da hp a kW ed esempi pratici. Gratuito, senza registrazione.",
+  "id": "/loona-calculators/it/horsepower-to-kilowatts-converter.html",
+  "start_url": "./horsepower-to-kilowatts-converter.html",
+  "scope": "./horsepower-to-kilowatts-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

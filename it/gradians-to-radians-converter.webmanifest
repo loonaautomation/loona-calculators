@@ -1,0 +1,29 @@
+{
+  "name": "Convertitore Loona da Grado centesimale a Radiante",
+  "short_name": "Convertitore da Gradiante a Radiante",
+  "description": "Converti gradianti in radianti all'istante. Formula esatta, una tabella di conversione completa da gon a rad, un esempio pratico e le FAQ. Gratuito, senza registrazione.",
+  "id": "/loona-calculators/it/gradians-to-radians-converter.html",
+  "start_url": "./gradians-to-radians-converter.html",
+  "scope": "./gradians-to-radians-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

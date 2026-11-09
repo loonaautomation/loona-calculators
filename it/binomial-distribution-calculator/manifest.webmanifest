@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calcolatrice della distribuzione binomiale",
+  "short_name": "Distribuzione binomiale",
+  "description": "Calcolatore gratuito della distribuzione binomiale: probabilità di esattamente k successi, al massimo k o almeno k, in n prove con probabilità di successo p. Valori verificati sui libri di testo.",
+  "id": "/loona-calculators/it/binomial-distribution-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

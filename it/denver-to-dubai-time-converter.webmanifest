@@ -1,0 +1,29 @@
+{
+  "name": "Loona Convertitore di orario da Denver a Dubai",
+  "short_name": "Convertitore da Denver a Ora di Dubai",
+  "description": "Converti l'ora di Denver in quella di Dubai. Dubai è avanti di 11 ore rispetto a Denver a gennaio e avanti di 10 ore a luglio, con le date dell'ora legale, una tabella di 24 ore e la fascia oraria migliore per le riunioni. Convertitore in tempo reale incluso.",
+  "id": "/loona-calculators/it/denver-to-dubai-time-converter.html",
+  "start_url": "./denver-to-dubai-time-converter.html",
+  "scope": "./denver-to-dubai-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

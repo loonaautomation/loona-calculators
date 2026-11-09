@@ -1,0 +1,29 @@
+{
+  "name": "Calcolatore Loona dei giorni lavorativi",
+  "short_name": "Calcolatore dei Giorni Lavorativi",
+  "description": "Calcolatore gratuito dei giorni lavorativi: conta giorni totali, giorni lavorativi (da lunedì a venerdì) e giorni di fine settimana tra due date qualsiasi. Per ferie, scadenze e piani di progetto.",
+  "id": "/loona-calculators/it/working-days-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

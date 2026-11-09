@@ -1,0 +1,29 @@
+{
+  "name": "Calcolatore Loona del ritmo di corsa",
+  "short_name": "Calcolatore del ritmo di corsa",
+  "description": "Calcolatore gratuito del ritmo di corsa: scegli 5K, 10K, mezza maratona, maratona o una distanza personalizzata con il tuo tempo di arrivo per ottenere il ritmo per km e per miglio, più i tempi di arrivo previsti.",
+  "id": "/loona-calculators/it/pace-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

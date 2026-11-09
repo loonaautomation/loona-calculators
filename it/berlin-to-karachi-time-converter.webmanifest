@@ -1,0 +1,29 @@
+{
+  "name": "Loona Convertitore di orario da Berlino a Karachi",
+  "short_name": "Da ora di Berlino a ora di Karachi",
+  "description": "Converti l'ora di Berlino in quella di Karachi. Karachi è avanti di 4 ore rispetto a Berlino a gennaio e avanti di 3 ore a luglio, con le date dell'ora legale, una tabella di 24 ore e la fascia oraria migliore per le riunioni. Convertitore in tempo reale incluso.",
+  "id": "/loona-calculators/it/berlin-to-karachi-time-converter.html",
+  "start_url": "./berlin-to-karachi-time-converter.html",
+  "scope": "./berlin-to-karachi-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

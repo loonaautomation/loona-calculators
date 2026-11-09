@@ -1,0 +1,29 @@
+{
+  "name": "Calcolatore Loona del ROI",
+  "short_name": "Calcolatore del ROI",
+  "description": "Calcolatore ROI gratuito: inserisci l’importo investito, l’importo restituito e gli anni di detenzione per ottenere la percentuale di ROI totale e il rendimento annualizzato per qualsiasi investimento.",
+  "id": "/loona-calculators/it/roi-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

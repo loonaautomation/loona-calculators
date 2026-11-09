@@ -1,0 +1,29 @@
+{
+  "name": "Calcolatore Loona del VO2 max",
+  "short_name": "Calcolatore VO2 Max",
+  "description": "Calcolatore VO2 max gratuito: stima la forma aerobica dalla corsa Cooper di 12 minuti o dal test di camminata Rockport di 1 miglio. Stima di forma fisica a scopo educativo.",
+  "id": "/loona-calculators/it/vo2-max-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

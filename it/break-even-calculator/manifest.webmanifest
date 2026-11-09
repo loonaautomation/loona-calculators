@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calcolatrice del punto di pareggio",
+  "short_name": "Calcolatrice del pareggio",
+  "description": "Calcolatore gratuito del punto di pareggio: inserisci costi fissi, prezzo di vendita e costo variabile per unità per trovare quante unità devi vendere per andare in pareggio e a quale ricavo.",
+  "id": "/loona-calculators/it/break-even-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

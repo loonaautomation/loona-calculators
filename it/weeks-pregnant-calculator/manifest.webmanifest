@@ -1,0 +1,29 @@
+{
+  "name": "Calcolatore Loona delle settimane di gravidanza",
+  "short_name": "Calcolatore delle Settimane di Gravidanza",
+  "description": "Calcolatore gratuito delle settimane di gravidanza: inserisci la data dell’ultima mestruazione o la data prevista del parto per vedere esattamente di quante settimane e giorni sei incinta, il tuo trimestre e i giorni rimanenti.",
+  "id": "/loona-calculators/it/weeks-pregnant-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

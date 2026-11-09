@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Generatore di squadre casuali — Dividi i nomi in squadre casuali eque | Loona Calculators</title>
+<meta name="description" content="Generatore gratuito di squadre casuali: incolla un elenco di nomi e dividili in squadre casuali equilibrate per sport, classi, giochi e workshop. Mescolamento equo, senza registrazione.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/it/random-team-generator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/random-team-generator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/random-team-generator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/random-team-generator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/random-team-generator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/random-team-generator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/random-team-generator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/random-team-generator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Generatore di squadre casuali — Dividi i nomi in squadre casuali eque | Loona Calculators">
+<meta property="og:description" content="Generatore gratuito di squadre casuali: incolla un elenco di nomi e dividili in squadre casuali equilibrate per sport, classi, giochi e workshop. Mescolamento equo, senza registrazione.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/it/random-team-generator/"><meta property="og:locale" content="it_IT">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Generatore di squadre casuali — Dividi i nomi in squadre casuali eque | Loona Calculators">
+<meta name="twitter:description" content="Generatore gratuito di squadre casuali: incolla un elenco di nomi e dividili in squadre casuali equilibrate per sport, classi, giochi e workshop. Mescolamento equo, senza registrazione.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Generatore Loona di squadre casuali","url":"https://loonaautomation.github.io/loona-calculators/it/random-team-generator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Come vengono rese equilibrate le squadre?","acceptedAnswer":{"@type":"Answer","text":"L'elenco viene mescolato con un mescolamento Fisher–Yates guidato da numeri casuali sicuri, poi distribuito a rotazione alle squadre. Le dimensioni differiscono quindi al massimo di uno e ogni posizione è ugualmente probabile per tutti."}},{"@type":"Question","name":"E se i nomi non si dividono uniformemente?","acceptedAnswer":{"@type":"Answer","text":"Le prime squadre ricevono una persona in più. Con 10 persone e 3 squadre le dimensioni sono 4, 3, 3 — mai 5, 3, 2."}},{"@type":"Question","name":"Posso invece fare squadre di una dimensione fissa?","acceptedAnswer":{"@type":"Answer","text":"Scegli il numero di squadre che dà la tua dimensione: per squadre di 4 con 20 persone, scegli 5 squadre."}},{"@type":"Question","name":"I nomi duplicati sono ammessi?","acceptedAnswer":{"@type":"Answer","text":"Sono trattate come voci separate, quindi due persone con lo stesso nome saranno entrambe posizionate. Aggiungi un cognome o un'iniziale per distinguerle."}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/it/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Generatore di squadre casuali",
+      "item": "https://loonaautomation.github.io/loona-calculators/it/random-team-generator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Logo di Loona Automation">
+<div class="brand">Loona <span>Calcolatrici</span></div>
+<nav>
+<a href="../">Home</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">Informazioni</a>
+<a href="../contact.html">Contatti</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › Divertimento › Generatore di squadre casuali</div>
+<h1 class="pagetitle">👥 Generatore di squadre casuali</h1>
+<p class="lead">Incolla un elenco di nomi, scegli quante squadre vuoi e ottieni una divisione casuale equa. Le dimensioni delle squadre differiscono al massimo di una persona, e tutti vengono collocati esattamente una volta.</p>
+<div class="exbox"><strong>Risposta rapida:</strong> Un generatore casuale di squadre mescola l'elenco completo in modo equo e poi distribuisce le persone alle squadre una per una, quindi con 20 persone e 4 squadre ottieni 4 squadre da 5 — le dimensioni non differiscono mai di più di uno.</div>
+<div class="toolbox"><form class="calcform" id="tmForm">
+<div class="fld"><label for="tmNames">Nomi (uno per riga)</label><textarea id="tmNames" rows="8" style="width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px">Ali
+Sara
+John
+Maria
+Chen
+Fatima
+Olga
+Peter
+Nina
+Omar</textarea></div>
+<div class="fld"><label for="tmCount">Numero di squadre</label><input type="number" id="tmCount" value="2" min="2" max="50"></div>
+<button class="calcbtn" type="submit">Genera squadre</button>
+<div class="calcresult" id="tmResult" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>Come usare il generatore di squadre casuali</h2><ol><li>Incolla i nomi, uno per riga.</li><li>Scegli il numero di squadre.</li><li>Premi Genera squadre.</li><li>Premi di nuovo per un nuovo mescolamento, oppure copia le squadre dalla casella dei risultati.</li></ol>
+<div class="exbox"><strong>Esempio:</strong> 10 nomi divisi in 3 squadre danno dimensioni delle squadre di 4, 3 e 3 — bilanciate automaticamente, con ogni nome usato esattamente una volta.</div>
+<h2>Domande frequenti</h2></section><div class="faq"><h3>Come vengono rese equilibrate le squadre?</h3><p>L'elenco viene mescolato con un mescolamento Fisher–Yates guidato da numeri casuali sicuri, poi distribuito a rotazione alle squadre. Le dimensioni differiscono quindi al massimo di uno e ogni posizione è ugualmente probabile per tutti.</p></div><div class="faq"><h3>E se i nomi non si dividono uniformemente?</h3><p>Le prime squadre ricevono una persona in più. Con 10 persone e 3 squadre le dimensioni sono 4, 3, 3 — mai 5, 3, 2.</p></div><div class="faq"><h3>Posso invece fare squadre di una dimensione fissa?</h3><p>Scegli il numero di squadre che dà la tua dimensione: per squadre di 4 con 20 persone, scegli 5 squadre.</p></div><div class="faq"><h3>I nomi duplicati sono ammessi?</h3><p>Sono trattate come voci separate, quindi due persone con lo stesso nome saranno entrambe posizionate. Aggiungi un cognome o un'iniziale per distinguerle.</p></div>
+<h2 class="sec">Calcolatori correlati</h2><div class="grid"><a class="card" href="../random-number-generator/"><div class="ic">🎲</div><h3>Generatore di numeri casuali</h3><p>Divertimento</p></a><a class="card" href="../dice-roller/"><div class="ic">🎲</div><h3>Lanciatore di dadi</h3><p>Divertimento</p></a><a class="card" href="../coin-flip/"><div class="ic">🪙</div><h3>Lancio della moneta</h3><p>Divertimento</p></a><a class="card" href="../lottery-number-generator/"><div class="ic">🍀</div><h3>Generatore di numeri della lotteria</h3><p>Divertimento</p></a><a class="card" href="../love-calculator/"><div class="ic">❤️</div><h3>Calcolatore dell'amore</h3><p>Divertimento</p></a><a class="card" href="../wheel-of-names/"><div class="ic">🎡</div><h3>Ruota dei Nomi</h3><p>Divertimento</p></a></div>
+</div>
+<section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>Come funziona — la formula</h2>
+<p>Il generatore usa un <strong>Mescolamento Fisher–Yates</strong>: per ogni posizione dalla fine dell'elenco, scambiala con una posizione precedente uniformemente casuale (usando casualità di livello crittografico). Ogni ordinamento dell'elenco è quindi ugualmente probabile. L'elenco mescolato viene distribuito uno alla volta alle squadre 1, 2, … N, 1, 2, … quindi le dimensioni delle squadre sono ⌊totale ÷ N⌋ o ⌈totale ÷ N⌉ — mai distanti più di uno.</p>
+<h3>Esempio svolto</h3><div class="exbox"><p><strong>Input:</strong> 10 nomi, 3 squadre.</p><p><strong>Passaggi:</strong> Dopo il mescolamento, i nomi vengono distribuiti in posizioni: la squadra 1 riceve i nomi mescolati 1, 4, 7, 10 (4 persone); la squadra 2 riceve i nomi 2, 5, 8 (3 persone); la squadra 3 riceve i nomi 3, 6, 9 (3 persone). 4 + 3 + 3 = 10 — tutti collocati una sola volta.</p><p><strong>Risultato:</strong> Squadre equilibrate di <strong>4, 3 e 3</strong>.</p></div>
+
+</section>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Incorpora questo calcolatore nel tuo sito web — gratis</h2>
+<p style="margin:0 0 12px;line-height:1.6">Aggiungi questa calcolatrice al tuo sito web o blog — è completamente gratuita, non richiede registrazione e mostra sempre la versione più recente. Copia il codice qui sotto e incollalo nella tua pagina nel punto in cui vuoi che appaia la calcolatrice. Mantenere la piccola riga di credito &ldquo;Powered by Loona Automation&rdquo; sotto l'incorporamento aiuta a mantenere gratuito questo strumento &mdash; ma sei libero di personalizzarla o rimuoverla; lo strumento funziona in ogni caso.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/it/random-team-generator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Random Team Generator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Realizzato da &lt;a href="https://loonaautomation.github.io/loona-calculators/it/random-team-generator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; gratuito Generatore di squadre casuali&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Copia il codice di incorporamento</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='Copia codice di incorporamento';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Calcolatori popolari</h4><ul><li><a href="../age-calculator/">Calcolatrice dell'età</a></li>
+<li><a href="../zakat-calculator/">Calcolatore della Zakat</a></li>
+<li><a href="../cgpa-calculator/">Calcolatrice CGPA</a></li>
+<li><a href="../percentage-calculator/">Calcolatore di percentuali</a></li>
+<li><a href="../hijri-date-converter/">Convertitore di data Hijri</a></li>
+<li><a href="../emi-calculator/">Calcolatore EMI e prestiti</a></li></ul></div>
+<div><h4>Altri strumenti Loona</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Codici QR Loona</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Compressore di immagini Loona</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona Assistente AI</a></li>
+<li><a href="https://loonaautomation.github.io/">Tutti gli strumenti Loona</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">Informazioni</a></li>
+<li><a href="../contact.html">Contatti</a></li>
+<li><a href="../privacy-policy.html">Informativa sulla privacy</a></li>
+<li><a href="../terms.html">Termini di utilizzo</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — un <a href="https://loonaautomation.github.io/">Loona Automation</a> progetto. Calcolatori online gratuiti, senza registrazione.
+Contatto: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+function shuffleList(arr,rng){
+  var a=arr.slice();
+  for(var i=a.length-1;i>0;i--){var j=Math.floor((rng||Math.random)()*(i+1));var t=a[i];a[i]=a[j];a[j]=t;}
+  return a;
+}
+function makeTeams(names,count,rng){
+  if(!names||names.length<2||count<2||count>names.length) return null;
+  var sh=shuffleList(names,rng), teams=[]; var i;
+  for(i=0;i<count;i++)teams.push([]);
+  for(i=0;i<sh.length;i++)teams[i%count].push(sh[i]);
+  return teams;
+}
+/*TESTABLE_END*/
+document.getElementById('tmForm').addEventListener('submit',function(e){e.preventDefault();
+ var names=document.getElementById('tmNames').value.split(/\r?\n/).map(function(s){return s.trim();}).filter(Boolean);
+ var count=parseInt(document.getElementById('tmCount').value,10);
+ var teams=makeTeams(names,count,function(){var a=new Uint32Array(1);crypto.getRandomValues(a);return a[0]/4294967296;});
+ var box=document.getElementById('tmResult'); box.style.display='block';
+ if(!teams){box.innerHTML='<p class="err">Aggiungi almeno 2 nomi e scegli come numero di squadre un valore tra 2 e il numero dei nomi.</p>';return;}
+ var html='<div class="resbig"><span>Squadre generate</span><strong>'+teams.length+' squadre · '+names.length+' persone</strong></div>';
+ teams.forEach(function(t,i){html+='<h3 style="color:var(--teal);margin:10px 0 4px">Squadra '+(i+1)+' ('+t.length+')</h3><p>'+t.map(function(n){return n.replace(/</g,"&lt;");}).join(", ")+'</p>';});
+ box.innerHTML=html;});
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Installa app';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Installa questa app: tocca il pulsante Condividi, poi scegli "Aggiungi alla schermata Home".');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Lancio della moneta",
+  "short_name": "Lancio della moneta",
+  "description": "Lancio di moneta online gratuito: lancia una moneta virtuale una volta o dieci alla volta, con conteggi di testa/croce, percentuali, statistiche sulle serie e una modalità partita al meglio di.",
+  "id": "/loona-calculators/it/coin-flip/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

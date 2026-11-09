@@ -1,0 +1,29 @@
+{
+  "name": "Loona Giorni lavorativi in Cechia",
+  "short_name": "Giorni Lavorativi in Cechia",
+  "description": "Calcolatore di giorni lavorativi per la Cechia: conta i giorni lavorativi tra due date escludendo i fine settimana e tutti i 13 giorni festivi cechi del 2026. Strumento online gratuito.",
+  "id": "/loona-calculators/it/working-days-in-czechia.html",
+  "start_url": "./working-days-in-czechia.html",
+  "scope": "./working-days-in-czechia.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

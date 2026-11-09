@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calcolatrice della differenza di età",
+  "short_name": "Calcolatrice della differenza di età",
+  "description": "Calcolatore gratuito della differenza di età: inserisci due date di nascita per ottenere la differenza esatta in anni, mesi e giorni, i giorni totali tra loro e chi è più grande.",
+  "id": "/loona-calculators/it/age-difference-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Convertitore Loona da tonnellata a chilogrammo",
+  "short_name": "Convertitore da Tonnellata a Chilogrammo",
+  "description": "Converti tonnellate in chilogrammi all'istante. Formula esatta, una tabella di conversione completa da t a kg, un esempio pratico e le FAQ. Gratuito, senza registrazione.",
+  "id": "/loona-calculators/it/tonnes-to-kilograms-converter.html",
+  "start_url": "./tonnes-to-kilograms-converter.html",
+  "scope": "./tonnes-to-kilograms-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

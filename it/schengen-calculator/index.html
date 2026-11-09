@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calcolatore Schengen 90/180 — Giorni mobili, rimanenti e rientro | Loona Calculators</title>
+<meta name="description" content="Calcolatore gratuito Schengen 90/180: inserisci viaggi passati e pianificati per vedere i giorni usati in qualsiasi finestra mobile di 180 giorni, i giorni rimanenti, avvisi di superamento e la reintroduzione sicura più vicina.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/it/schengen-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/schengen-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/schengen-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/schengen-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/schengen-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/schengen-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/schengen-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/schengen-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Calcolatore Schengen 90/180 — Giorni mobili, rimanenti e rientro | Loona Calculators">
+<meta property="og:description" content="Calcolatore gratuito Schengen 90/180: inserisci viaggi passati e pianificati per vedere i giorni usati in qualsiasi finestra mobile di 180 giorni, i giorni rimanenti, avvisi di superamento e la reintroduzione sicura più vicina.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/it/schengen-calculator/"><meta property="og:locale" content="it_IT">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Calcolatore Schengen 90/180 — Giorni mobili, rimanenti e rientro | Loona Calculators">
+<meta name="twitter:description" content="Calcolatore gratuito Schengen 90/180: inserisci viaggi passati e pianificati per vedere i giorni usati in qualsiasi finestra mobile di 180 giorni, i giorni rimanenti, avvisi di superamento e la reintroduzione sicura più vicina.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Calcolatore Loona Schengen 90/180","url":"https://loonaautomation.github.io/loona-calculators/it/schengen-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Come funziona davvero la regola 90/180?","acceptedAnswer":{"@type":"Answer","text":"In qualsiasi giorno in cui sei nell'area Schengen, conta i tuoi giorni di presenza nei 180 giorni precedenti incluso quel giorno. Il totale non deve mai superare 90. La finestra scorre in avanti ogni giorno, cosa che questo calcolatore verifica giorno per giorno su tutti i tuoi viaggi."}},{"@type":"Question","name":"I giorni di ingresso e di uscita contano?","acceptedAnswer":{"@type":"Answer","text":"Sì. Secondo la regola UE sia il giorno di ingresso sia quello di uscita contano come giorni pieni di presenza, e questo calcolatore li conta in quel modo."}},{"@type":"Question","name":"Cosa conta come un unico viaggio se parto e torno rapidamente?","acceptedAnswer":{"@type":"Answer","text":"Ogni giorno fisicamente all’interno dell’area Schengen conta, per quanto breve sia l’intervallo fuori. Inserisci ogni soggiorno separatamente e il calcolatore li somma tutti nelle stesse finestre mobili."}},{"@type":"Question","name":"Questo è un consiglio legale?","acceptedAnswer":{"@type":"Answer","text":"No. È un'indicazione basata sulla regola standard UE 90/180 per soggiorni brevi per visitatori senza visto e con visto per soggiorni brevi. Non copre permessi di soggiorno, visti per soggiorni lunghi o le regole speciali che alcune nazionalità hanno in base ad accordi bilaterali. Decidono le autorità di frontiera; verifica le fonti ufficiali UE per il tuo caso."}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+
+.sgrow{display:grid;grid-template-columns:1fr 1fr auto;gap:8px;margin-bottom:8px;align-items:end}.sgrow button{padding:10px 12px;border-radius:10px;border:1.5px solid #f5c6c6;background:#fdecea;color:#8d2020;cursor:pointer;font-weight:700}@media(max-width:600px){.sgrow{grid-template-columns:1fr 1fr}}</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/it/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Calcolatore Schengen 90/180",
+      "item": "https://loonaautomation.github.io/loona-calculators/it/schengen-calculator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Logo di Loona Automation">
+<div class="brand">Loona <span>Calcolatrici</span></div>
+<nav>
+<a href="../">Home</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">Informazioni</a>
+<a href="../contact.html">Contatti</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › Data e Ora › Calcolatore Schengen 90/180</div>
+<h1 class="pagetitle">🇪🇺 Calcolatore Schengen 90/180</h1>
+<p class="lead">Inserisci i tuoi viaggi passati e pianificati nell’area Schengen. Il calcolatore controlla ogni finestra mobile di 180 giorni — non solo semestri di calendario — conta i giorni usati, mostra quanti te ne restano, avverte di eventuali superamenti e trova la data più vicina in cui potresti iniziare un nuovo soggiorno completo di 90 giorni.</p>
+<div class="exbox"><strong>Risposta rapida:</strong> La regola Schengen per i soggiorni brevi consente al massimo 90 giorni in qualsiasi periodo mobile di 180 giorni. Sia il giorno di ingresso sia quello di uscita contano come giorni di presenza, e la finestra si sposta ogni giorno — non è divisa in blocchi fissi di sei mesi.</div>
+<div class="toolbox"><form class="calcform" id="sgForm">
+<div id="sgTrips"></div>
+<button class="calcbtn" type="button" id="sgAdd" style="background:#fff;border:2px solid var(--teal2);color:var(--teal);margin-bottom:10px">+ Aggiungi un altro viaggio</button>
+<div class="fld"><label for="sgCheck">Controlla la data</label><input type="date" id="sgCheck"></div>
+<button class="calcbtn" type="submit">Controlla i miei 90/180 giorni</button>
+<div class="calcresult" id="sgResult" style="display:none"></div>
+</form>
+<div style="margin-top:22px;border-top:2px solid var(--line);padding-top:16px">
+<h3 style="color:var(--teal);margin-bottom:6px">✈️ Pianificatore di viaggio — verifica un viaggio pianificato</h3>
+<p style="font-size:14.5px;color:var(--mut)">Usa i viaggi inseriti qui sopra come tua cronologia. Inserisci un viaggio pianificato e vedi se ogni giorno di esso resta entro il limite 90/180.</p>
+<div class="fld" style="margin-top:10px"><label for="sgPlanStart">Data di ingresso pianificata</label><input type="date" id="sgPlanStart" style="width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px"></div>
+<div class="fld"><label for="sgPlanDays">Durata pianificata (giorni)</label><input type="number" id="sgPlanDays" value="30" min="1" max="180" style="width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px"></div>
+<button class="calcbtn" type="button" id="sgPlanBtn">Controlla il viaggio pianificato</button>
+<div class="calcresult" id="sgPlanResult" style="display:none"></div>
+</div></div>
+<section class="txt"><h2>Come usare la calcolatrice Schengen 90/180</h2><ol><li>Aggiungi ogni viaggio con le sue date di entrata e di uscita (contano entrambi i giorni).</li><li>Imposta la data di verifica — oggi è l'impostazione predefinita — per vedere i giorni usati nella finestra di 180 giorni che termina in quella data e i giorni rimanenti.</li><li>Leggi i giorni massimi trovati in qualsiasi finestra mobile: sopra 90 significa un soggiorno oltre il limite secondo la regola.</li><li>Usa il primo risultato di soggiorno completo se stai pianificando un nuovo viaggio lungo.</li></ol>
+<div class="exbox"><strong>Esempio:</strong> Due viaggi di 45 giorni ciascuno — 1 gen–14 feb 2026 e 1 mar–14 apr 2026 — usano esattamente 90 giorni. Il 14 aprile 2026 la finestra contiene tutti i 90 giorni, restano 0 giorni e non c'è superamento perché 90 sono consentiti.</div>
+<h2>Domande frequenti</h2></section><div class="faq"><h3>Come funziona davvero la regola 90/180?</h3><p>In qualsiasi giorno in cui sei nell'area Schengen, conta i tuoi giorni di presenza nei 180 giorni precedenti incluso quel giorno. Il totale non deve mai superare 90. La finestra scorre in avanti ogni giorno, cosa che questo calcolatore verifica giorno per giorno su tutti i tuoi viaggi.</p></div><div class="faq"><h3>I giorni di ingresso e di uscita contano?</h3><p>Sì. Secondo la regola UE sia il giorno di ingresso sia quello di uscita contano come giorni pieni di presenza, e questo calcolatore li conta in quel modo.</p></div><div class="faq"><h3>Cosa conta come un unico viaggio se parto e torno rapidamente?</h3><p>Ogni giorno fisicamente all’interno dell’area Schengen conta, per quanto breve sia l’intervallo fuori. Inserisci ogni soggiorno separatamente e il calcolatore li somma tutti nelle stesse finestre mobili.</p></div><div class="faq"><h3>Questo è un consiglio legale?</h3><p>No. È un'indicazione basata sulla regola standard UE 90/180 per soggiorni brevi per visitatori senza visto e con visto per soggiorni brevi. Non copre permessi di soggiorno, visti per soggiorni lunghi o le regole speciali che alcune nazionalità hanno in base ad accordi bilaterali. Decidono le autorità di frontiera; verifica le fonti ufficiali UE per il tuo caso.</p></div>
+<h2 class="sec">Calcolatori correlati</h2><div class="grid"><a class="card" href="../date-calculator/"><div class="ic">📆</div><h3>Calcolatore di date</h3><p>Data e ora</p></a><a class="card" href="../days-between-dates-calculator/"><div class="ic">🗓️</div><h3>Giorni tra due date</h3><p>Data e ora</p></a><a class="card" href="../age-calculator/"><div class="ic">📅</div><h3>Calcolatrice dell'età</h3><p>Data e ora</p></a><a class="card" href="../working-days-calculator/"><div class="ic">🏢</div><h3>Calcolatore dei Giorni Lavorativi</h3><p>Data e ora</p></a><a class="card" href="../time-calculator/"><div class="ic">⏱️</div><h3>Calcolatore di Tempo</h3><p>Data e ora</p></a><a class="card" href="../eu261-compensation-calculator/"><div class="ic">✈️</div><h3>Verifica del risarcimento EU261</h3><p>Denaro e viaggi</p></a></div>
+</div>
+<section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>Come funziona — la formula</h2>
+<p>Per ogni data <em>D</em>, presenza(D) = il numero dei giorni del tuo viaggio che cadono nella finestra <strong>[D − 179 giorni, D]</strong>. La regola è violata solo se presenza(D) &gt; 90 per qualche D. Questa calcolatrice valuta la presenza per ogni giorno rilevante — ogni giorno del viaggio e i giorni intorno ad esso — invece di campionare, quindi i casi limite della finestra mobile vengono individuati esattamente. Giorni rimanenti alla data di verifica = 90 − presenza(data di verifica). L'inizio più precoce di un soggiorno completo si trova testando le date di inizio candidate giorno per giorno: un soggiorno di 90 giorni che inizia il giorno S è sicuro solo se la presenza resta a 90 o sotto in ogni giorno del soggiorno, inclusi i nuovi giorni stessi.</p>
+<h3>Esempio svolto</h3><div class="exbox"><p><strong>Input:</strong> Viaggio 1: 1 gen–14 feb 2026 (31 + 14 = 45 giorni). Viaggio 2: 1 mar–14 apr 2026 (31 + 14 = 45 giorni). Data di verifica 14 apr 2026.</p><p><strong>Passaggi:</strong> La finestra di 180 giorni che termina il 14 apr 2026 inizia il 17 ott 2025, quindi contiene entrambi i viaggi per intero: 45 + 45 = 90 giorni usati. Giorni rimanenti = 90 − 90 = 0. Il massimo in qualsiasi finestra è 90, che è consentito: nessun soggiorno oltre il limite.</p><p><strong>Risultato:</strong> <strong>90 giorni usati, 0 rimanenti, nessun superamento</strong> — ma un giorno in più il 15 apr 2026 farebbe 91 nella finestra e infrangerebbe la regola.</p></div>
+<p class="resnote"><strong>Avvertenza:</strong> Solo orientamento, basato sulla regola UE 90/180 per soggiorni brevi. Regole verificate: 8 novembre 2026. Non consulenza legale. Permessi di soggiorno, visti per soggiorni lunghi e accordi bilaterali possono cambiare la situazione — conferma sempre con fonti ufficiali UE o nazionali.</p>
+</section>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Incorpora questo calcolatore nel tuo sito web — gratis</h2>
+<p style="margin:0 0 12px;line-height:1.6">Aggiungi questa calcolatrice al tuo sito web o blog — è completamente gratuita, non richiede registrazione e mostra sempre la versione più recente. Copia il codice qui sotto e incollalo nella tua pagina nel punto in cui vuoi che appaia la calcolatrice. Mantenere la piccola riga di credito &ldquo;Powered by Loona Automation&rdquo; sotto l'incorporamento aiuta a mantenere gratuito questo strumento &mdash; ma sei libero di personalizzarla o rimuoverla; lo strumento funziona in ogni caso.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/it/schengen-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Schengen 90/180 Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Realizzato da &lt;a href="https://loonaautomation.github.io/loona-calculators/it/schengen-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; gratuito Calcolatore Schengen 90/180&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Copia il codice di incorporamento</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='Copia codice di incorporamento';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Calcolatori popolari</h4><ul><li><a href="../age-calculator/">Calcolatrice dell'età</a></li>
+<li><a href="../zakat-calculator/">Calcolatore della Zakat</a></li>
+<li><a href="../cgpa-calculator/">Calcolatrice CGPA</a></li>
+<li><a href="../percentage-calculator/">Calcolatore di percentuali</a></li>
+<li><a href="../hijri-date-converter/">Convertitore di data Hijri</a></li>
+<li><a href="../emi-calculator/">Calcolatore EMI e prestiti</a></li></ul></div>
+<div><h4>Altri strumenti Loona</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Codici QR Loona</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Compressore di immagini Loona</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona Assistente AI</a></li>
+<li><a href="https://loonaautomation.github.io/">Tutti gli strumenti Loona</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">Informazioni</a></li>
+<li><a href="../contact.html">Contatti</a></li>
+<li><a href="../privacy-policy.html">Informativa sulla privacy</a></li>
+<li><a href="../terms.html">Termini di utilizzo</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — un <a href="https://loonaautomation.github.io/">Loona Automation</a> progetto. Calcolatori online gratuiti, senza registrazione.
+Contatto: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+function sgParse(isoStr){var p=isoStr.split("-");return Date.UTC(+p[0],+p[1]-1,+p[2])/86400000;}
+function sgISO(dayNum){var d=new Date(dayNum*86400000);return d.getUTCFullYear()+"-"+String(d.getUTCMonth()+1).padStart(2,"0")+"-"+String(d.getUTCDate()).padStart(2,"0");}
+function sgDaySet(trips){
+  var set={};
+  trips.forEach(function(t){var a=sgParse(t[0]),b=sgParse(t[1]);if(b<a){var tmp=a;a=b;b=tmp;}for(var d=a;d<=b;d++)set[d]=1;});
+  return set;
+}
+function sgPresence(set,day){var c=0;for(var d=day-179;d<=day;d++)if(set[d])c++;return c;}
+function analyzeSchengen(trips,checkISO){
+  var set=sgDaySet(trips), days=Object.keys(set).map(Number).sort(function(a,b){return a-b;});
+  var total=days.length;
+  if(!total)return {total:0,usedAtCheck:0,remaining:90,maxUsed:0,maxDate:null,overstay:false};
+  var check=sgParse(checkISO), usedAtCheck=sgPresence(set,check);
+  var maxUsed=0,maxDay=days[0];
+  var from=days[0], to=days[days.length-1]+179;
+  for(var d=from;d<=to;d++){var p=sgPresence(set,d); if(p>maxUsed){maxUsed=p;maxDay=d;}}
+  return {total:total,usedAtCheck:usedAtCheck,remaining:Math.max(0,90-usedAtCheck),maxUsed:maxUsed,maxDate:sgISO(maxDay),overstay:maxUsed>90};
+}
+function earliestFullStay(trips,fromISO){
+  var set=sgDaySet(trips);
+  var start0=sgParse(fromISO);
+  for(var s=start0;s<start0+730;s++){
+    var ok=true;
+    for(var k=0;k<90&&ok;k++){
+      var d=s+k, presence=0;
+      for(var x=d-179;x<=d;x++){ if(set[x]||(x>=s&&x<=d)) presence++; }
+      if(presence>90) ok=false;
+    }
+    if(ok)return sgISO(s);
+  }
+  return null;
+}
+/*TESTABLE_END*/
+var sgCount=0;
+function sgAddRow(entry,exit){
+  sgCount++;
+  var div=document.createElement('div'); div.className='sgrow';
+  div.innerHTML='<div class="fld" style="margin:0"><label>Data di ingresso</label><input type="date" class="sgIn" value="'+(entry||'')+'"></div>'
+   +'<div class="fld" style="margin:0"><label>Data di uscita</label><input type="date" class="sgOut" value="'+(exit||'')+'"></div>'
+   +'<button type="button" aria-label="Remove trip">✕</button>';
+  div.querySelector('button').addEventListener('click',function(){div.remove();});
+  document.getElementById('sgTrips').appendChild(div);
+}
+sgAddRow(); sgAddRow();
+document.getElementById('sgAdd').addEventListener('click',function(){sgAddRow();});
+document.getElementById('sgCheck').value=new Date().toISOString().slice(0,10);
+document.getElementById('sgForm').addEventListener('submit',function(e){e.preventDefault();
+ var trips=[];
+ document.querySelectorAll('#sgTrips .sgrow').forEach(function(r){
+   var a=r.querySelector('.sgIn').value, b=r.querySelector('.sgOut').value;
+   if(a&&b)trips.push([a,b]);
+ });
+ var box=document.getElementById('sgResult'); box.style.display='block';
+ if(!trips.length){box.innerHTML='<p class="err">Aggiungi almeno un viaggio con date di ingresso e uscita.</p>';return;}
+ var check=document.getElementById('sgCheck').value||new Date().toISOString().slice(0,10);
+ var r=analyzeSchengen(trips,check);
+ var lastExit=trips.map(function(t){return t[1];}).sort().pop();
+ var fromForFull=r.overstay?lastExit:check;
+ var full=earliestFullStay(trips,fromForFull);
+ function fmtD(s){var M=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];var p=s.split("-");return (+p[2])+" "+M[(+p[1])-1]+" "+p[0];}
+ box.innerHTML='<div class="resbig"><span>Giorni usati nella finestra che termina il '+fmtD(check)+'</span><strong>'+r.usedAtCheck+' / 90</strong></div>'
+  +'<table class="restbl">'
+  +'<tr><td>Giorni rimanenti alla data di controllo</td><td><strong>'+r.remaining+'</strong></td></tr>'
+  +'<tr><td>Giorni totali di viaggio inseriti</td><td><strong>'+r.total+'</strong></td></tr>'
+  +'<tr><td>Massimo in qualsiasi finestra mobile di 180 giorni</td><td><strong>'+r.maxUsed+' giorni (finestra che termina il '+fmtD(r.maxDate)+')</strong></td></tr>'
+  +'<tr><td>Inizio più anticipato per un nuovo soggiorno completo di 90 giorni</td><td><strong>'+(full?fmtD(full):'Non entro i prossimi 2 anni')+'</strong></td></tr></table>'
+  +(r.overstay?'<p class="err">Avviso di superamento del soggiorno: questi viaggi raggiungono '+r.maxUsed+' giorni in una finestra mobile di 180 giorni, che supera il limite di 90 giorni.</p>':'<p class="resnote">Nessun superamento del soggiorno trovato in alcuna finestra mobile per i viaggi inseriti.</p>')
+  +'<p class="resnote">Solo indicazioni, non consulenza legale. I giorni di ingresso e di uscita contano entrambi. Permessi di soggiorno, visti per soggiorni lunghi e accordi bilaterali non sono coperti.</p>';});
+
+</script>
+
+<script>
+/*TESTABLE_START*/
+function planTripCheck(historyTrips, planStartISO, planDays){
+  var trips=historyTrips.slice();
+  var start=sgParse(planStartISO);
+  trips.push([planStartISO, sgISO(start+planDays-1)]);
+  var set=sgDaySet(trips);
+  var maxP=0, firstBad=null;
+  for(var k=0;k<planDays;k++){
+    var d=start+k, pr=sgPresence(set,d);
+    if(pr>maxP)maxP=pr;
+    if(pr>90&&firstBad===null)firstBad=sgISO(d);
+  }
+  return {compliant:firstBad===null, firstViolation:firstBad, maxPresence:maxP, planEnd:sgISO(start+planDays-1)};
+}
+/*TESTABLE_END*/
+document.getElementById('sgPlanBtn').addEventListener('click',function(){
+  var trips=[];
+  document.querySelectorAll('#sgTrips .sgrow').forEach(function(r){
+    var a=r.querySelector('.sgIn').value, b=r.querySelector('.sgOut').value;
+    if(a&&b)trips.push([a,b]);
+  });
+  var box=document.getElementById('sgPlanResult'); box.style.display='block';
+  var start=document.getElementById('sgPlanStart').value, days=parseInt(document.getElementById('sgPlanDays').value,10);
+  if(!start||!(days>=1&&days<=180)){box.innerHTML='<p class="err">Inserisci una data di ingresso pianificata e una durata di 1-180 giorni.</p>';return;}
+  var r=planTripCheck(trips,start,days);
+  box.innerHTML='<div class="resbig"><span>Verdetto sul viaggio pianificato</span><strong>'+(r.compliant?'COMPLIANT':'NOT COMPLIANT')+'</strong></div>'
+   +'<table class="restbl"><tr><td>Data di uscita pianificata</td><td><strong>'+r.planEnd+'</strong></td></tr>'
+   +'<tr><td>Conteggio più alto nella finestra mobile durante il viaggio</td><td><strong>'+r.maxPresence+' / 90</strong></td></tr>'
+   +(r.firstViolation?'<tr><td>Primo giorno oltre il limite</td><td><strong>'+r.firstViolation+'</strong></td></tr>':'')
+   +'</table><p class="resnote">Solo indicazioni per la pianificazione, basate sui viaggi inseriti sopra. Regole verificate: 8 novembre 2026.</p>';
+});
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Installa app';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Installa questa app: tocca il pulsante Condividi, poi scegli "Aggiungi alla schermata Home".');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

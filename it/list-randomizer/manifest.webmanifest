@@ -1,0 +1,29 @@
+{
+  "name": "Randomizzatore di elenchi Loona",
+  "short_name": "Mescolatore di elenchi",
+  "description": "Randomizzatore gratuito di elenchi: incolla qualsiasi elenco per mescolarlo in un ordine casuale, o scegli un campione casuale di elementi. Mescolamento sicuro, nulla viene caricato.",
+  "id": "/loona-calculators/it/list-randomizer/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

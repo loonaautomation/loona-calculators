@@ -1,0 +1,29 @@
+{
+  "name": "Calcolatore Loona del sonno",
+  "short_name": "Calcolatore del sonno",
+  "description": "Calcolatore gratuito del sonno: inserisci un orario di sveglia per ottenere i migliori orari per andare a letto, o un orario per andare a letto per ottenere i migliori orari di sveglia — basato su cicli del sonno di 90 minuti più il tempo per addormentarsi.",
+  "id": "/loona-calculators/it/sleep-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

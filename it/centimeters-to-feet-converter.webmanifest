@@ -1,0 +1,29 @@
+{
+  "name": "Convertitore Loona da Cm a Piedi",
+  "short_name": "Convertitore da Cm a Feet",
+  "description": "Converti centimetri in piedi all'istante. Formula esatta, una tabella di conversione completa da cm a ft ed esempi pratici. Gratuito, senza registrazione.",
+  "id": "/loona-calculators/it/centimeters-to-feet-converter.html",
+  "start_url": "./centimeters-to-feet-converter.html",
+  "scope": "./centimeters-to-feet-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

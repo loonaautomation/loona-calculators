@@ -1,0 +1,29 @@
+{
+  "name": "Convertitore Loona da PLN a NOK",
+  "short_name": "Convertitore da PLN a NOK",
+  "description": "Converti il zloty polacco (PLN) in corona norvegese (NOK). Tasso di riferimento BCE del 06 novembre 2026, tasso inverso, tabella di conversione e note sul corridoio valutario. Solo a titolo indicativo.",
+  "id": "/loona-calculators/it/pln-to-nok-converter.html",
+  "start_url": "./pln-to-nok-converter.html",
+  "scope": "./pln-to-nok-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

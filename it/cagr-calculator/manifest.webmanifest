@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calcolatrice del CAGR",
+  "short_name": "Calcolatrice CAGR",
+  "description": "Calcolatore CAGR gratuito: inserisci valore iniziale, valore finale e numero di anni per trovare il tasso di crescita annuale composto di un investimento o di un’attività.",
+  "id": "/loona-calculators/it/cagr-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

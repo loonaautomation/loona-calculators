@@ -1,0 +1,29 @@
+{
+  "name": "Convertitore Loona di velocità",
+  "short_name": "Convertitore di velocità",
+  "description": "Ogni coppia di conversione della velocità in un unico indice: fattori esatti, formule e una pagina di convertitore dedicata per ogni coppia. Gratis, senza registrazione.",
+  "id": "/loona-calculators/it/speed-converter.html",
+  "start_url": "./speed-converter.html",
+  "scope": "./speed-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Calcolatore Loona della divisione dell'affitto",
+  "short_name": "Calcolatore per dividere l'affitto",
+  "description": "Calcolatore gratuito di divisione dell’affitto: dividi l’affitto mensile tra 2 e 8 coinquilini — in parti uguali, per dimensione della stanza in piedi quadrati o per reddito. Le quote sommano sempre esattamente al totale.",
+  "id": "/loona-calculators/it/rent-split-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

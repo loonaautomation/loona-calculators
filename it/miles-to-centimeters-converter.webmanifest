@@ -1,0 +1,29 @@
+{
+  "name": "Convertitore Loona da miglio a centimetro",
+  "short_name": "Convertitore da miglio a centimetro",
+  "description": "Converti miglia in centimetri all'istante. Formula esatta, una tabella di conversione completa da mi a cm, un esempio pratico e le FAQ. Gratuito, senza registrazione.",
+  "id": "/loona-calculators/it/miles-to-centimeters-converter.html",
+  "start_url": "./miles-to-centimeters-converter.html",
+  "scope": "./miles-to-centimeters-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

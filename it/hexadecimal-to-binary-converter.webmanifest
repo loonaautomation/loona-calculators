@@ -1,0 +1,29 @@
+{
+  "name": "Convertitore Loona da esadecimale a binario",
+  "short_name": "Da Esadecimale a Binario",
+  "description": "Converti l'esadecimale (base 16) in binario (base 2) con validazione, calcolo del valore posizionale e una tabella di riferimento.",
+  "id": "/loona-calculators/it/hexadecimal-to-binary-converter.html",
+  "start_url": "./hexadecimal-to-binary-converter.html",
+  "scope": "./hexadecimal-to-binary-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

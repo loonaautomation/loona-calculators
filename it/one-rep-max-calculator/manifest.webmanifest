@@ -1,0 +1,29 @@
+{
+  "name": "Calcolatore Loona del massimale (1RM)",
+  "short_name": "Calcolatore del massimale (1RM)",
+  "description": "Calcolatore gratuito del massimale: stima il tuo 1RM da peso e ripetizioni di una serie con le formule di Epley, Brzycki e Lombardi, più le percentuali di allenamento.",
+  "id": "/loona-calculators/it/one-rep-max-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Convertitore Loona da Metri cubi a Litri",
+  "short_name": "Da Metri cubi a Litri",
+  "description": "Converti metri cubi in litri all'istante. Formula esatta, una tabella di conversione completa da m³ a L ed esempi pratici. Gratuito, senza registrazione.",
+  "id": "/loona-calculators/it/cubic-meters-to-liters-converter.html",
+  "start_url": "./cubic-meters-to-liters-converter.html",
+  "scope": "./cubic-meters-to-liters-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calcolatrice del percentile IMC per bambini",
+  "short_name": "Percentile BMI infantile",
+  "description": "Calcolatore gratuito del percentile BMI infantile con i dati ufficiali delle tabelle di crescita LMS CDC per età da 2 a 20: BMI, percentile, z-score e categoria di peso per ragazzi e ragazze.",
+  "id": "/loona-calculators/it/child-bmi-percentile-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

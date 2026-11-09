@@ -1,0 +1,29 @@
+{
+  "name": "Calcolatore Loona della dimensione del campione",
+  "short_name": "Calcolatore della dimensione del campione",
+  "description": "Calcolatore gratuito della dimensione del campione: quante risposte ti servono per una proporzione o una media di un sondaggio, al tuo livello di confidenza e margine di errore, con correzione per popolazione finita.",
+  "id": "/loona-calculators/it/sample-size-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

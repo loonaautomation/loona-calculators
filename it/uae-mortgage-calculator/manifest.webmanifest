@@ -1,0 +1,29 @@
+{
+  "name": "Calcolatore Loona dei mutui negli Emirati Arabi Uniti",
+  "short_name": "Calcolatore di Mutui EAU",
+  "description": "Calcolatore gratuito per mutui negli EAU in dirham: rata mensile, interessi totali e data di libertà dai debiti per qualsiasi prezzo dell’immobile, deposito, tasso di interesse e durata, più un confronto dei pagamenti extra.",
+  "id": "/loona-calculators/it/uae-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

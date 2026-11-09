@@ -1,0 +1,29 @@
+{
+  "name": "Convertitore Loona da Tazza (US) a Cucchiaio (US)",
+  "short_name": "Da Tazza (US) a Cucchiaio da tavola (US)",
+  "description": "Converti tazze (US) in cucchiai (US) all'istante. Formula esatta, una tabella di conversione completa da cup a tbsp, un esempio pratico e le FAQ. Gratuito, senza registrazione.",
+  "id": "/loona-calculators/it/cups-to-tablespoons-converter.html",
+  "start_url": "./cups-to-tablespoons-converter.html",
+  "scope": "./cups-to-tablespoons-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

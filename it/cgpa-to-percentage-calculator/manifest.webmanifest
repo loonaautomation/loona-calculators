@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calcolatrice da CGPA a percentuale",
+  "short_name": "Calcolatrice da CGPA a percentuale",
+  "description": "Convertitore gratuito da CGPA a percentuale: converti CGPA su 10 (formula ×9.5) o GPA su 4 in percentuale, con un’opzione di moltiplicatore personalizzato per qualsiasi commissione o università.",
+  "id": "/loona-calculators/it/cgpa-to-percentage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calcolatrice del teorema di Bayes",
+  "short_name": "Calcolatrice del teorema di Bayes",
+  "description": "Calcolatore gratuito del teorema di Bayes: probabilità a priori, tasso di veri positivi e tasso di falsi positivi danno la probabilità a posteriori — il classico calcolo dei test medici, spiegato.",
+  "id": "/loona-calculators/it/bayes-theorem-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

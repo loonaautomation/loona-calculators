@@ -1,0 +1,29 @@
+{
+  "name": "Convertitore Loona da tonnellata a libbra",
+  "short_name": "Convertitore da Tonnellata a Libbra",
+  "description": "Converti tonnellate in libbre all'istante. Formula esatta, una tabella di conversione completa da t a lb, un esempio pratico e le FAQ. Gratuito, senza registrazione.",
+  "id": "/loona-calculators/it/tonnes-to-pounds-converter.html",
+  "start_url": "./tonnes-to-pounds-converter.html",
+  "scope": "./tonnes-to-pounds-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

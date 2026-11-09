@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calcolatrice del test del chi-quadrato",
+  "short_name": "Calcolatrice del test del chi-quadrato",
+  "description": "Calcolatore gratuito del test chi-quadrato: inserisci una tabella osservata per un test di indipendenza, o conteggi osservati vs attesi per la bontà di adattamento. Chi-quadrato, df e valore p.",
+  "id": "/loona-calculators/it/chi-square-test-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

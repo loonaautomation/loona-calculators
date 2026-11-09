@@ -1,0 +1,29 @@
+{
+  "name": "Convertitore Loona da milligrammi a grammi",
+  "short_name": "Convertitore da milligrammi a grammi",
+  "description": "Converti milligrammi in grammi all'istante. Formula esatta, una tabella di conversione completa da mg a g ed esempi pratici. Gratuito, senza registrazione.",
+  "id": "/loona-calculators/it/milligrams-to-grams-converter.html",
+  "start_url": "./milligrams-to-grams-converter.html",
+  "scope": "./milligrams-to-grams-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calcolatrice del mutuo per la Francia",
+  "short_name": "Calcolatore di mutui per la Francia",
+  "description": "Calcolatore gratuito per mutui in Francia in euro: rata mensile con assicurazione del mutuatario facoltativa (assurance emprunteur), interessi totali e data di libertà dai debiti per qualsiasi prezzo, deposito, tasso e durata.",
+  "id": "/loona-calculators/it/france-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

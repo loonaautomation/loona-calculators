@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calcolatrice dei giorni tra due date",
+  "short_name": "Calcolatore dei giorni tra due date",
+  "description": "Calcolatore gratuito dei giorni tra due date: conta il numero esatto di giorni, settimane e anni tra due date qualsiasi. Utile per scadenze, visti, contratti e conti alla rovescia.",
+  "id": "/loona-calculators/it/days-between-dates-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

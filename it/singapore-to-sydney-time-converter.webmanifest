@@ -1,0 +1,29 @@
+{
+  "name": "Convertitore orario Loona da Singapore a Sydney",
+  "short_name": "Da Singapore a Ora di Sydney",
+  "description": "Converti l'ora di Singapore in quella di Sydney. Sydney è avanti di 3 ore rispetto a Singapore a gennaio e avanti di 2 ore a luglio, con le date dell'ora legale, una tabella di 24 ore e la fascia oraria migliore per le riunioni. Convertitore in tempo reale incluso.",
+  "id": "/loona-calculators/it/singapore-to-sydney-time-converter.html",
+  "start_url": "./singapore-to-sydney-time-converter.html",
+  "scope": "./singapore-to-sydney-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
