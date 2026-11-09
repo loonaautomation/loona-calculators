@@ -1,0 +1,29 @@
+{
+  "name": "Dias Úteis Loona na Hungria",
+  "short_name": "Dias Úteis na Hungria",
+  "description": "Calculadora de dias úteis para a Hungria: dias úteis entre duas datas, com os fins de semana, os feriados húngaros e os dias de ponte de 2026 tratados. Ferramenta gratuita.",
+  "id": "/loona-calculators/pt/working-days-in-hungary.html",
+  "start_url": "./working-days-in-hungary.html",
+  "scope": "./working-days-in-hungary.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

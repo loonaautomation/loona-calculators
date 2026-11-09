@@ -1,0 +1,29 @@
+{
+  "name": "Loona Conversor de Gigabyte para Kibibyte",
+  "short_name": "Conversor de Gigabyte para Kibibyte",
+  "description": "Converter gigabytes para kibibytes instantaneamente. Fórmula exata, uma tabela de conversão completa de GB to KiB, um exemplo resolvido e perguntas frequentes. Grátis, sem registo.",
+  "id": "/loona-calculators/pt/gigabytes-to-kibibytes-converter.html",
+  "start_url": "./gigabytes-to-kibibytes-converter.html",
+  "scope": "./gigabytes-to-kibibytes-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

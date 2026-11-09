@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calculadora de EMI",
+  "short_name": "EMI Calculadora",
+  "description": "Calculadora de EMI e empréstimo gratuita: introduza empréstimo montante, juros ou lucro taxa e prazo para obter seu pagamento mensal, juros totais e pagamento total. Para banco empréstimos, carro e pessoal empréstimos.",
+  "id": "/loona-calculators/pt/emi-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

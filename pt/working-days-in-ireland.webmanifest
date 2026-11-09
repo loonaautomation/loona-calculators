@@ -1,0 +1,29 @@
+{
+  "name": "Dias Úteis Loona na Irlanda",
+  "short_name": "Dias Úteis na Irlanda",
+  "description": "Calculadora de dias úteis para a Irlanda: conte os dias úteis entre quaisquer duas datas, com os fins de semana e todos os 10 feriados irlandeses de 2026 retirados. Grátis.",
+  "id": "/loona-calculators/pt/working-days-in-ireland.html",
+  "start_url": "./working-days-in-ireland.html",
+  "scope": "./working-days-in-ireland.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

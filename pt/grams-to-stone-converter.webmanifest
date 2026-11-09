@@ -1,0 +1,29 @@
+{
+  "name": "Loona Conversor de Grama para Stone",
+  "short_name": "Conversor de Grama para Stone",
+  "description": "Converter gramas para stone instantaneamente. Fórmula exata, uma tabela de conversão completa de g to st, um exemplo resolvido e perguntas frequentes. Grátis, sem registo.",
+  "id": "/loona-calculators/pt/grams-to-stone-converter.html",
+  "start_url": "./grams-to-stone-converter.html",
+  "scope": "./grams-to-stone-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

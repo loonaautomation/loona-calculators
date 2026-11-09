@@ -1,0 +1,29 @@
+{
+  "name": "Conversor Loona de Milímetro para Milha",
+  "short_name": "Conversor de Milímetro para Milha",
+  "description": "Converter milímetros para milhas instantaneamente. Fórmula exata, uma tabela de conversão completa de mm to mi, um exemplo resolvido e perguntas frequentes. Grátis, sem registo.",
+  "id": "/loona-calculators/pt/millimeters-to-miles-converter.html",
+  "start_url": "./millimeters-to-miles-converter.html",
+  "scope": "./millimeters-to-miles-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

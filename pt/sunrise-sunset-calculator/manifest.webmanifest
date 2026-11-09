@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora Loona de Nascer e Pôr do Sol",
+  "short_name": "Calculadora do Nascer e Pôr do Sol",
+  "description": "Calculadora de nascer do sol e sunset gratuita: introduza um data e latitude/longitude para obter nascer do sol, sunset, dia comprimento e solar noon em UTC e local solar terms. NOAA maths.",
+  "id": "/loona-calculators/pt/sunrise-sunset-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

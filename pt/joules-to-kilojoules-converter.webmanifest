@@ -1,0 +1,29 @@
+{
+  "name": "Conversor Loona de Joule para Quilojoule",
+  "short_name": "Conversor de Joule para Quilojoule",
+  "description": "Converter joules para quilojoules instantaneamente. Fórmula exata, uma tabela de conversão completa de J to kJ, um exemplo resolvido e perguntas frequentes. Grátis, sem registo.",
+  "id": "/loona-calculators/pt/joules-to-kilojoules-converter.html",
+  "start_url": "./joules-to-kilojoules-converter.html",
+  "scope": "./joules-to-kilojoules-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

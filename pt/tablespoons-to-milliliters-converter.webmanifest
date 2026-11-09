@@ -1,0 +1,29 @@
+{
+  "name": "Conversor Loona de Colheres de Sopa para Mililitros",
+  "short_name": "Colher de Sopa para Mililitro",
+  "description": "Converter colheres de sopa para mililitros instantaneamente. Fórmula exata, uma tabela de conversão completa de tbsp to mL e exemplos resolvidos. Grátis, sem registo.",
+  "id": "/loona-calculators/pt/tablespoons-to-milliliters-converter.html",
+  "start_url": "./tablespoons-to-milliliters-converter.html",
+  "scope": "./tablespoons-to-milliliters-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

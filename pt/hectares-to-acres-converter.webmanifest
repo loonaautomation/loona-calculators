@@ -1,0 +1,29 @@
+{
+  "name": "Conversor Loona de Hectares para Acres",
+  "short_name": "Conversor de Hectares para Acres",
+  "description": "Converter hectares para acres instantaneamente. Fórmula exata, uma tabela de conversão completa de ha to acre e exemplos resolvidos. Grátis, sem registo.",
+  "id": "/loona-calculators/pt/hectares-to-acres-converter.html",
+  "start_url": "./hectares-to-acres-converter.html",
+  "scope": "./hectares-to-acres-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

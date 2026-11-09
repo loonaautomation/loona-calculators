@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora Loona de Declive",
+  "short_name": "Calculadora de Declive",
+  "description": "Calculadora de declive gratuita: introduza dois pontos para obter declive, distância entre lhes, midpoint, e linha equação em slope-intercept form, com úteis.",
+  "id": "/loona-calculators/pt/slope-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

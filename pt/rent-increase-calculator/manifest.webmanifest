@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora Loona de Aumento de Renda",
+  "short_name": "Calculadora de Aumento de Renda",
+  "description": "Calculadora de renda aumentar gratuita: introduza o seu atual renda e percentagem aumentar (ou novo renda) para ver novo mensal renda, extra custo por mês e ano, e year-by-year projeção.",
+  "id": "/loona-calculators/pt/rent-increase-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

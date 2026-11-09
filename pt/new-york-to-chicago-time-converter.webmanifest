@@ -1,0 +1,29 @@
+{
+  "name": "Conversor de Hora Loona de Nova Iorque para Chicago",
+  "short_name": "Hora de Nova Iorque para Chicago",
+  "description": "Converter a hora de Nova Iorque para a hora de Chicago. Chicago está 1 hora atrás de Nova Iorque durante todo o ano, com as datas da hora de verão, uma tabela de 24 horas e a melhor janela para reuniões. Conversor em direto incluído.",
+  "id": "/loona-calculators/pt/new-york-to-chicago-time-converter.html",
+  "start_url": "./new-york-to-chicago-time-converter.html",
+  "scope": "./new-york-to-chicago-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

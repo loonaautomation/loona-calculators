@@ -1,0 +1,29 @@
+{
+  "name": "Conversor Loona de Kibibyte para Terabyte",
+  "short_name": "Conversor de Kibibyte para Terabyte",
+  "description": "Converter kibibytes para terabytes instantaneamente. Fórmula exata, uma tabela de conversão completa de KiB to TB, um exemplo resolvido e perguntas frequentes. Grátis, sem registo.",
+  "id": "/loona-calculators/pt/kibibytes-to-terabytes-converter.html",
+  "start_url": "./kibibytes-to-terabytes-converter.html",
+  "scope": "./kibibytes-to-terabytes-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

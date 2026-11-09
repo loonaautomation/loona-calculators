@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora Loona de Empréstimo",
+  "short_name": "Calculadora de Empréstimo",
+  "description": "Calculadora de empréstimo gratuita: introduza montante, anual taxa de juro e prazo para obter seu pagamento mensal, juros totais e total reembolso para qualquer empréstimo.",
+  "id": "/loona-calculators/pt/loan-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

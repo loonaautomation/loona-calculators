@@ -1,0 +1,29 @@
+{
+  "name": "Verificador de Vinhetas Loona",
+  "short_name": "Verificador de Vinheta",
+  "description": "Verificador de vinheta gratuito: selecione Europeu países no seu condução rota para ver qual precisar autoestrada vinheta, qual cobrar portagens, e qual são gratuito para carros.",
+  "id": "/loona-calculators/pt/vignette-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

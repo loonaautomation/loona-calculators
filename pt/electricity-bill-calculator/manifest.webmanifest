@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calculadora da Fatura de Eletricidade",
+  "short_name": "Eletricidade Fatura Calculadora",
+  "description": "Calculadora de eletricidade fatura gratuita: introduza unidades utilizado e slab taxas para estimar seu mensal fatura com GST. Editable taxas para LESCO, IESCO, K-Electric e todos Paquistão eletricidade companies.",
+  "id": "/loona-calculators/pt/electricity-bill-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

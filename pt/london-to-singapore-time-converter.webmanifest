@@ -1,0 +1,29 @@
+{
+  "name": "Conversor de Hora Loona de Londres para Singapura",
+  "short_name": "Hora de Londres para Singapura",
+  "description": "Converter a hora de Londres para a hora de Singapura. Singapura está 8 horas à frente de Londres em janeiro e 7 horas à frente em julho, com as datas da hora de verão, uma tabela de 24 horas e a melhor janela para reuniões. Conversor em direto incluído.",
+  "id": "/loona-calculators/pt/london-to-singapore-time-converter.html",
+  "start_url": "./london-to-singapore-time-converter.html",
+  "scope": "./london-to-singapore-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

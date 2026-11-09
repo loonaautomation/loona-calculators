@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora Loona de Matrizes",
+  "short_name": "Calculadora de Matrizes",
+  "description": "Gratuito matriz calculadora para 2x2 e 3x3 matrizes: adicionar, subtrair, multiplicar, determinante e inverso com passo valores apresentado. Sem registo, funciona no seu navegador.",
+  "id": "/loona-calculators/pt/matrix-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora Loona de IVA",
+  "short_name": "Calculadora de IVA",
+  "description": "Calculadora de VAT/GST gratuita: adicionar imposto para net montante ou remover imposto de bruto montante a qualquer taxa. Funciona para VAT, GST e sales imposto em qualquer país.",
+  "id": "/loona-calculators/pt/vat-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Dias Até ao Domingo de Páscoa",
+  "short_name": "Dias até Domingo de Páscoa",
+  "description": "Contagem decrescente ao vivo para Domingo de Páscoa: dias, horas, minutos e segundos exatos restantes, a data deste ano e dos próximos três anos, factos e perguntas frequentes.",
+  "id": "/loona-calculators/pt/days-until-easter.html",
+  "start_url": "./days-until-easter.html",
+  "scope": "./days-until-easter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

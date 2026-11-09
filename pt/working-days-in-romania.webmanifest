@@ -1,0 +1,29 @@
+{
+  "name": "Dias Úteis Loona na Roménia",
+  "short_name": "Dias Úteis na Roménia",
+  "description": "Calculadora de dias úteis para a Roménia: conte os dias úteis entre duas datas, com os fins de semana e todos os feriados romenos de 2026 removidos. Ferramenta online gratuita.",
+  "id": "/loona-calculators/pt/working-days-in-romania.html",
+  "start_url": "./working-days-in-romania.html",
+  "scope": "./working-days-in-romania.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

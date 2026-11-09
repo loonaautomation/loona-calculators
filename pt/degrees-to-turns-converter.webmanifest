@@ -1,0 +1,29 @@
+{
+  "name": "Loona Conversor de Grau para Volta",
+  "short_name": "Conversor de Grau para Volta",
+  "description": "Converter graus para voltas instantaneamente. Fórmula exata, uma tabela de conversão completa de ° to turn, um exemplo resolvido e perguntas frequentes. Grátis, sem registo.",
+  "id": "/loona-calculators/pt/degrees-to-turns-converter.html",
+  "start_url": "./degrees-to-turns-converter.html",
+  "scope": "./degrees-to-turns-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

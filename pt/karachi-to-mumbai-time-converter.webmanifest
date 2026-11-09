@@ -1,0 +1,29 @@
+{
+  "name": "Conversor de Hora Loona de Karachi para Mumbai",
+  "short_name": "Hora de Karachi para Mumbai",
+  "description": "Converter a hora de Carachi para a hora de Bombaim. Bombaim está 0 horas e 30 minutos à frente de Carachi durante todo o ano, com as datas da hora de verão, uma tabela de 24 horas e a melhor janela para reuniões. Conversor em direto incluído.",
+  "id": "/loona-calculators/pt/karachi-to-mumbai-time-converter.html",
+  "start_url": "./karachi-to-mumbai-time-converter.html",
+  "scope": "./karachi-to-mumbai-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calculadora de Intervalo de Confiança",
+  "short_name": "Calculadora de Intervalos de Confiança",
+  "description": "Calculadora de intervalo de confiança gratuita: CI para média com conhecido sigma (z), com amostra SD (t), e para proporção, a 90%, 95% ou 99% confiança.",
+  "id": "/loona-calculators/pt/confidence-interval-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

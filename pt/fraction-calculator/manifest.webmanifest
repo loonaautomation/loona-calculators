@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calculadora de Frações",
+  "short_name": "Fração Calculadora",
+  "description": "Calculadora de fração gratuita: adicionar, subtrair, multiplicar ou dividir dois frações e obter simplified resposta como fração, mixed número e decimal.",
+  "id": "/loona-calculators/pt/fraction-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

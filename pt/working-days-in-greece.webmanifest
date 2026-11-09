@@ -1,0 +1,29 @@
+{
+  "name": "Dias Úteis Loona na Grécia",
+  "short_name": "Dias Úteis na Grécia",
+  "description": "Calculadora de dias úteis para Grécia: conte os dias úteis entre duas datas, com os fins de semana e todos os 12 feriados gregos de 2026 removidos. Ferramenta online gratuita.",
+  "id": "/loona-calculators/pt/working-days-in-greece.html",
+  "start_url": "./working-days-in-greece.html",
+  "scope": "./working-days-in-greece.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

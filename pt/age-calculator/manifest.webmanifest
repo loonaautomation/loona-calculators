@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calculadora de Idade",
+  "short_name": "Calculadora de Idade",
+  "description": "Calculadora de idade gratuita: introduza o seu data de nascimento e obter seu exato idade em anos, meses e dias, plus total dias, semanas e horas vividos e seu seguinte birthday. Sem registo.",
+  "id": "/loona-calculators/pt/age-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

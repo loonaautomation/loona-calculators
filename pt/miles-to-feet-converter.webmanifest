@@ -1,0 +1,29 @@
+{
+  "name": "Conversor Loona de Milha para Pé",
+  "short_name": "Conversor de Milha para Pé",
+  "description": "Converter milhas para pés instantaneamente. Fórmula exata, uma tabela de conversão completa de mi to ft, um exemplo resolvido e perguntas frequentes. Grátis, sem registo.",
+  "id": "/loona-calculators/pt/miles-to-feet-converter.html",
+  "start_url": "./miles-to-feet-converter.html",
+  "scope": "./miles-to-feet-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

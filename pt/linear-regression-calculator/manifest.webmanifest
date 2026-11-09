@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora Loona de Regressão Linear",
+  "short_name": "Calculadora de Regressão Linear",
+  "description": "Calculadora de linear regression gratuita: colar paired dados para obter least-squares linha y = + bx, correlação, predictions, e scatter gráfico com fitted linha sorteados.",
+  "id": "/loona-calculators/pt/linear-regression-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
