@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rechner für schriftliche Division — Mit Schritt-für-Schritt-Rechnung | Loona Calculators</title>
+<meta name="description" content="Kostenloser Schriftliche-Division-Rechner mit jedem Schritt: Dividieren Sie Zahlen mit Rest oder Dezimalen und sehen Sie die vollständige schriftliche Rechnung, Ziffer für Ziffer. Für Schüler und Lehrer.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/de/long-division-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/long-division-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/long-division-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/long-division-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/long-division-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/long-division-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/long-division-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/long-division-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Rechner für schriftliche Division — Mit Schritt-für-Schritt-Rechnung | Loona Calculators">
+<meta property="og:description" content="Kostenloser Schriftliche-Division-Rechner mit jedem Schritt: Dividieren Sie Zahlen mit Rest oder Dezimalen und sehen Sie die vollständige schriftliche Rechnung, Ziffer für Ziffer. Für Schüler und Lehrer.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/de/long-division-calculator/"><meta property="og:locale" content="de_DE">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Rechner für schriftliche Division — Mit Schritt-für-Schritt-Rechnung | Loona Calculators">
+<meta name="twitter:description" content="Kostenloser Schriftliche-Division-Rechner mit jedem Schritt: Dividieren Sie Zahlen mit Rest oder Dezimalen und sehen Sie die vollständige schriftliche Rechnung, Ziffer für Ziffer. Für Schüler und Lehrer.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona Rechner für schriftliche Division","url":"https://loonaautomation.github.io/loona-calculators/de/long-division-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Was tut jeder Schritt der schriftlichen Division?","acceptedAnswer":{"@type":"Answer","text":"Jeder Schritt nimmt die aktuelle Zahl (den bisherigen Rest mit der heruntergeholten nächsten Ziffer), ermittelt, wie oft der Divisor ganz hineinpasst, schreibt diese Ziffer in den Quotienten, multipliziert zurück und subtrahiert, um den neuen Rest zu erhalten."}},{"@type":"Question","name":"Wie werden Dezimalzahlen behandelt?","acceptedAnswer":{"@type":"Answer","text":"Wenn die ganzzahligen Ziffern ausgehen und ein Rest übrig bleibt, fügt der Rechner dem Quotienten einen Dezimalpunkt hinzu und zieht weiter Nullen herunter, für bis zu 6 Dezimalstellen. Wenn der Rest beginnt, sich zu wiederholen, vermerkt er, dass die Dezimalzahl periodisch ist."}},{"@type":"Question","name":"Kann der Divisor eine Dezimalzahl sein?","acceptedAnswer":{"@type":"Answer","text":"Ja. Beide Zahlen werden mit derselben Zehnerpotenz skaliert, damit der Divisor zuerst eine ganze Zahl wird — der Quotient bleibt unverändert, genau wie im Unterricht gelehrt (zum Beispiel wird 7.5 ÷ 2.5 zu 75 ÷ 25 = 3)."}},{"@type":"Question","name":"Warum den Rest ebenso wie die Dezimalzahl anzeigen?","acceptedAnswer":{"@type":"Answer","text":"Viele Schulfächer (und reale Aufgaben wie das Teilen von Gegenständen) brauchen die ganzzahlige Antwort mit Rest, während andere die Dezimalzahl brauchen. Dieser Rechner zeigt beides aus derselben Berechnung."}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/de/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Rechner für schriftliche Division",
+      "item": "https://loonaautomation.github.io/loona-calculators/de/long-division-calculator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation Logo">
+<div class="brand">Loona <span>Rechner</span></div>
+<nav>
+<a href="../">Startseite</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">Über uns</a>
+<a href="../contact.html">Kontakt</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › Mathematik › Rechner für schriftliche Division</div>
+<h1 class="pagetitle">➗ Rechner für schriftliche Division</h1>
+<p class="lead">Teilen Sie zwei beliebige Zahlen und sehen Sie die vollständige schriftliche Division — jeden Schritt des Herunterholens, Multiplizierens und Subtrahierens, so aufgeschrieben, wie es in der Schule gelehrt wird. Erhalten Sie das Ergebnis als Rest oder mit Dezimalstellen.</p>
+<div class="exbox"><strong>Kurze Antwort:</strong> Die schriftliche Division zerlegt eine große Division in Schritte Ziffer für Ziffer: dividieren, multiplizieren, subtrahieren, herunterholen. Zum Beispiel 945 ÷ 7 = 135 genau: 9÷7 = 1 Rest 2, 24÷7 = 3 Rest 3, 35÷7 = 5 Rest 0.</div>
+<div class="toolbox"><form class="calcform" id="ldForm">
+<div class="fld"><label for="ldDividend">Dividend</label><input type="number" id="ldDividend" value="945" step="any" min="0"></div>
+<div class="fld"><label for="ldDivisor">Divisor</label><input type="number" id="ldDivisor" value="7" step="any"></div>
+<button class="calcbtn" type="submit">Dividieren mit Schritten</button>
+<div class="calcresult" id="ldResult" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>So verwenden Sie: Rechner für schriftliche Division</h2><ol><li>Geben Sie den Dividenden ein (die Zahl, die geteilt wird).</li><li>Geben Sie den Divisor ein (die Zahl, durch die Sie teilen).</li><li>Drücken Sie auf Teilen und lesen Sie den Quotienten, den Rest und die vollständige Schritt-für-Schritt-Berechnung.</li><li>Dezimalantworten werden auf 6 Dezimalstellen geführt, mit einem Hinweis, falls sich die Dezimalzahl wiederholt.</li></ol>
+<div class="exbox"><strong>Beispiel:</strong> 945 ÷ 7: Schritt 1, 9 ÷ 7 = 1, Rest 2. 4 herunterholen → 24 ÷ 7 = 3, Rest 3. 5 herunterholen → 35 ÷ 7 = 5, Rest 0. Antwort: 135 genau.</div>
+<h2>Häufig gestellte Fragen</h2></section><div class="faq"><h3>Was tut jeder Schritt der schriftlichen Division?</h3><p>Jeder Schritt nimmt die aktuelle Zahl (den bisherigen Rest mit der heruntergeholten nächsten Ziffer), ermittelt, wie oft der Divisor ganz hineinpasst, schreibt diese Ziffer in den Quotienten, multipliziert zurück und subtrahiert, um den neuen Rest zu erhalten.</p></div><div class="faq"><h3>Wie werden Dezimalzahlen behandelt?</h3><p>Wenn die ganzzahligen Ziffern ausgehen und ein Rest übrig bleibt, fügt der Rechner dem Quotienten einen Dezimalpunkt hinzu und zieht weiter Nullen herunter, für bis zu 6 Dezimalstellen. Wenn der Rest beginnt, sich zu wiederholen, vermerkt er, dass die Dezimalzahl periodisch ist.</p></div><div class="faq"><h3>Kann der Divisor eine Dezimalzahl sein?</h3><p>Ja. Beide Zahlen werden mit derselben Zehnerpotenz skaliert, damit der Divisor zuerst eine ganze Zahl wird — der Quotient bleibt unverändert, genau wie im Unterricht gelehrt (zum Beispiel wird 7.5 ÷ 2.5 zu 75 ÷ 25 = 3).</p></div><div class="faq"><h3>Warum den Rest ebenso wie die Dezimalzahl anzeigen?</h3><p>Viele Schulfächer (und reale Aufgaben wie das Teilen von Gegenständen) brauchen die ganzzahlige Antwort mit Rest, während andere die Dezimalzahl brauchen. Dieser Rechner zeigt beides aus derselben Berechnung.</p></div>
+<h2 class="sec">Verwandte Rechner</h2><div class="grid"><a class="card" href="../percentage-calculator/"><div class="ic">％</div><h3>Prozentrechner</h3><p>Mathematik</p></a><a class="card" href="../statistics-calculator/"><div class="ic">📊</div><h3>Statistikrechner</h3><p>Mathematik</p></a><a class="card" href="../fraction-calculator/"><div class="ic">½</div><h3>Bruchrechner</h3><p>Mathematik</p></a><a class="card" href="../equation-solver/"><div class="ic">🧮</div><h3>Gleichungslöser</h3><p>Mathematik</p></a><a class="card" href="../scientific-calculator/"><div class="ic">🔬</div><h3>Wissenschaftlicher Rechner</h3><p>Mathematik</p></a><a class="card" href="../average-calculator/"><div class="ic">📐</div><h3>Durchschnittsrechner</h3><p>Mathematik</p></a></div>
+</div>
+<section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>So funktioniert es — die Formel</h2>
+<p>Die schriftliche Division verarbeitet den Dividenden eine Ziffer nach der anderen. Bei jedem Schritt: <strong>Quotientenziffer = floor(aktuell ÷ Divisor)</strong>, <strong>Produkt = Quotientenziffer × Divisor</strong>, <strong>neuer Rest = aktuell − Produkt</strong>, dann wird die nächste Ziffer heruntergeholt, um den nächsten aktuellen Wert zu bilden. Dezimale Eingaben werden zunächst mit einer Potenz von 10 skaliert, damit beide Zahlen ganzzahlig sind — Dividend und Divisor mit derselben Zahl zu multiplizieren, ändert den Quotienten nie.</p>
+<h3>Ausgearbeitetes Beispiel</h3><div class="exbox"><p><strong>Eingaben:</strong> 100 ÷ 6.</p><p><strong>Schritte:</strong> 10 ÷ 6 = 1, Produkt 6, Rest 4. 0 herunterholen → 40 ÷ 6 = 6, Produkt 36, Rest 4. Ganzer Teil ist 16 Rest 4. Weiter in die Dezimalstellen: 0 herunterholen → 40 ÷ 6 = 6 Rest 4 erneut — derselbe Rest wiederholt sich, also wiederholt sich die Dezimalzahl.</p><p><strong>Ergebnis:</strong> 100 ÷ 6 = <strong>16 Rest 4</strong>, oder <strong>16.666667</strong> gerundet auf 6 Dezimalstellen (16.6 periodisch).</p></div>
+
+</section>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Betten Sie diesen Rechner auf Ihrer Website ein — kostenlos</h2>
+<p style="margin:0 0 12px;line-height:1.6">Fügen Sie diesen Rechner zu Ihrer eigenen Website oder Ihrem Blog hinzu — er ist völlig kostenlos, braucht keine Anmeldung und zeigt immer die neueste Version. Kopieren Sie den Code unten und fügen Sie ihn in Ihre Seite ein, wo der Rechner erscheinen soll. Die kleine Zeile &ldquo;Powered by Loona Automation&rdquo; unter dem Embed zu behalten, hilft, dieses Tool kostenlos zu halten &mdash; aber Sie können sie frei gestalten oder entfernen; das Tool funktioniert so oder so.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/de/long-division-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Long Division Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Bereitgestellt von &lt;a href="https://loonaautomation.github.io/loona-calculators/de/long-division-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; kostenlos Rechner für schriftliche Division&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Embed-Code kopieren</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='Embed-Code kopieren';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Beliebte Rechner</h4><ul><li><a href="../age-calculator/">Altersrechner</a></li>
+<li><a href="../zakat-calculator/">Zakat-Rechner</a></li>
+<li><a href="../cgpa-calculator/">CGPA-Rechner</a></li>
+<li><a href="../percentage-calculator/">Prozentrechner</a></li>
+<li><a href="../hijri-date-converter/">Hijri-Datumsumrechner</a></li>
+<li><a href="../emi-calculator/">EMI- & Kreditrechner</a></li></ul></div>
+<div><h4>Weitere Loona Tools</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR-Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Bildkompressor</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona KI-Assistent</a></li>
+<li><a href="https://loonaautomation.github.io/">Alle Loona Tools</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">Über uns</a></li>
+<li><a href="../contact.html">Kontakt</a></li>
+<li><a href="../privacy-policy.html">Datenschutzerklärung</a></li>
+<li><a href="../terms.html">Nutzungsbedingungen</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — ein <a href="https://loonaautomation.github.io/">Loona Automation</a> Projekt. Kostenlose Online-Rechner, keine Anmeldung.
+Kontakt: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+function longDivision(dividend,divisor){
+  if(!(divisor>0)&&divisor!==0){}
+  if(divisor===0||!isFinite(dividend)||!isFinite(divisor)) return null;
+  if(dividend<0||divisor<0) return null;
+  var decPlaces=function(x){var s=String(x);var i=s.indexOf(".");return i<0?0:s.length-i-1;};
+  var scale=Math.pow(10,Math.max(decPlaces(dividend),decPlaces(divisor)));
+  var N=Math.round(dividend*scale), D=Math.round(divisor*scale);
+  if(D===0)return null;
+  var digits=String(N).split("").map(Number);
+  var steps=[], qDigits=[], current=0, i, started=false;
+  for(i=0;i<digits.length;i++){
+    current=current*10+digits[i];
+    var q=Math.floor(current/D), prod=q*D, rem=current-prod;
+    if(q>0||started){started=true;qDigits.push(String(q));}
+    steps.push({current:current,q:q,prod:prod,rem:rem,bring:digits[i],decimal:false});
+    current=rem;
+  }
+  if(!started)qDigits=["0"];
+  var intRem=current, decDigits=[], seen={};
+  var repeats=false;
+  if(intRem!==0){
+    for(var k=0;k<12;k++){
+      if(seen[current]!==undefined){repeats=true;}
+      seen[current]=k;
+      var cur=current*10, q2=Math.floor(cur/D), prod2=q2*D, rem2=cur-prod2;
+      steps.push({current:cur,q:q2,prod:prod2,rem:rem2,bring:0,decimal:true});
+      decDigits.push(String(q2)); current=rem2;
+      if(current===0)break;
+    }
+  }
+  var quotient=qDigits.join("")+(decDigits.length?"."+decDigits.slice(0,6).join(""):"");
+  return {quotient:quotient,quotientFull:qDigits.join("")+(decDigits.length?"."+decDigits.join(""):""),remainder:intRem,steps:steps,repeats:repeats,scaledDividend:N,scaledDivisor:D};
+}
+/*TESTABLE_END*/
+document.getElementById('ldForm').addEventListener('submit',function(e){e.preventDefault();
+ var r=longDivision(parseFloat(document.getElementById('ldDividend').value),parseFloat(document.getElementById('ldDivisor').value));
+ var box=document.getElementById('ldResult'); box.style.display='block';
+ if(!r){box.innerHTML='<p class="err">Geben Sie einen Dividenden von 0 oder mehr und einen Divisor größer als 0 ein.</p>';return;}
+ var rows=r.steps.map(function(s,i){return '<tr><td>'+(i+1)+'</td><td>'+s.current+'</td><td>'+s.q+'</td><td>'+s.prod+'</td><td>'+s.rem+'</td></tr>';}).join("");
+ box.innerHTML='<div class="resbig"><span>Quotient</span><strong>'+r.quotient+(r.repeats?'… (repeating)':'')+'</strong></div>'
+  +'<table class="restbl"><tr><td>Ganzzahlige Antwort</td><td><strong>'+r.quotientFull.split(".")[0]+' Rest '+r.remainder+'</strong></td></tr>'
+  +'<tr><td>Berechnet wird</td><td><strong>'+r.scaledDividend+' ÷ '+r.scaledDivisor+'</strong></td></tr></table>'
+  +'<h3 style="color:var(--teal);margin:10px 0 5px">Schritt-für-Schritt-Rechnung</h3>'
+  +'<table class="restbl"><tr><td><strong>Schritt</strong></td><td><strong>Aktuell ÷ Divisor</strong></td><td><strong>Quotientenziffer</strong></td><td><strong>Multiplizieren</strong></td><td><strong>Rest</strong></td></tr>'+rows+'</table>'
+  +(r.repeats?'<p class="resnote">Der Rest wiederholt sich, sodass sich auch der Dezimalteil endlos wiederholt (eine periodische Dezimalzahl).</p>':'');
+});
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' App installieren';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Installieren Sie diese App: Tippen Sie auf die Teilen-Schaltfläche und wählen Sie dann "Zum Startbildschirm hinzufügen".');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

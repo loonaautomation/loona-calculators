@@ -1,0 +1,29 @@
+{
+  "name": "Loona Mondphasen-Rechner",
+  "short_name": "Mondphasen-Rechner",
+  "description": "Kostenloser Mondphasen-Rechner: Geben Sie ein beliebiges Datum ein, um den Namen der Mondphase, den Beleuchtungsprozentsatz, das Mondalter und die Tage bis zum nächsten Neumond und Vollmond zu sehen.",
+  "id": "/loona-calculators/de/moon-phase-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Meter in Fuß Umrechner",
+  "short_name": "Meter in Fuß Umrechner",
+  "description": "Rechnen Sie Meter sofort in Fuß um. Exakte Formel, eine vollständige Umrechnungstabelle m in ft und Praxisbeispiele. Kostenlos, ohne Anmeldung.",
+  "id": "/loona-calculators/de/meters-to-feet-converter.html",
+  "start_url": "./meters-to-feet-converter.html",
+  "scope": "./meters-to-feet-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

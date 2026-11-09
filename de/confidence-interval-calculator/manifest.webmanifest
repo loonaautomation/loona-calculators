@@ -1,0 +1,29 @@
+{
+  "name": "Loona Konfidenzintervall-Rechner",
+  "short_name": "Konfidenzintervall-Rechner",
+  "description": "Kostenloser Konfidenzintervall-Rechner: CI für einen Mittelwert mit bekanntem Sigma (z), mit Stichproben-SD (t) und für einen Anteil, bei 90%, 95% oder 99% Konfidenz.",
+  "id": "/loona-calculators/de/confidence-interval-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Einfacher Rechner",
+  "short_name": "Einfacher Rechner",
+  "description": "Kostenloser einfacher Rechner mit großen, leichten Tasten zum Addieren, Subtrahieren, Multiplizieren und Dividieren. Verlauf-Band, Prozent-Taste, Kopier-Taste und vollständige Tastaturunterstützung — keine Anmeldung.",
+  "id": "/loona-calculators/de/simple-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

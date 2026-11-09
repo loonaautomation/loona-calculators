@@ -1,0 +1,29 @@
+{
+  "name": "Loona Tage bis Thanksgiving (US)",
+  "short_name": "Tage bis Thanksgiving (US)",
+  "description": "Live-Countdown bis Thanksgiving (US): genaue verbleibende Tage, Stunden, Minuten und Sekunden, das Datum in diesem Jahr und in den nächsten drei Jahren, Fakten und FAQs.",
+  "id": "/loona-calculators/de/days-until-thanksgiving.html",
+  "start_url": "./days-until-thanksgiving.html",
+  "scope": "./days-until-thanksgiving.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

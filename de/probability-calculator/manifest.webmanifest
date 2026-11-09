@@ -1,0 +1,29 @@
+{
+  "name": "Loona Wahrscheinlichkeitsrechner",
+  "short_name": "Wahrscheinlichkeitsrechner",
+  "description": "Kostenloser Wahrscheinlichkeits-Rechner: Wahrscheinlichkeit von A und B, A oder B, keines und genau eines; Quoten-Umrechnung; Kombinationen und Permutationen. Mit Formeln und Beispielen.",
+  "id": "/loona-calculators/de/probability-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Knoten in Kilometer pro Stunde Umrechner",
+  "short_name": "Knoten zu Kilometer pro Stunde",
+  "description": "Rechnen Sie Knoten sofort in Kilometer pro Stunde um. Exakte Formel, eine vollständige Umrechnungstabelle kn in km/h, ein Praxisbeispiel und FAQs. Kostenlos, ohne Anmeldung.",
+  "id": "/loona-calculators/de/knots-to-kilometers-per-hour-converter.html",
+  "start_url": "./knots-to-kilometers-per-hour-converter.html",
+  "scope": "./knots-to-kilometers-per-hour-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Mehrwertsteuer-Rechner",
+  "short_name": "MwSt.-Rechner",
+  "description": "Kostenloser VAT/GST-Rechner: Addieren Sie Steuer zu einem Nettobetrag oder entfernen Sie Steuer aus einem Bruttobetrag zu jedem Satz. Funktioniert für VAT, GST und Umsatzsteuer in jedem Land.",
+  "id": "/loona-calculators/de/vat-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona ROI-Rechner",
+  "short_name": "ROI-Rechner",
+  "description": "Kostenloser ROI-Rechner: Geben Sie den investierten Betrag, den zurückgezahlten Betrag und die gehaltenen Jahre ein, um den Gesamt-ROI-Prozentsatz und die annualisierte Rendite für jede Investition zu erhalten.",
+  "id": "/loona-calculators/de/roi-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

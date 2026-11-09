@@ -1,0 +1,29 @@
+{
+  "name": "Loona Prüfung der Verkehrsregeln in Europa",
+  "short_name": "Europa-Fahrregeln-Prüfer",
+  "description": "Kostenloser Europa-Fahrregeln-Prüfer: Wählen Sie ein Land für seine Straßenseite, sein Autobahn-Tempolimit, seine Alkoholgrenze und wichtige lokale Regeln für Gastfahrer.",
+  "id": "/loona-calculators/de/europe-driving-rules-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

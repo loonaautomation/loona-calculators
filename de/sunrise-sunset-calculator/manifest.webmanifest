@@ -1,0 +1,29 @@
+{
+  "name": "Loona Sonnenaufgangs- & Sonnenuntergangs-Rechner",
+  "short_name": "Rechner für Sonnenaufgang und Sonnenuntergang",
+  "description": "Kostenloser Sonnenaufgang- und Sonnenuntergang-Rechner: Geben Sie ein Datum und Breiten-/Längengrad ein, um Sonnenaufgang, Sonnenuntergang, Tageslänge und Sonnenmittag in UTC und lokalen solaren Begriffen zu erhalten. NOAA-Mathematik.",
+  "id": "/loona-calculators/de/sunrise-sunset-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

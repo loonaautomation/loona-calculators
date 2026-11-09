@@ -1,0 +1,29 @@
+{
+  "name": "Loona Meter in Yard Umrechner",
+  "short_name": "Meter in Yard Umrechner",
+  "description": "Rechnen Sie Meter sofort in Yard um. Exakte Formel, eine vollständige Umrechnungstabelle m in yd, ein Praxisbeispiel und FAQs. Kostenlos, ohne Anmeldung.",
+  "id": "/loona-calculators/de/meters-to-yards-converter.html",
+  "start_url": "./meters-to-yards-converter.html",
+  "scope": "./meters-to-yards-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Rechner für Tage zwischen Daten",
+  "short_name": "Rechner: Tage zwischen zwei Daten",
+  "description": "Kostenloser Tage-zwischen-Daten-Rechner: Zählen Sie die exakte Anzahl der Tage, Wochen und Jahre zwischen zwei beliebigen Daten. Nützlich für Fristen, Visa, Verträge und Countdowns.",
+  "id": "/loona-calculators/de/days-between-dates-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

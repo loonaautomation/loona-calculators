@@ -1,0 +1,29 @@
+{
+  "name": "Loona Körperfett-Rechner",
+  "short_name": "Körperfett-Rechner",
+  "description": "Kostenloser Körperfett-Rechner mit der US-Navy-Umfangsmethode: Größe, Hals, Taille (und Hüfte für Frauen) ergeben Körperfett %, Fettmasse, Magermasse und ACE-Kategorie.",
+  "id": "/loona-calculators/de/body-fat-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

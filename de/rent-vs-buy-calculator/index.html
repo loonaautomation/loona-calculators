@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rechner: Mieten oder Kaufen — Ein Zuhause mieten oder kaufen? | Loona Calculators</title>
+<meta name="description" content="Kostenloser Miete-vs-Kauf-Rechner: Vergleichen Sie die Gesamtkosten des Mietens mit den Nettokosten des Kaufs eines Hauses über die Jahre, die Sie zu bleiben planen — Hypothek, Mieterhöhungen, Preiswachstum und Eigenkapital enthalten.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/de/rent-vs-buy-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/rent-vs-buy-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/rent-vs-buy-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/rent-vs-buy-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/rent-vs-buy-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/rent-vs-buy-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/rent-vs-buy-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/rent-vs-buy-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Rechner: Mieten oder Kaufen — Ein Zuhause mieten oder kaufen? | Loona Calculators">
+<meta property="og:description" content="Kostenloser Miete-vs-Kauf-Rechner: Vergleichen Sie die Gesamtkosten des Mietens mit den Nettokosten des Kaufs eines Hauses über die Jahre, die Sie zu bleiben planen — Hypothek, Mieterhöhungen, Preiswachstum und Eigenkapital enthalten.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/de/rent-vs-buy-calculator/"><meta property="og:locale" content="de_DE">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Rechner: Mieten oder Kaufen — Ein Zuhause mieten oder kaufen? | Loona Calculators">
+<meta name="twitter:description" content="Kostenloser Miete-vs-Kauf-Rechner: Vergleichen Sie die Gesamtkosten des Mietens mit den Nettokosten des Kaufs eines Hauses über die Jahre, die Sie zu bleiben planen — Hypothek, Mieterhöhungen, Preiswachstum und Eigenkapital enthalten.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona Mieten-oder-Kaufen-Rechner","url":"https://loonaautomation.github.io/loona-calculators/de/rent-vs-buy-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Ist es besser, ein Haus zu mieten oder zu kaufen?","acceptedAnswer":{"@type":"Answer","text":"Es hängt vor allem davon ab, wie lange Sie bleiben und wie sich Preise und Mieten entwickeln. Kaufen hat hohe Anfangskosten, und die frühen Hypothekenzahlungen sind überwiegend Zinsen, sodass kurze Aufenthalte meist das Mieten begünstigen. Je länger Sie bleiben, desto mehr Eigenkapital bauen Sie auf und desto mehr liegt das Kaufen vorn. Rechnen Sie oben mit Ihren eigenen Zahlen — allein die Aufenthaltsdauer kann die Antwort umkehren."}},{"@type":"Question","name":"Was ist die 5-Jahres-Regel für den Kauf eines Hauses?","acceptedAnswer":{"@type":"Answer","text":"Eine grobe Richtlinie, dass sich Kaufen in der Regel erst nach etwa fünf Jahren im selben Haus gegenüber Mieten zu lohnen beginnt, weil die Vorlaufkosten und die zinslastigen frühen Zahlungen Zeit brauchen, um sich zu verteilen und durch Eigenkapital und Preiswachstum ausgeglichen zu werden. Es ist nur eine Richtlinie — hohes Mietwachstum oder schnelles Preiswachstum können sie verkürzen, und stagnierende Preise können sie weit über fünf Jahre hinaus verlängern."}},{"@type":"Question","name":"Enthält dieser Rechner Grundsteuer und Kaufnebenkosten?","acceptedAnswer":{"@type":"Answer","text":"Laufende Kosten werden über den Prozentsatz für Instandhaltung & Versicherung abgedeckt, den Sie erhöhen können, um die Grundsteuer einzuschließen. Einmalige Kosten — Stempelsteuer, Registrierung, Rechtsgebühren und Verkaufsprovision — sind nicht im Standardmodell enthalten. Sie sind echt, und sie bestrafen kurze Aufenthalte; wenn sie in Ihrem Fall wichtig sind, behandeln Sie das Kauf-Ergebnis als leicht optimistisch."}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/de/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Rechner: Mieten oder Kaufen",
+      "item": "https://loonaautomation.github.io/loona-calculators/de/rent-vs-buy-calculator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation Logo">
+<div class="brand">Loona <span>Rechner</span></div>
+<nav>
+<a href="../">Startseite</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">Über uns</a>
+<a href="../contact.html">Kontakt</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › Geld &amp; Finanzen › Rechner: Mieten oder Kaufen</div>
+<h1 class="pagetitle">⚖️ Rechner: Mieten oder Kaufen</h1>
+<p class="lead">„Miete ist weggeworfenes Geld“ und „ein Haus ist immer eine Investition“ sind beide zu einfach. Die ehrliche Antwort hängt davon ab, wie lange Sie bleiben, wie sich die Miete im Laufe der Zeit entwickelt und wie viel Eigenkapital Sie aufbauen. Geben Sie Ihre eigenen Zahlen ein, und dieser Rechner vergleicht die wahren Kosten beider Optionen über Ihren Aufenthalt.</p>
+<div class="toolbox"><form class="calcform" id="rbForm">
+<div class="fld"><label for="rbPrice">Hauspreis</label><input type="number" step="any" min="0" id="rbPrice" value="8000000"></div>
+<div class="fld"><label for="rbDown">Anzahlung (%)</label><input type="number" step="any" min="0" max="100" id="rbDown" value="25"></div>
+<div class="fld"><label for="rbRate">Hypothekenzinssatz (% pro Jahr)</label><input type="number" step="any" min="0" id="rbRate" value="9"></div>
+<div class="fld"><label for="rbTerm">Hypothekenlaufzeit (Jahre)</label><input type="number" step="any" min="1" id="rbTerm" value="15"></div>
+<div class="fld"><label for="rbRent">Aktuelle monatliche Miete für ein vergleichbares Zuhause</label><input type="number" step="any" min="0" id="rbRent" value="30000"></div>
+<div class="fld"><label for="rbYears">Jahre, die Sie in dem Haus wohnen bleiben möchten</label><input type="number" step="any" min="1" id="rbYears" value="5"></div>
+<div class="fld"><label for="rbRentInc">Mieterhöhung (% pro Jahr)</label><input type="number" step="any" min="0" id="rbRentInc" value="5"></div>
+<div class="fld"><label for="rbAppr">Hauspreiswachstum (% pro Jahr)</label><input type="number" step="any" min="0" id="rbAppr" value="4"></div>
+<div class="fld"><label for="rbMaint">Instandhaltung &amp; Versicherung (% des Preises pro Jahr)</label><input type="number" step="any" min="0" id="rbMaint" value="1"></div>
+<button class="calcbtn" type="submit">Mieten vs. Kaufen vergleichen</button>
+</form>
+<div class="calcresult" id="rbRes" style="display:none"></div></div>
+<section class="txt"><h2>So verwenden Sie: Mieten-oder-Kaufen-Rechner</h2><ol><li>Geben Sie den Preis des Hauses und die Anzahlung ein, die Sie leisten würden.</li><li>Fügen Sie den Hypothekenzins und die Laufzeit hinzu sowie die Miete, die Sie sonst für ein vergleichbares Zuhause zahlen würden.</li><li>Stellen Sie ein, wie viele Jahre Sie bleiben möchten, wie schnell die Miete jedes Jahr steigt und wie schnell die Hauspreise wachsen.</li><li>Drücken Sie auf Vergleichen — das Urteil zeigt, welche Option über Ihren Aufenthalt weniger kostet, und um wie viel.</li></ol>
+<h2>Häufig gestellte Fragen</h2></section><div class="faq"><h3>Ist es besser, ein Haus zu mieten oder zu kaufen?</h3><p>Es hängt vor allem davon ab, wie lange Sie bleiben und wie sich Preise und Mieten entwickeln. Kaufen hat hohe Anfangskosten, und die frühen Hypothekenzahlungen sind überwiegend Zinsen, sodass kurze Aufenthalte meist das Mieten begünstigen. Je länger Sie bleiben, desto mehr Eigenkapital bauen Sie auf und desto mehr liegt das Kaufen vorn. Rechnen Sie oben mit Ihren eigenen Zahlen — allein die Aufenthaltsdauer kann die Antwort umkehren.</p></div><div class="faq"><h3>Was ist die 5-Jahres-Regel für den Kauf eines Hauses?</h3><p>Eine grobe Richtlinie, dass sich Kaufen in der Regel erst nach etwa fünf Jahren im selben Haus gegenüber Mieten zu lohnen beginnt, weil die Vorlaufkosten und die zinslastigen frühen Zahlungen Zeit brauchen, um sich zu verteilen und durch Eigenkapital und Preiswachstum ausgeglichen zu werden. Es ist nur eine Richtlinie — hohes Mietwachstum oder schnelles Preiswachstum können sie verkürzen, und stagnierende Preise können sie weit über fünf Jahre hinaus verlängern.</p></div><div class="faq"><h3>Enthält dieser Rechner Grundsteuer und Kaufnebenkosten?</h3><p>Laufende Kosten werden über den Prozentsatz für Instandhaltung & Versicherung abgedeckt, den Sie erhöhen können, um die Grundsteuer einzuschließen. Einmalige Kosten — Stempelsteuer, Registrierung, Rechtsgebühren und Verkaufsprovision — sind nicht im Standardmodell enthalten. Sie sind echt, und sie bestrafen kurze Aufenthalte; wenn sie in Ihrem Fall wichtig sind, behandeln Sie das Kauf-Ergebnis als leicht optimistisch.</p></div>
+<h2 class="sec">Verwandte Rechner</h2><div class="grid"><a class="card" href="../rent-affordability-calculator/" data-name="rent affordability calculator rent-affordability-calculator"><div class="ic">🔑</div><h3>Rechner für bezahlbare Miete</h3><p>Kostenloser Miet-Bezahlbarkeits-Rechner: Geben Sie Ihr Einkommen und Ihre Schulden ein, um die maximale Miete zu sehen, die Sie sich auf den Regeln 30% und 28/36 leisten können.</p></a><a class="card" href="../rent-split-calculator/" data-name="rent split calculator rent-split-calculator"><div class="ic">🤝</div><h3>Rechner zum Aufteilen der Miete</h3><p>Kostenloser Mietaufteilungs-Rechner: Teilen Sie die Miete fair zwischen Mitbewohnern auf — gleichmäßig, nach Zimmergröße oder nach Einkommen.</p></a><a class="card" href="../rent-increase-calculator/" data-name="rent increase calculator rent-increase-calculator"><div class="ic">📈</div><h3>Rechner für Mieterhöhungen</h3><p>Kostenloser Mieterhöhungs-Rechner: Sehen Sie Ihre neue Miete nach einer prozentualen Erhöhung, plus eine Jahr-für-Jahr-Projektion.</p></a><a class="card" href="../mortgage-calculator/" data-name="mortgage calculator mortgage-calculator"><div class="ic">🏠</div><h3>Hypothekenrechner</h3><p>Kostenloser Hypothekenrechner: Hauspreis, Anzahlung, Zinssatz und Laufzeit — erhalten Sie den Kreditbetrag, die monatliche Zahlung, die Gesamtzinsen und die Gesamtkosten Ihres Hauses.</p></a><a class="card" href="../emi-calculator/" data-name="emi & loan calculator emi-calculator"><div class="ic">🏦</div><h3>EMI- & Kreditrechner</h3><p>Kostenloser EMI- und Kreditrechner: Geben Sie Kreditbetrag, Zins- oder Gewinnsatz und Laufzeit ein, um Ihre monatliche Rate und die Gesamtkosten zu erhalten.</p></a></div>
+</div>
+<section class="txt"><h2>So funktioniert es — die Formel</h2><p><strong>Mieten</strong> ist eine geometrische Reihe: Jedes Jahr steigt die Miete um Ihren Erhöhungsprozentsatz, also ist die Summe die Summe der Miete jedes Jahres über Ihren Aufenthalt. <strong>Kaufen</strong> wird auf Nettobasis verglichen — alles, was Sie auszahlen, minus das, was Sie zurückerhalten. Die Hypothekenzahlung verwendet die Standard-Annuitätenformel (monatlicher Satz = jährlicher Satz ÷ 1200). Am Ende Ihres Aufenthalts wird das Haus zu seinem gestiegenen Wert verkauft; was Sie behalten, ist dieser Wert minus der noch geschuldeten Kreditsaldo (Ihr Eigenkapital).</p>
+<p><strong>Formeln:</strong> Rent total = Σ monthly rent × (1 + increase)<sup>Jahr</sup> × 12. Monatliche Rate = Kredit × r × (1 + r)<sup>n</sup> ÷ ((1 + r)<sup>n</sup> − 1). Nettokosten beim Kauf = Anzahlung + Hypothekenzahlungen während des Aufenthalts + Wartung &amp; Versicherung − (Wert beim Verkauf − verbleibender Saldo).</p><h3>Ausgearbeitetes Beispiel</h3><div class="exbox"><p><strong>Eingaben:</strong> Hauspreis Rs 80,00,000; Anzahlung 25% (Rs 20,00,000); Hypothek 9% über 15 Jahre; Miete Rs 30,000/Monat, steigend um 5% pro Jahr; Aufenthalt von 5 Jahren; Preiswachstum 4% pro Jahr; Instandhaltung &amp; Versicherung 1% des Preises pro Jahr.</p>
+<p><strong>Schritte:</strong> Das Darlehen ist Rs 60,00,000 und die monatliche Zahlung ist Rs 60,856. Mieten kostet Rs 19,89,227 über die 5 Jahre. Kaufen: Rs 20,00,000 Anzahlung + Rs 36,51,360 an Zahlungen + Rs 4,00,000 Instandhaltung = Rs 60,51,360 ausgezahlt; das Haus wächst auf Rs 97,33,223, der Darlehenssaldo ist Rs 48,04,075, also ist das zurückgegebene Eigenkapital Rs 49,29,148 — Nettokosten von Rs 11,22,212.</p>
+<p><strong>Ergebnis:</strong> Über 5 Jahre, <strong>Kaufen ist um Rs 8,67,016 günstiger</strong> in diesem Beispiel. Ändern Sie den Aufenthalt auf 2 Jahre oder das Wachstum auf 0%, und die Antwort kehrt sich um — genau deshalb können Sie die Eingaben selbst festlegen.</p></div><h3>Häufig gestellte Fragen</h3></section><div class="faq"><h3>Warum verändert die Länge meines Aufenthalts die Antwort so stark?</h3><p>Wenn Sie mieten, ist jede Zahlung für immer weg, aber es gibt nichts einzurichten. Wenn Sie kaufen, gehen Anzahlung und Gebühren am ersten Tag hinaus, während der Vorteil — Eigenkapital — sich zunächst langsam aufbaut, weil frühe Zahlungen überwiegend Zinsen sind. Zeit ist das, was Wertsteigerung auf dem vollen Immobilienwert und den sinkenden Darlehenssaldo zu Ihren Gunsten arbeiten lässt.</p></div><div class="faq"><h3>Welche Preiswachstumsrate sollte ich eingeben?</h3><p>Verwenden Sie einen vorsichtigen langfristigen Wert für Ihre Stadt — für viele Gebiete ist 3–5% pro Jahr ein vernünftiger Planungsbereich, ungefähr im Einklang mit der langfristigen Inflation. Vermeiden Sie es, das heißeste jüngste Jahr als Ihre Annahme zu verwenden; wenn die Antwort nur bei 8–10% Wachstum funktioniert, ist es das Wachstum, das die Arbeit leistet, nicht der Kauf.</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Betten Sie diesen Rechner auf Ihrer Website ein — kostenlos</h2>
+<p style="margin:0 0 12px;line-height:1.6">Fügen Sie diesen Rechner zu Ihrer eigenen Website oder Ihrem Blog hinzu — er ist völlig kostenlos, braucht keine Anmeldung und zeigt immer die neueste Version. Kopieren Sie den Code unten und fügen Sie ihn in Ihre Seite ein, wo der Rechner erscheinen soll. Die kleine Zeile &ldquo;Powered by Loona Automation&rdquo; unter dem Embed zu behalten, hilft, dieses Tool kostenlos zu halten &mdash; aber Sie können sie frei gestalten oder entfernen; das Tool funktioniert so oder so.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/de/rent-vs-buy-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Rent vs Buy Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Bereitgestellt von &lt;a href="https://loonaautomation.github.io/loona-calculators/de/rent-vs-buy-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; kostenlos Rechner: Mieten oder Kaufen&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Embed-Code kopieren</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='Embed-Code kopieren';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Beliebte Rechner</h4><ul><li><a href="../age-calculator/">Altersrechner</a></li>
+<li><a href="../zakat-calculator/">Zakat-Rechner</a></li>
+<li><a href="../cgpa-calculator/">CGPA-Rechner</a></li>
+<li><a href="../percentage-calculator/">Prozentrechner</a></li>
+<li><a href="../hijri-date-converter/">Hijri-Datumsumrechner</a></li>
+<li><a href="../emi-calculator/">EMI- & Kreditrechner</a></li></ul></div>
+<div><h4>Weitere Loona Tools</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR-Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Bildkompressor</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona KI-Assistent</a></li>
+<li><a href="https://loonaautomation.github.io/">Alle Loona Tools</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">Über uns</a></li>
+<li><a href="../contact.html">Kontakt</a></li>
+<li><a href="../privacy-policy.html">Datenschutzerklärung</a></li>
+<li><a href="../terms.html">Nutzungsbedingungen</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — ein <a href="https://loonaautomation.github.io/">Loona Automation</a> Projekt. Kostenlose Online-Rechner, keine Anmeldung.
+Kontakt: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+/* Rent vs Buy — pure logic (unit-tested, inlined into the page) */
+function monthlyPayment(principal, annualRatePct, termYears){
+  var r = annualRatePct / 1200, n = termYears * 12;
+  if (principal <= 0) return 0;
+  if (r === 0) return principal / n;
+  var f = Math.pow(1 + r, n);
+  return principal * r * f / (f - 1);
+}
+function remainingBalance(principal, annualRatePct, termYears, monthsPaid){
+  var r = annualRatePct / 1200, n = termYears * 12;
+  if (monthsPaid >= n) return 0;
+  var m = monthlyPayment(principal, annualRatePct, termYears);
+  if (r === 0) return principal - m * monthsPaid;
+  var f = Math.pow(1 + r, monthsPaid);
+  return principal * f - m * (f - 1) / r;
+}
+function rentTotalCost(monthlyRent, increasePct, years){
+  var total = 0, rent = monthlyRent;
+  for (var y = 0; y < years; y++){ total += rent * 12; rent *= (1 + increasePct / 100); }
+  return total;
+}
+function rentVsBuy(o){
+  var down = o.price * o.downPct / 100;
+  var loan = o.price - down;
+  var m = monthlyPayment(loan, o.ratePct, o.termYears);
+  var monthsStay = o.years * 12;
+  var payMonths = Math.min(monthsStay, o.termYears * 12);
+  var totalPayments = m * payMonths;
+  var balance = remainingBalance(loan, o.ratePct, o.termYears, monthsStay);
+  var valueAtSale = o.price * Math.pow(1 + o.appreciationPct / 100, o.years);
+  var equity = valueAtSale - balance;
+  var maintenance = o.price * o.maintenancePct / 100 * o.years;
+  var buyNetCost = down + totalPayments + maintenance - equity;
+  var rentCost = rentTotalCost(o.monthlyRent, o.rentIncreasePct, o.years);
+  return {
+    downPayment: down, loanAmount: loan, monthlyPayment: m,
+    totalPayments: totalPayments, remainingBalance: balance,
+    valueAtSale: valueAtSale, equity: equity, maintenance: maintenance,
+    buyNetCost: buyNetCost, rentTotalCost: rentCost,
+    difference: Math.abs(rentCost - buyNetCost),
+    cheaper: buyNetCost < rentCost ? "buy" : (rentCost < buyNetCost ? "rent" : "equal")
+  };
+}
+function fmt(n){return "Rs " + Math.round(n).toLocaleString("en-IN");}
+function fmt2(n){return "Rs " + n.toLocaleString("en-IN",{minimumFractionDigits:2,maximumFractionDigits:2});}
+function pctFmt(n){return parseFloat(n.toFixed(2)) + "%";}
+function num(id){var v=parseFloat(document.getElementById(id).value);return isNaN(v)?0:v;}
+document.getElementById("rbForm").addEventListener("submit", function(e){
+  e.preventDefault();
+  var res = document.getElementById("rbRes");
+  var o = { price: num("rbPrice"), downPct: num("rbDown"), ratePct: num("rbRate"), termYears: num("rbTerm"),
+            monthlyRent: num("rbRent"), years: num("rbYears"), rentIncreasePct: num("rbRentInc"),
+            appreciationPct: num("rbAppr"), maintenancePct: num("rbMaint") };
+  if (o.price <= 0 || o.termYears <= 0 || o.years <= 0){ res.style.display = "block"; res.innerHTML = '<div class="err">Bitte geben Sie einen Hauspreis, eine Hypothekenlaufzeit und eine Aufenthaltsdauer über null ein.</div>'; return; }
+  var r = rentVsBuy(o);
+  var verdict = r.cheaper === "buy" ? "Kaufen ist günstiger um " + fmt(r.difference)
+              : r.cheaper === "rent" ? "Mieten ist günstiger um " + fmt(r.difference)
+              : "Beide kosten fast genau gleich viel";
+  res.style.display = "block";
+  res.innerHTML = '<div class="resbig"><span>' + verdict + ' über ' + o.years + (o.years == 1 ? ' Jahr' : ' Jahre') + '</span><strong>' + fmt(r.difference) + '</strong></div>'
+    + '<table class="restbl">'
+    + '<tr><td>Gesamtkosten des Mietens (die Miete steigt ' + pctFmt(o.rentIncreasePct) + ' pro Jahr)</td><td>' + fmt(r.rentTotalCost) + '</td></tr>'
+    + '<tr><td>Nettokosten des Kaufens (nach Verkauf und Behalt des Eigenkapitals)</td><td>' + fmt(r.buyNetCost) + '</td></tr>'
+    + '<tr><td>Anzahlung</td><td>' + fmt(r.downPayment) + '</td></tr>'
+    + '<tr><td>Darlehensbetrag</td><td>' + fmt(r.loanAmount) + '</td></tr>'
+    + '<tr><td>Monatliche Hypothekenzahlung</td><td>' + fmt(r.monthlyPayment) + '</td></tr>'
+    + '<tr><td>Während Ihres Aufenthalts geleistete Hypothekenzahlungen</td><td>' + fmt(r.totalPayments) + '</td></tr>'
+    + '<tr><td>Instandhaltung &amp; Versicherung während Ihres Aufenthalts</td><td>' + fmt(r.maintenance) + '</td></tr>'
+    + '<tr><td>Hauswert beim Verkauf</td><td>' + fmt(r.valueAtSale) + '</td></tr>'
+    + '<tr><td>Beim Verkauf noch geschuldeter Darlehenssaldo</td><td>' + fmt(r.remainingBalance) + '</td></tr>'
+    + '<tr><td>Eigenkapital, das Sie mitnehmen (Wert − Saldo)</td><td>' + fmt(r.equity) + '</td></tr>'
+    + '</table>'
+    + '<p class="resnote">Der Kaufbetrag ist ein Nettobetrag: alles, was Sie auszahlen (Anzahlung, Hypothekenzahlungen, Instandhaltung und Versicherung), abzüglich des Eigenkapitals, das Sie beim Verkauf zurückerhalten. Er enthält keine einmaligen Kauf- und Verkaufsgebühren wie Grunderwerbsteuer, Anwaltskosten oder Maklerprovision, und die Miete wird als einmal pro Jahr steigend angenommen. Addieren Sie diese Gebühren zum Instandhaltungsprozentsatz, wenn Sie sie ungefähr einbeziehen möchten.</p>';
+});
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' App installieren';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Installieren Sie diese App: Tippen Sie auf die Teilen-Schaltfläche und wählen Sie dann "Zum Startbildschirm hinzufügen".');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body></html>

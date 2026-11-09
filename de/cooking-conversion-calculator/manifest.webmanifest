@@ -1,0 +1,29 @@
+{
+  "name": "Loona Umrechner für Kochmaße",
+  "short_name": "Koch-Umrechnungsrechner",
+  "description": "Kostenloser Koch-Umrechnungsrechner: Wandeln Sie Cups, Löffel, Milliliter, Gramm, Unzen und Pfund für 10 übliche Zutaten mit realen Dichten um — Mehl, Zucker, Butter, Honig und mehr.",
+  "id": "/loona-calculators/de/cooking-conversion-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

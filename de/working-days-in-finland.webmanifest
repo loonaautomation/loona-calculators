@@ -1,0 +1,29 @@
+{
+  "name": "Loona Arbeitstage in Finnland",
+  "short_name": "Arbeitstage in Finnland",
+  "description": "Arbeitstage-Rechner für Finnland: Zählen Sie Arbeitstage zwischen zwei Daten, mit Wochenenden und allen 11 finnischen gesetzlichen Feiertagen von 2026 entfernt. Kostenloses Online-Tool.",
+  "id": "/loona-calculators/de/working-days-in-finland.html",
+  "start_url": "./working-days-in-finland.html",
+  "scope": "./working-days-in-finland.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

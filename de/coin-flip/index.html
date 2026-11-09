@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Münzwurf — Werfen Sie eine virtuelle Münze online (Kopf oder Zahl) | Loona</title>
+<meta name="description" content="Kostenloser Online-Münzwurf: Werfen Sie eine virtuelle Münze einmal oder zehn auf einmal, mit Kopf/Zahl-Zählungen, Prozentsätzen, Serienstatistiken und einem Best-of-Spielmodus.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/de/coin-flip/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/coin-flip/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/coin-flip/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/coin-flip/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/coin-flip/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/coin-flip/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/coin-flip/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/coin-flip/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Münzwurf — Werfen Sie eine virtuelle Münze online (Kopf oder Zahl) | Loona">
+<meta property="og:description" content="Kostenloser Online-Münzwurf: Werfen Sie eine virtuelle Münze einmal oder zehn auf einmal, mit Kopf/Zahl-Zählungen, Prozentsätzen, Serienstatistiken und einem Best-of-Spielmodus.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/de/coin-flip/"><meta property="og:locale" content="de_DE">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Münzwurf — Werfen Sie eine virtuelle Münze online (Kopf oder Zahl) | Loona">
+<meta name="twitter:description" content="Kostenloser Online-Münzwurf: Werfen Sie eine virtuelle Münze einmal oder zehn auf einmal, mit Kopf/Zahl-Zählungen, Prozentsätzen, Serienstatistiken und einem Best-of-Spielmodus.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona Münzwurf","url":"https://loonaautomation.github.io/loona-calculators/de/coin-flip/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Ist der Online-Münzwurf wirklich 50/50?","acceptedAnswer":{"@type":"Answer","text":"Ja. Jeder Wurf verwendet crypto.getRandomValues, die sichere Zufallsquelle in Ihrem Browser, sodass Kopf und Zahl bei jedem Wurf exakt eine Wahrscheinlichkeit von 50% haben, unabhängig von allem, was vorher kam."}},{"@type":"Question","name":"Kopf ist 5 Mal in Folge gekommen — ist Zahl jetzt fällig?","acceptedAnswer":{"@type":"Answer","text":"Nein — diese Vorstellung wird als Spielerfehlschluss bezeichnet. Die Münze hat kein Gedächtnis: Nach 5 Köpfen ist der nächste Wurf immer noch genau 50/50. Lange Serien fühlen sich überraschend an, aber bei 10 Würfen ist die Chance auf mindestens eine Serie von 4 oder mehr tatsächlich ziemlich hoch."}},{"@type":"Question","name":"Wie groß ist die Chance auf 10-mal Kopf in Folge?","acceptedAnswer":{"@type":"Answer","text":"Jeder Wurf halbiert die Chance: (1/2)¹⁰ = 1 zu 1,024, etwa 0.098%. Selten für eine bestimmte Serie von zehn — aber wenn Sie lange genug werfen, erscheinen solche Serien irgendwann durch reinen Zufall."}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<style>.coin{width:120px;height:120px;border-radius:50%;margin:8px auto;display:flex;align-items:center;justify-content:center;font-size:21px;font-weight:800;color:#231a00;background:radial-gradient(circle at 35% 30%,#f3d27a,#d4af37 60%,#b8912a);border:3px solid #b8912a;box-shadow:0 4px 14px rgba(6,46,42,.25)}</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/de/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Münzwurf",
+      "item": "https://loonaautomation.github.io/loona-calculators/de/coin-flip/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation Logo">
+<div class="brand">Loona <span>Rechner</span></div>
+<nav>
+<a href="../">Startseite</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">Über uns</a>
+<a href="../contact.html">Kontakt</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › Spaß › Münzwurf</div>
+<h1 class="pagetitle">🪙 Münzwurf</h1>
+<p class="lead">Werfen Sie eine virtuelle Münze mit perfekter 50/50-Fairness. Verfolgen Sie Kopf- und Zahl-Zählungen, Prozentsätze und Serien, während Sie werfen — oder machen Sie ein Spiel daraus mit dem Best-of-Modus, bei dem die erste Seite, die das Ziel erreicht, gewinnt.</p>
+<div class="toolbox"><form class="calcform" id="coinForm">
+<div class="fld"><label for="coinBestOf">Spielmodus (optional)</label><select id="coinBestOf"><option value="0" selected>Aus — freies Werfen</option><option value="3">Best of 3 — wer zuerst 2 erreicht, gewinnt</option><option value="5">Best of 5 — wer zuerst 3 erreicht, gewinnt</option><option value="7">Best of 7 — wer zuerst 4 erreicht, gewinnt</option><option value="11">Best of 11 — wer zuerst 6 erreicht, gewinnt</option></select></div>
+<button class="calcbtn" type="submit">🪙 Die Münze werfen</button>
+<button class="calcbtn" type="button" id="coinFlip10" style="background:#0a423b;color:#fff;margin-top:8px">10 Mal werfen</button>
+<button class="calcbtn" type="button" id="coinReset" style="background:#e2e9e7;color:#062e2a;margin-top:8px">Zurücksetzen</button>
+<div class="calcresult" id="coinResult" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>So verwenden Sie: Münzwurf</h2><ol><li>Drücken Sie auf Münze werfen für einen einzelnen Wurf, oder auf 10-mal werfen für eine schnelle Serie.</li><li>Sehen Sie zu, wie sich die laufenden Summen, Prozentsätze und Serienstatistiken aktualisieren.</li><li>Optional: Wählen Sie zuerst einen Best-of-Spielmodus — die erste Seite, die das Ziel erreicht, gewinnt das Spiel.</li></ol>
+<div class="exbox"><strong>Beispiel:</strong> Zwei Freunde können sich nicht entscheiden, wer in einem Fußballspiel anstößt. Sie wählen Best of 5: Kopf gewinnt die Würfe 1 und 3, Zahl gewinnt Wurf 2, und Kopf nimmt auch Wurf 4 — Kopf erreicht zuerst 3 und gewinnt das Match, fair und endgültig.</div>
+<h2>Häufig gestellte Fragen</h2></section><div class="faq"><h3>Ist der Online-Münzwurf wirklich 50/50?</h3><p>Ja. Jeder Wurf verwendet crypto.getRandomValues, die sichere Zufallsquelle in Ihrem Browser, sodass Kopf und Zahl bei jedem Wurf exakt eine Wahrscheinlichkeit von 50% haben, unabhängig von allem, was vorher kam.</p></div><div class="faq"><h3>Kopf ist 5 Mal in Folge gekommen — ist Zahl jetzt fällig?</h3><p>Nein — diese Vorstellung wird als Spielerfehlschluss bezeichnet. Die Münze hat kein Gedächtnis: Nach 5 Köpfen ist der nächste Wurf immer noch genau 50/50. Lange Serien fühlen sich überraschend an, aber bei 10 Würfen ist die Chance auf mindestens eine Serie von 4 oder mehr tatsächlich ziemlich hoch.</p></div><div class="faq"><h3>Wie groß ist die Chance auf 10-mal Kopf in Folge?</h3><p>Jeder Wurf halbiert die Chance: (1/2)¹⁰ = 1 zu 1,024, etwa 0.098%. Selten für eine bestimmte Serie von zehn — aber wenn Sie lange genug werfen, erscheinen solche Serien irgendwann durch reinen Zufall.</p></div>
+<h2 class="sec">Verwandte Rechner</h2><div class="grid"><a class="card" href="../dice-roller/"><div class="ic">🎲</div><h3>Würfelroller</h3><p>Spaß</p></a><a class="card" href="../random-number-generator/"><div class="ic">🎲</div><h3>Zufallszahlengenerator</h3><p>Spaß</p></a><a class="card" href="../lottery-number-generator/"><div class="ic">🍀</div><h3>Lottozahlen-Generator</h3><p>Spaß</p></a><a class="card" href="../love-calculator/"><div class="ic">❤️</div><h3>Liebesrechner</h3><p>Spaß</p></a><a class="card" href="../percentage-calculator/"><div class="ic">％</div><h3>Prozentrechner</h3><p>Mathematik</p></a></div>
+</div>
+<section class="txt"><h2>So funktioniert es &mdash; die Formel</h2>
+<p>Jeder Wurf ist ein unabhängiges Ereignis mit der Wahrscheinlichkeit <strong>P(Kopf) = P(Zahl) = 1/2</strong>. Serien folgen einfacher Multiplikation: die Wahrscheinlichkeit einer bestimmten Folge von <em>k</em> identischer Ergebnisse ist (1/2)<sup>k</sup>. Die angezeigten Prozentsätze nähern sich mit wachsender Zahl der Würfe 50/50 an — ein Muster, das bekannt ist als das <strong>Gesetz der großen Zahlen</strong> — während der Zähler der aktuellen Serie einfach den Lauf verfolgt, in dem Sie sich gerade befinden.</p>
+<h3>Ausgearbeitetes Beispiel</h3>
+<div class="exbox"><strong>Beispiel:</strong> Nach 40 Würfen haben Sie 24-mal Kopf und 16-mal Zahl. Kopf-Anteil = 24 ÷ 40 × 100 = <strong>60%</strong>. Das sieht unausgewogen aus, aber bei nur 40 Würfen tritt eine solche Aufteilung (oder eine noch extremere) in etwa 27% der Fälle durch reinen Zufall auf — kleine Stichproben schwanken stark. Werfen Sie 1,000 Mal, und die Aufteilung liegt in der Regel innerhalb weniger Prozent von 50/50.</div>
+<h3>Häufig gestellte Fragen</h3></section><div class="faq"><h3>Wie funktioniert der Best-of-Modus?</h3><p>In einem Best-of-N-Spiel gewinnt die Seite, die zuerst (N+1)/2 Würfe gewinnt: Best of 3 bedeutet „zuerst 2“, Best of 5 bedeutet „zuerst 3“. Der Sport nutzt dieses Format, weil es die Rolle eines einzelnen glücklichen Wurfs verringert.</p></div><div class="faq"><h3>Merkt sich die Münze meine Würfe?</h3><p>Die Statistiken leben nur in dieser Seite, solange sie geöffnet ist. Nichts wird an einen Server gesendet oder gespeichert — drücken Sie Reset oder schließen Sie den Tab, und alles wird gelöscht.</p></div><div class="faq"><h3>Kann ich das verwenden, um Entscheidungen zu treffen?</h3><p>Absolut — ein Münzwurf ist eine klassische Methode, ein Unentschieden fair aufzulösen, vom Anstoß im Sport bis zur Frage, wer bei einem Spiel anfängt. Viele merken, während die Münze in der Luft ist, auf welches Ergebnis sie gehofft haben — und das ist selbst schon eine nützliche Antwort.</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Betten Sie diesen Rechner auf Ihrer Website ein — kostenlos</h2>
+<p style="margin:0 0 12px;line-height:1.6">Fügen Sie diesen Rechner zu Ihrer eigenen Website oder Ihrem Blog hinzu — er ist völlig kostenlos, braucht keine Anmeldung und zeigt immer die neueste Version. Kopieren Sie den Code unten und fügen Sie ihn in Ihre Seite ein, wo der Rechner erscheinen soll. Die kleine Zeile &ldquo;Powered by Loona Automation&rdquo; unter dem Embed zu behalten, hilft, dieses Tool kostenlos zu halten &mdash; aber Sie können sie frei gestalten oder entfernen; das Tool funktioniert so oder so.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/de/coin-flip/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Coin Flip by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Bereitgestellt von &lt;a href="https://loonaautomation.github.io/loona-calculators/de/coin-flip/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; kostenlos Münzwurf&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Embed-Code kopieren</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='Embed-Code kopieren';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Beliebte Rechner</h4><ul><li><a href="../age-calculator/">Altersrechner</a></li>
+<li><a href="../zakat-calculator/">Zakat-Rechner</a></li>
+<li><a href="../cgpa-calculator/">CGPA-Rechner</a></li>
+<li><a href="../percentage-calculator/">Prozentrechner</a></li>
+<li><a href="../hijri-date-converter/">Hijri-Datumsumrechner</a></li>
+<li><a href="../emi-calculator/">EMI- & Kreditrechner</a></li></ul></div>
+<div><h4>Weitere Loona Tools</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR-Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Bildkompressor</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona KI-Assistent</a></li>
+<li><a href="https://loonaautomation.github.io/">Alle Loona Tools</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">Über uns</a></li>
+<li><a href="../contact.html">Kontakt</a></li>
+<li><a href="../privacy-policy.html">Datenschutzerklärung</a></li>
+<li><a href="../terms.html">Nutzungsbedingungen</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — ein <a href="https://loonaautomation.github.io/">Loona Automation</a> Projekt. Kostenlose Online-Rechner, keine Anmeldung.
+Kontakt: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+function cryptoRandomInt(min, max) {
+  var range = max - min + 1;
+  if (!(range >= 1)) throw new Error("Ungültiger Bereich.");
+  if (range > 4294967296) throw new Error("Bereich zu groß.");
+  var limit = Math.floor(4294967296 / range) * range;
+  var buf = new Uint32Array(1), x;
+  do { crypto.getRandomValues(buf); x = buf[0]; } while (x >= limit);
+  return min + (x % range);
+}
+function generateRandomNumbers(min, max, count, unique) {
+  min = Math.floor(min); max = Math.floor(max); count = Math.floor(count);
+  if (isNaN(min) || isNaN(max) || isNaN(count)) throw new Error("Bitte geben Sie in jedes Feld gültige Zahlen ein.");
+  if (max < min) throw new Error("Das Maximum muss größer oder gleich dem Minimum sein.");
+  if (count < 1 || count > 10000) throw new Error("Wählen Sie zwischen 1 und 10,000 Zahlen.");
+  if (unique && count > (max - min + 1)) throw new Error("In diesem Bereich gibt es nicht genug eindeutige Zahlen.");
+  var out = [], seen = {};
+  while (out.length < count) {
+    var v = cryptoRandomInt(min, max);
+    if (unique) { if (seen[v]) continue; seen[v] = 1; }
+    out.push(v);
+  }
+  return out;
+}
+function generateUniqueSorted(count, max) {
+  var seen = {}, out = [];
+  while (out.length < count) {
+    var v = cryptoRandomInt(1, max);
+    if (!seen[v]) { seen[v] = 1; out.push(v); }
+  }
+  out.sort(function (a, b) { return a - b; });
+  return out;
+}
+/*TESTABLE_END*/
+
+/*TESTABLE_START*/
+function flipCoin() { return cryptoRandomInt(0, 1) === 0 ? 'H' : 'T'; }
+function newCoinStats() { return { total: 0, heads: 0, tails: 0, lastFlip: null, streak: 0, longestH: 0, longestT: 0, matchH: 0, matchT: 0 }; }
+function applyFlip(stats, flip) {
+  stats.total++;
+  if (flip === 'H') stats.heads++; else stats.tails++;
+  if (stats.lastFlip === flip) stats.streak++; else { stats.streak = 1; stats.lastFlip = flip; }
+  if (flip === 'H') { if (stats.streak > stats.longestH) stats.longestH = stats.streak; stats.matchH++; }
+  else { if (stats.streak > stats.longestT) stats.longestT = stats.streak; stats.matchT++; }
+  return stats;
+}
+function matchTarget(bestOf) { return bestOf > 0 ? Math.floor(bestOf / 2) + 1 : 0; }
+function matchWinner(stats, bestOf) {
+  var target = matchTarget(bestOf);
+  if (!target) return null;
+  if (stats.matchH >= target) return 'H';
+  if (stats.matchT >= target) return 'T';
+  return null;
+}
+/*TESTABLE_END*/
+var coinStats = newCoinStats();
+var coinWinner = null;
+function coinRender() {
+  var box = document.getElementById('coinResult');
+  box.style.display = 'block';
+  var bestOf = parseInt(document.getElementById('coinBestOf').value, 10);
+  var last = coinStats.lastFlip === 'H' ? 'Heads' : (coinStats.lastFlip === 'T' ? 'Tails' : '—');
+  var hp = coinStats.total ? Math.round(coinStats.heads / coinStats.total * 1000) / 10 : 0;
+  var html = '<div class="coin">' + (coinStats.total ? last : 'Flip!') + '</div>';
+  html += '<div class="resbig"><span>Letzter Münzwurf</span><strong>' + last + '</strong></div>';
+  html += '<table class="restbl">' +
+    '<tr><td>Münzwürfe insgesamt</td><td><strong>' + coinStats.total + '</strong></td></tr>' +
+    '<tr><td>Kopf</td><td><strong>' + coinStats.heads + ' (' + hp + '%)</strong></td></tr>' +
+    '<tr><td>Zahl</td><td><strong>' + coinStats.tails + ' (' + (coinStats.total ? Math.round(coinStats.tails / coinStats.total * 1000) / 10 : 0) + '%)</strong></td></tr>' +
+    '<tr><td>Aktuelle Serie</td><td><strong>' + (coinStats.total ? coinStats.streak + ' × ' + last : '—') + '</strong></td></tr>' +
+    '<tr><td>Längste Kopf-Serie</td><td><strong>' + coinStats.longestH + '</strong></td></tr>' +
+    '<tr><td>Längste Zahl-Serie</td><td><strong>' + coinStats.longestT + '</strong></td></tr></table>';
+  if (bestOf > 0) {
+    html += '<table class="restbl"><tr><td>Spielstand (zuerst bis ' + matchTarget(bestOf) + '</td><td><strong>Kopf ' + coinStats.matchH + ' — ' + coinStats.matchT + ' Zahl</strong></td></tr></table>';
+    if (coinWinner) html += '<p class="resnote"><strong>🏆 ' + (coinWinner === 'H' ? 'Heads' : 'Tails') + ' gewinnt das Spiel!</strong> Ändern Sie den Spielmodus oder drücken Sie auf Zurücksetzen, um erneut zu spielen.</p>';
+  }
+  box.innerHTML = html;
+}
+function coinDoFlip(n) {
+  var bestOf = parseInt(document.getElementById('coinBestOf').value, 10);
+  if (coinWinner) { coinStats.matchH = 0; coinStats.matchT = 0; coinWinner = null; }
+  for (var i = 0; i < n; i++) {
+    var before = coinStats.matchH + coinStats.matchT;
+    applyFlip(coinStats, flipCoin());
+    if (bestOf > 0) {
+      coinWinner = matchWinner(coinStats, bestOf);
+      if (coinWinner) break;
+      void before;
+    }
+  }
+  coinRender();
+}
+document.getElementById('coinForm').addEventListener('submit', function (e) { e.preventDefault(); coinDoFlip(1); });
+document.getElementById('coinFlip10').addEventListener('click', function () { coinDoFlip(10); });
+document.getElementById('coinReset').addEventListener('click', function () { coinStats = newCoinStats(); coinWinner = null; coinRender(); });
+document.getElementById('coinBestOf').addEventListener('change', function () { coinStats.matchH = 0; coinStats.matchT = 0; coinWinner = null; coinRender(); });
+coinRender();
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' App installieren';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Installieren Sie diese App: Tippen Sie auf die Teilen-Schaltfläche und wählen Sie dann "Zum Startbildschirm hinzufügen".');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Rechner für lineare Regression",
+  "short_name": "Rechner für lineare Regression",
+  "description": "Kostenloser Rechner für lineare Regression: Fügen Sie gepaarte Daten ein, um die Linie der kleinsten Quadrate y = a + bx, die Korrelation, Vorhersagen und ein Streudiagramm mit der eingezeichneten angepassten Linie zu erhalten.",
+  "id": "/loona-calculators/de/linear-regression-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

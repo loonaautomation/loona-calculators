@@ -1,0 +1,29 @@
+{
+  "name": "Loona Rabattrechner",
+  "short_name": "Rabattrechner",
+  "description": "Kostenloser Rabattrechner: Geben Sie Preis und Rabattprozentsatz ein, um den Endpreis und Ihre Ersparnis zu erhalten. Unterstützt einen zusätzlichen zweiten Rabatt und Steuer, die nach dem Rabatt hinzugefügt wird.",
+  "id": "/loona-calculators/de/discount-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

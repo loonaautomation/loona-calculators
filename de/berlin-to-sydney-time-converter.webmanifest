@@ -1,0 +1,29 @@
+{
+  "name": "Loona Berlin-zu-Sydney Zeit-Umrechner",
+  "short_name": "Uhrzeit: Berlin nach Sydney",
+  "description": "Rechnen Sie die Uhrzeit von Berlin in die Uhrzeit von Sydney um. Sydney ist im Januar 10 Stunden vor Berlin und im Juli 8 Stunden voraus, mit Sommerzeitdaten, einer 24-Stunden-Tabelle und dem besten Besprechungsfenster. Live-Umrechner inklusive.",
+  "id": "/loona-calculators/de/berlin-to-sydney-time-converter.html",
+  "start_url": "./berlin-to-sydney-time-converter.html",
+  "scope": "./berlin-to-sydney-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

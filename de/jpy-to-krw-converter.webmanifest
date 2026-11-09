@@ -1,0 +1,29 @@
+{
+  "name": "Loona JPY in KRW Umrechner",
+  "short_name": "JPY-zu-KRW-Umrechner",
+  "description": "Rechnen Sie Japanischen Yen (JPY) in Südkoreanischen Won (KRW) um. EZB-Referenzkurs vom 06. November 2026, inverser Kurs, Umrechnungstabelle und Korridorhinweise. Nur Richtwerte.",
+  "id": "/loona-calculators/de/jpy-to-krw-converter.html",
+  "start_url": "./jpy-to-krw-converter.html",
+  "scope": "./jpy-to-krw-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

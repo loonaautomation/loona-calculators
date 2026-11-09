@@ -1,0 +1,29 @@
+{
+  "name": "Loona Hypothekenrechner für Frankreich",
+  "short_name": "Frankreich-Hypothekenrechner",
+  "description": "Kostenloser Frankreich-Hypothekenrechner in Euro: monatliche Zahlung mit optionaler Kreditnehmerversicherung (assurance emprunteur), Gesamtzinsen und schuldenfreies Datum für jeden Preis, jede Anzahlung, jeden Satz und jede Laufzeit.",
+  "id": "/loona-calculators/de/france-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Listen-Zufallsgenerator",
+  "short_name": "Listen-Zufallsgenerator",
+  "description": "Kostenloser Listen-Zufallsgenerator: Fügen Sie eine beliebige Liste ein, um sie in eine zufällige Reihenfolge zu mischen, oder wählen Sie eine Zufallsstichprobe von Elementen. Sichere Mischung, nichts wird hochgeladen.",
+  "id": "/loona-calculators/de/list-randomizer/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

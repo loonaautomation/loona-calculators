@@ -1,0 +1,29 @@
+{
+  "name": "Loona Blutalkoholrechner",
+  "short_name": "Blutalkohol-Rechner",
+  "description": "Kostenloser Blutalkoholgehalts-Rechner (BAC) mit der Widmark-Formel: Gewicht, Geschlecht, Getränke und Zeit zur Schätzung des BAC-Prozents. Nur bildungsbezogene Schätzung, fahren Sie niemals.",
+  "id": "/loona-calculators/de/blood-alcohol-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

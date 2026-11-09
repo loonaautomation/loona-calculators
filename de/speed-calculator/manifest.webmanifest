@@ -1,0 +1,29 @@
+{
+  "name": "Loona Geschwindigkeitsrechner",
+  "short_name": "Geschwindigkeitsrechner",
+  "description": "Kostenloser Geschwindigkeits-Rechner: Geben Sie eine Entfernung in Kilometern oder Meilen und die benötigte Zeit ein, um die Geschwindigkeit in km/h und mph zu erhalten, plus Tempo pro Kilometer und pro Meile.",
+  "id": "/loona-calculators/de/speed-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

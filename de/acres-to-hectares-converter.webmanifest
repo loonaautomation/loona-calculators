@@ -1,0 +1,29 @@
+{
+  "name": "Loona Acres-zu-Hektar-Umrechner",
+  "short_name": "Umrechner: Acre in Hektar",
+  "description": "Rechnen Sie Acre sofort in Hektar um. Exakte Formel, eine vollständige Umrechnungstabelle acre in ha und Praxisbeispiele. Kostenlos, ohne Anmeldung.",
+  "id": "/loona-calculators/de/acres-to-hectares-converter.html",
+  "start_url": "./acres-to-hectares-converter.html",
+  "scope": "./acres-to-hectares-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

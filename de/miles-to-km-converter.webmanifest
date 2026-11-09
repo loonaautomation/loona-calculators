@@ -1,0 +1,29 @@
+{
+  "name": "Loona Meilen in Km Umrechner",
+  "short_name": "Meilen in Km Umrechner",
+  "description": "Rechnen Sie Meilen sofort in Kilometer um. Exakte Formel, eine vollständige Umrechnungstabelle mi in km und Praxisbeispiele. Kostenlos, ohne Anmeldung.",
+  "id": "/loona-calculators/de/miles-to-km-converter.html",
+  "start_url": "./miles-to-km-converter.html",
+  "scope": "./miles-to-km-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

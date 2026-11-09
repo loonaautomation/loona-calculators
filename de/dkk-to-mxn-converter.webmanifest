@@ -1,0 +1,29 @@
+{
+  "name": "Loona DKK-zu-MXN-Umrechner",
+  "short_name": "DKK in MXN Umrechner",
+  "description": "Rechnen Sie Dänische Krone (DKK) in Mexikanischen Peso (MXN) um. EZB-Referenzkurs vom 06. November 2026, inverser Kurs, Umrechnungstabelle und Korridorhinweise. Nur Richtwerte.",
+  "id": "/loona-calculators/de/dkk-to-mxn-converter.html",
+  "start_url": "./dkk-to-mxn-converter.html",
+  "scope": "./dkk-to-mxn-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

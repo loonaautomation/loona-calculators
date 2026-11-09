@@ -1,0 +1,29 @@
+{
+  "name": "Loona CAGR-Rechner",
+  "short_name": "CAGR-Rechner",
+  "description": "Kostenloser CAGR-Rechner: Geben Sie den Anfangswert, den Endwert und die Anzahl der Jahre ein, um die durchschnittliche jährliche Wachstumsrate einer Investition oder eines Unternehmens zu finden.",
+  "id": "/loona-calculators/de/cagr-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

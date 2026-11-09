@@ -1,0 +1,29 @@
+{
+  "name": "Loona INR in AUD Umrechner",
+  "short_name": "INR-zu-AUD-Umrechner",
+  "description": "Rechnen Sie Indische Rupie (INR) in Australischen Dollar (AUD) um. EZB-Referenzkurs vom 06. November 2026, inverser Kurs, Umrechnungstabelle und Korridorhinweise. Nur Richtwerte.",
+  "id": "/loona-calculators/de/inr-to-aud-converter.html",
+  "start_url": "./inr-to-aud-converter.html",
+  "scope": "./inr-to-aud-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

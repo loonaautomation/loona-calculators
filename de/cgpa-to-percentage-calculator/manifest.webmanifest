@@ -1,0 +1,29 @@
+{
+  "name": "Loona CGPA-zu-Prozent-Rechner",
+  "short_name": "CGPA-in-Prozent-Rechner",
+  "description": "Kostenloser CGPA-in-Prozentsatz-Umrechner: Wandeln Sie CGPA von 10 (×9.5-Formel) oder GPA von 4 in Prozentsatz um, mit einer benutzerdefinierten Multiplikator-Option für jede Behörde oder Universität.",
+  "id": "/loona-calculators/de/cgpa-to-percentage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

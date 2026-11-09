@@ -1,0 +1,29 @@
+{
+  "name": "Loona Arbeitstage in Schweiz",
+  "short_name": "Arbeitstage in der Schweiz",
+  "description": "Arbeitstage-Rechner für die Schweiz: Arbeitstage zwischen zwei Daten minus Wochenenden und die 4 gesetzlichen Feiertage, die 2026 in jedem Schweizer Kanton begangen werden.",
+  "id": "/loona-calculators/de/working-days-in-switzerland.html",
+  "start_url": "./working-days-in-switzerland.html",
+  "scope": "./working-days-in-switzerland.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

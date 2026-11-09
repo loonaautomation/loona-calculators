@@ -1,0 +1,29 @@
+{
+  "name": "Loona Poisson-Verteilungs-Rechner",
+  "short_name": "Poisson-Verteilung",
+  "description": "Kostenloser Poisson-Verteilungsrechner: Wahrscheinlichkeit für genau k Ereignisse, höchstens k oder mindestens k, bei gegebener Durchschnittsrate Lambda. Für Anrufe, Ankünfte, Fehler und seltene Ereignisse.",
+  "id": "/loona-calculators/de/poisson-distribution-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

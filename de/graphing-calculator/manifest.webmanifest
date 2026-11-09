@@ -1,0 +1,29 @@
+{
+  "name": "Loona Grafikrechner",
+  "short_name": "Grafikrechner",
+  "description": "Kostenloser Grafikrechner: Zeichnen Sie eine oder zwei Funktionen wie x^2, sin(x) oder 2x+3 auf einem Raster mit Zoom. Läuft in Ihrem Browser, keine Anmeldung.",
+  "id": "/loona-calculators/de/graphing-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

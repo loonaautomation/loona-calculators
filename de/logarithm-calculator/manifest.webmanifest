@@ -1,0 +1,29 @@
+{
+  "name": "Loona Logarithmus-Rechner",
+  "short_name": "Logarithmus-Rechner",
+  "description": "Kostenloser Logarithmus-Rechner: Finden Sie den Logarithmus zu jeder Basis, plus den Zehnerlogarithmus (Basis 10), den natürlichen Logarithmus (ln) und den binären Logarithmus (Basis 2), jeden durch seinen Antilog verifiziert. Die Basiswechsel-Formel erklärt.",
+  "id": "/loona-calculators/de/logarithm-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

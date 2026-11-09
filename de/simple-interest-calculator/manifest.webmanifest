@@ -1,0 +1,29 @@
+{
+  "name": "Loona Rechner für einfache Zinsen",
+  "short_name": "Rechner für einfache Zinsen",
+  "description": "Kostenloser Einfache-Zinsen-Rechner: Geben Sie Kapital, jährlichen Satz und Zeit ein (Jahre und Monate), um die verdienten Zinsen und die Gesamtsumme zu berechnen. Einfache Formel I = P×R×T/100.",
+  "id": "/loona-calculators/de/simple-interest-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

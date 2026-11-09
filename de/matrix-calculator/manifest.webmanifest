@@ -1,0 +1,29 @@
+{
+  "name": "Loona Matrix-Rechner",
+  "short_name": "Matrix-Rechner",
+  "description": "Kostenloser Matrix-Rechner für 2x2- und 3x3-Matrizen: Addieren, Subtrahieren, Multiplizieren, Determinante und Inverse mit dargestellten Schritt-Werten. Keine Anmeldung, läuft in Ihrem Browser.",
+  "id": "/loona-calculators/de/matrix-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

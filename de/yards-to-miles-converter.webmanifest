@@ -1,0 +1,29 @@
+{
+  "name": "Loona Yard in Meile Umrechner",
+  "short_name": "Yard-zu-Meile-Umrechner",
+  "description": "Rechnen Sie Yard sofort in Meilen um. Exakte Formel, eine vollständige Umrechnungstabelle yd in mi, ein Praxisbeispiel und FAQs. Kostenlos, ohne Anmeldung.",
+  "id": "/loona-calculators/de/yards-to-miles-converter.html",
+  "start_url": "./yards-to-miles-converter.html",
+  "scope": "./yards-to-miles-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

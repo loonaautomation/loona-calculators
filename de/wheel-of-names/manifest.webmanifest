@@ -1,0 +1,29 @@
+{
+  "name": "Loona Namensrad",
+  "short_name": "Rad der Namen",
+  "description": "Kostenloses Glücksrad der Namen: Fügen Sie Namen hinzu, drehen Sie das bunte Rad und wählen Sie einen wirklich zufälligen Gewinner für Verlosungen, Klassenzimmer und Gewinnspiele. Keine Anmeldung, läuft in Ihrem Browser.",
+  "id": "/loona-calculators/de/wheel-of-names/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

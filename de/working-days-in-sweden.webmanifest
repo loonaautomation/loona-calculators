@@ -1,0 +1,29 @@
+{
+  "name": "Loona Arbeitstage in Schweden",
+  "short_name": "Arbeitstage in Schweden",
+  "description": "Arbeitstage-Rechner für Schweden: Zählen Sie Arbeitstage zwischen zwei Daten, mit Wochenenden und allen 13 schwedischen gesetzlichen Feiertagen (rote Tage) von 2026 entfernt. Kostenlos.",
+  "id": "/loona-calculators/de/working-days-in-sweden.html",
+  "start_url": "./working-days-in-sweden.html",
+  "scope": "./working-days-in-sweden.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

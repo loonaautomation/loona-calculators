@@ -1,0 +1,29 @@
+{
+  "name": "Loona Steigungsrechner",
+  "short_name": "Steigungsrechner",
+  "description": "Kostenloser Steigungs-Rechner: Geben Sie zwei Punkte ein, um die Steigung, die Entfernung zwischen ihnen, den Mittelpunkt und die Geradengleichung in Steigungs-Achsenabschnitt-Form zu erhalten, mit Rechnung.",
+  "id": "/loona-calculators/de/slope-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Datumsrechner",
+  "short_name": "Datumsrechner",
+  "description": "Kostenloser Datumsrechner: Addieren oder subtrahieren Sie Tage, Wochen, Monate und Jahre von einem beliebigen Datum und erhalten Sie das resultierende Datum mit seinem Wochentag. Fristen, Visa und Planung.",
+  "id": "/loona-calculators/de/date-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

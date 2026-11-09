@@ -1,0 +1,29 @@
+{
+  "name": "Loona Vignetten-Prüfer",
+  "short_name": "Vignetten-Prüfer",
+  "description": "Kostenloser Vignetten-Prüfer: Wählen Sie die europäischen Länder auf Ihrer Fahrroute aus, um zu sehen, welche eine Autobahnvignette brauchen, welche Maut erheben und welche für Autos kostenlos sind.",
+  "id": "/loona-calculators/de/vignette-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

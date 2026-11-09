@@ -1,0 +1,29 @@
+{
+  "name": "Loona ETIAS-Berechtigungsprüfung",
+  "short_name": "ETIAS-Berechtigungsprüfung",
+  "description": "Kostenloser ETIAS-Berechtigungsprüfer: Wählen Sie Ihre Nationalität und Reisesituation, um zu sehen, ob Sie für kurze Reisen nach Europa ETIAS, ein Schengen-Visum oder keine Genehmigung benötigen werden.",
+  "id": "/loona-calculators/de/etias-eligibility-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

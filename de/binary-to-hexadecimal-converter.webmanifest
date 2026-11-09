@@ -1,0 +1,29 @@
+{
+  "name": "Loona Binär-zu-Hexadezimal-Umrechner",
+  "short_name": "Binär in Hexadezimal",
+  "description": "Rechnen Sie Binär (Basis 2) in Hexadezimal (Basis 16) um, mit Prüfung, Stellenwert-Rechnung und einer Referenztabelle.",
+  "id": "/loona-calculators/de/binary-to-hexadecimal-converter.html",
+  "start_url": "./binary-to-hexadecimal-converter.html",
+  "scope": "./binary-to-hexadecimal-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

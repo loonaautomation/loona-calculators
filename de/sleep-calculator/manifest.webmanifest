@@ -1,0 +1,29 @@
+{
+  "name": "Loona Schlafrechner",
+  "short_name": "Schlafrechner",
+  "description": "Kostenloser Schlaf-Rechner: Geben Sie eine Aufwachzeit ein, um die besten Schlafenszeiten zu erhalten, oder eine Schlafenszeit, um die besten Aufwachzeiten zu erhalten — basierend auf 90-Minuten-Schlafzyklen plus Einschlafzeit.",
+  "id": "/loona-calculators/de/sleep-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

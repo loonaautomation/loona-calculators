@@ -1,0 +1,29 @@
+{
+  "name": "Loona GBP-zu-SEK-Umrechner",
+  "short_name": "GBP in SEK Umrechner",
+  "description": "Rechnen Sie Pfund Sterling (GBP) in Schwedische Krone (SEK) um. EZB-Referenzkurs vom 06. November 2026, inverser Kurs, Umrechnungstabelle und Korridorhinweise. Nur Richtwerte.",
+  "id": "/loona-calculators/de/gbp-to-sek-converter.html",
+  "start_url": "./gbp-to-sek-converter.html",
+  "scope": "./gbp-to-sek-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

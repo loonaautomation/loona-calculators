@@ -1,0 +1,29 @@
+{
+  "name": "Loona Tokio in Sydney Zeit Umrechner",
+  "short_name": "Tokio-zu-Sydney-Zeit-Umrechner",
+  "description": "Rechnen Sie die Uhrzeit von Tokyo in die Uhrzeit von Sydney um. Sydney ist im Januar 2 Stunden vor Tokyo und im Juli 1 Stunde voraus, mit Sommerzeitdaten, einer 24-Stunden-Tabelle und dem besten Besprechungsfenster. Live-Umrechner inklusive.",
+  "id": "/loona-calculators/de/tokyo-to-sydney-time-converter.html",
+  "start_url": "./tokyo-to-sydney-time-converter.html",
+  "scope": "./tokyo-to-sydney-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Z-Wert-Rechner — Z-Wert, Perzentil & Wahrscheinlichkeit | Loona Calculators</title>
+<meta name="description" content="Kostenloser z-Wert-Rechner: Geben Sie einen Wert, Mittelwert und Standardabweichung ein, um den z-Wert, das Perzentil und die Wahrscheinlichkeiten aus der Standardnormaltabelle zu erhalten (Normalverteilung).">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/de/z-score-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/z-score-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/z-score-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/z-score-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/z-score-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/z-score-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/z-score-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/z-score-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Z-Wert-Rechner — Z-Wert, Perzentil & Wahrscheinlichkeit | Loona Calculators">
+<meta property="og:description" content="Kostenloser z-Wert-Rechner: Geben Sie einen Wert, Mittelwert und Standardabweichung ein, um den z-Wert, das Perzentil und die Wahrscheinlichkeiten aus der Standardnormaltabelle zu erhalten (Normalverteilung).">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/de/z-score-calculator/"><meta property="og:locale" content="de_DE">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Z-Wert-Rechner — Z-Wert, Perzentil & Wahrscheinlichkeit | Loona Calculators">
+<meta name="twitter:description" content="Kostenloser z-Wert-Rechner: Geben Sie einen Wert, Mittelwert und Standardabweichung ein, um den z-Wert, das Perzentil und die Wahrscheinlichkeiten aus der Standardnormaltabelle zu erhalten (Normalverteilung).">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona Z-Wert-Rechner","url":"https://loonaautomation.github.io/loona-calculators/de/z-score-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Was bedeutet ein Z-Score in einfachen Worten?","acceptedAnswer":{"@type":"Answer","text":"Es ist der Abstand vom Mittelwert, gemessen in Standardabweichungen. z = 0 ist genau durchschnittlich, z = 1 ist eine SD darüber, z = −2 ist zwei SDs darunter. Dieser gemeinsame Maßstab macht Werte aus verschiedenen Tests vergleichbar."}},{"@type":"Question","name":"Wie wird das Perzentil ohne Tabelle berechnet?","acceptedAnswer":{"@type":"Answer","text":"Aus der kumulativen Normalfunktion Φ(z), hier berechnet mit der Standard-Approximation von Abramowitz–Stegun (genau bis etwa 1 zu 100,000) — dieselben Zahlen, die in z-Tabellen gedruckt sind."}},{"@type":"Question","name":"Welcher Bruchteil der Werte liegt innerhalb von 1, 2 und 3 Standardabweichungen?","acceptedAnswer":{"@type":"Answer","text":"Für eine Normalverteilung: etwa 68.27% innerhalb von ±1, 95.45% innerhalb von ±2 und 99.73% innerhalb von ±3 — die empirische Regel. Dieser Rechner meldet auch die Zwischen-Wahrscheinlichkeit für Ihr z."}},{"@type":"Question","name":"Funktioniert dies für beliebige Daten?","acceptedAnswer":{"@type":"Answer","text":"Die Perzentil- und Wahrscheinlichkeitswerte setzen voraus, dass die Daten einer Normalverteilung (glockenförmig) folgen. Der Z-Score selbst kann für jeden Datensatz berechnet werden, aber die Wahrscheinlichkeiten stimmen nur dann mit der Wirklichkeit überein, wenn die Verteilung ungefähr normal ist."}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/de/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Z-Wert-Rechner",
+      "item": "https://loonaautomation.github.io/loona-calculators/de/z-score-calculator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation Logo">
+<div class="brand">Loona <span>Rechner</span></div>
+<nav>
+<a href="../">Startseite</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">Über uns</a>
+<a href="../contact.html">Kontakt</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › Mathematik › Z-Wert-Rechner</div>
+<h1 class="pagetitle">🔔 Z-Wert-Rechner</h1>
+<p class="lead">Geben Sie einen Wert, den Mittelwert und die Standardabweichung seiner Normalverteilung ein, um den z-Wert, den Perzentilrang und die Wahrscheinlichkeiten zu erhalten, unterhalb, oberhalb oder dazwischen zu liegen — die Ergebnisse der Standardnormaltabelle ohne die Papiertabelle.</p>
+<div class="exbox"><strong>Kurze Antwort:</strong> z = (Wert − Mittelwert) ÷ Standardabweichung. Ein Wert von 85 mit Mittelwert 70 und SD 15 ergibt z = 1.00, was dem 84.13. Perzentil entspricht: Etwa 84.13% der Werte liegen darunter und 15.87% darüber.</div>
+<div class="toolbox"><form class="calcform" id="zsForm">
+<div class="fld"><label for="zsX">Wert (x)</label><input type="number" id="zsX" value="85" step="any"></div>
+<div class="fld"><label for="zsMean">Mittelwert (μ)</label><input type="number" id="zsMean" value="70" step="any"></div>
+<div class="fld"><label for="zsSd">Standardabweichung (σ)</label><input type="number" id="zsSd" value="15" step="any" min="0"></div>
+<button class="calcbtn" type="submit">z-Wert berechnen</button>
+<div class="calcresult" id="zsResult" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>So verwenden Sie: z-Wert-Rechner</h2><ol><li>Geben Sie den Wert ein, den Sie standardisieren möchten.</li><li>Geben Sie den Mittelwert und die Standardabweichung der Verteilung ein (muss über 0 sein).</li><li>Lesen Sie den z-Wert, das Perzentil und die Wahrscheinlichkeiten darunter/darüber.</li></ol>
+<div class="exbox"><strong>Beispiel:</strong> Prüfungspunktzahl 85, bei einem Klassenmittelwert von 70 und einer Standardabweichung von 15: z = (85 − 70) ÷ 15 = 1.00, Perzentil 84.13 — dieser Schüler erzielte mehr als etwa 84% der Klasse.</div>
+<h2>Häufig gestellte Fragen</h2></section><div class="faq"><h3>Was bedeutet ein Z-Score in einfachen Worten?</h3><p>Es ist der Abstand vom Mittelwert, gemessen in Standardabweichungen. z = 0 ist genau durchschnittlich, z = 1 ist eine SD darüber, z = −2 ist zwei SDs darunter. Dieser gemeinsame Maßstab macht Werte aus verschiedenen Tests vergleichbar.</p></div><div class="faq"><h3>Wie wird das Perzentil ohne Tabelle berechnet?</h3><p>Aus der kumulativen Normalfunktion Φ(z), hier berechnet mit der Standard-Approximation von Abramowitz–Stegun (genau bis etwa 1 zu 100,000) — dieselben Zahlen, die in z-Tabellen gedruckt sind.</p></div><div class="faq"><h3>Welcher Bruchteil der Werte liegt innerhalb von 1, 2 und 3 Standardabweichungen?</h3><p>Für eine Normalverteilung: etwa 68.27% innerhalb von ±1, 95.45% innerhalb von ±2 und 99.73% innerhalb von ±3 — die empirische Regel. Dieser Rechner meldet auch die Zwischen-Wahrscheinlichkeit für Ihr z.</p></div><div class="faq"><h3>Funktioniert dies für beliebige Daten?</h3><p>Die Perzentil- und Wahrscheinlichkeitswerte setzen voraus, dass die Daten einer Normalverteilung (glockenförmig) folgen. Der Z-Score selbst kann für jeden Datensatz berechnet werden, aber die Wahrscheinlichkeiten stimmen nur dann mit der Wirklichkeit überein, wenn die Verteilung ungefähr normal ist.</p></div>
+<h2 class="sec">Verwandte Rechner</h2><div class="grid"><a class="card" href="../percentage-calculator/"><div class="ic">％</div><h3>Prozentrechner</h3><p>Mathematik</p></a><a class="card" href="../statistics-calculator/"><div class="ic">📊</div><h3>Statistikrechner</h3><p>Mathematik</p></a><a class="card" href="../fraction-calculator/"><div class="ic">½</div><h3>Bruchrechner</h3><p>Mathematik</p></a><a class="card" href="../equation-solver/"><div class="ic">🧮</div><h3>Gleichungslöser</h3><p>Mathematik</p></a><a class="card" href="../scientific-calculator/"><div class="ic">🔬</div><h3>Wissenschaftlicher Rechner</h3><p>Mathematik</p></a><a class="card" href="../average-calculator/"><div class="ic">📐</div><h3>Durchschnittsrechner</h3><p>Mathematik</p></a></div>
+</div>
+<section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>So funktioniert es — die Formel</h2>
+<p><strong>z = (x − μ) ÷ σ.</strong> Das Perzentil ist Φ(z) × 100, wobei Φ die Verteilungsfunktion der Standardnormalverteilung ist, ausgewertet mit der Abramowitz–Stegun-Näherung 26.2.17 der Fehlerfunktion. P(über) = 1 − Φ(z), und P(zwischen −|z| und +|z|) = 2Φ(|z|) − 1.</p>
+<h3>Ausgearbeitetes Beispiel</h3><div class="exbox"><p><strong>Eingaben:</strong> x = 85, μ = 70, σ = 15.</p><p><strong>Schritte:</strong> z = (85 − 70) ÷ 15 = 15 ÷ 15 = 1.00. Aus der Standardnormaltabelle: Φ(1.00) = 0.8413.</p><p><strong>Ergebnis:</strong> z = <strong>1.00</strong>, Perzentil <strong>84.13</strong>, P(darunter) = 84.13%, P(darüber) = 15.87%, P(innerhalb von ±1 z) = 68.27%.</p></div>
+
+</section>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Betten Sie diesen Rechner auf Ihrer Website ein — kostenlos</h2>
+<p style="margin:0 0 12px;line-height:1.6">Fügen Sie diesen Rechner zu Ihrer eigenen Website oder Ihrem Blog hinzu — er ist völlig kostenlos, braucht keine Anmeldung und zeigt immer die neueste Version. Kopieren Sie den Code unten und fügen Sie ihn in Ihre Seite ein, wo der Rechner erscheinen soll. Die kleine Zeile &ldquo;Powered by Loona Automation&rdquo; unter dem Embed zu behalten, hilft, dieses Tool kostenlos zu halten &mdash; aber Sie können sie frei gestalten oder entfernen; das Tool funktioniert so oder so.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/de/z-score-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Z-Score Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Bereitgestellt von &lt;a href="https://loonaautomation.github.io/loona-calculators/de/z-score-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; kostenlos Z-Wert-Rechner&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Embed-Code kopieren</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='Embed-Code kopieren';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Beliebte Rechner</h4><ul><li><a href="../age-calculator/">Altersrechner</a></li>
+<li><a href="../zakat-calculator/">Zakat-Rechner</a></li>
+<li><a href="../cgpa-calculator/">CGPA-Rechner</a></li>
+<li><a href="../percentage-calculator/">Prozentrechner</a></li>
+<li><a href="../hijri-date-converter/">Hijri-Datumsumrechner</a></li>
+<li><a href="../emi-calculator/">EMI- & Kreditrechner</a></li></ul></div>
+<div><h4>Weitere Loona Tools</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR-Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Bildkompressor</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona KI-Assistent</a></li>
+<li><a href="https://loonaautomation.github.io/">Alle Loona Tools</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">Über uns</a></li>
+<li><a href="../contact.html">Kontakt</a></li>
+<li><a href="../privacy-policy.html">Datenschutzerklärung</a></li>
+<li><a href="../terms.html">Nutzungsbedingungen</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — ein <a href="https://loonaautomation.github.io/">Loona Automation</a> Projekt. Kostenlose Online-Rechner, keine Anmeldung.
+Kontakt: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+function normCdf(z){
+  var t=1/(1+0.2316419*Math.abs(z));
+  var poly=t*(0.319381530+t*(-0.356563782+t*(1.781477937+t*(-1.821255978+t*1.330274429))));
+  var phi=Math.exp(-z*z/2)/Math.sqrt(2*Math.PI);
+  var p=1-phi*poly;
+  return z>=0?p:1-p;
+}
+function zScore(x,mean,sd){
+  if(!(sd>0))return null;
+  var z=(x-mean)/sd, cdf=normCdf(z);
+  return {z:z,percentile:cdf*100,pBelow:cdf,pAbove:1-cdf,pBetween:2*normCdf(Math.abs(z))-1};
+}
+/*TESTABLE_END*/
+document.getElementById('zsForm').addEventListener('submit',function(e){e.preventDefault();
+ var r=zScore(parseFloat(document.getElementById('zsX').value),parseFloat(document.getElementById('zsMean').value),parseFloat(document.getElementById('zsSd').value));
+ var box=document.getElementById('zsResult'); box.style.display='block';
+ if(!r){box.innerHTML='<p class="err">Die Standardabweichung muss größer als 0 sein.</p>';return;}
+ function pc(v){return (v*100).toFixed(2)+'%';}
+ box.innerHTML='<div class="resbig"><span>Z-Wert</span><strong>'+r.z.toFixed(4)+'</strong></div>'
+ +'<table class="restbl"><tr><td>Perzentilrang</td><td><strong>'+r.percentile.toFixed(2)+'</strong></td></tr>'
+ +'<tr><td>P(Wert darunter)</td><td><strong>'+pc(r.pBelow)+'</strong></td></tr>'
+ +'<tr><td>P(Wert darüber)</td><td><strong>'+pc(r.pAbove)+'</strong></td></tr>'
+ +'<tr><td>P(zwischen −|z| und +|z|)</td><td><strong>'+pc(r.pBetween)+'</strong></td></tr></table>'
+ +'<p class="resnote">Perzentile setzen eine Normalverteilung voraus.</p>';});
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' App installieren';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Installieren Sie diese App: Tippen Sie auf die Teilen-Schaltfläche und wählen Sie dann "Zum Startbildschirm hinzufügen".');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

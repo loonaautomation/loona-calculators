@@ -1,0 +1,29 @@
+{
+  "name": "Loona Break-Even-Rechner",
+  "short_name": "Break-Even-Rechner",
+  "description": "Kostenloser Break-even-Rechner: Geben Sie Fixkosten, Verkaufspreis und variable Kosten pro Einheit ein, um zu finden, wie viele Einheiten Sie verkaufen müssen, um die Gewinnschwelle zu erreichen, und bei welchem Umsatz.",
+  "id": "/loona-calculators/de/break-even-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

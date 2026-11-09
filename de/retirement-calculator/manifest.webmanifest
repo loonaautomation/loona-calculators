@@ -1,0 +1,29 @@
+{
+  "name": "Loona Ruhestands-Rechner",
+  "short_name": "Rentenrechner",
+  "description": "Kostenloser Ruhestands-Rechner: aktuelles Alter, Rentenalter, Ersparnisse und monatlicher Beitrag — projizieren Sie Ihr Ruhestandskapital und wie viel davon Wachstum ist.",
+  "id": "/loona-calculators/de/retirement-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kanada-Hypothekenrechner — Halbjährliche Verzinsung | Loona</title>
+<meta name="description" content="Kostenloser kanadischer Hypothekenrechner in CAD mit korrekter halbjährlicher Verzinsung (j2), monatlichen Zahlungen, Gesamtzinsen und einem Überzahlungsvergleich.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/de/canada-mortgage-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/canada-mortgage-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/canada-mortgage-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/canada-mortgage-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/canada-mortgage-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/canada-mortgage-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/canada-mortgage-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/canada-mortgage-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Kanada-Hypothekenrechner — Halbjährliche Verzinsung | Loona">
+<meta property="og:description" content="Kostenloser kanadischer Hypothekenrechner in CAD mit korrekter halbjährlicher Verzinsung (j2), monatlichen Zahlungen, Gesamtzinsen und einem Überzahlungsvergleich.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/de/canada-mortgage-calculator/"><meta property="og:locale" content="de_DE">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Kanada-Hypothekenrechner — Halbjährliche Verzinsung | Loona">
+<meta name="twitter:description" content="Kostenloser kanadischer Hypothekenrechner in CAD mit korrekter halbjährlicher Verzinsung (j2), monatlichen Zahlungen, Gesamtzinsen und einem Überzahlungsvergleich.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona Hypothekenrechner für Kanada","url":"https://loonaautomation.github.io/loona-calculators/de/canada-mortgage-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Warum werden kanadische Hypothekenzahlungen anders berechnet?","acceptedAnswer":{"@type":"Answer","text":"Nach kanadischer Konvention (und bei den meisten Hypotheken gesetzlich) werden Zinsen halbjährlich aufgezinst — der angegebene Satz ist ein nominaler Jahressatz mit zwei Zinsperioden pro Jahr (genannt j2). Vor der Berechnung einer Monatsrate muss er umgerechnet werden: Monatssatz = (1 + Jahressatz ÷ 2)<sup>2/12</sup> − 1. Dieser Rechner nimmt diese Umrechnung vor; eine Berechnung nach US-Art würde die Rate leicht überzeichnen."}},{"@type":"Question","name":"Was ist der Unterschied zwischen Laufzeit und Amortisation?","acceptedAnswer":{"@type":"Answer","text":"Die Amortisation ist die Gesamtzeit, um die ganze Hypothek zurückzuzahlen (oft 25 Jahre). Die Laufzeit (Term) ist die Dauer Ihres aktuellen Vertrags (oft 5 Jahre) — am Ende der Laufzeit verlängern Sie zu dem dann verfügbaren Zinssatz und behalten die verbleibende Amortisation. Dieser Rechner modelliert der Einfachheit halber einen einzigen Zinssatz über die gesamte Amortisation."}},{"@type":"Question","name":"Was ist die CMHC-Versicherung, und ist sie im Rechner enthalten?","acceptedAnswer":{"@type":"Answer","text":"Wenn Ihre Anzahlung unter 20% liegt, verlangt das kanadische Recht eine Hypothekenausfallversicherung (in der Regel von der CMHC). Die Prämie — ein Prozentsatz des Darlehens, der steigt, je geringer die Anzahlung ausfällt — wird normalerweise Ihrem Hypothekensaldo hinzugefügt, sodass Sie auch darauf Zinsen zahlen. Die Prämie ist in diesem Rechner nicht enthalten: Addieren Sie sie zu Ihrem Hypothekenbetrag, wenn sie berücksichtigt werden soll."}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/de/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Kanada-Hypothekenrechner",
+      "item": "https://loonaautomation.github.io/loona-calculators/de/canada-mortgage-calculator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation Logo">
+<div class="brand">Loona <span>Rechner</span></div>
+<nav>
+<a href="../">Startseite</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">Über uns</a>
+<a href="../contact.html">Kontakt</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › Geld & Finanzen › Hypothekenrechner Kanada</div>
+<h1 class="pagetitle">🇨🇦 Hypothekenrechner Kanada</h1>
+<p class="lead">Kanadische Hypotheken verzinsen halbjährlich, nicht monatlich — und dieses Detail verändert Ihre Rate. Dieser Rechner verwendet die korrekte kanadische Formel, um Ihnen für jede Tilgung die wahre Monatsrate, die Gesamtzinsen und das Abzahlungsdatum zu geben.</p>
+<div class="toolbox"><form class="calcform" id="caForm">
+<div class="fld"><label for="caAmount">Hypothekenbetrag (CAD)</label><input type="number" id="caAmount" value="500000" step="any" min="0"></div>
+<div class="fld"><label for="caRate">Zinssatz (% pro Jahr)</label><input type="number" id="caRate" value="5" step="any" min="0"></div>
+<div class="fld"><label for="caYears">Laufzeit (Jahre)</label><input type="number" id="caYears" value="25" step="1" min="1" max="40"></div>
+<div class="fld"><label for="caExtra">Monatliche Sondertilgung (CAD)</label><input type="number" id="caExtra" value="0" step="any" min="0"></div>
+<button class="calcbtn" type="submit">Monatsrate berechnen</button>
+<div class="calcresult" id="caResult" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>So verwenden Sie: Hypothekenrechner für Kanada</h2><ol><li>Geben Sie den Hypothekenbetrag in kanadischen Dollar ein (der Preis minus Ihre Anzahlung).</li><li>Geben Sie den Vertragszinssatz ein.</li><li>Geben Sie die Tilgungsdauer in Jahren ein (25 ist das übliche Maximum für versicherte Hypotheken), fügen Sie eine zusätzliche monatliche Zahlung hinzu und drücken Sie auf Berechnen.</li></ol>
+<div class="exbox"><strong>Beispiel:</strong> Eine Hypothek von $500,000 zu 5% über 25 Jahre kostet <strong>$2,908.02</strong> pro Monat in Kanada — etwas weniger als derselbe Kredit in den US, weil kanadische Zinsen nur zweimal pro Jahr kapitalisiert werden. Der Formelabschnitt erklärt, warum.</div>
+<h2>Häufig gestellte Fragen</h2></section><div class="faq"><h3>Warum werden kanadische Hypothekenzahlungen anders berechnet?</h3><p>Nach kanadischer Konvention (und bei den meisten Hypotheken gesetzlich) werden Zinsen halbjährlich aufgezinst — der angegebene Satz ist ein nominaler Jahressatz mit zwei Zinsperioden pro Jahr (genannt j2). Vor der Berechnung einer Monatsrate muss er umgerechnet werden: Monatssatz = (1 + Jahressatz ÷ 2)<sup>2/12</sup> − 1. Dieser Rechner nimmt diese Umwandlung vor; eine Berechnung im US-Stil würde die Zahlung leicht überbewerten.</p></div><div class="faq"><h3>Was ist der Unterschied zwischen Laufzeit und Amortisation?</h3><p>Die Amortisation ist die Gesamtzeit, um die ganze Hypothek zurückzuzahlen (oft 25 Jahre). Die Laufzeit (Term) ist die Dauer Ihres aktuellen Vertrags (oft 5 Jahre) — am Ende der Laufzeit verlängern Sie zu dem dann verfügbaren Zinssatz und behalten die verbleibende Amortisation. Dieser Rechner modelliert der Einfachheit halber einen einzigen Zinssatz über die gesamte Amortisation.</p></div><div class="faq"><h3>Was ist die CMHC-Versicherung, und ist sie im Rechner enthalten?</h3><p>Wenn Ihre Anzahlung unter 20% liegt, verlangt das kanadische Recht eine Hypothekenausfallversicherung (in der Regel von der CMHC). Die Prämie — ein Prozentsatz des Darlehens, der steigt, je geringer die Anzahlung ausfällt — wird normalerweise Ihrem Hypothekensaldo hinzugefügt, sodass Sie auch darauf Zinsen zahlen. Die Prämie ist in diesem Rechner nicht enthalten: Addieren Sie sie zu Ihrem Hypothekenbetrag, wenn sie berücksichtigt werden soll.</p></div>
+<h2 class="sec">Verwandte Rechner</h2><div class="grid"><a class="card" href="../uk-mortgage-calculator/"><div class="ic">🇬🇧</div><h3>UK-Hypothekenrechner</h3><p>Geld & Finanzen</p></a><a class="card" href="../australia-mortgage-calculator/"><div class="ic">🇦🇺</div><h3>Australien-Hypothekenrechner</h3><p>Geld & Finanzen</p></a><a class="card" href="../germany-mortgage-calculator/"><div class="ic">🇩🇪</div><h3>Deutschland-Hypothekenrechner</h3><p>Geld & Finanzen</p></a><a class="card" href="../mortgage-calculator/"><div class="ic">🏠</div><h3>Hypothekenrechner</h3><p>Geld & Finanzen</p></a><a class="card" href="../loan-calculator/"><div class="ic">💳</div><h3>Kreditrechner</h3><p>Geld & Finanzen</p></a><a class="card" href="../emi-calculator/"><div class="ic">🏦</div><h3>EMI- & Kreditrechner</h3><p>Geld & Finanzen</p></a></div>
+</div>
+<section class="txt"><h2>So funktioniert es &mdash; die Formel</h2>
+<p>Kanadische Festzins-Hypotheken geben einen nominalen Jahressatz mit halbjährlicher Aufzinsung an. Der äquivalente Monatssatz ist:</p>
+<p><strong>monatlicher Satz = (1 + jährlicher Satz ÷ 2)<sup>2/12</sup> − 1</strong></p>
+<p>Von dort ist die Zahlung die Standard-Amortisationsformel <strong>M = P × r ÷ (1 − (1 + r)<sup>−n</sup>)</strong> mit n = Tilgungsjahre × 12. Da die Zinsen nur zweimal pro Jahr kapitalisiert werden, ist der effektive monatliche Satz etwas niedriger als jährlich ÷ 12 — bei 5% beträgt der wahre monatliche Satz 0.4124% statt 0.4167%.</p>
+<h3>Ausgearbeitetes Beispiel</h3>
+<div class="exbox"><strong>Beispiel:</strong> $500,000 zu 5% (j2) über 25 Jahre. Monatlicher Satz = (1.025)<sup>1/6</sup> − 1 = 0.004124 (0.4124%). Zahlung = 500,000 × 0.004124 ÷ (1 − 1.004124<sup>−300</sup>) = <strong>$2,908.02</strong> pro Monat. Derselbe Kredit, auf US-Art berechnet, läge bei etwa $2,922 — ungefähr $14 pro Monat zu hoch.</div>
+<h3>Häufig gestellte Fragen</h3></section><div class="faq"><h3>Kann ich bei einer kanadischen Hypothek Sondertilgungen leisten?</h3><p>Die meisten geschlossenen Hypotheken umfassen Vorfälligkeitsrechte — gewöhnlich das Recht, die Raten zu erhöhen und/oder jedes Jahr eine Pauschalsumme von 10–20% des ursprünglichen Saldos ohne Strafe zu zahlen. Das Sondertilgungsfeld zeigt, was zusätzliche monatliche Zahlungen bewirken würden; prüfen Sie die Rechte Ihres Vertrags, bevor Sie sich darauf verlassen.</p></div><div class="faq"><h3>Was ist der kanadische Stresstest?</h3><p>Bundesweit regulierte Kreditgeber müssen prüfen, ob Sie Zahlungen zu einem qualifizierenden Satz noch leisten könnten (Ihr Vertragssatz + 2% oder ein Mindestsatz, je nachdem, welcher höher ist) — der B-20-'Stresstest'. Er beeinflusst, wie viel Sie leihen können, nicht die hier gezeigte Zahlungsmathematik.</p></div><div class="faq"><h3>Ist dies eine Finanzberatung?</h3><p>Nein — es ist ein kostenloser lehrreicher Rechner. Sätze, Regeln und Versicherungsprämien ändern sich; bestätigen Sie die Zahlen mit Ihrem Kreditgeber oder einem lizenzierten kanadischen Hypothekenmakler, bevor Sie sich verpflichten.</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Betten Sie diesen Rechner auf Ihrer Website ein — kostenlos</h2>
+<p style="margin:0 0 12px;line-height:1.6">Fügen Sie diesen Rechner zu Ihrer eigenen Website oder Ihrem Blog hinzu — er ist völlig kostenlos, braucht keine Anmeldung und zeigt immer die neueste Version. Kopieren Sie den Code unten und fügen Sie ihn in Ihre Seite ein, wo der Rechner erscheinen soll. Die kleine Zeile &ldquo;Powered by Loona Automation&rdquo; unter dem Embed zu behalten, hilft, dieses Tool kostenlos zu halten &mdash; aber Sie können sie frei gestalten oder entfernen; das Tool funktioniert so oder so.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/de/canada-mortgage-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Canada Mortgage Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Bereitgestellt von &lt;a href="https://loonaautomation.github.io/loona-calculators/de/canada-mortgage-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; kostenlos Kanada-Hypothekenrechner&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Embed-Code kopieren</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='Embed-Code kopieren';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Beliebte Rechner</h4><ul><li><a href="../age-calculator/">Altersrechner</a></li>
+<li><a href="../zakat-calculator/">Zakat-Rechner</a></li>
+<li><a href="../cgpa-calculator/">CGPA-Rechner</a></li>
+<li><a href="../percentage-calculator/">Prozentrechner</a></li>
+<li><a href="../hijri-date-converter/">Hijri-Datumsumrechner</a></li>
+<li><a href="../emi-calculator/">EMI- & Kreditrechner</a></li></ul></div>
+<div><h4>Weitere Loona Tools</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR-Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Bildkompressor</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona KI-Assistent</a></li>
+<li><a href="https://loonaautomation.github.io/">Alle Loona Tools</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">Über uns</a></li>
+<li><a href="../contact.html">Kontakt</a></li>
+<li><a href="../privacy-policy.html">Datenschutzerklärung</a></li>
+<li><a href="../terms.html">Nutzungsbedingungen</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — ein <a href="https://loonaautomation.github.io/">Loona Automation</a> Projekt. Kostenlose Online-Rechner, keine Anmeldung.
+Kontakt: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+function amortize(principal, monthlyRate, months, extraMonthly) {
+  var bal = principal, totalInterest = 0, m = 0;
+  var base;
+  if (monthlyRate === 0) base = principal / months;
+  else base = principal * monthlyRate / (1 - Math.pow(1 + monthlyRate, -months));
+  while (bal > 0.005 && m < months + 1200) {
+    var interest = bal * monthlyRate;
+    var pay = base + (extraMonthly || 0);
+    var princ = pay - interest;
+    if (princ <= 0) break;
+    if (princ > bal) princ = bal;
+    bal -= princ; totalInterest += interest; m++;
+  }
+  return { payment: base, totalInterest: totalInterest, totalPaid: principal + totalInterest, monthsTaken: m };
+}
+function standardMonthlyRate(annualPct) { return annualPct / 100 / 12; }
+function canadaMonthlyRate(annualPct) { var i = annualPct / 100; return Math.pow(1 + i / 2, 2 / 12) - 1; }
+function germanPlan(principal, ratePct, tilgungPct, fixedYears) {
+  var monthlyRate = ratePct / 100 / 12;
+  var annualAnnuity = principal * (ratePct + tilgungPct) / 100;
+  var monthly = annualAnnuity / 12;
+  var bal = principal, interestPaid = 0, months = Math.round(fixedYears * 12);
+  for (var k = 0; k < months; k++) {
+    var i = bal * monthlyRate;
+    bal -= (monthly - i);
+    interestPaid += i;
+  }
+  return { annualAnnuity: annualAnnuity, monthlyPayment: monthly, remaining: bal, interestPaid: interestPaid, principalPaid: principal - bal };
+}
+function germanFullTermMonths(principal, ratePct, tilgungPct) {
+  var monthlyRate = ratePct / 100 / 12;
+  var monthly = principal * (ratePct + tilgungPct) / 100 / 12;
+  var bal = principal, m = 0;
+  while (bal > 0.005 && m < 1200) { bal -= (monthly - bal * monthlyRate); m++; }
+  return m;
+}
+/*TESTABLE_END*/
+
+function caMoney(x) { return new Intl.NumberFormat('en-CA', { style: 'currency', currency: 'CAD' }).format(x); }
+function caPayoffText(months) {
+  var d = new Date(); d.setMonth(d.getMonth() + months);
+  return d.toLocaleDateString('en-CA', { month: 'long', year: 'numeric' }) + ' (' + months + ' monatliche Zahlungen)';
+}
+function caRun() {
+  var box = document.getElementById('caResult');
+  var P = parseFloat(document.getElementById('caAmount').value);
+  var rate = parseFloat(document.getElementById('caRate').value);
+  var years = parseFloat(document.getElementById('caYears').value);
+  var extra = parseFloat(document.getElementById('caExtra').value) || 0;
+  try {
+    if (isNaN(P) || isNaN(rate) || isNaN(years) || P <= 0 || years < 1) throw new Error("Bitte geben Sie einen gültigen Betrag, Satz und eine gültige Laufzeit ein.");
+    var mr = canadaMonthlyRate(rate);
+    var months = Math.round(years * 12);
+    var base = amortize(P, mr, months, 0);
+    var html = '<div class="resbig"><span>Monatliche Zahlung</span><strong>' + caMoney(base.payment) + '</strong></div>';
+    html += '<table class="restbl">' +
+      '<tr><td>Gesamtzinsen über die Laufzeit</td><td><strong>' + caMoney(base.totalInterest) + '</strong></td></tr>' +
+      '<tr><td>Gesamtkosten der Hypothek</td><td><strong>' + caMoney(base.totalPaid) + '</strong></td></tr>' +
+      '<tr><td>Datum der Schuldenfreiheit</td><td><strong>' + caPayoffText(base.monthsTaken) + '</strong></td></tr></table>';
+    if (extra > 0) {
+      var fast = amortize(P, mr, months, extra);
+      var savedMonths = base.monthsTaken - fast.monthsTaken;
+      var savedInterest = base.totalInterest - fast.totalInterest;
+      html += '<div class="resbig"><span>Mit ' + caMoney(extra) + ' monatlicher Sondertilgung</span><strong>Schuldenfrei ' + Math.floor(savedMonths / 12) + 'y ' + (savedMonths % 12) + ' Monate früher</strong></div>' +
+        '<table class="restbl"><tr><td>Neues Datum der Schuldenfreiheit</td><td><strong>' + caPayoffText(fast.monthsTaken) + '</strong></td></tr>' +
+        '<tr><td>Gesparte Zinsen</td><td><strong>' + caMoney(savedInterest) + '</strong></td></tr></table>' +
+        '<p class="resnote">Der obige Zahlungsbetrag ist Ihre erforderliche monatliche Zahlung; die Sondertilgung wird jeden Monat zusätzlich hinzugefügt.</p>';
+    }
+    box.style.display = 'block';
+    box.innerHTML = html;
+  } catch (e) {
+    box.style.display = 'block';
+    box.innerHTML = '<p class="err">' + e.message + '</p>';
+  }
+}
+document.getElementById('caForm').addEventListener('submit', function (e) { e.preventDefault(); caRun(); });
+caRun();
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' App installieren';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Installieren Sie diese App: Tippen Sie auf die Teilen-Schaltfläche und wählen Sie dann "Zum Startbildschirm hinzufügen".');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

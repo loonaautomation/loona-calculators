@@ -1,0 +1,29 @@
+{
+  "name": "Loona EU261-Entschädigungsprüfung",
+  "short_name": "EU261-Entschädigungsprüfer",
+  "description": "Kostenloser EU261-Entschädigungsprüfer: Geben Sie Flugentfernung und Ankunftsverspätung ein, um zu sehen, ob Ihnen nach EC 261/2004 €250, €400 oder €600 zustehen können, einschließlich der 50%-Reduzierungsregel.",
+  "id": "/loona-calculators/de/eu261-compensation-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

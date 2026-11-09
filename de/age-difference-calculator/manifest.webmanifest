@@ -1,0 +1,29 @@
+{
+  "name": "Loona Altersunterschied-Rechner",
+  "short_name": "Altersunterschied-Rechner",
+  "description": "Kostenloser Altersdifferenz-Rechner: Geben Sie zwei Geburtsdaten ein, um die exakte Differenz in Jahren, Monaten und Tagen, die Gesamttage zwischen ihnen und wer älter ist zu erhalten.",
+  "id": "/loona-calculators/de/age-difference-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
