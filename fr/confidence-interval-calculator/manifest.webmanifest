@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calculateur d’intervalle de confiance",
+  "short_name": "Calculateur d’intervalle de confiance",
+  "description": "Calculateur gratuit d’intervalle de confiance : IC pour une moyenne avec sigma connu (z), avec l’écart-type d’échantillon (t), et pour une proportion, à 90 %, 95 % ou 99 % de confiance.",
+  "id": "/loona-calculators/fr/confidence-interval-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

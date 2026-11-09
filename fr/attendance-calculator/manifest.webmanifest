@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calculateur de présence",
+  "short_name": "Calculateur d’assiduité",
+  "description": "Calculateur gratuit de présence pour les étudiants : saisissez les cours dispensés et suivis pour obtenir votre pourcentage de présence, le nombre de cours que vous pouvez manquer, ou le nombre que vous devez suivre pour atteindre votre cible.",
+  "id": "/loona-calculators/fr/attendance-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

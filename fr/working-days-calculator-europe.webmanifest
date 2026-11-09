@@ -1,0 +1,29 @@
+{
+  "name": "Calculateur Loona de jours ouvrés en Europe",
+  "short_name": "Calculateur de jours ouvrés pour l’Europe",
+  "description": "Calculateur de jours ouvrés pour 20 pays européens : comptez les jours ouvrables entre deux dates, week-ends et jours fériés 2026 de chaque pays retirés.",
+  "id": "/loona-calculators/fr/working-days-calculator-europe.html",
+  "start_url": "./working-days-calculator-europe.html",
+  "scope": "./working-days-calculator-europe.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

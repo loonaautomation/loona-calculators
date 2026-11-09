@@ -1,0 +1,29 @@
+{
+  "name": "Convertisseur Loona pouce en yard",
+  "short_name": "Convertisseur pouce en yard",
+  "description": "Convertissez pouces en yards instantanément. Formule exacte, une table de conversion complète in en yd, un exemple travaillé et des FAQ. Gratuit, sans inscription.",
+  "id": "/loona-calculators/fr/inches-to-yards-converter.html",
+  "start_url": "./inches-to-yards-converter.html",
+  "scope": "./inches-to-yards-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

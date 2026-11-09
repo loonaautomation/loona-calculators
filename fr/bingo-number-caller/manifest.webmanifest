@@ -1,0 +1,29 @@
+{
+  "name": "Loona Tireur de numéros de bingo",
+  "short_name": "Animateur de numéros de bingo",
+  "description": "Animateur gratuit de numéros de bingo pour les jeux à 75 boules (B-I-N-G-O) et 90 boules : tire les numéros sans répétition, affiche la boule actuelle en grand, et suit chaque numéro appelé sur un tableau.",
+  "id": "/loona-calculators/fr/bingo-number-caller/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

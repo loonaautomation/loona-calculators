@@ -1,0 +1,29 @@
+{
+  "name": "Loona Vérificateur des règles de conduite en Europe",
+  "short_name": "Vérificateur des règles de conduite en Europe",
+  "description": "Vérificateur gratuit des règles de conduite en Europe : choisissez un pays pour son côté de conduite, sa limite de vitesse sur autoroute, sa limite d’alcool au volant et les règles locales clés pour les conducteurs de passage.",
+  "id": "/loona-calculators/fr/europe-driving-rules-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

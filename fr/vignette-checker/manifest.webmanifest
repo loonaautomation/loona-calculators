@@ -1,0 +1,29 @@
+{
+  "name": "Vérificateur Loona de vignette",
+  "short_name": "Vérificateur de vignette",
+  "description": "Vérificateur gratuit de vignettes : sélectionnez les pays européens de votre itinéraire de conduite pour voir lesquels ont besoin d’une vignette autoroutière, lesquels facturent des péages, et lesquels sont gratuits pour les voitures.",
+  "id": "/loona-calculators/fr/vignette-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

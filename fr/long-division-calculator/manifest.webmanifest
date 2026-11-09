@@ -1,0 +1,29 @@
+{
+  "name": "Calculateur Loona de division longue",
+  "short_name": "Calculateur de division longue",
+  "description": "Calculateur gratuit de division posée montrant chaque étape : divisez des nombres avec reste ou décimales et voyez le calcul écrit complet, chiffre par chiffre. Pour les élèves et les enseignants.",
+  "id": "/loona-calculators/fr/long-division-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

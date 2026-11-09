@@ -1,0 +1,29 @@
+{
+  "name": "Calculateur Loona d’ovulation",
+  "short_name": "Calculateur d’ovulation",
+  "description": "Calculateur gratuit d’ovulation : saisissez le premier jour de vos dernières règles et la durée de votre cycle pour estimer l’ovulation, votre fenêtre de fertilité, vos prochaines règles et la date d’accouchement.",
+  "id": "/loona-calculators/fr/ovulation-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

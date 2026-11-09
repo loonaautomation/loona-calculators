@@ -1,0 +1,29 @@
+{
+  "name": "Calculateur Loona d’augmentation de loyer",
+  "short_name": "Calculateur d’augmentation de loyer",
+  "description": "Calculateur gratuit d’augmentation de loyer : saisissez votre loyer actuel et le pourcentage d’augmentation (ou le nouveau loyer) pour voir le nouveau loyer mensuel, le coût supplémentaire par mois et par an, et une projection année par année.",
+  "id": "/loona-calculators/fr/rent-increase-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

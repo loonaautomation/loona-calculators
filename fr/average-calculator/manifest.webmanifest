@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calculateur de moyenne",
+  "short_name": "Calculateur de moyenne",
+  "description": "Calculateur gratuit de moyenne : collez une liste de nombres pour obtenir la moyenne, la médiane, le mode, la somme, l’effectif, le minimum, le maximum et l’étendue — instantanément, jusqu’à 50 nombres.",
+  "id": "/loona-calculators/fr/average-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

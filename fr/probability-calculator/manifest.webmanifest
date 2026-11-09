@@ -1,0 +1,29 @@
+{
+  "name": "Calculateur Loona de probabilités",
+  "short_name": "Calculateur de probabilités",
+  "description": "Calculateur gratuit de probabilités : probabilité de A et B, A ou B, aucun et exactement un ; conversion en cotes ; combinaisons et permutations. Avec formules et exemples.",
+  "id": "/loona-calculators/fr/probability-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

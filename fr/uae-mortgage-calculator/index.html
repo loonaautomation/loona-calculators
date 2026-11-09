@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculateur hypothécaire des Émirats arabes unis — mensualités en AED | Loona</title>
+<meta name="description" content="Calculateur gratuit d’hypothèque pour les Émirats arabes unis en dirhams : paiement mensuel, intérêts totaux et date de libération de dette pour tout prix de bien, apport, taux d’intérêt et durée, plus une comparaison de surpaiement.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/fr/uae-mortgage-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/uae-mortgage-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/uae-mortgage-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/uae-mortgage-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/uae-mortgage-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/uae-mortgage-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/uae-mortgage-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/uae-mortgage-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Calculateur hypothécaire des Émirats arabes unis — mensualités en AED | Loona">
+<meta property="og:description" content="Calculateur gratuit d’hypothèque pour les Émirats arabes unis en dirhams : paiement mensuel, intérêts totaux et date de libération de dette pour tout prix de bien, apport, taux d’intérêt et durée, plus une comparaison de surpaiement.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/fr/uae-mortgage-calculator/"><meta property="og:locale" content="fr_FR">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Calculateur hypothécaire des Émirats arabes unis — mensualités en AED | Loona">
+<meta name="twitter:description" content="Calculateur gratuit d’hypothèque pour les Émirats arabes unis en dirhams : paiement mensuel, intérêts totaux et date de libération de dette pour tout prix de bien, apport, taux d’intérêt et durée, plus une comparaison de surpaiement.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Calculateur Loona de prêt hypothécaire pour les Émirats arabes unis","url":"https://loonaautomation.github.io/loona-calculators/fr/uae-mortgage-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Comment les mensualités d’un prêt immobilier aux Émirats arabes unis sont-elles calculées ?","acceptedAnswer":{"@type":"Answer","text":"Les prêts hypothécaires des Émirats arabes unis utilisent un amortissement standard sur un solde dégressif mensuel : les intérêts sont prélevés chaque mois sur le solde restant au taux annuel ÷ 12, et le reste du paiement fixe réduit le capital. Ce calculateur utilise cette formule d’annuité standard."}},{"@type":"Question","name":"De quel apport ai-je besoin pour un prêt immobilier aux Émirats arabes unis ?","acceptedAnswer":{"@type":"Answer","text":"Selon les règles de la Banque centrale des Émirats arabes unis, les acheteurs expatriés ont besoin d’un apport d’au moins 20% pour un premier bien de moins de AED 5 million (les banques peuvent prêter jusqu’à 80% de la valeur), tandis que les ressortissants des Émirats ont besoin d’au moins 15%. Les biens plus grands et les résidences secondaires exigent des apports plus importants. En plus de l’apport, prévoyez les frais de transfert (4% du prix à Dubaï) ou leur équivalent dans les autres émirats, ainsi que les frais d’agence et de dossier."}},{"@type":"Question","name":"Quelle peut être la durée d’un prêt immobilier aux Émirats arabes unis, et les taux sont-ils fixes ?","acceptedAnswer":{"@type":"Answer","text":"La durée maximale est de 25 ans. La plupart des prêts hypothécaires aux Émirats arabes unis ne sont fixes que pendant 1–5 ans, puis passent à un taux variable lié à l’EIBOR ; les paiements réels évoluent donc pendant la durée du prêt. Ce calculateur suppose un seul taux pour toute la durée — utilisez-le pour comparer des scénarios plutôt que comme un devis."}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/fr/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Calculateur hypothécaire des Émirats arabes unis",
+      "item": "https://loonaautomation.github.io/loona-calculators/fr/uae-mortgage-calculator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Logo de Loona Automation">
+<div class="brand">Loona <span>Calculateurs</span></div>
+<nav>
+<a href="../">Accueil</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">À propos</a>
+<a href="../contact.html">Contact</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › Argent &amp; finances › Calculateur de prêt immobilier aux Émirats arabes unis</div>
+<h1 class="pagetitle">🇦🇪 Calculateur de prêt immobilier aux Émirats arabes unis</h1>
+<p class="lead">Calculez un prêt hypothécaire aux Émirats arabes unis : saisissez le prix du bien et votre apport pour voir la mensualité exacte, les intérêts totaux sur la durée et le mois où vous serez libéré de votre prêt — avec un champ de versement supplémentaire qui montre combien plus tôt vous pourriez terminer, et combien d’intérêts vous économiseriez.</p>
+<div class="toolbox"><form class="calcform" id="aeForm">
+<div class="fld"><label for="aePrice">Prix du bien (AED)</label><input type="number" id="aePrice" value="1500000" step="any" min="0"></div>
+<div class="fld"><label for="aeDep">Acompte (%)</label><input type="number" id="aeDep" value="25" step="any" min="0" max="99"></div>
+<div class="fld"><label for="aeRate">Taux d’intérêt (% par an)</label><input type="number" id="aeRate" value="4.5" step="any" min="0"></div>
+<div class="fld"><label for="aeYears">Durée (années)</label><input type="number" id="aeYears" value="25" step="1" min="1" max="40"></div>
+<div class="fld"><label for="aeExtra">Remboursement anticipé mensuel (AED)</label><input type="number" id="aeExtra" value="0" step="any" min="0"></div>
+<button class="calcbtn" type="submit">Calculer le paiement mensuel</button>
+<div class="calcresult" id="aeResult" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>Comment utiliser le calculateur de prêt immobilier pour les Émirats arabes unis</h2><ol><li>Saisissez le prix du bien et votre pourcentage d’apport — le calculateur emprunte le reste.</li><li>Saisissez le taux d’intérêt de votre offre de prêt hypothécaire.</li><li>Saisissez la durée en années, ajoutez tout surpaiement mensuel que vous prévoyez de faire, et appuyez sur Calculer.</li></ol>
+<div class="exbox"><strong>Exemple :</strong> Un logement de AED 1,500,000 avec un apport de 25% (AED 375,000) laisse un prêt de AED 1,125,000. Sur 25 ans à 4.5%, ce prêt coûte <strong>AED 6,253.12</strong> par mois, avec AED 750,934.61 d’intérêts sur la durée. Ajoutez un remboursement supplémentaire mensuel de AED 1,000 et la date de fin de dette avance sensiblement — essayez ci-dessus.</div>
+<h2>Questions fréquemment posées</h2></section><div class="faq"><h3>Comment les mensualités d’un prêt immobilier aux Émirats arabes unis sont-elles calculées ?</h3><p>Les prêts hypothécaires des Émirats arabes unis utilisent un amortissement standard sur un solde dégressif mensuel : les intérêts sont prélevés chaque mois sur le solde restant au taux annuel ÷ 12, et le reste du paiement fixe réduit le capital. Ce calculateur utilise cette formule d’annuité standard.</p></div><div class="faq"><h3>De quel apport ai-je besoin pour un prêt immobilier aux Émirats arabes unis ?</h3><p>Selon les règles de la Banque centrale des Émirats arabes unis, les acheteurs expatriés ont besoin d’un apport d’au moins 20% pour un premier bien de moins de AED 5 million (les banques peuvent prêter jusqu’à 80% de la valeur), tandis que les ressortissants des Émirats ont besoin d’au moins 15%. Les biens plus grands et les résidences secondaires exigent des apports plus importants. En plus de l’apport, prévoyez les frais de transfert (4% du prix à Dubaï) ou leur équivalent dans les autres émirats, ainsi que les frais d’agence et de dossier.</p></div><div class="faq"><h3>Quelle peut être la durée d’un prêt immobilier aux Émirats arabes unis, et les taux sont-ils fixes ?</h3><p>La durée maximale est de 25 ans. La plupart des prêts hypothécaires aux Émirats arabes unis ne sont fixes que pendant 1–5 ans, puis passent à un taux variable lié à l’EIBOR ; les paiements réels évoluent donc pendant la durée du prêt. Ce calculateur suppose un seul taux pour toute la durée — utilisez-le pour comparer des scénarios plutôt que comme un devis.</p></div>
+<h2 class="sec">Calculateurs associés</h2><div class="grid"><a class="card" href="../uk-mortgage-calculator/"><div class="ic">🇬🇧</div><h3>Calculateur hypothécaire britannique</h3><p>Argent et finance</p></a><a class="card" href="../canada-mortgage-calculator/"><div class="ic">🇨🇦</div><h3>Calculateur de crédit immobilier Canada</h3><p>Argent et finance</p></a><a class="card" href="../australia-mortgage-calculator/"><div class="ic">🇦🇺</div><h3>Calculateur de crédit immobilier Australie</h3><p>Argent et finance</p></a><a class="card" href="../germany-mortgage-calculator/"><div class="ic">🇩🇪</div><h3>Calculateur d’hypothèque pour l’Allemagne</h3><p>Argent et finance</p></a><a class="card" href="../new-zealand-mortgage-calculator/"><div class="ic">🇳🇿</div><h3>Calculateur de prêt hypothécaire pour la Nouvelle-Zélande</h3><p>Argent et finance</p></a><a class="card" href="../ireland-mortgage-calculator/"><div class="ic">🇮🇪</div><h3>Calculateur de prêt immobilier pour l’Irlande</h3><p>Argent et finance</p></a><a class="card" href="../mortgage-calculator/"><div class="ic">🏠</div><h3>Calculateur de prêt hypothécaire</h3><p>Argent et finance</p></a><a class="card" href="../emi-calculator/"><div class="ic">🏦</div><h3>Calculateur d’EMI et de prêt</h3><p>Argent et finance</p></a></div>
+</div>
+<section class="txt"><h2>Fonctionnement &mdash; la formule</h2>
+<p>La mensualité <em>M</em> sur un prêt <em>P</em> au taux mensuel <em>r</em> (= taux annuel ÷ 12 ÷ 100) sur <em>n</em> les mensualités sont de :</p>
+<p><strong>M = P × r ÷ (1 − (1 + r)<sup>−n</sup>)</strong></p>
+<p>Intérêts totaux = M × n − P. Avec un versement mensuel supplémentaire, le calculateur simule le solde mois par mois : les intérêts sont prélevés sur le solde, le paiement plus le versement supplémentaire sont appliqués, et le prêt se termine dès que le solde atteint zéro — c’est pourquoi les versements supplémentaires effectués tôt dans la durée économisent le plus.</p>
+<h3>Exemple détaillé</h3>
+<div class="exbox"><strong>Exemple :</strong> AED 1,125,000 à 4.5% sur 25 ans (300 paiements). r = 0.00375, donc M = AED 1,125,000 × 0.00375 ÷ (1 − 1.00375<sup>−300</sup>) = <strong>AED 6,253.12</strong> par mois. Total payé = 300 × AED 6,253.12 ≈ AED 1,875,934.61, dont <strong>AED 750,934.61</strong> correspond aux intérêts.</div>
+<h3>Questions fréquentes</h3></section><div class="faq"><h3>Ceci inclut-il les frais ou les frais de transfert ?</h3><p>Non. Les frais de transfert (4% du prix à Dubaï), la commission d’agence, les frais d’arrangement de la banque (souvent environ 1% du prêt) et les coûts d’évaluation sont des coûts séparés qui ne font pas partie des calculs de mensualité.</p></div><div class="faq"><h3>Remboursement ou intérêts seuls — lequel ce calculateur calcule-t-il ?</h3><p>Remboursement (capital et intérêts), la structure standard pour les prêts immobiliers résidentiels aux Émirats arabes unis, où chaque paiement réduit le solde et le prêt est soldé à la fin du terme. Certains produits offrent une période à intérêts seuls, que ce calculateur ne modélise pas.</p></div><div class="faq"><h3>S’agit-il d’un conseil financier ?</h3><p>Non — c’est un calculateur éducatif utilisant vos chiffres, fourni gratuitement par Loona Automation. Pour des conseils sur un vrai prêt hypothécaire, parlez à un courtier en prêts hypothécaires ou à votre banque aux Émirats arabes unis et vérifiez les chiffres exacts avant de signer.</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Intégrez ce calculateur à votre site — gratuit</h2>
+<p style="margin:0 0 12px;line-height:1.6">Ajoutez ce calculateur à votre propre site web ou blog — c’est entièrement gratuit, sans inscription, et il affiche toujours la dernière version. Copiez le code ci-dessous et collez-le dans votre page à l’endroit où vous voulez que le calculateur apparaisse. Conserver la petite ligne de crédit &ldquo;Powered by Loona Automation&rdquo; sous l’intégration aide à garder cet outil gratuit &mdash; mais vous êtes libre de la styliser ou de la supprimer ; l’outil fonctionne dans les deux cas.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/fr/uae-mortgage-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="UAE Mortgage Calculator Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Propulsé par &lt;a href="https://loonaautomation.github.io/loona-calculators/fr/uae-mortgage-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; gratuit UAE Mortgage Calculator Calculator&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Copier le code d’intégration</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='Copier le code d’intégration';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Calculateurs populaires</h4><ul><li><a href="../age-calculator/">Calculateur d’âge</a></li>
+<li><a href="../zakat-calculator/">Calculateur de zakat</a></li>
+<li><a href="../cgpa-calculator/">Calculateur CGPA</a></li>
+<li><a href="../percentage-calculator/">Calculateur de pourcentage</a></li>
+<li><a href="../hijri-date-converter/">Convertisseur de dates hégiriennes</a></li>
+<li><a href="../emi-calculator/">Calculateur d’EMI et de prêt</a></li></ul></div>
+<div><h4>Plus d’outils Loona</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Codes QR Loona</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Compresseur d’images Loona</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona Assistant IA</a></li>
+<li><a href="https://loonaautomation.github.io/">Tous les outils Loona</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">À propos</a></li>
+<li><a href="../contact.html">Contact</a></li>
+<li><a href="../privacy-policy.html">Politique de confidentialité</a></li>
+<li><a href="../terms.html">Conditions d’utilisation</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — un <a href="https://loonaautomation.github.io/">Loona Automation</a> projet. Calculateurs en ligne gratuits, sans inscription.
+Contact : <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+function amortize(principal, monthlyRate, months, extraMonthly) {
+  var bal = principal, totalInterest = 0, m = 0;
+  var base;
+  if (monthlyRate === 0) base = principal / months;
+  else base = principal * monthlyRate / (1 - Math.pow(1 + monthlyRate, -months));
+  while (bal > 0.005 && m < months + 1200) {
+    var interest = bal * monthlyRate;
+    var pay = base + (extraMonthly || 0);
+    var princ = pay - interest;
+    if (princ <= 0) break;
+    if (princ > bal) princ = bal;
+    bal -= princ; totalInterest += interest; m++;
+  }
+  return { payment: base, totalInterest: totalInterest, totalPaid: principal + totalInterest, monthsTaken: m };
+}
+function standardMonthlyRate(annualPct) { return annualPct / 100 / 12; }
+function canadaMonthlyRate(annualPct) { var i = annualPct / 100; return Math.pow(1 + i / 2, 2 / 12) - 1; }
+function germanPlan(principal, ratePct, tilgungPct, fixedYears) {
+  var monthlyRate = ratePct / 100 / 12;
+  var annualAnnuity = principal * (ratePct + tilgungPct) / 100;
+  var monthly = annualAnnuity / 12;
+  var bal = principal, interestPaid = 0, months = Math.round(fixedYears * 12);
+  for (var k = 0; k < months; k++) {
+    var i = bal * monthlyRate;
+    bal -= (monthly - i);
+    interestPaid += i;
+  }
+  return { annualAnnuity: annualAnnuity, monthlyPayment: monthly, remaining: bal, interestPaid: interestPaid, principalPaid: principal - bal };
+}
+function germanFullTermMonths(principal, ratePct, tilgungPct) {
+  var monthlyRate = ratePct / 100 / 12;
+  var monthly = principal * (ratePct + tilgungPct) / 100 / 12;
+  var bal = principal, m = 0;
+  while (bal > 0.005 && m < 1200) { bal -= (monthly - bal * monthlyRate); m++; }
+  return m;
+}
+/*TESTABLE_END*/
+
+function aeMoney(x) { return new Intl.NumberFormat('en-AE', { style: 'currency', currency: 'AED' }).format(x); }
+function aePayoffText(months) {
+  var d = new Date(); d.setMonth(d.getMonth() + months);
+  return d.toLocaleDateString('en-AE', { month: 'long', year: 'numeric' }) + ' (' + months + ' mensualités)';
+}
+function aeRun() {
+  var box = document.getElementById('aeResult');
+  var price = parseFloat(document.getElementById('aePrice').value);
+  var dep = parseFloat(document.getElementById('aeDep').value);
+  var rate = parseFloat(document.getElementById('aeRate').value);
+  var years = parseFloat(document.getElementById('aeYears').value);
+  var extra = parseFloat(document.getElementById('aeExtra').value) || 0;
+  try {
+    if (isNaN(price) || isNaN(dep) || isNaN(rate) || isNaN(years) || price <= 0 || dep < 0 || dep >= 100 || years < 1) throw new Error("Veuillez saisir un prix, un acompte, un taux et une durée valides.");
+    var P = price * (1 - dep / 100);
+    var mr = standardMonthlyRate(rate);
+    var months = Math.round(years * 12);
+    var base = amortize(P, mr, months, 0);
+    var html = '<div class="resbig"><span>Mensualité</span><strong>' + aeMoney(base.payment) + '</strong></div>';
+    html += '<table class="restbl">' +
+      '<tr><td>Montant du prêt (prix moins l’acompte)</td><td><strong>' + aeMoney(P) + '</strong></td></tr>' +
+      '<tr><td>Total des intérêts sur la durée</td><td><strong>' + aeMoney(base.totalInterest) + '</strong></td></tr>' +
+      '<tr><td>Coût total du prêt immobilier</td><td><strong>' + aeMoney(base.totalPaid) + '</strong></td></tr>' +
+      '<tr><td>Date de fin de dette</td><td><strong>' + aePayoffText(base.monthsTaken) + '</strong></td></tr></table>';
+    if (extra > 0) {
+      var fast = amortize(P, mr, months, extra);
+      var savedMonths = base.monthsTaken - fast.monthsTaken;
+      var savedInterest = base.totalInterest - fast.totalInterest;
+      html += '<div class="resbig"><span>Avec ' + aeMoney(extra) + ' de remboursement anticipé mensuel</span><strong>Fin de dette ' + Math.floor(savedMonths / 12) + 'y ' + (savedMonths % 12) + ' mois plus tôt</strong></div>' +
+        '<table class="restbl"><tr><td>Nouvelle date de fin de dette</td><td><strong>' + aePayoffText(fast.monthsTaken) + '</strong></td></tr>' +
+        '<tr><td>Intérêts économisés</td><td><strong>' + aeMoney(savedInterest) + '</strong></td></tr></table>' +
+        '<p class="resnote">Le montant ci-dessus est votre mensualité obligatoire ; le remboursement anticipé s’y ajoute chaque mois.</p>';
+    }
+    box.style.display = 'block';
+    box.innerHTML = html;
+  } catch (e) {
+    box.style.display = 'block';
+    box.innerHTML = '<p class="err">' + e.message + '</p>';
+  }
+}
+document.getElementById('aeForm').addEventListener('submit', function (e) { e.preventDefault(); aeRun(); });
+aeRun();
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Installer l’application';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Installez cette application : touchez le bouton Partager, puis choisissez « Ajouter à l’écran d’accueil ».');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

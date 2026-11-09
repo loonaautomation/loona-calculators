@@ -1,0 +1,29 @@
+{
+  "name": "Loona Convertisseur bar en PSI",
+  "short_name": "Convertisseur bar en PSI",
+  "description": "Convertissez bar en livres par pouce carré instantanément. Formule exacte, une table de conversion complète bar en psi et des exemples travaillés. Gratuit, sans inscription.",
+  "id": "/loona-calculators/fr/bar-to-psi-converter.html",
+  "start_url": "./bar-to-psi-converter.html",
+  "scope": "./bar-to-psi-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

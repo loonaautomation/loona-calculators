@@ -1,0 +1,29 @@
+{
+  "name": "Convertisseur Loona d’heure de Londres à Singapour",
+  "short_name": "Heure de Londres en Singapour",
+  "description": "Convertissez l’heure de Londres en heure de Singapour. Singapour a 8 heures d’avance sur Londres en janvier et 7 heures d’avance en juillet, avec les dates de l’heure d’été, un tableau sur 24 heures et le meilleur créneau de réunion. Convertisseur en direct inclus.",
+  "id": "/loona-calculators/fr/london-to-singapore-time-converter.html",
+  "start_url": "./london-to-singapore-time-converter.html",
+  "scope": "./london-to-singapore-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

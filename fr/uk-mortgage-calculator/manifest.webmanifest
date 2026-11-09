@@ -1,0 +1,29 @@
+{
+  "name": "Calculateur Loona de prêt hypothécaire pour le Royaume-Uni",
+  "short_name": "Calculateur hypothécaire britannique",
+  "description": "Calculateur gratuit d’hypothèque pour le Royaume-Uni en livres : remboursement mensuel, intérêts totaux et coût total pour tout prêt, taux et durée, plus une comparaison de surpaiement.",
+  "id": "/loona-calculators/fr/uk-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

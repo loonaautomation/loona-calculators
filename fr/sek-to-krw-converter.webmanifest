@@ -1,0 +1,29 @@
+{
+  "name": "Convertisseur Loona SEK en KRW",
+  "short_name": "Convertisseur sEK en KRW",
+  "description": "Convertissez la couronne suédoise (SEK) en won sud-coréen (KRW). Taux de référence de la BCE daté du 06 novembre 2026, taux inverse, table de conversion et notes de corridor. À titre indicatif uniquement.",
+  "id": "/loona-calculators/fr/sek-to-krw-converter.html",
+  "start_url": "./sek-to-krw-converter.html",
+  "scope": "./sek-to-krw-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

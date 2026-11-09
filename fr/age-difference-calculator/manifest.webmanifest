@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calculateur de différence d’âge",
+  "short_name": "Calculateur de différence d’âge",
+  "description": "Calculateur gratuit de différence d’âge : saisissez deux dates de naissance pour obtenir la différence exacte en années, mois et jours, le total des jours entre elles, et qui est le plus âgé.",
+  "id": "/loona-calculators/fr/age-difference-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

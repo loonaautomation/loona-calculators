@@ -1,0 +1,29 @@
+{
+  "name": "Calculateur Loona de test Z pour un échantillon",
+  "short_name": "Calculateur de test Z pour un échantillon",
+  "description": "Calculateur gratuit du test z pour un échantillon : la moyenne de l’échantillon, l’ET de population connu, n et la moyenne hypothétique donnent la statistique z et les valeurs p. Vérifié par les manuels.",
+  "id": "/loona-calculators/fr/z-test-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

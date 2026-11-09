@@ -1,0 +1,29 @@
+{
+  "name": "Jours ouvrés Loona en Lettonie",
+  "short_name": "Jours ouvrés en Lettonie",
+  "description": "Calculateur de jours ouvrés pour la Lettonie : comptez les jours ouvrables entre deux dates, week-ends et l’ensemble des 17 jours fériés lettons de 2026 retirés. Outil en ligne gratuit.",
+  "id": "/loona-calculators/fr/working-days-in-latvia.html",
+  "start_url": "./working-days-in-latvia.html",
+  "scope": "./working-days-in-latvia.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

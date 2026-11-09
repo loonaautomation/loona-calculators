@@ -1,0 +1,29 @@
+{
+  "name": "Calculateur Loona de taille d’échantillon",
+  "short_name": "Calculateur de taille d’échantillon",
+  "description": "Calculateur gratuit de taille d’échantillon : combien de réponses il vous faut pour une proportion ou une moyenne d’enquête, à votre niveau de confiance et votre marge d’erreur, avec correction pour population finie.",
+  "id": "/loona-calculators/fr/sample-size-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

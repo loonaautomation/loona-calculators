@@ -1,0 +1,29 @@
+{
+  "name": "Générateur Loona de Père Noël secret",
+  "short_name": "Générateur de Père Noël secret",
+  "description": "Générateur gratuit de Père Noël secret : ajoutez des noms, définissez des exclusions (couples, paires de l’an dernier), tirez en secret, puis chaque personne révèle uniquement sa propre correspondance. Privé, dans le navigateur.",
+  "id": "/loona-calculators/fr/secret-santa-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

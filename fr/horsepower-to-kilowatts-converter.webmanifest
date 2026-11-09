@@ -1,0 +1,29 @@
+{
+  "name": "Convertisseur Loona chevaux-vapeur en kilowatts",
+  "short_name": "Cheval-vapeur en Kilowatts",
+  "description": "Convertissez chevaux-vapeur en kilowatts instantanément. Formule exacte, une table de conversion complète hp en kW et des exemples travaillés. Gratuit, sans inscription.",
+  "id": "/loona-calculators/fr/horsepower-to-kilowatts-converter.html",
+  "start_url": "./horsepower-to-kilowatts-converter.html",
+  "scope": "./horsepower-to-kilowatts-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

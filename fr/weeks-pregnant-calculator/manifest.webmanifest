@@ -1,0 +1,29 @@
+{
+  "name": "Calculateur Loona de semaines de grossesse",
+  "short_name": "Calculateur de semaines de grossesse",
+  "description": "Calculateur gratuit de semaines de grossesse : saisissez la date de vos dernières règles ou votre date d’accouchement pour voir exactement à combien de semaines et de jours de grossesse vous en êtes, votre trimestre et les jours restants.",
+  "id": "/loona-calculators/fr/weeks-pregnant-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

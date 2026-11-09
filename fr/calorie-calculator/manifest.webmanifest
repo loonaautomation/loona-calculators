@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calculateur de calories",
+  "short_name": "Calculateur de calories",
+  "description": "Calculateur gratuit de calories : saisissez vos informations, votre activité et votre objectif pour obtenir votre cible calorique quotidienne pour perdre, maintenir ou prendre du poids — avec un minimum sûr.",
+  "id": "/loona-calculators/fr/calorie-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

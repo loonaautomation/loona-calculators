@@ -1,0 +1,29 @@
+{
+  "name": "Calculateur Loona de régression linéaire",
+  "short_name": "Calculateur de régression linéaire",
+  "description": "Calculateur gratuit de régression linéaire : collez des données appariées pour obtenir la droite des moindres carrés y = a + bx, la corrélation, les prédictions, et un nuage de points avec la droite ajustée tracée.",
+  "id": "/loona-calculators/fr/linear-regression-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Convertisseur Loona d’heure de Londres à Mumbai",
+  "short_name": "Heure de Londres en Mumbai",
+  "description": "Convertissez l’heure de Londres en heure de Mumbai. Mumbai a 5 heures 30 minutes d’avance sur Londres en janvier et 4 heures 30 minutes d’avance en juillet, avec les dates de l’heure d’été, un tableau sur 24 heures et le meilleur créneau de réunion. Convertisseur en direct inclus.",
+  "id": "/loona-calculators/fr/london-to-mumbai-time-converter.html",
+  "start_url": "./london-to-mumbai-time-converter.html",
+  "scope": "./london-to-mumbai-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

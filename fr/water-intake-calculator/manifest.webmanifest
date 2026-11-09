@@ -1,0 +1,29 @@
+{
+  "name": "Calculateur Loona d’apport en eau",
+  "short_name": "Calculateur d’apport en eau",
+  "description": "Calculateur gratuit d’apport en eau : saisissez votre poids et votre exercice quotidien pour obtenir votre apport en eau recommandé en litres, millilitres et verres par jour.",
+  "id": "/loona-calculators/fr/water-intake-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

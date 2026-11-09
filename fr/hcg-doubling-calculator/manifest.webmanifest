@@ -1,0 +1,29 @@
+{
+  "name": "Calculateur Loona de temps de doublement de l’hCG",
+  "short_name": "Calculateur du temps de doublement de l’hCG",
+  "description": "Calculateur gratuit de doublement de l’hCG : saisissez deux résultats de bêta-hCG et les heures entre les analyses de sang pour obtenir le temps de doublement, le pourcentage d’augmentation et l’augmentation quotidienne. Éducatif uniquement.",
+  "id": "/loona-calculators/fr/hcg-doubling-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

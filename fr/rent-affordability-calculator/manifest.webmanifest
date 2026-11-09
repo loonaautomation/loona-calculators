@@ -1,0 +1,29 @@
+{
+  "name": "Calculateur Loona de loyer abordable",
+  "short_name": "Calculateur d’accessibilité du loyer",
+  "description": "Calculateur gratuit d’abordabilité du loyer : saisissez votre revenu brut, la part que vous pouvez consacrer au loyer et vos dettes mensuelles pour voir le loyer maximal que vous pouvez vous permettre — avec la ligne directrice 28/36.",
+  "id": "/loona-calculators/fr/rent-affordability-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

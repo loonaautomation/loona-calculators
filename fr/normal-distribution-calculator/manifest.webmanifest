@@ -1,0 +1,29 @@
+{
+  "name": "Calculateur Loona de loi normale",
+  "short_name": "Calculateur de loi normale",
+  "description": "Calculateur gratuit de distribution normale : pour n’importe quelle moyenne et n’importe quel écart-type, trouvez P(X<x), P(X>x), P(a<X<b), et la valeur à un percentile donné.",
+  "id": "/loona-calculators/fr/normal-distribution-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

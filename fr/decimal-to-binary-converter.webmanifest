@@ -1,0 +1,29 @@
+{
+  "name": "Loona Convertisseur décimal en binaire",
+  "short_name": "Convertisseur de Décimal en Binaire",
+  "description": "Convertissez le décimal (base 10) en binaire (base 2) avec validation, calcul de valeur positionnelle et un tableau de référence.",
+  "id": "/loona-calculators/fr/decimal-to-binary-converter.html",
+  "start_url": "./decimal-to-binary-converter.html",
+  "scope": "./decimal-to-binary-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

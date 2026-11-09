@@ -1,0 +1,29 @@
+{
+  "name": "Calculateur Loona de date d’accouchement après FIV",
+  "short_name": "Calculateur de date d’accouchement après FIV",
+  "description": "Calculateur gratuit de date d’accouchement par FIV : saisissez la date de votre transfert d’embryon et l’âge de l’embryon (jour 3 ou jour 5) pour obtenir votre date d’accouchement estimée et votre âge gestationnel actuel.",
+  "id": "/loona-calculators/fr/ivf-due-date-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Calculateur Loona de sommeil",
+  "short_name": "Calculateur de sommeil",
+  "description": "Calculateur gratuit de sommeil : saisissez une heure de réveil pour obtenir les meilleures heures de coucher, ou une heure de coucher pour obtenir les meilleures heures de réveil — basées sur des cycles de sommeil de 90 minutes plus le temps d’endormissement.",
+  "id": "/loona-calculators/fr/sleep-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

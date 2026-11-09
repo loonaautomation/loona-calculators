@@ -1,0 +1,29 @@
+{
+  "name": "Calculateur Loona de prise de poids pendant la grossesse",
+  "short_name": "Prise de poids pendant la grossesse",
+  "description": "Calculateur gratuit de prise de poids pendant la grossesse : fourchettes de prise totale et semaine par semaine recommandées par l’IOM selon votre catégorie d’IMC avant grossesse. Guide éducatif uniquement.",
+  "id": "/loona-calculators/fr/pregnancy-weight-gain-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

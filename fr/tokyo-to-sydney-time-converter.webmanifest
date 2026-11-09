@@ -1,0 +1,29 @@
+{
+  "name": "Convertisseur Loona d’heure de Tokyo à Sydney",
+  "short_name": "Convertisseur Tokyo en Heure de Sydney",
+  "description": "Convertissez l’heure de Tokyo en heure de Sydney. Sydney a 2 heures d’avance sur Tokyo en janvier et 1 heures d’avance en juillet, avec les dates de l’heure d’été, un tableau sur 24 heures et le meilleur créneau de réunion. Convertisseur en direct inclus.",
+  "id": "/loona-calculators/fr/tokyo-to-sydney-time-converter.html",
+  "start_url": "./tokyo-to-sydney-time-converter.html",
+  "scope": "./tokyo-to-sydney-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

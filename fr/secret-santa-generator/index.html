@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Générateur de Père Noël secret — Tirage gratuit avec exclusions et révélation privée | Loona Calculators</title>
+<meta name="description" content="Générateur gratuit de Père Noël secret : ajoutez des noms, définissez des exclusions (couples, paires de l’an dernier), tirez en secret, puis chaque personne révèle uniquement sa propre correspondance. Privé, dans le navigateur.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/fr/secret-santa-generator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/secret-santa-generator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/secret-santa-generator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/secret-santa-generator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/secret-santa-generator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/secret-santa-generator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/secret-santa-generator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/secret-santa-generator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Générateur de Père Noël secret — Tirage gratuit avec exclusions et révélation privée | Loona Calculators">
+<meta property="og:description" content="Générateur gratuit de Père Noël secret : ajoutez des noms, définissez des exclusions (couples, paires de l’an dernier), tirez en secret, puis chaque personne révèle uniquement sa propre correspondance. Privé, dans le navigateur.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/fr/secret-santa-generator/"><meta property="og:locale" content="fr_FR">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Générateur de Père Noël secret — Tirage gratuit avec exclusions et révélation privée | Loona Calculators">
+<meta name="twitter:description" content="Générateur gratuit de Père Noël secret : ajoutez des noms, définissez des exclusions (couples, paires de l’an dernier), tirez en secret, puis chaque personne révèle uniquement sa propre correspondance. Privé, dans le navigateur.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Générateur Loona de Père Noël secret","url":"https://loonaautomation.github.io/loona-calculators/fr/secret-santa-generator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Comment fonctionnent les exclusions ?","acceptedAnswer":{"@type":"Answer","text":"Saisissez une paire sous la forme Nom1, Nom2 sur sa propre ligne. Le tirage n’associera jamais ces deux noms dans un sens ou dans l’autre — utile pour les couples ou pour l’appariement de l’année dernière. Les noms doivent être orthographiés exactement comme dans la liste principale."}},{"@type":"Question","name":"Un tirage peut-il devenir impossible ?","acceptedAnswer":{"@type":"Answer","text":"Oui — avec trop d’exclusions pour trop peu de personnes, il se peut qu’aucun appariement valide n’existe. L’outil vous le dit alors honnêtement au lieu de forcer un mauvais tirage ; supprimez une exclusion ou ajoutez une personne."}},{"@type":"Question","name":"Le résultat est-il stocké ou envoyé quelque part ?","acceptedAnswer":{"@type":"Answer","text":"Non. Le tirage a lieu entièrement dans votre navigateur et rien n’est téléversé. Si vous fermez la page, le tirage disparaît — c’est le principe pour le garder secret."}},{"@type":"Question","name":"Comment fonctionne la révélation privée ?","acceptedAnswer":{"@type":"Answer","text":"Après le tirage, une liste déroulante répertorie chaque nom. Chaque personne choisit son propre nom et appuie sur Révéler pour voir uniquement son propre destinataire. L’organisateur n’a jamais besoin de voir la liste entière."}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/fr/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Générateur de Père Noël secret",
+      "item": "https://loonaautomation.github.io/loona-calculators/fr/secret-santa-generator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Logo de Loona Automation">
+<div class="brand">Loona <span>Calculateurs</span></div>
+<nav>
+<a href="../">Accueil</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">À propos</a>
+<a href="../contact.html">Contact</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › Divertissement › Générateur de Père Noël secret</div>
+<h1 class="pagetitle">🎅 Générateur de Père Noël secret</h1>
+<p class="lead">Ajoutez les noms de tout le monde, ajoutez les exclusions éventuelles (par exemple des partenaires qui ne doivent pas se tirer au sort l’un l’autre), puis lancez le tirage. Personne ne voit la liste complète — chacun choisit son propre nom et révèle en privé uniquement la personne pour qui il achète un cadeau.</p>
+<div class="exbox"><strong>Réponse rapide :</strong> Un tirage Secret Santa est un appariement aléatoire où chacun offre un cadeau et en reçoit un, personne n’est apparié avec soi-même, et la liste complète reste secrète : chacun ne révèle que son propre appariement.</div>
+<div class="toolbox"><form class="calcform" id="ssForm">
+<div class="fld"><label for="ssNames">Noms (un par ligne)</label><textarea id="ssNames" rows="6" style="width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px">Ali
+Sara
+John
+Maria
+Chen</textarea></div>
+<div class="fld"><label for="ssExcl">Exclusions (facultatif, une paire par ligne sous la forme : Nom1, Nom2)</label><textarea id="ssExcl" rows="3" style="width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px">Ali, Sara</textarea></div>
+<button class="calcbtn" type="submit">🎅 Lancer le tirage</button>
+<div class="calcresult" id="ssResult" style="display:none"></div>
+</form>
+<div class="toolbox" id="ssRevealBox" style="display:none"><h3 style="color:var(--teal);margin-bottom:8px">Révélation privée — une personne à la fois</h3>
+<div class="fld"><label for="ssWho">Je suis…</label><select id="ssWho" style="width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px"></select></div>
+<button class="calcbtn" type="button" id="ssRevealBtn">Révéler mon binôme</button>
+<div class="calcresult" id="ssRevealResult" style="display:none"></div></div></div>
+<section class="txt"><h2>Comment utiliser le générateur de Père Noël secret</h2><ol><li>Saisissez tous les noms, un par ligne (au moins 3 personnes).</li><li>Ajoutez éventuellement des exclusions, une par ligne, au format Nom1, Nom2 — ces deux personnes ne seront associées dans aucun sens.</li><li>Appuyez sur Lancer le tirage.</li><li>Chaque personne sélectionne son propre nom dans la zone de révélation et ne voit que sa propre correspondance. Gardez l’écran privé pendant la révélation.</li></ol>
+<div class="exbox"><strong>Exemple :</strong> Cinq amis — Ali, Sara, John, Maria, Chen — avec l’exclusion Ali, Sara : le tirage donne toujours à chacun exactement une personne pour qui acheter, personne ne se tire soi-même, et Ali et Sara ne se tirent jamais l’un l’autre.</div>
+<h2>Questions fréquemment posées</h2></section><div class="faq"><h3>Comment fonctionnent les exclusions ?</h3><p>Saisissez une paire sous la forme Nom1, Nom2 sur sa propre ligne. Le tirage n’associera jamais ces deux noms dans un sens ou dans l’autre — utile pour les couples ou pour l’appariement de l’année dernière. Les noms doivent être orthographiés exactement comme dans la liste principale.</p></div><div class="faq"><h3>Un tirage peut-il devenir impossible ?</h3><p>Oui — avec trop d’exclusions pour trop peu de personnes, il se peut qu’aucun appariement valide n’existe. L’outil vous le dit alors honnêtement au lieu de forcer un mauvais tirage ; supprimez une exclusion ou ajoutez une personne.</p></div><div class="faq"><h3>Le résultat est-il stocké ou envoyé quelque part ?</h3><p>Non. Le tirage a lieu entièrement dans votre navigateur et rien n’est téléversé. Si vous fermez la page, le tirage disparaît — c’est le principe pour le garder secret.</p></div><div class="faq"><h3>Comment fonctionne la révélation privée ?</h3><p>Après le tirage, une liste déroulante répertorie chaque nom. Chaque personne choisit son propre nom et appuie sur Révéler pour voir uniquement son propre destinataire. L’organisateur n’a jamais besoin de voir la liste entière.</p></div>
+<h2 class="sec">Calculateurs associés</h2><div class="grid"><a class="card" href="../random-number-generator/"><div class="ic">🎲</div><h3>Générateur de nombres aléatoires</h3><p>Plaisir</p></a><a class="card" href="../dice-roller/"><div class="ic">🎲</div><h3>Lanceur de dés</h3><p>Plaisir</p></a><a class="card" href="../coin-flip/"><div class="ic">🪙</div><h3>Pile ou face</h3><p>Plaisir</p></a><a class="card" href="../lottery-number-generator/"><div class="ic">🍀</div><h3>Générateur de numéros de loterie</h3><p>Plaisir</p></a><a class="card" href="../love-calculator/"><div class="ic">❤️</div><h3>Calculateur d’amour</h3><p>Plaisir</p></a><a class="card" href="../wheel-of-names/"><div class="ic">🎡</div><h3>Roue des noms</h3><p>Plaisir</p></a><a class="card" href="../random-team-generator/"><div class="ic">👥</div><h3>Générateur d’équipes aléatoires</h3><p>Plaisir</p></a></div>
+</div>
+<section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>Fonctionnement — la formule</h2>
+<p>Un tirage valide est un <strong>dérangement avec paires interdites</strong>: une permutation des noms où personne ne se correspond à soi-même et où aucune paire exclue ne se correspond dans un sens ou dans l’autre. Le générateur essaie d’abord des permutations mélangées (rapide pour les groupes normaux), et si les essais aléatoires continuent d’échouer, il passe à une méthode déterministe <strong>recherche par retour en arrière (backtracking)</strong> qui soit trouve un tirage valide, soit prouve qu’aucun n’existe — il ne viole jamais une règle en silence.</p>
+<h3>Exemple détaillé</h3><div class="exbox"><p><strong>Entrées :</strong> 5 noms, exclusion Ali–Sara.</p><p><strong>Étapes :</strong> Un tirage valide que l’outil peut produire : Ali → John, John → Maria, Maria → Chen, Chen → Sara, Sara → Ali. Vérification : cinq donneurs, cinq receveurs différents, personne ne se reçoit lui-même, et Ali et Sara ne se reçoivent pas mutuellement.</p><p><strong>Résultat :</strong> Chaque règle est satisfaite, et chaque personne ne voit que sa propre ligne lorsqu’elle révèle.</p></div>
+
+</section>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Intégrez ce calculateur à votre site — gratuit</h2>
+<p style="margin:0 0 12px;line-height:1.6">Ajoutez ce calculateur à votre propre site web ou blog — c’est entièrement gratuit, sans inscription, et il affiche toujours la dernière version. Copiez le code ci-dessous et collez-le dans votre page à l’endroit où vous voulez que le calculateur apparaisse. Conserver la petite ligne de crédit &ldquo;Powered by Loona Automation&rdquo; sous l’intégration aide à garder cet outil gratuit &mdash; mais vous êtes libre de la styliser ou de la supprimer ; l’outil fonctionne dans les deux cas.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/fr/secret-santa-generator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Secret Santa Generator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Propulsé par &lt;a href="https://loonaautomation.github.io/loona-calculators/fr/secret-santa-generator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; gratuit Générateur de Père Noël secret&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Copier le code d’intégration</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='Copier le code d’intégration';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Calculateurs populaires</h4><ul><li><a href="../age-calculator/">Calculateur d’âge</a></li>
+<li><a href="../zakat-calculator/">Calculateur de zakat</a></li>
+<li><a href="../cgpa-calculator/">Calculateur CGPA</a></li>
+<li><a href="../percentage-calculator/">Calculateur de pourcentage</a></li>
+<li><a href="../hijri-date-converter/">Convertisseur de dates hégiriennes</a></li>
+<li><a href="../emi-calculator/">Calculateur d’EMI et de prêt</a></li></ul></div>
+<div><h4>Plus d’outils Loona</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Codes QR Loona</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Compresseur d’images Loona</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona Assistant IA</a></li>
+<li><a href="https://loonaautomation.github.io/">Tous les outils Loona</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">À propos</a></li>
+<li><a href="../contact.html">Contact</a></li>
+<li><a href="../privacy-policy.html">Politique de confidentialité</a></li>
+<li><a href="../terms.html">Conditions d’utilisation</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — un <a href="https://loonaautomation.github.io/">Loona Automation</a> projet. Calculateurs en ligne gratuits, sans inscription.
+Contact : <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+function shuffleList2(arr,rng){
+  var a=arr.slice();
+  for(var i=a.length-1;i>0;i--){var j=Math.floor((rng||Math.random)()*(i+1));var t=a[i];a[i]=a[j];a[j]=t;}
+  return a;
+}
+function secretSanta(names,exclusions,rng){
+  if(!names||names.length<3) return null;
+  var banned={};
+  (exclusions||[]).forEach(function(pair){
+    if(pair.length===2){banned[pair[0]+"|"+pair[1]]=1;banned[pair[1]+"|"+pair[0]]=1;}
+  });
+  function ok(giver,recv){return giver!==recv && !banned[giver+"|"+recv];}
+  var i,attempt;
+  for(attempt=0;attempt<500;attempt++){
+    var recips=shuffleList2(names,rng), good=true;
+    for(i=0;i<names.length;i++){if(!ok(names[i],recips[i])){good=false;break;}}
+    if(good){var m={};for(i=0;i<names.length;i++)m[names[i]]=recips[i];return m;}
+  }
+  var result={}, used={};
+  function bt(idx){
+    if(idx===names.length)return true;
+    var g=names[idx];
+    for(var j=0;j<names.length;j++){var r=names[j];
+      if(used[r]||!ok(g,r))continue;
+      result[g]=r;used[r]=1;
+      if(bt(idx+1))return true;
+      delete result[g];used[r]=0;
+    }
+    return false;
+  }
+  return bt(0)?result:null;
+}
+/*TESTABLE_END*/
+var SS_DRAW=null;
+document.getElementById('ssForm').addEventListener('submit',function(e){e.preventDefault();
+ var names=document.getElementById('ssNames').value.split(/\r?\n/).map(function(s){return s.trim();}).filter(Boolean);
+ var excl=document.getElementById('ssExcl').value.split(/\r?\n/).map(function(s){return s.trim();}).filter(Boolean).map(function(l){return l.split(",").map(function(s){return s.trim();});}).filter(function(p){return p.length===2&&p[0]&&p[1];});
+ var box=document.getElementById('ssResult'); box.style.display='block';
+ SS_DRAW=secretSanta(names,excl,function(){var a=new Uint32Array(1);crypto.getRandomValues(a);return a[0]/4294967296;});
+ if(!SS_DRAW){box.innerHTML='<p class="err">Aucun tirage valide n’existe avec ces noms et ces exclusions (ou avec moins de 3 noms). Retirez une exclusion ou ajoutez une personne et réessayez.</p>';document.getElementById('ssRevealBox').style.display='none';return;}
+ box.innerHTML='<div class="resbig"><span>Tirage terminé</span><strong>'+names.length+' personnes associées en secret</strong></div><p class="resnote">La liste complète n’est jamais affichée. Chaque personne doit maintenant utiliser le champ de révélation privé ci-dessous, une à la fois.</p>';
+ var sel=document.getElementById('ssWho'); sel.innerHTML=names.map(function(n){return '<option>'+n.replace(/</g,"&lt;")+'</option>';}).join("");
+ document.getElementById('ssRevealBox').style.display='block';
+ document.getElementById('ssRevealResult').style.display='none';
+});
+document.getElementById('ssRevealBtn').addEventListener('click',function(){
+ if(!SS_DRAW)return;
+ var who=document.getElementById('ssWho').value;
+ var box=document.getElementById('ssRevealResult'); box.style.display='block';
+ box.innerHTML='<div class="resbig"><span>'+who.replace(/</g,"&lt;")+', vous offrez un cadeau à</span><strong>'+String(SS_DRAW[who]).replace(/</g,"&lt;")+'</strong></div><p class="resnote">Gardez le secret ! Effacez ceci en demandant à la personne suivante de révéler le sien.</p>';
+});
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Installer l’application';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Installez cette application : touchez le bouton Partager, puis choisissez « Ajouter à l’écran d’accueil ».');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

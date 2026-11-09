@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calculateur de corrélation",
+  "short_name": "Calculateur de corrélation",
+  "description": "Calculateur gratuit de corrélation de Pearson : collez des données appariées x,y pour obtenir le coefficient de corrélation r, le r au carré, et une lecture de la force en langage simple.",
+  "id": "/loona-calculators/fr/correlation-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

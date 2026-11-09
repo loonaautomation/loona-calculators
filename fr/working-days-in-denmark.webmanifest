@@ -1,0 +1,29 @@
+{
+  "name": "Jours ouvrés Loona en Danemark",
+  "short_name": "Jours ouvrés au Danemark",
+  "description": "Calculateur de jours ouvrés pour le Danemark : comptez les jours ouvrables entre deux dates, week-ends et jours fériés nationaux danois de 2026 retirés. Outil gratuit.",
+  "id": "/loona-calculators/fr/working-days-in-denmark.html",
+  "start_url": "./working-days-in-denmark.html",
+  "scope": "./working-days-in-denmark.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calculateur de jours entre deux dates",
+  "short_name": "Calculateur de jours entre deux dates",
+  "description": "Calculateur gratuit de jours entre deux dates : comptez le nombre exact de jours, de semaines et d’années entre deux dates quelconques. Utile pour les échéances, les visas, les contrats et les comptes à rebours.",
+  "id": "/loona-calculators/fr/days-between-dates-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

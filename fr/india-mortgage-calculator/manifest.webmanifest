@@ -1,0 +1,29 @@
+{
+  "name": "Calculateur Loona d’EMI de prêt immobilier en Inde",
+  "short_name": "Calculateur de mensualités de prêt immobilier pour l’Inde",
+  "description": "Calculateur gratuit d’EMI de prêt immobilier pour l’Inde en roupies : EMI mensuelle, intérêts totaux et date de libération de dette pour tout prix de bien, apport, taux d’intérêt et durée, plus une comparaison de prépaiement.",
+  "id": "/loona-calculators/fr/india-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

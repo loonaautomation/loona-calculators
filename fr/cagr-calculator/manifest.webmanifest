@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calculateur de TCAC",
+  "short_name": "Calculateur CAGR",
+  "description": "Calculateur gratuit de CAGR : saisissez la valeur de départ, la valeur finale et le nombre d’années pour trouver le taux de croissance annuel composé d’un investissement ou d’une entreprise.",
+  "id": "/loona-calculators/fr/cagr-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Convertisseur Loona stone en milligramme",
+  "short_name": "Convertisseur stone en milligramme",
+  "description": "Convertissez stone en milligrammes instantanément. Formule exacte, une table de conversion complète st en mg, un exemple travaillé et des FAQ. Gratuit, sans inscription.",
+  "id": "/loona-calculators/fr/stone-to-milligrams-converter.html",
+  "start_url": "./stone-to-milligrams-converter.html",
+  "scope": "./stone-to-milligrams-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

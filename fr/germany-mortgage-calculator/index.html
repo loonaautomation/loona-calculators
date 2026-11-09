@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculateur d’hypothèque pour l’Allemagne — Annuité et Tilgung | Loona</title>
+<meta name="description" content="Calculateur gratuit d’hypothèque allemande (Baufinanzierung) en euros : annuité mensuelle à partir du taux d’intérêt et du Tilgung initial, dette restante après la période fixe.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/fr/germany-mortgage-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/germany-mortgage-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/germany-mortgage-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/germany-mortgage-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/germany-mortgage-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/germany-mortgage-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/germany-mortgage-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/germany-mortgage-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Calculateur d’hypothèque pour l’Allemagne — Annuité et Tilgung | Loona">
+<meta property="og:description" content="Calculateur gratuit d’hypothèque allemande (Baufinanzierung) en euros : annuité mensuelle à partir du taux d’intérêt et du Tilgung initial, dette restante après la période fixe.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/fr/germany-mortgage-calculator/"><meta property="og:locale" content="fr_FR">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Calculateur d’hypothèque pour l’Allemagne — Annuité et Tilgung | Loona">
+<meta name="twitter:description" content="Calculateur gratuit d’hypothèque allemande (Baufinanzierung) en euros : annuité mensuelle à partir du taux d’intérêt et du Tilgung initial, dette restante après la période fixe.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona Calculateur de prêt immobilier pour l’Allemagne","url":"https://loonaautomation.github.io/loona-calculators/fr/germany-mortgage-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Qu’est-ce que le Tilgung ?","acceptedAnswer":{"@type":"Answer","text":"Le Tilgung est la part de remboursement de votre annuité, exprimée en pourcentage du prêt initial par an. Avec un Tilgung de 2% sur €300,000, vous remboursez initialement €6,000 de capital par an — mais comme l’annuité reste fixe pendant que les intérêts diminuent, la part de remboursement augmente chaque mois, de sorte que le prêt se solde plus vite que le pourcentage ne le suggère."}},{"@type":"Question","name":"Qu’est-ce que l’annuité (Annuität) ?","acceptedAnswer":{"@type":"Answer","text":"L’annuité constante : (taux d’intérêt + Tilgung) × le montant initial du prêt. Sur €300,000 à 3.5% + 2%, l’annuité est de 5.5% × €300,000 = €16,500 par an, soit €1,375 par mois. À l’intérieur de ce paiement fixe, la composition évolue, d’une majorité d’intérêts au début vers une majorité de remboursement du capital à la fin."}},{"@type":"Question","name":"Que se passe-t-il à la fin du Zinsbindung ?","acceptedAnswer":{"@type":"Answer","text":"Le taux d’intérêt n’est fixe que pour la période choisie (couramment 10 ans). Après cela, la dette restante (Restschuld) doit être refinancée — par un Anschlussfinanzierung auprès de la même banque ou d’une nouvelle banque, aux taux en vigueur à ce moment-là. Un Tilgung plus élevé signifie moins de dette restante et moins d’exposition aux futures hausses de taux."}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/fr/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Calculateur d’hypothèque pour l’Allemagne",
+      "item": "https://loonaautomation.github.io/loona-calculators/fr/germany-mortgage-calculator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Logo de Loona Automation">
+<div class="brand">Loona <span>Calculateurs</span></div>
+<nav>
+<a href="../">Accueil</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">À propos</a>
+<a href="../contact.html">Contact</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › Argent et finances › Calculateur de prêt immobilier en Allemagne</div>
+<h1 class="pagetitle">🇩🇪 Calculateur de prêt immobilier en Allemagne</h1>
+<p class="lead">Les hypothèques allemandes fonctionnent différemment : vous fixez le taux d’intérêt pour 5–30 ans et choisissez un taux de remboursement initial (Tilgung) ; l’annuité mensuelle reste constante pendant que la part des intérêts diminue. Ce calculateur affiche votre annuité, les intérêts payés pendant la période fixe, et la dette restante (Restschuld) que vous devrez refinancer.</p>
+<div class="toolbox"><form class="calcform" id="deForm">
+<div class="fld"><label for="deAmount">Montant du prêt (€)</label><input type="number" id="deAmount" value="300000" step="any" min="0"></div>
+<div class="fld"><label for="deRate">Taux d’intérêt — Sollzins (% par an)</label><input type="number" id="deRate" value="3.5" step="any" min="0"></div>
+<div class="fld"><label for="deTilgung">Remboursement initial — anfängliche Tilgung (% par an)</label><input type="number" id="deTilgung" value="2" step="any" min="0.1"></div>
+<div class="fld"><label for="deYears">Période à taux fixe — Zinsbindung (années)</label><input type="number" id="deYears" value="10" step="1" min="1" max="30"></div>
+<button class="calcbtn" type="submit">Calculer l’annuité</button>
+<div class="calcresult" id="deResult" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>Comment utiliser le calculateur de prêt immobilier pour l’Allemagne</h2><ol><li>Saisissez le montant du prêt en euros (Kaufpreis moins vos fonds propres/Eigenkapital).</li><li>Saisissez le taux d’intérêt (Sollzins) de l’offre de la banque.</li><li>Saisissez le Tilgung initial — 2 % est un point de départ courant — et la période à taux fixe (Zinsbindung), puis appuyez sur Calculer.</li></ol>
+<div class="exbox"><strong>Exemple :</strong> Un prêt de €300,000 à 3.5% d’intérêts avec 2% de Tilgung initial a une annuité de €16,500.00 par an — <strong>€1,375.00</strong> par mois. Après la période fixe de 10 ans, il reste €228,283.74 de dette à refinancer.</div>
+<h2>Questions fréquemment posées</h2></section><div class="faq"><h3>Qu’est-ce que le Tilgung ?</h3><p>Le Tilgung est la part de remboursement de votre annuité, exprimée en pourcentage du prêt initial par an. Avec un Tilgung de 2% sur €300,000, vous remboursez initialement €6,000 de capital par an — mais comme l’annuité reste fixe pendant que les intérêts diminuent, la part de remboursement augmente chaque mois, de sorte que le prêt se solde plus vite que le pourcentage ne le suggère.</p></div><div class="faq"><h3>Qu’est-ce que l’annuité (Annuität) ?</h3><p>L’annuité constante : (taux d’intérêt + Tilgung) × le montant initial du prêt. Sur €300,000 à 3.5% + 2%, l’annuité est de 5.5% × €300,000 = €16,500 par an, soit €1,375 par mois. À l’intérieur de ce paiement fixe, la composition évolue, d’une majorité d’intérêts au début vers une majorité de remboursement du capital à la fin.</p></div><div class="faq"><h3>Que se passe-t-il à la fin du Zinsbindung ?</h3><p>Le taux d’intérêt n’est fixe que pour la période choisie (couramment 10 ans). Après cela, la dette restante (Restschuld) doit être refinancée — par un Anschlussfinanzierung auprès de la même banque ou d’une nouvelle banque, aux taux en vigueur à ce moment-là. Un Tilgung plus élevé signifie moins de dette restante et moins d’exposition aux futures hausses de taux.</p></div>
+<h2 class="sec">Calculateurs associés</h2><div class="grid"><a class="card" href="../uk-mortgage-calculator/"><div class="ic">🇬🇧</div><h3>Calculateur hypothécaire britannique</h3><p>Argent et finance</p></a><a class="card" href="../canada-mortgage-calculator/"><div class="ic">🇨🇦</div><h3>Calculateur de crédit immobilier Canada</h3><p>Argent et finance</p></a><a class="card" href="../australia-mortgage-calculator/"><div class="ic">🇦🇺</div><h3>Calculateur de crédit immobilier Australie</h3><p>Argent et finance</p></a><a class="card" href="../mortgage-calculator/"><div class="ic">🏠</div><h3>Calculateur de prêt hypothécaire</h3><p>Argent et finance</p></a><a class="card" href="../loan-calculator/"><div class="ic">💳</div><h3>Calculateur de prêts</h3><p>Argent et finance</p></a><a class="card" href="../emi-calculator/"><div class="ic">🏦</div><h3>Calculateur d’EMI et de prêt</h3><p>Argent et finance</p></a></div>
+</div>
+<section class="txt"><h2>Fonctionnement &mdash; la formule</h2>
+<p>Les prêts à annuités allemands (Annuitätendarlehen) maintiennent le paiement constant :</p>
+<p><strong>Annuité annuelle = prêt × (taux d’intérêt + Tilgung) ÷ 100</strong> &nbsp;·&nbsp; Paiement mensuel = rente annuelle ÷ 12</p>
+<p>Chaque mois, des intérêts sont facturés sur le solde actuel à (taux ÷ 12) ; le reste du paiement fixe rembourse le capital. Le calculateur simule tous les mois de la période fixe pour trouver le total des intérêts et le Restschuld, et poursuit la même simulation pour projeter la durée totale de remboursement.</p>
+<h3>Exemple détaillé</h3>
+<div class="exbox"><strong>Exemple :</strong> €300,000 à 3.5% avec 2% de Tilgung. Annuité = 300,000 × 5.5% = <strong>€16,500/an = €1,375.00/mois</strong>. Premier mois : intérêts = 300,000 × 3.5% ÷ 12 = €875, remboursement = 1,375 − 875 = €500. Après 120 mois, la dette restante est <strong>€228,283.74</strong> et les intérêts totaux payés pendant la période fixe s’élèvent à €93,283.74.</div>
+<h3>Questions fréquentes</h3></section><div class="faq"><h3>À combien devrait s’élever la Tilgung ?</h3><p>Un Tilgung plus élevé = la dette disparaît plus tôt et beaucoup moins d’intérêts au total, mais un paiement mensuel plus élevé. Une règle empirique courante est au moins 2 %, et assez pour que le prêt soit remboursé avant la retraite. Utilisez la durée totale projetée affichée par ce calculateur pour tester différentes valeurs — passer de 1 % à 2 % retranche typiquement de nombreuses années.</p></div><div class="faq"><h3>Qu’est-ce que le Sondertilgung ?</h3><p>De nombreux contrats allemands autorisent des remboursements anticipés non programmés (Sondertilgung), souvent jusqu’à 5% du prêt par an sans frais. Ces remboursements réduisent la dette restante à la fin de la période de taux fixe ; ils ne modifient généralement pas l’annuité mensuelle.</p></div><div class="faq"><h3>S’agit-il d’un conseil financier ?</h3><p>Non — un calculateur éducatif gratuit dans le style des annuités allemandes. Les offres hypothécaires allemandes impliquent aussi le taux effectif (effektiver Jahreszins), des frais et des taxes de transfert de propriété (Grunderwerbsteuer) qui sont en dehors de ce calcul ; comparez les offres complètes et envisagez un conseil indépendant.</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Intégrez ce calculateur à votre site — gratuit</h2>
+<p style="margin:0 0 12px;line-height:1.6">Ajoutez ce calculateur à votre propre site web ou blog — c’est entièrement gratuit, sans inscription, et il affiche toujours la dernière version. Copiez le code ci-dessous et collez-le dans votre page à l’endroit où vous voulez que le calculateur apparaisse. Conserver la petite ligne de crédit &ldquo;Powered by Loona Automation&rdquo; sous l’intégration aide à garder cet outil gratuit &mdash; mais vous êtes libre de la styliser ou de la supprimer ; l’outil fonctionne dans les deux cas.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/fr/germany-mortgage-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Germany Mortgage Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Propulsé par &lt;a href="https://loonaautomation.github.io/loona-calculators/fr/germany-mortgage-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; gratuit Calculateur d’hypothèque pour l’Allemagne&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Copier le code d’intégration</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='Copier le code d’intégration';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Calculateurs populaires</h4><ul><li><a href="../age-calculator/">Calculateur d’âge</a></li>
+<li><a href="../zakat-calculator/">Calculateur de zakat</a></li>
+<li><a href="../cgpa-calculator/">Calculateur CGPA</a></li>
+<li><a href="../percentage-calculator/">Calculateur de pourcentage</a></li>
+<li><a href="../hijri-date-converter/">Convertisseur de dates hégiriennes</a></li>
+<li><a href="../emi-calculator/">Calculateur d’EMI et de prêt</a></li></ul></div>
+<div><h4>Plus d’outils Loona</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Codes QR Loona</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Compresseur d’images Loona</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona Assistant IA</a></li>
+<li><a href="https://loonaautomation.github.io/">Tous les outils Loona</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">À propos</a></li>
+<li><a href="../contact.html">Contact</a></li>
+<li><a href="../privacy-policy.html">Politique de confidentialité</a></li>
+<li><a href="../terms.html">Conditions d’utilisation</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — un <a href="https://loonaautomation.github.io/">Loona Automation</a> projet. Calculateurs en ligne gratuits, sans inscription.
+Contact : <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+function amortize(principal, monthlyRate, months, extraMonthly) {
+  var bal = principal, totalInterest = 0, m = 0;
+  var base;
+  if (monthlyRate === 0) base = principal / months;
+  else base = principal * monthlyRate / (1 - Math.pow(1 + monthlyRate, -months));
+  while (bal > 0.005 && m < months + 1200) {
+    var interest = bal * monthlyRate;
+    var pay = base + (extraMonthly || 0);
+    var princ = pay - interest;
+    if (princ <= 0) break;
+    if (princ > bal) princ = bal;
+    bal -= princ; totalInterest += interest; m++;
+  }
+  return { payment: base, totalInterest: totalInterest, totalPaid: principal + totalInterest, monthsTaken: m };
+}
+function standardMonthlyRate(annualPct) { return annualPct / 100 / 12; }
+function canadaMonthlyRate(annualPct) { var i = annualPct / 100; return Math.pow(1 + i / 2, 2 / 12) - 1; }
+function germanPlan(principal, ratePct, tilgungPct, fixedYears) {
+  var monthlyRate = ratePct / 100 / 12;
+  var annualAnnuity = principal * (ratePct + tilgungPct) / 100;
+  var monthly = annualAnnuity / 12;
+  var bal = principal, interestPaid = 0, months = Math.round(fixedYears * 12);
+  for (var k = 0; k < months; k++) {
+    var i = bal * monthlyRate;
+    bal -= (monthly - i);
+    interestPaid += i;
+  }
+  return { annualAnnuity: annualAnnuity, monthlyPayment: monthly, remaining: bal, interestPaid: interestPaid, principalPaid: principal - bal };
+}
+function germanFullTermMonths(principal, ratePct, tilgungPct) {
+  var monthlyRate = ratePct / 100 / 12;
+  var monthly = principal * (ratePct + tilgungPct) / 100 / 12;
+  var bal = principal, m = 0;
+  while (bal > 0.005 && m < 1200) { bal -= (monthly - bal * monthlyRate); m++; }
+  return m;
+}
+/*TESTABLE_END*/
+
+function deMoney(x) { return new Intl.NumberFormat('en-IE', { style: 'currency', currency: 'EUR' }).format(x); }
+function deRun() {
+  var box = document.getElementById('deResult');
+  var P = parseFloat(document.getElementById('deAmount').value);
+  var rate = parseFloat(document.getElementById('deRate').value);
+  var tilg = parseFloat(document.getElementById('deTilgung').value);
+  var years = parseFloat(document.getElementById('deYears').value);
+  try {
+    if (isNaN(P) || isNaN(rate) || isNaN(tilg) || isNaN(years) || P <= 0 || tilg <= 0 || years < 1) throw new Error("Veuillez saisir un montant, un taux, un Tilgung et une période fixe valides.");
+    var plan = germanPlan(P, rate, tilg, years);
+    var full = germanFullTermMonths(P, rate, tilg);
+    box.style.display = 'block';
+    box.innerHTML = '<div class="resbig"><span>Mensualité (Annuität)</span><strong>' + deMoney(plan.monthlyPayment) + '</strong></div>' +
+      '<table class="restbl">' +
+      '<tr><td>Annuité annuelle (intérêts + Tilgung)</td><td><strong>' + deMoney(plan.annualAnnuity) + '</strong></td></tr>' +
+      '<tr><td>Intérêts payés pendant la période fixe de ' + years + ' ans</td><td><strong>' + deMoney(plan.interestPaid) + '</strong></td></tr>' +
+      '<tr><td>Capital remboursé pendant la période fixe</td><td><strong>' + deMoney(plan.principalPaid) + '</strong></td></tr>' +
+      '<tr><td>Dette restante (Restschuld) après ' + years + ' ans</td><td><strong>' + deMoney(plan.remaining) + '</strong></td></tr>' +
+      '<tr><td>Entièrement remboursé après (même annuité, projection)</td><td><strong>' + Math.floor(full / 12) + ' ans ' + (full % 12) + ' mois</strong></td></tr></table>' +
+      '<p class="resnote">Après la fin de la période fixe, la dette restante est refinancée (Anschlussfinanzierung) au taux alors en vigueur — la projection montre simplement ce qui se passe si la même annuité continue.</p>';
+  } catch (e) {
+    box.style.display = 'block';
+    box.innerHTML = '<p class="err">' + e.message + '</p>';
+  }
+}
+document.getElementById('deForm').addEventListener('submit', function (e) { e.preventDefault(); deRun(); });
+deRun();
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Installer l’application';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Installez cette application : touchez le bouton Partager, puis choisissez « Ajouter à l’écran d’accueil ».');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

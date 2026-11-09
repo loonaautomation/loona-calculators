@@ -1,0 +1,29 @@
+{
+  "name": "Calculateur Loona de partage de loyer",
+  "short_name": "Calculateur de répartition du loyer",
+  "description": "Calculateur gratuit de partage de loyer : répartissez le loyer mensuel entre 2 à 8 colocataires — à parts égales, selon la taille de la chambre en pieds carrés, ou selon le revenu. Les parts totalisent toujours le total exact.",
+  "id": "/loona-calculators/fr/rent-split-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

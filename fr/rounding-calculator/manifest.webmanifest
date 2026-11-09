@@ -1,0 +1,29 @@
+{
+  "name": "Calculateur Loona d’arrondi",
+  "short_name": "Calculateur d’arrondi",
+  "description": "Calculateur gratuit d’arrondi : arrondissez n’importe quel nombre aux décimales, à la dizaine, à la centaine ou au millier le plus proche (10, 100 ou 1,000), ou aux chiffres significatifs, avec la règle expliquée.",
+  "id": "/loona-calculators/fr/rounding-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

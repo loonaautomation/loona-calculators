@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculateur de date d’accouchement après FIV — Date de transfert et jour de l’embryon | Loona Calculators</title>
+<meta name="description" content="Calculateur gratuit de date d’accouchement par FIV : saisissez la date de votre transfert d’embryon et l’âge de l’embryon (jour 3 ou jour 5) pour obtenir votre date d’accouchement estimée et votre âge gestationnel actuel.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/fr/ivf-due-date-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/ivf-due-date-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/ivf-due-date-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/ivf-due-date-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/ivf-due-date-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/ivf-due-date-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/ivf-due-date-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/ivf-due-date-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Calculateur de date d’accouchement après FIV — Date de transfert et jour de l’embryon | Loona Calculators">
+<meta property="og:description" content="Calculateur gratuit de date d’accouchement par FIV : saisissez la date de votre transfert d’embryon et l’âge de l’embryon (jour 3 ou jour 5) pour obtenir votre date d’accouchement estimée et votre âge gestationnel actuel.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/fr/ivf-due-date-calculator/"><meta property="og:locale" content="fr_FR">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Calculateur de date d’accouchement après FIV — Date de transfert et jour de l’embryon | Loona Calculators">
+<meta name="twitter:description" content="Calculateur gratuit de date d’accouchement par FIV : saisissez la date de votre transfert d’embryon et l’âge de l’embryon (jour 3 ou jour 5) pour obtenir votre date d’accouchement estimée et votre âge gestationnel actuel.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Calculateur Loona de date d’accouchement après FIV","url":"https://loonaautomation.github.io/loona-calculators/fr/ivf-due-date-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Pourquoi suis-je déjà « enceinte de 2 semaines » au moment du transfert ?","acceptedAnswer":{"@type":"Answer","text":"L’âge gestationnel est compté à partir des dernières règles équivalentes, environ 14 jours avant la fécondation. Un embryon au jour 5 a donc 2 semaines + 5 jours d’âge gestationnel le jour du transfert, et le compte à rebours de 280 jours court à partir de cette DDR équivalente, pas à partir du transfert."}},{"@type":"Question","name":"D’où viennent les 261 et 263 jours ?","acceptedAnswer":{"@type":"Answer","text":"Date d’accouchement prévue = DDR équivalente + 280 jours. DDR équivalente = date du transfert − (14 + âge de l’embryon en jours). Pour le jour 5 : transfert + 280 − 19 = transfert + 261 jours. Pour le jour 3 : transfert + 280 − 17 = transfert + 263 jours."}},{"@type":"Question","name":"La date d’accouchement après FIV est-elle plus précise qu’une date naturelle ?","acceptedAnswer":{"@type":"Answer","text":"Généralement oui — la date de fécondation est connue exactement, ce qui élimine la plus grande source d’erreur dans les calculs naturels de date prévue. Votre clinique peut néanmoins ajuster la date après l’échographie de datation."}},{"@type":"Question","name":"Ceci couvre-t-il le transfert d’embryon congelé (FET) ?","acceptedAnswer":{"@type":"Answer","text":"Oui — ce qui compte, c’est l’âge de l’embryon (jour 3 ou jour 5) le jour de son transfert, frais ou congelé. Utilisez la date réelle du transfert."}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/fr/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Calculateur de date d’accouchement après FIV",
+      "item": "https://loonaautomation.github.io/loona-calculators/fr/ivf-due-date-calculator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Logo de Loona Automation">
+<div class="brand">Loona <span>Calculateurs</span></div>
+<nav>
+<a href="../">Accueil</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">À propos</a>
+<a href="../contact.html">Contact</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › Santé › Calculateur de date d’accouchement après FIV</div>
+<h1 class="pagetitle">🧬 Calculateur de date d’accouchement après FIV</h1>
+<p class="lead">Saisissez la date de votre transfert d’embryon et si l’embryon a été transféré au jour 3 ou au jour 5 (blastocyste). Le calculateur détermine votre date d’accouchement estimée et le nombre de semaines de grossesse où vous en êtes aujourd’hui.</p>
+<div class="exbox"><strong>Réponse rapide :</strong> Pour un transfert au jour 5, la date d’accouchement est la date du transfert plus 261 jours ; pour un transfert au jour 3, plus 263 jours. Un transfert au jour 5 le 2 mars 2026 donne une date d’accouchement au 18 novembre 2026.</div>
+<div class="toolbox"><form class="calcform" id="ivfForm">
+<div class="fld"><label for="ivfDate">Date du transfert d’embryon</label><input type="date" id="ivfDate" required></div>
+<div class="fld"><label for="ivfDay">Âge de l’embryon au transfert</label><select id="ivfDay"><option value="5">Jour 5 (blastocyste)</option><option value="3">Jour 3</option></select></div>
+<button class="calcbtn" type="submit">Calculer la date d’accouchement prévue</button>
+<div class="calcresult" id="ivfResult" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>Comment utiliser le calculateur de date d’accouchement après FIV</h2><ol><li>Saisissez la date de votre transfert d’embryon.</li><li>Sélectionnez l’âge de l’embryon au transfert : jour 3 ou jour 5.</li><li>Lisez votre date d’accouchement estimée, votre âge gestationnel actuel, et la date équivalente des dernières règles utilisée par le calcul.</li></ol>
+<div class="exbox"><strong>Exemple :</strong> Un transfert au jour 5 (blastocyste) le 2 mars 2026 : date d’accouchement prévue = 2 mars + 261 jours = 18 novembre 2026. Le jour même du transfert, vous êtes déjà comptée comme enceinte de 2 semaines + 5 jours.</div>
+<h2>Questions fréquemment posées</h2></section><div class="faq"><h3>Pourquoi suis-je déjà « enceinte de 2 semaines » au moment du transfert ?</h3><p>L’âge gestationnel est compté à partir des dernières règles équivalentes, environ 14 jours avant la fécondation. Un embryon au jour 5 a donc 2 semaines + 5 jours d’âge gestationnel le jour du transfert, et le compte à rebours de 280 jours court à partir de cette DDR équivalente, pas à partir du transfert.</p></div><div class="faq"><h3>D’où viennent les 261 et 263 jours ?</h3><p>Date d’accouchement prévue = DDR équivalente + 280 jours. DDR équivalente = date du transfert − (14 + âge de l’embryon en jours). Pour le jour 5 : transfert + 280 − 19 = transfert + 261 jours. Pour le jour 3 : transfert + 280 − 17 = transfert + 263 jours.</p></div><div class="faq"><h3>La date d’accouchement après FIV est-elle plus précise qu’une date naturelle ?</h3><p>Généralement oui — la date de fécondation est connue exactement, ce qui élimine la plus grande source d’erreur dans les calculs naturels de date prévue. Votre clinique peut néanmoins ajuster la date après l’échographie de datation.</p></div><div class="faq"><h3>Ceci couvre-t-il le transfert d’embryon congelé (FET) ?</h3><p>Oui — ce qui compte, c’est l’âge de l’embryon (jour 3 ou jour 5) le jour de son transfert, frais ou congelé. Utilisez la date réelle du transfert.</p></div>
+<h2 class="sec">Calculateurs associés</h2><div class="grid"><a class="card" href="../period-calculator/"><div class="ic">🌸</div><h3>Calculateur de règles</h3><p>Santé</p></a><a class="card" href="../pregnancy-due-date-calculator/"><div class="ic">🤰</div><h3>Calculateur de date d’accouchement</h3><p>Santé</p></a><a class="card" href="../ovulation-calculator/"><div class="ic">🌸</div><h3>Calculateur d’ovulation</h3><p>Santé</p></a><a class="card" href="../conception-calculator/"><div class="ic">👶</div><h3>Calculateur de conception</h3><p>Santé</p></a></div>
+</div>
+<section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>Fonctionnement — la formule</h2>
+<p><strong>DDR équivalente = date du transfert − (14 + âge de l’embryon) jours.</strong> <strong>Date d’accouchement prévue = DDR équivalente + 280 jours</strong>, ce qui se simplifie en transfert + 263 jours (embryon de jour 3) ou transfert + 261 jours (embryon de jour 5). Âge gestationnel à une date donnée = jours depuis la DDR équivalente, exprimé en semaines + jours.</p>
+<h3>Exemple détaillé</h3><div class="exbox"><p><strong>Entrées :</strong> transfert au jour 5 le 2 mars 2026.</p><p><strong>Étapes :</strong> DDR équivalente = 2 mars − 19 jours = 11 févr. 2026. Date d’accouchement = 11 févr. + 280 jours = 18 nov. 2026 (de manière équivalente 2 mars + 261 jours : mars 29 restants + avr. 30 + mai 31 + juin 30 + juil. 31 + août 31 + sept. 30 + oct. 31 = 243 jours jusqu’au 31 oct., + 18 = 18 nov.).</p><p><strong>Résultat :</strong> Date d’échéance <strong>18 novembre 2026</strong>.</p></div>
+<p class="resnote"><strong>Avertissement santé :</strong> Estimation éducative uniquement. La datation de votre clinique — y compris toute échographie de datation — prévaut.</p>
+</section>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Intégrez ce calculateur à votre site — gratuit</h2>
+<p style="margin:0 0 12px;line-height:1.6">Ajoutez ce calculateur à votre propre site web ou blog — c’est entièrement gratuit, sans inscription, et il affiche toujours la dernière version. Copiez le code ci-dessous et collez-le dans votre page à l’endroit où vous voulez que le calculateur apparaisse. Conserver la petite ligne de crédit &ldquo;Powered by Loona Automation&rdquo; sous l’intégration aide à garder cet outil gratuit &mdash; mais vous êtes libre de la styliser ou de la supprimer ; l’outil fonctionne dans les deux cas.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/fr/ivf-due-date-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="IVF Due Date Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Propulsé par &lt;a href="https://loonaautomation.github.io/loona-calculators/fr/ivf-due-date-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; gratuit Calculateur de date d’accouchement après FIV&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Copier le code d’intégration</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='Copier le code d’intégration';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Calculateurs populaires</h4><ul><li><a href="../age-calculator/">Calculateur d’âge</a></li>
+<li><a href="../zakat-calculator/">Calculateur de zakat</a></li>
+<li><a href="../cgpa-calculator/">Calculateur CGPA</a></li>
+<li><a href="../percentage-calculator/">Calculateur de pourcentage</a></li>
+<li><a href="../hijri-date-converter/">Convertisseur de dates hégiriennes</a></li>
+<li><a href="../emi-calculator/">Calculateur d’EMI et de prêt</a></li></ul></div>
+<div><h4>Plus d’outils Loona</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Codes QR Loona</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Compresseur d’images Loona</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona Assistant IA</a></li>
+<li><a href="https://loonaautomation.github.io/">Tous les outils Loona</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">À propos</a></li>
+<li><a href="../contact.html">Contact</a></li>
+<li><a href="../privacy-policy.html">Politique de confidentialité</a></li>
+<li><a href="../terms.html">Conditions d’utilisation</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — un <a href="https://loonaautomation.github.io/">Loona Automation</a> projet. Calculateurs en ligne gratuits, sans inscription.
+Contact : <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+function ivfParse(s){var p=s.split("-");return Date.UTC(+p[0],+p[1]-1,+p[2])/86400000;}
+function ivfISO(d){var x=new Date(d*86400000);return x.getUTCFullYear()+"-"+String(x.getUTCMonth()+1).padStart(2,"0")+"-"+String(x.getUTCDate()).padStart(2,"0");}
+function ivfCalc(transferISO,embryoDay,todayISO){
+  if(!transferISO||(embryoDay!==3&&embryoDay!==5))return null;
+  var t=ivfParse(transferISO), lmp=t-(14+embryoDay), due=lmp+280;
+  var ga=null;
+  if(todayISO){var days=ivfParse(todayISO)-lmp; if(days>=0)ga={weeks:Math.floor(days/7),days:days%7,totalDays:days};}
+  return {lmp:ivfISO(lmp),due:ivfISO(due),gestationalAtTransfer:"2 weeks + "+embryoDay+" jours",ga:ga};
+}
+/*TESTABLE_END*/
+function fmtD(s){var M=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];var p=s.split("-");return (+p[2])+" "+M[(+p[1])-1]+" "+p[0];}
+document.getElementById('ivfForm').addEventListener('submit',function(e){e.preventDefault();
+ var today=new Date().toISOString().slice(0,10);
+ var r=ivfCalc(document.getElementById('ivfDate').value,parseInt(document.getElementById('ivfDay').value,10),today);
+ var box=document.getElementById('ivfResult'); box.style.display='block';
+ if(!r){box.innerHTML='<p class="err">Veuillez saisir la date du transfert et le jour de l’embryon.</p>';return;}
+ box.innerHTML='<div class="resbig"><span>Date prévue d’accouchement estimée</span><strong>'+fmtD(r.due)+'</strong></div>'
+ +'<table class="restbl"><tr><td>Date équivalente des dernières règles</td><td><strong>'+fmtD(r.lmp)+'</strong></td></tr>'
+ +'<tr><td>Âge gestationnel le jour du transfert</td><td><strong>'+r.gestationalAtTransfer+'</strong></td></tr>'
+ +(r.ga?'<tr><td>Âge gestationnel aujourd’hui</td><td><strong>'+r.ga.weeks+' semaines + '+r.ga.days+' jours</strong></td></tr>':'')
+ +'</table><p class="resnote">Estimation uniquement — c\u2019est la datation de votre clinique qui prime.</p>';});
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Installer l’application';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Installez cette application : touchez le bouton Partager, puis choisissez « Ajouter à l’écran d’accueil ».');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

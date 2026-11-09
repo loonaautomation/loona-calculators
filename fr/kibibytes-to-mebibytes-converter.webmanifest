@@ -1,0 +1,29 @@
+{
+  "name": "Convertisseur Loona kibioctet en mébioctet",
+  "short_name": "Convertisseur kibioctet en mébioctet",
+  "description": "Convertissez kibioctets en mébioctets instantanément. Formule exacte, une table de conversion complète KiB en MiB, un exemple travaillé et des FAQ. Gratuit, sans inscription.",
+  "id": "/loona-calculators/fr/kibibytes-to-mebibytes-converter.html",
+  "start_url": "./kibibytes-to-mebibytes-converter.html",
+  "scope": "./kibibytes-to-mebibytes-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

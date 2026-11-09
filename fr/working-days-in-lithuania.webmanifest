@@ -1,0 +1,29 @@
+{
+  "name": "Jours ouvrés Loona en Lituanie",
+  "short_name": "Jours ouvrés en Lituanie",
+  "description": "Calculateur de jours ouvrés pour la Lituanie : comptez les jours ouvrables entre deux dates, week-ends et l’ensemble des 16 jours fériés lituaniens de 2026 retirés. Outil en ligne gratuit.",
+  "id": "/loona-calculators/fr/working-days-in-lithuania.html",
+  "start_url": "./working-days-in-lithuania.html",
+  "scope": "./working-days-in-lithuania.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

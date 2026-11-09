@@ -1,0 +1,29 @@
+{
+  "name": "Loona Convertisseur grammes en kg",
+  "short_name": "Convertisseur de Grammes en Kg",
+  "description": "Convertissez grammes en kilogrammes instantanément. Formule exacte, une table de conversion complète g en kg et des exemples travaillés. Gratuit, sans inscription.",
+  "id": "/loona-calculators/fr/grams-to-kilograms-converter.html",
+  "start_url": "./grams-to-kilograms-converter.html",
+  "scope": "./grams-to-kilograms-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

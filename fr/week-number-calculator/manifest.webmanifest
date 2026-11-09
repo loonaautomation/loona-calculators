@@ -1,0 +1,29 @@
+{
+  "name": "Calculateur Loona de numéro de semaine",
+  "short_name": "Calculateur de numéro de semaine",
+  "description": "Calculateur gratuit de numéro de semaine : choisissez n’importe quelle date pour obtenir son numéro de semaine ISO, son année-semaine ISO, le jour de l’année, les jours restant dans l’année et le trimestre calendaire.",
+  "id": "/loona-calculators/fr/week-number-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

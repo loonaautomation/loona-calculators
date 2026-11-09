@@ -1,0 +1,29 @@
+{
+  "name": "Calculateur Loona de phase de la Lune",
+  "short_name": "Calculateur de phase de la Lune",
+  "description": "Calculateur gratuit de phase de la lune : saisissez n’importe quelle date pour voir le nom de la phase de la lune, le pourcentage d’illumination, l’âge de la lune et les jours avant la prochaine nouvelle lune et la prochaine pleine lune.",
+  "id": "/loona-calculators/fr/moon-phase-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

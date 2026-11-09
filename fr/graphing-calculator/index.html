@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculatrice graphique — Tracer des fonctions en ligne gratuitement | Loona Calculators</title>
+<meta name="description" content="Calculatrice graphique gratuite : tracez une ou deux fonctions comme x^2, sin(x) ou 2x+3 sur une grille avec zoom. Fonctionne dans votre navigateur, sans inscription.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/fr/graphing-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/graphing-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/graphing-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/graphing-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/graphing-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/graphing-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/graphing-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/graphing-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Calculatrice graphique — Tracer des fonctions en ligne gratuitement | Loona Calculators">
+<meta property="og:description" content="Calculatrice graphique gratuite : tracez une ou deux fonctions comme x^2, sin(x) ou 2x+3 sur une grille avec zoom. Fonctionne dans votre navigateur, sans inscription.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/fr/graphing-calculator/"><meta property="og:locale" content="fr_FR">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Calculatrice graphique — Tracer des fonctions en ligne gratuitement | Loona Calculators">
+<meta name="twitter:description" content="Calculatrice graphique gratuite : tracez une ou deux fonctions comme x^2, sin(x) ou 2x+3 sur une grille avec zoom. Fonctionne dans votre navigateur, sans inscription.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona Calculatrice graphique","url":"https://loonaautomation.github.io/loona-calculators/fr/graphing-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Quelles expressions puis-je utiliser ?","acceptedAnswer":{"@type":"Answer","text":"Les nombres, x, + − * / ^ et les parenthèses, plus sin, cos, tan, sqrt, abs, log (base 10), ln, exp et les constantes pi et e. La multiplication implicite fonctionne aussi : 2x, 3(x+1) et (x+1)(x-1) sont tous compris."}},{"@type":"Question","name":"Pourquoi le graphique de 1/x ou de tan(x) se rompt-il par endroits ?","acceptedAnswer":{"@type":"Answer","text":"Ces fonctions sautent entre de très grandes valeurs positives et négatives au niveau d’une asymptote. Le traceur détecte le saut et lève le crayon au lieu de tracer une fausse ligne verticale."}},{"@type":"Question","name":"Comment écrire x au carré ou une puissance ?","acceptedAnswer":{"@type":"Answer","text":"Utilisez l’accent circonflexe : x^2 signifie x au carré, x^3 au cube, et x^0.5 est identique à sqrt(x). Les puissances sont associatives à droite, de sorte que 2^3^2 se lit comme 2^(3^2) = 512."}},{"@type":"Question","name":"Quelle plage le graphique affiche-t-il ?","acceptedAnswer":{"@type":"Answer","text":"Il commence avec x de −10 à 10 et y de −10 à 10. Chaque pas de zoom multiplie la plage par environ 0.7 (zoom avant) ou 1.4 (zoom arrière)."}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/fr/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Calculatrice graphique",
+      "item": "https://loonaautomation.github.io/loona-calculators/fr/graphing-calculator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Logo de Loona Automation">
+<div class="brand">Loona <span>Calculateurs</span></div>
+<nav>
+<a href="../">Accueil</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">À propos</a>
+<a href="../contact.html">Contact</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › Mathématiques › Calculatrice graphique</div>
+<h1 class="pagetitle">📈 Calculatrice graphique</h1>
+<p class="lead">Saisissez une fonction de x — par exemple x^2, sin(x), 2x+3 ou 1/x — et voyez son graphique instantanément. Ajoutez une deuxième fonction pour comparer, et zoomez en avant ou en arrière pour explorer les intersections, les points de retournement et les asymptotes.</p>
+<div class="exbox"><strong>Réponse rapide :</strong> Une calculatrice graphique trace y = f(x) en calculant y pour des centaines de valeurs de x sur la fenêtre visible et en reliant les points. Celle-ci comprend x^2, sin(x), cos(x), tan(x), sqrt(x), log(x), les fractions et la multiplication implicite comme 2x.</div>
+<div class="toolbox"><form class="calcform" id="grForm">
+<div class="fld"><label for="grF1">Fonction 1 — f(x) =</label><input type="text" id="grF1" value="x^2-4" style="width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px"></div>
+<div class="fld"><label for="grF2">Fonction 2 (facultatif) — g(x) =</label><input type="text" id="grF2" value="2x+3" style="width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px"></div>
+<button class="calcbtn" type="submit">Tracer des fonctions</button>
+<div class="calcresult" id="grResult" style="display:none"></div>
+</form>
+<div style="text-align:center;margin-top:14px"><canvas id="grCanvas" width="720" height="480" style="max-width:100%;height:auto;background:#fff;border:1px solid var(--line);border-radius:12px"></canvas></div>
+<p style="text-align:center;margin-top:10px"><button type="button" class="calcbtn" style="width:auto;padding:9px 18px" id="grZoomIn">Zoomer</button> <button type="button" class="calcbtn" style="width:auto;padding:9px 18px" id="grZoomOut">Dézoomer</button> <button type="button" class="calcbtn" style="width:auto;padding:9px 18px" id="grReset">Réinitialiser la vue</button></p></div>
+<section class="txt"><h2>Comment utiliser la calculatrice graphique</h2><ol><li>Saisissez la première fonction, par exemple x^2 - 4.</li><li>Saisissez éventuellement une deuxième fonction à comparer dans une autre couleur.</li><li>Appuyez sur Tracer, puis utilisez Zoomer / Dézoomer ou Réinitialiser la vue.</li><li>Lisez les intersections et les croisements sur la grille — chaque carré vaut 1 unité par défaut.</li></ol>
+<div class="exbox"><strong>Exemple :</strong> Le tracé de x^2 - 4 donne une parabole qui coupe l’axe des x en x = -2 et x = 2, avec son point le plus bas en (0, -4). Ajouter la droite 2x+3 montre où la courbe et la droite se rencontrent.</div>
+<h2>Questions fréquemment posées</h2></section><div class="faq"><h3>Quelles expressions puis-je utiliser ?</h3><p>Les nombres, x, + − * / ^ et les parenthèses, plus sin, cos, tan, sqrt, abs, log (base 10), ln, exp et les constantes pi et e. La multiplication implicite fonctionne aussi : 2x, 3(x+1) et (x+1)(x-1) sont tous compris.</p></div><div class="faq"><h3>Pourquoi le graphique de 1/x ou de tan(x) se rompt-il par endroits ?</h3><p>Ces fonctions sautent entre de très grandes valeurs positives et négatives au niveau d’une asymptote. Le traceur détecte le saut et lève le crayon au lieu de tracer une fausse ligne verticale.</p></div><div class="faq"><h3>Comment écrire x au carré ou une puissance ?</h3><p>Utilisez l’accent circonflexe : x^2 signifie x au carré, x^3 au cube, et x^0.5 est identique à sqrt(x). Les puissances sont associatives à droite, de sorte que 2^3^2 se lit comme 2^(3^2) = 512.</p></div><div class="faq"><h3>Quelle plage le graphique affiche-t-il ?</h3><p>Il commence avec x de −10 à 10 et y de −10 à 10. Chaque pas de zoom multiplie la plage par environ 0.7 (zoom avant) ou 1.4 (zoom arrière).</p></div>
+<h2 class="sec">Calculateurs associés</h2><div class="grid"><a class="card" href="../percentage-calculator/"><div class="ic">％</div><h3>Calculateur de pourcentage</h3><p>Mathématiques</p></a><a class="card" href="../statistics-calculator/"><div class="ic">📊</div><h3>Calculateur de statistiques</h3><p>Mathématiques</p></a><a class="card" href="../fraction-calculator/"><div class="ic">½</div><h3>Calculateur de fractions</h3><p>Mathématiques</p></a><a class="card" href="../equation-solver/"><div class="ic">🧮</div><h3>Solveur d’équations</h3><p>Mathématiques</p></a><a class="card" href="../scientific-calculator/"><div class="ic">🔬</div><h3>Calculatrice scientifique</h3><p>Mathématiques</p></a><a class="card" href="../average-calculator/"><div class="ic">📐</div><h3>Calculateur de moyenne</h3><p>Mathématiques</p></a></div>
+</div>
+<section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>Fonctionnement — la formule</h2>
+<p>Le traceur analyse chaque expression en jetons (nombres, x, opérateurs, fonctions), insère les signes de multiplication implicites (2x → 2*x) et l’évalue à l’aide d’un analyseur à descente récursive qui respecte l’ordre standard des opérations : <strong>^ se lie le plus fortement et s’associe à droite, puis * et /, puis + et −</strong>, avec les fonctions et les parenthèses d’abord. Il échantillonne ensuite la fonction à 720 positions x sur la fenêtre et relie les points finis consécutifs, en sautant les vides où la fonction est indéfinie ou saute par-dessus une asymptote.</p>
+<h3>Exemple détaillé</h3><div class="exbox"><p><strong>Entrées :</strong> f(x) = x^2 − 4.</p><p><strong>Étapes :</strong> En x = 0, y = −4 (le point le plus bas). En x = 2, y = 4 − 4 = 0, et en x = −2, y = 0 — les deux intersections avec l’axe des x. En x = 3, y = 9 − 4 = 5.</p><p><strong>Résultat :</strong> Une parabole de sommet (0, −4) croisant l’axe des x à <strong>−2 et 2</strong>, exactement comme le montre le graphique.</p></div>
+
+</section>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Intégrez ce calculateur à votre site — gratuit</h2>
+<p style="margin:0 0 12px;line-height:1.6">Ajoutez ce calculateur à votre propre site web ou blog — c’est entièrement gratuit, sans inscription, et il affiche toujours la dernière version. Copiez le code ci-dessous et collez-le dans votre page à l’endroit où vous voulez que le calculateur apparaisse. Conserver la petite ligne de crédit &ldquo;Powered by Loona Automation&rdquo; sous l’intégration aide à garder cet outil gratuit &mdash; mais vous êtes libre de la styliser ou de la supprimer ; l’outil fonctionne dans les deux cas.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/fr/graphing-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Graphing Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Propulsé par &lt;a href="https://loonaautomation.github.io/loona-calculators/fr/graphing-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; gratuit Calculatrice graphique&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Copier le code d’intégration</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='Copier le code d’intégration';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Calculateurs populaires</h4><ul><li><a href="../age-calculator/">Calculateur d’âge</a></li>
+<li><a href="../zakat-calculator/">Calculateur de zakat</a></li>
+<li><a href="../cgpa-calculator/">Calculateur CGPA</a></li>
+<li><a href="../percentage-calculator/">Calculateur de pourcentage</a></li>
+<li><a href="../hijri-date-converter/">Convertisseur de dates hégiriennes</a></li>
+<li><a href="../emi-calculator/">Calculateur d’EMI et de prêt</a></li></ul></div>
+<div><h4>Plus d’outils Loona</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Codes QR Loona</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Compresseur d’images Loona</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona Assistant IA</a></li>
+<li><a href="https://loonaautomation.github.io/">Tous les outils Loona</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">À propos</a></li>
+<li><a href="../contact.html">Contact</a></li>
+<li><a href="../privacy-policy.html">Politique de confidentialité</a></li>
+<li><a href="../terms.html">Conditions d’utilisation</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — un <a href="https://loonaautomation.github.io/">Loona Automation</a> projet. Calculateurs en ligne gratuits, sans inscription.
+Contact : <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+function tokenizeExpr(expr){
+  var s=String(expr).replace(/\s+/g,"").toLowerCase(), tokens=[], i=0;
+  var funcs=["sin","cos","tan","sqrt","abs","log","ln","exp"];
+  while(i<s.length){
+    var c=s[i];
+    if(/[0-9.]/.test(c)){var num="";while(i<s.length&&/[0-9.]/.test(s[i])){num+=s[i];i++;}tokens.push({t:"num",v:parseFloat(num)});continue;}
+    if(c==="x"){tokens.push({t:"var"});i++;continue;}
+    if(s.substr(i,2)==="pi"){tokens.push({t:"num",v:Math.PI});i+=2;continue;}
+    if(c==="e"&&!/^(exp)/.test(s.substr(i))){tokens.push({t:"num",v:Math.E});i++;continue;}
+    var matched=false;
+    for(var f=0;f<funcs.length;f++){if(s.substr(i,funcs[f].length)===funcs[f]){tokens.push({t:"fn",v:funcs[f]});i+=funcs[f].length;matched=true;break;}}
+    if(matched)continue;
+    if("+-*/^()".indexOf(c)>=0){tokens.push({t:"op",v:c});i++;continue;}
+    throw new Error("Caractère inattendu : "+c);
+  }
+  var out=[];
+  for(var k=0;k<tokens.length;k++){
+    if(k>0){
+      var prev=tokens[k-1], cur=tokens[k];
+      var prevVal=(prev.t==="num"||prev.t==="var"||(prev.t==="op"&&prev.v===")"));
+      var curVal=(cur.t==="num"||cur.t==="var"||cur.t==="fn"||(cur.t==="op"&&cur.v==="("));
+      if(prevVal&&curVal)out.push({t:"op",v:"*"});
+    }
+    out.push(tokens[k]);
+  }
+  return out;
+}
+function makeFunction(expr){
+  var tokens=tokenizeExpr(expr), pos=0;
+  function peek(){return tokens[pos];}
+  function next(){return tokens[pos++];}
+  function parseExpr(){
+    var v=parseTerm();
+    while(peek()&&peek().t==="op"&&(peek().v==="+"||peek().v==="-")){var op=next().v;var r=parseTerm();v=(op==="+")?v+r:v-r;}
+    return v;
+  }
+  function parseTerm(){
+    var v=parseFactor();
+    while(peek()&&peek().t==="op"&&(peek().v==="*"||peek().v==="/")){var op=next().v;var r=parseFactor();if(op==="/"){if(r===0)throw new Error("div0");v=v/r;}else v=v*r;}
+    return v;
+  }
+  function parseFactor(){
+    var base=parseUnary();
+    if(peek()&&peek().t==="op"&&peek().v==="^"){next();var ex=parseFactor();return Math.pow(base,ex);}
+    return base;
+  }
+  function parseUnary(){
+    if(peek()&&peek().t==="op"&&peek().v==="-"){next();return -parseUnary();}
+    if(peek()&&peek().t==="op"&&peek().v==="+"){next();return parseUnary();}
+    return parseAtom();
+  }
+  var xVal=0;
+  function parseAtom(){
+    var tk=next();
+    if(!tk)throw new Error("Fin d’expression inattendue");
+    if(tk.t==="num")return tk.v;
+    if(tk.t==="var")return xVal;
+    if(tk.t==="fn"){
+      var a=parseAtomWrapped();
+      switch(tk.v){
+        case "sin":return Math.sin(a);case "cos":return Math.cos(a);case "tan":return Math.tan(a);
+        case "sqrt":if(a<0)throw new Error("domain");return Math.sqrt(a);
+        case "abs":return Math.abs(a);
+        case "log":if(a<=0)throw new Error("domain");return Math.log10(a);
+        case "ln":if(a<=0)throw new Error("domain");return Math.log(a);
+        case "exp":return Math.exp(a);
+      }
+    }
+    if(tk.t==="op"&&tk.v==="("){var v=parseExpr();var close=next();if(!close||close.v!==")")throw new Error("Parenthèse fermante manquante");return v;}
+    throw new Error("Unexpected token");
+  }
+  function parseAtomWrapped(){
+    var tk=peek();
+    if(tk&&tk.t==="op"&&tk.v==="("){return parseAtom();}
+    return parseAtom();
+  }
+  return function(x){
+    pos=0; xVal=x;
+    var v=parseExpr();
+    if(pos<tokens.length)throw new Error("Trailing characters");
+    return v;
+  };
+}
+function evaluateExpression(expr,x){return makeFunction(expr)(x);}
+/*TESTABLE_END*/
+var GR={range:10};
+function grDraw(){
+  var cv=document.getElementById('grCanvas'), ctx=cv.getContext('2d');
+  var W=cv.width,H=cv.height,R=GR.range;
+  ctx.clearRect(0,0,W,H);
+  function px(x){return (x+R)/(2*R)*W;}
+  function py(y){return H-(y+R)/(2*R)*H;}
+  ctx.strokeStyle="#e6ecea";ctx.lineWidth=1;
+  for(var g=-Math.floor(R);g<=R;g++){ctx.beginPath();ctx.moveTo(px(g),0);ctx.lineTo(px(g),H);ctx.stroke();ctx.beginPath();ctx.moveTo(0,py(g));ctx.lineTo(W,py(g));ctx.stroke();}
+  ctx.strokeStyle="#9db3ae";ctx.lineWidth=1.6;
+  ctx.beginPath();ctx.moveTo(px(0),0);ctx.lineTo(px(0),H);ctx.stroke();
+  ctx.beginPath();ctx.moveTo(0,py(0));ctx.lineTo(W,py(0));ctx.stroke();
+  ctx.fillStyle="#5a6b68";ctx.font="11px Arial";
+  for(var t=-Math.floor(R);t<=R;t+= (R>10?5:1)){if(t!==0){ctx.fillText(t,px(t)-4,H-py(0)+14<-20?py(0)+14:py(0)+14);ctx.fillText(t,px(0)+5,py(t)+4);}}
+  var jobs=[["grF1","#bc4749"],["grF2","#0a423b"]];
+  jobs.forEach(function(job){
+    var expr=document.getElementById(job[0]).value.trim(); if(!expr)return;
+    var fn; try{fn=makeFunction(expr);}catch(e){return;}
+    ctx.strokeStyle=job[1];ctx.lineWidth=2.2;ctx.beginPath();
+    var pen=false;
+    for(var i=0;i<=W;i++){
+      var x=-R+ (2*R)*i/W, y;
+      try{y=fn(x);}catch(e){pen=false;continue;}
+      if(!isFinite(y)||Math.abs(y)>R*3){pen=false;continue;}
+      var X=px(x),Y=py(y);
+      if(!pen){ctx.moveTo(X,Y);pen=true;}else{
+        var prevY=py((function(){try{return fn(x-(2*R)/W);}catch(e){return NaN;}})());
+        if(isFinite(prevY)&&Math.abs(Y-prevY)>H*0.6){ctx.moveTo(X,Y);}else ctx.lineTo(X,Y);
+      }
+    }
+    ctx.stroke();
+  });
+}
+document.getElementById('grForm').addEventListener('submit',function(e){e.preventDefault();
+ var box=document.getElementById('grResult');
+ try{evaluateExpression(document.getElementById('grF1').value,1);}catch(err){box.style.display='block';box.innerHTML='<p class="err">La fonction 1 n’a pas pu être lue. Vérifiez les parenthèses et l’orthographe — par exemple x^2, sin(x), 2x+3.</p>';return;}
+ var f2=document.getElementById('grF2').value.trim();
+ if(f2){try{makeFunction(f2)(1);}catch(err){box.style.display='block';box.innerHTML='<p class="err">La fonction 2 n’a pas pu être lue.</p>';return;}}
+ box.style.display='none'; grDraw();});
+document.getElementById('grZoomIn').addEventListener('click',function(){GR.range=Math.max(1,GR.range*0.7);grDraw();});
+document.getElementById('grZoomOut').addEventListener('click',function(){GR.range=Math.min(1000,GR.range*1.4);grDraw();});
+document.getElementById('grReset').addEventListener('click',function(){GR.range=10;grDraw();});
+grDraw();
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Installer l’application';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Installez cette application : touchez le bouton Partager, puis choisissez « Ajouter à l’écran d’accueil ».');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

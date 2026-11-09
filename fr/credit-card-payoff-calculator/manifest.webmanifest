@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calculateur de remboursement de carte de crédit",
+  "short_name": "Calculateur de remboursement de carte de crédit",
+  "description": "Calculateur gratuit de remboursement de carte de crédit : solde, TAP et un paiement mensuel fixe — voyez les mois nécessaires pour rembourser, les intérêts totaux et le total payé, avec un avertissement pour les paiements trop petits.",
+  "id": "/loona-calculators/fr/credit-card-payoff-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Convertisseur Loona kilojoule en kilowattheure",
+  "short_name": "Kilojoule en kilowattheure",
+  "description": "Convertissez kilojoules en kilowattheures instantanément. Formule exacte, une table de conversion complète kJ en kWh, un exemple travaillé et des FAQ. Gratuit, sans inscription.",
+  "id": "/loona-calculators/fr/kilojoules-to-kilowatt-hours-converter.html",
+  "start_url": "./kilojoules-to-kilowatt-hours-converter.html",
+  "scope": "./kilojoules-to-kilowatt-hours-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calculateur d’IMC",
+  "short_name": "Calculateur BMI",
+  "description": "Calculateur d’IMC gratuit : saisissez votre poids et votre taille (cm ou pieds/pouces) pour vérifier votre indice de masse corporelle, votre catégorie et la fourchette de poids sain pour votre taille.",
+  "id": "/loona-calculators/fr/bmi-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

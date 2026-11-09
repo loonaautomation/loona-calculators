@@ -1,0 +1,29 @@
+{
+  "name": "Calculateur Loona louer ou acheter",
+  "short_name": "Calculateur louer ou acheter",
+  "description": "Calculateur gratuit louer contre acheter : comparez le coût total de la location au coût net de l’achat d’un logement sur les années pendant lesquelles vous prévoyez de rester — hypothèque, augmentations de loyer, croissance des prix et capital inclus.",
+  "id": "/loona-calculators/fr/rent-vs-buy-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

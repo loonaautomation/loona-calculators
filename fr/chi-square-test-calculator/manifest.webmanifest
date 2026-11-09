@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calculateur du test du khi-deux",
+  "short_name": "Calculateur de test du khi-carré",
+  "description": "Calculateur gratuit du test du khi-deux : saisissez un tableau observé pour un test d’indépendance, ou des effectifs observés contre attendus pour l’adéquation. Khi-deux, ddl et valeur p.",
+  "id": "/loona-calculators/fr/chi-square-test-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

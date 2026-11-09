@@ -1,0 +1,29 @@
+{
+  "name": "Calculateur Loona de prêt hypothécaire pour le Pakistan",
+  "short_name": "Calculateur de prêt immobilier Pakistan",
+  "description": "Calculateur gratuit de financement immobilier pour le Pakistan en roupies : mensualité sur un solde dégressif, majoration totale et date de libération de dette pour tout prix de bien, apport, taux et durée.",
+  "id": "/loona-calculators/fr/pakistan-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

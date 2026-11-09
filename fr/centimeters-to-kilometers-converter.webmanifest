@@ -1,0 +1,29 @@
+{
+  "name": "Loona Convertisseur centimètre en kilomètre",
+  "short_name": "Centimètre en kilomètre",
+  "description": "Convertissez centimètres en kilomètres instantanément. Formule exacte, une table de conversion complète cm en km, un exemple travaillé et des FAQ. Gratuit, sans inscription.",
+  "id": "/loona-calculators/fr/centimeters-to-kilometers-converter.html",
+  "start_url": "./centimeters-to-kilometers-converter.html",
+  "scope": "./centimeters-to-kilometers-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

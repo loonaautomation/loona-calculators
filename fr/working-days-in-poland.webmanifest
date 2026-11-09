@@ -1,0 +1,29 @@
+{
+  "name": "Jours ouvrés Loona en Pologne",
+  "short_name": "Jours ouvrés en Pologne",
+  "description": "Calculateur de jours ouvrés pour la Pologne : comptez les jours ouvrables entre deux dates, week-ends et l’ensemble des 14 jours fériés polonais de 2026 retirés. Gratuit, sans inscription.",
+  "id": "/loona-calculators/fr/working-days-in-poland.html",
+  "start_url": "./working-days-in-poland.html",
+  "scope": "./working-days-in-poland.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

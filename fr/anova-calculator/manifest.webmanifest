@@ -1,0 +1,29 @@
+{
+  "name": "Calculateur Loona d’ANOVA à un facteur",
+  "short_name": "Calculateur d’ANOVA à un facteur",
+  "description": "Calculateur gratuit d’ANOVA à un facteur : saisissez les nombres de chaque groupe sur sa propre ligne pour obtenir les sommes des carrés, la statistique F, les degrés de liberté et la valeur p, avec les moyennes des groupes.",
+  "id": "/loona-calculators/fr/anova-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

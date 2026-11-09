@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calculators",
+  "short_name": "Calculateurs",
+  "description": "297 calculatrices en ligne gratuites : âge, zakat, pourcentage, CGPA, EMI, IMC, facture d’électricité et convertisseur de date hégirienne. Aucune inscription — rapide, précis et privé.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "id": "/loona-calculators/fr/"
+}

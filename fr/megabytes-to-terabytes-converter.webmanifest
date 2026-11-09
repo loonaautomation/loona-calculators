@@ -1,0 +1,29 @@
+{
+  "name": "Convertisseur Loona mégaoctet en téraoctet",
+  "short_name": "Convertisseur mégaoctet en téraoctet",
+  "description": "Convertissez mégaoctets en téraoctets instantanément. Formule exacte, une table de conversion complète MB en TB, un exemple travaillé et des FAQ. Gratuit, sans inscription.",
+  "id": "/loona-calculators/fr/megabytes-to-terabytes-converter.html",
+  "start_url": "./megabytes-to-terabytes-converter.html",
+  "scope": "./megabytes-to-terabytes-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

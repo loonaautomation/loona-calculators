@@ -1,0 +1,29 @@
+{
+  "name": "Calculateur Loona de statistiques",
+  "short_name": "Calculateur de statistiques",
+  "description": "Calculateur gratuit de statistiques : collez une liste de nombres pour la moyenne, la médiane, le mode, l’étendue, la variance et l’écart-type (population et échantillon), la somme et l’effectif.",
+  "id": "/loona-calculators/fr/statistics-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

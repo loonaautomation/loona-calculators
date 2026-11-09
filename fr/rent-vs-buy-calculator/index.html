@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculateur louer ou acheter — Louer ou acheter un logement ? | Loona Calculators</title>
+<meta name="description" content="Calculateur gratuit louer contre acheter : comparez le coût total de la location au coût net de l’achat d’un logement sur les années pendant lesquelles vous prévoyez de rester — hypothèque, augmentations de loyer, croissance des prix et capital inclus.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/fr/rent-vs-buy-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/rent-vs-buy-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/rent-vs-buy-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/rent-vs-buy-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/rent-vs-buy-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/rent-vs-buy-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/rent-vs-buy-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/rent-vs-buy-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Calculateur louer ou acheter — Louer ou acheter un logement ? | Loona Calculators">
+<meta property="og:description" content="Calculateur gratuit louer contre acheter : comparez le coût total de la location au coût net de l’achat d’un logement sur les années pendant lesquelles vous prévoyez de rester — hypothèque, augmentations de loyer, croissance des prix et capital inclus.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/fr/rent-vs-buy-calculator/"><meta property="og:locale" content="fr_FR">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Calculateur louer ou acheter — Louer ou acheter un logement ? | Loona Calculators">
+<meta name="twitter:description" content="Calculateur gratuit louer contre acheter : comparez le coût total de la location au coût net de l’achat d’un logement sur les années pendant lesquelles vous prévoyez de rester — hypothèque, augmentations de loyer, croissance des prix et capital inclus.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Calculateur Loona louer ou acheter","url":"https://loonaautomation.github.io/loona-calculators/fr/rent-vs-buy-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Vaut-il mieux louer ou acheter une maison ?","acceptedAnswer":{"@type":"Answer","text":"Cela dépend principalement de la durée de votre séjour et de l’évolution des prix et des loyers. L’achat entraîne des coûts initiaux élevés et les premières mensualités du prêt sont surtout composées d’intérêts, si bien que les courts séjours favorisent généralement la location. Plus vous restez longtemps, plus vous constituez un capital et plus l’achat prend l’avantage. Faites vos propres calculs ci-dessus — la seule durée du séjour peut faire basculer la réponse."}},{"@type":"Question","name":"Qu’est-ce que la règle des 5 ans pour l’achat d’un logement ?","acceptedAnswer":{"@type":"Answer","text":"Une directive approximative selon laquelle acheter ne commence généralement à battre la location qu’après environ cinq ans dans le même logement, car les coûts initiaux et les premiers paiements lourds en intérêts ont besoin de temps pour être répartis et compensés par les fonds propres et la croissance des prix. Ce n’est qu’une directive — une forte croissance des loyers ou des prix peut la raccourcir, et des prix stables peuvent l’étirer bien au-delà de cinq ans."}},{"@type":"Question","name":"Ce calculateur inclut-il la taxe foncière et les coûts d’achat ?","acceptedAnswer":{"@type":"Answer","text":"Les coûts récurrents sont couverts par le pourcentage d’entretien et d’assurance, que vous pouvez augmenter pour inclure la taxe foncière. Les coûts uniques — droits de timbre, enregistrement, frais juridiques et commission de vente — ne figurent pas dans le modèle par défaut. Ils sont réels, et ils pénalisent les séjours courts ; s’ils comptent dans votre cas, considérez le résultat d’achat comme légèrement optimiste."}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/fr/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Calculateur louer ou acheter",
+      "item": "https://loonaautomation.github.io/loona-calculators/fr/rent-vs-buy-calculator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Logo de Loona Automation">
+<div class="brand">Loona <span>Calculateurs</span></div>
+<nav>
+<a href="../">Accueil</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">À propos</a>
+<a href="../contact.html">Contact</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › Argent &amp; finances › Calculateur louer ou acheter</div>
+<h1 class="pagetitle">⚖️ Calculateur louer ou acheter</h1>
+<p class="lead">« Louer, c’est jeter l’argent par les fenêtres » et « une maison est toujours un investissement » sont deux affirmations trop simplistes. La réponse honnête dépend de la durée de votre séjour, de l’évolution du loyer dans le temps et du capital que vous constituez. Saisissez vos propres chiffres et ce calculateur compare le coût réel des deux choix sur la durée de votre séjour.</p>
+<div class="toolbox"><form class="calcform" id="rbForm">
+<div class="fld"><label for="rbPrice">Prix du logement</label><input type="number" step="any" min="0" id="rbPrice" value="8000000"></div>
+<div class="fld"><label for="rbDown">Apport personnel (%)</label><input type="number" step="any" min="0" max="100" id="rbDown" value="25"></div>
+<div class="fld"><label for="rbRate">Taux d’intérêt du prêt hypothécaire (% par an)</label><input type="number" step="any" min="0" id="rbRate" value="9"></div>
+<div class="fld"><label for="rbTerm">Durée du prêt hypothécaire (années)</label><input type="number" step="any" min="1" id="rbTerm" value="15"></div>
+<div class="fld"><label for="rbRent">Loyer mensuel actuel pour un logement similaire</label><input type="number" step="any" min="0" id="rbRent" value="30000"></div>
+<div class="fld"><label for="rbYears">Années pendant lesquelles vous prévoyez de rester dans le logement</label><input type="number" step="any" min="1" id="rbYears" value="5"></div>
+<div class="fld"><label for="rbRentInc">Augmentation du loyer (% par an)</label><input type="number" step="any" min="0" id="rbRentInc" value="5"></div>
+<div class="fld"><label for="rbAppr">Croissance du prix du logement (% par an)</label><input type="number" step="any" min="0" id="rbAppr" value="4"></div>
+<div class="fld"><label for="rbMaint">Entretien et assurance (% du prix par an)</label><input type="number" step="any" min="0" id="rbMaint" value="1"></div>
+<button class="calcbtn" type="submit">Comparer louer ou acheter</button>
+</form>
+<div class="calcresult" id="rbRes" style="display:none"></div></div>
+<section class="txt"><h2>Comment utiliser le calculateur louer ou acheter</h2><ol><li>Saisissez le prix du logement et l’apport personnel que vous feriez.</li><li>Ajoutez le taux et la durée du prêt immobilier, ainsi que le loyer que vous paieriez autrement pour un logement similaire.</li><li>Définissez combien d’années vous comptez rester, à quelle vitesse le loyer augmente chaque année, et à quelle vitesse les prix des logements croissent.</li><li>Appuyez sur Comparer — le verdict indique quelle option coûte le moins cher sur votre séjour, et de combien.</li></ol>
+<h2>Questions fréquemment posées</h2></section><div class="faq"><h3>Vaut-il mieux louer ou acheter une maison ?</h3><p>Cela dépend principalement de la durée de votre séjour et de l’évolution des prix et des loyers. L’achat entraîne des coûts initiaux élevés et les premières mensualités du prêt sont surtout composées d’intérêts, si bien que les courts séjours favorisent généralement la location. Plus vous restez longtemps, plus vous constituez un capital et plus l’achat prend l’avantage. Faites vos propres calculs ci-dessus — la seule durée du séjour peut faire basculer la réponse.</p></div><div class="faq"><h3>Qu’est-ce que la règle des 5 ans pour l’achat d’un logement ?</h3><p>Une directive approximative selon laquelle acheter ne commence généralement à battre la location qu’après environ cinq ans dans le même logement, car les coûts initiaux et les premiers paiements lourds en intérêts ont besoin de temps pour être répartis et compensés par les fonds propres et la croissance des prix. Ce n’est qu’une directive — une forte croissance des loyers ou des prix peut la raccourcir, et des prix stables peuvent l’étirer bien au-delà de cinq ans.</p></div><div class="faq"><h3>Ce calculateur inclut-il la taxe foncière et les coûts d’achat ?</h3><p>Les coûts récurrents sont couverts par le pourcentage d’entretien et d’assurance, que vous pouvez augmenter pour inclure la taxe foncière. Les coûts uniques — droits de timbre, enregistrement, frais juridiques et commission de vente — ne figurent pas dans le modèle par défaut. Ils sont réels, et ils pénalisent les séjours courts ; s’ils comptent dans votre cas, considérez le résultat d’achat comme légèrement optimiste.</p></div>
+<h2 class="sec">Calculateurs associés</h2><div class="grid"><a class="card" href="../rent-affordability-calculator/" data-name="rent affordability calculator rent-affordability-calculator"><div class="ic">🔑</div><h3>Calculateur d’accessibilité du loyer</h3><p>Calculateur gratuit d’abordabilité du loyer : saisissez votre revenu et vos dettes pour voir le loyer maximal que vous pouvez vous permettre selon les règles des 30 % et 28/36.</p></a><a class="card" href="../rent-split-calculator/" data-name="rent split calculator rent-split-calculator"><div class="ic">🤝</div><h3>Calculateur de répartition du loyer</h3><p>Calculateur gratuit de partage de loyer : répartissez le loyer équitablement entre colocataires — à parts égales, selon la taille de la chambre ou selon le revenu.</p></a><a class="card" href="../rent-increase-calculator/" data-name="rent increase calculator rent-increase-calculator"><div class="ic">📈</div><h3>Calculateur d’augmentation de loyer</h3><p>Calculateur gratuit d’augmentation de loyer : voyez votre nouveau loyer après une augmentation en pourcentage, plus une projection année par année.</p></a><a class="card" href="../mortgage-calculator/" data-name="mortgage calculator mortgage-calculator"><div class="ic">🏠</div><h3>Calculateur de prêt hypothécaire</h3><p>Calculateur gratuit d’hypothèque : prix du logement, apport, taux d’intérêt et durée — obtenez le montant du prêt, le paiement mensuel, les intérêts totaux et le coût total de votre logement.</p></a><a class="card" href="../emi-calculator/" data-name="emi & loan calculator emi-calculator"><div class="ic">🏦</div><h3>Calculateur d’EMI et de prêt</h3><p>Calculateur gratuit d’EMI et de prêt : saisissez le montant du prêt, le taux d’intérêt ou de bénéfice et la durée pour obtenir votre mensualité et le coût total.</p></a></div>
+</div>
+<section class="txt"><h2>Fonctionnement — la formule</h2><p><strong>Location</strong> est une suite géométrique : chaque année, le loyer augmente de votre pourcentage d’augmentation, donc le total est la somme des loyers de chaque année de votre séjour. <strong>Achat</strong> est comparé sur une base nette — tout ce que vous dépensez, moins ce que vous récupérez. La mensualité du prêt utilise la formule d’annuité standard (taux mensuel = taux annuel ÷ 1200). À la fin de votre séjour, le logement est vendu à sa valeur appréciée ; ce que vous conservez, c’est cette valeur moins le solde du prêt encore dû (vos fonds propres).</p>
+<p><strong>Formules :</strong> Loyer total = Σ loyer mensuel × (1 + augmentation)<sup>année</sup> × 12. Mensualité = Prêt × r × (1 + r)<sup>n</sup> ÷ ((1 + r)<sup>n</sup> − 1). Coût net d’achat = apport initial + mensualités du prêt pendant le séjour + entretien &amp; assurance − (valeur à la vente − solde restant).</p><h3>Exemple détaillé</h3><div class="exbox"><p><strong>Entrées :</strong> Prix du logement Rs 80,00,000 ; apport 25 % (Rs 20,00,000) ; hypothèque 9 % sur 15 ans ; loyer Rs 30,000/mois augmentant de 5 % par an ; séjour de 5 ans ; croissance des prix 4 % par an ; entretien et &amp; assurance 1 % du prix par an.</p>
+<p><strong>Étapes :</strong> Le prêt est de Rs 60,00,000 et la mensualité de Rs 60,856. La location coûte Rs 19,89,227 sur les 5 ans. L’achat : Rs 20,00,000 d’apport + Rs 36,51,360 de paiements + Rs 4,00,000 d’entretien = Rs 60,51,360 déboursés ; le logement atteint Rs 97,33,223, le solde du prêt est de Rs 48,04,075, de sorte que les fonds propres récupérés sont de Rs 49,29,148 — soit un coût net de Rs 11,22,212.</p>
+<p><strong>Résultat :</strong> Sur 5 ans, <strong>acheter revient moins cher de Rs 8,67,016</strong> dans cet exemple. Passez le séjour à 2 ans ou la croissance à 0% et la réponse s’inverse — c’est exactement pour cela que les paramètres vous appartiennent.</p></div><h3>Questions fréquentes</h3></section><div class="faq"><h3>Pourquoi la durée de mon séjour change-t-elle autant la réponse ?</h3><p>Lorsque vous louez, chaque paiement est définitivement parti, mais il n’y a rien à mettre en place. Lorsque vous achetez, l’apport initial et les frais sortent dès le premier jour, tandis que le bénéfice — les fonds propres — se construit lentement au début, car les premiers paiements sont surtout des intérêts. Le temps est ce qui permet à l’appréciation de la valeur totale du logement et à la baisse du solde du prêt de jouer en votre faveur.</p></div><div class="faq"><h3>Quel taux de croissance des prix dois-je saisir ?</h3><p>Utilisez un chiffre prudent à long terme pour votre ville — pour de nombreuses zones, 3–5% par an est une fourchette de planification raisonnable, à peu près en ligne avec l’inflation à long terme. Évitez d’utiliser l’année récente la plus chaude comme hypothèse ; si la réponse ne fonctionne qu’avec une croissance de 8–10%, c’est la croissance qui fait le travail, et non l’achat.</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Intégrez ce calculateur à votre site — gratuit</h2>
+<p style="margin:0 0 12px;line-height:1.6">Ajoutez ce calculateur à votre propre site web ou blog — c’est entièrement gratuit, sans inscription, et il affiche toujours la dernière version. Copiez le code ci-dessous et collez-le dans votre page à l’endroit où vous voulez que le calculateur apparaisse. Conserver la petite ligne de crédit &ldquo;Powered by Loona Automation&rdquo; sous l’intégration aide à garder cet outil gratuit &mdash; mais vous êtes libre de la styliser ou de la supprimer ; l’outil fonctionne dans les deux cas.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/fr/rent-vs-buy-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Rent vs Buy Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Propulsé par &lt;a href="https://loonaautomation.github.io/loona-calculators/fr/rent-vs-buy-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; gratuit Calculateur louer ou acheter&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Copier le code d’intégration</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='Copier le code d’intégration';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Calculateurs populaires</h4><ul><li><a href="../age-calculator/">Calculateur d’âge</a></li>
+<li><a href="../zakat-calculator/">Calculateur de zakat</a></li>
+<li><a href="../cgpa-calculator/">Calculateur CGPA</a></li>
+<li><a href="../percentage-calculator/">Calculateur de pourcentage</a></li>
+<li><a href="../hijri-date-converter/">Convertisseur de dates hégiriennes</a></li>
+<li><a href="../emi-calculator/">Calculateur d’EMI et de prêt</a></li></ul></div>
+<div><h4>Plus d’outils Loona</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Codes QR Loona</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Compresseur d’images Loona</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona Assistant IA</a></li>
+<li><a href="https://loonaautomation.github.io/">Tous les outils Loona</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">À propos</a></li>
+<li><a href="../contact.html">Contact</a></li>
+<li><a href="../privacy-policy.html">Politique de confidentialité</a></li>
+<li><a href="../terms.html">Conditions d’utilisation</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — un <a href="https://loonaautomation.github.io/">Loona Automation</a> projet. Calculateurs en ligne gratuits, sans inscription.
+Contact : <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+/* Rent vs Buy — pure logic (unit-tested, inlined into the page) */
+function monthlyPayment(principal, annualRatePct, termYears){
+  var r = annualRatePct / 1200, n = termYears * 12;
+  if (principal <= 0) return 0;
+  if (r === 0) return principal / n;
+  var f = Math.pow(1 + r, n);
+  return principal * r * f / (f - 1);
+}
+function remainingBalance(principal, annualRatePct, termYears, monthsPaid){
+  var r = annualRatePct / 1200, n = termYears * 12;
+  if (monthsPaid >= n) return 0;
+  var m = monthlyPayment(principal, annualRatePct, termYears);
+  if (r === 0) return principal - m * monthsPaid;
+  var f = Math.pow(1 + r, monthsPaid);
+  return principal * f - m * (f - 1) / r;
+}
+function rentTotalCost(monthlyRent, increasePct, years){
+  var total = 0, rent = monthlyRent;
+  for (var y = 0; y < years; y++){ total += rent * 12; rent *= (1 + increasePct / 100); }
+  return total;
+}
+function rentVsBuy(o){
+  var down = o.price * o.downPct / 100;
+  var loan = o.price - down;
+  var m = monthlyPayment(loan, o.ratePct, o.termYears);
+  var monthsStay = o.years * 12;
+  var payMonths = Math.min(monthsStay, o.termYears * 12);
+  var totalPayments = m * payMonths;
+  var balance = remainingBalance(loan, o.ratePct, o.termYears, monthsStay);
+  var valueAtSale = o.price * Math.pow(1 + o.appreciationPct / 100, o.years);
+  var equity = valueAtSale - balance;
+  var maintenance = o.price * o.maintenancePct / 100 * o.years;
+  var buyNetCost = down + totalPayments + maintenance - equity;
+  var rentCost = rentTotalCost(o.monthlyRent, o.rentIncreasePct, o.years);
+  return {
+    downPayment: down, loanAmount: loan, monthlyPayment: m,
+    totalPayments: totalPayments, remainingBalance: balance,
+    valueAtSale: valueAtSale, equity: equity, maintenance: maintenance,
+    buyNetCost: buyNetCost, rentTotalCost: rentCost,
+    difference: Math.abs(rentCost - buyNetCost),
+    cheaper: buyNetCost < rentCost ? "buy" : (rentCost < buyNetCost ? "rent" : "equal")
+  };
+}
+function fmt(n){return "Rs " + Math.round(n).toLocaleString("en-IN");}
+function fmt2(n){return "Rs " + n.toLocaleString("en-IN",{minimumFractionDigits:2,maximumFractionDigits:2});}
+function pctFmt(n){return parseFloat(n.toFixed(2)) + "%";}
+function num(id){var v=parseFloat(document.getElementById(id).value);return isNaN(v)?0:v;}
+document.getElementById("rbForm").addEventListener("submit", function(e){
+  e.preventDefault();
+  var res = document.getElementById("rbRes");
+  var o = { price: num("rbPrice"), downPct: num("rbDown"), ratePct: num("rbRate"), termYears: num("rbTerm"),
+            monthlyRent: num("rbRent"), years: num("rbYears"), rentIncreasePct: num("rbRentInc"),
+            appreciationPct: num("rbAppr"), maintenancePct: num("rbMaint") };
+  if (o.price <= 0 || o.termYears <= 0 || o.years <= 0){ res.style.display = "block"; res.innerHTML = '<div class="err">Veuillez saisir un prix de logement, une durée de prêt immobilier et une durée de séjour supérieures à zéro.</div>'; return; }
+  var r = rentVsBuy(o);
+  var verdict = r.cheaper === "buy" ? "Acheter coûte moins cher de " + fmt(r.difference)
+              : r.cheaper === "rent" ? "Louer coûte moins cher de " + fmt(r.difference)
+              : "Les deux coûtent presque exactement la même chose";
+  res.style.display = "block";
+  res.innerHTML = '<div class="resbig"><span>' + verdict + ' sur ' + o.years + (o.years == 1 ? ' an' : ' ans') + '</span><strong>' + fmt(r.difference) + '</strong></div>'
+    + '<table class="restbl">'
+    + '<tr><td>Coût total de la location (le loyer augmente de ' + pctFmt(o.rentIncreasePct) + ' par an)</td><td>' + fmt(r.rentTotalCost) + '</td></tr>'
+    + '<tr><td>Coût net de l’achat (après la vente et la conservation des fonds propres)</td><td>' + fmt(r.buyNetCost) + '</td></tr>'
+    + '<tr><td>Apport personnel</td><td>' + fmt(r.downPayment) + '</td></tr>'
+    + '<tr><td>Montant du prêt</td><td>' + fmt(r.loanAmount) + '</td></tr>'
+    + '<tr><td>Mensualité du prêt immobilier</td><td>' + fmt(r.monthlyPayment) + '</td></tr>'
+    + '<tr><td>Mensualités payées pendant votre séjour</td><td>' + fmt(r.totalPayments) + '</td></tr>'
+    + '<tr><td>Entretien &amp; assurance pendant votre séjour</td><td>' + fmt(r.maintenance) + '</td></tr>'
+    + '<tr><td>Valeur du logement à la vente</td><td>' + fmt(r.valueAtSale) + '</td></tr>'
+    + '<tr><td>Solde du prêt encore dû à la vente</td><td>' + fmt(r.remainingBalance) + '</td></tr>'
+    + '<tr><td>Fonds propres que vous récupérez (valeur − solde)</td><td>' + fmt(r.equity) + '</td></tr>'
+    + '</table>'
+    + '<p class="resnote">Le chiffre de l’achat est un coût net : tout ce que vous payez (apport, mensualités, entretien et assurance) moins les fonds propres que vous récupérez à la vente. Il n’inclut pas les frais ponctuels d’achat et de vente tels que les droits de mutation, les frais juridiques ou la commission d’agence, et le loyer est supposé augmenter une fois par an. Ajoutez ces frais au pourcentage d’entretien si vous voulez les inclure approximativement.</p>';
+});
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Installer l’application';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Installez cette application : touchez le bouton Partager, puis choisissez « Ajouter à l’écran d’accueil ».');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body></html>

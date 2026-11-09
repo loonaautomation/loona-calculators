@@ -1,0 +1,29 @@
+{
+  "name": "Convertisseur Loona tonne américaine en once",
+  "short_name": "Convertisseur Tonne américaine en Once",
+  "description": "Convertissez tonnes américaines en onces instantanément. Formule exacte, une table de conversion complète US ton en oz, un exemple travaillé et des FAQ. Gratuit, sans inscription.",
+  "id": "/loona-calculators/fr/us-tons-to-ounces-converter.html",
+  "start_url": "./us-tons-to-ounces-converter.html",
+  "scope": "./us-tons-to-ounces-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

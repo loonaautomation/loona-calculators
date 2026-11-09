@@ -1,0 +1,29 @@
+{
+  "name": "Calculateur Loona de pourcentage",
+  "short_name": "Calculateur de pourcentage",
+  "description": "Calculateur gratuit de pourcentages avec trois outils en un : combien vaut X % de Y, X représente quel pourcentage de Y, et l’augmentation ou la diminution en pourcentage entre deux nombres.",
+  "id": "/loona-calculators/fr/percentage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

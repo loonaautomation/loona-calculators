@@ -1,0 +1,29 @@
+{
+  "name": "Convertisseur Loona SGD en KRW",
+  "short_name": "Convertisseur sGD en KRW",
+  "description": "Convertissez le dollar de Singapour (SGD) en won sud-coréen (KRW). Taux de référence de la BCE daté du 06 novembre 2026, taux inverse, table de conversion et notes de corridor. À titre indicatif uniquement.",
+  "id": "/loona-calculators/fr/sgd-to-krw-converter.html",
+  "start_url": "./sgd-to-krw-converter.html",
+  "scope": "./sgd-to-krw-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calculateur de facture d’électricité",
+  "short_name": "Calculateur de facture d’électricité",
+  "description": "Calculateur gratuit de facture d’électricité : saisissez les unités consommées et les tarifs par tranche pour estimer votre facture mensuelle avec la GST. Tarifs modifiables pour LESCO, IESCO, K-Electric et toutes les compagnies d’électricité du Pakistan.",
+  "id": "/loona-calculators/fr/electricity-bill-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

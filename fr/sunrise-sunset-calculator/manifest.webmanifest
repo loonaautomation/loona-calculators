@@ -1,0 +1,29 @@
+{
+  "name": "Calculateur Loona de lever et coucher du soleil",
+  "short_name": "Calculateur de lever et coucher du soleil",
+  "description": "Calculateur gratuit de lever et de coucher du soleil : saisissez une date et une latitude/longitude pour obtenir le lever du soleil, le coucher du soleil, la durée du jour et le midi solaire en UTC et en termes solaires locaux. Mathématiques de la NOAA.",
+  "id": "/loona-calculators/fr/sunrise-sunset-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

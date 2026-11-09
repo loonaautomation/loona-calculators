@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calculateur de mensualités",
+  "short_name": "Calculateur d’EMI",
+  "description": "Calculateur gratuit d’EMI et de prêt : saisissez le montant du prêt, le taux d’intérêt ou de bénéfice et la durée pour obtenir votre mensualité, les intérêts totaux et le paiement total. Pour les prêts bancaires, automobiles et personnels.",
+  "id": "/loona-calculators/fr/emi-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Lanceur de dés",
+  "short_name": "Lanceur de dés",
+  "description": "Lanceur de dés gratuit en ligne : lancez de 1 à 6 dés — d6 standard, d20 et autres dés polyédriques — avec des dés visuels, des totaux, des moyennes et un historique des lancers.",
+  "id": "/loona-calculators/fr/dice-roller/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calculateur d’indemnité de fin de service",
+  "short_name": "Calculateur d’indemnité de fin de service",
+  "description": "Calculateur gratuit d’indemnité de fin de service : dernier salaire mensuel perçu et années de service terminées — estimez l’indemnité à un mois de salaire (30 jours de salaire) par année de service.",
+  "id": "/loona-calculators/fr/gratuity-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

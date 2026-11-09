@@ -1,0 +1,29 @@
+{
+  "name": "Loona Pile ou face",
+  "short_name": "Pile ou face",
+  "description": "Pile ou face gratuit en ligne : lancez une pièce virtuelle une fois ou dix fois à la fois, avec les comptes pile/face, les pourcentages, les statistiques de séries et un mode match au meilleur des manches.",
+  "id": "/loona-calculators/fr/coin-flip/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

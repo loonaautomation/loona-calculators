@@ -1,0 +1,29 @@
+{
+  "name": "Loona Âge selon l’année de naissance",
+  "short_name": "Âge par année de naissance",
+  "description": "L’âge atteint en 2026 pour chaque année de naissance de 1946 à 2025, avec les étiquettes de génération et les années jalons.",
+  "id": "/loona-calculators/fr/age-by-birth-year.html",
+  "start_url": "./age-by-birth-year.html",
+  "scope": "./age-by-birth-year.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

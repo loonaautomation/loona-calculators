@@ -1,0 +1,29 @@
+{
+  "name": "Calculateur Loona d’impôt sur le salaire au Pakistan 2026",
+  "short_name": "Calculateur d’impôt sur le salaire",
+  "description": "Calculateur gratuit d’impôt sur le salaire pour le Pakistan (année fiscale 2026) : saisissez votre salaire brut mensuel pour voir l’impôt sur le revenu par mois et par an, le salaire net à emporter et le taux d’imposition effectif. Tranches salariales FBR.",
+  "id": "/loona-calculators/fr/salary-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

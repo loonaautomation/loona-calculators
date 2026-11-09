@@ -1,0 +1,29 @@
+{
+  "name": "Calculateur Loona de loi de Poisson",
+  "short_name": "Distribution de Poisson",
+  "description": "Calculateur gratuit de distribution de Poisson : probabilité d’exactement k événements, au plus k, ou au moins k, étant donné le taux moyen lambda. Pour les appels, les arrivées, les défauts et les événements rares.",
+  "id": "/loona-calculators/fr/poisson-distribution-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

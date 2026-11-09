@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calculateur d’exposants",
+  "short_name": "Calculateur d’exposants",
+  "description": "Calculateur gratuit d’exposants : saisissez une base et un exposant pour le résultat de la puissance, plus un tableau bonus du carré, du cube, de la racine carrée et de la racine cubique de la base.",
+  "id": "/loona-calculators/fr/exponent-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Convertisseur Loona Kg en stone",
+  "short_name": "Convertisseur kg en stone",
+  "description": "Convertissez kilogrammes en stone instantanément. Formule exacte, une table de conversion complète kg en st et des exemples travaillés. Gratuit, sans inscription.",
+  "id": "/loona-calculators/fr/kilograms-to-stone-converter.html",
+  "start_url": "./kilograms-to-stone-converter.html",
+  "scope": "./kilograms-to-stone-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

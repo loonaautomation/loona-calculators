@@ -1,0 +1,29 @@
+{
+  "name": "Calculateur Loona de TVA",
+  "short_name": "Calculateur de TVA",
+  "description": "Calculateur gratuit de TVA/GST : ajoutez la taxe à un montant net ou retirez la taxe d’un montant brut à n’importe quel taux. Fonctionne pour la TVA, la GST et la taxe de vente dans n’importe quel pays.",
+  "id": "/loona-calculators/fr/vat-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

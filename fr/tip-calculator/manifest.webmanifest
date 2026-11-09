@@ -1,0 +1,29 @@
+{
+  "name": "Calculateur Loona de pourboire",
+  "short_name": "Calculateur de pourboire",
+  "description": "Calculateur gratuit de pourboire : saisissez l’addition, le pourcentage de pourboire et le nombre de personnes pour obtenir le montant du pourboire, l’addition totale et la part exacte que chacun paie.",
+  "id": "/loona-calculators/fr/tip-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Calculateur Loona de CGPA cible",
+  "short_name": "Calculateur de CGPA cible",
+  "description": "Calculateur gratuit de CGPA cible : CGPA actuel, crédits terminés, CGPA cible et crédits restants — voyez le GPA que vous devez obtenir, ou le CGPA maximal encore atteignable.",
+  "id": "/loona-calculators/fr/target-cgpa-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

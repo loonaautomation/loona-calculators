@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calculatrice graphique",
+  "short_name": "Calculatrice graphique",
+  "description": "Calculatrice graphique gratuite : tracez une ou deux fonctions comme x^2, sin(x) ou 2x+3 sur une grille avec zoom. Fonctionne dans votre navigateur, sans inscription.",
+  "id": "/loona-calculators/fr/graphing-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

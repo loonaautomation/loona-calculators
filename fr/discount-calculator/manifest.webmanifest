@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calculateur de remises",
+  "short_name": "Calculateur de remise",
+  "description": "Calculateur gratuit de remise : saisissez le prix et le pourcentage de remise pour obtenir le prix final et combien vous économisez. Prend en charge une deuxième remise supplémentaire et la taxe ajoutée après la remise.",
+  "id": "/loona-calculators/fr/discount-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

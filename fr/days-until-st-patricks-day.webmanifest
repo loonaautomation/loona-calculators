@@ -1,0 +1,29 @@
+{
+  "name": "Loona Compte à rebours avant la Saint-Patrick",
+  "short_name": "Jours avant la Saint-Patrick",
+  "description": "Compte à rebours en direct avant la Saint-Patrick : jours, heures, minutes et secondes restants exacts, la date cette année et les trois prochaines années, des faits et une FAQ.",
+  "id": "/loona-calculators/fr/days-until-st-patricks-day.html",
+  "start_url": "./days-until-st-patricks-day.html",
+  "scope": "./days-until-st-patricks-day.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

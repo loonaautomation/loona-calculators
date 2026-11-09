@@ -1,0 +1,29 @@
+{
+  "name": "Calculateur Loona de prêt hypothécaire",
+  "short_name": "Calculateur de prêt hypothécaire",
+  "description": "Calculateur gratuit d’hypothèque : prix du logement, apport, taux d’intérêt et durée — obtenez le montant du prêt, le paiement mensuel, les intérêts totaux et le coût total de votre logement.",
+  "id": "/loona-calculators/fr/mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

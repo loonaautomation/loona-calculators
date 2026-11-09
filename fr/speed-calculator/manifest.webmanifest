@@ -1,0 +1,29 @@
+{
+  "name": "Calculateur Loona de vitesse",
+  "short_name": "Calculateur de vitesse",
+  "description": "Calculateur gratuit de vitesse : saisissez une distance en kilomètres ou en miles et le temps mis pour obtenir la vitesse en km/h et en mph, plus l’allure par kilomètre et par mile.",
+  "id": "/loona-calculators/fr/speed-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

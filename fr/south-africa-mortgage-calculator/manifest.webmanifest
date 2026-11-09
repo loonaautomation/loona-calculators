@@ -1,0 +1,29 @@
+{
+  "name": "Calculateur Loona de prêt hypothécaire pour l’Afrique du Sud",
+  "short_name": "Prêt immobilier Afrique du Sud",
+  "description": "Calculateur gratuit de prêt immobilier (bond) pour l’Afrique du Sud en rand : remboursement mensuel, intérêts totaux et date de libération de dette pour tout prix de bien, apport, taux d’intérêt et durée, plus une comparaison de paiements supplémentaires.",
+  "id": "/loona-calculators/fr/south-africa-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

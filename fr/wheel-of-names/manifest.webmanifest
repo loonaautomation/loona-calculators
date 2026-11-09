@@ -1,0 +1,29 @@
+{
+  "name": "Roue des noms Loona",
+  "short_name": "Roue des noms",
+  "description": "Roue des noms gratuite : ajoutez des noms, faites tourner la roue colorée et choisissez un gagnant vraiment aléatoire pour les tombolas, les classes et les cadeaux. Sans inscription, fonctionne dans votre navigateur.",
+  "id": "/loona-calculators/fr/wheel-of-names/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

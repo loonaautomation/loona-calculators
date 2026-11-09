@@ -1,0 +1,29 @@
+{
+  "name": "Convertisseur Loona de pointures de chaussures",
+  "short_name": "Convertisseur de pointures de chaussures",
+  "description": "Convertisseur gratuit de pointures pour hommes et femmes : convertissez entre les tailles US, UK et EU et la longueur du pied en cm et en pouces, en utilisant les tableaux de conversion standard avec la correspondance la plus proche.",
+  "id": "/loona-calculators/fr/shoe-size-converter/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

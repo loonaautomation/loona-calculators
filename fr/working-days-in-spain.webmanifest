@@ -1,0 +1,29 @@
+{
+  "name": "Jours ouvrés Loona en Espagne",
+  "short_name": "Jours ouvrés en Espagne",
+  "description": "Calculateur de jours ouvrés pour l’Espagne : comptez les jours ouvrables entre deux dates, week-ends et jours fériés nationaux espagnols de 2026 retirés. Outil gratuit.",
+  "id": "/loona-calculators/fr/working-days-in-spain.html",
+  "start_url": "./working-days-in-spain.html",
+  "scope": "./working-days-in-spain.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

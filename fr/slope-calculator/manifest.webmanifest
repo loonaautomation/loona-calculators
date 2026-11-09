@@ -1,0 +1,29 @@
+{
+  "name": "Calculateur Loona de pente",
+  "short_name": "Calculateur de pente",
+  "description": "Calculateur gratuit de pente : saisissez deux points pour obtenir la pente, la distance entre eux, le point milieu, et l’équation de la droite sous forme pente-ordonnée à l’origine, avec le calcul.",
+  "id": "/loona-calculators/fr/slope-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

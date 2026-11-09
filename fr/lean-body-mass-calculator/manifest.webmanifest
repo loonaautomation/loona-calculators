@@ -1,0 +1,29 @@
+{
+  "name": "Calculateur Loona de masse maigre",
+  "short_name": "Calculateur de masse maigre",
+  "description": "Calculateur gratuit de masse maigre utilisant les formules de Boer, James et Hume à partir du poids, de la taille et du sexe — aucun mètre ruban nécessaire. Estimation éducative.",
+  "id": "/loona-calculators/fr/lean-body-mass-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
