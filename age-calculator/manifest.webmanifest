@@ -1,0 +1,29 @@
+{
+  "name": "Loona Age Calculator",
+  "short_name": "Age Calculator",
+  "description": "Free age calculator: enter your date of birth and get your exact age in years, months and days, plus total days, weeks and hours lived and your next birthday. No signup.",
+  "id": "/loona-calculators/age-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

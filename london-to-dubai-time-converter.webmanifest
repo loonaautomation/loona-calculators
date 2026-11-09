@@ -1,0 +1,29 @@
+{
+  "name": "Loona London to Dubai Time Converter",
+  "short_name": "London to Dubai Time Converter",
+  "description": "Convert London time to Dubai time. Dubai is 4 hours ahead of London in January and 3 hours ahead of in July, with daylight-saving dates, a 24-hour table and the best meeting window. Live converter included.",
+  "id": "/loona-calculators/london-to-dubai-time-converter.html",
+  "start_url": "./london-to-dubai-time-converter.html",
+  "scope": "./london-to-dubai-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

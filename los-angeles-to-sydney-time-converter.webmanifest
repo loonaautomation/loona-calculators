@@ -1,0 +1,29 @@
+{
+  "name": "Loona Los Angeles to Sydney Time Converter",
+  "short_name": "Los Angeles to Sydney Time Conve",
+  "description": "Convert Los Angeles time to Sydney time. Sydney is 19 hours ahead of Los Angeles in January and 17 hours ahead of in July, with daylight-saving dates, a 24-hour table and the best meeting window. Live converter included.",
+  "id": "/loona-calculators/los-angeles-to-sydney-time-converter.html",
+  "start_url": "./los-angeles-to-sydney-time-converter.html",
+  "scope": "./los-angeles-to-sydney-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

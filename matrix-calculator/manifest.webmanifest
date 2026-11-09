@@ -1,0 +1,29 @@
+{
+  "name": "Loona Matrix Calculator",
+  "short_name": "Matrix Calculator",
+  "description": "Free matrix calculator for 2x2 and 3x3 matrices: add, subtract, multiply, determinant and inverse with step values shown. No sign-up, works in your browser.",
+  "id": "/loona-calculators/matrix-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

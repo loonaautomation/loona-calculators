@@ -1,0 +1,29 @@
+{
+  "name": "Loona Millisecond to Year (Julian) Converter",
+  "short_name": "Millisecond to Year (Julian) Con",
+  "description": "Convert milliseconds to years instantly. Exact formula, a full ms to yr conversion table, a worked example and FAQs. Free, no sign-up.",
+  "id": "/loona-calculators/milliseconds-to-years-converter.html",
+  "start_url": "./milliseconds-to-years-converter.html",
+  "scope": "./milliseconds-to-years-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

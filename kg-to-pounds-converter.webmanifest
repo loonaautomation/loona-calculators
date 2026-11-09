@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kg to Pounds Converter",
+  "short_name": "Kg to Pounds Converter",
+  "description": "Convert kilograms to pounds instantly. Exact formula, a full kg to lb conversion table and worked examples. Free, no sign-up.",
+  "id": "/loona-calculators/kg-to-pounds-converter.html",
+  "start_url": "./kg-to-pounds-converter.html",
+  "scope": "./kg-to-pounds-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

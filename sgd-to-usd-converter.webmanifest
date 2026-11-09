@@ -1,0 +1,29 @@
+{
+  "name": "Loona SGD to USD Converter",
+  "short_name": "SGD to USD Converter",
+  "description": "Convert Singapore Dollar (SGD) to US Dollar (USD). ECB reference rate dated 06 November 2026, inverse rate, conversion table and corridor notes. Indicative only.",
+  "id": "/loona-calculators/sgd-to-usd-converter.html",
+  "start_url": "./sgd-to-usd-converter.html",
+  "scope": "./sgd-to-usd-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

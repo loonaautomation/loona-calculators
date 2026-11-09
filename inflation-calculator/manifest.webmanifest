@@ -1,0 +1,29 @@
+{
+  "name": "Loona Inflation Calculator",
+  "short_name": "Inflation Calculator",
+  "description": "Free inflation calculator: enter an amount, the inflation rate and years to see the future cost of the same goods and what today's money will really be worth.",
+  "id": "/loona-calculators/inflation-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

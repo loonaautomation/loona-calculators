@@ -1,0 +1,29 @@
+{
+  "name": "Loona Random Team Generator",
+  "short_name": "Random Team Generator",
+  "description": "Free random team generator: paste a list of names and split them into balanced random teams for sports, classes, games and workshops. Fair shuffle, no sign-up.",
+  "id": "/loona-calculators/random-team-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

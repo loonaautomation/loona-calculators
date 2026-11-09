@@ -1,0 +1,29 @@
+{
+  "name": "Loona Sleep Calculator",
+  "short_name": "Sleep Calculator",
+  "description": "Free sleep calculator: enter a wake-up time to get the best bedtimes, or a bedtime to get the best wake-up times — based on 90-minute sleep cycles plus falling-asleep time.",
+  "id": "/loona-calculators/sleep-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

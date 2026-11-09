@@ -1,0 +1,29 @@
+{
+  "name": "Loona Binary to Hexadecimal Converter",
+  "short_name": "Binary to Hexadecimal Converter",
+  "description": "Convert binary (base 2) to hexadecimal (base 16) with validation, place-value working and a reference table.",
+  "id": "/loona-calculators/binary-to-hexadecimal-converter.html",
+  "start_url": "./binary-to-hexadecimal-converter.html",
+  "scope": "./binary-to-hexadecimal-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

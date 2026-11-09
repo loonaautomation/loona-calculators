@@ -1,0 +1,29 @@
+{
+  "name": "Loona Dice Roller",
+  "short_name": "Dice Roller",
+  "description": "Free online dice roller: roll 1 to 6 dice — standard d6, d20 and other polyhedral dice — with visual dice, totals, averages and a roll history.",
+  "id": "/loona-calculators/dice-roller/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Pythagorean Theorem Calculator",
+  "short_name": "Pythagorean Theorem Calculator",
+  "description": "Free Pythagorean theorem calculator: enter any two sides of a right triangle to find the third — hypotenuse or leg — with the working shown.",
+  "id": "/loona-calculators/pythagorean-theorem-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

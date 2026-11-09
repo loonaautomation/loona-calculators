@@ -1,0 +1,29 @@
+{
+  "name": "Loona Millimetres to Feet Converter",
+  "short_name": "Millimetres to Feet Converter",
+  "description": "Convert millimetres to feet instantly. Exact formula, a full mm to ft conversion table and worked examples. Free, no sign-up.",
+  "id": "/loona-calculators/millimeters-to-feet-converter.html",
+  "start_url": "./millimeters-to-feet-converter.html",
+  "scope": "./millimeters-to-feet-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

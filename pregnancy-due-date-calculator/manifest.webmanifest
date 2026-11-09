@@ -1,0 +1,29 @@
+{
+  "name": "Loona Pregnancy Due Date Calculator",
+  "short_name": "Pregnancy Due Date Calculator",
+  "description": "Free pregnancy due date calculator: enter the first day of your last period (LMP) to get your expected due date, current week of pregnancy and trimester.",
+  "id": "/loona-calculators/pregnancy-due-date-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

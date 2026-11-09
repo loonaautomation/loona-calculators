@@ -1,0 +1,29 @@
+{
+  "name": "Loona New York to Los Angeles Time Converter",
+  "short_name": "New York to Los Angeles Time Con",
+  "description": "Convert New York time to Los Angeles time. Los Angeles is 3 hours behind New York all year, with daylight-saving dates, a 24-hour table and the best meeting window. Live converter included.",
+  "id": "/loona-calculators/new-york-to-los-angeles-time-converter.html",
+  "start_url": "./new-york-to-los-angeles-time-converter.html",
+  "scope": "./new-york-to-los-angeles-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

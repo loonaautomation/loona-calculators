@@ -1,0 +1,29 @@
+{
+  "name": "Loona JPY to TRY Converter",
+  "short_name": "JPY to TRY Converter",
+  "description": "Convert Japanese Yen (JPY) to Turkish Lira (TRY). ECB reference rate dated 06 November 2026, inverse rate, conversion table and corridor notes. Indicative only.",
+  "id": "/loona-calculators/jpy-to-try-converter.html",
+  "start_url": "./jpy-to-try-converter.html",
+  "scope": "./jpy-to-try-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

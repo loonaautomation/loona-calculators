@@ -1,0 +1,29 @@
+{
+  "name": "Loona Rent Increase Calculator",
+  "short_name": "Rent Increase Calculator",
+  "description": "Free rent increase calculator: enter your current rent and the percentage increase (or the new rent) to see the new monthly rent, the extra cost per month and year, and a year-by-year projection.",
+  "id": "/loona-calculators/rent-increase-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

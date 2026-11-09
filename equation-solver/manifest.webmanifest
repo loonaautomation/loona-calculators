@@ -1,0 +1,29 @@
+{
+  "name": "Loona Equation Solver (Linear & Quadratic)",
+  "short_name": "Equation Solver (Linear & Quadra",
+  "description": "Free equation solver for linear (ax + b = cx + d) and quadratic (ax² + bx + c = 0) equations, with full step-by-step working, the discriminant, complex roots and a final check.",
+  "id": "/loona-calculators/equation-solver/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

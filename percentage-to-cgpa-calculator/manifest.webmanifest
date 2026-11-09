@@ -1,0 +1,29 @@
+{
+  "name": "Loona Percentage to CGPA Converter",
+  "short_name": "Percentage to CGPA Converter",
+  "description": "Free percentage to CGPA converter: turn a percentage into CGPA out of 10 (divide by 9.5) or GPA out of 4, with the formula shown. For boards and universities.",
+  "id": "/loona-calculators/percentage-to-cgpa-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona EU261 Compensation Checker",
+  "short_name": "EU261 Compensation Checker",
+  "description": "Free EU261 compensation checker: enter flight distance and arrival delay to see if you may be owed €250, €400 or €600 under EC 261/2004, including the 50% reduction rule.",
+  "id": "/loona-calculators/eu261-compensation-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

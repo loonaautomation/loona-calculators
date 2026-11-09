@@ -1,0 +1,29 @@
+{
+  "name": "Loona Age by Birth Year",
+  "short_name": "Age by Birth Year",
+  "description": "Age turning in 2026 for every birth year 1946–2025, with generation labels and milestone years.",
+  "id": "/loona-calculators/age-by-birth-year.html",
+  "start_url": "./age-by-birth-year.html",
+  "scope": "./age-by-birth-year.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

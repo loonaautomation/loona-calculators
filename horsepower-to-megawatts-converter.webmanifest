@@ -1,0 +1,29 @@
+{
+  "name": "Loona Horsepower to Megawatt Converter",
+  "short_name": "Horsepower to Megawatt Converter",
+  "description": "Convert horsepower to megawatts instantly. Exact formula, a full hp to MW conversion table, a worked example and FAQs. Free, no sign-up.",
+  "id": "/loona-calculators/horsepower-to-megawatts-converter.html",
+  "start_url": "./horsepower-to-megawatts-converter.html",
+  "scope": "./horsepower-to-megawatts-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
