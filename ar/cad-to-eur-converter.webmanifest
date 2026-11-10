@@ -1,0 +1,29 @@
+{
+  "name": "Loona CAD إلى EUR محول",
+  "short_name": "محول CAD إلى EUR",
+  "description": "حوّل الدولار الكندي (CAD) إلى اليورو (EUR). ECB سعر الصرف المرجعي المؤرخة 06 نوفمبر 2026، السعر العكسي، جدول التحويل ونطاق ملاحظات. إرشادية فقط.",
+  "id": "/loona-calculators/ar/cad-to-eur-converter.html",
+  "start_url": "./cad-to-eur-converter.html",
+  "scope": "./cad-to-eur-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

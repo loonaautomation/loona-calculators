@@ -1,0 +1,29 @@
+{
+  "name": "Loona Vignette Checker",
+  "short_name": "Vignette Checker",
+  "description": "مجاني vignette checker: اختر الأوروبي دول في driving route إلى انظر أي تحتاج طريق سريع vignette، أي رسم tolls، وأي مجاني لـسيارات.",
+  "id": "/loona-calculators/ar/vignette-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

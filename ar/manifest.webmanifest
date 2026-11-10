@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calculators",
+  "short_name": "حاسبات",
+  "description": "297 حاسبة مجانية عبر الإنترنت: العمر، الزكاة، النسبة المئوية، CGPA، EMI، BMI، فاتورة الكهرباء ومحول التاريخ الهجري. دون تسجيل — سريعة ودقيقة وخاصة.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "id": "/loona-calculators/ar/"
+}

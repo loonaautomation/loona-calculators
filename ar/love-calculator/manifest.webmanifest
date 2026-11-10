@@ -1,0 +1,29 @@
+{
+  "name": "Loona Love حاسبة",
+  "short_name": "حاسبة Love",
+  "description": "مجاني love حاسبة (فقط لـfun): أدخل اثنان أسماء واحصل playful love النسبة المئوية وcompatibility message. light-hearted game إلى حصة مع صديق.",
+  "id": "/loona-calculators/ar/love-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

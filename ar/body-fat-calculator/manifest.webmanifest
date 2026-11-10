@@ -1,0 +1,29 @@
+{
+  "name": "Loona دهون الجسم حاسبة",
+  "short_name": "حاسبة دهون الجسم",
+  "description": "مجاني دهون الجسم حاسبة باستخدام لنا Navy circumference طريقة: طول، neck، waist (و hip لـwomen) يمنح دهون الجسم%، دهون mass، lean mass وACE category.",
+  "id": "/loona-calculators/ar/body-fat-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

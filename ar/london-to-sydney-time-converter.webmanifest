@@ -1,0 +1,29 @@
+{
+  "name": "Loona لندن إلى سيدني وقت محول",
+  "short_name": "لندن إلى سيدني وقت",
+  "description": "Convert لندن time to سيدني time. سيدني تتقدم عن لندن بمقدار 11 ساعة في يناير and 9 ساعات ahead of in يوليو، with daylight-saving dates، a 24-ساعة table and the best meeting window. Live converter included.",
+  "id": "/loona-calculators/ar/london-to-sydney-time-converter.html",
+  "start_url": "./london-to-sydney-time-converter.html",
+  "scope": "./london-to-sydney-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

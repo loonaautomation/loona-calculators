@@ -1,0 +1,29 @@
+{
+  "name": "Loona هرتز إلى كيلوهرتز محول",
+  "short_name": "محول هرتز إلى كيلوهرتز",
+  "description": "حوّل هرتز إلى كيلوهرتز فورًا. صيغة دقيقة، وجدول تحويل كامل من Hz إلى kHz، ومثال محلول وأسئلة شائعة. مجاني، دون تسجيل.",
+  "id": "/loona-calculators/ar/hertz-to-kilohertz-converter.html",
+  "start_url": "./hertz-to-kilohertz-converter.html",
+  "scope": "./hertz-to-kilohertz-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

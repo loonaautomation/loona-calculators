@@ -1,0 +1,29 @@
+{
+  "name": "Loona الوزن المثالي حاسبة",
+  "short_name": "حاسبة الوزن المثالي",
+  "description": "مجاني الوزن المثالي حاسبة: أدخل طول وgender إلى احصل الوزن المثالي (Devine صيغة) زائد كامل healthy BMI وزن مدى لـطول.",
+  "id": "/loona-calculators/ar/ideal-weight-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

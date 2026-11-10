@@ -1,0 +1,29 @@
+{
+  "name": "Loona قائمة Randomizer",
+  "short_name": "قائمة Randomizer",
+  "description": "مجاني قائمة randomizer: paste أي قائمة إلى shuffle إنه إلى عشوائي order، أو pick عشوائي sample items. Secure shuffle، لا شيء uploaded.",
+  "id": "/loona-calculators/ar/list-randomizer/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

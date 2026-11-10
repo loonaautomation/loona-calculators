@@ -1,0 +1,29 @@
+{
+  "name": "Loona حاسبة الوقت",
+  "short_name": "حاسبة الوقت",
+  "description": "مجاني حاسبة الوقت: اجمع أو اطرح ساعات، دقائق وثوانٍ بين اثنان durations. Perfect لـيعمل ساعات، video طول، travel وقت وstudy schedules.",
+  "id": "/loona-calculators/ar/time-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona ساعات إلى دقائق محول",
+  "short_name": "محول ساعات إلى دقائق",
+  "description": "حوّل ساعات إلى دقائق فورًا. دقيق صيغة، كامل h إلى min جدول التحويل وأمثلة محلولة. مجاني، دون تسجيل.",
+  "id": "/loona-calculators/ar/hours-to-minutes-converter.html",
+  "start_url": "./hours-to-minutes-converter.html",
+  "scope": "./hours-to-minutes-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

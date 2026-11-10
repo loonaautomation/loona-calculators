@@ -1,0 +1,29 @@
+{
+  "name": "Loona Investment حاسبة",
+  "short_name": "حاسبة Investment",
+  "description": "مجاني investment حاسبة: initial مبلغ زائد شهري additions وexpected return — اطلع على future قيمة، المجموع invested والمجموع gain فوق وقت.",
+  "id": "/loona-calculators/ar/investment-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

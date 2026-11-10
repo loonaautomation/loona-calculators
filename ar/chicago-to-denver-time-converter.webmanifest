@@ -1,0 +1,29 @@
+{
+  "name": "Loona شيكاغو إلى دنفر وقت محول",
+  "short_name": "شيكاغو إلى دنفر وقت",
+  "description": "حوّل شيكاغو وقت إلى دنفر وقت. دنفر 1 ساعات متأخر عن شيكاغو كل سنة، مع daylight-saving تواريخ، 24 - ساعة جدول والأفضل يقابل window. Live محول يشمل.",
+  "id": "/loona-calculators/ar/chicago-to-denver-time-converter.html",
+  "start_url": "./chicago-to-denver-time-converter.html",
+  "scope": "./chicago-to-denver-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

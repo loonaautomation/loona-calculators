@@ -1,0 +1,29 @@
+{
+  "name": "Loona Shoe مقاس محول",
+  "short_name": "محول Shoe مقاس",
+  "description": "مجاني shoe مقاس محول لـmen وwomen: حوّل بين لنا، UK وEU مقاسات وقدم طول في cm وبوصات، باستخدام قياسي تحويل مخطط مع nearest matching.",
+  "id": "/loona-calculators/ar/shoe-size-converter/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

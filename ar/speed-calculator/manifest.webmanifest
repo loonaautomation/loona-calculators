@@ -1,0 +1,29 @@
+{
+  "name": "Loona سرعة حاسبة",
+  "short_name": "حاسبة سرعة",
+  "description": "مجاني سرعة حاسبة: أدخل مسافة في كيلومترات أو أميال والوقت taken إلى احصل سرعة في km / h وmph، زائد pace لكل كيلومتر ولكل ميل.",
+  "id": "/loona-calculators/ar/speed-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

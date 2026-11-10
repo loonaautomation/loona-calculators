@@ -1,0 +1,29 @@
+{
+  "name": "Loona Matrix حاسبة",
+  "short_name": "حاسبة Matrix",
+  "description": "مجاني matrix حاسبة لـ2 x 2 و3 x 3 matrices: اجمع، اطرح، اضرب، determinant وعكسي مع خطوة قيم المعروض. دون تسجيل، يعمل في متصفحك.",
+  "id": "/loona-calculators/ar/matrix-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona يعمل ساعات حاسبة",
+  "short_name": "حاسبة يعمل ساعات",
+  "description": "مجاني يعمل ساعات حاسبة: ابدأ، نهاية وunpaid break يمنح صافي ساعات في اليوم ولكل أسبوع — زائد يومي وأسبوعي ادفع عندما أنت اجمع hourly سعر. ليل shifts supported.",
+  "id": "/loona-calculators/ar/work-hours-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>معادلة Solver (Linear &amp; Quadratic) — خطوة بخطوة إجابة | Loona Calculators</title>
+<meta name="description" content="مجاني معادلة solver لـlinear (ax + b = cx + d) وquadratic (ax² + bx + c = 0) معادلات، مع كامل خطوة بخطوة خطوات الحل، discriminant، complex جذر وfinal تحقق.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/ar/equation-solver/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/equation-solver/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/equation-solver/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/equation-solver/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/equation-solver/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/equation-solver/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/equation-solver/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/equation-solver/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/equation-solver/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/equation-solver/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="معادلة Solver (Linear &amp; Quadratic) — خطوة بخطوة إجابة | Loona Calculators">
+<meta property="og:description" content="مجاني معادلة solver لـlinear (ax + b = cx + d) وquadratic (ax² + bx + c = 0) معادلات، مع كامل خطوة بخطوة خطوات الحل، discriminant، complex جذر وfinal تحقق.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/ar/equation-solver/"><meta property="og:locale" content="ar_EG">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="معادلة Solver (Linear &amp; Quadratic) — خطوة بخطوة إجابة | Loona Calculators">
+<meta name="twitter:description" content="مجاني معادلة solver لـlinear (ax + b = cx + d) وquadratic (ax² + bx + c = 0) معادلات، مع كامل خطوة بخطوة خطوات الحل، discriminant، complex جذر وfinal تحقق.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona معادلة Solver","url":"https://loonaautomation.github.io/loona-calculators/ar/equation-solver/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"ما kinds معادلات يمكن هذا solver handle؟","acceptedAnswer":{"@type":"Answer","text":"Linear معادلات في form ax + b = cx + d، وquadratic معادلات في form ax² + bx + c = 0. إنه يعرض كل خطوة، discriminant لـquadratics، وfinal تحقق. إنه يفعل لا solve cubic معادلات، simultaneous معادلات في اثنان unknowns، أو inequalities — الصفحة title يقول تمامًا ما إنه covers."}},{"@type":"Question","name":"ماذا يعني \" لا حل \" أو \" infinitely كثير حلول \" متوسط؟","acceptedAnswer":{"@type":"Answer","text":"أحيانًا x مدة cancel خارج completely. إذا أعداد أيضًا match (like 5 x + 1 = 5 x + 1) المعادلة دائمًا الحقيقي — infinitely كثير حلول. إذا أعداد افعل لا match (5 x + 1 = 5 x + 3) إنه يمكن أبدًا يكون الحقيقي — لا حل. solver tells أنت honestly أي case أنت لديك بدلاً من inventing إجابة."}},{"@type":"Question","name":"ما هي complex جذر؟","acceptedAnswer":{"@type":"Answer","text":"عندما quadratic discriminant (b² − 4 ac) negative، رسم بياني أبدًا crosses x-axis وهناك لا حقيقي إجابة. جذر ثم complex أعداد باستخدام أنا، where i² = − 1 — على سبيل المثال، x² + 1 = 0 لديه جذر x = أنا وx = − أنا. هذا solver يعرض لهم ولا يزال تحقق لهم."}}]}</script>
+
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/ar/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "معادلة Solver",
+      "item": "https://loonaautomation.github.io/loona-calculators/ar/equation-solver/"
+    }
+  ]
+}</script>
+
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation logo">
+<div class="brand">Loona <span>حاسبات</span></div>
+<nav>
+<a href="../">الرئيسية</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">من نحن</a>
+<a href="../contact.html">اتصل بنا</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › رياضيات › معادلة Solver</div>
+<h1 class="pagetitle">معادلة Solver (Linear &amp; Quadratic)</h1>
+<p class="lead">Solve linear معادلات (ax + b = cx + d) وquadratic معادلات (ax² + bx + c = 0) مع كل خطوة المعروض — بما في ذلك discriminant، repeated وcomplex جذر، وfinal تحقق ذلك substitutes الإجابة رجوعًا في.</p>
+<div class="toolbox">
+<div class="calcform"><div class="fld"><label for="eqMode">معادلة اكتب</label><select id="eqMode"><option value="linear">Linear معادلة — ax + b = cx + d</option><option value="quad">Quadratic معادلة — ax² + bx + c = 0</option></select></div></div>
+<div id="eqLinear" class="view on">
+<form class="calcform" id="eqLinForm">
+<p style="margin-bottom:12px;color:#2c3e3b">أدخل أربعة أعداد في <strong>ax + b = cx + d</strong>. استخدم 0 where مدة missing — على سبيل المثال، 2 x + 3 = 7 = 2، b = 3، c = 0، d = 7.</p>
+<div class="fld"><label for="la">— coefficient x (يسار جانب)</label><input type="number" step="any" id="la" value="3"></div>
+<div class="fld"><label for="lb">b — عدد (يسار جانب)</label><input type="number" step="any" id="lb" value="2"></div>
+<div class="fld"><label for="lc">c — coefficient x (يمين جانب)</label><input type="number" step="any" id="lc" value="1"></div>
+<div class="fld"><label for="ld">d — عدد (يمين جانب)</label><input type="number" step="any" id="ld" value="10"></div>
+<button class="calcbtn" type="submit">Solve مع خطوات</button>
+</form>
+<div class="calcresult" id="eqLinRes" style="display:none"></div>
+</div>
+<div id="eqQuad" class="view">
+<form class="calcform" id="eqQuadForm">
+<p style="margin-bottom:12px;color:#2c3e3b">أدخل ثلاثة coefficients في <strong>ax² + bx + c = 0</strong>. استخدم 0 where مدة missing — على سبيل المثال، x² − 9 = 0 = 1، b = 0، c = − 9.</p>
+<div class="fld"><label for="qa">— coefficient x²</label><input type="number" step="any" id="qa" value="1"></div>
+<div class="fld"><label for="qb">b — coefficient x</label><input type="number" step="any" id="qb" value="-5"></div>
+<div class="fld"><label for="qc">c — constant عدد</label><input type="number" step="any" id="qc" value="6"></div>
+<button class="calcbtn" type="submit">Solve مع خطوات</button>
+</form>
+<div class="calcresult" id="eqQuadRes" style="display:none"></div>
+</div>
+</div>
+<section class="txt"><h2>كيفية استخدام المعادلة Solver</h2><ol><li>Choose المعادلة اكتب: linear (x فقط) أو quadratic (x²).</li><li>اكتب في coefficients — أعداد في front x² وx، وplain عدد. أدخل 0 لـأي missing مدة.</li><li>اضغط Solve مع خطوات واقرأ خطوات الحل سطر بواسطة سطر. أخير خطوة تحقق الإجابة بواسطة substituting إنه رجوعًا إلى الأصلي معادلة.</li></ol>
+<div class="exbox"><strong>مثال:</strong> 3 x + 2 = x + 10. Move x مدة يسار: 2 x + 2 = 10. Move العدد يمين: 2 x = 8. اقسم بواسطة 2: <strong>x = 4</strong>. تحقق: 3 × 4 + 2 = 14 و4 + 10 = 14 ✓</div>
+<h2>Frequently Asked أسئلة</h2></section><div class="faq"><h3>ما kinds معادلات يمكن هذا solver handle؟</h3><p>Linear معادلات في form ax + b = cx + d، وquadratic معادلات في form ax² + bx + c = 0. إنه يعرض كل خطوة، discriminant لـquadratics، وfinal تحقق. إنه يفعل لا solve cubic معادلات، simultaneous معادلات في اثنان unknowns، أو inequalities — الصفحة title يقول تمامًا ما إنه covers.</p></div><div class="faq"><h3>ماذا يعني " لا حل " أو " infinitely كثير حلول " متوسط؟</h3><p>أحيانًا x مدة cancel خارج completely. إذا أعداد أيضًا match (like 5 x + 1 = 5 x + 1) المعادلة دائمًا الحقيقي — infinitely كثير حلول. إذا أعداد افعل لا match (5 x + 1 = 5 x + 3) إنه يمكن أبدًا يكون الحقيقي — لا حل. solver tells أنت honestly أي case أنت لديك بدلاً من inventing إجابة.</p></div><div class="faq"><h3>ما هي complex جذر؟</h3><p>عندما quadratic discriminant (b² − 4 ac) negative، رسم بياني أبدًا crosses x-axis وهناك لا حقيقي إجابة. جذر ثم complex أعداد باستخدام أنا، where i² = − 1 — على سبيل المثال، x² + 1 = 0 لديه جذر x = أنا وx = − أنا. هذا solver يعرض لهم ولا يزال تحقق لهم.</p></div>
+<h2 class="sec">Related حاسبات</h2><div class="grid"><a class="card" href="../fraction-calculator/"><div class="ic">🍕</div><h3>حاسبة كسر</h3><p>رياضيات</p></a><a class="card" href="../percentage-calculator/"><div class="ic">％</div><h3>حاسبة النسبة المئوية</h3><p>رياضيات</p></a><a class="card" href="../exponent-calculator/"><div class="ic">x²</div><h3>حاسبة أس</h3><p>رياضيات</p></a><a class="card" href="../square-root-calculator/"><div class="ic">√</div><h3>حاسبة الجذر التربيعي</h3><p>رياضيات</p></a><a class="card" href="../scientific-calculator/"><div class="ic">🧮</div><h3>حاسبة Scientific</h3><p>رياضيات</p></a></div>
+</div>
+<section class="txt"><h2>كيف يعمل — الطريقة</h2>
+<p><strong>Linear معادلات</strong> solved بواسطة احتفظ المعادلة الرصيد — whatever أنت افعل إلى واحد جانب، أنت افعل إلى آخر. الأول x مدة gathered في يسار (اطرح cx من كلاهما جانب)، ثم العدد مدة في يمين (اطرح b)، وfinally كلاهما جانب مقسوم بواسطة coefficient x.</p>
+<p><strong>Quadratic معادلات</strong> استخدم quadratic صيغة. لـax² + bx + c = 0:</p>
+<p><strong>x = (− b ± √ (b² − 4 ac)) ÷ (2)</strong></p>
+<p>الجزء تحت الجذر، <strong>D = b² − 4 ac</strong>، called discriminant، وإنه tells أنت kind إجابة قبل أنت finish: D &amp;gt؛ 0 متوسط اثنان مختلف حقيقي جذر، D = 0 متوسط واحد repeated جذر، وD &amp;lt؛ 0 متوسط اثنان complex جذر ولا حقيقي إجابة.</p>
+<h3>مثال محلول</h3>
+<div class="exbox"><strong>مثال:</strong> Solve x² − 5 x + 6 = 0. هنا = 1، b = − 5، c = 6. D = (− 5) ² − 4 × 1 × 6 = 25 − 24 = 1، لذلك √ D = 1. ثم x = (5 + 1) ÷ 2 = <strong>3</strong> أو x = (5 − 1) ÷ 2 = <strong>2</strong>. تحقق x = 3: 9 − 15 + 6 = 0 ✓</div>
+<h3>Frequently asked أسئلة</h3></section>
+<div class="faq"><h3>كيف هل أ أدخل معادلة مع مدة missing؟</h3><p>أدخل 0 لـmissing coefficient. x² − 9 = 0 becomes = 1، b = 0، c = − 9، وsolver يعطي x = 3 أو x = − 3. لـlinear معادلة like 2 x = 10، ذلك = 2، b = 0، c = 0، d = 10.</p></div>
+<div class="faq"><h3>ما إذا أنا اكتب = 0 في quadratic solver؟</h3><p>ثم x² مدة disappears والمعادلة really linear. solver notices هذا وsolves إنه كـ linear معادلة بدلاً من، telling أنت ذلك ما happened.</p></div>
+<div class="faq"><h3>لماذا solver تحقق إجابة عند النهاية؟</h3><p>Substituting الإجابة رجوعًا إلى الأصلي معادلة surest طريقة إلى catch خطأ: إذا كلاهما جانب يأتي خارج يساوي، الإجابة certainly يمين. إنه good habit لـhomework أيضًا — teachers غالبًا يمنح طريقة marks لـvisible تحقق.</p></div>
+
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Embed هذا حاسبة في website — مجاني</h2>
+<p style="margin:0 0 12px;line-height:1.6">اجمع هذا حاسبة إلى الخاص به website أو blog — إنه completely مجاني، يحتاج دون تسجيل، ودائمًا يعرض latest version. Copy الرمز أدناه وpaste إنه إلى صفحة where أنت تريد الحاسبة إلى يظهر. احتفظ صغير &amp;ldquo؛ قدرة بواسطة Loona Automation &amp;rdquo؛ credit سطر تحت embed يساعد احتفظ هذا أداة مجاني — لكن أنت مجاني إلى style أو remove إنه؛ الأداة يعمل أي من طريقة.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/ar/equation-solver/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Equation Solver by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;مقدم من &lt;a href="https://loonaautomation.github.io/loona-calculators/ar/equation-solver/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; معادلة Solver مجانًا&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Copy embed رمز</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='Copy embed رمز';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>الحاسبات الشائعة</h4><ul><li><a href="../age-calculator/">حاسبة العمر</a></li>
+<li><a href="../zakat-calculator/">حاسبة الزكاة</a></li>
+<li><a href="../cgpa-calculator/">حاسبة CGPA</a></li>
+<li><a href="../percentage-calculator/">حاسبة النسبة المئوية</a></li>
+<li><a href="../hijri-date-converter/">محول هجري تاريخ</a></li>
+<li><a href="../emi-calculator/">حاسبة EMI &amp; قرض</a></li></ul></div>
+<div><h4>أكثر Loona أدوات</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR رموز</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Image Compressor</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI Assistant</a></li>
+<li><a href="https://loonaautomation.github.io/">كل Loona أدوات</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">من نحن</a></li>
+<li><a href="../contact.html">اتصل بنا</a></li>
+<li><a href="../privacy-policy.html">سياسة الخصوصية</a></li>
+<li><a href="../terms.html">مدة استخدم</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — <a href="https://loonaautomation.github.io/">Loona Automation</a> project. مجانية عبر الإنترنت حاسبات، دون تسجيل. الاتصال: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+/* Equation Solver (Linear & Quadratic) — pure logic, step-by-step */
+function feq(n){
+  if(typeof n!=="number"||isNaN(n))return "?";
+  if(Math.abs(n)<1e-12)n=0;
+  var s=String(parseFloat(n.toPrecision(10)));
+  return s.replace(/-/g,"−");
+}
+function pm(n){return n<0?" − "+feq(-n):" + "+feq(n);}
+function coef(n){if(n===1)return "";if(n===-1)return "−";return feq(n);}
+function linSide(a,b){return coef(a)+"x"+(b===0?"":pm(b));}
+function solveLinearEq(a,b,c,d){
+  var steps=[];
+  steps.push("ابدأ مع المعادلة: "+linSide(a,b)+" = "+linSide(c,d)+".");
+  var A=a-c,B=d-b;
+  if(c!==0)steps.push("Move x مدة إلى يسار بواسطة اطرح "+coef(c)+"x من كلاهما جانب: "+linSide(A,b)+" = "+feq(d)+".");
+  if(b!==0)steps.push("Move العدد مدة إلى يمين بواسطة "+(b>0?"subtracting":"adding")+" "+feq(Math.abs(b))+" في كلاهما جانب: "+coef(A)+"x = "+feq(B)+".");
+  if(A===0){
+    if(B===0){
+      steps.push("Both sides are identical (0 = 0), so the equation is true for every value of x.");
+      return {steps:steps,kind:"infinite",summary:"Infinitely كثير حلول — المعادلة identity."};
+    }
+    steps.push("This leaves 0 = "+feq(B)+"، أي خاطئ، لذلك لا قيمة x يمكن satisfy المعادلة.");
+    return {steps:steps,kind:"none",summary:"لا حل — المعادلة inconsistent."};
+  }
+  var x=B/A;
+  steps.push("اقسم كلاهما جانب بواسطة "+feq(A)+": x = "+feq(B)+" ÷ "+feq(A)+" = "+feq(x)+".");
+  var lhs=a*x+b,rhs=c*x+d;
+  steps.push("Check: substitute x = "+feq(x)+" back in. Left side = "+feq(a)+" × "+feq(x)+pm(b)+" = "+feq(lhs)+". Right side = "+feq(c)+" × "+feq(x)+pm(d)+" = "+feq(rhs)+". كلاهما جانب يساوي ✓");
+  return {steps:steps,kind:"one",x:x,summary:"x = "+feq(x)};
+}
+function quadSide(a,b,c){
+  var s=coef(a)+"x²";
+  if(b!==0)s+=(b<0?" − "+feq(-b):" + "+feq(b))+"x";
+  if(c!==0)s+=pm(c);
+  return s;
+}
+function solveQuadraticEq(a,b,c){
+  var steps=[];
+  if(a===0){
+    steps.push("Here a = 0, so this is not really a quadratic equation — it simplifies to the linear equation "+linSide(b,c)+" = 0.");
+    if(b===0){
+      if(c===0){steps.push("It becomes 0 = 0, which is true for every x.");return {steps:steps,kind:"infinite",summary:"Infinitely كثير حلول."};}
+      steps.push("It becomes "+feq(c)+" = 0, which is false.");return {steps:steps,kind:"none",summary:"لا حل."};
+    }
+    var xl=-c/b;
+    steps.push("Move العدد مدة across: "+coef(b)+"x = "+feq(-c)+".");
+    steps.push("Divide by "+feq(b)+": x = "+feq(xl)+".");
+    steps.push("Check: "+feq(b)+" × "+feq(xl)+pm(c)+" = "+feq(b*xl+c)+" ✓");
+    return {steps:steps,kind:"linear",x:xl,summary:"x = "+feq(xl)+" (linear, because a = 0)"};
+  }
+  steps.push("Identify coefficients في "+quadSide(a,b,c)+" = 0: a = "+feq(a)+", b = "+feq(b)+", c = "+feq(c)+".");
+  var D=b*b-4*a*c;
+  steps.push("Work out the discriminant: D = b² − 4ac = ("+feq(b)+")² − 4 × "+feq(a)+" × "+feq(c)+" = "+feq(b*b)+" − "+feq(4*a*c)+" = "+feq(D)+".");
+  if(D>0){
+    var sd=Math.sqrt(D);
+    steps.push("D is positive, so there are two different real roots. √D = √"+feq(D)+" = "+feq(sd)+".");
+    steps.push("Apply the quadratic formula: x = (−b ± √D) ÷ (2a) = ("+feq(-b)+" ± "+feq(sd)+") ÷ "+feq(2*a)+".");
+    var x1=(-b+sd)/(2*a),x2=(-b-sd)/(2*a);
+    steps.push("First root: x = ("+feq(-b)+" + "+feq(sd)+") ÷ "+feq(2*a)+" = "+feq(x1)+".");
+    steps.push("Second root: x = ("+feq(-b)+" − "+feq(sd)+") ÷ "+feq(2*a)+" = "+feq(x2)+".");
+    var v=a*x1*x1+b*x1+c;
+    steps.push("Check with x = "+feq(x1)+": "+feq(a)+" × ("+feq(x1)+")² + "+feq(b)+" × "+feq(x1)+pm(c)+" = "+feq(v)+" ✓ (0، كما expected).");
+    return {steps:steps,kind:"two",x1:x1,x2:x2,summary:"x = "+feq(x1)+" or x = "+feq(x2)};
+  }
+  if(D===0){
+    var xr=-b/(2*a);
+    steps.push("D تمامًا zero، لذلك كلاهما جذر نفس (repeated جذر).");
+    steps.push("Apply the formula: x = −b ÷ (2a) = "+feq(-b)+" ÷ "+feq(2*a)+" = "+feq(xr)+".");
+    var v0=a*xr*xr+b*xr+c;
+    steps.push("Check: "+feq(a)+" × ("+feq(xr)+")² + "+feq(b)+" × "+feq(xr)+pm(c)+" = "+feq(v0)+" ✓");
+    return {steps:steps,kind:"equal",x1:xr,x2:xr,summary:"x = "+feq(xr)+" (repeated جذر)"};
+  }
+  var re=-b/(2*a),im=Math.abs(Math.sqrt(-D)/(2*a));
+  steps.push("D negative، لذلك هناك لا حقيقي جذر — parabola أبدًا crosses x-axis.");
+  steps.push("Using √−1 = i: √D = √"+feq(-D)+" i = "+feq(Math.sqrt(-D))+"i.");
+  steps.push("Apply the formula: x = ("+feq(-b)+" ± "+feq(Math.sqrt(-D))+"i) ÷ "+feq(2*a)+", giving x = "+feq(re)+" + "+feq(im)+"i or x = "+feq(re)+" − "+feq(im)+"i.");
+  var zre=a*(re*re-im*im)+b*re+c,zim=2*a*re*im+b*im;
+  steps.push("Check with x = "+feq(re)+" + "+feq(im)+"أنا: المعادلة يعمل خارج إلى "+feq(zre)+" + "+feq(zim)+"أنا ≈ 0 ✓ (تقريب جانبًا).");
+  return {steps:steps,kind:"complex",re:re,im:im,summary:"x = "+feq(re)+" + "+feq(im)+"i or x = "+feq(re)+" − "+feq(im)+"أنا (لا حقيقي جذر)"};
+}
+if(typeof module!=="undefined"&&module.exports){module.exports={solveLinearEq:solveLinearEq,solveQuadraticEq:solveQuadraticEq,feq:feq};}
+
+/* ---------- Browser wiring ---------- */
+if(typeof document!=="undefined"){
+  document.addEventListener("DOMContentLoaded",function(){
+    var modeSel=document.getElementById("eqMode"),linView=document.getElementById("eqLinear"),quadView=document.getElementById("eqQuad");
+    if(!modeSel)return;
+    function sync(){var q=modeSel.value==="quad";linView.className="view"+(q?"":" on");quadView.className="view"+(q?" on":"");}
+    modeSel.addEventListener("change",sync);sync();
+    function num(id){return parseFloat(document.getElementById(id).value);}
+    function render(resEl,r){
+      if(!r){resEl.style.display="block";resEl.innerHTML='<p class="err">Please أدخل أعداد في كل box.</p>';return;}
+      var h='<div class="resbig"><span>إجابة</span><strong>'+r.summary+'</strong></div><p style="font-weight:700;color:#062e2a;margin-bottom:6px">خطوة بخطوة خطوات الحل</p><ol style="margin-left:20px">';
+      r.steps.forEach(function(s){h+="<li style='margin-bottom:6px'>"+s+"</li>";});
+      resEl.innerHTML=h+"</ol>";resEl.style.display="block";
+    }
+    document.getElementById("eqLinForm").addEventListener("submit",function(e){
+      e.preventDefault();
+      var a=num("la"),b=num("lb"),c=num("lc"),d=num("ld");
+      if([a,b,c,d].some(isNaN)){render(document.getElementById("eqLinRes"),null);return;}
+      render(document.getElementById("eqLinRes"),solveLinearEq(a,b,c,d));
+    });
+    document.getElementById("eqQuadForm").addEventListener("submit",function(e){
+      e.preventDefault();
+      var a=num("qa"),b=num("qb"),c=num("qc");
+      if([a,b,c].some(isNaN)){render(document.getElementById("eqQuadRes"),null);return;}
+      render(document.getElementById("eqQuadRes"),solveQuadraticEq(a,b,c));
+    });
+  });
+}
+</script>
+
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Install App';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Install هذا app: انقر حصة button، ثم choose " اجمع إلى منزل Screen ".');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body></html>

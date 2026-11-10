@@ -1,0 +1,29 @@
+{
+  "name": "Loona مدخرات حاسبة",
+  "short_name": "حاسبة مدخرات",
+  "description": "مجاني مدخرات حاسبة: أدخل شهري وديعة، فائدة سعر وسنوات إلى اطلع على future قيمة مدخرات، المجموع وديعة وفائدة earned.",
+  "id": "/loona-calculators/ar/savings-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

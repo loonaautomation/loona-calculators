@@ -1,0 +1,29 @@
+{
+  "name": "Loona إيجار تقسيم حاسبة",
+  "short_name": "حاسبة إيجار تقسيم",
+  "description": "مجاني إيجار تقسيم حاسبة: اقسم شهري إيجار بين 2 إلى 8 roommates — equally، بواسطة room مقاس في أقدام مربعة، أو بواسطة دخل. حصة دائمًا اجمع أعلى إلى دقيق المجموع.",
+  "id": "/loona-calculators/ar/rent-split-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

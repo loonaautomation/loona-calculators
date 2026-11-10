@@ -1,0 +1,29 @@
+{
+  "name": "Loona عمر فرق حاسبة",
+  "short_name": "حاسبة عمر فرق",
+  "description": "مجاني عمر فرق حاسبة: أدخل اثنان تواريخ الميلاد إلى احصل دقيق فرق في سنوات، أشهر وأيام، المجموع أيام بين لهم، ومن older.",
+  "id": "/loona-calculators/ar/age-difference-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

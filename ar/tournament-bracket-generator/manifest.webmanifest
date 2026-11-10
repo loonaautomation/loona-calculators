@@ -1,0 +1,29 @@
+{
+  "name": "Loona Tournament Bracket Generator",
+  "short_name": "Tournament Bracket Generator",
+  "description": "مجاني tournament bracket generator: أدخل entrants، احصل properly seeded single-elimination bracket مع byes handled — لـesports، sports أيام، chess وquizzes.",
+  "id": "/loona-calculators/ar/tournament-bracket-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

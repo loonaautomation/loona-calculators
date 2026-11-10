@@ -1,0 +1,29 @@
+{
+  "name": "Loona أيام حتى الهالوين",
+  "short_name": "أيام حتى الهالوين",
+  "description": "Live countdown إلى الهالوين: دقيق أيام، ساعات، دقائق وثوانٍ المتبقي، التاريخ هذا سنة والتالي ثلاثة سنوات، حقائق والأسئلة الشائعة.",
+  "id": "/loona-calculators/ar/days-until-halloween.html",
+  "start_url": "./days-until-halloween.html",
+  "scope": "./days-until-halloween.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona أيام حتى يوم الاستقلال (لنا)",
+  "short_name": "أيام حتى يوم الاستقلال",
+  "description": "Live countdown إلى يوم الاستقلال (لنا): دقيق أيام، ساعات، دقائق وثوانٍ المتبقي، التاريخ هذا سنة والتالي ثلاثة سنوات، حقائق والأسئلة الشائعة.",
+  "id": "/loona-calculators/ar/days-until-independence-day.html",
+  "start_url": "./days-until-independence-day.html",
+  "scope": "./days-until-independence-day.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Canada حاسبة الرهن العقاري",
+  "short_name": "حاسبة Canada رهن عقاري",
+  "description": "مجاني Canadian حاسبة الرهن العقاري في CAD مع صحيح semi-annual compounding (j 2)، شهري دفعات، المجموع فائدة، وoverpayment مقارنة.",
+  "id": "/loona-calculators/ar/canada-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

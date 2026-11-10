@@ -1,0 +1,29 @@
+{
+  "name": "Loona دنفر إلى دبي وقت محول",
+  "short_name": "محول دنفر إلى دبي وقت",
+  "description": "Convert دنفر time to دبي time. دبي تتقدم عن دنفر بمقدار 11 ساعة في يناير and 10 ساعات ahead of in يوليو، with daylight-saving dates، a 24-ساعة table and the best meeting window. Live converter included.",
+  "id": "/loona-calculators/ar/denver-to-dubai-time-converter.html",
+  "start_url": "./denver-to-dubai-time-converter.html",
+  "scope": "./denver-to-dubai-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

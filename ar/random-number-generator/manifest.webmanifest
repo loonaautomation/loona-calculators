@@ -1,0 +1,29 @@
+{
+  "name": "Loona عدد عشوائي Generator",
+  "short_name": "عدد عشوائي Generator",
+  "description": "مجاني عدد عشوائي generator باستخدام secure browser randomness. Pick أعداد في أي مدى، choose كم، مع option لـunique أعداد فقط.",
+  "id": "/loona-calculators/ar/random-number-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

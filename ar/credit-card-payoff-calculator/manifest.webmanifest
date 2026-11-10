@@ -1,0 +1,29 @@
+{
+  "name": "Loona Credit Card Payoff حاسبة",
+  "short_name": "حاسبة Credit Card Payoff",
+  "description": "مجاني credit card payoff حاسبة: الرصيد، APR وثابت شهري دفعة — اطلع على أشهر إلى ادفع off، المجموع فائدة والمجموع paid، مع warning لـtoo-small دفعات.",
+  "id": "/loona-calculators/ar/credit-card-payoff-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

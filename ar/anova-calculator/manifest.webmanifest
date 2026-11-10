@@ -1,0 +1,29 @@
+{
+  "name": "Loona One-Way ANOVA حاسبة",
+  "short_name": "حاسبة One-Way ANOVA",
+  "description": "مجاني one-way ANOVA حاسبة: أدخل كل group أعداد في الخاص به سطر إلى احصل مجموع مربع، F statistic، درجات freedom وp-value، مع group متوسط.",
+  "id": "/loona-calculators/ar/anova-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

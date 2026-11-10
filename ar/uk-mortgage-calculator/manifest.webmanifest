@@ -1,0 +1,29 @@
+{
+  "name": "Loona UK حاسبة الرهن العقاري",
+  "short_name": "حاسبة UK رهن عقاري",
+  "description": "مجاني UK حاسبة الرهن العقاري في أرطال: شهري سداد، المجموع فائدة والمجموع تكلفة لـأي قرض، سعر ومدة، زائد overpayment مقارنة.",
+  "id": "/loona-calculators/ar/uk-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

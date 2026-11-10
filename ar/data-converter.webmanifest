@@ -1,0 +1,29 @@
+{
+  "name": "Loona Data Storage محول",
+  "short_name": "محول Data Storage",
+  "description": "كل data storage تحويل زوج في واحد index: دقيق عوامل، صيغة وdedicated محول صفحة لـكل زوج. مجاني، دون تسجيل.",
+  "id": "/loona-calculators/ar/data-converter.html",
+  "start_url": "./data-converter.html",
+  "scope": "./data-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

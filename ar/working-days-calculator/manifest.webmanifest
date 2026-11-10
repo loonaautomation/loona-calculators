@@ -1,0 +1,29 @@
+{
+  "name": "Loona خطوات الحل أيام حاسبة",
+  "short_name": "حاسبة أيام العمل",
+  "description": "مجاني خطوات الحل أيام حاسبة: عدّ المجموع أيام، خطوات الحل أيام (الاثنين إلى الجمعة) وعطلة نهاية الأسبوع أيام بين أي اثنان تواريخ. لـleave، deadlines وproject plans.",
+  "id": "/loona-calculators/ar/working-days-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

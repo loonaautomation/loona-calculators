@@ -1,0 +1,29 @@
+{
+  "name": "Loona Km / h إلى Mph محول",
+  "short_name": "محول Km / h إلى Mph",
+  "description": "حوّل كيلومترات في الساعة إلى أميال في الساعة فورًا. دقيق صيغة، كامل km / h إلى mph جدول التحويل وأمثلة محلولة. مجاني، دون تسجيل.",
+  "id": "/loona-calculators/ar/kmh-to-mph-converter.html",
+  "start_url": "./kmh-to-mph-converter.html",
+  "scope": "./kmh-to-mph-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

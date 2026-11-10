@@ -1,0 +1,29 @@
+{
+  "name": "Loona الكهرباء فاتورة حاسبة",
+  "short_name": "حاسبة الكهرباء فاتورة",
+  "description": "مجاني الكهرباء فاتورة حاسبة: أدخل وحدات مستخدم وslab أسعار إلى تقدير شهري فاتورة مع GST. Editable أسعار لـLESCO، IESCO، K-Electric وكل Pakistan الكهرباء companies.",
+  "id": "/loona-calculators/ar/electricity-bill-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

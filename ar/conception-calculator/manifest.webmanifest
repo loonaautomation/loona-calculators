@@ -1,0 +1,29 @@
+{
+  "name": "Loona حمل حاسبة",
+  "short_name": "حاسبة حمل",
+  "description": "مجاني حمل حاسبة: أدخل expected موعد الولادة إلى تقدير حمل تاريخ، الأول يوم أخير فترة، والنهاية الأول trimester.",
+  "id": "/loona-calculators/ar/conception-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona VO 2 Max حاسبة",
+  "short_name": "حاسبة VO 2 Max",
+  "description": "مجاني VO 2 max حاسبة: تقدير aerobic fitness من Cooper 12 - دقيقة run أو Rockport 1 - ميل walk test. Educational fitness تقدير.",
+  "id": "/loona-calculators/ar/vo2-max-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

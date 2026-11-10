@@ -1,0 +1,29 @@
+{
+  "name": "Loona GPA إلى النسبة المئوية محول",
+  "short_name": "محول GPA إلى النسبة المئوية",
+  "description": "حوّل GPA إلى النسبة المئوية ورجوعًا: لنا 4.0 مقياس bands، India CBSE (CGPA × 9.5)، Indian university (× 10) وUK درجة classifications، كل labelled.",
+  "id": "/loona-calculators/ar/gpa-to-percentage/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona كراتشي إلى سيدني وقت محول",
+  "short_name": "كراتشي إلى سيدني وقت",
+  "description": "Convert كراتشي time to سيدني time. سيدني تتقدم عن كراتشي بمقدار 6 ساعة في يناير and 5 ساعات ahead of in يوليو، with daylight-saving dates، a 24-ساعة table and the best meeting window. Live converter included.",
+  "id": "/loona-calculators/ar/karachi-to-sydney-time-converter.html",
+  "start_url": "./karachi-to-sydney-time-converter.html",
+  "scope": "./karachi-to-sydney-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

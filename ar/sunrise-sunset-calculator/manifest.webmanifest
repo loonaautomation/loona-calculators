@@ -1,0 +1,29 @@
+{
+  "name": "Loona Sunrise &amp; Sunset حاسبة",
+  "short_name": "حاسبة Sunrise &amp; Sunset",
+  "description": "مجاني sunrise وsunset حاسبة: أدخل تاريخ وlatitude / longitude إلى احصل sunrise، sunset، يوم طول وsolar ظهر في UTC ومحلي solar مدة. NOAA رياضيات.",
+  "id": "/loona-calculators/ar/sunrise-sunset-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

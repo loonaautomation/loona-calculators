@@ -1,0 +1,29 @@
+{
+  "name": "Loona Poisson Distribution حاسبة",
+  "short_name": "Poisson Distribution",
+  "description": "مجاني Poisson distribution حاسبة: احتمال تمامًا k events، على الأكثر k، أو على الأقل k، معطى المتوسط سعر lambda. لـcalls، arrivals، defects وrare events.",
+  "id": "/loona-calculators/ar/poisson-distribution-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

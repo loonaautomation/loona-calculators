@@ -1,0 +1,29 @@
+{
+  "name": "Loona Binomial Distribution حاسبة",
+  "short_name": "Binomial Distribution",
+  "description": "مجاني binomial distribution حاسبة: احتمال تمامًا k successes، على الأكثر k، أو على الأقل k، في n trials مع success احتمال p. Textbook-checked قيم.",
+  "id": "/loona-calculators/ar/binomial-distribution-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

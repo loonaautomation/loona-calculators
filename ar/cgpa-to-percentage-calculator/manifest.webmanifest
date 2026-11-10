@@ -1,0 +1,29 @@
+{
+  "name": "Loona CGPA إلى النسبة المئوية حاسبة",
+  "short_name": "حاسبة CGPA إلى النسبة المئوية",
+  "description": "مجاني CGPA إلى النسبة المئوية محول: حوّل CGPA خارج 10 (× 9.5 صيغة) أو GPA خارج 4 إلى النسبة المئوية، مع custom multiplier option لـأي board أو university.",
+  "id": "/loona-calculators/ar/cgpa-to-percentage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

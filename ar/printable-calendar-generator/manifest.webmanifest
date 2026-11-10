@@ -1,0 +1,29 @@
+{
+  "name": "Loona Printable تقويم Generator",
+  "short_name": "Printable تقويم Generator",
+  "description": "مجاني printable تقويم generator: pick أي شهر وسنة (أو كامل سنة) وgenerate clean تقويم grid أنت يمكن print. الاثنين أو الأحد ابدأ.",
+  "id": "/loona-calculators/ar/printable-calendar-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

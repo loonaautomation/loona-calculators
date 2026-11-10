@@ -1,0 +1,29 @@
+{
+  "name": "Loona مومباي إلى طوكيو وقت محول",
+  "short_name": "محول مومباي إلى طوكيو وقت",
+  "description": "حوّل مومباي وقت إلى طوكيو وقت. طوكيو 3 ساعات 30 دقائق متقدم عن مومباي كل سنة، مع daylight-saving تواريخ، 24 - ساعة جدول والأفضل يقابل window. Live محول يشمل.",
+  "id": "/loona-calculators/ar/mumbai-to-tokyo-time-converter.html",
+  "start_url": "./mumbai-to-tokyo-time-converter.html",
+  "scope": "./mumbai-to-tokyo-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

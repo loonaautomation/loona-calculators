@@ -1,0 +1,29 @@
+{
+  "name": "Loona كمية الماء حاسبة",
+  "short_name": "حاسبة كمية الماء",
+  "description": "مجاني كمية الماء حاسبة: أدخل وزن ويومي exercise إلى احصل recommended كمية الماء في لترات، مليلترات وglasses لكل يوم.",
+  "id": "/loona-calculators/ar/water-intake-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

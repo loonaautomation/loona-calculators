@@ -1,0 +1,29 @@
+{
+  "name": "Loona Running Pace حاسبة",
+  "short_name": "حاسبة Running Pace",
+  "description": "مجاني running pace حاسبة: pick 5 K، 10 K، نصف marathon، marathon أو custom مسافة مع finish وقت إلى احصل pace لكل km ولكل ميل، زائد predicted finish مرات.",
+  "id": "/loona-calculators/ar/pace-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
