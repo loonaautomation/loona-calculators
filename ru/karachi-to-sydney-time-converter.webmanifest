@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертер времени из Карачи в Сидней",
+  "short_name": "Время из Карачи в Сидней",
+  "description": "Конвертируйте время из Карачи в Сидней. Сидней опережает Карачи на 6 часов в январе и на 5 часов в июле, с датами перехода на летнее время, таблицей на 24 часа и лучшим окном для встреч. Конвертер в реальном времени включён.",
+  "id": "/loona-calculators/ru/karachi-to-sydney-time-converter.html",
+  "start_url": "./karachi-to-sydney-time-converter.html",
+  "scope": "./karachi-to-sydney-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

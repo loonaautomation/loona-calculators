@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калькулятор овуляции",
+  "short_name": "Калькулятор овуляции",
+  "description": "Бесплатный калькулятор овуляции: введите первый день вашей последней менструации и длину цикла, чтобы оценить овуляцию, ваше фертильное окно, следующую менструацию и дату родов.",
+  "id": "/loona-calculators/ru/ovulation-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

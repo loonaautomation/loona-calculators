@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертер PSI в бары",
+  "short_name": "Конвертер PSI в бары",
+  "description": "Конвертируйте фунты на квадратный дюйм в бары мгновенно. Точная формула, полная таблица перевода psi в bar и разобранные примеры. Бесплатно, без регистрации.",
+  "id": "/loona-calculators/ru/psi-to-bar-converter.html",
+  "start_url": "./psi-to-bar-converter.html",
+  "scope": "./psi-to-bar-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Проверка правил вождения в Европе",
+  "short_name": "Проверка правил вождения в Европе",
+  "description": "Бесплатная проверка правил дорожного движения в Европе: выберите страну, чтобы узнать её сторону движения, ограничение скорости на автомагистралях, допустимую норму алкоголя за рулём и ключевые местные правила для приезжих водителей.",
+  "id": "/loona-calculators/ru/europe-driving-rules-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

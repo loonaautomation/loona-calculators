@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калькулятор квадратного корня",
+  "short_name": "Калькулятор квадратного корня",
+  "description": "Бесплатный калькулятор квадратных корней: введите любое число, чтобы получить его квадратный корень, кубический корень, корни 4-й и 5-й степени — а также его квадрат и куб — всё сразу.",
+  "id": "/loona-calculators/ru/square-root-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

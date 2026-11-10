@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калькулятор рабочих часов",
+  "short_name": "Калькулятор рабочих часов",
+  "description": "Бесплатный калькулятор рабочих часов: начало, окончание и неоплачиваемый перерыв дают чистые часы в день и в неделю — а также дневную и недельную оплату, если добавить почасовую ставку. Поддерживаются ночные смены.",
+  "id": "/loona-calculators/ru/work-hours-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

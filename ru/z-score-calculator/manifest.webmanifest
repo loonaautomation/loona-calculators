@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калькулятор Z-оценки",
+  "short_name": "Калькулятор Z-показателя",
+  "description": "Бесплатный калькулятор z-оценки: введите значение, среднее и стандартное отклонение, чтобы получить z-оценку, процентиль и вероятности из стандартной нормальной таблицы (нормальное распределение).",
+  "id": "/loona-calculators/ru/z-score-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

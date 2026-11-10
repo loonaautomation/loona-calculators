@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертер времени из Лос-Анджелеса в Карачи",
+  "short_name": "Лос-Анджелес в Карачи — время",
+  "description": "Конвертируйте время из Лос-Анджелеса в Карачи. Карачи опережает Лос-Анджелес на 13 часов в январе и на 12 часов в июле, с датами перехода на летнее время, таблицей на 24 часа и лучшим окном для встреч. Конвертер в реальном времени включён.",
+  "id": "/loona-calculators/ru/los-angeles-to-karachi-time-converter.html",
+  "start_url": "./los-angeles-to-karachi-time-converter.html",
+  "scope": "./los-angeles-to-karachi-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

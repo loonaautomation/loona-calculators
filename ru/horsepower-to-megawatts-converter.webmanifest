@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертер лошадиных сил в мегаватты",
+  "short_name": "Лошадиная сила в мегаватт",
+  "description": "Конвертируйте лошадиные силы в мегаватты мгновенно. Точная формула, полная таблица перевода hp в MW, разобранный пример и частые вопросы. Бесплатно, без регистрации.",
+  "id": "/loona-calculators/ru/horsepower-to-megawatts-converter.html",
+  "start_url": "./horsepower-to-megawatts-converter.html",
+  "scope": "./horsepower-to-megawatts-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

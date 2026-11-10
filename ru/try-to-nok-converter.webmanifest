@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертер TRY в NOK",
+  "short_name": "Конвертер TRY в NOK",
+  "description": "Конвертируйте турецкую лиру (TRY) в норвежскую крону (NOK). Справочный курс ЕЦБ от 06 ноября 2026 года, обратный курс, таблица конвертации и примечания по коридору. Только для ориентира.",
+  "id": "/loona-calculators/ru/try-to-nok-converter.html",
+  "start_url": "./try-to-nok-converter.html",
+  "scope": "./try-to-nok-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

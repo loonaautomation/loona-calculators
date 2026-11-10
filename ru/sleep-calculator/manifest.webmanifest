@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калькулятор сна",
+  "short_name": "Калькулятор сна",
+  "description": "Бесплатный калькулятор сна: введите время пробуждения, чтобы получить лучшее время отхода ко сну, или время отхода ко сну, чтобы получить лучшее время пробуждения, — на основе 90-минутных циклов сна плюс время засыпания.",
+  "id": "/loona-calculators/ru/sleep-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Простой калькулятор",
+  "short_name": "Простой калькулятор",
+  "description": "Бесплатный простой калькулятор с большими, удобными кнопками для сложения, вычитания, умножения и деления. Лента истории, клавиша процентов, кнопка копирования и полная поддержка клавиатуры — без регистрации.",
+  "id": "/loona-calculators/ru/simple-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

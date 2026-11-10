@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертер времени из Дубая в Сидней",
+  "short_name": "Конвертер времени из Дубая в Сидней",
+  "description": "Конвертируйте время из Дубая в Сидней. Сидней опережает Дубай на 7 часов в январе и на 6 часов в июле, с датами перехода на летнее время, таблицей на 24 часа и лучшим окном для встреч. Конвертер в реальном времени включён.",
+  "id": "/loona-calculators/ru/dubai-to-sydney-time-converter.html",
+  "start_url": "./dubai-to-sydney-time-converter.html",
+  "scope": "./dubai-to-sydney-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

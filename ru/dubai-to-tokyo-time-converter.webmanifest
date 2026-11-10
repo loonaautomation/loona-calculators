@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертер времени из Дубая в Токио",
+  "short_name": "Конвертер времени из Дубая в Токио",
+  "description": "Конвертируйте время из Дубая в Токио. Токио опережает Дубай на 5 часов круглый год, с датами перехода на летнее время, таблицей на 24 часа и лучшим окном для встреч. Конвертер в реальном времени включён.",
+  "id": "/loona-calculators/ru/dubai-to-tokyo-time-converter.html",
+  "start_url": "./dubai-to-tokyo-time-converter.html",
+  "scope": "./dubai-to-tokyo-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

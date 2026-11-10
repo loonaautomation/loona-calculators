@@ -1,0 +1,29 @@
+{
+  "name": "Loona Генератор «Тайный Санта»",
+  "short_name": "Генератор «Тайного Санты»",
+  "description": "Бесплатный генератор «Тайный Санта»: добавьте имена, укажите исключения (пары, пары прошлого года), проведите тайную жеребьёвку, а затем каждый человек открывает только свою пару. Конфиденциально, в браузере.",
+  "id": "/loona-calculators/ru/secret-santa-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

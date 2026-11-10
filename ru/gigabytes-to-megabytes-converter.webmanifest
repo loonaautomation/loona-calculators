@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертер гигабайтов в мегабайты",
+  "short_name": "Гигабайты в мегабайты",
+  "description": "Конвертируйте гигабайты в мегабайты мгновенно (двоичная система: 1 GB = 1,024 MB). Точная формула, полная таблица перевода GB в MB и разобранные примеры. Бесплатно, без регистрации.",
+  "id": "/loona-calculators/ru/gigabytes-to-megabytes-converter.html",
+  "start_url": "./gigabytes-to-megabytes-converter.html",
+  "scope": "./gigabytes-to-megabytes-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

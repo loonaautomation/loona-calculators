@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертер времени из Лондона в Берлин",
+  "short_name": "Время из Лондона в Берлин",
+  "description": "Конвертируйте время из Лондона в Берлин. Берлин опережает Лондон на 1 час круглый год, с датами перехода на летнее время, таблицей на 24 часа и лучшим окном для встреч. Конвертер в реальном времени включён.",
+  "id": "/loona-calculators/ru/london-to-berlin-time-converter.html",
+  "start_url": "./london-to-berlin-time-converter.html",
+  "scope": "./london-to-berlin-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

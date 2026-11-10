@@ -1,0 +1,29 @@
+{
+  "name": "Loona Решатель уравнений (линейных &amp; квадратных)",
+  "short_name": "Решатель уравнений (линейные и",
+  "description": "Бесплатный решатель уравнений для линейных (ax + b = cx + d) и квадратных (ax² + bx + c = 0) уравнений, с полным пошаговым решением, дискриминантом, комплексными корнями и итоговой проверкой.",
+  "id": "/loona-calculators/ru/equation-solver/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Рабочие дни в Ирландии",
+  "short_name": "Рабочие дни в Ирландии",
+  "description": "Калькулятор рабочих дней для Ирландии: подсчёт рабочих дней между любыми двумя датами с исключением выходных и всех 10 ирландских государственных праздников 2026 года. Бесплатно.",
+  "id": "/loona-calculators/ru/working-days-in-ireland.html",
+  "start_url": "./working-days-in-ireland.html",
+  "scope": "./working-days-in-ireland.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

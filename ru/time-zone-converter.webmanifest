@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертер часовых поясов",
+  "short_name": "Конвертер часовых поясов",
+  "description": "Конвертируйте время между 60 парами городов мира, с сезонными различиями, датами перехода на летнее время в 2026 году и окнами пересечения для встреч.",
+  "id": "/loona-calculators/ru/time-zone-converter.html",
+  "start_url": "./time-zone-converter.html",
+  "scope": "./time-zone-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

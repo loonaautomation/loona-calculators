@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертер времени из Дубая в Сингапур",
+  "short_name": "Время из Дубая в Сингапур",
+  "description": "Конвертируйте время из Дубая в Сингапур. Сингапур опережает Дубай на 4 часа круглый год, с датами перехода на летнее время, таблицей на 24 часа и лучшим окном для встреч. Конвертер в реальном времени включён.",
+  "id": "/loona-calculators/ru/dubai-to-singapore-time-converter.html",
+  "start_url": "./dubai-to-singapore-time-converter.html",
+  "scope": "./dubai-to-singapore-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

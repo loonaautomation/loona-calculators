@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Калькулятор итоговой оценки — Что нужно набрать на итоговом экзамене? | Loona</title>
+<meta name="description" content="Бесплатный калькулятор итоговой оценки: введите вашу текущую оценку, вес итогового экзамена и вашу целевую оценку, чтобы точно увидеть, какой балл вам нужен на итоговом экзамене.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/ru/final-grade-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/final-grade-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/final-grade-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/final-grade-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/final-grade-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/final-grade-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/final-grade-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/final-grade-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/final-grade-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/final-grade-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/final-grade-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/final-grade-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/final-grade-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Калькулятор итоговой оценки — Что нужно набрать на итоговом экзамене? | Loona">
+<meta property="og:description" content="Бесплатный калькулятор итоговой оценки: введите вашу текущую оценку, вес итогового экзамена и вашу целевую оценку, чтобы точно увидеть, какой балл вам нужен на итоговом экзамене.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/ru/final-grade-calculator/"><meta property="og:locale" content="ru_RU">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Калькулятор итоговой оценки — Что нужно набрать на итоговом экзамене? | Loona">
+<meta name="twitter:description" content="Бесплатный калькулятор итоговой оценки: введите вашу текущую оценку, вес итогового экзамена и вашу целевую оценку, чтобы точно увидеть, какой балл вам нужен на итоговом экзамене.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona Калькулятор итоговой оценки","url":"https://loonaautomation.github.io/loona-calculators/ru/final-grade-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Как рассчитывается нужный итоговый балл?","acceptedAnswer":{"@type":"Answer","text":"Оценка вашего курса — это средневзвешенное значение: текущая оценка × (1 − вес) + оценка финала × вес. Решение этого уравнения относительно оценки финала даёт нужное = (цель − текущая × (1 − вес)) ÷ вес. Этот калькулятор делает именно эту алгебру за вас."}},{"@type":"Question","name":"Что, если калькулятор говорит, что моя цель невозможна?","acceptedAnswer":{"@type":"Answer","text":"Это означает, что даже 100% на итоговом экзамене не смогут поднять ваш средневзвешенный балл до цели — расчёты показаны, чтобы вы могли их проверить. Практические варианты: стремитесь к самой высокой оценке, которая ещё достижима, спросите о дополнительных баллах или пересдачах и вкладывайте усилия туда, где они сильнее всего меняют результат."}},{"@type":"Question","name":"Что, если говорится, что моя оценка уже обеспечена?","acceptedAnswer":{"@type":"Answer","text":"Это происходит, когда ваша текущая оценка с учётом веса уже достигает цели даже при 0% на итоговом экзамене (нужный балл ≤ 0). В большинстве курсов вам всё равно нужно сдавать экзамен — но давление снято."}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/ru/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Калькулятор итоговой оценки",
+      "item": "https://loonaautomation.github.io/loona-calculators/ru/final-grade-calculator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Логотип Loona Automation">
+<div class="brand">Loona <span>Калькуляторы</span></div>
+<nav>
+<a href="../">Главная</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">О нас</a>
+<a href="../contact.html">Контакты</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › Образование › Калькулятор итоговой оценки</div>
+<h1 class="pagetitle">✏️ Калькулятор итоговой оценки</h1>
+<p class="lead">Классический вопрос конца семестра: что мне нужно получить на итоговом экзамене, чтобы получить желаемую оценку? Введите вашу текущую оценку, сколько весит итоговый экзамен, и вашу цель — калькулятор укажет вам точный требуемый балл и то, возможно ли это ещё.</p>
+<div class="toolbox"><form class="calcform" id="fgForm">
+<div class="fld"><label for="fgCurrent">Ваша текущая оценка (%)</label><input type="number" id="fgCurrent" value="88" step="any" min="0" max="100"></div>
+<div class="fld"><label for="fgWeight">Вес итогового экзамена (% от оценки за курс)</label><input type="number" id="fgWeight" value="30" step="any" min="0" max="100"></div>
+<div class="fld"><label for="fgTarget">Оценка, которую вы хотите по курсу (%)</label><input type="number" id="fgTarget" value="90" step="any" min="0" max="100"></div>
+<button class="calcbtn" type="submit">Рассчитать, сколько мне нужно</button>
+<div class="calcresult" id="fgResult" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>Как использовать калькулятор итоговой оценки</h2><ol><li>Введите вашу текущую оценку за курс в процентах.</li><li>Введите вес итогового экзамена — какую часть общей оценки за курс он составляет (проверьте ваш учебный план).</li><li>Введите оценку за курс, к которой вы стремитесь, затем нажмите «Рассчитать».</li></ol>
+<div class="exbox"><strong>Пример:</strong> У вас 88%, финал стоит 30%, и вы хотите 90% в целом. Вам нужно (90 − 88 × 0.70) ÷ 0.30 = 94.7% на финале — сложно, но возможно. Таблица под результатом показывает, что даст вам каждая другая оценка на финале.</div>
+<h2>Часто задаваемые вопросы</h2></section><div class="faq"><h3>Как рассчитывается нужный итоговый балл?</h3><p>Оценка вашего курса — это средневзвешенное значение: текущая оценка × (1 − вес) + оценка финала × вес. Решение этого уравнения относительно оценки финала даёт нужное = (цель − текущая × (1 − вес)) ÷ вес. Этот калькулятор делает именно эту алгебру за вас.</p></div><div class="faq"><h3>Что, если калькулятор говорит, что моя цель невозможна?</h3><p>Это означает, что даже 100% на итоговом экзамене не смогут поднять ваш средневзвешенный балл до цели — расчёты показаны, чтобы вы могли их проверить. Практические варианты: стремитесь к самой высокой оценке, которая ещё достижима, спросите о дополнительных баллах или пересдачах и вкладывайте усилия туда, где они сильнее всего меняют результат.</p></div><div class="faq"><h3>Что, если говорится, что моя оценка уже обеспечена?</h3><p>Это происходит, когда ваша текущая оценка с учётом веса уже достигает цели даже при 0% на итоговом экзамене (нужный балл ≤ 0). В большинстве курсов вам всё равно нужно сдавать экзамен — но давление снято.</p></div>
+<h2 class="sec">Связанные калькуляторы</h2><div class="grid"><a class="card" href="../gpa-calculator/"><div class="ic">🎓</div><h3>Калькулятор GPA</h3><p>Образование</p></a><a class="card" href="../cgpa-calculator/"><div class="ic">🎓</div><h3>Калькулятор CGPA</h3><p>Образование</p></a><a class="card" href="../grade-calculator/"><div class="ic">✏️</div><h3>Калькулятор оценок</h3><p>Образование</p></a><a class="card" href="../gpa-to-percentage/"><div class="ic">🔄</div><h3>GPA в проценты</h3><p>Образование</p></a><a class="card" href="../target-cgpa-calculator/"><div class="ic">🎯</div><h3>Калькулятор целевого CGPA</h3><p>Образование</p></a><a class="card" href="../marks-percentage-calculator/"><div class="ic">📝</div><h3>Процент баллов</h3><p>Образование</p></a></div>
+</div>
+<section class="txt"><h2>Как это работает &mdash; формула</h2>
+<p>Оценки за курс — это средневзвешенные значения. Если ваша текущая оценка <em>C</em> учитывается для (1 − <em>w</em>) курса, а итоговый экзамен составляет <em>w</em>:</p>
+<p><strong>Оценка за курс = C × (1 − w) + Итоговая оценка × w</strong></p>
+<p>Переставлено, чтобы решить для итогового балла, который вам нужен:</p>
+<p><strong>Требуемый балл = (Target − C × (1 − w)) ÷ w</strong></p>
+<p>Если результат выше 100, цель математически недостижима; если он равен 0 или ниже, цель уже гарантирована.</p>
+<h3>Разобранный пример</h3>
+<div class="exbox"><strong>Пример:</strong> Текущая оценка 88%, вес итоговой работы 30% (w = 0.30), цель 90%.<br>Требуется = (90 − 88 × 0.70) ÷ 0.30 = (90 − 61.6) ÷ 0.30 = 28.4 ÷ 0.30 = <strong>94.7%</strong>.<br>Проверка: 88 × 0.70 + 94.7 × 0.30 = 61.6 + 28.4 = <strong>90.0%</strong> ✓</div>
+<h3>Часто задаваемые вопросы</h3></section><div class="faq"><h3>Где найти вес моего выпускного экзамена?</h3><p>В программе вашего курса или справочнике студента — обычно указывается как процент от общей оценки (обычные значения — 20–40%). Если вместо этого программа даёт баллы (например, финал = 200 из 1,000 баллов), вес составляет 200 ÷ 1,000 = 20%.</p></div><div class="faq"><h3>Работает ли это с буквенными оценками (A, B, C)?</h3><p>Сначала преобразуйте вашу буквенную оценку в процент, который использует ваша школа (например, A = 90–100%, B = 80–89% по распространённой шкале США — действуют правила шкалы вашего учебного заведения). Введите среднее значение или точный процент, который сообщает ваш преподаватель, а затем воспользуйтесь этим калькулятором. Для конвертации GPA попробуйте наш конвертер GPA в проценты.</p></div><div class="faq"><h3>Мой итоговый экзамен заменяет мой самый низкий балл за тест — меняется ли формула?</h3><p>Да: если финал заменяет другой компонент, ваша 'current grade' должна рассчитываться такой, какой она будет после замены. Сначала вычислите средний балл вашего курса с уже заменённой оценкой, затем используйте этот калькулятор с этой цифрой.</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Встройте этот калькулятор на ваш сайт — бесплатно</h2>
+<p style="margin:0 0 12px;line-height:1.6">Добавьте этот калькулятор на свой сайт или в блог — он полностью бесплатен, не требует регистрации и всегда показывает последнюю версию. Скопируйте код ниже и вставьте его на свою страницу туда, где должен появиться калькулятор. Сохранение небольшой строки с указанием авторства &ldquo;Powered by Loona Automation&rdquo; под встроенным блоком помогает сохранять этот инструмент бесплатным &mdash; но вы можете оформить её по-своему или удалить; инструмент будет работать в любом случае.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/ru/final-grade-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Final Grade Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Предоставлено &lt;a href="https://loonaautomation.github.io/loona-calculators/ru/final-grade-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; бесплатный Калькулятор итоговой оценки&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Копировать код встраивания</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='Копировать код вставки';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Популярные калькуляторы</h4><ul><li><a href="../age-calculator/">Калькулятор возраста</a></li>
+<li><a href="../zakat-calculator/">Калькулятор закята</a></li>
+<li><a href="../cgpa-calculator/">Калькулятор CGPA</a></li>
+<li><a href="../percentage-calculator/">Калькулятор процентов</a></li>
+<li><a href="../hijri-date-converter/">Конвертер дат хиджры</a></li>
+<li><a href="../emi-calculator/">Калькулятор EMI и кредитов</a></li></ul></div>
+<div><h4>Ещё инструменты Loona</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR-коды</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Компрессор изображений</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI-ассистент</a></li>
+<li><a href="https://loonaautomation.github.io/">Все инструменты Loona</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">О нас</a></li>
+<li><a href="../contact.html">Контакты</a></li>
+<li><a href="../privacy-policy.html">Политика конфиденциальности</a></li>
+<li><a href="../terms.html">Условия использования</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — проект <a href="https://loonaautomation.github.io/">Loona Automation</a> проект. Бесплатные онлайн-калькуляторы, без регистрации.
+Контакт: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+function finalGradeNeeded(current, weightPct, target) {
+  var w = weightPct / 100;
+  if (!(w > 0)) throw new Error("Вес итогового экзамена должен быть больше 0%.");
+  if (w > 1) throw new Error("Вес итогового экзамена не может быть больше 100%.");
+  var gradeIfZero = current * (1 - w);
+  var maxPossible = gradeIfZero + 100 * w;
+  var needed = (target - gradeIfZero) / w;
+  var status = needed <= 0 ? "secured" : (needed > 100 ? "impossible" : "ok");
+  return { needed: needed, status: status, maxPossible: maxPossible, gradeIfZero: gradeIfZero };
+}
+function courseGrade(current, weightPct, finalScore) {
+  var w = weightPct / 100;
+  return current * (1 - w) + finalScore * w;
+}
+/*TESTABLE_END*/
+function fgFmt(x, d) { return (Math.round(x * Math.pow(10, d)) / Math.pow(10, d)).toFixed(d); }
+function fgRun() {
+  var box = document.getElementById('fgResult');
+  var current = parseFloat(document.getElementById('fgCurrent').value);
+  var weight = parseFloat(document.getElementById('fgWeight').value);
+  var target = parseFloat(document.getElementById('fgTarget').value);
+  try {
+    if (isNaN(current) || isNaN(weight) || isNaN(target)) throw new Error("Введите все три значения.");
+    if (current < 0 || current > 100 || target < 0 || target > 100) throw new Error("Оценки должны быть от 0% до 100%.");
+    var r = finalGradeNeeded(current, weight, target);
+    var html;
+    if (r.status === 'secured') {
+      html = '<div class="resbig"><span>Балл, необходимый на итоговом экзамене</span><strong>0% — уже обеспечено 🎉</strong></div>' +
+        '<p class="resnote">Хорошая новость: даже 0% на итоговом экзамене оставит вас на уровне ' + fgFmt(r.gradeIfZero, 1) + '%, который уже соответствует вашей ' + fgFmt(target, 1) + '% цели. Всё, что вы наберёте, — бонус.</p>';
+    } else if (r.status === 'impossible') {
+      html = '<div class="resbig"><span>Балл, необходимый на итоговом экзамене</span><strong>' + fgFmt(r.needed, 1) + '% — невозможно</strong></div>' +
+        '<p class="err">Даже идеальные 100% на итоговом экзамене дали бы вам ' + fgFmt(r.maxPossible, 1) + '%, что ниже вашего целевого показателя ' + fgFmt(target, 1) + '% цели. Рассмотрите возможность ориентироваться на следующую оценочную ступень ниже или уточните, доступны ли дополнительные баллы.</p>';
+    } else {
+      html = '<div class="resbig"><span>Балл, необходимый на итоговом экзамене</span><strong>' + fgFmt(r.needed, 1) + '%</strong></div>' +
+        '<p class="resnote">Наберите не менее ' + fgFmt(Math.ceil(r.needed * 10) / 10, 1) + '% на итоговом экзамене, чтобы завершить курс с результатом ' + fgFmt(target, 1) + '% или выше.</p>';
+    }
+    var rows = [0, 50, 60, 70, 80, 90, 100].map(function (s) {
+      return '<tr><td>Если вы наберёте ' + s + '% на итоговом экзамене</td><td><strong>' + fgFmt(courseGrade(current, weight, s), 1) + '%</strong></td></tr>';
+    }).join('');
+    html += '<table class="restbl">' + rows + '</table>';
+    box.style.display = 'block';
+    box.innerHTML = html;
+  } catch (e) {
+    box.style.display = 'block';
+    box.innerHTML = '<p class="err">' + e.message + '</p>';
+  }
+}
+document.getElementById('fgForm').addEventListener('submit', function (e) { e.preventDefault(); fgRun(); });
+fgRun();
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Установить приложение';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Установите это приложение: нажмите кнопку «Поделиться», затем выберите «Добавить на главный экран».');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

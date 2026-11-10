@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калькулятор ипотеки",
+  "short_name": "Ипотечный калькулятор",
+  "description": "Бесплатный ипотечный калькулятор: цена дома, первоначальный взнос, процентная ставка и срок — получите сумму кредита, ежемесячный платёж, общие проценты и общую стоимость вашего дома.",
+  "id": "/loona-calculators/ru/mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертер времени из Сингапура в Токио",
+  "short_name": "Время из Сингапура в Токио",
+  "description": "Конвертируйте время Сингапура во время Токио. Токио опережает Сингапур на 1 час круглый год, с датами перехода на летнее время, таблицей на 24 часа и лучшим окном для встречи. Конвертер в реальном времени включён.",
+  "id": "/loona-calculators/ru/singapore-to-tokyo-time-converter.html",
+  "start_url": "./singapore-to-tokyo-time-converter.html",
+  "scope": "./singapore-to-tokyo-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

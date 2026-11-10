@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертер DKK в EUR",
+  "short_name": "Конвертер DKK в EUR",
+  "description": "Конвертируйте датская крона (DKK) в евро (EUR). Справочный курс ЕЦБ от 06 ноября 2026, обратный курс, таблица конвертации и примечания по коридору. Только для ориентира.",
+  "id": "/loona-calculators/ru/dkk-to-eur-converter.html",
+  "start_url": "./dkk-to-eur-converter.html",
+  "scope": "./dkk-to-eur-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертер времени из Берлина в Дубай",
+  "short_name": "Конвертер времени из Берлина в Дубай",
+  "description": "Конвертируйте время из Берлина в Дубай. Дубай опережает Берлин на 3 часа в январе и на 2 часа в июле, с датами перехода на летнее время, таблицей на 24 часа и лучшим окном для встреч. Конвертер в реальном времени включён.",
+  "id": "/loona-calculators/ru/berlin-to-dubai-time-converter.html",
+  "start_url": "./berlin-to-dubai-time-converter.html",
+  "scope": "./berlin-to-dubai-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

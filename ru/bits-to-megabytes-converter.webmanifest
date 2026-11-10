@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертер бита в мегабайт",
+  "short_name": "Конвертер битов в мегабайты",
+  "description": "Конвертируйте биты в мегабайты мгновенно. Точная формула, полная таблица перевода bit в MB, разобранный пример и частые вопросы. Бесплатно, без регистрации.",
+  "id": "/loona-calculators/ru/bits-to-megabytes-converter.html",
+  "start_url": "./bits-to-megabytes-converter.html",
+  "scope": "./bits-to-megabytes-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

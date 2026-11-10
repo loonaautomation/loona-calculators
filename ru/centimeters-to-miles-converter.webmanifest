@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертер сантиметра в милю",
+  "short_name": "Конвертер сантиметров в мили",
+  "description": "Конвертируйте сантиметры в мили мгновенно. Точная формула, полная таблица перевода cm в mi, разобранный пример и частые вопросы. Бесплатно, без регистрации.",
+  "id": "/loona-calculators/ru/centimeters-to-miles-converter.html",
+  "start_url": "./centimeters-to-miles-converter.html",
+  "scope": "./centimeters-to-miles-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

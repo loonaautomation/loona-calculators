@@ -1,0 +1,29 @@
+{
+  "name": "Loona Генератор номеров бинго",
+  "short_name": "Генератор номеров бинго",
+  "description": "Бесплатный генератор чисел для бинго на 75 шаров (B-I-N-G-O) и 90 шаров: вытягивает числа без повторов, показывает текущий шар крупно и отслеживает каждое названное число на табло.",
+  "id": "/loona-calculators/ru/bingo-number-caller/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

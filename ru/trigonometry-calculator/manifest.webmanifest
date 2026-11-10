@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калькулятор тригонометрии",
+  "short_name": "Калькулятор тригонометрии",
+  "description": "Бесплатный тригонометрический калькулятор: введите угол в градусах или радианах, чтобы получить sin, cos, tan, csc, sec и cot, или используйте обратные sin, cos и tan, чтобы найти угол по соотношению. Таблица точных значений включена.",
+  "id": "/loona-calculators/ru/trigonometry-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

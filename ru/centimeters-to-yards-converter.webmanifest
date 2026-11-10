@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертер сантиметра в ярд",
+  "short_name": "Конвертер сантиметров в ярды",
+  "description": "Конвертируйте сантиметры в ярды мгновенно. Точная формула, полная таблица перевода cm в yd, разобранный пример и частые вопросы. Бесплатно, без регистрации.",
+  "id": "/loona-calculators/ru/centimeters-to-yards-converter.html",
+  "start_url": "./centimeters-to-yards-converter.html",
+  "scope": "./centimeters-to-yards-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

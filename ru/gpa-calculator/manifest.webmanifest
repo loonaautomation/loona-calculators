@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калькулятор GPA",
+  "short_name": "Калькулятор GPA",
+  "description": "Бесплатный калькулятор GPA: введите до 8 курсов с буквенными оценками (от A до F) и кредитными часами, чтобы получить ваш GPA по стандартной шкале 4.0. Быстро, конфиденциально, без регистрации.",
+  "id": "/loona-calculators/ru/gpa-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

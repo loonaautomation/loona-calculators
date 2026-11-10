@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калькулятор BMR",
+  "short_name": "Калькулятор BMR",
+  "description": "Бесплатный калькулятор BMR и TDEE: введите возраст, вес, рост и уровень активности, чтобы узнать калории, которые ваш организм сжигает в покое и в повседневной жизни (Миффлин — Сан Жеор).",
+  "id": "/loona-calculators/ru/bmr-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

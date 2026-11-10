@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калькулятор счёта за электроэнергию",
+  "short_name": "Калькулятор счёта за электроэнергию",
+  "description": "Бесплатный калькулятор счёта за электричество: введите использованные единицы и тарифные ступени, чтобы оценить ваш ежемесячный счёт с GST. Редактируемые тарифы для LESCO, IESCO, K-Electric и всех электроэнергетических компаний Пакистана.",
+  "id": "/loona-calculators/ru/electricity-bill-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертер кибибайтов в мегабайты",
+  "short_name": "Конвертер кибибайта в мегабайт",
+  "description": "Конвертируйте кибибайты в мегабайты мгновенно. Точная формула, полная таблица перевода KiB в MB, разобранный пример и частые вопросы. Бесплатно, без регистрации.",
+  "id": "/loona-calculators/ru/kibibytes-to-megabytes-converter.html",
+  "start_url": "./kibibytes-to-megabytes-converter.html",
+  "scope": "./kibibytes-to-megabytes-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

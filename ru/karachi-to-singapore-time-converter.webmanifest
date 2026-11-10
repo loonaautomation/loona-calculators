@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертер времени из Карачи в Сингапур",
+  "short_name": "Время из Карачи в Сингапур",
+  "description": "Конвертируйте время из Карачи в Сингапур. Сингапур опережает Карачи на 3 часа круглый год, с датами перехода на летнее время, таблицей на 24 часа и лучшим окном для встреч. Конвертер в реальном времени включён.",
+  "id": "/loona-calculators/ru/karachi-to-singapore-time-converter.html",
+  "start_url": "./karachi-to-singapore-time-converter.html",
+  "scope": "./karachi-to-singapore-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

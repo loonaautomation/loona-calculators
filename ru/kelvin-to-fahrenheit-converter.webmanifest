@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертер кельвинов в градусы Фаренгейта",
+  "short_name": "Кельвин в градус Фаренгейта",
+  "description": "Конвертируйте кельвины в градусы Фаренгейта мгновенно. Точная формула, полная таблица перевода K в °F, разобранный пример и частые вопросы. Бесплатно, без регистрации.",
+  "id": "/loona-calculators/ru/kelvin-to-fahrenheit-converter.html",
+  "start_url": "./kelvin-to-fahrenheit-converter.html",
+  "scope": "./kelvin-to-fahrenheit-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

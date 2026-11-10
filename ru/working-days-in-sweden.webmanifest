@@ -1,0 +1,29 @@
+{
+  "name": "Loona Рабочие дни в Швеции",
+  "short_name": "Рабочие дни в Швеции",
+  "description": "Калькулятор рабочих дней для Швеции: подсчёт рабочих дней между двумя датами с исключением выходных и всех 13 шведских государственных праздников (красных дней) 2026 года. Бесплатно.",
+  "id": "/loona-calculators/ru/working-days-in-sweden.html",
+  "start_url": "./working-days-in-sweden.html",
+  "scope": "./working-days-in-sweden.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

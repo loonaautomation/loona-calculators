@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертер времени из Токио в Сидней",
+  "short_name": "Конвертер времени из Токио в Сидней",
+  "description": "Конвертируйте время Токио во время Сиднея. Сидней опережает Токио на 2 часа в январе и на 1 час в июле, с датами перехода на летнее время, таблицей на 24 часа и лучшим окном для встречи. Конвертер в реальном времени включён.",
+  "id": "/loona-calculators/ru/tokyo-to-sydney-time-converter.html",
+  "start_url": "./tokyo-to-sydney-time-converter.html",
+  "scope": "./tokyo-to-sydney-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

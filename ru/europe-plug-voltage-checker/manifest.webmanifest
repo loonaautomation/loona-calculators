@@ -1,0 +1,29 @@
+{
+  "name": "Loona Проверка розеток &amp; напряжения в Европе",
+  "short_name": "Проверка вилок и напряжения в Европе",
+  "description": "Бесплатная проверка вилок и напряжения в Европе: выберите европейскую страну, чтобы узнать её типы вилок, напряжение и частоту, а также нужен ли вам переходник или преобразователь.",
+  "id": "/loona-calculators/ru/europe-plug-voltage-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

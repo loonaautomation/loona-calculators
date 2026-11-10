@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертер недель в дни",
+  "short_name": "Конвертер недель в дни",
+  "description": "Конвертируйте недели в дни мгновенно. Точная формула, полная таблица перевода weeks в days и разобранные примеры. Бесплатно, без регистрации.",
+  "id": "/loona-calculators/ru/weeks-to-days-converter.html",
+  "start_url": "./weeks-to-days-converter.html",
+  "scope": "./weeks-to-days-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

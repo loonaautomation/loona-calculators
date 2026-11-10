@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калькулятор даты родов",
+  "short_name": "Калькулятор даты родов",
+  "description": "Бесплатный калькулятор даты родов: введите первый день вашей последней менструации (LMP), чтобы получить вашу предполагаемую дату родов, текущую неделю беременности и триместр.",
+  "id": "/loona-calculators/ru/pregnancy-due-date-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

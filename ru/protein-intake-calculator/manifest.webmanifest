@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калькулятор потребления белка",
+  "short_name": "Калькулятор потребления белка",
+  "description": "Бесплатный калькулятор потребления белка: дневные граммы белка по весу тела, уровню активности и цели с использованием научно обоснованных диапазонов g/kg. Отличается от распределений макросов на основе калорий.",
+  "id": "/loona-calculators/ru/protein-intake-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

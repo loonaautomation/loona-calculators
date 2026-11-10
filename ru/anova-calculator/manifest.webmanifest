@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калькулятор однофакторного дисперсионного анализа (ANOVA)",
+  "short_name": "Калькулятор однофакторного ANOVA",
+  "description": "Бесплатный калькулятор однофакторного ANOVA: введите числа каждой группы в отдельной строке, чтобы получить суммы квадратов, статистику F, степени свободы и p-значение, а также средние по группам.",
+  "id": "/loona-calculators/ru/anova-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

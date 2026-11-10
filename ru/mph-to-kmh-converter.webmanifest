@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертер миль в час в километры в час",
+  "short_name": "Конвертер миль в час в Km/h",
+  "description": "Конвертируйте мили в час в километры в час мгновенно. Точная формула, полная таблица перевода mph в km/h и разобранные примеры. Бесплатно, без регистрации.",
+  "id": "/loona-calculators/ru/mph-to-kmh-converter.html",
+  "start_url": "./mph-to-kmh-converter.html",
+  "scope": "./mph-to-kmh-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

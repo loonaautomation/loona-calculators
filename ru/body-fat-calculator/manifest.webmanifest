@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калькулятор процента жира в организме",
+  "short_name": "Калькулятор процента жира в организме",
+  "description": "Бесплатный калькулятор жира в организме по методу обхватов ВМС США: рост, шея, талия (и бедро для женщин) дают % жира в организме, жировую массу, безжировую массу и категорию ACE.",
+  "id": "/loona-calculators/ru/body-fat-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

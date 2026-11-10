@@ -1,0 +1,29 @@
+{
+  "name": "Loona Проверка компенсации EU261",
+  "short_name": "Проверка компенсации EU261",
+  "description": "Бесплатная проверка компенсации по EU261: введите расстояние полёта и задержку прибытия, чтобы узнать, могут ли вам причитаться €250, €400 или €600 по EC 261/2004, включая правило снижения на 50%.",
+  "id": "/loona-calculators/ru/eu261-compensation-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

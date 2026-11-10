@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертер единиц",
+  "short_name": "Конвертер единиц",
+  "description": "Бесплатный конвертер единиц: преобразуйте единицы длины, веса, температуры, объёма и площади с точными стандартными коэффициентами — km в мили, kg в фунты, Цельсий в Фаренгейт.",
+  "id": "/loona-calculators/ru/unit-converter/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

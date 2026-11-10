@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертер времени из Денвера в Лос-Анджелес",
+  "short_name": "Время из Денвера в Лос-Анджелес",
+  "description": "Конвертируйте время из Денвера в Лос-Анджелес. Лос-Анджелес отстаёт от Денвера на 1 час круглый год, с датами перехода на летнее время, таблицей на 24 часа и лучшим окном для встреч. Конвертер в реальном времени включён.",
+  "id": "/loona-calculators/ru/denver-to-los-angeles-time-converter.html",
+  "start_url": "./denver-to-los-angeles-time-converter.html",
+  "scope": "./denver-to-los-angeles-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

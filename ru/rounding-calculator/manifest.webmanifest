@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калькулятор округления",
+  "short_name": "Калькулятор округления",
+  "description": "Бесплатный калькулятор округления: округлите любое число до десятичных знаков, до ближайших 10, 100 или 1,000, или до значащих цифр, с объяснением правила.",
+  "id": "/loona-calculators/ru/rounding-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

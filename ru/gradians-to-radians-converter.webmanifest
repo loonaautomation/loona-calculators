@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертер градов в радианы",
+  "short_name": "Конвертер града в радиан",
+  "description": "Конвертируйте грады в радианы мгновенно. Точная формула, полная таблица перевода gon в rad, разобранный пример и частые вопросы. Бесплатно, без регистрации.",
+  "id": "/loona-calculators/ru/gradians-to-radians-converter.html",
+  "start_url": "./gradians-to-radians-converter.html",
+  "scope": "./gradians-to-radians-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

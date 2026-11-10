@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калькулятор Шенгена 90/180",
+  "short_name": "Калькулятор Шенгена 90/180",
+  "description": "Бесплатный калькулятор Шенгена 90/180: введите прошлые и запланированные поездки, чтобы увидеть использованные дни в любом скользящем 180-дневном окне, оставшиеся дни, предупреждения о превышении срока пребывания и самую раннюю безопасную дату повторного въезда.",
+  "id": "/loona-calculators/ru/schengen-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

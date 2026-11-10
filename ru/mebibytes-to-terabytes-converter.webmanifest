@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертер мебибайтов в терабайты",
+  "short_name": "Конвертер мебибайта в терабайт",
+  "description": "Конвертируйте мебибайты в терабайты мгновенно. Точная формула, полная таблица перевода MiB в TB, разобранный пример и частые вопросы. Бесплатно, без регистрации.",
+  "id": "/loona-calculators/ru/mebibytes-to-terabytes-converter.html",
+  "start_url": "./mebibytes-to-terabytes-converter.html",
+  "scope": "./mebibytes-to-terabytes-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

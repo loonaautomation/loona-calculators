@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калькулятор ипотеки в Пакистане",
+  "short_name": "Ипотечный калькулятор для Пакистана",
+  "description": "Бесплатный калькулятор финансирования жилья в Пакистане в рупиях: ежемесячный платёж при уменьшающемся остатке, общая наценка и дата полного погашения для любой цены недвижимости, первоначального взноса, ставки и срока.",
+  "id": "/loona-calculators/ru/pakistan-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

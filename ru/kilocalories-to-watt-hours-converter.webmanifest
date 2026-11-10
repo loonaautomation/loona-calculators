@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертер килокалорий в ватт-часы",
+  "short_name": "Килокалория в ватт-час",
+  "description": "Конвертируйте килокалории в ватт-часы мгновенно. Точная формула, полная таблица перевода kcal в Wh, разобранный пример и частые вопросы. Бесплатно, без регистрации.",
+  "id": "/loona-calculators/ru/kilocalories-to-watt-hours-converter.html",
+  "start_url": "./kilocalories-to-watt-hours-converter.html",
+  "scope": "./kilocalories-to-watt-hours-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

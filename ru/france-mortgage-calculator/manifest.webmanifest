@@ -1,0 +1,29 @@
+{
+  "name": "Loona Ипотечный калькулятор Франции",
+  "short_name": "Ипотечный калькулятор для Франции",
+  "description": "Бесплатный ипотечный калькулятор для Франции в евро: ежемесячный платёж с необязательным страхованием заёмщика (assurance emprunteur), общие проценты и дата полного погашения для любой цены, первоначального взноса, ставки и срока.",
+  "id": "/loona-calculators/ru/france-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

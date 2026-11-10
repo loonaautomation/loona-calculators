@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калькулятор идеального веса",
+  "short_name": "Калькулятор идеального веса",
+  "description": "Бесплатный калькулятор идеального веса: введите ваш рост и пол, чтобы получить ваш идеальный вес (формула Дивайна), а также полный здоровый диапазон веса по ИМТ для вашего роста.",
+  "id": "/loona-calculators/ru/ideal-weight-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

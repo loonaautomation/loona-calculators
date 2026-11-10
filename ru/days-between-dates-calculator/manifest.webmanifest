@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калькулятор дней между датами",
+  "short_name": "Калькулятор дней между датами",
+  "description": "Бесплатный калькулятор дней между датами: подсчитайте точное количество дней, недель и лет между любыми двумя датами. Полезно для сроков, виз, договоров и обратных отсчётов.",
+  "id": "/loona-calculators/ru/days-between-dates-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

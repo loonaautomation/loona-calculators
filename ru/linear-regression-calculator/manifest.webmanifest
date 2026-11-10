@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калькулятор линейной регрессии",
+  "short_name": "Калькулятор линейной регрессии",
+  "description": "Бесплатный калькулятор линейной регрессии: вставьте парные данные, чтобы получить прямую наименьших квадратов y = a + bx, корреляцию, прогнозы и диаграмму рассеяния с нарисованной подогнанной прямой.",
+  "id": "/loona-calculators/ru/linear-regression-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

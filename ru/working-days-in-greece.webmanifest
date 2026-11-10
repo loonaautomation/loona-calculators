@@ -1,0 +1,29 @@
+{
+  "name": "Loona Рабочие дни в Греции",
+  "short_name": "Рабочие дни в Греции",
+  "description": "Калькулятор рабочих дней для Греции: подсчёт рабочих дней между двумя датами с исключением выходных и всех 12 греческих государственных праздников 2026 года. Бесплатный онлайн-инструмент.",
+  "id": "/loona-calculators/ru/working-days-in-greece.html",
+  "start_url": "./working-days-in-greece.html",
+  "scope": "./working-days-in-greece.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калькулятор разделения арендной платы",
+  "short_name": "Калькулятор разделения аренды",
+  "description": "Бесплатный калькулятор разделения аренды: разделите ежемесячную аренду между соседями по жилью (от 2 до 8) — поровну, по размеру комнаты в квадратных футах или по доходу. Доли всегда в сумме дают точный итог.",
+  "id": "/loona-calculators/ru/rent-split-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

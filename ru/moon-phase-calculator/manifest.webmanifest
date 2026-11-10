@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калькулятор фаз Луны",
+  "short_name": "Калькулятор фазы Луны",
+  "description": "Бесплатный калькулятор фаз Луны: введите любую дату, чтобы увидеть название фазы Луны, процент освещённости, возраст Луны и дни до следующего новолуния и полнолуния.",
+  "id": "/loona-calculators/ru/moon-phase-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

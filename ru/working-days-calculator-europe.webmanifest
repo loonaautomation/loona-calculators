@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калькулятор рабочих дней в Европе",
+  "short_name": "Калькулятор рабочих дней Европы",
+  "description": "Калькулятор рабочих дней для 20 европейских стран: подсчёт рабочих дней между двумя датами с исключением выходных и государственных праздников 2026 года каждой страны.",
+  "id": "/loona-calculators/ru/working-days-calculator-europe.html",
+  "start_url": "./working-days-calculator-europe.html",
+  "scope": "./working-days-calculator-europe.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

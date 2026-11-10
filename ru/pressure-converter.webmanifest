@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертер давления",
+  "short_name": "Конвертер давления",
+  "description": "Каждая пара конвертации давления в одном индексе: точные коэффициенты, формулы и отдельная страница конвертера для каждой пары. Бесплатно, без регистрации.",
+  "id": "/loona-calculators/ru/pressure-converter.html",
+  "start_url": "./pressure-converter.html",
+  "scope": "./pressure-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

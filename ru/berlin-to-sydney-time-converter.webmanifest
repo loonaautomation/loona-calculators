@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертер времени из Берлина в Сидней",
+  "short_name": "Время из Берлина в Сидней",
+  "description": "Конвертируйте время из Берлина в Сидней. Сидней опережает Берлин на 10 часов в январе и на 8 часов в июле, с датами перехода на летнее время, таблицей на 24 часа и лучшим окном для встреч. Конвертер в реальном времени включён.",
+  "id": "/loona-calculators/ru/berlin-to-sydney-time-converter.html",
+  "start_url": "./berlin-to-sydney-time-converter.html",
+  "scope": "./berlin-to-sydney-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

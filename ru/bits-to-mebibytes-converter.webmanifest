@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертер бита в мебибайт",
+  "short_name": "Конвертер битов в мебибайты",
+  "description": "Конвертируйте биты в мебибайты мгновенно. Точная формула, полная таблица перевода bit в MiB, разобранный пример и частые вопросы. Бесплатно, без регистрации.",
+  "id": "/loona-calculators/ru/bits-to-mebibytes-converter.html",
+  "start_url": "./bits-to-mebibytes-converter.html",
+  "scope": "./bits-to-mebibytes-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

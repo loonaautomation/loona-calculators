@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертер мегаватт в киловатты",
+  "short_name": "Конвертер мегаватта в киловатт",
+  "description": "Конвертируйте мегаватты в киловатты мгновенно. Точная формула, полная таблица перевода MW в kW, разобранный пример и частые вопросы. Бесплатно, без регистрации.",
+  "id": "/loona-calculators/ru/megawatts-to-kilowatts-converter.html",
+  "start_url": "./megawatts-to-kilowatts-converter.html",
+  "scope": "./megawatts-to-kilowatts-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

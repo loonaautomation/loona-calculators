@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертер миль в ярды",
+  "short_name": "Конвертер миль в ярды",
+  "description": "Конвертируйте мили в ярды мгновенно. Точная формула, полная таблица перевода mi в yd, разобранный пример и частые вопросы. Бесплатно, без регистрации.",
+  "id": "/loona-calculators/ru/miles-to-yards-converter.html",
+  "start_url": "./miles-to-yards-converter.html",
+  "scope": "./miles-to-yards-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

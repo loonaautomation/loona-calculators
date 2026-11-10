@@ -1,0 +1,29 @@
+{
+  "name": "Loona Ипотечный калькулятор Канады",
+  "short_name": "Ипотечный калькулятор для Канады",
+  "description": "Бесплатный канадский ипотечный калькулятор в CAD с правильной полугодовой капитализацией (j2), ежемесячными платежами, общими процентами и сравнением переплат.",
+  "id": "/loona-calculators/ru/canada-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

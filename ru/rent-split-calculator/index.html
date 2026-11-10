@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Калькулятор разделения аренды — делите аренду честно между соседями | Loona Calculators</title>
+<meta name="description" content="Бесплатный калькулятор разделения аренды: разделите ежемесячную аренду между соседями по жилью (от 2 до 8) — поровну, по размеру комнаты в квадратных футах или по доходу. Доли всегда в сумме дают точный итог.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/ru/rent-split-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/rent-split-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/rent-split-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/rent-split-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/rent-split-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/rent-split-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/rent-split-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/rent-split-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/rent-split-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/rent-split-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/rent-split-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/rent-split-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/rent-split-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Калькулятор разделения аренды — делите аренду честно между соседями | Loona Calculators">
+<meta property="og:description" content="Бесплатный калькулятор разделения аренды: разделите ежемесячную аренду между соседями по жилью (от 2 до 8) — поровну, по размеру комнаты в квадратных футах или по доходу. Доли всегда в сумме дают точный итог.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/ru/rent-split-calculator/"><meta property="og:locale" content="ru_RU">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Калькулятор разделения аренды — делите аренду честно между соседями | Loona Calculators">
+<meta name="twitter:description" content="Бесплатный калькулятор разделения аренды: разделите ежемесячную аренду между соседями по жилью (от 2 до 8) — поровну, по размеру комнаты в квадратных футах или по доходу. Доли всегда в сумме дают точный итог.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona Калькулятор разделения арендной платы","url":"https://loonaautomation.github.io/loona-calculators/ru/rent-split-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Как справедливее всего разделить арендную плату?","acceptedAnswer":{"@type":"Answer","text":"Единственного ответа нет — это зависит от того, что ценит ваше домохозяйство. Равное деление — самое простое и работает, когда комнаты похожи. Деление по размеру комнаты справедливее, когда одна спальня намного больше или имеет собственную ванную. Деление по доходу сохраняет бремя пропорциональным, когда заработки сильно различаются. Самый справедливый метод — тот, о котором все договорились до подписания договора аренды."}},{"@type":"Question","name":"Как разделить арендную плату по размеру комнат?","acceptedAnswer":{"@type":"Answer","text":"Измерьте каждую спальню (длина × ширина, в футах), чтобы получить её площадь в квадратных футах, затем каждый человек платит долю арендной платы, соответствующую его доле в общей площади спален. Комната площадью 500 кв. футов в доме со спальнями общей площадью 1,000 кв. футов платит половину арендной платы. Общие зоны, такие как кухня и гостиная, используются всеми, поэтому большинство домохозяйств делят плату по размеру спален, а остальное делят поровну."}},{"@type":"Question","name":"Пара, живущая в одной комнате, должна платить одну долю или две?","acceptedAnswer":{"@type":"Answer","text":"Оба соглашения существуют. Многие домохозяйства взимают аренду за комнату (пара платит долю за одну комнату), но делят коммунальные услуги и продукты на человека (пара считается за двоих). Этот калькулятор работает на человека — чтобы смоделировать вариант «пара платит как одна комната», просто введите пару одной строкой в режиме размера комнаты."}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/ru/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Калькулятор разделения аренды",
+      "item": "https://loonaautomation.github.io/loona-calculators/ru/rent-split-calculator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Логотип Loona Automation">
+<div class="brand">Loona <span>Калькуляторы</span></div>
+<nav>
+<a href="../">Главная</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">О нас</a>
+<a href="../contact.html">Контакты</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › Деньги &amp; финансы › Калькулятор разделения аренды</div>
+<h1 class="pagetitle">🤝 Калькулятор разделения аренды</h1>
+<p class="lead">Разделение аренды поровну звучит честно — пока одна спальня не окажется вдвое больше другой, или один сосед не станет зарабатывать вдвое меньше остальных. Этот калькулятор делит аренду тремя способами — поровну, по размеру комнаты или по доходу — чтобы договорённость, к которой придёт ваша семья, была также той, которую поддерживают числа.</p>
+<div class="toolbox"><form class="calcform" id="rsForm">
+<div class="fld"><label for="rsTotal">Общая месячная арендная плата</label><input type="number" step="any" min="0" id="rsTotal" value="60000"></div>
+<div class="fld"><label for="rsCount">Количество соседей по комнате (включая вас)</label><select id="rsCount"><option>2</option><option selected>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option></select></div>
+<div class="fld"><label for="rsMode">Разделить аренду…</label><select id="rsMode"><option value="equal">Поровну между всеми</option><option value="size">По размеру комнаты (кв. футы)</option><option value="income">По доходу (кто зарабатывает больше, платит больше)</option></select></div>
+<div id="rsRows"></div>
+<button class="calcbtn" type="submit">Разделить аренду</button>
+</form>
+<div class="calcresult" id="rsRes" style="display:none"></div></div>
+<section class="txt"><h2>Как использовать калькулятор разделения аренды</h2><ol><li>Введите общую ежемесячную арендную плату за всё жильё.</li><li>Выберите, сколько соседей делят сумму (от 2 до 8), включая вас.</li><li>Выберите метод разделения: поровну, по размеру комнаты или по доходу. Для методов по размеру и доходу заполните данные каждого человека.</li><li>Нажмите «Разделить аренду» — ежемесячная доля и процент каждого появятся в таблице.</li></ol>
+<h2>Часто задаваемые вопросы</h2></section><div class="faq"><h3>Как справедливее всего разделить арендную плату?</h3><p>Единственного ответа нет — это зависит от того, что ценит ваше домохозяйство. Равное деление — самое простое и работает, когда комнаты похожи. Деление по размеру комнаты справедливее, когда одна спальня намного больше или имеет собственную ванную. Деление по доходу сохраняет бремя пропорциональным, когда заработки сильно различаются. Самый справедливый метод — тот, о котором все договорились до подписания договора аренды.</p></div><div class="faq"><h3>Как разделить арендную плату по размеру комнат?</h3><p>Измерьте каждую спальню (длина × ширина, в футах), чтобы получить её площадь в квадратных футах, затем каждый человек платит долю арендной платы, соответствующую его доле в общей площади спален. Комната площадью 500 кв. футов в доме со спальнями общей площадью 1,000 кв. футов платит половину арендной платы. Общие зоны, такие как кухня и гостиная, используются всеми, поэтому большинство домохозяйств делят плату по размеру спален, а остальное делят поровну.</p></div><div class="faq"><h3>Пара, живущая в одной комнате, должна платить одну долю или две?</h3><p>Оба соглашения существуют. Многие домохозяйства взимают аренду за комнату (пара платит долю за одну комнату), но делят коммунальные услуги и продукты на человека (пара считается за двоих). Этот калькулятор работает на человека — чтобы смоделировать вариант «пара платит как одна комната», просто введите пару одной строкой в режиме размера комнаты.</p></div>
+<h2 class="sec">Связанные калькуляторы</h2><div class="grid"><a class="card" href="../rent-affordability-calculator/" data-name="rent affordability calculator rent-affordability-calculator"><div class="ic">🔑</div><h3>Калькулятор доступности аренды</h3><p>Бесплатный калькулятор доступности аренды: введите ваш доход и долги, чтобы увидеть максимальную аренду, которую вы можете себе позволить по правилам 30% и 28/36.</p></a><a class="card" href="../rent-vs-buy-calculator/" data-name="rent vs buy calculator rent-vs-buy-calculator"><div class="ic">⚖️</div><h3>Калькулятор «Аренда или покупка»</h3><p>Бесплатный калькулятор «аренда или покупка»: сравните общую стоимость аренды с покупкой дома за годы, которые вы планируете там прожить.</p></a><a class="card" href="../rent-increase-calculator/" data-name="rent increase calculator rent-increase-calculator"><div class="ic">📈</div><h3>Калькулятор повышения аренды</h3><p>Бесплатный калькулятор повышения аренды: посмотрите вашу новую аренду после процентного повышения, а также прогноз по годам.</p></a><a class="card" href="../mortgage-calculator/" data-name="mortgage calculator mortgage-calculator"><div class="ic">🏠</div><h3>Ипотечный калькулятор</h3><p>Бесплатный ипотечный калькулятор: цена дома, первоначальный взнос, процентная ставка и срок — получите сумму кредита, ежемесячный платёж, общие проценты и общую стоимость вашего дома.</p></a><a class="card" href="../emi-calculator/" data-name="emi & loan calculator emi-calculator"><div class="ic">🏦</div><h3>Калькулятор EMI и кредитов</h3><p>Бесплатный калькулятор EMI и кредитов: введите сумму кредита, процентную ставку или норму прибыли и срок, чтобы получить ваш ежемесячный платёж и общую стоимость.</p></a></div>
+</div>
+<section class="txt"><h2>Как это работает — формула</h2><p>Каждый человек платит пропорционально своему весу. В режиме равных долей каждый вес равен 1. В режиме по размеру комнаты вес — это размер комнаты этого человека в квадратных футах, а в режиме по доходу — ежемесячный доход этого человека. Доля — это общая арендная плата, умноженная на вес человека и делённая на сумму всех весов.</p>
+<p><strong>Формула:</strong> Аренда человека = общая аренда × вес человека ÷ сумма всех весов. Доли округляются до целых рупий; если после округления до общей суммы не хватает одной-двух рупий или сумма превышает её, доля последнего человека корректируется так, чтобы доли всегда складывались ровно в общую аренду.</p><h3>Разобранный пример</h3><div class="exbox"><p><strong>Исходные данные:</strong> Общая арендная плата Rs 60,000; три соседа по комнате с комнатами площадью 500, 300 и 200 sq ft.</p>
+<p><strong>Шаги:</strong> Веса в сумме составляют 1,000 sq ft. Человек 1 платит 60,000 × 500 ÷ 1,000 = Rs 30,000; Человек 2 платит 60,000 × 300 ÷ 1,000 = Rs 18,000; Человек 3 платит 60,000 × 200 ÷ 1,000 = Rs 12,000 — вместе ровно Rs 60,000.</p>
+<p><strong>Результат:</strong> По размеру комнаты: <strong>Rs 30,000 / Rs 18,000 / Rs 12,000</strong>. Если разделить поровну, та же арендная плата составит просто <strong>Rs 20,000 каждый</strong>.</p></div><h3>Часто задаваемые вопросы</h3></section><div class="faq"><h3>Как разделить коммунальные счета и другие общие расходы?</h3><p>Для счетов, которые растут с числом людей, — электричество в общих зонах, вода, интернет, уборка — равное разделение на человека обычно самое справедливое, какой бы ни была договорённость об аренде. Вы можете использовать этот же калькулятор: введите сумму счёта как «аренду» и выберите равное разделение.</p></div><div class="faq"><h3>Что, если у одной комнаты есть собственная ванная или балкон?</h3><p>Взвесьте её. В режиме размера комнаты введите размер этой комнаты плюс немного дополнительно — прибавление 10–20% к её измеренной площади — распространённый способ заложить в цену частную ванную или балкон. Важно, чтобы все видели и принимали скорректированные цифры до того, как будет рассчитано разделение.</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Встройте этот калькулятор на ваш сайт — бесплатно</h2>
+<p style="margin:0 0 12px;line-height:1.6">Добавьте этот калькулятор на свой сайт или в блог — он полностью бесплатен, не требует регистрации и всегда показывает последнюю версию. Скопируйте код ниже и вставьте его на свою страницу туда, где должен появиться калькулятор. Сохранение небольшой строки с указанием авторства &ldquo;Powered by Loona Automation&rdquo; под встроенным блоком помогает сохранять этот инструмент бесплатным &mdash; но вы можете оформить её по-своему или удалить; инструмент будет работать в любом случае.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/ru/rent-split-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Rent Split Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Предоставлено &lt;a href="https://loonaautomation.github.io/loona-calculators/ru/rent-split-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; бесплатный Калькулятор разделения аренды&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Копировать код встраивания</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='Копировать код вставки';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Популярные калькуляторы</h4><ul><li><a href="../age-calculator/">Калькулятор возраста</a></li>
+<li><a href="../zakat-calculator/">Калькулятор закята</a></li>
+<li><a href="../cgpa-calculator/">Калькулятор CGPA</a></li>
+<li><a href="../percentage-calculator/">Калькулятор процентов</a></li>
+<li><a href="../hijri-date-converter/">Конвертер дат хиджры</a></li>
+<li><a href="../emi-calculator/">Калькулятор EMI и кредитов</a></li></ul></div>
+<div><h4>Ещё инструменты Loona</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR-коды</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Компрессор изображений</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI-ассистент</a></li>
+<li><a href="https://loonaautomation.github.io/">Все инструменты Loona</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">О нас</a></li>
+<li><a href="../contact.html">Контакты</a></li>
+<li><a href="../privacy-policy.html">Политика конфиденциальности</a></li>
+<li><a href="../terms.html">Условия использования</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — проект <a href="https://loonaautomation.github.io/">Loona Automation</a> проект. Бесплатные онлайн-калькуляторы, без регистрации.
+Контакт: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+/* Rent Split — pure logic (unit-tested, inlined into the page) */
+function splitRent(total, weights){
+  var sum = 0, i;
+  for (i = 0; i < weights.length; i++) sum += weights[i];
+  if (sum <= 0) return null;
+  var shares = [], used = 0;
+  for (i = 0; i < weights.length; i++){
+    var s = Math.round(total * weights[i] / sum);
+    shares.push(s); used += s;
+  }
+  shares[shares.length - 1] += (total - used); /* rounding lands on the last person */
+  return shares;
+}
+function fmt(n){return "Rs " + Math.round(n).toLocaleString("en-IN");}
+function fmt2(n){return "Rs " + n.toLocaleString("en-IN",{minimumFractionDigits:2,maximumFractionDigits:2});}
+function pctFmt(n){return parseFloat(n.toFixed(2)) + "%";}
+function num(id){var v=parseFloat(document.getElementById(id).value);return isNaN(v)?0:v;}
+var rsRows = document.getElementById("rsRows");
+function rsBuildRows(){
+  var n = parseInt(document.getElementById("rsCount").value, 10);
+  var mode = document.getElementById("rsMode").value;
+  var wlabel = mode === "size" ? "Размер комнаты (sq ft)" : mode === "income" ? "Monthly income" : "";
+  var h = "";
+  for (var i = 1; i <= n; i++){
+    h += '<div class="subgrid"><div class="subrow"><div class="fld" style="margin:0"><label for="rsName' + i + '">Person ' + i + ' имя (необязательно)</label><input type="text" id="rsName' + i + '" placeholder="Person ' + i + '"></div>'
+       + '<div class="fld" style="margin:0' + (mode === "equal" ? ";display:none" : "") + '"><label for="rsW' + i + '">' + wlabel + '</label><input type="number" step="any" min="0" id="rsW' + i + '"></div></div></div>';
+  }
+  rsRows.innerHTML = h;
+}
+document.getElementById("rsCount").addEventListener("change", rsBuildRows);
+document.getElementById("rsMode").addEventListener("change", rsBuildRows);
+rsBuildRows();
+document.getElementById("rsForm").addEventListener("submit", function(e){
+  e.preventDefault();
+  var res = document.getElementById("rsRes");
+  var total = num("rsTotal");
+  var n = parseInt(document.getElementById("rsCount").value, 10);
+  var mode = document.getElementById("rsMode").value;
+  if (total <= 0){ res.style.display = "block"; res.innerHTML = '<div class="err">Введите общую ежемесячную аренду.</div>'; return; }
+  var weights = [], names = [];
+  for (var i = 1; i <= n; i++){
+    var nm = document.getElementById("rsName" + i).value.trim();
+    names.push(nm || ("Person " + i));
+    weights.push(mode === "equal" ? 1 : num("rsW" + i));
+  }
+  var shares = splitRent(total, weights);
+  if (!shares){ res.style.display = "block"; res.innerHTML = '<div class="err">Введите хотя бы одно ' + (mode === "size" ? "room size" : "income") + ' больше нуля — или переключите разделение на «Поровну».</div>'; return; }
+  var rows = "";
+  for (var j = 0; j < n; j++){
+    rows += '<tr><td>' + names[j].replace(/</g, "&lt;") + '</td><td>' + fmt(shares[j]) + '</td><td>' + pctFmt(shares[j] / total * 100) + '</td></tr>';
+  }
+  res.style.display = "block";
+  res.innerHTML = '<div class="resbig"><span>Общая аренда разделена между ' + n + ' людьми</span><strong>' + fmt(total) + '</strong></div>'
+    + '<table class="restbl"><tr><td><strong>Человек</strong></td><td><strong>Платит в месяц</strong></td><td><strong>Доля</strong></td></tr>' + rows + '</table>'
+    + '<p class="resnote">Доли округляются до целых рупий и всегда в сумме дают ровно общую аренду — любая разница округления приходится на последнего человека. Договоритесь о разделении до переезда и запишите его; большинство споров между соседями по жилью — о вещах, которые никто не записал.</p>';
+});
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Установить приложение';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Установите это приложение: нажмите кнопку «Поделиться», затем выберите «Добавить на главный экран».');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body></html>

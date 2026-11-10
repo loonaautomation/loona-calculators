@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калькулятор потребления воды",
+  "short_name": "Калькулятор потребления воды",
+  "description": "Бесплатный калькулятор потребления воды: введите ваш вес и ежедневную физическую нагрузку, чтобы получить ваше рекомендуемое потребление воды в литрах, миллилитрах и стаканах в день.",
+  "id": "/loona-calculators/ru/water-intake-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

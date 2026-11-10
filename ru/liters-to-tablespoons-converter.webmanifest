@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертер литров в столовые ложки (США)",
+  "short_name": "Литр в столовую ложку (США)",
+  "description": "Конвертируйте литры в столовые ложки (США) мгновенно. Точная формула, полная таблица перевода L в tbsp, разобранный пример и частые вопросы. Бесплатно, без регистрации.",
+  "id": "/loona-calculators/ru/liters-to-tablespoons-converter.html",
+  "start_url": "./liters-to-tablespoons-converter.html",
+  "scope": "./liters-to-tablespoons-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

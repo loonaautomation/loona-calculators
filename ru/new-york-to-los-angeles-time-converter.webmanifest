@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертер времени из Нью-Йорка в Лос-Анджелес",
+  "short_name": "Время из Нью-Йорка в Лос-Анджелес",
+  "description": "Конвертируйте время Нью-Йорка во время Лос-Анджелеса. Лос-Анджелес отстаёт от Нью-Йорка на 3 часа круглый год, с датами перехода на летнее время, таблицей на 24 часа и лучшим окном для встречи. Конвертер в реальном времени включён.",
+  "id": "/loona-calculators/ru/new-york-to-los-angeles-time-converter.html",
+  "start_url": "./new-york-to-los-angeles-time-converter.html",
+  "scope": "./new-york-to-los-angeles-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

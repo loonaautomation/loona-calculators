@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертер дюймов в миллиметры",
+  "short_name": "Дюймы в миллиметры",
+  "description": "Конвертируйте дюймы в миллиметры мгновенно. Точная формула, полная таблица перевода in в mm и разобранные примеры. Бесплатно, без регистрации.",
+  "id": "/loona-calculators/ru/inches-to-millimeters-converter.html",
+  "start_url": "./inches-to-millimeters-converter.html",
+  "scope": "./inches-to-millimeters-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

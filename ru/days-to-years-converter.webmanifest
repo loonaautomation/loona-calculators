@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертер дня в год (юлианский)",
+  "short_name": "Конвертер дней в годы (юлианские)",
+  "description": "Конвертируйте дни в годы мгновенно. Точная формула, полная таблица перевода d в yr, разобранный пример и частые вопросы. Бесплатно, без регистрации.",
+  "id": "/loona-calculators/ru/days-to-years-converter.html",
+  "start_url": "./days-to-years-converter.html",
+  "scope": "./days-to-years-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

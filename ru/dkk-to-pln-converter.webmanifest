@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертер DKK в PLN",
+  "short_name": "Конвертер DKK в PLN",
+  "description": "Конвертируйте датская крона (DKK) в польский злотый (PLN). Справочный курс ЕЦБ от 06 ноября 2026, обратный курс, таблица конвертации и примечания по коридору. Только для ориентира.",
+  "id": "/loona-calculators/ru/dkk-to-pln-converter.html",
+  "start_url": "./dkk-to-pln-converter.html",
+  "scope": "./dkk-to-pln-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

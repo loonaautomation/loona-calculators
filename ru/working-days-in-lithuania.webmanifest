@@ -1,0 +1,29 @@
+{
+  "name": "Loona Рабочие дни в Литве",
+  "short_name": "Рабочие дни в Литве",
+  "description": "Калькулятор рабочих дней для Литвы: подсчёт рабочих дней между двумя датами с исключением выходных и всех 16 литовских государственных праздников 2026 года. Бесплатный онлайн-инструмент.",
+  "id": "/loona-calculators/ru/working-days-in-lithuania.html",
+  "start_url": "./working-days-in-lithuania.html",
+  "scope": "./working-days-in-lithuania.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

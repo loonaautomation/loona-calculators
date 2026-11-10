@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертер метров в километры",
+  "short_name": "Конвертер метров в Km",
+  "description": "Конвертируйте метры в километры мгновенно. Точная формула, полная таблица перевода m в km и разобранные примеры. Бесплатно, без регистрации.",
+  "id": "/loona-calculators/ru/meters-to-kilometers-converter.html",
+  "start_url": "./meters-to-kilometers-converter.html",
+  "scope": "./meters-to-kilometers-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

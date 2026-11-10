@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калькулятор погашения кредитной карты",
+  "short_name": "Калькулятор погашения кредитной карты",
+  "description": "Бесплатный калькулятор погашения кредитной карты: остаток, APR и фиксированный ежемесячный платёж — посмотрите количество месяцев до погашения, общие проценты и общую выплаченную сумму, с предупреждением о слишком малых платежах.",
+  "id": "/loona-calculators/ru/credit-card-payoff-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

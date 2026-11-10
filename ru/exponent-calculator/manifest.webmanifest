@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калькулятор степеней",
+  "short_name": "Калькулятор степеней",
+  "description": "Бесплатный калькулятор степеней: введите основание и показатель степени для результата возведения в степень, а также бонусную таблицу квадрата, куба, квадратного корня и кубического корня основания.",
+  "id": "/loona-calculators/ru/exponent-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

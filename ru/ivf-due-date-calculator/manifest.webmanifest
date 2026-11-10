@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калькулятор даты родов после ЭКО",
+  "short_name": "Калькулятор даты родов после ЭКО",
+  "description": "Бесплатный калькулятор даты родов при ЭКО: введите дату переноса эмбриона и возраст эмбриона (3-й день или 5-й день), чтобы получить расчётную дату родов и текущий срок беременности.",
+  "id": "/loona-calculators/ru/ivf-due-date-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Ипотечный калькулятор Австралии",
+  "short_name": "Ипотечный калькулятор для Австралии",
+  "description": "Бесплатный калькулятор жилищного кредита в Австралии в AUD: ежемесячные платежи, общие проценты и общая стоимость, а также сравнение дополнительных платежей, чтобы закончить раньше.",
+  "id": "/loona-calculators/ru/australia-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
