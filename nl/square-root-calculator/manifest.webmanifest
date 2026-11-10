@@ -1,0 +1,29 @@
+{
+  "name": "Loona Vierkantswortelcalculator",
+  "short_name": "Vierkantswortelcalculator",
+  "description": "Gratis vierkantswortelcalculator: voer een getal in om er de vierkantswortel, de derdemachtswortel en de 4e en 5e wortels van te krijgen — plus het kwadraat en de derde macht — allemaal tegelijk.",
+  "id": "/loona-calculators/nl/square-root-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

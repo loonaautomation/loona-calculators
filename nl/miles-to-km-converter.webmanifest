@@ -1,0 +1,29 @@
+{
+  "name": "Loona Mijlen naar Km Converter",
+  "short_name": "Mijlen naar Km Converter",
+  "description": "Reken mijl direct om naar kilometer. Exacte formule, een volledige omrekentabel van mi naar km en uitgewerkte voorbeelden. Gratis, geen registratie nodig.",
+  "id": "/loona-calculators/nl/miles-to-km-converter.html",
+  "start_url": "./miles-to-km-converter.html",
+  "scope": "./miles-to-km-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

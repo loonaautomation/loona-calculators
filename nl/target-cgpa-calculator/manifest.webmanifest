@@ -1,0 +1,29 @@
+{
+  "name": "Loona Doel-CGPA Calculator",
+  "short_name": "Doel-CGPA-calculator",
+  "description": "Gratis calculator voor je doel-CGPA: je huidige CGPA, je behaalde studiepunten, je doel-CGPA en je resterende studiepunten — zie welk GPA je moet halen, of wat de maximale CGPA is die nog haalbaar is.",
+  "id": "/loona-calculators/nl/target-cgpa-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Tijdcalculator",
+  "short_name": "Tijdcalculator",
+  "description": "Gratis tijdcalculator: tel uren, minuten en seconden op bij twee tijdsduren of trek ze ervan af. Perfect voor werkuren, de lengte van video's, reistijd en studieschema's.",
+  "id": "/loona-calculators/nl/time-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

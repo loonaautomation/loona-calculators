@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VO2-maxcalculator — Cooper & Rockport Testschattingen | Loona Calculators</title>
+<meta name="description" content="Gratis VO2-max-calculator: schat je aerobe fitheid met de Cooper-hardlooptest van 12 minuten of de Rockport-wandeltest over 1 mijl. Educatieve schatting van je fitheid.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/nl/vo2-max-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/vo2-max-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/vo2-max-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/vo2-max-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/vo2-max-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/vo2-max-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/vo2-max-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/vo2-max-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/vo2-max-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="VO2-maxcalculator — Cooper & Rockport Testschattingen | Loona Calculators">
+<meta property="og:description" content="Gratis VO2-max-calculator: schat je aerobe fitheid met de Cooper-hardlooptest van 12 minuten of de Rockport-wandeltest over 1 mijl. Educatieve schatting van je fitheid.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/nl/vo2-max-calculator/"><meta property="og:locale" content="nl_NL">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="VO2-maxcalculator — Cooper & Rockport Testschattingen | Loona Calculators">
+<meta name="twitter:description" content="Gratis VO2-max-calculator: schat je aerobe fitheid met de Cooper-hardlooptest van 12 minuten of de Rockport-wandeltest over 1 mijl. Educatieve schatting van je fitheid.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona VO2-maxcalculator","url":"https://loonaautomation.github.io/loona-calculators/nl/vo2-max-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Wat is een goede VO2-max?","acceptedAnswer":{"@type":"Answer","text":"Het hangt sterk af van leeftijd en geslacht. Als grove richtlijn voor volwassenen: onder ongeveer 30 is laag, 35–45 is gemiddeld tot goed voor veel leeftijdsgroepen, 45–55 is zeer goed, en elite-duursporters komen boven de 60–75 uit. Tabellen op basis van leeftijd geven de eerlijkste lezing."}},{"@type":"Question","name":"Hoe nauwkeurig zijn deze praktijktests?","acceptedAnswer":{"@type":"Answer","text":"De vergelijkingen van Cooper en Rockport zijn gevalideerd tegen laboratoriumtests met gasanalyse en liggen doorgaans binnen ongeveer ±3–5 ml/kg/min. Het zijn schattingen voor trainingsbegeleiding, geen medische metingen."}},{"@type":"Question","name":"Welke toets moet ik kiezen?","acceptedAnswer":{"@type":"Answer","text":"Hardlopers kiezen meestal Cooper (een maximale inspanning van 12 minuten — warm goed op en probeer het niet als je je niet lekker voelt of nieuw bent met zware inspanning). Wandelaars en beginners kiezen Rockport, dat submaximaal en vriendelijker is."}},{"@type":"Question","name":"Is dit medisch advies?","acceptedAnswer":{"@type":"Answer","text":"Nee — een educatieve schatting voor fitness. Maximale inspanningstests brengen voor sommige mensen risico's met zich mee; raadpleeg eerst een arts als je een medische aandoening of symptomen hebt."}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/nl/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "VO2-maxcalculator",
+      "item": "https://loonaautomation.github.io/loona-calculators/nl/vo2-max-calculator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Logo van Loona Automation">
+<div class="brand">Loona <span>Rekenmachines</span></div>
+<nav>
+<a href="../">Home</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">Over ons</a>
+<a href="../contact.html">Contact</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › Gezondheid › VO2-maxcalculator</div>
+<h1 class="pagetitle">🫁 VO2-maxcalculator</h1>
+<p class="lead">Schat je VO2-max — de klassieke maat voor aerobe fitness — op basis van óf de Cooper-test van 12 minuten hardlopen (afgelegde afstand) óf de Rockport-wandeltest van één mijl (tijd, hartslag, gewicht, leeftijd en geslacht).</p>
+<div class="exbox"><strong>Snel antwoord:</strong> Coopertest: VO2 max ≈ (afstand in meters − 504.9) ÷ 44.73. Wie 2,800 m in 12 minuten loopt, krijgt (2,800 − 504.9) ÷ 44.73 ≈ 51.3 ml/kg/min — uitstekend voor de meeste volwassenen.</div>
+<div class="toolbox"><form class="calcform" id="voForm">
+<div class="fld"><label for="voMode">Toets</label><select id="voMode"><option value="cooper">Cooper 12-minutenloop</option><option value="rockport">Rockport-wandeling van 1 mijl</option></select></div>
+<div class="fld" data-vo="cooper"><label for="voDist">Afstand afgelegd in 12 minuten (meter)</label><input type="number" id="voDist" value="2800" min="200" max="6000"></div>
+<div class="fld" data-vo="rockport" style="display:none"><label for="voSex">Geslacht</label><select id="voSex"><option value="m">Man</option><option value="f">Vrouw</option></select></div>
+<div class="fld" data-vo="rockport" style="display:none"><label for="voAge">Leeftijd</label><input type="number" id="voAge" value="40" min="15" max="90"></div>
+<div class="fld" data-vo="rockport" style="display:none"><label for="voW">Gewicht (kg)</label><input type="number" id="voW" value="80" min="30" max="300" step="0.1"></div>
+<div class="fld" data-vo="rockport" style="display:none"><label for="voTime">Wandeltijd voor één mijl (minuten, bijv. 14.0)</label><input type="number" id="voTime" value="14" min="8" max="30" step="0.01"></div>
+<div class="fld" data-vo="rockport" style="display:none"><label for="voHr">Hartslag aan het einde van de wandeling (bpm)</label><input type="number" id="voHr" value="120" min="60" max="220"></div>
+<button class="calcbtn" type="submit">Schat VO2-max</button>
+<div class="calcresult" id="voResult" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>Hoe je de VO2 Max-calculator gebruikt</h2><ol><li>Kies je test: Coopertest of Rockport-wandeltest.</li><li>Voer voor Cooper de afstand in die je in precies 12 minuten hardlopen hebt afgelegd.</li><li>Voer voor Rockport je wandeltijd over één mijl in, je hartslag aan het einde, je gewicht, leeftijd en geslacht.</li></ol>
+<div class="exbox"><strong>Voorbeeld:</strong> Cooper: 2,800 m in 12 minuten → VO2 max ≈ 51.3. Rockport-voorbeeld: een man van 40 jaar, 80 kg, loopt een mijl in 14:00 met een eindhartslag van 120 → VO2 max ≈ 45.6 (hieronder uitgewerkt).</div>
+<h2>Veelgestelde vragen</h2></section><div class="faq"><h3>Wat is een goede VO2-max?</h3><p>Het hangt sterk af van leeftijd en geslacht. Als grove richtlijn voor volwassenen: onder ongeveer 30 is laag, 35–45 is gemiddeld tot goed voor veel leeftijdsgroepen, 45–55 is zeer goed, en elite-duursporters komen boven de 60–75 uit. Tabellen op basis van leeftijd geven de eerlijkste lezing.</p></div><div class="faq"><h3>Hoe nauwkeurig zijn deze praktijktests?</h3><p>De vergelijkingen van Cooper en Rockport zijn gevalideerd tegen laboratoriumtests met gasanalyse en liggen doorgaans binnen ongeveer ±3–5 ml/kg/min. Het zijn schattingen voor trainingsbegeleiding, geen medische metingen.</p></div><div class="faq"><h3>Welke toets moet ik kiezen?</h3><p>Hardlopers kiezen meestal Cooper (een maximale inspanning van 12 minuten — warm goed op en probeer het niet als je je niet lekker voelt of nieuw bent met zware inspanning). Wandelaars en beginners kiezen Rockport, dat submaximaal en vriendelijker is.</p></div><div class="faq"><h3>Is dit medisch advies?</h3><p>Nee — een educatieve schatting voor fitness. Maximale inspanningstests brengen voor sommige mensen risico's met zich mee; raadpleeg eerst een arts als je een medische aandoening of symptomen hebt.</p></div>
+<h2 class="sec">Gerelateerde calculators</h2><div class="grid"><a class="card" href="../bmi-calculator/"><div class="ic">⚖️</div><h3>BMI-calculator</h3><p>Gezondheid</p></a><a class="card" href="../calorie-calculator/"><div class="ic">🍽️</div><h3>Caloriecalculator</h3><p>Gezondheid</p></a><a class="card" href="../sleep-calculator/"><div class="ic">😴</div><h3>Slaapcalculator</h3><p>Gezondheid</p></a><a class="card" href="../target-heart-rate-calculator/"><div class="ic">❤️</div><h3>Doelhartslagcalculator</h3><p>Gezondheid</p></a></div>
+</div>
+<section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>Hoe het werkt — de formule</h2>
+<p><strong>Cooper:</strong> VO2 max = (afstand in m − 504.9) ÷ 44.73. <strong>Rockport:</strong> VO2 max = 132.853 − 0.0769 × gewicht(lb) − 0.3877 × leeftijd + 6.315 × geslacht (1 man, 0 vrouw) − 3.2649 × tijd(min) − 0.1565 × eindhartslag. Beide geven ml/kg/min.</p>
+<h3>Uitgewerkt voorbeeld</h3><div class="exbox"><p><strong>Rockport-invoer:</strong> man, 40 jaar, 80 kg (= 176.37 lb), 14.00 min per mijl, eind-HR 120.</p><p><strong>Stappen:</strong> 132.853 − 0.0769×176.37 − 0.3877×40 + 6.315 − 3.2649×14 − 0.1565×120 = 132.853 − 13.563 − 15.508 + 6.315 − 45.709 − 18.780 = 45.61.</p><p><strong>Resultaat:</strong> VO2 max ≈ <strong>45.6 ml/kg/min</strong>. (In het paginavoorbeeld hierboven staat afgerond ≈46.) Cooper-toets: (2,800 − 504.9) ÷ 44.73 = 2,295,1 ÷ 44.73 = 51.3.</p></div>
+<p class="resnote"><strong>Gezondheidsdisclaimer:</strong> Alleen een educatieve schatting — geen medisch advies, diagnose of behandeling. Raadpleeg altijd een gekwalificeerde zorgverlener over je eigen gezondheid of die van je kind.</p>
+</section>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Embed deze calculator op je website — gratis</h2>
+<p style="margin:0 0 12px;line-height:1.6">Voeg deze calculator toe aan je eigen website of blog — hij is helemaal gratis, je hoeft je nergens aan te melden en je ziet altijd de nieuwste versie. Kopieer de code hieronder en plak die in je pagina op de plek waar je de calculator wilt laten verschijnen. De kleine creditregel &ldquo;Powered by Loona Automation&rdquo; onder de embed laten staan helpt om deze tool gratis te houden &mdash; maar je mag hem gerust opmaken of verwijderen; de tool werkt hoe dan ook.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/nl/vo2-max-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="VO2 Max Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Mogelijk gemaakt door &lt;a href="https://loonaautomation.github.io/loona-calculators/nl/vo2-max-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; gratis VO2-maxcalculator&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Embedcode kopiëren</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='Embedcode kopiëren';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Populaire Calculators</h4><ul><li><a href="../age-calculator/">Leeftijdscalculator</a></li>
+<li><a href="../zakat-calculator/">Zakatcalculator</a></li>
+<li><a href="../cgpa-calculator/">CGPA Calculator</a></li>
+<li><a href="../percentage-calculator/">Percentagecalculator</a></li>
+<li><a href="../hijri-date-converter/">Hijri-datumconverter</a></li>
+<li><a href="../emi-calculator/">EMI- en leningcalculator</a></li></ul></div>
+<div><h4>Meer Loona Tools</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR-codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Image Compressor</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI-assistent</a></li>
+<li><a href="https://loonaautomation.github.io/">Alle Loona-tools</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">Over ons</a></li>
+<li><a href="../contact.html">Contact</a></li>
+<li><a href="../privacy-policy.html">Privacybeleid</a></li>
+<li><a href="../terms.html">Gebruiksvoorwaarden</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — a <a href="https://loonaautomation.github.io/">Loona Automation</a> project. Gratis online calculators, geen aanmelding nodig.
+Contact: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+function vo2Cooper(distanceM){if(!(distanceM>0))return null;return (distanceM-504.9)/44.73;}
+function vo2Rockport(sex,age,weightKg,timeMin,endHr){
+  if(!(age>0)||!(weightKg>0)||!(timeMin>0)||!(endHr>0))return null;
+  var lb=weightKg*2.2046226218;
+  return 132.853-0.0769*lb-0.3877*age+(sex==="m"?6.315:0)-3.2649*timeMin-0.1565*endHr;
+}
+/*TESTABLE_END*/
+document.getElementById('voMode').addEventListener('change',function(){
+  var m=this.value;
+  document.querySelectorAll('[data-vo]').forEach(function(el){el.style.display=el.getAttribute('data-vo')===m?'block':'none';});
+});
+document.getElementById('voForm').addEventListener('submit',function(e){e.preventDefault();
+ var mode=document.getElementById('voMode').value, v, label;
+ if(mode==='cooper'){v=vo2Cooper(parseFloat(document.getElementById('voDist').value));label='Cooper-test van 12 minuten hardlopen';}
+ else{v=vo2Rockport(document.getElementById('voSex').value,parseFloat(document.getElementById('voAge').value),parseFloat(document.getElementById('voW').value),parseFloat(document.getElementById('voTime').value),parseFloat(document.getElementById('voHr').value));label='Rockport-wandeltest van 1 mijl';}
+ var box=document.getElementById('voResult'); box.style.display='block';
+ if(v===null||v<=0){box.innerHTML='<p class="err">Controleer je invoer.</p>';return;}
+ var band=v<30?'Low':v<38?'Fair':v<45?'Good':v<52?'Very good':'Excellent';
+ box.innerHTML='<div class="resbig"><span>Geschatte VO2 max ('+label+')</span><strong>'+v.toFixed(1)+' ml/kg/min</strong></div>'
+ +'<table class="restbl"><tr><td>Ruwe band voor volwassenen</td><td><strong>'+band+'</strong></td></tr></table>'
+ +'<p class="resnote">Schatting op basis van een veldtest (meestal ±3–5). Alleen educatief, geen medische meting.</p>';});
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' App installeren';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Installeer deze app: tik op de knop Delen en kies daarna "Toevoegen aan startscherm".');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

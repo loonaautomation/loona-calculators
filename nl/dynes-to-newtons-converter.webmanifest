@@ -1,0 +1,29 @@
+{
+  "name": "Loona Dyne naar newton Converter",
+  "short_name": "Dyne naar newton Converter",
+  "description": "Reken dynes direct om naar newton. Exacte formule, een volledige omrekentabel van dyn naar N, een uitgewerkt voorbeeld en veelgestelde vragen. Gratis, geen registratie nodig.",
+  "id": "/loona-calculators/nl/dynes-to-newtons-converter.html",
+  "start_url": "./dynes-to-newtons-converter.html",
+  "scope": "./dynes-to-newtons-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Bingo-nummeromroeper",
+  "short_name": "Bingo-nummeromroeper",
+  "description": "Gratis bingo-nummerroeper voor spellen met 75 ballen (B-I-N-G-O) en 90 ballen: trekt nummers zonder herhaling, toont de huidige bal groot en houdt elk afgeroepen nummer bij op een bord.",
+  "id": "/loona-calculators/nl/bingo-number-caller/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

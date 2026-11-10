@@ -1,0 +1,29 @@
+{
+  "name": "Loona Verhoudingscalculator",
+  "short_name": "Verhoudingscalculator",
+  "description": "Gratis verhoudingscalculator: vereenvoudig elke verhouding tot de kleinste termen en verdeel een totaalbedrag volgens een gegeven verhouding — beide delen worden direct getoond.",
+  "id": "/loona-calculators/nl/ratio-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

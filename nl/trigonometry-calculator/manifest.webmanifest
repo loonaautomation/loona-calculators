@@ -1,0 +1,29 @@
+{
+  "name": "Loona Goniometriecalculator",
+  "short_name": "Goniometriecalculator",
+  "description": "Gratis goniometriecalculator: voer een hoek in graden of radialen in om sin, cos, tan, csc, sec en cot te krijgen, of gebruik de inverse sin, cos en tan om een hoek te vinden uit een verhouding. Tabel met exacte waarden inbegrepen.",
+  "id": "/loona-calculators/nl/trigonometry-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

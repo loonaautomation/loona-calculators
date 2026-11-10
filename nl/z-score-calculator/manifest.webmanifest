@@ -1,0 +1,29 @@
+{
+  "name": "Loona Z-scorecalculator",
+  "short_name": "Z-scorecalculator",
+  "description": "Gratis calculator voor z-scores: voer een waarde, het gemiddelde en de standaarddeviatie in om de z-score, het percentiel en de kansen uit de tabel van de standaardnormale verdeling te krijgen (normale verdeling).",
+  "id": "/loona-calculators/nl/z-score-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

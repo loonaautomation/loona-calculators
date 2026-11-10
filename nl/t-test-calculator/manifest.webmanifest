@@ -1,0 +1,29 @@
+{
+  "name": "Loona T-toetscalculator voor één steekproef",
+  "short_name": "T-toetscalculator voor één steekproef",
+  "description": "Gratis calculator voor de t-toets voor één steekproef: voer het steekproefgemiddelde, de SD, n en het veronderstelde gemiddelde in om de t-statistiek, de vrijheidsgraden en de p-waarden te krijgen.",
+  "id": "/loona-calculators/nl/t-test-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

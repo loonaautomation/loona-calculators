@@ -1,0 +1,29 @@
+{
+  "name": "Loona Terabyte naar Megabyte Converter",
+  "short_name": "Terabyte naar Megabyte Converter",
+  "description": "Reken terabyte direct om naar megabyte. Exacte formule, een volledige omrekentabel voor TB naar MB, een uitgewerkt voorbeeld en veelgestelde vragen. Gratis, geen registratie nodig.",
+  "id": "/loona-calculators/nl/terabytes-to-megabytes-converter.html",
+  "start_url": "./terabytes-to-megabytes-converter.html",
+  "scope": "./terabytes-to-megabytes-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

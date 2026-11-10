@@ -1,0 +1,29 @@
+{
+  "name": "Loona Huurverdelingscalculator",
+  "short_name": "Calculator voor huur splitsen",
+  "description": "Gratis calculator om de huur te verdelen: verdeel de maandelijkse huur tussen 2 tot 8 huisgenoten — gelijk, op basis van kamergrootte in vierkante voet, of op basis van inkomen. De delen tellen altijd op tot exact het totaal.",
+  "id": "/loona-calculators/nl/rent-split-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

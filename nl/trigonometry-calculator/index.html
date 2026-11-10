@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Goniometriecalculator — Sin, Cos, Tan, Csc, Sec, Cot & Inverse | Loona Calculators</title>
+<meta name="description" content="Gratis goniometriecalculator: voer een hoek in graden of radialen in om sin, cos, tan, csc, sec en cot te krijgen, of gebruik de inverse sin, cos en tan om een hoek te vinden uit een verhouding. Tabel met exacte waarden inbegrepen.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/nl/trigonometry-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/trigonometry-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/trigonometry-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/trigonometry-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/trigonometry-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/trigonometry-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/trigonometry-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/trigonometry-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/trigonometry-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Goniometriecalculator — Sin, Cos, Tan, Csc, Sec, Cot & Inverse | Loona Calculators">
+<meta property="og:description" content="Gratis goniometriecalculator: voer een hoek in graden of radialen in om sin, cos, tan, csc, sec en cot te krijgen, of gebruik de inverse sin, cos en tan om een hoek te vinden uit een verhouding. Tabel met exacte waarden inbegrepen.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/nl/trigonometry-calculator/"><meta property="og:locale" content="nl_NL">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Goniometriecalculator — Sin, Cos, Tan, Csc, Sec, Cot & Inverse | Loona Calculators">
+<meta name="twitter:description" content="Gratis goniometriecalculator: voer een hoek in graden of radialen in om sin, cos, tan, csc, sec en cot te krijgen, of gebruik de inverse sin, cos en tan om een hoek te vinden uit een verhouding. Tabel met exacte waarden inbegrepen.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona Goniometriecalculator","url":"https://loonaautomation.github.io/loona-calculators/nl/trigonometry-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Wat zijn sin, cos en tan, in eenvoudige woorden?","acceptedAnswer":{"@type":"Answer","text":"Het zijn verhoudingen tussen de zijden van een rechthoekige driehoek. Voor een hoek θ: sin θ = overstaand ÷ hypotenusa, cos θ = aanliggend ÷ hypotenusa, en tan θ = overstaand ÷ aanliggend. De andere drie verhoudingen zijn hun omgekeerden: csc = 1 ÷ sin, sec = 1 ÷ cos, cot = 1 ÷ tan."}},{"@type":"Question","name":"Waarom wordt tan 90° weergegeven als Ongedefinieerd?","acceptedAnswer":{"@type":"Answer","text":"Omdat tan θ = sin θ ÷ cos θ, en cos 90° = 0. Delen door nul heeft geen antwoord, dus tan 90° is echt ongedefinieerd — hetzelfde geldt voor csc 0° en sec 90°. De calculator zegt dat eerlijk, in plaats van een enorm, verkeerd ogend getal te tonen."}},{"@type":"Question","name":"Moet ik graden of radialen gebruiken?","acceptedAnswer":{"@type":"Answer","text":"Graden zijn de alledaagse eenheid (een rechte hoek is 90°) en wat het meeste schoolwerk gebruikt. Radialen zijn de wetenschappelijke eenheid (een rechte hoek is π/2 ≈ 1.5708). De calculator rekent voor je om en laat de hoek in beide eenheden zien."}}]}</script>
+
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/nl/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Goniometriecalculator",
+      "item": "https://loonaautomation.github.io/loona-calculators/nl/trigonometry-calculator/"
+    }
+  ]
+}</script>
+
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Logo van Loona Automation">
+<div class="brand">Loona <span>Rekenmachines</span></div>
+<nav>
+<a href="../">Home</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">Over ons</a>
+<a href="../contact.html">Contact</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › Wiskunde › Goniometriecalculator</div>
+<h1 class="pagetitle">θ Goniometriecalculator</h1>
+<p class="lead">Voer een hoek in en krijg alle zes goniometrische verhoudingen — sin, cos, tan, csc, sec en cot — in graden of radialen. Of werk andersom: geef een verhouding aan de inverse functies en vind de hoek.</p>
+<div class="toolbox">
+<div class="calcform"><div class="fld"><label for="trigMode">Wat heb je?</label><select id="trigMode"><option value="angle">Een hoek — vind sin, cos, tan, csc, sec en cot</option><option value="inv">Een verhoudingswaarde — vind de hoek (inverse sin / cos / tan)</option></select></div></div>
+<div id="trigAngleView" class="view on">
+<form class="calcform" id="trigAngleForm">
+<div class="fld"><label for="trigAngle">Hoek</label><input type="number" step="any" id="trigAngle" value="30"></div>
+<div class="fld"><label for="trigUnit">Hoekeenheid</label><select id="trigUnit"><option value="deg">Graden (°)</option><option value="rad">Radialen</option></select></div>
+<button class="calcbtn" type="submit">Verhoudingen berekenen</button>
+</form>
+<div class="calcresult" id="trigAngleRes" style="display:none"></div>
+</div>
+<div id="trigInvView" class="view">
+<form class="calcform" id="trigInvForm">
+<div class="fld"><label for="trigFn">Functie</label><select id="trigFn"><option value="asin">sin⁻¹ (arcsin)</option><option value="acos">cos⁻¹ (arccos)</option><option value="atan">tan⁻¹ (arctan)</option></select></div>
+<div class="fld"><label for="trigVal">Verhoudingswaarde</label><input type="number" step="any" id="trigVal" value="0.5"></div>
+<button class="calcbtn" type="submit">Zoek de hoek</button>
+</form>
+<div class="calcresult" id="trigInvRes" style="display:none"></div>
+</div>
+</div>
+<section class="txt"><h2>Hoe je de Goniometriecalculator gebruikt</h2><ol><li>Als je de hoek kent, houd dan de eerste modus aan: voer de hoek in, kies graden of radialen, en druk op Verhoudingen berekenen om alle zes de goniometrische verhoudingen te krijgen.</li><li>Als je een verhouding kent en de hoek nodig hebt, schakel dan over naar de inverse modus, kies sin⁻¹, cos⁻¹ of tan⁻¹, voer de waarde in en druk op Hoek zoeken.</li><li>Gebruik voor de hoeken die in elk leerboek voorkomen (0°, 30°, 45°, 60°, 90°) de tabel met exacte waarden in het formulegedeelte hieronder.</li></ol>
+<div class="exbox"><strong>Voorbeeld:</strong> Voor 30° — sin = 0.5, cos ≈ 0.8660, tan ≈ 0.5774, csc = 2, sec ≈ 1.1547, cot ≈ 1.7321. En sin⁻¹(0.5) = 30°, zo brengt de inverse modus je weer terug.</div>
+<h2>Veelgestelde vragen</h2></section><div class="faq"><h3>Wat zijn sin, cos en tan, in eenvoudige woorden?</h3><p>Het zijn verhoudingen tussen de zijden van een rechthoekige driehoek. Voor een hoek θ: sin θ = overstaand ÷ hypotenusa, cos θ = aanliggend ÷ hypotenusa, en tan θ = overstaand ÷ aanliggend. De andere drie verhoudingen zijn hun omgekeerden: csc = 1 ÷ sin, sec = 1 ÷ cos, cot = 1 ÷ tan.</p></div><div class="faq"><h3>Waarom wordt tan 90° weergegeven als Ongedefinieerd?</h3><p>Omdat tan θ = sin θ ÷ cos θ, en cos 90° = 0. Delen door nul heeft geen antwoord, dus tan 90° is echt ongedefinieerd — hetzelfde geldt voor csc 0° en sec 90°. De calculator zegt dat eerlijk, in plaats van een enorm, verkeerd ogend getal te tonen.</p></div><div class="faq"><h3>Moet ik graden of radialen gebruiken?</h3><p>Graden zijn de alledaagse eenheid (een rechte hoek is 90°) en wat het meeste schoolwerk gebruikt. Radialen zijn de wetenschappelijke eenheid (een rechte hoek is π/2 ≈ 1.5708). De calculator rekent voor je om en laat de hoek in beide eenheden zien.</p></div>
+<h2 class="sec">Gerelateerde calculators</h2><div class="grid"><a class="card" href="../scientific-calculator/"><div class="ic">🧮</div><h3>Wetenschappelijke calculator</h3><p>Wiskunde</p></a><a class="card" href="../percentage-calculator/"><div class="ic">％</div><h3>Percentagecalculator</h3><p>Wiskunde</p></a><a class="card" href="../square-root-calculator/"><div class="ic">√</div><h3>Vierkantswortelcalculator</h3><p>Wiskunde</p></a><a class="card" href="../exponent-calculator/"><div class="ic">x²</div><h3>Exponentcalculator</h3><p>Wiskunde</p></a><a class="card" href="../statistics-calculator/"><div class="ic">📉</div><h3>Statistiekcalculator</h3><p>Wiskunde</p></a></div>
+</div>
+<section class="txt"><h2>Hoe het werkt &mdash; de formules</h2>
+<p>Voor een hoek θ in een rechthoekige driehoek, met hypotenusa H, overstaande zijde O en aanliggende zijde A:</p>
+<p><strong>sin θ</strong> = O ÷ H &nbsp; <strong>cos θ</strong> = A ÷ H &nbsp; <strong>tan θ</strong> = O ÷ A<br>
+<strong>csc θ</strong> = 1 ÷ sin θ &nbsp; <strong>sec θ</strong> = 1 ÷ cos θ &nbsp; <strong>cot θ</strong> = 1 ÷ tan θ</p>
+<p>De inverse functies werken de andere kant op: sin⁻¹ neemt een verhouding en geeft de hoek terug waarvan het de sinus is. Om om te rekenen: graden = radialen × 180 ÷ π, en radialen = graden × π ÷ 180.</p>
+<h3>Veelvoorkomende hoeken — exacte waarden</h3>
+<table class="restbl">
+<tr><td><strong>Hoek</strong></td><td><strong>sin</strong></td><td><strong>cos</strong></td><td><strong>tan</strong></td></tr>
+<tr><td>0° (0 rad)</td><td>0</td><td>1</td><td>0</td></tr>
+<tr><td>30° (π/6)</td><td>1/2 = 0.5</td><td>√3/2 ≈ 0.8660</td><td>1/√3 ≈ 0.5774</td></tr>
+<tr><td>45° (π/4)</td><td>√2/2 ≈ 0.7071</td><td>√2/2 ≈ 0.7071</td><td>1</td></tr>
+<tr><td>60° (π/3)</td><td>√3/2 ≈ 0.8660</td><td>1/2 = 0.5</td><td>√3 ≈ 1.7321</td></tr>
+<tr><td>90° (π/2)</td><td>1</td><td>0</td><td>Ongedefinieerd</td></tr>
+</table>
+<h3>Uitgewerkt voorbeeld</h3>
+<div class="exbox"><strong>Voorbeeld:</strong> Een ladder leunt tegen een muur onder een hoek van 60° met de grond. De voet staat 2 m van de muur; hoe lang is de ladder? cos 60° = aanliggende zijde ÷ schuine zijde, dus schuine zijde = 2 ÷ cos 60° = 2 ÷ 0.5 = <strong>4 m</strong>.</div>
+<h3>Veelgestelde vragen</h3></section>
+<div class="faq"><h3>Hoe onthoud ik de verhoudingen van sin, cos en tan?</h3><p>Gebruik SOH-CAH-TOA: <strong>S</strong>in = <strong>O</strong>pposite ÷ <strong>H</strong>ypotenusa, <strong>C</strong>os = <strong>A</strong>djacent ÷ <strong>H</strong>ypotenusa, <strong>T</strong>an = <strong>O</strong>pposite ÷ <strong>A</strong>djacent. Het is de geheugentruc die in klaslokalen over de hele wereld wordt gebruikt.</p></div>
+<div class="faq"><h3>Waarom geeft sin⁻¹(0.5) 30° terwijl andere hoeken ook sinus 0.5 hebben?</h3><p>De sinus herhaalt zich: 150° heeft ook sinus 0.5, net als 390°. Calculators geven de hoofdwaarde terug — het standaard enkele antwoord in het bereik van −90° tot 90° voor sin⁻¹. Als je opgave een andere hoek nodig heeft, gebruik dan de symmetrie: voor de sinus heeft 180° − de hoofdhoek dezelfde waarde.</p></div>
+<div class="faq"><h3>Waarom kan ik geen waarde boven 1 invoeren voor sin⁻¹ of cos⁻¹?</h3><p>Een sinus of cosinus kan nooit groter zijn dan 1 of kleiner dan −1, want de overstaande of aanliggende zijde van een driehoek kan nooit langer zijn dan de schuine zijde. Er bestaat dus geen hoek met sin θ = 2, en de calculator vraagt je om een waarde tussen −1 en 1. Tan⁻¹ accepteert elke waarde.</p></div>
+
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Embed deze calculator op je website — gratis</h2>
+<p style="margin:0 0 12px;line-height:1.6">Voeg deze calculator toe aan je eigen website of blog — hij is helemaal gratis, je hoeft je nergens aan te melden en je ziet altijd de nieuwste versie. Kopieer de code hieronder en plak die in je pagina op de plek waar je de calculator wilt laten verschijnen. De kleine creditregel &ldquo;Powered by Loona Automation&rdquo; onder de embed laten staan helpt om deze tool gratis te houden &mdash; maar je mag hem gerust opmaken of verwijderen; de tool werkt hoe dan ook.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/nl/trigonometry-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Trigonometry Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Mogelijk gemaakt door &lt;a href="https://loonaautomation.github.io/loona-calculators/nl/trigonometry-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; gratis Goniometriecalculator&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Embedcode kopiëren</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='Embedcode kopiëren';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Populaire Calculators</h4><ul><li><a href="../age-calculator/">Leeftijdscalculator</a></li>
+<li><a href="../zakat-calculator/">Zakatcalculator</a></li>
+<li><a href="../cgpa-calculator/">CGPA Calculator</a></li>
+<li><a href="../percentage-calculator/">Percentagecalculator</a></li>
+<li><a href="../hijri-date-converter/">Hijri-datumconverter</a></li>
+<li><a href="../emi-calculator/">EMI- en leningcalculator</a></li></ul></div>
+<div><h4>Meer Loona Tools</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR-codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Image Compressor</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI-assistent</a></li>
+<li><a href="https://loonaautomation.github.io/">Alle Loona-tools</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">Over ons</a></li>
+<li><a href="../contact.html">Contact</a></li>
+<li><a href="../privacy-policy.html">Privacybeleid</a></li>
+<li><a href="../terms.html">Gebruiksvoorwaarden</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — a <a href="https://loonaautomation.github.io/">Loona Automation</a> project. Gratis online calculators, geen aanmelding nodig.
+Contact: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+/* Trigonometry Calculator — pure logic */
+var TRIG_EPS=1e-12;
+function trigFromAngle(angle,unit){
+  if(typeof angle!=="number"||isNaN(angle))throw new Error("Voer een hoek in.");
+  var rad=(unit==="deg")?angle*Math.PI/180:angle;
+  var s=Math.sin(rad),c=Math.cos(rad);
+  function safe(v){return Math.abs(v)<TRIG_EPS?null:v;}
+  var tanV=safe(c)===null?null:s/c;
+  var cscV=safe(s)===null?null:1/s;
+  var secV=safe(c)===null?null:1/c;
+  var cotV=safe(s)===null?null:c/s;
+  return {sin:s,cos:c,tan:tanV,csc:cscV,sec:secV,cot:cotV,rad:rad};
+}
+function inverseTrig(fn,v){
+  if(typeof v!=="number"||isNaN(v))throw new Error("Voer een waarde in.");
+  if((fn==="asin"||fn==="acos")&&(v>1||v<-1))throw new Error("For "+fn+", de waarde moet tussen −1 en 1 liggen.");
+  var r=(fn==="asin")?Math.asin(v):(fn==="acos")?Math.acos(v):Math.atan(v);
+  return {rad:r,deg:r*180/Math.PI};
+}
+function ftrig(n){
+  if(n===null||n===undefined)return "Undefined";
+  if(Math.abs(n)<1e-12)n=0;
+  return String(parseFloat(n.toPrecision(10))).replace(/-/g,"−");
+}
+if(typeof module!=="undefined"&&module.exports){module.exports={trigFromAngle:trigFromAngle,inverseTrig:inverseTrig};}
+
+/* ---------- Browser wiring ---------- */
+if(typeof document!=="undefined"){
+  document.addEventListener("DOMContentLoaded",function(){
+    var modeSel=document.getElementById("trigMode"),vA=document.getElementById("trigAngleView"),vI=document.getElementById("trigInvView");
+    if(!modeSel)return;
+    function sync(){var inv=modeSel.value==="inv";vA.className="view"+(inv?"":" on");vI.className="view"+(inv?" on":"");}
+    modeSel.addEventListener("change",sync);sync();
+    document.getElementById("trigAngleForm").addEventListener("submit",function(e){
+      e.preventDefault();
+      var res=document.getElementById("trigAngleRes");res.style.display="block";
+      var ang=parseFloat(document.getElementById("trigAngle").value),unit=document.getElementById("trigUnit").value;
+      try{
+        var r=trigFromAngle(ang,unit);
+        var names=[["sin","sin θ"],["cos","cos θ"],["tan","tan θ"],["csc","csc θ (1 ÷ sin)"],["sec","sec θ (1 ÷ cos)"],["cot","cot θ (1 ÷ tan)"]];
+        var h='<div class="resbig"><span>Hoek</span><strong>'+ftrig(ang)+(unit==="deg"?"°":" rad")+'</strong></div><table class="restbl">';
+        names.forEach(function(p){h+='<tr><td>'+p[1]+'</td><td><strong>'+ftrig(r[p[0]])+'</strong></td></tr>';});
+        h+='</table><p class="resnote">Dezelfde hoek in de andere eenheid: '+(unit==="deg"?ftrig(r.rad)+" radialen":ftrig(ang*180/Math.PI)+" graden")+'. Een verhouding wordt als Ongedefinieerd getoond wanneer de noemer 0 is (bijvoorbeeld tan 90°).</p>';
+        res.innerHTML=h;
+      }catch(err){res.innerHTML='<p class="err">'+err.message+'</p>';}
+    });
+    document.getElementById("trigInvForm").addEventListener("submit",function(e){
+      e.preventDefault();
+      var res=document.getElementById("trigInvRes");res.style.display="block";
+      var fn=document.getElementById("trigFn").value,v=parseFloat(document.getElementById("trigVal").value);
+      try{
+        var r=inverseTrig(fn,v);
+        var label=(fn==="asin"?"sin⁻¹":fn==="acos"?"cos⁻¹":"tan⁻¹");
+        res.innerHTML='<div class="resbig"><span>'+label+'('+ftrig(v)+')</span><strong>'+ftrig(r.deg)+'°</strong></div><table class="restbl"><tr><td>Hoek in graden</td><td><strong>'+ftrig(r.deg)+'°</strong></td></tr><tr><td>Hoek in radialen</td><td>'+ftrig(r.rad)+'</td></tr></table><p class="resnote">Dit is de hoofdhoek — het standaardantwoord dat je rekenmachine geeft. Goniometrische functies herhalen zich elke 360°, dus ook andere hoeken kunnen dezelfde waarde geven.</p>';
+      }catch(err){res.innerHTML='<p class="err">'+err.message+'</p>';}
+    });
+  });
+}
+</script>
+
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' App installeren';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Installeer deze app: tik op de knop Delen en kies daarna "Toevoegen aan startscherm".');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body></html>

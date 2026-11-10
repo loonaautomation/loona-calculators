@@ -1,0 +1,29 @@
+{
+  "name": "Loona Datumcalculator",
+  "short_name": "Datumcalculator",
+  "description": "Gratis datumcalculator: tel dagen, weken, maanden en jaren op bij een datum of trek ze ervan af, en krijg de uitkomstdatum met de weekdag erbij. Deadlines, visa en planning.",
+  "id": "/loona-calculators/nl/date-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

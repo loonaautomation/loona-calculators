@@ -1,0 +1,29 @@
+{
+  "name": "Loona Matrixcalculator",
+  "short_name": "Matrixcalculator",
+  "description": "Gratis matrixcalculator voor matrices van 2x2 en 3x3: optellen, aftrekken, vermenigvuldigen, determinant en inverse, met de waarden van elke stap erbij. Geen registratie, werkt in je browser.",
+  "id": "/loona-calculators/nl/matrix-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

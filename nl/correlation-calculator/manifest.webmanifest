@@ -1,0 +1,29 @@
+{
+  "name": "Loona Correlatiecalculator",
+  "short_name": "Correlatiecalculator",
+  "description": "Gratis calculator voor Pearson-correlatie: plak gepaarde x,y-gegevens om de correlatiecoëfficiënt r, r-kwadraat en een begrijpelijke uitleg van de sterkte te krijgen.",
+  "id": "/loona-calculators/nl/correlation-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

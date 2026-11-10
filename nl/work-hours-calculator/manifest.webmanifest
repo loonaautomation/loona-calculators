@@ -1,0 +1,29 @@
+{
+  "name": "Loona Werkurencalculator",
+  "short_name": "Werkurencalculator",
+  "description": "Gratis calculator voor werkuren: begin, einde en een onbetaalde pauze geven je netto uren per dag en per week — plus je loon per dag en per week als je een uurtarief toevoegt. Nachtdiensten worden ondersteund.",
+  "id": "/loona-calculators/nl/work-hours-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

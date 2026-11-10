@@ -1,0 +1,29 @@
+{
+  "name": "Loona Londen naar Berlijn Tijd Converter",
+  "short_name": "Londen naar Berlijn Tijd",
+  "description": "Reken de tijd in Londen om naar de tijd in Berlijn. Berlijn loopt het hele jaar 1 uur voor op Londen, met zomertijddata, een tabel voor 24 uur en het beste moment om te overleggen. Inclusief live omrekenaar.",
+  "id": "/loona-calculators/nl/london-to-berlin-time-converter.html",
+  "start_url": "./london-to-berlin-time-converter.html",
+  "scope": "./london-to-berlin-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

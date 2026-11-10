@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calculator voor samengestelde rente",
+  "short_name": "Calculator voor samengestelde rente",
+  "description": "Gratis calculator voor samengestelde rente: zie hoe je geld groeit met jaarlijkse, driemaandelijkse, maandelijkse of dagelijkse samenstelling, met optionele maandelijkse stortingen en een tabel per jaar.",
+  "id": "/loona-calculators/nl/compound-interest-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

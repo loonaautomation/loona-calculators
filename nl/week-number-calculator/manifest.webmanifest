@@ -1,0 +1,29 @@
+{
+  "name": "Loona Weeknummercalculator",
+  "short_name": "Weeknummercalculator",
+  "description": "Gratis calculator voor weeknummers: kies een datum om het ISO-weeknummer, het ISO-weekjaar, de dag van het jaar, de resterende dagen in het jaar en het kalenderkwartaal te krijgen.",
+  "id": "/loona-calculators/nl/week-number-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calculator voor enkelvoudige rente",
+  "short_name": "Calculator voor enkelvoudige rente",
+  "description": "Gratis calculator voor enkelvoudige rente: voer het kapitaal, het jaarlijkse percentage en de tijd in (jaren en maanden) om de verdiende rente en het totale bedrag te berekenen. Eenvoudige formule I = P×R×T/100.",
+  "id": "/loona-calculators/nl/simple-interest-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

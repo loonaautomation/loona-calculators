@@ -1,0 +1,29 @@
+{
+  "name": "Loona Zwangerschapswekencalculator",
+  "short_name": "Weken Zwanger Calculator",
+  "description": "Gratis calculator voor het aantal weken zwanger: voer de datum van je laatste menstruatie of je uitgerekende datum in om precies te zien hoeveel weken en dagen je zwanger bent, je trimester en hoeveel dagen je nog te gaan hebt.",
+  "id": "/loona-calculators/nl/weeks-pregnant-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

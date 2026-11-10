@@ -1,0 +1,29 @@
+{
+  "name": "Loona JPY naar NOK Converter",
+  "short_name": "JPY naar NOK Converter",
+  "description": "Reken Japanse yen (JPY) om naar Noorse kroon (NOK). ECB-referentiekoers van 06 november 2026, omgekeerde koers, omrekentabel en opmerkingen over de corridor. Alleen indicatief.",
+  "id": "/loona-calculators/nl/jpy-to-nok-converter.html",
+  "start_url": "./jpy-to-nok-converter.html",
+  "scope": "./jpy-to-nok-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

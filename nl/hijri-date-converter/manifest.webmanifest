@@ -1,0 +1,29 @@
+{
+  "name": "Loona Hijri-datumconverter",
+  "short_name": "Hijri-datumconverter",
+  "description": "Gratis converter voor Hijri-datums: reken elke Gregoriaanse (Engelse) datum om naar de islamitische Hijri-datum en weer terug, met de Umm al-Qura-kalender. Zo controleer je makkelijk Ramadan, Eid en islamitische datums.",
+  "id": "/loona-calculators/nl/hijri-date-converter/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

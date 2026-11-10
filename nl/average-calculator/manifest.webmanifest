@@ -1,0 +1,29 @@
+{
+  "name": "Loona Gemiddeldecalculator",
+  "short_name": "Gemiddeldecalculator",
+  "description": "Gratis gemiddeldecalculator: plak een lijst met getallen om direct het gemiddelde, de mediaan, de modus, de som, het aantal, het minimum, het maximum en het bereik te krijgen — voor maximaal 50 getallen.",
+  "id": "/loona-calculators/nl/average-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

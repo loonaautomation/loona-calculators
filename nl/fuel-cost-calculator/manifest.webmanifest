@@ -1,0 +1,29 @@
+{
+  "name": "Loona Brandstofkostencalculator",
+  "short_name": "Brandstofkostencalculator",
+  "description": "Gratis brandstofkostencalculator: voer de afstand, het verbruik van je voertuig en de brandstofprijs in om het aantal benodigde liters en de totale ritkosten te krijgen, met een optie voor een retourtje.",
+  "id": "/loona-calculators/nl/fuel-cost-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

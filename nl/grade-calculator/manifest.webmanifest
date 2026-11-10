@@ -1,0 +1,29 @@
+{
+  "name": "Loona Cijfercalculator",
+  "short_name": "Cijfercalculator",
+  "description": "Gratis calculator voor gewogen cijfers: voer tot 8 scores voor opdrachten in, met hun gewichten, om je totale cijferpercentage en je lettercijfer te krijgen. De gewichten hoeven niet op te tellen tot 100.",
+  "id": "/loona-calculators/nl/grade-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

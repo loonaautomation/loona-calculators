@@ -1,0 +1,29 @@
+{
+  "name": "Loona Staartdelingcalculator",
+  "short_name": "Staartdelingcalculator",
+  "description": "Gratis calculator voor staartdelingen die elke stap laat zien: deel getallen met rest of met decimalen en bekijk de volledige schriftelijke uitwerking, cijfer voor cijfer. Voor leerlingen en leraren.",
+  "id": "/loona-calculators/nl/long-division-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

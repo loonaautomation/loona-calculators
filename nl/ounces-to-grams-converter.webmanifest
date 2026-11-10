@@ -1,0 +1,29 @@
+{
+  "name": "Loona Ounce naar Gram Converter",
+  "short_name": "Ounce naar Gram Converter",
+  "description": "Reken ounce direct om naar gram. Exacte formule, een volledige omrekentabel van oz naar g en uitgewerkte voorbeelden. Gratis, geen registratie nodig.",
+  "id": "/loona-calculators/nl/ounces-to-grams-converter.html",
+  "start_url": "./ounces-to-grams-converter.html",
+  "scope": "./ounces-to-grams-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

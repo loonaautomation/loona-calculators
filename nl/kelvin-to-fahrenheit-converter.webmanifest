@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kelvin naar Graad Fahrenheit Converter",
+  "short_name": "Kelvin naar Graad Fahrenheit",
+  "description": "Reken kelvin direct om naar graden Fahrenheit. Exacte formule, een volledige omrekentabel van K naar °F, een uitgewerkt voorbeeld en veelgestelde vragen. Gratis, geen registratie nodig.",
+  "id": "/loona-calculators/nl/kelvin-to-fahrenheit-converter.html",
+  "start_url": "./kelvin-to-fahrenheit-converter.html",
+  "scope": "./kelvin-to-fahrenheit-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

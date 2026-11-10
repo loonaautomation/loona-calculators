@@ -1,0 +1,29 @@
+{
+  "name": "Loona Eiwitinnamecalculator",
+  "short_name": "Calculator voor eiwitinname",
+  "description": "Gratis calculator voor je eiwitinname: het aantal gram eiwit per dag op basis van je lichaamsgewicht, je activiteitenniveau en je doel, met wetenschappelijk onderbouwde bereiken in g/kg. Anders dan macroverdelingen op basis van calorieën.",
+  "id": "/loona-calculators/nl/protein-intake-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Druk Converter",
+  "short_name": "Druk Converter",
+  "description": "Elk paar voor drukomrekening in één index: exacte factoren, formules en een speciale converterpagina voor elk paar. Gratis, geen registratie.",
+  "id": "/loona-calculators/nl/pressure-converter.html",
+  "start_url": "./pressure-converter.html",
+  "scope": "./pressure-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Byte naar Bit Converter",
+  "short_name": "Byte naar Bit Converter",
+  "description": "Reken bytes direct om naar bits. Exacte formule, een volledige omrekentabel van B naar bit, een uitgewerkt voorbeeld en veelgestelde vragen. Gratis, geen registratie nodig.",
+  "id": "/loona-calculators/nl/bytes-to-bits-converter.html",
+  "start_url": "./bytes-to-bits-converter.html",
+  "scope": "./bytes-to-bits-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

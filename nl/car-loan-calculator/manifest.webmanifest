@@ -1,0 +1,29 @@
+{
+  "name": "Loona Autoleningcalculator",
+  "short_name": "Autoleningcalculator",
+  "description": "Gratis autoleningcalculator: voertuigprijs, aanbetaling, rentepercentage en looptijd — krijg het leningbedrag, de maandelijkse betaling, de totale rente en de echte totale kosten van de auto.",
+  "id": "/loona-calculators/nl/car-loan-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

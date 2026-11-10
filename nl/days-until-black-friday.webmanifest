@@ -1,0 +1,29 @@
+{
+  "name": "Loona Dagen tot Black Friday",
+  "short_name": "Dagen tot Black Friday",
+  "description": "Live aftellen tot Black Friday: exact het aantal resterende dagen, uren, minuten en seconden, de datum van dit jaar en de komende drie jaar, feiten en veelgestelde vragen.",
+  "id": "/loona-calculators/nl/days-until-black-friday.html",
+  "start_url": "./days-until-black-friday.html",
+  "scope": "./days-until-black-friday.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

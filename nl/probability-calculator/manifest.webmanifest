@@ -1,0 +1,29 @@
+{
+  "name": "Loona Waarschijnlijkheidscalculator",
+  "short_name": "Kanscalculator",
+  "description": "Gratis kanscalculator: de kans op A en B, A of B, geen van beide en precies één; omrekenen naar odds; combinaties en permutaties. Met formules en voorbeelden.",
+  "id": "/loona-calculators/nl/probability-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

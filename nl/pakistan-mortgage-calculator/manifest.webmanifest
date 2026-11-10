@@ -1,0 +1,29 @@
+{
+  "name": "Loona Hypotheekcalculator voor Pakistan",
+  "short_name": "Hypotheekcalculator voor Pakistan",
+  "description": "Gratis calculator voor woningfinanciering in Pakistan, in roepies: maandelijkse termijn op een dalend saldo, totale opslag en de datum waarop je schuldenvrij bent, voor elke woningprijs, aanbetaling, tarief en looptijd.",
+  "id": "/loona-calculators/nl/pakistan-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

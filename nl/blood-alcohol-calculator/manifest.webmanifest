@@ -1,0 +1,29 @@
+{
+  "name": "Loona Bloedalcoholcalculator",
+  "short_name": "Bloedalcoholcalculator",
+  "description": "Gratis calculator voor het bloedalcoholgehalte (BAC) met de formule van Widmark: gewicht, geslacht, drankjes en tijd om het BAC-percentage te schatten. Alleen een educatieve schatting, ga nooit rijden.",
+  "id": "/loona-calculators/nl/blood-alcohol-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Octaal naar Binair Converter",
+  "short_name": "Octaal naar Binair Converter",
+  "description": "Reken octaal (grondtal 8) om naar binair (grondtal 2) met controle, uitwerking met plaatswaarden en een referentietabel.",
+  "id": "/loona-calculators/nl/octal-to-binary-converter.html",
+  "start_url": "./octal-to-binary-converter.html",
+  "scope": "./octal-to-binary-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

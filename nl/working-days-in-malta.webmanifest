@@ -1,0 +1,29 @@
+{
+  "name": "Loona Werkdagen in Malta",
+  "short_name": "Werkdagen in Malta",
+  "description": "Werkdagencalculator voor Malta: tel werkdagen tussen twee datums met weekenden en alle 14 Maltese feestdagen van 2026 verwijderd. Gratis online tool.",
+  "id": "/loona-calculators/nl/working-days-in-malta.html",
+  "start_url": "./working-days-in-malta.html",
+  "scope": "./working-days-in-malta.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Afrondingscalculator — Afronden op decimalen, duizendtallen & significante cijfers | Loona</title>
+<meta name="description" content="Gratis afrondingscalculator: rond elk getal af op decimalen, op de dichtstbijzijnde 10, 100 of 1,000, of op significante cijfers, met de regel erbij uitgelegd.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/nl/rounding-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/rounding-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/rounding-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/rounding-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/rounding-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/rounding-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/rounding-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/rounding-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/rounding-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Afrondingscalculator — Afronden op decimalen, duizendtallen & significante cijfers | Loona">
+<meta property="og:description" content="Gratis afrondingscalculator: rond elk getal af op decimalen, op de dichtstbijzijnde 10, 100 of 1,000, of op significante cijfers, met de regel erbij uitgelegd.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/nl/rounding-calculator/"><meta property="og:locale" content="nl_NL">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Afrondingscalculator — Afronden op decimalen, duizendtallen & significante cijfers | Loona">
+<meta name="twitter:description" content="Gratis afrondingscalculator: rond elk getal af op decimalen, op de dichtstbijzijnde 10, 100 of 1,000, of op significante cijfers, met de regel erbij uitgelegd.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona Afrondingscalculator","url":"https://loonaautomation.github.io/loona-calculators/nl/rounding-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Wat is round half up?","acceptedAnswer":{"@type":"Answer","text":"Wanneer het weggelaten deel precies de helft is (een 5 gevolgd door niets), wordt het getal naar boven afgerond, weg van nul voor positieve getallen. Het is de conventie die op scholen wordt geleerd en in de meeste alledaagse situaties wordt gebruikt. Bankiersafronding (half naar even) bestaat in financiën en informatica, maar is hier niet de standaard."}},{"@type":"Question","name":"Wat zijn significante cijfers?","acceptedAnswer":{"@type":"Answer","text":"Cijfers die betekenis dragen, geteld vanaf het eerste cijfer dat geen nul is. 0.004560 heeft 4 significante cijfers (4, 5, 6 en de 0 aan het einde). Afronden op significante cijfers houdt de nauwkeurigheid in verhouding tot de grootte van het getal, en daarom geven wetenschappers er de voorkeur aan."}},{"@type":"Question","name":"Hoe rond ik af op het dichtstbijzijnde duizendtal?","acceptedAnswer":{"@type":"Answer","text":"Dat is afronden op plaatswaarde −3: kijk naar het cijfer van de honderdtallen; 1,234 heeft als honderdtallen-cijfer 2, dus het rondt naar beneden af op 1,000, terwijl 1,567 naar boven afrondt op 2,000."}},{"@type":"Question","name":"Waarom kunnen computers 2.675 weergeven als 2.67?","acceptedAnswer":{"@type":"Answer","text":"Binaire floating point kan de meeste decimale breuken niet exact opslaan, dus naïeve code rondt soms 'verkeerd' af. Deze calculator corrigeert met een minuscule epsilon, zodat exacte helften zich gedragen zoals schoolwiskunde verwacht."}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/nl/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Afrondingscalculator",
+      "item": "https://loonaautomation.github.io/loona-calculators/nl/rounding-calculator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Logo van Loona Automation">
+<div class="brand">Loona <span>Rekenmachines</span></div>
+<nav>
+<a href="../">Home</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">Over ons</a>
+<a href="../contact.html">Contact</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › Wiskunde › Afrondingscalculator</div>
+<h1 class="pagetitle">🎯 Afrondingscalculator</h1>
+<p class="lead">Rond elk getal af op de standaard schoolmanier — half omhoog afronden — op een gekozen aantal decimalen, op het dichtstbijzijnde tiental, honderdtal of duizendtal, of op een vast aantal significante cijfers.</p>
+<div class="exbox"><strong>Snel antwoord:</strong> Bij afronden kijk je naar het eerste cijfer dat wegvalt: 5 of meer rondt omhoog af, minder dan 5 rondt omlaag af. Dus 1,234.5678 rondt af naar 1,234.57 bij 2 decimalen, naar 1,230 op de dichtstbijzijnde 10, naar 1,200 op de dichtstbijzijnde 100 en naar 1,235 bij 4 significante cijfers.</div>
+<div class="toolbox"><form class="calcform" id="rdForm">
+<div class="fld"><label for="rdNum">Getal</label><input type="number" id="rdNum" value="1234.5678" step="any"></div>
+<div class="fld"><label for="rdMode">Afronden op</label><select id="rdMode"><option value="dp">Decimalen</option><option value="place">Dichtstbijzijnde 10 / 100 / 1,000…</option><option value="sig">Significante cijfers</option></select></div>
+<div class="fld"><label for="rdPrec">Precisie (decimalen / macht van tien / significante cijfers)</label><input type="number" id="rdPrec" value="2" min="-10" max="15"></div>
+<button class="calcbtn" type="submit">Rond het af</button>
+<div class="calcresult" id="rdResult" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>Hoe je de Afrondingscalculator gebruikt</h2><ol><li>Voer het getal in dat moet worden afgerond.</li><li>Kies de afrondingsmodus en de precisie.</li><li>Lees het afgeronde resultaat en de toegepaste regel.</li></ol>
+<div class="exbox"><strong>Voorbeeld:</strong> 1,234.5678: op 2 decimalen → 1,234.57; op de dichtstbijzijnde 100 → 1,200; op 4 significante cijfers → 1,235 (omdat het 5e significante cijfer een 5 is, rondt het 4e naar boven af van 4 naar 5 — dat geeft 1,235).</div>
+<h2>Veelgestelde vragen</h2></section><div class="faq"><h3>Wat is round half up?</h3><p>Wanneer het weggelaten deel precies de helft is (een 5 gevolgd door niets), wordt het getal naar boven afgerond, weg van nul voor positieve getallen. Het is de conventie die op scholen wordt geleerd en in de meeste alledaagse situaties wordt gebruikt. Bankiersafronding (half naar even) bestaat in financiën en informatica, maar is hier niet de standaard.</p></div><div class="faq"><h3>Wat zijn significante cijfers?</h3><p>Cijfers die betekenis dragen, geteld vanaf het eerste cijfer dat geen nul is. 0.004560 heeft 4 significante cijfers (4, 5, 6 en de 0 aan het einde). Afronden op significante cijfers houdt de nauwkeurigheid in verhouding tot de grootte van het getal, en daarom geven wetenschappers er de voorkeur aan.</p></div><div class="faq"><h3>Hoe rond ik af op het dichtstbijzijnde duizendtal?</h3><p>Dat is afronden op plaatswaarde −3: kijk naar het cijfer van de honderdtallen; 1,234 heeft als honderdtallen-cijfer 2, dus het rondt naar beneden af op 1,000, terwijl 1,567 naar boven afrondt op 2,000.</p></div><div class="faq"><h3>Waarom kunnen computers 2.675 weergeven als 2.67?</h3><p>Binaire floating point kan de meeste decimale breuken niet exact opslaan, dus naïeve code rondt soms 'verkeerd' af. Deze calculator corrigeert met een minuscule epsilon, zodat exacte helften zich gedragen zoals schoolwiskunde verwacht.</p></div>
+<h2 class="sec">Gerelateerde calculators</h2><div class="grid"><a class="card" href="../percentage-calculator/"><div class="ic">％</div><h3>Percentagecalculator</h3><p>Wiskunde</p></a><a class="card" href="../statistics-calculator/"><div class="ic">📊</div><h3>Statistiekcalculator</h3><p>Wiskunde</p></a><a class="card" href="../fraction-calculator/"><div class="ic">½</div><h3>Breukencalculator</h3><p>Wiskunde</p></a><a class="card" href="../equation-solver/"><div class="ic">🧮</div><h3>Vergelijkingsoplosser</h3><p>Wiskunde</p></a><a class="card" href="../scientific-calculator/"><div class="ic">🔬</div><h3>Wetenschappelijke calculator</h3><p>Wiskunde</p></a><a class="card" href="../average-calculator/"><div class="ic">📐</div><h3>Gemiddeldecalculator</h3><p>Wiskunde</p></a></div>
+</div>
+<section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>Hoe het werkt — de formule</h2>
+<p><strong>Decimalen:</strong> afgerond = round(x × 10ᵈ) ÷ 10ᵈ met round-half-up (met een epsiloncorrectie voor binaire floating point). <strong>Plaatswaarde:</strong> dezelfde formule met negatieve d — afronden naar de dichtstbijzijnde 100 is d = −2. <strong>Significante cijfers:</strong> als x ≠ 0, d = sig − 1 − floor(log₁₀|x|), pas dan de regel voor decimalen toe met die d.</p>
+<h3>Uitgewerkt voorbeeld</h3><div class="exbox"><p><strong>Invoergegevens:</strong> x = 1,234.5678.</p><p><strong>Stappen:</strong> 2 decimalen: 1,234.5678 × 100 = 123,456.78 → afronden → 123,457 → ÷ 100 = 1,234.57. Dichtstbijzijnde 100: 1,234.5678 ÷ 100 = 12.345678 → afronden → 12 → × 100 = 1,200. 4 significante cijfers: de eerste vier significante cijfers zijn 1, 2, 3 en 4 (het getal tot op de eenheden, 1,234); het volgende cijfer is 5 (het cijfer van de tienden), dus het cijfer van de eenheden rondt af van 4 naar 5, wat 1,235 geeft. In formulevorm: floor(log₁₀ 1234.5678) = 3, dus d = 4 − 1 − 3 = 0 decimalen.</p><p><strong>Resultaat:</strong> <strong>1,234.57</strong> (2 decimalen), <strong>1,200</strong> (dichtstbijzijnde 100), <strong>1,235</strong> (4 significante cijfers).</p></div>
+
+</section>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Embed deze calculator op je website — gratis</h2>
+<p style="margin:0 0 12px;line-height:1.6">Voeg deze calculator toe aan je eigen website of blog — hij is helemaal gratis, je hoeft je nergens aan te melden en je ziet altijd de nieuwste versie. Kopieer de code hieronder en plak die in je pagina op de plek waar je de calculator wilt laten verschijnen. De kleine creditregel &ldquo;Powered by Loona Automation&rdquo; onder de embed laten staan helpt om deze tool gratis te houden &mdash; maar je mag hem gerust opmaken of verwijderen; de tool werkt hoe dan ook.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/nl/rounding-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Rounding Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Mogelijk gemaakt door &lt;a href="https://loonaautomation.github.io/loona-calculators/nl/rounding-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; gratis Afrondingscalculator&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Embedcode kopiëren</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='Embedcode kopiëren';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Populaire Calculators</h4><ul><li><a href="../age-calculator/">Leeftijdscalculator</a></li>
+<li><a href="../zakat-calculator/">Zakatcalculator</a></li>
+<li><a href="../cgpa-calculator/">CGPA Calculator</a></li>
+<li><a href="../percentage-calculator/">Percentagecalculator</a></li>
+<li><a href="../hijri-date-converter/">Hijri-datumconverter</a></li>
+<li><a href="../emi-calculator/">EMI- en leningcalculator</a></li></ul></div>
+<div><h4>Meer Loona Tools</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR-codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Image Compressor</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI-assistent</a></li>
+<li><a href="https://loonaautomation.github.io/">Alle Loona-tools</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">Over ons</a></li>
+<li><a href="../contact.html">Contact</a></li>
+<li><a href="../privacy-policy.html">Privacybeleid</a></li>
+<li><a href="../terms.html">Gebruiksvoorwaarden</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — a <a href="https://loonaautomation.github.io/">Loona Automation</a> project. Gratis online calculators, geen aanmelding nodig.
+Contact: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+function roundHalfUp(x){
+  var s=x<0?-1:1, ax=Math.abs(x);
+  return s*Math.floor(ax+0.5+1e-9);
+}
+function roundToDP(x,d){var f=Math.pow(10,d);return roundHalfUp(x*f)/f;}
+function roundToPlace(x,power){return roundToDP(x,-power);}
+function roundToSig(x,sig){
+  if(x===0)return 0;
+  var d=sig-1-Math.floor(Math.log10(Math.abs(x)));
+  return roundToDP(x,d);
+}
+/*TESTABLE_END*/
+document.getElementById('rdForm').addEventListener('submit',function(e){e.preventDefault();
+ var x=parseFloat(document.getElementById('rdNum').value), mode=document.getElementById('rdMode').value, p=parseInt(document.getElementById('rdPrec').value,10);
+ var box=document.getElementById('rdResult'); box.style.display='block';
+ if(!isFinite(x)||!isFinite(p)){box.innerHTML='<p class="err">Voer een geldig getal en een geldige precisie in.</p>';return;}
+ var r,label;
+ if(mode==='dp'){r=roundToDP(x,p);label=p+' decimalen';}
+ else if(mode==='place'){r=roundToPlace(x,p);label='nearest 10^'+p;}
+ else{r=roundToSig(x,p);label=p+' significante cijfers';}
+ box.innerHTML='<div class="resbig"><span>Afgerond op '+label+'</span><strong>'+r.toLocaleString('en-US',{maximumFractionDigits:15})+'</strong></div>'
+ +'<p class="resnote">Afrondingsregel half-naar-boven: een weggelaten deel van precies de helft rondt naar boven af.</p>';});
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' App installeren';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Installeer deze app: tik op de knop Delen en kies daarna "Toevoegen aan startscherm".');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Cijferpercentagecalculator",
+  "short_name": "Cijferpercentagecalculator",
+  "description": "Gratis calculator voor je cijferpercentage: voer je behaalde punten en het totale aantal punten in om direct je percentage en je cijfer te krijgen. Voor matric, inter, universiteit en alle examens.",
+  "id": "/loona-calculators/nl/marks-percentage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

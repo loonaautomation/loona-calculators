@@ -1,0 +1,29 @@
+{
+  "name": "Loona Munt opgooien",
+  "short_name": "Munt opgooien",
+  "description": "Gratis online munt opgooien: gooi een virtuele munt één keer of tien keer tegelijk op, met tellingen van kop en munt, percentages, statistieken over reeksen en een best-of-wedstrijdmodus.",
+  "id": "/loona-calculators/nl/coin-flip/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

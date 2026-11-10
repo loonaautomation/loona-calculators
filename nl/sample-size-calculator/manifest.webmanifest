@@ -1,0 +1,29 @@
+{
+  "name": "Loona Steekproefgroottecalculator",
+  "short_name": "Steekproefomvangcalculator",
+  "description": "Gratis calculator voor de steekproefgrootte: hoeveel reacties je nodig hebt voor een proportie of een gemiddelde in een enquête, bij jouw betrouwbaarheidsniveau en foutmarge, met correctie voor een eindige populatie.",
+  "id": "/loona-calculators/nl/sample-size-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

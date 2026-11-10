@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calculator voor gewichtstoename tijdens de zwangerschap",
+  "short_name": "Gewichtstoename tijdens de zwangerschap",
+  "description": "Gratis calculator voor gewichtstoename tijdens de zwangerschap: de door de IOM aanbevolen totale gewichtstoename en de bereiken per week, op basis van je BMI-categorie van vóór de zwangerschap. Alleen als educatieve gids.",
+  "id": "/loona-calculators/nl/pregnancy-weight-gain-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

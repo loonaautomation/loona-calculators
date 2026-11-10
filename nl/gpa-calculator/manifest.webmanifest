@@ -1,0 +1,29 @@
+{
+  "name": "Loona GPA-calculator",
+  "short_name": "GPA-calculator",
+  "description": "Gratis GPA-calculator: voer tot 8 vakken in met lettercijfers (A tot F) en studiepunten om je GPA te krijgen op de standaardschaal van 4.0. Snel, privé, geen registratie.",
+  "id": "/loona-calculators/nl/gpa-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

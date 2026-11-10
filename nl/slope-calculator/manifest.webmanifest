@@ -1,0 +1,29 @@
+{
+  "name": "Loona Hellingcalculator",
+  "short_name": "Hellingcalculator",
+  "description": "Gratis hellingscalculator: voer twee punten in om de helling, de afstand ertussen, het middelpunt en de vergelijking van de lijn in de vorm met helling en intercept te krijgen, met de uitwerking erbij.",
+  "id": "/loona-calculators/nl/slope-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

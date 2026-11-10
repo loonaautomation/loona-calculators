@@ -1,0 +1,29 @@
+{
+  "name": "Loona Betrouwbaarheidsintervalcalculator",
+  "short_name": "Betrouwbaarheidsintervalcalculator",
+  "description": "Gratis calculator voor betrouwbaarheidsintervallen: een interval voor een gemiddelde met bekende sigma (z), met de steekproef-SD (t), en voor een proportie, bij 90%, 95% of 99% betrouwbaarheid.",
+  "id": "/loona-calculators/nl/confidence-interval-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

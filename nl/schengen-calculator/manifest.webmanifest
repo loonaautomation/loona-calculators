@@ -1,0 +1,29 @@
+{
+  "name": "Loona Schengen 90/180-calculator",
+  "short_name": "Schengen 90/180 Calculator",
+  "description": "Gratis Schengen-calculator voor 90/180: voer eerdere en geplande reizen in om te zien hoeveel dagen je hebt gebruikt in elk voortschrijdend venster van 180 dagen, hoeveel dagen je nog over hebt, waarschuwingen voor te lang verblijf en de vroegste veilige datum om weer binnen te komen.",
+  "id": "/loona-calculators/nl/schengen-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

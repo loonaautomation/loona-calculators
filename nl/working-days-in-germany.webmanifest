@@ -1,0 +1,29 @@
+{
+  "name": "Loona Werkdagen in Duitsland",
+  "short_name": "Werkdagen in Duitsland",
+  "description": "Werkdagencalculator voor Duitsland: tel werkdagen tussen twee datums met weekenden en alle 9 landelijke Duitse feestdagen van 2026 verwijderd.",
+  "id": "/loona-calculators/nl/working-days-in-germany.html",
+  "start_url": "./working-days-in-germany.html",
+  "scope": "./working-days-in-germany.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

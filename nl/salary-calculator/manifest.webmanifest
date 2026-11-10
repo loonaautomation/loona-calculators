@@ -1,0 +1,29 @@
+{
+  "name": "Loona Salarisbelastingcalculator Pakistan 2026",
+  "short_name": "Salarisbelastingcalculator",
+  "description": "Gratis calculator voor salarisbelasting in Pakistan (belastingjaar 2026): voer je bruto maandsalaris in om de inkomstenbelasting per maand en per jaar, je netto salaris en je effectieve belastingtarief te zien. FBR-schijven voor loontrekkenden.",
+  "id": "/loona-calculators/nl/salary-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

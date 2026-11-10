@@ -1,0 +1,29 @@
+{
+  "name": "Loona Aanwezigheidscalculator",
+  "short_name": "Aanwezigheidscalculator",
+  "description": "Gratis aanwezigheidscalculator voor studenten: voer in hoeveel lessen er zijn gegeven en hoeveel je er hebt bijgewoond, om je aanwezigheidspercentage te krijgen, hoeveel lessen je nog kunt missen, of hoeveel je er moet bijwonen om je doel te halen.",
+  "id": "/loona-calculators/nl/attendance-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

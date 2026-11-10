@@ -1,0 +1,29 @@
+{
+  "name": "Loona Bar naar Atmosfeer Converter",
+  "short_name": "Bar naar atmosfeer-omzetter",
+  "description": "Reken bar direct om naar atmosfeer. Exacte formule, een volledige omrekentabel van bar naar atm, een uitgewerkt voorbeeld en veelgestelde vragen. Gratis, geen registratie nodig.",
+  "id": "/loona-calculators/nl/bars-to-atmospheres-converter.html",
+  "start_url": "./bars-to-atmospheres-converter.html",
+  "scope": "./bars-to-atmospheres-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

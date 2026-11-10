@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Controle van Europese rijregels — Snelheidslimieten, BAC & kant van de weg | Loona</title>
+<meta name="description" content="Gratis checker voor rijregels in Europa: kies een land voor de kant van de weg waar je rijdt, de maximumsnelheid op de snelweg, de alcohollimiet en belangrijke lokale regels voor bezoekende bestuurders.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/nl/europe-driving-rules-checker/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/europe-driving-rules-checker/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/europe-driving-rules-checker/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/europe-driving-rules-checker/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/europe-driving-rules-checker/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/europe-driving-rules-checker/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/europe-driving-rules-checker/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/europe-driving-rules-checker/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/europe-driving-rules-checker/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Controle van Europese rijregels — Snelheidslimieten, BAC & kant van de weg | Loona">
+<meta property="og:description" content="Gratis checker voor rijregels in Europa: kies een land voor de kant van de weg waar je rijdt, de maximumsnelheid op de snelweg, de alcohollimiet en belangrijke lokale regels voor bezoekende bestuurders.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/nl/europe-driving-rules-checker/"><meta property="og:locale" content="nl_NL">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Controle van Europese rijregels — Snelheidslimieten, BAC & kant van de weg | Loona">
+<meta name="twitter:description" content="Gratis checker voor rijregels in Europa: kies een land voor de kant van de weg waar je rijdt, de maximumsnelheid op de snelweg, de alcohollimiet en belangrijke lokale regels voor bezoekende bestuurders.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona Controle van Europese rijregels","url":"https://loonaautomation.github.io/loona-calculators/nl/europe-driving-rules-checker/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Zijn dit de volledige wetten van elk land?","acceptedAnswer":{"@type":"Answer","text":"Nee — een samenvatting voor reizigers van de belangrijkste regels voor automobilisten. De volledige wet bevat nog veel meer details (kinderzitjes, data voor winteruitrusting, stadszones, documentatie). Lokale borden en aanwijzingen van de politie hebben altijd voorrang."}},{"@type":"Question","name":"Waarom verschillen de alcohollimieten in het verkeer zo veel?","acceptedAnswer":{"@type":"Answer","text":"Elk land stelt zijn eigen limiet vast: 0.02% in Polen, 0.05% in het grootste deel van West-Europa, 0.08% in Engeland en Wales. De veilige regel is overal eenvoudig: als je rijdt, drink dan helemaal niet."}},{"@type":"Question","name":"Veranderen snelheidslimieten bij regen of voor beginnende bestuurders?","acceptedAnswer":{"@type":"Answer","text":"Vaak wel — Frankrijk en Italië verlagen de limieten op snelwegen bij regen, en verschillende landen leggen beginnende bestuurders lagere limieten op. De checker vermeldt de belangrijkste gevallen; volg de borden."}},{"@type":"Question","name":"Welke documenten moet een bezoekende bestuurder bij zich hebben?","acceptedAnswer":{"@type":"Answer","text":"Paspoort/ID, rijbewijs (plus een internationaal rijbewijs waar dat vereist is), kentekenbewijs en verzekeringspapieren, en eventuele vignet- of tolaccounts voor de route."}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/nl/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Controle van Europese rijregels",
+      "item": "https://loonaautomation.github.io/loona-calculators/nl/europe-driving-rules-checker/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Logo van Loona Automation">
+<div class="brand">Loona <span>Rekenmachines</span></div>
+<nav>
+<a href="../">Home</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">Over ons</a>
+<a href="../contact.html">Contact</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › Geld & Reizen › Controle van Europese rijregels</div>
+<h1 class="pagetitle">🚗 Controle van Europese rijregels</h1>
+<p class="lead">Kies een Europees land om de basis voor bezoekende bestuurders te zien: aan welke kant van de weg, de maximumsnelheid op de snelweg voor auto's, de alcohollimiet, en de plaatselijke regels waar toeristen het vaakst op stuklopen.</p>
+<div class="exbox"><strong>Snel antwoord:</strong> In het grootste deel van Europa rijdt men rechts, met maximumsnelheden op de snelweg van 120–130 km/h en een alcohollimiet van 0.05%. De grote uitzonderingen: het VK en Ierland rijden links, Duitsland heeft onbegrensde autobahn-trajecten, en de alcohollimiet in Polen is een strenge 0.02%.</div>
+<div class="toolbox"><form class="calcform" id="drForm">
+<div class="fld"><label for="drCountry">Rijden in</label><select id="drCountry"></select></div>
+<button class="calcbtn" type="submit">Toon rijregels</button>
+<div class="calcresult" id="drResult" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>Hoe je de Controle van Europese rijregels gebruikt</h2><ol><li>Selecteer het land waarin je gaat rijden.</li><li>Lees aan welke kant er wordt gereden, de snelweglimiet en de alcohollimiet.</li><li>Let vóór vertrek op de waarschuwingen per land — en volg altijd de plaatselijke borden, die gaan vóór op elke gids.</li></ol>
+<div class="exbox"><strong>Voorbeeld:</strong> Rijden in Polen: verkeer aan de rechterkant, maximumsnelheid op de snelweg 140 km/h (de hoogste van Europa), een strenge alcohollimiet van 0.02% en koplampen die de hele dag, het hele jaar door verplicht zijn.</div>
+<h2>Veelgestelde vragen</h2></section><div class="faq"><h3>Zijn dit de volledige wetten van elk land?</h3><p>Nee — een samenvatting voor reizigers van de belangrijkste regels voor automobilisten. De volledige wet bevat nog veel meer details (kinderzitjes, data voor winteruitrusting, stadszones, documentatie). Lokale borden en aanwijzingen van de politie hebben altijd voorrang.</p></div><div class="faq"><h3>Waarom verschillen de alcohollimieten in het verkeer zo veel?</h3><p>Elk land stelt zijn eigen limiet vast: 0.02% in Polen, 0.05% in het grootste deel van West-Europa, 0.08% in Engeland en Wales. De veilige regel is overal eenvoudig: als je rijdt, drink dan helemaal niet.</p></div><div class="faq"><h3>Veranderen snelheidslimieten bij regen of voor beginnende bestuurders?</h3><p>Vaak wel — Frankrijk en Italië verlagen de limieten op snelwegen bij regen, en verschillende landen leggen beginnende bestuurders lagere limieten op. De checker vermeldt de belangrijkste gevallen; volg de borden.</p></div><div class="faq"><h3>Welke documenten moet een bezoekende bestuurder bij zich hebben?</h3><p>Paspoort/ID, rijbewijs (plus een internationaal rijbewijs waar dat vereist is), kentekenbewijs en verzekeringspapieren, en eventuele vignet- of tolaccounts voor de route.</p></div>
+<h2 class="sec">Gerelateerde calculators</h2><div class="grid"><a class="card" href="../vignette-checker/"><div class="ic">🎫</div><h3>Vignetcheck</h3><p>Geld & Reizen</p></a><a class="card" href="../europe-plug-voltage-checker/"><div class="ic">🔌</div><h3>Europese stekker- & spanningscontrole</h3><p>Geld & Reizen</p></a><a class="card" href="../etias-eligibility-checker/"><div class="ic">🛂</div><h3>ETIAS-geschiktheidscheck</h3><p>Geld & Reizen</p></a></div>
+</div>
+<section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>Hoe het werkt — de formule</h2>
+<p>Een samengesteld naslagwerk op basis van gepubliceerde samenvattingen van nationale verkeersveiligheidsinstanties, bedoeld voor bezoekende bestuurders: aan welke kant je rijdt, de standaard maximumsnelheid op de snelweg voor auto's bij goed weer, de algemene alcohollimiet (BAC) en per land een of twee valkuilen waar toeristen vaak intrappen. Het is een eerste overzicht, niet de wet zelf.</p>
+<h3>Uitgewerkt voorbeeld</h3><div class="exbox"><p><strong>Geval:</strong> een Britse bestuurder die zijn auto meeneemt naar Frankrijk.</p><p><strong>Controle:</strong> Zijde wisselt van links naar <strong>rechts</strong>. Snelweglimiet 130 km/h (110 bij regen) in plaats van 70 mph. De alcoholgrens daalt van 0.08% naar <strong>0.05%</strong>. Extra's: veiligheidshesje in de cabine, afstelling van de koplampbundel, en een Crit'Air-sticker als je gedekte steden binnenrijdt.</p><p><strong>Resultaat:</strong> Vier concrete veranderingen om voor te bereiden vóór de veerboot — precies wat deze checker per land samenvat.</p></div>
+<p class="resnote"><strong>Regels gecontroleerd: 8 november 2026.</strong> Reisregels veranderen — bevestig het vóór je reis altijd bij officiële bronnen van de overheid of de EU.</p><p class="resnote">Samenvatting alleen voor bezoekende automobilisten — geen juridisch advies. Lokale borden en de huidige nationale wetgeving gaan vóór op deze gids.</p>
+</section>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Embed deze calculator op je website — gratis</h2>
+<p style="margin:0 0 12px;line-height:1.6">Voeg deze calculator toe aan je eigen website of blog — hij is helemaal gratis, je hoeft je nergens aan te melden en je ziet altijd de nieuwste versie. Kopieer de code hieronder en plak die in je pagina op de plek waar je de calculator wilt laten verschijnen. De kleine creditregel &ldquo;Powered by Loona Automation&rdquo; onder de embed laten staan helpt om deze tool gratis te houden &mdash; maar je mag hem gerust opmaken of verwijderen; de tool werkt hoe dan ook.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/nl/europe-driving-rules-checker/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Europe Driving Rules Checker by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Mogelijk gemaakt door &lt;a href="https://loonaautomation.github.io/loona-calculators/nl/europe-driving-rules-checker/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; gratis Controle van Europese rijregels&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Embedcode kopiëren</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='Embedcode kopiëren';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Populaire Calculators</h4><ul><li><a href="../age-calculator/">Leeftijdscalculator</a></li>
+<li><a href="../zakat-calculator/">Zakatcalculator</a></li>
+<li><a href="../cgpa-calculator/">CGPA Calculator</a></li>
+<li><a href="../percentage-calculator/">Percentagecalculator</a></li>
+<li><a href="../hijri-date-converter/">Hijri-datumconverter</a></li>
+<li><a href="../emi-calculator/">EMI- en leningcalculator</a></li></ul></div>
+<div><h4>Meer Loona Tools</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR-codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Image Compressor</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI-assistent</a></li>
+<li><a href="https://loonaautomation.github.io/">Alle Loona-tools</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">Over ons</a></li>
+<li><a href="../contact.html">Contact</a></li>
+<li><a href="../privacy-policy.html">Privacybeleid</a></li>
+<li><a href="../terms.html">Gebruiksvoorwaarden</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — a <a href="https://loonaautomation.github.io/">Loona Automation</a> project. Gratis online calculators, geen aanmelding nodig.
+Contact: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+var DRIVE_DATA={"France": {"side": "Right", "motorway": "130 km/h (110 bij regen)", "bac": "0.05% (0.02% novice)", "note": "Headlights recommended in tunnels/poor visibility; hi-vis vest must be in the cabin."}, "Germany": {"side": "Right", "motorway": "Geen algemene limiet op veel autobahns (130 aanbevolen)", "bac": "0.05% (0.00% novice/professional)", "note": "Winter tyres required in winter conditions; no handheld phone use."}, "Spain": {"side": "Right", "motorway": "120 km/h", "bac": "0.05% (lagere limieten worden gefaseerd ingevoerd voor beginners)", "note": "Two warning triangles or a V16 beacon; flip-flops driving is fined in practice."}, "Italy": {"side": "Right", "motorway": "130 km/h (110 bij regen)", "bac": "0.05% (0.00% novice)", "note": "Headlights required outside built-up areas on many roads; ZTL city zones catch tourists often."}, "United Kingdom": {"side": "Left", "motorway": "70 mph (112 km/h)", "bac": "0.08% (0.05% in Scotland)", "note": "Drive on the left; speed limits in mph; headlamp converters for EU cars."}, "Ireland": {"side": "Left", "motorway": "120 km/h", "bac": "0.05% (0.02% novice/professional)", "note": "Drive on the left; limits in km/h."}, "Netherlands": {"side": "Right", "motorway": "100 km/h daytime / 120\u2013130 at night on signed sections", "bac": "0.05% (0.02% novice)", "note": "Strict phone and priority rules; many 30 km/h urban zones."}, "Poland": {"side": "Right", "motorway": "140 km/h", "bac": "0.02%", "note": "Koplampen te allen tijde verplicht, het hele jaar door."}, "Austria": {"side": "Right", "motorway": "130 km/h", "bac": "0.05% (0.01% novice)", "note": "Winter tyres mandatory 1 Nov\u201315 Apr in winter conditions; vignette for motorways."}, "Switzerland": {"side": "Right", "motorway": "120 km/h", "bac": "0.05% (0.00% novice)", "note": "Dipped headlights required at all times; vignette for motorways."}, "Greece": {"side": "Right", "motorway": "130 km/h", "bac": "0.05% (0.02% novice/professional)", "note": "Priority rules at unsigned junctions differ from much of Europe \u2014 drive defensively."}, "Portugal": {"side": "Right", "motorway": "120 km/h", "bac": "0.05% (0.02% novice)", "note": "Hi-vis vest required; toll gantries are electronic on many motorways."}};
+function drivingRules(country){return DRIVE_DATA[country]||null;}
+/*TESTABLE_END*/
+(function(){var sel=document.getElementById('drCountry');Object.keys(DRIVE_DATA).forEach(function(c){var o=document.createElement('option');o.value=c;o.textContent=c;sel.appendChild(o);});sel.value="France";})();
+document.getElementById('drForm').addEventListener('submit',function(e){e.preventDefault();
+ var c=document.getElementById('drCountry').value, r=drivingRules(c);
+ var box=document.getElementById('drResult'); box.style.display='block';
+ if(!r){box.innerHTML='<p class="err">Kies een land.</p>';return;}
+ box.innerHTML='<div class="resbig"><span>'+c+'</span><strong>Rijd aan de '+r.side+'</strong></div>'
+ +'<table class="restbl"><tr><td>Snelweglimiet (auto’s)</td><td><strong>'+r.motorway+'</strong></td></tr>'
+ +'<tr><td>Alcohol-limiet voor rijden</td><td><strong>'+r.bac+'</strong></td></tr></table>'
+ +'<p style="font-size:15px">'+r.note+'</p>'
+ +'<p class="resnote">Samenvatting voor reizigers — lokale borden en de huidige wet gaan vóór op deze gids. Regels gecontroleerd: 8 november 2026.</p>';});
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' App installeren';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Installeer deze app: tik op de knop Delen en kies daarna "Toevoegen aan startscherm".');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

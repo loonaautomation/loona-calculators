@@ -1,0 +1,29 @@
+{
+  "name": "Loona Secret Santa-generator",
+  "short_name": "Secret Santa-generator",
+  "description": "Gratis Secret Santa-generator: voeg namen toe, stel uitsluitingen in (stellen, koppels van vorig jaar), trek in het geheim, en daarna onthult iedereen alleen zijn eigen match. Privé, in je browser.",
+  "id": "/loona-calculators/nl/secret-santa-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

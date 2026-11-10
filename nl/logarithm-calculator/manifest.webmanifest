@@ -1,0 +1,29 @@
+{
+  "name": "Loona Logaritmecalculator",
+  "short_name": "Logaritmecalculator",
+  "description": "Gratis logaritmecalculator: vind de logaritme met elk grondtal, plus de gewone logaritme (grondtal 10), de natuurlijke logaritme (ln) en de binaire logaritme (grondtal 2), elk geverifieerd met de antilogaritme. De formule om van grondtal te wisselen wordt uitgelegd.",
+  "id": "/loona-calculators/nl/logarithm-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

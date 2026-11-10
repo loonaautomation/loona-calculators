@@ -1,0 +1,29 @@
+{
+  "name": "Loona Hypotheekcalculator voor het VK",
+  "short_name": "VK Hypotheekcalculator",
+  "description": "Gratis hypotheekcalculator voor het VK in ponden: maandelijkse aflossing, totale rente en totale kosten voor elke lening, rente en looptijd, plus een vergelijking van extra aflossingen.",
+  "id": "/loona-calculators/nl/uk-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

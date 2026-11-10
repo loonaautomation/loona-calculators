@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calculator voor de uitgerekende datum van de zwangerschap",
+  "short_name": "Calculator voor de uitgerekende datum van de zwangerschap",
+  "description": "Gratis calculator voor de uitgerekende datum van je zwangerschap: voer de eerste dag van je laatste menstruatie in (LMP) om je verwachte uitgerekende datum, je huidige zwangerschapsweek en je trimester te krijgen.",
+  "id": "/loona-calculators/nl/pregnancy-due-date-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

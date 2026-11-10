@@ -1,0 +1,29 @@
+{
+  "name": "Loona Londen naar New York Tijd Converter",
+  "short_name": "Londen naar New York Tijd",
+  "description": "Reken de tijd in Londen om naar de tijd in New York. New York loopt het hele jaar 5 uur achter op Londen, met zomertijddata, een tabel voor 24 uur en het beste moment om te overleggen. Inclusief live omrekenaar.",
+  "id": "/loona-calculators/nl/london-to-new-york-time-converter.html",
+  "start_url": "./london-to-new-york-time-converter.html",
+  "scope": "./london-to-new-york-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

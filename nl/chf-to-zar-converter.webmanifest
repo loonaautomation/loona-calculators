@@ -1,0 +1,29 @@
+{
+  "name": "Loona CHF naar ZAR Converter",
+  "short_name": "CHF naar ZAR Converter",
+  "description": "Reken Zwitserse frank (CHF) om naar Zuid-Afrikaanse rand (ZAR). Referentiekoers van de ECB van 06 november 2026, omgekeerde koers, omrekentabel en opmerkingen over deze valutacombinatie. Alleen indicatief.",
+  "id": "/loona-calculators/nl/chf-to-zar-converter.html",
+  "start_url": "./chf-to-zar-converter.html",
+  "scope": "./chf-to-zar-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

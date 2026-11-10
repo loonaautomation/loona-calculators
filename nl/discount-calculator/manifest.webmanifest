@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kortingscalculator",
+  "short_name": "Kortingscalculator",
+  "description": "Gratis kortingscalculator: voer de prijs en het kortingspercentage in om de uiteindelijke prijs en je besparing te krijgen. Ondersteunt een extra tweede korting en belasting die na de korting wordt toegevoegd.",
+  "id": "/loona-calculators/nl/discount-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

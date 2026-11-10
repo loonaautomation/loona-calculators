@@ -1,0 +1,29 @@
+{
+  "name": "Loona hCG-verdubbelingstijdcalculator",
+  "short_name": "hCG-verdubbelingstijdcalculator",
+  "description": "Gratis calculator voor hCG-verdubbeling: voer twee resultaten voor bèta-hCG in en het aantal uren tussen de bloedtests, om de verdubbelingstijd, de procentuele stijging en de dagelijkse toename te krijgen. Alleen educatief.",
+  "id": "/loona-calculators/nl/hcg-doubling-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

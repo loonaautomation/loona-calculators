@@ -1,0 +1,29 @@
+{
+  "name": "Loona Quarts naar Gallons Converter",
+  "short_name": "Quarts naar Gallons Converter",
+  "description": "Reken quarts direct om naar gallons. Exacte formule, een volledige omrekentabel van qt naar gal en uitgewerkte voorbeelden. Gratis, geen registratie nodig.",
+  "id": "/loona-calculators/nl/quarts-to-gallons-converter.html",
+  "start_url": "./quarts-to-gallons-converter.html",
+  "scope": "./quarts-to-gallons-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

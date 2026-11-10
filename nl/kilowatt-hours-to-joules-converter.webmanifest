@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kilowatt-hour naar Joule Converter",
+  "short_name": "Kilowattuur naar Joule",
+  "description": "Reken kilowattuur direct om naar joule. Exacte formule, een volledige omrekentabel van kWh naar J, een uitgewerkt voorbeeld en veelgestelde vragen. Gratis, geen registratie nodig.",
+  "id": "/loona-calculators/nl/kilowatt-hours-to-joules-converter.html",
+  "start_url": "./kilowatt-hours-to-joules-converter.html",
+  "scope": "./kilowatt-hours-to-joules-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

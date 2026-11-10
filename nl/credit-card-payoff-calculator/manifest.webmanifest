@@ -1,0 +1,29 @@
+{
+  "name": "Loona Creditcardaflossingscalculator",
+  "short_name": "Creditcardaflossingscalculator",
+  "description": "Gratis calculator voor het aflossen van je creditcard: saldo, APR en een vaste maandelijkse betaling — zie in hoeveel maanden je alles hebt afgelost, de totale rente en het totaal betaalde bedrag, met een waarschuwing bij te kleine betalingen.",
+  "id": "/loona-calculators/nl/credit-card-payoff-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

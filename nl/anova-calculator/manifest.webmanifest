@@ -1,0 +1,29 @@
+{
+  "name": "Loona Eenweg-ANOVA-calculator",
+  "short_name": "Eenweg-ANOVA-calculator",
+  "description": "Gratis calculator voor eenweg-ANOVA: voer de getallen van elke groep op een eigen regel in om de kwadratensommen, de F-statistiek, de vrijheidsgraden en de p-waarde te krijgen, met de groepsgemiddelden.",
+  "id": "/loona-calculators/nl/anova-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Leeftijd op basis van geboortejaar",
+  "short_name": "Leeftijd op basis van geboortejaar",
+  "description": "Leeftijd die je in 2026 bereikt voor elk geboortejaar 1946–2025, met generatielabels en mijlpaaljaren.",
+  "id": "/loona-calculators/nl/age-by-birth-year.html",
+  "start_url": "./age-by-birth-year.html",
+  "scope": "./age-by-birth-year.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

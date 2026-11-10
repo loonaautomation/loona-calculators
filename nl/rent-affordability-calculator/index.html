@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculator voor betaalbare huur — Hoeveel huur kan ik me veroorloven? | Loona Calculators</title>
+<meta name="description" content="Gratis calculator voor betaalbare huur: voer je bruto inkomen in, het deel daarvan dat je aan huur kunt besteden en je maandelijkse schulden, om te zien wat de maximale huur is die je je kunt veroorloven — met de richtlijn van 28/36.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/nl/rent-affordability-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/rent-affordability-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/rent-affordability-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/rent-affordability-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/rent-affordability-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/rent-affordability-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/rent-affordability-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/rent-affordability-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/rent-affordability-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Calculator voor betaalbare huur — Hoeveel huur kan ik me veroorloven? | Loona Calculators">
+<meta property="og:description" content="Gratis calculator voor betaalbare huur: voer je bruto inkomen in, het deel daarvan dat je aan huur kunt besteden en je maandelijkse schulden, om te zien wat de maximale huur is die je je kunt veroorloven — met de richtlijn van 28/36.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/nl/rent-affordability-calculator/"><meta property="og:locale" content="nl_NL">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Calculator voor betaalbare huur — Hoeveel huur kan ik me veroorloven? | Loona Calculators">
+<meta name="twitter:description" content="Gratis calculator voor betaalbare huur: voer je bruto inkomen in, het deel daarvan dat je aan huur kunt besteden en je maandelijkse schulden, om te zien wat de maximale huur is die je je kunt veroorloven — met de richtlijn van 28/36.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona Huurbetaalbaarheidscalculator","url":"https://loonaautomation.github.io/loona-calculators/nl/rent-affordability-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Hoeveel huur kan ik me veroorloven met mijn salaris?","acceptedAnswer":{"@type":"Answer","text":"Een gangbaar uitgangspunt is 30% van je bruto maandinkomen — bij Rs 1,50,000 is dat Rs 45,000. Heb je ook andere schulden, dan is de 28/36-richtlijn veiliger: houd je huur onder 28% van je inkomen en huur plus schulden samen onder 36%. Deze calculator zet alle drie de bedragen naast elkaar, zodat je kunt kiezen wat bij jouw situatie past."}},{"@type":"Question","name":"Wat is de 28/36-regel?","acceptedAnswer":{"@type":"Answer","text":"Het is een richtlijn die veel kredietverstrekkers gebruiken. Het eerste getal is de front-endratio: woonkosten (huur, of hypotheek plus belastingen en verzekeringen) mogen niet hoger zijn dan 28% van het bruto-inkomen. Het tweede is de back-endratio: wonen plus alle andere terugkerende schulden — autoleningen, creditcards, persoonlijke leningen — mogen niet hoger zijn dan 36% van het bruto-inkomen."}},{"@type":"Question","name":"Moet ik bruto- of netto-inkomen gebruiken?","acceptedAnswer":{"@type":"Answer","text":"De klassieke regels zijn geschreven voor bruto-inkomen (vóór belasting), en dat is wat deze calculator gebruikt. Als je liever budgetteert op basis van je nettoloon, wordt het resultaat gewoon strenger — voer je netto-inkomen en een iets hoger percentage in, en behandel het antwoord als een voorzichtig plafond in plaats van een doel."}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/nl/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Calculator voor betaalbare huur",
+      "item": "https://loonaautomation.github.io/loona-calculators/nl/rent-affordability-calculator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Logo van Loona Automation">
+<div class="brand">Loona <span>Rekenmachines</span></div>
+<nav>
+<a href="../">Home</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">Over ons</a>
+<a href="../contact.html">Contact</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › Geld &amp; Financiën › Calculator voor betaalbare huur</div>
+<h1 class="pagetitle">🔑 Calculator voor betaalbare huur</h1>
+<p class="lead">Huur is meestal de grootste rekening van de maand, en tekenen voor een woning die net iets te duur is, maakt elke andere uitgave tot een worsteling. Voer hieronder je inkomen in en deze calculator toont de meeste huur die je veilig kunt aangaan — met je eigen percentage, plus de 28/36-richtlijn die verstrekkers gebruiken.</p>
+<div class="toolbox"><form class="calcform" id="raForm">
+<div class="fld"><label for="raPeriod">Hoe wordt het inkomen hieronder ingevoerd?</label><select id="raPeriod"><option value="monthly">Maandinkomen</option><option value="yearly">Jaarinkomen</option></select></div>
+<div class="fld"><label for="raIncome">Bruto-inkomen (vóór belasting)</label><input type="number" step="any" min="0" id="raIncome" value="150000"></div>
+<div class="fld"><label for="raPct">Deel van je inkomen dat je aan huur kunt besteden (%)</label><input type="number" step="any" min="0" max="100" id="raPct" value="30"></div>
+<div class="fld"><label for="raDebts">Maandelijkse schulden (leningbetalingen, creditcards — huur niet meegerekend)</label><input type="number" step="any" min="0" id="raDebts" value="0"></div>
+<button class="calcbtn" type="submit">Betaalbare huur berekenen</button>
+</form>
+<div class="calcresult" id="raRes" style="display:none"></div></div>
+<section class="txt"><h2>Hoe je de Huurbetaalbaarheidscalculator gebruikt</h2><ol><li>Voer je bruto-inkomen in en kies of het om het maandelijkse of het jaarlijkse bedrag gaat.</li><li>Stel het deel van je inkomen in dat je aan huur wilt besteden — 30% is het klassieke uitgangspunt.</li><li>Voeg je andere maandelijkse schulden toe (leningbetalingen, creditcards) als je die hebt, en druk daarna op Berekenen.</li><li>Vergelijk de drie cijfers: jouw percentage, de richtlijn van 28% voor huisvesting en de limiet van 36% na schulden. Een huur op of onder de kleinste van de drie is de veilige keuze.</li></ol>
+<h2>Veelgestelde vragen</h2></section><div class="faq"><h3>Hoeveel huur kan ik me veroorloven met mijn salaris?</h3><p>Een gangbaar uitgangspunt is 30% van je bruto maandinkomen — bij Rs 1,50,000 is dat Rs 45,000. Heb je ook andere schulden, dan is de 28/36-richtlijn veiliger: houd je huur onder 28% van je inkomen en huur plus schulden samen onder 36%. Deze calculator zet alle drie de bedragen naast elkaar, zodat je kunt kiezen wat bij jouw situatie past.</p></div><div class="faq"><h3>Wat is de 28/36-regel?</h3><p>Het is een richtlijn die veel kredietverstrekkers gebruiken. Het eerste getal is de front-endratio: woonkosten (huur, of hypotheek plus belastingen en verzekeringen) mogen niet hoger zijn dan 28% van het bruto-inkomen. Het tweede is de back-endratio: wonen plus alle andere terugkerende schulden — autoleningen, creditcards, persoonlijke leningen — mogen niet hoger zijn dan 36% van het bruto-inkomen.</p></div><div class="faq"><h3>Moet ik bruto- of netto-inkomen gebruiken?</h3><p>De klassieke regels zijn geschreven voor bruto-inkomen (vóór belasting), en dat is wat deze calculator gebruikt. Als je liever budgetteert op basis van je nettoloon, wordt het resultaat gewoon strenger — voer je netto-inkomen en een iets hoger percentage in, en behandel het antwoord als een voorzichtig plafond in plaats van een doel.</p></div>
+<h2 class="sec">Gerelateerde calculators</h2><div class="grid"><a class="card" href="../rent-vs-buy-calculator/" data-name="rent vs buy calculator rent-vs-buy-calculator"><div class="ic">⚖️</div><h3>Calculator voor huren vs kopen</h3><p>Gratis calculator voor huren versus kopen: vergelijk de totale kosten van huren met die van het kopen van een woning over de jaren dat je van plan bent er te blijven.</p></a><a class="card" href="../rent-split-calculator/" data-name="rent split calculator rent-split-calculator"><div class="ic">🤝</div><h3>Calculator voor huur splitsen</h3><p>Gratis calculator om de huur te verdelen: verdeel de huur eerlijk tussen huisgenoten — gelijk, op basis van kamergrootte of op basis van inkomen.</p></a><a class="card" href="../rent-increase-calculator/" data-name="rent increase calculator rent-increase-calculator"><div class="ic">📈</div><h3>Calculator voor huurverhoging</h3><p>Gratis calculator voor huurverhoging: zie je nieuwe huur na een procentuele verhoging, plus een projectie per jaar.</p></a><a class="card" href="../mortgage-calculator/" data-name="mortgage calculator mortgage-calculator"><div class="ic">🏠</div><h3>Hypotheekcalculator</h3><p>Gratis hypotheekcalculator: woningprijs, aanbetaling, rentepercentage en looptijd — krijg het leningbedrag, de maandelijkse betaling, de totale rente en de totale kosten van je woning.</p></a><a class="card" href="../emi-calculator/" data-name="emi & loan calculator emi-calculator"><div class="ic">🏦</div><h3>EMI- en leningcalculator</h3><p>Gratis EMI- en leningcalculator: voer het leningbedrag, de rente of het winstpercentage en de looptijd in om je maandelijkse termijn en de totale kosten te krijgen.</p></a></div>
+</div>
+<section class="txt"><h2>Hoe het werkt — de formule</h2><p>De basisregel is één vermenigvuldiging: je betaalbare huur is je bruto maandinkomen vermenigvuldigd met het percentage dat je kiest. De bekende <strong>30%-regel</strong> zegt dat huisvesting niet meer dan ongeveer 30% van het bruto-inkomen mag innemen. Verstrekkers gebruiken vaak de strengere <strong>28/36-regel</strong> in plaats daarvan: huisvestingskosten alleen moeten onder 28% van het bruto-inkomen blijven, en huisvesting plus elke andere maandelijkse schuldbetaling onder 36% — dus met schulden is de ruimte die overblijft voor huur 36% van het inkomen min die schulden.</p>
+<p><strong>Formule:</strong> Maximale huur = bruto maandinkomen × percentage ÷ 100. Back-end (DTI) ruimte voor huur = bruto maandinkomen × 36% − maandelijkse schulden.</p><h3>Uitgewerkt voorbeeld</h3><div class="exbox"><p><strong>Invoergegevens:</strong> Bruto-inkomen Rs 1,50,000 per maand; huurpercentage 30%; maandelijkse schulden Rs 10,000.</p>
+<p><strong>Stappen:</strong> 30% van Rs 1,50,000 = Rs 45,000, dus over een jaar is dat Rs 45,000 × 12 = Rs 5,40,000. De richtlijn van 28% geeft Rs 42,000. De back-endlimiet van 36% is Rs 54,000, min de Rs 10,000 aan schulden = Rs 44,000.</p>
+<p><strong>Resultaat:</strong> Maximale huur <strong>Rs 45,000 per maand</strong> op je eigen percentage — en de richtlijnen in lenersstijl raden aan dichter bij te blijven <strong>Rs 42,000–44,000</strong>, waardoor Rs 1,05,000 van het inkomen overblijft voor al het andere.</p></div><h3>Veelgestelde vragen</h3></section><div class="faq"><h3>Werkt de 30%-regel nog in dure steden?</h3><p>In steden met hoge huren besteden veel mensen 40–50% van hun inkomen aan huur omdat er geen goedkopere optie in de buurt is. De regel is een richtlijn, geen wet — maar hoe verder je erboven zit, hoe zorgvuldiger de rest van het budget moet worden beheerd, omdat het geld voor sparen, vervoer en noodgevallen moet komen van wat er overblijft.</p></div><div class="faq"><h3>Wat als mijn inkomen van maand tot maand verandert?</h3><p>Baseer de berekening op een voorzichtige maand, niet op je beste maand — bijvoorbeeld de laagste typische maand van de afgelopen drie, of een gemiddelde over drie maanden dat je iets verlaagt. De huur blijft in een slechte maand hetzelfde, dus je budget moet gebouwd zijn op het inkomen waar je op kunt rekenen.</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Embed deze calculator op je website — gratis</h2>
+<p style="margin:0 0 12px;line-height:1.6">Voeg deze calculator toe aan je eigen website of blog — hij is helemaal gratis, je hoeft je nergens aan te melden en je ziet altijd de nieuwste versie. Kopieer de code hieronder en plak die in je pagina op de plek waar je de calculator wilt laten verschijnen. De kleine creditregel &ldquo;Powered by Loona Automation&rdquo; onder de embed laten staan helpt om deze tool gratis te houden &mdash; maar je mag hem gerust opmaken of verwijderen; de tool werkt hoe dan ook.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/nl/rent-affordability-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Rent Affordability Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Mogelijk gemaakt door &lt;a href="https://loonaautomation.github.io/loona-calculators/nl/rent-affordability-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; gratis Calculator voor betaalbare huur&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Embedcode kopiëren</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='Embedcode kopiëren';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Populaire Calculators</h4><ul><li><a href="../age-calculator/">Leeftijdscalculator</a></li>
+<li><a href="../zakat-calculator/">Zakatcalculator</a></li>
+<li><a href="../cgpa-calculator/">CGPA Calculator</a></li>
+<li><a href="../percentage-calculator/">Percentagecalculator</a></li>
+<li><a href="../hijri-date-converter/">Hijri-datumconverter</a></li>
+<li><a href="../emi-calculator/">EMI- en leningcalculator</a></li></ul></div>
+<div><h4>Meer Loona Tools</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR-codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Image Compressor</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI-assistent</a></li>
+<li><a href="https://loonaautomation.github.io/">Alle Loona-tools</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">Over ons</a></li>
+<li><a href="../contact.html">Contact</a></li>
+<li><a href="../privacy-policy.html">Privacybeleid</a></li>
+<li><a href="../terms.html">Gebruiksvoorwaarden</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — a <a href="https://loonaautomation.github.io/">Loona Automation</a> project. Gratis online calculators, geen aanmelding nodig.
+Contact: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+/* Rent Affordability — pure logic (unit-tested, inlined into the page) */
+function rentAffordability(grossMonthly, pct, debtsMonthly){
+  var maxRent = grossMonthly * pct / 100;
+  var guide28 = grossMonthly * 0.28;
+  var dti36 = grossMonthly * 0.36 - debtsMonthly;
+  if (dti36 < 0) dti36 = 0;
+  return {
+    maxMonthlyRent: maxRent,
+    maxYearlyRent: maxRent * 12,
+    guide28: guide28,
+    dti36: dti36,
+    leftAfterRent: grossMonthly - maxRent,
+    pctOfIncome: pct
+  };
+}
+function fmt(n){return "Rs " + Math.round(n).toLocaleString("en-IN");}
+function fmt2(n){return "Rs " + n.toLocaleString("en-IN",{minimumFractionDigits:2,maximumFractionDigits:2});}
+function pctFmt(n){return parseFloat(n.toFixed(2)) + "%";}
+function num(id){var v=parseFloat(document.getElementById(id).value);return isNaN(v)?0:v;}
+document.getElementById("raForm").addEventListener("submit", function(e){
+  e.preventDefault();
+  var res = document.getElementById("raRes");
+  var income = num("raIncome"), pct = num("raPct"), debts = num("raDebts");
+  if (income <= 0){ res.style.display = "block"; res.innerHTML = '<div class="err">Voer je bruto-inkomen in — het moet meer dan nul zijn.</div>'; return; }
+  if (pct <= 0 || pct > 100){ res.style.display = "block"; res.innerHTML = '<div class="err">Het huurpercentage moet tussen 1 en 100 liggen.</div>'; return; }
+  var monthly = document.getElementById("raPeriod").value === "yearly" ? income / 12 : income;
+  var r = rentAffordability(monthly, pct, debts);
+  res.style.display = "block";
+  res.innerHTML = '<div class="resbig"><span>Maximale maandelijkse huur die je je kunt veroorloven</span><strong>' + fmt(r.maxMonthlyRent) + '</strong></div>'
+    + '<table class="restbl">'
+    + '<tr><td>Maximale jaarlijkse huur (maandelijks × 12)</td><td>' + fmt(r.maxYearlyRent) + '</td></tr>'
+    + '<tr><td>Gebruikt bruto maandinkomen</td><td>' + fmt(monthly) + '</td></tr>'
+    + '<tr><td>28% front-end-richtlijn (alleen wonen)</td><td>' + fmt(r.guide28) + '</td></tr>'
+    + '<tr><td>36% back-end-limiet na je schulden van ' + fmt(debts) + '/maand</td><td>' + fmt(r.dti36) + '</td></tr>'
+    + '<tr><td>Inkomen dat overblijft na de maximale huur</td><td>' + fmt(r.leftAfterRent) + '</td></tr>'
+    + '</table>'
+    + '<p class="resnote">De 28/36-richtlijn die kredietverstrekkers gebruiken: wonen moet onder 28% van het bruto-inkomen blijven, en wonen plus alle andere maandelijkse schulden onder 36%. Je eigen percentage kan een hogere of lagere huur geven dan beide — het veiligste budget houdt de huur op of onder het kleinste van de drie cijfers.</p>';
+});
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' App installeren';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Installeer deze app: tik op de knop Delen en kies daarna "Toevoegen aan startscherm".');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body></html>

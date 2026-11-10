@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculator voor zonsopkomst & zonsondergang — Zontijden op basis van breedte- & lengtegraad | Loona</title>
+<meta name="description" content="Gratis calculator voor zonsopgang en zonsondergang: voer een datum en de breedte- en lengtegraad in om de zonsopgang, de zonsondergang, de daglengte en het zonnehoofdpunt te krijgen, in UTC en in lokale zonnetijd. Wiskunde van NOAA.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/nl/sunrise-sunset-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/sunrise-sunset-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/sunrise-sunset-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/sunrise-sunset-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/sunrise-sunset-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/sunrise-sunset-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/sunrise-sunset-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/sunrise-sunset-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/sunrise-sunset-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Calculator voor zonsopkomst & zonsondergang — Zontijden op basis van breedte- & lengtegraad | Loona">
+<meta property="og:description" content="Gratis calculator voor zonsopgang en zonsondergang: voer een datum en de breedte- en lengtegraad in om de zonsopgang, de zonsondergang, de daglengte en het zonnehoofdpunt te krijgen, in UTC en in lokale zonnetijd. Wiskunde van NOAA.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/nl/sunrise-sunset-calculator/"><meta property="og:locale" content="nl_NL">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Calculator voor zonsopkomst & zonsondergang — Zontijden op basis van breedte- & lengtegraad | Loona">
+<meta name="twitter:description" content="Gratis calculator voor zonsopgang en zonsondergang: voer een datum en de breedte- en lengtegraad in om de zonsopgang, de zonsondergang, de daglengte en het zonnehoofdpunt te krijgen, in UTC en in lokale zonnetijd. Wiskunde van NOAA.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona Calculator voor zonsopkomst & zonsondergang","url":"https://loonaautomation.github.io/loona-calculators/nl/sunrise-sunset-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"In welke tijdsstandaard staan de resultaten?","acceptedAnswer":{"@type":"Answer","text":"UTC, dus ze werken voor elke locatie zonder te gokken naar tijdzones of regels voor zomertijd. Tel de UTC-afwijking van de locatie voor die datum erbij op (bijvoorbeeld +5 voor Karachi, +1 voor Londen in de zomer) om de lokale kloktijd te krijgen."}},{"@type":"Question","name":"Hoe nauwkeurig is het?","acceptedAnswer":{"@type":"Answer","text":"Het hier gebruikte NOAA/Almanac-algoritme zit op de meeste bewoonde breedtegraden doorgaans binnen ongeveer 1–2 minuten van de gepubliceerde almanaktijden. Op extreme poolbreedtes komt de zon op sommige datums helemaal niet op of gaat hij niet onder — de calculator meldt dan eerlijk pooldag of poolnacht."}},{"@type":"Question","name":"Waarom 90.833 graden en niet precies 90?","acceptedAnswer":{"@type":"Answer","text":"Omdat zonsopgang/zonsondergang wordt bepaald door de bovenrand van de zon, niet door haar middelpunt, en de atmosfeer het zonlicht buigt. De extra 0.833° verklaart de straal van de zon (0.25°) plus de typische refractie (0.583°)."}},{"@type":"Question","name":"Waar kan ik coördinaten voor mijn woonplaats krijgen?","acceptedAnswer":{"@type":"Answer","text":"Elke kaartapp toont breedte-/lengtegraad voor een geplaatste pin. De vooraf ingestelde lijst bevat grote wereld- en Europese steden om mee te beginnen."}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/nl/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Calculator voor zonsopkomst & zonsondergang",
+      "item": "https://loonaautomation.github.io/loona-calculators/nl/sunrise-sunset-calculator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Logo van Loona Automation">
+<div class="brand">Loona <span>Rekenmachines</span></div>
+<nav>
+<a href="../">Home</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">Over ons</a>
+<a href="../contact.html">Contact</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › Datum & Tijd › Calculator voor zonsopkomst & zonsondergang</div>
+<h1 class="pagetitle">🌅 Calculator voor zonsopkomst & zonsondergang</h1>
+<p class="lead">Voer een willekeurige datum en de breedte- en lengtegraad van een locatie in om zonsopkomst, zonsondergang, de lengte van de dag en het zonnehoogtepunt te berekenen met de standaard NOAA-zonvergelijkingen. Voorinstellingen voor grote steden zijn inbegrepen.</p>
+<div class="exbox"><strong>Snel antwoord:</strong> Zonsopkomst en zonsondergang zijn de momenten waarop de bovenrand van de zon de horizon kruist (zenit 90.833°). Londen op 21 juni 2026: zonsopkomst rond 03:43 UTC (04:43 BST) en zonsondergang rond 20:21 UTC (21:21 BST) — een dag van ongeveer 16 uur en 38 minuten.</div>
+<div class="toolbox"><form class="calcform" id="snForm">
+<div class="fld"><label for="snPreset">Vooraf ingestelde stad</label><select id="snPreset"><option value="">Aangepaste coördinaten</option><option value="51.5074,-0.1278">Londen</option><option value="48.8566,2.3522">Parijs</option><option value="52.52,13.405">Berlijn</option><option value="24.8607,67.0011">Karachi</option><option value="25.2048,55.2708">Dubai</option><option value="40.7128,-74.006">New York</option><option value="35.6762,139.6503">Tokio</option><option value="-33.8688,151.2093">Sydney</option></select></div>
+<div class="fld"><label for="snLat">Breedtegraad (−90 tot 90)</label><input type="number" id="snLat" value="51.5074" step="any" min="-90" max="90"></div>
+<div class="fld"><label for="snLon">Lengtegraad (−180 tot 180, oost +)</label><input type="number" id="snLon" value="-0.1278" step="any" min="-180" max="180"></div>
+<div class="fld"><label for="snDate">Datum</label><input type="date" id="snDate" required></div>
+<button class="calcbtn" type="submit">Zontijden berekenen</button>
+<div class="calcresult" id="snResult" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>Hoe je de Zonsopkomst- & zonsondergangcalculator gebruikt</h2><ol><li>Kies een vooraf ingestelde stad, of voer zelf de breedtegraad (−90 tot 90) en lengtegraad (−180 tot 180, oost positief) in.</li><li>Kies de datum.</li><li>Lees zonsopgang, zonsondergang, daglengte en het zonnehoogtepunt in UTC; tel je tijdzoneverschuiving erbij op voor lokale kloktijden.</li></ol>
+<div class="exbox"><strong>Voorbeeld:</strong> Karachi (24.86°N, 67.00°E) op 15 januari 2026: zonsopgang om ongeveer 02:19 UTC = 07:19 lokaal (UTC+5), zonsondergang om ongeveer 13:04 UTC = 18:04 lokaal — een winterdag van ongeveer 10 uur en 45 minuten.</div>
+<h2>Veelgestelde vragen</h2></section><div class="faq"><h3>In welke tijdsstandaard staan de resultaten?</h3><p>UTC, dus ze werken voor elke locatie zonder te gokken naar tijdzones of regels voor zomertijd. Tel de UTC-afwijking van de locatie voor die datum erbij op (bijvoorbeeld +5 voor Karachi, +1 voor Londen in de zomer) om de lokale kloktijd te krijgen.</p></div><div class="faq"><h3>Hoe nauwkeurig is het?</h3><p>Het hier gebruikte NOAA/Almanac-algoritme zit op de meeste bewoonde breedtegraden doorgaans binnen ongeveer 1–2 minuten van de gepubliceerde almanaktijden. Op extreme poolbreedtes komt de zon op sommige datums helemaal niet op of gaat hij niet onder — de calculator meldt dan eerlijk pooldag of poolnacht.</p></div><div class="faq"><h3>Waarom 90.833 graden en niet precies 90?</h3><p>Omdat zonsopgang/zonsondergang wordt bepaald door de bovenrand van de zon, niet door haar middelpunt, en de atmosfeer het zonlicht buigt. De extra 0.833° verklaart de straal van de zon (0.25°) plus de typische refractie (0.583°).</p></div><div class="faq"><h3>Waar kan ik coördinaten voor mijn woonplaats krijgen?</h3><p>Elke kaartapp toont breedte-/lengtegraad voor een geplaatste pin. De vooraf ingestelde lijst bevat grote wereld- en Europese steden om mee te beginnen.</p></div>
+<h2 class="sec">Gerelateerde calculators</h2><div class="grid"><a class="card" href="../date-calculator/"><div class="ic">📆</div><h3>Datumcalculator</h3><p>Datum & Tijd</p></a><a class="card" href="../days-between-dates-calculator/"><div class="ic">🗓️</div><h3>Dagen tussen datums</h3><p>Datum & Tijd</p></a><a class="card" href="../age-calculator/"><div class="ic">📅</div><h3>Leeftijdscalculator</h3><p>Datum & Tijd</p></a><a class="card" href="../working-days-calculator/"><div class="ic">🏢</div><h3>Werkdagencalculator</h3><p>Datum & Tijd</p></a><a class="card" href="../world-clock/"><div class="ic">🌍</div><h3>Wereldklok</h3><p>Datum & Tijd</p></a></div>
+</div>
+<section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>Hoe het werkt — de formule</h2>
+<p>De standaardmethode van Almanac/NOAA: schat uit de dag van het jaar N en de lengtegraad de gemiddelde anomalie van de zon M = 0.9856t − 3.289, haar ware lengte L = M + 1.916 sin M + 0.020 sin 2M + 282.634, de rechte klimming RA, en de declinatie uit sin(dec) = 0.39782 sin L. De uurhoek H volgt uit cos H = (cos 90.833° − sin(dec) sin(lat)) ÷ (cos(dec) cos(lat)). Zonsopkomst gebruikt 360° − H, zonsondergang gebruikt H, en de lokale gemiddelde tijd rekent met de lengtegraad om naar UTC. Als |cos H| &gt; 1 gaat de zon die dag nooit onder (pooldag) of komt hij nooit op (poolnacht).</p>
+<h3>Uitgewerkt voorbeeld</h3><div class="exbox"><p><strong>Invoergegevens:</strong> Londen, lat 51.5074, lon −0.1278, 21 jun 2026 (dag N = 172).</p><p><strong>Stappen:</strong> Het algoritme geeft de declinatie van de zon ≈ +23.43° (dicht bij het maximum rond de zonnewende) en een uurhoek van ongeveer 125.1°, dus de halve dag is 125.1 ÷ 15 = 8.34 uur rond de zonnemiddag. De volledige berekening geeft zonsopkomst ≈ 03:43 UTC en zonsondergang ≈ 20:21 UTC (04:43 en 21:21 BST, zonnemiddag ≈ 12:02 UTC = 13:02 BST — het middelpunt), wat overeenkomt met de gepubliceerde Londense almanaktijden (timeanddate) voor de zonnewende van 2026.</p><p><strong>Resultaat:</strong> Daglengte = 20:21 − 03:43 = <strong>16 h 38 min</strong>.</p></div>
+
+</section>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Embed deze calculator op je website — gratis</h2>
+<p style="margin:0 0 12px;line-height:1.6">Voeg deze calculator toe aan je eigen website of blog — hij is helemaal gratis, je hoeft je nergens aan te melden en je ziet altijd de nieuwste versie. Kopieer de code hieronder en plak die in je pagina op de plek waar je de calculator wilt laten verschijnen. De kleine creditregel &ldquo;Powered by Loona Automation&rdquo; onder de embed laten staan helpt om deze tool gratis te houden &mdash; maar je mag hem gerust opmaken of verwijderen; de tool werkt hoe dan ook.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/nl/sunrise-sunset-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Sunrise & Sunset Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Mogelijk gemaakt door &lt;a href="https://loonaautomation.github.io/loona-calculators/nl/sunrise-sunset-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; gratis Calculator voor zonsopkomst & zonsondergang&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Embedcode kopiëren</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='Embedcode kopiëren';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Populaire Calculators</h4><ul><li><a href="../age-calculator/">Leeftijdscalculator</a></li>
+<li><a href="../zakat-calculator/">Zakatcalculator</a></li>
+<li><a href="../cgpa-calculator/">CGPA Calculator</a></li>
+<li><a href="../percentage-calculator/">Percentagecalculator</a></li>
+<li><a href="../hijri-date-converter/">Hijri-datumconverter</a></li>
+<li><a href="../emi-calculator/">EMI- en leningcalculator</a></li></ul></div>
+<div><h4>Meer Loona Tools</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR-codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Image Compressor</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI-assistent</a></li>
+<li><a href="https://loonaautomation.github.io/">Alle Loona-tools</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">Over ons</a></li>
+<li><a href="../contact.html">Contact</a></li>
+<li><a href="../privacy-policy.html">Privacybeleid</a></li>
+<li><a href="../terms.html">Gebruiksvoorwaarden</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — a <a href="https://loonaautomation.github.io/">Loona Automation</a> project. Gratis online calculators, geen aanmelding nodig.
+Contact: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+function sunCalc(dateISO,lat,lon){
+  if(!dateISO||!(lat>=-90&&lat<=90)||!(lon>=-180&&lon<=180))return null;
+  var p=dateISO.split("-");
+  var dt=new Date(Date.UTC(+p[0],+p[1]-1,+p[2]));
+  var start=new Date(Date.UTC(+p[0],0,0));
+  var N=Math.round((dt-start)/86400000);
+  var lngHour=lon/15;
+  function calc(isRise){
+    var t=N+(((isRise?6:18))-lngHour)/24;
+    var M=(0.9856*t)-3.289;
+    var L=M+1.916*Math.sin(M*Math.PI/180)+0.020*Math.sin(2*M*Math.PI/180)+282.634;
+    L=((L%360)+360)%360;
+    var RA=Math.atan(0.91764*Math.tan(L*Math.PI/180))*180/Math.PI;
+    RA=((RA%360)+360)%360;
+    RA+= (Math.floor(L/90)*90 - Math.floor(RA/90)*90);
+    RA/=15;
+    var sinDec=0.39782*Math.sin(L*Math.PI/180);
+    var cosDec=Math.cos(Math.asin(sinDec));
+    var cosH=(Math.cos(90.833*Math.PI/180)-sinDec*Math.sin(lat*Math.PI/180))/(cosDec*Math.cos(lat*Math.PI/180));
+    if(cosH>1)return {polar:"night"};
+    if(cosH<-1)return {polar:"day"};
+    var H=isRise?360-Math.acos(cosH)*180/Math.PI:Math.acos(cosH)*180/Math.PI;
+    H/=15;
+    var T=H+RA-0.06571*t-6.622;
+    var UT=T-lngHour;
+    UT=((UT%24)+24)%24;
+    return {utc:UT};
+  }
+  var rise=calc(true), set=calc(false);
+  if(rise.polar||set.polar)return {polar:(rise.polar||set.polar)};
+  var dayLen=set.utc-rise.utc; if(dayLen<0)dayLen+=24;
+  return {sunrise:rise.utc,sunset:set.utc,dayLength:dayLen,solarNoon:(rise.utc+dayLen/2)%24};
+}
+function fmtHours(h){var H=Math.floor(h),M=Math.round((h-H)*60);if(M===60){H=(H+1)%24;M=0;}return String(H).padStart(2,"0")+":"+String(M).padStart(2,"0");}
+/*TESTABLE_END*/
+document.getElementById('snPreset').addEventListener('change',function(){
+  if(!this.value)return; var parts=this.value.split(",");
+  document.getElementById('snLat').value=parts[0]; document.getElementById('snLon').value=parts[1];
+});
+document.getElementById('snDate').value=new Date().toISOString().slice(0,10);
+document.getElementById('snForm').addEventListener('submit',function(e){e.preventDefault();
+ var r=sunCalc(document.getElementById('snDate').value,parseFloat(document.getElementById('snLat').value),parseFloat(document.getElementById('snLon').value));
+ var box=document.getElementById('snResult'); box.style.display='block';
+ if(!r){box.innerHTML='<p class="err">Controleer de datum en de coördinaten.</p>';return;}
+ if(r.polar){box.innerHTML='<p class="resnote">Op deze datum gaat de zon op deze breedtegraad '+(r.polar==='day'?'nooit onder (pooldag / middernachtzon).':'nooit op (poolnacht).')+'</p>';return;}
+ var dlH=Math.floor(r.dayLength), dlM=Math.round((r.dayLength-dlH)*60);
+ box.innerHTML='<div class="resbig"><span>Daglengte</span><strong>'+dlH+' h '+dlM+' min</strong></div>'
+ +'<table class="restbl"><tr><td>Zonsopgang (UTC)</td><td><strong>'+fmtHours(r.sunrise)+'</strong></td></tr>'
+ +'<tr><td>Zonsondergang (UTC)</td><td><strong>'+fmtHours(r.sunset)+'</strong></td></tr>'
+ +'<tr><td>Zonshoogtepunt (UTC)</td><td><strong>'+fmtHours(r.solarNoon)+'</strong></td></tr></table>'
+ +'<p class="resnote">Tijden in UTC — tel de UTC-afwijking van de locatie erbij op voor de lokale kloktijd. Typische nauwkeurigheid 1–2 minuten.</p>';});
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' App installeren';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Installeer deze app: tik op de knop Delen en kies daarna "Toevoegen aan startscherm".');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

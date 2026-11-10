@@ -1,0 +1,29 @@
+{
+  "name": "Loona Vignetcontrole",
+  "short_name": "Vignetcheck",
+  "description": "Gratis vignetchecker: selecteer de Europese landen op je rijroute om te zien welke een vignet voor de snelweg nodig hebben, welke tol heffen en welke gratis zijn voor auto's.",
+  "id": "/loona-calculators/nl/vignette-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

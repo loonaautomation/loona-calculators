@@ -1,0 +1,29 @@
+{
+  "name": "Loona Doelhartslagcalculator",
+  "short_name": "Doelhartslagcalculator",
+  "description": "Gratis calculator voor je doelhartslag: je maximale hartslag en de trainingszones volgens Karvonen, op basis van je leeftijd en je hartslag in rust. Educatieve gids over fitheid.",
+  "id": "/loona-calculators/nl/target-heart-rate-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

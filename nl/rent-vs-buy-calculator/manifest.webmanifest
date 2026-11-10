@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calculator voor huren versus kopen",
+  "short_name": "Calculator voor huren vs kopen",
+  "description": "Gratis calculator voor huren versus kopen: vergelijk de totale kosten van huren met de nettokosten van het kopen van een woning over de jaren dat je van plan bent er te blijven — hypotheek, huurverhogingen, prijsstijging en eigen vermogen inbegrepen.",
+  "id": "/loona-calculators/nl/rent-vs-buy-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

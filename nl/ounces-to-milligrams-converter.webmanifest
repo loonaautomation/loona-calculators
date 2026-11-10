@@ -1,0 +1,29 @@
+{
+  "name": "Loona Ounce naar Milligram Converter",
+  "short_name": "Ounce naar Milligram Converter",
+  "description": "Reken ounce direct om naar milligram. Exacte formule, een volledige omrekentabel van oz naar mg, een uitgewerkt voorbeeld en veelgestelde vragen. Gratis, geen registratie nodig.",
+  "id": "/loona-calculators/nl/ounces-to-milligrams-converter.html",
+  "start_url": "./ounces-to-milligrams-converter.html",
+  "scope": "./ounces-to-milligrams-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

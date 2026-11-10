@@ -1,0 +1,29 @@
+{
+  "name": "Loona Conversiecalculator voor koken",
+  "short_name": "Conversiecalculator voor koken",
+  "description": "Gratis conversiecalculator voor koken: reken cups, lepels, milliliters, grammen, ounce en ponden om voor 10 veelgebruikte ingrediënten, op basis van echte dichtheden — bloem, suiker, boter, honing en meer.",
+  "id": "/loona-calculators/nl/cooking-conversion-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

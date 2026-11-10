@@ -1,0 +1,29 @@
+{
+  "name": "Loona Werkdagen in Zwitserland",
+  "short_name": "Werkdagen in Zwitserland",
+  "description": "Werkdagencalculator voor Zwitserland: werkdagen tussen twee datums min weekenden en de 4 feestdagen die in 2026 in elk Zwitsers kanton worden gevierd.",
+  "id": "/loona-calculators/nl/working-days-in-switzerland.html",
+  "start_url": "./working-days-in-switzerland.html",
+  "scope": "./working-days-in-switzerland.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

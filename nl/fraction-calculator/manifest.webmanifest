@@ -1,0 +1,29 @@
+{
+  "name": "Loona Breukencalculator",
+  "short_name": "Breukencalculator",
+  "description": "Gratis breukencalculator: tel twee breuken op, trek ze van elkaar af, vermenigvuldig ze of deel ze, en krijg het vereenvoudigde antwoord als breuk, als gemengd getal en als decimaal.",
+  "id": "/loona-calculators/nl/fraction-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

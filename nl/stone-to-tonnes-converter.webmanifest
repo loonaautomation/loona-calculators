@@ -1,0 +1,29 @@
+{
+  "name": "Loona Stone naar Ton Converter",
+  "short_name": "Stone naar Ton Converter",
+  "description": "Reken stone direct om naar ton. Exacte formule, een volledige omrekentabel voor st naar t, een uitgewerkt voorbeeld en veelgestelde vragen. Gratis, geen registratie nodig.",
+  "id": "/loona-calculators/nl/stone-to-tonnes-converter.html",
+  "start_url": "./stone-to-tonnes-converter.html",
+  "scope": "./stone-to-tonnes-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

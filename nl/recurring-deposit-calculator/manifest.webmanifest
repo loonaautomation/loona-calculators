@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calculator voor terugkerende deposito's",
+  "short_name": "Calculator voor periodieke stortingen",
+  "description": "Gratis calculator voor doorlopende deposito's (RD): maandelijkse storting, rentepercentage en looptijd in maanden — de waarde op de einddatum met driemaandelijkse samenstelling, de standaard bij banken.",
+  "id": "/loona-calculators/nl/recurring-deposit-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

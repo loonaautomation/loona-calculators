@@ -1,0 +1,29 @@
+{
+  "name": "Loona VO2-maxcalculator",
+  "short_name": "VO2-maxcalculator",
+  "description": "Gratis VO2-max-calculator: schat je aerobe fitheid met de Cooper-hardlooptest van 12 minuten of de Rockport-wandeltest over 1 mijl. Educatieve schatting van je fitheid.",
+  "id": "/loona-calculators/nl/vo2-max-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

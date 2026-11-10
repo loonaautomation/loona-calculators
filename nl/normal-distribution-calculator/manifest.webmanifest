@@ -1,0 +1,29 @@
+{
+  "name": "Loona Normale Verdeling Calculator",
+  "short_name": "Normale Verdeling Calculator",
+  "description": "Gratis calculator voor de normale verdeling: vind voor elk gemiddelde en elke standaarddeviatie P(X<x), P(X>x), P(a<X<b) en de waarde bij een gegeven percentiel.",
+  "id": "/loona-calculators/nl/normal-distribution-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

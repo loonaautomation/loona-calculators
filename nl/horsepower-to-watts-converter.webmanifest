@@ -1,0 +1,29 @@
+{
+  "name": "Loona Horsepower naar Watt Converter",
+  "short_name": "Horsepower naar Watt Converter",
+  "description": "Reken paardenkracht direct om naar watt. Exacte formule, een volledige omrekentabel van hp naar W, een uitgewerkt voorbeeld en veelgestelde vragen. Gratis, geen registratie nodig.",
+  "id": "/loona-calculators/nl/horsepower-to-watts-converter.html",
+  "start_url": "./horsepower-to-watts-converter.html",
+  "scope": "./horsepower-to-watts-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

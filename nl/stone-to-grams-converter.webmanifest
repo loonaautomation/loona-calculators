@@ -1,0 +1,29 @@
+{
+  "name": "Loona Stone naar Gram Converter",
+  "short_name": "Stone naar Gram Converter",
+  "description": "Reken stone direct om naar gram. Exacte formule, een volledige omrekentabel voor st naar g, een uitgewerkt voorbeeld en veelgestelde vragen. Gratis, geen registratie nodig.",
+  "id": "/loona-calculators/nl/stone-to-grams-converter.html",
+  "start_url": "./stone-to-grams-converter.html",
+  "scope": "./stone-to-grams-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

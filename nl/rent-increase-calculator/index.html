@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculator voor huurverhoging — Nieuwe huur na een verhoging | Loona Calculators</title>
+<meta name="description" content="Gratis calculator voor huurverhoging: voer je huidige huur en het verhogingspercentage in (of de nieuwe huur) om de nieuwe maandelijkse huur te zien, de extra kosten per maand en per jaar, en een projectie per jaar.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/nl/rent-increase-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/rent-increase-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/rent-increase-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/rent-increase-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/rent-increase-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/rent-increase-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/rent-increase-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/rent-increase-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/rent-increase-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Calculator voor huurverhoging — Nieuwe huur na een verhoging | Loona Calculators">
+<meta property="og:description" content="Gratis calculator voor huurverhoging: voer je huidige huur en het verhogingspercentage in (of de nieuwe huur) om de nieuwe maandelijkse huur te zien, de extra kosten per maand en per jaar, en een projectie per jaar.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/nl/rent-increase-calculator/"><meta property="og:locale" content="nl_NL">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Calculator voor huurverhoging — Nieuwe huur na een verhoging | Loona Calculators">
+<meta name="twitter:description" content="Gratis calculator voor huurverhoging: voer je huidige huur en het verhogingspercentage in (of de nieuwe huur) om de nieuwe maandelijkse huur te zien, de extra kosten per maand en per jaar, en een projectie per jaar.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona Huurverhogingscalculator","url":"https://loonaautomation.github.io/loona-calculators/nl/rent-increase-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Hoe bereken ik een huurverhoging in procenten?","acceptedAnswer":{"@type":"Answer","text":"Vermenigvuldig je huidige huur met (1 + percentage ÷ 100). Bij een verhoging van 10% op Rs 50,000: 50,000 × 1.10 = Rs 55,000. Om alleen het bedrag van de verhoging te vinden, is het eenvoudig huidige huur × percentage ÷ 100 — hier Rs 5,000 per maand."}},{"@type":"Question","name":"Wat is een normale jaarlijkse huurverhoging?","acceptedAnswer":{"@type":"Answer","text":"Het verschilt per stad en per wat de huurovereenkomst zegt. In veel Pakistaanse en Indiase steden zijn jaarlijkse verhogingen van 5–10% gebruikelijk in particuliere overeenkomsten; in sommige landen en steden is de verhoging wettelijk begrensd of gekoppeld aan de inflatie. Je eigen overeenkomst telt — controleer de clausule voordat je een bedrag accepteert, en gebruik deze calculator om te zien wat het genoemde percentage werkelijk kost."}},{"@type":"Question","name":"Hoe hoog is mijn huur over 5 jaar?","acceptedAnswer":{"@type":"Answer","text":"Bij een gestage stijging stapelt het zich op: huur in jaar 5 = huidige huur × (1 + rente)⁵. Met 10% per jaar wordt Rs 50,000 Rs 80,530 in jaar 5 — ruim 60% meer, niet de 50% die een eenvoudige vermenigvuldiging zou suggereren. De tabel per jaar hierboven toont je eigen cijfers."}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/nl/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Calculator voor huurverhoging",
+      "item": "https://loonaautomation.github.io/loona-calculators/nl/rent-increase-calculator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Logo van Loona Automation">
+<div class="brand">Loona <span>Rekenmachines</span></div>
+<nav>
+<a href="../">Home</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">Over ons</a>
+<a href="../contact.html">Contact</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › Geld &amp; Financiën › Calculator voor huurverhoging</div>
+<h1 class="pagetitle">📈 Calculator voor huurverhoging</h1>
+<p class="lead">Een “10%-stijging” klinkt klein totdat je hem omzet in echte roepies — en hij klinkt nog kleiner totdat je ziet wat dezelfde stijging jaar na jaar doet. Vul je huidige huur en de stijging in, als percentage of als het nieuwe bedrag dat je verhuurder heeft genoemd, en zie precies wat je gaat betalen.</p>
+<div class="toolbox"><form class="calcform" id="riForm">
+<div class="fld"><label for="riCurrent">Huidige maandhuur</label><input type="number" step="any" min="0" id="riCurrent" value="50000"></div>
+<div class="fld"><label for="riMode">Ik ken de verhoging als…</label><select id="riMode"><option value="pct">Een procentuele stijging</option><option value="amount">Het nieuwe huurbedrag</option></select></div>
+<div class="fld" id="riPctFld"><label for="riPct">Verhoging (%)</label><input type="number" step="any" min="0" id="riPct" value="10"></div>
+<div class="fld" id="riNewFld" style="display:none"><label for="riNew">Nieuwe maandhuur</label><input type="number" step="any" min="0" id="riNew" value="55000"></div>
+<div class="fld"><label for="riYears">Projecteer deze verhoging voor (jaren)</label><input type="number" step="1" min="1" max="30" id="riYears" value="5"></div>
+<button class="calcbtn" type="submit">Nieuwe huur berekenen</button>
+</form>
+<div class="calcresult" id="riRes" style="display:none"></div></div>
+<section class="txt"><h2>Hoe je de Huurverhogingscalculator gebruikt</h2><ol><li>Voer je huidige maandelijkse huur in.</li><li>Kies hoe je de verhoging kent: als percentage (bijvoorbeeld 10%) of als het nieuwe huurbedrag dat je is opgegeven — de calculator rekent uit wat er ontbreekt.</li><li>Stel in hoeveel jaar vooruit je de projectie wilt.</li><li>Druk op Berekenen — de nieuwe huur, de extra maandelijkse en jaarlijkse kosten en een tabel per jaar verschijnen.</li></ol>
+<h2>Veelgestelde vragen</h2></section><div class="faq"><h3>Hoe bereken ik een huurverhoging in procenten?</h3><p>Vermenigvuldig je huidige huur met (1 + percentage ÷ 100). Bij een verhoging van 10% op Rs 50,000: 50,000 × 1.10 = Rs 55,000. Om alleen het bedrag van de verhoging te vinden, is het eenvoudig huidige huur × percentage ÷ 100 — hier Rs 5,000 per maand.</p></div><div class="faq"><h3>Wat is een normale jaarlijkse huurverhoging?</h3><p>Het verschilt per stad en per wat de huurovereenkomst zegt. In veel Pakistaanse en Indiase steden zijn jaarlijkse verhogingen van 5–10% gebruikelijk in particuliere overeenkomsten; in sommige landen en steden is de verhoging wettelijk begrensd of gekoppeld aan de inflatie. Je eigen overeenkomst telt — controleer de clausule voordat je een bedrag accepteert, en gebruik deze calculator om te zien wat het genoemde percentage werkelijk kost.</p></div><div class="faq"><h3>Hoe hoog is mijn huur over 5 jaar?</h3><p>Bij een gestage stijging stapelt het zich op: huur in jaar 5 = huidige huur × (1 + rente)⁵. Met 10% per jaar wordt Rs 50,000 Rs 80,530 in jaar 5 — ruim 60% meer, niet de 50% die een eenvoudige vermenigvuldiging zou suggereren. De tabel per jaar hierboven toont je eigen cijfers.</p></div>
+<h2 class="sec">Gerelateerde calculators</h2><div class="grid"><a class="card" href="../rent-affordability-calculator/" data-name="rent affordability calculator rent-affordability-calculator"><div class="ic">🔑</div><h3>Calculator voor betaalbare huur</h3><p>Gratis calculator voor betaalbare huur: voer je inkomen en je schulden in om te zien wat de maximale huur is die je je kunt veroorloven volgens de regels van 30% en 28/36.</p></a><a class="card" href="../rent-vs-buy-calculator/" data-name="rent vs buy calculator rent-vs-buy-calculator"><div class="ic">⚖️</div><h3>Calculator voor huren vs kopen</h3><p>Gratis calculator voor huren versus kopen: vergelijk de totale kosten van huren met die van het kopen van een woning over de jaren dat je van plan bent er te blijven.</p></a><a class="card" href="../rent-split-calculator/" data-name="rent split calculator rent-split-calculator"><div class="ic">🤝</div><h3>Calculator voor huur splitsen</h3><p>Gratis calculator om de huur te verdelen: verdeel de huur eerlijk tussen huisgenoten — gelijk, op basis van kamergrootte of op basis van inkomen.</p></a><a class="card" href="../mortgage-calculator/" data-name="mortgage calculator mortgage-calculator"><div class="ic">🏠</div><h3>Hypotheekcalculator</h3><p>Gratis hypotheekcalculator: woningprijs, aanbetaling, rentepercentage en looptijd — krijg het leningbedrag, de maandelijkse betaling, de totale rente en de totale kosten van je woning.</p></a><a class="card" href="../emi-calculator/" data-name="emi & loan calculator emi-calculator"><div class="ic">🏦</div><h3>EMI- en leningcalculator</h3><p>Gratis EMI- en leningcalculator: voer het leningbedrag, de rente of het winstpercentage en de looptijd in om je maandelijkse termijn en de totale kosten te krijgen.</p></a></div>
+</div>
+<section class="txt"><h2>Hoe het werkt — de formule</h2><p>De nieuwe huur is de huidige huur vermenigvuldigd met één plus het verhogingspercentage. Als je alleen de nieuwe huur kent, wordt het percentage achterwaarts berekend: deel de nieuwe huur door de huidige huur, trek er 1 af, en vermenigvuldig met 100. Voor de projectie wordt dezelfde verhoging elk jaar opnieuw toegepast op de huur van dat jaar — deze samenstelling is waarom een gestage verhoging van 10% veel sneller groeit dan de meeste mensen verwachten.</p>
+<p><strong>Formules:</strong> Nieuwe huur = huidige huur × (1 + verhoging% ÷ 100). Verhoging % = (nieuwe huur ÷ huidige huur − 1) × 100. Huur in jaar n = huidige huur × (1 + verhoging% ÷ 100)<sup>n</sup>.</p><h3>Uitgewerkt voorbeeld</h3><div class="exbox"><p><strong>Invoergegevens:</strong> Huidige huur Rs 50,000; verhoging 10%; projectie 3 jaar.</p>
+<p><strong>Stappen:</strong> Nieuwe huur = 50,000 × 1.10 = Rs 55,000 — een verhoging van Rs 5,000 per maand, of Rs 60,000 per jaar. Jaar 2: 55,000 × 1.10 = Rs 60,500. Jaar 3: 60,500 × 1.10 = Rs 66,550.</p>
+<p><strong>Resultaat:</strong> Nieuwe maandhuur <strong>Rs 55,000</strong>; na drie jaarlijkse verhogingen kost dezelfde woning <strong>Rs 66,550 per maand</strong> — een derde meer dan vandaag.</p></div><h3>Veelgestelde vragen</h3></section><div class="faq"><h3>Wordt de jaarlijkse verhoging toegepast op de oorspronkelijke huur of de huidige huur?</h3><p>In de meeste overeenkomsten wordt hij elk jaar toegepast op de huidige huur, zodat de verhogingen zich opstapelen. Sommige overeenkomsten stellen de verhoging in plaats daarvan vast als een percentage van de oorspronkelijke huur, die in gelijke stappen groeit en voor de huurder goedkoper uitpakt. Deze calculator gebruikt de samengestelde methode, de meest voorkomende — en zegt dat er openlijk bij.</p></div><div class="faq"><h3>Kan ik het percentage vinden als ik alleen de nieuwe huur ken?</h3><p>Ja — kies hierboven “Het nieuwe huurbedrag” en voer beide huren in. Het percentage is (nieuw ÷ huidig − 1) × 100. Bijvoorbeeld, een stijging van Rs 50,000 naar Rs 57,500 is (57,500 ÷ 50,000 − 1) × 100 = 15%.</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Embed deze calculator op je website — gratis</h2>
+<p style="margin:0 0 12px;line-height:1.6">Voeg deze calculator toe aan je eigen website of blog — hij is helemaal gratis, je hoeft je nergens aan te melden en je ziet altijd de nieuwste versie. Kopieer de code hieronder en plak die in je pagina op de plek waar je de calculator wilt laten verschijnen. De kleine creditregel &ldquo;Powered by Loona Automation&rdquo; onder de embed laten staan helpt om deze tool gratis te houden &mdash; maar je mag hem gerust opmaken of verwijderen; de tool werkt hoe dan ook.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/nl/rent-increase-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Rent Increase Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Mogelijk gemaakt door &lt;a href="https://loonaautomation.github.io/loona-calculators/nl/rent-increase-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; gratis Calculator voor huurverhoging&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Embedcode kopiëren</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='Embedcode kopiëren';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Populaire Calculators</h4><ul><li><a href="../age-calculator/">Leeftijdscalculator</a></li>
+<li><a href="../zakat-calculator/">Zakatcalculator</a></li>
+<li><a href="../cgpa-calculator/">CGPA Calculator</a></li>
+<li><a href="../percentage-calculator/">Percentagecalculator</a></li>
+<li><a href="../hijri-date-converter/">Hijri-datumconverter</a></li>
+<li><a href="../emi-calculator/">EMI- en leningcalculator</a></li></ul></div>
+<div><h4>Meer Loona Tools</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR-codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Image Compressor</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI-assistent</a></li>
+<li><a href="https://loonaautomation.github.io/">Alle Loona-tools</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">Over ons</a></li>
+<li><a href="../contact.html">Contact</a></li>
+<li><a href="../privacy-policy.html">Privacybeleid</a></li>
+<li><a href="../terms.html">Gebruiksvoorwaarden</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — a <a href="https://loonaautomation.github.io/">Loona Automation</a> project. Gratis online calculators, geen aanmelding nodig.
+Contact: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+/* Rent Increase — pure logic (unit-tested, inlined into the page) */
+function rentIncrease(currentRent, increasePct, years){
+  var newRent = currentRent * (1 + increasePct / 100);
+  var rows = [];
+  for (var y = 1; y <= years; y++){
+    var m = currentRent * Math.pow(1 + increasePct / 100, y);
+    rows.push({ year: y, monthly: m, annual: m * 12, extraAnnual: m * 12 - currentRent * 12 });
+  }
+  return {
+    newMonthlyRent: newRent,
+    monthlyIncrease: newRent - currentRent,
+    yearlyIncrease: (newRent - currentRent) * 12,
+    newYearlyRent: newRent * 12,
+    rows: rows
+  };
+}
+function impliedIncreasePct(currentRent, newRent){
+  if (currentRent <= 0) return 0;
+  return (newRent / currentRent - 1) * 100;
+}
+function fmt(n){return "Rs " + Math.round(n).toLocaleString("en-IN");}
+function fmt2(n){return "Rs " + n.toLocaleString("en-IN",{minimumFractionDigits:2,maximumFractionDigits:2});}
+function pctFmt(n){return parseFloat(n.toFixed(2)) + "%";}
+function num(id){var v=parseFloat(document.getElementById(id).value);return isNaN(v)?0:v;}
+var riMode = document.getElementById("riMode");
+riMode.addEventListener("change", function(){
+  document.getElementById("riPctFld").style.display = riMode.value === "pct" ? "" : "none";
+  document.getElementById("riNewFld").style.display = riMode.value === "amount" ? "" : "none";
+});
+document.getElementById("riForm").addEventListener("submit", function(e){
+  e.preventDefault();
+  var res = document.getElementById("riRes");
+  var current = num("riCurrent");
+  var years = parseInt(document.getElementById("riYears").value, 10);
+  if (current <= 0){ res.style.display = "block"; res.innerHTML = '<div class="err">Voer je huidige maandelijkse huur in.</div>'; return; }
+  if (!(years >= 1 && years <= 30)){ res.style.display = "block"; res.innerHTML = '<div class="err">Projectiejaren moeten tussen 1 en 30 liggen.</div>'; return; }
+  var pct = riMode.value === "pct" ? num("riPct") : impliedIncreasePct(current, num("riNew"));
+  if (pct < 0){ res.style.display = "block"; res.innerHTML = '<div class="err">Die nieuwe huur is lager dan de huidige huur — deze calculator projecteert verhogingen, dus het percentage komt negatief uit.</div>'; return; }
+  var r = rentIncrease(current, pct, years);
+  var rows = "";
+  for (var i = 0; i < r.rows.length; i++){
+    rows += '<tr><td>Jaar ' + r.rows[i].year + '</td><td>' + fmt(r.rows[i].monthly) + '</td><td>' + fmt(r.rows[i].annual) + '</td><td>' + fmt(r.rows[i].extraAnnual) + '</td></tr>';
+  }
+  res.style.display = "block";
+  res.innerHTML = '<div class="resbig"><span>Nieuwe maandelijkse huur na een ' + pctFmt(pct) + ' verhoging</span><strong>' + fmt(r.newMonthlyRent) + '</strong></div>'
+    + '<table class="restbl">'
+    + '<tr><td>Verhoging per maand</td><td>' + fmt(r.monthlyIncrease) + '</td></tr>'
+    + '<tr><td>Verhoging per jaar</td><td>' + fmt(r.yearlyIncrease) + '</td></tr>'
+    + '<tr><td>Nieuwe jaarlijkse huur</td><td>' + fmt(r.newYearlyRent) + '</td></tr>'
+    + '</table>'
+    + '<h3 style="color:var(--teal);font-size:16px;margin:12px 0 6px">Als dezelfde ' + pctFmt(pct) + ' verhoging gebeurt elk jaar</h3>'
+    + '<table class="restbl"><tr><td><strong>Jaar</strong></td><td><strong>Maandelijkse huur</strong></td><td><strong>Jaarlijkse huur</strong></td><td><strong>Extra t.o.v. vandaag, per jaar</strong></td></tr>' + rows + '</table>'
+    + '<p class="resnote">De verhoging van elk jaar wordt toegepast op de huur van dat jaar (samengesteld), wat is hoe de meeste huurovereenkomsten werken. Controleer je eigen overeenkomst — sommige leggen de verhoging vast als een percentage van de oorspronkelijke huur, wat langzamer groeit.</p>';
+});
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' App installeren';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Installeer deze app: tik op de knop Delen en kies daarna "Toevoegen aan startscherm".');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body></html>

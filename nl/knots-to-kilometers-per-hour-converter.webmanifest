@@ -1,0 +1,29 @@
+{
+  "name": "Loona Knoop naar Kilometer per Uur Converter",
+  "short_name": "Knoop naar Kilometer per Uur",
+  "description": "Reken knopen direct om naar kilometer per uur. Exacte formule, een volledige omrekentabel van kn naar km/h, een uitgewerkt voorbeeld en veelgestelde vragen. Gratis, geen registratie nodig.",
+  "id": "/loona-calculators/nl/knots-to-kilometers-per-hour-converter.html",
+  "start_url": "./knots-to-kilometers-per-hour-converter.html",
+  "scope": "./knots-to-kilometers-per-hour-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

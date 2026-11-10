@@ -1,0 +1,29 @@
+{
+  "name": "Loona Frequentieconverter",
+  "short_name": "Frequentieconverter",
+  "description": "Elk paar voor frequentieomrekening in één index: exacte factoren, formules en een speciale converterpagina voor elk paar. Gratis, geen registratie.",
+  "id": "/loona-calculators/nl/frequency-converter.html",
+  "start_url": "./frequency-converter.html",
+  "scope": "./frequency-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

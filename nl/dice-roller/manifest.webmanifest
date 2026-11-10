@@ -1,0 +1,29 @@
+{
+  "name": "Loona Dobbelsteenroller",
+  "short_name": "Dobbelsteenroller",
+  "description": "Gratis online dobbelsteenroller: gooi 1 tot 6 dobbelstenen — standaard d6, d20 en andere veelvlakkige dobbelstenen — met visuele dobbelstenen, totalen, gemiddelden en een geschiedenis van je worpen.",
+  "id": "/loona-calculators/nl/dice-roller/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

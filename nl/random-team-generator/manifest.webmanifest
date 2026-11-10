@@ -1,0 +1,29 @@
+{
+  "name": "Loona Willekeurige Teamgenerator",
+  "short_name": "Generator voor willekeurige teams",
+  "description": "Gratis generator voor willekeurige teams: plak een lijst met namen en verdeel ze in evenwichtige, willekeurige teams voor sport, lessen, spellen en workshops. Eerlijk schudden, geen registratie.",
+  "id": "/loona-calculators/nl/random-team-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

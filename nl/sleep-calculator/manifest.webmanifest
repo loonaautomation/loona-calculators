@@ -1,0 +1,29 @@
+{
+  "name": "Loona Slaapcalculator",
+  "short_name": "Slaapcalculator",
+  "description": "Gratis slaapcalculator: voer een tijd in waarop je wakker wordt om de beste bedtijden te krijgen, of een bedtijd om de beste tijden om wakker te worden te krijgen — op basis van slaapcycli van 90 minuten plus de tijd die je nodig hebt om in slaap te vallen.",
+  "id": "/loona-calculators/nl/sleep-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
