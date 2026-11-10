@@ -1,0 +1,29 @@
+{
+  "name": "Loona بے ترتیب نمبر جنریٹر",
+  "short_name": "بے ترتیب نمبر جنریٹر",
+  "description": "محفوظ براؤزر بے ترتیبی استعمال کرکے مفت بے ترتیب نمبر جنریٹر۔ کسی حد میں نمبر منتخب کریں، کتنے منتخب کریں، صرف منفرد نمبروں کے اختیار کے ساتھ۔",
+  "id": "/loona-calculators/ur/random-number-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona BMR کیلکولیٹر",
+  "short_name": "BMR کیلکولیٹر",
+  "description": "مفت BMR اور TDEE کیلکولیٹر: عمر، وزن، قد اور سرگرمی سطح درج کریں وہ کیلوریز تلاش کرنے کے لیے جو آپ کا جسم آرام اور روزمرہ زندگی میں جلاتا ہے (Mifflin-St Jeor)۔",
+  "id": "/loona-calculators/ur/bmr-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

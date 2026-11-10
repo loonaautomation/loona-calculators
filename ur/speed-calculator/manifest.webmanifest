@@ -1,0 +1,29 @@
+{
+  "name": "Loona رفتار کیلکولیٹر",
+  "short_name": "رفتار کیلکولیٹر",
+  "description": "مفت رفتار کیلکولیٹر: کلومیٹر یا میل میں فاصلہ اور لگا وقت درج کریں رفتار km/h اور mph میں حاصل کرنے کے لیے، پلس رفتار فی کلومیٹر اور فی میل۔",
+  "id": "/loona-calculators/ur/speed-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

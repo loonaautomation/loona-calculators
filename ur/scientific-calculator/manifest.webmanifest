@@ -1,0 +1,29 @@
+{
+  "name": "Loona سائنسی کیلکولیٹر",
+  "short_name": "سائنسی کیلکولیٹر",
+  "description": "sin، cos، tan اور ان کے الٹ، log اور ln، طاقتوں، جڑوں، فیکٹوریل اور فیصد کے ساتھ مفت سائنسی کیلکولیٹر۔ DEG/RAD موڈ اور مکمل کی بورڈ حمایت — کوئی سائن اپ نہیں۔",
+  "id": "/loona-calculators/ur/scientific-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

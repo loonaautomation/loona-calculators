@@ -1,0 +1,29 @@
+{
+  "name": "Loona وقت کیلکولیٹر",
+  "short_name": "وقت کیلکولیٹر",
+  "description": "مفت وقت کیلکولیٹر: دو دورانیوں کے درمیان گھنٹے، منٹ اور سیکنڈ جمع یا منہا کریں۔ کام گھنٹوں، ویڈیو لمبائیوں، سفر وقت اور مطالعہ شیڈول کے لیے بہترین۔",
+  "id": "/loona-calculators/ur/time-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

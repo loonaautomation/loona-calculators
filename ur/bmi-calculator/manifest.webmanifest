@@ -1,0 +1,29 @@
+{
+  "name": "Loona BMI کیلکولیٹر",
+  "short_name": "BMI کیلکولیٹر",
+  "description": "مفت BMI کیلکولیٹر: اپنا وزن اور قد (cm یا فٹ/انچ) درج کریں اپنا باڈی ماس انڈیکس، اپنا زمرہ اور اپنے قد کے لیے صحت مند وزن حد جانچنے کے لیے۔",
+  "id": "/loona-calculators/ur/bmi-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

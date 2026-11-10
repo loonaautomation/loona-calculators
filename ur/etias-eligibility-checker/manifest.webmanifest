@@ -1,0 +1,29 @@
+{
+  "name": "Loona ETIAS اہلیت جانچ کنندہ",
+  "short_name": "ETIAS اہلیت جانچ کنندہ",
+  "description": "مفت ETIAS اہلیت جانچ کنندہ: اپنی قومیت اور سفر صورتحال منتخب کریں یہ دیکھنے کے لیے آپ کو یورپ کے مختصر دوروں کے لیے ETIAS، شینگن ویزا، یا کوئی اجازت نہیں چاہیے ہوگی۔",
+  "id": "/loona-calculators/ur/etias-eligibility-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

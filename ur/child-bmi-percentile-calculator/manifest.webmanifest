@@ -1,0 +1,29 @@
+{
+  "name": "Loona بچوں کے BMI پرسنٹائل کا کیلکولیٹر",
+  "short_name": "بچوں کا BMI پرسنٹائل",
+  "description": "عمر 2 تا 20 کے لیے سرکاری CDC LMS نمو چارٹ ڈیٹا استعمال کرکے مفت بچوں کا BMI پرسنٹائل کیلکولیٹر: لڑکوں اور لڑکیوں کے لیے BMI، پرسنٹائل، z-اسکور اور وزن زمرہ۔",
+  "id": "/loona-calculators/ur/child-bmi-percentile-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

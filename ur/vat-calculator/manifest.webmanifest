@@ -1,0 +1,29 @@
+{
+  "name": "Loona VAT کیلکولیٹر",
+  "short_name": "VAT کیلکولیٹر",
+  "description": "مفت VAT/GST کیلکولیٹر: کسی شرح پر خالص رقم میں ٹیکس شامل کریں یا مجموعی رقم سے ٹیکس نکالیں۔ کسی ملک میں VAT، GST اور سیلز ٹیکس کے لیے کام کرتا ہے۔",
+  "id": "/loona-calculators/ur/vat-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

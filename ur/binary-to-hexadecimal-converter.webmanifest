@@ -1,0 +1,29 @@
+{
+  "name": "Loona بائنری سے ہیکسا ڈیسیمل کنورٹر",
+  "short_name": "بائنری سے ہیکسا ڈیسیمل",
+  "description": "بائنری (بنیاد 2) کو ہیکسا ڈیسیمل (بنیاد 16) میں تبدیل کریں، جانچ، مقامی قدر کے طریقہ کار اور حوالہ جدول کے ساتھ۔",
+  "id": "/loona-calculators/ur/binary-to-hexadecimal-converter.html",
+  "start_url": "./binary-to-hexadecimal-converter.html",
+  "scope": "./binary-to-hexadecimal-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona ورکنگ ڈیز کیلکولیٹر",
+  "short_name": "ورکنگ ڈیز کیلکولیٹر",
+  "description": "مفت ورکنگ ڈیز کیلکولیٹر: کسی دو تاریخوں کے درمیان کل دن، ورکنگ ڈیز (پیر تا جمعہ) اور ویک اینڈ دن گنیں۔ چھٹی، آخری تاریخوں اور پروجیکٹ منصوبوں کے لیے۔",
+  "id": "/loona-calculators/ur/working-days-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
