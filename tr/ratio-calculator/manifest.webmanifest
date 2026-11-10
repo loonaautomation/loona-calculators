@@ -1,0 +1,29 @@
+{
+  "name": "Loona Oran Hesaplayıcı",
+  "short_name": "Oran Hesaplayıcı",
+  "description": "Ücretsiz oran hesaplayıcı: herhangi bir oranı en düşük terimlerine sadeleştirin ve toplam bir tutarı verilen bir oranda bölün — iki pay da anında gösterilir.",
+  "id": "/loona-calculators/tr/ratio-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Olasılık Hesaplayıcı — İki Olay, Kombinasyonlar ve Permütasyonlar | Loona</title>
+<meta name="description" content="Ücretsiz olasılık hesaplayıcı: A ve B olasılığı, A veya B, hiçbiri ve tam olarak biri; oran dönüşümü; kombinasyonlar ve permütasyonlar. Formüller ve örnekler ile.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/tr/probability-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/probability-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/probability-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/probability-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/probability-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/probability-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/probability-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/probability-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/probability-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Olasılık Hesaplayıcı — İki Olay, Kombinasyonlar ve Permütasyonlar | Loona">
+<meta property="og:description" content="Ücretsiz olasılık hesaplayıcı: A ve B olasılığı, A veya B, hiçbiri ve tam olarak biri; oran dönüşümü; kombinasyonlar ve permütasyonlar. Formüller ve örnekler ile.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/tr/probability-calculator/"><meta property="og:locale" content="tr_TR">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Olasılık Hesaplayıcı — İki Olay, Kombinasyonlar ve Permütasyonlar | Loona">
+<meta name="twitter:description" content="Ücretsiz olasılık hesaplayıcı: A ve B olasılığı, A veya B, hiçbiri ve tam olarak biri; oran dönüşümü; kombinasyonlar ve permütasyonlar. Formüller ve örnekler ile.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona Olasılık Hesaplayıcı","url":"https://loonaautomation.github.io/loona-calculators/tr/probability-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Bağımsız ve karşılıklı dışlayıcı arasındaki fark nedir?","acceptedAnswer":{"@type":"Answer","text":"Bağımsız olaylar birbirini etkilemez (iki yazı tura atışı). Karşılıklı dışlayıcı olayların ikisi de olamaz (bir zarda 2 ve 5 atılması) — onlar için, P(A veya B) = P(A) + P(B) ve P(ikisi de) = 0. Olaylar hiçbiri olamayabilir, ama asla ikisi de aynı anda olamaz."}},{"@type":"Question","name":"Kombinasyonlar ve permütasyonlar nasıl farklılık gösterir?","acceptedAnswer":{"@type":"Answer","text":"Permütasyonlar, sıranın önemli olduğu düzenlemeleri sayar: P(n, r) = n! ÷ (n−r)!. Kombinasyonlar, sıranın önemli olmadığı seçimleri sayar: C(n, r) = n! ÷ (r! × (n−r)!). Bir podyum bitişi bir permütasyondur; bir komite bir kombinasyondur."}},{"@type":"Question","name":"Olasılığı oranlara nasıl dönüştürürüm?","acceptedAnswer":{"@type":"Answer","text":"Lehte olasılıklar = p ÷ (1 − p), bir oran olarak yazılır. 0.75 değerinde bir olasılık, lehte 3:1 olasılıklar ve aleyhte 1:3 değerindedir."}},{"@type":"Question","name":"Bu sayfa, İstatistik Hesaplayıcısının yerini alır mı?","acceptedAnswer":{"@type":"Answer","text":"Hayır. İstatistik Hesaplayıcı, veri kümelerini özetler (ortalama, medyan, standart sapma). Bu sayfa, olay olasılıkları ve saymayla çalışır — tipik bir olasılık ve istatistik dersinin diğer yarısı."}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/tr/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Olasılık Hesaplayıcı",
+      "item": "https://loonaautomation.github.io/loona-calculators/tr/probability-calculator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation logosu">
+<div class="brand">Loona <span>Hesaplayıcılar</span></div>
+<nav>
+<a href="../">Ana Sayfa</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">Hakkında</a>
+<a href="../contact.html">İletişim</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › Matematik › Olasılık Hesaplayıcı</div>
+<h1 class="pagetitle">🎲 Olasılık Hesaplayıcı</h1>
+<p class="lead">Bir veya iki olay için, olasılıkları hesaplayın: her ikisinin de olması, birinin olması, hiçbirinin olmaması veya tam olarak bir — artı, olasılık ve oranlar arasında dönüştürün ve kombinasyonları, C(n, r) ve permütasyonları, P(n, r) hesaplayın. İstatistik Hesaplayıcı, veri özetlerini kapsar; bu sayfa, olay olasılığını kapsar.</p>
+<div class="exbox"><strong>Hızlı cevap:</strong> İki bağımsız olay için: P(A ve B) = P(A) × P(B) ve P(A veya B) = P(A) + P(B) − P(A ve B). P(A) = P(B) = 0.5 ile: ikisi de = 0.25, biri = 0.75, hiçbiri = 0.25, tam olarak biri = 0.50.</div>
+<div class="toolbox"><form class="calcform" id="pbForm">
+<div class="fld"><label for="pbA">A olayının olasılığı (0–1, veya 1 üzerinden %)</label><input type="number" id="pbA" value="0.5" step="any" min="0"></div>
+<div class="fld"><label for="pbB">B olayının olasılığı</label><input type="number" id="pbB" value="0.5" step="any" min="0"></div>
+<div class="fld"><label for="pbMode">Olay ilişkisi</label><select id="pbMode"><option value="ind">Bağımsız</option><option value="excl">Karşılıklı dışlayıcı</option></select></div>
+<h3 style="color:var(--teal);margin:10px 0 6px">Kombinasyonlar &amp; permütasyonlar (isteğe bağlı)</h3>
+<div class="fld"><label for="pbN">n (toplam öğeler)</label><input type="number" id="pbN" value="10" min="0" max="170"></div>
+<div class="fld"><label for="pbR">r (seçilen öğeler)</label><input type="number" id="pbR" value="3" min="0" max="170"></div>
+<button class="calcbtn" type="submit">Olasılığı hesapla</button>
+<div class="calcresult" id="pbResult" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>Olasılık Hesaplayıcı Nasıl Kullanılır</h2><ol><li>A olayı ve B olayının olasılığını girin (ondalıklar 0–1 veya yüzdeler olarak — hesaplayıcı, 1 üzerindeki değerleri yüzde olarak ele alır).</li><li>Hızlı modları kullanırsanız, olayların bağımsız mı yoksa karşılıklı dışlayıcı mı olduğunu seçin.</li><li>Veya kombinasyonlara/permütasyonlara kaydırın: C(n, r) ve P(n, r) almak için, n ve r girin.</li></ol>
+<div class="exbox"><strong>Örnek:</strong> İki adil para atmak: P(yazı) = her biri için 0.5. İkisi de yazı = 0.5 × 0.5 = 0.25. En az bir yazı = 0.75. Yazı yok = 0.25. Tam olarak bir yazı = 0.50.</div>
+<h2>Sıkça Sorulan Sorular</h2></section><div class="faq"><h3>Bağımsız ve karşılıklı dışlayıcı arasındaki fark nedir?</h3><p>Bağımsız olaylar birbirini etkilemez (iki yazı tura atışı). Karşılıklı dışlayıcı olayların ikisi de olamaz (bir zarda 2 ve 5 atılması) — onlar için, P(A veya B) = P(A) + P(B) ve P(ikisi de) = 0. Olaylar hiçbiri olamayabilir, ama asla ikisi de aynı anda olamaz.</p></div><div class="faq"><h3>Kombinasyonlar ve permütasyonlar nasıl farklılık gösterir?</h3><p>Permütasyonlar, sıranın önemli olduğu düzenlemeleri sayar: P(n, r) = n! ÷ (n−r)!. Kombinasyonlar, sıranın önemli olmadığı seçimleri sayar: C(n, r) = n! ÷ (r! × (n−r)!). Bir podyum bitişi bir permütasyondur; bir komite bir kombinasyondur.</p></div><div class="faq"><h3>Olasılığı oranlara nasıl dönüştürürüm?</h3><p>Lehte olasılıklar = p ÷ (1 − p), bir oran olarak yazılır. 0.75 değerinde bir olasılık, lehte 3:1 olasılıklar ve aleyhte 1:3 değerindedir.</p></div><div class="faq"><h3>Bu sayfa, İstatistik Hesaplayıcısının yerini alır mı?</h3><p>Hayır. İstatistik Hesaplayıcı, veri kümelerini özetler (ortalama, medyan, standart sapma). Bu sayfa, olay olasılıkları ve saymayla çalışır — tipik bir olasılık ve istatistik dersinin diğer yarısı.</p></div>
+<h2 class="sec">İlgili Hesaplayıcılar</h2><div class="grid"><a class="card" href="../percentage-calculator/"><div class="ic">％</div><h3>Yüzde Hesaplayıcısı</h3><p>Matematik</p></a><a class="card" href="../statistics-calculator/"><div class="ic">📊</div><h3>İstatistik Hesaplayıcı</h3><p>Matematik</p></a><a class="card" href="../fraction-calculator/"><div class="ic">½</div><h3>Kesir Hesaplayıcı</h3><p>Matematik</p></a><a class="card" href="../equation-solver/"><div class="ic">🧮</div><h3>Denklem Çözücü</h3><p>Matematik</p></a><a class="card" href="../scientific-calculator/"><div class="ic">🔬</div><h3>Bilimsel Hesaplayıcı</h3><p>Matematik</p></a><a class="card" href="../average-calculator/"><div class="ic">📐</div><h3>Ortalama Hesaplayıcı</h3><p>Matematik</p></a><a class="card" href="../dice-roller/"><div class="ic">🎲</div><h3>Zar Atma</h3><p>Eğlence</p></a><a class="card" href="../coin-flip/"><div class="ic">🪙</div><h3>Yazı Tura</h3><p>Eğlence</p></a></div>
+</div>
+<section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>Nasıl çalışır — formül</h2>
+<p><strong>Bağımsız olaylar:</strong> P(A ve B) = P(A) × P(B); P(A veya B) = P(A) + P(B) − P(A)×P(B); P(hiçbiri) = (1 − P(A)) × (1 − P(B)); P(tam olarak bir) = P(A veya B) − P(A ve B). <strong>Karşılıklı dışlayıcı:</strong> P(ikisi de) = 0 ve P(A veya B) = P(A) + P(B). <strong>Sayım:</strong> P(n, r) = n! ÷ (n−r)! ve C(n, r) = n! ÷ (r! × (n−r)!).</p>
+<h3>Çalışılmış örnek</h3><div class="exbox"><p><strong>Girdiler:</strong> P(A) = 0.5, P(B) = 0.5, bağımsız; ve n = 10, r = 3.</p><p><strong>Adımlar:</strong> İkisi de = 0.5 × 0.5 = 0.25. Biri = 0.5 + 0.5 − 0.25 = 0.75. Hiçbiri = 0.5 × 0.5 = 0.25. Tam olarak biri = 0.75 − 0.25 = 0.50. C(10, 3) = 10! ÷ (3! × 7!) = (10 × 9 × 8) ÷ 6 = 120. P(10, 3) = 10 × 9 × 8 = 720.</p><p><strong>Sonuç:</strong> İkisi de <strong>25%</strong>, ikisinden biri <strong>75%</strong>, tam olarak bir <strong>50%</strong>; C(10, 3) = <strong>120</strong>, P(10, 3) = <strong>720</strong>.</p></div>
+
+</section>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Bu hesaplayıcıyı web sitenize gömün — ücretsiz</h2>
+<p style="margin:0 0 12px;line-height:1.6">Bu hesaplayıcıyı kendi web sitenize veya blogunuza ekleyin — tamamen ücretsizdir, kayıt gerektirmez ve her zaman en son sürümü gösterir. Aşağıdaki kodu kopyalayın ve hesaplayıcının görünmesini istediğiniz yere sayfanıza yapıştırın. Gömmenin altında küçük &ldquo;Powered by Loona Automation&rdquo; kredi satırını tutmak, bu aracın ücretsiz kalmasına yardımcı olur &mdash; ama bunu biçimlendirmekte veya kaldırmakta özgürsünüz; araç her iki şekilde de çalışır.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/tr/probability-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Probability Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Destekleyen &lt;a href="https://loonaautomation.github.io/loona-calculators/tr/probability-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; ücretsiz Olasılık Hesaplayıcı&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Gömme kodunu kopyalayın</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='Gömme kodunu kopyalayın';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Popüler Hesaplayıcılar</h4><ul><li><a href="../age-calculator/">Yaş Hesaplayıcı</a></li>
+<li><a href="../zakat-calculator/">Zekat Hesaplayıcı</a></li>
+<li><a href="../cgpa-calculator/">CGPA Hesaplayıcısı</a></li>
+<li><a href="../percentage-calculator/">Yüzde Hesaplayıcısı</a></li>
+<li><a href="../hijri-date-converter/">Hicri Tarih Dönüştürücü</a></li>
+<li><a href="../emi-calculator/">EMI &amp; Kredi Hesaplayıcı</a></li></ul></div>
+<div><h4>Daha Fazla Loona Araçları</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Görüntü Sıkıştırıcı</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI Asistanı</a></li>
+<li><a href="https://loonaautomation.github.io/">Tüm Loona Araçları</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">Hakkında</a></li>
+<li><a href="../contact.html">İletişim</a></li>
+<li><a href="../privacy-policy.html">Gizlilik Politikası</a></li>
+<li><a href="../terms.html">Kullanım Şartları</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — bir <a href="https://loonaautomation.github.io/">Loona Automation</a> proje. Ücretsiz çevrimiçi hesaplayıcılar, kayıt yok.
+İletişim: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+function normProb(x){if(x>1)return x/100;return x;}
+function probTwo(a,b,mode){
+  a=normProb(a);b=normProb(b);
+  if(!(a>=0&&a<=1)||!(b>=0&&b<=1))return null;
+  if(mode==="excl"){if(a+b>1)return null;return {both:0,either:a+b,neither:1-(a+b),exactlyOne:a+b};}
+  var both=a*b;return {both:both,either:a+b-both,neither:(1-a)*(1-b),exactlyOne:a+b-2*both};
+}
+function fact(n){var r=1;for(var i=2;i<=n;i++)r*=i;return r;}
+function nCr(n,r){if(r<0||r>n||n<0)return null;return fact(n)/(fact(r)*fact(n-r));}
+function nPr(n,r){if(r<0||r>n||n<0)return null;return fact(n)/fact(n-r);}
+function oddsText(p){if(p<=0)return "0 : 1";if(p>=1)return "certain";var o=p/(1-p);return (Math.round(o*100)/100)+" : 1 lehine";}
+/*TESTABLE_END*/
+document.getElementById('pbForm').addEventListener('submit',function(e){e.preventDefault();
+ var r=probTwo(parseFloat(document.getElementById('pbA').value),parseFloat(document.getElementById('pbB').value),document.getElementById('pbMode').value);
+ var n=parseInt(document.getElementById('pbN').value,10), rr=parseInt(document.getElementById('pbR').value,10);
+ var box=document.getElementById('pbResult'); box.style.display='block';
+ if(!r){box.innerHTML='<p class="err">0 ve 1 arasında olasılıklar girin (veya yüzdeler olarak, 0–100). Karşılıklı dışlayıcı olaylar için, iki olasılık, en fazla 1 değerine toplanmalıdır.</p>';return;}
+ function pc(x){return (x*100).toFixed(2)+'%';}
+ var html='<div class="resbig"><span>P(A veya B) — en az biri olur</span><strong>'+pc(r.either)+'</strong></div>'
+ +'<table class="restbl"><tr><td>P(A ve B) — her ikisi</td><td><strong>'+pc(r.both)+'</strong></td></tr>'
+ +'<tr><td>P(hiçbiri)</td><td><strong>'+pc(r.neither)+'</strong></td></tr>'
+ +'<tr><td>P(tam olarak bir)</td><td><strong>'+pc(r.exactlyOne)+'</strong></td></tr>'
+ +'<tr><td>A olayı için oranlar</td><td><strong>'+oddsText(normProb(parseFloat(document.getElementById('pbA').value)))+'</strong></td></tr></table>';
+ var c=nCr(n,rr), p=nPr(n,rr);
+ if(c!==null&&p!==null)html+='<table class="restbl"><tr><td>C('+n+', '+rr+') kombinasyon</td><td><strong>'+c.toLocaleString('en-US')+'</strong></td></tr><tr><td>P('+n+', '+rr+') permütasyon</td><td><strong>'+p.toLocaleString('en-US')+'</strong></td></tr></table>';
+ box.innerHTML=html;});
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Uygulamayı Yükleyin';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Bu uygulamayı yükleyin: Paylaş düğmesine dokunun, sonra "Ana Ekrana Ekle" seçeneğini seçin.');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

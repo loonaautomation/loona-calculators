@@ -1,0 +1,29 @@
+{
+  "name": "Loona EU261 Tazminat Denetleyicisi",
+  "short_name": "EU261 Tazminat Denetleyicisi",
+  "description": "Ücretsiz EU261 tazminat denetleyicisi: €250, €400 veya €600 borçlu olunup olunamayacağını görmek için uçuş mesafesini ve varış gecikmesini girin, EC 261/2004 uyarınca, %50 azaltma kuralı dahil.",
+  "id": "/loona-calculators/tr/eu261-compensation-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

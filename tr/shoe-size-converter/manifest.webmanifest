@@ -1,0 +1,29 @@
+{
+  "name": "Loona Ayakkabı Bedeni Dönüştürücü",
+  "short_name": "Ayakkabı Boyutu Dönüştürücü",
+  "description": "Erkekler ve kadınlar için ücretsiz ayakkabı bedeni dönüştürücü: ABD, Birleşik Krallık ve AB bedenleri ile cm ve inç olarak ayak uzunluğu arasında dönüştürün, en yakın eşleşme ile standart dönüşüm tablolarını kullanarak.",
+  "id": "/loona-calculators/tr/shoe-size-converter/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

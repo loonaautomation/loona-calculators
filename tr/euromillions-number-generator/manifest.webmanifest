@@ -1,0 +1,29 @@
+{
+  "name": "Loona EuroMillions Sayı Üretici",
+  "short_name": "EuroMillions Sayı Üretici",
+  "description": "Ücretsiz EuroMillions sayı üretici: 5 ana sayıyı çekin, 50 değerinden, artı 2 Lucky Star, 12 değerinden, bir kerede 5 satıra kadar. Güvenli rastgele seçimler, kayıt yok.",
+  "id": "/loona-calculators/tr/euromillions-number-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

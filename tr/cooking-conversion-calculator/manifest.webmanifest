@@ -1,0 +1,29 @@
+{
+  "name": "Loona Yemek Pişirme Dönüşüm Hesaplayıcı",
+  "short_name": "Yemek Pişirme Dönüşüm Hesaplayıcı",
+  "description": "Ücretsiz yemek pişirme dönüşüm hesaplayıcı: 10 yaygın bileşen için gerçek yoğunlukları kullanarak bardakları, kaşıkları, mililitreleri, gramları, onsları ve poundları dönüştürün — un, şeker, tereyağı, bal ve daha fazlası.",
+  "id": "/loona-calculators/tr/cooking-conversion-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

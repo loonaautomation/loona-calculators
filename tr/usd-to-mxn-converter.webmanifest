@@ -1,0 +1,29 @@
+{
+  "name": "Loona USD - MXN Dönüştürücü",
+  "short_name": "USD - MXN Dönüştürücü",
+  "description": "ABD Doları (USD) birimini Meksika Pezosu (MXN) birimine dönüştürün. 06 Kasım 2026, tarihli ECB referans kuru, ters kur, dönüşüm tablosu ve koridor notları. Yalnızca gösterge niteliğindedir.",
+  "id": "/loona-calculators/tr/usd-to-mxn-converter.html",
+  "start_url": "./usd-to-mxn-converter.html",
+  "scope": "./usd-to-mxn-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

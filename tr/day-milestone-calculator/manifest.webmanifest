@@ -1,0 +1,29 @@
+{
+  "name": "Loona 10,000. Gün Hesaplayıcı",
+  "short_name": "10,000. Gün Hesaplayıcısı",
+  "description": "Ücretsiz gün kilometre taşı hesaplayıcı: 10,000. gününüzü, diğer yuvarlak sayılı gün yıldönümlerini, gün olarak yaşınızı ve sonraki kilometre taşı tarihinizi bulmak için bir doğum tarihi girin.",
+  "id": "/loona-calculators/tr/day-milestone-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

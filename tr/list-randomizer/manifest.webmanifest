@@ -1,0 +1,29 @@
+{
+  "name": "Loona Liste Karıştırıcı",
+  "short_name": "Liste Karıştırıcı",
+  "description": "Ücretsiz liste karıştırıcı: herhangi bir listeyi yapıştırın, rastgele bir sıraya karıştırın veya rastgele bir öğe örneği seçin. Güvenli karıştırma, hiçbir şey yüklenmez.",
+  "id": "/loona-calculators/tr/list-randomizer/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

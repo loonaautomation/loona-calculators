@@ -1,0 +1,29 @@
+{
+  "name": "Loona Ramazan Gününe Kalan Günler",
+  "short_name": "Ramazan Gününe Kalan Günler",
+  "description": "Ramazan için canlı geri sayım: kalan tam günler, saatler, dakikalar ve saniyeler, bu yıl ve sonraki üç yıl için tarih, bilgiler ve SSS.",
+  "id": "/loona-calculators/tr/days-until-ramadan.html",
+  "start_url": "./days-until-ramadan.html",
+  "scope": "./days-until-ramadan.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

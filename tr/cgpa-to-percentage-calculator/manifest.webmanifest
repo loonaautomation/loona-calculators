@@ -1,0 +1,29 @@
+{
+  "name": "Loona CGPA - Yüzde Hesaplayıcısı",
+  "short_name": "CGPA Yüzde Dönüşüm Hesaplayıcı",
+  "description": "Ücretsiz CGPA - yüzde dönüştürücü: CGPA değerini 10 üzerinden (×9.5 formülü) veya GPA değerini 4 üzerinden yüzdeye dönüştürün, herhangi bir kurul veya üniversite için özel bir çarpan seçeneği ile.",
+  "id": "/loona-calculators/tr/cgpa-to-percentage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

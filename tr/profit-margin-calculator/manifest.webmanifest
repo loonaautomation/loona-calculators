@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kâr Marjı Hesaplayıcı",
+  "short_name": "Kâr Marjı Hesaplayıcı",
+  "description": "Ücretsiz kâr marjı hesaplayıcı: kârı, kâr marjı yüzdesini ve kâr marjı (markup) yüzdesini anında almak için maliyet fiyatını ve satış fiyatını girin. Mağazalar ve çevrimiçi satıcılar için.",
+  "id": "/loona-calculators/tr/profit-margin-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

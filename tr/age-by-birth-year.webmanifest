@@ -1,0 +1,29 @@
+{
+  "name": "Loona Doğum Yılına Göre Yaş",
+  "short_name": "Doğum Yılına Göre Yaş",
+  "description": "2026 yılında girilecek yaş, her doğum yılı 1946–2025 için, kuşak etiketleri ve kilometre taşı yılları ile.",
+  "id": "/loona-calculators/tr/age-by-birth-year.html",
+  "start_url": "./age-by-birth-year.html",
+  "scope": "./age-by-birth-year.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

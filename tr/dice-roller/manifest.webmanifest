@@ -1,0 +1,29 @@
+{
+  "name": "Loona Zar Atıcı",
+  "short_name": "Zar Atma",
+  "description": "Ücretsiz çevrimiçi zar atıcı: 1 ile 6 zar atın — standart d6, d20 ve diğer çok yüzlü zarlar — görsel zarlar, toplamlar, ortalamalar ve bir atış geçmişi ile.",
+  "id": "/loona-calculators/tr/dice-roller/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

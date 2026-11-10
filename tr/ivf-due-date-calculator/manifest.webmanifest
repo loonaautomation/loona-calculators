@@ -1,0 +1,29 @@
+{
+  "name": "Loona IVF Doğum Tarihi Hesaplayıcı",
+  "short_name": "IVF Doğum Tarihi Hesaplayıcı",
+  "description": "Ücretsiz IVF doğum tarihi hesaplayıcı: tahmini doğum tarihinizi ve geçerli gebelik yaşınızı almak için embriyo transfer tarihinizi ve embriyo yaşınızı girin (3. gün veya 5. gün).",
+  "id": "/loona-calculators/tr/ivf-due-date-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

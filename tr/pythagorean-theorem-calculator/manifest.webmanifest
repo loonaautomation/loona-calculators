@@ -1,0 +1,29 @@
+{
+  "name": "Loona Pisagor Teoremi Hesaplayıcı",
+  "short_name": "Pisagor Teoremi Hesaplayıcı",
+  "description": "Ücretsiz Pisagor teoremi hesaplayıcı: üçüncüyü bulmak için bir dik üçgenin herhangi iki kenarını girin — hipotenüs veya bacak — çalışma gösterilerek.",
+  "id": "/loona-calculators/tr/pythagorean-theorem-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

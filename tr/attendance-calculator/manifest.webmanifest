@@ -1,0 +1,29 @@
+{
+  "name": "Loona Devam Hesaplayıcı",
+  "short_name": "Devam Hesaplayıcı",
+  "description": "Ücretsiz devam hesaplayıcı, öğrenciler için: devam yüzdenizi, kaç dersi kaçırabileceğinizi veya hedefinize ulaşmak için kaçına katılmanız gerektiğini almak için yapılan ve katılılan dersleri girin.",
+  "id": "/loona-calculators/tr/attendance-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

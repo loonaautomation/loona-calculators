@@ -1,0 +1,29 @@
+{
+  "name": "Loona Not Hesaplayıcı",
+  "short_name": "Not Hesaplayıcı",
+  "description": "Ücretsiz ağırlıklı not hesaplayıcı: genel not yüzdenizi ve harf notunuzu almak için ağırlıklarıyla 8 ödev puanına kadar girin. Ağırlıkların toplamı 100 olmak zorunda değildir.",
+  "id": "/loona-calculators/tr/grade-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Tarihler Arası Günler Hesaplayıcı",
+  "short_name": "Tarihler Arası Gün Hesaplayıcı",
+  "description": "Ücretsiz tarihler arası gün hesaplayıcı: herhangi iki tarih arasındaki tam gün, hafta ve yıl sayısını sayın. Son tarihler, vizeler, sözleşmeler ve geri sayımlar için yararlı.",
+  "id": "/loona-calculators/tr/days-between-dates-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

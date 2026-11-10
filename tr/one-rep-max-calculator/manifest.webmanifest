@@ -1,0 +1,29 @@
+{
+  "name": "Loona Tek Tekrar Maksimum (1RM) Hesaplayıcı",
+  "short_name": "Tek Tekrar Maksimum (1RM) Hesaplayıcı",
+  "description": "Ücretsiz tek tekrar maksimum hesaplayıcı: bir setin kilosundan ve tekrarlarından 1RM değerinizi, Epley, Brzycki ve Lombardi formülleri ile tahmin edin, artı antrenman yüzdeleri.",
+  "id": "/loona-calculators/tr/one-rep-max-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

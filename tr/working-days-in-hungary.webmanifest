@@ -1,0 +1,29 @@
+{
+  "name": "Loona Macaristan İş Günleri",
+  "short_name": "Macaristan İş Günleri",
+  "description": "Macaristan için, çalışma günleri hesaplayıcı: hafta sonları, Macar resmi tatilleri ve 2026 köprü günleri ele alınarak, iki tarih arasındaki iş günleri. Ücretsiz araç.",
+  "id": "/loona-calculators/tr/working-days-in-hungary.html",
+  "start_url": "./working-days-in-hungary.html",
+  "scope": "./working-days-in-hungary.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Turnuva Fikstür Üretici",
+  "short_name": "Turnuva Fikstür Üretici",
+  "description": "Ücretsiz turnuva fikstür üretici: katılımcıları girin, baylar ele alınarak düzgün şekilde seribaşı edilmiş tek eleme usulü bir fikstür alın — espor, spor günleri, satranç ve bilgi yarışmaları için.",
+  "id": "/loona-calculators/tr/tournament-bracket-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

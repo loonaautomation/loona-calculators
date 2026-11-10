@@ -1,0 +1,29 @@
+{
+  "name": "Loona Basit Faiz Hesaplayıcı",
+  "short_name": "Basit Faiz Hesaplayıcı",
+  "description": "Ücretsiz basit faiz hesaplayıcı: kazanılan faizi ve toplam tutarı hesaplamak için anaparayı, yıllık oranı ve zamanı (yıllar ve aylar) girin. Basit formül I = P×R×T/100.",
+  "id": "/loona-calculators/tr/simple-interest-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

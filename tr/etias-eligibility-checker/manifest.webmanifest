@@ -1,0 +1,29 @@
+{
+  "name": "Loona ETIAS Uygunluk Denetleyicisi",
+  "short_name": "ETIAS Uygunluk Denetleyicisi",
+  "description": "Ücretsiz ETIAS uygunluk denetleyicisi: Avrupa'ya kısa seyahatler için ETIAS, bir Schengen vizesi veya hiçbir izne ihtiyacınız olup olmadığını görmek için milliyetinizi ve seyahat durumunuzu seçin.",
+  "id": "/loona-calculators/tr/etias-eligibility-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

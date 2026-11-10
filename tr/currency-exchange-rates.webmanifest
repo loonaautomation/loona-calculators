@@ -1,0 +1,29 @@
+{
+  "name": "Loona Döviz Kurları",
+  "short_name": "Döviz Kurları",
+  "description": "06 Kasım 2026 tarihli ECB referans döviz kurları, 20 para birimi için — tüm 380 çift, dönüştürücüler, ters kurlar ve tablolar ile.",
+  "id": "/loona-calculators/tr/currency-exchange-rates.html",
+  "start_url": "./currency-exchange-rates.html",
+  "scope": "./currency-exchange-rates.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

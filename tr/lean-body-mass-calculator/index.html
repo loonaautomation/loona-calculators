@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yağsız Vücut Kütlesi Hesaplayıcı — Boer, James ve Hume Formülleri | Loona Calculators</title>
+<meta name="description" content="Boer, James ve Hume formüllerini kilodan, boydan ve cinsiyetten kullanan ücretsiz yağsız vücut kütlesi hesaplayıcı — mezura gerekmez. Eğitim amaçlı tahmin.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/tr/lean-body-mass-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/lean-body-mass-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/lean-body-mass-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/lean-body-mass-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/lean-body-mass-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/lean-body-mass-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/lean-body-mass-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/lean-body-mass-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/lean-body-mass-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Yağsız Vücut Kütlesi Hesaplayıcı — Boer, James ve Hume Formülleri | Loona Calculators">
+<meta property="og:description" content="Boer, James ve Hume formüllerini kilodan, boydan ve cinsiyetten kullanan ücretsiz yağsız vücut kütlesi hesaplayıcı — mezura gerekmez. Eğitim amaçlı tahmin.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/tr/lean-body-mass-calculator/"><meta property="og:locale" content="tr_TR">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Yağsız Vücut Kütlesi Hesaplayıcı — Boer, James ve Hume Formülleri | Loona Calculators">
+<meta name="twitter:description" content="Boer, James ve Hume formüllerini kilodan, boydan ve cinsiyetten kullanan ücretsiz yağsız vücut kütlesi hesaplayıcı — mezura gerekmez. Eğitim amaçlı tahmin.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona Yağsız Vücut Kütlesi Hesaplayıcı","url":"https://loonaautomation.github.io/loona-calculators/tr/lean-body-mass-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Bu, Vücut Yağı Hesaplayıcı değerinden nasıl farklıdır?","acceptedAnswer":{"@type":"Answer","text":"O sayfa, ABD Donanması yöntemini kullanarak, bant ölçümlerinden (boyun, bel, kalçalar) vücut yağını tahmin eder, sonra yağ kütlesini türetir. Bu sayfa, hiçbir ölçüme ihtiyaç duymaz: Boer, James ve Hume denklemlerini kullanarak, yağsız kütleyi, kilo, boy ve cinsiyetten doğrudan öngörür; bunlar, klinik vücut kompozisyonu verilerine uydurulmuştur."}},{"@type":"Question","name":"Hangi formül, en iyisidir?","acceptedAnswer":{"@type":"Answer","text":"Boer, genel yetişkinler için üçün arasında genellikle en doğru olanı kabul edilir. Üçünü de göstermek, sahte hassasiyet yerine dürüst bir aralık verir — hepsi, birkaç kilogram olası hata içeren tahminlerdir."}},{"@type":"Question","name":"Yağsız vücut kütlesi, ne için kullanılır?","acceptedAnswer":{"@type":"Answer","text":"Protein hedefleri, bazı ilaç dozu hesaplamaları ve kilo değişiminin kas mı yağ mı olduğunu izleme. Sporcular ve klinisyenler, bunu bir başlangıç tahmini olarak kullanır, sonra hassasiyet önemli olduğunda, düzgün bir şekilde ölçer."}},{"@type":"Question","name":"Yağsız vücut kütlesi, kas kütlesi anlamına mı gelir?","acceptedAnswer":{"@type":"Answer","text":"Hayır — kasın yanı sıra kemikleri, organları, deriyi ve vücut suyunu içerir. İskelet kası, çoğu yetişkinde yağsız kütlenin kabaca yarısıdır."}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/tr/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Yağsız Vücut Kütlesi Hesaplayıcı",
+      "item": "https://loonaautomation.github.io/loona-calculators/tr/lean-body-mass-calculator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation logosu">
+<div class="brand">Loona <span>Hesaplayıcılar</span></div>
+<nav>
+<a href="../">Ana Sayfa</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">Hakkında</a>
+<a href="../contact.html">İletişim</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › Sağlık › Yağsız Vücut Kütlesi Hesaplayıcı</div>
+<h1 class="pagetitle">💪 Yağsız Vücut Kütlesi Hesaplayıcı</h1>
+<p class="lead">Yağsız vücut kütlenizi tahmin edin — yağ olmayan her şey: kas, kemik, organlar ve su — yalnızca kilonuzdan, boyunuzdan ve cinsiyetinizden, üç standart Boer, James ve Hume formülünü yan yana kullanarak.</p>
+<div class="exbox"><strong>Hızlı cevap:</strong> Yağsız vücut kütlesi formülle tahmin edilir: örneğin Boer formülü, 80 kg ve 180 cm değerindeki bir adama yaklaşık 61.4 kg yağsız kütle verir. Bu sayfa, Boer, James ve Hume tahminlerini birlikte gösterir; bu sitede başka bir yerde bulunan Vücut Yağı Hesaplayıcı, bunun yerine vücut ölçümlerini kullanır.</div>
+<div class="toolbox"><form class="calcform" id="lbmForm">
+<div class="fld"><label for="lbmSex">Cinsiyet</label><select id="lbmSex"><option value="m">Erkek</option><option value="f">Kadın</option></select></div>
+<div class="fld"><label for="lbmW">Ağırlık (kg)</label><input type="number" id="lbmW" value="80" min="25" max="400" step="0.1"></div>
+<div class="fld"><label for="lbmH">Boy (cm)</label><input type="number" id="lbmH" value="180" min="100" max="250" step="0.1"></div>
+<button class="calcbtn" type="submit">Yağsız vücut kütlesini hesapla</button>
+<div class="calcresult" id="lbmResult" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>Yağsız Vücut Kütlesi Hesaplayıcı Nasıl Kullanılır</h2><ol><li>Erkek veya kadın seçin.</li><li>Kilonuzu kilogram ve boyunuzu santimetre olarak girin.</li><li>Üç formül sonucunu karşılaştırın — genellikle birkaç kilogram içinde uyuşurlar.</li></ol>
+<div class="exbox"><strong>Örnek:</strong> 80 kg ve 180 cm bir erkek: Boer, 0.407×80 + 0.267×180 − 19.2 = 61.4 kg yağsız kütle verir, James 62.7 kg verir ve Hume 57.8 kg verir — formüller arasındaki yayılımı dürüst tahmin aralığı olarak kabul edin.</div>
+<h2>Sıkça Sorulan Sorular</h2></section><div class="faq"><h3>Bu, Vücut Yağı Hesaplayıcı değerinden nasıl farklıdır?</h3><p>O sayfa, ABD Donanması yöntemini kullanarak, bant ölçümlerinden (boyun, bel, kalçalar) vücut yağını tahmin eder, sonra yağ kütlesini türetir. Bu sayfa, hiçbir ölçüme ihtiyaç duymaz: Boer, James ve Hume denklemlerini kullanarak, yağsız kütleyi, kilo, boy ve cinsiyetten doğrudan öngörür; bunlar, klinik vücut kompozisyonu verilerine uydurulmuştur.</p></div><div class="faq"><h3>Hangi formül, en iyisidir?</h3><p>Boer, genel yetişkinler için üçün arasında genellikle en doğru olanı kabul edilir. Üçünü de göstermek, sahte hassasiyet yerine dürüst bir aralık verir — hepsi, birkaç kilogram olası hata içeren tahminlerdir.</p></div><div class="faq"><h3>Yağsız vücut kütlesi, ne için kullanılır?</h3><p>Protein hedefleri, bazı ilaç dozu hesaplamaları ve kilo değişiminin kas mı yağ mı olduğunu izleme. Sporcular ve klinisyenler, bunu bir başlangıç tahmini olarak kullanır, sonra hassasiyet önemli olduğunda, düzgün bir şekilde ölçer.</p></div><div class="faq"><h3>Yağsız vücut kütlesi, kas kütlesi anlamına mı gelir?</h3><p>Hayır — kasın yanı sıra kemikleri, organları, deriyi ve vücut suyunu içerir. İskelet kası, çoğu yetişkinde yağsız kütlenin kabaca yarısıdır.</p></div>
+<h2 class="sec">İlgili Hesaplayıcılar</h2><div class="grid"><a class="card" href="../bmi-calculator/"><div class="ic">⚖️</div><h3>BMI Hesaplayıcı</h3><p>Sağlık</p></a><a class="card" href="../calorie-calculator/"><div class="ic">🍽️</div><h3>Kalori Hesaplayıcı</h3><p>Sağlık</p></a><a class="card" href="../macro-calculator/"><div class="ic">🥗</div><h3>Makro Hesaplayıcı</h3><p>Sağlık</p></a><a class="card" href="../body-fat-calculator/"><div class="ic">📏</div><h3>Vücut Yağı Hesaplayıcı</h3><p>Sağlık</p></a><a class="card" href="../ideal-weight-calculator/"><div class="ic">🎯</div><h3>İdeal Kilo Hesaplayıcı</h3><p>Sağlık</p></a></div>
+</div>
+<section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>Nasıl çalışır — formül</h2>
+<p><strong>Boer:</strong> erkek LBM = 0.407W + 0.267H − 19.2; kadın LBM = 0.252W + 0.473H − 48.3. <strong>James:</strong> erkek LBM = 1.1W − 128(W ÷ H)²; kadın LBM = 1.07W − 148(W ÷ H)². <strong>Hume:</strong> erkek LBM = 0.32810W + 0.33929H − 29.5336; kadın LBM = 0.29569W + 0.41813H − 43.2933. Üçünde de, W, kg cinsinden kilodur ve H, cm cinsinden boydur.</p>
+<h3>Çalışılmış örnek</h3><div class="exbox"><p><strong>Girdiler:</strong> erkek, W = 80 kg, H = 180 cm.</p><p><strong>Adımlar:</strong> Boer: 0.407×80 + 0.267×180 − 19.2 = 32.56 + 48.06 − 19.2 = 61.42 kg. James: 1.1×80 − 128×(80÷180)² = 88 − 128×0.19753 = 88 − 25.28 = 62.72 kg. Hume: 0.32810×80 + 0.33929×180 − 29.5336 = 26.25 + 61.07 − 29.53 = 57.79 kg.</p><p><strong>Sonuç:</strong> Boer <strong>61.4 kg</strong>, James <strong>62.7 kg</strong>, Hume <strong>57.8 kg</strong> — yayınlanan formüller arasındaki yayılma, kendisi, belirsizliğe bir rehberdir; Boer, başlık rakamı olarak.</p></div>
+<p class="resnote">Yalnızca eğitim amaçlı tahminler. Formül sonuçları değişir; kesin vücut kompozisyonu için klinik ölçüm (örneğin DEXA) gereklidir.</p>
+</section>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Bu hesaplayıcıyı web sitenize gömün — ücretsiz</h2>
+<p style="margin:0 0 12px;line-height:1.6">Bu hesaplayıcıyı kendi web sitenize veya blogunuza ekleyin — tamamen ücretsizdir, kayıt gerektirmez ve her zaman en son sürümü gösterir. Aşağıdaki kodu kopyalayın ve hesaplayıcının görünmesini istediğiniz yere sayfanıza yapıştırın. Gömmenin altında küçük &ldquo;Powered by Loona Automation&rdquo; kredi satırını tutmak, bu aracın ücretsiz kalmasına yardımcı olur &mdash; ama bunu biçimlendirmekte veya kaldırmakta özgürsünüz; araç her iki şekilde de çalışır.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/tr/lean-body-mass-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Lean Body Mass Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Destekleyen &lt;a href="https://loonaautomation.github.io/loona-calculators/tr/lean-body-mass-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; ücretsiz Yağsız Vücut Kütlesi Hesaplayıcı&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Gömme kodunu kopyalayın</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='Gömme kodunu kopyalayın';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Popüler Hesaplayıcılar</h4><ul><li><a href="../age-calculator/">Yaş Hesaplayıcı</a></li>
+<li><a href="../zakat-calculator/">Zekat Hesaplayıcı</a></li>
+<li><a href="../cgpa-calculator/">CGPA Hesaplayıcısı</a></li>
+<li><a href="../percentage-calculator/">Yüzde Hesaplayıcısı</a></li>
+<li><a href="../hijri-date-converter/">Hicri Tarih Dönüştürücü</a></li>
+<li><a href="../emi-calculator/">EMI &amp; Kredi Hesaplayıcı</a></li></ul></div>
+<div><h4>Daha Fazla Loona Araçları</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Görüntü Sıkıştırıcı</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI Asistanı</a></li>
+<li><a href="https://loonaautomation.github.io/">Tüm Loona Araçları</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">Hakkında</a></li>
+<li><a href="../contact.html">İletişim</a></li>
+<li><a href="../privacy-policy.html">Gizlilik Politikası</a></li>
+<li><a href="../terms.html">Kullanım Şartları</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — bir <a href="https://loonaautomation.github.io/">Loona Automation</a> proje. Ücretsiz çevrimiçi hesaplayıcılar, kayıt yok.
+İletişim: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+function lbmCalc(sex,w,h){
+  if(!(w>0)||!(h>0)) return null;
+  var boer,james,hume;
+  if(sex==="f"){boer=0.252*w+0.473*h-48.3;james=1.07*w-148*Math.pow(w/h,2);hume=0.29569*w+0.41813*h-43.2933;}
+  else{boer=0.407*w+0.267*h-19.2;james=1.1*w-128*Math.pow(w/h,2);hume=0.32810*w+0.33929*h-29.5336;}
+  return {boer:boer,james:james,hume:hume,fatFromBoer:w-boer};
+}
+/*TESTABLE_END*/
+document.getElementById('lbmForm').addEventListener('submit',function(e){e.preventDefault();
+ var w=parseFloat(document.getElementById('lbmW').value);
+ var r=lbmCalc(document.getElementById('lbmSex').value,w,parseFloat(document.getElementById('lbmH').value));
+ var box=document.getElementById('lbmResult'); box.style.display='block';
+ if(!r){box.innerHTML='<p class="err">Lütfen geçerli bir kilo ve boy girin.</p>';return;}
+ box.innerHTML='<div class="resbig"><span>Yağsız vücut kütlesi (Boer)</span><strong>'+r.boer.toFixed(1)+' kg</strong></div>'
+ +'<table class="restbl"><tr><td>James formülü</td><td><strong>'+r.james.toFixed(1)+' kg</strong></td></tr>'
+ +'<tr><td>Hume formülü</td><td><strong>'+r.hume.toFixed(1)+' kg</strong></td></tr>'
+ +'<tr><td>İma edilen yağ kütlesi (kilo − Boer LBM)</td><td><strong>'+r.fatFromBoer.toFixed(1)+' kg</strong></td></tr></table>'
+ +'<p class="resnote">Yalnızca tahminler — formüller arasındaki yayılım, belirsizliğe gerçekçi bir rehberdir.</p>';});
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Uygulamayı Yükleyin';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Bu uygulamayı yükleyin: Paylaş düğmesine dokunun, sonra "Ana Ekrana Ekle" seçeneğini seçin.');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

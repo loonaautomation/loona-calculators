@@ -1,0 +1,29 @@
+{
+  "name": "Loona Trigonometri Hesaplayıcı",
+  "short_name": "Trigonometri Hesaplayıcı",
+  "description": "Ücretsiz trigonometri hesaplayıcı: sin, cos, tan, csc, sec ve cot değerlerini almak için derece veya radyan olarak bir açı girin veya bir orandan bir açı bulmak için ters sin, cos ve tan kullanın. Tam değerler tablosu dahil.",
+  "id": "/loona-calculators/tr/trigonometry-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

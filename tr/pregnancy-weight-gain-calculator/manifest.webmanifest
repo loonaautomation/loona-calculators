@@ -1,0 +1,29 @@
+{
+  "name": "Loona Hamilelik Kilo Alımı Hesaplayıcı",
+  "short_name": "Hamilelik Kilo Alımı",
+  "description": "Ücretsiz hamilelik kilo alımı hesaplayıcı: hamilelik öncesi BMI kategorinize dayalı IOM önerilen toplam ve hafta hafta kilo alımı aralıkları. Yalnızca eğitim amaçlı kılavuz.",
+  "id": "/loona-calculators/tr/pregnancy-weight-gain-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Bileşik Faiz Hesaplayıcı",
+  "short_name": "Bileşik Faiz Hesaplayıcı",
+  "description": "Ücretsiz bileşik faiz hesaplayıcı: paranızın yıllık, çeyreklik, aylık veya günlük bileşik ile nasıl büyüdüğünü görün, isteğe bağlı aylık mevduatlar ve yıla göre bir tablo ile.",
+  "id": "/loona-calculators/tr/compound-interest-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

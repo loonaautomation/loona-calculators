@@ -1,0 +1,29 @@
+{
+  "name": "Loona BAE Konut Kredisi Hesaplayıcı",
+  "short_name": "BAE Kredi Hesaplayıcı",
+  "description": "Ücretsiz BAE konut kredisi hesaplayıcı, dirhem cinsinden: herhangi bir mülk fiyatı, depozito, faiz oranı ve vade için aylık ödeme, toplam faiz ve borçsuz tarih, artı bir fazla ödeme karşılaştırması.",
+  "id": "/loona-calculators/tr/uae-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona İş Günleri Hesaplayıcı Avrupa",
+  "short_name": "Avrupa Çalışma Günleri Hesaplayıcı",
+  "description": "20 Avrupa ülkesi için, çalışma günleri hesaplayıcı: hafta sonları ve her ülkenin 2026 resmi tatilleri kaldırılarak, iki tarih arasındaki iş günlerini sayın.",
+  "id": "/loona-calculators/tr/working-days-calculator-europe.html",
+  "start_url": "./working-days-calculator-europe.html",
+  "scope": "./working-days-calculator-europe.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Hafta Numarası Hesaplayıcı",
+  "short_name": "Hafta Numarası Hesaplayıcı",
+  "description": "Ücretsiz hafta numarası hesaplayıcı: ISO hafta numarasını, ISO hafta yılını, yılın gününü, yılda kalan günleri ve takvim çeyreğini almak için herhangi bir tarihi seçin.",
+  "id": "/loona-calculators/tr/week-number-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

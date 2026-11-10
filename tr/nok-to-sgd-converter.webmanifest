@@ -1,0 +1,29 @@
+{
+  "name": "Loona NOK - SGD Dönüştürücü",
+  "short_name": "NOK - SGD Dönüştürücü",
+  "description": "Norveç Kronu (NOK) birimini Singapur Doları (SGD) birimine dönüştürün. 06 Kasım 2026, tarihli ECB referans kuru, ters kur, dönüşüm tablosu ve koridor notları. Yalnızca gösterge niteliğindedir.",
+  "id": "/loona-calculators/tr/nok-to-sgd-converter.html",
+  "start_url": "./nok-to-sgd-converter.html",
+  "scope": "./nok-to-sgd-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

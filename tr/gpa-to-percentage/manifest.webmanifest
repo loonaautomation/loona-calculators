@@ -1,0 +1,29 @@
+{
+  "name": "Loona GPA - Yüzde Dönüştürücü",
+  "short_name": "GPA - Yüzde Dönüştürücü",
+  "description": "GPA değerini yüzdeye ve geriye dönüştürün: ABD 4.0 ölçek bantları, Hindistan CBSE (CGPA × 9.5), Hint üniversitesi (× 10) ve Birleşik Krallık derece sınıflandırmaları, her biri etiketli.",
+  "id": "/loona-calculators/tr/gpa-to-percentage/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

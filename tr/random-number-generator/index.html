@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rastgele Sayı Üretici — Çevrimiçi Güvenli Rastgele Sayılar | Loona Calculators</title>
+<meta name="description" content="Güvenli tarayıcı rastgeleliğini kullanan ücretsiz rastgele sayı üretici. Herhangi bir aralıkta sayılar seçin, kaç tane olduğunu seçin, yalnızca benzersiz sayılar için bir seçenek ile.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/tr/random-number-generator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/random-number-generator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/random-number-generator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/random-number-generator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/random-number-generator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/random-number-generator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/random-number-generator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/random-number-generator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/random-number-generator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Rastgele Sayı Üretici — Çevrimiçi Güvenli Rastgele Sayılar | Loona Calculators">
+<meta property="og:description" content="Güvenli tarayıcı rastgeleliğini kullanan ücretsiz rastgele sayı üretici. Herhangi bir aralıkta sayılar seçin, kaç tane olduğunu seçin, yalnızca benzersiz sayılar için bir seçenek ile.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/tr/random-number-generator/"><meta property="og:locale" content="tr_TR">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Rastgele Sayı Üretici — Çevrimiçi Güvenli Rastgele Sayılar | Loona Calculators">
+<meta name="twitter:description" content="Güvenli tarayıcı rastgeleliğini kullanan ücretsiz rastgele sayı üretici. Herhangi bir aralıkta sayılar seçin, kaç tane olduğunu seçin, yalnızca benzersiz sayılar için bir seçenek ile.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona Rastgele Sayı Üretici","url":"https://loonaautomation.github.io/loona-calculators/tr/random-number-generator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Bu rastgele sayı üretici gerçekten rastgele midir?","acceptedAnswer":{"@type":"Answer","text":"crypto.getRandomValues değerini kullanır; her modern tarayıcıya inşa edilmiş kriptografik olarak güvenli rastgele kaynaktır. İşletim sistemleri bunu gerçek dünya tahmin edilemezliğinden besler (zamanlama, donanım gürültüsü); yani sayılar talep üzerine tahmin edilemez veya tekrarlanamaz — çoğu basit üreticinin kullandığı Math.random fonksiyonundan çok daha güçlü bir kaynak."}},{"@type":"Question","name":"Benzersiz seçeneği, ne yapar?","acceptedAnswer":{"@type":"Answer","text":"'Benzersiz sayılar yalnızca' ile, üretilen her sayı, farklıdır — piyango tarzı çekilişler, çekilişler ve öğrenciler veya kazananlar seçmek için idealdir. 'Tekrarlara izin verilir' ile, her çekiliş, bağımsızdır; yani aynı sayı, zar atmak gibi, birden fazla kez görünebilir."}},{"@type":"Question","name":"Aynı seti iki kez tekrar edebilir mi?","acceptedAnswer":{"@type":"Answer","text":"Teoride herhangi bir küme şans eseri tekrar oluşabilir, ama güvenli rastgelelikle, çekilişler arasında hiçbir desen, tohum veya bellek yoktur. Oluştur düğmesine basmak her zaman tamamen yeni, bağımsız bir çekiliş başlatır."}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/tr/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Rastgele Sayı Üretici",
+      "item": "https://loonaautomation.github.io/loona-calculators/tr/random-number-generator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation logosu">
+<div class="brand">Loona <span>Hesaplayıcılar</span></div>
+<nav>
+<a href="../">Ana Sayfa</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">Hakkında</a>
+<a href="../contact.html">İletişim</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › Eğlence › Rastgele Sayı Üretici</div>
+<h1 class="pagetitle">🎲 Rastgele Sayı Üretici</h1>
+<p class="lead">Herhangi bir aralıkta gerçekten rastgele sayılar oluşturun, tarayıcınızda. Çoğu çevrimiçi üreticinin aksine, bu, tarayıcınızın güvenli rastgele kaynağını kullanır — web sitelerinin şifreleme için kullandığı aynı kaynak — yani sonuçlar öngörülemez ve tarafsızdır.</p>
+<div class="toolbox"><form class="calcform" id="rngForm">
+<div class="fld"><label for="rngMin">Minimum</label><input type="number" id="rngMin" value="1" step="1"></div>
+<div class="fld"><label for="rngMax">Maksimum</label><input type="number" id="rngMax" value="100" step="1"></div>
+<div class="fld"><label for="rngCount">Kaç sayı?</label><input type="number" id="rngCount" value="5" step="1" min="1" max="10000"></div>
+<div class="fld"><label for="rngUnique">Yinelenenler</label><select id="rngUnique"><option value="unique" selected>Yalnızca benzersiz sayılar (tekrar yok)</option><option value="allow">Tekrarlara izin verilir</option></select></div>
+<button class="calcbtn" type="submit">Sayılar Oluştur</button>
+<div class="calcresult" id="rngResult" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>Rastgele Sayı Üretici Nasıl Kullanılır</h2><ol><li>İstediğiniz en küçük sayıyı (minimum) ve en büyük sayıyı (maksimum) girin.</li><li>Kaç sayı üretileceğini seçin (10,000 değerine kadar).</li><li>Sayıların benzersiz olması gerekip gerekmediğini veya tekrarlanabileceğini seçin, sonra Sayılar Oluştur düğmesine basın.</li></ol>
+<div class="exbox"><strong>Örnek:</strong> Bir öğretmenin 6 öğrenciye ihtiyacı var, 1 ile 40 arasındaki numaralardan adilce seçilmiş: minimum 1, maksimum 40, adet 6, yalnızca benzersiz ayarlayın — altı farklı numara görünür, kayırma mümkün değildir.</div>
+<h2>Sıkça Sorulan Sorular</h2></section><div class="faq"><h3>Bu rastgele sayı üretici gerçekten rastgele midir?</h3><p>crypto.getRandomValues değerini kullanır; her modern tarayıcıya inşa edilmiş kriptografik olarak güvenli rastgele kaynaktır. İşletim sistemleri bunu gerçek dünya tahmin edilemezliğinden besler (zamanlama, donanım gürültüsü); yani sayılar talep üzerine tahmin edilemez veya tekrarlanamaz — çoğu basit üreticinin kullandığı Math.random fonksiyonundan çok daha güçlü bir kaynak.</p></div><div class="faq"><h3>Benzersiz seçeneği, ne yapar?</h3><p>'Benzersiz sayılar yalnızca' ile, üretilen her sayı, farklıdır — piyango tarzı çekilişler, çekilişler ve öğrenciler veya kazananlar seçmek için idealdir. 'Tekrarlara izin verilir' ile, her çekiliş, bağımsızdır; yani aynı sayı, zar atmak gibi, birden fazla kez görünebilir.</p></div><div class="faq"><h3>Aynı seti iki kez tekrar edebilir mi?</h3><p>Teoride herhangi bir küme şans eseri tekrar oluşabilir, ama güvenli rastgelelikle, çekilişler arasında hiçbir desen, tohum veya bellek yoktur. Oluştur düğmesine basmak her zaman tamamen yeni, bağımsız bir çekiliş başlatır.</p></div>
+<h2 class="sec">İlgili Hesaplayıcılar</h2><div class="grid"><a class="card" href="../dice-roller/"><div class="ic">🎲</div><h3>Zar Atma</h3><p>Eğlence</p></a><a class="card" href="../coin-flip/"><div class="ic">🪙</div><h3>Yazı Tura</h3><p>Eğlence</p></a><a class="card" href="../lottery-number-generator/"><div class="ic">🍀</div><h3>Piyango Sayı Üretici</h3><p>Eğlence</p></a><a class="card" href="../love-calculator/"><div class="ic">❤️</div><h3>Aşk Hesaplayıcı</h3><p>Eğlence</p></a><a class="card" href="../age-calculator/"><div class="ic">📅</div><h3>Yaş Hesaplayıcı</h3><p>Tarih &amp; Saat</p></a></div>
+</div>
+<section class="txt"><h2>Nasıl çalışır &mdash; formül</h2>
+<p>Üretici, şunları kullanır <strong>reddetme örneklemesi</strong> 32 bit güvenli rastgele değerlerde; daha basit yöntemlerin, ince önyargısını kaldırır:</p>
+<p>1. Tarayıcı, 32 bitlik işaretsiz bir tam sayıyı doldurur <em>x</em> kullanarak <strong>crypto.getRandomValues</strong>.<br>
+2. Diyelim <em>aralık</em> = maks − min + 1. Şu değerler: <em>x</em> değerinde veya üzerinde <em>limit</em> = ⌊2³² ÷ aralık⌋ × aralık değerleri reddedilir ve yeniden çekilir, yani kalan değerler aralığa tam bölünür.<br>
+3. Sonuç <strong>min + (x mod range)</strong> — aralığınızdaki her sayı, tam olarak aynı olasılığa sahiptir.</p>
+<h3>Çalışılmış örnek</h3>
+<div class="exbox"><strong>Örnek:</strong> 1 ile 6 arasından bir sayı çekmek (bir zar atışı). Aralık 6 değerindedir; yani limit = ⌊4,294,967,296 ÷ 6⌋ × 6 = 4,294,967,296 − 4 = 4,294,967,292. Neredeyse her rastgele 32 bitlik değer kabul edilir; x = 1,000,000,007 ise, 1,000,000,007 mod 6 = 5 ve sonuç 1 + 5 = <strong>6</strong>. Altı sonucun her biri tam olarak eşit olasılıklıdır.</div>
+<h3>Sıkça sorulan sorular</h3></section><div class="faq"><h3>En büyük aralık ve sayı nedir?</h3><p>Çekiliş başına, 10,000 sayıya kadar üretebilirsiniz ve aralık, milyarlarca değeri kapsayabilir (araç, tam sayılarla çalışır; yazdığınız ondalıklar, tam sayılara aşağı yuvarlanır).</p></div><div class="faq"><h3>Sayılarım bir sunucuya gönderilir veya saklanır mı?</h3><p>Hayır. Üretici, tamamen tarayıcınızda JavaScript kullanarak çalışır. Hiçbir şey yüklenmez, kaydedilmez veya saklanmaz — sekmeyi kapatın ve sayılar gider.</p></div><div class="faq"><h3>Neden, sadece Math.random kullanmıyorum?</h3><p>Math.random, adalet için değil, kolaylık için tasarlanmış bir sahte rastgele üreticidir: dizisi deterministiktir ve prensipte tahmin edilebilir. Çekilişler, hediyeler ve oyunlar için, güvenli bir kaynak önemlidir; bu aracın, aralığınızdaki her değerin eşit derecede muhtemel olması için, reddetme örneklemesi ile crypto.getRandomValues üzerine inşa edilmesinin nedeni budur.</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Bu hesaplayıcıyı web sitenize gömün — ücretsiz</h2>
+<p style="margin:0 0 12px;line-height:1.6">Bu hesaplayıcıyı kendi web sitenize veya blogunuza ekleyin — tamamen ücretsizdir, kayıt gerektirmez ve her zaman en son sürümü gösterir. Aşağıdaki kodu kopyalayın ve hesaplayıcının görünmesini istediğiniz yere sayfanıza yapıştırın. Gömmenin altında küçük &ldquo;Powered by Loona Automation&rdquo; kredi satırını tutmak, bu aracın ücretsiz kalmasına yardımcı olur &mdash; ama bunu biçimlendirmekte veya kaldırmakta özgürsünüz; araç her iki şekilde de çalışır.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/tr/random-number-generator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Random Number Generator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Destekleyen &lt;a href="https://loonaautomation.github.io/loona-calculators/tr/random-number-generator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; ücretsiz Rastgele Sayı Üretici&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Gömme kodunu kopyalayın</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='Gömme kodunu kopyalayın';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Popüler Hesaplayıcılar</h4><ul><li><a href="../age-calculator/">Yaş Hesaplayıcı</a></li>
+<li><a href="../zakat-calculator/">Zekat Hesaplayıcı</a></li>
+<li><a href="../cgpa-calculator/">CGPA Hesaplayıcısı</a></li>
+<li><a href="../percentage-calculator/">Yüzde Hesaplayıcısı</a></li>
+<li><a href="../hijri-date-converter/">Hicri Tarih Dönüştürücü</a></li>
+<li><a href="../emi-calculator/">EMI &amp; Kredi Hesaplayıcı</a></li></ul></div>
+<div><h4>Daha Fazla Loona Araçları</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Görüntü Sıkıştırıcı</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI Asistanı</a></li>
+<li><a href="https://loonaautomation.github.io/">Tüm Loona Araçları</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">Hakkında</a></li>
+<li><a href="../contact.html">İletişim</a></li>
+<li><a href="../privacy-policy.html">Gizlilik Politikası</a></li>
+<li><a href="../terms.html">Kullanım Şartları</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — bir <a href="https://loonaautomation.github.io/">Loona Automation</a> proje. Ücretsiz çevrimiçi hesaplayıcılar, kayıt yok.
+İletişim: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+function cryptoRandomInt(min, max) {
+  var range = max - min + 1;
+  if (!(range >= 1)) throw new Error("Geçersiz aralık.");
+  if (range > 4294967296) throw new Error("Aralık çok büyük.");
+  var limit = Math.floor(4294967296 / range) * range;
+  var buf = new Uint32Array(1), x;
+  do { crypto.getRandomValues(buf); x = buf[0]; } while (x >= limit);
+  return min + (x % range);
+}
+function generateRandomNumbers(min, max, count, unique) {
+  min = Math.floor(min); max = Math.floor(max); count = Math.floor(count);
+  if (isNaN(min) || isNaN(max) || isNaN(count)) throw new Error("Lütfen her alana geçerli sayılar girin.");
+  if (max < min) throw new Error("Maksimum, minimumdan büyük veya ona eşit olmalıdır.");
+  if (count < 1 || count > 10000) throw new Error("1 ve 10,000 sayı arasında seçin.");
+  if (unique && count > (max - min + 1)) throw new Error("O aralıkta, yeterli benzersiz sayı yoktur.");
+  var out = [], seen = {};
+  while (out.length < count) {
+    var v = cryptoRandomInt(min, max);
+    if (unique) { if (seen[v]) continue; seen[v] = 1; }
+    out.push(v);
+  }
+  return out;
+}
+function generateUniqueSorted(count, max) {
+  var seen = {}, out = [];
+  while (out.length < count) {
+    var v = cryptoRandomInt(1, max);
+    if (!seen[v]) { seen[v] = 1; out.push(v); }
+  }
+  out.sort(function (a, b) { return a - b; });
+  return out;
+}
+/*TESTABLE_END*/
+
+function rngRun() {
+  var box = document.getElementById('rngResult');
+  try {
+    var nums = generateRandomNumbers(
+      parseFloat(document.getElementById('rngMin').value),
+      parseFloat(document.getElementById('rngMax').value),
+      parseFloat(document.getElementById('rngCount').value),
+      document.getElementById('rngUnique').value === 'unique');
+    box.style.display = 'block';
+    box.innerHTML = '<div class="resbig"><span>Rastgele sayılarınız</span><strong>' + nums.length + ', çekildi</strong></div>' +
+      '<p style="font-size:19px;line-height:1.9;word-break:break-word"><strong>' + nums.join(', ') + '</strong></p>' +
+      '<p class="resnote">crypto.getRandomValues ile, tarayıcınızda yerel olarak üretilir — bir sunucuya, hiçbir şey gönderilmez. Taze bir set için, Tekrar Üretin düğmesine basın.</p>';
+  } catch (e) {
+    box.style.display = 'block';
+    box.innerHTML = '<p class="err">' + e.message + '</p>';
+  }
+}
+document.getElementById('rngForm').addEventListener('submit', function (e) { e.preventDefault(); rngRun(); });
+rngRun();
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Uygulamayı Yükleyin';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Bu uygulamayı yükleyin: Paylaş düğmesine dokunun, sonra "Ana Ekrana Ekle" seçeneğini seçin.');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

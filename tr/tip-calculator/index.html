@@ -1,0 +1,1852 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bahşiş Hesaplayıcı — Faturayı ve Kişi Başına Bahşişi Bölün | Loona Calculators</title>
+<meta name="description" content="Ücretsiz bahşiş hesaplayıcı: bahşiş tutarını, toplam faturayı ve her kişinin ödediği tam payı almak için faturayı, bahşiş yüzdesini ve kişi sayısını girin.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/tr/tip-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/tip-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/tip-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/tip-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/tip-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/tip-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/tip-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/tip-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/tip-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Bahşiş Hesaplayıcı — Faturayı ve Kişi Başına Bahşişi Bölün | Loona Calculators">
+<meta property="og:description" content="Ücretsiz bahşiş hesaplayıcı: bahşiş tutarını, toplam faturayı ve her kişinin ödediği tam payı almak için faturayı, bahşiş yüzdesini ve kişi sayısını girin.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/tr/tip-calculator/"><meta property="og:locale" content="tr_TR">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Bahşiş Hesaplayıcı — Faturayı ve Kişi Başına Bahşişi Bölün | Loona Calculators">
+<meta name="twitter:description" content="Ücretsiz bahşiş hesaplayıcı: bahşiş tutarını, toplam faturayı ve her kişinin ödediği tam payı almak için faturayı, bahşiş yüzdesini ve kişi sayısını girin.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona Bahşiş Hesaplayıcı","url":"https://loonaautomation.github.io/loona-calculators/tr/tip-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Ne kadar bahşiş vermeliyim?","acceptedAnswer":{"@type":"Answer","text":"Ülkeye ve hizmete göre değişir: birçok yerde yaklaşık %10 yaygındır, ABD değerinde harika hizmet için %15-20 ve bazı ülkeler hizmet ücretlerini hesaba dahil eder."}},{"@type":"Question","name":"Bahşiş eşit şekilde bölünür mü?","acceptedAnswer":{"@type":"Answer","text":"Evet — toplam (fatura, artı bahşiş), girdiğiniz insan sayısı arasında, eşit olarak bölünür."}},{"@type":"Question","name":"Yalnız ödüyorsam, ne olur?","acceptedAnswer":{"@type":"Answer","text":"İnsan sayısını 1 değerinde tutun — basitçe bahşişi ve toplamı göreceksiniz."}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/tr/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Bahşiş Hesaplayıcı",
+      "item": "https://loonaautomation.github.io/loona-calculators/tr/tip-calculator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation logosu">
+<div class="brand">Loona <span>Hesaplayıcılar</span></div>
+<nav>
+<a href="../">Ana Sayfa</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">Hakkında</a>
+<a href="../contact.html">İletişim</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › Para ve Finans › Bahşiş Hesaplayıcı</div>
+<h1 class="pagetitle">🧾 Bahşiş Hesaplayıcı</h1>
+<p class="lead">Arkadaşlarla dışarıda yemek mi yiyorsunuz? Faturayı girin, bir bahşiş yüzdesi seçin ve toplamı adilce bölün — bahşiş tutarı, toplam fatura ve her kişinin payı, hepsi tek dokunuşla.</p>
+<div class="toolbox"><div data-calc="tip-calculator"></div></div>
+<section class="txt"><h2>Bahşiş Hesaplayıcı Nasıl Kullanılır</h2><ol><li>Fatura tutarını girin.</li><li>Bahşiş yüzdesini girin (%10 önceden doldurulmuştur — dilediğiniz gibi ayarlayın).</li><li>Kaç kişinin böldüğünü girin, ardından Hesapla düğmesine basın.</li></ol>
+<div class="exbox"><strong>Örnek:</strong> Rs 5,000 bir fatura, %10 bahşişle 4 kişi arasında bölünür: bahşiş Rs 500, toplam Rs 5,500 ve her kişi Rs 1,375 öder.</div>
+<h2>Sıkça Sorulan Sorular</h2></section><div class="faq"><h3>Ne kadar bahşiş vermeliyim?</h3><p>Ülkeye ve hizmete göre değişir: birçok yerde yaklaşık %10 yaygındır, ABD değerinde harika hizmet için %15-20 ve bazı ülkeler hizmet ücretlerini hesaba dahil eder.</p></div><div class="faq"><h3>Bahşiş eşit şekilde bölünür mü?</h3><p>Evet — toplam (fatura, artı bahşiş), girdiğiniz insan sayısı arasında, eşit olarak bölünür.</p></div><div class="faq"><h3>Yalnız ödüyorsam, ne olur?</h3><p>İnsan sayısını 1 değerinde tutun — basitçe bahşişi ve toplamı göreceksiniz.</p></div>
+<section class="txt"><h2>Nasıl çalışır — formül</h2><p>Matematik, faturanın düz bir yüzdesidir. Hesaplayıcı, bahşişi almak için, faturayı, bahşiş yüzdesiyle çarpar ve 100 değerine böler, toplam için, onu faturaya ekler ve sonra toplamı — ve bahşişi kendi başına — insanların sayısına böler; yani her kişinin, toplamda ne ödediğini ve o payın ne kadarının bahşiş olduğunu görebilirsiniz. İnsanların sayısı, bir tam sayı olarak ele alınır.</p><p><strong>Formül:</strong> Bahşiş = fatura × bahşiş % ÷ 100. Toplam = fatura + bahşiş. Kişi başına = toplam ÷ insan sayısı.</p><h3>Çalışılmış örnek</h3><div class="exbox"><p><strong>Girdiler:</strong> Fatura Rs 8,450; bahşiş %15; 3 kişi arasında bölünmüş.</p><p><strong>Adımlar:</strong> Bahşiş = 8,450 × 15 ÷ 100 = Rs 1,267.5. Toplam = 8,450 + 1,267.5 = Rs 9,717.5. Her kişinin payı = 9,717.5 ÷ 3 = Rs 3,239.17; bunun bahşiş kısmı, 1,267.5 ÷ 3 = Rs 422.5 değeridir.</p><p><strong>Sonuç:</strong> <strong>Ödenecek toplam: Rs 9,717.5 — kişi başına Rs 3,239.17.</strong></p></div><h3>Sıkça sorulan sorular</h3><div class="faq"><h3>Bahşiş, vergi öncesi veya sonrası hesap üzerinde mi hesaplanır?</h3><p>Tam olarak yazdığınız tutar üzerinde. Hesaplayıcı, yüzdenizi o sayıya basitçe uygular; yani basılı faturanız zaten vergiyi veya bir hizmet ücretini içeriyorsa ve vergi öncesi tutar üzerinden bahşiş vermeyi tercih ederseniz, vergi öncesi sayıyı fatura olarak girin.</p></div><div class="faq"><h3>%12.5 gibi bir ondalıklı bahşiş yüzdesi kullanabilir miyim?</h3><p>Evet. Yüzde, olağan bir sayı olarak okunur; yani 12.5, 17.5 veya herhangi bir başka değer, tam bir sayı kadar iyi çalışır.</p></div><div class="faq"><h3>Kişi başına paylar, neden tam olarak toplama geri eklenmeyebilir?</h3><p>Her pay, görüntüleme için iki ondalık basamağa yuvarlanır. Rs 9,717.5 değerini üç yöne bölmek, kişi başına Rs 3,239.17 verir ve üç yuvarlanmış pay, tam toplamın bir paisa veya bir sent iki tarafında da yer alabilir — bir kişi genellikle küçük farkı karşılar.</p></div><div class="faq"><h3>0 insan girersem veya alanı boş bırakırsam, ne olur?</h3><p>Hesaplayıcı, en az 1 kişi ister ve bir bölme üretmez; çünkü bir faturayı, hiç kimse arasında bölmenin cevabı yoktur. Tüm faturayı kendiniz ödediğinizde, onu 1 değerinde bırakın.</p></div><div class="faq"><h3>Yalnızca rupi ile mi çalışır?</h3><p>Miktarlar, Rs olarak etiketlenir, ama hesaplamanın kendisi, saf yüzde matematiğidir; yani aynı rakamlar, dolarlar, poundlar, eurolar veya herhangi bir diğer para birimi için, değişmeden çalışır.</p></div></section><h2 class="sec">İlgili Hesaplayıcılar</h2><div class="grid"><a class="card" href="../emi-calculator/"><div class="ic">🏦</div><h3>EMI &amp; Kredi Hesaplayıcı</h3><p>Para ve Finans</p></a><a class="card" href="../compound-interest-calculator/"><div class="ic">📈</div><h3>Bileşik Faiz</h3><p>Para ve Finans</p></a><a class="card" href="../electricity-bill-calculator/"><div class="ic">💡</div><h3>Elektrik Faturası</h3><p>Para ve Finans</p></a><a class="card" href="../age-calculator/"><div class="ic">📅</div><h3>Yaş Hesaplayıcı</h3><p>Tarih &amp; Saat</p></a><a class="card" href="../recurring-deposit-calculator/"><div class="ic">🔁</div><h3>Tekrarlayan Mevduat Hesaplayıcı</h3><p>Para ve Finans</p></a></div>
+</div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Bu hesaplayıcıyı web sitenize gömün — ücretsiz</h2>
+<p style="margin:0 0 12px;line-height:1.6">Bu hesaplayıcıyı kendi web sitenize veya blogunuza ekleyin — tamamen ücretsizdir, kayıt gerektirmez ve her zaman en son sürümü gösterir. Aşağıdaki kodu kopyalayın ve hesaplayıcının görünmesini istediğiniz yere sayfanıza yapıştırın. Gömmenin altında küçük &ldquo;Powered by Loona Automation&rdquo; kredi satırını tutmak, bu aracın ücretsiz kalmasına yardımcı olur &mdash; ama bunu biçimlendirmekte veya kaldırmakta özgürsünüz; araç her iki şekilde de çalışır.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/tr/tip-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Tip Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Destekleyen &lt;a href="https://loonaautomation.github.io/loona-calculators/tr/tip-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; ücretsiz Bahşiş Hesaplayıcı&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Gömme kodunu kopyalayın</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='Gömme kodunu kopyalayın';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Popüler Hesaplayıcılar</h4><ul><li><a href="../age-calculator/">Yaş Hesaplayıcı</a></li>
+<li><a href="../zakat-calculator/">Zekat Hesaplayıcı</a></li>
+<li><a href="../cgpa-calculator/">CGPA Hesaplayıcısı</a></li>
+<li><a href="../percentage-calculator/">Yüzde Hesaplayıcısı</a></li>
+<li><a href="../hijri-date-converter/">Hicri Tarih Dönüştürücü</a></li>
+<li><a href="../emi-calculator/">EMI &amp; Kredi Hesaplayıcı</a></li></ul></div>
+<div><h4>Daha Fazla Loona Araçları</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Görüntü Sıkıştırıcı</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI Asistanı</a></li>
+<li><a href="https://loonaautomation.github.io/">Tüm Loona Araçları</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">Hakkında</a></li>
+<li><a href="../contact.html">İletişim</a></li>
+<li><a href="../privacy-policy.html">Gizlilik Politikası</a></li>
+<li><a href="../terms.html">Kullanım Şartları</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — bir <a href="https://loonaautomation.github.io/">Loona Automation</a> proje. Ücretsiz çevrimiçi hesaplayıcılar, kayıt yok.
+İletişim: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>/* Loona Calculators — shared calculation engine (pure functions, unit-testable).
+   Each CALCS[slug].run(v) takes string values and returns result HTML (or "ERR:..."). */
+"use strict";
+function N(x){var n=parseFloat(x);return isNaN(n)?0:n;}
+function F(x,d){if(d===undefined)d=2;var p=Math.pow(10,d);var r=Math.round(x*p)/p;
+  return r.toLocaleString("en-IN",{minimumFractionDigits:0,maximumFractionDigits:d});}
+function Rs(x){return "Rs "+F(x,2);}
+function row(k,v){return '<tr><td>'+k+'</td><td><strong>'+v+'</strong></td></tr>';}
+function big(label,val){return '<div class="resbig"><span>'+label+'</span><strong>'+val+'</strong></div>';}
+function tbl(rows){return '<table class="restbl">'+rows+'</table>';}
+function note(t){return '<p class="resnote">'+t+'</p>';}
+function pdate(s){if(!s)return null;var p=s.split("-");if(p.length<3)return null;
+  return new Date(+p[0],+p[1]-1,+p[2]);}
+function fdate(d){var M=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+  var W=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+  return W[d.getDay()]+", "+d.getDate()+" "+M[d.getMonth()]+" "+d.getFullYear();}
+function iso(d){return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");}
+function dayDiff(a,b){return Math.round((b-a)/86400000);}
+function ymdDiff(a,b){ /* a<=b -> {y,m,d} calendar difference */
+  var y=b.getFullYear()-a.getFullYear(),m=b.getMonth()-a.getMonth(),d=b.getDate()-a.getDate();
+  if(d<0){m--;var prev=new Date(b.getFullYear(),b.getMonth(),0);d+=prev.getDate();}
+  if(m<0){y--;m+=12;}
+  return {y:y,m:m,d:d};
+}
+const HIJRI_MONTHS=["Muharram","Safar","Rabi al-Awwal","Rabi al-Thani","Jumada al-Ula","Jumada al-Akhirah","Rajab","Shaban","Ramadan","Shawwal","Dhul Qadah","Dhul Hijjah"];
+function hijriParts(gd){
+  var fmt=new Intl.DateTimeFormat("en-u-ca-islamic",{day:"numeric",month:"numeric",year:"numeric"});
+  var parts=fmt.formatToParts(gd),o={};
+  parts.forEach(function(p){o[p.type]=p.value;});
+  return {y:+o.year,m:+o.month,d:+o.day};
+}
+function hijriToGreg(hy,hm,hd){
+  /* approximate start: Hijri epoch 16 Jul 622; year length 354.367 days */
+  var approx=new Date(622,6,16).getTime()+((hy-1)*354.367+ (hm-1)*29.53 + (hd-1))*86400000;
+  var d=new Date(approx),p=hijriParts(d),guard=0;
+  function key(pp){return pp.y*10000+pp.m*100+pp.d;}
+  var target=hy*10000+hm*100+hd;
+  while(key(p)!==target&&guard<500){
+    var diff=(hy-p.y)*354+((hm-p.m)*30)+(hd-p.d);
+    if(diff===0)diff=(target>key(p))?1:-1;
+    d=new Date(d.getTime()+diff*86400000);p=hijriParts(d);guard++;
+  }
+  return d;
+}
+
+/* ---------- Batch 3 shared helpers ---------- */
+function gcd2(a,b){a=Math.abs(Math.round(a));b=Math.abs(Math.round(b));while(b){var t=a%b;a=b;b=t;}return a||1;}
+function lcm2(a,b){return a/gcd2(a,b)*b;}
+function parseList(s){
+  if(s===undefined||s===null)return null;
+  var parts=String(s).split(/[\s,;]+/).filter(function(x){return x.length>0;});
+  if(!parts.length)return null;
+  var out=[];
+  for(var i=0;i<parts.length;i++){var n=Number(parts[i]);if(!isFinite(n))return null;out.push(n);}
+  return out;
+}
+function medianSorted(s){var n=s.length,m=Math.floor(n/2);return n%2?s[m]:(s[m-1]+s[m])/2;}
+function modeText(arr){
+  var counts={},best=0,i;
+  for(i=0;i<arr.length;i++){var k=String(arr[i]);counts[k]=(counts[k]||0)+1;if(counts[k]>best)best=counts[k];}
+  if(best<=1)return "No mode \u2014 every value appears once";
+  var modes=Object.keys(counts).filter(function(k){return counts[k]===best;});
+  modes.sort(function(a,b){return parseFloat(a)-parseFloat(b);});
+  return modes.map(function(k){return F(parseFloat(k));}).join(", ")+" (görünür "+best+" kez)";
+}
+
+/* ---------- Batch 4 shared helpers ---------- */
+function fmtClock(mins){mins=((Math.round(mins)%1440)+1440)%1440;var h=Math.floor(mins/60),m=mins%60;
+  var suf=h<12?"AM":"PM";var h12=h%12;if(h12===0)h12=12;
+  return h12+":"+(m<10?"0":"")+m+" "+suf;}
+function hmText(min){var h=Math.floor(min/60),m=Math.round(min-h*60);if(m===60){h++;m=0;}
+  return h+(h===1?" saat":" saat")+", "+m+(m===1?" dakika":" dakika");}
+function paceText(sec){var t=Math.round(sec);var m=Math.floor(t/60),s=t%60;
+  return m+":"+(s<10?"0":"")+s;}
+function fmtHMS(sec){var t=Math.round(sec);var h=Math.floor(t/3600),m=Math.floor((t%3600)/60),s=t%60;
+  function p(x){return (x<10?"0":"")+x;}
+  return h>0?h+":"+p(m)+":"+p(s):m+":"+p(s);}
+function isoWeekYear(d){ /* ISO 8601: weeks start Monday; week 1 holds the year's first Thursday */
+  var t=new Date(d.getFullYear(),d.getMonth(),d.getDate());
+  var day=(t.getDay()+6)%7; /* Mon=0 .. Sun=6 */
+  t.setDate(t.getDate()+(3-day)); /* Thursday of this week */
+  var isoYear=t.getFullYear();
+  var firstThu=new Date(isoYear,0,4);
+  var fd=(firstThu.getDay()+6)%7;
+  firstThu.setDate(firstThu.getDate()+(3-fd)); /* Thursday of ISO week 1 */
+  var week=1+Math.round((t-firstThu)/(7*86400000));
+  return {week:week,year:isoYear};
+}
+
+const CALCS={
+
+/* 1 — AGE */
+"age-calculator":{
+ fields:[
+  {id:"dob",l:"Doğum Tarihi",t:"d",req:1},
+  {id:"to",l:"Tarihteki Yaş (bugün önceden doldurulmuştur)",t:"d",def:"today"}],
+ run:function(v){
+  var dob=pdate(v.dob),to=pdate(v.to)||new Date();
+  if(!dob)return "ERR:Lütfen doğum tarihinizi girin.";
+  if(dob>to)return "ERR:Doğum tarihi, Tarihteki Yaş değerinden önce olmalıdır.";
+  var a=ymdDiff(dob,to),days=dayDiff(dob,to);
+  var nb=new Date(to.getFullYear(),dob.getMonth(),dob.getDate());
+  if(nb<to)nb=new Date(to.getFullYear()+1,dob.getMonth(),dob.getDate());
+  var until=dayDiff(to,nb);
+  return big("Your Age",a.y+" yıl, "+a.m+" ay, "+a.d+" gün")
+   +tbl(row("Yaşanan toplam gün",F(days,0))
+     +row("Total months",F(a.y*12+a.m,0)+" ay, "+a.d+" gün")
+     +row("Total weeks",F(Math.floor(days/7),0)+" hafta, "+(days%7)+" gün")
+     +row("Total hours",F(days*24,0))
+     +row("Born on",fdate(dob))
+     +row("Next birthday",fdate(nb)+" ("+until+" gün kaldı)"));
+ }},
+
+/* 2 — ZAKAT */
+"zakat-calculator":{
+ fields:[
+  {id:"cash",l:"Eldeki nakit (Rs)",t:"n"},
+  {id:"bank",l:"Banka bakiyesi (Rs)",t:"n"},
+  {id:"gold_g",l:"Gold (grams)",t:"n"},
+  {id:"gold_rate",l:"Gram başına altın fiyatı (Rs)",t:"n"},
+  {id:"silver_g",l:"Silver (grams)",t:"n"},
+  {id:"silver_rate",l:"Gram başına gümüş fiyatı (Rs)",t:"n"},
+  {id:"goods",l:"İş malları / stok değeri (Rs)",t:"n"},
+  {id:"recv",l:"Başkalarının size borçlu olduğu para (Rs)",t:"n"},
+  {id:"debts",l:"Ödeyeceğiniz borçlarınız (Rs)",t:"n"}],
+ run:function(v){
+  var goldVal=N(v.gold_g)*N(v.gold_rate),silVal=N(v.silver_g)*N(v.silver_rate);
+  var assets=N(v.cash)+N(v.bank)+goldVal+silVal+N(v.goods)+N(v.recv);
+  var net=Math.max(0,assets-N(v.debts));
+  var nisabs=[];
+  if(N(v.gold_rate)>0)nisabs.push({n:"Gold nisab (87.48 g)",val:87.48*N(v.gold_rate)});
+  if(N(v.silver_rate)>0)nisabs.push({n:"Silver nisab (612.36 g)",val:612.36*N(v.silver_rate)});
+  var rows=tbl(row("Total assets",Rs(assets))+row("Debts",Rs(N(v.debts)))+row("Net servet (zekata tabi)",Rs(net)));
+  if(!nisabs.length)return rows+note("Nisabı kontrol etmek için, lütfen altın veya gümüşün gram başına fiyatını girin.");
+  var nisab=nisabs.reduce(function(a,b){return b.val<a.val?b:a;});
+  rows+=tbl(row("Kullanılan nisab (altın/gümüş değerinin düşüğü)",nisab.n+" = "+Rs(nisab.val)));
+  if(net>=nisab.val){
+    return big("Your Zakat (2.5%)",Rs(net*0.025))+rows
+      +note("Bu hesaplama, bir tahmindir. Zekatınız hakkındaki dini hükümler için, lütfen güvenilir bir alime (müftü) danışın.");
+  }
+  return big("Zakat Due","Rs 0 — nisabın altında")+rows
+    +note("Net servetiniz, nisabın altındadır ("+Rs(nisab.val)+"), yani bu tahmine göre, zekat farz değildir. Bir dini hüküm için, lütfen bir alime danışın.");
+ }},
+
+/* 3 — CGPA */
+"cgpa-calculator":{
+ fields:[
+  {id:"subjects",l:"Dersler (her biri için 100 üzerinden notlar + kredi saatleri)",t:"sub"},
+  {id:"prev_cgpa",l:"Önceki CGPA (varsa — yoksa boş bırakın)",t:"n"},
+  {id:"prev_cr",l:"Önceki toplam kredi saatleri",t:"n"}],
+ run:function(v){
+  function gp(m){if(m>=85)return 4.0;if(m>=80)return 3.7;if(m>=75)return 3.3;if(m>=70)return 3.0;
+    if(m>=65)return 2.7;if(m>=61)return 2.3;if(m>=58)return 2.0;if(m>=55)return 1.7;
+    if(m>=51)return 1.3;if(m>=50)return 1.0;return 0;}
+  var pts=0,cr=0,rows="";
+  for(var i=1;i<=8;i++){
+    var m=v["s"+i+"m"],c=N(v["s"+i+"c"]);
+    if(m===""||m===undefined||c<=0)continue;
+    var g=gp(N(m));pts+=g*c;cr+=c;
+    rows+=row("Subject "+i+" ("+F(N(m),0)+" not, "+c+" cr)",g.toFixed(2)+" not puanları");
+  }
+  if(cr===0)return "ERR:En az bir ders için not ve kredi saati girin.";
+  var sgpa=pts/cr,html=tbl(rows);
+  if(N(v.prev_cgpa)>0&&N(v.prev_cr)>0){
+    var cum=(N(v.prev_cgpa)*N(v.prev_cr)+pts)/(N(v.prev_cr)+cr);
+    return big("CGPA Değeriniz (kümülatif)",cum.toFixed(2))+html
+      +tbl(row("Bu dönem GPA",sgpa.toFixed(2))+row("Dönem kredi saatleri",F(cr,0)));
+  }
+  return big("GPA Değeriniz (bu dönem)",sgpa.toFixed(2))+html
+    +note("Grade points use the common HEC scale: 85+ = 4.0, 80 = 3.7, 75 = 3.3, 70 = 3.0, 65 = 2.7, 61 = 2.3, 58 = 2.0, 55 = 1.7, 51 = 1.3, 50 = 1.0. Your university may use a different scale.");
+ }},
+
+/* 4 — PERCENTAGE */
+"percentage-calculator":{
+ fields:[
+  {id:"mode",l:"Ne hesaplamak istiyorsunuz?",t:"s",o:[["of","Y değerinin %X değeri kaçtır?"],["iswhat","X, Y değerinin % kaçıdır?"],["change","X değerinden Y değerine yüzde değişim?"]]},
+  {id:"x",l:"X (first value)",t:"n",req:1},
+  {id:"y",l:"Y (second value)",t:"n",req:1}],
+ run:function(v){
+  var x=N(v.x),y=N(v.y);
+  if(v.mode==="of")return big("Result",F(x/100*y))+tbl(row("Formula",F(x,0)+"% \u00D7 "+F(y,0)+" \u00F7 100"));
+  if(v.mode==="iswhat"){if(y===0)return "ERR:Y, sıfır olamaz.";return big("Result",F(x/y*100)+"%")+tbl(row("Formula",F(x,0)+" \u00F7 "+F(y,0)+" \u00D7 100"));}
+  if(x===0)return "ERR:X (başlangıç değeri), sıfır olamaz.";
+  var ch=(y-x)/x*100;
+  return big("Change",(ch>=0?"+":"")+F(ch)+"%") + tbl(row("Difference",F(y-x))+row("Type",ch>=0?"Increase":"Decrease"));
+ }},
+
+/* 5 — HIJRI CONVERTER */
+"hijri-date-converter":{
+ fields:[
+  {id:"dir",l:"Direction",t:"s",o:[["toH","Gregorian (English) \u2192 Hijri (Islamic)"],["toG","Hijri (Islamic) \u2192 Gregorian (English)"]]},
+  {id:"gdate",l:"Miladi tarih (ilk yön için)",t:"d"},
+  {id:"hy",l:"Hicri yıl (ikinci yön için)",t:"n"},
+  {id:"hm",l:"Hijri month",t:"s",o:HIJRI_MONTHS.map(function(m,i){return [String(i+1),m];})},
+  {id:"hd",l:"Hijri day",t:"n"}],
+ run:function(v){
+  if(v.dir==="toG"){
+    var hy=N(v.hy),hm=N(v.hm),hd=N(v.hd);
+    if(hy<1||hd<1||hd>30)return "ERR:Geçerli bir Hicri yıl ve gün girin (1-30).";
+    var g=hijriToGreg(hy,hm,hd);
+    return big("Gregorian Date",fdate(g))
+      +tbl(row("Hijri date",hd+" "+HIJRI_MONTHS[hm-1]+" "+hy+" AH")+row("Day",fdate(g).split(",")[0]));
+  }
+  var gd=pdate(v.gdate);
+  if(!gd)return "ERR:Lütfen bir Miladi tarih seçin.";
+  var p=hijriParts(gd);
+  return big("Hijri Date",p.d+" "+HIJRI_MONTHS[p.m-1]+" "+p.y+" AH")
+    +tbl(row("Gregorian date",fdate(gd))+row("Hijri month",HIJRI_MONTHS[p.m-1])+row("Hijri year",p.y+" AH"))
+    +note("Tarihler, Ümmül-Kura takvimini izler ve ülkenizin resmi ay-gözlem takviminden bir gün farklı olabilir.");
+ }},
+
+/* 6 — EMI / LOAN */
+"emi-calculator":{
+ fields:[
+  {id:"amt",l:"Kredi tutarı (Rs)",t:"n",req:1},
+  {id:"rate",l:"Yıllık faiz / kar oranı (%)",t:"n",req:1},
+  {id:"ten",l:"Tenure",t:"n",req:1},
+  {id:"unit",l:"Tenure unit",t:"s",o:[["m","Months"],["y","Years"]]}],
+ run:function(v){
+  var P=N(v.amt),r=N(v.rate)/1200,n=N(v.ten)*(v.unit==="y"?12:1);
+  if(P<=0||n<=0)return "ERR:Geçerli bir kredi tutarı ve vade girin.";
+  var emi,total;
+  if(r===0){emi=P/n;total=P;}
+  else{var f=Math.pow(1+r,n);emi=P*r*f/(f-1);total=emi*n;}
+  return big("Monthly Payment",Rs(emi))
+   +tbl(row("Loan amount",Rs(P))+row("Toplam faiz / kar",Rs(total-P))
+     +row("Total payment",Rs(total))+row("Ödeme sayısı",F(n,0)));
+ }}
+};
+
+Object.assign(CALCS,{
+
+/* 7 — BMI */
+"bmi-calculator":{
+ fields:[
+  {id:"w",l:"Weight (kg)",t:"n",req:1},
+  {id:"hcm",l:"Boy (cm) — veya aşağıda fit/inç kullanın",t:"n"},
+  {id:"hft",l:"Boy fit (isteğe bağlı)",t:"n"},
+  {id:"hin",l:"Boy inç (isteğe bağlı)",t:"n"}],
+ run:function(v){
+  var w=N(v.w),h=N(v.hcm);
+  if(N(v.hft)>0||N(v.hin)>0)h=(N(v.hft)*12+N(v.hin))*2.54;
+  if(w<=0||h<=0)return "ERR:Geçerli bir kilo ve boy girin.";
+  var m=h/100,bmi=w/(m*m),cat;
+  if(bmi<18.5)cat="Underweight";else if(bmi<25)cat="Normal";
+  else if(bmi<30)cat="Overweight";else cat="Obese";
+  return big("Your BMI",F(bmi,1)+" — "+cat)
+   +tbl(row("Boyunuz için sağlıklı kilo",F(18.5*m*m,1)+" kg to "+F(24.9*m*m,1)+" kg")
+     +row("Height",F(h,0)+" cm")+row("Weight",F(w,1)+" kg"))
+   +note("BMI, yalnızca genel bir rehberdir ve sporculara veya her vücut tipine uymayabilir. Sağlık kararları için, lütfen bir doktora danışın.");
+ }},
+
+/* 8 — DAYS BETWEEN DATES */
+"days-between-dates-calculator":{
+ fields:[
+  {id:"s",l:"Start date",t:"d",req:1},
+  {id:"e",l:"End date",t:"d",def:"today"}],
+ run:function(v){
+  var a=pdate(v.s),b=pdate(v.e)||new Date();
+  if(!a)return "ERR:Lütfen bir başlangıç tarihi seçin.";
+  if(b<a){var t=a;a=b;b=t;}
+  var days=dayDiff(a,b),d=ymdDiff(a,b);
+  return big("Total Days",F(days,0))
+   +tbl(row("Breakdown",d.y+" yıl, "+d.m+" ay, "+d.d+" gün")
+     +row("Weeks",F(Math.floor(days/7),0)+" hafta, "+(days%7)+" gün")
+     +row("Bitiş tarihi dahil",F(days+1,0)+" gün")
+     +row("Total hours",F(days*24,0))+row("From",fdate(a))+row("To",fdate(b)));
+ }},
+
+/* 9 — COMPOUND INTEREST */
+"compound-interest-calculator":{
+ fields:[
+  {id:"p",l:"Başlangıç tutarı (Rs)",t:"n",req:1},
+  {id:"rate",l:"Yıllık faiz oranı (%)",t:"n",req:1},
+  {id:"yrs",l:"Years",t:"n",req:1},
+  {id:"freq",l:"Yılda bileşik sayısı",t:"s",o:[["1","Yearly (1)"],["2","Half-yearly (2)"],["4","Quarterly (4)"],["12","Monthly (12)"],["365","Daily (365)"]]},
+  {id:"dep",l:"Aylık mevduat (Rs, isteğe bağlı)",t:"n"}],
+ run:function(v){
+  var P=N(v.p),r=N(v.rate)/100,t=N(v.yrs),m=N(v.freq)||1,dep=N(v.dep);
+  if(P<0||t<=0)return "ERR:Lütfen geçerli değerler girin.";
+  var bal=P,rows="";
+  for(var yr=1;yr<=Math.min(t,50);yr++){
+    bal=P*Math.pow(1+r/m,m*yr);
+    if(dep>0&&r>0){var rm=r/12;bal+=dep*((Math.pow(1+rm,12*yr)-1)/rm)*(1);}
+    else if(dep>0){bal+=dep*12*yr;}
+    rows+=row("Year "+yr,Rs(bal));
+  }
+  var fin=P*Math.pow(1+r/m,m*t);
+  if(dep>0&&r>0){var rm2=r/12;fin+=dep*((Math.pow(1+rm2,12*t)-1)/rm2);}
+  else if(dep>0){fin+=dep*12*t;}
+  var invested=P+dep*12*t;
+  return big("Final Amount",Rs(fin))
+   +tbl(row("You invested",Rs(invested))+row("Interest earned",Rs(fin-invested)))
+   +tbl(rows);
+ }},
+
+/* 10 — MARKS PERCENTAGE */
+"marks-percentage-calculator":{
+ fields:[
+  {id:"obt",l:"Obtained marks",t:"n",req:1},
+  {id:"tot",l:"Total marks",t:"n",req:1}],
+ run:function(v){
+  var o=N(v.obt),t=N(v.tot);
+  if(t<=0||o<0||o>t)return "ERR:Geçerli notlar girin (alınan, toplamı aşamaz).";
+  var p=o/t*100,g;
+  if(p>=90)g="A+";else if(p>=80)g="A";else if(p>=70)g="B";else if(p>=60)g="C";else if(p>=50)g="D";else g="F (Fail)";
+  return big("Percentage",F(p)+"%")
+   +tbl(row("Not (yaygın ölçek)",g)+row("Obtained",F(o,0)+" / "+F(t,0))
+     +row("%90 için gereken notlar",F(Math.max(0,Math.ceil(0.9*t-o)),0)+" daha"));
+ }},
+
+/* 11 — ELECTRICITY BILL */
+"electricity-bill-calculator":{
+ fields:[
+  {id:"units",l:"Tüketilen birimler (kWh)",t:"n",req:1},
+  {id:"r1",l:"Tarife: birimler 1-100 (birim başına Rs)",t:"n",def:"23.51"},
+  {id:"r2",l:"Rate: units 101-200",t:"n",def:"30.07"},
+  {id:"r3",l:"Rate: units 201-300",t:"n",def:"33.39"},
+  {id:"r4",l:"Rate: units 301-400",t:"n",def:"36.50"},
+  {id:"r5",l:"Rate: units 401-700",t:"n",def:"39.47"},
+  {id:"r6",l:"Rate: units 700+",t:"n",def:"41.20"},
+  {id:"gst",l:"GST (%)",t:"n",def:"18"},
+  {id:"other",l:"Diğer ücretler (Rs) — FPA, sabit ücretler vb.",t:"n"}],
+ run:function(v){
+  var u=N(v.units);
+  if(u<=0)return "ERR:Lütfen tüketilen birimleri girin.";
+  var slabs=[[100,N(v.r1)],[100,N(v.r2)],[100,N(v.r3)],[100,N(v.r4)],[300,N(v.r5)],[Infinity,N(v.r6)]];
+  var left=u,cost=0,rows="";
+  for(var i=0;i<slabs.length&&left>0;i++){
+    var take=Math.min(left,slabs[i][0]),c=take*slabs[i][1];
+    cost+=c;left-=take;
+    rows+=row("Slab "+(i+1)+" — "+F(take,0)+" units \u00D7 Rs "+F(slabs[i][1]),Rs(c));
+  }
+  var gst=cost*N(v.gst)/100,total=cost+gst+N(v.other);
+  return big("Estimated Bill",Rs(total))
+   +tbl(rows)+tbl(row("Energy cost",Rs(cost))+row("GST ("+F(N(v.gst),0)+"%)",Rs(gst))
+     +row("Other charges",Rs(N(v.other)))+row("Birim başına ortalama tarife",Rs(total/u)))
+   +note("This is an estimate only. Rates change over time and differ by company (LESCO, IESCO, K-Electric and others) — for the closest estimate, type the slab rates printed on your latest bill into the fields above; every rate can be edited.");
+ }},
+
+/* 12 — MARLA / KANAL AREA CONVERTER */
+"marla-kanal-area-converter":{
+ fields:[
+  {id:"val",l:"Değer (ne kadar alan?)",t:"n",req:1},
+  {id:"from",l:"From Unit",t:"s",o:[["sqft","Square Feet"],["sqyd","Yardakare (Gaj)"],["sqm","Square Metres"],["marla","Marla"],["kanal","Kanal"],["acre","Acre"],["hectare","Hectare"]]},
+  {id:"msize",l:"Marla size",t:"s",o:[["272.25","Standart — 272.25 fitkare"],["225","Eski / küçük — 225 fitkare"]]}],
+ run:function(v){
+  var ms=N(v.msize)||272.25;
+  var base={"sqft":1,"sqyd":9,"sqm":10.7639,"marla":ms,"kanal":20*ms,"acre":43560,"hectare":107639};
+  var labels={"sqft":"Square Feet","sqyd":"Yardakare (Gaj)","sqm":"Square Metres","marla":"Marla","kanal":"Kanal","acre":"Acre","hectare":"Hectare"};
+  var val=N(v.val);
+  if(val<=0)return "ERR:Lütfen geçerli bir değer girin.";
+  var inFt=val*base[v.from],rows="";
+  for(var k in base)rows+=row(labels[k],F(inFt/base[k],4));
+  return big(labels[v.from]+" \u2192 all units","")+tbl(rows)
+   +note("1 Kanal = 20 Marla. 1 Acre = 8 Kanal = 43,560 sq ft. In some areas a marla is 225 sq ft instead of the standard 272.25 — you can select the size above.");
+ }},
+
+/* 13 — SALARY / TAX (PAKISTAN) */
+"salary-calculator":{
+ fields:[
+  {id:"gross",l:"Aylık brüt maaş (Rs)",t:"n",req:1},
+  {id:"mode",l:"Tax method",t:"s",o:[["pk","Pakistan maaşlı vergi dilimleri (Vergi Yılı 2026)"],["flat","Özel sabit % (aşağıya girin)"]]},
+  {id:"flat",l:"Özel vergi (%) — yalnızca sabit mod için",t:"n"}],
+ run:function(v){
+  var g=N(v.gross);
+  if(g<=0)return "ERR:Lütfen geçerli bir maaş girin.";
+  var annual=g*12,taxA;
+  if(v.mode==="flat"){taxA=annual*N(v.flat)/100;}
+  else{
+    var slabs=[[600000,0,0],[600000,6000,0.01],[1000000,6000,0.01],[1000000,116000,0.11],[1000000,346000,0.23],[900000,346000,0.30],[Infinity,616000,0.35]];
+    /* progressive: [width, baseTaxAtStartOfThisBand... handled below] */
+    var bands=[[600000,0],[600000,0.01],[1000000,0.11],[1000000,0.23],[900000,0.30],[Infinity,0.35]];
+    var bases=[0,0,6000,116000,346000,616000];
+    taxA=0;var rem=annual;
+    for(var i=0;i<bands.length;i++){
+      var w=bands[i][0];
+      if(rem>w){taxA=bases[i]+w*bands[i][1];rem-=w;}
+      else{taxA=bases[i]+rem*bands[i][1];rem=0;break;}
+    }
+    if(rem>0){/* beyond last finite band already handled by Infinity width */}
+  }
+  var taxM=taxA/12;
+  return big("Net Aylık Maaş",Rs(g-taxM))
+   +tbl(row("Gross monthly",Rs(g))+row("Aylık vergi",Rs(taxM))
+     +row("Yıllık vergi",Rs(taxA))+row("Efektif vergi oranı",F(taxA/annual*100)+"%")
+     +row("Net yearly",Rs(annual-taxA)))
+   +note("Pakistan maaşlı gelir vergisi dilimlerine dayanır, Vergi Yılı 2026 için. Vergi oranları, bütçede değişebilir — nihai rakamlar için, en son FBR tablosunu veya maaş bordronuzu kontrol edin.");
+ }}
+});
+
+Object.assign(CALCS,{
+
+/* 14 — DISCOUNT */
+"discount-calculator":{
+ fields:[
+  {id:"price",l:"Orijinal fiyat (Rs)",t:"n",req:1},
+  {id:"d1",l:"Discount (%)",t:"n",req:1},
+  {id:"d2",l:"Üstüne ekstra indirim (%) — isteğe bağlı",t:"n"},
+  {id:"tax",l:"İndirimden sonra eklenecek Vergi / GST (%) — isteğe bağlı",t:"n"}],
+ run:function(v){
+  var p=N(v.price);
+  if(p<=0)return "ERR:Lütfen geçerli bir fiyat girin.";
+  var after=p*(1-N(v.d1)/100)*(1-N(v.d2)/100);
+  var fin=after*(1+N(v.tax)/100);
+  return big("Final Price",Rs(fin))
+   +tbl(row("Original price",Rs(p))+row("İndirimlerden sonra fiyat",Rs(after))
+     +row("You save",Rs(p-after))+row("Effective discount",F((p-after)/p*100)+"%"));
+ }},
+
+/* 15 — CGPA TO PERCENTAGE */
+"cgpa-to-percentage-calculator":{
+ fields:[
+  {id:"val",l:"CGPA / GPA Değeriniz",t:"n",req:1},
+  {id:"scale",l:"Scale",t:"s",o:[["10","10 üzerinden (CGPA)"],["4","4 üzerinden (GPA)"],["c","Özel çarpan (aşağıya girin)"]]},
+  {id:"mult",l:"Özel çarpan — yalnızca özel ölçek için",t:"n",def:"9.5"}],
+ run:function(v){
+  var x=N(v.val),pct,how;
+  if(x<=0)return "ERR:Lütfen geçerli bir CGPA girin.";
+  if(v.scale==="10"){if(x>10)return "ERR:10 ölçeğinde, CGPA, 10 değerini aşamaz.";pct=x*9.5;how="CGPA \u00D7 9.5";}
+  else if(v.scale==="4"){if(x>4)return "ERR:4 ölçeğinde, GPA, 4 değerini aşamaz.";pct=x/4*100;how="GPA \u00F7 4 \u00D7 100";}
+  else{var m=N(v.mult);if(m<=0)return "ERR:Lütfen bir çarpan girin.";pct=x*m;how="CGPA \u00D7 "+F(m);}
+  return big("Percentage",F(pct)+"%")+tbl(row("Formula used",how))
+   +note("Every board and university may use its own formula (for example CBSE uses CGPA \u00D7 9.5). For official use, please confirm the formula with your board or university.");
+ }},
+
+/* 16 — TIME CALCULATOR */
+"time-calculator":{
+ fields:[
+  {id:"op",l:"Operation",t:"s",o:[["add","Add"],["sub","Subtract"]]},
+  {id:"h1",l:"Time 1 — Hours",t:"n"},{id:"m1",l:"Time 1 — Minutes",t:"n"},{id:"s1",l:"Time 1 — Seconds",t:"n"},
+  {id:"h2",l:"Time 2 — Hours",t:"n"},{id:"m2",l:"Time 2 — Minutes",t:"n"},{id:"s2",l:"Time 2 — Seconds",t:"n"}],
+ run:function(v){
+  var a=N(v.h1)*3600+N(v.m1)*60+N(v.s1),b=N(v.h2)*3600+N(v.m2)*60+N(v.s2);
+  var t=v.op==="sub"?a-b:a+b;
+  if(t<0)return "ERR:Sonuç negatiftir — Zaman 1, Zaman 2 değerinden küçüktür.";
+  var d=Math.floor(t/86400),h=Math.floor(t%86400/3600),m=Math.floor(t%3600/60),s=Math.floor(t%60);
+  return big("Result",(d>0?d+"d ":"")+h+"h : "+m+"m : "+s+"s")
+   +tbl(row("Total hours",F(t/3600,4))+row("Total minutes",F(t/60,2))+row("Total seconds",F(t,0)));
+ }},
+
+/* 17 — PREGNANCY DUE DATE */
+"pregnancy-due-date-calculator":{
+ fields:[{id:"lmp",l:"Son adetinizin ilk günü (LMP)",t:"d",req:1}],
+ run:function(v){
+  var lmp=pdate(v.lmp);
+  if(!lmp)return "ERR:Lütfen LMP tarihini seçin.";
+  var today=new Date();today.setHours(0,0,0,0);
+  if(lmp>today)return "ERR:LMP tarihi, geçmişte olmalıdır.";
+  var due=new Date(lmp.getTime()+280*86400000);
+  var days=dayDiff(lmp,today),wk=Math.floor(days/7),wd=days%7;
+  var tri=wk<14?"First (1st)":(wk<28?"Second (2nd)":"Third (3rd)");
+  var left=dayDiff(today,due);
+  return big("Beklenen Doğum Tarihi",fdate(due))
+   +tbl(row("Hamilelik süreniz (yaklaşık)",wk+" hafta, "+wd+" gün")
+     +row("Trimester",tri)+row("Doğum tarihine kalan günler",left>0?F(left,0):"Doğum tarihi geçti")
+     +row("Estimated conception",fdate(new Date(lmp.getTime()+14*86400000))))
+   +note("Bu tahmin, düzenli bir 28 günlük döngü varsayar. Doğru rehberlik için, lütfen doktorunuza veya jinekoloğunuza danışın.");
+ }},
+
+/* 18 — SIMPLE INTEREST */
+"simple-interest-calculator":{
+ fields:[
+  {id:"p",l:"Anapara tutarı (Rs)",t:"n",req:1},
+  {id:"rate",l:"Yıllık faiz oranı (%)",t:"n",req:1},
+  {id:"yrs",l:"Years",t:"n"},
+  {id:"mos",l:"Months (additional)",t:"n"}],
+ run:function(v){
+  var P=N(v.p),r=N(v.rate),t=N(v.yrs)+N(v.mos)/12;
+  if(P<=0||t<=0)return "ERR:Geçerli bir tutar ve süre girin.";
+  var I=P*r*t/100;
+  return big("Total Amount",Rs(P+I))
+   +tbl(row("Principal",Rs(P))+row("Interest earned",Rs(I))+row("Time",F(t,2)+" yıl"));
+ }},
+
+/* 19 — ATTENDANCE */
+"attendance-calculator":{
+ fields:[
+  {id:"held",l:"Yapılan toplam dersler (şimdiye kadar)",t:"n",req:1},
+  {id:"att",l:"Classes attended",t:"n",req:1},
+  {id:"target",l:"Target attendance (%)",t:"n",def:"75"}],
+ run:function(v){
+  var h=N(v.held),a=N(v.att),tg=N(v.target)/100;
+  if(h<=0||a<0||a>h)return "ERR:Geçerli sayılar girin (katılınan, yapılanı aşamaz).";
+  if(tg<=0||tg>=1)return "ERR:Hedefi, %1 ve %99 arasında tutun.";
+  var cur=a/h*100,html=big("Current Attendance",F(cur)+"%");
+  if(cur/100>=tg){
+    var miss=Math.floor(a/tg-h);
+    html+=tbl(row("Status","Target achieved \u2713")+row("Hala kaçırabileceğiniz dersler",F(Math.max(0,miss),0)));
+  }else{
+    var need=Math.ceil((tg*h-a)/(1-tg));
+    html+=tbl(row("Status","Below target")+row("Üst üste katılınacak dersler",F(need,0)+" daha, hiç kaçırmadan"));
+  }
+  return html+note("This shows your current position; the final percentage also depends on how many classes remain in the term.");
+ }},
+
+/* 20 — LOVE CALCULATOR (fun) */
+"love-calculator":{
+ fields:[
+  {id:"n1",l:"Your name",t:"t",req:1},
+  {id:"n2",l:"Partnerin / aşkınızın adı",t:"t",req:1}],
+ run:function(v){
+  var a=(v.n1||"").trim().toLowerCase(),b=(v.n2||"").trim().toLowerCase();
+  if(!a||!b)return "ERR:Lütfen her iki adı da girin.";
+  var s=a+"\u2764"+b,h=0;
+  for(var i=0;i<s.length;i++)h+=s.charCodeAt(i)*(i+7);
+  var pct=41+(h%60),msg;
+  if(pct>=90)msg="Made for each other! \uD83D\uDC98";
+  else if(pct>=75)msg="A wonderful match \u2764\uFE0F";
+  else if(pct>=60)msg="Great chemistry \uD83D\uDE0A";
+  else msg="Friendship is beautiful too \uD83D\uDE04";
+  return big(a+" \u2764 "+b,pct+"%")+tbl(row("Result",msg))
+   +note("This is just for fun — real love is never measured by a calculator. \uD83D\uDE0A");
+ }}
+});
+
+Object.assign(CALCS,{
+
+/* 21 — LOAN (BATCH 2) */
+"loan-calculator":{
+ fields:[
+  {id:"amt",l:"Kredi tutarı (Rs)",t:"n",req:1},
+  {id:"rate",l:"Yıllık faiz oranı (%)",t:"n",req:1},
+  {id:"ten",l:"Tenure",t:"n",req:1},
+  {id:"unit",l:"Tenure unit",t:"s",o:[["m","Months"],["y","Years"]]}],
+ run:function(v){
+  var P=N(v.amt),r=N(v.rate)/1200,n=N(v.ten)*(v.unit==="y"?12:1);
+  if(P<=0||n<=0)return "ERR:Geçerli bir kredi tutarı ve vade girin.";
+  var pay,total;
+  if(r===0){pay=P/n;total=P;}
+  else{var f=Math.pow(1+r,n);pay=P*r*f/(f-1);total=pay*n;}
+  return big("Monthly Payment",Rs(pay))
+   +tbl(row("Loan amount",Rs(P))+row("Total interest",Rs(total-P))
+     +row("Total payment",Rs(total))+row("Ödeme sayısı",F(n,0)))
+   +note("Bu, eşit aylık ödemelere dayanan bir tahmindir. Bankanız, işlem ücretleri, sigorta veya vergiler ekleyebilir — imzalamadan önce, her zaman nihai programı onaylayın.");
+ }},
+
+/* 22 — MORTGAGE (BATCH 2) */
+"mortgage-calculator":{
+ fields:[
+  {id:"price",l:"Ev fiyatı (Rs)",t:"n",req:1},
+  {id:"down",l:"Peşinat (Rs)",t:"n",req:1},
+  {id:"rate",l:"Yıllık faiz oranı (%)",t:"n",req:1},
+  {id:"yrs",l:"Kredi vadesi (yıl)",t:"n",req:1}],
+ run:function(v){
+  var price=N(v.price),down=N(v.down),loan=price-down,r=N(v.rate)/1200,n=N(v.yrs)*12;
+  if(price<=0||down<0||loan<=0||n<=0)return "ERR:Geçerli bir ev fiyatı ve fiyattan küçük bir peşinat girin.";
+  var pay,total;
+  if(r===0){pay=loan/n;total=loan;}
+  else{var f=Math.pow(1+r,n);pay=loan*r*f/(f-1);total=pay*n;}
+  return big("Monthly Payment",Rs(pay))
+   +tbl(row("Home price",Rs(price))+row("Down payment",Rs(down))+row("Loan amount",Rs(loan))
+     +row("Total interest",Rs(total-loan))+row("Evin toplam maliyeti",Rs(total+down)))
+   +note("Yalnızca tahmin — vergiler, sigorta, değerleme ve banka ücretleri dahil değildir. Kesin rakamları, bankanız veya konut finansmanı sağlayıcınızla onaylayın.");
+ }},
+
+/* 23 — SAVINGS (BATCH 2) */
+"savings-calculator":{
+ fields:[
+  {id:"dep",l:"Aylık mevduat (Rs)",t:"n",req:1},
+  {id:"rate",l:"Yıllık faiz oranı (%)",t:"n",req:1},
+  {id:"yrs",l:"Years",t:"n",req:1}],
+ run:function(v){
+  var dep=N(v.dep),rate=N(v.rate),yrs=N(v.yrs),r=rate/1200,n=yrs*12;
+  if(dep<=0||yrs<=0)return "ERR:Geçerli bir aylık mevduat ve yıl sayısı girin.";
+  var fv,depTotal=dep*n;
+  if(r===0)fv=depTotal;
+  else fv=dep*((Math.pow(1+r,n)-1)/r)*(1+r); /* deposit at the start of each month */
+  return big("Future Value",Rs(fv))
+   +tbl(row("Total deposited",Rs(depTotal))+row("Interest earned",Rs(fv-depTotal))
+     +row("Monthly deposit",Rs(dep))+row("Mevduat sayısı",F(n,0)))
+   +note("Sabit bir oran, aylık bileşik ve her mevduatın, ayın BAŞINDA yapıldığını varsayar. Gerçek tasarruf hesapları ve şemalar, karı farklı şekilde kredilendirebilir.");
+ }},
+
+/* 24 — INVESTMENT (BATCH 2) */
+"investment-calculator":{
+ fields:[
+  {id:"init",l:"Başlangıç tutarı (Rs)",t:"n",req:1},
+  {id:"add",l:"Aylık ekleme (Rs, isteğe bağlı)",t:"n"},
+  {id:"rate",l:"Beklenen yıllık getiri (%)",t:"n",req:1},
+  {id:"yrs",l:"Years",t:"n",req:1}],
+ run:function(v){
+  var P=N(v.init),add=N(v.add),rate=N(v.rate),yrs=N(v.yrs),r=rate/1200,n=yrs*12;
+  if(P<0||yrs<=0||(P===0&&add<=0))return "ERR:Bir başlangıç tutarı veya bir aylık ekleme ve yıl sayısını girin.";
+  var fv;
+  if(r===0)fv=P+add*n;
+  else fv=P*Math.pow(1+r,n)+add*((Math.pow(1+r,n)-1)/r); /* additions at month end */
+  var invested=P+add*n;
+  return big("Future Value",Rs(fv))
+   +tbl(row("Total invested",Rs(invested))+row("Total gain",Rs(fv-invested))
+     +row("Initial amount",Rs(P))+row("Aylık eklemeler toplamı",Rs(add*n)))
+   +note("Aylık bileşikli sabit bir getiri ve her ayın SONUNDA yapılan eklemeler varsayar. Gerçek yatırımlar, yükselir ve düşer — geçmiş performans, gelecekteki getirileri asla garanti etmez.");
+ }},
+
+/* 25 — TIP (BATCH 2) */
+"tip-calculator":{
+ fields:[
+  {id:"bill",l:"Bill amount",t:"n",req:1},
+  {id:"tip",l:"Tip (%)",t:"n",req:1,def:"10"},
+  {id:"people",l:"Bölen kişi sayısı",t:"n",req:1,def:"1"}],
+ run:function(v){
+  var bill=N(v.bill),tipPct=N(v.tip),ppl=Math.floor(N(v.people));
+  if(bill<=0)return "ERR:Geçerli bir fatura tutarı girin.";
+  if(ppl<1)return "ERR:Kişi sayısı, en az 1 olmalıdır.";
+  var tip=bill*tipPct/100,total=bill+tip;
+  return big("Ödenecek Toplam",Rs(total))
+   +tbl(row("Bill amount",Rs(bill))+row("Tip ("+F(tipPct,0)+"%)",Rs(tip))
+     +row("Per person ("+ppl+(ppl===1?" kişi":" kişi")+")",Rs(total/ppl))
+     +row("Kişi başına bahşiş",Rs(tip/ppl)))
+   +note("Bahşiş adetleri, ülkeye ve hizmet kalitesine göre değişir — %10, yaygın bir başlangıç noktasıdır ve cömert hizmet, genellikle %15-20 kazandırır.");
+ }},
+
+/* 26 — VAT / GST (BATCH 2) */
+"vat-calculator":{
+ fields:[
+  {id:"amt",l:"Amount",t:"n",req:1},
+  {id:"rate",l:"KDV / GST / satış vergisi oranı (%)",t:"n",req:1,def:"18"},
+  {id:"mode",l:"Mode",t:"s",o:[["add","Vergi ekleyin — tutarım, vergi OLMADAN (net)"],["remove","Vergiyi çıkarın — tutarım, vergiyi İÇERİR (brüt)"]]}],
+ run:function(v){
+  var a=N(v.amt),rate=N(v.rate),net,tax,gross;
+  if(a<=0)return "ERR:Geçerli bir tutar girin.";
+  if(rate<0)return "ERR:Vergi oranı, negatif olamaz.";
+  if(v.mode==="remove"){gross=a;net=a/(1+rate/100);tax=gross-net;}
+  else{net=a;tax=a*rate/100;gross=net+tax;}
+  return big("Brüt Tutar (vergiyle)",Rs(gross))
+   +tbl(row("Net tutar (vergisiz)",Rs(net))+row("Tax amount ("+F(rate,0)+"%)",Rs(tax))
+     +row("Brüt tutar (vergiyle)",Rs(gross)))
+   +note("KDV, GST ve satış vergisi için, dünyanın her yerinde çalışır. Oranlar, ülkeye ve ürüne göre değişir — alışverişiniz veya faturanız için geçerli olan oranı girin.");
+ }},
+
+/* 27 — BMR & TDEE (BATCH 2) */
+"bmr-calculator":{
+ fields:[
+  {id:"sex",l:"Gender",t:"s",o:[["m","Male"],["f","Female"]]},
+  {id:"age",l:"Age (years)",t:"n",req:1},
+  {id:"w",l:"Weight (kg)",t:"n",req:1},
+  {id:"h",l:"Height (cm)",t:"n",req:1},
+  {id:"act",l:"Activity level",t:"s",o:[["1.2","Hareketsiz — masa başı iş, az egzersiz"],["1.375","Hafif — haftada 1-3 gün egzersiz"],["1.55","Orta — haftada 3-5 gün egzersiz"],["1.725","Aktif — haftada 6-7 gün egzersiz"],["1.9","Sporcu — çok zor günlük antrenman"]]}],
+ run:function(v){
+  var age=N(v.age),w=N(v.w),h=N(v.h),act=N(v.act)||1.2;
+  if(age<=0||w<=0||h<=0)return "ERR:Geçerli bir yaş, kilo ve boy girin.";
+  var bmr=10*w+6.25*h-5*age+(v.sex==="f"?-161:5);
+  var tdee=bmr*act;
+  return big("TDEE Değeriniz (günlük kalori)",F(tdee,0)+" kcal")
+   +tbl(row("BMR (tam dinlenmede yakılan kalori)",F(bmr,0)+" kcal")
+     +row("TDEE (BMR \u00D7 activity)",F(tdee,0)+" kcal"))
+   +note("En yaygın kullanılan tahmin olan, Mifflin-St Jeor formülüyle hesaplanır. Gerçek metabolizmanız, farklı olabilir — bunu, tıbbi bir ölçüm değil, bir başlangıç noktası olarak ele alın.");
+ }},
+
+/* 28 — DAILY CALORIES (BATCH 2) */
+"calorie-calculator":{
+ fields:[
+  {id:"sex",l:"Gender",t:"s",o:[["m","Male"],["f","Female"]]},
+  {id:"age",l:"Age (years)",t:"n",req:1},
+  {id:"w",l:"Weight (kg)",t:"n",req:1},
+  {id:"h",l:"Height (cm)",t:"n",req:1},
+  {id:"act",l:"Activity level",t:"s",o:[["1.2","Hareketsiz — masa başı iş, az egzersiz"],["1.375","Hafif — haftada 1-3 gün egzersiz"],["1.55","Orta — haftada 3-5 gün egzersiz"],["1.725","Aktif — haftada 6-7 gün egzersiz"],["1.9","Sporcu — çok zor günlük antrenman"]]},
+  {id:"goal",l:"Your goal",t:"s",o:[["maintain","Kilomu koruyun"],["lose","Lose weight"],["gain","Gain weight"]]}],
+ run:function(v){
+  var age=N(v.age),w=N(v.w),h=N(v.h),act=N(v.act)||1.2;
+  if(age<=0||w<=0||h<=0)return "ERR:Geçerli bir yaş, kilo ve boy girin.";
+  var bmr=10*w+6.25*h-5*age+(v.sex==="f"?-161:5);
+  var tdee=bmr*act,target=tdee,gnote="mevcut kilonuzu korumak için";
+  if(v.goal==="lose"){target=tdee-500;gnote="haftada, yaklaşık 0.5 kg vermek için";}
+  if(v.goal==="gain"){target=tdee+500;gnote="haftada, yaklaşık 0.5 kg almak için";}
+  var clamped=false;
+  if(target<1200){target=1200;clamped=true;}
+  return big("Günlük Kalori Hedefiniz",F(target,0)+" kcal")
+   +tbl(row("Koruma kalorileri (TDEE)",F(tdee,0)+" kcal")
+     +row("Your goal","Eat "+F(target,0)+" günlük kcal "+gnote))
+   +(clamped?note("Güvenlik minimumu uygulandı: günde, 1,200 kcal değerinden az yemek, tıbbi gözetim olmadan önerilmez; yani hedefiniz, 1,200 kcal değerine ayarlandı."):note("500 kcal günlük fark, kiloyu, haftada, kabaca 0.5 kg değiştirir. Tıbbi gözetim olmadan, asla günde, 1,200 kcal değerinin altına inmeyin — ve kişisel bir diyet planı için, lütfen bir doktora veya diyetisyene danışın."));
+ }},
+
+/* 29 — WATER INTAKE (BATCH 2) */
+"water-intake-calculator":{
+ fields:[
+  {id:"w",l:"Kilonuz (kg)",t:"n",req:1},
+  {id:"ex",l:"Günlük egzersiz (dakika)",t:"n",def:"0"}],
+ run:function(v){
+  var w=N(v.w),ex=N(v.ex);
+  if(w<=0)return "ERR:Geçerli bir kilo girin.";
+  var ml=w*35+(ex/30)*350;
+  return big("Önerilen Su Alımı",F(ml/1000,2)+" günlük litre")
+   +tbl(row("In millilitres",F(ml,0)+" ml")
+     +row("Bardak olarak (her biri 250 ml)",F(ml/250,1)+" bardak")
+     +row("Kilonuzdan (kg başına 35 ml)",F(w*35,0)+" ml")
+     +row("Egzersiz için ekstra",F((ex/30)*350,0)+" ml"))
+   +note("Genel bir rehber: vücut ağırlığının kg başına, 35 ml, ayrıca her 30 dakikalık egzersiz için, yaklaşık 350 ml. Sıcak hava, fiziksel çalışma ve hastalık, ihtiyacınızı artırır — ve sade susuzluk da yararlı bir işarettir.");
+ }},
+
+/* 30 — IDEAL WEIGHT (BATCH 2) */
+"ideal-weight-calculator":{
+ fields:[
+  {id:"sex",l:"Gender",t:"s",o:[["m","Male"],["f","Female"]]},
+  {id:"h",l:"Height (cm)",t:"n",req:1}],
+ run:function(v){
+  var h=N(v.h);
+  if(h<=0)return "ERR:Geçerli bir boy girin.";
+  var m=h/100,over=h/2.54-60;
+  var devine=(v.sex==="f"?45.5:50)+2.3*over;
+  return big("İdeal Kilonuz (Devine formülü)",F(devine,1)+" kg")
+   +tbl(row("Boyunuz için sağlıklı BMI kilo aralığı",F(18.5*m*m,1)+" kg to "+F(24.9*m*m,1)+" kg")
+     +row("Height",F(h,0)+" cm")+row("Sağlıklı BMI aralığı","18.5 to 24.9"))
+   +note("Devine formülü ve BMI aralığı, genel nüfus rehberleridir. Kas, kemik yapısı ve sağlık koşulları da önemlidir — kişisel tavsiye için, bir doktora danışın.");
+ }},
+
+/* 31 — DATE CALCULATOR ADD/SUBTRACT (BATCH 2) */
+"date-calculator":{
+ fields:[
+  {id:"s",l:"Start date",t:"d",req:1},
+  {id:"op",l:"Operation",t:"s",o:[["add","Tarihe ekleyin"],["sub","Tarihten çıkarın"]]},
+  {id:"d",l:"Days",t:"n",def:"0"},
+  {id:"wk",l:"Weeks",t:"n",def:"0"},
+  {id:"mo",l:"Months",t:"n",def:"0"},
+  {id:"yr",l:"Years",t:"n",def:"0"}],
+ run:function(v){
+  var s=pdate(v.s);
+  if(!s)return "ERR:Lütfen bir başlangıç tarihi seçin.";
+  var sgn=v.op==="sub"?-1:1;
+  var out=new Date(s.getFullYear(),s.getMonth(),s.getDate());
+  out.setFullYear(out.getFullYear()+sgn*N(v.yr));
+  out.setMonth(out.getMonth()+sgn*N(v.mo));
+  out.setDate(out.getDate()+sgn*(N(v.d)+N(v.wk)*7));
+  var moved=Math.abs(dayDiff(s,out));
+  return big("Resulting Date",fdate(out))
+   +tbl(row("Start date",fdate(s))
+     +row("Change",(v.op==="sub"?"\u2212 ":"")+F(Math.abs(N(v.yr)),0)+" yıl, "+F(Math.abs(N(v.mo)),0)+" ay, "+F(Math.abs(N(v.wk)),0)+" hafta, "+F(Math.abs(N(v.d)),0)+" gün")
+     +row("Kaydırılan toplam günler",F(moved,0)));
+ }},
+
+/* 32 — WORKING DAYS (BATCH 2) */
+"working-days-calculator":{
+ fields:[
+  {id:"s",l:"Start date",t:"d",req:1},
+  {id:"e",l:"End date",t:"d",def:"today"}],
+ run:function(v){
+  var a=pdate(v.s),b=pdate(v.e)||new Date();
+  if(!a)return "ERR:Lütfen bir başlangıç tarihi seçin.";
+  if(b<a){var t=a;a=b;b=t;}
+  var total=0,work=0,weekend=0,cur=new Date(a.getTime());
+  while(cur<=b){
+    total++;
+    var dw=cur.getDay();
+    if(dw===0||dw===6)weekend++;else work++;
+    cur.setDate(cur.getDate()+1);
+    if(total>36600)return "ERR:O tarih aralığı, çok büyüktür (100 yıldan fazla).";
+  }
+  return big("Çalışma Günleri (Pzt-Cum)",F(work,0))
+   +tbl(row("Toplam günler (her iki tarih dahil)",F(total,0))
+     +row("Hafta sonu günleri (Cmt-Paz)",F(weekend,0))
+     +row("From",fdate(a))+row("To",fdate(b)))
+   +note("Çalışma günleri, burada, Pazartesi ile Cuma arası anlamına gelir. Resmi tatiller, ülkeye göre değişir ve çıkarılmaz — kesin izin veya son gün planlaması için, yerel tatil takviminizi kontrol edin.");
+ }},
+
+/* 33 — OVULATION (BATCH 2) */
+"ovulation-calculator":{
+ fields:[
+  {id:"lmp",l:"Son adetinizin ilk günü",t:"d",req:1},
+  {id:"cycle",l:"Döngü uzunluğu (gün)",t:"n",req:1,def:"28"}],
+ run:function(v){
+  var lmp=pdate(v.lmp),cyc=N(v.cycle);
+  if(!lmp)return "ERR:Lütfen son adetinizin ilk gününü seçin.";
+  if(cyc<21||cyc>40)return "ERR:21 ve 40 gün arasında bir döngü uzunluğu girin.";
+  function add(d,n){return new Date(d.getTime()+n*86400000);}
+  var ov=add(lmp,cyc-14),fert=add(ov,-5),next=add(lmp,cyc),due=add(ov,266);
+  return big("Tahmini Yumurtlama Günü",fdate(ov))
+   +tbl(row("Fertile window",fdate(fert)+" to "+fdate(ov))
+     +row("Sonraki adet bekleniyor",fdate(next))
+     +row("Gebe kalırsanız, tahmini doğum tarihi",fdate(due)))
+   +note("Bu, ortalama bir döngüye dayanan bir tahmindir: yumurtlamanın, sonraki adetten 14 gün önce gerçekleştiği varsayılır. Gerçek döngüler, aydan aya değişir — bu hesaplayıcı, tıbbi bir cihaz değildir ve doğum kontrolü olarak güvenilmemelidir. Gebelik planlaması veya endişeler için, lütfen bir doktora danışın.");
+ }},
+
+/* 34 — FUEL COST (BATCH 2) */
+"fuel-cost-calculator":{
+ fields:[
+  {id:"dist",l:"Distance (km)",t:"n",req:1},
+  {id:"mil",l:"Araç kilometresi (litre başına km)",t:"n",req:1},
+  {id:"price",l:"Yakıt fiyatı (litre başına)",t:"n",req:1},
+  {id:"trip",l:"Trip type",t:"s",o:[["one","One way"],["round","Round trip"]]}],
+ run:function(v){
+  var d=N(v.dist),mil=N(v.mil),price=N(v.price);
+  if(d<=0||mil<=0||price<=0)return "ERR:Geçerli bir mesafe, kilometre ve yakıt fiyatı girin.";
+  var totalDist=v.trip==="round"?d*2:d;
+  var litres=totalDist/mil,cost=litres*price;
+  return big("Toplam Yakıt Maliyeti",Rs(cost))
+   +tbl(row("Total distance",F(totalDist,0)+" km")
+     +row("Fuel needed",F(litres,2)+" litre")
+     +row("Litre başına yakıt fiyatı",Rs(price))
+     +row("Km başına maliyet",Rs(cost/totalDist)))
+   +note("Aracınızın ortalama kilometresine dayanan bir tahmin. Trafik, klima, yük ve yol koşulları, gerçek tüketimi değiştirir — uzun yolculuklar için, küçük bir tampon tutun.");
+ }},
+
+/* 35 — UNIT CONVERTER (BATCH 2) */
+"unit-converter":{
+ fields:[
+  {id:"cat",l:"Category",t:"s",o:[["length","Length"],["weight","Weight"],["temperature","Temperature"],["volume","Volume"],["area","Area"]]},
+  {id:"val",l:"Dönüştürülecek değer",t:"n",req:1},
+  {id:"from",l:"From Unit",t:"s",o:[["mm","Length \u2014 Millimetre (mm)"],["cm","Length \u2014 Centimetre (cm)"],["m","Length \u2014 Metre (m)"],["km","Length \u2014 Kilometre (km)"],["in","Length \u2014 Inch"],["ft","Length \u2014 Foot"],["yd","Length \u2014 Yard"],["mi","Length \u2014 Mile"],["g","Weight \u2014 Gram (g)"],["kg","Weight \u2014 Kilogram (kg)"],["t","Weight \u2014 Tonne"],["lb","Weight \u2014 Pound (lb)"],["oz","Weight \u2014 Ounce (oz)"],["c","Temperature \u2014 Celsius (\u00B0C)"],["f","Temperature \u2014 Fahrenheit (\u00B0F)"],["k","Temperature \u2014 Kelvin (K)"],["ml","Volume \u2014 Millilitre (ml)"],["l","Volume \u2014 Litre (L)"],["gal","Volume \u2014 US Gallon"],["m3","Volume \u2014 Cubic Metre (m\u00B3)"],["m2","Area \u2014 Square Metre (m\u00B2)"],["ft2","Area \u2014 Square Foot (ft\u00B2)"],["yd2","Area \u2014 Square Yard (yd\u00B2)"],["acre","Area \u2014 Acre"],["ha","Area \u2014 Hectare"]]},
+  {id:"to",l:"To Unit",t:"s",o:[["mm","Length \u2014 Millimetre (mm)"],["cm","Length \u2014 Centimetre (cm)"],["m","Length \u2014 Metre (m)"],["km","Length \u2014 Kilometre (km)"],["in","Length \u2014 Inch"],["ft","Length \u2014 Foot"],["yd","Length \u2014 Yard"],["mi","Length \u2014 Mile"],["g","Weight \u2014 Gram (g)"],["kg","Weight \u2014 Kilogram (kg)"],["t","Weight \u2014 Tonne"],["lb","Weight \u2014 Pound (lb)"],["oz","Weight \u2014 Ounce (oz)"],["c","Temperature \u2014 Celsius (\u00B0C)"],["f","Temperature \u2014 Fahrenheit (\u00B0F)"],["k","Temperature \u2014 Kelvin (K)"],["ml","Volume \u2014 Millilitre (ml)"],["l","Volume \u2014 Litre (L)"],["gal","Volume \u2014 US Gallon"],["m3","Volume \u2014 Cubic Metre (m\u00B3)"],["m2","Area \u2014 Square Metre (m\u00B2)"],["ft2","Area \u2014 Square Foot (ft\u00B2)"],["yd2","Area \u2014 Square Yard (yd\u00B2)"],["acre","Area \u2014 Acre"],["ha","Area \u2014 Hectare"]]}],
+ run:function(v){
+  var FACT={
+   length:{base:"metres",u:{mm:0.001,cm:0.01,m:1,km:1000,"in":0.0254,ft:0.3048,yd:0.9144,mi:1609.344},lab:{mm:"millimetres",cm:"centimetres",m:"metres",km:"kilometres","in":"inches",ft:"feet",yd:"yards",mi:"miles"}},
+   weight:{base:"kilograms",u:{g:0.001,kg:1,t:1000,lb:0.45359237,oz:0.028349523125},lab:{g:"grams",kg:"kilograms",t:"tonnes",lb:"pounds",oz:"ounces"}},
+   volume:{base:"litres",u:{ml:0.001,l:1,gal:3.785411784,m3:1000},lab:{ml:"millilitres",l:"litres",gal:"US gallons",m3:"cubic metres"}},
+   area:{base:"square metres",u:{m2:1,ft2:0.09290304,yd2:0.83612736,acre:4046.8564224,ha:10000},lab:{m2:"square metres",ft2:"square feet",yd2:"square yards",acre:"acres",ha:"hectares"}}};
+  var val=N(v.val),cat=v.cat;
+  if(v.from===v.to&&val!==0){/* same unit: handled naturally below */}
+  if(cat==="temperature"){
+    if(["c","f","k"].indexOf(v.from)<0||["c","f","k"].indexOf(v.to)<0)
+      return "ERR:For Temperature, choose the From and To units from the Temperature group (\u00B0C, \u00B0F, K).";
+    var cval=v.from==="c"?val:(v.from==="f"?(val-32)*5/9:val-273.15);
+    var out=v.to==="c"?cval:(v.to==="f"?cval*9/5+32:cval+273.15);
+    var names={c:"\u00B0C",f:"\u00B0F",k:"K"};
+    return big(F(val)+names[v.from]+" =",F(out)+" "+names[v.to])
+     +tbl(row("In Celsius",F(cval)+"\u00B0C")+row("In Fahrenheit",F(cval*9/5+32)+"\u00B0F")+row("In Kelvin",F(cval+273.15)+" K"))
+     +note("Temperature is converted with the exact formulas: \u00B0F = \u00B0C \u00D7 9/5 + 32 and K = \u00B0C + 273.15.");
+  }
+  var C=FACT[cat];
+  if(!C||!(v.from in C.u)||!(v.to in C.u))
+    return "ERR:Kimden ve Kime birimleri, her ikisi de seçilen kategoriye ait olmalıdır. Kategoriyi değiştirin veya birimleri, onun grubundan seçin.";
+  var res=val*C.u[v.from]/C.u[v.to];
+  return big(F(val)+" "+C.lab[v.from]+" =",F(res,4)+" "+C.lab[v.to])
+   +tbl(row("Category",cat.charAt(0).toUpperCase()+cat.slice(1))+row("Result in "+C.base,F(val*C.u[v.from],4)))
+   +note("Conversions use exact international standard factors (for example 1 mile = 1,609.344 metres and 1 pound = 0.45359237 kg). Results are rounded to 4 decimal places.");
+ }}});
+
+Object.assign(CALCS,{
+
+/* 36 — PROFIT MARGIN (BATCH 3) */
+"profit-margin-calculator":{
+ fields:[
+  {id:"cost",l:"Maliyet fiyatı (ürün, size ne kadara mal olur)",t:"n",req:1},
+  {id:"price",l:"Satış fiyatı (müşteri, ne kadar öder)",t:"n",req:1}],
+ run:function(v){
+  var cost=N(v.cost),price=N(v.price);
+  if(cost<=0)return "ERR:Maliyet fiyatı, sıfırdan büyük olmalıdır.";
+  if(price<=0)return "ERR:Satış fiyatı, sıfırdan büyük olmalıdır.";
+  var profit=price-cost;
+  return big(profit>=0?"Profit":"Zarar (negatif kar)",Rs(profit))
+   +tbl(row("Cost price",Rs(cost))+row("Selling price",Rs(price))
+     +row("Kar marjı (satış fiyatında)",F(profit/price*100)+"%")
+     +row("Markalama (maliyet fiyatında)",F(profit/cost*100)+"%"))
+   +note("Margin and markup describe the same profit in two different ways: margin is measured against the selling price, markup against the cost price. Margin can never exceed 100%; markup can.");
+ }},
+
+/* 37 — BREAK-EVEN (BATCH 3) */
+"break-even-calculator":{
+ fields:[
+  {id:"fixed",l:"Toplam sabit maliyetler (Rs)",t:"n",req:1},
+  {id:"price",l:"Birim başına satış fiyatı (Rs)",t:"n",req:1},
+  {id:"varcost",l:"Birim başına değişken maliyet (Rs)",t:"n",req:1}],
+ run:function(v){
+  var fixed=N(v.fixed),price=N(v.price),vc=N(v.varcost),contrib=price-vc;
+  if(fixed<0||price<=0||vc<0)return "ERR:Geçerli maliyetler ve sıfırdan büyük bir satış fiyatı girin.";
+  if(contrib<=0)return "ERR:The selling price must be higher than the variable cost per unit \u2014 otherwise every sale loses money and break-even is impossible.";
+  var units=Math.ceil(fixed/contrib);
+  return big("Break-Even Point",F(units,0)+" birim")
+   +tbl(row("Break-even revenue",Rs(units*price))
+     +row("Contribution per unit (price \u2212 variable cost)",Rs(contrib))
+     +row("Fixed costs",Rs(fixed))
+     +row("Birim başına satış fiyatı",Rs(price)))
+   +note("Birimler, sonraki tam birime YUKARI yuvarlanır; çünkü bir birimin kesri, satılamaz. Başabaş noktasının ötesinde satılan her birim, şunu ekler "+Rs(contrib)+" kar (birim başına katkı).");
+ }},
+
+/* 38 — ROI (BATCH 3) */
+"roi-calculator":{
+ fields:[
+  {id:"invested",l:"Yatırılan tutar (Rs)",t:"n",req:1},
+  {id:"returned",l:"İade edilen tutar / mevcut değer (Rs)",t:"n",req:1},
+  {id:"yrs",l:"Years held",t:"n",req:1}],
+ run:function(v){
+  var inv=N(v.invested),ret=N(v.returned),yrs=N(v.yrs);
+  if(inv<=0)return "ERR:Yatırılan tutar, sıfırdan büyük olmalıdır.";
+  if(ret<0)return "ERR:İade edilen tutar, negatif olamaz.";
+  if(yrs<=0)return "ERR:Tutulan yıl sayısını girin (sıfırdan büyük).";
+  var profit=ret-inv,total=profit/inv*100,ann=(Math.pow(ret/inv,1/yrs)-1)*100;
+  return big("Total ROI",F(total)+"%")
+   +tbl(row("Amount invested",Rs(inv))+row("Amount returned",Rs(ret))
+     +row(profit>=0?"Profit":"Loss",Rs(profit))
+     +row("Yıllıklandırılmış ROI (yıllık)",F(ann)+"%")
+     +row("Years held",F(yrs)))
+   +note("Annualized ROI is the steady yearly growth rate that would carry the invested amount to the returned amount \u2014 it lets you compare investments held for different lengths of time.");
+ }},
+
+/* 39 — SIP (BATCH 3) */
+"sip-calculator":{
+ fields:[
+  {id:"monthly",l:"Aylık yatırım (Rs)",t:"n",req:1},
+  {id:"rate",l:"Beklenen yıllık getiri (%)",t:"n",req:1},
+  {id:"yrs",l:"Years",t:"n",req:1}],
+ run:function(v){
+  var P=N(v.monthly),rate=N(v.rate),yrs=N(v.yrs),r=rate/1200,n=yrs*12;
+  if(P<=0||yrs<=0)return "ERR:Geçerli bir aylık yatırım ve yıl sayısı girin.";
+  var fv;
+  if(r===0)fv=P*n;else fv=P*((Math.pow(1+r,n)-1)/r)*(1+r);
+  var invested=P*n;
+  return big("Öngörülen Gelecek Değer",Rs(fv))
+   +tbl(row("Total invested",Rs(invested))+row("Estimated gains",Rs(fv-invested))
+     +row("Monthly investment",Rs(P))+row("Yatırım sayısı",F(n,0)))
+   +note("Assumes each monthly investment is made at the START of the month, with monthly compounding. The return is a projection using the rate you enter \u2014 real market returns are never guaranteed and never grow in a straight line.");
+ }},
+
+/* 40 — FIXED DEPOSIT (BATCH 3) */
+"fixed-deposit-calculator":{
+ fields:[
+  {id:"amt",l:"Mevduat tutarı (Rs)",t:"n",req:1},
+  {id:"rate",l:"Yıllık faiz oranı (%)",t:"n",req:1},
+  {id:"ten",l:"Tenure",t:"n",req:1},
+  {id:"unit",l:"Tenure unit",t:"s",o:[["m","Months"],["y","Years"]]},
+  {id:"freq",l:"Compounding frequency",t:"s",o:[["4","Üç aylık (yılda 4 kez)"],["2","Half-yearly (2)"],["1","Yearly (1)"],["12","Monthly (12)"]]}],
+ run:function(v){
+  var P=N(v.amt),rate=N(v.rate),ten=N(v.ten),f=N(v.freq)||4;
+  if(P<=0||ten<=0)return "ERR:Geçerli bir mevduat tutarı ve vade girin.";
+  var t=v.unit==="y"?ten:ten/12;
+  var A=P*Math.pow(1+rate/100/f,f*t);
+  var flab={"1":"Yearly","2":"Half-yearly","4":"Quarterly","12":"Monthly"}[v.freq]||"Quarterly";
+  return big("Maturity Value",Rs(A))
+   +tbl(row("Deposit amount",Rs(P))+row("Interest earned",Rs(A-P))
+     +row("Annual rate",F(rate)+"%")
+     +row("Tenure",F(ten,0)+(v.unit==="y"?" yıl":" ay"))
+     +row("Compounding",flab))
+   +note("The rate of a fixed deposit is fixed when you open it. Early withdrawal usually earns a lower rate, and tax may apply to the interest \u2014 check your bank's current terms.");
+ }},
+
+/* 41 — RECURRING DEPOSIT (BATCH 3) */
+"recurring-deposit-calculator":{
+ fields:[
+  {id:"dep",l:"Aylık mevduat (Rs)",t:"n",req:1},
+  {id:"rate",l:"Yıllık faiz oranı (%)",t:"n",req:1},
+  {id:"mos",l:"Tenure (months)",t:"n",req:1}],
+ run:function(v){
+  var P=N(v.dep),rate=N(v.rate),mos=N(v.mos);
+  if(P<=0||mos<=0)return "ERR:Geçerli bir aylık mevduat ve ay olarak vade girin.";
+  var i=rate/100/4,fv;
+  if(i===0)fv=P*mos;
+  else{var q=Math.pow(1+i,1/3);fv=P*q*(Math.pow(q,mos)-1)/(q-1);}
+  return big("Maturity Value",Rs(fv))
+   +tbl(row("Total deposited",Rs(P*mos))+row("Interest earned",Rs(fv-P*mos))
+     +row("Monthly deposit",Rs(P))+row("Tenure",F(mos,0)+" ay"))
+   +note("Standart banka yöntemiyle hesaplanır: faiz, üç ayda bir bileşir (her 3 ayda) ve her mevduatın, ayın BAŞINDA yapıldığı varsayılır. Bir mevduatı kaçırmak, genellikle küçük bir banka cezası çeker ve vade değerini, biraz düşürür.");
+ }},
+
+/* 42 — GRATUITY (BATCH 3) */
+"gratuity-calculator":{
+ fields:[
+  {id:"salary",l:"Last drawn monthly salary (Rs) \u2014 basic + dearness allowance",t:"n",req:1},
+  {id:"yrs",l:"Tamamlanan hizmet yılları",t:"n",req:1}],
+ run:function(v){
+  var sal=N(v.salary),yrs=N(v.yrs);
+  if(sal<=0)return "ERR:Son çekilen aylık maaşınızı girin.";
+  if(yrs<=0)return "ERR:Tamamlanan hizmet yıllarınızı girin.";
+  var g=sal*yrs;
+  return big("Estimated Gratuity",Rs(g))
+   +tbl(row("Son çekilen aylık maaş",Rs(sal))
+     +row("Tamamlanan hizmet yılları",F(yrs))
+     +row("Formula","Monthly salary \u00D7 years of service (30 days' wages per year)"))
+   +note("This estimate uses the convention common in Pakistan: gratuity equal to 30 days' wages for every completed year of service \u2014 one month's last drawn salary per year. It is an estimate only: your employer's rules, your employment category and the current law decide the exact amount.");
+ }},
+
+/* 43 — RETIREMENT (BATCH 3) */
+"retirement-calculator":{
+ fields:[
+  {id:"cage",l:"Mevcut yaşınız",t:"n",req:1},
+  {id:"rage",l:"Planlanan emeklilik yaşı",t:"n",req:1},
+  {id:"sav",l:"Mevcut tasarruflar (Rs)",t:"n"},
+  {id:"mon",l:"Aylık katkı (Rs)",t:"n"},
+  {id:"rate",l:"Beklenen yıllık getiri (%)",t:"n",req:1}],
+ run:function(v){
+  var cage=N(v.cage),rage=N(v.rage),sav=N(v.sav),mon=N(v.mon),rate=N(v.rate);
+  var yrs=rage-cage;
+  if(cage<=0||rage<=0)return "ERR:Mevcut yaşınızı ve planlanan emeklilik yaşınızı girin.";
+  if(yrs<=0)return "ERR:Emeklilik yaşı, mevcut yaşınızdan büyük olmalıdır.";
+  if(sav<0||mon<0||(sav===0&&mon===0))return "ERR:Mevcut tasarruflarınızı veya bir aylık katkı girin.";
+  var n=yrs*12,r=rate/1200,corpus;
+  if(r===0)corpus=sav+mon*n;
+  else corpus=sav*Math.pow(1+r,n)+mon*((Math.pow(1+r,n)-1)/r);
+  var contrib=sav+mon*n;
+  return big("Emeklilikte Öngörülen Külliyat",Rs(corpus))
+   +tbl(row("Emekliliğe kadar yıllar",F(yrs,0))
+     +row("Current savings",Rs(sav))
+     +row("Koyacağınız toplam",Rs(contrib))
+     +row("Büyüme (faiz / getiriler)",Rs(corpus-contrib)))
+   +note("Assumes contributions at the END of each month with monthly compounding, at the steady return you enter. The corpus is in future rupees \u2014 inflation will reduce what it buys, so also try our Inflation Calculator for a realistic target.");
+ }},
+
+/* 44 — INFLATION (BATCH 3) */
+"inflation-calculator":{
+ fields:[
+  {id:"amt",l:"Amount (Rs)",t:"n",req:1},
+  {id:"rate",l:"Yıllık enflasyon oranı (%)",t:"n",req:1},
+  {id:"yrs",l:"Years",t:"n",req:1}],
+ run:function(v){
+  var amt=N(v.amt),rate=N(v.rate),yrs=N(v.yrs);
+  if(amt<=0||yrs<=0)return "ERR:Geçerli bir tutar ve yıl sayısı girin.";
+  var f=Math.pow(1+rate/100,yrs);
+  return big("Aynı Malların Gelecek Maliyeti",Rs(amt*f))
+   +tbl(row("Amount today",Rs(amt))
+     +row("O tutarın, satın alma gücü, şurada "+F(yrs,0)+" yıl",Rs(amt/f))
+     +row("Inflation rate",F(rate)+"% per year")
+     +row("Kaybedilen satın alma gücü",F((1-1/f)*100)+"%"))
+   +note("Money that does not grow loses buying power every year. To keep up, savings and investments need to earn at least the inflation rate \u2014 just to stand still.");
+ }},
+
+/* 45 — CAGR (BATCH 3) */
+"cagr-calculator":{
+ fields:[
+  {id:"begin",l:"Başlangıç değeri (Rs)",t:"n",req:1},
+  {id:"end",l:"Bitiş değeri (Rs)",t:"n",req:1},
+  {id:"yrs",l:"Yıl sayısı",t:"n",req:1}],
+ run:function(v){
+  var b=N(v.begin),e=N(v.end),yrs=N(v.yrs);
+  if(b<=0)return "ERR:Başlangıç değeri, sıfırdan büyük olmalıdır.";
+  if(e<0)return "ERR:Bitiş değeri, negatif olamaz.";
+  if(yrs<=0)return "ERR:Yıl sayısını girin (sıfırdan büyük).";
+  var cagr=(Math.pow(e/b,1/yrs)-1)*100;
+  return big("CAGR",F(cagr)+"% per year")
+   +tbl(row("Beginning value",Rs(b))+row("Ending value",Rs(e))
+     +row("Total growth",F((e-b)/b*100)+"%")
+     +row("Years",F(yrs)))
+   +note("CAGR is the steady yearly rate that would carry the beginning value to the ending value with smooth compounding. Real growth is never this smooth \u2014 CAGR is a comparison tool, not a history of what happened in between.");
+ }},
+
+/* 46 — AVERAGE (BATCH 3) */
+"average-calculator":{
+ fields:[
+  {id:"nums",l:"Your numbers (separated by commas or spaces \u2014 up to 50)",t:"t",req:1,ph:"e.g. 10, 20, 30, 40"}],
+ run:function(v){
+  var raw=(v.nums||"").split(/[\s,;]+/).filter(function(x){return x.length>0;});
+  if(raw.length>50)return "ERR:Lütfen en fazla 50 sayı girin.";
+  var arr=parseList(v.nums);
+  if(!arr)return "ERR:Lütfen yalnızca sayılar girin, virgüllerle veya boşluklarla ayrılmış.";
+  var sorted=arr.slice().sort(function(a,b){return a-b;});
+  var sum=arr.reduce(function(a,b){return a+b;},0),n=arr.length;
+  return big("Mean (Average)",F(sum/n))
+   +tbl(row("Medyan (orta değer)",F(medianSorted(sorted)))
+     +row("Mod (en sık)",modeText(arr))
+     +row("Sum",F(sum))+row("Count",F(n,0))
+     +row("Minimum",F(sorted[0]))+row("Maximum",F(sorted[n-1]))
+     +row("Range (max \u2212 min)",F(sorted[n-1]-sorted[0])))
+   +note("The mean suits evenly spread numbers. When a few extreme values pull the mean away from the typical value \u2014 incomes are the classic example \u2014 the median describes the middle better.");
+ }},
+
+/* 47 — RATIO (BATCH 3) */
+"ratio-calculator":{
+ fields:[
+  {id:"a",l:"First value (A)",t:"n",req:1},
+  {id:"b",l:"Second value (B)",t:"n",req:1},
+  {id:"total",l:"Bu oranda bölünecek toplam (isteğe bağlı)",t:"n"}],
+ run:function(v){
+  var a=N(v.a),b=N(v.b);
+  if(a<=0||b<=0)return "ERR:Her iki değeri de sıfırdan büyük girin.";
+  function decs(x){var s=String(x),p=s.indexOf(".");return p<0?0:Math.min(6,s.length-p-1);}
+  var scale=Math.pow(10,Math.max(decs(a),decs(b)));
+  var ai=Math.round(a*scale),bi=Math.round(b*scale),g=gcd2(ai,bi);
+  var sa=ai/g,sb=bi/g,parts=sa+sb;
+  var rows=row("Original ratio",F(a)+" : "+F(b))+row("Total parts",F(parts,0));
+  var tot=N(v.total);
+  if(tot>0){
+    rows+=row("A Payı (şundan "+F(tot)+")",F(tot*sa/parts))
+         +row("B Payı (şundan "+F(tot)+")",F(tot*sb/parts));
+  }
+  return big("Simplified Ratio",sa+" : "+sb)+tbl(rows)
+   +note("Her iki taraf, en basit tam-sayı oranına ulaşmak için, en büyük ortak bölenlerine bölündü. Parayı, malzemeleri veya başka herhangi bir şeyi, tam olarak bu oranda bölmek için, yukarıya bir toplam ekleyin.");
+ }},
+
+/* 48 — FRACTION (BATCH 3) */
+"fraction-calculator":{
+ fields:[
+  {id:"n1",l:"First fraction \u2014 numerator (top number)",t:"n",req:1},
+  {id:"d1",l:"First fraction \u2014 denominator (bottom number)",t:"n",req:1},
+  {id:"op",l:"Operation",t:"s",o:[["add","Add (+)"],["sub","Subtract (\u2212)"],["mul","Multiply (\u00D7)"],["div","Divide (\u00F7)"]]},
+  {id:"n2",l:"Second fraction \u2014 numerator (top number)",t:"n",req:1},
+  {id:"d2",l:"Second fraction \u2014 denominator (bottom number)",t:"n",req:1}],
+ run:function(v){
+  var n1=N(v.n1),d1=N(v.d1),n2=N(v.n2),d2=N(v.d2);
+  if(!Number.isInteger(n1)||!Number.isInteger(d1)||!Number.isInteger(n2)||!Number.isInteger(d2))
+    return "ERR:Please enter whole numbers for both fractions (write decimals as fractions, e.g. 0.5 = 1/2).";
+  if(d1===0||d2===0)return "ERR:Bir payda, sıfır olamaz.";
+  var rn,rd,sym;
+  if(v.op==="add"){rn=n1*d2+n2*d1;rd=d1*d2;sym="+";}
+  else if(v.op==="sub"){rn=n1*d2-n2*d1;rd=d1*d2;sym="\u2212";}
+  else if(v.op==="mul"){rn=n1*n2;rd=d1*d2;sym="\u00D7";}
+  else{
+    if(n2===0)return "ERR:You cannot divide by a fraction whose numerator is zero \u2014 that is dividing by zero.";
+    rn=n1*d2;rd=d1*n2;sym="\u00F7";
+  }
+  if(rd<0){rn=-rn;rd=-rd;}
+  var g=gcd2(rn,rd);rn/=g;rd/=g;
+  var sign=rn<0?"\u2212":"",an=Math.abs(rn),whole=Math.floor(an/rd),rem=an%rd;
+  var fracStr,mixedStr;
+  if(rd===1){fracStr=sign+an;mixedStr=fracStr;}
+  else if(whole>0&&rem>0){fracStr=sign+an+"/"+rd;mixedStr=sign+whole+" "+rem+"/"+rd;}
+  else{fracStr=sign+an+"/"+rd;mixedStr=fracStr;}
+  return big("Result",fracStr)
+   +tbl(row("Karma sayı olarak",mixedStr)
+     +row("As a decimal",F(rn/rd,4))
+     +row("Calculation",F(n1,0)+"/"+F(d1,0)+" "+sym+" "+F(n2,0)+"/"+F(d2,0)))
+   +note("Cevap, payı ve paydasını, en büyük ortak bölenlerine bölerek sadeleştirilir.");
+ }},
+
+/* 49 — STATISTICS (BATCH 3) */
+"statistics-calculator":{
+ fields:[
+  {id:"nums",l:"Your numbers (separated by commas or spaces \u2014 up to 50)",t:"t",req:1,ph:"e.g. 4, 8, 15, 16, 23, 42"}],
+ run:function(v){
+  var raw=(v.nums||"").split(/[\s,;]+/).filter(function(x){return x.length>0;});
+  if(raw.length>50)return "ERR:Lütfen en fazla 50 sayı girin.";
+  var arr=parseList(v.nums);
+  if(!arr)return "ERR:Lütfen yalnızca sayılar girin, virgüllerle veya boşluklarla ayrılmış.";
+  var n=arr.length,sorted=arr.slice().sort(function(a,b){return a-b;});
+  var sum=arr.reduce(function(a,b){return a+b;},0),mean=sum/n;
+  var ss=arr.reduce(function(a,x){return a+(x-mean)*(x-mean);},0);
+  var pvar=ss/n,psd=Math.sqrt(pvar),svar=n>1?ss/(n-1):null;
+  return big("Mean",F(mean))
+   +tbl(row("Median",F(medianSorted(sorted)))
+     +row("Mode",modeText(arr))
+     +row("Range",F(sorted[n-1]-sorted[0]))
+     +row("Variance (population)",F(pvar))
+     +row("Standart sapma (nüfus)",F(psd))
+     +row("Variance (sample)",svar===null?"\u2014 (needs at least 2 numbers)":F(svar))
+     +row("Standart sapma (örneklem)",svar===null?"\u2014 (needs at least 2 numbers)":F(Math.sqrt(svar)))
+     +row("Sum",F(sum))+row("Count",F(n,0))
+     +row("Minimum",F(sorted[0]))+row("Maximum",F(sorted[n-1])))
+   +note("Use the population figures when your numbers are the complete set you care about; use the sample figures when they are a sample drawn from a larger group. Standard deviation measures how spread out the values are around the mean.");
+ }},
+
+/* 50 — LCM & HCF (BATCH 3) */
+"lcm-hcf-calculator":{
+ fields:[
+  {id:"a",l:"Birinci tam sayı",t:"n",req:1},
+  {id:"b",l:"İkinci tam sayı",t:"n",req:1},
+  {id:"c",l:"Üçüncü tam sayı (isteğe bağlı)",t:"n"}],
+ run:function(v){
+  var a=N(v.a),b=N(v.b),hasC=(v.c!==undefined&&String(v.c).trim()!==""),c=hasC?N(v.c):0;
+  if(!Number.isInteger(a)||!Number.isInteger(b)||a<1||b<1)return "ERR:İlk iki sayı için, en az 1 değerinde tam sayılar girin.";
+  if(hasC&&(!Number.isInteger(c)||c<1))return "ERR:Üçüncü sayı, en az 1 değerinde bir tam sayı olmalıdır (veya boş bırakın).";
+  var h=gcd2(a,b),l=lcm2(a,b),label=F(a,0)+" ve "+F(b,0);
+  if(hasC){h=gcd2(h,c);l=lcm2(l,c);label+=", "+F(c,0);}
+  return big("LCM (En Küçük Ortak Kat)",F(l,0))
+   +tbl(row("HCF (En Büyük Ortak Bölen / GCD)",F(h,0))
+     +row("Numbers",label))
+   +note("The HCF is the largest number that divides each of yours exactly; the LCM is the smallest number that each of yours divides into exactly. Both are workhorses for fractions, ratios and scheduling problems.");
+ }},
+
+/* 51 — EXPONENT (BATCH 3) */
+"exponent-calculator":{
+ fields:[
+  {id:"base",l:"Base number",t:"n",req:1},
+  {id:"exp",l:"Exponent (power) \u2014 can be negative or a fraction like 0.5",t:"n",req:1}],
+ run:function(v){
+  if(v.base===""||v.base===undefined||v.exp===""||v.exp===undefined)return "ERR:Hem bir taban hem bir üs girin.";
+  var b=N(v.base),e=N(v.exp);
+  if(b===0&&e<=0)return "ERR:Sıfır, sıfır veya negatif bir kuvvete yükseltilemez.";
+  var res=Math.pow(b,e);
+  if(typeof res!=="number"||isNaN(res))return "ERR:This has no real-number answer \u2014 a negative base with a fractional exponent is not a real number.";
+  if(!isFinite(res))return "ERR:Sonuç, görüntülemek için çok büyüktür.";
+  return big("Result",F(res,6))
+   +tbl(row("Calculation",F(b)+" ^ "+F(e))
+     +row("Tabanın karesi ("+F(b)+"\u00B2)",F(b*b))
+     +row("Tabanın küpü ("+F(b)+"\u00B3)",F(b*b*b))
+     +row("Tabanın karekökü",b<0?"Gerçek bir sayı değil":F(Math.sqrt(b),4))
+     +row("Tabanın küpkökü",F(Math.cbrt(b),4)))
+   +note("A fractional exponent is a root in disguise: power 0.5 means square root, power 1/3 means cube root. A negative exponent flips the value into a fraction: base^-2 = 1 \u00F7 (base \u00D7 base).");
+ }},
+
+/* 52 — SQUARE ROOT (BATCH 3) */
+"square-root-calculator":{
+ fields:[
+  {id:"num",l:"Sayı (0 veya daha büyük)",t:"n",req:1}],
+ run:function(v){
+  if(v.num===""||v.num===undefined)return "ERR:Lütfen bir sayı girin.";
+  var x=N(v.num);
+  if(x<0)return "ERR:Enter a number of 0 or greater \u2014 negative numbers have no real square root.";
+  return big("Square Root",F(Math.sqrt(x),4))
+   +tbl(row("Cube root",F(Math.cbrt(x),4))
+     +row("Fourth root",F(Math.pow(x,0.25),4))
+     +row("Fifth root",F(Math.pow(x,0.2),4))
+     +row("Square ("+F(x,0)+"\u00B2)",F(x*x))
+     +row("Cube ("+F(x,0)+"\u00B3)",F(x*x*x)))
+   +note("The square root of a number is the value that, multiplied by itself, gives the number back \u2014 for example 12 \u00D7 12 = 144, so the square root of 144 is 12. Higher roots work the same way with more multiplications.");
+ }},
+
+/* 53 — CREDIT CARD PAYOFF (BATCH 3) */
+"credit-card-payoff-calculator":{
+ fields:[
+  {id:"bal",l:"Mevcut kart bakiyesi (Rs)",t:"n",req:1},
+  {id:"apr",l:"Card APR \u2014 annual interest rate (%)",t:"n",req:1},
+  {id:"pay",l:"Sabit aylık ödeme (Rs)",t:"n",req:1}],
+ run:function(v){
+  var B=N(v.bal),apr=N(v.apr),pay=N(v.pay);
+  if(B<=0)return "ERR:Mevcut kart bakiyenizi girin.";
+  if(apr<0)return "ERR:APR, negatif olamaz.";
+  if(pay<=0)return "ERR:Yapabileceğiniz aylık ödemeyi girin.";
+  var r=apr/100/12,firstInt=B*r;
+  if(pay<=firstInt)return "ERR:Aylık ödemeniz, şu "+Rs(pay)+", ilk ayın faizini karşılamaz, şu "+Rs(firstInt)+" \u2014 with this payment the balance would grow instead of shrinking, and could never be cleared. Increase the monthly payment.";
+  var bal=B,months=0,totalInt=0;
+  while(bal>0){
+    var interest=bal*r;totalInt+=interest;
+    var due=bal+interest,pmt=Math.min(pay,due);
+    bal=due-pmt;months++;
+    if(months>1200)return "ERR:This would take over 100 years to pay off \u2014 the payment is too close to the monthly interest. Increase the monthly payment.";
+  }
+  var rows=row("Card balance",Rs(B))+row("Monthly payment",Rs(pay))
+    +row("Ödeyeceğiniz toplam faiz",Rs(totalInt))
+    +row("Toplam ödenen",Rs(B+totalInt));
+  if(months>=12)rows+=row("Yıl olarak süre","About "+Math.floor(months/12)+(Math.floor(months/12)===1?" yıl":" yıl")+(months%12?" ve "+(months%12)+" ay":""));
+  return big("Ödeme Süresi",months+(months===1?" ay":" ay"))
+   +tbl(rows)
+   +note("Kartta yeni harcama, ücret veya ceza olmadığını ve her ay, aynı sabit ödemeyi varsayar. Her ay, biraz daha fazla ödemek bile, faizi keskin şekilde keser; çünkü faiz, yalnızca kalan bakiyeden alınır.");
+ }}});
+
+
+Object.assign(CALCS,{
+
+/* 54 — CAR LOAN (BATCH 4) */
+"car-loan-calculator":{
+ fields:[
+  {id:"price",l:"Araç fiyatı (Rs)",t:"n",req:1},
+  {id:"down",l:"Peşinat (Rs)",t:"n",req:1},
+  {id:"rate",l:"Yıllık faiz oranı (%)",t:"n",req:1},
+  {id:"yrs",l:"Kredi vadesi (yıl)",t:"n",req:1}],
+ run:function(v){
+  var price=N(v.price),down=N(v.down),loan=price-down,r=N(v.rate)/1200,n=N(v.yrs)*12;
+  if(price<=0||down<0||loan<=0||n<=0)return "ERR:Geçerli bir araç fiyatı ve fiyattan küçük bir peşinat girin.";
+  var pay,total;
+  if(r===0){pay=loan/n;total=loan;}
+  else{var f=Math.pow(1+r,n);pay=loan*r*f/(f-1);total=pay*n;}
+  return big("Monthly Payment",Rs(pay))
+   +tbl(row("Vehicle price",Rs(price))+row("Down payment",Rs(down))+row("Loan amount",Rs(loan))
+     +row("Total interest",Rs(total-loan))+row("Aracın toplam maliyeti",Rs(total+down)))
+   +note("Yalnızca tahmin — kayıt, sigorta, işlem ücretleri ve vergiler dahil değildir. İmzalamadan önce, kesin rakamları ve ödeme programını, bankanız veya bayinizle onaylayın.");
+ }},
+
+/* 55 — GRADE (BATCH 4) */
+"grade-calculator":{
+ fields:[
+  {id:"rows",l:"Ödevler — her biri için skor ve ağırlık (kullanılmayan satırları boş bırakın)",t:"grow"}],
+ run:function(v){
+  var sw=0,tw=0,count=0;
+  for(var i=1;i<=8;i++){
+    var sRaw=v["g"+i+"s"],w=N(v["g"+i+"w"]);
+    if(sRaw===""||sRaw===undefined||w<=0)continue;
+    var s=N(sRaw);
+    if(s<0||s>100)return "ERR:Skorlar, 0 ve 100 arasında olmalıdır (ödev "+i+", aralık dışındadır).";
+    sw+=s*w;tw+=w;count++;
+  }
+  if(tw<=0)return "ERR:Skor ve ağırlık ile en az bir ödev girin.";
+  var overall=sw/tw,letter;
+  if(overall>=90)letter="A+";else if(overall>=80)letter="A";else if(overall>=70)letter="B";
+  else if(overall>=60)letter="C";else if(overall>=50)letter="D";else letter="F";
+  return big("Genel Notunuz",F(overall)+"% \u2014 "+letter)
+   +tbl(row("Assignments counted",F(count,0))+row("Sayılan toplam ağırlık",F(tw)+"%")
+     +row("Letter grade",letter))
+   +note("Ağırlıkların, 100 değerine toplanması GEREKMEZ: notunuz, gerçekten girdiğiniz ağırlıklar üzerinden normalize edilir; yani 50 toplamına karşı 40 ağırlığı, notun %80 değerini sayar. Not ölçekleri, okula ve ülkeye göre değişir — bu araç, 90 değerinde A+, 80 değerinde A, 70 değerinde B, 60 değerinde C ve 50 değerinde D kullanır.");
+ }},
+
+/* 56 — GPA (BATCH 4) */
+"gpa-calculator":{
+ fields:[
+  {id:"rows",l:"Dersler — her biri için harf notu ve kredi saatleri (kullanılmayan satırları boş bırakın)",t:"gparow"}],
+ run:function(v){
+  var PTS={"A":4.0,"A-":3.7,"B+":3.3,"B":3.0,"B-":2.7,"C+":2.3,"C":2.0,"C-":1.7,"D+":1.3,"D":1.0,"F":0};
+  var pts=0,cr=0,count=0;
+  for(var i=1;i<=8;i++){
+    var g=v["c"+i+"g"],c=N(v["c"+i+"c"]);
+    if(!g||c<=0||!(g in PTS))continue;
+    pts+=PTS[g]*c;cr+=c;count++;
+  }
+  if(cr<=0)return "ERR:Not ve kredi saatleri ile en az bir ders girin.";
+  var gpa=pts/cr;
+  return big("Your GPA",gpa.toFixed(2)+" / 4.0")
+   +tbl(row("Courses counted",F(count,0))+row("Toplam kredi saatleri",F(cr))
+     +row("Kazanılan not puanları",F(pts)))
+   +note("Uses the standard 4.0 scale: A = 4.0, A- = 3.7, B+ = 3.3, B = 3.0, B- = 2.7, C+ = 2.3, C = 2.0, C- = 1.7, D+ = 1.3, D = 1.0, F = 0. Some universities weight honours or AP courses differently — check your transcript for the official figure.");
+ }},
+
+/* 57 — PERCENTAGE TO CGPA (BATCH 4) */
+"percentage-to-cgpa-calculator":{
+ fields:[
+  {id:"pct",l:"Your percentage (%)",t:"n",req:1},
+  {id:"scale",l:"Hangi ölçeğe dönüştürülsün?",t:"s",o:[["10","10 üzerinden CGPA"],["4","4 üzerinden GPA"]]}],
+ run:function(v){
+  var p=N(v.pct);
+  if(p<0||p>100)return "ERR:0 ve 100 arasında bir yüzde girin.";
+  if(v.scale==="4"){
+    var gpa=p/100*4;
+    return big("Your GPA",F(gpa)+" / 4.0")
+     +tbl(row("Percentage",F(p)+"%")+row("Formula used","Percentage \u00F7 100 \u00D7 4"))
+     +note("Bu, birçok kurumun kullandığı, düz orantılı dönüşümdür. Kurulunuz veya üniversiteniz, kendi formülünü uygulayabilir — resmi kullanımdan önce onaylayın.");
+  }
+  var raw=p/9.5,capped=raw>10,val=capped?10:raw;
+  return big("Your CGPA",F(val)+" / 10")
+   +tbl(row("Percentage",F(p)+"%")+row("Formula used","Percentage \u00F7 9.5"))
+   +(capped?note("%95 değerinin üstünde bir yüzde, matematiksel olarak 10.0 CGPA değerini aşar; yani sonuç, 10 değerinde üst sınırlanmıştır — bu ölçekteki maksimum."):
+     note("This reverses the common CBSE-style formula (Percentage = CGPA \u00D7 9.5). Your board or university may use its own multiplier — confirm before official use."));
+ }},
+
+/* 58 — TARGET CGPA (BATCH 4) */
+"target-cgpa-calculator":{
+ fields:[
+  {id:"cur",l:"Mevcut CGPA (4.0 üzerinden)",t:"n",req:1},
+  {id:"done",l:"Tamamlanan kredi saatleri",t:"n",req:1},
+  {id:"target",l:"Hedef CGPA (4.0 üzerinden)",t:"n",req:1},
+  {id:"rem",l:"Kalan kredi saatleri",t:"n",req:1}],
+ run:function(v){
+  var cur=N(v.cur),done=N(v.done),target=N(v.target),rem=N(v.rem);
+  if(cur<0||cur>4||target<=0||target>4||done<0||rem<=0)
+    return "ERR:0 ve 4.0 arasında CGPA değerleri ve pozitif bir kalan kredi saati sayısı girin.";
+  var req=(target*(done+rem)-cur*done)/rem;
+  var rows=row("Current CGPA",cur.toFixed(2))+row("Credits completed",F(done,0))
+    +row("Target CGPA",target.toFixed(2))+row("Credits remaining",F(rem,0));
+  if(req>4){
+    var maxCGPA=(cur*done+4*rem)/(done+rem);
+    return big("Ulaşabileceğiniz Maksimum CGPA",maxCGPA.toFixed(2))
+     +tbl(rows+row("Hedefiniz için gereken GPA",req.toFixed(2)+" \u2014 above the 4.0 maximum")
+       +row("Target status","Kalan kredilerde ulaşılamaz"))
+     +note("Her kalan kredide, mükemmel bir 4.0 bile, CGPA değerinizi, yalnızca şuna yükseltebilir "+maxCGPA.toFixed(2)+". Ekstra kredilerle çalışmalarınızı uzatmayı, üniversiteniz izin verirse, düşük notlu dersleri tekrar almayı veya hedefi revize etmeyi düşünün.");
+  }
+  if(req<=0){
+    return big("Kalan Kredilerde Gereken GPA","0.00")
+     +tbl(rows+row("Target status","Already secured \u2014 your target holds even before the remaining credits"))
+     +note("Mevcut CGPA değeriniz, tüm kalan kredilere yayılmış, sizi zaten hedefin üzerinde veya üstünde tutar. Devam edin.");
+  }
+  return big("Kalan Kredilerde Gereken GPA",req.toFixed(2))
+   +tbl(rows+row("Target status","Reachable \u2014 aim for at least "+req.toFixed(2)+", her kalan kredide"))
+   +note("Bu, TÜM kalan kredilerde, skorlamanız gereken ortalama GPA değeridir. Bir zayıf dönem, diğerlerinin sunması gerekeni yükseltir; yani ders ders planlayın.");
+ }},
+
+/* 59 — BODY FAT, US NAVY METHOD (BATCH 4) */
+"body-fat-calculator":{
+ fields:[
+  {id:"sex",l:"Gender",t:"s",o:[["m","Male"],["f","Female"]]},
+  {id:"w",l:"Weight (kg)",t:"n",req:1},
+  {id:"h",l:"Height (cm)",t:"n",req:1},
+  {id:"neck",l:"Boyun çevresi (cm) — ses kutusunun hemen altında",t:"n",req:1},
+  {id:"waist",l:"Bel çevresi (cm) — göbek seviyesinde",t:"n",req:1},
+  {id:"hip",l:"Kalça çevresi (cm) — yalnızca kadınlar, en geniş noktada",t:"n"}],
+ run:function(v){
+  var w=N(v.w),h=N(v.h),neck=N(v.neck),waist=N(v.waist),hip=N(v.hip);
+  if(w<=0||h<=0||neck<=0||waist<=0)return "ERR:Kilo, boy, boyun ve bel ölçümlerinizi girin.";
+  function log10(x){return Math.log(x)/Math.LN10;}
+  var bf;
+  if(v.sex==="f"){
+    if(hip<=0)return "ERR:Kadınlar için, kalça ölçümü de Navy formülü tarafından gereklidir.";
+    if(waist+hip<=neck)return "ERR:O ölçümler, tutarsız görünüyor — bel artı kalça, boyundan büyük olmalıdır.";
+    bf=495/(1.29579-0.35004*log10(waist+hip-neck)+0.22100*log10(h))-450;
+  }else{
+    if(waist<=neck)return "ERR:O ölçümler, tutarsız görünüyor — bel, boyundan büyük olmalıdır.";
+    bf=495/(1.0324-0.19077*log10(waist-neck)+0.15456*log10(h))-450;
+  }
+  if(!(bf>0)||bf>=80)return "ERR:O ölçümler, imkansız bir vücut yağı sonucu verir — lütfen tekrar ölçün ve tekrar deneyin.";
+  var cat;
+  if(v.sex==="f"){cat=bf<=13?"Essential":(bf<=20?"Athletes":(bf<=24?"Fitness":(bf<=31?"Average":"Obese")));}
+  else{cat=bf<=5?"Essential":(bf<=13?"Athletes":(bf<=17?"Fitness":(bf<=24?"Average":"Obese")));}
+  var fat=w*bf/100,lean=w-fat;
+  return big("Vücut Yağınız",F(bf,1)+"% \u2014 "+cat)
+   +tbl(row("Fat mass",F(fat,1)+" kg")+row("Yağsız vücut kütlesi",F(lean,1)+" kg")
+     +row("Weight",F(w,1)+" kg")+row("Kategori (ACE aralıkları)",cat))
+   +note("ABD Navy çevre yöntemi, bir tahmindir — bant yerleşimi ve duruş, sonucu, birkaç yüzde kaydırır. Kategoriler, American Council on Exercise (ACE) aralıklarını izler. Tıbbi kararlar için, klinik bir ölçüm (DEXA, bir profesyonel tarafından kumpas) kullanın ve bir doktora danışın.");
+ }},
+
+/* 60 — MACRO (BATCH 4) */
+"macro-calculator":{
+ fields:[
+  {id:"cal",l:"Günlük kalori hedefi (kcal)",t:"n",req:1},
+  {id:"split",l:"Macro split",t:"s",o:[["b","Balanced \u2014 40% carbs, 30% protein, 30% fat"],["hp","High Protein \u2014 30% carbs, 40% protein, 30% fat"],["lc","Low Carb \u2014 25% carbs, 45% protein, 30% fat"],["keto","Keto \u2014 5% carbs, 25% protein, 70% fat"]]}],
+ run:function(v){
+  var cal=N(v.cal);
+  if(cal<=0)return "ERR:Günlük kalori hedefinizi girin.";
+  var SPLITS={"b":[40,30,30],"hp":[30,40,30],"lc":[25,45,30],"keto":[5,25,70]};
+  var s=SPLITS[v.split]||SPLITS["b"];
+  var ck=cal*s[0]/100,pk=cal*s[1]/100,fk=cal*s[2]/100;
+  var cg=ck/4,pg=pk/4,fg=fk/9;
+  return big("Daily Calories",F(cal,0)+" kcal")
+   +tbl(row("Carbohydrates ("+s[0]+"%)",F(cg)+" g \u2014 "+F(ck,0)+" kcal")
+     +row("Protein ("+s[1]+"%)",F(pg)+" g \u2014 "+F(pk,0)+" kcal")
+     +row("Fat ("+s[2]+"%)",F(fg)+" g \u2014 "+F(fk,0)+" kcal"))
+   +note("Gramlar, standart enerji değerlerini kullanır: karbonhidratlar ve protein, gram başına 4 kcal sağlar, yağ, gram başına 9 kcal sağlar. Kalori hedefinizden emin değil misiniz? Önce, Günlük Kalori Hesaplayıcımızla hesaplayın.");
+ }},
+
+/* 61 — SLEEP CYCLES (BATCH 4) */
+"sleep-calculator":{
+ fields:[
+  {id:"mode",l:"Ne biliyorsunuz?",t:"s",o:[["wake","Bu saatte UYANMAK istiyorum"],["bed","Bu saatte YATAĞA gidiyorum"]]},
+  {id:"hh",l:"Hour",t:"s",o:[["0","12 AM"],["1","1 AM"],["2","2 AM"],["3","3 AM"],["4","4 AM"],["5","5 AM"],["6","6 AM"],["7","7 AM"],["8","8 AM"],["9","9 AM"],["10","10 AM"],["11","11 AM"],["12","12 PM"],["13","1 PM"],["14","2 PM"],["15","3 PM"],["16","4 PM"],["17","5 PM"],["18","6 PM"],["19","7 PM"],["20","8 PM"],["21","9 PM"],["22","10 PM"],["23","11 PM"]]},
+  {id:"mm",l:"Minute",t:"s",o:[["0","00"],["5","05"],["10","10"],["15","15"],["20","20"],["25","25"],["30","30"],["35","35"],["40","40"],["45","45"],["50","50"],["55","55"]]}],
+ run:function(v){
+  var t0=N(v.hh)*60+N(v.mm),FALL=14,rows="",best=null;
+  [6,5,4].forEach(function(cyc){
+    var dur=cyc*90,t;
+    if(v.mode==="bed"){t=t0+FALL+dur;}else{t=t0-(FALL+dur);}
+    var rec=cyc>=5;
+    if(cyc===6)best=fmtClock(t);
+    rows+=row(cyc+" cycles \u2014 "+hmText(dur)+", uyku",fmtClock(t)+(rec?" \u2B50 Recommended":""));
+  });
+  if(v.mode==="bed"){
+    return big("En İyi Uyanma Saati",best)+tbl(rows)
+     +note("Sleep runs in cycles of about 90 minutes; waking at the end of a cycle feels far easier than waking mid-cycle. Times include about 14 minutes to fall asleep. Six cycles (9 hours) suits most adults; five (7 hours 30 minutes) is the common minimum target.");
+  }
+  return big("Best Bedtime",best)+tbl(rows)
+   +note("Sleep runs in cycles of about 90 minutes; waking at the end of a cycle feels far easier than waking mid-cycle. Times include about 14 minutes to fall asleep, so be in bed by the time shown. Six cycles (9 hours) suits most adults; five (7 hours 30 minutes) is the common minimum target.");
+ }},
+
+/* 62 — CONCEPTION (BATCH 4) */
+"conception-calculator":{
+ fields:[
+  {id:"due",l:"Beklenen doğum tarihi",t:"d",req:1}],
+ run:function(v){
+  var due=pdate(v.due);
+  if(!due)return "ERR:Lütfen beklenen doğum tarihini seçin.";
+  function add(d,n){return new Date(d.getTime()+n*86400000);}
+  var conception=add(due,-266),lmp=add(due,-280),triEnd=add(lmp,84);
+  return big("Tahmini Gebe Kalma Tarihi",fdate(conception))
+   +tbl(row("Beklenen doğum tarihi",fdate(due))
+     +row("Son adetin tahmini ilk günü (LMP)",fdate(lmp))
+     +row("İlk trimesterin tahmini sonu",fdate(triEnd)))
+   +note("Bu tarihler, standart ortalamaları kullanarak, doğum tarihinden geriye sayar: gebe kalma, doğum tarihinden yaklaşık 266 gün önce ve son adet, yaklaşık 280 gün önce. Gerçek döngüler değişir ve yalnızca bir ultrason ve doktorunuz, bir gebeliği güvenilir şekilde tarihlendirebilir — buradaki her tarihi, bir tahmin olarak ele alın.");
+ }},
+
+/* 63 — AGE DIFFERENCE (BATCH 4) */
+"age-difference-calculator":{
+ fields:[
+  {id:"dob1",l:"Kişi 1 — doğum tarihi",t:"d",req:1},
+  {id:"dob2",l:"Kişi 2 — doğum tarihi",t:"d",req:1}],
+ run:function(v){
+  var a=pdate(v.dob1),b=pdate(v.dob2);
+  if(!a||!b)return "ERR:Lütfen her iki doğum tarihini de seçin.";
+  if(a.getTime()===b.getTime()){
+    return big("Age Difference","0 days")
+     +tbl(row("Kim daha yaşlı","Same age \u2014 born on the same day")
+       +row("Person 1 born",fdate(a))+row("Person 2 born",fdate(b)));
+  }
+  var olderFirst=a<b,lo=olderFirst?a:b,hi=olderFirst?b:a;
+  var d=ymdDiff(lo,hi),total=dayDiff(lo,hi);
+  return big("Age Difference",d.y+" yıl, "+d.m+" ay, "+d.d+" gün")
+   +tbl(row("İki doğum arasındaki toplam günler",F(total,0))
+     +row("Kim daha yaşlı",olderFirst?"Person 1":"Person 2")
+     +row("Person 1 born",fdate(a))+row("Person 2 born",fdate(b)))
+   +note("Fark, takvimde hesaplanır; yani artık yıllar, tam olarak sayılır.");
+ }}});
+
+Object.assign(CALCS,{
+
+/* 64 — TIME DURATION (BATCH 4) */
+"time-duration-calculator":{
+ fields:[
+  {id:"sh",l:"Start time \u2014 hour (0-23)",t:"n",req:1,ph:"0-23"},
+  {id:"sm",l:"Start time \u2014 minute (0-59)",t:"n",req:1,ph:"0-59"},
+  {id:"eh",l:"End time \u2014 hour (0-23)",t:"n",req:1,ph:"0-23"},
+  {id:"em",l:"End time \u2014 minute (0-59)",t:"n",req:1,ph:"0-59"}],
+ run:function(v){
+  var sh=N(v.sh),sm=N(v.sm),eh=N(v.eh),em=N(v.em);
+  function bad(h,m){return h<0||h>23||m<0||m>59||Math.floor(h)!==h||Math.floor(m)!==m;}
+  if(bad(sh,sm)||bad(eh,em))return "ERR:0 ile 23 arasında saatler ve 0 ile 59 arasında dakikalar girin.";
+  var start=sh*60+sm,end=eh*60+em,nextDay=end<start;
+  var dur=end-start+(nextDay?1440:0);
+  return big("Duration",hmText(dur))
+   +tbl(row("Total minutes",F(dur,0))+row("Toplam saat (ondalık)",F(dur/60)+" saat")
+     +row("From",fmtClock(start))+row("To",fmtClock(end)+(nextDay?" (sonraki gün)":"")))
+   +(nextDay?note("The end time is earlier than the start time, so it has been counted as falling on the next day \u2014 exactly how overnight shifts, flights and journeys work."):
+     note("If the end time falls on the next day (for example 10 PM to 6 AM), just enter it as-is \u2014 the calculator counts across midnight automatically."));
+ }},
+
+/* 65 — WORK HOURS (BATCH 4) */
+"work-hours-calculator":{
+ fields:[
+  {id:"sh",l:"Start time \u2014 hour (0-23)",t:"n",req:1,ph:"0-23"},
+  {id:"sm",l:"Start time \u2014 minute (0-59)",t:"n",req:1,ph:"0-59"},
+  {id:"eh",l:"End time \u2014 hour (0-23)",t:"n",req:1,ph:"0-23"},
+  {id:"em",l:"End time \u2014 minute (0-59)",t:"n",req:1,ph:"0-59"},
+  {id:"brk",l:"Ücretsiz mola (dakika)",t:"n",def:"0"},
+  {id:"days",l:"Haftada çalışma günleri",t:"n",req:1,def:"5"},
+  {id:"rate",l:"Hourly rate (optional \u2014 for pay figures)",t:"n"}],
+ run:function(v){
+  var sh=N(v.sh),sm=N(v.sm),eh=N(v.eh),em=N(v.em),brk=N(v.brk),days=N(v.days),rate=N(v.rate);
+  function bad(h,m){return h<0||h>23||m<0||m>59||Math.floor(h)!==h||Math.floor(m)!==m;}
+  if(bad(sh,sm)||bad(eh,em))return "ERR:0 ile 23 arasında saatler ve 0 ile 59 arasında dakikalar girin.";
+  if(days<=0||days>7)return "ERR:Haftada çalışma günleri, 1 ve 7 arasında olmalıdır.";
+  var start=sh*60+sm,end=eh*60+em;
+  var dur=end-start+(end<start?1440:0);
+  var net=dur-brk;
+  if(net<=0)return "ERR:The unpaid break is as long as (or longer than) the whole shift \u2014 check the times and the break.";
+  var netH=net/60,weekH=netH*days;
+  var rows=row("Günlük net çalışma süresi",hmText(net))
+    +row("Günlük net saatler",F(netH)+" saat")
+    +row("Haftada saat ("+F(days,0)+(days===1?" gün":" gün")+")",F(weekH)+" saat");
+  if(rate>0)rows+=row("Günlük ödeme",Rs(netH*rate))+row("Haftalık ödeme",Rs(weekH*rate));
+  return big("Günlük Net Saatler",F(netH)+" saat")+tbl(rows)
+   +note("Times on the 24-hour clock; an end time earlier than the start time is counted as the next day, so night shifts work too. Pay figures are gross estimates before any tax or deductions.");
+ }},
+
+/* 66 — WEEK NUMBER (BATCH 4) */
+"week-number-calculator":{
+ fields:[
+  {id:"date",l:"Date",t:"d",req:1,def:"today"}],
+ run:function(v){
+  var d=pdate(v.date);
+  if(!d)return "ERR:Lütfen bir tarih seçin.";
+  var iw=isoWeekYear(d);
+  var jan1=new Date(d.getFullYear(),0,1),nextJan1=new Date(d.getFullYear()+1,0,1);
+  var doy=dayDiff(jan1,d)+1,daysInYear=dayDiff(jan1,nextJan1);
+  var quarter=Math.floor(d.getMonth()/3)+1;
+  return big("ISO Hafta Numarası","Week "+iw.week)
+   +tbl(row("Date",fdate(d))+row("ISO hafta-numaralandırma yılı",String(iw.year))
+     +row("Yılın günü","Day "+doy+" of "+daysInYear)
+     +row("Yılda kalan günler",F(daysInYear-doy,0))
+     +row("Calendar quarter","Q"+quarter))
+   +note("ISO weeks start on Monday, and week 1 is the week holding the year's first Thursday \u2014 so dates around New Year can belong to the neighbouring year's week count (for example 1 January 2023 is in week 52 of 2022). This is the system used in business, logistics and most of Europe.");
+ }},
+
+/* 67 — COOKING CONVERSION (BATCH 4) */
+"cooking-conversion-calculator":{
+ fields:[
+  {id:"ing",l:"Ingredient",t:"s",o:[["0.52","All-purpose flour"],["0.85","Granulated sugar"],["0.78","Brown sugar"],["0.96","Butter"],["1.03","Milk"],["1.00","Water"],["0.92","Vegetable oil"],["0.85","Uncooked rice"],["0.50","Cocoa powder"],["1.42","Honey"]]},
+  {id:"amt",l:"Amount",t:"n",req:1},
+  {id:"from",l:"From unit",t:"s",o:[["cup","US cup"],["tbsp","Tablespoon"],["tsp","Teaspoon"],["ml","Millilitre"],["l","Litre"],["g","Gram"],["oz","Ounce"],["lb","Pound"]]},
+  {id:"to",l:"To unit",t:"s",o:[["g","Gram"],["cup","US cup"],["tbsp","Tablespoon"],["tsp","Teaspoon"],["ml","Millilitre"],["l","Litre"],["oz","Ounce"],["lb","Pound"]]}],
+ run:function(v){
+  var ML={"cup":236.588,"tbsp":14.787,"tsp":4.929,"ml":1,"l":1000};
+  var G={"g":1,"oz":28.35,"lb":453.59};
+  var LAB={"cup":"US cup","tbsp":"tablespoon","tsp":"teaspoon","ml":"ml","l":"litre","g":"g","oz":"oz","lb":"lb"};
+  var amt=N(v.amt),dens=N(v.ing);
+  if(amt<=0)return "ERR:Dönüştürmek istediğiniz tutarı girin.";
+  if(dens<=0)return "ERR:Lütfen bir malzeme seçin.";
+  var ml,grams;
+  if(v.from in ML){ml=amt*ML[v.from];grams=ml*dens;}
+  else{grams=amt*G[v.from];ml=grams/dens;}
+  var out=(v.to in ML)?ml/ML[v.to]:grams/G[v.to];
+  return big("Converted Amount",F(out)+" "+LAB[v.to])
+   +tbl(row("In grams",F(grams)+" g")+row("In millilitres",F(ml)+" ml")
+     +row("Bu malzemenin, bir ABD kupası, şunu tartar",F(236.588*dens,1)+" g"))
+   +note("Volume and weight only convert through the ingredient's density (grams per millilitre), which is why a cup of flour weighs far less than a cup of honey. Densities are standard kitchen averages for spooned, level measures \u2014 packing flour or sugar changes the weight.");
+ }},
+
+/* 68 — SPEED (BATCH 4) */
+"speed-calculator":{
+ fields:[
+  {id:"dist",l:"Distance",t:"n",req:1},
+  {id:"unit",l:"Distance unit",t:"s",o:[["km","Kilometres"],["mi","Miles"]]},
+  {id:"th",l:"Time \u2014 hours",t:"n",def:"0"},
+  {id:"tm",l:"Time \u2014 minutes",t:"n",def:"0"},
+  {id:"ts",l:"Time \u2014 seconds",t:"n",def:"0"}],
+ run:function(v){
+  var dist=N(v.dist),totalSec=N(v.th)*3600+N(v.tm)*60+N(v.ts);
+  if(dist<=0)return "ERR:Geçerli bir mesafe girin.";
+  if(totalSec<=0)return "ERR:Alınan süreyi girin.";
+  var distKm=v.unit==="mi"?dist*1.609344:dist;
+  var distMi=v.unit==="mi"?dist:dist/1.609344;
+  var hours=totalSec/3600,kmh=distKm/hours,mph=distMi/hours;
+  return big("Your Speed",F(kmh)+" km/h")
+   +tbl(row("Saatte mil olarak",F(mph)+" mph")
+     +row("Kilometre başına tempo",paceText(totalSec/distKm)+" dk/km")
+     +row("Mil başına tempo",paceText(totalSec/distMi)+" dk/mil")
+     +row("Distance",F(dist)+" "+(v.unit==="mi"?"miles":"km")+" \u2014 "+F(distKm)+" km"))
+   +note("Speed is distance divided by time; pace is its mirror image \u2014 the time each kilometre or mile takes. Averages smooth out stops and slow stretches, so real journeys vary around these figures.");
+ }},
+
+/* 69 — RUNNING PACE (BATCH 4) */
+"pace-calculator":{
+ fields:[
+  {id:"dist",l:"Race distance",t:"s",o:[["5","5K"],["10","10K"],["21.0975","Yarı Maraton (21.0975 km)"],["42.195","Marathon (42.195 km)"],["custom","Özel mesafe (aşağıya girin)"]]},
+  {id:"custom",l:"Custom distance (km) \u2014 only for the custom option",t:"n"},
+  {id:"th",l:"Finish time \u2014 hours",t:"n",def:"0"},
+  {id:"tm",l:"Finish time \u2014 minutes",t:"n",def:"0"},
+  {id:"ts",l:"Finish time \u2014 seconds",t:"n",def:"0"}],
+ run:function(v){
+  var dKm=v.dist==="custom"?N(v.custom):N(v.dist);
+  var totalSec=N(v.th)*3600+N(v.tm)*60+N(v.ts);
+  if(dKm<=0)return "ERR:Bir yarış mesafesi seçin (veya km olarak özel bir mesafe girin).";
+  if(totalSec<=0)return "ERR:Bitiş sürenizi girin.";
+  var paceKm=totalSec/dKm,paceMi=paceKm*1.609344;
+  var rows=row("Mil başına tempo",paceText(paceMi)+", mil başına")
+    +row("Your distance",F(dKm,4)+" km \u2014 finished in "+fmtHMS(totalSec));
+  var preds=[["5K",5],["10K",10],["Half Marathon",21.0975],["Marathon",42.195]];
+  preds.forEach(function(p){rows+=row("Predicted "+p[0]+", bu tempoda bitirin",fmtHMS(paceKm*p[1]));});
+  return big("Your Pace",paceText(paceKm)+", km başına")+tbl(rows)
+   +note("Predictions assume you could hold exactly the same pace at every distance \u2014 real runners slow down as distance grows, so treat the longer predictions as the optimistic edge of a target range.");
+ }},
+
+/* 70 — SHOE SIZE CONVERTER (BATCH 4) */
+"shoe-size-converter":{
+ fields:[
+  {id:"sex",l:"Gender",t:"s",o:[["m","Men"],["f","Women"]]},
+  {id:"sys",l:"Numaramı, şurada biliyorum",t:"s",o:[["us","US sizes"],["uk","UK sizes"],["eu","EU sizes"],["cm","Ayak uzunluğu (cm)"]]},
+  {id:"val",l:"Size value",t:"n",req:1}],
+ run:function(v){
+  var MEN=[[6,5.5,38.5,24.1],[6.5,6,39,24.4],[7,6,40,24.8],[7.5,6.5,40.5,25.2],[8,7,41,25.7],[8.5,7.5,42,26.0],[9,8,42.5,26.7],[9.5,8.5,43,27.1],[10,9,44,27.4],[10.5,9.5,44.5,27.8],[11,10,45,28.3],[11.5,10.5,45.5,28.7],[12,11,46,29.2],[13,12,47.5,30.0],[14,13,48.5,30.8],[15,14,49.5,31.8]];
+  var WOMEN=[[5,3,35.5,22.1],[5.5,3.5,36,22.5],[6,4,36.5,22.9],[6.5,4.5,37.5,23.2],[7,5,38,23.5],[7.5,5.5,38.5,23.8],[8,6,39,24.1],[8.5,6.5,39.5,24.6],[9,7,40,25.0],[9.5,7.5,40.5,25.4],[10,8,41,25.7],[10.5,8.5,42,26.0],[11,9,42.5,26.7],[12,10,43.5,27.4]];
+  var chart=v.sex==="f"?WOMEN:MEN;
+  var val=N(v.val);
+  if(val<=0)return "ERR:Numara değerinizi girin.";
+  var idx={"us":0,"uk":1,"eu":2,"cm":3}[v.sys];
+  var bestRow=chart[0],bestDiff=Infinity;
+  chart.forEach(function(r){var df=Math.abs(r[idx]-val);if(df<bestDiff){bestDiff=df;bestRow=r;}});
+  return big("Closest Match \u2014 US Size",F(bestRow[0]))
+   +tbl(row("US size",F(bestRow[0]))+row("UK size",F(bestRow[1]))+row("EU size",F(bestRow[2]))
+     +row("Foot length",F(bestRow[3],1)+" cm \u2014 "+F(bestRow[3]/2.54)+" inç"))
+   +note("Sizes are matched to the NEAREST row of the standard conversion chart, because no single official chart exists \u2014 brands differ by up to half a size. When buying online, foot length in centimetres is the most reliable guide; measure in the evening, when feet are at their largest.");
+ }}});
+
+/* ---------- Form binder (browser only) ---------- */
+function fieldHTML(f){
+  if(f.t==="grow"){
+    var gh='<div class="subgrid"><div class="subhead"><span>Skor %</span><span>Ağırlık %</span></div>';
+    for(var gi=1;gi<=8;gi++){
+      gh+='<div class="subrow"><input type="number" min="0" max="100" step="any" id="g'+gi+'s" placeholder="Assignment '+gi+' score"><input type="number" min="0" step="any" id="g'+gi+'w" placeholder="Ağırlık"></div>';
+    }
+    return gh+"</div>";
+  }
+  if(f.t==="gparow"){
+    var grades=["","A","A-","B+","B","B-","C+","C","C-","D+","D","F"];
+    var gopts=grades.map(function(g){return '<option value="'+g+'">'+(g||"Grade")+'</option>';}).join("");
+    var ph='<div class="subgrid"><div class="subhead"><span>Harf notu</span><span>Kredi saat</span></div>';
+    for(var pi=1;pi<=8;pi++){
+      ph+='<div class="subrow"><select id="c'+pi+'g">'+gopts+'</select><input type="number" min="0" step="0.5" id="c'+pi+'c" placeholder="Course '+pi+' kredi"></div>';
+    }
+    return ph+"</div>";
+  }
+  if(f.t==="sub"){
+    var h='<div class="subgrid"><div class="subhead"><span>Notlar /100</span><span>Kredi saat</span></div>';
+    for(var i=1;i<=8;i++){
+      h+='<div class="subrow"><input type="number" min="0" max="100" id="s'+i+'m" placeholder="Subject '+i+' marks"><input type="number" min="0" step="0.5" id="s'+i+'c" placeholder="Kr saat"></div>';
+    }
+    return h+"</div>";
+  }
+  var req=f.req?' gerekli':"";
+  if(f.t==="s"){
+    var o=f.o.map(function(x){return '<option value="'+x[0]+'">'+x[1]+"</option>";}).join("");
+    return '<select id="'+f.id+'">'+o+"</select>";
+  }
+  if(f.t==="d")return '<input type="date" id="'+f.id+'"'+req+">";
+  if(f.t==="t")return '<input type="text" id="'+f.id+'" placeholder="'+(f.ph||"")+'"'+req+">";
+  return '<input type="number" step="any" id="'+f.id+'"'+(f.def?' value="'+f.def+'"':"")+' placeholder="'+(f.ph||"0")+'"'+req+">";
+}
+function buildCalc(slug,mount){
+  var C=CALCS[slug];if(!C||!mount)return;
+  var form=document.createElement("form");form.className="calcform";
+  C.fields.forEach(function(f){
+    var wrap=document.createElement("div");wrap.className="fld";
+    var lab=document.createElement("label");lab.textContent=f.l;lab.setAttribute("for",f.id);
+    wrap.appendChild(lab);
+    var tmp=document.createElement("div");tmp.innerHTML=fieldHTML(f);
+    while(tmp.firstChild)wrap.appendChild(tmp.firstChild);
+    form.appendChild(wrap);
+    if(f.def==="today"){var inp=wrap.querySelector("input");if(inp)inp.value=iso(new Date());}
+  });
+  var btn=document.createElement("button");btn.type="submit";btn.className="calcbtn";btn.textContent="Calculate";
+  form.appendChild(btn);
+  var res=document.createElement("div");res.className="calcresult";res.style.display="none";
+  mount.appendChild(form);mount.appendChild(res);
+  form.addEventListener("submit",function(e){
+    e.preventDefault();
+    var v={};
+    C.fields.forEach(function(f){
+      if(f.t==="sub"){for(var i=1;i<=8;i++){v["s"+i+"m"]=document.getElementById("s"+i+"m").value;v["s"+i+"c"]=document.getElementById("s"+i+"c").value;}return;}
+      if(f.t==="grow"){for(var i=1;i<=8;i++){v["g"+i+"s"]=document.getElementById("g"+i+"s").value;v["g"+i+"w"]=document.getElementById("g"+i+"w").value;}return;}
+      if(f.t==="gparow"){for(var i=1;i<=8;i++){v["c"+i+"g"]=document.getElementById("c"+i+"g").value;v["c"+i+"c"]=document.getElementById("c"+i+"c").value;}return;}
+      var el=form.querySelector("#"+CSS.escape(f.id));v[f.id]=el?el.value:"";
+    });
+    var out=C.run(v);
+    res.style.display="block";
+    if(out.indexOf("ERR:")===0)res.innerHTML='<p class="err">'+out.slice(4)+"</p>";
+    else res.innerHTML=out;
+    if(res.scrollIntoView)res.scrollIntoView({behavior:"smooth",block:"nearest"});
+  });
+}
+if(typeof document!=="undefined"){
+  document.addEventListener("DOMContentLoaded",function(){
+    document.querySelectorAll("[data-calc]").forEach(function(el){buildCalc(el.getAttribute("data-calc"),el);});
+  });
+}
+if(typeof module!=="undefined"&&module.exports){module.exports={CALCS:CALCS,hijriParts:hijriParts,hijriToGreg:hijriToGreg};}
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Uygulamayı Yükleyin';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Bu uygulamayı yükleyin: Paylaş düğmesine dokunun, sonra "Ana Ekrana Ekle" seçeneğini seçin.');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body></html>

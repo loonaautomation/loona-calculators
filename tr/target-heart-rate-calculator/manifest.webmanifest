@@ -1,0 +1,29 @@
+{
+  "name": "Loona Hedef Kalp Hızı Hesaplayıcı",
+  "short_name": "Hedef Kalp Atış Hızı Hesaplayıcı",
+  "description": "Ücretsiz hedef kalp hızı hesaplayıcı: yaşınızdan ve dinlenme kalp hızınızdan maksimum kalp hızı ve Karvonen antrenman bölgeleri. Eğitim amaçlı fitness kılavuzu.",
+  "id": "/loona-calculators/tr/target-heart-rate-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

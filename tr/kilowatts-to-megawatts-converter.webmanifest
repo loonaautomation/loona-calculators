@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kilovat - Megavat Dönüştürücü",
+  "short_name": "Kilovat - Megavat Dönüştürücü",
+  "description": "kilovat birimini megavat birimine anında dönüştürün. Tam formül, eksiksiz bir kW - MW dönüşüm tablosu, çözümlü bir örnek ve SSS. Ücretsiz, kayıt gerekmez.",
+  "id": "/loona-calculators/tr/kilowatts-to-megawatts-converter.html",
+  "start_url": "./kilowatts-to-megawatts-converter.html",
+  "scope": "./kilowatts-to-megawatts-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

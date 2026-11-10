@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kütle ve Ağırlık Dönüştürücü",
+  "short_name": "Kütle ve Ağırlık Dönüştürücü",
+  "description": "Her kütle ve ağırlık dönüşüm çifti tek bir dizinde: tam faktörler, formüller ve her çift için özel bir dönüştürücü sayfası. Ücretsiz, kayıt yok.",
+  "id": "/loona-calculators/tr/mass-converter.html",
+  "start_url": "./mass-converter.html",
+  "scope": "./mass-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Tek Örneklem Z Testi Hesaplayıcı",
+  "short_name": "Tek Örneklem Z Testi Hesaplayıcı",
+  "description": "Ücretsiz tek örneklem z testi hesaplayıcı: örnek ortalaması, bilinen popülasyon SS, n ve hipotez edilen ortalama, z istatistiğini ve p değerlerini verir. Ders kitabıyla kontrol edilmiş.",
+  "id": "/loona-calculators/tr/z-test-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

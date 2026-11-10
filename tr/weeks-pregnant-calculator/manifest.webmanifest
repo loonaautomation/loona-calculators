@@ -1,0 +1,29 @@
+{
+  "name": "Loona Hamilelik Haftası Hesaplayıcı",
+  "short_name": "Kaç Haftalık Hamile Hesaplayıcı",
+  "description": "Ücretsiz hamilelik haftası hesaplayıcı: tam olarak kaç hafta ve gün hamile olduğunuzu, trimesterinizi ve kalan günleri görmek için son adet tarihinizi veya doğum tarihinizi girin.",
+  "id": "/loona-calculators/tr/weeks-pregnant-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

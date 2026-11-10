@@ -1,0 +1,29 @@
+{
+  "name": "Loona CGPA Hesaplayıcısı",
+  "short_name": "CGPA Hesaplayıcısı",
+  "description": "Üniversite öğrencileri için ücretsiz CGPA hesaplayıcı: dönem GPA değerinizi almak için ders puanlarını ve kredi saatlerini girin ve kümülatif sonuç için önceki CGPA değerinizi ekleyin. HEC not ölçeği.",
+  "id": "/loona-calculators/tr/cgpa-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

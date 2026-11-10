@@ -1,0 +1,29 @@
+{
+  "name": "Loona Ondalık - Sekizlik Dönüştürücü",
+  "short_name": "Ondalık - Sekizlik Dönüştürücü",
+  "description": "ondalık (taban 10) birimini sekizlik (taban 8) birimine; doğrulama, basamak değeri işlemi ve referans tablosuyla dönüştürün.",
+  "id": "/loona-calculators/tr/decimal-to-octal-converter.html",
+  "start_url": "./decimal-to-octal-converter.html",
+  "scope": "./decimal-to-octal-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

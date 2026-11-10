@@ -1,0 +1,29 @@
+{
+  "name": "Loona Çalışma Saatleri Hesaplayıcı",
+  "short_name": "Çalışma Saatleri Hesaplayıcı",
+  "description": "Ücretsiz çalışma saatleri hesaplayıcı: başlangıç, bitiş ve ücretsiz mola, gün başına ve hafta başına net saatleri verir — artı bir saatlik oran eklediğinizde günlük ve haftalık ücret. Gece vardiyaları desteklenir.",
+  "id": "/loona-calculators/tr/work-hours-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

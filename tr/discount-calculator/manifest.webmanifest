@@ -1,0 +1,29 @@
+{
+  "name": "Loona İndirim Hesaplayıcı",
+  "short_name": "İndirim Hesaplayıcı",
+  "description": "Ücretsiz indirim hesaplayıcı: son fiyatı ve ne kadar tasarruf ettiğinizi almak için fiyatı ve indirim yüzdesini girin. Ekstra bir ikinci indirimi ve indirimden sonra eklenen vergiyi destekler.",
+  "id": "/loona-calculators/tr/discount-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

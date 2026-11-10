@@ -1,0 +1,29 @@
+{
+  "name": "Loona Tek Örneklem T Testi Hesaplayıcı",
+  "short_name": "Tek Örneklem T Testi Hesaplayıcı",
+  "description": "Ücretsiz tek örneklem t testi hesaplayıcı: t istatistiğini, serbestlik derecesini ve p değerlerini almak için örnek ortalamasını, SS, n ve hipotez edilen ortalamayı girin.",
+  "id": "/loona-calculators/tr/t-test-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

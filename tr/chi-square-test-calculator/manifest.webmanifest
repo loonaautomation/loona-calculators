@@ -1,0 +1,29 @@
+{
+  "name": "Loona Ki-Kare Testi Hesaplayıcı",
+  "short_name": "Ki-Kare Testi Hesaplayıcı",
+  "description": "Ücretsiz ki-kare testi hesaplayıcı: bir bağımsızlık testi için gözlenen bir tablo veya uyum iyiliği için gözlenen ve beklenen sayıları girin. Ki-kare, sd ve p değeri.",
+  "id": "/loona-calculators/tr/chi-square-test-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

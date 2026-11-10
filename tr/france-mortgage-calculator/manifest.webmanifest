@@ -1,0 +1,29 @@
+{
+  "name": "Loona Fransa Konut Kredisi Hesaplayıcı",
+  "short_name": "Fransa Konut Kredisi Hesaplayıcısı",
+  "description": "Ücretsiz Fransa konut kredisi hesaplayıcı, avro cinsinden: isteğe bağlı borçlu sigortası (assurance emprunteur) ile aylık ödeme, toplam faiz ve herhangi bir fiyat, depozito, oran ve vade için borçsuz tarih.",
+  "id": "/loona-calculators/tr/france-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Rastgele Sayı Üretici",
+  "short_name": "Rastgele Sayı Üretici",
+  "description": "Güvenli tarayıcı rastgeleliğini kullanan ücretsiz rastgele sayı üretici. Herhangi bir aralıkta sayılar seçin, kaç tane olduğunu seçin, yalnızca benzersiz sayılar için bir seçenek ile.",
+  "id": "/loona-calculators/tr/random-number-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

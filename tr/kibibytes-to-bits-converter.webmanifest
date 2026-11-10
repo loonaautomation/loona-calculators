@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kibibayt - Bit Dönüştürücü",
+  "short_name": "Kibibayt - Bit Dönüştürücü",
+  "description": "kibibayt birimini bit birimine anında dönüştürün. Tam formül, eksiksiz bir KiB - bit dönüşüm tablosu, çözümlü bir örnek ve SSS. Ücretsiz, kayıt gerekmez.",
+  "id": "/loona-calculators/tr/kibibytes-to-bits-converter.html",
+  "start_url": "./kibibytes-to-bits-converter.html",
+  "scope": "./kibibytes-to-bits-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

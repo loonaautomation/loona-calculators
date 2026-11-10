@@ -1,0 +1,29 @@
+{
+  "name": "Loona Poisson Dağılımı Hesaplayıcı",
+  "short_name": "Poisson Dağılımı",
+  "description": "Ücretsiz Poisson dağılımı hesaplayıcı: ortalama oran lambda verildiğinde, tam olarak k olay, en fazla k veya en az k olasılığı. Çağrılar, varışlar, kusurlar ve nadir olaylar için.",
+  "id": "/loona-calculators/tr/poisson-distribution-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

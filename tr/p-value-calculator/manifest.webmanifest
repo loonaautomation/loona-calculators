@@ -1,0 +1,29 @@
+{
+  "name": "Loona P Değeri Hesaplayıcı",
+  "short_name": "P Değeri Hesaplayıcı",
+  "description": "Ücretsiz p değeri hesaplayıcı: bir z, t veya ki-kare test istatistiğini tek kuyruklu ve çift kuyruklu p değerlerine dönüştürün, 0.05 ve 0.01 değerinde anlamlılık kararı ile.",
+  "id": "/loona-calculators/tr/p-value-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

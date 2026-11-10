@@ -1,0 +1,29 @@
+{
+  "name": "Loona Gizli Noel Baba Üretici",
+  "short_name": "Gizli Noel Baba Üretici",
+  "description": "Ücretsiz Gizli Noel Baba üretici: isimler ekleyin, hariç tutmaları ayarlayın (çiftler, geçen yılın çiftleri), gizlice çekin, ardından her kişi yalnızca kendi eşleşmesini gösterir. Gizli, tarayıcı içinde.",
+  "id": "/loona-calculators/tr/secret-santa-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

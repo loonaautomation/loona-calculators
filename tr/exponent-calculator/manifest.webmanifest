@@ -1,0 +1,29 @@
+{
+  "name": "Loona Üs Hesaplayıcı",
+  "short_name": "Üs Hesaplayıcı",
+  "description": "Ücretsiz üs hesaplayıcı: kuvvet sonucu için bir taban ve bir üs girin, artı tabanın karesi, küpü, karekökü ve küpkökü için bir bonus tablo.",
+  "id": "/loona-calculators/tr/exponent-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

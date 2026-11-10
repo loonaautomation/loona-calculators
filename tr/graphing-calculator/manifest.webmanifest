@@ -1,0 +1,29 @@
+{
+  "name": "Loona Grafik Hesaplayıcı",
+  "short_name": "Grafik Hesaplayıcı",
+  "description": "Ücretsiz grafik hesaplayıcı: x^2, sin(x) veya 2x+3 gibi bir veya iki fonksiyonu, yakınlaştırma ile bir ızgarada çizin. Tarayıcınızda çalışır, kayıt yok.",
+  "id": "/loona-calculators/tr/graphing-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

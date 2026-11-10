@@ -1,0 +1,29 @@
+{
+  "name": "Loona Çocuk BMI Yüzdebirlik Hesaplayıcı",
+  "short_name": "Çocuk BMI Yüzdebirliği",
+  "description": "Ücretsiz çocuk BMI yüzdebirlik hesaplayıcı, 2 ile 20 yaşları için resmi CDC LMS büyüme grafiği verilerini kullanan: erkekler ve kızlar için BMI, yüzdebirlik, z puanı ve kilo kategorisi.",
+  "id": "/loona-calculators/tr/child-bmi-percentile-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

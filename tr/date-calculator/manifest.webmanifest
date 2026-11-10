@@ -1,0 +1,29 @@
+{
+  "name": "Loona Tarih Hesaplayıcı",
+  "short_name": "Tarih Hesaplayıcı",
+  "description": "Ücretsiz tarih hesaplayıcı: herhangi bir tarihe günler, haftalar, aylar ve yıllar ekleyin veya çıkarın ve ortaya çıkan tarihi hafta günü ile alın. Son tarihler, vizeler ve planlama.",
+  "id": "/loona-calculators/tr/date-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

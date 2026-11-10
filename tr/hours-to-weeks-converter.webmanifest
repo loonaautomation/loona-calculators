@@ -1,0 +1,29 @@
+{
+  "name": "Loona Saat - Hafta Dönüştürücü",
+  "short_name": "Saat - Hafta Dönüştürücü",
+  "description": "saat birimini hafta birimine anında dönüştürün. Tam formül, eksiksiz bir h - wk dönüşüm tablosu, çözümlü bir örnek ve SSS. Ücretsiz, kayıt gerekmez.",
+  "id": "/loona-calculators/tr/hours-to-weeks-converter.html",
+  "start_url": "./hours-to-weeks-converter.html",
+  "scope": "./hours-to-weeks-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
