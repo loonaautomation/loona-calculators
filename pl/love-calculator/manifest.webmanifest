@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator miłości",
+  "short_name": "Kalkulator miłości",
+  "description": "Darmowy kalkulator miłości (tylko dla zabawy): wpisz dwa imiona i otrzymaj zabawny procent miłości i wiadomość o zgodności. Lekka gra do dzielenia się z przyjaciółmi.",
+  "id": "/loona-calculators/pl/love-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

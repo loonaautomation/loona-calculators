@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator logarytmów",
+  "short_name": "Kalkulator logarytmów",
+  "description": "Darmowy kalkulator logarytmów: znajdź logarytm o dowolnej podstawie, plus logarytm dziesiętny (podstawa 10), logarytm naturalny (ln) i logarytm binarny (podstawa 2), każdy zweryfikowany jego antylogarytmem. Wzór zmiany podstawy wyjaśniony.",
+  "id": "/loona-calculators/pl/logarithm-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Dni robocze w Wielkiej Brytanii",
+  "short_name": "Dni robocze w Wielkiej Brytanii",
+  "description": "Kalkulator dni roboczych dla Wielkiej Brytanii (Anglia i Walia): dni robocze między dwiema datami, minus weekendy i wszystkie 8 świąt bankowych z 2026 roku.",
+  "id": "/loona-calculators/pl/working-days-in-united-kingdom.html",
+  "start_url": "./working-days-in-united-kingdom.html",
+  "scope": "./working-days-in-united-kingdom.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

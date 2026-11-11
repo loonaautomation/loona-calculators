@@ -1,0 +1,29 @@
+{
+  "name": "Loona Konwerter jardów na kilometry",
+  "short_name": "Konwerter jarda na Kilometr",
+  "description": "Przelicz jardy na kilometry natychmiast. Dokładny wzór, pełna tabelę przeliczeniową yd na km, przykład z rozwiązaniem i FAQ. Za darmo, bez rejestracji.",
+  "id": "/loona-calculators/pl/yards-to-kilometers-converter.html",
+  "start_url": "./yards-to-kilometers-converter.html",
+  "scope": "./yards-to-kilometers-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

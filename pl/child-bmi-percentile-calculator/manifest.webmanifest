@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator percentyla BMI dziecka",
+  "short_name": "Percentyl BMI dziecka",
+  "description": "Darmowy kalkulator percentyla BMI dziecka używający oficjalnych danych LMS wykresów wzrostu CDC dla wieku 2 do 20: BMI, percentyl, wynik z i kategoria wagi dla chłopców i dziewczynek.",
+  "id": "/loona-calculators/pl/child-bmi-percentile-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator marży zysku",
+  "short_name": "Kalkulator marży zysku",
+  "description": "Darmowy kalkulator marży zysku: wpisz cenę kosztu i cenę sprzedaży, aby natychmiast otrzymać zysk, procent marży zysku i procent narzutu. Dla sklepów i sprzedawców online.",
+  "id": "/loona-calculators/pl/profit-margin-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

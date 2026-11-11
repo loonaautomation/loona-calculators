@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator tkanki tłuszczowej",
+  "short_name": "Kalkulator tkanki tłuszczowej",
+  "description": "Darmowy kalkulator tkanki tłuszczowej używający metody obwodów US Navy: wzrost, szyja, talia (i biodra dla kobiet) dają % tkanki tłuszczowej, masę tłuszczową, masę beztłuszczową i kategorię ACE.",
+  "id": "/loona-calculators/pl/body-fat-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

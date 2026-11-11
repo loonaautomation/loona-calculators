@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator przystępnego czynszu",
+  "short_name": "Kalkulator przystępności czynszu",
+  "description": "Darmowy kalkulator dostępności czynszu: wpisz dochód brutto, udział, który możesz wydać na czynsz, i miesięczne długi, aby zobaczyć maksymalny czynsz, na który Cię stać — z wytyczną 28/36.",
+  "id": "/loona-calculators/pl/rent-affordability-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

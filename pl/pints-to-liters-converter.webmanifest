@@ -1,0 +1,29 @@
+{
+  "name": "Loona Konwerter pint (amerykańskich) na litry",
+  "short_name": "Pinty (amerykańskie) na litry",
+  "description": "Przelicz pinty (us liquid) na litry natychmiast. Dokładny wzór, pełna tabelę przeliczeniową pt na L, przykład z rozwiązaniem i FAQ. Za darmo, bez rejestracji.",
+  "id": "/loona-calculators/pl/pints-to-liters-converter.html",
+  "start_url": "./pints-to-liters-converter.html",
+  "scope": "./pints-to-liters-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Zegar światowy",
+  "short_name": "Zegar światowy",
+  "description": "Darmowy zegar światowy na żywo: bieżący czas lokalny i data w 24 głównych miastach, w tym Londyn, Nowy Jork, Dubaj, Karaczi i Tokio, aktualizowane co sekundę przez strefy czasowe.",
+  "id": "/loona-calculators/pl/world-clock/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

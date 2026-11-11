@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator trygonometrii",
+  "short_name": "Kalkulator trygonometrii",
+  "description": "Darmowy kalkulator trygonometrii: wpisz kąt w stopniach lub radianach, aby otrzymać sin, cos, tan, csc, sec i cot, lub użyj odwrotnych sin, cos i tan, aby znaleźć kąt z proporcji. Tabela wartości dokładnych włączona.",
+  "id": "/loona-calculators/pl/trigonometry-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

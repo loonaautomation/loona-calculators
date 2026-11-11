@@ -1,0 +1,29 @@
+{
+  "name": "Loona Konwerter gigabajtów na bity",
+  "short_name": "Konwerter gigabajtu na Bit",
+  "description": "Przelicz gigabajty na bity natychmiast. Dokładny wzór, pełna tabelę przeliczeniową GB na bit, przykład z rozwiązaniem i FAQ. Za darmo, bez rejestracji.",
+  "id": "/loona-calculators/pl/gigabytes-to-bits-converter.html",
+  "start_url": "./gigabytes-to-bits-converter.html",
+  "scope": "./gigabytes-to-bits-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

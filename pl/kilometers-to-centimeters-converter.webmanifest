@@ -1,0 +1,29 @@
+{
+  "name": "Loona Konwerter kilometrów na centymetry",
+  "short_name": "Kilometry na centymetry",
+  "description": "Przelicz kilometry na centymetry natychmiast. Dokładny wzór, pełna tabelę przeliczeniową km na cm, przykład z rozwiązaniem i FAQ. Za darmo, bez rejestracji.",
+  "id": "/loona-calculators/pl/kilometers-to-centimeters-converter.html",
+  "start_url": "./kilometers-to-centimeters-converter.html",
+  "scope": "./kilometers-to-centimeters-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

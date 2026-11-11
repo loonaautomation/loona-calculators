@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator przeliczeń kuchennych",
+  "short_name": "Kalkulator przeliczania kuchennego",
+  "description": "Darmowy kalkulator przeliczania kuchennego: przelicz filiżanki, łyżki, mililitry, gramy, uncje i funty dla 10 powszechnych składników, używając rzeczywistych gęstości — mąka, cukier, masło, miód i więcej.",
+  "id": "/loona-calculators/pl/cooking-conversion-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

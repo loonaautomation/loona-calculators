@@ -1,0 +1,29 @@
+{
+  "name": "Loona Dni do Wigilii",
+  "short_name": "Dni do Wigilii",
+  "description": "Odliczanie na żywo do Wigilii: dokładne pozostałe dni, godziny, minuty i sekundy, data w tym roku i w kolejnych trzech latach, fakty i FAQ.",
+  "id": "/loona-calculators/pl/days-until-christmas-eve.html",
+  "start_url": "./days-until-christmas-eve.html",
+  "scope": "./days-until-christmas-eve.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

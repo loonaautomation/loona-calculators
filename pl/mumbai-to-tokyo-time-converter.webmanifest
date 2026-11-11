@@ -1,0 +1,29 @@
+{
+  "name": "Loona Konwerter czasu Mumbaj na Tokio",
+  "short_name": "Konwerter czasu Mumbaj na Tokio",
+  "description": "Przelicz czas z Mumbaju na czas w Tokio. Tokio jest 3 godziny 30 minut przed Mumbajem przez cały rok, z datami zmiany czasu, tabelą 24-godzinną i najlepszym oknem spotkań. Dołączony konwerter na żywo.",
+  "id": "/loona-calculators/pl/mumbai-to-tokyo-time-converter.html",
+  "start_url": "./mumbai-to-tokyo-time-converter.html",
+  "scope": "./mumbai-to-tokyo-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

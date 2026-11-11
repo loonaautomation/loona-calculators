@@ -1,0 +1,29 @@
+{
+  "name": "Loona Konwerter kibibajtów na bajty",
+  "short_name": "Konwerter kibibajtów na bajty",
+  "description": "Przelicz kibibajty na bajty natychmiast. Dokładny wzór, pełna tabelę przeliczeniową KiB na B, przykład z rozwiązaniem i FAQ. Za darmo, bez rejestracji.",
+  "id": "/loona-calculators/pl/kibibytes-to-bytes-converter.html",
+  "start_url": "./kibibytes-to-bytes-converter.html",
+  "scope": "./kibibytes-to-bytes-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

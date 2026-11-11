@@ -1,0 +1,29 @@
+{
+  "name": "Loona Konwerter ton na kg",
+  "short_name": "Konwerter ton na Kg",
+  "description": "Przeliczaj tony metryczne na kilogramy natychmiast. Dokładny wzór, pełna tabela przeliczania t na kg i przepracowane przykłady. Za darmo, bez rejestracji.",
+  "id": "/loona-calculators/pl/tons-to-kilograms-converter.html",
+  "start_url": "./tons-to-kilograms-converter.html",
+  "scope": "./tons-to-kilograms-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

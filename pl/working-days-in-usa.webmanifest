@@ -1,0 +1,29 @@
+{
+  "name": "Loona Dni robocze w USA",
+  "short_name": "Dni robocze w USA",
+  "description": "Kalkulator dni roboczych dla USA: licz dni robocze między dwiema datami, z odjęciem weekendów i wszystkich 11 amerykańskich świąt federalnych z 2026 roku. Bezpłatne narzędzie online.",
+  "id": "/loona-calculators/pl/working-days-in-usa.html",
+  "start_url": "./working-days-in-usa.html",
+  "scope": "./working-days-in-usa.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

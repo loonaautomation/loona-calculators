@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator kredytu samochodowego",
+  "short_name": "Kalkulator kredytu samochodowego",
+  "description": "Darmowy kalkulator kredytu samochodowego: cena pojazdu, wkład własny, stopa procentowa i okres — otrzymaj kwotę pożyczki, miesięczną płatność, łączne odsetki i prawdziwy łączny koszt samochodu.",
+  "id": "/loona-calculators/pl/car-loan-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

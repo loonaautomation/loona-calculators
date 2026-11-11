@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator kredytu hipotecznego w RPA",
+  "short_name": "Kredyt hipoteczny w RPA",
+  "description": "Darmowy południowoafrykański kalkulator kredytu mieszkaniowego (bond) w randach: miesięczna spłata, łączne odsetki i data wolności od długu dla każdej ceny nieruchomości, depozytu, stopy procentowej i okresu, plus porównanie dodatkowych płatności.",
+  "id": "/loona-calculators/pl/south-africa-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

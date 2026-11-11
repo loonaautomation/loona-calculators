@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator wielkości próby",
+  "short_name": "Kalkulator rozmiaru próby",
+  "description": "Darmowy kalkulator wielkości próby: ile odpowiedzi potrzebujesz dla proporcji badania lub średniej, przy Twoim poziomie ufności i marginesie błędu, z korektą skończonej populacji.",
+  "id": "/loona-calculators/pl/sample-size-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

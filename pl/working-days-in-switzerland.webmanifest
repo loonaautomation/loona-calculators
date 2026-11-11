@@ -1,0 +1,29 @@
+{
+  "name": "Loona Dni robocze w Szwajcarii",
+  "short_name": "Dni robocze w Szwajcarii",
+  "description": "Kalkulator dni roboczych dla Szwajcarii: dni robocze między dwiema datami minus weekendy i 4 święta państwowe obchodzone w każdym szwajcarskim kantonie w 2026 roku.",
+  "id": "/loona-calculators/pl/working-days-in-switzerland.html",
+  "start_url": "./working-days-in-switzerland.html",
+  "scope": "./working-days-in-switzerland.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

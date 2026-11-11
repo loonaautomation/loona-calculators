@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator kredytu hipotecznego w Irlandii",
+  "short_name": "Kalkulator kredytu hipotecznego w Irlandii",
+  "description": "Darmowy irlandzki kalkulator kredytów hipotecznych w euro: miesięczna spłata, łączne odsetki i data wolności od długu dla każdej ceny nieruchomości, depozytu, stopy procentowej i okresu, plus porównanie nadpłat.",
+  "id": "/loona-calculators/pl/ireland-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Konwerter kwart na galony",
+  "short_name": "Konwerter kwart na galony",
+  "description": "Przelicz kwarty na galony natychmiast. Dokładny wzór, pełna tabelę przeliczeniową qt na gal i przykłady z rozwiązaniami. Za darmo, bez rejestracji.",
+  "id": "/loona-calculators/pl/quarts-to-gallons-converter.html",
+  "start_url": "./quarts-to-gallons-converter.html",
+  "scope": "./quarts-to-gallons-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

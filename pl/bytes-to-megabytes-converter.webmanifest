@@ -1,0 +1,29 @@
+{
+  "name": "Loona Konwerter bajtów na megabajty",
+  "short_name": "Konwerter bajtu na Megabajt",
+  "description": "Przelicz bajty na megabajty natychmiast. Dokładny wzór, pełna tabelę przeliczeniową B na MB, przykład z rozwiązaniem i FAQ. Za darmo, bez rejestracji.",
+  "id": "/loona-calculators/pl/bytes-to-megabytes-converter.html",
+  "start_url": "./bytes-to-megabytes-converter.html",
+  "scope": "./bytes-to-megabytes-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

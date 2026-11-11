@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator regresji liniowej",
+  "short_name": "Kalkulator regresji liniowej",
+  "description": "Darmowy kalkulator regresji liniowej: wklej sparowane dane, aby otrzymać linię najmniejszych kwadratów y = a + bx, korelację, przewidywania i wykres rozrzutu z narysowaną dopasowaną linią.",
+  "id": "/loona-calculators/pl/linear-regression-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator nachylenia",
+  "short_name": "Kalkulator nachylenia",
+  "description": "Darmowy kalkulator nachylenia: wpisz dwa punkty, aby otrzymać nachylenie, odległość między nimi, punkt środkowy i równanie linii w formie kierunkowej, z pracą.",
+  "id": "/loona-calculators/pl/slope-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

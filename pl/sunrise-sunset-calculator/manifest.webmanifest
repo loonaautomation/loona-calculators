@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator wschodu i zachodu słońca",
+  "short_name": "Kalkulator wschodu i zachodu słońca",
+  "description": "Darmowy kalkulator wschodu i zachodu słońca: wpisz datę i szerokość/długość geograficzną, aby otrzymać wschód, zachód, długość dnia i południe słoneczne w UTC i lokalnych terminach słonecznych. Matematyka NOAA.",
+  "id": "/loona-calculators/pl/sunrise-sunset-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

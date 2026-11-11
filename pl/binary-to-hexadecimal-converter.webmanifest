@@ -1,0 +1,29 @@
+{
+  "name": "Loona Konwerter systemu dwójkowego na szesnastkowy",
+  "short_name": "Binarny na Szesnastkowy",
+  "description": "Przeliczaj liczby binarne (podstawa 2) na szesnastkowe (podstawa 16) z walidacją, pracą nad wartością miejsca i tabelą referencyjną.",
+  "id": "/loona-calculators/pl/binary-to-hexadecimal-converter.html",
+  "start_url": "./binary-to-hexadecimal-converter.html",
+  "scope": "./binary-to-hexadecimal-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator obecności",
+  "short_name": "Kalkulator frekwencji",
+  "description": "Darmowy kalkulator frekwencji dla studentów: wpisz przeprowadzone i zaliczone zajęcia, aby otrzymać procent frekwencji, ile zajęć możesz opuścić lub ile musisz zaliczyć, aby osiągnąć cel.",
+  "id": "/loona-calculators/pl/attendance-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

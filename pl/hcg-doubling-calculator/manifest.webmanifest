@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator czasu podwojenia hCG",
+  "short_name": "Kalkulator czasu podwojenia hCG",
+  "description": "Darmowy kalkulator podwajania hCG: wpisz dwa wyniki beta hCG i godziny między badaniami krwi, aby otrzymać czas podwajania, procentowy wzrost i dzienny wzrost. Tylko edukacyjny.",
+  "id": "/loona-calculators/pl/hcg-doubling-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Konwerter barów na paskale",
+  "short_name": "Konwerter bara na Paskal",
+  "description": "Przelicz bary na paskale natychmiast. Dokładny wzór, pełna tabelę przeliczeniową bar na Pa, przykład z rozwiązaniem i FAQ. Za darmo, bez rejestracji.",
+  "id": "/loona-calculators/pl/bars-to-pascals-converter.html",
+  "start_url": "./bars-to-pascals-converter.html",
+  "scope": "./bars-to-pascals-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

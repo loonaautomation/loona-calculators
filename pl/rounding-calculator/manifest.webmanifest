@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator zaokrąglania",
+  "short_name": "Kalkulator zaokrąglania",
+  "description": "Darmowy kalkulator zaokrąglania: zaokrąglij dowolną liczbę do miejsc dziesiętnych, do najbliższych 10, 100 lub 1,000 lub do cyfr znaczących, z wyjaśnioną regułą.",
+  "id": "/loona-calculators/pl/rounding-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

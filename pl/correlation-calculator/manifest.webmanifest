@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator korelacji",
+  "short_name": "Kalkulator korelacji",
+  "description": "Darmowy kalkulator korelacji Pearsona: wklej sparowane dane x,y, aby otrzymać współczynnik korelacji r, r-kwadrat i odczyt siły w prostym angielskim.",
+  "id": "/loona-calculators/pl/correlation-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator testu t dla jednej próbki",
+  "short_name": "Kalkulator testu t dla jednej próbki",
+  "description": "Darmowy kalkulator testu t dla jednej próby: wpisz średnią próby, SD, n i hipotetyczną średnią, aby otrzymać statystykę t, stopnie swobody i wartości p.",
+  "id": "/loona-calculators/pl/t-test-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

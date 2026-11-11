@@ -1,0 +1,29 @@
+{
+  "name": "Loona Dni robocze w Finlandii",
+  "short_name": "Dni robocze w Finlandii",
+  "description": "Kalkulator dni roboczych dla Finlandii: licz dni robocze między dwiema datami, z odjęciem weekendów i wszystkich 11 fińskich świąt państwowych z 2026 roku. Bezpłatne narzędzie online.",
+  "id": "/loona-calculators/pl/working-days-in-finland.html",
+  "start_url": "./working-days-in-finland.html",
+  "scope": "./working-days-in-finland.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

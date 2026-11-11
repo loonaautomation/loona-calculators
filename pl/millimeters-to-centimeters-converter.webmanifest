@@ -1,0 +1,29 @@
+{
+  "name": "Loona Konwerter milimetrów na centymetry",
+  "short_name": "Konwerter milimetrów na centymetry",
+  "description": "Przelicz milimetry na centymetry natychmiast. Dokładny wzór, pełna tabelę przeliczeniową mm na cm i przykłady z rozwiązaniami. Za darmo, bez rejestracji.",
+  "id": "/loona-calculators/pl/millimeters-to-centimeters-converter.html",
+  "start_url": "./millimeters-to-centimeters-converter.html",
+  "scope": "./millimeters-to-centimeters-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

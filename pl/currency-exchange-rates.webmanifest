@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kursy walut",
+  "short_name": "Kursy wymiany walut",
+  "description": "Kursy referencyjne ECB z dnia 06 listopada 2026 dla 20 walut — wszystkie 380 par z konwerterami, kursami odwrotnymi i tabelami.",
+  "id": "/loona-calculators/pl/currency-exchange-rates.html",
+  "start_url": "./currency-exchange-rates.html",
+  "scope": "./currency-exchange-rates.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

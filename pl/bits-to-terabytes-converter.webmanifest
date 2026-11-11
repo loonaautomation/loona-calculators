@@ -1,0 +1,29 @@
+{
+  "name": "Loona Konwerter bitów na terabajty",
+  "short_name": "Konwerter bitu na Terabajt",
+  "description": "Przelicz bity na terabajty natychmiast. Dokładny wzór, pełna tabelę przeliczeniową bit na TB, przykład z rozwiązaniem i FAQ. Za darmo, bez rejestracji.",
+  "id": "/loona-calculators/pl/bits-to-terabytes-converter.html",
+  "start_url": "./bits-to-terabytes-converter.html",
+  "scope": "./bits-to-terabytes-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

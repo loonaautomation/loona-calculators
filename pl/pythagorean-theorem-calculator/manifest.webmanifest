@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator twierdzenia Pitagorasa",
+  "short_name": "Kalkulator twierdzenia Pitagorasa",
+  "description": "Darmowy kalkulator twierdzenia Pitagorasa: wpisz dowolne dwa boki trójkąta prostokątnego, aby znaleźć trzeci — przeciwprostokątną lub przyprostokątną — z pokazaną pracą.",
+  "id": "/loona-calculators/pl/pythagorean-theorem-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

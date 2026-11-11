@@ -1,0 +1,29 @@
+{
+  "name": "Loona Konwerter masy i wagi",
+  "short_name": "Konwerter masy i wagi",
+  "description": "Każda para przeliczania masy i wagi w jednym indeksie: dokładne współczynniki, wzory i dedykowana strona konwertera dla każdej pary. Za darmo, bez rejestracji.",
+  "id": "/loona-calculators/pl/mass-converter.html",
+  "start_url": "./mass-converter.html",
+  "scope": "./mass-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

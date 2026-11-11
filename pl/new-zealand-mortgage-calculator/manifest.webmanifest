@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator kredytu hipotecznego w Nowej Zelandii",
+  "short_name": "Kredyt hipoteczny w Nowej Zelandii",
+  "description": "Darmowy nowozelandzki kalkulator kredytów hipotecznych: miesięczna płatność, łączne odsetki i data wolności od długu dla każdej ceny domu, depozytu, stopy procentowej i okresu, plus porównanie dodatkowych płatności.",
+  "id": "/loona-calculators/pl/new-zealand-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

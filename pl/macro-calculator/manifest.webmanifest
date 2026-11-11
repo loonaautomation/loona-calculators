@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator makroskładników",
+  "short_name": "Kalkulator makroskładników",
+  "description": "Darmowy kalkulator makro: wpisz dzienny cel kaloryczny i wybierz podział — Zrównoważony, Wysokobiałkowy, Niskowęglowodanowy lub Keto — aby otrzymać węglowodany, białko i tłuszcz w gramach dziennie.",
+  "id": "/loona-calculators/pl/macro-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

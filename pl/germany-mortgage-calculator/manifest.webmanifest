@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator kredytu hipotecznego w Niemczech",
+  "short_name": "Niemiecki kalkulator kredytów hipotecznych",
+  "description": "Darmowy niemiecki kalkulator kredytów hipotecznych (Baufinanzierung) w euro: miesięczna annuitet ze stopy procentowej i początkowego Tilgung, pozostały dług po okresie stałym.",
+  "id": "/loona-calculators/pl/germany-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

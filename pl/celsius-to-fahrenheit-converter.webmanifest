@@ -1,0 +1,29 @@
+{
+  "name": "Loona Konwerter stopni Celsjusza na stopnie Fahrenheita",
+  "short_name": "Celsjusz na Fahrenheit",
+  "description": "Przelicz celsjusza na fahrenheita natychmiast. Dokładny wzór, pełna tabelę przeliczeniową °C na °F i przykłady z rozwiązaniami. Za darmo, bez rejestracji.",
+  "id": "/loona-calculators/pl/celsius-to-fahrenheit-converter.html",
+  "start_url": "./celsius-to-fahrenheit-converter.html",
+  "scope": "./celsius-to-fahrenheit-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

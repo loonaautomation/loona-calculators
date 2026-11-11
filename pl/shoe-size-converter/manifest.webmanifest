@@ -1,0 +1,29 @@
+{
+  "name": "Loona Konwerter rozmiarów obuwia",
+  "short_name": "Konwerter rozmiarów obuwia",
+  "description": "Darmowy konwerter rozmiarów butów dla mężczyzn i kobiet: przelicz między rozmiarami US, UK i EU i długością stopy w cm i calach, używając standardowych tabel przeliczeniowych z najbliższym dopasowaniem.",
+  "id": "/loona-calculators/pl/shoe-size-converter/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

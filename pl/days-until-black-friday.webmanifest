@@ -1,0 +1,29 @@
+{
+  "name": "Loona Dni do Black Friday",
+  "short_name": "Dni do Black Friday",
+  "description": "Odliczanie na żywo do Black Friday: dokładne pozostałe dni, godziny, minuty i sekundy, data w tym roku i w kolejnych trzech latach, fakty i FAQ.",
+  "id": "/loona-calculators/pl/days-until-black-friday.html",
+  "start_url": "./days-until-black-friday.html",
+  "scope": "./days-until-black-friday.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

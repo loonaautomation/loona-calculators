@@ -1,0 +1,29 @@
+{
+  "name": "Loona Losowanie liczb bingo",
+  "short_name": "Wywoływacz liczb Bingo",
+  "description": "Darmowy wywoływacz liczb bingo dla gier 75-ball (B-I-N-G-O) i 90-ball: losuje liczby bez powtórzeń, pokazuje bieżącą kulę dużą i śledzi każdą wywołaną liczbę na tablicy.",
+  "id": "/loona-calculators/pl/bingo-number-caller/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

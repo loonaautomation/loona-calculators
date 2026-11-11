@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator ocen",
+  "short_name": "Kalkulator ocen",
+  "description": "Darmowy kalkulator ocen ważonych: wpisz do 8 wyników zadań z ich wagami, aby otrzymać ogólny procent oceny i ocenę literową. Wagi nie muszą sumować się do 100.",
+  "id": "/loona-calculators/pl/grade-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator procentów",
+  "short_name": "Kalkulator procentów",
+  "description": "Darmowy kalkulator procentu z trzema narzędziami w jednym: ile to X% z Y, X to jaki procent Y oraz wzrost lub spadek procentowy między dwiema liczbami.",
+  "id": "/loona-calculators/pl/percentage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

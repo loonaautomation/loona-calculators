@@ -1,0 +1,29 @@
+{
+  "name": "Loona Dni robocze w Austrii",
+  "short_name": "Dni robocze w Austrii",
+  "description": "Kalkulator dni roboczych dla Austrii: licz dni robocze między dwiema datami, z odjęciem weekendów i wszystkich 13 austriackich świąt państwowych z 2026 roku.",
+  "id": "/loona-calculators/pl/working-days-in-austria.html",
+  "start_url": "./working-days-in-austria.html",
+  "scope": "./working-days-in-austria.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator inflacji",
+  "short_name": "Kalkulator inflacji",
+  "description": "Darmowy kalkulator inflacji: wpisz kwotę, stopę inflacji i lata, aby zobaczyć przyszły koszt tych samych towarów i ile naprawdę będzie warte dzisiejsze pieniądze.",
+  "id": "/loona-calculators/pl/inflation-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

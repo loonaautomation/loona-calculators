@@ -1,0 +1,29 @@
+{
+  "name": "Loona Generator losowania Secret Santa",
+  "short_name": "Generator Sekretnego Mikołaja",
+  "description": "Darmowy generator Secret Santa: dodaj imiona, ustaw wykluczenia (pary, zeszłoroczne pary), losuj w tajemnicy, a potem każda osoba ujawnia tylko własne dopasowanie. Prywatny, w przeglądarce.",
+  "id": "/loona-calculators/pl/secret-santa-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

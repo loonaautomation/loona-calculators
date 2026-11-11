@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator kredytu hipotecznego w Kanadzie",
+  "short_name": "Kanadyjski kalkulator kredytów hipotecznych",
+  "description": "Darmowy kanadyjski kalkulator kredytów hipotecznych w CAD z poprawną kapitalizacją półroczną (j2), płatnościami miesięcznymi, łącznymi odsetkami i porównaniem nadpłat.",
+  "id": "/loona-calculators/pl/canada-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

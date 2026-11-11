@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator średniej",
+  "short_name": "Kalkulator średniej",
+  "description": "Darmowy kalkulator średniej: wklej listę liczb, aby otrzymać średnią, medianę, dominantę, sumę, liczbę, minimum, maksimum i zakres — natychmiast, dla do 50 liczb.",
+  "id": "/loona-calculators/pl/average-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

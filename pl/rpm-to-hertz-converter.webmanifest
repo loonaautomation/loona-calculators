@@ -1,0 +1,29 @@
+{
+  "name": "Loona Konwerter obrotów na minutę na herce",
+  "short_name": "Obroty na minutę na",
+  "description": "Przelicz obroty na minutę na herce natychmiast. Dokładny wzór, pełna tabelę przeliczeniową rpm na Hz, przykład z rozwiązaniem i FAQ. Za darmo, bez rejestracji.",
+  "id": "/loona-calculators/pl/rpm-to-hertz-converter.html",
+  "start_url": "./rpm-to-hertz-converter.html",
+  "scope": "./rpm-to-hertz-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

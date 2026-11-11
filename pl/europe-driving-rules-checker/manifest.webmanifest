@@ -1,0 +1,29 @@
+{
+  "name": "Loona Weryfikator przepisów drogowych w Europie",
+  "short_name": "Narzędzie sprawdzania europejskich zasad jazdy",
+  "description": "Darmowe narzędzie sprawdzania europejskich zasad jazdy: wybierz kraj dla jego strony jazdy, limitu prędkości na autostradzie, limitu jazdy po alkoholu i kluczowych zasad lokalnych dla odwiedzających kierowców.",
+  "id": "/loona-calculators/pl/europe-driving-rules-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

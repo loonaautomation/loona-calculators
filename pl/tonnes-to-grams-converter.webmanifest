@@ -1,0 +1,29 @@
+{
+  "name": "Loona Konwerter ton na gramy",
+  "short_name": "Konwerter tony na Gram",
+  "description": "Przelicz tony na gramy natychmiast. Dokładny wzór, pełna tabelę przeliczeniową t na g, przykład z rozwiązaniem i FAQ. Za darmo, bez rejestracji.",
+  "id": "/loona-calculators/pl/tonnes-to-grams-converter.html",
+  "start_url": "./tonnes-to-grams-converter.html",
+  "scope": "./tonnes-to-grams-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

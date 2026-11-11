@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator: wynajem czy kupno",
+  "short_name": "Kalkulator wynajem czy kupno",
+  "description": "Darmowy kalkulator czynsz kontra kupno: porównaj łączny koszt wynajmu z kosztem netto kupna domu przez lata, przez które planujesz zostać — hipoteka, podwyżki czynszu, wzrost ceny i kapitał włączone.",
+  "id": "/loona-calculators/pl/rent-vs-buy-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

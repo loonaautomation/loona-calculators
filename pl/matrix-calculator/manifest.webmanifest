@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator macierzy",
+  "short_name": "Kalkulator macierzy",
+  "description": "Darmowy kalkulator macierzy dla macierzy 2x2 i 3x3: dodawanie, odejmowanie, mnożenie, wyznacznik i odwrotność z pokazanymi wartościami kroków. Bez rejestracji, działa w przeglądarce.",
+  "id": "/loona-calculators/pl/matrix-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

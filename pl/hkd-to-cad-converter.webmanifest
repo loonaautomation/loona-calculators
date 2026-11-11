@@ -1,0 +1,29 @@
+{
+  "name": "Loona Konwerter HKD na CAD",
+  "short_name": "Konwerter HKD na CAD",
+  "description": "Przelicz dolar hongkoński (HKD) na dolar kanadyjski (CAD). Kurs referencyjny EBC z 06 listopada 2026, kurs odwrotny, tabela przeliczeniowa i uwagi dotyczące korytarza. Tylko orientacyjnie.",
+  "id": "/loona-calculators/pl/hkd-to-cad-converter.html",
+  "start_url": "./hkd-to-cad-converter.html",
+  "scope": "./hkd-to-cad-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

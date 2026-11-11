@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Schengen 90/180",
+  "short_name": "Kalkulator Schengen 90/180",
+  "description": "Darmowy kalkulator Schengen 90/180: wpisz przeszłe i planowane podróże, aby zobaczyć dni użyte w każdym kroczącym oknie 180-dniowym, pozostałe dni, ostrzeżenia o przekroczeniu pobytu i najwcześniejsze bezpieczne ponowne wejście.",
+  "id": "/loona-calculators/pl/schengen-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

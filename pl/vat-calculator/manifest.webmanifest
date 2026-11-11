@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator VAT",
+  "short_name": "Kalkulator VAT",
+  "description": "Darmowy kalkulator VAT/GST: dodaj podatek do kwoty netto lub usuń podatek z kwoty brutto według każdej stopy. Działa dla VAT, GST i podatku od sprzedaży w każdym kraju.",
+  "id": "/loona-calculators/pl/vat-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

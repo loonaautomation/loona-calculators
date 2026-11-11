@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator rabatów",
+  "short_name": "Kalkulator rabatów",
+  "description": "Darmowy kalkulator rabatów: wpisz cenę i procent rabatu, aby otrzymać cenę końcową i ile oszczędzasz. Obsługuje dodatkowy drugi rabat i podatek dodany po rabacie.",
+  "id": "/loona-calculators/pl/discount-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

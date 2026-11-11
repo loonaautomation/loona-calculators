@@ -1,0 +1,29 @@
+{
+  "name": "Loona Wiek według roku urodzenia",
+  "short_name": "Wiek według roku urodzenia",
+  "description": "Wiek kończony w 2026 roku dla każdego roku urodzenia 1946–2025, z etykietami pokoleń i latami kamieni milowych.",
+  "id": "/loona-calculators/pl/age-by-birth-year.html",
+  "start_url": "./age-by-birth-year.html",
+  "scope": "./age-by-birth-year.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

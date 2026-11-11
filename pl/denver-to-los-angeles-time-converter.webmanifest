@@ -1,0 +1,29 @@
+{
+  "name": "Loona Konwerter czasu Denver na Los Angeles",
+  "short_name": "Czas z Denver do Los Angeles",
+  "description": "Przelicz czas z Denver na czas w Los Angeles. Los Angeles jest 1 godzinę za Denver przez cały rok, z datami zmiany czasu, tabelą 24-godzinną i najlepszym oknem spotkań. Dołączony konwerter na żywo.",
+  "id": "/loona-calculators/pl/denver-to-los-angeles-time-converter.html",
+  "start_url": "./denver-to-los-angeles-time-converter.html",
+  "scope": "./denver-to-los-angeles-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

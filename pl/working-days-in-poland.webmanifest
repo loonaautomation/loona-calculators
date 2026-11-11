@@ -1,0 +1,29 @@
+{
+  "name": "Loona Dni robocze w Polsce",
+  "short_name": "Dni robocze w Polsce",
+  "description": "Kalkulator dni roboczych dla Polski: licz dni robocze między dwiema datami, z odjęciem weekendów i wszystkich 14 polskich świąt państwowych z 2026 roku. Bezpłatny, bez rejestracji.",
+  "id": "/loona-calculators/pl/working-days-in-poland.html",
+  "start_url": "./working-days-in-poland.html",
+  "scope": "./working-days-in-poland.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

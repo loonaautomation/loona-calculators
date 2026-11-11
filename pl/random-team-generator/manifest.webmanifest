@@ -1,0 +1,29 @@
+{
+  "name": "Loona Generator losowych drużyn",
+  "short_name": "Generator losowych drużyn",
+  "description": "Darmowy generator losowych drużyn: wklej listę imion i podziel je na zrównoważone losowe drużyny dla sportu, klas, gier i warsztatów. Uczciwe tasowanie, bez rejestracji.",
+  "id": "/loona-calculators/pl/random-team-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
