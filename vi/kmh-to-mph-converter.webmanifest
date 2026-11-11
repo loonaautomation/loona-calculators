@@ -1,0 +1,29 @@
+{
+  "name": "Bộ chuyển đổi Loona Km/h sang Mph",
+  "short_name": "Bộ chuyển đổi Km/h sang Mph",
+  "description": "Chuyển đổi kilômét mỗi giờ sang dặm mỗi giờ ngay lập tức. Công thức chính xác, một bảng chuyển đổi đầy đủ từ km/h sang mph và các ví dụ đã làm. Miễn phí, không cần đăng ký.",
+  "id": "/loona-calculators/vi/kmh-to-mph-converter.html",
+  "start_url": "./kmh-to-mph-converter.html",
+  "scope": "./kmh-to-mph-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Máy tính Macro Loona",
+  "short_name": "Máy tính Macro",
+  "description": "Máy tính macro miễn phí: nhập mục tiêu calo hàng ngày của bạn và chọn một tỷ lệ chia — Cân bằng, Giàu Protein, Ít Carb hoặc Keto — để nhận carb, protein và chất béo theo gam mỗi ngày.",
+  "id": "/loona-calculators/vi/macro-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

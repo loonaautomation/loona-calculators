@@ -1,0 +1,29 @@
+{
+  "name": "Máy tính Chia Tiền thuê Loona",
+  "short_name": "Máy tính Chia Tiền thuê",
+  "description": "Máy tính chia tiền thuê miễn phí: chia tiền thuê hàng tháng giữa 2 đến 8 bạn cùng phòng — đều nhau, theo diện tích phòng tính bằng feet vuông, hoặc theo thu nhập. Các phần luôn cộng lại đúng tổng.",
+  "id": "/loona-calculators/vi/rent-split-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

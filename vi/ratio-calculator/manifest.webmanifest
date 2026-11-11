@@ -1,0 +1,29 @@
+{
+  "name": "Máy tính Tỷ lệ Loona",
+  "short_name": "Máy tính Tỷ lệ",
+  "description": "Máy tính tỷ lệ miễn phí: rút gọn bất kỳ tỷ lệ nào về dạng tối giản và chia một tổng số tiền theo một tỷ lệ cho trước — cả hai phần được hiển thị ngay lập tức.",
+  "id": "/loona-calculators/vi/ratio-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

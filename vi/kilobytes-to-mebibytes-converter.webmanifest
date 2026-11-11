@@ -1,0 +1,29 @@
+{
+  "name": "Bộ chuyển đổi Loona Kilobyte sang Mebibyte",
+  "short_name": "Bộ chuyển đổi Kilobyte sang Mebibyte",
+  "description": "Chuyển đổi kilobyte sang mebibyte ngay lập tức. Công thức chính xác, một bảng chuyển đổi đầy đủ từ KB sang MiB, một ví dụ đã làm và các câu hỏi thường gặp. Miễn phí, không cần đăng ký.",
+  "id": "/loona-calculators/vi/kilobytes-to-mebibytes-converter.html",
+  "start_url": "./kilobytes-to-mebibytes-converter.html",
+  "scope": "./kilobytes-to-mebibytes-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

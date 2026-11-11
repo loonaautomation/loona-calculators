@@ -1,0 +1,29 @@
+{
+  "name": "Máy tính Điểm danh Loona",
+  "short_name": "Máy tính Điểm danh",
+  "description": "Máy tính điểm danh miễn phí cho học sinh: nhập số buổi đã tổ chức và đã tham dự để nhận phần trăm điểm danh của bạn, bạn có thể vắng bao nhiêu buổi, hoặc bạn phải tham dự bao nhiêu buổi để đạt mục tiêu.",
+  "id": "/loona-calculators/vi/attendance-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

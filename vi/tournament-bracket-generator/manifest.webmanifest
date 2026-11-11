@@ -1,0 +1,29 @@
+{
+  "name": "Công cụ Tạo Bảng Đấu Loona",
+  "short_name": "Máy Tạo Bảng Đấu Giải",
+  "description": "Máy tạo bảng đấu giải đấu miễn phí: nhập các thí sinh, nhận một bảng đấu loại trực tiếp được xếp hạt giống đúng cách với các lượt miễn đấu được xử lý — cho esports, ngày thể thao, cờ vua và đố vui.",
+  "id": "/loona-calculators/vi/tournament-bracket-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

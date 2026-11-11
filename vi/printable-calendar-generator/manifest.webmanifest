@@ -1,0 +1,29 @@
+{
+  "name": "Công cụ Tạo Lịch In được Loona",
+  "short_name": "Công cụ Tạo Lịch In được",
+  "description": "Máy tạo lịch có thể in miễn phí: chọn bất kỳ tháng và năm nào (hoặc cả năm) và tạo một lưới lịch sạch bạn có thể in. Bắt đầu Thứ hai hoặc Chủ nhật.",
+  "id": "/loona-calculators/vi/printable-calendar-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

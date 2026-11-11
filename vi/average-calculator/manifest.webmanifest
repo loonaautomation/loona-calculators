@@ -1,0 +1,29 @@
+{
+  "name": "Máy tính Trung bình Loona",
+  "short_name": "Máy tính Trung bình",
+  "description": "Máy tính trung bình miễn phí: dán một danh sách số để nhận trung bình cộng, trung vị, mode, tổng, số lượng, nhỏ nhất, lớn nhất và khoảng — ngay lập tức, cho tối đa 50 số.",
+  "id": "/loona-calculators/vi/average-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

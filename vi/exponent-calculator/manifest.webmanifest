@@ -1,0 +1,29 @@
+{
+  "name": "Máy tính Số mũ Loona",
+  "short_name": "Máy tính Số mũ",
+  "description": "Máy tính số mũ miễn phí: nhập một cơ số và một số mũ để có kết quả lũy thừa, cộng một bảng phụ về bình phương, lập phương, căn bậc hai và căn bậc ba của cơ số.",
+  "id": "/loona-calculators/vi/exponent-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

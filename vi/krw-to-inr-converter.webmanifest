@@ -1,0 +1,29 @@
+{
+  "name": "Bộ chuyển đổi Loona KRW sang INR",
+  "short_name": "Bộ chuyển đổi KRW sang INR",
+  "description": "Chuyển đổi Won Hàn Quốc (KRW) sang Rupee Ấn Độ (INR). Tỷ giá tham chiếu ECB ngày 06 tháng 11 năm 2026 — tỷ giá nghịch đảo, bảng chuyển đổi và ghi chú hành lang. Chỉ mang tính tham khảo.",
+  "id": "/loona-calculators/vi/krw-to-inr-converter.html",
+  "start_url": "./krw-to-inr-converter.html",
+  "scope": "./krw-to-inr-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

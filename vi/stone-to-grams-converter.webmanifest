@@ -1,0 +1,29 @@
+{
+  "name": "Bộ chuyển đổi Loona Stone sang Gam",
+  "short_name": "Bộ chuyển đổi Stone sang Gam",
+  "description": "Chuyển đổi stone sang gam ngay lập tức. Công thức chính xác, một bảng chuyển đổi đầy đủ từ st sang g, một ví dụ đã làm và các câu hỏi thường gặp. Miễn phí, không cần đăng ký.",
+  "id": "/loona-calculators/vi/stone-to-grams-converter.html",
+  "start_url": "./stone-to-grams-converter.html",
+  "scope": "./stone-to-grams-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

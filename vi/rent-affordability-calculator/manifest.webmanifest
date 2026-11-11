@@ -1,0 +1,29 @@
+{
+  "name": "Máy tính Khả năng Chi trả Tiền thuê Loona",
+  "short_name": "Máy tính Khả năng Chi trả Tiền thuê",
+  "description": "Máy tính khả năng thuê nhà miễn phí: nhập tổng thu nhập của bạn, phần bạn có thể chi cho tiền thuê và các khoản nợ hàng tháng để xem tiền thuê tối đa bạn có thể chi trả — với hướng dẫn 28/36.",
+  "id": "/loona-calculators/vi/rent-affordability-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

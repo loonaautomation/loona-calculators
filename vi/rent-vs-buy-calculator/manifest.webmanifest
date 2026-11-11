@@ -1,0 +1,29 @@
+{
+  "name": "Máy tính Thuê và Mua Loona",
+  "short_name": "Máy tính Thuê và Mua",
+  "description": "Máy tính thuê so với mua miễn phí: so sánh tổng chi phí thuê với chi phí ròng của việc mua một ngôi nhà trong số năm bạn dự định ở — thế chấp, tăng tiền thuê, tăng giá và vốn chủ sở hữu được bao gồm.",
+  "id": "/loona-calculators/vi/rent-vs-buy-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

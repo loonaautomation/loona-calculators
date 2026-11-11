@@ -1,0 +1,29 @@
+{
+  "name": "Bộ chuyển đổi Loona Giờ Karachi sang Tokyo",
+  "short_name": "Giờ Karachi sang Tokyo",
+  "description": "Chuyển đổi giờ Karachi sang giờ Tokyo. Tokyo sớm hơn Karachi 4 giờ quanh năm, với các ngày áp dụng giờ tiết kiệm ánh sáng ban ngày, một bảng 24 giờ và khung giờ họp tốt nhất. Đã bao gồm bộ chuyển đổi trực tiếp.",
+  "id": "/loona-calculators/vi/karachi-to-tokyo-time-converter.html",
+  "start_url": "./karachi-to-tokyo-time-converter.html",
+  "scope": "./karachi-to-tokyo-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

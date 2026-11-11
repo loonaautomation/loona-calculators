@@ -1,0 +1,29 @@
+{
+  "name": "Máy tính CGPA Loona",
+  "short_name": "Máy tính CGPA",
+  "description": "Máy tính CGPA miễn phí cho sinh viên đại học: nhập điểm môn học và giờ tín chỉ để nhận GPA học kỳ của bạn, và cộng thêm CGPA trước đây của bạn để có kết quả tích lũy. Thang điểm HEC.",
+  "id": "/loona-calculators/vi/cgpa-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

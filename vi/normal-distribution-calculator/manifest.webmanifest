@@ -1,0 +1,29 @@
+{
+  "name": "Máy tính Phân phối Chuẩn Loona",
+  "short_name": "Máy tính Phân phối Chuẩn",
+  "description": "Máy tính phân phối chuẩn miễn phí: đối với bất kỳ trung bình và độ lệch chuẩn nào, tìm P(X<x), P(X>x), P(a<X<b), và giá trị ở một phân vị cho trước.",
+  "id": "/loona-calculators/vi/normal-distribution-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

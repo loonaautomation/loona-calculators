@@ -1,0 +1,29 @@
+{
+  "name": "Bộ chuyển đổi Loona TRY sang CNY",
+  "short_name": "Bộ chuyển đổi TRY sang CNY",
+  "description": "Chuyển đổi Lira Thổ Nhĩ Kỳ (TRY) sang Nhân dân tệ Trung Quốc (Renminbi) (CNY). Tỷ giá tham chiếu ECB ngày 06 tháng 11 năm 2026 — tỷ giá nghịch đảo, bảng chuyển đổi và ghi chú hành lang. Chỉ mang tính tham khảo.",
+  "id": "/loona-calculators/vi/try-to-cny-converter.html",
+  "start_url": "./try-to-cny-converter.html",
+  "scope": "./try-to-cny-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Máy tính Phần trăm Loona",
+  "short_name": "Máy tính Phần trăm",
+  "description": "Máy tính phần trăm miễn phí với ba công cụ trong một: X% của Y là bao nhiêu, X bằng bao nhiêu phần trăm của Y, và tăng hoặc giảm phần trăm giữa hai số.",
+  "id": "/loona-calculators/vi/percentage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

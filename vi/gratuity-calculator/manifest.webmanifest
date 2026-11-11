@@ -1,0 +1,29 @@
+{
+  "name": "Máy tính Tiền Thưởng Cuối kỳ Loona",
+  "short_name": "Máy tính Tiền thưởng Hưu bổng",
+  "description": "Máy tính tiền thưởng hưu bổng miễn phí: lương tháng cuối cùng được lĩnh và số năm phục vụ đã hoàn thành — ước tính tiền thưởng hưu bổng ở mức một tháng lương (tiền công 30 ngày) cho mỗi năm phục vụ.",
+  "id": "/loona-calculators/vi/gratuity-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

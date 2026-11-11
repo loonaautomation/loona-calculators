@@ -1,0 +1,29 @@
+{
+  "name": "Bộ chuyển đổi Đơn vị Loona",
+  "short_name": "Bộ Chuyển Đổi Đơn Vị",
+  "description": "Bộ chuyển đổi đơn vị miễn phí: chuyển đổi các đơn vị độ dài, cân nặng, nhiệt độ, thể tích và diện tích với các hệ số tiêu chuẩn chính xác — km sang dặm, kg sang pound, Celsius sang Fahrenheit.",
+  "id": "/loona-calculators/vi/unit-converter/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

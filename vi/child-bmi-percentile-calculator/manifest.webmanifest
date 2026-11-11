@@ -1,0 +1,29 @@
+{
+  "name": "Máy tính Phân vị BMI Trẻ em Loona",
+  "short_name": "Phân vị BMI của Trẻ em",
+  "description": "Máy tính phân vị BMI trẻ em miễn phí sử dụng dữ liệu biểu đồ tăng trưởng LMS chính thức của CDC cho độ tuổi 2 đến 20: BMI, phân vị, điểm z và hạng mục cân nặng cho bé trai và bé gái.",
+  "id": "/loona-calculators/vi/child-bmi-percentile-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

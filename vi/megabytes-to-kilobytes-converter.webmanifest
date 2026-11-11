@@ -1,0 +1,29 @@
+{
+  "name": "Bộ chuyển đổi Loona Megabyte sang Kilobyte",
+  "short_name": "Megabyte sang Kilobyte",
+  "description": "Chuyển đổi megabyte sang kilobyte ngay lập tức (quy ước nhị phân: 1 GB = 1,024 MB). Công thức chính xác, một bảng chuyển đổi đầy đủ từ MB sang KB và các ví dụ đã làm. Miễn phí, không cần đăng ký.",
+  "id": "/loona-calculators/vi/megabytes-to-kilobytes-converter.html",
+  "start_url": "./megabytes-to-kilobytes-converter.html",
+  "scope": "./megabytes-to-kilobytes-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

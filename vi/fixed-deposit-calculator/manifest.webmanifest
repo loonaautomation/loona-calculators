@@ -1,0 +1,29 @@
+{
+  "name": "Máy tính Tiền gửi Cố định Loona",
+  "short_name": "Máy tính Tiền gửi Cố định",
+  "description": "Máy tính tiền gửi cố định (FD) miễn phí: số tiền gửi, lãi suất, thời hạn và tần suất gộp lãi — nhận giá trị đáo hạn và tổng lãi kiếm được.",
+  "id": "/loona-calculators/vi/fixed-deposit-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

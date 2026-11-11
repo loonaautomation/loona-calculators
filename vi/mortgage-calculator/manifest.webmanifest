@@ -1,0 +1,29 @@
+{
+  "name": "Máy tính Thế chấp Loona",
+  "short_name": "Máy tính Thế chấp",
+  "description": "Máy tính thế chấp miễn phí: giá nhà, khoản trả trước, lãi suất và thời hạn — nhận số tiền vay, thanh toán hàng tháng, tổng lãi và tổng chi phí ngôi nhà của bạn.",
+  "id": "/loona-calculators/vi/mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

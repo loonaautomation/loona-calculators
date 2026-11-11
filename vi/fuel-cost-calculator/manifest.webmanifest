@@ -1,0 +1,29 @@
+{
+  "name": "Máy tính Chi phí Nhiên liệu Loona",
+  "short_name": "Máy tính Chi phí Nhiên liệu",
+  "description": "Máy tính chi phí nhiên liệu miễn phí: nhập quãng đường, mức tiêu thụ của xe và giá nhiên liệu để nhận số lít cần thiết và tổng chi phí chuyến đi, với tùy chọn khứ hồi.",
+  "id": "/loona-calculators/vi/fuel-cost-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

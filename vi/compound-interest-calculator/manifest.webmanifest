@@ -1,0 +1,29 @@
+{
+  "name": "Máy tính Lãi Kép Loona",
+  "short_name": "Máy tính Lãi Kép",
+  "description": "Máy tính lãi kép miễn phí: xem tiền của bạn tăng trưởng như thế nào với lãi kép hàng năm, hàng quý, hàng tháng hoặc hàng ngày, với tiền gửi hàng tháng tùy chọn và bảng theo từng năm.",
+  "id": "/loona-calculators/vi/compound-interest-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

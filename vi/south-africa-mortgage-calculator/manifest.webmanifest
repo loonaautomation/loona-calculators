@@ -1,0 +1,29 @@
+{
+  "name": "Máy tính Thế chấp Nam Phi Loona",
+  "short_name": "Thế chấp Nam Phi",
+  "description": "Máy tính khoản vay mua nhà Nam Phi miễn phí (bond) bằng rand: khoản trả hàng tháng, tổng lãi và ngày hết nợ cho bất kỳ giá bất động sản, tiền đặt cọc, lãi suất và thời hạn nào, cộng thêm so sánh trả thêm.",
+  "id": "/loona-calculators/vi/south-africa-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

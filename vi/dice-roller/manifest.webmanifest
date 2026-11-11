@@ -1,0 +1,29 @@
+{
+  "name": "Công cụ Gieo Xúc Xắc Loona",
+  "short_name": "Công cụ Tung Xúc xắc",
+  "description": "Máy lăn xúc xắc trực tuyến miễn phí: lăn 1 đến 6 xúc xắc — d6, d20 tiêu chuẩn và các xúc xắc đa diện khác — với xúc xắc trực quan, tổng, trung bình và lịch sử lăn.",
+  "id": "/loona-calculators/vi/dice-roller/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

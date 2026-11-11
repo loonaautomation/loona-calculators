@@ -1,0 +1,29 @@
+{
+  "name": "Máy tính Căn Bậc hai Loona",
+  "short_name": "Máy tính Căn bậc Hai",
+  "description": "Máy tính căn bậc hai miễn phí: nhập bất kỳ số nào để nhận căn bậc hai, căn bậc ba, căn bậc 4 và bậc 5 của nó — cộng bình phương và lập phương của nó — tất cả cùng lúc.",
+  "id": "/loona-calculators/vi/square-root-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Máy tính CAGR Loona",
+  "short_name": "Máy tính CAGR",
+  "description": "Máy tính CAGR miễn phí: nhập giá trị bắt đầu, giá trị kết thúc và số năm để tìm tốc độ tăng trưởng kép hàng năm của một khoản đầu tư hoặc một doanh nghiệp.",
+  "id": "/loona-calculators/vi/cagr-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

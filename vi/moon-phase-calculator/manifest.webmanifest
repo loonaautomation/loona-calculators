@@ -1,0 +1,29 @@
+{
+  "name": "Máy tính Pha Trăng Loona",
+  "short_name": "Máy tính Pha Trăng",
+  "description": "Máy tính pha mặt trăng miễn phí: nhập bất kỳ ngày nào để xem tên pha của mặt trăng, phần trăm chiếu sáng, tuổi trăng và số ngày đến trăng non và trăng tròn tiếp theo.",
+  "id": "/loona-calculators/vi/moon-phase-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

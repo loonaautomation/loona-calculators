@@ -1,0 +1,29 @@
+{
+  "name": "Máy tính Hồi quy Tuyến tính Loona",
+  "short_name": "Máy tính Hồi quy Tuyến tính",
+  "description": "Máy tính hồi quy tuyến tính miễn phí: dán dữ liệu cặp để nhận đường bình phương nhỏ nhất y = a + bx, tương quan, dự đoán, và biểu đồ phân tán với đường đã khớp được vẽ.",
+  "id": "/loona-calculators/vi/linear-regression-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

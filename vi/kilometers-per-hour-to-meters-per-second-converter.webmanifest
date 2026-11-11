@@ -1,0 +1,29 @@
+{
+  "name": "Bộ chuyển đổi Loona Km/h sang Mét mỗi Giây",
+  "short_name": "Km/h sang Mét mỗi Giây",
+  "description": "Chuyển đổi kilômét mỗi giờ sang mét mỗi giây ngay lập tức. Công thức chính xác, một bảng chuyển đổi đầy đủ từ km/h sang m/s và các ví dụ đã làm. Miễn phí, không cần đăng ký.",
+  "id": "/loona-calculators/vi/kilometers-per-hour-to-meters-per-second-converter.html",
+  "start_url": "./kilometers-per-hour-to-meters-per-second-converter.html",
+  "scope": "./kilometers-per-hour-to-meters-per-second-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Máy tính Vẽ Đồ thị Loona",
+  "short_name": "Máy tính Vẽ đồ thị",
+  "description": "Máy tính vẽ đồ thị miễn phí: vẽ một hoặc hai hàm như x^2, sin(x) hoặc 2x+3 trên một lưới có thu phóng. Hoạt động trong trình duyệt của bạn, không cần đăng ký.",
+  "id": "/loona-calculators/vi/graphing-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

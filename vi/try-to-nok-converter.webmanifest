@@ -1,0 +1,29 @@
+{
+  "name": "Bộ chuyển đổi Loona TRY sang NOK",
+  "short_name": "Bộ chuyển đổi TRY sang NOK",
+  "description": "Chuyển đổi Lira Thổ Nhĩ Kỳ (TRY) sang Krone Na Uy (NOK). Tỷ giá tham chiếu ECB ngày 06 tháng 11 năm 2026 — tỷ giá nghịch đảo, bảng chuyển đổi và ghi chú hành lang. Chỉ mang tính tham khảo.",
+  "id": "/loona-calculators/vi/try-to-nok-converter.html",
+  "start_url": "./try-to-nok-converter.html",
+  "scope": "./try-to-nok-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

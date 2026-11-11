@@ -1,0 +1,29 @@
+{
+  "name": "Máy tính Kiểm định Chi-Bình phương Loona",
+  "short_name": "Máy tính Kiểm định Chi-Square",
+  "description": "Máy tính kiểm định chi-bình phương miễn phí: nhập một bảng quan sát cho kiểm định tính độc lập, hoặc số đếm quan sát so với kỳ vọng cho độ phù hợp. Chi-bình phương, df và giá trị p.",
+  "id": "/loona-calculators/vi/chi-square-test-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

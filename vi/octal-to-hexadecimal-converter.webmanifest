@@ -1,0 +1,29 @@
+{
+  "name": "Bộ chuyển đổi Loona Bát phân sang Thập lục phân",
+  "short_name": "Bộ chuyển đổi Bát phân sang Thập lục phân",
+  "description": "Chuyển đổi bát phân (cơ số 8) sang thập lục phân (cơ số 16) với việc kiểm tra, cách làm theo giá trị vị trí và một bảng tham chiếu.",
+  "id": "/loona-calculators/vi/octal-to-hexadecimal-converter.html",
+  "start_url": "./octal-to-hexadecimal-converter.html",
+  "scope": "./octal-to-hexadecimal-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Bộ chuyển đổi Loona SGD sang HKD",
+  "short_name": "Bộ chuyển đổi SGD sang HKD",
+  "description": "Chuyển đổi Đô la Singapore (SGD) sang Đô la Hồng Kông (HKD). Tỷ giá tham chiếu ECB ngày 06 tháng 11 năm 2026 — tỷ giá nghịch đảo, bảng chuyển đổi và ghi chú hành lang. Chỉ mang tính tham khảo.",
+  "id": "/loona-calculators/vi/sgd-to-hkd-converter.html",
+  "start_url": "./sgd-to-hkd-converter.html",
+  "scope": "./sgd-to-hkd-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

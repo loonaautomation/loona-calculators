@@ -1,0 +1,29 @@
+{
+  "name": "Máy tính Ngày Thứ 10,000 Loona",
+  "short_name": "Máy tính Ngày thứ 10,000",
+  "description": "Máy tính cột mốc ngày miễn phí: nhập ngày sinh để tìm ngày thứ 10,000 của bạn, các ngày kỷ niệm số tròn khác, tuổi của bạn theo ngày và ngày cột mốc tiếp theo.",
+  "id": "/loona-calculators/vi/day-milestone-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

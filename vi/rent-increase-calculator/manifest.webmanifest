@@ -1,0 +1,29 @@
+{
+  "name": "Máy tính Tăng Tiền thuê Loona",
+  "short_name": "Máy tính Tăng Tiền thuê",
+  "description": "Máy tính tăng tiền thuê miễn phí: nhập tiền thuê hiện tại và phần trăm tăng (hoặc tiền thuê mới) để xem tiền thuê hàng tháng mới, chi phí thêm mỗi tháng và năm, và dự báo theo từng năm.",
+  "id": "/loona-calculators/vi/rent-increase-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

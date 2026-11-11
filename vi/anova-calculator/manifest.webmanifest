@@ -1,0 +1,29 @@
+{
+  "name": "Máy tính ANOVA Một Chiều Loona",
+  "short_name": "Máy tính ANOVA Một Chiều",
+  "description": "Máy tính ANOVA một chiều miễn phí: nhập số của mỗi nhóm trên dòng riêng của nó để nhận tổng bình phương, thống kê F, bậc tự do và giá trị p, với trung bình nhóm.",
+  "id": "/loona-calculators/vi/anova-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

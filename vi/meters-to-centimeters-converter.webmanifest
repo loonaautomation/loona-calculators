@@ -1,0 +1,29 @@
+{
+  "name": "Bộ chuyển đổi Loona Mét sang Cm",
+  "short_name": "Bộ chuyển đổi Mét sang Cm",
+  "description": "Chuyển đổi mét sang xentimét ngay lập tức. Công thức chính xác, một bảng chuyển đổi đầy đủ từ m sang cm và các ví dụ đã làm. Miễn phí, không cần đăng ký.",
+  "id": "/loona-calculators/vi/meters-to-centimeters-converter.html",
+  "start_url": "./meters-to-centimeters-converter.html",
+  "scope": "./meters-to-centimeters-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

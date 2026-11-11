@@ -1,0 +1,29 @@
+{
+  "name": "Máy tính Giá trị P Loona",
+  "short_name": "Máy tính Giá trị P",
+  "description": "Máy tính giá trị p miễn phí: chuyển đổi một thống kê kiểm định z, t hoặc chi-bình phương thành giá trị p một phía và hai phía, với phán quyết ý nghĩa ở 0.05 và 0.01.",
+  "id": "/loona-calculators/vi/p-value-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

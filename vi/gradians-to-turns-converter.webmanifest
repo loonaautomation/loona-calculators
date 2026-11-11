@@ -1,0 +1,29 @@
+{
+  "name": "Bộ chuyển đổi Loona Gradian sang Vòng",
+  "short_name": "Bộ chuyển đổi Gradian sang Vòng",
+  "description": "Chuyển đổi gradian sang vòng ngay lập tức. Công thức chính xác, một bảng chuyển đổi đầy đủ từ gon sang turn, một ví dụ đã làm và các câu hỏi thường gặp. Miễn phí, không cần đăng ký.",
+  "id": "/loona-calculators/vi/gradians-to-turns-converter.html",
+  "start_url": "./gradians-to-turns-converter.html",
+  "scope": "./gradians-to-turns-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

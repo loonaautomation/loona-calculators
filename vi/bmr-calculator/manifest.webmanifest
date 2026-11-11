@@ -1,0 +1,29 @@
+{
+  "name": "Máy tính BMR Loona",
+  "short_name": "Máy tính BMR",
+  "description": "Máy tính BMR và TDEE miễn phí: nhập tuổi, cân nặng, chiều cao và mức độ hoạt động để tìm lượng calo cơ thể bạn đốt cháy khi nghỉ ngơi và trong cuộc sống hàng ngày (Mifflin-St Jeor).",
+  "id": "/loona-calculators/vi/bmr-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

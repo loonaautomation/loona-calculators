@@ -1,0 +1,29 @@
+{
+  "name": "Máy tính Lãi Đơn Loona",
+  "short_name": "Máy tính Lãi Đơn",
+  "description": "Máy tính lãi đơn miễn phí: nhập tiền gốc, lãi suất hàng năm và thời gian (năm và tháng) để tính lãi kiếm được và tổng số tiền. Công thức đơn giản I = P×R×T/100.",
+  "id": "/loona-calculators/vi/simple-interest-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

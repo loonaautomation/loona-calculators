@@ -1,0 +1,29 @@
+{
+  "name": "Công cụ Kiểm tra Vignette Loona",
+  "short_name": "Kiểm Tra Vignette",
+  "description": "Công cụ kiểm tra tem đường cao tốc miễn phí: chọn các quốc gia châu Âu trên tuyến đường lái xe của bạn để xem quốc gia nào cần tem đường cao tốc, quốc gia nào thu phí cầu đường, và quốc gia nào miễn phí cho ô tô.",
+  "id": "/loona-calculators/vi/vignette-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

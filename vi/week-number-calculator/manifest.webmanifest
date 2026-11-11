@@ -1,0 +1,29 @@
+{
+  "name": "Máy tính Số Tuần Loona",
+  "short_name": "Máy tính Số Tuần",
+  "description": "Máy tính số tuần miễn phí: chọn bất kỳ ngày nào để nhận số tuần ISO, năm-tuần ISO, ngày thứ trong năm, số ngày còn lại trong năm và quý lịch của nó.",
+  "id": "/loona-calculators/vi/week-number-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

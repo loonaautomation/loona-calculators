@@ -1,0 +1,29 @@
+{
+  "name": "Bộ chuyển đổi Loona Dặm mỗi Giờ sang Foot mỗi Giây",
+  "short_name": "Dặm mỗi Giờ sang Foot mỗi",
+  "description": "Chuyển đổi dặm mỗi giờ sang foot mỗi giây ngay lập tức. Công thức chính xác, một bảng chuyển đổi đầy đủ từ mph sang ft/s, một ví dụ đã làm và các câu hỏi thường gặp. Miễn phí, không cần đăng ký.",
+  "id": "/loona-calculators/vi/miles-per-hour-to-feet-per-second-converter.html",
+  "start_url": "./miles-per-hour-to-feet-per-second-converter.html",
+  "scope": "./miles-per-hour-to-feet-per-second-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

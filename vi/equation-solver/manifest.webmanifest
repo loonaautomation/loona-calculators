@@ -1,0 +1,29 @@
+{
+  "name": "Công cụ Giải Phương trình Loona (Tuyến tính & Bậc hai)",
+  "short_name": "Bộ giải Phương trình (Tuyến tính &",
+  "description": "Trình giải phương trình miễn phí cho phương trình tuyến tính (ax + b = cx + d) và bậc hai (ax² + bx + c = 0), với cách làm từng bước đầy đủ, biệt thức, nghiệm phức và kiểm tra cuối cùng.",
+  "id": "/loona-calculators/vi/equation-solver/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

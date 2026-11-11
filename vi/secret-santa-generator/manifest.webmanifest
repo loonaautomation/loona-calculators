@@ -1,0 +1,29 @@
+{
+  "name": "Công cụ Tạo Ông già Noel Bí mật Loona",
+  "short_name": "Công cụ Tạo Ông già Noel Bí mật",
+  "description": "Máy tạo Ông già Noel Bí mật miễn phí: thêm tên, đặt các loại trừ (cặp đôi, cặp của năm ngoái), bốc thăm bí mật, rồi mỗi người chỉ tiết lộ cặp của riêng mình. Riêng tư, trong trình duyệt.",
+  "id": "/loona-calculators/vi/secret-santa-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

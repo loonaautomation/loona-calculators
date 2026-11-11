@@ -1,0 +1,29 @@
+{
+  "name": "Máy tính Ma trận Loona",
+  "short_name": "Máy tính Ma trận",
+  "description": "Máy tính ma trận miễn phí cho ma trận 2x2 và 3x3: cộng, trừ, nhân, định thức và nghịch đảo với các giá trị bước được hiển thị. Không cần đăng ký, hoạt động trong trình duyệt của bạn.",
+  "id": "/loona-calculators/vi/matrix-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

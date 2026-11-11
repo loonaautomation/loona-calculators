@@ -1,0 +1,29 @@
+{
+  "name": "Máy tính Khoa học Loona",
+  "short_name": "Máy tính Khoa học",
+  "description": "Máy tính khoa học miễn phí với sin, cos, tan và các hàm ngược của chúng, log và ln, lũy thừa, căn, giai thừa và phần trăm. Chế độ DEG/RAD và hỗ trợ bàn phím đầy đủ — không cần đăng ký.",
+  "id": "/loona-calculators/vi/scientific-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

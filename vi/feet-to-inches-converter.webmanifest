@@ -1,0 +1,29 @@
+{
+  "name": "Bộ chuyển đổi Loona Feet sang Inch",
+  "short_name": "Bộ chuyển đổi Feet sang Inch",
+  "description": "Chuyển đổi feet sang inch ngay lập tức. Công thức chính xác, một bảng chuyển đổi đầy đủ từ ft sang in và các ví dụ đã làm. Miễn phí, không cần đăng ký.",
+  "id": "/loona-calculators/vi/feet-to-inches-converter.html",
+  "start_url": "./feet-to-inches-converter.html",
+  "scope": "./feet-to-inches-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Máy tính Calo Loona",
+  "short_name": "Máy tính Calorie",
+  "description": "Máy tính calo miễn phí: nhập thông tin của bạn, hoạt động và mục tiêu để nhận mục tiêu calo hàng ngày cho việc giảm, duy trì hoặc tăng cân — với mức tối thiểu an toàn.",
+  "id": "/loona-calculators/vi/calorie-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

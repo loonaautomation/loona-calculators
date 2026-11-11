@@ -1,0 +1,29 @@
+{
+  "name": "Máy tính VO2 Max Loona",
+  "short_name": "Máy tính VO2 Max",
+  "description": "Máy tính VO2 max miễn phí: ước tính thể lực hiếu khí từ bài chạy Cooper 12 phút hoặc bài kiểm tra đi bộ 1 dặm Rockport. Ước tính thể lực mang tính giáo dục.",
+  "id": "/loona-calculators/vi/vo2-max-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Máy tính Tuổi Loona",
+  "short_name": "Máy tính Tuổi",
+  "description": "Máy tính tuổi miễn phí: nhập ngày sinh của bạn và nhận tuổi chính xác theo năm, tháng và ngày, cộng tổng số ngày, tuần và giờ đã sống và sinh nhật tiếp theo của bạn. Không cần đăng ký.",
+  "id": "/loona-calculators/vi/age-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

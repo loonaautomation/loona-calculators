@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calculators",
+  "short_name": "Máy tính",
+  "description": "297 máy tính trực tuyến miễn phí: tuổi, zakat, phần trăm, CGPA, EMI, BMI, hóa đơn điện và bộ chuyển đổi ngày Hijri. Không cần đăng ký — nhanh, chính xác và riêng tư.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "id": "/loona-calculators/vi/"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Máy tính Đầu tư Loona",
+  "short_name": "Máy tính Đầu tư",
+  "description": "Máy tính đầu tư miễn phí: số tiền ban đầu cộng các khoản bổ sung hàng tháng và lợi nhuận kỳ vọng — xem giá trị tương lai, tổng đã đầu tư và tổng lãi theo thời gian.",
+  "id": "/loona-calculators/vi/investment-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Máy tính Tiết kiệm Loona",
+  "short_name": "Máy tính Tiết kiệm",
+  "description": "Máy tính tiết kiệm miễn phí: nhập một khoản tiền gửi hàng tháng, lãi suất và số năm để xem giá trị tương lai của tiết kiệm của bạn, tổng đã gửi và lãi kiếm được.",
+  "id": "/loona-calculators/vi/savings-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

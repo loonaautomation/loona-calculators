@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Công cụ Tạo Số Ngẫu nhiên — Số Ngẫu nhiên An toàn Trực tuyến | Loona Calculators</title>
+<meta name="description" content="Máy tạo số ngẫu nhiên miễn phí sử dụng tính ngẫu nhiên an toàn của trình duyệt. Chọn số trong bất kỳ khoảng nào, chọn số lượng, với tùy chọn chỉ số duy nhất.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/vi/random-number-generator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/random-number-generator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/random-number-generator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/random-number-generator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/random-number-generator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/random-number-generator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/random-number-generator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/random-number-generator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/random-number-generator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/random-number-generator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/random-number-generator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/random-number-generator/"><link rel="alternate" hreflang="bn" href="https://loonaautomation.github.io/loona-calculators/bn/random-number-generator/"><link rel="alternate" hreflang="vi" href="https://loonaautomation.github.io/loona-calculators/vi/random-number-generator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/random-number-generator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Công cụ Tạo Số Ngẫu nhiên — Số Ngẫu nhiên An toàn Trực tuyến | Loona Calculators">
+<meta property="og:description" content="Máy tạo số ngẫu nhiên miễn phí sử dụng tính ngẫu nhiên an toàn của trình duyệt. Chọn số trong bất kỳ khoảng nào, chọn số lượng, với tùy chọn chỉ số duy nhất.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/vi/random-number-generator/"><meta property="og:locale" content="vi_VN">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Công cụ Tạo Số Ngẫu nhiên — Số Ngẫu nhiên An toàn Trực tuyến | Loona Calculators">
+<meta name="twitter:description" content="Máy tạo số ngẫu nhiên miễn phí sử dụng tính ngẫu nhiên an toàn của trình duyệt. Chọn số trong bất kỳ khoảng nào, chọn số lượng, với tùy chọn chỉ số duy nhất.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Công cụ Tạo Số Ngẫu nhiên Loona","url":"https://loonaautomation.github.io/loona-calculators/vi/random-number-generator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Công cụ tạo số ngẫu nhiên này có thực sự ngẫu nhiên không?","acceptedAnswer":{"@type":"Answer","text":"Nó dùng crypto.getRandomValues, nguồn ngẫu nhiên an toàn về mật mã tích hợp trong mọi trình duyệt hiện đại. Các hệ điều hành cấp cho nó từ tính không thể đoán của thế giới thực (thời gian, nhiễu phần cứng), vì vậy các số không thể được dự đoán hoặc lặp lại theo yêu cầu — một nguồn mạnh hơn nhiều so với hàm Math.random mà hầu hết các công cụ tạo đơn giản dùng."}},{"@type":"Question","name":"Tùy chọn duy nhất làm gì?","acceptedAnswer":{"@type":"Answer","text":"Với 'chỉ số duy nhất', mọi số được tạo đều khác nhau — lý tưởng cho các lần rút kiểu xổ số, bốc thăm và chọn học sinh hoặc người thắng. Với 'cho phép lặp', mỗi lần rút độc lập, vì vậy cùng một số có thể xuất hiện nhiều lần, như tung xúc xắc."}},{"@type":"Question","name":"Nó có thể lặp lại cùng một bộ hai lần không?","acceptedAnswer":{"@type":"Answer","text":"Về lý thuyết, bất kỳ tập hợp nào cũng có thể xuất hiện lại do ngẫu nhiên, nhưng với tính ngẫu nhiên an toàn, không có mẫu, hạt giống hay bộ nhớ nào giữa các lần rút. Nhấn Tạo luôn bắt đầu một lần rút hoàn toàn mới, độc lập."}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/vi/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Công cụ Tạo Số Ngẫu nhiên",
+      "item": "https://loonaautomation.github.io/loona-calculators/vi/random-number-generator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Logo Loona Automation">
+<div class="brand">Loona <span>Máy tính</span></div>
+<nav>
+<a href="../">Trang chủ</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">Giới thiệu</a>
+<a href="../contact.html">Liên hệ</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › Giải Trí › Máy Tạo Số Ngẫu Nhiên</div>
+<h1 class="pagetitle">🎲 Máy Tạo Số Ngẫu Nhiên</h1>
+<p class="lead">Tạo các số thực sự ngẫu nhiên trong bất kỳ khoảng nào, ngay trong trình duyệt của bạn. Không giống hầu hết các máy tạo trực tuyến, cái này sử dụng nguồn ngẫu nhiên an toàn của trình duyệt của bạn — cùng nguồn các trang web sử dụng cho mã hóa — vì vậy kết quả không thể đoán trước và không thiên lệch.</p>
+<div class="toolbox"><form class="calcform" id="rngForm">
+<div class="fld"><label for="rngMin">Tối thiểu</label><input type="number" id="rngMin" value="1" step="1"></div>
+<div class="fld"><label for="rngMax">Tối đa</label><input type="number" id="rngMax" value="100" step="1"></div>
+<div class="fld"><label for="rngCount">Bao nhiêu số?</label><input type="number" id="rngCount" value="5" step="1" min="1" max="10000"></div>
+<div class="fld"><label for="rngUnique">Các mục trùng lặp</label><select id="rngUnique"><option value="unique" selected>Chỉ số duy nhất (không lặp lại)</option><option value="allow">Cho phép lặp lại</option></select></div>
+<button class="calcbtn" type="submit">Tạo Số</button>
+<div class="calcresult" id="rngResult" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>Cách dùng Công cụ Tạo Số Ngẫu nhiên</h2><ol><li>Nhập số nhỏ nhất (tối thiểu) và số lớn nhất (tối đa) bạn muốn.</li><li>Chọn số lượng số cần tạo (tối đa 10,000).</li><li>Chọn các số phải duy nhất hay có thể lặp lại, sau đó nhấn Tạo Số.</li></ol>
+<div class="exbox"><strong>Ví dụ:</strong> Một giáo viên cần 6 học sinh được chọn công bằng từ các số báo danh 1 đến 40: đặt tối thiểu 1, tối đa 40, số lượng 6, chỉ các số duy nhất — sáu số báo danh khác nhau xuất hiện, không thể có thiên vị.</div>
+<h2>Câu hỏi Thường gặp</h2></section><div class="faq"><h3>Công cụ tạo số ngẫu nhiên này có thực sự ngẫu nhiên không?</h3><p>Nó dùng crypto.getRandomValues, nguồn ngẫu nhiên an toàn về mật mã tích hợp trong mọi trình duyệt hiện đại. Các hệ điều hành cấp cho nó từ tính không thể đoán của thế giới thực (thời gian, nhiễu phần cứng), vì vậy các số không thể được dự đoán hoặc lặp lại theo yêu cầu — một nguồn mạnh hơn nhiều so với hàm Math.random mà hầu hết các công cụ tạo đơn giản dùng.</p></div><div class="faq"><h3>Tùy chọn duy nhất làm gì?</h3><p>Với 'chỉ số duy nhất', mọi số được tạo đều khác nhau — lý tưởng cho các lần rút kiểu xổ số, bốc thăm và chọn học sinh hoặc người thắng. Với 'cho phép lặp', mỗi lần rút độc lập, vì vậy cùng một số có thể xuất hiện nhiều lần, như tung xúc xắc.</p></div><div class="faq"><h3>Nó có thể lặp lại cùng một bộ hai lần không?</h3><p>Về lý thuyết, bất kỳ tập hợp nào cũng có thể xuất hiện lại do ngẫu nhiên, nhưng với tính ngẫu nhiên an toàn, không có mẫu, hạt giống hay bộ nhớ nào giữa các lần rút. Nhấn Tạo luôn bắt đầu một lần rút hoàn toàn mới, độc lập.</p></div>
+<h2 class="sec">Máy tính Liên quan</h2><div class="grid"><a class="card" href="../dice-roller/"><div class="ic">🎲</div><h3>Công cụ Tung Xúc xắc</h3><p>Vui</p></a><a class="card" href="../coin-flip/"><div class="ic">🪙</div><h3>Lật Đồng xu</h3><p>Vui</p></a><a class="card" href="../lottery-number-generator/"><div class="ic">🍀</div><h3>Công cụ Tạo Số Xổ số</h3><p>Vui</p></a><a class="card" href="../love-calculator/"><div class="ic">❤️</div><h3>Máy tính Tình yêu</h3><p>Vui</p></a><a class="card" href="../age-calculator/"><div class="ic">📅</div><h3>Máy tính Tuổi</h3><p>Ngày & Giờ</p></a></div>
+</div>
+<section class="txt"><h2>Cách hoạt động &mdash; công thức</h2>
+<p>Máy tạo dùng <strong>lấy mẫu loại bỏ</strong> trên các giá trị ngẫu nhiên an toàn 32-bit, loại bỏ thiên lệch tinh vi của các phương pháp đơn giản hơn:</p>
+<p>1. Trình duyệt điền một số nguyên không dấu 32-bit <em>x</em> dùng <strong>crypto.getRandomValues</strong>.<br>
+2. Đặt <em>khoảng</em> = max − min + 1. Các giá trị của <em>x</em> ở hoặc trên <em>giới hạn</em> = ⌊2³² ÷ range⌋ × range bị loại bỏ và rút lại, nên các giá trị còn lại chia hết cho range.<br>
+3. Kết quả là <strong>min + (x mod range)</strong> — mọi số trong khoảng của bạn có đúng cùng xác suất.</p>
+<h3>Ví dụ đã làm</h3>
+<div class="exbox"><strong>Ví dụ:</strong> Rút một số từ 1 đến 6 (một lần gieo xúc xắc). Phạm vi là 6, nên giới hạn = ⌊4,294,967,296 ÷ 6⌋ × 6 = 4,294,967,296 − 4 = 4,294,967,292. Hầu như mọi giá trị 32-bit ngẫu nhiên đều được chấp nhận; nếu x = 1,000,000,007, thì 1,000,000,007 mod 6 = 5, và kết quả là 1 + 5 = <strong>6</strong>. Mỗi kết quả trong sáu kết quả có khả năng chính xác như nhau.</div>
+<h3>Câu hỏi thường gặp</h3></section><div class="faq"><h3>Khoảng và số đếm lớn nhất là bao nhiêu?</h3><p>Bạn có thể tạo tối đa 10,000 số mỗi lần rút, và khoảng có thể trải hàng tỷ giá trị (công cụ làm việc với số nguyên; các số thập phân bạn gõ được làm tròn xuống thành số nguyên).</p></div><div class="faq"><h3>Các số của tôi có được gửi tới một máy chủ hoặc được lưu trữ không?</h3><p>Không. Công cụ tạo chạy hoàn toàn trong trình duyệt của bạn bằng JavaScript. Không có gì được tải lên, ghi lại hoặc lưu trữ — đóng thẻ và các số biến mất.</p></div><div class="faq"><h3>Tại sao không dùng Math.random?</h3><p>Math.random là một bộ tạo giả ngẫu nhiên được thiết kế cho sự tiện lợi, không phải công bằng: dãy của nó xác định và về nguyên tắc có thể dự đoán được. Đối với các lần rút thăm, quà tặng và trò chơi, một nguồn an toàn quan trọng, đó là lý do công cụ này được xây trên crypto.getRandomValues với lấy mẫu loại bỏ để mọi giá trị trong khoảng của bạn đều có khả năng như nhau.</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Nhúng máy tính này vào trang web của bạn — miễn phí</h2>
+<p style="margin:0 0 12px;line-height:1.6">Thêm máy tính này vào trang web hoặc blog của riêng bạn — nó hoàn toàn miễn phí, không cần đăng ký, và luôn hiển thị phiên bản mới nhất. Sao chép mã bên dưới và dán nó vào trang của bạn tại nơi bạn muốn máy tính xuất hiện. Việc giữ lại dòng ghi công nhỏ &ldquo;Powered by Loona Automation&rdquo; dưới phần nhúng giúp giữ công cụ này miễn phí &mdash; nhưng bạn tự do tạo kiểu hoặc xóa nó; công cụ hoạt động theo cả hai cách.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/vi/random-number-generator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Random Number Generator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Được cung cấp bởi &lt;a href="https://loonaautomation.github.io/loona-calculators/vi/random-number-generator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; miễn phí Công cụ Tạo Số Ngẫu nhiên&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Sao chép mã nhúng</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='Sao chép mã nhúng';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Máy tính Phổ biến</h4><ul><li><a href="../age-calculator/">Máy tính Tuổi</a></li>
+<li><a href="../zakat-calculator/">Máy tính Zakat</a></li>
+<li><a href="../cgpa-calculator/">Máy tính CGPA</a></li>
+<li><a href="../percentage-calculator/">Máy tính Phần trăm</a></li>
+<li><a href="../hijri-date-converter/">Bộ chuyển đổi Ngày Hijri</a></li>
+<li><a href="../emi-calculator/">Máy tính EMI & Khoản vay</a></li></ul></div>
+<div><h4>Thêm Công cụ Loona</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Công cụ Nén Ảnh Loona</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Trợ lý AI Loona</a></li>
+<li><a href="https://loonaautomation.github.io/">Tất cả các Công cụ Loona</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">Giới thiệu</a></li>
+<li><a href="../contact.html">Liên hệ</a></li>
+<li><a href="../privacy-policy.html">Chính sách Quyền riêng tư</a></li>
+<li><a href="../terms.html">Điều khoản Sử dụng</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — a <a href="https://loonaautomation.github.io/">Loona Automation</a> dự án. Các máy tính trực tuyến miễn phí, không đăng ký.
+Liên hệ: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+function cryptoRandomInt(min, max) {
+  var range = max - min + 1;
+  if (!(range >= 1)) throw new Error("Khoảng không hợp lệ.");
+  if (range > 4294967296) throw new Error("Khoảng quá lớn.");
+  var limit = Math.floor(4294967296 / range) * range;
+  var buf = new Uint32Array(1), x;
+  do { crypto.getRandomValues(buf); x = buf[0]; } while (x >= limit);
+  return min + (x % range);
+}
+function generateRandomNumbers(min, max, count, unique) {
+  min = Math.floor(min); max = Math.floor(max); count = Math.floor(count);
+  if (isNaN(min) || isNaN(max) || isNaN(count)) throw new Error("Vui lòng nhập số hợp lệ vào mọi trường.");
+  if (max < min) throw new Error("Giá trị tối đa phải lớn hơn hoặc bằng giá trị tối thiểu.");
+  if (count < 1 || count > 10000) throw new Error("Chọn từ 1 đến 10,000 số.");
+  if (unique && count > (max - min + 1)) throw new Error("Không có đủ số duy nhất trong khoảng đó.");
+  var out = [], seen = {};
+  while (out.length < count) {
+    var v = cryptoRandomInt(min, max);
+    if (unique) { if (seen[v]) continue; seen[v] = 1; }
+    out.push(v);
+  }
+  return out;
+}
+function generateUniqueSorted(count, max) {
+  var seen = {}, out = [];
+  while (out.length < count) {
+    var v = cryptoRandomInt(1, max);
+    if (!seen[v]) { seen[v] = 1; out.push(v); }
+  }
+  out.sort(function (a, b) { return a - b; });
+  return out;
+}
+/*TESTABLE_END*/
+
+function rngRun() {
+  var box = document.getElementById('rngResult');
+  try {
+    var nums = generateRandomNumbers(
+      parseFloat(document.getElementById('rngMin').value),
+      parseFloat(document.getElementById('rngMax').value),
+      parseFloat(document.getElementById('rngCount').value),
+      document.getElementById('rngUnique').value === 'unique');
+    box.style.display = 'block';
+    box.innerHTML = '<div class="resbig"><span>Các số ngẫu nhiên của bạn</span><strong>' + nums.length + ' đã rút</strong></div>' +
+      '<p style="font-size:19px;line-height:1.9;word-break:break-word"><strong>' + nums.join(', ') + '</strong></p>' +
+      '<p class="resnote">Được tạo cục bộ trong trình duyệt của bạn bằng crypto.getRandomValues — không có gì được gửi đến máy chủ. Nhấn Tạo lại để có bộ mới.</p>';
+  } catch (e) {
+    box.style.display = 'block';
+    box.innerHTML = '<p class="err">' + e.message + '</p>';
+  }
+}
+document.getElementById('rngForm').addEventListener('submit', function (e) { e.preventDefault(); rngRun(); });
+rngRun();
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Cài đặt ứng dụng';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Cài đặt ứng dụng này: chạm nút Chia sẻ, rồi chọn "Thêm vào Màn hình chính".');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

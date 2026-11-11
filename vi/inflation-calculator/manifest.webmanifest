@@ -1,0 +1,29 @@
+{
+  "name": "Máy tính Lạm phát Loona",
+  "short_name": "Máy tính Lạm phát",
+  "description": "Máy tính lạm phát miễn phí: nhập một số tiền, tỷ lệ lạm phát và số năm để xem chi phí tương lai của cùng hàng hóa và tiền hôm nay của bạn thực sự sẽ đáng giá bao nhiêu.",
+  "id": "/loona-calculators/vi/inflation-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Máy tính Khoảng Thời gian Loona",
+  "short_name": "Máy tính Khoảng Thời Gian",
+  "description": "Máy tính thời lượng thời gian miễn phí: nhập thời gian bắt đầu và kết thúc để nhận thời lượng theo giờ và phút, tổng số phút và giờ thập phân. Đếm qua nửa đêm chính xác.",
+  "id": "/loona-calculators/vi/time-duration-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

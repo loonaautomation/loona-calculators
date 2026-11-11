@@ -1,0 +1,29 @@
+{
+  "name": "Máy tính Giờ Làm việc Loona",
+  "short_name": "Máy tính Giờ Làm Việc",
+  "description": "Máy tính giờ làm việc miễn phí: giờ bắt đầu, kết thúc và giờ nghỉ không được trả cho ra số giờ ròng mỗi ngày và mỗi tuần — cộng tiền lương hàng ngày và hàng tuần khi bạn thêm mức lương theo giờ. Ca đêm được hỗ trợ.",
+  "id": "/loona-calculators/vi/work-hours-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

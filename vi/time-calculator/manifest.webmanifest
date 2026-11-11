@@ -1,0 +1,29 @@
+{
+  "name": "Máy tính Thời gian Loona",
+  "short_name": "Máy tính Thời Gian",
+  "description": "Máy tính thời gian miễn phí: cộng hoặc trừ giờ, phút và giây giữa hai khoảng thời gian. Hoàn hảo cho giờ làm việc, độ dài video, thời gian du lịch và lịch học.",
+  "id": "/loona-calculators/vi/time-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

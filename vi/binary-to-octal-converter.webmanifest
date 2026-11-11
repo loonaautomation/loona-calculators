@@ -1,0 +1,29 @@
+{
+  "name": "Bộ chuyển đổi Loona Nhị phân sang Bát phân",
+  "short_name": "Bộ chuyển đổi Nhị phân sang Bát phân",
+  "description": "Chuyển đổi nhị phân (cơ số 2) sang bát phân (cơ số 8) với việc kiểm tra, cách làm theo giá trị vị trí và một bảng tham chiếu.",
+  "id": "/loona-calculators/vi/binary-to-octal-converter.html",
+  "start_url": "./binary-to-octal-converter.html",
+  "scope": "./binary-to-octal-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

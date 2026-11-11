@@ -1,0 +1,29 @@
+{
+  "name": "Máy tính Hệ số góc Loona",
+  "short_name": "Máy tính Hệ số góc",
+  "description": "Máy tính độ dốc miễn phí: nhập hai điểm để nhận độ dốc, khoảng cách giữa chúng, trung điểm, và phương trình đường thẳng ở dạng hệ số góc–tung độ gốc, với cách làm.",
+  "id": "/loona-calculators/vi/slope-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Máy tính Giảm giá Loona",
+  "short_name": "Máy tính Giảm giá",
+  "description": "Máy tính giảm giá miễn phí: nhập giá và phần trăm giảm giá để nhận giá cuối cùng và bạn tiết kiệm bao nhiêu. Hỗ trợ thêm một lần giảm giá thứ hai và thuế cộng sau giảm giá.",
+  "id": "/loona-calculators/vi/discount-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

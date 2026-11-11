@@ -1,0 +1,29 @@
+{
+  "name": "Bộ chuyển đổi Loona SEK sang TRY",
+  "short_name": "Bộ chuyển đổi SEK sang TRY",
+  "description": "Chuyển đổi Krona Thụy Điển (SEK) sang Lira Thổ Nhĩ Kỳ (TRY). Tỷ giá tham chiếu ECB ngày 06 tháng 11 năm 2026 — tỷ giá nghịch đảo, bảng chuyển đổi và ghi chú hành lang. Chỉ mang tính tham khảo.",
+  "id": "/loona-calculators/vi/sek-to-try-converter.html",
+  "start_url": "./sek-to-try-converter.html",
+  "scope": "./sek-to-try-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Máy tính Biên Lợi nhuận Loona",
+  "short_name": "Máy tính Biên Lợi nhuận",
+  "description": "Máy tính biên lợi nhuận miễn phí: nhập giá vốn và giá bán để nhận lợi nhuận, phần trăm biên lợi nhuận và phần trăm đánh dấu ngay lập tức. Cho các cửa hàng và người bán trực tuyến.",
+  "id": "/loona-calculators/vi/profit-margin-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

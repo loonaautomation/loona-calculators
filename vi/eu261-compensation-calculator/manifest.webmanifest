@@ -1,0 +1,29 @@
+{
+  "name": "Công cụ Kiểm tra Bồi thường EU261 Loona",
+  "short_name": "Công cụ Kiểm tra Bồi thường EU261",
+  "description": "Công cụ kiểm tra bồi thường EU261 miễn phí: nhập khoảng cách chuyến bay và thời gian chậm đến để xem liệu bạn có thể được nợ €250, €400 hoặc €600 theo EC 261/2004, bao gồm quy tắc giảm 50%.",
+  "id": "/loona-calculators/vi/eu261-compensation-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

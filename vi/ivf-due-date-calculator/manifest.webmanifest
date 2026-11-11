@@ -1,0 +1,29 @@
+{
+  "name": "Máy tính Ngày Dự sinh IVF Loona",
+  "short_name": "Máy tính Ngày Dự sinh IVF",
+  "description": "Máy tính ngày dự sinh IVF miễn phí: nhập ngày chuyển phôi và tuổi phôi (ngày 3 hoặc ngày 5) để nhận ngày dự sinh ước tính và tuổi thai hiện tại của bạn.",
+  "id": "/loona-calculators/vi/ivf-due-date-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

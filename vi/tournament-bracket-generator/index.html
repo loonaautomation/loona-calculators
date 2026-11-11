@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Máy tạo Sơ đồ Giải đấu — Loại Trực tiếp, Hạt giống | Loona Calculators</title>
+<meta name="description" content="Máy tạo bảng đấu giải đấu miễn phí: nhập các thí sinh, nhận một bảng đấu loại trực tiếp được xếp hạt giống đúng cách với các lượt miễn đấu được xử lý — cho esports, ngày thể thao, cờ vua và đố vui.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/vi/tournament-bracket-generator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/tournament-bracket-generator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/tournament-bracket-generator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/tournament-bracket-generator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/tournament-bracket-generator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/tournament-bracket-generator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/tournament-bracket-generator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/tournament-bracket-generator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/tournament-bracket-generator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/tournament-bracket-generator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/tournament-bracket-generator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/tournament-bracket-generator/"><link rel="alternate" hreflang="bn" href="https://loonaautomation.github.io/loona-calculators/bn/tournament-bracket-generator/"><link rel="alternate" hreflang="vi" href="https://loonaautomation.github.io/loona-calculators/vi/tournament-bracket-generator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/tournament-bracket-generator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Máy tạo Sơ đồ Giải đấu — Loại Trực tiếp, Hạt giống | Loona Calculators">
+<meta property="og:description" content="Máy tạo bảng đấu giải đấu miễn phí: nhập các thí sinh, nhận một bảng đấu loại trực tiếp được xếp hạt giống đúng cách với các lượt miễn đấu được xử lý — cho esports, ngày thể thao, cờ vua và đố vui.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/vi/tournament-bracket-generator/"><meta property="og:locale" content="vi_VN">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Máy tạo Sơ đồ Giải đấu — Loại Trực tiếp, Hạt giống | Loona Calculators">
+<meta name="twitter:description" content="Máy tạo bảng đấu giải đấu miễn phí: nhập các thí sinh, nhận một bảng đấu loại trực tiếp được xếp hạt giống đúng cách với các lượt miễn đấu được xử lý — cho esports, ngày thể thao, cờ vua và đố vui.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Công cụ Tạo Bảng Đấu Loona","url":"https://loonaautomation.github.io/loona-calculators/vi/tournament-bracket-generator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Hạt giống, theo lời đơn giản, là gì?","acceptedAnswer":{"@type":"Answer","text":"Xếp hạng các thí sinh trước khi rút để những người mạnh nhất được trải ra. Việc gieo hạt đúng đảm bảo hai người đứng đầu không thể gặp nhau trước trận chung kết, bốn người đứng đầu không trước bán kết, và cứ thế — phần thưởng cho việc được xếp hạng cao."}},{"@type":"Question","name":"Các lượt miễn đấu hoạt động như thế nào với, chẳng hạn, 10 người tham gia?","acceptedAnswer":{"@type":"Answer","text":"Bảng đấu làm tròn lên 16 vị trí, để lại 6 vị trí trống. Các vị trí trống được đặt đối diện các hạt giống hàng đầu, nên hạt giống 1–6 bỏ qua vòng 1 (được miễn đấu) và 4 đội còn lại chơi các trận vòng một duy nhất: 7 gặp 10 và 8 gặp 9 theo cặp chuẩn."}},{"@type":"Question","name":"Các trận vòng đầu được hiển thị theo thứ tự nào?","acceptedAnswer":{"@type":"Answer","text":"Theo thứ tự bảng đấu — thứ tự mà người thắng đi tiếp vào vòng sau. Mẫu ghép cặp (1 vs 16, 8 vs 9, 5 vs 12, 4 vs 13, 6 vs 11, 3 vs 14, 7 vs 10, 2 vs 15 cho 16 vị trí) là mẫu hạt giống đệ quy tiêu chuẩn được các nhà tổ chức giải đấu dùng."}},{"@type":"Question","name":"Tôi có thể xáo trộn thay vì gieo hạt giống không?","acceptedAnswer":{"@type":"Answer","text":"Nếu bạn muốn bốc thăm ngẫu nhiên thay vì hạt giống, hãy liệt kê các tên theo bất kỳ thứ tự nào — hoặc chạy chúng qua Công cụ Ngẫu nhiên Hóa Danh sách trước, rồi dán thứ tự đã xáo trộn vào đây làm danh sách hạt giống."}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/vi/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Máy Tạo Bảng Đấu Giải",
+      "item": "https://loonaautomation.github.io/loona-calculators/vi/tournament-bracket-generator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Logo Loona Automation">
+<div class="brand">Loona <span>Máy tính</span></div>
+<nav>
+<a href="../">Trang chủ</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">Giới thiệu</a>
+<a href="../contact.html">Liên hệ</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › Giải Trí › Máy Tạo Bảng Đấu Giải</div>
+<h1 class="pagetitle">🏆 Máy Tạo Bảng Đấu Giải</h1>
+<p class="lead">Nhập người tham gia theo thứ tự hạt giống (hạt giống tốt nhất trước) và tạo bảng đấu loại trực tiếp được xây dựng theo cách các giải đấu thật thực hiện: hạt giống 1 gặp hạt giống thấp nhất, các suất miễn đấu thuộc về các hạt giống hàng đầu, và người thắng tiến về phía trận chung kết.</p>
+<div class="exbox"><strong>Đáp án nhanh:</strong> Một bảng đấu loại trực tiếp đơn cần một kích thước lũy thừa của hai (4, 8, 16, 32). Với 10 thí sinh, bảng đấu là 16 vị trí: 6 hạt giống hàng đầu nhận suất miễn vòng đầu tiên, và các hạt giống được ghép 1 vs 16, 8 vs 9, 5 vs 12 và cứ thế để các hạt giống tốt nhất không thể gặp nhau sớm.</div>
+<div class="toolbox"><form class="calcform" id="tbForm">
+<div class="fld"><label for="tbNames">Người tham gia theo thứ tự hạt giống (mạnh nhất trước, mỗi người một dòng)</label><textarea id="tbNames" rows="8" style="width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px">Seed 1
+Seed 2
+Seed 3
+Seed 4
+Seed 5
+Seed 6
+Seed 7
+Seed 8</textarea></div>
+<button class="calcbtn" type="submit">🏆 Tạo Bảng Đấu</button>
+<div class="calcresult" id="tbResult" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>Cách dùng Công cụ Tạo Bảng Đấu Loại</h2><ol><li>Nhập người tham gia mỗi người một dòng, theo thứ tự hạt giống — mạnh nhất trước (2 đến 32).</li><li>Nhấn Tạo Bảng Đấu.</li><li>Đọc vòng 1 (và ai được miễn), sau đó đường đi mỗi người thắng đến trận chung kết.</li></ol>
+<div class="exbox"><strong>Ví dụ:</strong> 8 thí sinh được xếp hạt giống 1–8 tạo ra các trận tứ kết: 1 vs 8, 4 vs 5, 2 vs 7, 3 vs 6 — nên nếu hạt giống cao hơn luôn thắng, bán kết là 1 vs 4 và 2 vs 3, và chung kết là 1 vs 2.</div>
+<h2>Câu hỏi Thường gặp</h2></section><div class="faq"><h3>Hạt giống, theo lời đơn giản, là gì?</h3><p>Xếp hạng các thí sinh trước khi rút để những người mạnh nhất được trải ra. Việc gieo hạt đúng đảm bảo hai người đứng đầu không thể gặp nhau trước trận chung kết, bốn người đứng đầu không trước bán kết, và cứ thế — phần thưởng cho việc được xếp hạng cao.</p></div><div class="faq"><h3>Các lượt miễn đấu hoạt động như thế nào với, chẳng hạn, 10 người tham gia?</h3><p>Bảng đấu làm tròn lên 16 vị trí, để lại 6 vị trí trống. Các vị trí trống được đặt đối diện các hạt giống hàng đầu, nên hạt giống 1–6 bỏ qua vòng 1 (được miễn đấu) và 4 đội còn lại chơi các trận vòng một duy nhất: 7 gặp 10 và 8 gặp 9 theo cặp chuẩn.</p></div><div class="faq"><h3>Các trận vòng đầu được hiển thị theo thứ tự nào?</h3><p>Theo thứ tự bảng đấu — thứ tự mà người thắng đi tiếp vào vòng sau. Mẫu ghép cặp (1 vs 16, 8 vs 9, 5 vs 12, 4 vs 13, 6 vs 11, 3 vs 14, 7 vs 10, 2 vs 15 cho 16 vị trí) là mẫu hạt giống đệ quy tiêu chuẩn được các nhà tổ chức giải đấu dùng.</p></div><div class="faq"><h3>Tôi có thể xáo trộn thay vì gieo hạt giống không?</h3><p>Nếu bạn muốn bốc thăm ngẫu nhiên thay vì hạt giống, hãy liệt kê các tên theo bất kỳ thứ tự nào — hoặc chạy chúng qua Công cụ Ngẫu nhiên Hóa Danh sách trước, rồi dán thứ tự đã xáo trộn vào đây làm danh sách hạt giống.</p></div>
+<h2 class="sec">Máy tính Liên quan</h2><div class="grid"><a class="card" href="../random-number-generator/"><div class="ic">🎲</div><h3>Công cụ Tạo Số Ngẫu nhiên</h3><p>Vui</p></a><a class="card" href="../dice-roller/"><div class="ic">🎲</div><h3>Công cụ Tung Xúc xắc</h3><p>Vui</p></a><a class="card" href="../coin-flip/"><div class="ic">🪙</div><h3>Lật Đồng xu</h3><p>Vui</p></a><a class="card" href="../lottery-number-generator/"><div class="ic">🍀</div><h3>Công cụ Tạo Số Xổ số</h3><p>Vui</p></a><a class="card" href="../love-calculator/"><div class="ic">❤️</div><h3>Máy tính Tình yêu</h3><p>Vui</p></a><a class="card" href="../random-team-generator/"><div class="ic">👥</div><h3>Công cụ Tạo Đội Ngẫu nhiên</h3><p>Vui</p></a><a class="card" href="../wheel-of-names/"><div class="ic">🎡</div><h3>Vòng Quay Tên</h3><p>Vui</p></a><a class="card" href="../list-randomizer/"><div class="ic">🔀</div><h3>Công cụ Ngẫu nhiên Hóa Danh sách</h3><p>Vui</p></a></div>
+</div>
+<section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>Cách hoạt động — công thức</h2>
+<p>Kích thước bảng đấu B = lũy thừa của hai nhỏ nhất ≥ số lượng thí sinh N. Số suất miễn thi đấu = B − N, được trao cho các hạt giống hàng đầu. Thứ tự hạt giống cho bảng đấu được tạo ra theo cách đệ quy: bắt đầu [1, 2]; lặp đi lặp lại việc thay thế mỗi hạt giống s trong thứ tự bằng cặp (s, 2k + 1 − s) trong đó 2k là kích thước mới, vì vậy mỗi cặp kề nhau có tổng bằng B + 1 ở vòng 1. Các cặp kề nhau (vị trí 1–2, 3–4, …) tạo thành các trận đấu vòng đầu tiên, và những người thắng trong các trận đấu kề nhau gặp nhau ở vòng tiếp theo — điều này chính xác bảo vệ các hạt giống hàng đầu khỏi các cuộc gặp sớm.</p>
+<h3>Ví dụ đã làm</h3><div class="exbox"><p><strong>Các đầu vào:</strong> 8 hạt giống.</p><p><strong>Các bước:</strong> Bắt đầu [1, 2]. Nhân đôi thành 4: (1, 4), (2, 3) → [1, 4, 2, 3]. Nhân đôi thành 8: (1, 8), (4, 5), (2, 7), (3, 6) → [1, 8, 4, 5, 2, 7, 3, 6]. Các cặp kề: 1v8, 4v5, 2v7, 3v6.</p><p><strong>Kết quả:</strong> Tứ kết <strong>1 gặp 8, 4 gặp 5, 2 gặp 7, 3 gặp 6</strong>; đường đi của các ứng viên được ưa thích cho ra bán kết 1 vs 4, 2 vs 3 và chung kết 1 vs 2.</p></div>
+
+</section>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Nhúng máy tính này vào trang web của bạn — miễn phí</h2>
+<p style="margin:0 0 12px;line-height:1.6">Thêm máy tính này vào trang web hoặc blog của riêng bạn — nó hoàn toàn miễn phí, không cần đăng ký, và luôn hiển thị phiên bản mới nhất. Sao chép mã bên dưới và dán nó vào trang của bạn tại nơi bạn muốn máy tính xuất hiện. Việc giữ lại dòng ghi công nhỏ &ldquo;Powered by Loona Automation&rdquo; dưới phần nhúng giúp giữ công cụ này miễn phí &mdash; nhưng bạn tự do tạo kiểu hoặc xóa nó; công cụ hoạt động theo cả hai cách.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/vi/tournament-bracket-generator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Tournament Bracket Generator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Được cung cấp bởi &lt;a href="https://loonaautomation.github.io/loona-calculators/vi/tournament-bracket-generator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; miễn phí Máy Tạo Bảng Đấu Giải&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Sao chép mã nhúng</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='Sao chép mã nhúng';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Máy tính Phổ biến</h4><ul><li><a href="../age-calculator/">Máy tính Tuổi</a></li>
+<li><a href="../zakat-calculator/">Máy tính Zakat</a></li>
+<li><a href="../cgpa-calculator/">Máy tính CGPA</a></li>
+<li><a href="../percentage-calculator/">Máy tính Phần trăm</a></li>
+<li><a href="../hijri-date-converter/">Bộ chuyển đổi Ngày Hijri</a></li>
+<li><a href="../emi-calculator/">Máy tính EMI & Khoản vay</a></li></ul></div>
+<div><h4>Thêm Công cụ Loona</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Công cụ Nén Ảnh Loona</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Trợ lý AI Loona</a></li>
+<li><a href="https://loonaautomation.github.io/">Tất cả các Công cụ Loona</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">Giới thiệu</a></li>
+<li><a href="../contact.html">Liên hệ</a></li>
+<li><a href="../privacy-policy.html">Chính sách Quyền riêng tư</a></li>
+<li><a href="../terms.html">Điều khoản Sử dụng</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — a <a href="https://loonaautomation.github.io/">Loona Automation</a> dự án. Các máy tính trực tuyến miễn phí, không đăng ký.
+Liên hệ: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+function bracketSeedOrder(size){
+  var order=[1,2];
+  while(order.length<size){
+    var total=order.length*2+1, nxt=[];
+    for(var i=0;i<order.length;i++){nxt.push(order[i]);nxt.push(total-order[i]);}
+    order=nxt;
+  }
+  return order;
+}
+function makeBracket(names){
+  var n=names.length;
+  if(n<2||n>32)return null;
+  var size=2; while(size<n)size*=2;
+  var order=bracketSeedOrder(size);
+  var slots=order.map(function(seed){return seed<=n?{seed:seed,name:names[seed-1]}:{seed:seed,name:null};});
+  var matches=[];
+  for(var i=0;i<slots.length;i+=2){
+    var a=slots[i],b=slots[i+1];
+    if(a.name&&b.name)matches.push({a:a,b:b,bye:false});
+    else if(a.name||b.name)matches.push({a:a.name?a:b,b:null,bye:true});
+  }
+  var rounds=Math.log2(size);
+  return {size:size,byes:size-n,matches:matches,rounds:rounds,slots:slots};
+}
+/*TESTABLE_END*/
+document.getElementById('tbForm').addEventListener('submit',function(e){e.preventDefault();
+ var names=document.getElementById('tbNames').value.split(/\r?\n/).map(function(s){return s.trim();}).filter(Boolean);
+ var br=makeBracket(names);
+ var box=document.getElementById('tbResult'); box.style.display='block';
+ if(!br){box.innerHTML='<p class="err">Nhập từ 2 đến 32 người tham gia.</p>';return;}
+ function esc(s){return String(s).replace(/</g,"&lt;");}
+ var html='<div class="resbig"><span>Kích thước bracket '+br.size+'</span><strong>'+br.rounds+' vòng'+(br.byes?' · '+br.byes+' lượt miễn'+(br.byes>1?'s':''):'')+'</strong></div>';
+ br.matches.forEach(function(m,i){
+   if(m.bye)html+='<p style="margin:7px 0"><strong>Bye:</strong> ('+m.a.seed+') '+esc(m.a.name)+' tiến trực tiếp</p>';
+   else html+='<p style="margin:7px 0"><strong>Match '+(i+1)+':</strong> ('+m.a.seed+') '+esc(m.a.name)+' vs ('+m.b.seed+') '+esc(m.b.name)+'</p>';
+ });
+ var rn=["Final","Semi-finals","Quarter-finals","Round of 16","Round of 32"];
+ html+='<p class="resnote">Người thắng các trận kề nhau gặp nhau ở vòng tiếp theo, kết thúc bằng '+rn[br.rounds-1]+' giữa người thắng của hai nửa.</p>';
+ box.innerHTML=html;});
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Cài đặt ứng dụng';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Cài đặt ứng dụng này: chạm nút Chia sẻ, rồi chọn "Thêm vào Màn hình chính".');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

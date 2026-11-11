@@ -1,0 +1,29 @@
+{
+  "name": "Máy tính Khoản vay Loona",
+  "short_name": "Máy tính Khoản vay",
+  "description": "Máy tính khoản vay miễn phí: nhập số tiền, lãi suất hàng năm và thời hạn để nhận thanh toán hàng tháng, tổng lãi và tổng trả cho bất kỳ khoản vay nào.",
+  "id": "/loona-calculators/vi/loan-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

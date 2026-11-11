@@ -1,0 +1,29 @@
+{
+  "name": "Máy tính Điểm Loona",
+  "short_name": "Máy tính Điểm",
+  "description": "Máy tính điểm có trọng số miễn phí: nhập tối đa 8 điểm bài tập với trọng số của chúng để nhận phần trăm điểm tổng thể và điểm chữ của bạn. Trọng số không cần tổng bằng 100.",
+  "id": "/loona-calculators/vi/grade-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

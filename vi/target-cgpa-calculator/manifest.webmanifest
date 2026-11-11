@@ -1,0 +1,29 @@
+{
+  "name": "Máy tính CGPA Mục tiêu Loona",
+  "short_name": "Máy tính CGPA Mục tiêu",
+  "description": "Máy tính CGPA mục tiêu miễn phí: CGPA hiện tại, số tín chỉ đã hoàn thành, CGPA mục tiêu và số tín chỉ còn lại — xem GPA bạn phải đạt, hoặc CGPA tối đa vẫn có thể đạt được.",
+  "id": "/loona-calculators/vi/target-cgpa-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

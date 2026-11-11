@@ -1,0 +1,29 @@
+{
+  "name": "Máy tính CGPA sang Phần trăm Loona",
+  "short_name": "Máy tính CGPA sang Phần trăm",
+  "description": "Bộ chuyển đổi CGPA sang phần trăm miễn phí: chuyển đổi CGPA trên 10 (công thức ×9.5) hoặc GPA trên 4 thành phần trăm, với tùy chọn hệ số nhân tùy chỉnh cho bất kỳ hội đồng hoặc trường đại học nào.",
+  "id": "/loona-calculators/vi/cgpa-to-percentage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Máy tính Schengen 90/180 Loona",
+  "short_name": "Máy tính Schengen 90/180",
+  "description": "Máy tính Schengen 90/180 miễn phí: nhập các chuyến đi đã qua và dự định để xem số ngày đã sử dụng trong bất kỳ cửa sổ trượt 180 ngày nào, số ngày còn lại, cảnh báo quá hạn và ngày tái nhập an toàn sớm nhất.",
+  "id": "/loona-calculators/vi/schengen-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

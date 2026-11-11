@@ -1,0 +1,29 @@
+{
+  "name": "Bộ chuyển đổi Ngày Hijri Loona",
+  "short_name": "Bộ chuyển đổi Ngày Hijri",
+  "description": "Bộ chuyển đổi ngày Hijri miễn phí: chuyển đổi bất kỳ ngày Gregorian (Anh) nào sang ngày Hijri Hồi giáo và ngược lại, sử dụng lịch Umm al-Qura. Kiểm tra Ramadan, Eid và ngày Hồi giáo trở nên dễ dàng.",
+  "id": "/loona-calculators/vi/hijri-date-converter/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

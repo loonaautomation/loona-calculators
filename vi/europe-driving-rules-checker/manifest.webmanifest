@@ -1,0 +1,29 @@
+{
+  "name": "Công cụ Kiểm tra Quy tắc Lái xe Châu Âu Loona",
+  "short_name": "Công cụ Kiểm tra Quy tắc Lái xe Châu Âu",
+  "description": "Công cụ kiểm tra quy tắc lái xe châu Âu miễn phí: chọn một quốc gia để biết phía lái xe, giới hạn tốc độ đường cao tốc, giới hạn nồng độ cồn khi lái xe và các quy tắc địa phương chính cho tài xế đến thăm.",
+  "id": "/loona-calculators/vi/europe-driving-rules-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

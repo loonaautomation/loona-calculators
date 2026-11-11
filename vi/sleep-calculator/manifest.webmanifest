@@ -1,0 +1,29 @@
+{
+  "name": "Máy tính Giấc ngủ Loona",
+  "short_name": "Máy tính Giấc ngủ",
+  "description": "Máy tính giấc ngủ miễn phí: nhập thời gian thức dậy để nhận giờ đi ngủ tốt nhất, hoặc giờ đi ngủ để nhận giờ thức dậy tốt nhất — dựa trên các chu kỳ ngủ 90 phút cộng thời gian chìm vào giấc ngủ.",
+  "id": "/loona-calculators/vi/sleep-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Bộ chuyển đổi Múi giờ Loona",
+  "short_name": "Bộ chuyển đổi Múi giờ",
+  "description": "Chuyển đổi giờ giữa 60 cặp thành phố trên thế giới, với chênh lệch theo mùa, các ngày áp dụng giờ tiết kiệm ánh sáng ban ngày năm 2026 và các khung giờ họp trùng nhau.",
+  "id": "/loona-calculators/vi/time-zone-converter.html",
+  "start_url": "./time-zone-converter.html",
+  "scope": "./time-zone-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

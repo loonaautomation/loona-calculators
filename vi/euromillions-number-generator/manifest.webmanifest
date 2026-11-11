@@ -1,0 +1,29 @@
+{
+  "name": "Công cụ Tạo Số EuroMillions Loona",
+  "short_name": "Bộ Tạo Số EuroMillions",
+  "description": "Máy tạo số EuroMillions miễn phí: rút 5 số chính từ 50 cộng 2 Ngôi Sao May mắn từ 12, với tối đa 5 dòng cùng lúc. Lựa chọn ngẫu nhiên an toàn, không cần đăng ký.",
+  "id": "/loona-calculators/vi/euromillions-number-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

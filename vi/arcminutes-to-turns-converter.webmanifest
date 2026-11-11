@@ -1,0 +1,29 @@
+{
+  "name": "Bộ chuyển đổi Loona Phút Cung sang Vòng",
+  "short_name": "Bộ chuyển đổi Phút cung sang Vòng",
+  "description": "Chuyển đổi phút cung sang vòng ngay lập tức. Công thức chính xác, một bảng chuyển đổi đầy đủ từ ′ sang turn, một ví dụ đã làm và các câu hỏi thường gặp. Miễn phí, không cần đăng ký.",
+  "id": "/loona-calculators/vi/arcminutes-to-turns-converter.html",
+  "start_url": "./arcminutes-to-turns-converter.html",
+  "scope": "./arcminutes-to-turns-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

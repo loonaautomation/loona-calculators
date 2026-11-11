@@ -1,0 +1,29 @@
+{
+  "name": "Máy tính Kiểm định Z Một Mẫu Loona",
+  "short_name": "Máy tính Kiểm định Z Một Mẫu",
+  "description": "Máy tính kiểm định z một mẫu miễn phí: trung bình mẫu, SD quần thể đã biết, n và trung bình giả thuyết cho ra thống kê z và giá trị p. Đã kiểm tra theo sách giáo khoa.",
+  "id": "/loona-calculators/vi/z-test-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Máy tính Kiểm định T Một Mẫu Loona",
+  "short_name": "Máy tính Kiểm định T Một Mẫu",
+  "description": "Máy tính kiểm định t một mẫu miễn phí: nhập trung bình mẫu, SD, n và trung bình giả thuyết để nhận thống kê t, bậc tự do và giá trị p.",
+  "id": "/loona-calculators/vi/t-test-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

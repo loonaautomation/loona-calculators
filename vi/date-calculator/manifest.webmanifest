@@ -1,0 +1,29 @@
+{
+  "name": "Máy tính Ngày Loona",
+  "short_name": "Máy tính Ngày",
+  "description": "Máy tính ngày miễn phí: cộng hoặc trừ ngày, tuần, tháng và năm khỏi bất kỳ ngày nào và nhận ngày kết quả với thứ trong tuần của nó. Hạn chót, thị thực và lập kế hoạch.",
+  "id": "/loona-calculators/vi/date-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

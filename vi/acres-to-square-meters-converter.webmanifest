@@ -1,0 +1,29 @@
+{
+  "name": "Bộ chuyển đổi Loona Mẫu Anh sang Mét vuông",
+  "short_name": "Bộ chuyển đổi Mẫu Anh sang Mét vuông",
+  "description": "Chuyển đổi mẫu Anh sang mét vuông ngay lập tức. Công thức chính xác, một bảng chuyển đổi đầy đủ từ acre sang m², một ví dụ đã làm và các câu hỏi thường gặp. Miễn phí, không cần đăng ký.",
+  "id": "/loona-calculators/vi/acres-to-square-meters-converter.html",
+  "start_url": "./acres-to-square-meters-converter.html",
+  "scope": "./acres-to-square-meters-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

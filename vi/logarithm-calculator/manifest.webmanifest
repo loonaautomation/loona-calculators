@@ -1,0 +1,29 @@
+{
+  "name": "Máy tính Logarit Loona",
+  "short_name": "Máy tính Logarit",
+  "description": "Máy tính logarit miễn phí: tìm log với bất kỳ cơ số nào, cộng logarit thập phân (cơ số 10), logarit tự nhiên (ln) và logarit nhị phân (cơ số 2), mỗi cái được xác minh bằng antilog của nó. Công thức đổi cơ số được giải thích.",
+  "id": "/loona-calculators/vi/logarithm-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

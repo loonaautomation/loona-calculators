@@ -1,0 +1,29 @@
+{
+  "name": "Máy tính Thụ thai Loona",
+  "short_name": "Máy tính Thụ thai",
+  "description": "Máy tính thụ thai miễn phí: nhập ngày dự sinh kỳ vọng để ước tính ngày thụ thai, ngày đầu tiên của kỳ kinh cuối, và ngày kết thúc tam cá nguyệt đầu tiên.",
+  "id": "/loona-calculators/vi/conception-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

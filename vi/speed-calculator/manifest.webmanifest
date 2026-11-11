@@ -1,0 +1,29 @@
+{
+  "name": "Máy tính Tốc độ Loona",
+  "short_name": "Máy tính Tốc độ",
+  "description": "Máy tính tốc độ miễn phí: nhập một quãng đường tính bằng kilômét hoặc dặm và thời gian đã đi để nhận tốc độ tính bằng km/h và mph, cộng nhịp độ mỗi kilômét và mỗi dặm.",
+  "id": "/loona-calculators/vi/speed-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

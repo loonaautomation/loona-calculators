@@ -1,0 +1,29 @@
+{
+  "name": "Máy tính Phần trăm Điểm Loona",
+  "short_name": "Máy tính Phần trăm Điểm",
+  "description": "Máy tính phần trăm điểm miễn phí: nhập điểm đạt được và tổng điểm để nhận phần trăm và điểm của bạn ngay lập tức. Cho matric, inter, đại học và mọi kỳ thi.",
+  "id": "/loona-calculators/vi/marks-percentage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

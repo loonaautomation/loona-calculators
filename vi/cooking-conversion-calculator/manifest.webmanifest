@@ -1,0 +1,29 @@
+{
+  "name": "Máy tính Chuyển đổi Nấu ăn Loona",
+  "short_name": "Máy tính Chuyển đổi Nấu ăn",
+  "description": "Máy tính chuyển đổi nấu ăn miễn phí: chuyển đổi cốc, muỗng, mililít, gam, ounce và pound cho 10 nguyên liệu phổ biến sử dụng mật độ thực — bột mì, đường, bơ, mật ong và hơn nữa.",
+  "id": "/loona-calculators/vi/cooking-conversion-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

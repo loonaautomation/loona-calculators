@@ -1,0 +1,29 @@
+{
+  "name": "Bộ chuyển đổi Loona Giờ Berlin sang New York",
+  "short_name": "Giờ Berlin sang New York",
+  "description": "Chuyển đổi giờ Berlin sang giờ New York. New York chậm hơn Berlin 6 giờ quanh năm, với các ngày áp dụng giờ tiết kiệm ánh sáng ban ngày, một bảng 24 giờ và khung giờ họp tốt nhất. Đã bao gồm bộ chuyển đổi trực tiếp.",
+  "id": "/loona-calculators/vi/berlin-to-new-york-time-converter.html",
+  "start_url": "./berlin-to-new-york-time-converter.html",
+  "scope": "./berlin-to-new-york-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

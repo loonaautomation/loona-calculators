@@ -1,0 +1,29 @@
+{
+  "name": "Máy tính Lượng Protein Nạp vào Loona",
+  "short_name": "Máy tính Lượng Protein Nạp vào",
+  "description": "Máy tính lượng protein miễn phí: gam protein hàng ngày từ cân nặng cơ thể, mức độ hoạt động và mục tiêu sử dụng các khoảng g/kg dựa trên bằng chứng. Khác với các tỷ lệ chia macro dựa trên calo.",
+  "id": "/loona-calculators/vi/protein-intake-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
