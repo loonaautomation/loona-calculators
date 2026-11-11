@@ -1,0 +1,29 @@
+{
+  "name": "Loona ロサンゼルスからシンガポール時間への変換",
+  "short_name": "ロサンゼルスからシンガポール時間へ",
+  "description": "ロサンゼルス時間からシンガポール時間への変換。シンガポールは一月にはロサンゼルスより16時間進み、七月には15時間進んでいます。夏時間の日付、24時間表、最適な会議時間帯を含みます。ライブ変換ツール付きです。",
+  "id": "/loona-calculators/ja/los-angeles-to-singapore-time-converter.html",
+  "start_url": "./los-angeles-to-singapore-time-converter.html",
+  "scope": "./los-angeles-to-singapore-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

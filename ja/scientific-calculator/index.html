@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>関数電卓 — Sin、Cos、Tan、Log、累乗をオンライン無料で | Loona 計算機</title>
+<meta name="description" content="無料の関数電卓。sin、cos、tan とその逆関数、log と ln、累乗、根、階乗、パーセント付き。DEG/RAD モードと完全なキーボード対応 — 登録不要。">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/ja/scientific-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/scientific-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/scientific-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/scientific-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/scientific-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/scientific-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/scientific-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/scientific-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/scientific-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/scientific-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/scientific-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/scientific-calculator/"><link rel="alternate" hreflang="ja" href="https://loonaautomation.github.io/loona-calculators/ja/scientific-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/scientific-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="関数電卓 — Sin、Cos、Tan、Log、累乗をオンライン無料で | Loona 計算機">
+<meta property="og:description" content="無料の関数電卓。sin、cos、tan とその逆関数、log と ln、累乗、根、階乗、パーセント付き。DEG/RAD モードと完全なキーボード対応 — 登録不要。">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/ja/scientific-calculator/"><meta property="og:locale" content="ja_JP">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="関数電卓 — Sin、Cos、Tan、Log、累乗をオンライン無料で | Loona 計算機">
+<meta name="twitter:description" content="無料の関数電卓。sin、cos、tan とその逆関数、log と ln、累乗、根、階乗、パーセント付き。DEG/RAD モードと完全なキーボード対応 — 登録不要。">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona 関数電卓","url":"https://loonaautomation.github.io/loona-calculators/ja/scientific-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"DEG と RAD の違いは何ですか？","acceptedAnswer":{"@type":"Answer","text":"DEG は角度を度で測ります（一周は 360°）、RAD はラジアンで測ります（一周は 2π）。学校と日常の数学は通常度を使います。高度な数学と科学はラジアンをよく使います。sin、cos、tan を使う前に必ずモードを確認してください — sin(30) は DEG モードでは 0.5 ですが、RAD モードでは約 −0.988 です。"}},{"@type":"Question","name":"5 の立方のような累乗を計算するにはどうすればよいですか？","acceptedAnswer":{"@type":"Answer","text":"5 をタップし、次に xʸ ボタン、次に 3 をタップし、次に =。キーボードで 5^3 と入力することもできます。x² ボタンは、その前の数を二乗するショートカットです。"}},{"@type":"Question","name":"% ボタンは、何をしますか？","acceptedAnswer":{"@type":"Answer","text":"それは、その前の数を 100 で割るので、50% は 0.5 になり、8% は 0.08 になります。例えば、200 × 8% = 16 — クイックな税、チップ、割引の合計に便利です。二つの数の間のパーセンテージの変化には、当社のパーセンテージ計算機を使ってください。"}}]}</script>
+
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona 計算機",
+      "item": "https://loonaautomation.github.io/loona-calculators/ja/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "関数電卓",
+      "item": "https://loonaautomation.github.io/loona-calculators/ja/scientific-calculator/"
+    }
+  ]
+}</script>
+
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation のロゴ">
+<div class="brand">Loona <span>計算機</span></div>
+<nav>
+<a href="../">ホーム</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">概要</a>
+<a href="../contact.html">連絡先</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona 計算機</a> › 数学 › 関数電卓</div>
+<h1 class="pagetitle">🧮 関数電卓</h1>
+<p class="lead">ブラウザの中の完全な関数電卓：三角関数とその逆関数、対数、累乗と根、階乗とパーセント — DEG/RAD 角度モードと完全なキーボード対応を備えます。</p>
+<div class="toolbox">
+<style>
+#sciDisp{width:100%;padding:14px 14px;border:1.5px solid var(--line);border-radius:10px;font-size:21px;text-align:right;background:#fbfdfd;font-family:ui-monospace,Menlo,Consolas,monospace;color:var(--teal)}
+#sciDisp:focus{outline:none;border-color:var(--gold)}
+.scikeys{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin-top:12px}
+.scikeys button{padding:12px 2px;font-size:15.5px;font-weight:700;border:1.5px solid var(--line);border-radius:10px;background:#fff;cursor:pointer;color:var(--teal)}
+.scikeys button:hover{border-color:var(--gold);background:#fdfaf1}
+.scikeys .sciop{background:#eef6f3}
+.scikeys .sciac{background:#fdecea;color:#8d2020}
+.scikeys .scieq{background:var(--gold);color:#231a00;font-size:19px}
+.scikeys .scieq:hover{background:var(--gold2);color:#fff}
+.scikeys .span2{grid-column:span 2}
+.scikeys .rowspan2{grid-row:span 2}
+#sciMsg{font-size:13.5px;color:var(--mut);margin-top:10px;min-height:18px}
+</style>
+<input id="sciDisp" type="text" autocomplete="off" spellcheck="false" placeholder="入力またはタップ — sin(30) + 2^3 を試してください">
+<div class="scikeys">
+<button type="button" id="sciMode" data-sci="mode">DEG</button>
+<button type="button" data-sci="(">(</button>
+<button type="button" data-sci=")">)</button>
+<button type="button" data-sci="back">⌫</button>
+<button type="button" class="sciac" data-sci="clr">AC</button>
+<button type="button" class="sciop" data-sci="sin(">sin</button>
+<button type="button" class="sciop" data-sci="cos(">cos</button>
+<button type="button" class="sciop" data-sci="tan(">tan</button>
+<button type="button" class="sciop" data-sci="pi">π</button>
+<button type="button" class="sciop" data-sci="e">e</button>
+<button type="button" class="sciop" data-sci="asin(">sin⁻¹</button>
+<button type="button" class="sciop" data-sci="acos(">cos⁻¹</button>
+<button type="button" class="sciop" data-sci="atan(">tan⁻¹</button>
+<button type="button" class="sciop" data-sci="!">n!</button>
+<button type="button" class="sciop" data-sci="%">%</button>
+<button type="button" class="sciop" data-sci="log(">log</button>
+<button type="button" class="sciop" data-sci="ln(">ln</button>
+<button type="button" class="sciop" data-sci="sqrt(">√</button>
+<button type="button" class="sciop" data-sci="^2">x²</button>
+<button type="button" class="sciop" data-sci="^">xʸ</button>
+<button type="button" data-sci="7">7</button>
+<button type="button" data-sci="8">8</button>
+<button type="button" data-sci="9">9</button>
+<button type="button" class="sciop" data-sci="/">÷</button>
+<button type="button" class="sciop" data-sci="*">×</button>
+<button type="button" data-sci="4">4</button>
+<button type="button" data-sci="5">5</button>
+<button type="button" data-sci="6">6</button>
+<button type="button" class="sciop" data-sci="-">−</button>
+<button type="button" class="sciop" data-sci="+">+</button>
+<button type="button" data-sci="1">1</button>
+<button type="button" data-sci="2">2</button>
+<button type="button" data-sci="3">3</button>
+<button type="button" class="sciop" data-sci="^(-1)">1/x</button>
+<button type="button" class="scieq rowspan2" data-sci="eq">=</button>
+<button type="button" class="span2" data-sci="0">0</button>
+<button type="button" data-sci=".">.</button>
+<button type="button" data-sci="00">00</button>
+</div>
+<div id="sciMsg">DEG/RAD をタップして角度モードを切り替えます。キーボードも動作します — 式を入力して Enter を押します。</div>
+</div>
+<section class="txt"><h2>関数電卓の使い方</h2><ol><li>ボタンをタップするか、キーボードで直接入力して、式を構築します — 例えば sin(30) + 2^3。</li><li>sin、cos、tan を使う前に、DEG/RAD ボタンを使って、角度がどう測られるかを選びます。</li><li>=（または Enter）を押すと、答えが見えます。答えから計算を続けたり、AC を押して再び始めたりできます。</li></ol>
+<div class="exbox"><strong>例：</strong> sin(30) は DEG モードで = 0.5。そして、2^3^2 = 512。冪は、まず右から処理されるためです（3² = 9、次に 2⁹ = 512）。</div>
+<h2>よくある質問</h2></section><div class="faq"><h3>DEG と RAD の違いは何ですか？</h3><p>DEG は角度を度で測ります（一周は 360°）、RAD はラジアンで測ります（一周は 2π）。学校と日常の数学は通常度を使います。高度な数学と科学はラジアンをよく使います。sin、cos、tan を使う前に必ずモードを確認してください — sin(30) は DEG モードでは 0.5 ですが、RAD モードでは約 −0.988 です。</p></div><div class="faq"><h3>5 の立方のような累乗を計算するにはどうすればよいですか？</h3><p>5 をタップし、次に xʸ ボタン、次に 3 をタップし、次に =。キーボードで 5^3 と入力することもできます。x² ボタンは、その前の数を二乗するショートカットです。</p></div><div class="faq"><h3>% ボタンは、何をしますか？</h3><p>それは、その前の数を 100 で割るので、50% は 0.5 になり、8% は 0.08 になります。例えば、200 × 8% = 16 — クイックな税、チップ、割引の合計に便利です。二つの数の間のパーセンテージの変化には、当社のパーセンテージ計算機を使ってください。</p></div>
+<h2 class="sec">関連する計算機</h2><div class="grid"><a class="card" href="../percentage-calculator/"><div class="ic">％</div><h3>パーセント計算機</h3><p>数学</p></a><a class="card" href="../exponent-calculator/"><div class="ic">x²</div><h3>指数計算機</h3><p>数学</p></a><a class="card" href="../square-root-calculator/"><div class="ic">√</div><h3>平方根計算機</h3><p>数学</p></a><a class="card" href="../fraction-calculator/"><div class="ic">🍕</div><h3>分数計算機</h3><p>数学</p></a><a class="card" href="../statistics-calculator/"><div class="ic">📉</div><h3>統計計算機</h3><p>数学</p></a></div>
+</div>
+<section class="txt"><h2>仕組み &mdash; 従うルール</h2>
+<p>この計算機は、式全体を読み、標準の演算順序を使ってそれを計算します — 学校で教えられるのと同じルール：</p>
+<p><strong>1. 括弧を先に</strong> — ( ) の内側のものは、他のすべてのものの前に処理されます。<br>
+<strong>2. 累乗と根</strong> — xʸ、x²、√ が次に来ます。冪は、右結合です：2^3^2 は、2^(3^2) = 512 を意味します。<br>
+<strong>3. 掛け算と割り算</strong> — × と ÷ は、左から右に行われます。あなたは、2π や 2(3 + 4) のように、物事を並べて置くことにより、乗算を書くこともできます。<br>
+<strong>4. 足し算と引き算</strong> — + と − は、最後に、左から右に行われます。</p>
+<p>sin、log、ln のような関数は、括弧内の値に適用されます。log は底 10（log 1000 = 3）で、ln は自然対数、底 e です。n! ボタンは階乗を与えます — 5! = 5 × 4 × 3 × 2 × 1 = 120 — そして 0 から上の整数について機能します。</p>
+<h3>実例</h3>
+<div class="exbox"><strong>例：</strong> 辺が 3 と 4 の直角三角形の最も長い辺を求めます。√(3² + 4²) と入力します：まず括弧 （9 + 16 = 25)、その後平方根 — 答えは <strong>5</strong>。キーパッドで：√、3、x²、+、4、x²、) をタップし、次に = をタップします。</div>
+<h3>よくある質問</h3></section>
+<div class="faq"><h3>なぜ、sin(30) は、間違った答えを与えたのですか？</h3><p>ほとんどの場合は角度モードです。計算機が RAD モードの場合、30 を 30 度ではなく 30 ラジアンとして扱います。DEG/RAD ボタンをタップして DEG を表示させ、もう一度お試しください。モードはキーパッドの左上のボタンに表示されます。</p></div>
+<div class="faq"><h3>立方根またはその他の根を求めるにはどうすればよいですか？</h3><p>分数の累乗を使います：27 の立方根は、27^(1/3) = 3 です。一般に、数 x の n 乗根は、x^(1/n) です。√ ボタンは、一般的な平方根のケースをカバーします。</p></div>
+<div class="faq"><h3>この計算機は無料ですか、そして私の計算を保存しますか？</h3><p>はい。それは、サインアップなしで、完全に無料です。すべては、あなた自身のブラウザで計算されます — あなたの表現は、決してサーバーに送られたり、保存されたりしません。</p></div>
+
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">この計算機をあなたのウェブサイトに埋め込む — 無料</h2>
+<p style="margin:0 0 12px;line-height:1.6">この計算機を自分のウェブサイトやブログに加えましょう — 完全に無料で、登録は不要、常に最新バージョンが表示されます。下のコードをコピーして、計算機を表示したいページの場所に貼り付けます。埋め込みの下にある小さな &ldquo;Powered by Loona Automation&rdquo; のクレジット行を保持することは、このツールを無料に保つ助けになります &mdash; しかし、スタイルを変更したり削除したりしても自由です。ツールはどちらでも動作します。</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/ja/scientific-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Scientific Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;提供 &lt;a href="https://loonaautomation.github.io/loona-calculators/ja/scientific-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 無料の 関数電卓&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">埋め込みコードをコピーする</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='埋め込みコードをコピー';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>人気の計算機</h4><ul><li><a href="../age-calculator/">年齢計算機</a></li>
+<li><a href="../zakat-calculator/">ザカート計算機</a></li>
+<li><a href="../cgpa-calculator/">CGPA計算機</a></li>
+<li><a href="../percentage-calculator/">パーセント計算機</a></li>
+<li><a href="../hijri-date-converter/">ヒジュラ暦日付変換</a></li>
+<li><a href="../emi-calculator/">EMI・ローン計算機</a></li></ul></div>
+<div><h4>その他の Loona ツール</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR コード</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona 画像圧縮</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI アシスタント</a></li>
+<li><a href="https://loonaautomation.github.io/">すべての Loona ツール</a></li></ul></div>
+<div><h4>Loona 計算機</h4><ul>
+<li><a href="../about.html">概要</a></li>
+<li><a href="../contact.html">連絡先</a></li>
+<li><a href="../privacy-policy.html">プライバシーポリシー</a></li>
+<li><a href="../terms.html">利用規約</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona 計算機 —  <a href="https://loonaautomation.github.io/">Loona Automation</a> プロジェクト。無料のオンライン計算機、サインアップなし。
+連絡先： <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+/* Scientific Calculator — pure logic (also exported for node tests) */
+var SCI_FUNCS={sin:1,cos:1,tan:1,asin:1,acos:1,atan:1,log:1,ln:1,sqrt:1};
+function factorialSci(n){
+  if(n<0||Math.floor(n)!==n)throw new Error("階乗には0以上の整数が必要です");
+  if(n>170)throw new Error("階乗が大きすぎます");
+  var r=1;for(var i=2;i<=n;i++)r*=i;return r;
+}
+function applyFuncSci(name,a,mode){
+  var deg=(mode==="DEG");
+  switch(name){
+    case "sin":return Math.sin(deg?a*Math.PI/180:a);
+    case "cos":return Math.cos(deg?a*Math.PI/180:a);
+    case "tan":return Math.tan(deg?a*Math.PI/180:a);
+    case "asin":var r=Math.asin(a);return deg?r*180/Math.PI:r;
+    case "acos":var r2=Math.acos(a);return deg?r2*180/Math.PI:r2;
+    case "atan":var r3=Math.atan(a);return deg?r3*180/Math.PI:r3;
+    case "log":return Math.log10(a);
+    case "ln":return Math.log(a);
+    case "sqrt":return Math.sqrt(a);
+  }
+  throw new Error("Unknown function "+name);
+}
+function tokenizeSci(src){
+  var s=String(src).replace(/×/g,"*").replace(/÷/g,"/").replace(/−/g,"-").replace(/π/g,"pi").replace(/√/g,"sqrt");
+  var toks=[],i=0;
+  while(i<s.length){
+    var ch=s[i];
+    if(ch===" "||ch==="\t"){i++;continue;}
+    if((ch>="0"&&ch<="9")||ch==="."){
+      var j=i,num="";
+      while(j<s.length&&((s[j]>="0"&&s[j]<="9")||s[j]===".")){num+=s[j];j++;}
+      var v=parseFloat(num);
+      if(isNaN(v))throw new Error("不正な数字："+num);
+      toks.push({t:"num",v:v});i=j;continue;
+    }
+    if(ch>="a"&&ch<="z"){
+      var k=i,id="";
+      while(k<s.length&&s[k]>="a"&&s[k]<="z"){id+=s[k];k++;}
+      if(id==="pi")toks.push({t:"const",v:Math.PI});
+      else if(id==="e")toks.push({t:"const",v:Math.E});
+      else if(SCI_FUNCS[id])toks.push({t:"func",v:id});
+      else throw new Error("不明な名前："+id);
+      i=k;continue;
+    }
+    if("+-*/^!%()".indexOf(ch)>=0){toks.push({t:"op",v:ch});i++;continue;}
+    throw new Error("予期しない文字："+ch);
+  }
+  return toks;
+}
+function evaluateExpression(src,mode){
+  var toks=tokenizeSci(src),pos=0;
+  function peek(){return toks[pos];}
+  function next(){return toks[pos++];}
+  function parseExpr(){
+    var v=parseTerm();
+    while(peek()&&peek().t==="op"&&(peek().v==="+"||peek().v==="-")){var op=next().v;var r=parseTerm();v=(op==="+")?v+r:v-r;}
+    return v;
+  }
+  function parseTerm(){
+    var v=parsePow();
+    while(peek()){
+      var tk=peek();
+      if(tk.t==="op"&&(tk.v==="*"||tk.v==="/")){next();var r=parsePow();v=(tk.v==="*")?v*r:v/r;}
+      else if(tk.t==="op"&&tk.v==="("||tk.t==="func"||tk.t==="const"){var r2=parsePow();v=v*r2;}
+      else break;
+    }
+    return v;
+  }
+  function parsePow(){
+    var base=parseUnary();
+    if(peek()&&peek().t==="op"&&peek().v==="^"){next();var ex=parsePow();return Math.pow(base,ex);}
+    return base;
+  }
+  function parseUnary(){
+    var tk=peek();
+    if(tk&&tk.t==="op"&&(tk.v==="-"||tk.v==="+")){next();var v=parseUnary();return tk.v==="-"?-v:v;}
+    return parsePostfix();
+  }
+  function parsePostfix(){
+    var v=parsePrimary();
+    while(peek()&&peek().t==="op"&&(peek().v==="!"||peek().v==="%")){var op=next().v;v=(op==="!")?factorialSci(v):v/100;}
+    return v;
+  }
+  function parsePrimary(){
+    var tk=next();
+    if(!tk)throw new Error("式の予期しない終了");
+    if(tk.t==="num"||tk.t==="const")return tk.v;
+    if(tk.t==="op"&&tk.v==="("){var v=parseExpr();var c=next();if(!c||c.v!==")")throw new Error("閉じ括弧がありません");return v;}
+    if(tk.t==="func"){
+      var o=next();if(!o||o.v!=="(")throw new Error("Expected ( after "+tk.v);
+      var a=parseExpr();var cl=next();if(!cl||cl.v!==")")throw new Error("閉じ括弧がありません");
+      return applyFuncSci(tk.v,a,mode);
+    }
+    throw new Error("予期しないトークン："+tk.v);
+  }
+  var val=parseExpr();
+  if(pos<toks.length)throw new Error("末尾に余分な入力があります");
+  return val;
+}
+function formatSci(v){
+  if(typeof v!=="number"||isNaN(v))return "Error";
+  if(v===Infinity)return "Infinity";
+  if(v===-Infinity)return "-Infinity";
+  if(Math.abs(v)<1e-12)v=0;
+  return String(parseFloat(v.toPrecision(12)));
+}
+if(typeof module!=="undefined"&&module.exports){module.exports={evaluateExpression:evaluateExpression,formatSci:formatSci,tokenizeSci:tokenizeSci,factorialSci:factorialSci};}
+
+/* ---------- Browser wiring ---------- */
+if(typeof document!=="undefined"){
+  document.addEventListener("DOMContentLoaded",function(){
+    var disp=document.getElementById("sciDisp"),msg=document.getElementById("sciMsg"),modeBtn=document.getElementById("sciMode");
+    if(!disp)return;
+    var expr="",mode="DEG",fresh=false;
+    function pretty(e){return e.replace(/pi/g,"π").replace(/sqrt\(/g,"√(").replace(/\*/g,"×").replace(/\//g,"÷");}
+    function render(){disp.value=pretty(expr);disp.scrollLeft=disp.scrollWidth;}
+    function note(t){msg.textContent=t||"";}
+    function ins(txt){
+      if(fresh&&( /[0-9.]/.test(txt.charAt(0))||txt==="pi"||txt==="e" )){expr="";fresh=false;}
+      else fresh=false;
+      expr+=txt;note("");render();
+    }
+    function equals(){
+      if(!expr){note("まず式を入力またはタップしてください。");return;}
+      try{var v=evaluateExpression(expr,mode);expr=String(v);disp.value=formatSci(v);note("Answer in "+(mode==="DEG"?"度モード (DEG)":"ラジアンモード (RAD)")+"。入力を続けると計算が続きます。");fresh=true;}
+      catch(err){note("Error: "+err.message);}
+    }
+    document.querySelectorAll("[data-sci]").forEach(function(b){
+      b.addEventListener("click",function(){
+        var a=b.getAttribute("data-sci");
+        if(a==="eq")equals();
+        else if(a==="clr"){expr="";fresh=false;note("");render();}
+        else if(a==="back"){expr=expr.slice(0,-1);render();}
+        else if(a==="mode"){mode=(mode==="DEG")?"RAD":"DEG";modeBtn.textContent=mode;note("角度モード："+(mode==="DEG"?"degrees":"radians")+".");}
+        else ins(a);
+      });
+    });
+    disp.addEventListener("input",function(){
+      expr=disp.value.replace(/π/g,"pi").replace(/×/g,"*").replace(/÷/g,"/").replace(/√/g,"sqrt").replace(/−/g,"-");
+      fresh=false;
+    });
+    disp.addEventListener("keydown",function(e){
+      if(e.key==="Enter"){e.preventDefault();equals();}
+      else if(e.key==="="){e.preventDefault();equals();}
+    });
+    render();
+  });
+}
+</script>
+
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' アプリをインストール';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('このアプリをインストールするには：共有ボタンをタップし、「ホーム画面に追加」を選んでください。');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body></html>

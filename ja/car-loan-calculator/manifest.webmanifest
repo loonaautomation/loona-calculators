@@ -1,0 +1,29 @@
+{
+  "name": "Loona 自動車ローン計算機",
+  "short_name": "自動車ローン計算機",
+  "description": "無料の自動車ローン計算機：車の価格、頭金、金利、期間 — ローン金額、月々の支払い、総利息、車の真の総コストが得られます。",
+  "id": "/loona-calculators/ja/car-loan-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

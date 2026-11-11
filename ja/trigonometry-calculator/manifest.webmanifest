@@ -1,0 +1,29 @@
+{
+  "name": "Loona 三角関数計算機",
+  "short_name": "三角関数計算機",
+  "description": "無料の三角関数計算機：度またはラジアンで角度を入力すると、sin、cos、tan、csc、sec、cot が得られます。または逆 sin、cos、tan を使って、比率から角度を求めます。正確な値の表付き。",
+  "id": "/loona-calculators/ja/trigonometry-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

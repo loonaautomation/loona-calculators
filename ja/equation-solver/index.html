@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>方程式ソルバー（線形と二次） — ステップバイステップの答え | Loona Calculators</title>
+<meta name="description" content="無料の方程式ソルバー。線形（ax + b = cx + d）と二次（ax² + bx + c = 0）の方程式向け。完全なステップバイステップの作業、判別式、複素数根、最終チェック付き。">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/ja/equation-solver/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/equation-solver/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/equation-solver/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/equation-solver/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/equation-solver/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/equation-solver/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/equation-solver/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/equation-solver/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/equation-solver/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/equation-solver/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/equation-solver/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/equation-solver/"><link rel="alternate" hreflang="ja" href="https://loonaautomation.github.io/loona-calculators/ja/equation-solver/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/equation-solver/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="方程式ソルバー（線形と二次） — ステップバイステップの答え | Loona Calculators">
+<meta property="og:description" content="無料の方程式ソルバー。線形（ax + b = cx + d）と二次（ax² + bx + c = 0）の方程式向け。完全なステップバイステップの作業、判別式、複素数根、最終チェック付き。">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/ja/equation-solver/"><meta property="og:locale" content="ja_JP">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="方程式ソルバー（線形と二次） — ステップバイステップの答え | Loona Calculators">
+<meta name="twitter:description" content="無料の方程式ソルバー。線形（ax + b = cx + d）と二次（ax² + bx + c = 0）の方程式向け。完全なステップバイステップの作業、判別式、複素数根、最終チェック付き。">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona 方程式ソルバー","url":"https://loonaautomation.github.io/loona-calculators/ja/equation-solver/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"このソルバーは、どの種類の方程式を処理できますか？","acceptedAnswer":{"@type":"Answer","text":"ax + b = cx + d の形の線形方程式と、ax² + bx + c = 0 の形の二次方程式。すべてのステップ、二次方程式の判別式、最終チェックを表示します。三次方程式、二つの未知数の連立方程式、不等式は解きません — ページのタイトルが、対象を正確に述べています。"}},{"@type":"Question","name":"「解なし」または「無限に多くの解」とは、何を意味しますか？","acceptedAnswer":{"@type":"Answer","text":"時には、x の項が完全に相殺されます。数も一致する場合（5x + 1 = 5x + 1 のように）、方程式は常に真です — 無限に多くの解。数が一致しない場合（5x + 1 = 5x + 3）、それが真になることは決してありません — 解なし。ソルバーは、答えをでっち上げるのではなく、どちらのケースか正直に伝えます。"}},{"@type":"Question","name":"複素数根とは何ですか？","acceptedAnswer":{"@type":"Answer","text":"二次方程式の判別式（b² − 4ac）が負の場合、グラフは x 軸を決して横切りません。そして、本当の答えはありません。根は、次に、i を使う複素数です。ここで i² = −1 — 例えば、x² + 1 = 0 は、根 x = i と x = −i を持ちます。このソルバーは、それらを表示し、依然としてそれらを確認します。"}}]}</script>
+
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona 計算機",
+      "item": "https://loonaautomation.github.io/loona-calculators/ja/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "方程式ソルバー",
+      "item": "https://loonaautomation.github.io/loona-calculators/ja/equation-solver/"
+    }
+  ]
+}</script>
+
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation のロゴ">
+<div class="brand">Loona <span>計算機</span></div>
+<nav>
+<a href="../">ホーム</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">概要</a>
+<a href="../contact.html">連絡先</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona 計算機</a> › 数学 › 方程式ソルバー</div>
+<h1 class="pagetitle">方程式ソルバー（線形と二次）</h1>
+<p class="lead">線形方程式（ax + b = cx + d）と二次方程式（ax² + bx + c = 0）を、すべてのステップを示して解きます — 判別式、重複根と複素数根を含み、答えを代入し戻す最終確認も。</p>
+<div class="toolbox">
+<div class="calcform"><div class="fld"><label for="eqMode">方程式の種類</label><select id="eqMode"><option value="linear">線形方程式 — ax + b = cx + d</option><option value="quad">二次方程式 — ax² + bx + c = 0</option></select></div></div>
+<div id="eqLinear" class="view on">
+<form class="calcform" id="eqLinForm">
+<p style="margin-bottom:12px;color:#2c3e3b">四つの数を入力してください <strong>ax + b = cx + d</strong>。項が欠けている場合は 0 を使います — たとえば、2x + 3 = 7 は a = 2、b = 3、c = 0、d = 7 です。</p>
+<div class="fld"><label for="la">a — x の係数（左側）</label><input type="number" step="any" id="la" value="3"></div>
+<div class="fld"><label for="lb">b — 数（左側）</label><input type="number" step="any" id="lb" value="2"></div>
+<div class="fld"><label for="lc">c — x の係数（右側）</label><input type="number" step="any" id="lc" value="1"></div>
+<div class="fld"><label for="ld">d — 数（右側）</label><input type="number" step="any" id="ld" value="10"></div>
+<button class="calcbtn" type="submit">ステップ付きで解く</button>
+</form>
+<div class="calcresult" id="eqLinRes" style="display:none"></div>
+</div>
+<div id="eqQuad" class="view">
+<form class="calcform" id="eqQuadForm">
+<p style="margin-bottom:12px;color:#2c3e3b">三つの係数を入力してください <strong>ax² + bx + c = 0</strong>。項が欠けている場合は 0 を使います — たとえば、x² − 9 = 0 は a = 1、b = 0、c = −9 です。</p>
+<div class="fld"><label for="qa">a — x² の係数</label><input type="number" step="any" id="qa" value="1"></div>
+<div class="fld"><label for="qb">b — x の係数</label><input type="number" step="any" id="qb" value="-5"></div>
+<div class="fld"><label for="qc">c — 定数</label><input type="number" step="any" id="qc" value="6"></div>
+<button class="calcbtn" type="submit">ステップ付きで解く</button>
+</form>
+<div class="calcresult" id="eqQuadRes" style="display:none"></div>
+</div>
+</div>
+<section class="txt"><h2>方程式ソルバーの使い方</h2><ol><li>方程式の種類を選びます：線形（x のみ）か二次（x²）。</li><li>係数を入力します — x² と x の前の数と、無地の数。不在の項については、0 を入力します。</li><li>ステップで解くを押し、作業を行ごとに読みます。最後のステップは、答えを元の方程式に戻し入れて確認します。</li></ol>
+<div class="exbox"><strong>例：</strong> 3x + 2 = x + 10。x の項を左へ移す：2x + 2 = 10。数を右へ移す：2x = 8。2 で割る： <strong>x = 4</strong>。確認：3 × 4 + 2 = 14、4 + 10 = 14 ✓</div>
+<h2>よくある質問</h2></section><div class="faq"><h3>このソルバーは、どの種類の方程式を処理できますか？</h3><p>ax + b = cx + d の形の線形方程式と、ax² + bx + c = 0 の形の二次方程式。すべてのステップ、二次方程式の判別式、最終チェックを表示します。三次方程式、二つの未知数の連立方程式、不等式は解きません — ページのタイトルが、対象を正確に述べています。</p></div><div class="faq"><h3>「解なし」または「無限に多くの解」とは、何を意味しますか？</h3><p>時には、x の項が完全に相殺されます。数も一致する場合（5x + 1 = 5x + 1 のように）、方程式は常に真です — 無限に多くの解。数が一致しない場合（5x + 1 = 5x + 3）、それが真になることは決してありません — 解なし。ソルバーは、答えをでっち上げるのではなく、どちらのケースか正直に伝えます。</p></div><div class="faq"><h3>複素数根とは何ですか？</h3><p>二次方程式の判別式（b² − 4ac）が負の場合、グラフは x 軸を決して横切りません。そして、本当の答えはありません。根は、次に、i を使う複素数です。ここで i² = −1 — 例えば、x² + 1 = 0 は、根 x = i と x = −i を持ちます。このソルバーは、それらを表示し、依然としてそれらを確認します。</p></div>
+<h2 class="sec">関連する計算機</h2><div class="grid"><a class="card" href="../fraction-calculator/"><div class="ic">🍕</div><h3>分数計算機</h3><p>数学</p></a><a class="card" href="../percentage-calculator/"><div class="ic">％</div><h3>パーセント計算機</h3><p>数学</p></a><a class="card" href="../exponent-calculator/"><div class="ic">x²</div><h3>指数計算機</h3><p>数学</p></a><a class="card" href="../square-root-calculator/"><div class="ic">√</div><h3>平方根計算機</h3><p>数学</p></a><a class="card" href="../scientific-calculator/"><div class="ic">🧮</div><h3>関数電卓</h3><p>数学</p></a></div>
+</div>
+<section class="txt"><h2>仕組み &mdash; 方法</h2>
+<p><strong>線形方程式</strong> 方程式をバランスさせて解かれます — 一方に行うことは何でも、他方にも行います。まず、x の項は左に集められます（両辺から cx を引きます）。次に、数の項は右に（b を引きます）。そして、最後に、両辺は、x の係数で割られます。</p>
+<p><strong>二次方程式</strong> 二次方程式の公式を使用します。ax² + bx + c = 0 については：</p>
+<p><strong>x = (−b ± √(b² − 4ac)) ÷ (2a)</strong></p>
+<p>根の下の部分、 <strong>D = b² − 4ac</strong>、これは判別式と呼ばれ、解き終える前に答えの種類を教えてくれます：D &gt; 0 は異なる二つの実数解、D = 0 は一つの重解、D &lt; 0 は二つの複素数解で実数解なしを意味します。</p>
+<h3>実例</h3>
+<div class="exbox"><strong>例：</strong> x² − 5x + 6 = 0 を解く。ここで a = 1、b = −5、c = 6。D = (−5)² − 4 × 1 × 6 = 25 − 24 = 1。だから √D = 1。次に x = (5 + 1) ÷ 2 = <strong>3</strong> または x =（5 − 1）÷ 2 = <strong>2</strong>。x = 3 で確認：9 − 15 + 6 = 0 ✓</div>
+<h3>よくある質問</h3></section>
+<div class="faq"><h3>項が欠けた方程式を入力するにはどうすればよいですか？</h3><p>欠けている係数は 0 と入力してください。x² − 9 = 0 は a = 1、b = 0、c = −9 となり、ソルバーは x = 3 または x = −3 を示します。2x = 10 のような線形方程式では、a = 2、b = 0、c = 0、d = 10 です。</p></div>
+<div class="faq"><h3>二次ソルバーで a = 0 と入力した場合はどうなりますか？</h3><p>すると、x² の項は消え、方程式は本当に線形です。ソルバーは、これに気づき、代わりに線形方程式としてそれを解き、それが起こったことを伝えます。</p></div>
+<div class="faq"><h3>なぜ、ソルバーは、最後にその答えを確認するのですか？</h3><p>答えを元の式に代入し戻すことは、間違いを捕らえる最も確実な方法です：両側が等しくなれば、答えは確実に正しいです。それは宿題のためにも良い習慣です — 教師は、しばしば、目に見える確認に対して方法の点数を与えます。</p></div>
+
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">この計算機をあなたのウェブサイトに埋め込む — 無料</h2>
+<p style="margin:0 0 12px;line-height:1.6">この計算機を自分のウェブサイトやブログに加えましょう — 完全に無料で、登録は不要、常に最新バージョンが表示されます。下のコードをコピーして、計算機を表示したいページの場所に貼り付けます。埋め込みの下にある小さな &ldquo;Powered by Loona Automation&rdquo; のクレジット行を保持することは、このツールを無料に保つ助けになります &mdash; しかし、スタイルを変更したり削除したりしても自由です。ツールはどちらでも動作します。</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/ja/equation-solver/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Equation Solver by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;提供 &lt;a href="https://loonaautomation.github.io/loona-calculators/ja/equation-solver/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 無料の 方程式ソルバー&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">埋め込みコードをコピーする</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='埋め込みコードをコピー';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>人気の計算機</h4><ul><li><a href="../age-calculator/">年齢計算機</a></li>
+<li><a href="../zakat-calculator/">ザカート計算機</a></li>
+<li><a href="../cgpa-calculator/">CGPA計算機</a></li>
+<li><a href="../percentage-calculator/">パーセント計算機</a></li>
+<li><a href="../hijri-date-converter/">ヒジュラ暦日付変換</a></li>
+<li><a href="../emi-calculator/">EMI・ローン計算機</a></li></ul></div>
+<div><h4>その他の Loona ツール</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR コード</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona 画像圧縮</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI アシスタント</a></li>
+<li><a href="https://loonaautomation.github.io/">すべての Loona ツール</a></li></ul></div>
+<div><h4>Loona 計算機</h4><ul>
+<li><a href="../about.html">概要</a></li>
+<li><a href="../contact.html">連絡先</a></li>
+<li><a href="../privacy-policy.html">プライバシーポリシー</a></li>
+<li><a href="../terms.html">利用規約</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona 計算機 —  <a href="https://loonaautomation.github.io/">Loona Automation</a> プロジェクト。無料のオンライン計算機、サインアップなし。
+連絡先： <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+/* Equation Solver (Linear & Quadratic) — pure logic, step-by-step */
+function feq(n){
+  if(typeof n!=="number"||isNaN(n))return "?";
+  if(Math.abs(n)<1e-12)n=0;
+  var s=String(parseFloat(n.toPrecision(10)));
+  return s.replace(/-/g,"−");
+}
+function pm(n){return n<0?" − "+feq(-n):" + "+feq(n);}
+function coef(n){if(n===1)return "";if(n===-1)return "−";return feq(n);}
+function linSide(a,b){return coef(a)+"x"+(b===0?"":pm(b));}
+function solveLinearEq(a,b,c,d){
+  var steps=[];
+  steps.push("方程式から始めます："+linSide(a,b)+" = "+linSide(c,d)+".");
+  var A=a-c,B=d-b;
+  if(c!==0)steps.push("xの項を左辺へ移すために、"+coef(c)+"x を両辺から引きます："+linSide(A,b)+" = "+feq(d)+".");
+  if(b!==0)steps.push("数項を右辺へ移すために "+(b>0?"subtracting":"adding")+" "+feq(Math.abs(b))+" を両辺に適用します："+coef(A)+"x = "+feq(B)+".");
+  if(A===0){
+    if(B===0){
+      steps.push("Both sides are identical (0 = 0), so the equation is true for every value of x.");
+      return {steps:steps,kind:"infinite",summary:"解は無限にあります — この方程式は恒等式です。"};
+    }
+    steps.push("This leaves 0 = "+feq(B)+"、これは偽であるため、xのどんな値もこの方程式を満たしません。");
+    return {steps:steps,kind:"none",summary:"解なし — この方程式は矛盾しています。"};
+  }
+  var x=B/A;
+  steps.push("両辺を次で割ります："+feq(A)+": x = "+feq(B)+" ÷ "+feq(A)+" = "+feq(x)+".");
+  var lhs=a*x+b,rhs=c*x+d;
+  steps.push("Check: substitute x = "+feq(x)+" back in. Left side = "+feq(a)+" × "+feq(x)+pm(b)+" = "+feq(lhs)+". Right side = "+feq(c)+" × "+feq(x)+pm(d)+" = "+feq(rhs)+"。両辺は等しくなります ✓");
+  return {steps:steps,kind:"one",x:x,summary:"x = "+feq(x)};
+}
+function quadSide(a,b,c){
+  var s=coef(a)+"x²";
+  if(b!==0)s+=(b<0?" − "+feq(-b):" + "+feq(b))+"x";
+  if(c!==0)s+=pm(c);
+  return s;
+}
+function solveQuadraticEq(a,b,c){
+  var steps=[];
+  if(a===0){
+    steps.push("Here a = 0, so this is not really a quadratic equation — it simplifies to the linear equation "+linSide(b,c)+" = 0.");
+    if(b===0){
+      if(c===0){steps.push("It becomes 0 = 0, which is true for every x.");return {steps:steps,kind:"infinite",summary:"解は無限にあります。"};}
+      steps.push("It becomes "+feq(c)+" = 0, which is false.");return {steps:steps,kind:"none",summary:"解なし。"};
+    }
+    var xl=-c/b;
+    steps.push("数項を移項します："+coef(b)+"x = "+feq(-c)+".");
+    steps.push("Divide by "+feq(b)+": x = "+feq(xl)+".");
+    steps.push("Check: "+feq(b)+" × "+feq(xl)+pm(c)+" = "+feq(b*xl+c)+" ✓");
+    return {steps:steps,kind:"linear",x:xl,summary:"x = "+feq(xl)+" (linear, because a = 0)"};
+  }
+  steps.push("係数を特定します（対象："+quadSide(a,b,c)+" = 0: a = "+feq(a)+", b = "+feq(b)+", c = "+feq(c)+".");
+  var D=b*b-4*a*c;
+  steps.push("Work out the discriminant: D = b² − 4ac = ("+feq(b)+")² − 4 × "+feq(a)+" × "+feq(c)+" = "+feq(b*b)+" − "+feq(4*a*c)+" = "+feq(D)+".");
+  if(D>0){
+    var sd=Math.sqrt(D);
+    steps.push("D is positive, so there are two different real roots. √D = √"+feq(D)+" = "+feq(sd)+".");
+    steps.push("Apply the quadratic formula: x = (−b ± √D) ÷ (2a) = ("+feq(-b)+" ± "+feq(sd)+") ÷ "+feq(2*a)+".");
+    var x1=(-b+sd)/(2*a),x2=(-b-sd)/(2*a);
+    steps.push("First root: x = ("+feq(-b)+" + "+feq(sd)+") ÷ "+feq(2*a)+" = "+feq(x1)+".");
+    steps.push("Second root: x = ("+feq(-b)+" − "+feq(sd)+") ÷ "+feq(2*a)+" = "+feq(x2)+".");
+    var v=a*x1*x1+b*x1+c;
+    steps.push("Check with x = "+feq(x1)+": "+feq(a)+" × ("+feq(x1)+")² + "+feq(b)+" × "+feq(x1)+pm(c)+" = "+feq(v)+" ✓（0、予想どおり）。");
+    return {steps:steps,kind:"two",x1:x1,x2:x2,summary:"x = "+feq(x1)+" or x = "+feq(x2)};
+  }
+  if(D===0){
+    var xr=-b/(2*a);
+    steps.push("Dはちょうどゼロなので、両方の根は同じです（重根）。");
+    steps.push("Apply the formula: x = −b ÷ (2a) = "+feq(-b)+" ÷ "+feq(2*a)+" = "+feq(xr)+".");
+    var v0=a*xr*xr+b*xr+c;
+    steps.push("Check: "+feq(a)+" × ("+feq(xr)+")² + "+feq(b)+" × "+feq(xr)+pm(c)+" = "+feq(v0)+" ✓");
+    return {steps:steps,kind:"equal",x1:xr,x2:xr,summary:"x = "+feq(xr)+"（重根）"};
+  }
+  var re=-b/(2*a),im=Math.abs(Math.sqrt(-D)/(2*a));
+  steps.push("Dは負なので、実根はありません — 放物線はx軸と交わりません。");
+  steps.push("Using √−1 = i: √D = √"+feq(-D)+" i = "+feq(Math.sqrt(-D))+"i.");
+  steps.push("Apply the formula: x = ("+feq(-b)+" ± "+feq(Math.sqrt(-D))+"i) ÷ "+feq(2*a)+", giving x = "+feq(re)+" + "+feq(im)+"i or x = "+feq(re)+" − "+feq(im)+"i.");
+  var zre=a*(re*re-im*im)+b*re+c,zim=2*a*re*im+b*im;
+  steps.push("Check with x = "+feq(re)+" + "+feq(im)+"i：方程式の結果は "+feq(zre)+" + "+feq(zim)+"i ≈ 0 ✓（丸め誤差を除く）。");
+  return {steps:steps,kind:"complex",re:re,im:im,summary:"x = "+feq(re)+" + "+feq(im)+"i or x = "+feq(re)+" − "+feq(im)+"i（実根なし）"};
+}
+if(typeof module!=="undefined"&&module.exports){module.exports={solveLinearEq:solveLinearEq,solveQuadraticEq:solveQuadraticEq,feq:feq};}
+
+/* ---------- Browser wiring ---------- */
+if(typeof document!=="undefined"){
+  document.addEventListener("DOMContentLoaded",function(){
+    var modeSel=document.getElementById("eqMode"),linView=document.getElementById("eqLinear"),quadView=document.getElementById("eqQuad");
+    if(!modeSel)return;
+    function sync(){var q=modeSel.value==="quad";linView.className="view"+(q?"":" on");quadView.className="view"+(q?" on":"");}
+    modeSel.addEventListener("change",sync);sync();
+    function num(id){return parseFloat(document.getElementById(id).value);}
+    function render(resEl,r){
+      if(!r){resEl.style.display="block";resEl.innerHTML='<p class="err">すべての欄に数字を入力してください。</p>';return;}
+      var h='<div class="resbig"><span>答え</span><strong>'+r.summary+'</strong></div><p style="font-weight:700;color:#062e2a;margin-bottom:6px">ステップごとの計算過程</p><ol style="margin-left:20px">';
+      r.steps.forEach(function(s){h+="<li style='margin-bottom:6px'>"+s+"</li>";});
+      resEl.innerHTML=h+"</ol>";resEl.style.display="block";
+    }
+    document.getElementById("eqLinForm").addEventListener("submit",function(e){
+      e.preventDefault();
+      var a=num("la"),b=num("lb"),c=num("lc"),d=num("ld");
+      if([a,b,c,d].some(isNaN)){render(document.getElementById("eqLinRes"),null);return;}
+      render(document.getElementById("eqLinRes"),solveLinearEq(a,b,c,d));
+    });
+    document.getElementById("eqQuadForm").addEventListener("submit",function(e){
+      e.preventDefault();
+      var a=num("qa"),b=num("qb"),c=num("qc");
+      if([a,b,c].some(isNaN)){render(document.getElementById("eqQuadRes"),null);return;}
+      render(document.getElementById("eqQuadRes"),solveQuadraticEq(a,b,c));
+    });
+  });
+}
+</script>
+
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' アプリをインストール';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('このアプリをインストールするには：共有ボタンをタップし、「ホーム画面に追加」を選んでください。');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body></html>

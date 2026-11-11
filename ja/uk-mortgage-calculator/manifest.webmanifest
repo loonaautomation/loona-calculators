@@ -1,0 +1,29 @@
+{
+  "name": "Loona 英国住宅ローン計算機",
+  "short_name": "英国住宅ローン計算機",
+  "description": "無料の英国住宅ローン計算機（ポンド）：任意のローン、利率、期間で月々の返済、総利息、総コスト。さらに過払いの比較。",
+  "id": "/loona-calculators/ja/uk-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

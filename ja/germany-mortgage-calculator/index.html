@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ドイツ住宅ローン計算機 — 年金と Tilgung | Loona</title>
+<meta name="description" content="無料のドイツ住宅ローン（Baufinanzierung）計算機（ユーロ）：利率と初期のティルグングからの月々の年金、固定期間後の残債。">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/ja/germany-mortgage-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/germany-mortgage-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/germany-mortgage-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/germany-mortgage-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/germany-mortgage-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/germany-mortgage-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/germany-mortgage-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/germany-mortgage-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/germany-mortgage-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/germany-mortgage-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/germany-mortgage-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/germany-mortgage-calculator/"><link rel="alternate" hreflang="ja" href="https://loonaautomation.github.io/loona-calculators/ja/germany-mortgage-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/germany-mortgage-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="ドイツ住宅ローン計算機 — 年金と Tilgung | Loona">
+<meta property="og:description" content="無料のドイツ住宅ローン（Baufinanzierung）計算機（ユーロ）：利率と初期のティルグングからの月々の年金、固定期間後の残債。">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/ja/germany-mortgage-calculator/"><meta property="og:locale" content="ja_JP">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ドイツ住宅ローン計算機 — 年金と Tilgung | Loona">
+<meta name="twitter:description" content="無料のドイツ住宅ローン（Baufinanzierung）計算機（ユーロ）：利率と初期のティルグングからの月々の年金、固定期間後の残債。">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona ドイツ住宅ローン計算機","url":"https://loonaautomation.github.io/loona-calculators/ja/germany-mortgage-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Tilgung とは何ですか？","acceptedAnswer":{"@type":"Answer","text":"Tilgung は、あなたの年金の返済部分です。元のローンの、年あたりのパーセンテージとして表されます。€300,000 に 2% の Tilgung では、最初は年に €6,000 の元金を返済します — しかし、年金は固定されたままで、利息が下がるため、返済シェアは毎月増えます。そのため、ローンは、パーセンテージが示唆するより速く解消されます。"}},{"@type":"Question","name":"年金（Annuität）とは何ですか？","acceptedAnswer":{"@type":"Answer","text":"一定の年間支払い：（金利 + Tilgung） × 元のローン金額。€300,000 を 3.5% + 2% で借りると、年金は 5.5% × €300,000 = 年 €16,500、つまり月 €1,375 です。その固定支払いの中では、構成は、開始時のほとんど利息から、終了時のほとんど返済へ移行します。"}},{"@type":"Question","name":"Zinsbindung の終わりには、何が起こりますか？","acceptedAnswer":{"@type":"Answer","text":"金利は、選ばれた期間（一般的に 10 年）だけ固定されます。その後、残りの負債（Restschuld）は、再融資されなければなりません — 同じ銀行または新しい銀行との Anschlussfinanzierung によって、その将来の日の金利で。より高い Tilgung は、残りの負債が少なく、将来の金利上昇への露出も少ないことを意味します。"}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona 計算機",
+      "item": "https://loonaautomation.github.io/loona-calculators/ja/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "ドイツ住宅ローン計算機",
+      "item": "https://loonaautomation.github.io/loona-calculators/ja/germany-mortgage-calculator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation のロゴ">
+<div class="brand">Loona <span>計算機</span></div>
+<nav>
+<a href="../">ホーム</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">概要</a>
+<a href="../contact.html">連絡先</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona 計算機</a> › お金と金融 › ドイツ住宅ローン計算機</div>
+<h1 class="pagetitle">🇩🇪 ドイツ住宅ローン計算機</h1>
+<p class="lead">ドイツの住宅ローンは異なります：金利を 5–30 年固定し、当初の返済率（Tilgung）を選びます。利息のシェアが縮小する間、月々の年金は一定のままです。この計算機はあなたの年金、固定期間中に支払った利息、リファイナンスが必要な残債務（Restschuld）を表示します。</p>
+<div class="toolbox"><form class="calcform" id="deForm">
+<div class="fld"><label for="deAmount">ローン金額（€）</label><input type="number" id="deAmount" value="300000" step="any" min="0"></div>
+<div class="fld"><label for="deRate">金利 — Sollzins（年あたり %）</label><input type="number" id="deRate" value="3.5" step="any" min="0"></div>
+<div class="fld"><label for="deTilgung">当初の返済 — anfängliche Tilgung（年あたり %）</label><input type="number" id="deTilgung" value="2" step="any" min="0.1"></div>
+<div class="fld"><label for="deYears">金利固定期間 — Zinsbindung（年）</label><input type="number" id="deYears" value="10" step="1" min="1" max="30"></div>
+<button class="calcbtn" type="submit">年金を計算する</button>
+<div class="calcresult" id="deResult" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>ドイツ住宅ローン計算機の使い方</h2><ol><li>ローン金額をユーロで入力してください（Kaufpreis から資本金／Eigenkapital を差し引いた額）。</li><li>銀行のオファーからの利率（Sollzins）を入力してください。</li><li>初期のティルグングを入力してください — 2% は一般的な出発点です — そして金利固定期間（Zinsbindung）を入力し、その後「計算」を押してください。</li></ol>
+<div class="exbox"><strong>例：</strong> 3.5% の金利で €300,000 のローン、初期ティルグング 2% では年間の年金は €16,500.00 — <strong>€1,375.00</strong> 一ヶ月。10 年の固定の後、借り換えするために €228,283.74 の負債が残ります。</div>
+<h2>よくある質問</h2></section><div class="faq"><h3>Tilgung とは何ですか？</h3><p>Tilgung は、あなたの年金の返済部分です。元のローンの、年あたりのパーセンテージとして表されます。€300,000 に 2% の Tilgung では、最初は年に €6,000 の元金を返済します — しかし、年金は固定されたままで、利息が下がるため、返済シェアは毎月増えます。そのため、ローンは、パーセンテージが示唆するより速く解消されます。</p></div><div class="faq"><h3>年金（Annuität）とは何ですか？</h3><p>一定の年間支払い：（金利 + Tilgung） × 元のローン金額。€300,000 を 3.5% + 2% で借りると、年金は 5.5% × €300,000 = 年 €16,500、つまり月 €1,375 です。その固定支払いの中では、構成は、開始時のほとんど利息から、終了時のほとんど返済へ移行します。</p></div><div class="faq"><h3>Zinsbindung の終わりには、何が起こりますか？</h3><p>金利は、選ばれた期間（一般的に 10 年）だけ固定されます。その後、残りの負債（Restschuld）は、再融資されなければなりません — 同じ銀行または新しい銀行との Anschlussfinanzierung によって、その将来の日の金利で。より高い Tilgung は、残りの負債が少なく、将来の金利上昇への露出も少ないことを意味します。</p></div>
+<h2 class="sec">関連する計算機</h2><div class="grid"><a class="card" href="../uk-mortgage-calculator/"><div class="ic">🇬🇧</div><h3>英国住宅ローン計算機</h3><p>お金と金融</p></a><a class="card" href="../canada-mortgage-calculator/"><div class="ic">🇨🇦</div><h3>カナダ住宅ローン計算機</h3><p>お金と金融</p></a><a class="card" href="../australia-mortgage-calculator/"><div class="ic">🇦🇺</div><h3>オーストラリア住宅ローン計算機</h3><p>お金と金融</p></a><a class="card" href="../mortgage-calculator/"><div class="ic">🏠</div><h3>住宅ローン計算機</h3><p>お金と金融</p></a><a class="card" href="../loan-calculator/"><div class="ic">💳</div><h3>ローン計算機</h3><p>お金と金融</p></a><a class="card" href="../emi-calculator/"><div class="ic">🏦</div><h3>EMI・ローン計算機</h3><p>お金と金融</p></a></div>
+</div>
+<section class="txt"><h2>仕組み &mdash; 公式</h2>
+<p>ドイツの年金ローン（Annuitätendarlehen）は支払いを一定に保ちます：</p>
+<p><strong>年間年金 = ローン × （金利 + ティルグング） ÷ 100</strong> &nbsp;·&nbsp; 毎月の支払額 = 年金年額 ÷ 12</p>
+<p>毎月、利息は現在の残高に対して （利率 ÷ 12）で課され、固定支払いの残りが資本を返済します。この計算機は、固定期間のすべての月をシミュレーションして利息の合計と残債（Restschuld）を見つけ、同じシミュレーションを継続して完全な返済時間を予測します。</p>
+<h3>実例</h3>
+<div class="exbox"><strong>例：</strong> 3.5% で、2% の Tilgung と共に €300,000。年金 = 300,000 × 5.5% = <strong>€16,500/年 = €1,375.00/月</strong>。初月：利息 = 300,000 × 3.5% ÷ 12 = €875、返済 = 1,375 − 875 = €500。120か月後の残債務は <strong>€228,283.74</strong> そして、期間に固定で支払われる合計の利息は、€93,283.74 です。</div>
+<h3>よくある質問</h3></section><div class="faq"><h3>Tilgung はどのくらい高くすべきですか？</h3><p>高い Tilgung = 借金がより早く消え、全体の利息がはるかに少なくなりますが、月々の支払いは高くなります。一般的な目安は少なくとも 2% で、退職までにローンが返済される程度です。この計算機が表示する予測される全期間を使って、異なる値をテストします — 1% から 2% への移動は通常、多くの年を切り取ります。</p></div><div class="faq"><h3>Sondertilgung とは何ですか？</h3><p>多くのドイツの契約は、予定外の追加返済（Sondertilgung）を認めます。しばしば、無料で年あたりローンの最大で 5% まで。追加返済は、固定期間の終わりの残債務を減らします；通常、月々の年金を変えません。</p></div><div class="faq"><h3>これは財務的助言ですか？</h3><p>いいえ — ドイツの年金方式の無料の教育用計算機。この計算には含まれない実効金利（effektiver Jahreszins）、手数料、不動産譲渡税（Grunderwerbsteuer）もドイツの住宅ローンのオファーには関わります；完全なオファーを比較し、独立した助言を検討してください。</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">この計算機をあなたのウェブサイトに埋め込む — 無料</h2>
+<p style="margin:0 0 12px;line-height:1.6">この計算機を自分のウェブサイトやブログに加えましょう — 完全に無料で、登録は不要、常に最新バージョンが表示されます。下のコードをコピーして、計算機を表示したいページの場所に貼り付けます。埋め込みの下にある小さな &ldquo;Powered by Loona Automation&rdquo; のクレジット行を保持することは、このツールを無料に保つ助けになります &mdash; しかし、スタイルを変更したり削除したりしても自由です。ツールはどちらでも動作します。</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/ja/germany-mortgage-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Germany Mortgage Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;提供 &lt;a href="https://loonaautomation.github.io/loona-calculators/ja/germany-mortgage-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 無料の ドイツ住宅ローン計算機&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">埋め込みコードをコピーする</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='埋め込みコードをコピー';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>人気の計算機</h4><ul><li><a href="../age-calculator/">年齢計算機</a></li>
+<li><a href="../zakat-calculator/">ザカート計算機</a></li>
+<li><a href="../cgpa-calculator/">CGPA計算機</a></li>
+<li><a href="../percentage-calculator/">パーセント計算機</a></li>
+<li><a href="../hijri-date-converter/">ヒジュラ暦日付変換</a></li>
+<li><a href="../emi-calculator/">EMI・ローン計算機</a></li></ul></div>
+<div><h4>その他の Loona ツール</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR コード</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona 画像圧縮</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI アシスタント</a></li>
+<li><a href="https://loonaautomation.github.io/">すべての Loona ツール</a></li></ul></div>
+<div><h4>Loona 計算機</h4><ul>
+<li><a href="../about.html">概要</a></li>
+<li><a href="../contact.html">連絡先</a></li>
+<li><a href="../privacy-policy.html">プライバシーポリシー</a></li>
+<li><a href="../terms.html">利用規約</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona 計算機 —  <a href="https://loonaautomation.github.io/">Loona Automation</a> プロジェクト。無料のオンライン計算機、サインアップなし。
+連絡先： <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+function amortize(principal, monthlyRate, months, extraMonthly) {
+  var bal = principal, totalInterest = 0, m = 0;
+  var base;
+  if (monthlyRate === 0) base = principal / months;
+  else base = principal * monthlyRate / (1 - Math.pow(1 + monthlyRate, -months));
+  while (bal > 0.005 && m < months + 1200) {
+    var interest = bal * monthlyRate;
+    var pay = base + (extraMonthly || 0);
+    var princ = pay - interest;
+    if (princ <= 0) break;
+    if (princ > bal) princ = bal;
+    bal -= princ; totalInterest += interest; m++;
+  }
+  return { payment: base, totalInterest: totalInterest, totalPaid: principal + totalInterest, monthsTaken: m };
+}
+function standardMonthlyRate(annualPct) { return annualPct / 100 / 12; }
+function canadaMonthlyRate(annualPct) { var i = annualPct / 100; return Math.pow(1 + i / 2, 2 / 12) - 1; }
+function germanPlan(principal, ratePct, tilgungPct, fixedYears) {
+  var monthlyRate = ratePct / 100 / 12;
+  var annualAnnuity = principal * (ratePct + tilgungPct) / 100;
+  var monthly = annualAnnuity / 12;
+  var bal = principal, interestPaid = 0, months = Math.round(fixedYears * 12);
+  for (var k = 0; k < months; k++) {
+    var i = bal * monthlyRate;
+    bal -= (monthly - i);
+    interestPaid += i;
+  }
+  return { annualAnnuity: annualAnnuity, monthlyPayment: monthly, remaining: bal, interestPaid: interestPaid, principalPaid: principal - bal };
+}
+function germanFullTermMonths(principal, ratePct, tilgungPct) {
+  var monthlyRate = ratePct / 100 / 12;
+  var monthly = principal * (ratePct + tilgungPct) / 100 / 12;
+  var bal = principal, m = 0;
+  while (bal > 0.005 && m < 1200) { bal -= (monthly - bal * monthlyRate); m++; }
+  return m;
+}
+/*TESTABLE_END*/
+
+function deMoney(x) { return new Intl.NumberFormat('en-IE', { style: 'currency', currency: 'EUR' }).format(x); }
+function deRun() {
+  var box = document.getElementById('deResult');
+  var P = parseFloat(document.getElementById('deAmount').value);
+  var rate = parseFloat(document.getElementById('deRate').value);
+  var tilg = parseFloat(document.getElementById('deTilgung').value);
+  var years = parseFloat(document.getElementById('deYears').value);
+  try {
+    if (isNaN(P) || isNaN(rate) || isNaN(tilg) || isNaN(years) || P <= 0 || tilg <= 0 || years < 1) throw new Error("有効な金額、金利、Tilgung（元本返済率）、固定期間を入力してください。");
+    var plan = germanPlan(P, rate, tilg, years);
+    var full = germanFullTermMonths(P, rate, tilg);
+    box.style.display = 'block';
+    box.innerHTML = '<div class="resbig"><span>月額支払額 (Annuität)</span><strong>' + deMoney(plan.monthlyPayment) + '</strong></div>' +
+      '<table class="restbl">' +
+      '<tr><td>年間年金式支払額（利息 + Tilgung)</td><td><strong>' + deMoney(plan.annualAnnuity) + '</strong></td></tr>' +
+      '<tr><td>期間中に支払う利息（' + years + '年固定）</td><td><strong>' + deMoney(plan.interestPaid) + '</strong></td></tr>' +
+      '<tr><td>固定期間中に返済する元本</td><td><strong>' + deMoney(plan.principalPaid) + '</strong></td></tr>' +
+      '<tr><td>残債務 (Restschuld)（経過後 ' + years + ' 年）</td><td><strong>' + deMoney(plan.remaining) + '</strong></td></tr>' +
+      '<tr><td>完済までの期間（同じ年金式支払額、予測）</td><td><strong>' + Math.floor(full / 12) + ' 年 ' + (full % 12) + ' か月</strong></td></tr></table>' +
+      '<p class="resnote">固定期間が終わると、残債務はその時点で適用される金利で借り換えられます (Anschlussfinanzierung) — この予測は、同じ年金式支払額が続いた場合に何が起こるかを示すものです。</p>';
+  } catch (e) {
+    box.style.display = 'block';
+    box.innerHTML = '<p class="err">' + e.message + '</p>';
+  }
+}
+document.getElementById('deForm').addEventListener('submit', function (e) { e.preventDefault(); deRun(); });
+deRun();
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' アプリをインストール';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('このアプリをインストールするには：共有ボタンをタップし、「ホーム画面に追加」を選んでください。');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

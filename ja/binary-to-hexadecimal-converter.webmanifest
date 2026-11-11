@@ -1,0 +1,29 @@
+{
+  "name": "Loona 二進数から十六進数への変換",
+  "short_name": "二進数から十六進数へ",
+  "description": "二進数（2進数）を十六進数（16進数）に変換します。検証、位の値の計算、参照表付き。",
+  "id": "/loona-calculators/ja/binary-to-hexadecimal-converter.html",
+  "start_url": "./binary-to-hexadecimal-converter.html",
+  "scope": "./binary-to-hexadecimal-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

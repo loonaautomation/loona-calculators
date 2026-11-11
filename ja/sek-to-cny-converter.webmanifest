@@ -1,0 +1,29 @@
+{
+  "name": "Loona SEKからCNYへの変換",
+  "short_name": "SEKからCNYへの変換",
+  "description": "スウェーデンクローナ（SEK）を中国人民元（CNY）に変換します。2026年十一月06日付の ECB 基準レート、逆レート、換算表、コリドーノート。あくまで参考です。",
+  "id": "/loona-calculators/ja/sek-to-cny-converter.html",
+  "start_url": "./sek-to-cny-converter.html",
+  "scope": "./sek-to-cny-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

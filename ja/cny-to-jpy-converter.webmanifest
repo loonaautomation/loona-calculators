@@ -1,0 +1,29 @@
+{
+  "name": "Loona CNYからJPYへの変換",
+  "short_name": "CNYからJPYへの変換",
+  "description": "中国人民元（CNY）を日本円（JPY）に変換します。2026年十一月06日付の ECB 基準レート、逆レート、換算表、コリドーノート。あくまで参考です。",
+  "id": "/loona-calculators/ja/cny-to-jpy-converter.html",
+  "start_url": "./cny-to-jpy-converter.html",
+  "scope": "./cny-to-jpy-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

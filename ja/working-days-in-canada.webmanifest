@@ -1,0 +1,29 @@
+{
+  "name": "Loona カナダの営業日",
+  "short_name": "カナダの営業日",
+  "description": "カナダのための営業日計算機：週末と、2026 年のすべての 11 のカナダの連邦の祝日を取り除いて、二つの日付の間の営業日を数えます。無料のオンラインツール。",
+  "id": "/loona-calculators/ja/working-days-in-canada.html",
+  "start_url": "./working-days-in-canada.html",
+  "scope": "./working-days-in-canada.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

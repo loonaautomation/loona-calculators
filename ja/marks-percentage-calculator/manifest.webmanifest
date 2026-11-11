@@ -1,0 +1,29 @@
+{
+  "name": "Loona 得点パーセント計算機",
+  "short_name": "得点パーセント計算機",
+  "description": "無料の得点パーセンテージ計算機：得た得点と合計点を入力すると、パーセンテージと成績が瞬時に得られます。入学試験、大学、すべての試験向け。",
+  "id": "/loona-calculators/ja/marks-percentage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

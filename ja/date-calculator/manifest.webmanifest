@@ -1,0 +1,29 @@
+{
+  "name": "Loona 日付計算機",
+  "short_name": "日付計算機",
+  "description": "無料の日付計算機：任意の日付に日、週、月、年を加算または減算し、その曜日とともに結果の日付を取得します。期限、ビザ、計画。",
+  "id": "/loona-calculators/ja/date-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

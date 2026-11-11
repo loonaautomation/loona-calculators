@@ -1,0 +1,29 @@
+{
+  "name": "Loona 感謝祭（米国）までの日数",
+  "short_name": "感謝祭（米）まであと何日",
+  "description": "感謝祭（アメリカ）までのライブカウントダウン：正確な残り日、時間、分、秒、今年の日付と次の三年、事実と FAQ。",
+  "id": "/loona-calculators/ja/days-until-thanksgiving.html",
+  "start_url": "./days-until-thanksgiving.html",
+  "scope": "./days-until-thanksgiving.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona 単位変換ツール",
+  "short_name": "単位変換ツール",
+  "description": "無料の単位変換：正確な標準係数で、長さ、重さ、温度、体積、面積の単位を変換します — km からマイル、kg からポンド、摂氏から華氏。",
+  "id": "/loona-calculators/ja/unit-converter/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

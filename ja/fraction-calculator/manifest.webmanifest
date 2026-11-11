@@ -1,0 +1,29 @@
+{
+  "name": "Loona 分数計算機",
+  "short_name": "分数計算機",
+  "description": "無料の分数計算機：二つの分数を加算、減算、乗算、除算すると、簡約された答えが分数、帯分数、小数で得られます。",
+  "id": "/loona-calculators/ja/fraction-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

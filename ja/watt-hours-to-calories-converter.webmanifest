@@ -1,0 +1,29 @@
+{
+  "name": "Loona ワット時から小カロリーへの変換",
+  "short_name": "ワット時から小カロリーへ",
+  "description": "ワット時をカロリー（小）に瞬時に変換します。正確な式、完全な Wh から cal への換算表、実例、FAQ。無料、登録不要。",
+  "id": "/loona-calculators/ja/watt-hours-to-calories-converter.html",
+  "start_url": "./watt-hours-to-calories-converter.html",
+  "scope": "./watt-hours-to-calories-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona 月齢計算機",
+  "short_name": "月齢計算機",
+  "description": "無料の月の位相計算機：任意の日付を入力すると、月の位相の名前、照度パーセンテージ、月の齢、次の新月と満月までの日数がわかります。",
+  "id": "/loona-calculators/ja/moon-phase-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

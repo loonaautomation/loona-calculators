@@ -1,0 +1,29 @@
+{
+  "name": "Loona HKDからMXNへの変換",
+  "short_name": "HKDからMXNへの変換",
+  "description": "香港ドル（HKD）からメキシコ・ペソ（MXN）への変換。2026年十一月06日付のECB基準レート、逆レート、換算表、コリドーに関する注記を含みます。あくまで目安です。",
+  "id": "/loona-calculators/ja/hkd-to-mxn-converter.html",
+  "start_url": "./hkd-to-mxn-converter.html",
+  "scope": "./hkd-to-mxn-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

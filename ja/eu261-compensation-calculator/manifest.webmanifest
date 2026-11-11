@@ -1,0 +1,29 @@
+{
+  "name": "Loona EU261補償チェッカー",
+  "short_name": "EU261補償チェッカー",
+  "description": "無料の EU261 補償チェッカー：フライトの距離と到着の遅延を入力すると、EC 261/2004 の下で €250、€400、€600 が支払われる可能性があるかを確認できます。50% 削減ルールを含みます。",
+  "id": "/loona-calculators/ja/eu261-compensation-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>血中アルコール計算機 — ウィドマーク式による BAC 推定 | Loona Calculators</title>
+<meta name="description" content="無料の血中アルコール濃度（BAC）計算機。ウィドマーク式を使います：体重、性別、ドリンク、時間で BAC パーセントを推定。教育目的の推定のみ。決して運転しないでください。">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/ja/blood-alcohol-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/blood-alcohol-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/blood-alcohol-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/blood-alcohol-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/blood-alcohol-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/blood-alcohol-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/blood-alcohol-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/blood-alcohol-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/blood-alcohol-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/blood-alcohol-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/blood-alcohol-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/blood-alcohol-calculator/"><link rel="alternate" hreflang="ja" href="https://loonaautomation.github.io/loona-calculators/ja/blood-alcohol-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/blood-alcohol-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="血中アルコール計算機 — ウィドマーク式による BAC 推定 | Loona Calculators">
+<meta property="og:description" content="無料の血中アルコール濃度（BAC）計算機。ウィドマーク式を使います：体重、性別、ドリンク、時間で BAC パーセントを推定。教育目的の推定のみ。決して運転しないでください。">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/ja/blood-alcohol-calculator/"><meta property="og:locale" content="ja_JP">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="血中アルコール計算機 — ウィドマーク式による BAC 推定 | Loona Calculators">
+<meta name="twitter:description" content="無料の血中アルコール濃度（BAC）計算機。ウィドマーク式を使います：体重、性別、ドリンク、時間で BAC パーセントを推定。教育目的の推定のみ。決して運転しないでください。">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona 血中アルコール濃度計算機","url":"https://loonaautomation.github.io/loona-calculators/ja/blood-alcohol-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"標準ドリンクとは何ですか？","acceptedAnswer":{"@type":"Answer","text":"ここで使われるアメリカのシステムでは、一つの標準ドリンクは約 14 グラムの純アルコールを含みます：およそ 5% ビールの 355 ml、12% ワインの 150 ml、または 40% スピリッツの 44 ml。他の国は標準ドリンクを異なる方法で定義します（イギリスの単位は 8 g）。"}},{"@type":"Question","name":"ウィドマーク推定はどのくらい正確ですか？","acceptedAnswer":{"@type":"Answer","text":"それは母集団の平均です。食物、体組成、薬、健康、個人の代謝は、本当の BAC を推定からどちらの方向にも大きく移動させることがあります。呼気または血液検査だけが BAC を測ります。"}},{"@type":"Question","name":"運転しても安全か合法かを判断するために使うことはできますか？","acceptedAnswer":{"@type":"Answer","text":"いいえ — 決して。法的制限は異なります（アメリカの多くで 0.08%、ヨーロッパのほとんどで 0.05%、いくつかの国で 0.00–0.02%、新しいドライバーやプロのドライバーにはより低い制限）。飲酒した場合は運転しないでください；他の交通手段を手配してください。"}},{"@type":"Question","name":"BAC はどのくらい速く下がりますか？","acceptedAnswer":{"@type":"Answer","text":"平均で時間あたり約 0.015 パーセンテージポイント、公式はそれを引きます。コーヒー、食べ物、冷たい空気はこれを速めません — 時間だけが速めます。"}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona 計算機",
+      "item": "https://loonaautomation.github.io/loona-calculators/ja/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "血中アルコール濃度計算機",
+      "item": "https://loonaautomation.github.io/loona-calculators/ja/blood-alcohol-calculator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation のロゴ">
+<div class="brand">Loona <span>計算機</span></div>
+<nav>
+<a href="../">ホーム</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">概要</a>
+<a href="../contact.html">連絡先</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona 計算機</a> › 健康 › 血中アルコール濃度計算機</div>
+<h1 class="pagetitle">🍺 血中アルコール計算機</h1>
+<p class="lead">体重、性別、標準ドリンクの数、飲酒開始からの時間から、血中アルコール濃度（BAC）を推定します — 古典的なウィドマーク式を使います。これは大まかな教育目的の推定のみです。</p>
+<div class="exbox"><strong>クイックな答え：</strong> Widmark の推定：BAC% ≈（アルコールのグラム数 ÷（kg の体重 × r × 10））− 0.015 × 時間。ここで r は、男性については 0.68 で、女性については 0.55 です。一つの米標準ドリンクは、約 14 グラムの純アルコールを含みます。</div>
+<div class="toolbox"><form class="calcform" id="bacForm">
+<div class="fld"><label for="bacSex">性別（公式の定数）</label><select id="bacSex"><option value="m">男性（r = 0.68）</option><option value="f">女性（r = 0.55）</option></select></div>
+<div class="fld"><label for="bacW">体重（kg）</label><input type="number" id="bacW" value="80" min="30" max="300" step="0.1"></div>
+<div class="fld"><label for="bacDrinks">標準ドリンク（それぞれ 14 g のアルコール）</label><input type="number" id="bacDrinks" value="4" min="0" max="50" step="0.5"></div>
+<div class="fld"><label for="bacHours">飲酒開始からの時間</label><input type="number" id="bacHours" value="2" min="0" max="48" step="0.25"></div>
+<button class="calcbtn" type="submit">BAC を推定する</button>
+<div class="calcresult" id="bacResult" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>血中アルコール濃度計算機の使い方</h2><ol><li>キログラムでの体重を入力してください。</li><li>男性か女性かを選びます（公式は異なる体水分定数を使います）。</li><li>標準ドリンクの数を入力してください（一標準ドリンク ≈ 純アルコール 14 g — 5% の 355 ml のビール、12% の 150 ml のワイングラス、40% の 44 ml のショット）。</li><li>飲酒を始めてからの時間を入力してください。</li></ol>
+<div class="exbox"><strong>例：</strong> 80 kg の男性が 2 時間で標準ドリンクを 4 杯飲んだ場合：56 g ÷ (80 × 0.68 × 10) = 0.103、マイナス 0.015 × 2 = 0.030 で、推定 BAC は約 0.073% — 多くの法的運転制限に近く、それこそ推定を運転の判断に決して使ってはならない理由です。</div>
+<h2>よくある質問</h2></section><div class="faq"><h3>標準ドリンクとは何ですか？</h3><p>ここで使われるアメリカのシステムでは、一つの標準ドリンクは約 14 グラムの純アルコールを含みます：およそ 5% ビールの 355 ml、12% ワインの 150 ml、または 40% スピリッツの 44 ml。他の国は標準ドリンクを異なる方法で定義します（イギリスの単位は 8 g）。</p></div><div class="faq"><h3>ウィドマーク推定はどのくらい正確ですか？</h3><p>それは母集団の平均です。食物、体組成、薬、健康、個人の代謝は、本当の BAC を推定からどちらの方向にも大きく移動させることがあります。呼気または血液検査だけが BAC を測ります。</p></div><div class="faq"><h3>運転しても安全か合法かを判断するために使うことはできますか？</h3><p>いいえ — 決して。法的制限は異なります（アメリカの多くで 0.08%、ヨーロッパのほとんどで 0.05%、いくつかの国で 0.00–0.02%、新しいドライバーやプロのドライバーにはより低い制限）。飲酒した場合は運転しないでください；他の交通手段を手配してください。</p></div><div class="faq"><h3>BAC はどのくらい速く下がりますか？</h3><p>平均で時間あたり約 0.015 パーセンテージポイント、公式はそれを引きます。コーヒー、食べ物、冷たい空気はこれを速めません — 時間だけが速めます。</p></div>
+<h2 class="sec">関連する計算機</h2><div class="grid"><a class="card" href="../bmi-calculator/"><div class="ic">⚖️</div><h3>BMI計算機</h3><p>健康</p></a><a class="card" href="../bmr-calculator/"><div class="ic">🔥</div><h3>BMR・TDEE計算機</h3><p>健康</p></a><a class="card" href="../calorie-calculator/"><div class="ic">🍽️</div><h3>カロリー計算機</h3><p>健康</p></a><a class="card" href="../water-intake-calculator/"><div class="ic">💧</div><h3>水分摂取量計算機</h3><p>健康</p></a><a class="card" href="../sleep-calculator/"><div class="ic">😴</div><h3>睡眠計算機</h3><p>健康</p></a></div>
+</div>
+<section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>仕組み — 公式</h2>
+<p><strong>Widmark の公式：</strong> BAC% = (A ÷ (W × r × 10)) − β × t。ここで A は消費された純アルコールのグラム数、W は体重（kg）、r は体内水分比（男性 0.68、女性 0.55）、β は平均の消失率で毎時 0.015%、t は飲酒開始からの時間です。結果は 0% 未満で表示されることは決してありません。</p>
+<h3>実例</h3><div class="exbox"><p><strong>入力：</strong> 男性、80 kg、4 標準ドリンク（4 × 14 g = 56 g）、2 時間。</p><p><strong>ステップ：</strong> 56 ÷ (80 × 0.68 × 10) = 56 ÷ 544 = 0.10294。消失：0.015 × 2 = 0.030。BAC = 0.10294 − 0.030 = 0.07294。</p><p><strong>結果：</strong> 推定 BAC ≈ <strong>0.073%</strong>.</p></div>
+<p class="resnote"><strong>健康と安全の免責事項：</strong> 教育目的の推定のみです — 測定ではなく、医療や法律のアドバイスでもありません。個人の BAC は大きく異なります。飲酒後は決して運転しないでください。</p>
+</section>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">この計算機をあなたのウェブサイトに埋め込む — 無料</h2>
+<p style="margin:0 0 12px;line-height:1.6">この計算機を自分のウェブサイトやブログに加えましょう — 完全に無料で、登録は不要、常に最新バージョンが表示されます。下のコードをコピーして、計算機を表示したいページの場所に貼り付けます。埋め込みの下にある小さな &ldquo;Powered by Loona Automation&rdquo; のクレジット行を保持することは、このツールを無料に保つ助けになります &mdash; しかし、スタイルを変更したり削除したりしても自由です。ツールはどちらでも動作します。</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/ja/blood-alcohol-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Blood Alcohol Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;提供 &lt;a href="https://loonaautomation.github.io/loona-calculators/ja/blood-alcohol-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 無料の 血中アルコール濃度計算機&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">埋め込みコードをコピーする</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='埋め込みコードをコピー';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>人気の計算機</h4><ul><li><a href="../age-calculator/">年齢計算機</a></li>
+<li><a href="../zakat-calculator/">ザカート計算機</a></li>
+<li><a href="../cgpa-calculator/">CGPA計算機</a></li>
+<li><a href="../percentage-calculator/">パーセント計算機</a></li>
+<li><a href="../hijri-date-converter/">ヒジュラ暦日付変換</a></li>
+<li><a href="../emi-calculator/">EMI・ローン計算機</a></li></ul></div>
+<div><h4>その他の Loona ツール</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR コード</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona 画像圧縮</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI アシスタント</a></li>
+<li><a href="https://loonaautomation.github.io/">すべての Loona ツール</a></li></ul></div>
+<div><h4>Loona 計算機</h4><ul>
+<li><a href="../about.html">概要</a></li>
+<li><a href="../contact.html">連絡先</a></li>
+<li><a href="../privacy-policy.html">プライバシーポリシー</a></li>
+<li><a href="../terms.html">利用規約</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona 計算機 —  <a href="https://loonaautomation.github.io/">Loona Automation</a> プロジェクト。無料のオンライン計算機、サインアップなし。
+連絡先： <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+function bacCalc(sex,weightKg,standardDrinks,hours){
+  if(!(weightKg>0)||standardDrinks<0||hours<0) return null;
+  var r=sex==="f"?0.55:0.68, grams=standardDrinks*14;
+  var bac=grams/(weightKg*r*10)-0.015*hours;
+  return Math.max(0,bac);
+}
+/*TESTABLE_END*/
+document.getElementById('bacForm').addEventListener('submit',function(e){e.preventDefault();
+ var v=bacCalc(document.getElementById('bacSex').value,parseFloat(document.getElementById('bacW').value),parseFloat(document.getElementById('bacDrinks').value),parseFloat(document.getElementById('bacHours').value));
+ var box=document.getElementById('bacResult'); box.style.display='block';
+ if(v===null){box.innerHTML='<p class="err">体重、飲酒量、時間を確認してください。</p>';return;}
+ box.innerHTML='<div class="resbig"><span>推定血中アルコール濃度 (BAC)</span><strong>'+v.toFixed(3)+'%</strong></div>'
+ +'<p class="resnote">粗いウィドマーク推定のみです — 食事、健康、個人の代謝で実際のBACは大きく変わります。一般的な法定運転限度は0.08%（米国の大部分）と0.05%（欧州の大部分）で、0.00–0.02%とする国もいくつかあります。飲酒後は絶対に運転しないでください。</p>';});
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' アプリをインストール';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('このアプリをインストールするには：共有ボタンをタップし、「ホーム画面に追加」を選んでください。');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

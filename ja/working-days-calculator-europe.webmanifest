@@ -1,0 +1,29 @@
+{
+  "name": "Loona ヨーロッパ営業日計算機",
+  "short_name": "ヨーロッパの営業日計算機",
+  "description": "20 のヨーロッパの国のための営業日計算機：週末と、各国の 2026 年の祝日を取り除いて、二つの日付の間の営業日を数えます。",
+  "id": "/loona-calculators/ja/working-days-calculator-europe.html",
+  "start_url": "./working-days-calculator-europe.html",
+  "scope": "./working-days-calculator-europe.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

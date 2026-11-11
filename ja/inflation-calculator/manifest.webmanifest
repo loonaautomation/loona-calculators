@@ -1,0 +1,29 @@
+{
+  "name": "Loona インフレ計算機",
+  "short_name": "インフレ計算機",
+  "description": "無料のインフレ計算機：金額、インフレ率、年数を入力すると、同じ商品の将来コストと、今日のお金が本当にどれだけの価値になるかが見えます。",
+  "id": "/loona-calculators/ja/inflation-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

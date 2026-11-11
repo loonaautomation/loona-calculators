@@ -1,0 +1,29 @@
+{
+  "name": "Loona 理想体重計算機",
+  "short_name": "理想体重計算機",
+  "description": "無料の理想体重計算機：身長と性別を入力すると、理想体重（Devine の公式）と、身長に対する完全な健康 BMI 体重範囲が得られます。",
+  "id": "/loona-calculators/ja/ideal-weight-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

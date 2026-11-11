@@ -1,0 +1,29 @@
+{
+  "name": "Loona クレジットカード返済計算機",
+  "short_name": "クレジットカード返済計算機",
+  "description": "無料のクレジットカード返済計算機：残高、APR、固定の月次支払い — 返済までの月数、総利息、総支払いを確認し、小さすぎる支払いへの警告付き。",
+  "id": "/loona-calculators/ja/credit-card-payoff-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

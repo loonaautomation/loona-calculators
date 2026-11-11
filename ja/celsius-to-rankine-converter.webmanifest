@@ -1,0 +1,29 @@
+{
+  "name": "Loona 摂氏からランキンへの変換",
+  "short_name": "摂氏から度へ",
+  "description": "摂氏度をランキン度に瞬時に変換します。正確な式、完全な °C から °R への換算表、実例、FAQ。無料、登録不要。",
+  "id": "/loona-calculators/ja/celsius-to-rankine-converter.html",
+  "start_url": "./celsius-to-rankine-converter.html",
+  "scope": "./celsius-to-rankine-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

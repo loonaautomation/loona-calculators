@@ -1,0 +1,29 @@
+{
+  "name": "Loona シカゴから東京時間への変換",
+  "short_name": "シカゴから東京時間へ",
+  "description": "シカゴ時間から東京時間への変換。東京は一月にはシカゴより15時間進み、七月には14時間進んでいます。夏時間の日付、24時間表、最適な会議時間帯を含みます。ライブ変換ツール付きです。",
+  "id": "/loona-calculators/ja/chicago-to-tokyo-time-converter.html",
+  "start_url": "./chicago-to-tokyo-time-converter.html",
+  "scope": "./chicago-to-tokyo-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

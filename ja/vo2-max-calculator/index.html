@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VO2 最大値計算機 — クーパーとロックポートのテスト推定 | Loona 計算機</title>
+<meta name="description" content="無料の VO2 max 計算機：クーパー12分間走またはロックポート1マイルウォークテストから有酸素フィットネスを推定します。教育目的のフィットネス推定。">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/ja/vo2-max-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/vo2-max-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/vo2-max-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/vo2-max-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/vo2-max-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/vo2-max-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/vo2-max-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/vo2-max-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/vo2-max-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/vo2-max-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/vo2-max-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/vo2-max-calculator/"><link rel="alternate" hreflang="ja" href="https://loonaautomation.github.io/loona-calculators/ja/vo2-max-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/vo2-max-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="VO2 最大値計算機 — クーパーとロックポートのテスト推定 | Loona 計算機">
+<meta property="og:description" content="無料の VO2 max 計算機：クーパー12分間走またはロックポート1マイルウォークテストから有酸素フィットネスを推定します。教育目的のフィットネス推定。">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/ja/vo2-max-calculator/"><meta property="og:locale" content="ja_JP">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="VO2 最大値計算機 — クーパーとロックポートのテスト推定 | Loona 計算機">
+<meta name="twitter:description" content="無料の VO2 max 計算機：クーパー12分間走またはロックポート1マイルウォークテストから有酸素フィットネスを推定します。教育目的のフィットネス推定。">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona VO2 Max計算機","url":"https://loonaautomation.github.io/loona-calculators/ja/vo2-max-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"良い VO2 max とは何ですか？","acceptedAnswer":{"@type":"Answer","text":"年齢と性別に強く依存します。成人の大まかな目安として：約 30 未満は低く、35–45 は多くの年齢層で平均から良好、45–55 は非常に良好、エリート持久アスリートは 60–75 を超えます。年齢調整済みの表が最も公平な読みを与えます。"}},{"@type":"Question","name":"これらのフィールドテストはどのくらい正確ですか？","acceptedAnswer":{"@type":"Answer","text":"クーパーとロックポートの方程式は、研究室のガス分析テストに対して検証され、通常、約 ±3–5 ml/kg/min 以内です。それらは、訓練のガイダンスのための推定であり、医学的な測定ではありません。"}},{"@type":"Question","name":"どの検定を選ぶべきですか？","acceptedAnswer":{"@type":"Answer","text":"ランナーは通常、クーパーを選びます（最大の 12 分の努力 — 適切にウォームアップし、体調が悪い場合や激しい運動に新しい場合は、試みないでください）。歩行者と初心者はロックポートを選びます。これは最大下で穏やかです。"}},{"@type":"Question","name":"これは医学的助言ですか？","acceptedAnswer":{"@type":"Answer","text":"いいえ — 教育目的のフィットネス推定。最大運動テストは一部の人にはリスクがあります；病状や症状がある場合は、まず医師に確認してください。"}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona 計算機",
+      "item": "https://loonaautomation.github.io/loona-calculators/ja/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "VO2 Max計算機",
+      "item": "https://loonaautomation.github.io/loona-calculators/ja/vo2-max-calculator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation のロゴ">
+<div class="brand">Loona <span>計算機</span></div>
+<nav>
+<a href="../">ホーム</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">概要</a>
+<a href="../contact.html">連絡先</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona 計算機</a> › 健康 › VO2 Max計算機</div>
+<h1 class="pagetitle">🫁 VO2 Max 計算機</h1>
+<p class="lead">VO2 max を推定します — 有酸素フィットネスの古典的な尺度 — クーパー12分間走（カバーした距離）か、ロックポート一マイルウォークテスト（時間、心拍数、体重、年齢、性別）のどちらかから。</p>
+<div class="exbox"><strong>クイックな答え：</strong> クーパー検定：VO2 max ≈ （距離（メートル）− 504.9） ÷ 44.73。12 分間で 2,800 m 走ると （2,800 − 504.9） ÷ 44.73 ≈ 51.3 ml/kg/min — ほとんどの成人にとって優秀です。</div>
+<div class="toolbox"><form class="calcform" id="voForm">
+<div class="fld"><label for="voMode">テスト</label><select id="voMode"><option value="cooper">クーパー12分間走</option><option value="rockport">ロックポート 1 マイル歩行</option></select></div>
+<div class="fld" data-vo="cooper"><label for="voDist">12 分間でカバーした距離（メートル）</label><input type="number" id="voDist" value="2800" min="200" max="6000"></div>
+<div class="fld" data-vo="rockport" style="display:none"><label for="voSex">性別</label><select id="voSex"><option value="m">男性</option><option value="f">女性</option></select></div>
+<div class="fld" data-vo="rockport" style="display:none"><label for="voAge">年齢</label><input type="number" id="voAge" value="40" min="15" max="90"></div>
+<div class="fld" data-vo="rockport" style="display:none"><label for="voW">重量（kg）</label><input type="number" id="voW" value="80" min="30" max="300" step="0.1"></div>
+<div class="fld" data-vo="rockport" style="display:none"><label for="voTime">一マイル歩行時間（分、例：14.0）</label><input type="number" id="voTime" value="14" min="8" max="30" step="0.01"></div>
+<div class="fld" data-vo="rockport" style="display:none"><label for="voHr">歩行終了時の心拍数（bpm）</label><input type="number" id="voHr" value="120" min="60" max="220"></div>
+<button class="calcbtn" type="submit">VO2 max を推定する</button>
+<div class="calcresult" id="voResult" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>VO2 Max計算機の使い方</h2><ol><li>テストを選びます：クーパーランかロックポートウォーク。</li><li>クーパーでは、ちょうど 12 分間の走行でカバーした距離を入力してください。</li><li>ロックポートでは、一マイルの歩行時間、終了時の心拍数、体重、年齢、性別を入力してください。</li></ol>
+<div class="exbox"><strong>例：</strong> クーパー：12 分間で 2,800 m → VO2 max ≈ 51.3。ロックポートの例：40 歳の男性、80 kg、14:00 で一マイルを歩き、終了時心拍数 120 → VO2 max ≈ 45.6（下に計算）。</div>
+<h2>よくある質問</h2></section><div class="faq"><h3>良い VO2 max とは何ですか？</h3><p>年齢と性別に強く依存します。成人の大まかな目安として：約 30 未満は低く、35–45 は多くの年齢層で平均から良好、45–55 は非常に良好、エリート持久アスリートは 60–75 を超えます。年齢調整済みの表が最も公平な読みを与えます。</p></div><div class="faq"><h3>これらのフィールドテストはどのくらい正確ですか？</h3><p>クーパーとロックポートの方程式は、研究室のガス分析テストに対して検証され、通常、約 ±3–5 ml/kg/min 以内です。それらは、訓練のガイダンスのための推定であり、医学的な測定ではありません。</p></div><div class="faq"><h3>どの検定を選ぶべきですか？</h3><p>ランナーは通常、クーパーを選びます（最大の 12 分の努力 — 適切にウォームアップし、体調が悪い場合や激しい運動に新しい場合は、試みないでください）。歩行者と初心者はロックポートを選びます。これは最大下で穏やかです。</p></div><div class="faq"><h3>これは医学的助言ですか？</h3><p>いいえ — 教育目的のフィットネス推定。最大運動テストは一部の人にはリスクがあります；病状や症状がある場合は、まず医師に確認してください。</p></div>
+<h2 class="sec">関連する計算機</h2><div class="grid"><a class="card" href="../bmi-calculator/"><div class="ic">⚖️</div><h3>BMI計算機</h3><p>健康</p></a><a class="card" href="../calorie-calculator/"><div class="ic">🍽️</div><h3>カロリー計算機</h3><p>健康</p></a><a class="card" href="../sleep-calculator/"><div class="ic">😴</div><h3>睡眠計算機</h3><p>健康</p></a><a class="card" href="../target-heart-rate-calculator/"><div class="ic">❤️</div><h3>目標心拍数計算機</h3><p>健康</p></a></div>
+</div>
+<section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>仕組み — 公式</h2>
+<p><strong>クーパー：</strong> VO2 max = （距離（m） − 504.9） ÷ 44.73。 <strong>ロックポート：</strong> VO2 max = 132.853 − 0.0769 × 体重（lb） − 0.3877 × 年齢 + 6.315 × 性別（1 男性、0 女性） − 3.2649 × 時間（分） − 0.1565 × 終了心拍数。どちらも ml/kg/min を与えます。</p>
+<h3>実例</h3><div class="exbox"><p><strong>ロックポートの入力：</strong> 男性、40 年、80 kg（= 176.37 lb）、14.00 分マイル、終了 HR 120。</p><p><strong>ステップ：</strong> 132.853 − 0.0769×176.37 − 0.3877×40 + 6.315 − 3.2649×14 − 0.1565×120 = 132.853 − 13.563 − 15.508 + 6.315 − 45.709 − 18.780 = 45.61.</p><p><strong>結果：</strong> VO2 max ≈ <strong>45.6 ml/kg/min</strong>。（上のページ例では約46と丸めて記載）。Cooper チェック：(2,800 − 504.9) ÷ 44.73 = 2,295.1 ÷ 44.73 = 51.3。</p></div>
+<p class="resnote"><strong>健康免責事項：</strong> 教育目的の推定のみです — 医療アドバイス、診断、治療ではありません。あなた自身や子供の健康については、常に資格のある医療専門家に相談してください。</p>
+</section>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">この計算機をあなたのウェブサイトに埋め込む — 無料</h2>
+<p style="margin:0 0 12px;line-height:1.6">この計算機を自分のウェブサイトやブログに加えましょう — 完全に無料で、登録は不要、常に最新バージョンが表示されます。下のコードをコピーして、計算機を表示したいページの場所に貼り付けます。埋め込みの下にある小さな &ldquo;Powered by Loona Automation&rdquo; のクレジット行を保持することは、このツールを無料に保つ助けになります &mdash; しかし、スタイルを変更したり削除したりしても自由です。ツールはどちらでも動作します。</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/ja/vo2-max-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="VO2 Max Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;提供 &lt;a href="https://loonaautomation.github.io/loona-calculators/ja/vo2-max-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 無料の VO2 Max計算機&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">埋め込みコードをコピーする</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='埋め込みコードをコピー';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>人気の計算機</h4><ul><li><a href="../age-calculator/">年齢計算機</a></li>
+<li><a href="../zakat-calculator/">ザカート計算機</a></li>
+<li><a href="../cgpa-calculator/">CGPA計算機</a></li>
+<li><a href="../percentage-calculator/">パーセント計算機</a></li>
+<li><a href="../hijri-date-converter/">ヒジュラ暦日付変換</a></li>
+<li><a href="../emi-calculator/">EMI・ローン計算機</a></li></ul></div>
+<div><h4>その他の Loona ツール</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR コード</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona 画像圧縮</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI アシスタント</a></li>
+<li><a href="https://loonaautomation.github.io/">すべての Loona ツール</a></li></ul></div>
+<div><h4>Loona 計算機</h4><ul>
+<li><a href="../about.html">概要</a></li>
+<li><a href="../contact.html">連絡先</a></li>
+<li><a href="../privacy-policy.html">プライバシーポリシー</a></li>
+<li><a href="../terms.html">利用規約</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona 計算機 —  <a href="https://loonaautomation.github.io/">Loona Automation</a> プロジェクト。無料のオンライン計算機、サインアップなし。
+連絡先： <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+function vo2Cooper(distanceM){if(!(distanceM>0))return null;return (distanceM-504.9)/44.73;}
+function vo2Rockport(sex,age,weightKg,timeMin,endHr){
+  if(!(age>0)||!(weightKg>0)||!(timeMin>0)||!(endHr>0))return null;
+  var lb=weightKg*2.2046226218;
+  return 132.853-0.0769*lb-0.3877*age+(sex==="m"?6.315:0)-3.2649*timeMin-0.1565*endHr;
+}
+/*TESTABLE_END*/
+document.getElementById('voMode').addEventListener('change',function(){
+  var m=this.value;
+  document.querySelectorAll('[data-vo]').forEach(function(el){el.style.display=el.getAttribute('data-vo')===m?'block':'none';});
+});
+document.getElementById('voForm').addEventListener('submit',function(e){e.preventDefault();
+ var mode=document.getElementById('voMode').value, v, label;
+ if(mode==='cooper'){v=vo2Cooper(parseFloat(document.getElementById('voDist').value));label='クーパー12分間走';}
+ else{v=vo2Rockport(document.getElementById('voSex').value,parseFloat(document.getElementById('voAge').value),parseFloat(document.getElementById('voW').value),parseFloat(document.getElementById('voTime').value),parseFloat(document.getElementById('voHr').value));label='ロックポート1マイル歩行';}
+ var box=document.getElementById('voResult'); box.style.display='block';
+ if(v===null||v<=0){box.innerHTML='<p class="err">入力を確認してください。</p>';return;}
+ var band=v<30?'Low':v<38?'Fair':v<45?'Good':v<52?'Very good':'Excellent';
+ box.innerHTML='<div class="resbig"><span>推定VO2 max ('+label+')</span><strong>'+v.toFixed(1)+' ml/kg/min</strong></div>'
+ +'<table class="restbl"><tr><td>成人の大まかな帯</td><td><strong>'+band+'</strong></td></tr></table>'
+ +'<p class="resnote">フィールドテストによる推定です（通常±3–5）。教育用のみであり、医学的測定ではありません。</p>';});
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' アプリをインストール';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('このアプリをインストールするには：共有ボタンをタップし、「ホーム画面に追加」を選んでください。');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

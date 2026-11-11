@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>宝くじ番号生成ツール — Powerball、EuroMillions、UK Lotto | Loona</title>
+<meta name="description" content="無料の宝くじ番号生成ツール。Powerball、Mega Millions、EuroMillions、UK Lotto のプリセットと、任意の宝くじのカスタムモード付き。安全なランダム選択。">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/ja/lottery-number-generator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/lottery-number-generator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/lottery-number-generator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/lottery-number-generator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/lottery-number-generator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/lottery-number-generator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/lottery-number-generator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/lottery-number-generator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/lottery-number-generator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/lottery-number-generator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/lottery-number-generator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/lottery-number-generator/"><link rel="alternate" hreflang="ja" href="https://loonaautomation.github.io/loona-calculators/ja/lottery-number-generator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/lottery-number-generator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="宝くじ番号生成ツール — Powerball、EuroMillions、UK Lotto | Loona">
+<meta property="og:description" content="無料の宝くじ番号生成ツール。Powerball、Mega Millions、EuroMillions、UK Lotto のプリセットと、任意の宝くじのカスタムモード付き。安全なランダム選択。">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/ja/lottery-number-generator/"><meta property="og:locale" content="ja_JP">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="宝くじ番号生成ツール — Powerball、EuroMillions、UK Lotto | Loona">
+<meta name="twitter:description" content="無料の宝くじ番号生成ツール。Powerball、Mega Millions、EuroMillions、UK Lotto のプリセットと、任意の宝くじのカスタムモード付き。安全なランダム選択。">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona 宝くじ番号生成ツール","url":"https://loonaautomation.github.io/loona-calculators/ja/lottery-number-generator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"生成した数字は当選確率を上げますか？","acceptedAnswer":{"@type":"Answer","text":"いいえ — そしてそうでないと主張するツールは、あなたを誤解させています。すべての有効な組み合わせは正確に同じ確率を持ちます。あなたが選んでも、機械が選んでも、1-2-3-4-5-6 でも。生成器は単に、公平で速い選択の方法です。"}},{"@type":"Question","name":"各ゲームのジャックポットのオッズは何ですか？","acceptedAnswer":{"@type":"Answer","text":"Powerball：292,201,338 分の 1。Mega Millions：290,472,336 分の 1（2025年四月以来の現在の形式）。EuroMillions：139,838,160 分の 1。UK Lotto：45,057,474 分の 1。参考までに、雷に打たれる確率は生涯で大勝する確率よりはるかに高いです。"}},{"@type":"Question","name":"なぜ、表示される数は、ソートされるのですか？","acceptedAnswer":{"@type":"Answer","text":"本当の抽選は順序がありませんが、チケットと結果は、比較しやすいように慣例的に昇順で印刷されます。ソートは表現に過ぎません — 組み合わせやそのオッズは変えません。"}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<style>.balls{display:flex;gap:9px;flex-wrap:wrap;margin:8px 0}.ball{width:48px;height:48px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:18px;color:#062e2a;background:radial-gradient(circle at 35% 30%,#ffffff,#dfe9e6 65%,#b9cdc8);border:2px solid #0a423b}.ball.bonus{background:radial-gradient(circle at 35% 30%,#f7e08a,#d4af37 65%,#b8912a);border-color:#8a6d1d;color:#231a00}</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona 計算機",
+      "item": "https://loonaautomation.github.io/loona-calculators/ja/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "宝くじ番号生成ツール",
+      "item": "https://loonaautomation.github.io/loona-calculators/ja/lottery-number-generator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation のロゴ">
+<div class="brand">Loona <span>計算機</span></div>
+<nav>
+<a href="../">ホーム</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">概要</a>
+<a href="../contact.html">連絡先</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona 計算機</a> › 娯楽 › 宝くじ番号生成ツール</div>
+<h1 class="pagetitle">🍀 宝くじ番号生成ツール</h1>
+<p class="lead">ゲームを選び、ワンタップで宝くじ番号の完全なセットを生成します — Powerball、Mega Millions、EuroMillions、イギリス Lotto の公式プリセット、または世界の任意の宝くじのためのカスタム抽選を構築。数は安全なランダム性で描かれ、本当のチケットのようにソートされて表示されます。</p>
+<div class="toolbox"><form class="calcform" id="lotForm">
+<div class="fld"><label for="lotGame">宝くじゲーム</label><select id="lotGame"><option value="powerball" selected>Powerball（アメリカ） — 69 から 5 ＋ Powerball 26 から 1</option><option value="megamillions">Mega Millions（アメリカ） — 70 から 5 ＋ Mega Ball 24 から 1</option><option value="euromillions">EuroMillions（ヨーロッパ） — 50 から 5 + 12 から 2 のラッキースター</option><option value="uklotto">英国ロト — 59 から 6</option><option value="custom">カスタム宝くじ</option></select></div>
+<div id="lotCustom" style="display:none">
+<div class="fld"><label for="lotMainCount">本番号 — いくつですか？</label><input type="number" id="lotMainCount" value="6" min="1" max="15"></div>
+<div class="fld"><label for="lotMainMax">本番号 — 1 から</label><input type="number" id="lotMainMax" value="49" min="1" max="1000"></div>
+<div class="fld"><label for="lotBonusCount">ボーナス番号 — いくつ？（なしの場合は 0）</label><input type="number" id="lotBonusCount" value="1" min="0" max="5"></div>
+<div class="fld"><label for="lotBonusMax">ボーナス番号 — 1 から</label><input type="number" id="lotBonusMax" value="10" min="1" max="1000"></div>
+</div>
+<button class="calcbtn" type="submit">🍀 ラッキー数を生成</button>
+<div class="calcresult" id="lotResult" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>宝くじ番号生成ツールの使い方</h2><ol><li>リストから宝くじゲームを選びます（その他の宝くじにはカスタム）。</li><li>カスタムゲームでは、メイン番号とボーナス番号の数と、各プールの大きさを設定します。</li><li>ラッキーナンバーを生成を押します — 再び押すと、完全に新しいセット。</li></ol>
+<div class="exbox"><strong>例：</strong> EuroMillions では、この生成ツールは 1–50 から 5 つの異なるメイン番号と、1–12 から 2 つのラッキースターを描きます — たとえばスター 3・9 の 7・15・23・34・48。1・2・3・4・5 を含むその他の組み合わせも、まったく同じ確率です。</div>
+<h2>よくある質問</h2></section><div class="faq"><h3>生成した数字は当選確率を上げますか？</h3><p>いいえ — そしてそうでないと主張するツールは、あなたを誤解させています。すべての有効な組み合わせは正確に同じ確率を持ちます。あなたが選んでも、機械が選んでも、1-2-3-4-5-6 でも。生成器は単に、公平で速い選択の方法です。</p></div><div class="faq"><h3>各ゲームのジャックポットのオッズは何ですか？</h3><p>Powerball：292,201,338 分の 1。Mega Millions：290,472,336 分の 1（2025年四月以来の現在の形式）。EuroMillions：139,838,160 分の 1。UK Lotto：45,057,474 分の 1。参考までに、雷に打たれる確率は生涯で大勝する確率よりはるかに高いです。</p></div><div class="faq"><h3>なぜ、表示される数は、ソートされるのですか？</h3><p>本当の抽選は順序がありませんが、チケットと結果は、比較しやすいように慣例的に昇順で印刷されます。ソートは表現に過ぎません — 組み合わせやそのオッズは変えません。</p></div>
+<h2 class="sec">関連する計算機</h2><div class="grid"><a class="card" href="../random-number-generator/"><div class="ic">🎲</div><h3>乱数生成ツール</h3><p>楽しみ</p></a><a class="card" href="../dice-roller/"><div class="ic">🎲</div><h3>サイコロ</h3><p>楽しみ</p></a><a class="card" href="../coin-flip/"><div class="ic">🪙</div><h3>コイントス</h3><p>楽しみ</p></a><a class="card" href="../love-calculator/"><div class="ic">❤️</div><h3>相性計算機</h3><p>楽しみ</p></a><a class="card" href="../percentage-calculator/"><div class="ic">％</div><h3>パーセント計算機</h3><p>数学</p></a></div>
+</div>
+<section class="txt"><h2>仕組み &mdash; 公式</h2>
+<p>生成ツールは描きます <strong>交換なしで</strong> 安全なランダムのソース（拒否サンプリングでの crypto.getRandomValues）を使って、各プールから。そのため、正しいサイズの、すべての組み合わせは、等しくありそうです。プールのサイズを持つゲームの、可能な組み合わせの数は <em>n</em> そして選ぶ <em>k</em> 二項係数です <strong>C(n, k) = n! ÷ (k! × (n−k)!)</strong>；別のボーナスプールを持つゲームは、メインの組み合わせにボーナスプールのサイズを掛けます。</p>
+<h3>実例</h3>
+<div class="exbox"><strong>例（英国ロト）：</strong> C(59, 6) = 59! ÷ (6! × 53!) = <strong>45,057,474</strong> 可能な組み合わせ — したがって、チケットの行あたり、45,057,474 分の 1 のジャックポットのオッズ。Powerball については：C(69, 5) = 11,238,513 のメインの組み合わせ × 26 Powerballs = <strong>292,201,338</strong>.</div>
+<h3>よくある質問</h3></section><div class="faq"><h3>一つのセットの中で数が繰り返されることはありますか？</h3><p>本番号はセット内で常に一意で、本当の宝くじが交換なしで抽選する方法に一致します。ボーナス番号（Powerball のような）は別のプールから来るので、ボーナス番号は偶然、本番号と等しくなることがあります — 本当のゲームと正確に同じです。</p></div><div class="faq"><h3>「不運な」数字や人気のある数字を避けるべきですか？</h3><p>それは当選の確率には違いをもたらしませんが、当選した場合の賞金に影響することがあります：多くの人が選ぶ組み合わせ（誕生日 1–31、パターン、有名な系列）はより多くの勝者と共有されます。不人気そうな組み合わせはより頻繁に当たるわけではありません — より少なく共有される傾向があるだけです。</p></div><div class="faq"><h3>このツールは宝くじと提携していますか？</h3><p>いいえ。Loona Automation は、Powerball、Mega Millions、EuroMillions、イギリス国営宝くじ、またはどの運営者とも提携していません。あなたのゲームの公式のルール、プール、抽選スケジュールを常に確認し、責任を持って遊んでください — 失う余裕のないお金は決して使わないでください。</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">この計算機をあなたのウェブサイトに埋め込む — 無料</h2>
+<p style="margin:0 0 12px;line-height:1.6">この計算機を自分のウェブサイトやブログに加えましょう — 完全に無料で、登録は不要、常に最新バージョンが表示されます。下のコードをコピーして、計算機を表示したいページの場所に貼り付けます。埋め込みの下にある小さな &ldquo;Powered by Loona Automation&rdquo; のクレジット行を保持することは、このツールを無料に保つ助けになります &mdash; しかし、スタイルを変更したり削除したりしても自由です。ツールはどちらでも動作します。</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/ja/lottery-number-generator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Lottery Number Generator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;提供 &lt;a href="https://loonaautomation.github.io/loona-calculators/ja/lottery-number-generator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 無料の 宝くじ番号生成ツール&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">埋め込みコードをコピーする</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='埋め込みコードをコピー';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>人気の計算機</h4><ul><li><a href="../age-calculator/">年齢計算機</a></li>
+<li><a href="../zakat-calculator/">ザカート計算機</a></li>
+<li><a href="../cgpa-calculator/">CGPA計算機</a></li>
+<li><a href="../percentage-calculator/">パーセント計算機</a></li>
+<li><a href="../hijri-date-converter/">ヒジュラ暦日付変換</a></li>
+<li><a href="../emi-calculator/">EMI・ローン計算機</a></li></ul></div>
+<div><h4>その他の Loona ツール</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR コード</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona 画像圧縮</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI アシスタント</a></li>
+<li><a href="https://loonaautomation.github.io/">すべての Loona ツール</a></li></ul></div>
+<div><h4>Loona 計算機</h4><ul>
+<li><a href="../about.html">概要</a></li>
+<li><a href="../contact.html">連絡先</a></li>
+<li><a href="../privacy-policy.html">プライバシーポリシー</a></li>
+<li><a href="../terms.html">利用規約</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona 計算機 —  <a href="https://loonaautomation.github.io/">Loona Automation</a> プロジェクト。無料のオンライン計算機、サインアップなし。
+連絡先： <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+function cryptoRandomInt(min, max) {
+  var range = max - min + 1;
+  if (!(range >= 1)) throw new Error("無効な範囲です。");
+  if (range > 4294967296) throw new Error("範囲が大きすぎます。");
+  var limit = Math.floor(4294967296 / range) * range;
+  var buf = new Uint32Array(1), x;
+  do { crypto.getRandomValues(buf); x = buf[0]; } while (x >= limit);
+  return min + (x % range);
+}
+function generateRandomNumbers(min, max, count, unique) {
+  min = Math.floor(min); max = Math.floor(max); count = Math.floor(count);
+  if (isNaN(min) || isNaN(max) || isNaN(count)) throw new Error("すべての欄に有効な数字を入力してください。");
+  if (max < min) throw new Error("最大値は最小値以上でなければなりません。");
+  if (count < 1 || count > 10000) throw new Error("1から10,000の間の個数を選んでください。");
+  if (unique && count > (max - min + 1)) throw new Error("その範囲には重複しない数字が十分にありません。");
+  var out = [], seen = {};
+  while (out.length < count) {
+    var v = cryptoRandomInt(min, max);
+    if (unique) { if (seen[v]) continue; seen[v] = 1; }
+    out.push(v);
+  }
+  return out;
+}
+function generateUniqueSorted(count, max) {
+  var seen = {}, out = [];
+  while (out.length < count) {
+    var v = cryptoRandomInt(1, max);
+    if (!seen[v]) { seen[v] = 1; out.push(v); }
+  }
+  out.sort(function (a, b) { return a - b; });
+  return out;
+}
+/*TESTABLE_END*/
+
+/*TESTABLE_START*/
+var LOTTERY_PRESETS = {
+  powerball: { name: "Powerball", mainCount: 5, mainMax: 69, bonusCount: 1, bonusMax: 26, bonusName: "Powerball" },
+  megamillions: { name: "Mega Millions", mainCount: 5, mainMax: 70, bonusCount: 1, bonusMax: 24, bonusName: "Mega Ball" },
+  euromillions: { name: "EuroMillions", mainCount: 5, mainMax: 50, bonusCount: 2, bonusMax: 12, bonusName: "Lucky Stars" },
+  uklotto: { name: "UK Lotto", mainCount: 6, mainMax: 59, bonusCount: 0, bonusMax: 0, bonusName: "" }
+};
+function drawLottery(p) {
+  if (p.mainCount < 1 || p.mainCount > p.mainMax) throw new Error("メイン数字：個数は1からプールの大きさの間でなければなりません。");
+  if (p.bonusCount < 0 || (p.bonusCount > 0 && p.bonusCount > p.bonusMax)) throw new Error("ボーナス数字：個数はボーナスプールに収まらなければなりません。");
+  return { main: generateUniqueSorted(p.mainCount, p.mainMax), bonus: p.bonusCount > 0 ? generateUniqueSorted(p.bonusCount, p.bonusMax) : [] };
+}
+/*TESTABLE_END*/
+function lotCurrentPreset() {
+  var g = document.getElementById('lotGame').value;
+  if (g !== 'custom') return LOTTERY_PRESETS[g];
+  return {
+    name: "Custom lottery",
+    mainCount: parseInt(document.getElementById('lotMainCount').value, 10) || 0,
+    mainMax: parseInt(document.getElementById('lotMainMax').value, 10) || 0,
+    bonusCount: parseInt(document.getElementById('lotBonusCount').value, 10) || 0,
+    bonusMax: parseInt(document.getElementById('lotBonusMax').value, 10) || 0,
+    bonusName: "Bonus"
+  };
+}
+function lotRun() {
+  var box = document.getElementById('lotResult');
+  try {
+    var p = lotCurrentPreset();
+    var d = drawLottery(p);
+    var balls = d.main.map(function (n) { return '<div class="ball">' + n + '</div>'; }).join('');
+    var bonus = d.bonus.map(function (n) { return '<div class="ball bonus">' + n + '</div>'; }).join('');
+    box.style.display = 'block';
+    box.innerHTML = '<div class="resbig"><span>' + p.name + ' — あなたの数字</span><strong>幸運を！</strong></div>' +
+      '<div class="balls">' + balls + (bonus ? '<div style="width:14px"></div>' + bonus : '') + '</div>' +
+      '<p style="font-size:15px"><strong>' + d.main.join(' · ') + '</strong>' + (d.bonus.length ? ' &nbsp;|&nbsp; ' + p.bonusName + ': <strong>' + d.bonus.join(' · ') + '</strong>' : '') + '</p>' +
+      '<p class="resnote">すべての組み合わせの確率は等しくなります — 生成された数字も、ご自身で選んだ数字とまったく同じ確率です。責任を持って遊んでください：宝くじは娯楽であり、投資ではありません。</p>';
+  } catch (e) {
+    box.style.display = 'block';
+    box.innerHTML = '<p class="err">' + e.message + '</p>';
+  }
+}
+document.getElementById('lotGame').addEventListener('change', function () {
+  document.getElementById('lotCustom').style.display = this.value === 'custom' ? 'block' : 'none';
+});
+document.getElementById('lotForm').addEventListener('submit', function (e) { e.preventDefault(); lotRun(); });
+lotRun();
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' アプリをインストール';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('このアプリをインストールするには：共有ボタンをタップし、「ホーム画面に追加」を選んでください。');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

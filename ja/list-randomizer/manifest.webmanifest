@@ -1,0 +1,29 @@
+{
+  "name": "Loona リストランダマイザー",
+  "short_name": "リストランダマイザー",
+  "description": "無料のリストランダマイザー：任意のリストを貼り付けると、ランダムな順序にシャッフルしたり、アイテムのランダムな標本を選んだりできます。安全なシャッフル、何もアップロードされません。",
+  "id": "/loona-calculators/ja/list-randomizer/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona 定期預金計算機",
+  "short_name": "定期預金計算機",
+  "description": "無料の定期預金（FD）計算機：預金額、金利、期間、複利の頻度 — 満期額と得た総利息が得られます。",
+  "id": "/loona-calculators/ja/fixed-deposit-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

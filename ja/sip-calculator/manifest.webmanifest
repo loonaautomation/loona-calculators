@@ -1,0 +1,29 @@
+{
+  "name": "Loona SIP計算機",
+  "short_name": "SIP計算機",
+  "description": "無料の SIP 計算機：月々の投資、予想される年間収益、年数を入力すると、あなたのプランの将来価値、投資総額、推定利益が予測されます。",
+  "id": "/loona-calculators/ja/sip-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

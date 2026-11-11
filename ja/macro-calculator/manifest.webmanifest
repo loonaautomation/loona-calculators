@@ -1,0 +1,29 @@
+{
+  "name": "Loona マクロ栄養素計算機",
+  "short_name": "マクロ栄養素計算機",
+  "description": "無料のマクロ計算機：毎日のカロリー目標を入力し、配分 — バランス、高タンパク質、低炭水化物、ケト — を選ぶと、一日あたりの炭水化物、タンパク質、脂肪がグラムで得られます。",
+  "id": "/loona-calculators/ja/macro-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

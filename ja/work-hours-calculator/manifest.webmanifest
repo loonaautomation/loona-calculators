@@ -1,0 +1,29 @@
+{
+  "name": "Loona 勤務時間計算機",
+  "short_name": "勤務時間計算機",
+  "description": "無料の労働時間計算機：開始、終了、無給の休憩で、一日あたりと一週間あたりの正味時間が得られます — さらに時給を追加したときの一日と一週間の給料。夜勤に対応。",
+  "id": "/loona-calculators/ja/work-hours-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

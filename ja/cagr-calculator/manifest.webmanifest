@@ -1,0 +1,29 @@
+{
+  "name": "Loona CAGR計算機",
+  "short_name": "CAGR計算機",
+  "description": "無料の CAGR 計算機：開始値、終了値、年数を入力して、投資や事業の複合年間成長率を見つけます。",
+  "id": "/loona-calculators/ja/cagr-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

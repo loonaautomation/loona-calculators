@@ -1,0 +1,29 @@
+{
+  "name": "Loona 所要時間計算機",
+  "short_name": "所要時間計算機",
+  "description": "無料の時間期間計算機：開始時刻と終了時刻を入力すると、時間と分での期間、総分数、十進数の時間が得られます。深夜をまたいでも正しく数えます。",
+  "id": "/loona-calculators/ja/time-duration-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

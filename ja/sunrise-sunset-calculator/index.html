@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>日の出と日の入り計算機 — 緯度と経度による日の時刻 | Loona</title>
+<meta name="description" content="無料の日の出・日の入り計算機：日付と緯度／経度を入力すると、UTC と現地の太陽の観点での日の出、日の入り、昼の長さ、太陽の正午が得られます。NOAA の計算。">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/ja/sunrise-sunset-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/sunrise-sunset-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/sunrise-sunset-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/sunrise-sunset-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/sunrise-sunset-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/sunrise-sunset-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/sunrise-sunset-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/sunrise-sunset-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/sunrise-sunset-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/sunrise-sunset-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/sunrise-sunset-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/sunrise-sunset-calculator/"><link rel="alternate" hreflang="ja" href="https://loonaautomation.github.io/loona-calculators/ja/sunrise-sunset-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/sunrise-sunset-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="日の出と日の入り計算機 — 緯度と経度による日の時刻 | Loona">
+<meta property="og:description" content="無料の日の出・日の入り計算機：日付と緯度／経度を入力すると、UTC と現地の太陽の観点での日の出、日の入り、昼の長さ、太陽の正午が得られます。NOAA の計算。">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/ja/sunrise-sunset-calculator/"><meta property="og:locale" content="ja_JP">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="日の出と日の入り計算機 — 緯度と経度による日の時刻 | Loona">
+<meta name="twitter:description" content="無料の日の出・日の入り計算機：日付と緯度／経度を入力すると、UTC と現地の太陽の観点での日の出、日の入り、昼の長さ、太陽の正午が得られます。NOAA の計算。">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona 日の出・日の入り計算機","url":"https://loonaautomation.github.io/loona-calculators/ja/sunrise-sunset-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"結果は、どの時刻標準ですか？","acceptedAnswer":{"@type":"Answer","text":"UTC。そのため、それらは、タイムゾーンや夏時間のルールを推測することなく、すべての場所で動作します。その日付の、その場所の UTC オフセット（例えば、カラチは +5、夏のロンドンは +1）を加えると、現地の時計時刻が得られます。"}},{"@type":"Question","name":"どのくらい正確ですか？","acceptedAnswer":{"@type":"Answer","text":"ここで使われる NOAA／年鑑アルゴリズムは、人が住むほとんどの緯度で、公表された年鑑の時刻と通常約 1–2 分以内です。極端な極地の緯度では、太陽が一部の日付でまったく昇らない、または沈まないことがあります — 計算機は、極日または極夜を正直に報告します。"}},{"@type":"Question","name":"なぜ正確に 90 ではなく、90.833 度なのですか？","acceptedAnswer":{"@type":"Answer","text":"日の出／日の入りは、太陽の中心ではなく上端で定義され、大気が太陽光を曲げるためです。追加の 0.833° は、太陽の半径（0.25°）と典型的な屈折（0.583°）を説明します。"}},{"@type":"Question","name":"私の町のための座標は、どこで得られますか？","acceptedAnswer":{"@type":"Answer","text":"どの地図アプリでも、ピンを落とした場所の緯度／経度が表示されます。プリセットリストは、世界の主要都市とヨーロッパの都市から始めるために用意されています。"}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona 計算機",
+      "item": "https://loonaautomation.github.io/loona-calculators/ja/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "日の出・日の入り計算機",
+      "item": "https://loonaautomation.github.io/loona-calculators/ja/sunrise-sunset-calculator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation のロゴ">
+<div class="brand">Loona <span>計算機</span></div>
+<nav>
+<a href="../">ホーム</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">概要</a>
+<a href="../contact.html">連絡先</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona 計算機</a> › 日付と時刻 › 日の出・日の入り計算機</div>
+<h1 class="pagetitle">🌅 日の出と日の入り計算機</h1>
+<p class="lead">任意の日付と、場所の緯度と経度を入力すると、標準的な NOAA の太陽方程式を使って、日の出、日の入り、昼の長さ、太陽の南中が計算されます。主要都市のプリセットが含まれています。</p>
+<div class="exbox"><strong>クイックな答え：</strong> 日の出と日の入りは、太陽の上端が地平線を横切る時（天頂 90.833°）です。2026年六月21日のロンドン：日の出は約 03:43 UTC（04:43 BST）、日の入りは約 20:21 UTC（21:21 BST） — およそ 16 時間38分の日。</div>
+<div class="toolbox"><form class="calcform" id="snForm">
+<div class="fld"><label for="snPreset">プリセットの都市</label><select id="snPreset"><option value="">カスタム座標</option><option value="51.5074,-0.1278">ロンドン</option><option value="48.8566,2.3522">パリ</option><option value="52.52,13.405">ベルリン</option><option value="24.8607,67.0011">カラチ</option><option value="25.2048,55.2708">ドバイ</option><option value="40.7128,-74.006">ニューヨーク</option><option value="35.6762,139.6503">東京</option><option value="-33.8688,151.2093">シドニー</option></select></div>
+<div class="fld"><label for="snLat">緯度（−90 から 90）</label><input type="number" id="snLat" value="51.5074" step="any" min="-90" max="90"></div>
+<div class="fld"><label for="snLon">経度（−180 から 180、東 +）</label><input type="number" id="snLon" value="-0.1278" step="any" min="-180" max="180"></div>
+<div class="fld"><label for="snDate">日付</label><input type="date" id="snDate" required></div>
+<button class="calcbtn" type="submit">太陽の時刻を計算する</button>
+<div class="calcresult" id="snResult" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>日の出・日の入り計算機の使い方</h2><ol><li>プリセットの都市を選ぶか、緯度（−90 から 90）と経度（−180 から 180、東が正）を自分で入力します。</li><li>日付を選びます。</li><li>UTC で日の出、日の入り、昼の長さ、太陽の正午を読みます。</li></ol>
+<div class="exbox"><strong>例：</strong> 2026年一月15日のカラチ（24.86°N、67.00°E）：日の出は約 02:19 UTC = 07:19 現地（UTC+5）、日の入りは約 13:04 UTC = 18:04 現地 — 約 10 時間45分の冬の日。</div>
+<h2>よくある質問</h2></section><div class="faq"><h3>結果は、どの時刻標準ですか？</h3><p>UTC。そのため、それらは、タイムゾーンや夏時間のルールを推測することなく、すべての場所で動作します。その日付の、その場所の UTC オフセット（例えば、カラチは +5、夏のロンドンは +1）を加えると、現地の時計時刻が得られます。</p></div><div class="faq"><h3>どのくらい正確ですか？</h3><p>ここで使われる NOAA／年鑑アルゴリズムは、人が住むほとんどの緯度で、公表された年鑑の時刻と通常約 1–2 分以内です。極端な極地の緯度では、太陽が一部の日付でまったく昇らない、または沈まないことがあります — 計算機は、極日または極夜を正直に報告します。</p></div><div class="faq"><h3>なぜ正確に 90 ではなく、90.833 度なのですか？</h3><p>日の出／日の入りは、太陽の中心ではなく上端で定義され、大気が太陽光を曲げるためです。追加の 0.833° は、太陽の半径（0.25°）と典型的な屈折（0.583°）を説明します。</p></div><div class="faq"><h3>私の町のための座標は、どこで得られますか？</h3><p>どの地図アプリでも、ピンを落とした場所の緯度／経度が表示されます。プリセットリストは、世界の主要都市とヨーロッパの都市から始めるために用意されています。</p></div>
+<h2 class="sec">関連する計算機</h2><div class="grid"><a class="card" href="../date-calculator/"><div class="ic">📆</div><h3>日付計算機</h3><p>日付と時刻</p></a><a class="card" href="../days-between-dates-calculator/"><div class="ic">🗓️</div><h3>日数計算</h3><p>日付と時刻</p></a><a class="card" href="../age-calculator/"><div class="ic">📅</div><h3>年齢計算機</h3><p>日付と時刻</p></a><a class="card" href="../working-days-calculator/"><div class="ic">🏢</div><h3>営業日計算機</h3><p>日付と時刻</p></a><a class="card" href="../world-clock/"><div class="ic">🌍</div><h3>世界時計</h3><p>日付と時刻</p></a></div>
+</div>
+<section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>仕組み — 公式</h2>
+<p>標準の年鑑／NOAA 法：年通算日 N と経度から、太陽の平均近点角 M = 0.9856t − 3.289、その真黄経 L = M + 1.916 sin M + 0.020 sin 2M + 282.634、赤経 RA を推定し、sin(dec) = 0.39782 sin L から赤緯を推定します。時角 H は、cos H = (cos 90.833° − sin(dec) sin(lat)) ÷ (cos(dec) cos(lat)) から続きます。日の出は 360° − H を使い、日の入りは H を使います。そして、現地平均時は、経度で UTC に変換されます。|cos H| > 1 の場合、その日、太陽は決して沈まない（極日）か、決して昇りません（極夜）。</p>
+<h3>実例</h3><div class="exbox"><p><strong>入力：</strong> ロンドン、緯度 51.5074、経度 −0.1278、2026年六月21日（N 日 = 172）。</p><p><strong>ステップ：</strong> アルゴリズムは、太陽の赤緯 ≈ +23.43°（至点の最大値近く）と、約 125.1° の時角を与えます。そのため、半日は 125.1 ÷ 15 = 太陽正午の周りの 8.34 時間です。完全な計算は、日の出 ≈ 03:43 UTC と、日の入り ≈ 20:21 UTC（04:43 と 21:21 BST、太陽正午 ≈ 12:02 UTC = 13:02 BST — 中間点）を返します。2026 年の至点について、公表されたロンドンの年鑑の時刻（timeanddate）と一致します。</p><p><strong>結果：</strong> 昼の長さ = 20:21 − 03:43 = <strong>16 h 38 min</strong>.</p></div>
+
+</section>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">この計算機をあなたのウェブサイトに埋め込む — 無料</h2>
+<p style="margin:0 0 12px;line-height:1.6">この計算機を自分のウェブサイトやブログに加えましょう — 完全に無料で、登録は不要、常に最新バージョンが表示されます。下のコードをコピーして、計算機を表示したいページの場所に貼り付けます。埋め込みの下にある小さな &ldquo;Powered by Loona Automation&rdquo; のクレジット行を保持することは、このツールを無料に保つ助けになります &mdash; しかし、スタイルを変更したり削除したりしても自由です。ツールはどちらでも動作します。</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/ja/sunrise-sunset-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Sunrise & Sunset Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;提供 &lt;a href="https://loonaautomation.github.io/loona-calculators/ja/sunrise-sunset-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 無料の 日の出・日の入り計算機&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">埋め込みコードをコピーする</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='埋め込みコードをコピー';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>人気の計算機</h4><ul><li><a href="../age-calculator/">年齢計算機</a></li>
+<li><a href="../zakat-calculator/">ザカート計算機</a></li>
+<li><a href="../cgpa-calculator/">CGPA計算機</a></li>
+<li><a href="../percentage-calculator/">パーセント計算機</a></li>
+<li><a href="../hijri-date-converter/">ヒジュラ暦日付変換</a></li>
+<li><a href="../emi-calculator/">EMI・ローン計算機</a></li></ul></div>
+<div><h4>その他の Loona ツール</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR コード</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona 画像圧縮</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI アシスタント</a></li>
+<li><a href="https://loonaautomation.github.io/">すべての Loona ツール</a></li></ul></div>
+<div><h4>Loona 計算機</h4><ul>
+<li><a href="../about.html">概要</a></li>
+<li><a href="../contact.html">連絡先</a></li>
+<li><a href="../privacy-policy.html">プライバシーポリシー</a></li>
+<li><a href="../terms.html">利用規約</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona 計算機 —  <a href="https://loonaautomation.github.io/">Loona Automation</a> プロジェクト。無料のオンライン計算機、サインアップなし。
+連絡先： <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+function sunCalc(dateISO,lat,lon){
+  if(!dateISO||!(lat>=-90&&lat<=90)||!(lon>=-180&&lon<=180))return null;
+  var p=dateISO.split("-");
+  var dt=new Date(Date.UTC(+p[0],+p[1]-1,+p[2]));
+  var start=new Date(Date.UTC(+p[0],0,0));
+  var N=Math.round((dt-start)/86400000);
+  var lngHour=lon/15;
+  function calc(isRise){
+    var t=N+(((isRise?6:18))-lngHour)/24;
+    var M=(0.9856*t)-3.289;
+    var L=M+1.916*Math.sin(M*Math.PI/180)+0.020*Math.sin(2*M*Math.PI/180)+282.634;
+    L=((L%360)+360)%360;
+    var RA=Math.atan(0.91764*Math.tan(L*Math.PI/180))*180/Math.PI;
+    RA=((RA%360)+360)%360;
+    RA+= (Math.floor(L/90)*90 - Math.floor(RA/90)*90);
+    RA/=15;
+    var sinDec=0.39782*Math.sin(L*Math.PI/180);
+    var cosDec=Math.cos(Math.asin(sinDec));
+    var cosH=(Math.cos(90.833*Math.PI/180)-sinDec*Math.sin(lat*Math.PI/180))/(cosDec*Math.cos(lat*Math.PI/180));
+    if(cosH>1)return {polar:"night"};
+    if(cosH<-1)return {polar:"day"};
+    var H=isRise?360-Math.acos(cosH)*180/Math.PI:Math.acos(cosH)*180/Math.PI;
+    H/=15;
+    var T=H+RA-0.06571*t-6.622;
+    var UT=T-lngHour;
+    UT=((UT%24)+24)%24;
+    return {utc:UT};
+  }
+  var rise=calc(true), set=calc(false);
+  if(rise.polar||set.polar)return {polar:(rise.polar||set.polar)};
+  var dayLen=set.utc-rise.utc; if(dayLen<0)dayLen+=24;
+  return {sunrise:rise.utc,sunset:set.utc,dayLength:dayLen,solarNoon:(rise.utc+dayLen/2)%24};
+}
+function fmtHours(h){var H=Math.floor(h),M=Math.round((h-H)*60);if(M===60){H=(H+1)%24;M=0;}return String(H).padStart(2,"0")+":"+String(M).padStart(2,"0");}
+/*TESTABLE_END*/
+document.getElementById('snPreset').addEventListener('change',function(){
+  if(!this.value)return; var parts=this.value.split(",");
+  document.getElementById('snLat').value=parts[0]; document.getElementById('snLon').value=parts[1];
+});
+document.getElementById('snDate').value=new Date().toISOString().slice(0,10);
+document.getElementById('snForm').addEventListener('submit',function(e){e.preventDefault();
+ var r=sunCalc(document.getElementById('snDate').value,parseFloat(document.getElementById('snLat').value),parseFloat(document.getElementById('snLon').value));
+ var box=document.getElementById('snResult'); box.style.display='block';
+ if(!r){box.innerHTML='<p class="err">日付と座標を確認してください。</p>';return;}
+ if(r.polar){box.innerHTML='<p class="resnote">この日付・この緯度では、太陽は '+(r.polar==='day'?'沈みません（白夜／極昼）。':'昇りません（極夜）。')+'</p>';return;}
+ var dlH=Math.floor(r.dayLength), dlM=Math.round((r.dayLength-dlH)*60);
+ box.innerHTML='<div class="resbig"><span>昼の長さ</span><strong>'+dlH+' h '+dlM+' min</strong></div>'
+ +'<table class="restbl"><tr><td>日の出 (UTC)</td><td><strong>'+fmtHours(r.sunrise)+'</strong></td></tr>'
+ +'<tr><td>日の入り (UTC)</td><td><strong>'+fmtHours(r.sunset)+'</strong></td></tr>'
+ +'<tr><td>太陽の南中 (UTC)</td><td><strong>'+fmtHours(r.solarNoon)+'</strong></td></tr></table>'
+ +'<p class="resnote">時刻はUTCです — 現地の時計時刻には、その場所のUTCオフセットを加えてください。典型的な精度は1–2分です。</p>';});
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' アプリをインストール';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('このアプリをインストールするには：共有ボタンをタップし、「ホーム画面に追加」を選んでください。');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

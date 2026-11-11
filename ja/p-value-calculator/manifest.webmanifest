@@ -1,0 +1,29 @@
+{
+  "name": "Loona p値計算機",
+  "short_name": "p値計算機",
+  "description": "無料の p 値計算機：z、t、カイ二乗の検定統計量を片側と両側の p 値に変換し、0.05 と 0.01 での有意性の判定付き。",
+  "id": "/loona-calculators/ja/p-value-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

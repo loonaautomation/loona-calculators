@@ -1,0 +1,29 @@
+{
+  "name": "Loona 週番号計算機",
+  "short_name": "週番号計算機",
+  "description": "無料の週番号計算機：任意の日付を選ぶと、その ISO 週番号、ISO 週年、年間通算日、年の残り日数、カレンダーの四半期が得られます。",
+  "id": "/loona-calculators/ja/week-number-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

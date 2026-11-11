@@ -1,0 +1,29 @@
+{
+  "name": "Loona 目標CGPA計算機",
+  "short_name": "目標CGPA計算機",
+  "description": "無料の目標 CGPA 計算機：現在の CGPA、完了した単位、目標 CGPA、残りの単位 — 得点しなければならない GPA、または到達可能な最大 CGPA を確認します。",
+  "id": "/loona-calculators/ja/target-cgpa-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

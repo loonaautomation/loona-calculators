@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>トーナメントブラケット生成ツール — シングルエリミネーション、シード付き | Loona 計算機</title>
+<meta name="description" content="無料のトーナメント表生成ツール：参加者を入力すると、バイが処理された、正しくシードされたシングルエリミネーション表が得られます — eスポーツ、スポーツデー、チェス、クイズ向け。">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/ja/tournament-bracket-generator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/tournament-bracket-generator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/tournament-bracket-generator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/tournament-bracket-generator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/tournament-bracket-generator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/tournament-bracket-generator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/tournament-bracket-generator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/tournament-bracket-generator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/tournament-bracket-generator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/tournament-bracket-generator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/tournament-bracket-generator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/tournament-bracket-generator/"><link rel="alternate" hreflang="ja" href="https://loonaautomation.github.io/loona-calculators/ja/tournament-bracket-generator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/tournament-bracket-generator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="トーナメントブラケット生成ツール — シングルエリミネーション、シード付き | Loona 計算機">
+<meta property="og:description" content="無料のトーナメント表生成ツール：参加者を入力すると、バイが処理された、正しくシードされたシングルエリミネーション表が得られます — eスポーツ、スポーツデー、チェス、クイズ向け。">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/ja/tournament-bracket-generator/"><meta property="og:locale" content="ja_JP">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="トーナメントブラケット生成ツール — シングルエリミネーション、シード付き | Loona 計算機">
+<meta name="twitter:description" content="無料のトーナメント表生成ツール：参加者を入力すると、バイが処理された、正しくシードされたシングルエリミネーション表が得られます — eスポーツ、スポーツデー、チェス、クイズ向け。">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona トーナメント表生成ツール","url":"https://loonaautomation.github.io/loona-calculators/ja/tournament-bracket-generator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"シードとは、平易な言葉で何ですか？","acceptedAnswer":{"@type":"Answer","text":"抽選の前に参加者をランク付けし、最強の者が離れて広がります。適切なシードは、上位二つが決勝前に会うことがなく、上位四つが準決勝前に会うことがないことを保証します — 高くランク付けされることへの報酬です。"}},{"@type":"Question","name":"例えば 10 人の参加者で、バイはどのように機能しますか？","acceptedAnswer":{"@type":"Answer","text":"ブラケットは 16 スロットに切り上げられ、6 つの空きスロットが残ります。空きは、トップシードの向かいに置かれます。そのため、シード 1–6 はラウンド 1 をスキップし（不戦勝）、残りの 4 人の参加者が、唯一の第一ラウンドの試合を行います：標準のペアリングで、7 対 10 と 8 対 9。"}},{"@type":"Question","name":"第一ラウンドの試合は、どの順序で表示されますか？","acceptedAnswer":{"@type":"Answer","text":"括弧の順序で — 勝者が次のラウンドに入る順序。ペアリングのパターン（16 枠について 1 対 16、8 対 9、5 対 12、4 対 13、6 対 11、3 対 14、7 対 10、2 対 15）は、トーナメント主催者が使う標準の再帰的なシードパターンです。"}},{"@type":"Question","name":"シードの代わりにシャッフルできますか？","acceptedAnswer":{"@type":"Answer","text":"シードではなくランダムな抽選がほしい場合は、名前を任意の順序でリストします — または最初にリストランダマイザーを通し、シャッフルされた順序をここにシードリストとして貼り付けます。"}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona 計算機",
+      "item": "https://loonaautomation.github.io/loona-calculators/ja/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "トーナメント表生成ツール",
+      "item": "https://loonaautomation.github.io/loona-calculators/ja/tournament-bracket-generator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation のロゴ">
+<div class="brand">Loona <span>計算機</span></div>
+<nav>
+<a href="../">ホーム</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">概要</a>
+<a href="../contact.html">連絡先</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona 計算機</a> › 娯楽 › トーナメント表生成ツール</div>
+<h1 class="pagetitle">🏆 トーナメントブラケット生成ツール</h1>
+<p class="lead">出場者をシード順に入力してください（最良のシードが最初）し、本物のトーナメントが行う方法で構築されたシングルエリミネーションブラケットを生成します：第1シードが最も低いシードと対戦し、シードなしの枠（バイ）は上位シードに与えられ、勝者は決勝へ流れていきます。</p>
+<div class="exbox"><strong>クイックな答え：</strong> シングルエリミネーションのトーナメント表には二の累乗のサイズが必要です（4、8、16、32）。10 名の参加者では表は 16 スロットです：上位 6 シードは一回戦の不戦勝を受け、シードは 1 対 16、8 対 9、5 対 12 のようにペアになり、最良のシード同士が早く出会うことはありません。</div>
+<div class="toolbox"><form class="calcform" id="tbForm">
+<div class="fld"><label for="tbNames">シード順の出場者（最も強い順、一行に一人ずつ）</label><textarea id="tbNames" rows="8" style="width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px">Seed 1
+Seed 2
+Seed 3
+Seed 4
+Seed 5
+Seed 6
+Seed 7
+Seed 8</textarea></div>
+<button class="calcbtn" type="submit">🏆 ブラケットを生成</button>
+<div class="calcresult" id="tbResult" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>トーナメント表生成ツールの使い方</h2><ol><li>出場者を一行に一人ずつ、シード順に入力してください — 最も強い順（2 から 32）。</li><li>表を生成を押します。</li><li>ラウンド 1（そして誰がバイを持つか）、次に各勝者が決勝まで取る経路を読みます。</li></ol>
+<div class="exbox"><strong>例：</strong> 8 名の出場者が 1–8 のシードで準々決勝：1 対 8、4 対 5、2 対 7、3 対 6 — そのため上位シードが常に勝つ場合、準決勝は 1 対 4 と 2 対 3、決勝は 1 対 2 です。</div>
+<h2>よくある質問</h2></section><div class="faq"><h3>シードとは、平易な言葉で何ですか？</h3><p>抽選の前に参加者をランク付けし、最強の者が離れて広がります。適切なシードは、上位二つが決勝前に会うことがなく、上位四つが準決勝前に会うことがないことを保証します — 高くランク付けされることへの報酬です。</p></div><div class="faq"><h3>例えば 10 人の参加者で、バイはどのように機能しますか？</h3><p>ブラケットは 16 スロットに切り上げられ、6 つの空きスロットが残ります。空きは、トップシードの向かいに置かれます。そのため、シード 1–6 はラウンド 1 をスキップし（不戦勝）、残りの 4 人の参加者が、唯一の第一ラウンドの試合を行います：標準のペアリングで、7 対 10 と 8 対 9。</p></div><div class="faq"><h3>第一ラウンドの試合は、どの順序で表示されますか？</h3><p>括弧の順序で — 勝者が次のラウンドに入る順序。ペアリングのパターン（16 枠について 1 対 16、8 対 9、5 対 12、4 対 13、6 対 11、3 対 14、7 対 10、2 対 15）は、トーナメント主催者が使う標準の再帰的なシードパターンです。</p></div><div class="faq"><h3>シードの代わりにシャッフルできますか？</h3><p>シードではなくランダムな抽選がほしい場合は、名前を任意の順序でリストします — または最初にリストランダマイザーを通し、シャッフルされた順序をここにシードリストとして貼り付けます。</p></div>
+<h2 class="sec">関連する計算機</h2><div class="grid"><a class="card" href="../random-number-generator/"><div class="ic">🎲</div><h3>乱数生成ツール</h3><p>楽しみ</p></a><a class="card" href="../dice-roller/"><div class="ic">🎲</div><h3>サイコロ</h3><p>楽しみ</p></a><a class="card" href="../coin-flip/"><div class="ic">🪙</div><h3>コイントス</h3><p>楽しみ</p></a><a class="card" href="../lottery-number-generator/"><div class="ic">🍀</div><h3>宝くじ番号生成ツール</h3><p>楽しみ</p></a><a class="card" href="../love-calculator/"><div class="ic">❤️</div><h3>相性計算機</h3><p>楽しみ</p></a><a class="card" href="../random-team-generator/"><div class="ic">👥</div><h3>ランダムチーム生成ツール</h3><p>楽しみ</p></a><a class="card" href="../wheel-of-names/"><div class="ic">🎡</div><h3>名前ルーレット</h3><p>楽しみ</p></a><a class="card" href="../list-randomizer/"><div class="ic">🔀</div><h3>リストランダマイザー</h3><p>楽しみ</p></a></div>
+</div>
+<section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>仕組み — 公式</h2>
+<p>ブラケットサイズ B = 参加者数 N を下回らない最小の二の累乗。Byes = B − N で、上位シードに与えられます。ブラケットのシード順序は再帰的に生成されます：[1, 2] から開始し、順序内の各シード s を繰り返しペア (s, 2k + 1 − s) に置き換えます。ここで 2k は新しいサイズであり、そのため隣接する各ペアは第1ラウンドで合計が B + 1 になります。隣接ペア（位置 1–2、3–4、…）が最初のラウンドの試合を形成し、隣接する試合の勝者が次のラウンドで対戦します — それがまさに、上位シードを初期の対戦から保護するものです。</p>
+<h3>実例</h3><div class="exbox"><p><strong>入力：</strong> 8 シード。</p><p><strong>ステップ：</strong> 開始 [1, 2]。4 に倍化：(1, 4)、(2, 3) → [1, 4, 2, 3]。8 に倍化：(1, 8)、(4, 5)、(2, 7)、(3, 6) → [1, 8, 4, 5, 2, 7, 3, 6]。隣接ペア：1v8、4v5、2v7、3v6。</p><p><strong>結果：</strong> 準々決勝 <strong>1 対 8、4 対 5、2 対 7、3 対 6</strong>；本命の進路では準決勝は 1 対 4、2 対 3、決勝は 1 対 2。</p></div>
+
+</section>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">この計算機をあなたのウェブサイトに埋め込む — 無料</h2>
+<p style="margin:0 0 12px;line-height:1.6">この計算機を自分のウェブサイトやブログに加えましょう — 完全に無料で、登録は不要、常に最新バージョンが表示されます。下のコードをコピーして、計算機を表示したいページの場所に貼り付けます。埋め込みの下にある小さな &ldquo;Powered by Loona Automation&rdquo; のクレジット行を保持することは、このツールを無料に保つ助けになります &mdash; しかし、スタイルを変更したり削除したりしても自由です。ツールはどちらでも動作します。</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/ja/tournament-bracket-generator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Tournament Bracket Generator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;提供 &lt;a href="https://loonaautomation.github.io/loona-calculators/ja/tournament-bracket-generator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 無料の トーナメント表生成ツール&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">埋め込みコードをコピーする</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='埋め込みコードをコピー';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>人気の計算機</h4><ul><li><a href="../age-calculator/">年齢計算機</a></li>
+<li><a href="../zakat-calculator/">ザカート計算機</a></li>
+<li><a href="../cgpa-calculator/">CGPA計算機</a></li>
+<li><a href="../percentage-calculator/">パーセント計算機</a></li>
+<li><a href="../hijri-date-converter/">ヒジュラ暦日付変換</a></li>
+<li><a href="../emi-calculator/">EMI・ローン計算機</a></li></ul></div>
+<div><h4>その他の Loona ツール</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR コード</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona 画像圧縮</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI アシスタント</a></li>
+<li><a href="https://loonaautomation.github.io/">すべての Loona ツール</a></li></ul></div>
+<div><h4>Loona 計算機</h4><ul>
+<li><a href="../about.html">概要</a></li>
+<li><a href="../contact.html">連絡先</a></li>
+<li><a href="../privacy-policy.html">プライバシーポリシー</a></li>
+<li><a href="../terms.html">利用規約</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona 計算機 —  <a href="https://loonaautomation.github.io/">Loona Automation</a> プロジェクト。無料のオンライン計算機、サインアップなし。
+連絡先： <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+function bracketSeedOrder(size){
+  var order=[1,2];
+  while(order.length<size){
+    var total=order.length*2+1, nxt=[];
+    for(var i=0;i<order.length;i++){nxt.push(order[i]);nxt.push(total-order[i]);}
+    order=nxt;
+  }
+  return order;
+}
+function makeBracket(names){
+  var n=names.length;
+  if(n<2||n>32)return null;
+  var size=2; while(size<n)size*=2;
+  var order=bracketSeedOrder(size);
+  var slots=order.map(function(seed){return seed<=n?{seed:seed,name:names[seed-1]}:{seed:seed,name:null};});
+  var matches=[];
+  for(var i=0;i<slots.length;i+=2){
+    var a=slots[i],b=slots[i+1];
+    if(a.name&&b.name)matches.push({a:a,b:b,bye:false});
+    else if(a.name||b.name)matches.push({a:a.name?a:b,b:null,bye:true});
+  }
+  var rounds=Math.log2(size);
+  return {size:size,byes:size-n,matches:matches,rounds:rounds,slots:slots};
+}
+/*TESTABLE_END*/
+document.getElementById('tbForm').addEventListener('submit',function(e){e.preventDefault();
+ var names=document.getElementById('tbNames').value.split(/\r?\n/).map(function(s){return s.trim();}).filter(Boolean);
+ var br=makeBracket(names);
+ var box=document.getElementById('tbResult'); box.style.display='block';
+ if(!br){box.innerHTML='<p class="err">参加者は2から32の間で入力してください。</p>';return;}
+ function esc(s){return String(s).replace(/</g,"&lt;");}
+ var html='<div class="resbig"><span>トーナメント表の大きさ '+br.size+'</span><strong>'+br.rounds+' ラウンド'+(br.byes?' · '+br.byes+' 不戦勝'+(br.byes>1?'s':''):'')+'</strong></div>';
+ br.matches.forEach(function(m,i){
+   if(m.bye)html+='<p style="margin:7px 0"><strong>Bye:</strong> ('+m.a.seed+') '+esc(m.a.name)+' は直接進みます</p>';
+   else html+='<p style="margin:7px 0"><strong>Match '+(i+1)+':</strong> ('+m.a.seed+') '+esc(m.a.name)+' vs ('+m.b.seed+') '+esc(m.b.name)+'</p>';
+ });
+ var rn=["Final","Semi-finals","Quarter-finals","Round of 16","Round of 32"];
+ html+='<p class="resnote">隣り合う試合の勝者が次のラウンドで対戦し、最後に '+rn[br.rounds-1]+' が両半分の勝者の間で決まります。</p>';
+ box.innerHTML=html;});
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' アプリをインストール';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('このアプリをインストールするには：共有ボタンをタップし、「ホーム画面に追加」を選んでください。');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

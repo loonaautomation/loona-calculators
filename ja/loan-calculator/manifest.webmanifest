@@ -1,0 +1,29 @@
+{
+  "name": "Loona ローン計算機",
+  "short_name": "ローン計算機",
+  "description": "無料のローン計算機：金額、年利率、期間を入力すると、任意のローンの月々の支払い、総利息、総返済が得られます。",
+  "id": "/loona-calculators/ja/loan-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona 退職慰労金計算機",
+  "short_name": "退職慰労金計算機",
+  "description": "無料の退職慰労金計算機：最後に受け取った月給と完了した勤続年数 — 勤続一年あたり一か月分の給与（30 日分の賃金）で退職慰労金を推定。",
+  "id": "/loona-calculators/ja/gratuity-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

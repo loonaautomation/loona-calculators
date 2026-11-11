@@ -1,0 +1,29 @@
+{
+  "name": "Loona 力変換",
+  "short_name": "力変換",
+  "description": "すべての力変換ペアを一つの索引に：正確な係数、公式、各ペア専用の変換ページ。無料、登録不要。",
+  "id": "/loona-calculators/ja/force-converter.html",
+  "start_url": "./force-converter.html",
+  "scope": "./force-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

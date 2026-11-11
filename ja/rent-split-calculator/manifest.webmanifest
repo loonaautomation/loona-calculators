@@ -1,0 +1,29 @@
+{
+  "name": "Loona 家賃分担計算機",
+  "short_name": "家賃分担計算機",
+  "description": "無料の家賃分割計算機：2 人から 8 人のルームメイトの間で月額家賃を分割します — 均等に、平方フィートでの部屋のサイズで、収入で。シェアは常に対で正確な合計に戻ります。",
+  "id": "/loona-calculators/ja/rent-split-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

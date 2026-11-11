@@ -1,0 +1,29 @@
+{
+  "name": "Loona ヨーロッパ運転ルールチェッカー",
+  "short_name": "ヨーロッパ運転ルールチェッカー",
+  "description": "無料のヨーロッパ運転ルールチェッカー：国を選ぶと、その運転する側、高速道路の制限速度、飲酒運転の制限、訪問ドライバー向けの主要な現地ルールがわかります。",
+  "id": "/loona-calculators/ja/europe-driving-rules-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

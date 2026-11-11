@@ -1,0 +1,29 @@
+{
+  "name": "Loona 2020 年生まれ",
+  "short_name": "2020 年生まれ",
+  "description": "2020 年生まれ：6 歳になるのは 2026 年、ジェネレーションアルファ。18 歳になったのは 2038 年、65 歳になるのは 2085 年です。正確な年齢計算機付き。",
+  "id": "/loona-calculators/ja/born-in-2020-how-old.html",
+  "start_url": "./born-in-2020-how-old.html",
+  "scope": "./born-in-2020-how-old.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

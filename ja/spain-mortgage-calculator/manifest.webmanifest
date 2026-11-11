@@ -1,0 +1,29 @@
+{
+  "name": "Loona スペイン住宅ローン計算機",
+  "short_name": "スペイン住宅ローン計算機",
+  "description": "無料のスペイン住宅ローン計算機（ユーロ）：任意の物件価格、頭金、金利、期間で月々の支払い（cuota）、総利息、無借金になる日付。さらに過払いの比較。",
+  "id": "/loona-calculators/ja/spain-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

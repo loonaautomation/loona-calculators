@@ -1,0 +1,29 @@
+{
+  "name": "Loona サイコロ",
+  "short_name": "サイコロ",
+  "description": "無料のオンラインサイコロ：サイコロを 1 個から 6 個振ります — 標準の d6、d20、その他の多面体サイコロ — 視覚的なサイコロ、合計、平均、ロールの履歴付き。",
+  "id": "/loona-calculators/ja/dice-roller/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

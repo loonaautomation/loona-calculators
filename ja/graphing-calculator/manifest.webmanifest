@@ -1,0 +1,29 @@
+{
+  "name": "Loona グラフ計算機",
+  "short_name": "グラフ計算機",
+  "description": "無料のグラフ計算機：x^2、sin(x)、2x+3 のような一つの関数や二つの関数を、ズーム付きのグリッドにプロットします。ブラウザで動作し、登録不要。",
+  "id": "/loona-calculators/ja/graphing-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

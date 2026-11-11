@@ -1,0 +1,29 @@
+{
+  "name": "Loona VO2 Max計算機",
+  "short_name": "VO2 Max計算機",
+  "description": "無料の VO2 max 計算機：クーパー12分間走またはロックポート1マイルウォークテストから有酸素フィットネスを推定します。教育目的のフィットネス推定。",
+  "id": "/loona-calculators/ja/vo2-max-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

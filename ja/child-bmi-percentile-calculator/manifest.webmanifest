@@ -1,0 +1,29 @@
+{
+  "name": "Loona 子どもBMIパーセンタイル計算機",
+  "short_name": "子供の BMI パーセンタイル",
+  "description": "無料の子供 BMI パーセンタイル計算機。2 歳から 20 歳について公式の CDC LMS 成長チャートデータを使います：男の子と女の子の BMI、パーセンタイル、z スコア、体重カテゴリ。",
+  "id": "/loona-calculators/ja/child-bmi-percentile-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

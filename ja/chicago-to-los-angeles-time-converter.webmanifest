@@ -1,0 +1,29 @@
+{
+  "name": "Loona シカゴからロサンゼルス時間への変換",
+  "short_name": "シカゴからロサンゼルス時間へ",
+  "description": "シカゴの時刻をロサンゼルスの時刻に変換します。ロサンゼルスは年間を通してシカゴより2 時間遅れています。夏時間の日付、24時間表、最適な会議時間帯付き。ライブ変換ツール付き。",
+  "id": "/loona-calculators/ja/chicago-to-los-angeles-time-converter.html",
+  "start_url": "./chicago-to-los-angeles-time-converter.html",
+  "scope": "./chicago-to-los-angeles-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

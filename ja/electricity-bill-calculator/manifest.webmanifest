@@ -1,0 +1,29 @@
+{
+  "name": "Loona 電気料金計算機",
+  "short_name": "電気料金計算機",
+  "description": "無料の電気料金計算機：使用したユニットとスラブ料金を入力すると、GST 付きで月額請求が推定されます。LESCO、IESCO、K-Electric、パキスタンのすべての電力会社向けの編集可能な料金。",
+  "id": "/loona-calculators/ja/electricity-bill-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

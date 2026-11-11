@@ -1,0 +1,29 @@
+{
+  "name": "Loona 出産予定日計算機",
+  "short_name": "出産予定日計算機",
+  "description": "無料の妊娠出産予定日計算機：最終月経（LMP）の初日を入力すると、予想される出産予定日、現在の妊娠週数、三半期が得られます。",
+  "id": "/loona-calculators/ja/pregnancy-due-date-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

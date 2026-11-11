@@ -1,0 +1,29 @@
+{
+  "name": "Loona ピタゴラスの定理計算機",
+  "short_name": "ピタゴラスの定理計算機",
+  "description": "無料のピタゴラスの定理計算機：直角三角形の任意の二辺を入力すると、第三の辺 — 斜辺または足 — が作業付きで得られます。",
+  "id": "/loona-calculators/ja/pythagorean-theorem-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona 靴のサイズ変換",
+  "short_name": "靴のサイズ変換",
+  "description": "無料の靴サイズ変換。男性と女性向け：最も近い一致で標準変換表を使って、US、UK、EU サイズと、cm とインチでの足の長さを変換します。",
+  "id": "/loona-calculators/ja/shoe-size-converter/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

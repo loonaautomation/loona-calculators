@@ -1,0 +1,29 @@
+{
+  "name": "Loona かんたん電卓",
+  "short_name": "かんたん電卓",
+  "description": "無料のかんたん電卓。加算、減算、乗算、除算のための大きく使いやすいボタン付き。履歴テープ、パーセントキー、コピーボタン、完全なキーボード対応 — 登録不要。",
+  "id": "/loona-calculators/ja/simple-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

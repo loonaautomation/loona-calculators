@@ -1,0 +1,29 @@
+{
+  "name": "Loona 計算機",
+  "short_name": "計算機",
+  "description": "297 の無料オンライン計算機：年齢、ザカート、パーセント、CGPA、EMI、BMI、電気料金、ヒジュラ暦日付変換。登録不要 — 高速、正確、プライベートです。",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "id": "/loona-calculators/ja/"
+}

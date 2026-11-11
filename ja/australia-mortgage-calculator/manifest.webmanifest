@@ -1,0 +1,29 @@
+{
+  "name": "Loona オーストラリア住宅ローン計算機",
+  "short_name": "オーストラリア住宅ローン計算機",
+  "description": "無料のオーストラリア住宅ローン計算機（AUD）：月々の返済、ローン期間全体の総利息、総コスト、小さな追加支払いがどれだけ速く雪だるま式に増えるかを示す追加返済の比較付き。",
+  "id": "/loona-calculators/ja/australia-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

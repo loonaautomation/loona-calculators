@@ -1,0 +1,29 @@
+{
+  "name": "Loona CGPAからパーセントへの変換計算機",
+  "short_name": "CGPAからパーセントへの変換計算機",
+  "description": "無料の CGPA からパーセンテージへの変換：10 満点の CGPA（×9.5 の公式）または 4 満点の GPA をパーセンテージに変換。任意の委員会や大学向けのカスタム乗数オプション付き。",
+  "id": "/loona-calculators/ja/cgpa-to-percentage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

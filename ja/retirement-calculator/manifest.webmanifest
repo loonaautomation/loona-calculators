@@ -1,0 +1,29 @@
+{
+  "name": "Loona 退職資金計算機",
+  "short_name": "退職資金計算機",
+  "description": "無料の退職計算機：現在の年齢、退職年齢、貯蓄、月々の拠出 — あなたの退職コーパスと、そのどれだけが成長かを予測します。",
+  "id": "/loona-calculators/ja/retirement-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

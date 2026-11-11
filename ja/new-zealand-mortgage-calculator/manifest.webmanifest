@@ -1,0 +1,29 @@
+{
+  "name": "Loona ニュージーランド住宅ローン計算機",
+  "short_name": "ニュージーランド住宅ローン",
+  "description": "無料のニュージーランド住宅ローン計算機：任意の家の価格、頭金、金利、期間で月々の支払い、総利息、無借金になる日付。さらに追加支払いの比較。",
+  "id": "/loona-calculators/ja/new-zealand-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

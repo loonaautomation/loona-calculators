@@ -1,0 +1,29 @@
+{
+  "name": "Loona Zスコア計算機",
+  "short_name": "Zスコア計算機",
+  "description": "無料の z スコア計算機：値、平均、標準偏差を入力すると、z スコア、パーセンタイル、標準正規表（正規分布）からの確率が得られます。",
+  "id": "/loona-calculators/ja/z-score-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

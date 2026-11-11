@@ -1,0 +1,29 @@
+{
+  "name": "Loona ムンバイから東京時間への変換",
+  "short_name": "ムンバイから東京時間への変換",
+  "description": "ムンバイの時刻を東京の時刻に変換します。東京は年間を通してムンバイより3 時間 30 分進んでいます。夏時間の日付、24時間表、最適な会議時間帯付き。ライブ変換ツール付き。",
+  "id": "/loona-calculators/ja/mumbai-to-tokyo-time-converter.html",
+  "start_url": "./mumbai-to-tokyo-time-converter.html",
+  "scope": "./mumbai-to-tokyo-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

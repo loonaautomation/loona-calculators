@@ -1,0 +1,29 @@
+{
+  "name": "Loona ザカート計算機",
+  "short_name": "ザカート計算機",
+  "description": "無料のザカート計算機：現金、銀行残高、金、銀、事業用品、債務 — ニサーブを確認し、ルピーで 2.5% のザカートを瞬時に計算。シンプルでプライベート。",
+  "id": "/loona-calculators/ja/zakat-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

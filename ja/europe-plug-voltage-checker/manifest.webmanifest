@@ -1,0 +1,29 @@
+{
+  "name": "Loona ヨーロッパプラグ・電圧チェッカー",
+  "short_name": "ヨーロッパプラグ・電圧チェッカー",
+  "description": "無料のヨーロッパのプラグ・電圧チェッカー：ヨーロッパの国を選ぶと、そのプラグの種類、電圧、周波数、アダプタや変換器が必要かどうかがわかります。",
+  "id": "/loona-calculators/ja/europe-plug-voltage-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

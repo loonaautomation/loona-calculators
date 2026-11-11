@@ -1,0 +1,29 @@
+{
+  "name": "Loona 速度計算機",
+  "short_name": "速度計算機",
+  "description": "無料の速度計算機：キロメートルまたはマイルでの距離と所要時間を入力すると、km/h と mph での速度、さらにキロメートルあたりとマイルあたりのペースが得られます。",
+  "id": "/loona-calculators/ja/speed-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

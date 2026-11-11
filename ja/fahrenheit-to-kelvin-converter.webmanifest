@@ -1,0 +1,29 @@
+{
+  "name": "Loona 華氏からケルビンへの変換",
+  "short_name": "華氏からケルビンへの変換",
+  "description": "華氏からケルビンへ瞬時に変換。正確な式、°FからKへの完全な換算表と計算例。無料、登録不要です。",
+  "id": "/loona-calculators/ja/fahrenheit-to-kelvin-converter.html",
+  "start_url": "./fahrenheit-to-kelvin-converter.html",
+  "scope": "./fahrenheit-to-kelvin-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

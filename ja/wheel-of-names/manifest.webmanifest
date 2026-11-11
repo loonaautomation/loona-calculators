@@ -1,0 +1,29 @@
+{
+  "name": "Loona 名前ルーレット",
+  "short_name": "名前ルーレット",
+  "description": "無料の名前のホイール：名前を追加し、カラフルなホイールを回して、抽選、教室、景品のための本当にランダムな勝者を選びます。登録不要、ブラウザで動作。",
+  "id": "/loona-calculators/ja/wheel-of-names/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

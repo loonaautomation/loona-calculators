@@ -1,0 +1,29 @@
+{
+  "name": "Loona 重み付き意思決定ツール",
+  "short_name": "重み付き意思決定ツール",
+  "description": "無料の重み付き意思決定ツール：重み付きで選択肢をリストし、その重みに比例する確率で一つを選びます。各選択肢の正確なパーセンテージの確率を表示。",
+  "id": "/loona-calculators/ja/weighted-decision-maker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

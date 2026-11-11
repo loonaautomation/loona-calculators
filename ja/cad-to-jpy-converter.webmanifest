@@ -1,0 +1,29 @@
+{
+  "name": "Loona CADからJPYへの変換",
+  "short_name": "CADからJPYへの変換",
+  "description": "カナダ・ドル（CAD）から日本円（JPY）への変換。2026年十一月06日付のECB基準レート、逆レート、換算表、コリドーに関する注記を含みます。あくまで目安です。",
+  "id": "/loona-calculators/ja/cad-to-jpy-converter.html",
+  "start_url": "./cad-to-jpy-converter.html",
+  "scope": "./cad-to-jpy-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

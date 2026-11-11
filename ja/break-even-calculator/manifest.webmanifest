@@ -1,0 +1,29 @@
+{
+  "name": "Loona 損益分岐点計算機",
+  "short_name": "損益分岐点計算機",
+  "description": "無料の損益分岐点計算機：固定費、販売価格、単位あたりの変動費を入力すると、損益分岐点に必要な販売単位数と、その収益がわかります。",
+  "id": "/loona-calculators/ja/break-even-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

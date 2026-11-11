@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ETIAS 適格チェッカー — ETIAS、ビザ、どちらも不要ですか？| Loona</title>
+<meta name="description" content="無料の ETIAS 適格チェッカー：国籍と旅行状況を選ぶと、ヨーロッパへの短い旅行に ETIAS、シェンゲンビザ、認可なしのどれが必要かがわかります。">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/ja/etias-eligibility-checker/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/etias-eligibility-checker/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/etias-eligibility-checker/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/etias-eligibility-checker/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/etias-eligibility-checker/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/etias-eligibility-checker/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/etias-eligibility-checker/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/etias-eligibility-checker/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/etias-eligibility-checker/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/etias-eligibility-checker/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/etias-eligibility-checker/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/etias-eligibility-checker/"><link rel="alternate" hreflang="ja" href="https://loonaautomation.github.io/loona-calculators/ja/etias-eligibility-checker/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/etias-eligibility-checker/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="ETIAS 適格チェッカー — ETIAS、ビザ、どちらも不要ですか？| Loona">
+<meta property="og:description" content="無料の ETIAS 適格チェッカー：国籍と旅行状況を選ぶと、ヨーロッパへの短い旅行に ETIAS、シェンゲンビザ、認可なしのどれが必要かがわかります。">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/ja/etias-eligibility-checker/"><meta property="og:locale" content="ja_JP">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ETIAS 適格チェッカー — ETIAS、ビザ、どちらも不要ですか？| Loona">
+<meta name="twitter:description" content="無料の ETIAS 適格チェッカー：国籍と旅行状況を選ぶと、ヨーロッパへの短い旅行に ETIAS、シェンゲンビザ、認可なしのどれが必要かがわかります。">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona ETIAS対象チェッカー","url":"https://loonaautomation.github.io/loona-calculators/ja/etias-eligibility-checker/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"ETIAS とは、一文で何ですか？","acceptedAnswer":{"@type":"Answer","text":"ETIAS は、シェンゲン圏へのビザ免除の訪問者のための EU の計画された旅行前認可です — 考え方は米国の ESTA に似ています — パスポートにリンクされ、旅行前に確認されます。"}},{"@type":"Question","name":"ETIAS はいつ始まり、費用はどれだけですか？","acceptedAnswer":{"@type":"Answer","text":"EU は、開始を段階的に進めており、公的情報源は、時期によって異なる日付と数を引用してきました。そのため、このページは、開始日も料金も意図的に印刷しません。どちらかに頼る前に、europa.eu の公式 EU ETIAS ページで、現在の日付と料金を確認します。"}},{"@type":"Question","name":"ETIAS は 90/180 ルールに取って代わりますか？","acceptedAnswer":{"@type":"Answer","text":"いいえ。ETIAS は旅行の認可です；90 日／180 日の制限は、滞在できる期間をまだ支配します。日自体を計画するには、このサイトのシェンゲン 90/180 計算機を使ってください。"}},{"@type":"Question","name":"居住許可または長期滞在ビザを持っています — これは私に当てはまりますか？","acceptedAnswer":{"@type":"Answer","text":"一般的にはいいえ：居住者と長期滞在ビザ保有者は、短期滞在の認可システムではなく、許可の規則に従います。このチェッカーは短期の観光とビジネスの訪問のみを対象とします。"}},{"@type":"Question","name":"これは法的または移民の助言ですか？","acceptedAnswer":{"@type":"Answer","text":"いいえ — 一般的な目安のみ。入国の決定は国境当局に委ねられ、あなたの正確な立場はあなたの文書によります。公式の情報源で確認してください。"}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona 計算機",
+      "item": "https://loonaautomation.github.io/loona-calculators/ja/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "ETIAS対象チェッカー",
+      "item": "https://loonaautomation.github.io/loona-calculators/ja/etias-eligibility-checker/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation のロゴ">
+<div class="brand">Loona <span>計算機</span></div>
+<nav>
+<a href="../">ホーム</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">概要</a>
+<a href="../contact.html">連絡先</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona 計算機</a> › お金と旅行 › ETIAS対象チェッカー</div>
+<h1 class="pagetitle">🛂 ETIAS 資格チェッカー</h1>
+<p class="lead">三つの質問に答えてください — あなたの国籍グループ、行き先、期間 — シェンゲン圏での短期滞在にどの旅行認可が適用されるかを確認します：なし（EU/EEA/スイス市民）、ETIAS（ビザ免除の訪問者。制度が稼働次第）、または事前に申請するシェンゲンビザ。</p>
+<div class="exbox"><strong>クイックな答え：</strong> EU/EEA とスイスの市民は認可が不要です。ビザ免除の国からの訪問者（たとえば米国、英国、カナダ、オーストラリア、日本）はビザなしで旅行し、ETIAS が開始されれば ETIAS 認可が必要になります。その他のほとんどの国籍 — パキスタンとインドを含む — は旅行前にシェンゲンビザが必要です。</div>
+<div class="toolbox"><form class="calcform" id="etForm">
+<div class="fld"><label for="etNat">あなたのパスポート</label><select id="etNat"><option value="eu">EU／EEA の国またはスイス</option><option value="exempt" selected>ビザ免除の国（例：アメリカ、イギリス、カナダ、オーストラリア、日本、UAE、ブラジル）</option><option value="visa">ビザが必要な国（例：パキスタン、インド、中国、エジプト、ナイジェリア、バングラデシュ）</option><option value="resident">EU の居住許可／長期滞在ビザを持っています</option></select></div>
+<div class="fld"><label for="etDest">目的地</label><select id="etDest"><option value="schengen">シェンゲン国（例：フランス、ドイツ、スペイン、イタリア）</option><option value="ireland">アイルランド（シェンゲン圏外）</option></select></div>
+<div class="fld"><label for="etDays">計画された滞在（日）</label><input type="number" id="etDays" value="10" min="1" max="365"></div>
+<button class="calcbtn" type="submit">必要なものを確認する</button>
+<div class="calcresult" id="etResult" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>ETIAS対象チェッカーの使い方</h2><ol><li>あなたのパスポートが属するグループを選びます。</li><li>旅行先と、どれだけの長さを選びます。</li><li>どの認可が適用されるか — そして、予約する前に、公式の EU または国のサイトで常に確認してくださいを読みます。</li></ol>
+<div class="exbox"><strong>例：</strong> フランスへ10日間行く米国市民：今日はビザ免除で、制度が始まれば ETIAS グループ。フランスへ10日間行くパキスタン市民：事前にシェンゲン短期滞在ビザが必要。フランスへ行くドイツ市民：認可は一切なし。</div>
+<h2>よくある質問</h2></section><div class="faq"><h3>ETIAS とは、一文で何ですか？</h3><p>ETIAS は、シェンゲン圏へのビザ免除の訪問者のための EU の計画された旅行前認可です — 考え方は米国の ESTA に似ています — パスポートにリンクされ、旅行前に確認されます。</p></div><div class="faq"><h3>ETIAS はいつ始まり、費用はどれだけですか？</h3><p>EU は、開始を段階的に進めており、公的情報源は、時期によって異なる日付と数を引用してきました。そのため、このページは、開始日も料金も意図的に印刷しません。どちらかに頼る前に、europa.eu の公式 EU ETIAS ページで、現在の日付と料金を確認します。</p></div><div class="faq"><h3>ETIAS は 90/180 ルールに取って代わりますか？</h3><p>いいえ。ETIAS は旅行の認可です；90 日／180 日の制限は、滞在できる期間をまだ支配します。日自体を計画するには、このサイトのシェンゲン 90/180 計算機を使ってください。</p></div><div class="faq"><h3>居住許可または長期滞在ビザを持っています — これは私に当てはまりますか？</h3><p>一般的にはいいえ：居住者と長期滞在ビザ保有者は、短期滞在の認可システムではなく、許可の規則に従います。このチェッカーは短期の観光とビジネスの訪問のみを対象とします。</p></div><div class="faq"><h3>これは法的または移民の助言ですか？</h3><p>いいえ — 一般的な目安のみ。入国の決定は国境当局に委ねられ、あなたの正確な立場はあなたの文書によります。公式の情報源で確認してください。</p></div>
+<h2 class="sec">関連する計算機</h2><div class="grid"><a class="card" href="../schengen-calculator/"><div class="ic">🇪🇺</div><h3>シェンゲン90/180計算機</h3><p>日付と時刻</p></a><a class="card" href="../eu261-compensation-calculator/"><div class="ic">✈️</div><h3>EU261補償チェッカー</h3><p>お金と旅行</p></a></div>
+</div>
+<section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>仕組み — 公式</h2>
+<p>論理は、EU の短期滞在の枠組みに従います： <strong>EU/EEA／スイス市民</strong> 自由な移動を行使 — 許可なし。 <strong>ビザ免除の国民</strong> （附属書IIリスト。米国、英国、カナダ、オーストラリア、日本、UAE、ブラジルなどを含む）の人はビザなしで短期滞在に入国でき、ETIAS が作られているのはこのグループのためです。 <strong>ビザが必要な国民</strong> （附属書I。パキスタン、インド、中国、エジプト、ナイジェリア、バングラデシュを含む）の人は、旅行前に発行されたシェンゲンビザを所持しなければなりません。90日を超える滞在は、どちらの短期滞在ルートでも対象外で、国の長期滞在ビザか居住許可が必要です。アイルランドはシェンゲン圏外で独自の規則を運用しています。</p>
+<h3>実例</h3><div class="exbox"><p><strong>ケース 1:</strong> アメリカのパスポート、フランス、10 日 → ビザ免除グループ → ビザなしで今日旅行；システムがライブになったら、ETIAS の認可が必要になります；滞在は 90/180 の制限内に収まらなければなりません。</p><p><strong>ケース 2:</strong> パキスタンのパスポート、フランス、10 日 → ビザ必須グループ → 旅行前に領事館／ビザセンターでシェンゲン短期滞在ビザを申請。</p><p><strong>ケース 3:</strong> 任意のパスポート、フランス、120 日 → 短期滞在の上限を超える → 国の長期滞在ビザまたは居住許可が、すべての国籍グループにとっての道筋です。</p></div>
+<p class="resnote"><strong>規則の確認：2026年十一月8日。</strong> 旅行ルールは変わります — 旅行する前に、常に、公式の政府または EU の情報源で確認します。</p>
+</section>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">この計算機をあなたのウェブサイトに埋め込む — 無料</h2>
+<p style="margin:0 0 12px;line-height:1.6">この計算機を自分のウェブサイトやブログに加えましょう — 完全に無料で、登録は不要、常に最新バージョンが表示されます。下のコードをコピーして、計算機を表示したいページの場所に貼り付けます。埋め込みの下にある小さな &ldquo;Powered by Loona Automation&rdquo; のクレジット行を保持することは、このツールを無料に保つ助けになります &mdash; しかし、スタイルを変更したり削除したりしても自由です。ツールはどちらでも動作します。</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/ja/etias-eligibility-checker/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="ETIAS Eligibility Checker by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;提供 &lt;a href="https://loonaautomation.github.io/loona-calculators/ja/etias-eligibility-checker/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 無料の ETIAS対象チェッカー&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">埋め込みコードをコピーする</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='埋め込みコードをコピー';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>人気の計算機</h4><ul><li><a href="../age-calculator/">年齢計算機</a></li>
+<li><a href="../zakat-calculator/">ザカート計算機</a></li>
+<li><a href="../cgpa-calculator/">CGPA計算機</a></li>
+<li><a href="../percentage-calculator/">パーセント計算機</a></li>
+<li><a href="../hijri-date-converter/">ヒジュラ暦日付変換</a></li>
+<li><a href="../emi-calculator/">EMI・ローン計算機</a></li></ul></div>
+<div><h4>その他の Loona ツール</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR コード</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona 画像圧縮</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI アシスタント</a></li>
+<li><a href="https://loonaautomation.github.io/">すべての Loona ツール</a></li></ul></div>
+<div><h4>Loona 計算機</h4><ul>
+<li><a href="../about.html">概要</a></li>
+<li><a href="../contact.html">連絡先</a></li>
+<li><a href="../privacy-policy.html">プライバシーポリシー</a></li>
+<li><a href="../terms.html">利用規約</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona 計算機 —  <a href="https://loonaautomation.github.io/">Loona Automation</a> プロジェクト。無料のオンライン計算機、サインアップなし。
+連絡先： <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+function etiasCheck(nat,dest,days){
+  if(days>90)return {code:"longstay",text:"90日を超える滞在には、その国の長期滞在ビザまたは居住許可が必要です — 短期滞在の方法（ビザ免除旅行、ETIAS、シェンゲン短期滞在ビザ）では決してカバーされません。"};
+  if(dest==="ireland")return {code:"ireland",text:"アイルランドはシェンゲン圏に含まれず、ETIASの一部でもありません。アイルランドは独自のビザ制度を運用しています — アイルランドの入国管理を確認してください（英国またはアイルランド国民の場合は、英愛共通旅行区域にもご注意ください）。"};
+  if(nat==="eu")return {code:"none",text:"許可は不要です。EU/EEAおよびスイス国民は、シェンゲン諸国に対する自由移動の権利を持ちます。"};
+  if(nat==="resident")return {code:"resident",text:"あなたの居住許可／長期滞在ビザが旅行を規定します。ETIASや短期滞在ビザは、一般に居住者向けではありません — 許可証の旅行上の権利を確認してください。"};
+  if(nat==="exempt")return {code:"etias",text:"あなたはビザ免除グループです：90/180日の上限内で短期滞在をビザなしで旅行でき、ETIAS制度が開始されればETIAS許可が必要になります。このページでは、料金も開始日もあえて記載していません — どちらも公式発表で変更されているため、現在の数字は europa.eu で確認してください。"};
+  if(nat==="visa")return {code:"visa",text:"シェンゲン短期滞在ビザが必要です。主な目的地の国の領事館または公式ビザセンターで、事前に申請してください。ETIASはビザが必要な国籍の方には適用されません。"};
+  return null;
+}
+/*TESTABLE_END*/
+document.getElementById('etForm').addEventListener('submit',function(e){e.preventDefault();
+ var r=etiasCheck(document.getElementById('etNat').value,document.getElementById('etDest').value,parseInt(document.getElementById('etDays').value,10));
+ var box=document.getElementById('etResult'); box.style.display='block';
+ if(!r){box.innerHTML='<p class="err">すべての回答を入力してください。</p>';return;}
+ box.innerHTML='<div class="resbig"><span>あなたの状況</span><strong>'+r.code.toUpperCase()+'</strong></div><p style="font-size:15.5px">'+r.text+'</p><p class="resnote">ガイダンスのみであり、入国管理の助言ではありません。ルール確認日：2026年十一月8日 — 予約前に公式のEU／各国ソースで確認してください。</p>';});
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' アプリをインストール';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('このアプリをインストールするには：共有ボタンをタップし、「ホーム画面に追加」を選んでください。');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

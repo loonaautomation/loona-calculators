@@ -1,0 +1,29 @@
+{
+  "name": "Loona 貯蓄計算機",
+  "short_name": "貯蓄計算機",
+  "description": "無料の貯蓄計算機：月々の預金、金利、年数を入力すると、貯蓄の将来価値、預金総額、得た利息が見えます。",
+  "id": "/loona-calculators/ja/savings-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

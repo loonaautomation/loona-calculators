@@ -1,0 +1,29 @@
+{
+  "name": "Loona 二項分布計算機",
+  "short_name": "二項分布",
+  "description": "無料の二項分布計算機：成功確率 p の n 回の試行で、ちょうど k 回の成功、最大で k 回、少なくとも k 回の確率。教科書で確認された値。",
+  "id": "/loona-calculators/ja/binomial-distribution-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

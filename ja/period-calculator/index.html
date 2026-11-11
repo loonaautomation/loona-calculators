@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>月経計算機 — 次の月経、排卵、妊娠可能期間 | Loona 計算機</title>
+<meta name="description" content="無料の月経計算機：最終月経の初日と周期の長さを入力すると、次の月経、排卵日、妊娠可能期間が予測されます。教育目的の推定のみ。">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/ja/period-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/period-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/period-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/period-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/period-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/period-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/period-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/period-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/period-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/period-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/period-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/period-calculator/"><link rel="alternate" hreflang="ja" href="https://loonaautomation.github.io/loona-calculators/ja/period-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/period-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="月経計算機 — 次の月経、排卵、妊娠可能期間 | Loona 計算機">
+<meta property="og:description" content="無料の月経計算機：最終月経の初日と周期の長さを入力すると、次の月経、排卵日、妊娠可能期間が予測されます。教育目的の推定のみ。">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/ja/period-calculator/"><meta property="og:locale" content="ja_JP">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="月経計算機 — 次の月経、排卵、妊娠可能期間 | Loona 計算機">
+<meta name="twitter:description" content="無料の月経計算機：最終月経の初日と周期の長さを入力すると、次の月経、排卵日、妊娠可能期間が予測されます。教育目的の推定のみ。">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona 生理日計算機","url":"https://loonaautomation.github.io/loona-calculators/ja/period-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"次の月経日はどのように計算されますか？","acceptedAnswer":{"@type":"Answer","text":"それは、最終月経の初日に周期の長さ（日）を加えたものです。十月1日に始まる 28 日周期では、次の月経は十月29日に予測されます。"}},{"@type":"Question","name":"排卵はどのように推定されますか？","acceptedAnswer":{"@type":"Answer","text":"排卵は、予測される次の月経の 14 日前に推定されます。なぜなら、周期の後半（黄体期）は、ほとんどの人で約 14 日だからです。それは推定であり、測定ではありません。"}},{"@type":"Question","name":"妊娠可能な窓とは何ですか？","acceptedAnswer":{"@type":"Answer","text":"排卵前の 5 日と排卵日自体 — 合計 6 日。精子は約 5 日まで生き残ることができ、卵は約 24 時間生き残ります。そのため、多くのガイドでは、窓は排卵の翌日に終わります；この計算機は、排卵日に終わる標準の 6 日の窓と、結果の中で指摘された翌日を表示します。"}},{"@type":"Question","name":"この計算機は医学的助言ですか？","acceptedAnswer":{"@type":"Answer","text":"いいえ。それは平均の周期の計算に基づく教育的な推定です。周期は異なり、このツールは避妊として、または医学的助言の代替として使ってはなりません。個人の指導は医師に会ってください。"}},{"@type":"Question","name":"私のサイクルが不規則な場合はどうなりますか？","acceptedAnswer":{"@type":"Answer","text":"予測は信頼性が低くなります。最後の 3–6 周期の平均の周期の長さを使い、すべての日付を両側数日の大まかな範囲として扱ってください。"}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona 計算機",
+      "item": "https://loonaautomation.github.io/loona-calculators/ja/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "生理日計算機",
+      "item": "https://loonaautomation.github.io/loona-calculators/ja/period-calculator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation のロゴ">
+<div class="brand">Loona <span>計算機</span></div>
+<nav>
+<a href="../">ホーム</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">概要</a>
+<a href="../contact.html">連絡先</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona 計算機</a> › 健康 › 生理日計算機</div>
+<h1 class="pagetitle">🌸 月経計算機</h1>
+<p class="lead">最終月経の初日と通常の周期の長さを入力すると、次の月経日、推定の排卵日、次の三周期の妊娠可能期間が予測されます。</p>
+<div class="exbox"><strong>クイックな答え：</strong> あなたの次の月経は、あなたの最後の月経の初日プラス、あなたのサイクルの長さとして推定されます。排卵は、次の月経の約 14 日前に推定されます。そして、妊娠可能な窓は、排卵の前の 5 日プラス、排卵の日自体です。</div>
+<div class="toolbox"><form class="calcform" id="perForm">
+<div class="fld"><label for="perLmp">最終月経の初日</label><input type="date" id="perLmp" required></div>
+<div class="fld"><label for="perCycle">通常のサイクルの長さ（日）</label><input type="number" id="perCycle" value="28" min="15" max="60"></div>
+<div class="fld"><label for="perLen">月経期間（日）</label><input type="number" id="perLen" value="5" min="1" max="14"></div>
+<button class="calcbtn" type="submit">計算する</button>
+<div class="calcresult" id="perResult" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>生理日計算機の使い方</h2><ol><li>最終月経（LMP）の初日を入力してください。</li><li>通常の周期の長さを日数で入力してください（21–35 が典型的、28 が平均です）。</li><li>月経が通常何日続くかを入力してください。</li><li>計算を押すと、次の月経、月経終了日、排卵、妊娠可能期間、さらに続く二つの予測される月経が見えます。</li></ol>
+<div class="exbox"><strong>例：</strong> 最終月経 2026年十月1日、28 日周期：次の月経は 2026年十月29日に予測され、排卵は 2026年十月15日頃、妊娠可能期間は 2026年十月10–16日に走ります。</div>
+<h2>よくある質問</h2></section><div class="faq"><h3>次の月経日はどのように計算されますか？</h3><p>それは、最終月経の初日に周期の長さ（日）を加えたものです。十月1日に始まる 28 日周期では、次の月経は十月29日に予測されます。</p></div><div class="faq"><h3>排卵はどのように推定されますか？</h3><p>排卵は、予測される次の月経の 14 日前に推定されます。なぜなら、周期の後半（黄体期）は、ほとんどの人で約 14 日だからです。それは推定であり、測定ではありません。</p></div><div class="faq"><h3>妊娠可能な窓とは何ですか？</h3><p>排卵前の 5 日と排卵日自体 — 合計 6 日。精子は約 5 日まで生き残ることができ、卵は約 24 時間生き残ります。そのため、多くのガイドでは、窓は排卵の翌日に終わります；この計算機は、排卵日に終わる標準の 6 日の窓と、結果の中で指摘された翌日を表示します。</p></div><div class="faq"><h3>この計算機は医学的助言ですか？</h3><p>いいえ。それは平均の周期の計算に基づく教育的な推定です。周期は異なり、このツールは避妊として、または医学的助言の代替として使ってはなりません。個人の指導は医師に会ってください。</p></div><div class="faq"><h3>私のサイクルが不規則な場合はどうなりますか？</h3><p>予測は信頼性が低くなります。最後の 3–6 周期の平均の周期の長さを使い、すべての日付を両側数日の大まかな範囲として扱ってください。</p></div>
+<h2 class="sec">関連する計算機</h2><div class="grid"><a class="card" href="../bmi-calculator/"><div class="ic">⚖️</div><h3>BMI計算機</h3><p>健康</p></a><a class="card" href="../bmr-calculator/"><div class="ic">🔥</div><h3>BMR・TDEE計算機</h3><p>健康</p></a><a class="card" href="../calorie-calculator/"><div class="ic">🍽️</div><h3>カロリー計算機</h3><p>健康</p></a><a class="card" href="../pregnancy-due-date-calculator/"><div class="ic">🤰</div><h3>出産予定日計算機</h3><p>健康</p></a><a class="card" href="../ovulation-calculator/"><div class="ic">🌸</div><h3>排卵日計算機</h3><p>健康</p></a><a class="card" href="../conception-calculator/"><div class="ic">👶</div><h3>受胎日計算機</h3><p>健康</p></a></div>
+</div>
+<section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>仕組み — 公式</h2>
+<p><strong>次の月経 = LMP + 周期の長さ。</strong> <strong>排卵 = 次の月経 − 14 日。</strong> <strong>妊娠可能期間 = 排卵 − 5 日 から 排卵日</strong> （翌日も表示されます。卵子は約24時間生存できるためです）。予測される生理終了日は LMP + 生理期間 − 1日。同じ周期の長さをもう一度加えて、二回目と三回目の将来の生理を予測します。</p>
+<h3>実例</h3><div class="exbox"><p><strong>入力：</strong> LMP 2026年十月1日、周期 28 日、月経期間 5 日。</p><p><strong>ステップ：</strong> 次の月経 = 十月1日 + 28 日 = <strong>29 日（2026 年十月）</strong>。排卵 = 十月29日 − 14日 = <strong>15 日（2026 年十月）</strong>。妊娠可能期間 = 十月15日 − 5日 = 十月10日から十月15日（計算機では十月16日も注記します）。生理終了日 = 十月1日 + 5 − 1 = 2026年十月5日。次の生理：十月29日 + 28 = 2026年十一月26日、その次は2026年十二月24日。</p><p><strong>結果：</strong> 次の月経 <strong>29 日（2026 年十月）</strong>、排卵 <strong>15 日（2026 年十月）</strong>.</p></div>
+<p class="resnote"><strong>健康免責事項：</strong> これは、教育的な推定のみであり、医学的な助言ではありません。それは、避妊や妊娠計画の決定のために、それ自体で頼ってはなりません。個人的な助言については、資格のある医療専門家に相談します。</p>
+</section>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">この計算機をあなたのウェブサイトに埋め込む — 無料</h2>
+<p style="margin:0 0 12px;line-height:1.6">この計算機を自分のウェブサイトやブログに加えましょう — 完全に無料で、登録は不要、常に最新バージョンが表示されます。下のコードをコピーして、計算機を表示したいページの場所に貼り付けます。埋め込みの下にある小さな &ldquo;Powered by Loona Automation&rdquo; のクレジット行を保持することは、このツールを無料に保つ助けになります &mdash; しかし、スタイルを変更したり削除したりしても自由です。ツールはどちらでも動作します。</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/ja/period-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Period Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;提供 &lt;a href="https://loonaautomation.github.io/loona-calculators/ja/period-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 無料の 生理日計算機&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">埋め込みコードをコピーする</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='埋め込みコードをコピー';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>人気の計算機</h4><ul><li><a href="../age-calculator/">年齢計算機</a></li>
+<li><a href="../zakat-calculator/">ザカート計算機</a></li>
+<li><a href="../cgpa-calculator/">CGPA計算機</a></li>
+<li><a href="../percentage-calculator/">パーセント計算機</a></li>
+<li><a href="../hijri-date-converter/">ヒジュラ暦日付変換</a></li>
+<li><a href="../emi-calculator/">EMI・ローン計算機</a></li></ul></div>
+<div><h4>その他の Loona ツール</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR コード</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona 画像圧縮</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI アシスタント</a></li>
+<li><a href="https://loonaautomation.github.io/">すべての Loona ツール</a></li></ul></div>
+<div><h4>Loona 計算機</h4><ul>
+<li><a href="../about.html">概要</a></li>
+<li><a href="../contact.html">連絡先</a></li>
+<li><a href="../privacy-policy.html">プライバシーポリシー</a></li>
+<li><a href="../terms.html">利用規約</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona 計算機 —  <a href="https://loonaautomation.github.io/">Loona Automation</a> プロジェクト。無料のオンライン計算機、サインアップなし。
+連絡先： <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+function dUTC(isoStr){var p=isoStr.split("-");return Date.UTC(+p[0],+p[1]-1,+p[2]);}
+function isoUTC(ms){var d=new Date(ms);return d.getUTCFullYear()+"-"+String(d.getUTCMonth()+1).padStart(2,"0")+"-"+String(d.getUTCDate()).padStart(2,"0");}
+function addDaysISO(isoStr,n){return isoUTC(dUTC(isoStr)+n*86400000);}
+function periodCalc(lmp,cycle,plen){
+  if(!lmp||!(cycle>=15&&cycle<=60)||!(plen>=1&&plen<=14)) return null;
+  var next=addDaysISO(lmp,cycle), ov=addDaysISO(next,-14);
+  return {nextPeriod:next, periodEnd:addDaysISO(lmp,plen-1), ovulation:ov,
+    fertileStart:addDaysISO(ov,-5), fertileEnd:ov, fertileEndPlus1:addDaysISO(ov,1),
+    next2:addDaysISO(next,cycle), next3:addDaysISO(next,2*cycle)};
+}
+/*TESTABLE_END*/
+function fmtD(isoStr){var M=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];var W=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];var d=new Date(dUTC(isoStr));return W[d.getUTCDay()]+", "+d.getUTCDate()+" "+M[d.getUTCMonth()]+" "+d.getUTCFullYear();}
+document.getElementById('perForm').addEventListener('submit',function(e){e.preventDefault();
+ var r=periodCalc(document.getElementById('perLmp').value, parseInt(document.getElementById('perCycle').value,10), parseInt(document.getElementById('perLen').value,10));
+ var box=document.getElementById('perResult'); box.style.display='block';
+ if(!r){box.innerHTML='<p class="err">有効な最終月経日、15–60日の周期、1–14日の月経期間を入力してください。</p>';return;}
+ box.innerHTML='<div class="resbig"><span>次回月経の予測</span><strong>'+fmtD(r.nextPeriod)+'</strong></div>'
+ +'<table class="restbl">'
+ +'<tr><td>現在の月経の終了</td><td><strong>'+fmtD(r.periodEnd)+'</strong></td></tr>'
+ +'<tr><td>推定排卵</td><td><strong>'+fmtD(r.ovulation)+'</strong></td></tr>'
+ +'<tr><td>妊娠可能期間</td><td><strong>'+fmtD(r.fertileStart)+' – '+fmtD(r.fertileEnd)+'</strong></td></tr>'
+ +'<tr><td>その次の月経</td><td><strong>'+fmtD(r.next2)+'</strong></td></tr>'
+ +'<tr><td>さらにその次の月経</td><td><strong>'+fmtD(r.next3)+'</strong></td></tr></table>'
+ +'<p class="resnote">卵子は排卵後約24時間生存できるため、'+fmtD(r.fertileEndPlus1)+' も多くのガイドで最後の妊娠可能日として示されています。見積もりのみです — 周期は異なり、これは医学的助言でも避妊方法でもありません。</p>';});
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' アプリをインストール';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('このアプリをインストールするには：共有ボタンをタップし、「ホーム画面に追加」を選んでください。');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

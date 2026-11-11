@@ -1,0 +1,29 @@
+{
+  "name": "Loona 印刷用カレンダー生成ツール",
+  "short_name": "印刷用カレンダー生成ツール",
+  "description": "無料の印刷可能なカレンダー生成ツール：任意の月と年（または一年分）を選んで、印刷できるきれいなカレンダーグリッドを生成します。月曜日または日曜日開始。",
+  "id": "/loona-calculators/ja/printable-calendar-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

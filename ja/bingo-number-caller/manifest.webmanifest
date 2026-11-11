@@ -1,0 +1,29 @@
+{
+  "name": "Loona ビンゴ番号コーラー",
+  "short_name": "ビンゴ番号コーラー",
+  "description": "無料のビンゴ番号コーラー（75ボール（B-I-N-G-O）と90ボールゲーム向け）：繰り返しなく番号を描き、現在のボールを大きく表示し、呼ばれたすべての番号をボードで追跡します。",
+  "id": "/loona-calculators/ja/bingo-number-caller/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

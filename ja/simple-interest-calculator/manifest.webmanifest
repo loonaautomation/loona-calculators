@@ -1,0 +1,29 @@
+{
+  "name": "Loona 単利計算機",
+  "short_name": "単利計算機",
+  "description": "無料の単利計算機：元金、年率、期間（年と月）を入力すると、得た利息と総額が計算されます。簡単な公式 I = P×R×T/100。",
+  "id": "/loona-calculators/ja/simple-interest-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

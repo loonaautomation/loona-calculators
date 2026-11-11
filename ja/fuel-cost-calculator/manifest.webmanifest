@@ -1,0 +1,29 @@
+{
+  "name": "Loona 燃料費計算機",
+  "short_name": "燃料費計算機",
+  "description": "無料の燃料費計算機：距離、車の走行距離、燃料価格を入力すると、必要なリットルと旅行の総コストが得られます。往復のオプション付き。",
+  "id": "/loona-calculators/ja/fuel-cost-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

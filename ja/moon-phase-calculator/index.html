@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>月の位相計算機 — 任意の日付の位相、照度、月の齢 | Loona</title>
+<meta name="description" content="無料の月の位相計算機：任意の日付を入力すると、月の位相の名前、照度パーセンテージ、月の齢、次の新月と満月までの日数がわかります。">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/ja/moon-phase-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/moon-phase-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/moon-phase-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/moon-phase-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/moon-phase-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/moon-phase-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/moon-phase-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/moon-phase-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/moon-phase-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/moon-phase-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/moon-phase-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/moon-phase-calculator/"><link rel="alternate" hreflang="ja" href="https://loonaautomation.github.io/loona-calculators/ja/moon-phase-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/moon-phase-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="月の位相計算機 — 任意の日付の位相、照度、月の齢 | Loona">
+<meta property="og:description" content="無料の月の位相計算機：任意の日付を入力すると、月の位相の名前、照度パーセンテージ、月の齢、次の新月と満月までの日数がわかります。">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/ja/moon-phase-calculator/"><meta property="og:locale" content="ja_JP">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="月の位相計算機 — 任意の日付の位相、照度、月の齢 | Loona">
+<meta name="twitter:description" content="無料の月の位相計算機：任意の日付を入力すると、月の位相の名前、照度パーセンテージ、月の齢、次の新月と満月までの日数がわかります。">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona 月齢計算機","url":"https://loonaautomation.github.io/loona-calculators/ja/moon-phase-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"この計算機はどのくらい正確ですか？","acceptedAnswer":{"@type":"Answer","text":"それは、2000年一月6日（18:14 UTC）の既知の新月に固定された、標準の朔望月の近似を使います。位相の名前と照度は通常、約半日／数パーセント以内で正確です — 計画、写真、好奇心には十分ですが、天文学級の作業には向きません。"}},{"@type":"Question","name":"なぜ、同じ月相は、南半球では反転して見えるのですか？","acceptedAnswer":{"@type":"Answer","text":"位相自体は、同じ瞬間に世界中で同一です；その見かけの向きだけが回転します。南半球では、照らされた側は、北の観察者が右に見る場所に、左に現れます。"}},{"@type":"Question","name":"ブルームーンやスーパームーンとは何ですか？","acceptedAnswer":{"@type":"Answer","text":"ブルームーンは一つの暦月の中の二回目の満月です — 色ではなく名前の癖です。スーパームーンは、月が地球に最接近する（近地点）近くの満月であり、この単純な周期計算機はそれをモデル化しません。"}},{"@type":"Question","name":"月の位相は潮汐や睡眠に影響しますか？","acceptedAnswer":{"@type":"Answer","text":"潮汐は、重力的に月（と太陽）に従い、新月と満月の近くで最も強いです。睡眠と行動についての主張は、科学的にははるかに弱いです — 計算機は、天文学に留まります。"}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona 計算機",
+      "item": "https://loonaautomation.github.io/loona-calculators/ja/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "月齢計算機",
+      "item": "https://loonaautomation.github.io/loona-calculators/ja/moon-phase-calculator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation のロゴ">
+<div class="brand">Loona <span>計算機</span></div>
+<nav>
+<a href="../">ホーム</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">概要</a>
+<a href="../contact.html">連絡先</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona 計算機</a> › 日付と時刻 › 月齢計算機</div>
+<h1 class="pagetitle">🌙 月相計算機</h1>
+<p class="lead">任意の日付を入力すると、その夜に月がどう見えるかがわかります：その位相の名前、その顔のどれだけが照らされているか、太陰周期での齢、そして次の新月と満月まで何日残っているか。</p>
+<div class="exbox"><strong>クイックな答え：</strong> 月は、29.53 日ごとにサイクルします。その年齢は、最後の新月から数えられます：7.4 日頃に上弦、14.8 日に満月、22.1 日に下弦。照度 ≈ (1 − cos(2π × 年齢 ÷ 29.53)) ÷ 2。</div>
+<div class="toolbox"><form class="calcform" id="mnForm">
+<div class="fld"><label for="mnDate">日付</label><input type="date" id="mnDate" required></div>
+<button class="calcbtn" type="submit">月の位相を表示</button>
+<div class="calcresult" id="mnResult" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>月齢計算機の使い方</h2><ol><li>関心のある日付を入力してください（今日が入力されています）。</li><li>位相の名前、照度、月の齢、次の満月と新月までのカウントダウンを読みます。</li></ol>
+<div class="exbox"><strong>例：</strong> 2026年十一月8日の正午 UTC、月の齢は約 28.1 日 — 約 2% 点灯した衰えゆく三日月で、次の新月の約 1.4 日前です。</div>
+<h2>よくある質問</h2></section><div class="faq"><h3>この計算機はどのくらい正確ですか？</h3><p>それは、2000年一月6日（18:14 UTC）の既知の新月に固定された、標準の朔望月の近似を使います。位相の名前と照度は通常、約半日／数パーセント以内で正確です — 計画、写真、好奇心には十分ですが、天文学級の作業には向きません。</p></div><div class="faq"><h3>なぜ、同じ月相は、南半球では反転して見えるのですか？</h3><p>位相自体は、同じ瞬間に世界中で同一です；その見かけの向きだけが回転します。南半球では、照らされた側は、北の観察者が右に見る場所に、左に現れます。</p></div><div class="faq"><h3>ブルームーンやスーパームーンとは何ですか？</h3><p>ブルームーンは一つの暦月の中の二回目の満月です — 色ではなく名前の癖です。スーパームーンは、月が地球に最接近する（近地点）近くの満月であり、この単純な周期計算機はそれをモデル化しません。</p></div><div class="faq"><h3>月の位相は潮汐や睡眠に影響しますか？</h3><p>潮汐は、重力的に月（と太陽）に従い、新月と満月の近くで最も強いです。睡眠と行動についての主張は、科学的にははるかに弱いです — 計算機は、天文学に留まります。</p></div>
+<h2 class="sec">関連する計算機</h2><div class="grid"><a class="card" href="../date-calculator/"><div class="ic">📆</div><h3>日付計算機</h3><p>日付と時刻</p></a><a class="card" href="../days-between-dates-calculator/"><div class="ic">🗓️</div><h3>日数計算</h3><p>日付と時刻</p></a><a class="card" href="../age-calculator/"><div class="ic">📅</div><h3>年齢計算機</h3><p>日付と時刻</p></a><a class="card" href="../working-days-calculator/"><div class="ic">🏢</div><h3>営業日計算機</h3><p>日付と時刻</p></a></div>
+</div>
+<section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>仕組み — 公式</h2>
+<p>月の齢 = （日付 − 参照の新月）mod 29.530588853 日。参照の新月は 2000年一月6日、18:14 UTC。 <strong>照度 = (1 − cos(2π × 齢 ÷ 29.530588853)) ÷ 2。</strong> 位相の名前は、周期を約 3.69 日の 8 つの等しい部分に分けます：新月、膨らむ三日月、上弦、膨らむ凸月、満月、欠ける凸月、下弦、欠ける三日月。</p>
+<h3>実例</h3><div class="exbox"><p><strong>入力：</strong> 8 Nov 2026, 12:00 UTC.</p><p><strong>ステップ：</strong> 2000年一月6日 18:14 UTC 以来の日数 ≈ 9,802.74。29.530588853 で割ります：331 の完全な周期（9,774.63 日）で余り ≈ 28.1 日 — 月の齢。照度 = (1 − cos(2π × 28.1 ÷ 29.53)) ÷ 2 = (1 − cos(342.9°)) ÷ 2 ≈ (1 − 0.956) ÷ 2 ≈ 0.022 → 2%。</p><p><strong>結果：</strong> <strong>欠けていく三日月、約 2% 照らされる</strong>、次の新月は約 29.53 − 28.1 = 1.4 日後です。</p></div>
+
+</section>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">この計算機をあなたのウェブサイトに埋め込む — 無料</h2>
+<p style="margin:0 0 12px;line-height:1.6">この計算機を自分のウェブサイトやブログに加えましょう — 完全に無料で、登録は不要、常に最新バージョンが表示されます。下のコードをコピーして、計算機を表示したいページの場所に貼り付けます。埋め込みの下にある小さな &ldquo;Powered by Loona Automation&rdquo; のクレジット行を保持することは、このツールを無料に保つ助けになります &mdash; しかし、スタイルを変更したり削除したりしても自由です。ツールはどちらでも動作します。</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/ja/moon-phase-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Moon Phase Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;提供 &lt;a href="https://loonaautomation.github.io/loona-calculators/ja/moon-phase-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 無料の 月齢計算機&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">埋め込みコードをコピーする</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='埋め込みコードをコピー';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>人気の計算機</h4><ul><li><a href="../age-calculator/">年齢計算機</a></li>
+<li><a href="../zakat-calculator/">ザカート計算機</a></li>
+<li><a href="../cgpa-calculator/">CGPA計算機</a></li>
+<li><a href="../percentage-calculator/">パーセント計算機</a></li>
+<li><a href="../hijri-date-converter/">ヒジュラ暦日付変換</a></li>
+<li><a href="../emi-calculator/">EMI・ローン計算機</a></li></ul></div>
+<div><h4>その他の Loona ツール</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR コード</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona 画像圧縮</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI アシスタント</a></li>
+<li><a href="https://loonaautomation.github.io/">すべての Loona ツール</a></li></ul></div>
+<div><h4>Loona 計算機</h4><ul>
+<li><a href="../about.html">概要</a></li>
+<li><a href="../contact.html">連絡先</a></li>
+<li><a href="../privacy-policy.html">プライバシーポリシー</a></li>
+<li><a href="../terms.html">利用規約</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona 計算機 —  <a href="https://loonaautomation.github.io/">Loona Automation</a> プロジェクト。無料のオンライン計算機、サインアップなし。
+連絡先： <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+var SYNODIC=29.530588853;
+var NEW_MOON_REF=Date.UTC(2000,0,6,18,14)/86400000;
+function moonCalc(dateISO){
+  if(!dateISO)return null;
+  var p=dateISO.split("-"); var d=Date.UTC(+p[0],+p[1]-1,+p[2],12)/86400000;
+  var age=(d-NEW_MOON_REF)%SYNODIC; if(age<0)age+=SYNODIC;
+  var illum=(1-Math.cos(2*Math.PI*age/SYNODIC))/2;
+  var names=["New Moon","Waxing Crescent","First Quarter","Waxing Gibbous","Full Moon","Waning Gibbous","Last Quarter","Waning Crescent"];
+  var idx=Math.floor((age/SYNODIC)*8)%8;
+  return {age:age,illumination:illum,phase:names[idx],toNew:SYNODIC-age,toFull:(age<=SYNODIC/2)?(SYNODIC/2-age):(SYNODIC/2-age+SYNODIC)};
+}
+/*TESTABLE_END*/
+document.getElementById('mnDate').value=new Date().toISOString().slice(0,10);
+document.getElementById('mnForm').addEventListener('submit',function(e){e.preventDefault();
+ var r=moonCalc(document.getElementById('mnDate').value);
+ var box=document.getElementById('mnResult'); box.style.display='block';
+ if(!r){box.innerHTML='<p class="err">日付を選んでください。</p>';return;}
+ var emoji=r.phase.indexOf("New")===0?"🌑":r.phase.indexOf("Full")===0?"🌕":r.phase.indexOf("First")===0?"🌓":r.phase.indexOf("Last")===0?"🌗":r.phase.indexOf("Waxing Crescent")===0?"🌒":r.phase.indexOf("Waxing Gibbous")===0?"🌔":r.phase.indexOf("Waning Gibbous")===0?"🌖":"🌘";
+ box.innerHTML='<div class="resbig"><span>'+emoji+' 相</span><strong>'+r.phase+'</strong></div>'
+ +'<table class="restbl"><tr><td>輝面率</td><td><strong>'+(r.illumination*100).toFixed(1)+'%</strong></td></tr>'
+ +'<tr><td>月齢</td><td><strong>'+r.age.toFixed(1)+' 日</strong></td></tr>'
+ +'<tr><td>次の新月まで</td><td><strong>'+r.toNew.toFixed(1)+' 日</strong></td></tr>'
+ +'<tr><td>次の満月まで</td><td><strong>'+r.toFull.toFixed(1)+' 日</strong></td></tr></table>'
+ +'<p class="resnote">平均的な月の周期に基づく近似です — おおよそ半日程度の精度です。</p>';});
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' アプリをインストール';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('このアプリをインストールするには：共有ボタンをタップし、「ホーム画面に追加」を選んでください。');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

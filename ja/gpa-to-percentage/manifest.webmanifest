@@ -1,0 +1,29 @@
+{
+  "name": "Loona GPAからパーセントへの変換計算機",
+  "short_name": "GPAからパーセントへの変換計算機",
+  "description": "GPA をパーセンテージに変換し、戻します：米 4.0 スケールの帯、インド CBSE（CGPA × 9.5）、インドの大学（× 10）、英国の学位分類。各々にラベル付き。",
+  "id": "/loona-calculators/ja/gpa-to-percentage/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

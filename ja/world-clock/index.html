@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>世界時計 — 24 の主要都市の現在の時刻、ライブ | Loona 計算機</title>
+<meta name="description" content="無料のライブ世界時計：ロンドン、ニューヨーク、ドバイ、カラチ、東京を含む 24 の主要都市の現在の現地時刻と日付。タイムゾーンを介して毎秒更新。">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/ja/world-clock/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/world-clock/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/world-clock/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/world-clock/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/world-clock/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/world-clock/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/world-clock/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/world-clock/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/world-clock/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/world-clock/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/world-clock/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/world-clock/"><link rel="alternate" hreflang="ja" href="https://loonaautomation.github.io/loona-calculators/ja/world-clock/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/world-clock/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="世界時計 — 24 の主要都市の現在の時刻、ライブ | Loona 計算機">
+<meta property="og:description" content="無料のライブ世界時計：ロンドン、ニューヨーク、ドバイ、カラチ、東京を含む 24 の主要都市の現在の現地時刻と日付。タイムゾーンを介して毎秒更新。">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/ja/world-clock/"><meta property="og:locale" content="ja_JP">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="世界時計 — 24 の主要都市の現在の時刻、ライブ | Loona 計算機">
+<meta name="twitter:description" content="無料のライブ世界時計：ロンドン、ニューヨーク、ドバイ、カラチ、東京を含む 24 の主要都市の現在の現地時刻と日付。タイムゾーンを介して毎秒更新。">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona 世界時計","url":"https://loonaautomation.github.io/loona-calculators/ja/world-clock/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"世界時計はどのように正確を保ちますか？","acceptedAnswer":{"@type":"Answer","text":"それは、デバイスの時計を毎秒一度読み、その瞬間を、ブラウザに組み込まれた Intl API を使って各都市の IANA タイムゾーンに変換します。夏時間を含むタイムゾーンのルールは、オペレーティングシステムが使うのと同じデータベースから来ます。"}},{"@type":"Question","name":"なぜ、日付は、別の都市では異なることがあるのですか？","acceptedAnswer":{"@type":"Answer","text":"日の境界が都市の間に位置するためです：オークランドで早朝のとき、ロサンゼルスはまだ前日の午後です。そのため、各カードは市の時間とともに、その市自身の日付も表示します。"}},{"@type":"Question","name":"これは Loona Hours のタイムゾーン変換と同じですか？","acceptedAnswer":{"@type":"Answer","text":"いいえ。そのツールは、二つのゾーンの間で選ばれた一つの時刻を変換します。このページは、一目で 24 都市の現在の時刻のライブボードです。このサイトの既存の時間計算機は期間を加算・減算します — また異なる仕事です。"}},{"@type":"Question","name":"時刻が間違って見える場合はどうなりますか？","acceptedAnswer":{"@type":"Answer","text":"まずデバイスの時計を確認してください — 変換は正確ですが、デバイスの現在の瞬間から始まります。ブラウザはオペレーティングシステムからタイムゾーンのルールを取得します。そのため最新に保ってください。"}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+
+.clockgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px}.clockcard{background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:13px 15px}.clockcard h3{color:var(--teal);font-size:15px;margin-bottom:3px}.clocktime{font-size:23px;font-weight:800;color:var(--ink);font-variant-numeric:tabular-nums}.clockdate{font-size:13px;color:var(--mut)}</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona 計算機",
+      "item": "https://loonaautomation.github.io/loona-calculators/ja/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "世界時計",
+      "item": "https://loonaautomation.github.io/loona-calculators/ja/world-clock/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation のロゴ">
+<div class="brand">Loona <span>計算機</span></div>
+<nav>
+<a href="../">ホーム</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">概要</a>
+<a href="../contact.html">連絡先</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona 計算機</a> › 日付と時刻 › 世界時計</div>
+<h1 class="pagetitle">🌍 世界時計</h1>
+<p class="lead">世界中の 24 の主要都市における現在の現地時刻。一秒ごとに更新されます。時刻は、あなたの自身のデバイスの時計と、公式の IANA タイムゾーンデータベースを組み合わせたものから来ます。そのため、夏時間の変更は自動的に処理されます。</p>
+<div class="exbox"><strong>クイックな答え：</strong> 世界時計は他のタイムゾーンの現在時刻を表示します。たとえば、冬のロンドンで正午 12:00 のとき、カラチでは 17:00、ドバイでは 16:00、ニューヨークでは 07:00、東京では 21:00 です。</div>
+<div class="toolbox"><div class="clockgrid"><div class="clockcard"><h3>ロンドン</h3><div class="clocktime" data-tz="Europe/London">--:--:--</div><div class="clockdate" data-tzdate="Europe/London"></div></div><div class="clockcard"><h3>パリ／ベルリン</h3><div class="clocktime" data-tz="Europe/Paris">--:--:--</div><div class="clockdate" data-tzdate="Europe/Paris"></div></div><div class="clockcard"><h3>カラチ</h3><div class="clocktime" data-tz="Asia/Karachi">--:--:--</div><div class="clockdate" data-tzdate="Asia/Karachi"></div></div><div class="clockcard"><h3>ドバイ</h3><div class="clocktime" data-tz="Asia/Dubai">--:--:--</div><div class="clockdate" data-tzdate="Asia/Dubai"></div></div><div class="clockcard"><h3>ムンバイ</h3><div class="clocktime" data-tz="Asia/Kolkata">--:--:--</div><div class="clockdate" data-tzdate="Asia/Kolkata"></div></div><div class="clockcard"><h3>ダッカ</h3><div class="clocktime" data-tz="Asia/Dhaka">--:--:--</div><div class="clockdate" data-tzdate="Asia/Dhaka"></div></div><div class="clockcard"><h3>バンコク</h3><div class="clocktime" data-tz="Asia/Bangkok">--:--:--</div><div class="clockdate" data-tzdate="Asia/Bangkok"></div></div><div class="clockcard"><h3>シンガポール</h3><div class="clocktime" data-tz="Asia/Singapore">--:--:--</div><div class="clockdate" data-tzdate="Asia/Singapore"></div></div><div class="clockcard"><h3>香港</h3><div class="clocktime" data-tz="Asia/Hong_Kong">--:--:--</div><div class="clockdate" data-tzdate="Asia/Hong_Kong"></div></div><div class="clockcard"><h3>東京</h3><div class="clocktime" data-tz="Asia/Tokyo">--:--:--</div><div class="clockdate" data-tzdate="Asia/Tokyo"></div></div><div class="clockcard"><h3>シドニー</h3><div class="clocktime" data-tz="Australia/Sydney">--:--:--</div><div class="clockdate" data-tzdate="Australia/Sydney"></div></div><div class="clockcard"><h3>オークランド</h3><div class="clocktime" data-tz="Pacific/Auckland">--:--:--</div><div class="clockdate" data-tzdate="Pacific/Auckland"></div></div><div class="clockcard"><h3>ニューヨーク</h3><div class="clocktime" data-tz="America/New_York">--:--:--</div><div class="clockdate" data-tzdate="America/New_York"></div></div><div class="clockcard"><h3>シカゴ</h3><div class="clocktime" data-tz="America/Chicago">--:--:--</div><div class="clockdate" data-tzdate="America/Chicago"></div></div><div class="clockcard"><h3>デンバー</h3><div class="clocktime" data-tz="America/Denver">--:--:--</div><div class="clockdate" data-tzdate="America/Denver"></div></div><div class="clockcard"><h3>ロサンゼルス</h3><div class="clocktime" data-tz="America/Los_Angeles">--:--:--</div><div class="clockdate" data-tzdate="America/Los_Angeles"></div></div><div class="clockcard"><h3>トロント</h3><div class="clocktime" data-tz="America/Toronto">--:--:--</div><div class="clockdate" data-tzdate="America/Toronto"></div></div><div class="clockcard"><h3>メキシコシティ</h3><div class="clocktime" data-tz="America/Mexico_City">--:--:--</div><div class="clockdate" data-tzdate="America/Mexico_City"></div></div><div class="clockcard"><h3>サンパウロ</h3><div class="clocktime" data-tz="America/Sao_Paulo">--:--:--</div><div class="clockdate" data-tzdate="America/Sao_Paulo"></div></div><div class="clockcard"><h3>カイロ</h3><div class="clocktime" data-tz="Africa/Cairo">--:--:--</div><div class="clockdate" data-tzdate="Africa/Cairo"></div></div><div class="clockcard"><h3>ヨハネスブルグ</h3><div class="clocktime" data-tz="Africa/Johannesburg">--:--:--</div><div class="clockdate" data-tzdate="Africa/Johannesburg"></div></div><div class="clockcard"><h3>モスクワ</h3><div class="clocktime" data-tz="Europe/Moscow">--:--:--</div><div class="clockdate" data-tzdate="Europe/Moscow"></div></div><div class="clockcard"><h3>イスタンブール</h3><div class="clocktime" data-tz="Europe/Istanbul">--:--:--</div><div class="clockdate" data-tzdate="Europe/Istanbul"></div></div><div class="clockcard"><h3>リヤド</h3><div class="clocktime" data-tz="Asia/Riyadh">--:--:--</div><div class="clockdate" data-tzdate="Asia/Riyadh"></div></div></div><p class="resnote" id="wcLocal"></p></div>
+<section class="txt"><h2>世界時計の使い方</h2><ol><li>ページを開きます — 入力は不要です。</li><li>グリッドであなたの都市を見つけてください。時刻と日付は毎秒更新されます。</li><li>各都市の下のオフセットラインを使って、あなたの自身の現地時刻と比較します。</li></ol>
+<div class="exbox"><strong>例：</strong> 2026年一月15日 12:00:00 UTC には、時計はロンドン 12:00、カラチ 17:00、ドバイ 16:00、ニューヨーク 07:00、東京 21:00 を表示します — 同じ瞬間、五つの異なる現地時間。</div>
+<h2>よくある質問</h2></section><div class="faq"><h3>世界時計はどのように正確を保ちますか？</h3><p>それは、デバイスの時計を毎秒一度読み、その瞬間を、ブラウザに組み込まれた Intl API を使って各都市の IANA タイムゾーンに変換します。夏時間を含むタイムゾーンのルールは、オペレーティングシステムが使うのと同じデータベースから来ます。</p></div><div class="faq"><h3>なぜ、日付は、別の都市では異なることがあるのですか？</h3><p>日の境界が都市の間に位置するためです：オークランドで早朝のとき、ロサンゼルスはまだ前日の午後です。そのため、各カードは市の時間とともに、その市自身の日付も表示します。</p></div><div class="faq"><h3>これは Loona Hours のタイムゾーン変換と同じですか？</h3><p>いいえ。そのツールは、二つのゾーンの間で選ばれた一つの時刻を変換します。このページは、一目で 24 都市の現在の時刻のライブボードです。このサイトの既存の時間計算機は期間を加算・減算します — また異なる仕事です。</p></div><div class="faq"><h3>時刻が間違って見える場合はどうなりますか？</h3><p>まずデバイスの時計を確認してください — 変換は正確ですが、デバイスの現在の瞬間から始まります。ブラウザはオペレーティングシステムからタイムゾーンのルールを取得します。そのため最新に保ってください。</p></div>
+<h2 class="sec">関連する計算機</h2><div class="grid"><a class="card" href="../date-calculator/"><div class="ic">📆</div><h3>日付計算機</h3><p>日付と時刻</p></a><a class="card" href="../days-between-dates-calculator/"><div class="ic">🗓️</div><h3>日数計算</h3><p>日付と時刻</p></a><a class="card" href="../age-calculator/"><div class="ic">📅</div><h3>年齢計算機</h3><p>日付と時刻</p></a><a class="card" href="../working-days-calculator/"><div class="ic">🏢</div><h3>営業日計算機</h3><p>日付と時刻</p></a><a class="card" href="../time-calculator/"><div class="ic">⏱️</div><h3>時間計算機</h3><p>日付と時刻</p></a></div>
+</div>
+<section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>仕組み — 公式</h2>
+<p>すべてのカードは一つの瞬間 — あなたのデバイスの現在時刻 — を、組み込みのタイムゾーンに変換します <strong>Intl.DateTimeFormat</strong> API と IANA ゾーン名（例： <em>Asia/Karachi</em>）。各ゾーンに表示される UTC オフセットは、その日付にそのゾーンが実際に使うものであるため、夏と冬のオフセット（夏時間）は自動的に適用されます。 <strong>現地時間 = UTC の瞬間 + その日付でのゾーンのオフセット。</strong></p>
+<p>代わりに特定の瞬間を変換しますか？その <a href="https://loonaautomation.github.io/loona-dev-tools/timestamp-converter/" target="_blank" rel="noopener">Loona 開発者ツールのタイムスタンプ変換</a> Unix タイムスタンプを、人間の日付に変換し、戻します — このサイトは、意図的にそれを複製しません。</p>
+<h3>実例</h3><div class="exbox"><p><strong>即時：</strong> 15 Jan 2026, 12:00:00 UTC.</p><p><strong>ステップ：</strong> ロンドンは一月に GMT（UTC+0）を守ります → 12:00。カラチは一年中 UTC+5 → 17:00。ドバイは UTC+4 → 16:00。ニューヨークは一月に EST（UTC−5）を守ります → 07:00。東京は UTC+9 → 21:00。</p><p><strong>結果：</strong> 一つの瞬間が次のように表示されます <strong>12:00 / 17:00 / 16:00 / 07:00 / 21:00</strong> 五つの都市全体で。</p></div>
+
+</section>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">この計算機をあなたのウェブサイトに埋め込む — 無料</h2>
+<p style="margin:0 0 12px;line-height:1.6">この計算機を自分のウェブサイトやブログに加えましょう — 完全に無料で、登録は不要、常に最新バージョンが表示されます。下のコードをコピーして、計算機を表示したいページの場所に貼り付けます。埋め込みの下にある小さな &ldquo;Powered by Loona Automation&rdquo; のクレジット行を保持することは、このツールを無料に保つ助けになります &mdash; しかし、スタイルを変更したり削除したりしても自由です。ツールはどちらでも動作します。</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/ja/world-clock/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="World Clock by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;提供 &lt;a href="https://loonaautomation.github.io/loona-calculators/ja/world-clock/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 無料の 世界時計&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">埋め込みコードをコピーする</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='埋め込みコードをコピー';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>人気の計算機</h4><ul><li><a href="../age-calculator/">年齢計算機</a></li>
+<li><a href="../zakat-calculator/">ザカート計算機</a></li>
+<li><a href="../cgpa-calculator/">CGPA計算機</a></li>
+<li><a href="../percentage-calculator/">パーセント計算機</a></li>
+<li><a href="../hijri-date-converter/">ヒジュラ暦日付変換</a></li>
+<li><a href="../emi-calculator/">EMI・ローン計算機</a></li></ul></div>
+<div><h4>その他の Loona ツール</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR コード</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona 画像圧縮</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI アシスタント</a></li>
+<li><a href="https://loonaautomation.github.io/">すべての Loona ツール</a></li></ul></div>
+<div><h4>Loona 計算機</h4><ul>
+<li><a href="../about.html">概要</a></li>
+<li><a href="../contact.html">連絡先</a></li>
+<li><a href="../privacy-policy.html">プライバシーポリシー</a></li>
+<li><a href="../terms.html">利用規約</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona 計算機 —  <a href="https://loonaautomation.github.io/">Loona Automation</a> プロジェクト。無料のオンライン計算機、サインアップなし。
+連絡先： <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+function timeInZone(date,tz){
+  var f=new Intl.DateTimeFormat("en-GB",{timeZone:tz,hour:"2-digit",minute:"2-digit",second:"2-digit",hour12:false});
+  return f.format(date);
+}
+function dateInZone(date,tz){
+  var f=new Intl.DateTimeFormat("en-GB",{timeZone:tz,weekday:"short",day:"numeric",month:"short",year:"numeric"});
+  return f.format(date);
+}
+/*TESTABLE_END*/
+function wcTick(){
+  var now=new Date();
+  document.querySelectorAll("[data-tz]").forEach(function(el){el.textContent=timeInZone(now,el.getAttribute("data-tz"));});
+  document.querySelectorAll("[data-tzdate]").forEach(function(el){el.textContent=dateInZone(now,el.getAttribute("data-tzdate"));});
+  var loc=document.getElementById('wcLocal');
+  if(loc) loc.textContent="あなたの現地時間："+now.toLocaleTimeString()+" — "+now.toLocaleDateString(undefined,{weekday:'long',day:'numeric',month:'long',year:'numeric'});
+}
+wcTick(); setInterval(wcTick,1000);
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' アプリをインストール';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('このアプリをインストールするには：共有ボタンをタップし、「ホーム画面に追加」を選んでください。');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

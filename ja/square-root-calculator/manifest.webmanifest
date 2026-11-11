@@ -1,0 +1,29 @@
+{
+  "name": "Loona 平方根計算機",
+  "short_name": "平方根計算機",
+  "description": "無料の平方根計算機：任意の数を入力すると、その平方根、立方根、第4根と第5根が得られます — さらにその二乗と立方 — すべて一度に。",
+  "id": "/loona-calculators/ja/square-root-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>丸め計算機 — 小数点以下の桁、千、有効数字に丸める | Loona</title>
+<meta name="description" content="無料の丸め計算機：任意の数を小数点以下の桁に、最も近い 10、100、1,000 に、または有効数字に丸めます。ルールの説明付き。">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/ja/rounding-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/rounding-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/rounding-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/rounding-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/rounding-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/rounding-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/rounding-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/rounding-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/rounding-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/rounding-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/rounding-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/rounding-calculator/"><link rel="alternate" hreflang="ja" href="https://loonaautomation.github.io/loona-calculators/ja/rounding-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/rounding-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="丸め計算機 — 小数点以下の桁、千、有効数字に丸める | Loona">
+<meta property="og:description" content="無料の丸め計算機：任意の数を小数点以下の桁に、最も近い 10、100、1,000 に、または有効数字に丸めます。ルールの説明付き。">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/ja/rounding-calculator/"><meta property="og:locale" content="ja_JP">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="丸め計算機 — 小数点以下の桁、千、有効数字に丸める | Loona">
+<meta name="twitter:description" content="無料の丸め計算機：任意の数を小数点以下の桁に、最も近い 10、100、1,000 に、または有効数字に丸めます。ルールの説明付き。">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona 丸め計算機","url":"https://loonaautomation.github.io/loona-calculators/ja/rounding-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"五捨六入とは何ですか？","acceptedAnswer":{"@type":"Answer","text":"落とされる部分が正確に半分の場合（後に何もない 5）、数は、正の数については、ゼロから離れて切り上げられます。それは、学校で教えられ、ほとんどの日常の文脈で使われる慣習です。銀行の丸め（最も近い偶数への半分）は、金融とコンピューティングに存在しますが、ここではデフォルトではありません。"}},{"@type":"Question","name":"有効数字とは何ですか？","acceptedAnswer":{"@type":"Answer","text":"意味を持つ数字、最初のゼロでない数字から数えます。0.004560 には 4 つの有効数字があります（4、5、6 と末尾の 0）。有効数字まで丸めることは、精度を数の大きさに比例させます。それが、科学者がそれを好む理由です。"}},{"@type":"Question","name":"最も近い千に丸めるにはどうすればよいですか？","acceptedAnswer":{"@type":"Answer","text":"それは、位 −3 での丸めです：百の位の数字を見ます；1,234 は百の位が 2 です。そのため、1,000 に切り下げます。一方、1,567 は 2,000 に切り上げます。"}},{"@type":"Question","name":"なぜ、コンピュータは 2.675 を 2.67 として表示できるのですか？","acceptedAnswer":{"@type":"Answer","text":"二進浮動小数点はほとんどの十進小数を正確に保存できないため、素朴なコードは時々「間違って」丸めます。この計算機は小さなイプシロンで補正するため、正確な半分は学校の数学が期待する方法で振る舞います。"}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona 計算機",
+      "item": "https://loonaautomation.github.io/loona-calculators/ja/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "丸め計算機",
+      "item": "https://loonaautomation.github.io/loona-calculators/ja/rounding-calculator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation のロゴ">
+<div class="brand">Loona <span>計算機</span></div>
+<nav>
+<a href="../">ホーム</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">概要</a>
+<a href="../contact.html">連絡先</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona 計算機</a> › 数学 › 丸め計算機</div>
+<h1 class="pagetitle">🎯 丸め計算機</h1>
+<p class="lead">任意の数を標準の学校の方法で丸めます — 四捨五入 — 選ばれた小数点以下の桁数に、最も近い十、百、千に、または設定された有効数字の数に。</p>
+<div class="exbox"><strong>クイックな答え：</strong> 丸めは、落とされる最初の桁を見ます：5 以上は切り上げ、5 未満は切り下げ。そのため 1,234.5678 は、小数第 2 位で 1,234.57 に、最も近い 10 で 1,230 に、最も近い 100 で 1,200 に、有効数字 4 で 1,235 に丸められます。</div>
+<div class="toolbox"><form class="calcform" id="rdForm">
+<div class="fld"><label for="rdNum">数</label><input type="number" id="rdNum" value="1234.5678" step="any"></div>
+<div class="fld"><label for="rdMode">丸める先</label><select id="rdMode"><option value="dp">小数点以下の桁数</option><option value="place">最も近い 10 / 100 / 1,000…</option><option value="sig">有効数字</option></select></div>
+<div class="fld"><label for="rdPrec">精度（小数点以下の桁／十の冪／有効数字）</label><input type="number" id="rdPrec" value="2" min="-10" max="15"></div>
+<button class="calcbtn" type="submit">それを丸める</button>
+<div class="calcresult" id="rdResult" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>丸め計算機の使い方</h2><ol><li>丸める数を入力してください。</li><li>丸めモードと精度を選びます。</li><li>丸められた結果と、適用されたルールを読みます。</li></ol>
+<div class="exbox"><strong>例：</strong> 1,234.5678：小数第2位まで → 1,234.57、最も近い100まで → 1,200、有効数字4桁まで → 1,235（5桁目の有効数字が5であるため、4桁目は4から5に切り上がり、1,235 になります）。</div>
+<h2>よくある質問</h2></section><div class="faq"><h3>五捨六入とは何ですか？</h3><p>落とされる部分が正確に半分の場合（後に何もない 5）、数は、正の数については、ゼロから離れて切り上げられます。それは、学校で教えられ、ほとんどの日常の文脈で使われる慣習です。銀行の丸め（最も近い偶数への半分）は、金融とコンピューティングに存在しますが、ここではデフォルトではありません。</p></div><div class="faq"><h3>有効数字とは何ですか？</h3><p>意味を持つ数字、最初のゼロでない数字から数えます。0.004560 には 4 つの有効数字があります（4、5、6 と末尾の 0）。有効数字まで丸めることは、精度を数の大きさに比例させます。それが、科学者がそれを好む理由です。</p></div><div class="faq"><h3>最も近い千に丸めるにはどうすればよいですか？</h3><p>それは、位 −3 での丸めです：百の位の数字を見ます；1,234 は百の位が 2 です。そのため、1,000 に切り下げます。一方、1,567 は 2,000 に切り上げます。</p></div><div class="faq"><h3>なぜ、コンピュータは 2.675 を 2.67 として表示できるのですか？</h3><p>二進浮動小数点はほとんどの十進小数を正確に保存できないため、素朴なコードは時々「間違って」丸めます。この計算機は小さなイプシロンで補正するため、正確な半分は学校の数学が期待する方法で振る舞います。</p></div>
+<h2 class="sec">関連する計算機</h2><div class="grid"><a class="card" href="../percentage-calculator/"><div class="ic">％</div><h3>パーセント計算機</h3><p>数学</p></a><a class="card" href="../statistics-calculator/"><div class="ic">📊</div><h3>統計計算機</h3><p>数学</p></a><a class="card" href="../fraction-calculator/"><div class="ic">½</div><h3>分数計算機</h3><p>数学</p></a><a class="card" href="../equation-solver/"><div class="ic">🧮</div><h3>方程式ソルバー</h3><p>数学</p></a><a class="card" href="../scientific-calculator/"><div class="ic">🔬</div><h3>関数電卓</h3><p>数学</p></a><a class="card" href="../average-calculator/"><div class="ic">📐</div><h3>平均計算機</h3><p>数学</p></a></div>
+</div>
+<section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>仕組み — 公式</h2>
+<p><strong>小数点以下の桁数：</strong> 丸め = round(x × 10ᵈ) ÷ 10ᵈ、五捨六入を使って（バイナリ浮動小数点のための、イプシロン修正と共に）。 <strong>位の値：</strong> 負の d で、同じ公式 — 最も近い 100 への丸めは、d = −2 です。 <strong>有効数字：</strong> x ≠ 0 の場合、d = sig − 1 − floor(log₁₀|x|)。次に、その d で、小数位のルールを適用します。</p>
+<h3>実例</h3><div class="exbox"><p><strong>入力：</strong> x = 1,234.5678。</p><p><strong>ステップ：</strong> 小数第2位：1,234.5678 × 100 = 123,456.78 → 丸める → 123,457 → ÷ 100 = 1,234.57。最も近い100：1,234.5678 ÷ 100 = 12.345678 → 丸める → 12 → × 100 = 1,200。有効数字4桁：最初の四桁の有効数字は 1、2、3、4（一の位までの数、1,234）で、次の桁は 5（小数第一位）であるため、一の位は4から5に切り上がり、1,235 になります。式で言えば、floor(log₁₀ 1234.5678) = 3 なので、d = 4 − 1 − 3 = 0 桁の小数です。</p><p><strong>結果：</strong> <strong>1,234.57</strong> (2 d.p.), <strong>1,200</strong> （最も近い100）、 <strong>1,235</strong> (4 s.f.).</p></div>
+
+</section>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">この計算機をあなたのウェブサイトに埋め込む — 無料</h2>
+<p style="margin:0 0 12px;line-height:1.6">この計算機を自分のウェブサイトやブログに加えましょう — 完全に無料で、登録は不要、常に最新バージョンが表示されます。下のコードをコピーして、計算機を表示したいページの場所に貼り付けます。埋め込みの下にある小さな &ldquo;Powered by Loona Automation&rdquo; のクレジット行を保持することは、このツールを無料に保つ助けになります &mdash; しかし、スタイルを変更したり削除したりしても自由です。ツールはどちらでも動作します。</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/ja/rounding-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Rounding Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;提供 &lt;a href="https://loonaautomation.github.io/loona-calculators/ja/rounding-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 無料の 丸め計算機&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">埋め込みコードをコピーする</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='埋め込みコードをコピー';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>人気の計算機</h4><ul><li><a href="../age-calculator/">年齢計算機</a></li>
+<li><a href="../zakat-calculator/">ザカート計算機</a></li>
+<li><a href="../cgpa-calculator/">CGPA計算機</a></li>
+<li><a href="../percentage-calculator/">パーセント計算機</a></li>
+<li><a href="../hijri-date-converter/">ヒジュラ暦日付変換</a></li>
+<li><a href="../emi-calculator/">EMI・ローン計算機</a></li></ul></div>
+<div><h4>その他の Loona ツール</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR コード</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona 画像圧縮</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI アシスタント</a></li>
+<li><a href="https://loonaautomation.github.io/">すべての Loona ツール</a></li></ul></div>
+<div><h4>Loona 計算機</h4><ul>
+<li><a href="../about.html">概要</a></li>
+<li><a href="../contact.html">連絡先</a></li>
+<li><a href="../privacy-policy.html">プライバシーポリシー</a></li>
+<li><a href="../terms.html">利用規約</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona 計算機 —  <a href="https://loonaautomation.github.io/">Loona Automation</a> プロジェクト。無料のオンライン計算機、サインアップなし。
+連絡先： <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+function roundHalfUp(x){
+  var s=x<0?-1:1, ax=Math.abs(x);
+  return s*Math.floor(ax+0.5+1e-9);
+}
+function roundToDP(x,d){var f=Math.pow(10,d);return roundHalfUp(x*f)/f;}
+function roundToPlace(x,power){return roundToDP(x,-power);}
+function roundToSig(x,sig){
+  if(x===0)return 0;
+  var d=sig-1-Math.floor(Math.log10(Math.abs(x)));
+  return roundToDP(x,d);
+}
+/*TESTABLE_END*/
+document.getElementById('rdForm').addEventListener('submit',function(e){e.preventDefault();
+ var x=parseFloat(document.getElementById('rdNum').value), mode=document.getElementById('rdMode').value, p=parseInt(document.getElementById('rdPrec').value,10);
+ var box=document.getElementById('rdResult'); box.style.display='block';
+ if(!isFinite(x)||!isFinite(p)){box.innerHTML='<p class="err">有効な数と精度を入力してください。</p>';return;}
+ var r,label;
+ if(mode==='dp'){r=roundToDP(x,p);label=p+' 小数位';}
+ else if(mode==='place'){r=roundToPlace(x,p);label='nearest 10^'+p;}
+ else{r=roundToSig(x,p);label=p+' 有効数字';}
+ box.innerHTML='<div class="resbig"><span>丸め先 '+label+'</span><strong>'+r.toLocaleString('en-US',{maximumFractionDigits:15})+'</strong></div>'
+ +'<p class="resnote">四捨五入の規則：切り捨てる部分がちょうど半分の場合は切り上げます。</p>';});
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' アプリをインストール';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('このアプリをインストールするには：共有ボタンをタップし、「ホーム画面に追加」を選んでください。');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

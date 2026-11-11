@@ -1,0 +1,29 @@
+{
+  "name": "Loona 相性計算機",
+  "short_name": "相性計算機",
+  "description": "無料の相性計算機（ただの楽しみ）：二つの名前を入力すると、遊び心のある相性パーセンテージと相性メッセージが得られます。友達と共有するための軽いゲーム。",
+  "id": "/loona-calculators/ja/love-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

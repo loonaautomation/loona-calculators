@@ -1,0 +1,29 @@
+{
+  "name": "Loona コイントス",
+  "short_name": "コイントス",
+  "description": "無料のオンラインコイントス：仮想コインを一回または一度に十回投げます。表／裏のカウント、パーセンテージ、連続の統計、ベストオブ試合モード付き。",
+  "id": "/loona-calculators/ja/coin-flip/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

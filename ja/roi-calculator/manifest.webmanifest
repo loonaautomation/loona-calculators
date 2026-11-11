@@ -1,0 +1,29 @@
+{
+  "name": "Loona ROI計算機",
+  "short_name": "ROI計算機",
+  "description": "無料の ROI 計算機：投資した金額、戻ってきた金額、保有年数を入力すると、任意の投資に対する総 ROI パーセンテージと年換算収益が得られます。",
+  "id": "/loona-calculators/ja/roi-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

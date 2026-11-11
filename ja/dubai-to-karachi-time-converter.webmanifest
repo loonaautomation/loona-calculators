@@ -1,0 +1,29 @@
+{
+  "name": "Loona ドバイからカラチ時間への変換",
+  "short_name": "ドバイからカラチ時間へ",
+  "description": "ドバイの時刻をカラチの時刻に変換します。カラチは年間を通してドバイより1 時間進んでいます。夏時間の日付、24時間表、最適な会議時間帯付き。ライブ変換ツール付き。",
+  "id": "/loona-calculators/ja/dubai-to-karachi-time-converter.html",
+  "start_url": "./dubai-to-karachi-time-converter.html",
+  "scope": "./dubai-to-karachi-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

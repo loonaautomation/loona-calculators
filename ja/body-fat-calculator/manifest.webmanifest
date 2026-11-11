@@ -1,0 +1,29 @@
+{
+  "name": "Loona 体脂肪率計算機",
+  "short_name": "体脂肪率計算機",
+  "description": "無料の体脂肪計算機。米海軍の周囲法を使います：身長、首、腰（女性はヒップも）が体脂肪 %、脂肪量、除脂肪量、ACE カテゴリを与えます。",
+  "id": "/loona-calculators/ja/body-fat-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

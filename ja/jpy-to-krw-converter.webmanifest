@@ -1,0 +1,29 @@
+{
+  "name": "Loona JPYからKRWへの変換",
+  "short_name": "JPYからKRWへの変換",
+  "description": "日本円（JPY）から韓国ウォン（KRW）への変換。2026年十一月06日付のECB基準レート、逆レート、換算表、コリドーに関する注記を含みます。あくまで目安です。",
+  "id": "/loona-calculators/ja/jpy-to-krw-converter.html",
+  "start_url": "./jpy-to-krw-converter.html",
+  "scope": "./jpy-to-krw-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

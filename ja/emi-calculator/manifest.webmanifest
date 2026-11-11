@@ -1,0 +1,29 @@
+{
+  "name": "Loona EMI計算機",
+  "short_name": "EMI計算機",
+  "description": "無料の EMI・ローン計算機：ローン金額、利率または利益率、期間を入力すると、月々の支払い、総利息、総支払いが得られます。銀行ローン、車、個人ローン向け。",
+  "id": "/loona-calculators/ja/emi-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

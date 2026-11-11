@@ -1,0 +1,29 @@
+{
+  "name": "Loona バレンタインデーまでの日数",
+  "short_name": "バレンタインデーまであと何日",
+  "description": "バレンタインデーまでのライブカウントダウン：正確な残り日、時間、分、秒、今年の日付と次の三年、事実と FAQ。",
+  "id": "/loona-calculators/ja/days-until-valentines-day.html",
+  "start_url": "./days-until-valentines-day.html",
+  "scope": "./days-until-valentines-day.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

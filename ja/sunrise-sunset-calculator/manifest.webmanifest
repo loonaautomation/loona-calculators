@@ -1,0 +1,29 @@
+{
+  "name": "Loona 日の出・日の入り計算機",
+  "short_name": "日の出・日の入り計算機",
+  "description": "無料の日の出・日の入り計算機：日付と緯度／経度を入力すると、UTC と現地の太陽の観点での日の出、日の入り、昼の長さ、太陽の正午が得られます。NOAA の計算。",
+  "id": "/loona-calculators/ja/sunrise-sunset-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>賃貸対購入計算機 — 家を借りるか買うか？ | Loona 計算機</title>
+<meta name="description" content="無料の賃貸対購入計算機：滞在を計画する年にわたって、賃貸の総コストと住宅購入の正味コストを比較します — 住宅ローン、家賃の値上げ、価格の成長、資産を含みます。">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/ja/rent-vs-buy-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/rent-vs-buy-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/rent-vs-buy-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/rent-vs-buy-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/rent-vs-buy-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/rent-vs-buy-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/rent-vs-buy-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/rent-vs-buy-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/rent-vs-buy-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/rent-vs-buy-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/rent-vs-buy-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/rent-vs-buy-calculator/"><link rel="alternate" hreflang="ja" href="https://loonaautomation.github.io/loona-calculators/ja/rent-vs-buy-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/rent-vs-buy-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="賃貸対購入計算機 — 家を借りるか買うか？ | Loona 計算機">
+<meta property="og:description" content="無料の賃貸対購入計算機：滞在を計画する年にわたって、賃貸の総コストと住宅購入の正味コストを比較します — 住宅ローン、家賃の値上げ、価格の成長、資産を含みます。">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/ja/rent-vs-buy-calculator/"><meta property="og:locale" content="ja_JP">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="賃貸対購入計算機 — 家を借りるか買うか？ | Loona 計算機">
+<meta name="twitter:description" content="無料の賃貸対購入計算機：滞在を計画する年にわたって、賃貸の総コストと住宅購入の正味コストを比較します — 住宅ローン、家賃の値上げ、価格の成長、資産を含みます。">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona 賃貸と購入の比較計算機","url":"https://loonaautomation.github.io/loona-calculators/ja/rent-vs-buy-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"家を借りるのが良いですか、買うのが良いですか？","acceptedAnswer":{"@type":"Answer","text":"主に、どれだけ長く滞在するか、そして価格と家賃がどのように動くかによります。購入には大きな前払いコストがあり、初期の住宅ローンの支払いはほとんど利息なので、短い滞在は通常、賃貸に有利です。長く滞在するほど、より多くの資産を築き、購入が先行します。上のあなた自身の数で試してください — 滞在の長さだけでも答えがひっくり返ることがあります。"}},{"@type":"Question","name":"家を買うための 5 年ルールとは何ですか？","acceptedAnswer":{"@type":"Answer","text":"買う方が通常、同じ住宅に約五年住んだ後にようやく借りる方を上回り始めるという大まかなガイドライン。初期コストと利息の重い初期の支払いは、資本と価格の成長で相殺されるまで時間が必要だからです。これはあくまでガイドラインです — 家賃の伸びが高い、または価格の伸びが速いと短くなり、価格が横ばいだと五年をはるかに超えて伸びることがあります。"}},{"@type":"Question","name":"この計算機には固定資産税と購入費用が含まれますか？","acceptedAnswer":{"@type":"Answer","text":"継続的なコストは、維持と保険のパーセンテージを通してカバーされます。これは、不動産税を含むために上げることができます。一回限りのコスト — 印紙税、登録、法律の手数料、販売手数料 — はデフォルトのモデルにはありません。それらは本物であり、短い滞在を罰します；あなたのケースで重要なら、購入の結果をわずかに楽観的として扱ってください。"}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona 計算機",
+      "item": "https://loonaautomation.github.io/loona-calculators/ja/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "賃貸と購入の比較計算機",
+      "item": "https://loonaautomation.github.io/loona-calculators/ja/rent-vs-buy-calculator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation のロゴ">
+<div class="brand">Loona <span>計算機</span></div>
+<nav>
+<a href="../">ホーム</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">概要</a>
+<a href="../contact.html">連絡先</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona 計算機</a> › お金と金融 › 賃貸と購入の比較計算機</div>
+<h1 class="pagetitle">⚖️ 家賃と買う計算機</h1>
+<p class="lead">「家賃は、捨てられたお金」と「家は、常に対投資である」は、両方とも、単純すぎます。正直な答えは、あなたがどれだけ長く滞在するか、家賃が、時間と共に何をするか、そして、あなたがどれだけの持分を構築するかに依存します。あなた自身の数を入力します。そして、この計算機は、あなたの滞在にわたる、両方の選択の、本当の費用を比較します。</p>
+<div class="toolbox"><form class="calcform" id="rbForm">
+<div class="fld"><label for="rbPrice">家の価格</label><input type="number" step="any" min="0" id="rbPrice" value="8000000"></div>
+<div class="fld"><label for="rbDown">頭金（%）</label><input type="number" step="any" min="0" max="100" id="rbDown" value="25"></div>
+<div class="fld"><label for="rbRate">住宅ローン金利（年あたり %）</label><input type="number" step="any" min="0" id="rbRate" value="9"></div>
+<div class="fld"><label for="rbTerm">住宅ローン期間（年）</label><input type="number" step="any" min="1" id="rbTerm" value="15"></div>
+<div class="fld"><label for="rbRent">同様の住宅の現在の月額家賃</label><input type="number" step="any" min="0" id="rbRent" value="30000"></div>
+<div class="fld"><label for="rbYears">家に滞在することを計画する年</label><input type="number" step="any" min="1" id="rbYears" value="5"></div>
+<div class="fld"><label for="rbRentInc">家賃の値上げ（年あたり %）</label><input type="number" step="any" min="0" id="rbRentInc" value="5"></div>
+<div class="fld"><label for="rbAppr">家の価格の成長（年あたり %）</label><input type="number" step="any" min="0" id="rbAppr" value="4"></div>
+<div class="fld"><label for="rbMaint">維持と保険（年あたり価格の %）</label><input type="number" step="any" min="0" id="rbMaint" value="1"></div>
+<button class="calcbtn" type="submit">賃貸と購入を比較する</button>
+</form>
+<div class="calcresult" id="rbRes" style="display:none"></div></div>
+<section class="txt"><h2>賃貸と購入の比較計算機の使い方</h2><ol><li>家の価格と、あなたが行う頭金を入力してください。</li><li>住宅ローンの金利と期間、そして同様の住宅に代わりに払うことになる家賃を加えます。</li><li>滞在を何年期待するか、家賃が毎年どれだけ速く上がるか、家の価格がどれだけ速く増えるかを設定します。</li><li>比較を押します — 判定は、滞在にわたってどちらの選択肢がより安いか、どれだけかを表示します。</li></ol>
+<h2>よくある質問</h2></section><div class="faq"><h3>家を借りるのが良いですか、買うのが良いですか？</h3><p>主に、どれだけ長く滞在するか、そして価格と家賃がどのように動くかによります。購入には大きな前払いコストがあり、初期の住宅ローンの支払いはほとんど利息なので、短い滞在は通常、賃貸に有利です。長く滞在するほど、より多くの資産を築き、購入が先行します。上のあなた自身の数で試してください — 滞在の長さだけでも答えがひっくり返ることがあります。</p></div><div class="faq"><h3>家を買うための 5 年ルールとは何ですか？</h3><p>買う方が通常、同じ住宅に約五年住んだ後にようやく借りる方を上回り始めるという大まかなガイドライン。初期コストと利息の重い初期の支払いは、資本と価格の成長で相殺されるまで時間が必要だからです。これはあくまでガイドラインです — 家賃の伸びが高い、または価格の伸びが速いと短くなり、価格が横ばいだと五年をはるかに超えて伸びることがあります。</p></div><div class="faq"><h3>この計算機には固定資産税と購入費用が含まれますか？</h3><p>継続的なコストは、維持と保険のパーセンテージを通してカバーされます。これは、不動産税を含むために上げることができます。一回限りのコスト — 印紙税、登録、法律の手数料、販売手数料 — はデフォルトのモデルにはありません。それらは本物であり、短い滞在を罰します；あなたのケースで重要なら、購入の結果をわずかに楽観的として扱ってください。</p></div>
+<h2 class="sec">関連する計算機</h2><div class="grid"><a class="card" href="../rent-affordability-calculator/" data-name="rent affordability calculator rent-affordability-calculator"><div class="ic">🔑</div><h3>家賃負担計算機</h3><p>無料の家賃負担能力計算機：収入と債務を入力すると、30% と 28/36 のルールで負担できる最大の家賃がわかります。</p></a><a class="card" href="../rent-split-calculator/" data-name="rent split calculator rent-split-calculator"><div class="ic">🤝</div><h3>家賃分担計算機</h3><p>無料の家賃分割計算機：ルームメイトの間で家賃を公平に分割します — 均等に、部屋のサイズで、収入で。</p></a><a class="card" href="../rent-increase-calculator/" data-name="rent increase calculator rent-increase-calculator"><div class="ic">📈</div><h3>家賃値上げ計算機</h3><p>無料の家賃値上げ計算機：パーセンテージの値上げ後の新しい家賃と、年ごとの予測を確認します。</p></a><a class="card" href="../mortgage-calculator/" data-name="mortgage calculator mortgage-calculator"><div class="ic">🏠</div><h3>住宅ローン計算機</h3><p>無料の住宅ローン計算機：家の価格、頭金、金利、期間 — ローン金額、月々の支払い、総利息、家の総コストが得られます。</p></a><a class="card" href="../emi-calculator/" data-name="emi & loan calculator emi-calculator"><div class="ic">🏦</div><h3>EMI・ローン計算機</h3><p>無料の EMI・ローン計算機：ローン金額、利率または利益率、期間を入力すると、月々の分割払いと総コストが得られます。</p></a></div>
+</div>
+<section class="txt"><h2>仕組み — 公式</h2><p><strong>賃貸</strong> 幾何級数です：各年、家賃は、あなたの増加のパーセンテージで上昇します。そのため、合計は、あなたの滞在にわたる、各年の家賃の合計です。 <strong>購入</strong> 正味ベースで比較されます — あなたが支払うすべてから、あなたが戻るものを引いたもの。住宅ローンの支払いは、標準的な年金の公式（月次レート = 年率 ÷ 1200）を使います。あなたの滞在の終わりに、家は、その値上がりした価値で売られます；あなたが保持するのは、その価値から、依然として負うローンの残高（あなたの持分）を引いたもの。</p>
+<p><strong>公式：</strong> 家賃の合計 = Σ 月々の家賃 × (1 + 値上げ)<sup>年</sup> × 12。月々の支払い = ローン × r × (1 + r)<sup>n</sup> ÷ ((1 + r)<sup>n</sup> − 1）。買う正味費用 = 頭金 + 滞在中の住宅ローンの支払い + 維持と保険 −（販売時の価値 − 残りの残高）。</p><h3>実例</h3><div class="exbox"><p><strong>入力：</strong> 家の価格 Rs 80,00,000；頭金 25%（Rs 20,00,000）；住宅ローン 9%、15 年；家賃 Rs 30,000/月、年 5% 上昇；滞在 5 年；価格の成長 年 4%；維持と保険、年 価格の 1%。</p>
+<p><strong>ステップ：</strong> ローンは Rs 60,00,000 で、月々の支払いは Rs 60,856 です。賃貸は、5 年間で Rs 19,89,227 かかります。購入：Rs 20,00,000 の頭金 + Rs 36,51,360 の支払い + Rs 4,00,000 の維持 = Rs 60,51,360 が支払われます；家は Rs 97,33,223 に増え、ローン残高は Rs 48,04,075 です。そのため、返される持分は Rs 49,29,148 です — 正味費用は Rs 11,22,212。</p>
+<p><strong>結果：</strong> 5 年にわたって、 <strong>買う方が、Rs 8,67,016 安い</strong> この例で。滞在を 2 年に、または成長を 0% に変えると、答えは反転します — それは、正確に、入力があなたが設定するものである理由です。</p></div><h3>よくある質問</h3></section><div class="faq"><h3>なぜ、私の滞在の長さは、答えをこれほど変えるのですか？</h3><p>あなたが借りる場合、すべての支払いは永久になくなりますが、設定するものは何もありません。あなたが買う場合、頭金と手数料は初日に出て行きます。一方、利益 — 持分 — は、最初は徐々に構築されます。初期の支払いは、ほとんど利息であるためです。時間が、家全体の価値に対する値上がりと、下がるローン残高を、あなたの利益のために機能させます。</p></div><div class="faq"><h3>どの価格成長率を入力すべきですか？</h3><p>あなたの都市のための、保守的な長期の数を使います — 多くの地域では、年に 3–5% が、合理的な計画の範囲です。大体、長期のインフレに沿っています。最も熱い最近の年を、あなたの前提として使うことは避けます；答えが、8–10% の成長でのみ動作する場合、それは、購入ではなく、成長が仕事をしています。</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">この計算機をあなたのウェブサイトに埋め込む — 無料</h2>
+<p style="margin:0 0 12px;line-height:1.6">この計算機を自分のウェブサイトやブログに加えましょう — 完全に無料で、登録は不要、常に最新バージョンが表示されます。下のコードをコピーして、計算機を表示したいページの場所に貼り付けます。埋め込みの下にある小さな &ldquo;Powered by Loona Automation&rdquo; のクレジット行を保持することは、このツールを無料に保つ助けになります &mdash; しかし、スタイルを変更したり削除したりしても自由です。ツールはどちらでも動作します。</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/ja/rent-vs-buy-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Rent vs Buy Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;提供 &lt;a href="https://loonaautomation.github.io/loona-calculators/ja/rent-vs-buy-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 無料の 賃貸と購入の比較計算機&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">埋め込みコードをコピーする</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='埋め込みコードをコピー';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>人気の計算機</h4><ul><li><a href="../age-calculator/">年齢計算機</a></li>
+<li><a href="../zakat-calculator/">ザカート計算機</a></li>
+<li><a href="../cgpa-calculator/">CGPA計算機</a></li>
+<li><a href="../percentage-calculator/">パーセント計算機</a></li>
+<li><a href="../hijri-date-converter/">ヒジュラ暦日付変換</a></li>
+<li><a href="../emi-calculator/">EMI・ローン計算機</a></li></ul></div>
+<div><h4>その他の Loona ツール</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR コード</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona 画像圧縮</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI アシスタント</a></li>
+<li><a href="https://loonaautomation.github.io/">すべての Loona ツール</a></li></ul></div>
+<div><h4>Loona 計算機</h4><ul>
+<li><a href="../about.html">概要</a></li>
+<li><a href="../contact.html">連絡先</a></li>
+<li><a href="../privacy-policy.html">プライバシーポリシー</a></li>
+<li><a href="../terms.html">利用規約</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona 計算機 —  <a href="https://loonaautomation.github.io/">Loona Automation</a> プロジェクト。無料のオンライン計算機、サインアップなし。
+連絡先： <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+/* Rent vs Buy — pure logic (unit-tested, inlined into the page) */
+function monthlyPayment(principal, annualRatePct, termYears){
+  var r = annualRatePct / 1200, n = termYears * 12;
+  if (principal <= 0) return 0;
+  if (r === 0) return principal / n;
+  var f = Math.pow(1 + r, n);
+  return principal * r * f / (f - 1);
+}
+function remainingBalance(principal, annualRatePct, termYears, monthsPaid){
+  var r = annualRatePct / 1200, n = termYears * 12;
+  if (monthsPaid >= n) return 0;
+  var m = monthlyPayment(principal, annualRatePct, termYears);
+  if (r === 0) return principal - m * monthsPaid;
+  var f = Math.pow(1 + r, monthsPaid);
+  return principal * f - m * (f - 1) / r;
+}
+function rentTotalCost(monthlyRent, increasePct, years){
+  var total = 0, rent = monthlyRent;
+  for (var y = 0; y < years; y++){ total += rent * 12; rent *= (1 + increasePct / 100); }
+  return total;
+}
+function rentVsBuy(o){
+  var down = o.price * o.downPct / 100;
+  var loan = o.price - down;
+  var m = monthlyPayment(loan, o.ratePct, o.termYears);
+  var monthsStay = o.years * 12;
+  var payMonths = Math.min(monthsStay, o.termYears * 12);
+  var totalPayments = m * payMonths;
+  var balance = remainingBalance(loan, o.ratePct, o.termYears, monthsStay);
+  var valueAtSale = o.price * Math.pow(1 + o.appreciationPct / 100, o.years);
+  var equity = valueAtSale - balance;
+  var maintenance = o.price * o.maintenancePct / 100 * o.years;
+  var buyNetCost = down + totalPayments + maintenance - equity;
+  var rentCost = rentTotalCost(o.monthlyRent, o.rentIncreasePct, o.years);
+  return {
+    downPayment: down, loanAmount: loan, monthlyPayment: m,
+    totalPayments: totalPayments, remainingBalance: balance,
+    valueAtSale: valueAtSale, equity: equity, maintenance: maintenance,
+    buyNetCost: buyNetCost, rentTotalCost: rentCost,
+    difference: Math.abs(rentCost - buyNetCost),
+    cheaper: buyNetCost < rentCost ? "buy" : (rentCost < buyNetCost ? "rent" : "equal")
+  };
+}
+function fmt(n){return "Rs " + Math.round(n).toLocaleString("en-IN");}
+function fmt2(n){return "Rs " + n.toLocaleString("en-IN",{minimumFractionDigits:2,maximumFractionDigits:2});}
+function pctFmt(n){return parseFloat(n.toFixed(2)) + "%";}
+function num(id){var v=parseFloat(document.getElementById(id).value);return isNaN(v)?0:v;}
+document.getElementById("rbForm").addEventListener("submit", function(e){
+  e.preventDefault();
+  var res = document.getElementById("rbRes");
+  var o = { price: num("rbPrice"), downPct: num("rbDown"), ratePct: num("rbRate"), termYears: num("rbTerm"),
+            monthlyRent: num("rbRent"), years: num("rbYears"), rentIncreasePct: num("rbRentInc"),
+            appreciationPct: num("rbAppr"), maintenancePct: num("rbMaint") };
+  if (o.price <= 0 || o.termYears <= 0 || o.years <= 0){ res.style.display = "block"; res.innerHTML = '<div class="err">住宅価格、住宅ローン期間、ゼロより大きい滞在期間を入力してください。</div>'; return; }
+  var r = rentVsBuy(o);
+  var verdict = r.cheaper === "buy" ? "購入の方が安い（差額 " + fmt(r.difference)
+              : r.cheaper === "rent" ? "賃貸の方が安い（差額 " + fmt(r.difference)
+              : "両方のコストはほぼまったく同じです";
+  res.style.display = "block";
+  res.innerHTML = '<div class="resbig"><span>' + verdict + '（期間 ' + o.years + (o.years == 1 ? ' 年' : ' 年') + '</span><strong>' + fmt(r.difference) + '</strong></div>'
+    + '<table class="restbl">'
+    + '<tr><td>賃貸の総費用（家賃の上昇 ' + pctFmt(o.rentIncreasePct) + '／年）</td><td>' + fmt(r.rentTotalCost) + '</td></tr>'
+    + '<tr><td>購入の正味費用（売却し、自己資本を保持した後）</td><td>' + fmt(r.buyNetCost) + '</td></tr>'
+    + '<tr><td>頭金</td><td>' + fmt(r.downPayment) + '</td></tr>'
+    + '<tr><td>ローン金額</td><td>' + fmt(r.loanAmount) + '</td></tr>'
+    + '<tr><td>月額住宅ローン支払額</td><td>' + fmt(r.monthlyPayment) + '</td></tr>'
+    + '<tr><td>滞在中に行った住宅ローン支払い</td><td>' + fmt(r.totalPayments) + '</td></tr>'
+    + '<tr><td>滞在中の維持費 &amp; 保険</td><td>' + fmt(r.maintenance) + '</td></tr>'
+    + '<tr><td>売却時の住宅価値</td><td>' + fmt(r.valueAtSale) + '</td></tr>'
+    + '<tr><td>売却時にまだ残っているローン残高</td><td>' + fmt(r.remainingBalance) + '</td></tr>'
+    + '<tr><td>手元に残る自己資本（価値 − 残高）</td><td>' + fmt(r.equity) + '</td></tr>'
+    + '</table>'
+    + '<p class="resnote">購入の数字は正味費用です：支払うすべて（頭金、住宅ローン支払い、維持費、保険）から、売却時に戻ってくる自己資本を引いたものです。一度きりの購入・売却費用（印紙税、法務費用、仲介手数料など）は含まれず、家賃は年に一度上がるものと仮定しています。それらの費用も大まかに含めたい場合は、維持費の割合に加えてください。</p>';
+});
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' アプリをインストール';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('このアプリをインストールするには：共有ボタンをタップし、「ホーム画面に追加」を選んでください。');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body></html>

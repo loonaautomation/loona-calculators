@@ -1,0 +1,29 @@
+{
+  "name": "Loona 妊娠中の体重増加計算機",
+  "short_name": "妊娠体重増加",
+  "description": "無料の妊娠体重増加計算機：妊娠前の BMI カテゴリに基づく IOM 推奨の総増加と週ごとの増加範囲。教育目的の目安のみ。",
+  "id": "/loona-calculators/ja/pregnancy-weight-gain-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

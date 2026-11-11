@@ -1,0 +1,29 @@
+{
+  "name": "Loona 一標本t検定計算機",
+  "short_name": "一標本t検定計算機",
+  "description": "無料の一標本 t 検定計算機：標本平均、SD、n、仮説の平均を入力すると、t 統計量、自由度、p 値が得られます。",
+  "id": "/loona-calculators/ja/t-test-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona 時間計算機",
+  "short_name": "時間計算機",
+  "description": "無料の時間計算機：二つの期間の間で、時間、分、秒を加算または減算します。労働時間、動画の長さ、旅行時間、学習スケジュールに最適。",
+  "id": "/loona-calculators/ja/time-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

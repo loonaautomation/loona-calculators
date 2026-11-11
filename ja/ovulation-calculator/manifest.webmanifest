@@ -1,0 +1,29 @@
+{
+  "name": "Loona 排卵日計算機",
+  "short_name": "排卵日計算機",
+  "description": "無料の排卵計算機：最終月経の初日と周期の長さを入力すると、排卵、妊娠可能期間、次の月経、出産予定日が推定されます。",
+  "id": "/loona-calculators/ja/ovulation-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

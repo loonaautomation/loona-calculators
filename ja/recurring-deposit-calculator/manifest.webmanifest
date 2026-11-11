@@ -1,0 +1,29 @@
+{
+  "name": "Loona 積立預金計算機",
+  "short_name": "積立預金計算機",
+  "description": "無料の積立預金（RD）計算機：月々の預金、金利、月での期間 — 銀行の標準である四半期複利での満期額。",
+  "id": "/loona-calculators/ja/recurring-deposit-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

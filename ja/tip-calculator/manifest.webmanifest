@@ -1,0 +1,29 @@
+{
+  "name": "Loona チップ計算機",
+  "short_name": "チップ計算機",
+  "description": "無料のチップ計算機：請求額、チップ率、人数を入力すると、チップ額、総請求額、各人が支払う正確なシェアが得られます。",
+  "id": "/loona-calculators/ja/tip-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

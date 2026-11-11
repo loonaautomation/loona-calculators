@@ -1,0 +1,29 @@
+{
+  "name": "Loona 統計計算機",
+  "short_name": "統計計算機",
+  "description": "無料の統計計算機：数のリストを貼り付けると、平均、中央値、最頻値、範囲、分散と標準偏差（母集団と標本）、合計、カウントが得られます。",
+  "id": "/loona-calculators/ja/statistics-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

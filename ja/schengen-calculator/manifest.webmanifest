@@ -1,0 +1,29 @@
+{
+  "name": "Loona シェンゲン90/180計算機",
+  "short_name": "シェンゲン90/180計算機",
+  "description": "無料のシェンゲン 90/180 計算機：過去と計画中の旅行を入力すると、任意のローリング 180 日ウィンドウで使われた日数、残りの日数、滞在超過の警告、最も早い安全な再入国がわかります。",
+  "id": "/loona-calculators/ja/schengen-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona 血中アルコール濃度計算機",
+  "short_name": "血中アルコール濃度計算機",
+  "description": "無料の血中アルコール濃度（BAC）計算機。ウィドマーク式を使います：体重、性別、ドリンク、時間で BAC パーセントを推定。教育目的の推定のみ。決して運転しないでください。",
+  "id": "/loona-calculators/ja/blood-alcohol-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

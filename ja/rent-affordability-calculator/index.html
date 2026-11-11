@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>家賃負担能力計算機 — どれだけの家賃を負担できますか？ | Loona 計算機</title>
+<meta name="description" content="無料の家賃負担能力計算機：総収入、家賃に使える割合、月々の債務を入力すると、負担できる最大の家賃がわかります — 28/36 ガイドライン付き。">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/ja/rent-affordability-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/rent-affordability-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/rent-affordability-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/rent-affordability-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/rent-affordability-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/rent-affordability-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/rent-affordability-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/rent-affordability-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/rent-affordability-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/rent-affordability-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/rent-affordability-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/rent-affordability-calculator/"><link rel="alternate" hreflang="ja" href="https://loonaautomation.github.io/loona-calculators/ja/rent-affordability-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/rent-affordability-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="家賃負担能力計算機 — どれだけの家賃を負担できますか？ | Loona 計算機">
+<meta property="og:description" content="無料の家賃負担能力計算機：総収入、家賃に使える割合、月々の債務を入力すると、負担できる最大の家賃がわかります — 28/36 ガイドライン付き。">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/ja/rent-affordability-calculator/"><meta property="og:locale" content="ja_JP">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="家賃負担能力計算機 — どれだけの家賃を負担できますか？ | Loona 計算機">
+<meta name="twitter:description" content="無料の家賃負担能力計算機：総収入、家賃に使える割合、月々の債務を入力すると、負担できる最大の家賃がわかります — 28/36 ガイドライン付き。">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona 家賃負担計算機","url":"https://loonaautomation.github.io/loona-calculators/ja/rent-affordability-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"給与でどれだけの家賃を負担できますか？","acceptedAnswer":{"@type":"Answer","text":"一般的な出発点は、月総収入の 30% — Rs 1,50,000 では Rs 45,000 です。他の債務がある場合、28/36 ガイドラインがより安全です：家賃は収入の 28% 未満、そして家賃と債務の合計は 36% 未満に保ちます。この計算機は三つの数値すべてを並べて表示するので、状況に合うものを選べます。"}},{"@type":"Question","name":"28/36 ルールとは何ですか？","acceptedAnswer":{"@type":"Answer","text":"それは多くの貸し手が使うガイドラインです。最初の数はフロントエンド比率です：住居コスト（家賃、または住宅ローンに税と保険を加えたもの）は総所得の 28% を超えてはいけません。二つ目はバックエンド比率です：住居にその他すべての定期的な債務 — 自動車ローン、クレジットカード、個人ローン — を加えたものは、総所得の 36% を超えてはいけません。"}},{"@type":"Question","name":"総所得を使うべきですか、正味所得を使うべきですか？","acceptedAnswer":{"@type":"Answer","text":"古典的なルールは、総（税引前）所得のために書かれています。そして、それがこの計算機が使うものです。手取り給与から予算を組むことを好む場合、結果は単により厳しくなります — 正味所得と、やや高いパーセンテージを入力し、答えを、目標ではなく、慎重な上限として扱います。"}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona 計算機",
+      "item": "https://loonaautomation.github.io/loona-calculators/ja/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "家賃負担計算機",
+      "item": "https://loonaautomation.github.io/loona-calculators/ja/rent-affordability-calculator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation のロゴ">
+<div class="brand">Loona <span>計算機</span></div>
+<nav>
+<a href="../">ホーム</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">概要</a>
+<a href="../contact.html">連絡先</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona 計算機</a> › お金と金融 › 家賃負担計算機</div>
+<h1 class="pagetitle">🔑 家賃負担可能計算機</h1>
+<p class="lead">家賃は通常、月で最大の請求であり、わずかに高すぎる家に署名すると、他のすべての費用が苦しみます。下に所得を入力すると、この計算機は、安全に引き受けることができる最大の家賃を表示します — あなた自身のパーセンテージと、貸し手が使う 28/36 ガイドラインを使って。</p>
+<div class="toolbox"><form class="calcform" id="raForm">
+<div class="fld"><label for="raPeriod">下に入力された所得はどのように計算されますか？</label><select id="raPeriod"><option value="monthly">月収</option><option value="yearly">年次所得</option></select></div>
+<div class="fld"><label for="raIncome">総所得（税引前）</label><input type="number" step="any" min="0" id="raIncome" value="150000"></div>
+<div class="fld"><label for="raPct">家賃に使える所得の割合（%）</label><input type="number" step="any" min="0" max="100" id="raPct" value="30"></div>
+<div class="fld"><label for="raDebts">月々の債務（ローンの支払い、クレジットカード — 家賃は数えません）</label><input type="number" step="any" min="0" id="raDebts" value="0"></div>
+<button class="calcbtn" type="submit">手頃な家賃を計算する</button>
+</form>
+<div class="calcresult" id="raRes" style="display:none"></div></div>
+<section class="txt"><h2>家賃負担計算機の使い方</h2><ol><li>総収入を入力し、それが月額か年額かを選んでください。</li><li>所得のうち家賃に使おうとする割合を設定します — 30% が古典的な出発点です。</li><li>他に毎月の債務（ローンの支払い、クレジットカード）がある場合はそれらを加え、その後「計算」を押します。</li><li>三つの数値を比較してください：あなたのパーセンテージ、28% の住宅ガイドライン、債務後の 36% の上限。それらの最も小さいもの以下の家賃が安全な選択です。</li></ol>
+<h2>よくある質問</h2></section><div class="faq"><h3>給与でどれだけの家賃を負担できますか？</h3><p>一般的な出発点は、月総収入の 30% — Rs 1,50,000 では Rs 45,000 です。他の債務がある場合、28/36 ガイドラインがより安全です：家賃は収入の 28% 未満、そして家賃と債務の合計は 36% 未満に保ちます。この計算機は三つの数値すべてを並べて表示するので、状況に合うものを選べます。</p></div><div class="faq"><h3>28/36 ルールとは何ですか？</h3><p>それは多くの貸し手が使うガイドラインです。最初の数はフロントエンド比率です：住居コスト（家賃、または住宅ローンに税と保険を加えたもの）は総所得の 28% を超えてはいけません。二つ目はバックエンド比率です：住居にその他すべての定期的な債務 — 自動車ローン、クレジットカード、個人ローン — を加えたものは、総所得の 36% を超えてはいけません。</p></div><div class="faq"><h3>総所得を使うべきですか、正味所得を使うべきですか？</h3><p>古典的なルールは、総（税引前）所得のために書かれています。そして、それがこの計算機が使うものです。手取り給与から予算を組むことを好む場合、結果は単により厳しくなります — 正味所得と、やや高いパーセンテージを入力し、答えを、目標ではなく、慎重な上限として扱います。</p></div>
+<h2 class="sec">関連する計算機</h2><div class="grid"><a class="card" href="../rent-vs-buy-calculator/" data-name="rent vs buy calculator rent-vs-buy-calculator"><div class="ic">⚖️</div><h3>賃貸と購入の比較計算機</h3><p>無料の賃貸対購入計算機：滞在を計画する年にわたって、賃貸の総コストと住宅購入を比較します。</p></a><a class="card" href="../rent-split-calculator/" data-name="rent split calculator rent-split-calculator"><div class="ic">🤝</div><h3>家賃分担計算機</h3><p>無料の家賃分割計算機：ルームメイトの間で家賃を公平に分割します — 均等に、部屋のサイズで、収入で。</p></a><a class="card" href="../rent-increase-calculator/" data-name="rent increase calculator rent-increase-calculator"><div class="ic">📈</div><h3>家賃値上げ計算機</h3><p>無料の家賃値上げ計算機：パーセンテージの値上げ後の新しい家賃と、年ごとの予測を確認します。</p></a><a class="card" href="../mortgage-calculator/" data-name="mortgage calculator mortgage-calculator"><div class="ic">🏠</div><h3>住宅ローン計算機</h3><p>無料の住宅ローン計算機：家の価格、頭金、金利、期間 — ローン金額、月々の支払い、総利息、家の総コストが得られます。</p></a><a class="card" href="../emi-calculator/" data-name="emi & loan calculator emi-calculator"><div class="ic">🏦</div><h3>EMI・ローン計算機</h3><p>無料の EMI・ローン計算機：ローン金額、利率または利益率、期間を入力すると、月々の分割払いと総コストが得られます。</p></a></div>
+</div>
+<section class="txt"><h2>仕組み — 公式</h2><p>基本的なルールは、一つの乗算です：あなたの手頃な家賃は、あなたの月次総所得に、あなたが選ぶパーセンテージを掛けたものです。よく知られた <strong>30% ルール</strong> 住居は、総所得の約 30% 以下を取るべきだと言います。貸し手は、より厳しいものをしばしば使います <strong>28/36 ルール</strong> 代わりに：住居費だけは、総所得の 28% 未満に留まるべきです。そして、住居プラス、他のすべての月々の負債の支払いは、36% 未満 — そのため、負債がある場合、家賃のために残される余地は、所得の 36% から、それらの負債を引いたもの。</p>
+<p><strong>公式：</strong> 最大の家賃 = 総月収 × パーセンテージ ÷ 100。家賃のためのバックエンド（DTI）の余地 = 総月収 × 36% − 月々の債務。</p><h3>実例</h3><div class="exbox"><p><strong>入力：</strong> 月収 Rs 1,50,000；家賃のパーセンテージ 30%；月々の債務 Rs 10,000。</p>
+<p><strong>ステップ：</strong> Rs 1,50,000 の 30% = Rs 45,000 であるため、年間では Rs 45,000 × 12 = Rs 5,40,000 です。28% のガイドラインでは Rs 42,000。36% の後端制限は Rs 54,000 で、債務 Rs 10,000 を引くと = Rs 44,000。</p>
+<p><strong>結果：</strong> 最大の家賃 <strong>月 Rs 45,000</strong> あなた自身のパーセンテージで — そして、貸し手風のガイドラインは、より近くに留まることを示唆します <strong>Rs 42,000–44,000</strong>、残りのすべてに Rs 1,05,000 の所得が残ります。</p></div><h3>よくある質問</h3></section><div class="faq"><h3>30% ルールは高価な都市でも機能しますか？</h3><p>家賃の高い都市では、より安い選択肢が近くにないため、多くの人が所得の 40–50% を家賃に使います。ルールはガイドラインであり、法律ではありません — しかしそれを上回れば上回るほど、予算の残りはより慎重に管理しなければなりません。なぜなら、貯蓄、交通、緊急事態のためのお金は、残ったものから来なければならないからです。</p></div><div class="faq"><h3>私の所得が月ごとに変わる場合はどうなりますか？</h3><p>計算は、あなたの最高の月ではなく、慎重な月に基づいて行ってください — たとえば過去三か月のうち最も低い典型的な月、または三か月の平均を少し減らしたもの。家賃は悪い月でも同じままであるため、予算は頼れる収入の上に構築しなければなりません。</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">この計算機をあなたのウェブサイトに埋め込む — 無料</h2>
+<p style="margin:0 0 12px;line-height:1.6">この計算機を自分のウェブサイトやブログに加えましょう — 完全に無料で、登録は不要、常に最新バージョンが表示されます。下のコードをコピーして、計算機を表示したいページの場所に貼り付けます。埋め込みの下にある小さな &ldquo;Powered by Loona Automation&rdquo; のクレジット行を保持することは、このツールを無料に保つ助けになります &mdash; しかし、スタイルを変更したり削除したりしても自由です。ツールはどちらでも動作します。</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/ja/rent-affordability-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Rent Affordability Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;提供 &lt;a href="https://loonaautomation.github.io/loona-calculators/ja/rent-affordability-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 無料の 家賃負担計算機&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">埋め込みコードをコピーする</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='埋め込みコードをコピー';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>人気の計算機</h4><ul><li><a href="../age-calculator/">年齢計算機</a></li>
+<li><a href="../zakat-calculator/">ザカート計算機</a></li>
+<li><a href="../cgpa-calculator/">CGPA計算機</a></li>
+<li><a href="../percentage-calculator/">パーセント計算機</a></li>
+<li><a href="../hijri-date-converter/">ヒジュラ暦日付変換</a></li>
+<li><a href="../emi-calculator/">EMI・ローン計算機</a></li></ul></div>
+<div><h4>その他の Loona ツール</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR コード</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona 画像圧縮</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI アシスタント</a></li>
+<li><a href="https://loonaautomation.github.io/">すべての Loona ツール</a></li></ul></div>
+<div><h4>Loona 計算機</h4><ul>
+<li><a href="../about.html">概要</a></li>
+<li><a href="../contact.html">連絡先</a></li>
+<li><a href="../privacy-policy.html">プライバシーポリシー</a></li>
+<li><a href="../terms.html">利用規約</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona 計算機 —  <a href="https://loonaautomation.github.io/">Loona Automation</a> プロジェクト。無料のオンライン計算機、サインアップなし。
+連絡先： <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+/* Rent Affordability — pure logic (unit-tested, inlined into the page) */
+function rentAffordability(grossMonthly, pct, debtsMonthly){
+  var maxRent = grossMonthly * pct / 100;
+  var guide28 = grossMonthly * 0.28;
+  var dti36 = grossMonthly * 0.36 - debtsMonthly;
+  if (dti36 < 0) dti36 = 0;
+  return {
+    maxMonthlyRent: maxRent,
+    maxYearlyRent: maxRent * 12,
+    guide28: guide28,
+    dti36: dti36,
+    leftAfterRent: grossMonthly - maxRent,
+    pctOfIncome: pct
+  };
+}
+function fmt(n){return "Rs " + Math.round(n).toLocaleString("en-IN");}
+function fmt2(n){return "Rs " + n.toLocaleString("en-IN",{minimumFractionDigits:2,maximumFractionDigits:2});}
+function pctFmt(n){return parseFloat(n.toFixed(2)) + "%";}
+function num(id){var v=parseFloat(document.getElementById(id).value);return isNaN(v)?0:v;}
+document.getElementById("raForm").addEventListener("submit", function(e){
+  e.preventDefault();
+  var res = document.getElementById("raRes");
+  var income = num("raIncome"), pct = num("raPct"), debts = num("raDebts");
+  if (income <= 0){ res.style.display = "block"; res.innerHTML = '<div class="err">総収入を入力してください — ゼロより大きくなければなりません。</div>'; return; }
+  if (pct <= 0 || pct > 100){ res.style.display = "block"; res.innerHTML = '<div class="err">家賃の割合は1から100の間でなければなりません。</div>'; return; }
+  var monthly = document.getElementById("raPeriod").value === "yearly" ? income / 12 : income;
+  var r = rentAffordability(monthly, pct, debts);
+  res.style.display = "block";
+  res.innerHTML = '<div class="resbig"><span>負担可能な月額家賃の上限</span><strong>' + fmt(r.maxMonthlyRent) + '</strong></div>'
+    + '<table class="restbl">'
+    + '<tr><td>年額家賃の上限（月額 × 12)</td><td>' + fmt(r.maxYearlyRent) + '</td></tr>'
+    + '<tr><td>使用した月額総収入</td><td>' + fmt(monthly) + '</td></tr>'
+    + '<tr><td>28%フロントエンド指針（住宅のみ）</td><td>' + fmt(r.guide28) + '</td></tr>'
+    + '<tr><td>36%バックエンド上限（負債 ' + fmt(debts) + '／月の後）</td><td>' + fmt(r.dti36) + '</td></tr>'
+    + '<tr><td>上限家賃を払った後に残る収入</td><td>' + fmt(r.leftAfterRent) + '</td></tr>'
+    + '</table>'
+    + '<p class="resnote">貸し手が使う28/36の指針：住宅費は総収入の28%未満に抑え、住宅費とその他のすべての月々の負債を合わせて36%未満に抑えます。あなた独自の割合では、両方より高い家賃にも低い家賃にもなり得ます — 最も安全な予算は、三つの数字のうち最も小さいもの以下に家賃を抑えることです。</p>';
+});
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' アプリをインストール';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('このアプリをインストールするには：共有ボタンをタップし、「ホーム画面に追加」を選んでください。');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body></html>

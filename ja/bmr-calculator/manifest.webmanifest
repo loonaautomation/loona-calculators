@@ -1,0 +1,29 @@
+{
+  "name": "Loona BMR計算機",
+  "short_name": "BMR計算機",
+  "description": "無料の BMR・TDEE 計算機：年齢、体重、身長、活動レベルを入力して、安静時と日常生活であなたの体が燃焼するカロリーを見つけます（Mifflin-St Jeor）。",
+  "id": "/loona-calculators/ja/bmr-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

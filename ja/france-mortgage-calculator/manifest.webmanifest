@@ -1,0 +1,29 @@
+{
+  "name": "Loona フランス住宅ローン計算機",
+  "short_name": "フランス住宅ローン計算機",
+  "description": "無料のフランス住宅ローン計算機（ユーロ）：任意の価格、頭金、利率、期間で、任意の借り手保険（assurance emprunteur）付きの月々の支払い、総利息、無借金になる日付。",
+  "id": "/loona-calculators/ja/france-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

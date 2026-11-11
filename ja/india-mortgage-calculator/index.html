@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>インド住宅ローン EMI 計算機 — EMI、利息、前払い | Loona</title>
+<meta name="description" content="無料のインド住宅ローン EMI 計算機（ルピー）：任意の物件価格、頭金、金利、期間で月々の EMI、総利息、無借金になる日付。さらに前払いの比較。">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/ja/india-mortgage-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/india-mortgage-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/india-mortgage-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/india-mortgage-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/india-mortgage-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/india-mortgage-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/india-mortgage-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/india-mortgage-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/india-mortgage-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/india-mortgage-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/india-mortgage-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/india-mortgage-calculator/"><link rel="alternate" hreflang="ja" href="https://loonaautomation.github.io/loona-calculators/ja/india-mortgage-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/india-mortgage-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="インド住宅ローン EMI 計算機 — EMI、利息、前払い | Loona">
+<meta property="og:description" content="無料のインド住宅ローン EMI 計算機（ルピー）：任意の物件価格、頭金、金利、期間で月々の EMI、総利息、無借金になる日付。さらに前払いの比較。">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/ja/india-mortgage-calculator/"><meta property="og:locale" content="ja_JP">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="インド住宅ローン EMI 計算機 — EMI、利息、前払い | Loona">
+<meta name="twitter:description" content="無料のインド住宅ローン EMI 計算機（ルピー）：任意の物件価格、頭金、金利、期間で月々の EMI、総利息、無借金になる日付。さらに前払いの比較。">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona インド住宅ローンEMI計算機","url":"https://loonaautomation.github.io/loona-calculators/ja/india-mortgage-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"インドで住宅ローンの EMI はどのように計算されますか？","acceptedAnswer":{"@type":"Answer","text":"インドの住宅ローンは逓減残高法を使います：利息は毎月、年率 ÷ 12 で未払残高に対して課され、固定 EMI の残りが元本を減らします。EMI は標準の年金公式から来ます。EMI = P × r × (1 + r)^n ÷ ((1 + r)^n − 1)。そのため、初期の EMI はほとんど利息で、後期のものはほとんど元本です。"}},{"@type":"Question","name":"インドで住宅ローンのためにどれだけの頭金が必要ですか？","acceptedAnswer":{"@type":"Answer","text":"RBI のローン対価値ルールの下では、銀行は、₹30 ラクまでのローンについては、物件価値の最大 90% まで、₹30 ラクから ₹75 ラクの間のローンについては 80%、₹75 ラクを超えるローンについては 75% まで融資できます。あなたの頭金は残りです — 価格の 10% から 25% — そして、印紙税と登録のために、別の現金も必要です。"}},{"@type":"Question","name":"インドの住宅ローンの金利は固定ですか、変動ですか？","acceptedAnswer":{"@type":"Answer","text":"インドのほとんどの住宅ローンは変動金利で、外部ベンチマーク — 通常は RBI のレポ金利 — に連動します。そのため、ベンチマークが動くと、EMI または期間が変わります。固定金利ローンは存在しますが、一般的ではなく、通常はコストが高くなります。この計算機は全期間一つの金利を前提とするので、結果は今日の金利でのスナップショットとして扱ってください。"}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona 計算機",
+      "item": "https://loonaautomation.github.io/loona-calculators/ja/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "インド住宅ローンEMI計算機",
+      "item": "https://loonaautomation.github.io/loona-calculators/ja/india-mortgage-calculator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation のロゴ">
+<div class="brand">Loona <span>計算機</span></div>
+<nav>
+<a href="../">ホーム</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">概要</a>
+<a href="../contact.html">連絡先</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona 計算機</a> › お金と金融 › インド住宅ローン計算機</div>
+<h1 class="pagetitle">🇮🇳 インド住宅ローン EMI 計算機</h1>
+<p class="lead">インドの住宅ローンを計算します：財産の価格とあなたの頭金を入力すると、ローン金額に対する正確な月々の EMI、その期間にわたる合計利息、そしてあなたが負債なしになる月が見えます — 定期的な前払いが、どれだけの利息を節約できるかを示す、追加支払いフィールドと共に。</p>
+<div class="toolbox"><form class="calcform" id="inForm">
+<div class="fld"><label for="inPrice">物件価格（₹）</label><input type="number" id="inPrice" value="6250000" step="any" min="0"></div>
+<div class="fld"><label for="inDep">頭金（%）</label><input type="number" id="inDep" value="20" step="any" min="0" max="99"></div>
+<div class="fld"><label for="inRate">金利（年あたり %）</label><input type="number" id="inRate" value="8.5" step="any" min="0"></div>
+<div class="fld"><label for="inYears">期間（年）</label><input type="number" id="inYears" value="20" step="1" min="1" max="40"></div>
+<div class="fld"><label for="inExtra">月々の追加前払い（₹）</label><input type="number" id="inExtra" value="0" step="any" min="0"></div>
+<button class="calcbtn" type="submit">月々の支払いを計算する</button>
+<div class="calcresult" id="inResult" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>インド住宅ローンEMI計算機の使い方</h2><ol><li>物件価格と頭金の割合（パーセンテージ）を入力してください — この計算機は残りを借ります。</li><li>住宅ローンのオファーからの利率を入力してください。</li><li>期間を年で入力し、計画している月々の過払いを加えて、「計算」を押してください。</li></ol>
+<div class="exbox"><strong>例：</strong> ₹62,50,000 の住宅に 20% の頭金（₹12,50,000）を入れると、ローンは ₹50,00,000 が残ります。8.5% で 20 年間のそのローンのコストは <strong>₹43,391.16</strong> 一ヶ月、期間にわたる利息 ₹54,13,878.80 と共に。₹10,000 の月々の過剰支払いを加えます。そして、負債なしの日は、著しく前に動きます — 上記でお試しください。</div>
+<h2>よくある質問</h2></section><div class="faq"><h3>インドで住宅ローンの EMI はどのように計算されますか？</h3><p>インドの住宅ローンは逓減残高法を使います：利息は毎月、年率 ÷ 12 で未払残高に対して課され、固定 EMI の残りが元本を減らします。EMI は標準の年金公式から来ます。EMI = P × r × (1 + r)^n ÷ ((1 + r)^n − 1)。そのため、初期の EMI はほとんど利息で、後期のものはほとんど元本です。</p></div><div class="faq"><h3>インドで住宅ローンのためにどれだけの頭金が必要ですか？</h3><p>RBI のローン対価値ルールの下では、銀行は、₹30 ラクまでのローンについては、物件価値の最大 90% まで、₹30 ラクから ₹75 ラクの間のローンについては 80%、₹75 ラクを超えるローンについては 75% まで融資できます。あなたの頭金は残りです — 価格の 10% から 25% — そして、印紙税と登録のために、別の現金も必要です。</p></div><div class="faq"><h3>インドの住宅ローンの金利は固定ですか、変動ですか？</h3><p>インドのほとんどの住宅ローンは変動金利で、外部ベンチマーク — 通常は RBI のレポ金利 — に連動します。そのため、ベンチマークが動くと、EMI または期間が変わります。固定金利ローンは存在しますが、一般的ではなく、通常はコストが高くなります。この計算機は全期間一つの金利を前提とするので、結果は今日の金利でのスナップショットとして扱ってください。</p></div>
+<h2 class="sec">関連する計算機</h2><div class="grid"><a class="card" href="../uk-mortgage-calculator/"><div class="ic">🇬🇧</div><h3>英国住宅ローン計算機</h3><p>お金と金融</p></a><a class="card" href="../canada-mortgage-calculator/"><div class="ic">🇨🇦</div><h3>カナダ住宅ローン計算機</h3><p>お金と金融</p></a><a class="card" href="../australia-mortgage-calculator/"><div class="ic">🇦🇺</div><h3>オーストラリア住宅ローン計算機</h3><p>お金と金融</p></a><a class="card" href="../germany-mortgage-calculator/"><div class="ic">🇩🇪</div><h3>ドイツ住宅ローン計算機</h3><p>お金と金融</p></a><a class="card" href="../pakistan-mortgage-calculator/"><div class="ic">🇵🇰</div><h3>パキスタン住宅ローン計算機</h3><p>お金と金融</p></a><a class="card" href="../uae-mortgage-calculator/"><div class="ic">🇦🇪</div><h3>UAE住宅ローン計算機</h3><p>お金と金融</p></a><a class="card" href="../mortgage-calculator/"><div class="ic">🏠</div><h3>住宅ローン計算機</h3><p>お金と金融</p></a><a class="card" href="../emi-calculator/"><div class="ic">🏦</div><h3>EMI・ローン計算機</h3><p>お金と金融</p></a></div>
+</div>
+<section class="txt"><h2>仕組み &mdash; 公式</h2>
+<p>月々の支払い <em>M</em> ローンで <em>P</em> 月次レートで <em>r</em> (= 年利率 ÷ 12 ÷ 100)、期間 <em>n</em> 月々の支払いは：</p>
+<p><strong>M = P × r ÷ (1 − (1 + r)<sup>−n</sup>)</strong></p>
+<p>総利息 = M × n − P。月次過払いでは、計算機は、残高を月ごとにシミュレートします：利息が残高に課され、支払いプラス過払いが適用され、残高がゼロに達するとすぐにローンは終わります — そのため、期間の早い時期の過払いが、最も節約します。</p>
+<h3>実例</h3>
+<div class="exbox"><strong>例：</strong> 20 年（240 の支払い）にわたり、8.5% で ₹50,00,000。r = 0.00708。そのため、M = ₹50,00,000 × 0.00708 ÷（1 − 1.00708<sup>−240</sup>) = <strong>₹43,391.16</strong> 月あたり。合計支払い = 240 × ₹43,391.16 ≈ ₹1,04,13,878.80。そのうち <strong>₹54,13,878.80</strong> 利息です。</div>
+<h3>よくある質問</h3></section><div class="faq"><h3>これには印紙税、登録、処理手数料が含まれますか？</h3><p>いいえ。印紙税と登録（しばしば物件価値の 5–8%、州によって異なる）、銀行の処理手数料、保険料は、EMI の計算の一部ではない、別のコストです。貸し手が手数料をローンに加えると、あなたが利息を支払う金額は上がります。</p></div><div class="faq"><h3>この計算機は利息のみのローンを行いますか？</h3><p>いいえ — それは標準の逓減残高返済ローンを計算します。そこでは、すべての EMI が残高を減らし、ローンは期間の終わりに解消されます。利息のみの構造は、インドの小売住宅ローンでは標準ではありません。</p></div><div class="faq"><h3>これは財務的助言ですか？</h3><p>いいえ — それは、あなたの数値を使う教育目的の計算機で、Loona Automation が無料で提供します。資格と金利はあなたの所得、クレジットスコア、銀行の方針によります。そのため、署名する前に貸し手で正確な数値を確認してください。</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">この計算機をあなたのウェブサイトに埋め込む — 無料</h2>
+<p style="margin:0 0 12px;line-height:1.6">この計算機を自分のウェブサイトやブログに加えましょう — 完全に無料で、登録は不要、常に最新バージョンが表示されます。下のコードをコピーして、計算機を表示したいページの場所に貼り付けます。埋め込みの下にある小さな &ldquo;Powered by Loona Automation&rdquo; のクレジット行を保持することは、このツールを無料に保つ助けになります &mdash; しかし、スタイルを変更したり削除したりしても自由です。ツールはどちらでも動作します。</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/ja/india-mortgage-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="India Mortgage Calculator Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;提供 &lt;a href="https://loonaautomation.github.io/loona-calculators/ja/india-mortgage-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 無料の India Mortgage Calculator Calculator&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">埋め込みコードをコピーする</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='埋め込みコードをコピー';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>人気の計算機</h4><ul><li><a href="../age-calculator/">年齢計算機</a></li>
+<li><a href="../zakat-calculator/">ザカート計算機</a></li>
+<li><a href="../cgpa-calculator/">CGPA計算機</a></li>
+<li><a href="../percentage-calculator/">パーセント計算機</a></li>
+<li><a href="../hijri-date-converter/">ヒジュラ暦日付変換</a></li>
+<li><a href="../emi-calculator/">EMI・ローン計算機</a></li></ul></div>
+<div><h4>その他の Loona ツール</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR コード</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona 画像圧縮</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI アシスタント</a></li>
+<li><a href="https://loonaautomation.github.io/">すべての Loona ツール</a></li></ul></div>
+<div><h4>Loona 計算機</h4><ul>
+<li><a href="../about.html">概要</a></li>
+<li><a href="../contact.html">連絡先</a></li>
+<li><a href="../privacy-policy.html">プライバシーポリシー</a></li>
+<li><a href="../terms.html">利用規約</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona 計算機 —  <a href="https://loonaautomation.github.io/">Loona Automation</a> プロジェクト。無料のオンライン計算機、サインアップなし。
+連絡先： <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+function amortize(principal, monthlyRate, months, extraMonthly) {
+  var bal = principal, totalInterest = 0, m = 0;
+  var base;
+  if (monthlyRate === 0) base = principal / months;
+  else base = principal * monthlyRate / (1 - Math.pow(1 + monthlyRate, -months));
+  while (bal > 0.005 && m < months + 1200) {
+    var interest = bal * monthlyRate;
+    var pay = base + (extraMonthly || 0);
+    var princ = pay - interest;
+    if (princ <= 0) break;
+    if (princ > bal) princ = bal;
+    bal -= princ; totalInterest += interest; m++;
+  }
+  return { payment: base, totalInterest: totalInterest, totalPaid: principal + totalInterest, monthsTaken: m };
+}
+function standardMonthlyRate(annualPct) { return annualPct / 100 / 12; }
+function canadaMonthlyRate(annualPct) { var i = annualPct / 100; return Math.pow(1 + i / 2, 2 / 12) - 1; }
+function germanPlan(principal, ratePct, tilgungPct, fixedYears) {
+  var monthlyRate = ratePct / 100 / 12;
+  var annualAnnuity = principal * (ratePct + tilgungPct) / 100;
+  var monthly = annualAnnuity / 12;
+  var bal = principal, interestPaid = 0, months = Math.round(fixedYears * 12);
+  for (var k = 0; k < months; k++) {
+    var i = bal * monthlyRate;
+    bal -= (monthly - i);
+    interestPaid += i;
+  }
+  return { annualAnnuity: annualAnnuity, monthlyPayment: monthly, remaining: bal, interestPaid: interestPaid, principalPaid: principal - bal };
+}
+function germanFullTermMonths(principal, ratePct, tilgungPct) {
+  var monthlyRate = ratePct / 100 / 12;
+  var monthly = principal * (ratePct + tilgungPct) / 100 / 12;
+  var bal = principal, m = 0;
+  while (bal > 0.005 && m < 1200) { bal -= (monthly - bal * monthlyRate); m++; }
+  return m;
+}
+/*TESTABLE_END*/
+
+function inMoney(x) { return new Intl.NumberFormat('en-IN', { style: 'currency', currency: 'INR' }).format(x); }
+function inPayoffText(months) {
+  var d = new Date(); d.setMonth(d.getMonth() + months);
+  return d.toLocaleDateString('en-IN', { month: 'long', year: 'numeric' }) + ' (' + months + ' 回の月額支払い）';
+}
+function inRun() {
+  var box = document.getElementById('inResult');
+  var price = parseFloat(document.getElementById('inPrice').value);
+  var dep = parseFloat(document.getElementById('inDep').value);
+  var rate = parseFloat(document.getElementById('inRate').value);
+  var years = parseFloat(document.getElementById('inYears').value);
+  var extra = parseFloat(document.getElementById('inExtra').value) || 0;
+  try {
+    if (isNaN(price) || isNaN(dep) || isNaN(rate) || isNaN(years) || price <= 0 || dep < 0 || dep >= 100 || years < 1) throw new Error("有効な価格、頭金、金利、期間を入力してください。");
+    var P = price * (1 - dep / 100);
+    var mr = standardMonthlyRate(rate);
+    var months = Math.round(years * 12);
+    var base = amortize(P, mr, months, 0);
+    var html = '<div class="resbig"><span>月額支払額</span><strong>' + inMoney(base.payment) + '</strong></div>';
+    html += '<table class="restbl">' +
+      '<tr><td>ローン金額（価格から頭金を引いた額）</td><td><strong>' + inMoney(P) + '</strong></td></tr>' +
+      '<tr><td>期間中の利息合計</td><td><strong>' + inMoney(base.totalInterest) + '</strong></td></tr>' +
+      '<tr><td>住宅ローンの総費用</td><td><strong>' + inMoney(base.totalPaid) + '</strong></td></tr>' +
+      '<tr><td>完済日</td><td><strong>' + inPayoffText(base.monthsTaken) + '</strong></td></tr></table>';
+    if (extra > 0) {
+      var fast = amortize(P, mr, months, extra);
+      var savedMonths = base.monthsTaken - fast.monthsTaken;
+      var savedInterest = base.totalInterest - fast.totalInterest;
+      html += '<div class="resbig"><span>追加返済 ' + inMoney(extra) + '（月額）</span><strong>完済 ' + Math.floor(savedMonths / 12) + 'y ' + (savedMonths % 12) + ' か月早くなります</strong></div>' +
+        '<table class="restbl"><tr><td>新しい完済日</td><td><strong>' + inPayoffText(fast.monthsTaken) + '</strong></td></tr>' +
+        '<tr><td>節約できる利息</td><td><strong>' + inMoney(savedInterest) + '</strong></td></tr></table>' +
+        '<p class="resnote">上記の支払額は、必要な月額支払額です。追加返済は毎月その上に加わります。</p>';
+    }
+    box.style.display = 'block';
+    box.innerHTML = html;
+  } catch (e) {
+    box.style.display = 'block';
+    box.innerHTML = '<p class="err">' + e.message + '</p>';
+  }
+}
+document.getElementById('inForm').addEventListener('submit', function (e) { e.preventDefault(); inRun(); });
+inRun();
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' アプリをインストール';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('このアプリをインストールするには：共有ボタンをタップし、「ホーム画面に追加」を選んでください。');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

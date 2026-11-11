@@ -1,0 +1,29 @@
+{
+  "name": "Loona 住宅ローン計算機",
+  "short_name": "住宅ローン計算機",
+  "description": "無料の住宅ローン計算機：家の価格、頭金、金利、期間 — ローン金額、月々の支払い、総利息、家の総コストが得られます。",
+  "id": "/loona-calculators/ja/mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

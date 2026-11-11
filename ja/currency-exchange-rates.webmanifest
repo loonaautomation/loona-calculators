@@ -1,0 +1,29 @@
+{
+  "name": "Loona 通貨為替レート",
+  "short_name": "通貨為替レート",
+  "description": "2026年十一月06日付の ECB 基準為替レート。20 通貨 — 変換ツール、逆レート、表付きの全 380 ペア。",
+  "id": "/loona-calculators/ja/currency-exchange-rates.html",
+  "start_url": "./currency-exchange-rates.html",
+  "scope": "./currency-exchange-rates.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona ヴィネットチェッカー",
+  "short_name": "ヴィネットチェッカー",
+  "description": "無料のビネットチェッカー：運転ルート上のヨーロッパの国を選ぶと、高速道路ビネットが必要な国、有料の国、車が無料の国がわかります。",
+  "id": "/loona-calculators/ja/vignette-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

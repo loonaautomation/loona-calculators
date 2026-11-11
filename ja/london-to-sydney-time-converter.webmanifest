@@ -1,0 +1,29 @@
+{
+  "name": "Loona ロンドンからシドニー時間への変換",
+  "short_name": "ロンドンからシドニー時間へ",
+  "description": "ロンドン時間からシドニー時間への変換。シドニーは一月にはロンドンより11時間進み、七月には9時間進んでいます。夏時間の日付、24時間表、最適な会議時間帯を含みます。ライブ変換ツール付きです。",
+  "id": "/loona-calculators/ja/london-to-sydney-time-converter.html",
+  "start_url": "./london-to-sydney-time-converter.html",
+  "scope": "./london-to-sydney-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

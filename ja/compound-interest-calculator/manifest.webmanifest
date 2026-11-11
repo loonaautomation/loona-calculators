@@ -1,0 +1,29 @@
+{
+  "name": "Loona 複利計算機",
+  "short_name": "複利計算機",
+  "description": "無料の複利計算機：年次、四半期、月次、日次の複利でお金がどう増えるかを確認します。任意の月々の預金と年ごとの表付き。",
+  "id": "/loona-calculators/ja/compound-interest-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

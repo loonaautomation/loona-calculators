@@ -1,0 +1,29 @@
+{
+  "name": "Loona マイルからキロメートルへの変換",
+  "short_name": "マイルからキロメートルへの変換",
+  "description": "マイルからキロメートルへ瞬時に変換。正確な式、miからkmへの完全な換算表と計算例。無料、登録不要です。",
+  "id": "/loona-calculators/ja/miles-to-km-converter.html",
+  "start_url": "./miles-to-km-converter.html",
+  "scope": "./miles-to-km-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
