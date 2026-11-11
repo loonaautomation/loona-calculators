@@ -1,0 +1,29 @@
+{
+  "name": "Loona 일표본 Z-검정 계산기",
+  "short_name": "일표본 Z-검정 계산기",
+  "description": "무료 단일표본 z검정 계산기: 표본 평균, 알려진 모집단 SD, n, 가설 평균이 z 통계량과 p값을 줘요. 교과서로 확인했어요.",
+  "id": "/loona-calculators/ko/z-test-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona 베를린를 카라치 시간으로 바꾸는 변환기",
+  "short_name": "베를린를 카라치 시간으로",
+  "description": "베를린 시간을 카라치 시간으로 변환하세요. 카라치는 일월에 베를린보다 4 시간 앞서고 칠월에 3 시간 앞서며, 일광 절약 날짜, 24-시간 표와 회의하기 가장 좋은 시간대가 있어요. 실시간 변환기가 포함돼 있어요.",
+  "id": "/loona-calculators/ko/berlin-to-karachi-time-converter.html",
+  "start_url": "./berlin-to-karachi-time-converter.html",
+  "scope": "./berlin-to-karachi-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

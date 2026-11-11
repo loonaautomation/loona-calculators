@@ -1,0 +1,29 @@
+{
+  "name": "Loona 속도 계산기",
+  "short_name": "속도 계산기",
+  "description": "무료 속도 계산기: 킬로미터 또는 마일 단위 거리와 걸린 시간을 입력하면 km/h와 mph 단위 속도, 킬로미터당 및 마일당 페이스를 얻을 수 있어요.",
+  "id": "/loona-calculators/ko/speed-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

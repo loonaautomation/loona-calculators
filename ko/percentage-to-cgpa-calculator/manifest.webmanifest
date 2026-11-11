@@ -1,0 +1,29 @@
+{
+  "name": "Loona 백분율을 CGPA로 바꾸는 변환기",
+  "short_name": "백분율을 CGPA로 바꾸는 변환기",
+  "description": "무료 백분율에서 CGPA 변환기: 백분율을 10점 만점 CGPA(9.5로 나누기) 또는 4점 만점 GPA로 바꾸세요, 공식이 표시돼요. 교육청과 대학용.",
+  "id": "/loona-calculators/ko/percentage-to-cgpa-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona 물 섭취량 계산기",
+  "short_name": "물 섭취량 계산기",
+  "description": "무료 물 섭취 계산기: 체중과 일일 운동을 입력하면 하루 리터, 밀리리터, 잔 단위 권장 물 섭취를 얻을 수 있어요.",
+  "id": "/loona-calculators/ko/water-intake-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

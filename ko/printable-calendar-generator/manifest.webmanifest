@@ -1,0 +1,29 @@
+{
+  "name": "Loona 인쇄용 달력 생성기",
+  "short_name": "인쇄용 달력 생성기",
+  "description": "무료 인쇄용 달력 생성기: 어떤 월과 연도(또는 전체 해)를 고르면 인쇄할 수 있는 깔끔한 달력 그리드를 생성해요. 월요일 또는 일요일 시작.",
+  "id": "/loona-calculators/ko/printable-calendar-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

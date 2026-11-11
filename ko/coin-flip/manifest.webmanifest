@@ -1,0 +1,29 @@
+{
+  "name": "Loona 동전 던지기",
+  "short_name": "동전 던지기",
+  "description": "무료 온라인 동전 던지기: 가상 동전을 한 번 또는 한 번에 열 개 던지세요, 앞면/뒷면 개수, 백분율, 연속 통계, 선공 경기 모드와 함께요.",
+  "id": "/loona-calculators/ko/coin-flip/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

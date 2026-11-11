@@ -1,0 +1,29 @@
+{
+  "name": "Loona EUR를 CNY로 바꾸는 변환기",
+  "short_name": "EUR를 CNY로 바꾸는 변환기",
+  "description": "유로(EUR)를 중국 위안 (런민비)(CNY)로 변환하세요. 06 십일월 2026자 ECB 기준 환율, 역환율, 변환표와 회랑 참고 사항이 있어요. 참고용으로만 사용하세요.",
+  "id": "/loona-calculators/ko/eur-to-cny-converter.html",
+  "start_url": "./eur-to-cny-converter.html",
+  "scope": "./eur-to-cny-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

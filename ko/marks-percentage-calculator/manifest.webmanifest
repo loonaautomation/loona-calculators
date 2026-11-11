@@ -1,0 +1,29 @@
+{
+  "name": "Loona 점수 백분율 계산기",
+  "short_name": "점수 백분율 계산기",
+  "description": "무료 점수 백분율 계산기: 받은 점수와 전체 점수를 입력하면 백분율과 성적을 즉시 얻을 수 있어요. 입학, 중급, 대학, 모든 시험용.",
+  "id": "/loona-calculators/ko/marks-percentage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

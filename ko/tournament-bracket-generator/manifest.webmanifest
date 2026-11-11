@@ -1,0 +1,29 @@
+{
+  "name": "Loona 토너먼트 대진표 생성기",
+  "short_name": "토너먼트 대진표 생성기",
+  "description": "무료 토너먼트 대진표 생성기: 참가자를 입력하면 부전승이 처리된, 올바르게 시드된 싱글 엘리미네이션 대진표를 얻을 수 있어요 — e스포츠, 체육일, 체스, 퀴즈용.",
+  "id": "/loona-calculators/ko/tournament-bracket-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

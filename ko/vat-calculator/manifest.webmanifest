@@ -1,0 +1,29 @@
+{
+  "name": "Loona VAT 계산기",
+  "short_name": "VAT 계산기",
+  "description": "무료 VAT/GST 계산기: 순액에 세금을 더하거나 총액에서 세금을 제거하세요, 어떤 세율로도. 모든 나라의 VAT, GST, 판매세에 작동해요.",
+  "id": "/loona-calculators/ko/vat-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

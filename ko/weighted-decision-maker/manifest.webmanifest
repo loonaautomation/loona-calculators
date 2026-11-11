@@ -1,0 +1,29 @@
+{
+  "name": "Loona 가중 의사결정 도구",
+  "short_name": "가중 의사결정 도구",
+  "description": "무료 가중 의사결정 도구: 가중치와 함께 옵션을 나열하고 가중치에 비례하는 확률로 하나를 고르세요. 각 옵션의 정확한 백분율 기회를 보여줘요.",
+  "id": "/loona-calculators/ko/weighted-decision-maker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

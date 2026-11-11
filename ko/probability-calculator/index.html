@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>확률 계산기 — 두 사건, 조합 및 순열 | Loona</title>
+<meta name="description" content="무료 확률 계산기: A와 B의 확률, A 또는 B, 둘 다 아님, 정확히 하나; 오즈 변환; 조합과 순열. 공식과 예시와 함께요.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/ko/probability-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/probability-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/probability-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/probability-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/probability-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/probability-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/probability-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/probability-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/probability-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/probability-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/probability-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/probability-calculator/"><link rel="alternate" hreflang="hi" href="https://loonaautomation.github.io/loona-calculators/hi/probability-calculator/"><link rel="alternate" hreflang="bn" href="https://loonaautomation.github.io/loona-calculators/bn/probability-calculator/"><link rel="alternate" hreflang="id" href="https://loonaautomation.github.io/loona-calculators/id/probability-calculator/"><link rel="alternate" hreflang="vi" href="https://loonaautomation.github.io/loona-calculators/vi/probability-calculator/"><link rel="alternate" hreflang="ko" href="https://loonaautomation.github.io/loona-calculators/ko/probability-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/probability-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="확률 계산기 — 두 사건, 조합 및 순열 | Loona">
+<meta property="og:description" content="무료 확률 계산기: A와 B의 확률, A 또는 B, 둘 다 아님, 정확히 하나; 오즈 변환; 조합과 순열. 공식과 예시와 함께요.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/ko/probability-calculator/"><meta property="og:locale" content="ko_KR">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="확률 계산기 — 두 사건, 조합 및 순열 | Loona">
+<meta name="twitter:description" content="무료 확률 계산기: A와 B의 확률, A 또는 B, 둘 다 아님, 정확히 하나; 오즈 변환; 조합과 순열. 공식과 예시와 함께요.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona 확률 계산기","url":"https://loonaautomation.github.io/loona-calculators/ko/probability-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona 오토메이션","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"독립과 상호 배타의 차이는 무엇인가요?","acceptedAnswer":{"@type":"Answer","text":"독립 사건은 서로 영향을 주지 않아요(동전 던지기 두 번). 상호 배타 사건은 둘 다 일어날 수 없어요(주사위 하나에 2와 5 굴리기) — 그것들에 대해서는 P(A 또는 B) = P(A) + P(B)이고 P(둘 다) = 0이에요. 사건은 둘 다 아닐 수 있지만, 한 번에 둘 다일 수는 없어요."}},{"@type":"Question","name":"조합과 순열은 어떻게 달라요?","acceptedAnswer":{"@type":"Answer","text":"순열은 순서가 중요한 배열을 세요: P(n, r) = n! ÷ (n−r)!. 조합은 순서가 중요하지 않은 선택을 세요: C(n, r) = n! ÷ (r! × (n−r)!). 시상대 완주는 순열이에요; 위원회는 조합이에요."}},{"@type":"Question","name":"확률을 오즈로 어떻게 변환해요?","acceptedAnswer":{"@type":"Answer","text":"찬성 오즈 = p ÷ (1 − p), 비율로 써요. 확률 0.75는 찬성 오즈 3:1이고, 반대는 1:3이에요."}},{"@type":"Question","name":"이 페이지가 통계 계산기를 대신하나요?","acceptedAnswer":{"@type":"Answer","text":"아니요. 통계 계산기는 데이터 집합을 요약해요(평균, 중앙값, 표준편차). 이 페이지는 사건 확률과 세기로 작동해요 — 전형적인 확률 및 통계 과정의 나머지 절반이에요."}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona 오토메이션",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona 계산기",
+      "item": "https://loonaautomation.github.io/loona-calculators/ko/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "확률 계산기",
+      "item": "https://loonaautomation.github.io/loona-calculators/ko/probability-calculator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation 로고">
+<div class="brand">Loona <span>계산기</span></div>
+<nav>
+<a href="../">홈</a>
+<a href="https://loonaautomation.github.io/">Loona 오토메이션</a>
+<a href="../about.html">정보</a>
+<a href="../contact.html">연락처</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona 계산기</a> › 수학 › 확률 계산기</div>
+<h1 class="pagetitle">🎲 확률 계산기</h1>
+<p class="lead">하나 또는 두 사건의 확률을 계산하세요: 둘 다 일어남, 어느 하나 일어남, 둘 다 아님, 또는 정확히 하나 — 확률과 배당 사이 변환을 더해, 그리고 조합 C(n, r)과 순열 P(n, r)을 계산하세요. 통계 계산기는 데이터 요약을 다루고; 이 페이지는 사건 확률을 다뤄요.</p>
+<div class="exbox"><strong>빠른 답:</strong> 독립 사건 두 개의 경우: P(A 그리고 B) = P(A) × P(B), P(A 또는 B) = P(A) + P(B) − P(A 그리고 B). P(A) = P(B) = 0.5인 경우: 둘 다 = 0.25, 어느 한쪽 = 0.75, 둘 다 아님 = 0.25, 정확히 하나 = 0.50.</div>
+<div class="toolbox"><form class="calcform" id="pbForm">
+<div class="fld"><label for="pbA">사건 A의 확률 (0–1, 또는 1 위의 %)</label><input type="number" id="pbA" value="0.5" step="any" min="0"></div>
+<div class="fld"><label for="pbB">사건 B의 확률</label><input type="number" id="pbB" value="0.5" step="any" min="0"></div>
+<div class="fld"><label for="pbMode">사건 관계</label><select id="pbMode"><option value="ind">독립적인</option><option value="excl">상호 배타적인</option></select></div>
+<h3 style="color:var(--teal);margin:10px 0 6px">조합 및 순열(선택)</h3>
+<div class="fld"><label for="pbN">n (전체 품목)</label><input type="number" id="pbN" value="10" min="0" max="170"></div>
+<div class="fld"><label for="pbR">r (고른 품목)</label><input type="number" id="pbR" value="3" min="0" max="170"></div>
+<button class="calcbtn" type="submit">확률 계산</button>
+<div class="calcresult" id="pbResult" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>확률 계산기 사용 방법</h2><ol><li>사건 A와 사건 B의 확률을 입력하세요(소수 0–1 또는 백분율로 — 계산기는 1보다 큰 값을 백분율로 취급해요).</li><li>빠른 모드를 쓰면 사건이 독립인지 상호 배타인지 고르세요.</li><li>또는 조합/순열로 스크롤하세요: n과 r을 입력하면 C(n, r)과 P(n, r)을 얻을 수 있어요.</li></ol>
+<div class="exbox"><strong>예시:</strong> 공정한 동전 두 개 던지기: P(앞면) = 각각 0.5. 둘 다 앞면 = 0.5 × 0.5 = 0.25. 앞면 최소 하나 = 0.75. 앞면 없음 = 0.25. 정확히 앞면 하나 = 0.50.</div>
+<h2>자주 묻는 질문</h2></section><div class="faq"><h3>독립과 상호 배타의 차이는 무엇인가요?</h3><p>독립 사건은 서로 영향을 주지 않아요(동전 던지기 두 번). 상호 배타 사건은 둘 다 일어날 수 없어요(주사위 하나에 2와 5 굴리기) — 그것들에 대해서는 P(A 또는 B) = P(A) + P(B)이고 P(둘 다) = 0이에요. 사건은 둘 다 아닐 수 있지만, 한 번에 둘 다일 수는 없어요.</p></div><div class="faq"><h3>조합과 순열은 어떻게 달라요?</h3><p>순열은 순서가 중요한 배열을 세요: P(n, r) = n! ÷ (n−r)!. 조합은 순서가 중요하지 않은 선택을 세요: C(n, r) = n! ÷ (r! × (n−r)!). 시상대 완주는 순열이에요; 위원회는 조합이에요.</p></div><div class="faq"><h3>확률을 오즈로 어떻게 변환해요?</h3><p>찬성 오즈 = p ÷ (1 − p), 비율로 써요. 확률 0.75는 찬성 오즈 3:1이고, 반대는 1:3이에요.</p></div><div class="faq"><h3>이 페이지가 통계 계산기를 대신하나요?</h3><p>아니요. 통계 계산기는 데이터 집합을 요약해요(평균, 중앙값, 표준편차). 이 페이지는 사건 확률과 세기로 작동해요 — 전형적인 확률 및 통계 과정의 나머지 절반이에요.</p></div>
+<h2 class="sec">관련 계산기</h2><div class="grid"><a class="card" href="../percentage-calculator/"><div class="ic">％</div><h3>백분율 계산기</h3><p>수학</p></a><a class="card" href="../statistics-calculator/"><div class="ic">📊</div><h3>통계 계산기</h3><p>수학</p></a><a class="card" href="../fraction-calculator/"><div class="ic">½</div><h3>분수 계산기</h3><p>수학</p></a><a class="card" href="../equation-solver/"><div class="ic">🧮</div><h3>방정식 풀이 도구</h3><p>수학</p></a><a class="card" href="../scientific-calculator/"><div class="ic">🔬</div><h3>공학용 계산기</h3><p>수학</p></a><a class="card" href="../average-calculator/"><div class="ic">📐</div><h3>평균 계산기</h3><p>수학</p></a><a class="card" href="../dice-roller/"><div class="ic">🎲</div><h3>주사위 굴리기</h3><p>재미</p></a><a class="card" href="../coin-flip/"><div class="ic">🪙</div><h3>동전 던지기</h3><p>재미</p></a></div>
+</div>
+<section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>작동 원리 — 공식</h2>
+<p><strong>독립 사건:</strong> P(A 및 B) = P(A) × P(B); P(A 또는 B) = P(A) + P(B) − P(A)×P(B); P(둘 다 아님) = (1 − P(A)) × (1 − P(B)); P(정확히 하나) = P(A 또는 B) − P(A 및 B). <strong>상호 배타:</strong> P(둘 다) = 0이고 P(A 또는 B) = P(A) + P(B). <strong>세기:</strong> P(n, r) = n! ÷ (n−r)!이고 C(n, r) = n! ÷ (r! × (n−r)!).</p>
+<h3>작업 예시</h3><div class="exbox"><p><strong>입력들:</strong> P(A) = 0.5, P(B) = 0.5, 독립; 그리고 n = 10, r = 3.</p><p><strong>단계:</strong> 둘 다 = 0.5 × 0.5 = 0.25. 어느 한쪽 = 0.5 + 0.5 − 0.25 = 0.75. 둘 다 아님 = 0.5 × 0.5 = 0.25. 정확히 하나 = 0.75 − 0.25 = 0.50. C(10, 3) = 10! ÷ (3! × 7!) = (10 × 9 × 8) ÷ 6 = 120. P(10, 3) = 10 × 9 × 8 = 720.</p><p><strong>결과:</strong> 둘 다 <strong>25%</strong>, 둘 중 하나 <strong>75%</strong>, 정확히 하나 <strong>50%</strong>; C(10, 3) = <strong>120</strong>, P(10, 3) = <strong>720</strong>.</p></div>
+
+</section>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">이 계산기를 웹사이트에 임베드하세요 — 무료</h2>
+<p style="margin:0 0 12px;line-height:1.6">이 계산기를 자신의 웹사이트나 블로그에 더하세요 — 그것은 완전히 무료이고, 가입이 필요 없고, 항상 최신 버전을 보여줘요. 아래 코드를 복사하고 계산기가 나타나기를 원하는 페이지에 붙여넣으세요. 임베드 아래 작은 &ldquo;Powered by Loona Automation&rdquo; 크레딧 줄을 유지하면 이 도구를 무료로 유지하는 데 도움이 돼요 &mdash; 그러나 스타일을 입히거나 제거해도 자유예요; 도구는 어느 쪽이든 작동해요.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/ko/probability-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Probability Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;제공: &lt;a href="https://loonaautomation.github.io/loona-calculators/ko/probability-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 무료 확률 계산기&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">임베드 코드 복사</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='임베드 코드 복사';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>인기 계산기</h4><ul><li><a href="../age-calculator/">나이 계산기</a></li>
+<li><a href="../zakat-calculator/">자카트 계산기</a></li>
+<li><a href="../cgpa-calculator/">CGPA 계산기</a></li>
+<li><a href="../percentage-calculator/">백분율 계산기</a></li>
+<li><a href="../hijri-date-converter/">히즈리 날짜 변환기</a></li>
+<li><a href="../emi-calculator/">EMI & 대출 계산기</a></li></ul></div>
+<div><h4>더 많은 Loona 도구</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR 코드</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona 이미지 압축 도구</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI 어시스턴트</a></li>
+<li><a href="https://loonaautomation.github.io/">모든 Loona 도구</a></li></ul></div>
+<div><h4>Loona 계산기</h4><ul>
+<li><a href="../about.html">정보</a></li>
+<li><a href="../contact.html">연락처</a></li>
+<li><a href="../privacy-policy.html">개인정보 처리방침</a></li>
+<li><a href="../terms.html">이용 약관</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — a <a href="https://loonaautomation.github.io/">Loona 오토메이션</a> 프로젝트. 무료 온라인 계산기, 가입 없음.\n연락처: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+function normProb(x){if(x>1)return x/100;return x;}
+function probTwo(a,b,mode){
+  a=normProb(a);b=normProb(b);
+  if(!(a>=0&&a<=1)||!(b>=0&&b<=1))return null;
+  if(mode==="excl"){if(a+b>1)return null;return {both:0,either:a+b,neither:1-(a+b),exactlyOne:a+b};}
+  var both=a*b;return {both:both,either:a+b-both,neither:(1-a)*(1-b),exactlyOne:a+b-2*both};
+}
+function fact(n){var r=1;for(var i=2;i<=n;i++)r*=i;return r;}
+function nCr(n,r){if(r<0||r>n||n<0)return null;return fact(n)/(fact(r)*fact(n-r));}
+function nPr(n,r){if(r<0||r>n||n<0)return null;return fact(n)/fact(n-r);}
+function oddsText(p){if(p<=0)return "0 : 1";if(p>=1)return "certain";var o=p/(1-p);return (Math.round(o*100)/100)+" : 1 찬성";}
+/*TESTABLE_END*/
+document.getElementById('pbForm').addEventListener('submit',function(e){e.preventDefault();
+ var r=probTwo(parseFloat(document.getElementById('pbA').value),parseFloat(document.getElementById('pbB').value),document.getElementById('pbMode').value);
+ var n=parseInt(document.getElementById('pbN').value,10), rr=parseInt(document.getElementById('pbR').value,10);
+ var box=document.getElementById('pbResult'); box.style.display='block';
+ if(!r){box.innerHTML='<p class="err">확률을 0과 1 사이(또는 백분율로 0–100)에 입력하세요. 상호 배타 사건에 대해 두 확률은 최대 1까지 더해져야 해요.</p>';return;}
+ function pc(x){return (x*100).toFixed(2)+'%';}
+ var html='<div class="resbig"><span>P(A 또는 B) — 적어도 하나가 일어나요</span><strong>'+pc(r.either)+'</strong></div>'
+ +'<table class="restbl"><tr><td>P(A 그리고 B) — 둘 다</td><td><strong>'+pc(r.both)+'</strong></td></tr>'
+ +'<tr><td>P(둘 다 아님)</td><td><strong>'+pc(r.neither)+'</strong></td></tr>'
+ +'<tr><td>P(정확히 하나)</td><td><strong>'+pc(r.exactlyOne)+'</strong></td></tr>'
+ +'<tr><td>사건 A의 배당</td><td><strong>'+oddsText(normProb(parseFloat(document.getElementById('pbA').value)))+'</strong></td></tr></table>';
+ var c=nCr(n,rr), p=nPr(n,rr);
+ if(c!==null&&p!==null)html+='<table class="restbl"><tr><td>C('+n+', '+rr+') 조합</td><td><strong>'+c.toLocaleString('en-US')+'</strong></td></tr><tr><td>P('+n+', '+rr+') 순열</td><td><strong>'+p.toLocaleString('en-US')+'</strong></td></tr></table>';
+ box.innerHTML=html;});
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' 앱 설치';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('이 앱을 설치하세요: 공유 버튼을 누르고, 그다음 "홈 화면에 추가"를 고르세요.');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

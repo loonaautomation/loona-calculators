@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>그래프 계산기 — 함수를 온라인으로 무료로 그리세요 | Loona Calculators</title>
+<meta name="description" content="무료 그래프 계산기: x^2, sin(x), 2x+3 같은 함수 하나 또는 두 개를 확대 가능한 격자에 그리세요. 브라우저에서 작동, 가입 불필요.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/ko/graphing-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/graphing-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/graphing-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/graphing-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/graphing-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/graphing-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/graphing-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/graphing-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/graphing-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/graphing-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/graphing-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/graphing-calculator/"><link rel="alternate" hreflang="hi" href="https://loonaautomation.github.io/loona-calculators/hi/graphing-calculator/"><link rel="alternate" hreflang="bn" href="https://loonaautomation.github.io/loona-calculators/bn/graphing-calculator/"><link rel="alternate" hreflang="id" href="https://loonaautomation.github.io/loona-calculators/id/graphing-calculator/"><link rel="alternate" hreflang="vi" href="https://loonaautomation.github.io/loona-calculators/vi/graphing-calculator/"><link rel="alternate" hreflang="ko" href="https://loonaautomation.github.io/loona-calculators/ko/graphing-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/graphing-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="그래프 계산기 — 함수를 온라인으로 무료로 그리세요 | Loona Calculators">
+<meta property="og:description" content="무료 그래프 계산기: x^2, sin(x), 2x+3 같은 함수 하나 또는 두 개를 확대 가능한 격자에 그리세요. 브라우저에서 작동, 가입 불필요.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/ko/graphing-calculator/"><meta property="og:locale" content="ko_KR">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="그래프 계산기 — 함수를 온라인으로 무료로 그리세요 | Loona Calculators">
+<meta name="twitter:description" content="무료 그래프 계산기: x^2, sin(x), 2x+3 같은 함수 하나 또는 두 개를 확대 가능한 격자에 그리세요. 브라우저에서 작동, 가입 불필요.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona 그래프 계산기","url":"https://loonaautomation.github.io/loona-calculators/ko/graphing-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona 오토메이션","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"어떤 식을 쓸 수 있나요?","acceptedAnswer":{"@type":"Answer","text":"숫자, x, + − * / ^ 와 괄호, sin, cos, tan, sqrt, abs, log(밑 10), ln, exp, 상수 pi와 e까지요. 암묵적 곱셈도 작동해요: 2x, 3(x+1), (x+1)(x-1) 모두 이해돼요."}},{"@type":"Question","name":"왜 1/x 또는 tan(x)의 그래프가 곳곳에서 끊기나요?","acceptedAnswer":{"@type":"Answer","text":"그 기능들은 점근선에서 매우 큰 양과 음 값 사이를 점프해요. 플로터는 점프를 감지하고 거짓 수직 직선을 그리는 대신 펜을 들어요."}},{"@type":"Question","name":"x 제곱이나 거듭제곱은 어떻게 써요?","acceptedAnswer":{"@type":"Answer","text":"캐럿을 쓰세요: x^2는 x 제곱을 뜻하고, x^3은 세제곱, x^0.5는 sqrt(x)와 같아요. 거듭제곱은 오른쪽 결합이에요, 그래서 2^3^2는 2^(3^2) = 512로 읽혀요."}},{"@type":"Question","name":"그래프는 어떤 범위를 보여주나요?","acceptedAnswer":{"@type":"Answer","text":"그것은 x가 −10부터 10까지, y가 −10부터 10까지에서 시작해요. 각 확대 단계는 범위를 약 0.7(안) 또는 1.4(밖)로 곱해요."}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona 오토메이션",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona 계산기",
+      "item": "https://loonaautomation.github.io/loona-calculators/ko/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "그래프 계산기",
+      "item": "https://loonaautomation.github.io/loona-calculators/ko/graphing-calculator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation 로고">
+<div class="brand">Loona <span>계산기</span></div>
+<nav>
+<a href="../">홈</a>
+<a href="https://loonaautomation.github.io/">Loona 오토메이션</a>
+<a href="../about.html">정보</a>
+<a href="../contact.html">연락처</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona 계산기</a> › 수학 › 그래프 계산기</div>
+<h1 class="pagetitle">📈 그래프 계산기</h1>
+<p class="lead">x의 함수를 입력하세요 — 예를 들어 x^2, sin(x), 2x+3 또는 1/x — 그리고 그 그래프를 즉시 보세요. 두 번째 함수를 더해 비교하고, 확대하거나 축소해 절편, 전환점, 점근선을 탐색하세요.</p>
+<div class="exbox"><strong>빠른 답:</strong> 그래프 계산기는 보이는 구간 전체에서 수백 개의 x 값에 대해 y를 구하고 점들을 이어 y = f(x)를 그려요. 이것은 x^2, sin(x), cos(x), tan(x), sqrt(x), log(x), 분수와 2x 같은 암묵적 곱셈을 이해해요.</div>
+<div class="toolbox"><form class="calcform" id="grForm">
+<div class="fld"><label for="grF1">함수 1 — f(x) =</label><input type="text" id="grF1" value="x^2-4" style="width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px"></div>
+<div class="fld"><label for="grF2">함수 2 (선택) — g(x) =</label><input type="text" id="grF2" value="2x+3" style="width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px"></div>
+<button class="calcbtn" type="submit">함수를 그리세요</button>
+<div class="calcresult" id="grResult" style="display:none"></div>
+</form>
+<div style="text-align:center;margin-top:14px"><canvas id="grCanvas" width="720" height="480" style="max-width:100%;height:auto;background:#fff;border:1px solid var(--line);border-radius:12px"></canvas></div>
+<p style="text-align:center;margin-top:10px"><button type="button" class="calcbtn" style="width:auto;padding:9px 18px" id="grZoomIn">확대</button> <button type="button" class="calcbtn" style="width:auto;padding:9px 18px" id="grZoomOut">축소</button> <button type="button" class="calcbtn" style="width:auto;padding:9px 18px" id="grReset">보기 초기화</button></p></div>
+<section class="txt"><h2>그래프 계산기 사용 방법</h2><ol><li>첫 번째 함수를 입력하세요, 예를 들어 x^2 - 4.</li><li>선택적으로 다른 색으로 비교할 두 번째 함수를 입력하세요.</li><li>그리기를 누른 뒤, 확대 / 축소 또는 보기 초기화를 쓰세요.</li><li>격자에서 절편과 교차점을 읽으세요 — 각 정사각형은 기본적으로 1단위예요.</li></ol>
+<div class="exbox"><strong>예시:</strong> x^2 - 4를 그리면 x = -2와 x = 2에서 x축과 만나고, 가장 낮은 점이 (0, -4)에 있는 포물선을 줘요. 직선 2x+3을 더하면 곡선과 직선이 어디서 만나는지 보여줘요.</div>
+<h2>자주 묻는 질문</h2></section><div class="faq"><h3>어떤 식을 쓸 수 있나요?</h3><p>숫자, x, + − * / ^ 와 괄호, sin, cos, tan, sqrt, abs, log(밑 10), ln, exp, 상수 pi와 e까지요. 암묵적 곱셈도 작동해요: 2x, 3(x+1), (x+1)(x-1) 모두 이해돼요.</p></div><div class="faq"><h3>왜 1/x 또는 tan(x)의 그래프가 곳곳에서 끊기나요?</h3><p>그 기능들은 점근선에서 매우 큰 양과 음 값 사이를 점프해요. 플로터는 점프를 감지하고 거짓 수직 직선을 그리는 대신 펜을 들어요.</p></div><div class="faq"><h3>x 제곱이나 거듭제곱은 어떻게 써요?</h3><p>캐럿을 쓰세요: x^2는 x 제곱을 뜻하고, x^3은 세제곱, x^0.5는 sqrt(x)와 같아요. 거듭제곱은 오른쪽 결합이에요, 그래서 2^3^2는 2^(3^2) = 512로 읽혀요.</p></div><div class="faq"><h3>그래프는 어떤 범위를 보여주나요?</h3><p>그것은 x가 −10부터 10까지, y가 −10부터 10까지에서 시작해요. 각 확대 단계는 범위를 약 0.7(안) 또는 1.4(밖)로 곱해요.</p></div>
+<h2 class="sec">관련 계산기</h2><div class="grid"><a class="card" href="../percentage-calculator/"><div class="ic">％</div><h3>백분율 계산기</h3><p>수학</p></a><a class="card" href="../statistics-calculator/"><div class="ic">📊</div><h3>통계 계산기</h3><p>수학</p></a><a class="card" href="../fraction-calculator/"><div class="ic">½</div><h3>분수 계산기</h3><p>수학</p></a><a class="card" href="../equation-solver/"><div class="ic">🧮</div><h3>방정식 풀이 도구</h3><p>수학</p></a><a class="card" href="../scientific-calculator/"><div class="ic">🔬</div><h3>공학용 계산기</h3><p>수학</p></a><a class="card" href="../average-calculator/"><div class="ic">📐</div><h3>평균 계산기</h3><p>수학</p></a></div>
+</div>
+<section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>작동 원리 — 공식</h2>
+<p>플로터는 각 식을 토큰(숫자, x, 연산자, 함수)으로 파싱하고, 암시된 곱셈 기호를 삽입하고(2x → 2*x), 표준 연산 순서를 존중하는 재귀 하강 파서로 그것을 평가해요: <strong>^는 가장 강하게 묶이고 오른쪽으로 결합해요, 그다음 *와 /, 그다음 +와 −</strong>, 함수와 괄호를 먼저 처리해요. 그런 다음 구간 전체의 x 위치 720곳에서 함수를 표본화해 연속한 유한한 점들을 연결하고, 함수가 정의되지 않거나 점근선을 건너뛰는 간격은 건너뛰어요.</p>
+<h3>작업 예시</h3><div class="exbox"><p><strong>입력들:</strong> f(x) = x^2 − 4.</p><p><strong>단계:</strong> x = 0에서 y = −4(가장 낮은 점)예요. x = 2에서 y = 4 − 4 = 0, x = −2에서 y = 0 — 두 개의 x절편이에요. x = 3에서 y = 9 − 4 = 5예요.</p><p><strong>결과:</strong> 꼭짓점이 (0, −4)인 포물선이 x축과 만나는 점 <strong>−2와 2</strong>, 그래프가 보여주는 그대로예요.</p></div>
+
+</section>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">이 계산기를 웹사이트에 임베드하세요 — 무료</h2>
+<p style="margin:0 0 12px;line-height:1.6">이 계산기를 자신의 웹사이트나 블로그에 더하세요 — 그것은 완전히 무료이고, 가입이 필요 없고, 항상 최신 버전을 보여줘요. 아래 코드를 복사하고 계산기가 나타나기를 원하는 페이지에 붙여넣으세요. 임베드 아래 작은 &ldquo;Powered by Loona Automation&rdquo; 크레딧 줄을 유지하면 이 도구를 무료로 유지하는 데 도움이 돼요 &mdash; 그러나 스타일을 입히거나 제거해도 자유예요; 도구는 어느 쪽이든 작동해요.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/ko/graphing-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Graphing Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;제공: &lt;a href="https://loonaautomation.github.io/loona-calculators/ko/graphing-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 무료 그래프 계산기&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">임베드 코드 복사</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='임베드 코드 복사';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>인기 계산기</h4><ul><li><a href="../age-calculator/">나이 계산기</a></li>
+<li><a href="../zakat-calculator/">자카트 계산기</a></li>
+<li><a href="../cgpa-calculator/">CGPA 계산기</a></li>
+<li><a href="../percentage-calculator/">백분율 계산기</a></li>
+<li><a href="../hijri-date-converter/">히즈리 날짜 변환기</a></li>
+<li><a href="../emi-calculator/">EMI & 대출 계산기</a></li></ul></div>
+<div><h4>더 많은 Loona 도구</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR 코드</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona 이미지 압축 도구</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI 어시스턴트</a></li>
+<li><a href="https://loonaautomation.github.io/">모든 Loona 도구</a></li></ul></div>
+<div><h4>Loona 계산기</h4><ul>
+<li><a href="../about.html">정보</a></li>
+<li><a href="../contact.html">연락처</a></li>
+<li><a href="../privacy-policy.html">개인정보 처리방침</a></li>
+<li><a href="../terms.html">이용 약관</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — a <a href="https://loonaautomation.github.io/">Loona 오토메이션</a> 프로젝트. 무료 온라인 계산기, 가입 없음.\n연락처: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+function tokenizeExpr(expr){
+  var s=String(expr).replace(/\s+/g,"").toLowerCase(), tokens=[], i=0;
+  var funcs=["sin","cos","tan","sqrt","abs","log","ln","exp"];
+  while(i<s.length){
+    var c=s[i];
+    if(/[0-9.]/.test(c)){var num="";while(i<s.length&&/[0-9.]/.test(s[i])){num+=s[i];i++;}tokens.push({t:"num",v:parseFloat(num)});continue;}
+    if(c==="x"){tokens.push({t:"var"});i++;continue;}
+    if(s.substr(i,2)==="pi"){tokens.push({t:"num",v:Math.PI});i+=2;continue;}
+    if(c==="e"&&!/^(exp)/.test(s.substr(i))){tokens.push({t:"num",v:Math.E});i++;continue;}
+    var matched=false;
+    for(var f=0;f<funcs.length;f++){if(s.substr(i,funcs[f].length)===funcs[f]){tokens.push({t:"fn",v:funcs[f]});i+=funcs[f].length;matched=true;break;}}
+    if(matched)continue;
+    if("+-*/^()".indexOf(c)>=0){tokens.push({t:"op",v:c});i++;continue;}
+    throw new Error("예상하지 못한 문자: "+c);
+  }
+  var out=[];
+  for(var k=0;k<tokens.length;k++){
+    if(k>0){
+      var prev=tokens[k-1], cur=tokens[k];
+      var prevVal=(prev.t==="num"||prev.t==="var"||(prev.t==="op"&&prev.v===")"));
+      var curVal=(cur.t==="num"||cur.t==="var"||cur.t==="fn"||(cur.t==="op"&&cur.v==="("));
+      if(prevVal&&curVal)out.push({t:"op",v:"*"});
+    }
+    out.push(tokens[k]);
+  }
+  return out;
+}
+function makeFunction(expr){
+  var tokens=tokenizeExpr(expr), pos=0;
+  function peek(){return tokens[pos];}
+  function next(){return tokens[pos++];}
+  function parseExpr(){
+    var v=parseTerm();
+    while(peek()&&peek().t==="op"&&(peek().v==="+"||peek().v==="-")){var op=next().v;var r=parseTerm();v=(op==="+")?v+r:v-r;}
+    return v;
+  }
+  function parseTerm(){
+    var v=parseFactor();
+    while(peek()&&peek().t==="op"&&(peek().v==="*"||peek().v==="/")){var op=next().v;var r=parseFactor();if(op==="/"){if(r===0)throw new Error("div0");v=v/r;}else v=v*r;}
+    return v;
+  }
+  function parseFactor(){
+    var base=parseUnary();
+    if(peek()&&peek().t==="op"&&peek().v==="^"){next();var ex=parseFactor();return Math.pow(base,ex);}
+    return base;
+  }
+  function parseUnary(){
+    if(peek()&&peek().t==="op"&&peek().v==="-"){next();return -parseUnary();}
+    if(peek()&&peek().t==="op"&&peek().v==="+"){next();return parseUnary();}
+    return parseAtom();
+  }
+  var xVal=0;
+  function parseAtom(){
+    var tk=next();
+    if(!tk)throw new Error("식의 예상하지 못한 끝");
+    if(tk.t==="num")return tk.v;
+    if(tk.t==="var")return xVal;
+    if(tk.t==="fn"){
+      var a=parseAtomWrapped();
+      switch(tk.v){
+        case "sin":return Math.sin(a);case "cos":return Math.cos(a);case "tan":return Math.tan(a);
+        case "sqrt":if(a<0)throw new Error("domain");return Math.sqrt(a);
+        case "abs":return Math.abs(a);
+        case "log":if(a<=0)throw new Error("domain");return Math.log10(a);
+        case "ln":if(a<=0)throw new Error("domain");return Math.log(a);
+        case "exp":return Math.exp(a);
+      }
+    }
+    if(tk.t==="op"&&tk.v==="("){var v=parseExpr();var close=next();if(!close||close.v!==")")throw new Error("닫는 괄호 누락");return v;}
+    throw new Error("Unexpected token");
+  }
+  function parseAtomWrapped(){
+    var tk=peek();
+    if(tk&&tk.t==="op"&&tk.v==="("){return parseAtom();}
+    return parseAtom();
+  }
+  return function(x){
+    pos=0; xVal=x;
+    var v=parseExpr();
+    if(pos<tokens.length)throw new Error("Trailing characters");
+    return v;
+  };
+}
+function evaluateExpression(expr,x){return makeFunction(expr)(x);}
+/*TESTABLE_END*/
+var GR={range:10};
+function grDraw(){
+  var cv=document.getElementById('grCanvas'), ctx=cv.getContext('2d');
+  var W=cv.width,H=cv.height,R=GR.range;
+  ctx.clearRect(0,0,W,H);
+  function px(x){return (x+R)/(2*R)*W;}
+  function py(y){return H-(y+R)/(2*R)*H;}
+  ctx.strokeStyle="#e6ecea";ctx.lineWidth=1;
+  for(var g=-Math.floor(R);g<=R;g++){ctx.beginPath();ctx.moveTo(px(g),0);ctx.lineTo(px(g),H);ctx.stroke();ctx.beginPath();ctx.moveTo(0,py(g));ctx.lineTo(W,py(g));ctx.stroke();}
+  ctx.strokeStyle="#9db3ae";ctx.lineWidth=1.6;
+  ctx.beginPath();ctx.moveTo(px(0),0);ctx.lineTo(px(0),H);ctx.stroke();
+  ctx.beginPath();ctx.moveTo(0,py(0));ctx.lineTo(W,py(0));ctx.stroke();
+  ctx.fillStyle="#5a6b68";ctx.font="11px Arial";
+  for(var t=-Math.floor(R);t<=R;t+= (R>10?5:1)){if(t!==0){ctx.fillText(t,px(t)-4,H-py(0)+14<-20?py(0)+14:py(0)+14);ctx.fillText(t,px(0)+5,py(t)+4);}}
+  var jobs=[["grF1","#bc4749"],["grF2","#0a423b"]];
+  jobs.forEach(function(job){
+    var expr=document.getElementById(job[0]).value.trim(); if(!expr)return;
+    var fn; try{fn=makeFunction(expr);}catch(e){return;}
+    ctx.strokeStyle=job[1];ctx.lineWidth=2.2;ctx.beginPath();
+    var pen=false;
+    for(var i=0;i<=W;i++){
+      var x=-R+ (2*R)*i/W, y;
+      try{y=fn(x);}catch(e){pen=false;continue;}
+      if(!isFinite(y)||Math.abs(y)>R*3){pen=false;continue;}
+      var X=px(x),Y=py(y);
+      if(!pen){ctx.moveTo(X,Y);pen=true;}else{
+        var prevY=py((function(){try{return fn(x-(2*R)/W);}catch(e){return NaN;}})());
+        if(isFinite(prevY)&&Math.abs(Y-prevY)>H*0.6){ctx.moveTo(X,Y);}else ctx.lineTo(X,Y);
+      }
+    }
+    ctx.stroke();
+  });
+}
+document.getElementById('grForm').addEventListener('submit',function(e){e.preventDefault();
+ var box=document.getElementById('grResult');
+ try{evaluateExpression(document.getElementById('grF1').value,1);}catch(err){box.style.display='block';box.innerHTML='<p class="err">함수 1을 읽을 수 없었어요. 괄호와 철자를 확인하세요 — 예를 들어 x^2, sin(x), 2x+3.</p>';return;}
+ var f2=document.getElementById('grF2').value.trim();
+ if(f2){try{makeFunction(f2)(1);}catch(err){box.style.display='block';box.innerHTML='<p class="err">함수 2를 읽을 수 없었어요.</p>';return;}}
+ box.style.display='none'; grDraw();});
+document.getElementById('grZoomIn').addEventListener('click',function(){GR.range=Math.max(1,GR.range*0.7);grDraw();});
+document.getElementById('grZoomOut').addEventListener('click',function(){GR.range=Math.min(1000,GR.range*1.4);grDraw();});
+document.getElementById('grReset').addEventListener('click',function(){GR.range=10;grDraw();});
+grDraw();
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' 앱 설치';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('이 앱을 설치하세요: 공유 버튼을 누르고, 그다음 "홈 화면에 추가"를 고르세요.');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

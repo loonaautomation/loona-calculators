@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>반올림 계산기 — 소수 자릿수, 천 단위 및 유효 숫자로 반올림 | Loona</title>
+<meta name="description" content="무료 반올림 계산기: 모든 숫자를 소수 자릿수, 가장 가까운 10, 100, 1,000으로, 또는 유효 숫자로 반올림하세요, 규칙 설명과 함께요.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/ko/rounding-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/rounding-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/rounding-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/rounding-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/rounding-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/rounding-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/rounding-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/rounding-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/rounding-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/rounding-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/rounding-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/rounding-calculator/"><link rel="alternate" hreflang="hi" href="https://loonaautomation.github.io/loona-calculators/hi/rounding-calculator/"><link rel="alternate" hreflang="bn" href="https://loonaautomation.github.io/loona-calculators/bn/rounding-calculator/"><link rel="alternate" hreflang="id" href="https://loonaautomation.github.io/loona-calculators/id/rounding-calculator/"><link rel="alternate" hreflang="vi" href="https://loonaautomation.github.io/loona-calculators/vi/rounding-calculator/"><link rel="alternate" hreflang="ko" href="https://loonaautomation.github.io/loona-calculators/ko/rounding-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/rounding-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="반올림 계산기 — 소수 자릿수, 천 단위 및 유효 숫자로 반올림 | Loona">
+<meta property="og:description" content="무료 반올림 계산기: 모든 숫자를 소수 자릿수, 가장 가까운 10, 100, 1,000으로, 또는 유효 숫자로 반올림하세요, 규칙 설명과 함께요.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/ko/rounding-calculator/"><meta property="og:locale" content="ko_KR">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="반올림 계산기 — 소수 자릿수, 천 단위 및 유효 숫자로 반올림 | Loona">
+<meta name="twitter:description" content="무료 반올림 계산기: 모든 숫자를 소수 자릿수, 가장 가까운 10, 100, 1,000으로, 또는 유효 숫자로 반올림하세요, 규칙 설명과 함께요.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona 반올림 계산기","url":"https://loonaautomation.github.io/loona-calculators/ko/rounding-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona 오토메이션","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"절반 올림은 무엇인가요?","acceptedAnswer":{"@type":"Answer","text":"떨어진 부분이 정확히 절반이면(5 뒤에 아무것도 없음), 숫자는 올라가요, 양수에서는 영에서 멀어져요. 그것은 학교에서 가르치는 관례이고 대부분 일상 맥락에서 쓰여요. 은행가 반올림(절반을 짝수로)은 금융과 컴퓨팅에 존재하지만 여기서는 기본이 아니에요."}},{"@type":"Question","name":"유효 숫자는 무엇인가요?","acceptedAnswer":{"@type":"Answer","text":"의미 있는 숫자들로, 영이 아닌 첫 숫자부터 세요. 0.004560에는 유효숫자가 4개 있어요(4, 5, 6, 그리고 뒤의 0). 유효숫자로 반올림하면 정밀도가 숫자의 크기에 비례하게 유지되는데, 과학자들이 이를 선호하는 이유예요."}},{"@type":"Question","name":"가장 가까운 천 단위로 어떻게 반올림해요?","acceptedAnswer":{"@type":"Answer","text":"그것은 자리값 −3에서 반올림하는 것이에요: 백의 자리를 보세요; 1,234는 백의 자리 2를 가져서 1,000으로 내리고, 1,567은 2,000으로 올려요."}},{"@type":"Question","name":"왜 컴퓨터는 2.675를 2.67로 보여줄 수 있나요?","acceptedAnswer":{"@type":"Answer","text":"이진 부동소수점은 대부분의 십진 분수를 정확히 저장할 수 없어서, 순진한 코드는 가끔 '틀리게' 반올림해요. 이 계산기는 아주 작은 엡실론으로 보정해서, 정확한 절반값이 학교 수학의 기대대로 동작해요."}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona 오토메이션",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona 계산기",
+      "item": "https://loonaautomation.github.io/loona-calculators/ko/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "반올림 계산기",
+      "item": "https://loonaautomation.github.io/loona-calculators/ko/rounding-calculator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation 로고">
+<div class="brand">Loona <span>계산기</span></div>
+<nav>
+<a href="../">홈</a>
+<a href="https://loonaautomation.github.io/">Loona 오토메이션</a>
+<a href="../about.html">정보</a>
+<a href="../contact.html">연락처</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona 계산기</a> › 수학 › 반올림 계산기</div>
+<h1 class="pagetitle">🎯 반올림 계산기</h1>
+<p class="lead">모든 숫자를 표준 학교 방식으로 반올림하세요 — 절반 올림 — 선택한 소수 자릿수까지, 가장 가까운 십, 백, 천까지, 또는 정해진 유효 숫자 개수까지.</p>
+<div class="exbox"><strong>빠른 답:</strong> 반올림은 버려지는 첫 숫자를 봐요: 5 이상은 올리고, 5 미만은 내립니다. 그래서 1,234.5678은 1,234.57로 반올림돼요, 소수 2자리에서; 1,230으로, 가장 가까운 10에서는; 1,200으로, 가장 가까운 100에서는; 그리고 1,235로, 유효 숫자 4개에서는.</div>
+<div class="toolbox"><form class="calcform" id="rdForm">
+<div class="fld"><label for="rdNum">숫자</label><input type="number" id="rdNum" value="1234.5678" step="any"></div>
+<div class="fld"><label for="rdMode">반올림 대상</label><select id="rdMode"><option value="dp">소수점 자리</option><option value="place">가장 가까운 10 / 100 / 1,000…</option><option value="sig">유효 숫자</option></select></div>
+<div class="fld"><label for="rdPrec">정밀도 (소수 자릿수 / 십의 거듭제곱 / 유효 숫자)</label><input type="number" id="rdPrec" value="2" min="-10" max="15"></div>
+<button class="calcbtn" type="submit">반올림하세요</button>
+<div class="calcresult" id="rdResult" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>반올림 계산기 사용 방법</h2><ol><li>반올림할 숫자를 입력하세요.</li><li>반올림 모드와 정밀도를 고르세요.</li><li>반올림된 결과와 적용된 규칙을 읽으세요.</li></ol>
+<div class="exbox"><strong>예시:</strong> 1,234.5678: 소수점 아래 2자리까지 → 1,234.57; 가장 가까운 100까지 → 1,200; 유효 숫자 4자리까지 → 1,235(다섯 번째 유효 숫자(5번째 자리)가 5라서, 네 번째 자리(4번째)가 4에서 5로 올라가 — 1,235가 돼요).</div>
+<h2>자주 묻는 질문</h2></section><div class="faq"><h3>절반 올림은 무엇인가요?</h3><p>떨어진 부분이 정확히 절반이면(5 뒤에 아무것도 없음), 숫자는 올라가요, 양수에서는 영에서 멀어져요. 그것은 학교에서 가르치는 관례이고 대부분 일상 맥락에서 쓰여요. 은행가 반올림(절반을 짝수로)은 금융과 컴퓨팅에 존재하지만 여기서는 기본이 아니에요.</p></div><div class="faq"><h3>유효 숫자는 무엇인가요?</h3><p>의미 있는 숫자들로, 영이 아닌 첫 숫자부터 세요. 0.004560에는 유효숫자가 4개 있어요(4, 5, 6, 그리고 뒤의 0). 유효숫자로 반올림하면 정밀도가 숫자의 크기에 비례하게 유지되는데, 과학자들이 이를 선호하는 이유예요.</p></div><div class="faq"><h3>가장 가까운 천 단위로 어떻게 반올림해요?</h3><p>그것은 자리값 −3에서 반올림하는 것이에요: 백의 자리를 보세요; 1,234는 백의 자리 2를 가져서 1,000으로 내리고, 1,567은 2,000으로 올려요.</p></div><div class="faq"><h3>왜 컴퓨터는 2.675를 2.67로 보여줄 수 있나요?</h3><p>이진 부동소수점은 대부분의 십진 분수를 정확히 저장할 수 없어서, 순진한 코드는 가끔 '틀리게' 반올림해요. 이 계산기는 아주 작은 엡실론으로 보정해서, 정확한 절반값이 학교 수학의 기대대로 동작해요.</p></div>
+<h2 class="sec">관련 계산기</h2><div class="grid"><a class="card" href="../percentage-calculator/"><div class="ic">％</div><h3>백분율 계산기</h3><p>수학</p></a><a class="card" href="../statistics-calculator/"><div class="ic">📊</div><h3>통계 계산기</h3><p>수학</p></a><a class="card" href="../fraction-calculator/"><div class="ic">½</div><h3>분수 계산기</h3><p>수학</p></a><a class="card" href="../equation-solver/"><div class="ic">🧮</div><h3>방정식 풀이 도구</h3><p>수학</p></a><a class="card" href="../scientific-calculator/"><div class="ic">🔬</div><h3>공학용 계산기</h3><p>수학</p></a><a class="card" href="../average-calculator/"><div class="ic">📐</div><h3>평균 계산기</h3><p>수학</p></a></div>
+</div>
+<section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>작동 원리 — 공식</h2>
+<p><strong>소수점 자리:</strong> 반올림됨 = round(x × 10ᵈ) ÷ 10ᵈ, round-half-up을 써요(바이너리 부동 소수점에 대한 엡실론 교정과 함께). <strong>자리값:</strong> 음의 d로 같은 공식 — 가장 가까운 100으로 반올림은 d = −2예요. <strong>유효 숫자:</strong> x ≠ 0이면, d = sig − 1 − floor(log₁₀|x|), 그다음 그 d로 소수 자리 규칙을 적용하세요.</p>
+<h3>작업 예시</h3><div class="exbox"><p><strong>입력들:</strong> x = 1,234.5678.</p><p><strong>단계:</strong> 소수점 아래 2자리: 1,234.5678 × 100 = 123,456.78 → 반올림 → 123,457 → ÷ 100 = 1,234.57. 가장 가까운 100: 1,234.5678 ÷ 100 = 12.345678 → 반올림 → 12 → × 100 = 1,200. 유효 숫자 4자리: 첫 네 개의 유효 숫자는 1, 2, 3, 4(일 단위까지의 수 1,234); 그다음 자릿수는 5(소수 첫째 자리)라서 일 단위가 4에서 5로 올라가 1,235가 돼요. 공식으로 쓰면 floor(log₁₀ 1234.5678) = 3이라, d = 4 − 1 − 3 = 0자리까지의 소수예요.</p><p><strong>결과:</strong> <strong>1,234.57</strong> (소수점 2자리), <strong>1,200</strong> (가장 가까운 100), <strong>1,235</strong> (유효 숫자 4자리).</p></div>
+
+</section>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">이 계산기를 웹사이트에 임베드하세요 — 무료</h2>
+<p style="margin:0 0 12px;line-height:1.6">이 계산기를 자신의 웹사이트나 블로그에 더하세요 — 그것은 완전히 무료이고, 가입이 필요 없고, 항상 최신 버전을 보여줘요. 아래 코드를 복사하고 계산기가 나타나기를 원하는 페이지에 붙여넣으세요. 임베드 아래 작은 &ldquo;Powered by Loona Automation&rdquo; 크레딧 줄을 유지하면 이 도구를 무료로 유지하는 데 도움이 돼요 &mdash; 그러나 스타일을 입히거나 제거해도 자유예요; 도구는 어느 쪽이든 작동해요.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/ko/rounding-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Rounding Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;제공: &lt;a href="https://loonaautomation.github.io/loona-calculators/ko/rounding-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 무료 반올림 계산기&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">임베드 코드 복사</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='임베드 코드 복사';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>인기 계산기</h4><ul><li><a href="../age-calculator/">나이 계산기</a></li>
+<li><a href="../zakat-calculator/">자카트 계산기</a></li>
+<li><a href="../cgpa-calculator/">CGPA 계산기</a></li>
+<li><a href="../percentage-calculator/">백분율 계산기</a></li>
+<li><a href="../hijri-date-converter/">히즈리 날짜 변환기</a></li>
+<li><a href="../emi-calculator/">EMI & 대출 계산기</a></li></ul></div>
+<div><h4>더 많은 Loona 도구</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR 코드</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona 이미지 압축 도구</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI 어시스턴트</a></li>
+<li><a href="https://loonaautomation.github.io/">모든 Loona 도구</a></li></ul></div>
+<div><h4>Loona 계산기</h4><ul>
+<li><a href="../about.html">정보</a></li>
+<li><a href="../contact.html">연락처</a></li>
+<li><a href="../privacy-policy.html">개인정보 처리방침</a></li>
+<li><a href="../terms.html">이용 약관</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — a <a href="https://loonaautomation.github.io/">Loona 오토메이션</a> 프로젝트. 무료 온라인 계산기, 가입 없음.\n연락처: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+function roundHalfUp(x){
+  var s=x<0?-1:1, ax=Math.abs(x);
+  return s*Math.floor(ax+0.5+1e-9);
+}
+function roundToDP(x,d){var f=Math.pow(10,d);return roundHalfUp(x*f)/f;}
+function roundToPlace(x,power){return roundToDP(x,-power);}
+function roundToSig(x,sig){
+  if(x===0)return 0;
+  var d=sig-1-Math.floor(Math.log10(Math.abs(x)));
+  return roundToDP(x,d);
+}
+/*TESTABLE_END*/
+document.getElementById('rdForm').addEventListener('submit',function(e){e.preventDefault();
+ var x=parseFloat(document.getElementById('rdNum').value), mode=document.getElementById('rdMode').value, p=parseInt(document.getElementById('rdPrec').value,10);
+ var box=document.getElementById('rdResult'); box.style.display='block';
+ if(!isFinite(x)||!isFinite(p)){box.innerHTML='<p class="err">유효한 숫자와 정밀도를 입력하세요.</p>';return;}
+ var r,label;
+ if(mode==='dp'){r=roundToDP(x,p);label=p+' 소수 자리';}
+ else if(mode==='place'){r=roundToPlace(x,p);label='nearest 10^'+p;}
+ else{r=roundToSig(x,p);label=p+' 유효 숫자';}
+ box.innerHTML='<div class="resbig"><span>로 반올림됨 '+label+'</span><strong>'+r.toLocaleString('en-US',{maximumFractionDigits:15})+'</strong></div>'
+ +'<p class="resnote">절반 올림 규칙: 정확히 절반인 떨어진 부분은 올라가요.</p>';});
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' 앱 설치';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('이 앱을 설치하세요: 공유 버튼을 누르고, 그다음 "홈 화면에 추가"를 고르세요.');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

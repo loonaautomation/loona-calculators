@@ -1,0 +1,29 @@
+{
+  "name": "Loona 이항 분포 계산기",
+  "short_name": "이항분포",
+  "description": "무료 이항분포 계산기: 성공 확률 p인 n번 시행에서 정확히 k번 성공, 최대 k번, 최소 k번 확률. 교과서로 확인한 값.",
+  "id": "/loona-calculators/ko/binomial-distribution-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

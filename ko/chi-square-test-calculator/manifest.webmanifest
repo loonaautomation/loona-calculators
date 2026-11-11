@@ -1,0 +1,29 @@
+{
+  "name": "Loona 카이제곱 검정 계산기",
+  "short_name": "카이제곱 검정 계산기",
+  "description": "무료 카이제곱 검정 계산기: 독립성 검정에는 관측 표를, 적합도에는 관측 대 기대 빈도를 입력하세요. 카이제곱, df, p값.",
+  "id": "/loona-calculators/ko/chi-square-test-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

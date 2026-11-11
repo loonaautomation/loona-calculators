@@ -1,0 +1,29 @@
+{
+  "name": "Loona 근무일 계산기",
+  "short_name": "근무일 계산기",
+  "description": "무료 영업일 계산기: 두 날짜 사이의 전체 일수, 영업일(월요일부터 금요일), 주말 일수를 세세요. 휴가, 마감, 프로젝트 계획용.",
+  "id": "/loona-calculators/ko/working-days-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

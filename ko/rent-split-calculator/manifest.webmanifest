@@ -1,0 +1,29 @@
+{
+  "name": "Loona 월세 나누기 계산기",
+  "short_name": "월세 나누기 계산기",
+  "description": "무료 임대료 분할 계산기: 룸메이트 2명부터 8명 사이에 월 임대료를 나누세요 — 균등하게, 제곱피트 단위 방 크기로, 또는 소득으로. 몫은 항상 정확한 합계로 더해져요.",
+  "id": "/loona-calculators/ko/rent-split-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

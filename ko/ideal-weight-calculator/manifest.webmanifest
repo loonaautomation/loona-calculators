@@ -1,0 +1,29 @@
+{
+  "name": "Loona 이상 체중 계산기",
+  "short_name": "이상 체중 계산기",
+  "description": "무료 이상 체중 계산기: 키와 성별을 입력하면 이상 체중(Devine 공식)과 그 키에 대한 온전한 건강 BMI 체중 범위를 얻을 수 있어요.",
+  "id": "/loona-calculators/ko/ideal-weight-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

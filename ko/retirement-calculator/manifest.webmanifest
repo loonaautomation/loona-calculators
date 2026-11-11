@@ -1,0 +1,29 @@
+{
+  "name": "Loona 은퇴 계산기",
+  "short_name": "은퇴 계산기",
+  "description": "무료 은퇴 계산기: 현재 나이, 은퇴 나이, 저축, 월 기여 — 은퇴 자금을 전망하고 그중 얼마가 성장인지 보세요.",
+  "id": "/loona-calculators/ko/retirement-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

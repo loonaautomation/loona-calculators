@@ -1,0 +1,29 @@
+{
+  "name": "Loona GPA 계산기",
+  "short_name": "GPA 계산기",
+  "description": "무료 GPA 계산기: 최대 8과목까지 문자 성적(A부터 F)과 학점 시간을 입력하면 표준 4.0 척도의 GPA를 얻을 수 있어요. 빠르고, 비공개, 가입 불필요.",
+  "id": "/loona-calculators/ko/gpa-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona ROI 계산기",
+  "short_name": "ROI 계산기",
+  "description": "무료 ROI 계산기: 투자 금액, 반환 금액, 보유 연수를 입력하면 모든 투자의 총 ROI 백분율과 연환산 수익을 얻을 수 있어요.",
+  "id": "/loona-calculators/ko/roi-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

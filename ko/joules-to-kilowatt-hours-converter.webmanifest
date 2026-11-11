@@ -1,0 +1,29 @@
+{
+  "name": "Loona 줄를 킬로와트시로 바꾸는 변환기",
+  "short_name": "줄를 킬로와트시로",
+  "description": "줄를 킬로와트시로 즉시 변환하세요. 정확한 공식, J에서 kWh까지의 전체 변환표, 풀이 예시와 자주 묻는 질문이 있어요. 무료이며 가입이 필요 없어요.",
+  "id": "/loona-calculators/ko/joules-to-kilowatt-hours-converter.html",
+  "start_url": "./joules-to-kilowatt-hours-converter.html",
+  "scope": "./joules-to-kilowatt-hours-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

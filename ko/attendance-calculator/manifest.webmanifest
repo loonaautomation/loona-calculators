@@ -1,0 +1,29 @@
+{
+  "name": "Loona 출석 계산기",
+  "short_name": "출석 계산기",
+  "description": "학생을 위한 무료 출석 계산기: 열린 수업과 출석한 수업을 입력하면 출석 백분율, 빠질 수 있는 수업 수, 또는 목표에 도달하려면 출석해야 하는 수업 수를 얻을 수 있어요.",
+  "id": "/loona-calculators/ko/attendance-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

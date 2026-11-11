@@ -1,0 +1,29 @@
+{
+  "name": "Loona hCG 두 배 증가 시간 계산기",
+  "short_name": "hCG 두 배 증가 시간 계산기",
+  "description": "무료 hCG 배가 계산기: 베타 hCG 결과 두 개와 채혈 사이 시간을 입력하면 배가 시간, 백분율 상승, 일일 증가를 얻을 수 있어요. 교육용만.",
+  "id": "/loona-calculators/ko/hcg-doubling-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

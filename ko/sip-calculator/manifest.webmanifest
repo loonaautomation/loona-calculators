@@ -1,0 +1,29 @@
+{
+  "name": "Loona SIP 계산기",
+  "short_name": "SIP 계산기",
+  "description": "무료 SIP 계산기: 월 투자, 예상 연 수익, 연수를 입력하면 플랜의 미래 가치, 전체 투자, 추정 이익을 전망할 수 있어요.",
+  "id": "/loona-calculators/ko/sip-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

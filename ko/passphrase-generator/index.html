@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>암호 문구 생성기 — 기억하기 쉬운 단어 비밀번호 (Diceware 방식) | Loona</title>
+<meta name="description" content="무료 암호 문구 생성기: 무작위 실제 단어로 강력하고 기억하기 쉬운 암호 문구를 만드세요, 단어 수, 구분자, 대문자, 숫자 옵션과 함께요. 브라우저에서 실행돼요.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/ko/passphrase-generator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/passphrase-generator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/passphrase-generator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/passphrase-generator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/passphrase-generator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/passphrase-generator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/passphrase-generator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/passphrase-generator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/passphrase-generator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/passphrase-generator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/passphrase-generator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/passphrase-generator/"><link rel="alternate" hreflang="hi" href="https://loonaautomation.github.io/loona-calculators/hi/passphrase-generator/"><link rel="alternate" hreflang="bn" href="https://loonaautomation.github.io/loona-calculators/bn/passphrase-generator/"><link rel="alternate" hreflang="id" href="https://loonaautomation.github.io/loona-calculators/id/passphrase-generator/"><link rel="alternate" hreflang="vi" href="https://loonaautomation.github.io/loona-calculators/vi/passphrase-generator/"><link rel="alternate" hreflang="ko" href="https://loonaautomation.github.io/loona-calculators/ko/passphrase-generator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/passphrase-generator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="암호 문구 생성기 — 기억하기 쉬운 단어 비밀번호 (Diceware 방식) | Loona">
+<meta property="og:description" content="무료 암호 문구 생성기: 무작위 실제 단어로 강력하고 기억하기 쉬운 암호 문구를 만드세요, 단어 수, 구분자, 대문자, 숫자 옵션과 함께요. 브라우저에서 실행돼요.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/ko/passphrase-generator/"><meta property="og:locale" content="ko_KR">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="암호 문구 생성기 — 기억하기 쉬운 단어 비밀번호 (Diceware 방식) | Loona">
+<meta name="twitter:description" content="무료 암호 문구 생성기: 무작위 실제 단어로 강력하고 기억하기 쉬운 암호 문구를 만드세요, 단어 수, 구분자, 대문자, 숫자 옵션과 함께요. 브라우저에서 실행돼요.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona 암호 문구 생성기","url":"https://loonaautomation.github.io/loona-calculators/ko/passphrase-generator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona 오토메이션","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"이것은 Loona Text Tools의 비밀번호 생성기와 어떻게 달라요?","acceptedAnswer":{"@type":"Answer","text":"그 도구는 문자 암호(정해진 길이의 무작위 문자, 숫자, 기호)를 만들어요. 이것은 단어 암호구를 만들어요 — Diceware가 대중화하고 인간을 위한 보안 지침이 권장하는 다른, 의도적으로 기억하기 쉬운 형식. 그들은 다른 선호를 위한 별도 도구예요; 많은 사람이 마스터 암호에는 암호구를, 관리자 안에서는 문자 암호를 써요."}},{"@type":"Question","name":"단어 암호 문구는 얼마나 강해요?","acceptedAnswer":{"@type":"Answer","text":"강도는 무작위성과 단어 수에서 와요: 160단어 목록의 각 단어는 약 7.3비트의 엔트로피를 더해요, 그래서 5단어 ≈ 37비트, 7단어 ≈ 51비트예요, 구분자/대소문자/숫자 변형 전에. 가장 중요한 계정에는 더 많은 단어를 쓰세요."}},{"@type":"Question","name":"단어가 정말로 무작위로 선택되나요?","acceptedAnswer":{"@type":"Answer","text":"예 — 암호 등급 무작위 숫자는 각 단어를 독립적으로 고르고, 교체와 함께, 그래서 반복이 가능하고 모든 조합이 동등히 가능해요."}},{"@type":"Question","name":"여기서 생성한 암호구를 은행 업무에 써야 하나요?","acceptedAnswer":{"@type":"Answer","text":"생성된 문구는 저장되거나 전송되지 않으며, 수학은 탄탄해요 — 하지만 중요한 계정에는 비밀번호 관리자 안에서 생성하는 것이 황금 표준이에요. 이 도구는 형식 학습과 위험이 낮은 로그인에 이상적이에요."}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona 오토메이션",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona 계산기",
+      "item": "https://loonaautomation.github.io/loona-calculators/ko/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "암호 문구 생성기",
+      "item": "https://loonaautomation.github.io/loona-calculators/ko/passphrase-generator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation 로고">
+<div class="brand">Loona <span>계산기</span></div>
+<nav>
+<a href="../">홈</a>
+<a href="https://loonaautomation.github.io/">Loona 오토메이션</a>
+<a href="../about.html">정보</a>
+<a href="../contact.html">연락처</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona 계산기</a> › 재미 › 암호 문구 생성기</div>
+<h1 class="pagetitle">🔑 암호 문구 생성기</h1>
+<p class="lead">실제로 기억할 수 있는 강력한 비밀번호를 생성하세요: 무작위로 선택된 실제 단어들의 문자열, Diceware 방식. 단어 수, 구분자, 대문자, 숫자를 더할지 선택하세요.</p>
+<div class="exbox"><strong>빠른 답:</strong> 5단어 암호 문구, 이 페이지의 160개 이상 단어 목록에서 뽑은, 약 160^5 ≈ 10^11가지 조합이 있어요, 대문자와 숫자 옵션을 적용하기 전에도 — 길기 때문에 강력하면서도, 무작위 문자보다 훨씬 입력하고 기억하기 쉬워요.</div>
+<div class="toolbox"><form class="calcform" id="ppForm">
+<div class="fld"><label for="ppCount">단어 수</label><select id="ppCount"><option>4</option><option selected>5</option><option>6</option><option>7</option><option>8</option></select></div>
+<div class="fld"><label for="ppSep">구분자</label><select id="ppSep"><option value="-">하이픈 (-)</option><option value=" ">공간</option><option value="_">밑줄 (_)</option><option value="">없음</option></select></div>
+<div class="fld"><label><input type="checkbox" id="ppCap" checked style="width:auto;margin-right:8px">각 단어의 첫 글자를 대문자로</label></div>
+<div class="fld"><label><input type="checkbox" id="ppNum" checked style="width:auto;margin-right:8px">끝에 무작위 숫자를 더하세요</label></div>
+<button class="calcbtn" type="submit">🔑 암호 문구 생성</button>
+<div class="calcresult" id="ppResult" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>암호 문구 생성기 사용 방법</h2><ol><li>단어 수를 고르세요(4–8; 5나 6이 좋은 기본값이에요).</li><li>구분자를 고르고 각 단어를 대문자로 할지 무작위 숫자를 더할지 고르세요.</li><li>생성을 누르세요 — 새 구를 위해 다시 누르세요. 아무것도 어디에도 저장되거나 전송되지 않아요.</li></ol>
+<div class="exbox"><strong>예시:</strong> 생성된 암호 문구는 이런 모습일 수 있어요: Copper-Willow-Anchor-Planet-Ember-42 — 단어 여섯 개, 대문자로 시작, 하이픈으로 구분, 끝에 숫자가 붙어요.</div>
+<h2>자주 묻는 질문</h2></section><div class="faq"><h3>이것은 Loona Text Tools의 비밀번호 생성기와 어떻게 달라요?</h3><p>그 도구는 문자 암호(정해진 길이의 무작위 문자, 숫자, 기호)를 만들어요. 이것은 단어 암호구를 만들어요 — Diceware가 대중화하고 인간을 위한 보안 지침이 권장하는 다른, 의도적으로 기억하기 쉬운 형식. 그들은 다른 선호를 위한 별도 도구예요; 많은 사람이 마스터 암호에는 암호구를, 관리자 안에서는 문자 암호를 써요.</p></div><div class="faq"><h3>단어 암호 문구는 얼마나 강해요?</h3><p>강도는 무작위성과 단어 수에서 와요: 160단어 목록의 각 단어는 약 7.3비트의 엔트로피를 더해요, 그래서 5단어 ≈ 37비트, 7단어 ≈ 51비트예요, 구분자/대소문자/숫자 변형 전에. 가장 중요한 계정에는 더 많은 단어를 쓰세요.</p></div><div class="faq"><h3>단어가 정말로 무작위로 선택되나요?</h3><p>예 — 암호 등급 무작위 숫자는 각 단어를 독립적으로 고르고, 교체와 함께, 그래서 반복이 가능하고 모든 조합이 동등히 가능해요.</p></div><div class="faq"><h3>여기서 생성한 암호구를 은행 업무에 써야 하나요?</h3><p>생성된 문구는 저장되거나 전송되지 않으며, 수학은 탄탄해요 — 하지만 중요한 계정에는 비밀번호 관리자 안에서 생성하는 것이 황금 표준이에요. 이 도구는 형식 학습과 위험이 낮은 로그인에 이상적이에요.</p></div>
+<h2 class="sec">관련 계산기</h2><div class="grid"><a class="card" href="../random-number-generator/"><div class="ic">🎲</div><h3>난수 생성기</h3><p>재미</p></a><a class="card" href="../dice-roller/"><div class="ic">🎲</div><h3>주사위 굴리기</h3><p>재미</p></a><a class="card" href="../coin-flip/"><div class="ic">🪙</div><h3>동전 던지기</h3><p>재미</p></a><a class="card" href="../lottery-number-generator/"><div class="ic">🍀</div><h3>로또 번호 생성기</h3><p>재미</p></a><a class="card" href="../love-calculator/"><div class="ic">❤️</div><h3>궁합 계산기</h3><p>재미</p></a><a class="card" href="../random-number-generator/"><div class="ic">🎲</div><h3>난수 생성기</h3><p>재미</p></a></div>
+</div>
+<section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>작동 원리 — 공식</h2>
+<p>각 단어는 암호 등급 무작위성으로 W개 단어의 내장 단어 목록에서 독립적이고 균일하게 뽑혀서, k단어 문구는 <strong>W^k</strong> 동등히 가능한 결과와 엔트로피 <strong>k × log₂(W)</strong> 비트. W ≈ 160으로: log₂(160) ≈ 단어당 7.32비트.</p>
+<h3>작업 예시</h3><div class="exbox"><p><strong>입력들:</strong> 단어 6개, 목록 크기 160.</p><p><strong>단계:</strong> 조합 = 160^6 = 16,777,216 × 10^6 ≈ 1.68 × 10^13. 엔트로피 = 6 × log₂(160) = 6 × 7.32 = 43.9비트예요. 대문자 선택에서 오는 추가 불확실성과 선택적 두 자릿수(×100 → 활성화되고 공격자가 모르면 약 +6.6비트) 전에요.</p><p><strong>결과:</strong> 6단어 문구는 대략 다음을 담아요 <strong>44–50비트</strong> 엔트로피의 — 기억할 만한 비밀에 강해요.</p></div>
+
+</section>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">이 계산기를 웹사이트에 임베드하세요 — 무료</h2>
+<p style="margin:0 0 12px;line-height:1.6">이 계산기를 자신의 웹사이트나 블로그에 더하세요 — 그것은 완전히 무료이고, 가입이 필요 없고, 항상 최신 버전을 보여줘요. 아래 코드를 복사하고 계산기가 나타나기를 원하는 페이지에 붙여넣으세요. 임베드 아래 작은 &ldquo;Powered by Loona Automation&rdquo; 크레딧 줄을 유지하면 이 도구를 무료로 유지하는 데 도움이 돼요 &mdash; 그러나 스타일을 입히거나 제거해도 자유예요; 도구는 어느 쪽이든 작동해요.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/ko/passphrase-generator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Passphrase Generator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;제공: &lt;a href="https://loonaautomation.github.io/loona-calculators/ko/passphrase-generator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 무료 암호 문구 생성기&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">임베드 코드 복사</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='임베드 코드 복사';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>인기 계산기</h4><ul><li><a href="../age-calculator/">나이 계산기</a></li>
+<li><a href="../zakat-calculator/">자카트 계산기</a></li>
+<li><a href="../cgpa-calculator/">CGPA 계산기</a></li>
+<li><a href="../percentage-calculator/">백분율 계산기</a></li>
+<li><a href="../hijri-date-converter/">히즈리 날짜 변환기</a></li>
+<li><a href="../emi-calculator/">EMI & 대출 계산기</a></li></ul></div>
+<div><h4>더 많은 Loona 도구</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR 코드</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona 이미지 압축 도구</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI 어시스턴트</a></li>
+<li><a href="https://loonaautomation.github.io/">모든 Loona 도구</a></li></ul></div>
+<div><h4>Loona 계산기</h4><ul>
+<li><a href="../about.html">정보</a></li>
+<li><a href="../contact.html">연락처</a></li>
+<li><a href="../privacy-policy.html">개인정보 처리방침</a></li>
+<li><a href="../terms.html">이용 약관</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — a <a href="https://loonaautomation.github.io/">Loona 오토메이션</a> 프로젝트. 무료 온라인 계산기, 가입 없음.\n연락처: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+var PASSPHRASE_WORDS=["apple", "river", "mountain", "silver", "garden", "bridge", "harbor", "meadow", "velvet", "thunder", "copper", "marble", "sunset", "forest", "island", "breeze", "castle", "window", "planet", "rocket", "pencil", "notebook", "camera", "guitar", "violin", "trumpet", "banana", "orange", "lemon", "melon", "cherry", "walnut", "almond", "coffee", "cocoa", "honey", "pepper", "ginger", "valley", "desert", "ocean", "lagoon", "glacier", "volcano", "canyon", "prairie", "tundra", "jungle", "savanna", "oasis", "cliff", "cave", "reef", "wave", "storm", "cloud", "rain", "snow", "frost", "ember", "flame", "spark", "pearl", "ruby", "topaz", "opal", "jade", "amber", "coral", "ivory", "onyx", "quartz", "bronze", "iron", "steel", "nickel", "zinc", "linen", "cotton", "denim", "satin", "tulip", "daisy", "poppy", "violet", "jasmine", "laurel", "maple", "birch", "cedar", "pine", "oak", "elm", "falcon", "eagle", "heron", "raven", "sparrow", "robin", "finch", "osprey", "badger", "otter", "beaver", "lynx", "moose", "bison", "zebra", "giraffe", "panda", "koala", "lemur", "gecko", "viper", "salmon", "trout", "perch", "cod", "bass", "atlas", "comet", "orbit", "lunar", "solar", "astro", "cosmos", "nebula", "quasar", "meteor", "eclipse", "zenith", "aurora", "mirage", "tempest", "monsoon", "zephyr", "sailor", "anchor", "compass", "lantern", "beacon", "harbour", "voyage", "journey", "willow", "aspen", "rowan", "sorrel", "clover", "heather", "bracken", "nettle", "thistle", "kestrel", "merlin", "plover", "curlew", "avocet", "egret", "stork", "crane", "ibis"];
+function makePassphrase(count,sep,capitalise,addNumber,rng){
+  var rand=rng||function(max){var a=new Uint32Array(1);crypto.getRandomValues(a);return a[0]%max;};
+  if(count<3||count>12)return null;
+  var words=[];
+  for(var i=0;i<count;i++){var w=PASSPHRASE_WORDS[rand(PASSPHRASE_WORDS.length)];if(capitalise)w=w.charAt(0).toUpperCase()+w.slice(1);words.push(w);}
+  var phrase=words.join(sep);
+  if(addNumber)phrase+= (sep?sep:"") + rand(100);
+  return phrase;
+}
+function passphraseEntropy(count){return count*Math.log2(PASSPHRASE_WORDS.length);}
+/*TESTABLE_END*/
+document.getElementById('ppForm').addEventListener('submit',function(e){e.preventDefault();
+ var n=parseInt(document.getElementById('ppCount').value,10);
+ var phrase=makePassphrase(n,document.getElementById('ppSep').value,document.getElementById('ppCap').checked,document.getElementById('ppNum').checked);
+ var box=document.getElementById('ppResult'); box.style.display='block';
+ box.innerHTML='<div class="resbig"><span>당신의 암호 문구</span><strong style="font-size:17px;word-break:break-all">'+phrase+'</strong></div>'
+ +'<p class="resnote">약 '+passphraseEntropy(n).toFixed(1)+' 단어만에서 비트의 엔트로피 ('+PASSPHRASE_WORDS.length+'-단어 목록). 현지에서 생성돼요 — 아무것도 저장되거나 전송되지 않아요. 다른 것을 위해 생성을 누르세요.</p>';});
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' 앱 설치';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('이 앱을 설치하세요: 공유 버튼을 누르고, 그다음 "홈 화면에 추가"를 고르세요.');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

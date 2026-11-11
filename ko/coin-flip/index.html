@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>동전 던지기 — 가상 동전을 온라인으로 던지기(앞면 또는 뒷면) | Loona</title>
+<meta name="description" content="무료 온라인 동전 던지기: 가상 동전을 한 번 또는 한 번에 열 개 던지세요, 앞면/뒷면 개수, 백분율, 연속 통계, 선공 경기 모드와 함께요.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/ko/coin-flip/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/coin-flip/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/coin-flip/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/coin-flip/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/coin-flip/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/coin-flip/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/coin-flip/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/coin-flip/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/coin-flip/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/coin-flip/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/coin-flip/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/coin-flip/"><link rel="alternate" hreflang="hi" href="https://loonaautomation.github.io/loona-calculators/hi/coin-flip/"><link rel="alternate" hreflang="bn" href="https://loonaautomation.github.io/loona-calculators/bn/coin-flip/"><link rel="alternate" hreflang="id" href="https://loonaautomation.github.io/loona-calculators/id/coin-flip/"><link rel="alternate" hreflang="vi" href="https://loonaautomation.github.io/loona-calculators/vi/coin-flip/"><link rel="alternate" hreflang="ko" href="https://loonaautomation.github.io/loona-calculators/ko/coin-flip/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/coin-flip/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="동전 던지기 — 가상 동전을 온라인으로 던지기(앞면 또는 뒷면) | Loona">
+<meta property="og:description" content="무료 온라인 동전 던지기: 가상 동전을 한 번 또는 한 번에 열 개 던지세요, 앞면/뒷면 개수, 백분율, 연속 통계, 선공 경기 모드와 함께요.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/ko/coin-flip/"><meta property="og:locale" content="ko_KR">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="동전 던지기 — 가상 동전을 온라인으로 던지기(앞면 또는 뒷면) | Loona">
+<meta name="twitter:description" content="무료 온라인 동전 던지기: 가상 동전을 한 번 또는 한 번에 열 개 던지세요, 앞면/뒷면 개수, 백분율, 연속 통계, 선공 경기 모드와 함께요.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona 동전 던지기","url":"https://loonaautomation.github.io/loona-calculators/ko/coin-flip/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona 오토메이션","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"온라인 동전 던지기는 정말 50/50이에요?","acceptedAnswer":{"@type":"Answer","text":"예. 각 던지기는 crypto.getRandomValues, 브라우저의 안전한 무작위 소스를 써요, 그래서 앞면과 뒷면은 각 던지기마다 정확히 50% 확률을 가져요, 앞에 온 모든 것과 독립적이에요."}},{"@type":"Question","name":"앞면이 연속으로 5번 나왔어요 — 뒷면 차례예요?","acceptedAnswer":{"@type":"Answer","text":"아니요 — 그 생각은 도박꾼의 오류라고 불려요. 동전은 기억이 없어요: 앞면 5번 후에도 다음 던지기는 여전히 정확히 50/50이에요. 긴 연속은 놀랍게 느껴지지만, 10번 던지기에서 4개 이상의 연속이 최소 하나 있을 확률은 실제로 꽤 높아요."}},{"@type":"Question","name":"연속으로 앞면 10번의 확률은 무엇인가요?","acceptedAnswer":{"@type":"Answer","text":"던질 때마다 확률이 절반이 돼요: (1/2)¹⁰ = 1 / 1,024, 약 0.098%. 특정한 열 번 연속에는 드물지만 — 오래 던지면 이런 연속은 순전히 우연으로 결국 나타나요."}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<style>.coin{width:120px;height:120px;border-radius:50%;margin:8px auto;display:flex;align-items:center;justify-content:center;font-size:21px;font-weight:800;color:#231a00;background:radial-gradient(circle at 35% 30%,#f3d27a,#d4af37 60%,#b8912a);border:3px solid #b8912a;box-shadow:0 4px 14px rgba(6,46,42,.25)}</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona 오토메이션",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona 계산기",
+      "item": "https://loonaautomation.github.io/loona-calculators/ko/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "동전 던지기",
+      "item": "https://loonaautomation.github.io/loona-calculators/ko/coin-flip/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation 로고">
+<div class="brand">Loona <span>계산기</span></div>
+<nav>
+<a href="../">홈</a>
+<a href="https://loonaautomation.github.io/">Loona 오토메이션</a>
+<a href="../about.html">정보</a>
+<a href="../contact.html">연락처</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona 계산기</a> › 재미 › 동전 던지기</div>
+<h1 class="pagetitle">🪙 동전 던지기</h1>
+<p class="lead">완벽한 50/50 공정성으로 가상 동전을 던지세요. 던지면서 앞면과 뒷면 개수, 백분율, 연속을 기록하세요 — 또는 선공 모드로 경기를 만들어, 목표에 먼저 도달하는 쪽이 이겨요.</p>
+<div class="toolbox"><form class="calcform" id="coinForm">
+<div class="fld"><label for="coinBestOf">경기 모드 (선택)</label><select id="coinBestOf"><option value="0" selected>끔 — 자유로운 던지기</option><option value="3">3판 중 우세 — 2승을 먼저 거두면 이겨요</option><option value="5">5판 중 우세 — 3승을 먼저 거두면 이겨요</option><option value="7">7판 중 우세 — 4승을 먼저 거두면 이겨요</option><option value="11">11판 중 우세 — 6승을 먼저 거두면 이겨요</option></select></div>
+<button class="calcbtn" type="submit">🪙 동전 던지기</button>
+<button class="calcbtn" type="button" id="coinFlip10" style="background:#0a423b;color:#fff;margin-top:8px">10번 던지기</button>
+<button class="calcbtn" type="button" id="coinReset" style="background:#e2e9e7;color:#062e2a;margin-top:8px">초기화</button>
+<div class="calcresult" id="coinResult" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>동전 던지기 사용 방법</h2><ol><li>단일 뒤집기에는 동전 뒤집기를, 빠른 배치에는 10번 뒤집기를 누르세요.</li><li>누적 전체, 백분율, 연속 통계가 업데이트되는 것을 보세요.</li><li>선택적으로 먼저 선공 경기 모드를 고르세요 — 목표에 먼저 도달한 쪽이 경기를 가져가요.</li></ol>
+<div class="exbox"><strong>예시:</strong> 두 친구는 축구 경기에서 누가 시작할지 결정할 수 없어요. 그들은 Best of 5를 골라요: 앞면이 뒤집기 1과 3에서 이기고, 뒷면이 뒤집기 2에서 이기고, 앞면이 뒤집기 4도 가져가요 — 앞면이 먼저 3에 도달하고 경기를 이겨요, 공정하고 최종적으로.</div>
+<h2>자주 묻는 질문</h2></section><div class="faq"><h3>온라인 동전 던지기는 정말 50/50이에요?</h3><p>예. 각 던지기는 crypto.getRandomValues, 브라우저의 안전한 무작위 소스를 써요, 그래서 앞면과 뒷면은 각 던지기마다 정확히 50% 확률을 가져요, 앞에 온 모든 것과 독립적이에요.</p></div><div class="faq"><h3>앞면이 연속으로 5번 나왔어요 — 뒷면 차례예요?</h3><p>아니요 — 그 생각은 도박꾼의 오류라고 불려요. 동전은 기억이 없어요: 앞면 5번 후에도 다음 던지기는 여전히 정확히 50/50이에요. 긴 연속은 놀랍게 느껴지지만, 10번 던지기에서 4개 이상의 연속이 최소 하나 있을 확률은 실제로 꽤 높아요.</p></div><div class="faq"><h3>연속으로 앞면 10번의 확률은 무엇인가요?</h3><p>던질 때마다 확률이 절반이 돼요: (1/2)¹⁰ = 1 / 1,024, 약 0.098%. 특정한 열 번 연속에는 드물지만 — 오래 던지면 이런 연속은 순전히 우연으로 결국 나타나요.</p></div>
+<h2 class="sec">관련 계산기</h2><div class="grid"><a class="card" href="../dice-roller/"><div class="ic">🎲</div><h3>주사위 굴리기</h3><p>재미</p></a><a class="card" href="../random-number-generator/"><div class="ic">🎲</div><h3>난수 생성기</h3><p>재미</p></a><a class="card" href="../lottery-number-generator/"><div class="ic">🍀</div><h3>로또 번호 생성기</h3><p>재미</p></a><a class="card" href="../love-calculator/"><div class="ic">❤️</div><h3>궁합 계산기</h3><p>재미</p></a><a class="card" href="../percentage-calculator/"><div class="ic">％</div><h3>백분율 계산기</h3><p>수학</p></a></div>
+</div>
+<section class="txt"><h2>작동 원리 &mdash; 공식</h2>
+<p>각 던지기는 확률이 있는 독립적인 사건이에요 <strong>P(앞면) = P(뒷면) = 1/2</strong>. 연속 기록은 단순 곱셈을 따라요: 특정 연속의 확률은 <em>k</em> 동일한 결과는 (1/2)<sup>k</sup>. 표시되는 백분율은 던진 횟수가 늘수록 50/50에 가까워져요 — 다음과 같은 패턴으로 알려져 있어요 <strong>대수의 법칙</strong> — 현재 연속 카운터는 단순히 지금 있는 연속을 추적하는데.</p>
+<h3>작업 예시</h3>
+<div class="exbox"><strong>예시:</strong> 40번 던진 후 앞면 24개와 뒷면 16개가 있어요. 앞면 백분율 = 24 ÷ 40 × 100 = <strong>60%</strong>. 치우쳐 보이지만, 던진 횟수가 40번뿐이면 이런 분할(또는 더 극단적인 경우)도 순전히 우연으로 약 27%의 확률로 일어나요 — 작은 표본은 크게 흔들려요. 1,000번 던지면 분할은 보통 50/50에서 몇 퍼센트 안에 머물러요.</div>
+<h3>자주 묻는 질문</h3></section><div class="faq"><h3>선공 모드는 어떻게 작동해요?</h3><p>선공 N 경기에서, 우승자는 (N+1)/2번 뒤집기를 먼저 이기는 쪽이에요: 3 중 최다는 먼저 2번, 5 중 최다는 먼저 3번이라는 뜻이에요. 스포츠는 행운의 뒤집기 하나의 역할을 줄이기 때문에 이 형식을 써요.</p></div><div class="faq"><h3>동전이 내 던지기를 기억하나요?</h3><p>통계는 이 페이지가 열려 있는 동안만 이 페이지에 살아요. 아무것도 서버로 전송되거나 저장되지 않아요 — 초기화를 누르거나 탭을 닫으면 모든 것이 지워져요.</p></div><div class="faq"><h3>이것을 결정하는 데 쓸 수 있나요?</h3><p>물론이죠 — 동전 던지기는 동점을 공정히 깨는 고전적 방법이에요, 스포츠의 킥오프부터 게임에서 누가 먼저 갈지 고르는 것까지. 많은 사람은 동전이 공중에 있는 동안, 어떤 결과를 바랐는지 깨달아요 — 그것은 자체로 유용한 답이에요.</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">이 계산기를 웹사이트에 임베드하세요 — 무료</h2>
+<p style="margin:0 0 12px;line-height:1.6">이 계산기를 자신의 웹사이트나 블로그에 더하세요 — 그것은 완전히 무료이고, 가입이 필요 없고, 항상 최신 버전을 보여줘요. 아래 코드를 복사하고 계산기가 나타나기를 원하는 페이지에 붙여넣으세요. 임베드 아래 작은 &ldquo;Powered by Loona Automation&rdquo; 크레딧 줄을 유지하면 이 도구를 무료로 유지하는 데 도움이 돼요 &mdash; 그러나 스타일을 입히거나 제거해도 자유예요; 도구는 어느 쪽이든 작동해요.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/ko/coin-flip/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Coin Flip by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;제공: &lt;a href="https://loonaautomation.github.io/loona-calculators/ko/coin-flip/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 무료 동전 던지기&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">임베드 코드 복사</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='임베드 코드 복사';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>인기 계산기</h4><ul><li><a href="../age-calculator/">나이 계산기</a></li>
+<li><a href="../zakat-calculator/">자카트 계산기</a></li>
+<li><a href="../cgpa-calculator/">CGPA 계산기</a></li>
+<li><a href="../percentage-calculator/">백분율 계산기</a></li>
+<li><a href="../hijri-date-converter/">히즈리 날짜 변환기</a></li>
+<li><a href="../emi-calculator/">EMI & 대출 계산기</a></li></ul></div>
+<div><h4>더 많은 Loona 도구</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR 코드</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona 이미지 압축 도구</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI 어시스턴트</a></li>
+<li><a href="https://loonaautomation.github.io/">모든 Loona 도구</a></li></ul></div>
+<div><h4>Loona 계산기</h4><ul>
+<li><a href="../about.html">정보</a></li>
+<li><a href="../contact.html">연락처</a></li>
+<li><a href="../privacy-policy.html">개인정보 처리방침</a></li>
+<li><a href="../terms.html">이용 약관</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — a <a href="https://loonaautomation.github.io/">Loona 오토메이션</a> 프로젝트. 무료 온라인 계산기, 가입 없음.\n연락처: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+function cryptoRandomInt(min, max) {
+  var range = max - min + 1;
+  if (!(range >= 1)) throw new Error("유효하지 않은 범위.");
+  if (range > 4294967296) throw new Error("범위가 너무 커요.");
+  var limit = Math.floor(4294967296 / range) * range;
+  var buf = new Uint32Array(1), x;
+  do { crypto.getRandomValues(buf); x = buf[0]; } while (x >= limit);
+  return min + (x % range);
+}
+function generateRandomNumbers(min, max, count, unique) {
+  min = Math.floor(min); max = Math.floor(max); count = Math.floor(count);
+  if (isNaN(min) || isNaN(max) || isNaN(count)) throw new Error("모든 필드에 유효한 숫자를 입력하세요.");
+  if (max < min) throw new Error("최대값은 최소값보다 크거나 같아야 해요.");
+  if (count < 1 || count > 10000) throw new Error("1과 10,000 숫자 사이를 고르세요.");
+  if (unique && count > (max - min + 1)) throw new Error("그 범위에는 고유 숫자가 충분하지 않아요.");
+  var out = [], seen = {};
+  while (out.length < count) {
+    var v = cryptoRandomInt(min, max);
+    if (unique) { if (seen[v]) continue; seen[v] = 1; }
+    out.push(v);
+  }
+  return out;
+}
+function generateUniqueSorted(count, max) {
+  var seen = {}, out = [];
+  while (out.length < count) {
+    var v = cryptoRandomInt(1, max);
+    if (!seen[v]) { seen[v] = 1; out.push(v); }
+  }
+  out.sort(function (a, b) { return a - b; });
+  return out;
+}
+/*TESTABLE_END*/
+
+/*TESTABLE_START*/
+function flipCoin() { return cryptoRandomInt(0, 1) === 0 ? 'H' : 'T'; }
+function newCoinStats() { return { total: 0, heads: 0, tails: 0, lastFlip: null, streak: 0, longestH: 0, longestT: 0, matchH: 0, matchT: 0 }; }
+function applyFlip(stats, flip) {
+  stats.total++;
+  if (flip === 'H') stats.heads++; else stats.tails++;
+  if (stats.lastFlip === flip) stats.streak++; else { stats.streak = 1; stats.lastFlip = flip; }
+  if (flip === 'H') { if (stats.streak > stats.longestH) stats.longestH = stats.streak; stats.matchH++; }
+  else { if (stats.streak > stats.longestT) stats.longestT = stats.streak; stats.matchT++; }
+  return stats;
+}
+function matchTarget(bestOf) { return bestOf > 0 ? Math.floor(bestOf / 2) + 1 : 0; }
+function matchWinner(stats, bestOf) {
+  var target = matchTarget(bestOf);
+  if (!target) return null;
+  if (stats.matchH >= target) return 'H';
+  if (stats.matchT >= target) return 'T';
+  return null;
+}
+/*TESTABLE_END*/
+var coinStats = newCoinStats();
+var coinWinner = null;
+function coinRender() {
+  var box = document.getElementById('coinResult');
+  box.style.display = 'block';
+  var bestOf = parseInt(document.getElementById('coinBestOf').value, 10);
+  var last = coinStats.lastFlip === 'H' ? 'Heads' : (coinStats.lastFlip === 'T' ? 'Tails' : '—');
+  var hp = coinStats.total ? Math.round(coinStats.heads / coinStats.total * 1000) / 10 : 0;
+  var html = '<div class="coin">' + (coinStats.total ? last : 'Flip!') + '</div>';
+  html += '<div class="resbig"><span>최근 던지기</span><strong>' + last + '</strong></div>';
+  html += '<table class="restbl">' +
+    '<tr><td>전체 던지기</td><td><strong>' + coinStats.total + '</strong></td></tr>' +
+    '<tr><td>앞면</td><td><strong>' + coinStats.heads + ' (' + hp + '%)</strong></td></tr>' +
+    '<tr><td>뒷면</td><td><strong>' + coinStats.tails + ' (' + (coinStats.total ? Math.round(coinStats.tails / coinStats.total * 1000) / 10 : 0) + '%)</strong></td></tr>' +
+    '<tr><td>현재 연속</td><td><strong>' + (coinStats.total ? coinStats.streak + ' × ' + last : '—') + '</strong></td></tr>' +
+    '<tr><td>가장 긴 앞면 연속</td><td><strong>' + coinStats.longestH + '</strong></td></tr>' +
+    '<tr><td>가장 긴 뒷면 연속</td><td><strong>' + coinStats.longestT + '</strong></td></tr></table>';
+  if (bestOf > 0) {
+    html += '<table class="restbl"><tr><td>경기 점수 (먼저 ' + matchTarget(bestOf) + ')</td><td><strong>앞면 ' + coinStats.matchH + ' — ' + coinStats.matchT + ' 뒷면</strong></td></tr></table>';
+    if (coinWinner) html += '<p class="resnote"><strong>🏆 ' + (coinWinner === 'H' ? 'Heads' : 'Tails') + ' 경기에서 이겨요!</strong> 경기 모드를 바꾸거나 재설정을 눌러 다시 플레이하세요.</p>';
+  }
+  box.innerHTML = html;
+}
+function coinDoFlip(n) {
+  var bestOf = parseInt(document.getElementById('coinBestOf').value, 10);
+  if (coinWinner) { coinStats.matchH = 0; coinStats.matchT = 0; coinWinner = null; }
+  for (var i = 0; i < n; i++) {
+    var before = coinStats.matchH + coinStats.matchT;
+    applyFlip(coinStats, flipCoin());
+    if (bestOf > 0) {
+      coinWinner = matchWinner(coinStats, bestOf);
+      if (coinWinner) break;
+      void before;
+    }
+  }
+  coinRender();
+}
+document.getElementById('coinForm').addEventListener('submit', function (e) { e.preventDefault(); coinDoFlip(1); });
+document.getElementById('coinFlip10').addEventListener('click', function () { coinDoFlip(10); });
+document.getElementById('coinReset').addEventListener('click', function () { coinStats = newCoinStats(); coinWinner = null; coinRender(); });
+document.getElementById('coinBestOf').addEventListener('change', function () { coinStats.matchH = 0; coinStats.matchT = 0; coinWinner = null; coinRender(); });
+coinRender();
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' 앱 설치';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('이 앱을 설치하세요: 공유 버튼을 누르고, 그다음 "홈 화면에 추가"를 고르세요.');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

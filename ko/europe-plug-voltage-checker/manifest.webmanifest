@@ -1,0 +1,29 @@
+{
+  "name": "Loona 유럽 플러그 & 전압 확인 도구",
+  "short_name": "유럽 플러그 & 전압 확인 도구",
+  "description": "무료 유럽 플러그 및 전압 확인 도구: 유럽 국가를 고르면 플러그 종류, 전압, 주파수와 어댑터나 변환기가 필요한지 볼 수 있어요.",
+  "id": "/loona-calculators/ko/europe-plug-voltage-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

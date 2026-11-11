@@ -1,0 +1,29 @@
+{
+  "name": "Loona 년 (율리우스력)를 일로 바꾸는 변환기",
+  "short_name": "년 (율리우스력)를 일로 바꾸는 변환기",
+  "description": "년를 일로 즉시 변환하세요. 정확한 공식, yr에서 d까지의 전체 변환표, 풀이 예시와 자주 묻는 질문이 있어요. 무료이며 가입이 필요 없어요.",
+  "id": "/loona-calculators/ko/years-to-days-converter.html",
+  "start_url": "./years-to-days-converter.html",
+  "scope": "./years-to-days-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

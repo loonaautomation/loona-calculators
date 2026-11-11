@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>어린이 BMI 백분위 계산기 — CDC 성장 차트(2–20세) | Loona</title>
+<meta name="description" content="2세부터 20세까지 공식 CDC LMS 성장 차트 데이터를 쓰는 무료 어린이 BMI 백분위 계산기: 남자아이와 여자아이의 BMI, 백분위, z점수, 체중 범주.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/ko/child-bmi-percentile-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/child-bmi-percentile-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/child-bmi-percentile-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/child-bmi-percentile-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/child-bmi-percentile-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/child-bmi-percentile-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/child-bmi-percentile-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/child-bmi-percentile-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/child-bmi-percentile-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/child-bmi-percentile-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/child-bmi-percentile-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/child-bmi-percentile-calculator/"><link rel="alternate" hreflang="hi" href="https://loonaautomation.github.io/loona-calculators/hi/child-bmi-percentile-calculator/"><link rel="alternate" hreflang="bn" href="https://loonaautomation.github.io/loona-calculators/bn/child-bmi-percentile-calculator/"><link rel="alternate" hreflang="id" href="https://loonaautomation.github.io/loona-calculators/id/child-bmi-percentile-calculator/"><link rel="alternate" hreflang="vi" href="https://loonaautomation.github.io/loona-calculators/vi/child-bmi-percentile-calculator/"><link rel="alternate" hreflang="ko" href="https://loonaautomation.github.io/loona-calculators/ko/child-bmi-percentile-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/child-bmi-percentile-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="어린이 BMI 백분위 계산기 — CDC 성장 차트(2–20세) | Loona">
+<meta property="og:description" content="2세부터 20세까지 공식 CDC LMS 성장 차트 데이터를 쓰는 무료 어린이 BMI 백분위 계산기: 남자아이와 여자아이의 BMI, 백분위, z점수, 체중 범주.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/ko/child-bmi-percentile-calculator/"><meta property="og:locale" content="ko_KR">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="어린이 BMI 백분위 계산기 — CDC 성장 차트(2–20세) | Loona">
+<meta name="twitter:description" content="2세부터 20세까지 공식 CDC LMS 성장 차트 데이터를 쓰는 무료 어린이 BMI 백분위 계산기: 남자아이와 여자아이의 BMI, 백분위, z점수, 체중 범주.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona 아동 BMI 백분위수 계산기","url":"https://loonaautomation.github.io/loona-calculators/ko/child-bmi-percentile-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona 오토메이션","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"데이터는 어디서 오나요?","acceptedAnswer":{"@type":"Answer","text":"공식 CDC 성장 차트 데이터 파일(bmiagerev.csv, 성별과 나이 월별 LMS 매개변수). 이 페이지는 CDC L, M, S 값을 내장해요, 6개월마다, 24.5부터 240.5개월까지, 그리고 그 사이를 선형으로 보간해요; 표 자체 지점의 백분위수는 CDC가 발표한 백분위수와 일치해요."}},{"@type":"Question","name":"LMS 방법은 어떻게 작동해요?","acceptedAnswer":{"@type":"Answer","text":"각 나이/성별에는 세 개의 숫자가 있어요: L(왜도 거듭제곱), M(중앙값 BMI), S(변동). z점수는 z = ((BMI ÷ M)^L − 1) ÷ (L × S)이고, 백분위는 z의 표준 정규 CDF예요. CDC가 발표하는 정확한 방법이에요."}},{"@type":"Question","name":"왜 성인 BMI 범주를 쓰지 않나요?","acceptedAnswer":{"@type":"Answer","text":"아이들은 아직 자라고 있기 때문이에요: 16세에 건강한 BMI가 8세에는 높을 수 있어요. 백분위는 아이를 같은 나이와 성별의 기준 집단과 비교하는데, 소아 진료가 이를 쓰는 이유예요."}},{"@type":"Question","name":"하나의 결과에 대해 걱정해야 하나요?","acceptedAnswer":{"@type":"Answer","text":"백분위 하나는 선별 검사용 스냅샷일 뿐, 진단이 아니에요. 시간에 따른 성장 패턴이 더 중요해요. 걱정되는 점은 항상 자녀의 담당 의사와 상의하세요. 이 페이지는 교육용이에요."}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona 오토메이션",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona 계산기",
+      "item": "https://loonaautomation.github.io/loona-calculators/ko/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "아동 BMI 백분위수 계산기",
+      "item": "https://loonaautomation.github.io/loona-calculators/ko/child-bmi-percentile-calculator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation 로고">
+<div class="brand">Loona <span>계산기</span></div>
+<nav>
+<a href="../">홈</a>
+<a href="https://loonaautomation.github.io/">Loona 오토메이션</a>
+<a href="../about.html">정보</a>
+<a href="../contact.html">연락처</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona 계산기</a> › 건강 › 아동 BMI 백분위수 계산기</div>
+<h1 class="pagetitle">🧒 아동 BMI 백분위수 계산기</h1>
+<p class="lead">자녀의 나이, 성별, 키, 체중을 입력하세요. 계산기는 BMI를 계산하고 공식 CDC 성장 차트 LMS 데이터 — 의사들이 쓰는 같은 기준 — 를 이용해 백분위와 z점수로 변환해요, 2세부터 20세까지요.</p>
+<div class="exbox"><strong>빠른 답:</strong> 어린이 BMI는 성인 척도가 아니라 나이와 성별에 대한 백분위로 읽어요: 5 백분위 미만은 저체중, 5부터 85 미만은 건강 체중, 85부터 95 미만은 과체중, 95 이상은 비만이에요(CDC 범주).</div>
+<div class="toolbox"><form class="calcform" id="cbForm">
+<div class="fld"><label for="cbSex">아이</label><select id="cbSex"><option value="1">남자아이</option><option value="2">여자아이</option></select></div>
+<div class="fld"><label for="cbYears">나이 — 년</label><input type="number" id="cbYears" value="10" min="2" max="20"></div>
+<div class="fld"><label for="cbMonths">나이 — 여분의 월</label><input type="number" id="cbMonths" value="0" min="0" max="11"></div>
+<div class="fld"><label for="cbH">키 (cm)</label><input type="number" id="cbH" value="140" min="60" max="220" step="0.1"></div>
+<div class="fld"><label for="cbW">체중 (kg)</label><input type="number" id="cbW" value="32.6" min="5" max="250" step="0.1"></div>
+<button class="calcbtn" type="submit">BMI 백분위 계산</button>
+<div class="calcresult" id="cbResult" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>아동 BMI 백분위수 계산기 사용 방법</h2><ol><li>아이의 나이를 연과 개월로 입력하세요(2세부터 20세).</li><li>남자아이 또는 여자아이를 고르세요 — CDC 차트는 성별 특이적이에요.</li><li>키를 cm로, 체중을 kg로 입력하세요.</li><li>BMI, 그 백분위수와 z점수, CDC 범주를 읽으세요.</li></ol>
+<div class="exbox"><strong>예시:</strong> 10살 남자아이(120.5개월)의 BMI가 16.65이면 CDC 중앙값에 정확히 있어요 — 50번째 백분위수예요. 같은 나이에 BMI 22.15는 CDC 95번째 백분위수예요.</div>
+<h2>자주 묻는 질문</h2></section><div class="faq"><h3>데이터는 어디서 오나요?</h3><p>공식 CDC 성장 차트 데이터 파일(bmiagerev.csv, 성별과 나이 월별 LMS 매개변수). 이 페이지는 CDC L, M, S 값을 내장해요, 6개월마다, 24.5부터 240.5개월까지, 그리고 그 사이를 선형으로 보간해요; 표 자체 지점의 백분위수는 CDC가 발표한 백분위수와 일치해요.</p></div><div class="faq"><h3>LMS 방법은 어떻게 작동해요?</h3><p>각 나이/성별에는 세 개의 숫자가 있어요: L(왜도 거듭제곱), M(중앙값 BMI), S(변동). z점수는 z = ((BMI ÷ M)^L − 1) ÷ (L × S)이고, 백분위는 z의 표준 정규 CDF예요. CDC가 발표하는 정확한 방법이에요.</p></div><div class="faq"><h3>왜 성인 BMI 범주를 쓰지 않나요?</h3><p>아이들은 아직 자라고 있기 때문이에요: 16세에 건강한 BMI가 8세에는 높을 수 있어요. 백분위는 아이를 같은 나이와 성별의 기준 집단과 비교하는데, 소아 진료가 이를 쓰는 이유예요.</p></div><div class="faq"><h3>하나의 결과에 대해 걱정해야 하나요?</h3><p>백분위 하나는 선별 검사용 스냅샷일 뿐, 진단이 아니에요. 시간에 따른 성장 패턴이 더 중요해요. 걱정되는 점은 항상 자녀의 담당 의사와 상의하세요. 이 페이지는 교육용이에요.</p></div>
+<h2 class="sec">관련 계산기</h2><div class="grid"><a class="card" href="../bmi-calculator/"><div class="ic">⚖️</div><h3>BMI 계산기</h3><p>건강</p></a><a class="card" href="../calorie-calculator/"><div class="ic">🍽️</div><h3>칼로리 계산기</h3><p>건강</p></a><a class="card" href="../ideal-weight-calculator/"><div class="ic">🎯</div><h3>이상 체중 계산기</h3><p>건강</p></a></div>
+</div>
+<section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>작동 원리 — 공식</h2>
+<p>BMI = 체중(kg) ÷ 키(m)²예요. 그다음 CDC LMS 방법: 아이의 성별과 개월 수 나이에 대한 L, M, S 값으로(CDC 표에서 보간), <strong>z = ((BMI ÷ M)^L − 1) ÷ (L × S)</strong> 그리고 <strong>percentile = Φ(z) × 100</strong>, 여기서 Φ는 표준 정규 누적 분포예요. 범주(CDC): 5번째 미만 저체중; 5번째–85번째 미만 건강한 체중; 85번째–95번째 미만 과체중; ≥ 95번째 비만.</p>
+<h3>작업 예시</h3><div class="exbox"><p><strong>입력들:</strong> 남아, 120.5개월, BMI 22.154(이 나이에 대한 CDC P95 값, 공식 표에서).</p><p><strong>단계:</strong> 120.5개월 남아에 대한 CDC 값: L = −2.76565, M = 16.64614, S = 0.12011. BMI ÷ M = 22.154 ÷ 16.646 = 1.3308. (1.3308^(−2.76565) − 1) = (0.4537 − 1) = −0.5463. z = −0.5463 ÷ (−2.76565 × 0.12011) = −0.5463 ÷ −0.33222 = 1.644. Φ(1.644) ≈ 0.950.</p><p><strong>결과:</strong> 백분위수 ≈ <strong>95번째</strong> — 정확히 CDC가 발표한 P95, 방법을 확인해요.</p></div>
+<p class="resnote"><strong>건강 고지:</strong> 교육용 추정치일 뿐이에요 — 의학적 자문, 진단, 치료가 아니에요. 본인이나 자녀의 건강에 대해서는 항상 자격 있는 건강 전문가와 상담하세요.</p>
+</section>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">이 계산기를 웹사이트에 임베드하세요 — 무료</h2>
+<p style="margin:0 0 12px;line-height:1.6">이 계산기를 자신의 웹사이트나 블로그에 더하세요 — 그것은 완전히 무료이고, 가입이 필요 없고, 항상 최신 버전을 보여줘요. 아래 코드를 복사하고 계산기가 나타나기를 원하는 페이지에 붙여넣으세요. 임베드 아래 작은 &ldquo;Powered by Loona Automation&rdquo; 크레딧 줄을 유지하면 이 도구를 무료로 유지하는 데 도움이 돼요 &mdash; 그러나 스타일을 입히거나 제거해도 자유예요; 도구는 어느 쪽이든 작동해요.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/ko/child-bmi-percentile-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Child BMI Percentile Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;제공: &lt;a href="https://loonaautomation.github.io/loona-calculators/ko/child-bmi-percentile-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 무료 아동 BMI 백분위수 계산기&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">임베드 코드 복사</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='임베드 코드 복사';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>인기 계산기</h4><ul><li><a href="../age-calculator/">나이 계산기</a></li>
+<li><a href="../zakat-calculator/">자카트 계산기</a></li>
+<li><a href="../cgpa-calculator/">CGPA 계산기</a></li>
+<li><a href="../percentage-calculator/">백분율 계산기</a></li>
+<li><a href="../hijri-date-converter/">히즈리 날짜 변환기</a></li>
+<li><a href="../emi-calculator/">EMI & 대출 계산기</a></li></ul></div>
+<div><h4>더 많은 Loona 도구</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR 코드</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona 이미지 압축 도구</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI 어시스턴트</a></li>
+<li><a href="https://loonaautomation.github.io/">모든 Loona 도구</a></li></ul></div>
+<div><h4>Loona 계산기</h4><ul>
+<li><a href="../about.html">정보</a></li>
+<li><a href="../contact.html">연락처</a></li>
+<li><a href="../privacy-policy.html">개인정보 처리방침</a></li>
+<li><a href="../terms.html">이용 약관</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — a <a href="https://loonaautomation.github.io/">Loona 오토메이션</a> 프로젝트. 무료 온라인 계산기, 가입 없음.\n연락처: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+var CDC_LMS={"1": [[24.5, -1.98237, 16.5478, 0.08013], [30.5, -1.64211, 16.2497, 0.0755], [36.5, -1.41999, 16.0003, 0.07263], [42.5, -1.43816, 15.7941, 0.0715], [48.5, -1.71487, 15.6282, 0.07189], [54.5, -2.15535, 15.5026, 0.07349], [60.5, -2.61517, 15.4191, 0.07599], [66.5, -2.9818, 15.3795, 0.07921], [72.5, -3.21171, 15.3835, 0.08305], [78.5, -3.31477, 15.429, 0.0874], [84.5, -3.32319, 15.5129, 0.09213], [90.5, -3.27045, 15.6317, 0.09708], [96.5, -3.18306, 15.7823, 0.10209], [102.5, -3.07938, 15.9617, 0.10701], [108.5, -2.97115, 16.1671, 0.11172], [114.5, -2.86531, 16.3961, 0.11611], [120.5, -2.76565, 16.6461, 0.12011], [126.5, -2.6739, 16.9151, 0.12366], [132.5, -2.59056, 17.2009, 0.12673], [138.5, -2.51532, 17.5014, 0.12931], [144.5, -2.44743, 17.8146, 0.13139], [150.5, -2.38586, 18.1387, 0.13299], [156.5, -2.32946, 18.4718, 0.13414], [162.5, -2.27702, 18.812, 0.13488], [168.5, -2.22736, 19.1576, 0.13525], [174.5, -2.17943, 19.5067, 0.13531], [180.5, -2.13234, 19.8577, 0.13511], [186.5, -2.08557, 20.2086, 0.13472], [192.5, -2.03902, 20.5576, 0.1342], [198.5, -1.99315, 20.9029, 0.13362], [204.5, -1.94913, 21.2425, 0.13306], [210.5, -1.90883, 21.5742, 0.13258], [216.5, -1.87467, 21.8959, 0.13229], [222.5, -1.84932, 22.2054, 0.13225], [228.5, -1.83514, 22.5007, 0.13257], [234.5, -1.8334, 22.7799, 0.13334], [240.5, -1.84358, 23.0414, 0.13468]], "2": [[24.5, -1.0245, 16.388, 0.08503], [30.5, -1.53454, 16.0059, 0.08093], [36.5, -2.09683, 15.6992, 0.07861], [42.5, -2.61873, 15.4647, 0.0779], [48.5, -3.01852, 15.2985, 0.07871], [54.5, -3.2593, 15.1961, 0.0809], [60.5, -3.35008, 15.1519, 0.0843], [66.5, -3.32552, 15.1606, 0.08868], [72.5, -3.22561, 15.2169, 0.0938], [78.5, -3.08429, 15.3161, 0.09943], [84.5, -2.92619, 15.4536, 0.10533], [90.5, -2.76731, 15.6252, 0.11129], [96.5, -2.61719, 15.827, 0.11716], [102.5, -2.48095, 16.0552, 0.12277], [108.5, -2.36092, 16.3061, 0.12801], [114.5, -2.25778, 16.5763, 0.1328], [120.5, -2.1713, 16.8623, 0.13706], [126.5, -2.10075, 17.161, 0.14075], [132.5, -2.04524, 17.4691, 0.14387], [138.5, -2.0038, 17.7836, 0.1464], [144.5, -1.97552, 18.1015, 0.14836], [150.5, -1.95952, 18.42, 0.14978], [156.5, -1.95498, 18.7364, 0.15071], [162.5, -1.9611, 19.0481, 0.15118], [168.5, -1.97707, 19.3526, 0.15126], [174.5, -2.00201, 19.6475, 0.15101], [180.5, -2.03489, 19.9306, 0.15051], [186.5, -2.07446, 20.1998, 0.14984], [192.5, -2.11916, 20.4533, 0.14909], [198.5, -2.16704, 20.6891, 0.14835], [204.5, -2.21574, 20.9058, 0.14772], [210.5, -2.26238, 21.1016, 0.14732], [216.5, -2.30369, 21.2753, 0.14727], [222.5, -2.33604, 21.4255, 0.14769], [228.5, -2.35568, 21.5508, 0.14872], [234.5, -2.35898, 21.6501, 0.15052], [240.5, -2.3428, 21.7219, 0.15324]]};
+function normCdfCb(z){
+  var t=1/(1+0.2316419*Math.abs(z));
+  var poly=t*(0.319381530+t*(-0.356563782+t*(1.781477937+t*(-1.821255978+t*1.330274429))));
+  var phi=Math.exp(-z*z/2)/Math.sqrt(2*Math.PI);
+  var p=1-phi*poly;
+  return z>=0?p:1-p;
+}
+function lmsAt(sex,ageMonths){
+  var tab=CDC_LMS[String(sex)]; if(!tab)return null;
+  if(ageMonths<tab[0][0]||ageMonths>tab[tab.length-1][0])return null;
+  for(var i=0;i<tab.length-1;i++){
+    var a=tab[i],b=tab[i+1];
+    if(ageMonths>=a[0]&&ageMonths<=b[0]){
+      var f=(ageMonths-a[0])/(b[0]-a[0]);
+      return {L:a[1]+(b[1]-a[1])*f,M:a[2]+(b[2]-a[2])*f,S:a[3]+(b[3]-a[3])*f};
+    }
+  }
+  var last=tab[tab.length-1]; return {L:last[1],M:last[2],S:last[3]};
+}
+function childBmi(sex,ageMonths,bmi){
+  var lms=lmsAt(sex,ageMonths); if(!lms||!(bmi>0))return null;
+  var z=(Math.pow(bmi/lms.M,lms.L)-1)/(lms.L*lms.S);
+  var pct=normCdfCb(z)*100;
+  var cat=pct<5?"Underweight":pct<85?"Healthy weight":pct<95?"Overweight":"Obesity";
+  return {z:z,percentile:pct,category:cat,lms:lms};
+}
+function childBmiFromMeasures(sex,ageMonths,weightKg,heightCm){
+  if(!(weightKg>0)||!(heightCm>0))return null;
+  var bmi=weightKg/Math.pow(heightCm/100,2);
+  var r=childBmi(sex,ageMonths,bmi); if(!r)return null; r.bmi=bmi; return r;
+}
+/*TESTABLE_END*/
+document.getElementById('cbForm').addEventListener('submit',function(e){e.preventDefault();
+ var ageM=parseInt(document.getElementById('cbYears').value,10)*12+parseInt(document.getElementById('cbMonths').value||"0",10)+0.5;
+ var r=childBmiFromMeasures(document.getElementById('cbSex').value,ageM,parseFloat(document.getElementById('cbW').value),parseFloat(document.getElementById('cbH').value));
+ var box=document.getElementById('cbResult'); box.style.display='block';
+ if(!r){box.innerHTML='<p class="err">입력을 확인하세요 — 이 차트는 2세부터 20세까지 나이를 다뤄요.</p>';return;}
+ box.innerHTML='<div class="resbig"><span>BMI 백분위수 (CDC)</span><strong>'+r.percentile.toFixed(1)+'번째 백분위수</strong></div>'
+ +'<table class="restbl"><tr><td>BMI</td><td><strong>'+r.bmi.toFixed(2)+'</strong></td></tr>'
+ +'<tr><td>Z점수</td><td><strong>'+r.z.toFixed(2)+'</strong></td></tr>'
+ +'<tr><td>CDC 범주</td><td><strong>'+r.category+'</strong></td></tr></table>'
+ +'<p class="resnote">스크리닝 정보만, 진단이 아니에요. 시간에 걸친 성장 패턴이 중요해요 — 모든 우려는 아이의 의사와 논의하세요.</p>';});
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' 앱 설치';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('이 앱을 설치하세요: 공유 버튼을 누르고, 그다음 "홈 화면에 추가"를 고르세요.');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

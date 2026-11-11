@@ -1,0 +1,29 @@
+{
+  "name": "Loona Z-점수 계산기",
+  "short_name": "Z-점수 계산기",
+  "description": "무료 z점수 계산기: 값, 평균, 표준편차를 입력하면 표준 정규 표(정규분포)에서 z점수, 백분위, 확률을 얻을 수 있어요.",
+  "id": "/loona-calculators/ko/z-score-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

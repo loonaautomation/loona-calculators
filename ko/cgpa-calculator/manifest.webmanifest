@@ -1,0 +1,29 @@
+{
+  "name": "Loona CGPA 계산기",
+  "short_name": "CGPA 계산기",
+  "description": "대학생을 위한 무료 CGPA 계산기: 과목 점수와 학점 시간을 입력하면 학기 GPA를 얻을 수 있고, 이전 CGPA를 더하면 누적 결과를 얻을 수 있어요. HEC 성적 척도.",
+  "id": "/loona-calculators/ko/cgpa-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

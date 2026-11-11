@@ -1,0 +1,29 @@
+{
+  "name": "Loona 비네트 확인 도구",
+  "short_name": "비네트 확인 도구",
+  "description": "무료 비네트 확인 도구: 운전 경로에 있는 유럽 국가를 선택하면 어느 나라가 고속도로 비네트가 필요한지, 어느 나라가 통행료를 받는지, 어느 나라가 자동차에 무료인지 볼 수 있어요.",
+  "id": "/loona-calculators/ko/vignette-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

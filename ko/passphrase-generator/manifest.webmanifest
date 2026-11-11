@@ -1,0 +1,29 @@
+{
+  "name": "Loona 암호 문구 생성기",
+  "short_name": "암호 문구 생성기",
+  "description": "무료 암호 문구 생성기: 무작위 실제 단어로 강력하고 기억하기 쉬운 암호 문구를 만드세요, 단어 수, 구분자, 대문자, 숫자 옵션과 함께요. 브라우저에서 실행돼요.",
+  "id": "/loona-calculators/ko/passphrase-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

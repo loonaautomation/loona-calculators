@@ -1,0 +1,29 @@
+{
+  "name": "Loona 솅겐 90/180 계산기",
+  "short_name": "솅겐 90/180 계산기",
+  "description": "무료 솅겐 90/180 계산기: 과거와 계획된 여행을 입력하면 모든 180일 롤링 구간의 사용 일수, 남은 일수, 초과 체류 경고, 가장 이른 안전 재입국을 볼 수 있어요.",
+  "id": "/loona-calculators/ko/schengen-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

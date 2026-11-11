@@ -1,0 +1,29 @@
+{
+  "name": "Loona 날짜 계산기",
+  "short_name": "날짜 계산기",
+  "description": "무료 날짜 계산기: 어떤 날짜에서든 일, 주, 개월, 연을 더하거나 빼고 요일과 함께 결과 날짜를 얻으세요. 마감, 비자, 계획.",
+  "id": "/loona-calculators/ko/date-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

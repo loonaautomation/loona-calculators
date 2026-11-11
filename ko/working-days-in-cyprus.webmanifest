@@ -1,0 +1,29 @@
+{
+  "name": "Loona 키프로스의 근무일",
+  "short_name": "키프로스의 근무일",
+  "description": "키프로스의 영업일 계산기: 날짜 두 개 사이 영업일을 세세요, 주말과 모든 14개 키프로스 국가 공휴일(2026년)이 제거돼요. 무료 온라인 도구.",
+  "id": "/loona-calculators/ko/working-days-in-cyprus.html",
+  "start_url": "./working-days-in-cyprus.html",
+  "scope": "./working-days-in-cyprus.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

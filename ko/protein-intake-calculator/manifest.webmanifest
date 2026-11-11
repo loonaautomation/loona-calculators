@@ -1,0 +1,29 @@
+{
+  "name": "Loona 단백질 섭취량 계산기",
+  "short_name": "단백질 섭취량 계산기",
+  "description": "무료 단백질 섭취 계산기: 근거 기반 g/kg 범위를 써서 체중, 활동 수준, 목표에서 일일 단백질 그램. 칼로리 기반 매크로 배분과는 달라요.",
+  "id": "/loona-calculators/ko/protein-intake-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona 베를린를 덴버 시간으로 바꾸는 변환기",
+  "short_name": "베를린를 덴버 시간으로",
+  "description": "베를린 시간을 덴버 시간으로 변환하세요. 덴버는 일 년 내내 베를린보다 8 시간 뒤지며, 일광 절약 날짜, 24-시간 표와 회의하기 가장 좋은 시간대가 있어요. 실시간 변환기가 포함돼 있어요.",
+  "id": "/loona-calculators/ko/berlin-to-denver-time-converter.html",
+  "start_url": "./berlin-to-denver-time-converter.html",
+  "scope": "./berlin-to-denver-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona 출생 연도별 나이",
+  "short_name": "출생 연도별 나이",
+  "description": "2026년에 맞는 나이, 1946–2025 모든 출생 연도의, 세대 라벨과 이정표 연도와 함께요.",
+  "id": "/loona-calculators/ko/age-by-birth-year.html",
+  "start_url": "./age-by-birth-year.html",
+  "scope": "./age-by-birth-year.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

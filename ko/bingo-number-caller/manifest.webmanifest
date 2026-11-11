@@ -1,0 +1,29 @@
+{
+  "name": "Loona 빙고 번호 추첨기",
+  "short_name": "빙고 번호 추첨기",
+  "description": "75볼(B-I-N-G-O)과 90볼 게임을 위한 무료 빙고 번호 호출기: 반복 없이 숫자를 뽑고, 현재 공을 크게 보여주고, 보드에서 호출된 모든 숫자를 추적해요.",
+  "id": "/loona-calculators/ko/bingo-number-caller/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

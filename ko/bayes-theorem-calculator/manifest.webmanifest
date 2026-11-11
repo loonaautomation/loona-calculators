@@ -1,0 +1,29 @@
+{
+  "name": "Loona 베이즈 정리 계산기",
+  "short_name": "베이즈 정리 계산기",
+  "description": "무료 베이즈 정리 계산기: 사전 확률, 진양성률, 위양성률이 사후 확률을 줘요 — 고전적인 의료 검사 계산, 설명과 함께요.",
+  "id": "/loona-calculators/ko/bayes-theorem-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

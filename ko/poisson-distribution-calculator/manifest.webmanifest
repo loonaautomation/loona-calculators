@@ -1,0 +1,29 @@
+{
+  "name": "Loona 푸아송 분포 계산기",
+  "short_name": "푸아송 분포",
+  "description": "무료 푸아송 분포 계산기: 평균 비율 람다가 주어졌을 때 정확히 k개 사건, 최대 k개, 최소 k개 확률. 통화, 도착, 결함, 드문 사건용.",
+  "id": "/loona-calculators/ko/poisson-distribution-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

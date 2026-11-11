@@ -1,0 +1,29 @@
+{
+  "name": "Loona BMI 계산기",
+  "short_name": "BMI 계산기",
+  "description": "무료 BMI 계산기: 체중과 키(cm 또는 피트/인치)를 입력하면 체질량지수, 범주, 그 키에 대한 건강 체중 범위를 확인할 수 있어요.",
+  "id": "/loona-calculators/ko/bmi-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

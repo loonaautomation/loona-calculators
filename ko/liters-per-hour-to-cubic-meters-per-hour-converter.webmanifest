@@ -1,0 +1,29 @@
+{
+  "name": "Loona 시간당 리터를 시간당 세제곱미터로",
+  "short_name": "시간당 리터를 세제곱미터로",
+  "description": "시간당 리터를 시간당 세제곱미터로 즉시 변환하세요. 정확한 공식, L/h에서 m³/h까지의 전체 변환표, 풀이 예시와 자주 묻는 질문이 있어요. 무료이며 가입이 필요 없어요.",
+  "id": "/loona-calculators/ko/liters-per-hour-to-cubic-meters-per-hour-converter.html",
+  "start_url": "./liters-per-hour-to-cubic-meters-per-hour-converter.html",
+  "scope": "./liters-per-hour-to-cubic-meters-per-hour-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona 정기예금 계산기",
+  "short_name": "정기예금 계산기",
+  "description": "무료 정기예금(FD) 계산기: 예금 금액, 이자율, 기간, 복리 빈도 — 만기 가치와 번 전체 이자를 얻으세요.",
+  "id": "/loona-calculators/ko/fixed-deposit-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

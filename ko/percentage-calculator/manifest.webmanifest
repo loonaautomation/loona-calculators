@@ -1,0 +1,29 @@
+{
+  "name": "Loona 백분율 계산기",
+  "short_name": "백분율 계산기",
+  "description": "무료 백분율 계산기, 도구가 셋이 하나에: Y의 X%가 무엇인지, X가 Y의 몇 퍼센트인지, 두 숫자 사이의 백분율 증가 또는 감소.",
+  "id": "/loona-calculators/ko/percentage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

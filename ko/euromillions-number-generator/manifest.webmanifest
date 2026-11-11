@@ -1,0 +1,29 @@
+{
+  "name": "Loona 유로밀리언스 번호 생성기",
+  "short_name": "유로밀리언스 번호 생성기",
+  "description": "무료 유로밀리언스 번호 생성기: 주요 숫자 5개를 뽑아요, 50에서, 럭키 스타 2개, 12에서, 한 번에 최대 5줄까지. 안전한 무작위 선택, 가입 불필요.",
+  "id": "/loona-calculators/ko/euromillions-number-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona 체지방 계산기",
+  "short_name": "체지방 계산기",
+  "description": "미 해군 둘레 측정법을 쓰는 무료 체지방 계산기: 키, 목, 허리(여성은 엉덩이까지)가 체지방 %, 지방량, 제지방량, ACE 범주를 줘요.",
+  "id": "/loona-calculators/ko/body-fat-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

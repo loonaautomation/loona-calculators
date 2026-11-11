@@ -1,0 +1,29 @@
+{
+  "name": "Loona VO2 Max 계산기",
+  "short_name": "VO2 Max 계산기",
+  "description": "무료 VO2 max 계산기: 쿠퍼 12분 달리기 또는 록포트 1마일 걷기 검사로 유산소 체력을 추정하세요. 교육용 체력 추정치.",
+  "id": "/loona-calculators/ko/vo2-max-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

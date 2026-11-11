@@ -1,0 +1,29 @@
+{
+  "name": "Loona 기울기 계산기",
+  "short_name": "기울기 계산기",
+  "description": "무료 기울기 계산기: 두 점을 입력하면 기울기, 둘 사이의 거리, 중점, 기울기-절편 형태의 직선 방정식을 얻을 수 있어요, 과정과 함께요.",
+  "id": "/loona-calculators/ko/slope-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

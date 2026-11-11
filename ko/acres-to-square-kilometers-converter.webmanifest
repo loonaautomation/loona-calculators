@@ -1,0 +1,29 @@
+{
+  "name": "Loona 에이커를 제곱킬로미터로 바꾸는 변환기",
+  "short_name": "에이커를 제곱킬로미터로",
+  "description": "에이커를 제곱킬로미터로 즉시 변환하세요. 정확한 공식, acre에서 km²까지의 전체 변환표, 풀이 예시와 자주 묻는 질문이 있어요. 무료이며 가입이 필요 없어요.",
+  "id": "/loona-calculators/ko/acres-to-square-kilometers-converter.html",
+  "start_url": "./acres-to-square-kilometers-converter.html",
+  "scope": "./acres-to-square-kilometers-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

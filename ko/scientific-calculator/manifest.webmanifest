@@ -1,0 +1,29 @@
+{
+  "name": "Loona 공학용 계산기",
+  "short_name": "공학용 계산기",
+  "description": "sin, cos, tan과 그 역함수, log와 ln, 거듭제곱, 루트, 팩토리얼, 백분율이 있는 무료 공학용 계산기. DEG/RAD 모드와 온전한 키보드 지원 — 가입 불필요.",
+  "id": "/loona-calculators/ko/scientific-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

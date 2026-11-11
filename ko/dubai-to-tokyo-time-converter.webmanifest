@@ -1,0 +1,29 @@
+{
+  "name": "Loona 두바이를 도쿄 시간으로 바꾸는 변환기",
+  "short_name": "두바이를 도쿄 시간으로 바꾸는 변환기",
+  "description": "두바이 시간을 도쿄 시간으로 변환하세요. 도쿄는 일 년 내내 두바이보다 5 시간 앞서며, 일광 절약 날짜, 24-시간 표와 회의하기 가장 좋은 시간대가 있어요. 실시간 변환기가 포함돼 있어요.",
+  "id": "/loona-calculators/ko/dubai-to-tokyo-time-converter.html",
+  "start_url": "./dubai-to-tokyo-time-converter.html",
+  "scope": "./dubai-to-tokyo-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

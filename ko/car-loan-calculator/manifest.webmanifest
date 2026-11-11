@@ -1,0 +1,29 @@
+{
+  "name": "Loona 자동차 대출 계산기",
+  "short_name": "자동차 대출 계산기",
+  "description": "무료 자동차 대출 계산기: 차량 가격, 계약금, 이자율, 기간 — 대출 금액, 월 납부액, 전체 이자, 자동차의 진짜 전체 비용을 얻으세요.",
+  "id": "/loona-calculators/ko/car-loan-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona 정기적금 계산기",
+  "short_name": "정기적금 계산기",
+  "description": "무료 적금(RD) 계산기: 월 예금, 이자율, 개월 단위 기간 — 은행 표준인 분기 복리로 만기 가치.",
+  "id": "/loona-calculators/ko/recurring-deposit-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

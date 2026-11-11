@@ -1,0 +1,29 @@
+{
+  "name": "Loona 파키스탄 주택담보대출 계산기",
+  "short_name": "파키스탄 주택담보대출 계산기",
+  "description": "루피 무료 파키스탄 주택 금융 계산기: 잔액 감소 방식 월 할부금, 전체 마크업, 모든 부동산 가격, 계약금, 금리, 기간에 대한 무채무 날짜.",
+  "id": "/loona-calculators/ko/pakistan-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

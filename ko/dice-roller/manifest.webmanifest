@@ -1,0 +1,29 @@
+{
+  "name": "Loona 주사위 굴리기",
+  "short_name": "주사위 굴리기",
+  "description": "무료 온라인 주사위 굴리기: 주사위 1개부터 6개까지 굴리세요 — 표준 d6, d20, 다른 다면체 주사위 — 시각적 주사위, 합계, 평균, 굴리기 기록과 함께요.",
+  "id": "/loona-calculators/ko/dice-roller/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

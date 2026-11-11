@@ -1,0 +1,29 @@
+{
+  "name": "Loona 캐나다 주택담보대출 계산기",
+  "short_name": "캐나다 주택담보대출 계산기",
+  "description": "CAD 무료 캐나다 주택담보대출 계산기, 올바른 반년 복리(j2), 월 납부액, 총 이자, 초과 납부 비교와 함께요.",
+  "id": "/loona-calculators/ko/canada-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

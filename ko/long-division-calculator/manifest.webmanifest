@@ -1,0 +1,29 @@
+{
+  "name": "Loona 긴 나눗셈 계산기",
+  "short_name": "긴 나눗셈 계산기",
+  "description": "무료 긴 나눗셈 계산기, 모든 단계를 보여줘요: 나머지 또는 소수로 숫자를 나누고 온전한 필기 과정을 숫자 하나씩 보세요. 학생과 교사용.",
+  "id": "/loona-calculators/ko/long-division-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

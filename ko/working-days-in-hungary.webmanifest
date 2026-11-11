@@ -1,0 +1,29 @@
+{
+  "name": "Loona 헝가리의 근무일",
+  "short_name": "헝가리의 근무일",
+  "description": "헝가리의 영업일 계산기: 날짜 두 개 사이 영업일, 주말, 헝가리 국가 공휴일과 2026년 다리 날짜가 처리돼요. 무료 도구.",
+  "id": "/loona-calculators/ko/working-days-in-hungary.html",
+  "start_url": "./working-days-in-hungary.html",
+  "scope": "./working-days-in-hungary.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

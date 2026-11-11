@@ -1,0 +1,29 @@
+{
+  "name": "Loona 랭킨도에서 켈빈 변환기",
+  "short_name": "랭킨 도에서 켈빈",
+  "description": "랭킨 도를 켈빈로 즉시 변환하세요. 정확한 공식, 온전한 °R에서 K 변환표, 예시와 FAQ. 무료, 가입 불필요.",
+  "id": "/loona-calculators/ko/rankine-to-kelvin-converter.html",
+  "start_url": "./rankine-to-kelvin-converter.html",
+  "scope": "./rankine-to-kelvin-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

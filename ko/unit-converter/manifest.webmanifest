@@ -1,0 +1,29 @@
+{
+  "name": "Loona 단위 변환기",
+  "short_name": "단위 변환기",
+  "description": "무료 단위 변환기: 정확한 표준 계수로 길이, 무게, 온도, 부피, 면적 단위를 변환하세요 — km에서 마일로, kg에서 파운드로, 섭씨에서 화씨로.",
+  "id": "/loona-calculators/ko/unit-converter/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

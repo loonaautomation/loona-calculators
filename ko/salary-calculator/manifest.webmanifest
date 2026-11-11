@@ -1,0 +1,29 @@
+{
+  "name": "Loona 급여 세금 계산기 파키스탄 2026",
+  "short_name": "급여 세금 계산기",
+  "description": "무료 파키스탄 급여세 계산기(과세 연도 2026): 월 총급여를 입력하면 월별 및 연간 소득세, 순 수령 급여, 실효 세율을 볼 수 있어요. FBR 급여 구간.",
+  "id": "/loona-calculators/ko/salary-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

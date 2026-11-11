@@ -1,0 +1,29 @@
+{
+  "name": "Loona 킬로바이트를 기가바이트로 바꾸는 변환기",
+  "short_name": "킬로바이트를 기가바이트로 바꾸는 변환기",
+  "description": "킬로바이트를 기가바이트로 즉시 변환하세요. 정확한 공식, KB에서 GB까지의 전체 변환표, 풀이 예시와 자주 묻는 질문이 있어요. 무료이며 가입이 필요 없어요.",
+  "id": "/loona-calculators/ko/kilobytes-to-gigabytes-converter.html",
+  "start_url": "./kilobytes-to-gigabytes-converter.html",
+  "scope": "./kilobytes-to-gigabytes-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

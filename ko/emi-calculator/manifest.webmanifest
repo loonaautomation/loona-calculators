@@ -1,0 +1,29 @@
+{
+  "name": "Loona EMI 계산기",
+  "short_name": "EMI 계산기",
+  "description": "무료 EMI 및 대출 계산기: 대출 금액, 이자 또는 이익률, 기간을 입력하면 월 납부액, 총 이자, 전체 납부액을 얻을 수 있어요. 은행 대출, 자동차, 개인 대출용이에요.",
+  "id": "/loona-calculators/ko/emi-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

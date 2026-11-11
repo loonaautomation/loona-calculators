@@ -1,0 +1,29 @@
+{
+  "name": "Loona ETIAS 자격 확인 도구",
+  "short_name": "ETIAS 자격 확인 도구",
+  "description": "무료 ETIAS 자격 확인 도구: 국적과 여행 상황을 고르면 유럽 단기 여행에 ETIAS, 솅겐 비자, 허가 없음 중 무엇이 필요한지 볼 수 있어요.",
+  "id": "/loona-calculators/ko/etias-eligibility-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

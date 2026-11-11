@@ -1,0 +1,29 @@
+{
+  "name": "Loona 달의 위상 계산기",
+  "short_name": "달의 위상 계산기",
+  "description": "무료 달 위상 계산기: 날짜를 입력하면 달의 위상 이름, 조명 백분율, 달 나이, 다음 초승달과 보름달까지의 일수를 볼 수 있어요.",
+  "id": "/loona-calculators/ko/moon-phase-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

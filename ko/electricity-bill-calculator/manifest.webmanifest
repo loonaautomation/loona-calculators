@@ -1,0 +1,29 @@
+{
+  "name": "Loona 전기 요금 계산기",
+  "short_name": "전기 요금 계산기",
+  "description": "무료 전기요금 계산기: 쓴 단위와 구간 요금을 입력하면 GST와 함께 월 청구서를 추정할 수 있어요. LESCO, IESCO, K-Electric 등 모든 파키스탄 전기 회사의 편집 가능한 요금.",
+  "id": "/loona-calculators/ko/electricity-bill-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

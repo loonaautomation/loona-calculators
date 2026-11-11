@@ -1,0 +1,29 @@
+{
+  "name": "Loona 뭄바이를 시드니 시간으로 바꾸는 변환기",
+  "short_name": "뭄바이를 시드니 시간으로",
+  "description": "뭄바이 시간을 시드니 시간으로 변환하세요. 시드니는 일월에 뭄바이보다 5 시간 30 분 앞서고 칠월에 4 시간 30 분 앞서며, 일광 절약 날짜, 24-시간 표와 회의하기 가장 좋은 시간대가 있어요. 실시간 변환기가 포함돼 있어요.",
+  "id": "/loona-calculators/ko/mumbai-to-sydney-time-converter.html",
+  "start_url": "./mumbai-to-sydney-time-converter.html",
+  "scope": "./mumbai-to-sydney-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

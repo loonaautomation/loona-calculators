@@ -1,0 +1,29 @@
+{
+  "name": "Loona 궁합 계산기",
+  "short_name": "궁합 계산기",
+  "description": "무료 사랑 계산기(재미로만): 이름 두 개를 입력하면 재미있는 사랑 백분율과 호환성 메시지를 얻을 수 있어요. 친구와 공유할 가벼운 게임.",
+  "id": "/loona-calculators/ko/love-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

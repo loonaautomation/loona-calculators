@@ -1,0 +1,29 @@
+{
+  "name": "Loona P-값 계산기",
+  "short_name": "P-값 계산기",
+  "description": "무료 p값 계산기: z, t, 카이제곱 검정 통계량을 단측 및 양측 p값으로 변환하세요, 0.05와 0.01에서의 유의성 판정과 함께요.",
+  "id": "/loona-calculators/ko/p-value-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

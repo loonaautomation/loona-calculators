@@ -1,0 +1,29 @@
+{
+  "name": "Loona 세계 시계",
+  "short_name": "세계 시계",
+  "description": "무료 실시간 세계 시계: 런던, 뉴욕, 두바이, 카라치, 도쿄를 포함한 24개 주요 도시의 현재 현지 시간과 날짜, 시간대를 통해 매초 업데이트돼요.",
+  "id": "/loona-calculators/ko/world-clock/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

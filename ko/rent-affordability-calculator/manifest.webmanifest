@@ -1,0 +1,29 @@
+{
+  "name": "Loona 감당 가능한 월세 계산기",
+  "short_name": "감당 가능한 월세 계산기",
+  "description": "무료 임대료 부담 가능 계산기: 총소득, 임대료에 쓸 수 있는 비중, 월 부채를 입력하면 감당할 수 있는 최대 임대료를 볼 수 있어요 — 28/36 기준과 함께요.",
+  "id": "/loona-calculators/ko/rent-affordability-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

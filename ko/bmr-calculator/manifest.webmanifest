@@ -1,0 +1,29 @@
+{
+  "name": "Loona BMR 계산기",
+  "short_name": "BMR 계산기",
+  "description": "무료 BMR 및 TDEE 계산기: 나이, 체중, 키, 활동 수준을 입력하면 휴식 시와 일상에서 몸이 태우는 칼로리를 찾을 수 있어요(Mifflin-St Jeor).",
+  "id": "/loona-calculators/ko/bmr-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona 파인트 (US liquid)를 리터로 바꾸는 변환기",
+  "short_name": "파인트 (US liquid)를 리터로",
+  "description": "파인트 (US liquid)를 리터로 즉시 변환하세요. 정확한 공식, pt에서 L까지의 전체 변환표, 풀이 예시와 자주 묻는 질문이 있어요. 무료이며 가입이 필요 없어요.",
+  "id": "/loona-calculators/ko/pints-to-liters-converter.html",
+  "start_url": "./pints-to-liters-converter.html",
+  "scope": "./pints-to-liters-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona 원렙 맥스 (1RM) 계산기",
+  "short_name": "원렙 맥스 (1RM) 계산기",
+  "description": "무료 원렙 맥스 계산기: Epley, Brzycki, Lombardi 공식으로 한 세트의 무게와 반복에서 1RM을 추정하세요, 훈련 백분율과 함께요.",
+  "id": "/loona-calculators/ko/one-rep-max-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

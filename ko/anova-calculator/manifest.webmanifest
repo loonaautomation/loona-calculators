@@ -1,0 +1,29 @@
+{
+  "name": "Loona 일원 분산분석 계산기",
+  "short_name": "일원 분산분석 계산기",
+  "description": "무료 일원 ANOVA 계산기: 각 집단의 숫자를 자체 줄에 입력하면 제곱합, F 통계량, 자유도, p값을 얻을 수 있어요, 집단 평균과 함께요.",
+  "id": "/loona-calculators/ko/anova-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

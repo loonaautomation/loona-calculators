@@ -1,0 +1,29 @@
+{
+  "name": "Loona 임신 중 체중 증가 계산기",
+  "short_name": "임신 체중 증가",
+  "description": "무료 임신 체중 증가 계산기: 임신 전 BMI 범주를 기준으로 IOM 권장 전체 및 주별 체중 증가 범위. 교육용 안내일 뿐.",
+  "id": "/loona-calculators/ko/pregnancy-weight-gain-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
