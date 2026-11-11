@@ -1,0 +1,29 @@
+{
+  "name": "Loona सहसंबंध कैलकुलेटर",
+  "short_name": "सहसंबंध कैलकुलेटर",
+  "description": "मुफ़्त Pearson सहसंबंध कैलकुलेटर: युग्मित x,y डेटा पेस्ट करें ताकि सहसंबंध गुणांक r, r-वर्ग, और सादे-अंग्रेज़ी शक्ति पाठन मिले।",
+  "id": "/loona-calculators/hi/correlation-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

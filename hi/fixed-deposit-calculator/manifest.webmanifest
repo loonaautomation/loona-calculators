@@ -1,0 +1,29 @@
+{
+  "name": "Loona सावधि जमा कैलकुलेटर",
+  "short_name": "सावधि जमा कैलकुलेटर",
+  "description": "मुफ़्त सावधि जमा (FD) कैलकुलेटर: जमा राशि, ब्याज दर, अवधि और चक्रवृद्धि आवृत्ति — परिपक्वता मान और अर्जित कुल ब्याज पाएँ।",
+  "id": "/loona-calculators/hi/fixed-deposit-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona पाइथागोरस प्रमेय कैलकुलेटर",
+  "short_name": "पाइथागोरस प्रमेय कैलकुलेटर",
+  "description": "मुफ़्त पाइथागोरस प्रमेय कैलकुलेटर: समकोण त्रिभुज की कोई दो भुजाएँ दर्ज करें ताकि तीसरी निकाली जा सके — कर्ण या पाद — कार्य दिखाया गया।",
+  "id": "/loona-calculators/hi/pythagorean-theorem-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

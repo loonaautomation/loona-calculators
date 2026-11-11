@@ -1,0 +1,29 @@
+{
+  "name": "Loona UK मॉर्गेज कैलकुलेटर",
+  "short_name": "UK मॉर्गेज कैलकुलेटर",
+  "description": "मुफ़्त UK मॉर्गेज कैलकुलेटर पाउंड में: किसी लोन, दर और अवधि के लिए मासिक पुनर्भुगतान, कुल ब्याज और कुल लागत, जमा अधिक भुगतान तुलना।",
+  "id": "/loona-calculators/hi/uk-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

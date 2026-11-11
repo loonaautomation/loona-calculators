@@ -1,0 +1,29 @@
+{
+  "name": "Loona लघुगणक कैलकुलेटर",
+  "short_name": "लघुगणक कैलकुलेटर",
+  "description": "मुफ़्त लघुगणक कैलकुलेटर: किसी आधार का लघुगणक निकालें, जमा सामान्य लघुगणक (आधार 10), प्राकृतिक लघुगणक (ln) और बाइनरी लघुगणक (आधार 2), प्रत्येक उसके एंटीलॉग से सत्यापित। आधार-परिवर्तन सूत्र समझाया गया।",
+  "id": "/loona-calculators/hi/logarithm-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona जन्म वर्ष के अनुसार आयु",
+  "short_name": "जन्म वर्ष के अनुसार आयु",
+  "description": "प्रत्येक जन्म वर्ष 1946–2025 के लिए 2026 में पूर्ण होने वाली आयु, पीढ़ी लेबलों और मील के पत्थर वर्षों के साथ।",
+  "id": "/loona-calculators/hi/age-by-birth-year.html",
+  "start_url": "./age-by-birth-year.html",
+  "scope": "./age-by-birth-year.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

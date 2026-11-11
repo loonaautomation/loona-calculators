@@ -1,0 +1,29 @@
+{
+  "name": "Loona प्रोटीन सेवन कैलकुलेटर",
+  "short_name": "प्रोटीन सेवन कैलकुलेटर",
+  "description": "मुफ़्त प्रोटीन सेवन कैलकुलेटर: साक्ष्य-आधारित g/kg सीमाओं का उपयोग करके शरीर वज़न, गतिविधि स्तर और लक्ष्य से दैनिक प्रोटीन ग्राम। कैलोरी-आधारित मैक्रो विभाजनों से अलग।",
+  "id": "/loona-calculators/hi/protein-intake-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

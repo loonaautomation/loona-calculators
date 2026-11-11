@@ -1,0 +1,29 @@
+{
+  "name": "Loona ढाल कैलकुलेटर",
+  "short_name": "ढाल कैलकुलेटर",
+  "description": "मुफ़्त ढलान कैलकुलेटर: दो बिंदु दर्ज करें ताकि ढलान, उनके बीच दूरी, मध्यबिंदु, और ढलान-अंतःखंड रूप में रेखा समीकरण मिले, कार्य के साथ।",
+  "id": "/loona-calculators/hi/slope-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

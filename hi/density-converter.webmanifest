@@ -1,0 +1,29 @@
+{
+  "name": "Loona घनत्व कन्वर्टर",
+  "short_name": "घनत्व कन्वर्टर",
+  "description": "एक सूचकांक में हर घनत्व रूपांतरण जोड़ी: सटीक गुणक, सूत्र और प्रत्येक जोड़ी के लिए समर्पित कन्वर्टर पृष्ठ। मुफ़्त, कोई साइन-अप नहीं।",
+  "id": "/loona-calculators/hi/density-converter.html",
+  "start_url": "./density-converter.html",
+  "scope": "./density-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

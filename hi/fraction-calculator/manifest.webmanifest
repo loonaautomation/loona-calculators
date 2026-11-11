@@ -1,0 +1,29 @@
+{
+  "name": "Loona भिन्न कैलकुलेटर",
+  "short_name": "भिन्न कैलकुलेटर",
+  "description": "मुफ़्त भिन्न कैलकुलेटर: दो भिन्न जोड़ें, घटाएँ, गुणा करें या भाग दें और सरलीकृत उत्तर भिन्न, मिश्रित संख्या और दशमलव के रूप में पाएँ।",
+  "id": "/loona-calculators/hi/fraction-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

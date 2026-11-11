@@ -1,0 +1,29 @@
+{
+  "name": "Loona लंदन से बर्लिन समय कन्वर्टर",
+  "short_name": "लंदन से बर्लिन समय",
+  "description": "लंदन के समय को बर्लिन के समय में बदलें। बर्लिन पूरे वर्ष लंदन से 1 घंटे आगे है, डेलाइट-सेविंग तिथियों, 24-घंटा तालिका और बैठक के सर्वोत्तम समय के साथ। लाइव कन्वर्टर शामिल है।",
+  "id": "/loona-calculators/hi/london-to-berlin-time-converter.html",
+  "start_url": "./london-to-berlin-time-converter.html",
+  "scope": "./london-to-berlin-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

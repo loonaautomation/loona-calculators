@@ -1,0 +1,29 @@
+{
+  "name": "Loona खाना पकाने का रूपांतरण कैलकुलेटर",
+  "short_name": "खाना पकाने का रूपांतरण कैलकुलेटर",
+  "description": "मुफ़्त खाना पकाने रूपांतरण कैलकुलेटर: असली घनत्व उपयोग करके 10 सामान्य सामग्रियों के लिए कप, चम्मच, मिलीलीटर, ग्राम, औंस और पाउंड बदलें — आटा, चीनी, मक्खन, शहद और अधिक।",
+  "id": "/loona-calculators/hi/cooking-conversion-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

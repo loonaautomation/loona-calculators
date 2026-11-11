@@ -1,0 +1,29 @@
+{
+  "name": "Loona बिजली बिल कैलकुलेटर",
+  "short_name": "बिजली बिल कैलकुलेटर",
+  "description": "मुफ़्त बिजली बिल कैलकुलेटर: उपयोग की गई इकाइयाँ और स्लैब दरें दर्ज करें ताकि GST के साथ अपने मासिक बिल का अनुमान लगाया जा सके। LESCO, IESCO, K-Electric और सभी पाकिस्तान बिजली कंपनियों के लिए संपादन योग्य दरें।",
+  "id": "/loona-calculators/hi/electricity-bill-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

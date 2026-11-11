@@ -1,0 +1,29 @@
+{
+  "name": "Loona इकाई कन्वर्टर",
+  "short_name": "इकाई कन्वर्टर",
+  "description": "मुफ़्त इकाई कन्वर्टर: सटीक मानक गुणकों के साथ लंबाई, वज़न, तापमान, आयतन और क्षेत्रफल इकाइयाँ बदलें — km से मील, kg से पाउंड, सेल्सियस से फ़ारेनहाइट।",
+  "id": "/loona-calculators/hi/unit-converter/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona रैखिक समाश्रयण कैलकुलेटर",
+  "short_name": "रैखिक समाश्रयण कैलकुलेटर",
+  "description": "मुफ़्त रैखिक प्रतिगमन कैलकुलेटर: युग्मित डेटा पेस्ट करें ताकि न्यूनतम-वर्ग रेखा y = a + bx, सहसंबंध, भविष्यवाणियाँ, और खींची गई फ़िट रेखा के साथ स्कैटर प्लॉट मिले।",
+  "id": "/loona-calculators/hi/linear-regression-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

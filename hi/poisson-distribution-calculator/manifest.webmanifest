@@ -1,0 +1,29 @@
+{
+  "name": "Loona प्वासों वितरण कैलकुलेटर",
+  "short_name": "Poisson वितरण",
+  "description": "मुफ़्त Poisson वितरण कैलकुलेटर: औसत दर लैम्ब्डा दिए जाने पर ठीक k घटनाओं, अधिकतम k, या कम से कम k की प्रायिकता। कॉल, आगमन, दोष और दुर्लभ घटनाओं के लिए।",
+  "id": "/loona-calculators/hi/poisson-distribution-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

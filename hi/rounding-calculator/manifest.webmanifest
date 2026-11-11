@@ -1,0 +1,29 @@
+{
+  "name": "Loona पूर्णांकन कैलकुलेटर",
+  "short_name": "पूर्णांकन कैलकुलेटर",
+  "description": "मुफ़्त गोलाई कैलकुलेटर: किसी संख्या को दशमलव स्थानों तक, निकटतम 10, 100 या 1,000 तक, या सार्थक अंकों तक गोल करें, नियम समझाया गया।",
+  "id": "/loona-calculators/hi/rounding-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

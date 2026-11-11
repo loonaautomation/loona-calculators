@@ -1,0 +1,29 @@
+{
+  "name": "Loona VAT कैलकुलेटर",
+  "short_name": "VAT कैलकुलेटर",
+  "description": "मुफ़्त VAT/GST कैलकुलेटर: नेट राशि पर कर जोड़ें या किसी दर पर सकल राशि से कर हटाएँ। किसी देश में VAT, GST और बिक्री कर के लिए काम करता है।",
+  "id": "/loona-calculators/hi/vat-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

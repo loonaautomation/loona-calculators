@@ -1,0 +1,29 @@
+{
+  "name": "Loona किराया विभाजन कैलकुलेटर",
+  "short_name": "किराया विभाजन कैलकुलेटर",
+  "description": "मुफ़्त किराया विभाजन कैलकुलेटर: मासिक किराए को 2 से 8 रूममेट के बीच बाँटें — समान रूप से, वर्ग फ़ुट में कमरे के आकार से, या आय से। हिस्से हमेशा सटीक कुल तक जुड़ते हैं।",
+  "id": "/loona-calculators/hi/rent-split-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

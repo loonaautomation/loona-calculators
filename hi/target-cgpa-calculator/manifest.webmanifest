@@ -1,0 +1,29 @@
+{
+  "name": "Loona लक्ष्य CGPA कैलकुलेटर",
+  "short_name": "लक्ष्य CGPA कैलकुलेटर",
+  "description": "मुफ़्त लक्ष्य CGPA कैलकुलेटर: वर्तमान CGPA, किए क्रेडिट, लक्ष्य CGPA और शेष क्रेडिट — वह GPA देखें जो आपको स्कोर करना होगा, या अभी भी पहुँच योग्य अधिकतम CGPA।",
+  "id": "/loona-calculators/hi/target-cgpa-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

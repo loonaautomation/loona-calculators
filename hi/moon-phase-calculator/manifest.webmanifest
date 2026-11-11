@@ -1,0 +1,29 @@
+{
+  "name": "Loona चंद्र कला कैलकुलेटर",
+  "short_name": "चंद्र कला कैलकुलेटर",
+  "description": "मुफ़्त चंद्रमा चरण कैलकुलेटर: कोई तिथि दर्ज करें ताकि चंद्रमा का चरण नाम, रोशनी प्रतिशत, चंद्रमा आयु और अगली अमावस्या और पूर्णिमा तक दिन देखे जा सकें।",
+  "id": "/loona-calculators/hi/moon-phase-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

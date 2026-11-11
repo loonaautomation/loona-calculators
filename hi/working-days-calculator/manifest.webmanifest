@@ -1,0 +1,29 @@
+{
+  "name": "Loona कार्य दिवस कैलकुलेटर",
+  "short_name": "कार्य दिवस कैलकुलेटर",
+  "description": "मुफ़्त कार्य दिवस कैलकुलेटर: किन्हीं दो तिथियों के बीच कुल दिन, कार्य दिवस (सोमवार से शुक्रवार) और सप्ताहांत दिन गिनें। छुट्टी, समय-सीमाओं और प्रोजेक्ट योजनाओं के लिए।",
+  "id": "/loona-calculators/hi/working-days-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

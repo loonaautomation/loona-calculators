@@ -1,0 +1,29 @@
+{
+  "name": "Loona सेल्सियस से केल्विन कन्वर्टर",
+  "short_name": "सेल्सियस से केल्विन कन्वर्टर",
+  "description": "सेल्सियस को केल्विन में तुरंत बदलें। सटीक सूत्र, पूरी °C से K रूपांतरण तालिका और हल किए हुए उदाहरण। मुफ़्त, साइन-अप के बिना।",
+  "id": "/loona-calculators/hi/celsius-to-kelvin-converter.html",
+  "start_url": "./celsius-to-kelvin-converter.html",
+  "scope": "./celsius-to-kelvin-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

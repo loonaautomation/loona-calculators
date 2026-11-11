@@ -1,0 +1,29 @@
+{
+  "name": "Loona दिन से सप्ताह कन्वर्टर",
+  "short_name": "दिन से सप्ताह कन्वर्टर",
+  "description": "दिन को सप्ताह में तुरंत बदलें। सटीक सूत्र, पूरी days से weeks रूपांतरण तालिका और हल किए हुए उदाहरण। मुफ़्त, साइन-अप के बिना।",
+  "id": "/loona-calculators/hi/days-to-weeks-converter.html",
+  "start_url": "./days-to-weeks-converter.html",
+  "scope": "./days-to-weeks-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

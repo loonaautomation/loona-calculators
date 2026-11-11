@@ -1,0 +1,29 @@
+{
+  "name": "Loona निवेश कैलकुलेटर",
+  "short_name": "निवेश कैलकुलेटर",
+  "description": "मुफ़्त निवेश कैलकुलेटर: प्रारंभिक राशि जमा मासिक जोड़ और अपेक्षित प्रतिफल — समय के साथ भविष्य मान, कुल निवेशित और कुल लाभ देखें।",
+  "id": "/loona-calculators/hi/investment-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

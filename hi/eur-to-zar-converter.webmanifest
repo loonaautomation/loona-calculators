@@ -1,0 +1,29 @@
+{
+  "name": "Loona EUR से ZAR कन्वर्टर",
+  "short_name": "EUR से ZAR कन्वर्टर",
+  "description": "यूरो (EUR) को दक्षिण अफ़्रीकी रैंड (ZAR) में बदलें। ECB संदर्भ दर दिनांक 06 नवंबर 2026, उलटी दर, रूपांतरण तालिका और कॉरिडोर नोट्स। केवल सांकेतिक।",
+  "id": "/loona-calculators/hi/eur-to-zar-converter.html",
+  "start_url": "./eur-to-zar-converter.html",
+  "scope": "./eur-to-zar-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

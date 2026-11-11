@@ -1,0 +1,29 @@
+{
+  "name": "Loona हिजरी तिथि कन्वर्टर",
+  "short_name": "हिजरी तिथि कन्वर्टर",
+  "description": "मुफ़्त हिजरी तिथि कन्वर्टर: किसी ग्रेगोरियन (अंग्रेज़ी) तिथि को इस्लामी हिजरी तिथि में बदलें और वापस, Umm al-Qura कैलेंडर उपयोग करके। Ramadan, Eid और इस्लामी तिथि जांच आसान हुई।",
+  "id": "/loona-calculators/hi/hijri-date-converter/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

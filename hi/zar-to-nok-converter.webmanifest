@@ -1,0 +1,29 @@
+{
+  "name": "Loona ZAR से NOK कन्वर्टर",
+  "short_name": "ZAR से NOK कन्वर्टर",
+  "description": "दक्षिण अफ़्रीकी रैंड (ZAR) को नॉर्वेजियन क्रोन (NOK) में बदलें। ECB संदर्भ दर दिनांक 06 नवंबर 2026, उलटी दर, रूपांतरण तालिका और कॉरिडोर नोट्स। केवल सांकेतिक।",
+  "id": "/loona-calculators/hi/zar-to-nok-converter.html",
+  "start_url": "./zar-to-nok-converter.html",
+  "scope": "./zar-to-nok-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

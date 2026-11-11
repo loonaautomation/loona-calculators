@@ -1,0 +1,29 @@
+{
+  "name": "Loona फ़ारेनहाइट से केल्विन कन्वर्टर",
+  "short_name": "फ़ारेनहाइट से केल्विन कन्वर्टर",
+  "description": "फ़ारेनहाइट को केल्विन में तुरंत बदलें। सटीक सूत्र, पूरी °F से K रूपांतरण तालिका और हल किए हुए उदाहरण। मुफ़्त, साइन-अप के बिना।",
+  "id": "/loona-calculators/hi/fahrenheit-to-kelvin-converter.html",
+  "start_url": "./fahrenheit-to-kelvin-converter.html",
+  "scope": "./fahrenheit-to-kelvin-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

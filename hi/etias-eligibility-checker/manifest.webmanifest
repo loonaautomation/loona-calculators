@@ -1,0 +1,29 @@
+{
+  "name": "Loona ETIAS पात्रता जांचकर्ता",
+  "short_name": "ETIAS पात्रता जांचकर्ता",
+  "description": "मुफ़्त ETIAS पात्रता जांचकर्ता: अपनी राष्ट्रीयता और यात्रा स्थिति चुनें ताकि देखा जा सके कि यूरोप में छोटी यात्राओं के लिए आपको ETIAS, शेंगेन वीज़ा, या कोई प्राधिकरण चाहिए होगा या नहीं।",
+  "id": "/loona-calculators/hi/etias-eligibility-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

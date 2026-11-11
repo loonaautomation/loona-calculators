@@ -1,0 +1,29 @@
+{
+  "name": "Loona प्रतिशत से CGPA कन्वर्टर",
+  "short_name": "प्रतिशत से CGPA कन्वर्टर",
+  "description": "मुफ़्त प्रतिशत से CGPA कन्वर्टर: प्रतिशत को 10 में से CGPA (9.5 से भाग दें) या 4 में से GPA में बदलें, सूत्र दिखाया गया। बोर्डों और विश्वविद्यालयों के लिए।",
+  "id": "/loona-calculators/hi/percentage-to-cgpa-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

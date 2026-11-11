@@ -1,0 +1,29 @@
+{
+  "name": "Loona कैलोरी कैलकुलेटर",
+  "short_name": "कैलोरी कैलकुलेटर",
+  "description": "मुफ़्त कैलोरी कैलकुलेटर: अपना विवरण, गतिविधि और लक्ष्य दर्ज करें ताकि वज़न घटाने, बनाए रखने या बढ़ाने के लिए अपना दैनिक कैलोरी लक्ष्य मिले — सुरक्षित न्यूनतम के साथ।",
+  "id": "/loona-calculators/hi/calorie-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

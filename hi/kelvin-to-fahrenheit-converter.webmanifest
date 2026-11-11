@@ -1,0 +1,29 @@
+{
+  "name": "Loona केल्विन से डिग्री फ़ारेनहाइट कन्वर्टर",
+  "short_name": "केल्विन से डिग्री फ़ारेनहाइट",
+  "description": "केल्विन को डिग्री फ़ारेनहाइट में तुरंत बदलें। सटीक सूत्र, पूरी K से °F रूपांतरण तालिका, एक हल किया हुआ उदाहरण और अक्सर पूछे जाने वाले प्रश्न। मुफ़्त, साइन-अप के बिना।",
+  "id": "/loona-calculators/hi/kelvin-to-fahrenheit-converter.html",
+  "start_url": "./kelvin-to-fahrenheit-converter.html",
+  "scope": "./kelvin-to-fahrenheit-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

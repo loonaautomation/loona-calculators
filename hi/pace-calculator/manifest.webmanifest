@@ -1,0 +1,29 @@
+{
+  "name": "Loona दौड़ गति कैलकुलेटर",
+  "short_name": "दौड़ गति कैलकुलेटर",
+  "description": "मुफ़्त दौड़ गति कैलकुलेटर: 5K, 10K, आधी मैराथन, मैराथन या अपने समाप्ति समय के साथ कस्टम दूरी चुनें ताकि प्रति km और प्रति मील गति मिले, जमा अनुमानित समाप्ति समय।",
+  "id": "/loona-calculators/hi/pace-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

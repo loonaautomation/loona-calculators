@@ -1,0 +1,29 @@
+{
+  "name": "Loona सूर्योदय & सूर्यास्त कैलकुलेटर",
+  "short_name": "सूर्योदय & सूर्यास्त कैलकुलेटर",
+  "description": "मुफ़्त सूर्योदय और सूर्यास्त कैलकुलेटर: तिथि और अक्षांश/देशांतर दर्ज करें ताकि UTC और स्थानीय सौर पदों में सूर्योदय, सूर्यास्त, दिन लंबाई और सौर दोपहर मिले। NOAA गणित।",
+  "id": "/loona-calculators/hi/sunrise-sunset-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

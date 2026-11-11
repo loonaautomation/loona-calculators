@@ -1,0 +1,29 @@
+{
+  "name": "Loona मुद्रा विनिमय दरें",
+  "short_name": "मुद्रा विनिमय दरें",
+  "description": "20 मुद्राओं के लिए 06 नवंबर 2026 की ECB संदर्भ विनिमय दरें — कन्वर्टर, व्युत्क्रम दरों और तालिकाओं के साथ सभी 380 जोड़े।",
+  "id": "/loona-calculators/hi/currency-exchange-rates.html",
+  "start_url": "./currency-exchange-rates.html",
+  "scope": "./currency-exchange-rates.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

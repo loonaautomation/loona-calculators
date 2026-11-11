@@ -1,0 +1,29 @@
+{
+  "name": "Loona हेक्साडेसिमल से दशमलव कन्वर्टर",
+  "short_name": "हेक्साडेसिमल से दशमलव",
+  "description": "हेक्साडेसिमल (आधार 16) को दशमलव (आधार 10) में बदलें, सत्यापन, स्थानीय-मान कार्यविधि और संदर्भ तालिका के साथ।",
+  "id": "/loona-calculators/hi/hexadecimal-to-decimal-converter.html",
+  "start_url": "./hexadecimal-to-decimal-converter.html",
+  "scope": "./hexadecimal-to-decimal-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

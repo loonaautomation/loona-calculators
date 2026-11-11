@@ -1,0 +1,29 @@
+{
+  "name": "Loona आयु कैलकुलेटर",
+  "short_name": "आयु कैलकुलेटर",
+  "description": "मुफ़्त आयु कैलकुलेटर: अपनी जन्म तिथि दर्ज करें और वर्षों, महीनों और दिनों में अपनी सटीक आयु पाएँ, जमा कुल दिन, सप्ताह और जिए गए घंटे और अपना अगला जन्मदिन। कोई साइनअप नहीं।",
+  "id": "/loona-calculators/hi/age-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

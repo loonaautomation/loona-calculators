@@ -1,0 +1,29 @@
+{
+  "name": "Loona कार्य घंटे कैलकुलेटर",
+  "short_name": "कार्य घंटे कैलकुलेटर",
+  "description": "मुफ़्त कार्य घंटे कैलकुलेटर: प्रारंभ, समाप्ति और अवैतनिक ब्रेक प्रति दिन और प्रति सप्ताह नेट घंटे देते हैं — जमा दैनिक और साप्ताहिक वेतन जब आप प्रति घंटा दर जोड़ते हैं। रात्रि शिफ़्ट समर्थित।",
+  "id": "/loona-calculators/hi/work-hours-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

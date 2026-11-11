@@ -1,0 +1,29 @@
+{
+  "name": "Loona बाल BMI प्रतिशतक कैलकुलेटर",
+  "short_name": "बच्चे का BMI प्रतिशतक",
+  "description": "मुफ़्त बच्चे BMI प्रतिशतक कैलकुलेटर, आयु 2 से 20 के लिए आधिकारिक CDC LMS वृद्धि-चार्ट डेटा उपयोग करके: लड़कों और लड़कियों के लिए BMI, प्रतिशतक, z-स्कोर और वज़न श्रेणी।",
+  "id": "/loona-calculators/hi/child-bmi-percentile-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

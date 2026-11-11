@@ -1,0 +1,29 @@
+{
+  "name": "Loona GPA कैलकुलेटर",
+  "short_name": "GPA कैलकुलेटर",
+  "description": "मुफ़्त GPA कैलकुलेटर: अक्षर ग्रेड (A से F) और क्रेडिट घंटों के साथ 8 पाठ्यक्रमों तक दर्ज करें ताकि मानक 4.0 पैमाने पर अपना GPA मिले। तेज़, निजी, कोई साइनअप नहीं।",
+  "id": "/loona-calculators/hi/gpa-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona सरल कैलकुलेटर",
+  "short_name": "सरल कैलकुलेटर",
+  "description": "मुफ़्त सरल कैलकुलेटर बड़े, आसान बटनों के साथ जोड़, घटाव, गुणा और भाग के लिए। इतिहास टेप, प्रतिशत कुंजी, कॉपी बटन और पूर्ण कीबोर्ड समर्थन — कोई साइन-अप नहीं।",
+  "id": "/loona-calculators/hi/simple-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

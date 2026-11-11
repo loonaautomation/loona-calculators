@@ -1,0 +1,29 @@
+{
+  "name": "Loona Mph से Km/h कन्वर्टर",
+  "short_name": "Mph से Km/h कन्वर्टर",
+  "description": "मील प्रति घंटा को किलोमीटर प्रति घंटा में तुरंत बदलें। सटीक सूत्र, पूरी mph से km/h रूपांतरण तालिका और हल किए हुए उदाहरण। मुफ़्त, साइन-अप के बिना।",
+  "id": "/loona-calculators/hi/mph-to-kmh-converter.html",
+  "start_url": "./mph-to-kmh-converter.html",
+  "scope": "./mph-to-kmh-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

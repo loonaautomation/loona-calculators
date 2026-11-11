@@ -1,0 +1,29 @@
+{
+  "name": "Loona नमूना आकार कैलकुलेटर",
+  "short_name": "नमूना आकार कैलकुलेटर",
+  "description": "मुफ़्त नमूना आकार कैलकुलेटर: सर्वेक्षण अनुपात या माध्य के लिए आपको कितनी प्रतिक्रियाएँ चाहिए, आपके विश्वास स्तर और त्रुटि सीमा पर, परिमित समष्टि संशोधन के साथ।",
+  "id": "/loona-calculators/hi/sample-size-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

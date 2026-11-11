@@ -1,0 +1,29 @@
+{
+  "name": "Loona अंकों के प्रतिशत का कैलकुलेटर",
+  "short_name": "अंकों के प्रतिशत का कैलकुलेटर",
+  "description": "मुफ़्त अंक प्रतिशत कैलकुलेटर: प्राप्त और कुल अंक दर्ज करें ताकि अपना प्रतिशत और ग्रेड तुरंत मिले। मैट्रिक, इंटर, विश्वविद्यालय और सभी परीक्षाओं के लिए।",
+  "id": "/loona-calculators/hi/marks-percentage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona 10,000वें दिन का कैलकुलेटर",
+  "short_name": "10,000वें दिन का कैलकुलेटर",
+  "description": "मुफ़्त दिन मील का पत्थर कैलकुलेटर: जन्म तिथि दर्ज करें ताकि अपना 10,000वाँ दिन, अन्य गोल-संख्या दिन वर्षगांठें, दिनों में अपनी आयु और अपनी अगली मील का पत्थर तिथि निकाली जा सके।",
+  "id": "/loona-calculators/hi/day-milestone-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

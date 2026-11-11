@@ -1,0 +1,29 @@
+{
+  "name": "Loona बर्लिन से डेनवर समय कन्वर्टर",
+  "short_name": "बर्लिन से डेनवर समय",
+  "description": "बर्लिन के समय को डेनवर के समय में बदलें। डेनवर पूरे वर्ष बर्लिन से 8 घंटे पीछे है, डेलाइट-सेविंग तिथियों, 24-घंटा तालिका और बैठक के सर्वोत्तम समय के साथ। लाइव कन्वर्टर शामिल है।",
+  "id": "/loona-calculators/hi/berlin-to-denver-time-converter.html",
+  "start_url": "./berlin-to-denver-time-converter.html",
+  "scope": "./berlin-to-denver-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

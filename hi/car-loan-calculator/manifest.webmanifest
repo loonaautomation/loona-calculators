@@ -1,0 +1,29 @@
+{
+  "name": "Loona कार लोन कैलकुलेटर",
+  "short_name": "कार लोन कैलकुलेटर",
+  "description": "मुफ़्त कार लोन कैलकुलेटर: वाहन कीमत, डाउन पेमेंट, ब्याज दर और अवधि — लोन राशि, मासिक भुगतान, कुल ब्याज और कार की सच्ची कुल लागत पाएँ।",
+  "id": "/loona-calculators/hi/car-loan-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

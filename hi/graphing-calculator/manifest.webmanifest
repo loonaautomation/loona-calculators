@@ -1,0 +1,29 @@
+{
+  "name": "Loona ग्राफ़िंग कैलकुलेटर",
+  "short_name": "ग्राफ़िंग कैलकुलेटर",
+  "description": "मुफ़्त ग्राफ़िंग कैलकुलेटर: ज़ूम के साथ ग्रिड पर x^2, sin(x) या 2x+3 जैसे एक या दो फलन प्लॉट करें। आपके ब्राउज़र में काम करता है, कोई साइन-अप नहीं।",
+  "id": "/loona-calculators/hi/graphing-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

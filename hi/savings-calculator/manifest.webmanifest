@@ -1,0 +1,29 @@
+{
+  "name": "Loona बचत कैलकुलेटर",
+  "short_name": "बचत कैलकुलेटर",
+  "description": "मुफ़्त बचत कैलकुलेटर: मासिक जमा, ब्याज दर और वर्ष दर्ज करें ताकि अपनी बचत का भविष्य मान, कुल जमा और अर्जित ब्याज देखा जा सके।",
+  "id": "/loona-calculators/hi/savings-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

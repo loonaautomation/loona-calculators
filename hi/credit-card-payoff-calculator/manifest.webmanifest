@@ -1,0 +1,29 @@
+{
+  "name": "Loona क्रेडिट कार्ड भुगतान कैलकुलेटर",
+  "short_name": "क्रेडिट कार्ड भुगतान कैलकुलेटर",
+  "description": "मुफ़्त क्रेडिट कार्ड भुगतान कैलकुलेटर: शेष, APR और निश्चित मासिक भुगतान — भुगतान के महीने, कुल ब्याज और कुल दिया देखें, बहुत छोटे भुगतानों के लिए चेतावनी के साथ।",
+  "id": "/loona-calculators/hi/credit-card-payoff-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

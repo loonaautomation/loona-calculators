@@ -1,0 +1,29 @@
+{
+  "name": "Loona SIP कैलकुलेटर",
+  "short_name": "SIP कैलकुलेटर",
+  "description": "मुफ़्त SIP कैलकुलेटर: मासिक निवेश, अपेक्षित वार्षिक प्रतिफल और वर्ष दर्ज करें ताकि आपकी योजना का भविष्य मान, कुल निवेशित और अनुमानित लाभ अनुमानित किया जा सके।",
+  "id": "/loona-calculators/hi/sip-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

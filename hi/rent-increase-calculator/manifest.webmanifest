@@ -1,0 +1,29 @@
+{
+  "name": "Loona किराया वृद्धि कैलकुलेटर",
+  "short_name": "किराया वृद्धि कैलकुलेटर",
+  "description": "मुफ़्त किराया वृद्धि कैलकुलेटर: अपना वर्तमान किराया और प्रतिशत वृद्धि (या नया किराया) दर्ज करें ताकि नया मासिक किराया, प्रति माह और वर्ष अतिरिक्त लागत, और वर्ष-दर-वर्ष अनुमान देखा जा सके।",
+  "id": "/loona-calculators/hi/rent-increase-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

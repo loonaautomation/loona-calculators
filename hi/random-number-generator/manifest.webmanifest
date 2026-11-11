@@ -1,0 +1,29 @@
+{
+  "name": "Loona यादृच्छिक संख्या जनरेटर",
+  "short_name": "यादृच्छिक संख्या जनरेटर",
+  "description": "मुफ़्त यादृच्छिक संख्या जनरेटर, सुरक्षित ब्राउज़र यादृच्छिकता उपयोग करके। किसी सीमा में संख्याएँ चुनें, कितनी चुनें, केवल अद्वितीय संख्याओं के विकल्प के साथ।",
+  "id": "/loona-calculators/hi/random-number-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

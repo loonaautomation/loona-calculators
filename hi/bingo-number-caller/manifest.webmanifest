@@ -1,0 +1,29 @@
+{
+  "name": "Loona बिंगो नंबर कॉलर",
+  "short_name": "बिंगो नंबर कॉलर",
+  "description": "मुफ़्त बिंगो नंबर कॉलर 75-बॉल (B-I-N-G-O) और 90-बॉल खेलों के लिए: बिना दोहराए संख्याएँ खींचता है, वर्तमान बॉल बड़ी दिखाता है, और बोर्ड पर हर कॉल की गई संख्या ट्रैक करता है।",
+  "id": "/loona-calculators/hi/bingo-number-caller/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

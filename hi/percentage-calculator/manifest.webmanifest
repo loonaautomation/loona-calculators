@@ -1,0 +1,29 @@
+{
+  "name": "Loona प्रतिशत कैलकुलेटर",
+  "short_name": "प्रतिशत कैलकुलेटर",
+  "description": "मुफ़्त प्रतिशत कैलकुलेटर, एक में तीन टूल के साथ: Y का X% क्या है, X, Y का कितना प्रतिशत है, और दो संख्याओं के बीच प्रतिशत वृद्धि या कमी।",
+  "id": "/loona-calculators/hi/percentage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

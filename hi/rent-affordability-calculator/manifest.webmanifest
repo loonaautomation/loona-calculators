@@ -1,0 +1,29 @@
+{
+  "name": "Loona किराया सामर्थ्य कैलकुलेटर",
+  "short_name": "किराया सामर्थ्य कैलकुलेटर",
+  "description": "मुफ़्त किराया किफ़ायत कैलकुलेटर: अपनी सकल आय, किराए पर खर्च कर सकने वाला हिस्सा और अपने मासिक ऋण दर्ज करें ताकि अधिकतम किराया देखा जा सके जो आप वहन कर सकते हैं — 28/36 दिशानिर्देश के साथ।",
+  "id": "/loona-calculators/hi/rent-affordability-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

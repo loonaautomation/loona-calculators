@@ -1,0 +1,29 @@
+{
+  "name": "Loona छूट कैलकुलेटर",
+  "short_name": "छूट कैलकुलेटर",
+  "description": "मुफ़्त छूट कैलकुलेटर: कीमत और छूट प्रतिशत दर्ज करें ताकि अंतिम कीमत और आप कितना बचाते हैं मिले। अतिरिक्त दूसरी छूट और छूट के बाद जोड़े गए कर का समर्थन करता है।",
+  "id": "/loona-calculators/hi/discount-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

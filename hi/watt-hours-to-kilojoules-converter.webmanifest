@@ -1,0 +1,29 @@
+{
+  "name": "Loona वाट-घंटा से किलोजूल कन्वर्टर",
+  "short_name": "वाट-घंटा से किलोजूल",
+  "description": "वाट-घंटे को किलोजूल में तुरंत बदलें। सटीक सूत्र, पूरी Wh से kJ रूपांतरण तालिका, एक हल किया हुआ उदाहरण और अक्सर पूछे जाने वाले प्रश्न। मुफ़्त, साइन-अप के बिना।",
+  "id": "/loona-calculators/hi/watt-hours-to-kilojoules-converter.html",
+  "start_url": "./watt-hours-to-kilojoules-converter.html",
+  "scope": "./watt-hours-to-kilojoules-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

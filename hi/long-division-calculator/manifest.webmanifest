@@ -1,0 +1,29 @@
+{
+  "name": "Loona दीर्घ भाग कैलकुलेटर",
+  "short_name": "दीर्घ भाग कैलकुलेटर",
+  "description": "मुफ़्त लंबा भाग कैलकुलेटर हर चरण दिखाता हुआ: शेष या दशमलव के साथ संख्याएँ भाग दें और पूर्ण लिखित कार्य देखें, अंक दर अंक। छात्रों और शिक्षकों के लिए।",
+  "id": "/loona-calculators/hi/long-division-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

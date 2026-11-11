@@ -1,0 +1,29 @@
+{
+  "name": "Loona गर्भधारण कैलकुलेटर",
+  "short_name": "गर्भधारण कैलकुलेटर",
+  "description": "मुफ़्त गर्भधारण कैलकुलेटर: अपेक्षित नियत तिथि दर्ज करें ताकि गर्भधारण तिथि, अंतिम अवधि का पहला दिन, और पहले त्रैमासिक के अंत का अनुमान लगाया जा सके।",
+  "id": "/loona-calculators/hi/conception-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona ज़कात कैलकुलेटर",
+  "short_name": "ज़कात कैलकुलेटर",
+  "description": "मुफ़्त ज़कात कैलकुलेटर: नकद, बैंक शेष, सोना, चाँदी, व्यावसायिक सामान और ऋण — निसाब जांचें और रुपयों में अपनी 2.5% ज़कात तुरंत निकालें। सरल और निजी।",
+  "id": "/loona-calculators/hi/zakat-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

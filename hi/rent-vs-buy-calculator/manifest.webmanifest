@@ -1,0 +1,29 @@
+{
+  "name": "Loona किराया बनाम ख़रीद कैलकुलेटर",
+  "short_name": "किराया बनाम ख़रीद कैलकुलेटर",
+  "description": "मुफ़्त किराया बनाम ख़रीद कैलकुलेटर: किराए की कुल लागत की तुलना उन वर्षों में घर ख़रीदने की नेट लागत से करें जिनमें आप रहने की योजना बनाते हैं — मॉर्गेज, किराया वृद्धि, कीमत वृद्धि और इक्विटी शामिल।",
+  "id": "/loona-calculators/hi/rent-vs-buy-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona पासफ़्रेज़ जनरेटर",
+  "short_name": "पासफ़्रेज़ जनरेटर",
+  "description": "मुफ़्त पासफ़्रेज़ जनरेटर: यादृच्छिक असली शब्दों से मजबूत, यादगार पासफ़्रेज़ बनाएँ, शब्द गिनती, विभाजक, पूंजीकरण और संख्या विकल्पों के साथ। आपके ब्राउज़र में चलता है।",
+  "id": "/loona-calculators/hi/passphrase-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

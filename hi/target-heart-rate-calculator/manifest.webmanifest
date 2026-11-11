@@ -1,0 +1,29 @@
+{
+  "name": "Loona लक्ष्य हृदय गति कैलकुलेटर",
+  "short_name": "लक्ष्य हृदय गति कैलकुलेटर",
+  "description": "मुफ़्त लक्ष्य हृदय गति कैलकुलेटर: आपकी आयु और विश्राम हृदय गति से अधिकतम हृदय गति और Karvonen प्रशिक्षण ज़ोन। शैक्षिक फ़िटनेस मार्गदर्शक।",
+  "id": "/loona-calculators/hi/target-heart-rate-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

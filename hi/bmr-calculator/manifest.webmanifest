@@ -1,0 +1,29 @@
+{
+  "name": "Loona BMR कैलकुलेटर",
+  "short_name": "BMR कैलकुलेटर",
+  "description": "मुफ़्त BMR और TDEE कैलकुलेटर: आयु, वज़न, लंबाई और गतिविधि स्तर दर्ज करें ताकि वे कैलोरी निकाली जा सकें जो आपका शरीर विश्राम पर और दैनिक जीवन में जलाता है (Mifflin-St Jeor)।",
+  "id": "/loona-calculators/hi/bmr-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

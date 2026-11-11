@@ -1,0 +1,29 @@
+{
+  "name": "Loona समीकरण हलकर्ता (रैखिक & द्विघात)",
+  "short_name": "समीकरण हलकर्ता (रैखिक और",
+  "description": "रैखिक (ax + b = cx + d) और द्विघात (ax² + bx + c = 0) समीकरणों के लिए मुफ़्त समीकरण हलकर्ता, पूर्ण चरण-दर-चरण कार्य, विविक्तकर, सम्मिश्र मूलों और अंतिम जांच के साथ।",
+  "id": "/loona-calculators/hi/equation-solver/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

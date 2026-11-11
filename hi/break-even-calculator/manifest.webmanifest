@@ -1,0 +1,29 @@
+{
+  "name": "Loona ब्रेक-ईवन कैलकुलेटर",
+  "short_name": "ब्रेक-ईवन कैलकुलेटर",
+  "description": "मुफ़्त ब्रेक-ईवन कैलकुलेटर: निश्चित लागतें, बिक्री मूल्य और प्रति इकाई परिवर्तनीय लागत दर्ज करें ताकि निकाला जा सके कि ब्रेक ईवन के लिए आपको कितनी इकाइयाँ बेचनी होंगी, और किस राजस्व पर।",
+  "id": "/loona-calculators/hi/break-even-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

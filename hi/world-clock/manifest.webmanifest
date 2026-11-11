@@ -1,0 +1,29 @@
+{
+  "name": "Loona विश्व घड़ी",
+  "short_name": "विश्व घड़ी",
+  "description": "मुफ़्त लाइव विश्व घड़ी: लंदन, न्यूयॉर्क, दुबई, कराची और टोक्यो समेत 24 प्रमुख शहरों में वर्तमान स्थानीय समय और तिथि, समय क्षेत्रों से हर सेकंड अद्यतन।",
+  "id": "/loona-calculators/hi/world-clock/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona LCM और HCF कैलकुलेटर",
+  "short_name": "LCM और HCF कैलकुलेटर",
+  "description": "मुफ़्त LCM और HCF कैलकुलेटर: दो या तीन पूर्ण संख्याएँ दर्ज करें ताकि उनका न्यूनतम समापवर्त्य (LCM) और महत्तम समापवर्तक (HCF/GCD) तुरंत मिले।",
+  "id": "/loona-calculators/hi/lcm-hcf-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

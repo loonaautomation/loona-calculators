@@ -1,0 +1,29 @@
+{
+  "name": "Loona जर्मनी मॉर्गेज कैलकुलेटर",
+  "short_name": "जर्मनी मॉर्गेज कैलकुलेटर",
+  "description": "मुफ़्त जर्मन मॉर्गेज (Baufinanzierung) कैलकुलेटर यूरो में: ब्याज दर और प्रारंभिक Tilgung से मासिक वार्षिकी, निश्चित अवधि के बाद शेष ऋण।",
+  "id": "/loona-calculators/hi/germany-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

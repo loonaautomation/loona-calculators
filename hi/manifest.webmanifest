@@ -1,0 +1,29 @@
+{
+  "name": "Loona कैलकुलेटर",
+  "short_name": "कैलकुलेटर",
+  "description": "297 मुफ़्त ऑनलाइन कैलकुलेटर: आयु, ज़कात, प्रतिशत, CGPA, EMI, BMI, बिजली बिल और हिजरी तिथि कन्वर्टर। कोई साइनअप नहीं — तेज़, सटीक और निजी।",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "id": "/loona-calculators/hi/"
+}

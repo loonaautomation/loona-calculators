@@ -1,0 +1,29 @@
+{
+  "name": "Loona द्विपद वितरण कैलकुलेटर",
+  "short_name": "द्विपद वितरण",
+  "description": "मुफ़्त द्विपद वितरण कैलकुलेटर: सफलता प्रायिकता p के साथ n परीक्षणों में ठीक k सफलताओं, अधिकतम k, या कम से कम k की प्रायिकता। पाठ्यपुस्तक-जांचे मान।",
+  "id": "/loona-calculators/hi/binomial-distribution-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

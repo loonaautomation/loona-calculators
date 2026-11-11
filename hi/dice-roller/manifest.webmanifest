@@ -1,0 +1,29 @@
+{
+  "name": "Loona पासा रोलर",
+  "short_name": "पासा रोलर",
+  "description": "मुफ़्त ऑनलाइन पासा रोलर: 1 से 6 पासे फेंकें — मानक d6, d20 और अन्य बहुफलकीय पासे — दृश्य पासों, योगों, औसतों और रोल इतिहास के साथ।",
+  "id": "/loona-calculators/hi/dice-roller/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
