@@ -1,0 +1,29 @@
+{
+  "name": "Loona Hari Menuju Hari Natal",
+  "short_name": "Hari Hingga Hari Natal",
+  "description": "Hitungan mundur langsung ke Hari Natal: sisa hari, jam, menit, dan detik yang tepat, tanggal tahun ini dan tiga tahun berikutnya, fakta dan FAQ.",
+  "id": "/loona-calculators/id/days-until-christmas.html",
+  "start_url": "./days-until-christmas.html",
+  "scope": "./days-until-christmas.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

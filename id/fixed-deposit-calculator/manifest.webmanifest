@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Deposito Berjangka",
+  "short_name": "Kalkulator Deposito Berjangka",
+  "description": "Kalkulator deposito berjangka (FD) gratis: jumlah setoran, suku bunga, jangka waktu, dan frekuensi pemajemukan — dapatkan nilai jatuh tempo dan total bunga yang diperoleh.",
+  "id": "/loona-calculators/id/fixed-deposit-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Statistik",
+  "short_name": "Kalkulator Statistik",
+  "description": "Kalkulator statistik gratis: tempel daftar angka untuk rata-rata, median, modus, rentang, varians, dan deviasi standar (populasi dan sampel), jumlah, dan hitungan.",
+  "id": "/loona-calculators/id/statistics-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

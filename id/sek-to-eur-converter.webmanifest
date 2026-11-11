@@ -1,0 +1,29 @@
+{
+  "name": "Loona Konverter SEK ke EUR",
+  "short_name": "Konverter SEK ke EUR",
+  "description": "Konversi Krona Swedia (SEK) ke Euro (EUR). Nilai tukar referensi ECB tertanggal 06 November 2026, nilai tukar kebalikan, tabel konversi, dan catatan koridor. Hanya sebagai indikasi.",
+  "id": "/loona-calculators/id/sek-to-eur-converter.html",
+  "start_url": "./sek-to-eur-converter.html",
+  "scope": "./sek-to-eur-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

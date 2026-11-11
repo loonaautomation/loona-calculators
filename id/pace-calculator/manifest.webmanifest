@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Pace Lari",
+  "short_name": "Kalkulator Pace Lari",
+  "description": "Kalkulator kecepatan lari gratis: pilih 5K, 10K, setengah maraton, maraton, atau jarak kustom dengan waktu selesai Anda untuk mendapatkan kecepatan per km dan per mil, ditambah waktu selesai yang diprediksi.",
+  "id": "/loona-calculators/id/pace-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

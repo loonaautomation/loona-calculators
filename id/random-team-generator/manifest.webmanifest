@@ -1,0 +1,29 @@
+{
+  "name": "Loona Generator Tim Acak",
+  "short_name": "Generator Tim Acak",
+  "description": "Generator tim acak gratis: tempel daftar nama dan bagi menjadi tim acak yang seimbang untuk olahraga, kelas, permainan, dan lokakarya. Pengacakan adil, tanpa pendaftaran.",
+  "id": "/loona-calculators/id/random-team-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

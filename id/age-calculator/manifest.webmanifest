@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Usia",
+  "short_name": "Kalkulator Usia",
+  "description": "Kalkulator usia gratis: masukkan tanggal lahir Anda dan dapatkan usia tepat Anda dalam tahun, bulan, dan hari, ditambah total hari, minggu, dan jam yang dijalani dan ulang tahun Anda berikutnya. Tanpa pendaftaran.",
+  "id": "/loona-calculators/id/age-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

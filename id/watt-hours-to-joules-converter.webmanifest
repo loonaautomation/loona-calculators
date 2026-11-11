@@ -1,0 +1,29 @@
+{
+  "name": "Loona Konverter Watt-hour ke Joule",
+  "short_name": "Konverter Watt-hour ke Joule",
+  "description": "Konversikan watt-jam ke joule secara instan. Rumus pasti, tabel konversi Wh ke J lengkap, contoh perhitungan, dan FAQ. Gratis, tanpa perlu mendaftar.",
+  "id": "/loona-calculators/id/watt-hours-to-joules-converter.html",
+  "start_url": "./watt-hours-to-joules-converter.html",
+  "scope": "./watt-hours-to-joules-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

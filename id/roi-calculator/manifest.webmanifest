@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator ROI",
+  "short_name": "Kalkulator ROI",
+  "description": "Kalkulator ROI gratis: masukkan jumlah yang diinvestasikan, jumlah yang dikembalikan, dan tahun yang dipegang untuk mendapatkan total persentase ROI dan imbal hasil tahunan untuk investasi apa pun.",
+  "id": "/loona-calculators/id/roi-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

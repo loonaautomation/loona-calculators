@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Uji Chi-Square",
+  "short_name": "Kalkulator Uji Chi-Square",
+  "description": "Kalkulator uji chi-square gratis: masukkan tabel yang diamati untuk uji independensi, atau jumlah yang diamati vs yang diharapkan untuk goodness of fit. Chi-square, df, dan nilai-p.",
+  "id": "/loona-calculators/id/chi-square-test-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

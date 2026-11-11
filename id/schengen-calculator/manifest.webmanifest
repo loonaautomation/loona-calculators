@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Schengen 90/180",
+  "short_name": "Kalkulator Schengen 90/180",
+  "description": "Kalkulator Schengen 90/180 gratis: masukkan perjalanan lalu dan yang direncanakan untuk melihat hari yang digunakan dalam jendela 180 hari bergulir mana pun, hari tersisa, peringatan overstay, dan masuk kembali aman paling awal.",
+  "id": "/loona-calculators/id/schengen-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

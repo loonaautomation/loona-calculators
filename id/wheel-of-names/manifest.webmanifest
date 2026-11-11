@@ -1,0 +1,29 @@
+{
+  "name": "Loona Roda Nama",
+  "short_name": "Roda Nama",
+  "description": "Roda nama gratis: tambahkan nama, putar roda berwarna-warni, dan pilih pemenang yang benar-benar acak untuk undian, ruang kelas, dan giveaway. Tanpa pendaftaran, bekerja di browser Anda.",
+  "id": "/loona-calculators/id/wheel-of-names/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

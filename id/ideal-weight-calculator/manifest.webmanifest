@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Berat Badan Ideal",
+  "short_name": "Kalkulator Berat Badan Ideal",
+  "description": "Kalkulator berat ideal gratis: masukkan tinggi dan jenis kelamin Anda untuk mendapatkan berat ideal Anda (rumus Devine) ditambah rentang berat IMT sehat lengkap untuk tinggi Anda.",
+  "id": "/loona-calculators/id/ideal-weight-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

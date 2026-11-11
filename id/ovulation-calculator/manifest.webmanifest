@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Ovulasi",
+  "short_name": "Kalkulator Ovulasi",
+  "description": "Kalkulator ovulasi gratis: masukkan hari pertama menstruasi terakhir dan panjang siklus Anda untuk memperkirakan ovulasi, jendela subur Anda, menstruasi berikutnya, dan tanggal perkiraan lahir.",
+  "id": "/loona-calculators/id/ovulation-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

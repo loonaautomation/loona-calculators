@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Investasi",
+  "short_name": "Kalkulator Investasi",
+  "description": "Kalkulator investasi gratis: jumlah awal ditambah penambahan bulanan dan imbal hasil yang diharapkan — lihat nilai masa depan, total yang diinvestasikan, dan total keuntungan seiring waktu.",
+  "id": "/loona-calculators/id/investment-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

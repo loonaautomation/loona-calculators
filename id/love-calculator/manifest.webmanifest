@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Cinta",
+  "short_name": "Kalkulator Cinta",
+  "description": "Kalkulator cinta gratis (hanya untuk kesenangan): masukkan dua nama dan dapatkan persentase cinta yang main-main dan pesan kompatibilitas. Permainan ringan untuk dibagikan dengan teman.",
+  "id": "/loona-calculators/id/love-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

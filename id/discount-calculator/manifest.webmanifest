@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Diskon",
+  "short_name": "Kalkulator Diskon",
+  "description": "Kalkulator diskon gratis: masukkan harga dan persen diskon untuk mendapatkan harga akhir dan berapa yang Anda hemat. Mendukung diskon kedua tambahan dan pajak yang ditambahkan setelah diskon.",
+  "id": "/loona-calculators/id/discount-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

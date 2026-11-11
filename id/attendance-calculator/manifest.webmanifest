@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Kehadiran",
+  "short_name": "Kalkulator Kehadiran",
+  "description": "Kalkulator kehadiran gratis untuk siswa: masukkan kelas yang diadakan dan dihadiri untuk mendapatkan persentase kehadiran Anda, berapa kelas yang dapat Anda lewatkan, atau berapa yang harus Anda hadiri untuk mencapai target Anda.",
+  "id": "/loona-calculators/id/attendance-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

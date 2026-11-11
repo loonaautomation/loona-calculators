@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Pelunasan Kartu Kredit",
+  "short_name": "Kalkulator Pelunasan Kartu Kredit",
+  "description": "Kalkulator pelunasan kartu kredit gratis: saldo, APR, dan pembayaran bulanan tetap — lihat bulan untuk melunasi, total bunga, dan total yang dibayar, dengan peringatan untuk pembayaran yang terlalu kecil.",
+  "id": "/loona-calculators/id/credit-card-payoff-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

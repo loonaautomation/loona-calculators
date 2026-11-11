@@ -1,0 +1,29 @@
+{
+  "name": "Loona Konverter Kelvin ke Celsius",
+  "short_name": "Konverter Kelvin ke Celsius",
+  "description": "Konversi Kelvin ke Celsius secara instan. Rumus yang tepat, tabel konversi K ke °C yang lengkap dan contoh pengerjaan. Gratis, tanpa pendaftaran.",
+  "id": "/loona-calculators/id/kelvin-to-celsius-converter.html",
+  "start_url": "./kelvin-to-celsius-converter.html",
+  "scope": "./kelvin-to-celsius-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

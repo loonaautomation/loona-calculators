@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Akar Kuadrat",
+  "short_name": "Kalkulator Akar Kuadrat",
+  "description": "Kalkulator akar kuadrat gratis: masukkan angka apa pun untuk mendapatkan akar kuadrat, akar pangkat tiga, akar ke-4 dan ke-5 — ditambah kuadrat dan kubiknya — sekaligus.",
+  "id": "/loona-calculators/id/square-root-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

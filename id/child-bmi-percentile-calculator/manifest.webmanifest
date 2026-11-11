@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Persentil IMT Anak",
+  "short_name": "Persentil BMI Anak",
+  "description": "Kalkulator persentil IMT anak gratis menggunakan data grafik pertumbuhan LMS CDC resmi untuk usia 2 hingga 20: IMT, persentil, skor-z, dan kategori berat untuk anak laki-laki dan perempuan.",
+  "id": "/loona-calculators/id/child-bmi-percentile-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

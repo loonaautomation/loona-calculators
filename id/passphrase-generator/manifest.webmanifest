@@ -1,0 +1,29 @@
+{
+  "name": "Loona Generator Frasa Sandi",
+  "short_name": "Generator Frasa Sandi",
+  "description": "Generator frasa sandi gratis: buat frasa sandi yang kuat dan mudah diingat dari kata-kata nyata acak, dengan jumlah kata, pemisah, kapitalisasi, dan opsi angka. Berjalan di browser Anda.",
+  "id": "/loona-calculators/id/passphrase-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

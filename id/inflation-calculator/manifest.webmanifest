@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Inflasi",
+  "short_name": "Kalkulator Inflasi",
+  "description": "Kalkulator inflasi gratis: masukkan jumlah, tingkat inflasi, dan tahun untuk melihat biaya masa depan barang yang sama dan berapa nilai nyata uang hari ini.",
+  "id": "/loona-calculators/id/inflation-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Titik Impas",
+  "short_name": "Kalkulator Titik Impas",
+  "description": "Kalkulator titik impas gratis: masukkan biaya tetap, harga jual, dan biaya variabel per unit untuk menemukan berapa unit yang harus Anda jual untuk mencapai titik impas, dan pada pendapatan berapa.",
+  "id": "/loona-calculators/id/break-even-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

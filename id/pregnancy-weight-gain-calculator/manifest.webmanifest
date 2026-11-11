@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Kenaikan Berat Badan Kehamilan",
+  "short_name": "Pertambahan Berat Kehamilan",
+  "description": "Kalkulator kenaikan berat kehamilan gratis: rentang kenaikan berat total dan minggu-demi-minggu yang disarankan IOM berdasarkan kategori IMT pra-kehamilan Anda. Panduan edukasi saja.",
+  "id": "/loona-calculators/id/pregnancy-weight-gain-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

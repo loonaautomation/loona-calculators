@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Kecepatan",
+  "short_name": "Kalkulator Kecepatan",
+  "description": "Kalkulator kecepatan gratis: masukkan jarak dalam kilometer atau mil dan waktu yang ditempuh untuk mendapatkan kecepatan dalam km/h dan mph, ditambah kecepatan per kilometer dan per mil.",
+  "id": "/loona-calculators/id/speed-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

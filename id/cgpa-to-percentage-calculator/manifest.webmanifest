@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator CGPA ke Persentase",
+  "short_name": "Kalkulator CGPA ke Persentase",
+  "description": "Konverter IPK ke persentase gratis: ubah IPK dari 10 (rumus ×9.5) atau GPA dari 4 menjadi persentase, dengan opsi pengali kustom untuk dewan atau universitas mana pun.",
+  "id": "/loona-calculators/id/cgpa-to-percentage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

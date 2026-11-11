@@ -1,0 +1,29 @@
+{
+  "name": "Loona Konverter HKD ke KRW",
+  "short_name": "Konverter HKD ke KRW",
+  "description": "Konversi Dolar Hong Kong (HKD) ke Won Korea Selatan (KRW). Nilai tukar referensi ECB tertanggal 06 November 2026, nilai tukar kebalikan, tabel konversi, dan catatan koridor. Hanya sebagai indikasi.",
+  "id": "/loona-calculators/id/hkd-to-krw-converter.html",
+  "start_url": "./hkd-to-krw-converter.html",
+  "scope": "./hkd-to-krw-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

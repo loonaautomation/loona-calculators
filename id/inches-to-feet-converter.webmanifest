@@ -1,0 +1,29 @@
+{
+  "name": "Loona Konverter Inci ke Kaki",
+  "short_name": "Konverter Inci ke Kaki",
+  "description": "Konversi inci ke kaki secara instan. Rumus yang tepat, tabel konversi in ke ft yang lengkap dan contoh pengerjaan. Gratis, tanpa pendaftaran.",
+  "id": "/loona-calculators/id/inches-to-feet-converter.html",
+  "start_url": "./inches-to-feet-converter.html",
+  "scope": "./inches-to-feet-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

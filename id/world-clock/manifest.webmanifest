@@ -1,0 +1,29 @@
+{
+  "name": "Loona Jam Dunia",
+  "short_name": "Jam Dunia",
+  "description": "Jam dunia langsung gratis: waktu dan tanggal lokal saat ini di 24 kota besar termasuk London, New York, Dubai, Karachi, dan Tokyo, diperbarui setiap detik melalui zona waktu.",
+  "id": "/loona-calculators/id/world-clock/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

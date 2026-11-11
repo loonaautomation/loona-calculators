@@ -1,0 +1,29 @@
+{
+  "name": "Loona Hari Kerja di Swiss",
+  "short_name": "Hari Kerja di Swiss",
+  "description": "Kalkulator hari kerja untuk Swiss: hari kerja di antara dua tanggal dikurangi akhir pekan dan 4 hari libur nasional yang berlaku di setiap kanton Swiss tahun 2026.",
+  "id": "/loona-calculators/id/working-days-in-switzerland.html",
+  "start_url": "./working-days-in-switzerland.html",
+  "scope": "./working-days-in-switzerland.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

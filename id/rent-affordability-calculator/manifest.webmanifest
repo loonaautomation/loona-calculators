@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Keterjangkauan Sewa",
+  "short_name": "Kalkulator Keterjangkauan Sewa",
+  "description": "Kalkulator keterjangkauan sewa gratis: masukkan penghasilan bruto, bagian yang dapat Anda belanjakan untuk sewa, dan utang bulanan Anda untuk melihat sewa maksimum yang dapat Anda jangkau — dengan panduan 28/36.",
+  "id": "/loona-calculators/id/rent-affordability-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

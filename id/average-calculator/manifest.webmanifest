@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Rata-rata",
+  "short_name": "Kalkulator Rata-Rata",
+  "description": "Kalkulator rata-rata gratis: tempel daftar angka untuk mendapatkan rata-rata, median, modus, jumlah, hitungan, minimum, maksimum, dan rentang — secara instan, untuk hingga 50 angka.",
+  "id": "/loona-calculators/id/average-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

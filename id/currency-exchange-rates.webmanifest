@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kurs Mata Uang",
+  "short_name": "Nilai Tukar Mata Uang",
+  "description": "Nilai tukar referensi Bank Sentral Eropa tertanggal 06 November 2026 untuk 20 mata uang — semua 380 pasangan dengan konverter, nilai tukar terbalik, dan tabel.",
+  "id": "/loona-calculators/id/currency-exchange-rates.html",
+  "start_url": "./currency-exchange-rates.html",
+  "scope": "./currency-exchange-rates.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

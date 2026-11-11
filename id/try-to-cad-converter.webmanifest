@@ -1,0 +1,29 @@
+{
+  "name": "Loona Konverter TRY ke CAD",
+  "short_name": "Konverter TRY ke CAD",
+  "description": "Konversi Lira Turki (TRY) ke Dolar Kanada (CAD). Nilai tukar referensi ECB tertanggal 06 November 2026, nilai tukar kebalikan, tabel konversi, dan catatan koridor. Hanya sebagai indikasi.",
+  "id": "/loona-calculators/id/try-to-cad-converter.html",
+  "start_url": "./try-to-cad-converter.html",
+  "scope": "./try-to-cad-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

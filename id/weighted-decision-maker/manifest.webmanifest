@@ -1,0 +1,29 @@
+{
+  "name": "Loona Pembuat Keputusan Berbobot",
+  "short_name": "Pengambil Keputusan Berbobot",
+  "description": "Pembuat keputusan berbobot gratis: daftar opsi dengan bobot dan pilih satu dengan probabilitas proporsional dengan bobotnya. Menunjukkan peluang persen tepat setiap opsi.",
+  "id": "/loona-calculators/id/weighted-decision-maker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

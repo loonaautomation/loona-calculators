@@ -1,0 +1,29 @@
+{
+  "name": "Loona Hari Kerja di Hongaria",
+  "short_name": "Hari Kerja di Hungaria",
+  "description": "Kalkulator hari kerja untuk Hungaria: hari kerja di antara dua tanggal dengan akhir pekan, hari libur nasional Hungaria, dan hari jembatan 2026 ditangani. Alat gratis.",
+  "id": "/loona-calculators/id/working-days-in-hungary.html",
+  "start_url": "./working-days-in-hungary.html",
+  "scope": "./working-days-in-hungary.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

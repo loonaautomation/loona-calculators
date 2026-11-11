@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator PPN",
+  "short_name": "Kalkulator PPN",
+  "description": "Kalkulator PPN/GST gratis: tambahkan pajak ke jumlah bersih atau hapus pajak dari jumlah bruto pada tarif apa pun. Bekerja untuk PPN, GST, dan pajak penjualan di negara mana pun.",
+  "id": "/loona-calculators/id/vat-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

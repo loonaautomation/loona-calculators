@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator KPK dan FPB",
+  "short_name": "Kalkulator KPK dan FPB",
+  "description": "Kalkulator KPK dan FPB gratis: masukkan dua atau tiga bilangan bulat untuk mendapatkan kelipatan persekutuan terkecil (KPK) dan faktor persekutuan terbesar (FPB/GCD) secara instan.",
+  "id": "/loona-calculators/id/lcm-hcf-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Hari di Antara Tanggal",
+  "short_name": "Kalkulator Hari di Antara Tanggal",
+  "description": "Kalkulator hari di antara tanggal gratis: hitung jumlah tepat hari, minggu, dan tahun di antara dua tanggal apa pun. Berguna untuk tenggat waktu, visa, kontrak, dan hitung mundur.",
+  "id": "/loona-calculators/id/days-between-dates-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

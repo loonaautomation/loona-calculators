@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Alkohol Darah",
+  "short_name": "Kalkulator Alkohol Darah",
+  "description": "Kalkulator kadar alkohol darah (BAC) gratis menggunakan rumus Widmark: berat, jenis kelamin, minuman, dan waktu untuk memperkirakan persen BAC. Perkiraan edukasi saja, jangan pernah mengemudi.",
+  "id": "/loona-calculators/id/blood-alcohol-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

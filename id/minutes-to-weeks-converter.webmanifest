@@ -1,0 +1,29 @@
+{
+  "name": "Loona Konverter Menit ke Minggu",
+  "short_name": "Konverter Menit ke Minggu",
+  "description": "Konversikan menit ke minggu secara instan. Rumus pasti, tabel konversi min ke wk lengkap, contoh perhitungan, dan FAQ. Gratis, tanpa perlu mendaftar.",
+  "id": "/loona-calculators/id/minutes-to-weeks-converter.html",
+  "start_url": "./minutes-to-weeks-converter.html",
+  "scope": "./minutes-to-weeks-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

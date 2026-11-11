@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Interval Kepercayaan",
+  "short_name": "Kalkulator Interval Kepercayaan",
+  "description": "Kalkulator interval kepercayaan gratis: CI untuk rata-rata dengan sigma yang diketahui (z), dengan SD sampel (t), dan untuk proporsi, pada kepercayaan 90%, 95%, atau 99%.",
+  "id": "/loona-calculators/id/confidence-interval-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

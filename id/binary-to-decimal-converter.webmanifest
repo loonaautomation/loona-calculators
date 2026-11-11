@@ -1,0 +1,29 @@
+{
+  "name": "Loona Konverter Biner ke Desimal",
+  "short_name": "Konverter Biner ke Desimal",
+  "description": "Konversi biner (basis 2) ke desimal (basis 10) dengan validasi, pengerjaan nilai tempat, dan tabel referensi.",
+  "id": "/loona-calculators/id/binary-to-decimal-converter.html",
+  "start_url": "./binary-to-decimal-converter.html",
+  "scope": "./binary-to-decimal-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

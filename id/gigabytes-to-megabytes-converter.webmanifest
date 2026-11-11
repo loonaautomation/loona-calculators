@@ -1,0 +1,29 @@
+{
+  "name": "Loona Konverter Gigabita ke Megabita",
+  "short_name": "Gigabyte ke Megabyte",
+  "description": "Konversikan gigabyte ke megabyte secara instan (konvensi biner: 1 GB = 1,024 MB). Rumus tepat, tabel konversi GB ke MB yang lengkap, dan contoh soal. Gratis, tanpa pendaftaran.",
+  "id": "/loona-calculators/id/gigabytes-to-megabytes-converter.html",
+  "start_url": "./gigabytes-to-megabytes-converter.html",
+  "scope": "./gigabytes-to-megabytes-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

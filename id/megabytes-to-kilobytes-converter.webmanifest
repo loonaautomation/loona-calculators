@@ -1,0 +1,29 @@
+{
+  "name": "Loona Konverter Megabita ke Kilobita",
+  "short_name": "Megabyte ke Kilobyte",
+  "description": "Konversikan megabyte ke kilobyte secara instan (konvensi biner: 1 GB = 1,024 MB). Rumus pasti, tabel konversi MB ke KB lengkap dan contoh perhitungan. Gratis, tanpa perlu mendaftar.",
+  "id": "/loona-calculators/id/megabytes-to-kilobytes-converter.html",
+  "start_url": "./megabytes-to-kilobytes-converter.html",
+  "scope": "./megabytes-to-kilobytes-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

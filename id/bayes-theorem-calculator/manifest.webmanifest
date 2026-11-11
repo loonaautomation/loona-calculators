@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Teorema Bayes",
+  "short_name": "Kalkulator Teorema Bayes",
+  "description": "Kalkulator teorema Bayes gratis: probabilitas prior, tingkat positif-benar, dan tingkat positif-palsu memberikan probabilitas posterior — perhitungan tes medis klasik, dijelaskan.",
+  "id": "/loona-calculators/id/bayes-theorem-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

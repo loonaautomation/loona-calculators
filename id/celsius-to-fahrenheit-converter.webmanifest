@@ -1,0 +1,29 @@
+{
+  "name": "Loona Konverter Celsius ke Fahrenheit",
+  "short_name": "Celsius ke Fahrenheit",
+  "description": "Konversi Celsius ke Fahrenheit secara instan. Rumus yang tepat, tabel konversi °C ke °F yang lengkap dan contoh pengerjaan. Gratis, tanpa pendaftaran.",
+  "id": "/loona-calculators/id/celsius-to-fahrenheit-converter.html",
+  "start_url": "./celsius-to-fahrenheit-converter.html",
+  "scope": "./celsius-to-fahrenheit-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

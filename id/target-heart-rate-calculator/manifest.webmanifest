@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Target Detak Jantung",
+  "short_name": "Kalkulator Denyut Jantung Target",
+  "description": "Kalkulator denyut jantung target gratis: denyut jantung maksimum dan zona latihan Karvonen dari usia dan denyut jantung istirahat Anda. Panduan kebugaran edukasi.",
+  "id": "/loona-calculators/id/target-heart-rate-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Uji-Z Satu Sampel",
+  "short_name": "Kalkulator Uji-Z Satu Sampel",
+  "description": "Kalkulator uji-z satu sampel gratis: rata-rata sampel, SD populasi yang diketahui, n, dan rata-rata yang dihipotesiskan memberikan statistik z dan nilai-p. Diperiksa buku teks.",
+  "id": "/loona-calculators/id/z-test-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

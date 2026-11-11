@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kalkulator Grafik — Plot Fungsi Online Gratis | Loona Calculators</title>
+<meta name="description" content="Kalkulator grafik gratis: plot satu atau dua fungsi seperti x^2, sin(x), atau 2x+3 pada grid dengan zoom. Bekerja di browser Anda, tanpa pendaftaran.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/id/graphing-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/graphing-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/graphing-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/graphing-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/graphing-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/graphing-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/graphing-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/graphing-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/graphing-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/graphing-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/graphing-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/graphing-calculator/"><link rel="alternate" hreflang="id" href="https://loonaautomation.github.io/loona-calculators/id/graphing-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/graphing-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Kalkulator Grafik — Plot Fungsi Online Gratis | Loona Calculators">
+<meta property="og:description" content="Kalkulator grafik gratis: plot satu atau dua fungsi seperti x^2, sin(x), atau 2x+3 pada grid dengan zoom. Bekerja di browser Anda, tanpa pendaftaran.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/id/graphing-calculator/"><meta property="og:locale" content="id_ID">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Kalkulator Grafik — Plot Fungsi Online Gratis | Loona Calculators">
+<meta name="twitter:description" content="Kalkulator grafik gratis: plot satu atau dua fungsi seperti x^2, sin(x), atau 2x+3 pada grid dengan zoom. Bekerja di browser Anda, tanpa pendaftaran.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona Kalkulator Grafik","url":"https://loonaautomation.github.io/loona-calculators/id/graphing-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Ekspresi apa saja yang bisa saya gunakan?","acceptedAnswer":{"@type":"Answer","text":"Angka, x, + − * / ^ dan kurung, ditambah sin, cos, tan, sqrt, abs, log (basis 10), ln, exp dan konstanta pi dan e. Perkalian implisit juga bekerja: 2x, 3(x+1) dan (x+1)(x-1) semuanya dipahami."}},{"@type":"Question","name":"Mengapa grafik 1/x atau tan(x) terputus di beberapa tempat?","acceptedAnswer":{"@type":"Answer","text":"Fungsi-fungsi itu melompat antara nilai positif dan negatif yang sangat besar pada asimtot. Plotter mendeteksi lompatan dan mengangkat pena alih-alih menggambar garis vertikal palsu."}},{"@type":"Question","name":"Bagaimana cara saya menulis x kuadrat atau pangkat?","acceptedAnswer":{"@type":"Answer","text":"Gunakan tanda sisipan: x^2 berarti x kuadrat, x^3 kubik, dan x^0.5 sama dengan sqrt(x). Pangkat bersifat asosiatif kanan, sehingga 2^3^2 dibaca sebagai 2^(3^2) = 512."}},{"@type":"Question","name":"Rentang apa yang ditampilkan grafik?","acceptedAnswer":{"@type":"Answer","text":"Grafik ini dimulai pada x dari −10 hingga 10 dan y dari −10 hingga 10. Setiap langkah zoom mengalikan rentang dengan sekitar 0.7 (memperbesar) atau 1.4 (memperkecil)."}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/id/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Kalkulator Grafik",
+      "item": "https://loonaautomation.github.io/loona-calculators/id/graphing-calculator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Logo Loona Automation">
+<div class="brand">Loona <span>Kalkulator</span></div>
+<nav>
+<a href="../">Beranda</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">Tentang</a>
+<a href="../contact.html">Kontak</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › Matematika › Kalkulator Grafik</div>
+<h1 class="pagetitle">📈 Kalkulator Grafik</h1>
+<p class="lead">Ketik fungsi x — misalnya x^2, sin(x), 2x+3 atau 1/x — dan lihat grafiknya secara instan. Tambahkan fungsi kedua untuk dibandingkan, dan perbesar atau perkecil untuk menjelajahi intersep, titik balik, dan asimtot.</p>
+<div class="exbox"><strong>Jawaban cepat:</strong> Kalkulator grafik menggambar y = f(x) dengan menghitung y untuk ratusan nilai x di seluruh jendela yang terlihat dan menghubungkan titik-titiknya. Kalkulator ini memahami x^2, sin(x), cos(x), tan(x), sqrt(x), log(x), pecahan, dan perkalian implisit seperti 2x.</div>
+<div class="toolbox"><form class="calcform" id="grForm">
+<div class="fld"><label for="grF1">Fungsi 1 — f(x) =</label><input type="text" id="grF1" value="x^2-4" style="width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px"></div>
+<div class="fld"><label for="grF2">Fungsi 2 (opsional) — g(x) =</label><input type="text" id="grF2" value="2x+3" style="width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px"></div>
+<button class="calcbtn" type="submit">Plot fungsi</button>
+<div class="calcresult" id="grResult" style="display:none"></div>
+</form>
+<div style="text-align:center;margin-top:14px"><canvas id="grCanvas" width="720" height="480" style="max-width:100%;height:auto;background:#fff;border:1px solid var(--line);border-radius:12px"></canvas></div>
+<p style="text-align:center;margin-top:10px"><button type="button" class="calcbtn" style="width:auto;padding:9px 18px" id="grZoomIn">Perbesar</button> <button type="button" class="calcbtn" style="width:auto;padding:9px 18px" id="grZoomOut">Perkecil</button> <button type="button" class="calcbtn" style="width:auto;padding:9px 18px" id="grReset">Atur Ulang Tampilan</button></p></div>
+<section class="txt"><h2>Cara menggunakan Kalkulator Grafik</h2><ol><li>Masukkan fungsi pertama, misalnya x^2 - 4.</li><li>Secara opsional masukkan fungsi kedua untuk dibandingkan dalam warna berbeda.</li><li>Tekan Plot, lalu gunakan Perbesar / Perkecil atau Atur Ulang Tampilan.</li><li>Baca intersep dan persilangan dari kisi — setiap persegi adalah 1 satuan secara bawaan.</li></ol>
+<div class="exbox"><strong>Contoh:</strong> Memplot x^2 - 4 menghasilkan parabola yang melintasi sumbu x pada x = -2 dan x = 2, dengan titik terendahnya pada (0, -4). Menambahkan garis 2x+3 menunjukkan di mana kurva dan garis bertemu.</div>
+<h2>Pertanyaan yang Sering Diajukan</h2></section><div class="faq"><h3>Ekspresi apa saja yang bisa saya gunakan?</h3><p>Angka, x, + − * / ^ dan kurung, ditambah sin, cos, tan, sqrt, abs, log (basis 10), ln, exp dan konstanta pi dan e. Perkalian implisit juga bekerja: 2x, 3(x+1) dan (x+1)(x-1) semuanya dipahami.</p></div><div class="faq"><h3>Mengapa grafik 1/x atau tan(x) terputus di beberapa tempat?</h3><p>Fungsi-fungsi itu melompat antara nilai positif dan negatif yang sangat besar pada asimtot. Plotter mendeteksi lompatan dan mengangkat pena alih-alih menggambar garis vertikal palsu.</p></div><div class="faq"><h3>Bagaimana cara saya menulis x kuadrat atau pangkat?</h3><p>Gunakan tanda sisipan: x^2 berarti x kuadrat, x^3 kubik, dan x^0.5 sama dengan sqrt(x). Pangkat bersifat asosiatif kanan, sehingga 2^3^2 dibaca sebagai 2^(3^2) = 512.</p></div><div class="faq"><h3>Rentang apa yang ditampilkan grafik?</h3><p>Grafik ini dimulai pada x dari −10 hingga 10 dan y dari −10 hingga 10. Setiap langkah zoom mengalikan rentang dengan sekitar 0.7 (memperbesar) atau 1.4 (memperkecil).</p></div>
+<h2 class="sec">Kalkulator Terkait</h2><div class="grid"><a class="card" href="../percentage-calculator/"><div class="ic">％</div><h3>Kalkulator Persentase</h3><p>Matematika</p></a><a class="card" href="../statistics-calculator/"><div class="ic">📊</div><h3>Kalkulator Statistik</h3><p>Matematika</p></a><a class="card" href="../fraction-calculator/"><div class="ic">½</div><h3>Kalkulator Pecahan</h3><p>Matematika</p></a><a class="card" href="../equation-solver/"><div class="ic">🧮</div><h3>Pemecah Persamaan</h3><p>Matematika</p></a><a class="card" href="../scientific-calculator/"><div class="ic">🔬</div><h3>Kalkulator Ilmiah</h3><p>Matematika</p></a><a class="card" href="../average-calculator/"><div class="ic">📐</div><h3>Kalkulator Rata-Rata</h3><p>Matematika</p></a></div>
+</div>
+<section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>Cara kerjanya — rumusnya</h2>
+<p>Plotter menguraikan setiap ekspresi menjadi token (angka, x, operator, fungsi), menyisipkan tanda perkalian tersirat (2x → 2*x), dan mengevaluasinya dengan parser turunan rekursif yang menghormati urutan operasi standar: <strong>^ mengikat paling kuat dan berasosiasi ke kanan, lalu * dan /, lalu + dan −</strong>, dengan fungsi dan tanda kurung terlebih dahulu. Kemudian fungsi diambil sampelnya pada 720 posisi x di sepanjang jendela dan titik-titik berhingga yang berurutan dihubungkan, melewati celah tempat fungsi tidak terdefinisi atau melompat melewati asimtot.</p>
+<h3>Contoh pengerjaan</h3><div class="exbox"><p><strong>Masukan:</strong> f(x) = x^2 − 4.</p><p><strong>Langkah:</strong> Pada x = 0, y = −4 (titik terendah). Pada x = 2, y = 4 − 4 = 0, dan pada x = −2, y = 0 — dua titik potong x. Pada x = 3, y = 9 − 4 = 5.</p><p><strong>Hasil:</strong> Parabola dengan titik puncak (0, −4) yang memotong sumbu x di <strong>−2 dan 2</strong>, persis seperti yang ditunjukkan grafik.</p></div>
+
+</section>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Sematkan kalkulator ini di situs web Anda — gratis</h2>
+<p style="margin:0 0 12px;line-height:1.6">Tambahkan kalkulator ini ke situs web atau blog Anda sendiri — sepenuhnya gratis, tidak perlu pendaftaran, dan selalu menampilkan versi terbaru. Salin kode di bawah ini dan tempelkan ke halaman Anda di tempat Anda ingin kalkulator muncul. Mempertahankan baris kredit kecil &ldquo;Didukung oleh Loona Automation&rdquo; di bawah sematan membantu menjaga alat ini tetap gratis &mdash; tetapi Anda bebas menata atau menghapusnya; alat ini bekerja dengan cara apa pun.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/id/graphing-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Graphing Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Didukung oleh &lt;a href="https://loonaautomation.github.io/loona-calculators/id/graphing-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; gratis Kalkulator Grafik&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Salin kode sematan</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='Salin kode semat';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Kalkulator Populer</h4><ul><li><a href="../age-calculator/">Kalkulator Usia</a></li>
+<li><a href="../zakat-calculator/">Kalkulator Zakat</a></li>
+<li><a href="../cgpa-calculator/">Kalkulator CGPA</a></li>
+<li><a href="../percentage-calculator/">Kalkulator Persentase</a></li>
+<li><a href="../hijri-date-converter/">Konverter Tanggal Hijriah</a></li>
+<li><a href="../emi-calculator/">Kalkulator EMI & Pinjaman</a></li></ul></div>
+<div><h4>Alat Loona Lainnya</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Kompresor Gambar</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Asisten AI Loona</a></li>
+<li><a href="https://loonaautomation.github.io/">Semua Alat Loona</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">Tentang</a></li>
+<li><a href="../contact.html">Kontak</a></li>
+<li><a href="../privacy-policy.html">Kebijakan Privasi</a></li>
+<li><a href="../terms.html">Ketentuan Penggunaan</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — sebuah <a href="https://loonaautomation.github.io/">Loona Automation</a> proyek. Kalkulator online gratis, tanpa pendaftaran.
+Kontak: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+function tokenizeExpr(expr){
+  var s=String(expr).replace(/\s+/g,"").toLowerCase(), tokens=[], i=0;
+  var funcs=["sin","cos","tan","sqrt","abs","log","ln","exp"];
+  while(i<s.length){
+    var c=s[i];
+    if(/[0-9.]/.test(c)){var num="";while(i<s.length&&/[0-9.]/.test(s[i])){num+=s[i];i++;}tokens.push({t:"num",v:parseFloat(num)});continue;}
+    if(c==="x"){tokens.push({t:"var"});i++;continue;}
+    if(s.substr(i,2)==="pi"){tokens.push({t:"num",v:Math.PI});i+=2;continue;}
+    if(c==="e"&&!/^(exp)/.test(s.substr(i))){tokens.push({t:"num",v:Math.E});i++;continue;}
+    var matched=false;
+    for(var f=0;f<funcs.length;f++){if(s.substr(i,funcs[f].length)===funcs[f]){tokens.push({t:"fn",v:funcs[f]});i+=funcs[f].length;matched=true;break;}}
+    if(matched)continue;
+    if("+-*/^()".indexOf(c)>=0){tokens.push({t:"op",v:c});i++;continue;}
+    throw new Error("Karakter tak terduga: "+c);
+  }
+  var out=[];
+  for(var k=0;k<tokens.length;k++){
+    if(k>0){
+      var prev=tokens[k-1], cur=tokens[k];
+      var prevVal=(prev.t==="num"||prev.t==="var"||(prev.t==="op"&&prev.v===")"));
+      var curVal=(cur.t==="num"||cur.t==="var"||cur.t==="fn"||(cur.t==="op"&&cur.v==="("));
+      if(prevVal&&curVal)out.push({t:"op",v:"*"});
+    }
+    out.push(tokens[k]);
+  }
+  return out;
+}
+function makeFunction(expr){
+  var tokens=tokenizeExpr(expr), pos=0;
+  function peek(){return tokens[pos];}
+  function next(){return tokens[pos++];}
+  function parseExpr(){
+    var v=parseTerm();
+    while(peek()&&peek().t==="op"&&(peek().v==="+"||peek().v==="-")){var op=next().v;var r=parseTerm();v=(op==="+")?v+r:v-r;}
+    return v;
+  }
+  function parseTerm(){
+    var v=parseFactor();
+    while(peek()&&peek().t==="op"&&(peek().v==="*"||peek().v==="/")){var op=next().v;var r=parseFactor();if(op==="/"){if(r===0)throw new Error("div0");v=v/r;}else v=v*r;}
+    return v;
+  }
+  function parseFactor(){
+    var base=parseUnary();
+    if(peek()&&peek().t==="op"&&peek().v==="^"){next();var ex=parseFactor();return Math.pow(base,ex);}
+    return base;
+  }
+  function parseUnary(){
+    if(peek()&&peek().t==="op"&&peek().v==="-"){next();return -parseUnary();}
+    if(peek()&&peek().t==="op"&&peek().v==="+"){next();return parseUnary();}
+    return parseAtom();
+  }
+  var xVal=0;
+  function parseAtom(){
+    var tk=next();
+    if(!tk)throw new Error("Akhir ekspresi yang tak terduga");
+    if(tk.t==="num")return tk.v;
+    if(tk.t==="var")return xVal;
+    if(tk.t==="fn"){
+      var a=parseAtomWrapped();
+      switch(tk.v){
+        case "sin":return Math.sin(a);case "cos":return Math.cos(a);case "tan":return Math.tan(a);
+        case "sqrt":if(a<0)throw new Error("domain");return Math.sqrt(a);
+        case "abs":return Math.abs(a);
+        case "log":if(a<=0)throw new Error("domain");return Math.log10(a);
+        case "ln":if(a<=0)throw new Error("domain");return Math.log(a);
+        case "exp":return Math.exp(a);
+      }
+    }
+    if(tk.t==="op"&&tk.v==="("){var v=parseExpr();var close=next();if(!close||close.v!==")")throw new Error("Kurung tutup hilang");return v;}
+    throw new Error("Unexpected token");
+  }
+  function parseAtomWrapped(){
+    var tk=peek();
+    if(tk&&tk.t==="op"&&tk.v==="("){return parseAtom();}
+    return parseAtom();
+  }
+  return function(x){
+    pos=0; xVal=x;
+    var v=parseExpr();
+    if(pos<tokens.length)throw new Error("Trailing characters");
+    return v;
+  };
+}
+function evaluateExpression(expr,x){return makeFunction(expr)(x);}
+/*TESTABLE_END*/
+var GR={range:10};
+function grDraw(){
+  var cv=document.getElementById('grCanvas'), ctx=cv.getContext('2d');
+  var W=cv.width,H=cv.height,R=GR.range;
+  ctx.clearRect(0,0,W,H);
+  function px(x){return (x+R)/(2*R)*W;}
+  function py(y){return H-(y+R)/(2*R)*H;}
+  ctx.strokeStyle="#e6ecea";ctx.lineWidth=1;
+  for(var g=-Math.floor(R);g<=R;g++){ctx.beginPath();ctx.moveTo(px(g),0);ctx.lineTo(px(g),H);ctx.stroke();ctx.beginPath();ctx.moveTo(0,py(g));ctx.lineTo(W,py(g));ctx.stroke();}
+  ctx.strokeStyle="#9db3ae";ctx.lineWidth=1.6;
+  ctx.beginPath();ctx.moveTo(px(0),0);ctx.lineTo(px(0),H);ctx.stroke();
+  ctx.beginPath();ctx.moveTo(0,py(0));ctx.lineTo(W,py(0));ctx.stroke();
+  ctx.fillStyle="#5a6b68";ctx.font="11px Arial";
+  for(var t=-Math.floor(R);t<=R;t+= (R>10?5:1)){if(t!==0){ctx.fillText(t,px(t)-4,H-py(0)+14<-20?py(0)+14:py(0)+14);ctx.fillText(t,px(0)+5,py(t)+4);}}
+  var jobs=[["grF1","#bc4749"],["grF2","#0a423b"]];
+  jobs.forEach(function(job){
+    var expr=document.getElementById(job[0]).value.trim(); if(!expr)return;
+    var fn; try{fn=makeFunction(expr);}catch(e){return;}
+    ctx.strokeStyle=job[1];ctx.lineWidth=2.2;ctx.beginPath();
+    var pen=false;
+    for(var i=0;i<=W;i++){
+      var x=-R+ (2*R)*i/W, y;
+      try{y=fn(x);}catch(e){pen=false;continue;}
+      if(!isFinite(y)||Math.abs(y)>R*3){pen=false;continue;}
+      var X=px(x),Y=py(y);
+      if(!pen){ctx.moveTo(X,Y);pen=true;}else{
+        var prevY=py((function(){try{return fn(x-(2*R)/W);}catch(e){return NaN;}})());
+        if(isFinite(prevY)&&Math.abs(Y-prevY)>H*0.6){ctx.moveTo(X,Y);}else ctx.lineTo(X,Y);
+      }
+    }
+    ctx.stroke();
+  });
+}
+document.getElementById('grForm').addEventListener('submit',function(e){e.preventDefault();
+ var box=document.getElementById('grResult');
+ try{evaluateExpression(document.getElementById('grF1').value,1);}catch(err){box.style.display='block';box.innerHTML='<p class="err">Fungsi 1 tidak dapat dibaca. Periksa tanda kurung dan ejaan — misalnya x^2, sin(x), 2x+3.</p>';return;}
+ var f2=document.getElementById('grF2').value.trim();
+ if(f2){try{makeFunction(f2)(1);}catch(err){box.style.display='block';box.innerHTML='<p class="err">Fungsi 2 tidak dapat dibaca.</p>';return;}}
+ box.style.display='none'; grDraw();});
+document.getElementById('grZoomIn').addEventListener('click',function(){GR.range=Math.max(1,GR.range*0.7);grDraw();});
+document.getElementById('grZoomOut').addEventListener('click',function(){GR.range=Math.min(1000,GR.range*1.4);grDraw();});
+document.getElementById('grReset').addEventListener('click',function(){GR.range=10;grDraw();});
+grDraw();
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Instal Aplikasi';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Pasang aplikasi ini: ketuk tombol Bagikan, lalu pilih "Tambah ke Layar Utama".');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

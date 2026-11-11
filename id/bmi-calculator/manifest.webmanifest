@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator IMT",
+  "short_name": "Kalkulator BMI",
+  "description": "Kalkulator IMT gratis: masukkan berat dan tinggi Anda (cm atau kaki/inci) untuk memeriksa Indeks Massa Tubuh Anda, kategori Anda, dan rentang berat sehat untuk tinggi Anda.",
+  "id": "/loona-calculators/id/bmi-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

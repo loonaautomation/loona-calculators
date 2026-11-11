@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Pinjaman",
+  "short_name": "Kalkulator Pinjaman",
+  "description": "Kalkulator pinjaman gratis: masukkan jumlah, suku bunga tahunan, dan jangka waktu untuk mendapatkan pembayaran bulanan, total bunga, dan total pembayaran kembali untuk pinjaman apa pun.",
+  "id": "/loona-calculators/id/loan-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

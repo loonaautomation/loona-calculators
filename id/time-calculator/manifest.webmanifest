@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Waktu",
+  "short_name": "Kalkulator Waktu",
+  "description": "Kalkulator waktu gratis: tambahkan atau kurangi jam, menit, dan detik di antara dua durasi. Sempurna untuk jam kerja, panjang video, waktu perjalanan, dan jadwal belajar.",
+  "id": "/loona-calculators/id/time-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

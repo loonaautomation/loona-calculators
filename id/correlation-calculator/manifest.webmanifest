@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Korelasi",
+  "short_name": "Kalkulator Korelasi",
+  "description": "Kalkulator korelasi Pearson gratis: tempel data berpasangan x,y untuk mendapatkan koefisien korelasi r, r-kuadrat, dan pembacaan kekuatan dalam bahasa sederhana.",
+  "id": "/loona-calculators/id/correlation-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

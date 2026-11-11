@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator KPR Prancis",
+  "short_name": "Kalkulator KPR Prancis",
+  "description": "Kalkulator KPR Prancis gratis dalam euro: pembayaran bulanan dengan asuransi peminjam opsional (assurance emprunteur), total bunga, dan tanggal bebas utang untuk harga, deposit, suku bunga, dan jangka waktu apa pun.",
+  "id": "/loona-calculators/id/france-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

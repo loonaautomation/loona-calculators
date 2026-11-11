@@ -1,0 +1,29 @@
+{
+  "name": "Loona Konverter Detik ke Jam",
+  "short_name": "Konverter Detik ke Jam",
+  "description": "Konversikan detik ke jam secara instan. Rumus pasti, tabel konversi s ke h lengkap, contoh perhitungan, dan FAQ. Gratis, tanpa perlu mendaftar.",
+  "id": "/loona-calculators/id/seconds-to-hours-converter.html",
+  "start_url": "./seconds-to-hours-converter.html",
+  "scope": "./seconds-to-hours-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

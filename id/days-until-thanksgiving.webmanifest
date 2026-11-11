@@ -1,0 +1,29 @@
+{
+  "name": "Loona Hari Menuju Thanksgiving (AS)",
+  "short_name": "Hari Hingga Thanksgiving (AS)",
+  "description": "Hitungan mundur langsung ke Thanksgiving (US): sisa hari, jam, menit, dan detik yang tepat, tanggal tahun ini dan tiga tahun berikutnya, fakta dan FAQ.",
+  "id": "/loona-calculators/id/days-until-thanksgiving.html",
+  "start_url": "./days-until-thanksgiving.html",
+  "scope": "./days-until-thanksgiving.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
