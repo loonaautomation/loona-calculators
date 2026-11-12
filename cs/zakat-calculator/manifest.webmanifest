@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka zakátu",
+  "short_name": "Kalkulačka zakátu",
+  "description": "Bezplatná kalkulačka zakátu: hotovost, zůstatek v bance, zlato, stříbro, obchodní zboží a dluhy — zkontrolujte nisab a okamžitě vypočítejte svůj zakát 2.5 % v rupiích. Jednoduché a soukromé.",
+  "id": "/loona-calculators/cs/zakat-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

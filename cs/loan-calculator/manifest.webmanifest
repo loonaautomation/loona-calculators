@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka úvěru",
+  "short_name": "Kalkulačka úvěru",
+  "description": "Bezplatná kalkulačka úvěru: zadejte částku, roční úrokovou sazbu a dobu splatnosti a získáte svou měsíční splátku, celkové úroky a celkovou splátku pro jakýkoli úvěr.",
+  "id": "/loona-calculators/cs/loan-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

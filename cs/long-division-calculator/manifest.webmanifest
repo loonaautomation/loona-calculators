@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka písemného dělení",
+  "short_name": "Kalkulačka dlouhého dělení",
+  "description": "Bezplatná kalkulačka písemného dělení zobrazující každý krok: dělte čísla se zbytkem nebo desetinnými místy a uvidíte celý písemný postup, číslici po číslici. Pro studenty a učitele.",
+  "id": "/loona-calculators/cs/long-division-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

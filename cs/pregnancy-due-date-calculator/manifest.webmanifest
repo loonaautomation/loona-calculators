@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka termínu porodu",
+  "short_name": "Kalkulačka termínu porodu",
+  "description": "Bezplatná kalkulačka termínu porodu: zadejte první den své poslední menstruace (LMP) a získáte očekávaný termín porodu, aktuální týden těhotenství a trimestr.",
+  "id": "/loona-calculators/cs/pregnancy-due-date-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

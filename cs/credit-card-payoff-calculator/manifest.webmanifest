@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka splacení kreditní karty",
+  "short_name": "Kalkulačka splacení kreditní karty",
+  "description": "Bezplatná kalkulačka splacení kreditní karty: zůstatek, APR a pevná měsíční splátka — uvidíte měsíce do splacení, celkové úroky a celkově zaplacenou částku, s varováním při příliš malých splátkách.",
+  "id": "/loona-calculators/cs/credit-card-payoff-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

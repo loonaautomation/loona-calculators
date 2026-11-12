@@ -1,0 +1,29 @@
+{
+  "name": "Loona Převodník gramů na libry",
+  "short_name": "Převodník Gramy na Libry",
+  "description": "Převeďte gramy na libry okamžitě. Přesný vzorec, kompletní převodní tabulka g na lb a ukázkové příklady. Zdarma, bez registrace.",
+  "id": "/loona-calculators/cs/grams-to-pounds-converter.html",
+  "start_url": "./grams-to-pounds-converter.html",
+  "scope": "./grams-to-pounds-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

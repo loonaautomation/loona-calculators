@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka matic",
+  "short_name": "Kalkulačka matic",
+  "description": "Bezplatná kalkulačka matic pro matice 2x2 a 3x3: sčítání, odčítání, násobení, determinant a inverze se zobrazenými mezihodnotami. Bez registrace, funguje ve vašem prohlížeči.",
+  "id": "/loona-calculators/cs/matrix-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

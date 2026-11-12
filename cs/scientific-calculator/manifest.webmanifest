@@ -1,0 +1,29 @@
+{
+  "name": "Loona Vědecká kalkulačka",
+  "short_name": "Vědecká kalkulačka",
+  "description": "Bezplatná vědecká kalkulačka se sin, cos, tan a jejich inverzními funkcemi, log a ln, mocninami, odmocninami, faktoriálem a procenty. Režimy DEG/RAD a plná podpora klávesnice — bez registrace.",
+  "id": "/loona-calculators/cs/scientific-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

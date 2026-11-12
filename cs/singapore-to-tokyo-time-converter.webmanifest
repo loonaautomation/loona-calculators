@@ -1,0 +1,29 @@
+{
+  "name": "Loona Převodník času ze Singapuru do Tokia",
+  "short_name": "Čas ze Singapuru do Tokia",
+  "description": "Převeďte čas z Singapuru do Tokia. Tokio je o 1 hodinu napřed před Singapurem po celý rok, s daty letního času, tabulkou na 24 hodin a nejlepším oknem pro schůzku. Přiložen je živý převodník.",
+  "id": "/loona-calculators/cs/singapore-to-tokyo-time-converter.html",
+  "start_url": "./singapore-to-tokyo-time-converter.html",
+  "scope": "./singapore-to-tokyo-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

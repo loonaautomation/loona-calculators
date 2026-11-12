@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka tělesného tuku",
+  "short_name": "Kalkulačka tělesného tuku",
+  "description": "Bezplatná kalkulačka tělesného tuku metodou obvodů amerického námořnictva (US Navy): výška, krk, pas (a u žen boky) dají tělesný tuk v %, tukovou hmotu, libovou hmotu a kategorii ACE.",
+  "id": "/loona-calculators/cs/body-fat-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

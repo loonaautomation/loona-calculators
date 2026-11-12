@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Generátor loterijních čísel — Powerball, EuroMillions a UK Lotto | Loona</title>
+<meta name="description" content="Bezplatný generátor loterijních čísel s předvolbami pro Powerball, Mega Millions, EuroMillions a UK Lotto, plus vlastní režim pro jakoukoli loterii. Bezpečné náhodné tipy.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/cs/lottery-number-generator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/lottery-number-generator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/lottery-number-generator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/lottery-number-generator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/lottery-number-generator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/lottery-number-generator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/lottery-number-generator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/lottery-number-generator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/lottery-number-generator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/lottery-number-generator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/lottery-number-generator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/lottery-number-generator/"><link rel="alternate" hreflang="cs" href="https://loonaautomation.github.io/loona-calculators/cs/lottery-number-generator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/lottery-number-generator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Generátor loterijních čísel — Powerball, EuroMillions a UK Lotto | Loona">
+<meta property="og:description" content="Bezplatný generátor loterijních čísel s předvolbami pro Powerball, Mega Millions, EuroMillions a UK Lotto, plus vlastní režim pro jakoukoli loterii. Bezpečné náhodné tipy.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/cs/lottery-number-generator/"><meta property="og:locale" content="cs_CZ">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Generátor loterijních čísel — Powerball, EuroMillions a UK Lotto | Loona">
+<meta name="twitter:description" content="Bezplatný generátor loterijních čísel s předvolbami pro Powerball, Mega Millions, EuroMillions a UK Lotto, plus vlastní režim pro jakoukoli loterii. Bezpečné náhodné tipy.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona Generátor loterijních čísel","url":"https://loonaautomation.github.io/loona-calculators/cs/lottery-number-generator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Zlepšují vygenerovaná čísla mé šance na výhru?","acceptedAnswer":{"@type":"Answer","text":"Ne — a každý nástroj, který tvrdí opak, vás klame. Každá platná kombinace má přesně stejnou pravděpodobnost, ať ji vyberete vy, stroj, nebo je to 1-2-3-4-5-6. Generátor je prostě férový a rychlý způsob výběru."}},{"@type":"Question","name":"Jaké jsou šance na jackpot u každé hry?","acceptedAnswer":{"@type":"Answer","text":"Powerball: 1 z 292,201,338. Mega Millions: 1 z 290,472,336 (současný formát od dubna 2025). EuroMillions: 1 ze 139,838,160. UK Lotto: 1 ze 45,057,474. Pro představu, je mnohem pravděpodobnější, že vás za život zasáhne blesk, než že vyhrajete jackpot."}},{"@type":"Question","name":"Proč jsou zobrazená čísla seřazená?","acceptedAnswer":{"@type":"Answer","text":"Skutečné losy jsou neseřazené, ale tikety a výsledky se běžně tisknou ve vzestupném pořadí, abyste je mohli snadno porovnat. Řazení je pouze prezentace — nemění kombinaci ani její šance."}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<style>.balls{display:flex;gap:9px;flex-wrap:wrap;margin:8px 0}.ball{width:48px;height:48px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:18px;color:#062e2a;background:radial-gradient(circle at 35% 30%,#ffffff,#dfe9e6 65%,#b9cdc8);border:2px solid #0a423b}.ball.bonus{background:radial-gradient(circle at 35% 30%,#f7e08a,#d4af37 65%,#b8912a);border-color:#8a6d1d;color:#231a00}</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/cs/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Generátor loterijních čísel",
+      "item": "https://loonaautomation.github.io/loona-calculators/cs/lottery-number-generator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Logo Loona Automation">
+<div class="brand">Loona <span>Kalkulačky</span></div>
+<nav>
+<a href="../">Domů</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">O nás</a>
+<a href="../contact.html">Kontakt</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › Zábava › Generátor loterijních čísel</div>
+<h1 class="pagetitle">🍀 Generátor loterijních čísel</h1>
+<p class="lead">Vyberte svou hru a vygenerujte kompletní sadu loterijních čísel jedním klepnutím — oficiální předvolby pro Powerball, Mega Millions, EuroMillions a britské Lotto, nebo sestavte vlastní los pro jakoukoli loterii na světě. Čísla se losují s bezpečnou náhodností a zobrazují se seřazená, stejně jako skutečný tiket.</p>
+<div class="toolbox"><form class="calcform" id="lotForm">
+<div class="fld"><label for="lotGame">Loterijní hra</label><select id="lotGame"><option value="powerball" selected>Powerball (USA) — 5 z 69 + Powerball 1 z 26</option><option value="megamillions">Mega Millions (USA) — 5 ze 70 + Mega Ball 1 ze 24</option><option value="euromillions">EuroMillions (Evropa) — 5 z 50 + 2 Lucky Stars z 12</option><option value="uklotto">UK Lotto — 6 z 59</option><option value="custom">Vlastní loterie</option></select></div>
+<div id="lotCustom" style="display:none">
+<div class="fld"><label for="lotMainCount">Hlavní čísla — kolik?</label><input type="number" id="lotMainCount" value="6" min="1" max="15"></div>
+<div class="fld"><label for="lotMainMax">Hlavní čísla — od 1 do</label><input type="number" id="lotMainMax" value="49" min="1" max="1000"></div>
+<div class="fld"><label for="lotBonusCount">Bonusová čísla — kolik? (0 pro žádné)</label><input type="number" id="lotBonusCount" value="1" min="0" max="5"></div>
+<div class="fld"><label for="lotBonusMax">Bonusová čísla — od 1 do</label><input type="number" id="lotBonusMax" value="10" min="1" max="1000"></div>
+</div>
+<button class="calcbtn" type="submit">🍀 Generovat šťastná čísla</button>
+<div class="calcresult" id="lotResult" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>Jak používat generátor loterijních čísel</h2><ol><li>Vyberte svou loterijní hru ze seznamu (nebo Vlastní pro jakoukoli jinou loterii).</li><li>Pro vlastní hru nastavte, kolik je hlavních a bonusových čísel a jak velký je každý fond.</li><li>Stiskněte Generovat šťastná čísla — stiskněte znovu pro zcela novou sadu.</li></ol>
+<div class="exbox"><strong>Příklad:</strong> Pro EuroMillions generátor losuje 5 různých hlavních čísel z 1–50 a 2 Lucky Stars z 1–12 — například 7 · 15 · 23 · 34 · 48 s hvězdami 3 · 9. Jakákoli jiná kombinace, včetně 1 · 2 · 3 · 4 · 5, je přesně stejně pravděpodobná.</div>
+<h2>Často kladené otázky</h2></section><div class="faq"><h3>Zlepšují vygenerovaná čísla mé šance na výhru?</h3><p>Ne — a každý nástroj, který tvrdí opak, vás klame. Každá platná kombinace má přesně stejnou pravděpodobnost, ať ji vyberete vy, stroj, nebo je to 1-2-3-4-5-6. Generátor je prostě férový a rychlý způsob výběru.</p></div><div class="faq"><h3>Jaké jsou šance na jackpot u každé hry?</h3><p>Powerball: 1 z 292,201,338. Mega Millions: 1 z 290,472,336 (současný formát od dubna 2025). EuroMillions: 1 ze 139,838,160. UK Lotto: 1 ze 45,057,474. Pro představu, je mnohem pravděpodobnější, že vás za život zasáhne blesk, než že vyhrajete jackpot.</p></div><div class="faq"><h3>Proč jsou zobrazená čísla seřazená?</h3><p>Skutečné losy jsou neseřazené, ale tikety a výsledky se běžně tisknou ve vzestupném pořadí, abyste je mohli snadno porovnat. Řazení je pouze prezentace — nemění kombinaci ani její šance.</p></div>
+<h2 class="sec">Související kalkulačky</h2><div class="grid"><a class="card" href="../random-number-generator/"><div class="ic">🎲</div><h3>Generátor náhodných čísel</h3><p>Zábava</p></a><a class="card" href="../dice-roller/"><div class="ic">🎲</div><h3>Házení kostkou</h3><p>Zábava</p></a><a class="card" href="../coin-flip/"><div class="ic">🪙</div><h3>Hod mincí</h3><p>Zábava</p></a><a class="card" href="../love-calculator/"><div class="ic">❤️</div><h3>Kalkulačka lásky</h3><p>Zábava</p></a><a class="card" href="../percentage-calculator/"><div class="ic">％</div><h3>Kalkulačka procent</h3><p>Matematika</p></a></div>
+</div>
+<section class="txt"><h2>Jak to funguje &mdash; vzorec</h2>
+<p>Generátor losuje <strong>bez vracení</strong> z každé zásoby pomocí bezpečného zdroje náhodnosti (crypto.getRandomValues s odmítacím vzorkováním), takže každá kombinace správné velikosti je stejně pravděpodobná. Počet možných kombinací hry s velikostí zásoby <em>n</em> a vybere <em>k</em> je binomický koeficient <strong>C(n, k) = n! ÷ (k! × (n−k)!)</strong>; hry se samostatným bonusovým fondem násobí hlavní kombinace velikostí bonusového fondu.</p>
+<h3>Vypracovaný příklad</h3>
+<div class="exbox"><strong>Příklad (UK Lotto):</strong> C(59, 6) = 59! ÷ (6! × 53!) = <strong>45,057,474</strong> možných kombinací — tedy šance na jackpot 1 ku 45,057,474 na řadu lístku. Pro Powerball: C(69, 5) = 11,238,513 hlavních kombinací × 26 Powerballů = <strong>292,201,338</strong>.</div>
+<h3>Často kladené dotazy</h3></section><div class="faq"><h3>Může se číslo v jedné sadě opakovat?</h3><p>Hlavní čísla jsou v rámci jedné sady vždy jedinečná, stejně jako se v reálných loteriích losuje bez vracení. Bonusová čísla (například Powerball) pocházejí z odděleného fondu, takže se bonusové číslo může náhodou shodovat s hlavním číslem — přesně jako ve skutečné hře.</p></div><div class="faq"><h3>Mám se vyhýbat 'nešťastným' nebo oblíbeným číslům?</h3><p>Na vaši šanci na výhru to nemá žádný vliv, ale může to ovlivnit výši výhry, pokud vyhrajete: kombinace, které hraje mnoho lidí (narozeniny 1–31, vzory, slavné posloupnosti), se dělí mezi více výherců. Neoblíbeně vypadající kombinace nevyhrávají častěji — jen se obvykle dělí méně.</p></div><div class="faq"><h3>Je tento nástroj spojen s nějakou loterií?</h3><p>Ne. Loona Automation není spojena s Powerball, Mega Millions, EuroMillions, britskou národní loterií ani žádným provozovatelem. Vždy si ověřte oficiální pravidla, fondy a harmonogramy losování pro svou hru a hrajte zodpovědně — nikdy neutrácejte peníze, které si nemůžete dovolit ztratit.</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Vložte tuto kalkulačku na své webové stránky — zdarma</h2>
+<p style="margin:0 0 12px;line-height:1.6">Přidejte tuto kalkulačku na svůj vlastní web nebo blog — je zcela zdarma, nevyžaduje registraci a vždy zobrazuje nejnovější verzi. Zkopírujte kód níže a vložte ho na svou stránku tam, kde chcete, aby se kalkulačka objevila. Ponechání malého řádku s poděkováním &ldquo;Powered by Loona Automation&rdquo; pod vložením pomáhá udržet tento nástroj zdarma &mdash; ale můžete ho libovolně upravit nebo odstranit; nástroj funguje tak jako tak.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/cs/lottery-number-generator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Lottery Number Generator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Poskytuje &lt;a href="https://loonaautomation.github.io/loona-calculators/cs/lottery-number-generator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; zdarma Generátor loterijních čísel&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Kopírovat kód pro vložení</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='Kopírovat kód pro vložení';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Oblíbené kalkulačky</h4><ul><li><a href="../age-calculator/">Kalkulačka věku</a></li>
+<li><a href="../zakat-calculator/">Kalkulačka zakátu</a></li>
+<li><a href="../cgpa-calculator/">Kalkulačka CGPA</a></li>
+<li><a href="../percentage-calculator/">Kalkulačka procent</a></li>
+<li><a href="../hijri-date-converter/">Převodník data hidžry</a></li>
+<li><a href="../emi-calculator/">Kalkulačka EMI a úvěru</a></li></ul></div>
+<div><h4>Další nástroje Loona</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Kompresor obrázků</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI asistent</a></li>
+<li><a href="https://loonaautomation.github.io/">Všechny nástroje Loona</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">O nás</a></li>
+<li><a href="../contact.html">Kontakt</a></li>
+<li><a href="../privacy-policy.html">Zásady ochrany osobních údajů</a></li>
+<li><a href="../terms.html">Podmínky použití</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — a <a href="https://loonaautomation.github.io/">Loona Automation</a> projekt. Bezplatné online kalkulačky, bez registrace.
+Kontakt: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+function cryptoRandomInt(min, max) {
+  var range = max - min + 1;
+  if (!(range >= 1)) throw new Error("Neplatný rozsah.");
+  if (range > 4294967296) throw new Error("Rozsah je příliš velký.");
+  var limit = Math.floor(4294967296 / range) * range;
+  var buf = new Uint32Array(1), x;
+  do { crypto.getRandomValues(buf); x = buf[0]; } while (x >= limit);
+  return min + (x % range);
+}
+function generateRandomNumbers(min, max, count, unique) {
+  min = Math.floor(min); max = Math.floor(max); count = Math.floor(count);
+  if (isNaN(min) || isNaN(max) || isNaN(count)) throw new Error("Zadejte prosím platná čísla do všech polí.");
+  if (max < min) throw new Error("Maximum musí být větší nebo rovno minimu.");
+  if (count < 1 || count > 10000) throw new Error("Vyberte 1 až 10,000 čísel.");
+  if (unique && count > (max - min + 1)) throw new Error("V tomto rozsahu není dost jedinečných čísel.");
+  var out = [], seen = {};
+  while (out.length < count) {
+    var v = cryptoRandomInt(min, max);
+    if (unique) { if (seen[v]) continue; seen[v] = 1; }
+    out.push(v);
+  }
+  return out;
+}
+function generateUniqueSorted(count, max) {
+  var seen = {}, out = [];
+  while (out.length < count) {
+    var v = cryptoRandomInt(1, max);
+    if (!seen[v]) { seen[v] = 1; out.push(v); }
+  }
+  out.sort(function (a, b) { return a - b; });
+  return out;
+}
+/*TESTABLE_END*/
+
+/*TESTABLE_START*/
+var LOTTERY_PRESETS = {
+  powerball: { name: "Powerball", mainCount: 5, mainMax: 69, bonusCount: 1, bonusMax: 26, bonusName: "Powerball" },
+  megamillions: { name: "Mega Millions", mainCount: 5, mainMax: 70, bonusCount: 1, bonusMax: 24, bonusName: "Mega Ball" },
+  euromillions: { name: "EuroMillions", mainCount: 5, mainMax: 50, bonusCount: 2, bonusMax: 12, bonusName: "Lucky Stars" },
+  uklotto: { name: "UK Lotto", mainCount: 6, mainMax: 59, bonusCount: 0, bonusMax: 0, bonusName: "" }
+};
+function drawLottery(p) {
+  if (p.mainCount < 1 || p.mainCount > p.mainMax) throw new Error("Hlavní čísla: počet musí být mezi 1 a velikostí fondu.");
+  if (p.bonusCount < 0 || (p.bonusCount > 0 && p.bonusCount > p.bonusMax)) throw new Error("Bonusová čísla: počet musí odpovídat bonusovému fondu.");
+  return { main: generateUniqueSorted(p.mainCount, p.mainMax), bonus: p.bonusCount > 0 ? generateUniqueSorted(p.bonusCount, p.bonusMax) : [] };
+}
+/*TESTABLE_END*/
+function lotCurrentPreset() {
+  var g = document.getElementById('lotGame').value;
+  if (g !== 'custom') return LOTTERY_PRESETS[g];
+  return {
+    name: "Custom lottery",
+    mainCount: parseInt(document.getElementById('lotMainCount').value, 10) || 0,
+    mainMax: parseInt(document.getElementById('lotMainMax').value, 10) || 0,
+    bonusCount: parseInt(document.getElementById('lotBonusCount').value, 10) || 0,
+    bonusMax: parseInt(document.getElementById('lotBonusMax').value, 10) || 0,
+    bonusName: "Bonus"
+  };
+}
+function lotRun() {
+  var box = document.getElementById('lotResult');
+  try {
+    var p = lotCurrentPreset();
+    var d = drawLottery(p);
+    var balls = d.main.map(function (n) { return '<div class="ball">' + n + '</div>'; }).join('');
+    var bonus = d.bonus.map(function (n) { return '<div class="ball bonus">' + n + '</div>'; }).join('');
+    box.style.display = 'block';
+    box.innerHTML = '<div class="resbig"><span>' + p.name + ' — vaše čísla</span><strong>Hodně štěstí!</strong></div>' +
+      '<div class="balls">' + balls + (bonus ? '<div style="width:14px"></div>' + bonus : '') + '</div>' +
+      '<p style="font-size:15px"><strong>' + d.main.join(' · ') + '</strong>' + (d.bonus.length ? ' &nbsp;|&nbsp; ' + p.bonusName + ': <strong>' + d.bonus.join(' · ') + '</strong>' : '') + '</p>' +
+      '<p class="resnote">Každá kombinace je stejně pravděpodobná — vygenerovaná čísla mají naprosto stejnou šanci jako jakákoli čísla, která si vyberete sami. Hrajte zodpovědně: los je zábava, nikdy investice.</p>';
+  } catch (e) {
+    box.style.display = 'block';
+    box.innerHTML = '<p class="err">' + e.message + '</p>';
+  }
+}
+document.getElementById('lotGame').addEventListener('change', function () {
+  document.getElementById('lotCustom').style.display = this.value === 'custom' ? 'block' : 'none';
+});
+document.getElementById('lotForm').addEventListener('submit', function (e) { e.preventDefault(); lotRun(); });
+lotRun();
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Instalovat aplikaci';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Nainstalujte si tuto aplikaci: klepněte na tlačítko Sdílet a poté zvolte „Přidat na plochu“.');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

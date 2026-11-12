@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka libové tělesné hmoty",
+  "short_name": "Kalkulačka libové tělesné hmoty",
+  "description": "Bezplatná kalkulačka libové tělesné hmoty pomocí Boerova, Jamesova a Humeova vzorce z hmotnosti, výšky a pohlaví — bez potřeby krejčovského metru. Vzdělávací odhad.",
+  "id": "/loona-calculators/cs/lean-body-mass-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

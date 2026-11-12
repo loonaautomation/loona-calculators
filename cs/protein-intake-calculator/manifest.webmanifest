@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka příjmu bílkovin",
+  "short_name": "Kalkulačka příjmu bílkovin",
+  "description": "Bezplatná kalkulačka příjmu bílkovin: denní gramy bílkovin z tělesné hmotnosti, úrovně aktivity a cíle pomocí rozmezí g/kg podložených důkazy. Odlišné od rozdělení maker založeného na kaloriích.",
+  "id": "/loona-calculators/cs/protein-intake-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

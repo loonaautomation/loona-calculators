@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka daně z příjmu Pákistán 2026",
+  "short_name": "Kalkulačka daně z příjmu",
+  "description": "Bezplatná pákistánská kalkulačka daně ze mzdy (daňový rok 2026): zadejte svou měsíční hrubou mzdu a uvidíte daň z příjmu za měsíc a rok, čistou mzdu po zdanění a efektivní sazbu daně. Pásma FBR pro zaměstnance.",
+  "id": "/loona-calculators/cs/salary-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

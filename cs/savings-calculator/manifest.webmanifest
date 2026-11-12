@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka spoření",
+  "short_name": "Kalkulačka spoření",
+  "description": "Bezplatná kalkulačka spoření: zadejte měsíční vklad, úrokovou sazbu a roky a uvidíte budoucí hodnotu svých úspor, celkově vloženou částku a získané úroky.",
+  "id": "/loona-calculators/cs/savings-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

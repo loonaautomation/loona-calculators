@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kontrola evropských pravidel řízení",
+  "short_name": "Kontrola evropských pravidel silničního provozu",
+  "description": "Bezplatná kontrola evropských pravidel silničního provozu: vyberte zemi pro její stranu provozu, rychlostní limit na dálnici, limit alkoholu za volantem a klíčová místní pravidla pro hostující řidiče.",
+  "id": "/loona-calculators/cs/europe-driving-rules-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

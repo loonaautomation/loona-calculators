@@ -1,0 +1,29 @@
+{
+  "name": "Loona Převodník Km na metry",
+  "short_name": "Převodník Km na Metry",
+  "description": "Převeďte kilometry na metry okamžitě. Přesný vzorec, kompletní převodní tabulka km na m a ukázkové příklady. Zdarma, bez registrace.",
+  "id": "/loona-calculators/cs/kilometers-to-meters-converter.html",
+  "start_url": "./kilometers-to-meters-converter.html",
+  "scope": "./kilometers-to-meters-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka bodu zvratu",
+  "short_name": "Kalkulačka bodu zvratu",
+  "description": "Bezplatná kalkulačka bodu zvratu: zadejte fixní náklady, prodejní cenu a variabilní náklady na jednotku a zjistěte, kolik jednotek musíte prodat, abyste dosáhli bodu zvratu, a při jakém obratu.",
+  "id": "/loona-calculators/cs/break-even-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Převodník velikostí obuvi",
+  "short_name": "Převodník velikostí obuvi",
+  "description": "Bezplatný převodník velikostí obuvi pro muže a ženy: převádějte mezi velikostmi US, UK a EU a délkou chodidla v cm a palcích, pomocí standardních převodních tabulek s nejbližší shodou.",
+  "id": "/loona-calculators/cs/shoe-size-converter/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

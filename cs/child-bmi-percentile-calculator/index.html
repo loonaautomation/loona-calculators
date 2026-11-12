@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kalkulačka percentilu BMI dítěte — růstové grafy CDC (věk 2–20) | Loona</title>
+<meta name="description" content="Bezplatná kalkulačka percentilu dětského BMI s oficiálními daty růstových grafů CDC LMS pro věk 2 až 20: BMI, percentil, z-skóre a hmotnostní kategorie pro chlapce a dívky.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/cs/child-bmi-percentile-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/child-bmi-percentile-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/child-bmi-percentile-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/child-bmi-percentile-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/child-bmi-percentile-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/child-bmi-percentile-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/child-bmi-percentile-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/child-bmi-percentile-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/child-bmi-percentile-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/child-bmi-percentile-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/child-bmi-percentile-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/child-bmi-percentile-calculator/"><link rel="alternate" hreflang="cs" href="https://loonaautomation.github.io/loona-calculators/cs/child-bmi-percentile-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/child-bmi-percentile-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Kalkulačka percentilu BMI dítěte — růstové grafy CDC (věk 2–20) | Loona">
+<meta property="og:description" content="Bezplatná kalkulačka percentilu dětského BMI s oficiálními daty růstových grafů CDC LMS pro věk 2 až 20: BMI, percentil, z-skóre a hmotnostní kategorie pro chlapce a dívky.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/cs/child-bmi-percentile-calculator/"><meta property="og:locale" content="cs_CZ">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Kalkulačka percentilu BMI dítěte — růstové grafy CDC (věk 2–20) | Loona">
+<meta name="twitter:description" content="Bezplatná kalkulačka percentilu dětského BMI s oficiálními daty růstových grafů CDC LMS pro věk 2 až 20: BMI, percentil, z-skóre a hmotnostní kategorie pro chlapce a dívky.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona Kalkulačka percentilu BMI u dětí","url":"https://loonaautomation.github.io/loona-calculators/cs/child-bmi-percentile-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Odkud pocházejí data?","acceptedAnswer":{"@type":"Answer","text":"Oficiální datový soubor růstových grafů CDC (bmiagerev.csv, parametry LMS podle pohlaví a měsíce věku). Tato stránka vkládá hodnoty L, M a S CDC každých 6 měsíců od 24.5 do 240.5 měsíců a lineárně mezi nimi interpoluje; percentily v bodech samotné tabulky odpovídají publikovaným percentilům CDC."}},{"@type":"Question","name":"Jak funguje metoda LMS?","acceptedAnswer":{"@type":"Answer","text":"Každá kombinace věku a pohlaví má tři čísla: L (mocnina šikmosti), M (medián BMI) a S (variace). Z-skóre je z = ((BMI ÷ M)^L − 1) ÷ (L × S) a percentil je standardní normální CDF z hodnoty z. Je to přesná metoda, kterou publikuje CDC."}},{"@type":"Question","name":"Proč nepoužít kategorie BMI pro dospělé?","acceptedAnswer":{"@type":"Answer","text":"Protože děti stále rostou: BMI, které je zdravé v 16 letech, může být vysoké v 8 letech. Percentily porovnávají dítě s referenční populací stejného věku a pohlaví, a proto je pediatrická praxe používá."}},{"@type":"Question","name":"Mám se obávat jednoho výsledku?","acceptedAnswer":{"@type":"Answer","text":"Jediné percentilové měření je momentka pro screening, ne diagnóza. Vzory růstu v čase záleží více. Obavy vždy proberte s lékařem svého dítěte. Tato stránka je pouze vzdělávací."}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/cs/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Kalkulačka percentilu BMI dítěte",
+      "item": "https://loonaautomation.github.io/loona-calculators/cs/child-bmi-percentile-calculator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Logo Loona Automation">
+<div class="brand">Loona <span>Kalkulačky</span></div>
+<nav>
+<a href="../">Domů</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">O nás</a>
+<a href="../contact.html">Kontakt</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › Zdraví › Kalkulačka percentilu BMI dítěte</div>
+<h1 class="pagetitle">🧒 Kalkulačka percentilu BMI dítěte</h1>
+<p class="lead">Zadejte věk, pohlaví, výšku a hmotnost svého dítěte. Kalkulačka spočítá jeho BMI a převede ho na percentil a z-skóre pomocí oficiálních LMS dat růstových grafů CDC — stejné reference, jakou používají lékaři — pro věk 2 až 20.</p>
+<div class="exbox"><strong>Rychlá odpověď:</strong> BMI dětí se čte jako percentil pro jejich věk a pohlaví, ne podle stupnice pro dospělé: pod 5. percentilem je podváha, od 5. do pod 85. percentilem je zdravá hmotnost, od 85. do pod 95. percentilem je nadváha a 95. percentil a výše je obezita (kategorie CDC).</div>
+<div class="toolbox"><form class="calcform" id="cbForm">
+<div class="fld"><label for="cbSex">Dítě</label><select id="cbSex"><option value="1">Chlapec</option><option value="2">Dívka</option></select></div>
+<div class="fld"><label for="cbYears">Věk — roky</label><input type="number" id="cbYears" value="10" min="2" max="20"></div>
+<div class="fld"><label for="cbMonths">Věk — měsíce navíc</label><input type="number" id="cbMonths" value="0" min="0" max="11"></div>
+<div class="fld"><label for="cbH">Výška (cm)</label><input type="number" id="cbH" value="140" min="60" max="220" step="0.1"></div>
+<div class="fld"><label for="cbW">Hmotnost (kg)</label><input type="number" id="cbW" value="32.6" min="5" max="250" step="0.1"></div>
+<button class="calcbtn" type="submit">Vypočítat percentil BMI</button>
+<div class="calcresult" id="cbResult" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>Jak používat kalkulačku dětského BMI percentilu</h2><ol><li>Zadejte věk dítěte v letech a měsících (věk 2 až 20).</li><li>Vyberte chlapce nebo dívku — grafy CDC jsou specifické pro pohlaví.</li><li>Zadejte výšku v cm a hmotnost v kg.</li><li>Přečtěte si BMI, jeho percentil a z-skóre a kategorii CDC.</li></ol>
+<div class="exbox"><strong>Příklad:</strong> Chlapec ve věku 10 let (120.5 měsíce) s BMI 16.65 je přesně na mediánu CDC — 50. percentilu. BMI 22.15 ve stejném věku je 95. percentil CDC.</div>
+<h2>Často kladené otázky</h2></section><div class="faq"><h3>Odkud pocházejí data?</h3><p>Oficiální datový soubor růstových grafů CDC (bmiagerev.csv, parametry LMS podle pohlaví a měsíce věku). Tato stránka vkládá hodnoty L, M a S CDC každých 6 měsíců od 24.5 do 240.5 měsíců a lineárně mezi nimi interpoluje; percentily v bodech samotné tabulky odpovídají publikovaným percentilům CDC.</p></div><div class="faq"><h3>Jak funguje metoda LMS?</h3><p>Každá kombinace věku a pohlaví má tři čísla: L (mocnina šikmosti), M (medián BMI) a S (variace). Z-skóre je z = ((BMI ÷ M)^L − 1) ÷ (L × S) a percentil je standardní normální CDF z hodnoty z. Je to přesná metoda, kterou publikuje CDC.</p></div><div class="faq"><h3>Proč nepoužít kategorie BMI pro dospělé?</h3><p>Protože děti stále rostou: BMI, které je zdravé v 16 letech, může být vysoké v 8 letech. Percentily porovnávají dítě s referenční populací stejného věku a pohlaví, a proto je pediatrická praxe používá.</p></div><div class="faq"><h3>Mám se obávat jednoho výsledku?</h3><p>Jediné percentilové měření je momentka pro screening, ne diagnóza. Vzory růstu v čase záleží více. Obavy vždy proberte s lékařem svého dítěte. Tato stránka je pouze vzdělávací.</p></div>
+<h2 class="sec">Související kalkulačky</h2><div class="grid"><a class="card" href="../bmi-calculator/"><div class="ic">⚖️</div><h3>Kalkulačka BMI</h3><p>Zdraví</p></a><a class="card" href="../calorie-calculator/"><div class="ic">🍽️</div><h3>Kalkulačka kalorií</h3><p>Zdraví</p></a><a class="card" href="../ideal-weight-calculator/"><div class="ic">🎯</div><h3>Kalkulačka ideální hmotnosti</h3><p>Zdraví</p></a></div>
+</div>
+<section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>Jak to funguje — vzorec</h2>
+<p>BMI = hmotnost (kg) ÷ výška (m)². Pak metoda CDC LMS: s hodnotami L, M, S pro pohlaví a věk dítěte v měsících (interpolovanými z tabulky CDC), <strong>z = ((BMI ÷ M)^L − 1) ÷ (L × S)</strong> a <strong>percentil = Φ(z) × 100</strong>, kde Φ je distribuční funkce standardního normálního rozdělení. Kategorie (CDC): &lt; 5. percentil podváha; 5.–&lt;85. zdravá hmotnost; 85.–&lt;95. nadváha; ≥ 95. obezita.</p>
+<h3>Vypracovaný příklad</h3><div class="exbox"><p><strong>Vstupy:</strong> chlapec, 120.5 měsíce, BMI 22.154 (hodnota CDC P95 v tomto věku, z oficiální tabulky).</p><p><strong>Kroky:</strong> Hodnoty CDC ve 120.5 měsících pro chlapce: L = −2.76565, M = 16.64614, S = 0.12011. BMI ÷ M = 22.154 ÷ 16.646 = 1.3308. (1.3308^(−2.76565) − 1) = (0.4537 − 1) = −0.5463. z = −0.5463 ÷ (−2.76565 × 0.12011) = −0.5463 ÷ −0.33222 = 1.644. Φ(1.644) ≈ 0.950.</p><p><strong>Výsledek:</strong> Percentil ≈ <strong>95.</strong> — přesně CDC publikované P95, což potvrzuje metodu.</p></div>
+<p class="resnote"><strong>Zdravotní prohlášení:</strong> Pouze vzdělávací odhad — nejde o lékařskou radu, diagnózu ani léčbu. O svém zdraví nebo zdraví svého dítěte se vždy poraďte s kvalifikovaným zdravotnickým odborníkem.</p>
+</section>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Vložte tuto kalkulačku na své webové stránky — zdarma</h2>
+<p style="margin:0 0 12px;line-height:1.6">Přidejte tuto kalkulačku na svůj vlastní web nebo blog — je zcela zdarma, nevyžaduje registraci a vždy zobrazuje nejnovější verzi. Zkopírujte kód níže a vložte ho na svou stránku tam, kde chcete, aby se kalkulačka objevila. Ponechání malého řádku s poděkováním &ldquo;Powered by Loona Automation&rdquo; pod vložením pomáhá udržet tento nástroj zdarma &mdash; ale můžete ho libovolně upravit nebo odstranit; nástroj funguje tak jako tak.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/cs/child-bmi-percentile-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Child BMI Percentile Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Poskytuje &lt;a href="https://loonaautomation.github.io/loona-calculators/cs/child-bmi-percentile-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; zdarma Kalkulačka percentilu BMI dítěte&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Kopírovat kód pro vložení</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='Kopírovat kód pro vložení';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Oblíbené kalkulačky</h4><ul><li><a href="../age-calculator/">Kalkulačka věku</a></li>
+<li><a href="../zakat-calculator/">Kalkulačka zakátu</a></li>
+<li><a href="../cgpa-calculator/">Kalkulačka CGPA</a></li>
+<li><a href="../percentage-calculator/">Kalkulačka procent</a></li>
+<li><a href="../hijri-date-converter/">Převodník data hidžry</a></li>
+<li><a href="../emi-calculator/">Kalkulačka EMI a úvěru</a></li></ul></div>
+<div><h4>Další nástroje Loona</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Kompresor obrázků</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI asistent</a></li>
+<li><a href="https://loonaautomation.github.io/">Všechny nástroje Loona</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">O nás</a></li>
+<li><a href="../contact.html">Kontakt</a></li>
+<li><a href="../privacy-policy.html">Zásady ochrany osobních údajů</a></li>
+<li><a href="../terms.html">Podmínky použití</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — a <a href="https://loonaautomation.github.io/">Loona Automation</a> projekt. Bezplatné online kalkulačky, bez registrace.
+Kontakt: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+var CDC_LMS={"1": [[24.5, -1.98237, 16.5478, 0.08013], [30.5, -1.64211, 16.2497, 0.0755], [36.5, -1.41999, 16.0003, 0.07263], [42.5, -1.43816, 15.7941, 0.0715], [48.5, -1.71487, 15.6282, 0.07189], [54.5, -2.15535, 15.5026, 0.07349], [60.5, -2.61517, 15.4191, 0.07599], [66.5, -2.9818, 15.3795, 0.07921], [72.5, -3.21171, 15.3835, 0.08305], [78.5, -3.31477, 15.429, 0.0874], [84.5, -3.32319, 15.5129, 0.09213], [90.5, -3.27045, 15.6317, 0.09708], [96.5, -3.18306, 15.7823, 0.10209], [102.5, -3.07938, 15.9617, 0.10701], [108.5, -2.97115, 16.1671, 0.11172], [114.5, -2.86531, 16.3961, 0.11611], [120.5, -2.76565, 16.6461, 0.12011], [126.5, -2.6739, 16.9151, 0.12366], [132.5, -2.59056, 17.2009, 0.12673], [138.5, -2.51532, 17.5014, 0.12931], [144.5, -2.44743, 17.8146, 0.13139], [150.5, -2.38586, 18.1387, 0.13299], [156.5, -2.32946, 18.4718, 0.13414], [162.5, -2.27702, 18.812, 0.13488], [168.5, -2.22736, 19.1576, 0.13525], [174.5, -2.17943, 19.5067, 0.13531], [180.5, -2.13234, 19.8577, 0.13511], [186.5, -2.08557, 20.2086, 0.13472], [192.5, -2.03902, 20.5576, 0.1342], [198.5, -1.99315, 20.9029, 0.13362], [204.5, -1.94913, 21.2425, 0.13306], [210.5, -1.90883, 21.5742, 0.13258], [216.5, -1.87467, 21.8959, 0.13229], [222.5, -1.84932, 22.2054, 0.13225], [228.5, -1.83514, 22.5007, 0.13257], [234.5, -1.8334, 22.7799, 0.13334], [240.5, -1.84358, 23.0414, 0.13468]], "2": [[24.5, -1.0245, 16.388, 0.08503], [30.5, -1.53454, 16.0059, 0.08093], [36.5, -2.09683, 15.6992, 0.07861], [42.5, -2.61873, 15.4647, 0.0779], [48.5, -3.01852, 15.2985, 0.07871], [54.5, -3.2593, 15.1961, 0.0809], [60.5, -3.35008, 15.1519, 0.0843], [66.5, -3.32552, 15.1606, 0.08868], [72.5, -3.22561, 15.2169, 0.0938], [78.5, -3.08429, 15.3161, 0.09943], [84.5, -2.92619, 15.4536, 0.10533], [90.5, -2.76731, 15.6252, 0.11129], [96.5, -2.61719, 15.827, 0.11716], [102.5, -2.48095, 16.0552, 0.12277], [108.5, -2.36092, 16.3061, 0.12801], [114.5, -2.25778, 16.5763, 0.1328], [120.5, -2.1713, 16.8623, 0.13706], [126.5, -2.10075, 17.161, 0.14075], [132.5, -2.04524, 17.4691, 0.14387], [138.5, -2.0038, 17.7836, 0.1464], [144.5, -1.97552, 18.1015, 0.14836], [150.5, -1.95952, 18.42, 0.14978], [156.5, -1.95498, 18.7364, 0.15071], [162.5, -1.9611, 19.0481, 0.15118], [168.5, -1.97707, 19.3526, 0.15126], [174.5, -2.00201, 19.6475, 0.15101], [180.5, -2.03489, 19.9306, 0.15051], [186.5, -2.07446, 20.1998, 0.14984], [192.5, -2.11916, 20.4533, 0.14909], [198.5, -2.16704, 20.6891, 0.14835], [204.5, -2.21574, 20.9058, 0.14772], [210.5, -2.26238, 21.1016, 0.14732], [216.5, -2.30369, 21.2753, 0.14727], [222.5, -2.33604, 21.4255, 0.14769], [228.5, -2.35568, 21.5508, 0.14872], [234.5, -2.35898, 21.6501, 0.15052], [240.5, -2.3428, 21.7219, 0.15324]]};
+function normCdfCb(z){
+  var t=1/(1+0.2316419*Math.abs(z));
+  var poly=t*(0.319381530+t*(-0.356563782+t*(1.781477937+t*(-1.821255978+t*1.330274429))));
+  var phi=Math.exp(-z*z/2)/Math.sqrt(2*Math.PI);
+  var p=1-phi*poly;
+  return z>=0?p:1-p;
+}
+function lmsAt(sex,ageMonths){
+  var tab=CDC_LMS[String(sex)]; if(!tab)return null;
+  if(ageMonths<tab[0][0]||ageMonths>tab[tab.length-1][0])return null;
+  for(var i=0;i<tab.length-1;i++){
+    var a=tab[i],b=tab[i+1];
+    if(ageMonths>=a[0]&&ageMonths<=b[0]){
+      var f=(ageMonths-a[0])/(b[0]-a[0]);
+      return {L:a[1]+(b[1]-a[1])*f,M:a[2]+(b[2]-a[2])*f,S:a[3]+(b[3]-a[3])*f};
+    }
+  }
+  var last=tab[tab.length-1]; return {L:last[1],M:last[2],S:last[3]};
+}
+function childBmi(sex,ageMonths,bmi){
+  var lms=lmsAt(sex,ageMonths); if(!lms||!(bmi>0))return null;
+  var z=(Math.pow(bmi/lms.M,lms.L)-1)/(lms.L*lms.S);
+  var pct=normCdfCb(z)*100;
+  var cat=pct<5?"Underweight":pct<85?"Healthy weight":pct<95?"Overweight":"Obesity";
+  return {z:z,percentile:pct,category:cat,lms:lms};
+}
+function childBmiFromMeasures(sex,ageMonths,weightKg,heightCm){
+  if(!(weightKg>0)||!(heightCm>0))return null;
+  var bmi=weightKg/Math.pow(heightCm/100,2);
+  var r=childBmi(sex,ageMonths,bmi); if(!r)return null; r.bmi=bmi; return r;
+}
+/*TESTABLE_END*/
+document.getElementById('cbForm').addEventListener('submit',function(e){e.preventDefault();
+ var ageM=parseInt(document.getElementById('cbYears').value,10)*12+parseInt(document.getElementById('cbMonths').value||"0",10)+0.5;
+ var r=childBmiFromMeasures(document.getElementById('cbSex').value,ageM,parseFloat(document.getElementById('cbW').value),parseFloat(document.getElementById('cbH').value));
+ var box=document.getElementById('cbResult'); box.style.display='block';
+ if(!r){box.innerHTML='<p class="err">Zkontrolujte prosím vstupy — tento graf pokrývá věk 2 až 20 let.</p>';return;}
+ box.innerHTML='<div class="resbig"><span>Percentil BMI (CDC)</span><strong>'+r.percentile.toFixed(1)+'. percentil</strong></div>'
+ +'<table class="restbl"><tr><td>BMI</td><td><strong>'+r.bmi.toFixed(2)+'</strong></td></tr>'
+ +'<tr><td>Z-skóre</td><td><strong>'+r.z.toFixed(2)+'</strong></td></tr>'
+ +'<tr><td>Kategorie CDC</td><td><strong>'+r.category+'</strong></td></tr></table>'
+ +'<p class="resnote">Pouze screeningové informace, nejde o diagnózu. Důležité jsou růstové vzorce v čase — jakékoli obavy proberte s lékařem vašeho dítěte.</p>';});
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Instalovat aplikaci';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Nainstalujte si tuto aplikaci: klepněte na tlačítko Sdílet a poté zvolte „Přidat na plochu“.');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

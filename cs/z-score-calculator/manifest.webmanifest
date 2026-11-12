@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka z-skóre",
+  "short_name": "Kalkulačka Z-skóre",
+  "description": "Bezplatná kalkulačka z-skóre: zadejte hodnotu, průměr a směrodatnou odchylku a získáte z-skóre, percentil a pravděpodobnosti ze standardní normální tabulky (normální rozdělení).",
+  "id": "/loona-calculators/cs/z-score-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

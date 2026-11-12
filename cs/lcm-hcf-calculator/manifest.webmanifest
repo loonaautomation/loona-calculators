@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka nejmenšího společného násobku a největšího společného dělitele",
+  "short_name": "Kalkulačka LCM a HCF",
+  "description": "Bezplatná kalkulačka LCM a HCF: zadejte dvě nebo tři celá čísla a okamžitě získáte jejich nejmenší společný násobek (LCM) a největší společný dělitel (HCF/GCD).",
+  "id": "/loona-calculators/cs/lcm-hcf-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

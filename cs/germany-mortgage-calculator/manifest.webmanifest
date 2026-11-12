@@ -1,0 +1,29 @@
+{
+  "name": "Loona Německá hypoteční kalkulačka",
+  "short_name": "Kalkulačka hypotéky pro Německo",
+  "description": "Bezplatná německá kalkulačka hypotéky (Baufinanzierung) v eurech: měsíční anuita z úrokové sazby a počátečního Tilgung, zbývající dluh po období fixace.",
+  "id": "/loona-calculators/cs/germany-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

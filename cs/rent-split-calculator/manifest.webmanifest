@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka rozdělení nájmu",
+  "short_name": "Kalkulačka rozdělení nájmu",
+  "description": "Bezplatná kalkulačka dělení nájmu: rozdělte měsíční nájem mezi 2 až 8 spolubydlících — rovným dílem, podle velikosti pokoje ve stopách čtverečních, nebo podle příjmu. Podíly vždy dávají přesný součet.",
+  "id": "/loona-calculators/cs/rent-split-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

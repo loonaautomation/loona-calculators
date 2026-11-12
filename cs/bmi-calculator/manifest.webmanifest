@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka BMI",
+  "short_name": "Kalkulačka BMI",
+  "description": "Bezplatná kalkulačka BMI: zadejte svou hmotnost a výšku (cm nebo stopy/palce) a zkontrolujte svůj index tělesné hmotnosti, svou kategorii a zdravé rozmezí hmotnosti pro vaši výšku.",
+  "id": "/loona-calculators/cs/bmi-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

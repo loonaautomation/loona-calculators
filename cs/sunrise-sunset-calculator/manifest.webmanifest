@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka východu a západu Slunce",
+  "short_name": "Kalkulačka východu a západu slunce",
+  "description": "Bezplatná kalkulačka východu a západu slunce: zadejte datum a zeměpisnou šířku/délku a získáte východ slunce, západ slunce, délku dne a sluneční poledne v UTC a v místním slunečním čase. Matematika NOAA.",
+  "id": "/loona-calculators/cs/sunrise-sunset-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

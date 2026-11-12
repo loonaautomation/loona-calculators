@@ -1,0 +1,29 @@
+{
+  "name": "Loona Hypoteční kalkulačka SAE",
+  "short_name": "Hypoteční kalkulačka SAE",
+  "description": "Bezplatná kalkulačka hypotéky SAE v dirhamech: měsíční splátka, celkové úroky a datum splacení pro jakoukoli cenu nemovitosti, vklad, úrokovou sazbu a dobu splatnosti, plus porovnání přeplatků.",
+  "id": "/loona-calculators/cs/uae-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

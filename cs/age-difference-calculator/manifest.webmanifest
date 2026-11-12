@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka věkového rozdílu",
+  "short_name": "Kalkulačka rozdílu věku",
+  "description": "Bezplatná kalkulačka rozdílu věku: zadejte dvě data narození a získáte přesný rozdíl v letech, měsících a dnech, celkový počet dnů mezi nimi a zjistíte, kdo je starší.",
+  "id": "/loona-calculators/cs/age-difference-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

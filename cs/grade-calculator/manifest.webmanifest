@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka známek",
+  "short_name": "Kalkulačka známek",
+  "description": "Bezplatná kalkulačka vážené známky: zadejte až 8 výsledků úkolů s jejich váhami a získáte své celkové procento známky a písmennou známku. Váhy nemusí dávat dohromady 100.",
+  "id": "/loona-calculators/cs/grade-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

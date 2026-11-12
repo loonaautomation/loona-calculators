@@ -1,0 +1,29 @@
+{
+  "name": "Loona Převodník kilobajtů na bity",
+  "short_name": "Převodník Kilobajt na Bit",
+  "description": "Převeďte kilobajty na bity okamžitě. Přesný vzorec, kompletní převodní tabulka KB na bit, ukázkový příklad a časté dotazy. Zdarma, bez registrace.",
+  "id": "/loona-calculators/cs/kilobytes-to-bits-converter.html",
+  "start_url": "./kilobytes-to-bits-converter.html",
+  "scope": "./kilobytes-to-bits-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kontrola dálničních známek",
+  "short_name": "Kontrola dálničních známek",
+  "description": "Bezplatná kontrola dálničních známek: vyberte evropské země na své trase a uvidíte, které vyžadují dálniční známku, které vybírají mýtné a které jsou pro auta zdarma.",
+  "id": "/loona-calculators/cs/vignette-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

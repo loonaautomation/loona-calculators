@@ -1,0 +1,29 @@
+{
+  "name": "Loona Převodník minut na roky (juliánské)",
+  "short_name": "Minuta na rok (juliánský)",
+  "description": "Převeďte minuty na roky okamžitě. Přesný vzorec, kompletní převodní tabulka min na yr, ukázkový příklad a časté dotazy. Zdarma, bez registrace.",
+  "id": "/loona-calculators/cs/minutes-to-years-converter.html",
+  "start_url": "./minutes-to-years-converter.html",
+  "scope": "./minutes-to-years-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

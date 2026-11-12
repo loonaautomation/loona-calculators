@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka maxima jednoho opakování (1RM)",
+  "short_name": "Kalkulačka maxima na jedno opakování (1RM)",
+  "description": "Bezplatná kalkulačka maxima na jedno opakování: odhadněte své 1RM z hmotnosti a opakování série pomocí Epleyho, Brzyckiho a Lombardiho vzorců, plus tréninková procenta.",
+  "id": "/loona-calculators/cs/one-rep-max-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

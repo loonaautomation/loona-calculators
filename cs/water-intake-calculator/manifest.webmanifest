@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka příjmu vody",
+  "short_name": "Kalkulačka příjmu vody",
+  "description": "Bezplatná kalkulačka příjmu vody: zadejte svou hmotnost a denní pohyb a získáte doporučený příjem vody v litrech, mililitrech a sklenicích na den.",
+  "id": "/loona-calculators/cs/water-intake-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

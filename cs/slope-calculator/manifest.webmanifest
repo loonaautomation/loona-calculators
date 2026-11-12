@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka sklonu",
+  "short_name": "Kalkulačka sklonu",
+  "description": "Bezplatná kalkulačka směrnice: zadejte dva body a získáte směrnici, vzdálenost mezi nimi, střed a rovnici přímky ve směrnicovém tvaru, s postupem.",
+  "id": "/loona-calculators/cs/slope-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

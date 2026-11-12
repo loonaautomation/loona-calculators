@@ -1,0 +1,29 @@
+{
+  "name": "Loona Pákistánská hypoteční kalkulačka",
+  "short_name": "Kalkulačka hypotéky v Pákistánu",
+  "description": "Bezplatná pákistánská kalkulačka financování bydlení v rupiích: měsíční splátka při klesajícím zůstatku, celková přirážka a datum splacení pro jakoukoli cenu nemovitosti, vklad, sazbu a dobu splatnosti.",
+  "id": "/loona-calculators/cs/pakistan-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

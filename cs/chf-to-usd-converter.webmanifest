@@ -1,0 +1,29 @@
+{
+  "name": "Loona Převodník CHF na USD",
+  "short_name": "Převodník CHF na USD",
+  "description": "Převeďte švýcarský frank (CHF) na americký dolar (USD). Referenční kurz ECB ze dne 06. listopadu 2026, inverzní kurz, převodní tabulka a poznámky ke koridoru. Pouze orientační.",
+  "id": "/loona-calculators/cs/chf-to-usd-converter.html",
+  "start_url": "./chf-to-usd-converter.html",
+  "scope": "./chf-to-usd-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

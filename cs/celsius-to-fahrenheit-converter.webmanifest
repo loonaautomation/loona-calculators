@@ -1,0 +1,29 @@
+{
+  "name": "Loona Převodník Celsius na Fahrenheit",
+  "short_name": "Celsius na Fahrenheit",
+  "description": "Převeďte stupně Celsia na stupně Fahrenheita okamžitě. Přesný vzorec, kompletní převodní tabulka °C na °F a ukázkové příklady. Zdarma, bez registrace.",
+  "id": "/loona-calculators/cs/celsius-to-fahrenheit-converter.html",
+  "start_url": "./celsius-to-fahrenheit-converter.html",
+  "scope": "./celsius-to-fahrenheit-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

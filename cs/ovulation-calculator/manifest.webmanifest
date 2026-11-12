@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka ovulace",
+  "short_name": "Kalkulačka ovulace",
+  "description": "Bezplatná kalkulačka ovulace: zadejte první den své poslední menstruace a délku cyklu a odhadněte ovulaci, své plodné okno, příští menstruaci a termín porodu.",
+  "id": "/loona-calculators/cs/ovulation-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

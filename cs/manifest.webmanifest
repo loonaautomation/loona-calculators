@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calculators",
+  "short_name": "Kalkulačky",
+  "description": "297 bezplatných online kalkulaček: věk, zakát, procenta, CGPA, EMI, BMI, účet za elektřinu a převodník hidžra data. Bez registrace — rychlé, přesné a soukromé.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "id": "/loona-calculators/cs/"
+}

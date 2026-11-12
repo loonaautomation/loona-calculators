@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka Pythagorovy věty",
+  "short_name": "Kalkulačka Pythagorovy věty",
+  "description": "Bezplatná kalkulačka Pythagorovy věty: zadejte libovolné dvě strany pravoúhlého trojúhelníku a najděte třetí — přeponu nebo odvěsnu — se zobrazeným postupem.",
+  "id": "/loona-calculators/cs/pythagorean-theorem-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

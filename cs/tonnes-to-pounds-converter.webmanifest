@@ -1,0 +1,29 @@
+{
+  "name": "Loona Převodník tun na libry",
+  "short_name": "Převodník tun na libry",
+  "description": "Převeďte tuny na libry okamžitě. Přesný vzorec, kompletní převodní tabulka t na lb, ukázkový příklad a časté dotazy. Zdarma, bez registrace.",
+  "id": "/loona-calculators/cs/tonnes-to-pounds-converter.html",
+  "start_url": "./tonnes-to-pounds-converter.html",
+  "scope": "./tonnes-to-pounds-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

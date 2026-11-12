@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka Schengen 90/180",
+  "short_name": "Kalkulačka Schengenu 90/180",
+  "description": "Bezplatná schengenská kalkulačka 90/180: zadejte minulé a plánované cesty a uvidíte využité dny v libovolném klouzavém 180denním okně, zbývající dny, varování před překročením pobytu a nejdřívější bezpečný návrat.",
+  "id": "/loona-calculators/cs/schengen-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

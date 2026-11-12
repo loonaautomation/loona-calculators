@@ -1,0 +1,29 @@
+{
+  "name": "Loona Převodník šestnáctkové soustavy na desítkovou soustavu",
+  "short_name": "Šestnáctková na desítkovou",
+  "description": "Převeďte šestnáctková (základ 16) na desítkovou (základ 10) s ověřením, postupem podle pozičních hodnot a referenční tabulkou.",
+  "id": "/loona-calculators/cs/hexadecimal-to-decimal-converter.html",
+  "start_url": "./hexadecimal-to-decimal-converter.html",
+  "scope": "./hexadecimal-to-decimal-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

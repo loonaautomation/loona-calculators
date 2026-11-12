@@ -1,0 +1,29 @@
+{
+  "name": "Loona Pracovní dny v USA",
+  "short_name": "Pracovní dny v USA",
+  "description": "Kalkulačka pracovních dnů pro USA: spočítejte pracovní dny mezi dvěma daty s odstraněnými víkendy a všemi 11 federálními svátky USA roku 2026. Bezplatný online nástroj.",
+  "id": "/loona-calculators/cs/working-days-in-usa.html",
+  "start_url": "./working-days-in-usa.html",
+  "scope": "./working-days-in-usa.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

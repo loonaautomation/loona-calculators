@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka běžeckého tempa",
+  "short_name": "Kalkulačka tempa běhu",
+  "description": "Bezplatná kalkulačka běžeckého tempa: vyberte 5K, 10K, půlmaraton, maraton nebo vlastní vzdálenost se svým cílovým časem a získáte tempo na km a na míli, plus předpovězené cílové časy.",
+  "id": "/loona-calculators/cs/pace-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka jednovýběrového t-testu",
+  "short_name": "Kalkulačka jednovýběrového T-testu",
+  "description": "Bezplatná kalkulačka jednovýběrového t-testu: zadejte výběrový průměr, SD, n a hypotetický průměr a získáte t statistiku, stupně volnosti a p-hodnoty.",
+  "id": "/loona-calculators/cs/t-test-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

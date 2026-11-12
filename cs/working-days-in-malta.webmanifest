@@ -1,0 +1,29 @@
+{
+  "name": "Loona Pracovní dny na Maltě",
+  "short_name": "Pracovní dny na Maltě",
+  "description": "Kalkulačka pracovních dní pro Maltu: spočítejte pracovní dny mezi dvěma daty s odečtenými víkendy a všemi 14 maltskými státními svátky roku 2026. Bezplatný online nástroj.",
+  "id": "/loona-calculators/cs/working-days-in-malta.html",
+  "start_url": "./working-days-in-malta.html",
+  "scope": "./working-days-in-malta.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Převodník hodin na minuty",
+  "short_name": "Převodník Hodiny na Minuty",
+  "description": "Převeďte hodiny na minuty okamžitě. Přesný vzorec, kompletní převodní tabulka h na min a ukázkové příklady. Zdarma, bez registrace.",
+  "id": "/loona-calculators/cs/hours-to-minutes-converter.html",
+  "start_url": "./hours-to-minutes-converter.html",
+  "scope": "./hours-to-minutes-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

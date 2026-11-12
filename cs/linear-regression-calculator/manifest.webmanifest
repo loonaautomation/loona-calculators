@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka lineární regrese",
+  "short_name": "Kalkulačka lineární regrese",
+  "description": "Bezplatná kalkulačka lineární regrese: vložte párová data a získáte přímku nejmenších čtverců y = a + bx, korelaci, predikce a bodový graf s nakreslenou proloženou přímkou.",
+  "id": "/loona-calculators/cs/linear-regression-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

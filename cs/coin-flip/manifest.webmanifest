@@ -1,0 +1,29 @@
+{
+  "name": "Loona Hod mincí",
+  "short_name": "Hod mincí",
+  "description": "Bezplatný online hod mincí: hoďte virtuální mincí jednou nebo desetkrát najednou, s počty panna/orel, procenty, statistikami sérií a režimem zápasu na vítězná kola.",
+  "id": "/loona-calculators/cs/coin-flip/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

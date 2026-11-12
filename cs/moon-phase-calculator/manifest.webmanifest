@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka fáze Měsíce",
+  "short_name": "Kalkulačka fáze Měsíce",
+  "description": "Bezplatná kalkulačka fáze Měsíce: zadejte libovolné datum a uvidíte název fáze Měsíce, procento osvětlení, stáří Měsíce a dny do příštího novu a úplňku.",
+  "id": "/loona-calculators/cs/moon-phase-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

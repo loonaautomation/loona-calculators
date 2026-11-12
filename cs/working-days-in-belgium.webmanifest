@@ -1,0 +1,29 @@
+{
+  "name": "Loona Pracovní dny v Belgii",
+  "short_name": "Pracovní dny v Belgii",
+  "description": "Kalkulačka pracovních dní pro Belgii: spočítejte pracovní dny mezi dvěma daty s odečtenými víkendy a všemi 10 belgickými státními svátky roku 2026. Zdarma.",
+  "id": "/loona-calculators/cs/working-days-in-belgium.html",
+  "start_url": "./working-days-in-belgium.html",
+  "scope": "./working-days-in-belgium.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

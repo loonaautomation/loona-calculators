@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka převodu CGPA na procenta",
+  "short_name": "Kalkulačka převodu CGPA na procenta",
+  "description": "Bezplatný převodník CGPA na procenta: převeďte CGPA z 10 (vzorec ×9.5) nebo GPA ze 4 na procenta, s možností vlastního násobitele pro jakoukoli radu nebo univerzitu.",
+  "id": "/loona-calculators/cs/cgpa-to-percentage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

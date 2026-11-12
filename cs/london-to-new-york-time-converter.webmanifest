@@ -1,0 +1,29 @@
+{
+  "name": "Loona Převodník času z Londýna do New Yorku",
+  "short_name": "Čas z Londýna do New Yorku",
+  "description": "Převeďte čas z Londýna do New Yorku. New York je o 5 hodin pozadu za Londýnem po celý rok, s daty letního času, tabulkou na 24 hodin a nejlepším oknem pro schůzku. Přiložen je živý převodník.",
+  "id": "/loona-calculators/cs/london-to-new-york-time-converter.html",
+  "start_url": "./london-to-new-york-time-converter.html",
+  "scope": "./london-to-new-york-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

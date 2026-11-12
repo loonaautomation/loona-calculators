@@ -1,0 +1,29 @@
+{
+  "name": "Loona Převodník mebibajtů na bajty",
+  "short_name": "Převodník mebibajtů na bajty",
+  "description": "Převeďte mebibajty na bajty okamžitě. Přesný vzorec, kompletní převodní tabulka MiB na B, ukázkový příklad a časté dotazy. Zdarma, bez registrace.",
+  "id": "/loona-calculators/cs/mebibytes-to-bytes-converter.html",
+  "start_url": "./mebibytes-to-bytes-converter.html",
+  "scope": "./mebibytes-to-bytes-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

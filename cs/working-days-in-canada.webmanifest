@@ -1,0 +1,29 @@
+{
+  "name": "Loona Pracovní dny v Kanadě",
+  "short_name": "Pracovní dny v Kanadě",
+  "description": "Kalkulačka pracovních dní pro Kanadu: spočítejte pracovní dny mezi dvěma daty s odečtenými víkendy a všemi 11 kanadskými federálními svátky roku 2026. Bezplatný online nástroj.",
+  "id": "/loona-calculators/cs/working-days-in-canada.html",
+  "start_url": "./working-days-in-canada.html",
+  "scope": "./working-days-in-canada.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Dny do Božího hodu vánočního",
+  "short_name": "Dny do Božího hodu vánočního",
+  "description": "Živý odpočet do prvního svátku vánočního: přesné zbývající dny, hodiny, minuty a sekundy, datum v tomto roce a v příštích třech letech, fakta a časté dotazy.",
+  "id": "/loona-calculators/cs/days-until-christmas.html",
+  "start_url": "./days-until-christmas.html",
+  "scope": "./days-until-christmas.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

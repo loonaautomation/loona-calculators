@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka intervalu spolehlivosti",
+  "short_name": "Kalkulačka intervalu spolehlivosti",
+  "description": "Bezplatná kalkulačka intervalu spolehlivosti: CI pro průměr se známou sigmou (z), s výběrovou SD (t), a pro podíl, při spolehlivosti 90 %, 95 % nebo 99 %.",
+  "id": "/loona-calculators/cs/confidence-interval-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

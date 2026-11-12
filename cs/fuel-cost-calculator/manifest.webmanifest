@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka nákladů na palivo",
+  "short_name": "Kalkulačka nákladů na palivo",
+  "description": "Bezplatná kalkulačka nákladů na palivo: zadejte vzdálenost, spotřebu vozidla a cenu paliva a získáte potřebné litry a celkové náklady na cestu, s možností zpáteční cesty.",
+  "id": "/loona-calculators/cs/fuel-cost-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

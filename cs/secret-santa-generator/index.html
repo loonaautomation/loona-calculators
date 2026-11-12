@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Generátor tajného Ježíška — Bezplatné losování s vyloučeními a soukromým odhalením | Loona Calculators</title>
+<meta name="description" content="Bezplatný generátor tajného Ježíška (Secret Santa): přidejte jména, nastavte vyloučení (páry, dvojice z loňska), losujte tajně a pak si každý odhalí jen svou vlastní dvojici. Soukromé, v prohlížeči.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/cs/secret-santa-generator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/secret-santa-generator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/secret-santa-generator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/secret-santa-generator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/secret-santa-generator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/secret-santa-generator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/secret-santa-generator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/secret-santa-generator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/secret-santa-generator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/secret-santa-generator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/secret-santa-generator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/secret-santa-generator/"><link rel="alternate" hreflang="cs" href="https://loonaautomation.github.io/loona-calculators/cs/secret-santa-generator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/secret-santa-generator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Generátor tajného Ježíška — Bezplatné losování s vyloučeními a soukromým odhalením | Loona Calculators">
+<meta property="og:description" content="Bezplatný generátor tajného Ježíška (Secret Santa): přidejte jména, nastavte vyloučení (páry, dvojice z loňska), losujte tajně a pak si každý odhalí jen svou vlastní dvojici. Soukromé, v prohlížeči.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/cs/secret-santa-generator/"><meta property="og:locale" content="cs_CZ">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Generátor tajného Ježíška — Bezplatné losování s vyloučeními a soukromým odhalením | Loona Calculators">
+<meta name="twitter:description" content="Bezplatný generátor tajného Ježíška (Secret Santa): přidejte jména, nastavte vyloučení (páry, dvojice z loňska), losujte tajně a pak si každý odhalí jen svou vlastní dvojici. Soukromé, v prohlížeči.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona Generátor tajného Ježíška","url":"https://loonaautomation.github.io/loona-calculators/cs/secret-santa-generator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Jak fungují výluky?","acceptedAnswer":{"@type":"Answer","text":"Zadejte pár jako Jméno1, Jméno2 na vlastním řádku. Losování tyto dva nikdy nespáruje v žádném směru — užitečné pro páry nebo loňské párování. Jména musí být napsána přesně jako v hlavním seznamu."}},{"@type":"Question","name":"Může se losování stát nemožným?","acceptedAnswer":{"@type":"Answer","text":"Ano — při příliš mnoha vyloučeních na příliš málo lidí nemusí existovat žádné platné spárování. Nástroj vám to pak upřímně řekne, místo aby vynucoval špatné losování; odeberte vyloučení nebo přidejte osobu."}},{"@type":"Question","name":"Ukládá se výsledek nebo se někam odesílá?","acceptedAnswer":{"@type":"Answer","text":"Ne. Losování probíhá zcela ve vašem prohlížeči a nic se nenahrává. Pokud stránku zavřete, losování je pryč — to je smyslem udržet ho v tajnosti."}},{"@type":"Question","name":"Jak funguje soukromé odhalení?","acceptedAnswer":{"@type":"Answer","text":"Po losování rozbalovací seznam uvádí každé jméno. Každý si vybere své jméno a stiskne Odhalit, aby viděl pouze svého příjemce. Organizátor nikdy nemusí vidět celý seznam."}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/cs/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Generátor tajného Ježíška",
+      "item": "https://loonaautomation.github.io/loona-calculators/cs/secret-santa-generator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Logo Loona Automation">
+<div class="brand">Loona <span>Kalkulačky</span></div>
+<nav>
+<a href="../">Domů</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">O nás</a>
+<a href="../contact.html">Kontakt</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › Zábava › Generátor Secret Santa</div>
+<h1 class="pagetitle">🎅 Generátor Secret Santa</h1>
+<p class="lead">Přidejte jména všech, přidejte případná vyloučení (například partnery, kteří by se neměli losovat navzájem) a spusťte losování. Nikdo nevidí celý seznam — každý si vybere své jméno a soukromě odhalí pouze to, pro koho kupuje.</p>
+<div class="exbox"><strong>Rychlá odpověď:</strong> Losování Secret Santa je náhodné párování, kde každý dá jeden dárek a jeden dárek dostane, nikdo není spárován sám se sebou a celý seznam zůstává tajný: každý odhalí jen svou vlastní dvojici.</div>
+<div class="toolbox"><form class="calcform" id="ssForm">
+<div class="fld"><label for="ssNames">Jména (jedno na řádek)</label><textarea id="ssNames" rows="6" style="width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px">Ali
+Sara
+John
+Maria
+Chen</textarea></div>
+<div class="fld"><label for="ssExcl">Vyloučení (volitelné, jeden pár na řádek ve tvaru: Jméno1, Jméno2)</label><textarea id="ssExcl" rows="3" style="width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px">Ali, Sara</textarea></div>
+<button class="calcbtn" type="submit">🎅 Spustit losování</button>
+<div class="calcresult" id="ssResult" style="display:none"></div>
+</form>
+<div class="toolbox" id="ssRevealBox" style="display:none"><h3 style="color:var(--teal);margin-bottom:8px">Soukromé odhalení — jedna osoba najednou</h3>
+<div class="fld"><label for="ssWho">Jsem…</label><select id="ssWho" style="width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px"></select></div>
+<button class="calcbtn" type="button" id="ssRevealBtn">Odhalit mou shodu</button>
+<div class="calcresult" id="ssRevealResult" style="display:none"></div></div></div>
+<section class="txt"><h2>Jak používat generátor tajného Ježíška</h2><ol><li>Zadejte všechna jména, jedno na řádek (alespoň 3 lidé).</li><li>Volitelně přidejte vyloučení, jedno na řádek, jako Jméno1, Jméno2 — tito dva nebudou spárováni v žádném směru.</li><li>Stiskněte Spustit losování.</li><li>Každá osoba si vybere své jméno v poli pro odhalení a vidí pouze svou vlastní dvojici. Při odhalování mějte obrazovku v soukromí.</li></ol>
+<div class="exbox"><strong>Příklad:</strong> Pět přátel — Ali, Sara, John, Maria, Chen — s vyloučením Ali, Sara: losování vždy dá každému přesně jednu osobu, pro kterou kupuje, nikdo nevylosuje sám sebe a Ali a Sara se nikdy nevylosují navzájem.</div>
+<h2>Často kladené otázky</h2></section><div class="faq"><h3>Jak fungují výluky?</h3><p>Zadejte pár jako Jméno1, Jméno2 na vlastním řádku. Losování tyto dva nikdy nespáruje v žádném směru — užitečné pro páry nebo loňské párování. Jména musí být napsána přesně jako v hlavním seznamu.</p></div><div class="faq"><h3>Může se losování stát nemožným?</h3><p>Ano — při příliš mnoha vyloučeních na příliš málo lidí nemusí existovat žádné platné spárování. Nástroj vám to pak upřímně řekne, místo aby vynucoval špatné losování; odeberte vyloučení nebo přidejte osobu.</p></div><div class="faq"><h3>Ukládá se výsledek nebo se někam odesílá?</h3><p>Ne. Losování probíhá zcela ve vašem prohlížeči a nic se nenahrává. Pokud stránku zavřete, losování je pryč — to je smyslem udržet ho v tajnosti.</p></div><div class="faq"><h3>Jak funguje soukromé odhalení?</h3><p>Po losování rozbalovací seznam uvádí každé jméno. Každý si vybere své jméno a stiskne Odhalit, aby viděl pouze svého příjemce. Organizátor nikdy nemusí vidět celý seznam.</p></div>
+<h2 class="sec">Související kalkulačky</h2><div class="grid"><a class="card" href="../random-number-generator/"><div class="ic">🎲</div><h3>Generátor náhodných čísel</h3><p>Zábava</p></a><a class="card" href="../dice-roller/"><div class="ic">🎲</div><h3>Házení kostkou</h3><p>Zábava</p></a><a class="card" href="../coin-flip/"><div class="ic">🪙</div><h3>Hod mincí</h3><p>Zábava</p></a><a class="card" href="../lottery-number-generator/"><div class="ic">🍀</div><h3>Generátor loterijních čísel</h3><p>Zábava</p></a><a class="card" href="../love-calculator/"><div class="ic">❤️</div><h3>Kalkulačka lásky</h3><p>Zábava</p></a><a class="card" href="../wheel-of-names/"><div class="ic">🎡</div><h3>Kolo jmen</h3><p>Zábava</p></a><a class="card" href="../random-team-generator/"><div class="ic">👥</div><h3>Generátor náhodných týmů</h3><p>Zábava</p></a></div>
+</div>
+<section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>Jak to funguje — vzorec</h2>
+<p>Platné losování je <strong>deranžování se zakázanými páry</strong>: permutace jmen, kde se nikdo nepřiřadí sám sobě a žádná vyloučená dvojice se nepřiřadí ani jedním směrem. Generátor nejprve zkouší zamíchané permutace (rychlé pro běžné skupiny), a pokud náhodné pokusy stále selhávají, přepne na deterministický <strong>zpětné prohledávání</strong> který buď najde platné losování, nebo dokáže, že žádné neexistuje — nikdy tiše neporuší pravidlo.</p>
+<h3>Vypracovaný příklad</h3><div class="exbox"><p><strong>Vstupy:</strong> 5 jmen, vyloučení Ali–Sara.</p><p><strong>Kroky:</strong> Jeden platný los, který nástroj může vytvořit: Ali → John, John → Maria, Maria → Chen, Chen → Sara, Sara → Ali. Kontrola: pět dárců, pět různých příjemců, nikdo nemá sám sebe a Ali a Sara nemají jeden druhého.</p><p><strong>Výsledek:</strong> Každé pravidlo je splněno a každý člověk vidí při odhalení pouze svůj vlastní řádek.</p></div>
+
+</section>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Vložte tuto kalkulačku na své webové stránky — zdarma</h2>
+<p style="margin:0 0 12px;line-height:1.6">Přidejte tuto kalkulačku na svůj vlastní web nebo blog — je zcela zdarma, nevyžaduje registraci a vždy zobrazuje nejnovější verzi. Zkopírujte kód níže a vložte ho na svou stránku tam, kde chcete, aby se kalkulačka objevila. Ponechání malého řádku s poděkováním &ldquo;Powered by Loona Automation&rdquo; pod vložením pomáhá udržet tento nástroj zdarma &mdash; ale můžete ho libovolně upravit nebo odstranit; nástroj funguje tak jako tak.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/cs/secret-santa-generator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Secret Santa Generator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Poskytuje &lt;a href="https://loonaautomation.github.io/loona-calculators/cs/secret-santa-generator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; zdarma Generátor tajného Ježíška&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Kopírovat kód pro vložení</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='Kopírovat kód pro vložení';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Oblíbené kalkulačky</h4><ul><li><a href="../age-calculator/">Kalkulačka věku</a></li>
+<li><a href="../zakat-calculator/">Kalkulačka zakátu</a></li>
+<li><a href="../cgpa-calculator/">Kalkulačka CGPA</a></li>
+<li><a href="../percentage-calculator/">Kalkulačka procent</a></li>
+<li><a href="../hijri-date-converter/">Převodník data hidžry</a></li>
+<li><a href="../emi-calculator/">Kalkulačka EMI a úvěru</a></li></ul></div>
+<div><h4>Další nástroje Loona</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Kompresor obrázků</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI asistent</a></li>
+<li><a href="https://loonaautomation.github.io/">Všechny nástroje Loona</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">O nás</a></li>
+<li><a href="../contact.html">Kontakt</a></li>
+<li><a href="../privacy-policy.html">Zásady ochrany osobních údajů</a></li>
+<li><a href="../terms.html">Podmínky použití</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — a <a href="https://loonaautomation.github.io/">Loona Automation</a> projekt. Bezplatné online kalkulačky, bez registrace.
+Kontakt: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+function shuffleList2(arr,rng){
+  var a=arr.slice();
+  for(var i=a.length-1;i>0;i--){var j=Math.floor((rng||Math.random)()*(i+1));var t=a[i];a[i]=a[j];a[j]=t;}
+  return a;
+}
+function secretSanta(names,exclusions,rng){
+  if(!names||names.length<3) return null;
+  var banned={};
+  (exclusions||[]).forEach(function(pair){
+    if(pair.length===2){banned[pair[0]+"|"+pair[1]]=1;banned[pair[1]+"|"+pair[0]]=1;}
+  });
+  function ok(giver,recv){return giver!==recv && !banned[giver+"|"+recv];}
+  var i,attempt;
+  for(attempt=0;attempt<500;attempt++){
+    var recips=shuffleList2(names,rng), good=true;
+    for(i=0;i<names.length;i++){if(!ok(names[i],recips[i])){good=false;break;}}
+    if(good){var m={};for(i=0;i<names.length;i++)m[names[i]]=recips[i];return m;}
+  }
+  var result={}, used={};
+  function bt(idx){
+    if(idx===names.length)return true;
+    var g=names[idx];
+    for(var j=0;j<names.length;j++){var r=names[j];
+      if(used[r]||!ok(g,r))continue;
+      result[g]=r;used[r]=1;
+      if(bt(idx+1))return true;
+      delete result[g];used[r]=0;
+    }
+    return false;
+  }
+  return bt(0)?result:null;
+}
+/*TESTABLE_END*/
+var SS_DRAW=null;
+document.getElementById('ssForm').addEventListener('submit',function(e){e.preventDefault();
+ var names=document.getElementById('ssNames').value.split(/\r?\n/).map(function(s){return s.trim();}).filter(Boolean);
+ var excl=document.getElementById('ssExcl').value.split(/\r?\n/).map(function(s){return s.trim();}).filter(Boolean).map(function(l){return l.split(",").map(function(s){return s.trim();});}).filter(function(p){return p.length===2&&p[0]&&p[1];});
+ var box=document.getElementById('ssResult'); box.style.display='block';
+ SS_DRAW=secretSanta(names,excl,function(){var a=new Uint32Array(1);crypto.getRandomValues(a);return a[0]/4294967296;});
+ if(!SS_DRAW){box.innerHTML='<p class="err">S těmito jmény a vyloučeními neexistuje platné losování (nebo je jmen méně než 3). Odeberte vyloučení nebo přidejte osobu a zkuste to znovu.</p>';document.getElementById('ssRevealBox').style.display='none';return;}
+ box.innerHTML='<div class="resbig"><span>Losování dokončeno</span><strong>'+names.length+' lidí bylo tajně spárováno</strong></div><p class="resnote">Úplný seznam se nikdy nezobrazuje. Každý by nyní měl jeden po druhém použít soukromé pole pro odhalení níže.</p>';
+ var sel=document.getElementById('ssWho'); sel.innerHTML=names.map(function(n){return '<option>'+n.replace(/</g,"&lt;")+'</option>';}).join("");
+ document.getElementById('ssRevealBox').style.display='block';
+ document.getElementById('ssRevealResult').style.display='none';
+});
+document.getElementById('ssRevealBtn').addEventListener('click',function(){
+ if(!SS_DRAW)return;
+ var who=document.getElementById('ssWho').value;
+ var box=document.getElementById('ssRevealResult'); box.style.display='block';
+ box.innerHTML='<div class="resbig"><span>'+who.replace(/</g,"&lt;")+', nakupujete za</span><strong>'+String(SS_DRAW[who]).replace(/</g,"&lt;")+'</strong></div><p class="resnote">Nechte si to pro sebe! Vymažte to tak, že požádáte další osobu, aby odhalila tu svou.</p>';
+});
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Instalovat aplikaci';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Nainstalujte si tuto aplikaci: klepněte na tlačítko Sdílet a poté zvolte „Přidat na plochu“.');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

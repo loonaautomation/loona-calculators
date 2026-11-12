@@ -1,0 +1,29 @@
+{
+  "name": "Loona Generátor přístupových frází",
+  "short_name": "Generátor přístupových frází",
+  "description": "Bezplatný generátor přístupových frází: vytvářejte silné, zapamatovatelné přístupové fráze z náhodných skutečných slov, s možnostmi počtu slov, oddělovače, velkých písmen a čísla. Běží ve vašem prohlížeči.",
+  "id": "/loona-calculators/cs/passphrase-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

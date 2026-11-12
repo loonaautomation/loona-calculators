@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka logaritmů",
+  "short_name": "Kalkulačka logaritmů",
+  "description": "Bezplatná kalkulačka logaritmů: najděte logaritmus o libovolném základu, plus běžný logaritmus (základ 10), přirozený logaritmus (ln) a binární logaritmus (základ 2), každý ověřený svým antilogaritmem. Vzorec pro změnu základu vysvětlen.",
+  "id": "/loona-calculators/cs/logarithm-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Převodník času z Denveru do Dubaje",
+  "short_name": "Převodník času z Denveru do Dubaje",
+  "description": "Převeďte čas z Denveru do Dubaje. Dubaj je v lednu o 11 hodin napřed před Denverem a v červenci o 10 hodin napřed, s daty letního času, tabulkou na 24 hodin a nejlepším oknem pro schůzku. Přiložen je živý převodník.",
+  "id": "/loona-calculators/cs/denver-to-dubai-time-converter.html",
+  "start_url": "./denver-to-dubai-time-converter.html",
+  "scope": "./denver-to-dubai-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

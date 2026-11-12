@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka jednocestné ANOVY",
+  "short_name": "Kalkulačka jednosměrné ANOVA",
+  "description": "Bezplatná kalkulačka jednocestné ANOVY: zadejte čísla každé skupiny na vlastní řádek a získáte součty čtverců, F statistiku, stupně volnosti a p-hodnotu, s průměry skupin.",
+  "id": "/loona-calculators/cs/anova-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
