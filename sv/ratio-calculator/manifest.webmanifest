@@ -1,0 +1,29 @@
+{
+  "name": "Loona Förhållandekalkylator",
+  "short_name": "Förhållandekalkylator",
+  "description": "Gratis förhållandekalkylator: förenkla valfritt förhållande till dess lägsta termer och dela ett totalbelopp i ett givet förhållande — båda andelarna visas direkt.",
+  "id": "/loona-calculators/sv/ratio-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

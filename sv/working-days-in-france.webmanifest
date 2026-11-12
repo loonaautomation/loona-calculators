@@ -1,0 +1,29 @@
+{
+  "name": "Loona Arbetsdagar i Frankrike",
+  "short_name": "Arbetsdagar i Frankrike",
+  "description": "Kalkylator för arbetsdagar för Frankrike: räkna arbetsdagar mellan två datum med helger och alla 11 franska nationella helgdagar 2026 borttagna. Gratis.",
+  "id": "/loona-calculators/sv/working-days-in-france.html",
+  "start_url": "./working-days-in-france.html",
+  "scope": "./working-days-in-france.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

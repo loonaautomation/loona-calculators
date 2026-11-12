@@ -1,0 +1,29 @@
+{
+  "name": "Loona GPA-kalkylator",
+  "short_name": "GPA-kalkylator",
+  "description": "Gratis GPA-kalkylator: ange upp till 8 kurser med bokstavsbetyg (A till F) och kredittimmar för att få ditt GPA på den vanliga 4.0-skalan. Snabbt, privat, ingen registrering.",
+  "id": "/loona-calculators/sv/gpa-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

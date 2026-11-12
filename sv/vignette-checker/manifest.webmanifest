@@ -1,0 +1,29 @@
+{
+  "name": "Loona Vinjettkontroll",
+  "short_name": "Vinjettkontroll",
+  "description": "Gratis vinjettkontroll: välj de europeiska länderna på din körrutt för att se vilka som kräver en motorvägsvinjett, vilka som tar ut vägavgifter, och vilka som är gratis för bilar.",
+  "id": "/loona-calculators/sv/vignette-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

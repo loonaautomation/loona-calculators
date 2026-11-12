@@ -1,0 +1,29 @@
+{
+  "name": "Loona Logaritmkalkylator",
+  "short_name": "Logaritmkalkylator",
+  "description": "Gratis logaritmkalkylator: hitta logaritmen till valfri bas, plus den vanliga logaritmen (bas 10), den naturliga logaritmen (ln) och den binära logaritmen (bas 2), var och en verifierad av sin antilogaritm. Formeln för basbyte förklarad.",
+  "id": "/loona-calculators/sv/logarithm-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

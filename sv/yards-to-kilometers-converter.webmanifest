@@ -1,0 +1,29 @@
+{
+  "name": "Loona Yard till kilometer-omvandlare",
+  "short_name": "Omvandlare yard till kilometer",
+  "description": "Omvandla yards till kilometer direkt. Exakt formel, en fullständig omvandlingstabell för yd till km, ett genomräknat exempel och vanliga frågor. Gratis, ingen registrering.",
+  "id": "/loona-calculators/sv/yards-to-kilometers-converter.html",
+  "start_url": "./yards-to-kilometers-converter.html",
+  "scope": "./yards-to-kilometers-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Bolånekalkylator för Förenade Arabemiraten",
+  "short_name": "Bolånekalkylator för Förenade Arabemiraten",
+  "description": "Gratis bolånekalkylator för Förenade Arabemiraten i dirham: månadsbetalning, total ränta och skuldfrihetsdatum för valfritt fastighetspris, insats, räntesats och löptid, plus en jämförelse av överbetalningar.",
+  "id": "/loona-calculators/sv/uae-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

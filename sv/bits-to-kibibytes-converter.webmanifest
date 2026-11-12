@@ -1,0 +1,29 @@
+{
+  "name": "Loona Bit till kibibyte-omvandlare",
+  "short_name": "Bit till Kibibyte-omvandlare",
+  "description": "Omvandla bit till kibibyte direkt. Exakt formel, en fullständig omvandlingstabell för bit till KiB, ett genomräknat exempel och vanliga frågor. Gratis, ingen registrering.",
+  "id": "/loona-calculators/sv/bits-to-kibibytes-converter.html",
+  "start_url": "./bits-to-kibibytes-converter.html",
+  "scope": "./bits-to-kibibytes-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

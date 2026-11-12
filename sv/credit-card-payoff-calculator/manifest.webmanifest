@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkylator för återbetalning av kreditkort",
+  "short_name": "Kalkylator för återbetalning av kreditkortsskuld",
+  "description": "Gratis kreditkortsavbetalningskalkylator: saldo, APR och en fast månadsbetalning — se månaderna till avbetalning, total ränta och totalt betalat, med en varning för för små betalningar.",
+  "id": "/loona-calculators/sv/credit-card-payoff-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

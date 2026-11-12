@@ -1,0 +1,29 @@
+{
+  "name": "Loona Korrelationskalkylator",
+  "short_name": "Korrelationskalkylator",
+  "description": "Gratis Pearson-korrelationskalkylator: klistra in parade x,y-data för att få korrelationskoefficienten r, r-kvadrat och en lättförståelig styrkeavläsning.",
+  "id": "/loona-calculators/sv/correlation-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkylator för soluppgång och solnedgång",
+  "short_name": "Soluppgångs- & solnedgångskalkylator",
+  "description": "Gratis soluppgångs- och solnedgångskalkylator: ange ett datum och latitud/longitud för att få soluppgång, solnedgång, daglängd och solmiddag i UTC och lokala soltermer. NOAA-matematik.",
+  "id": "/loona-calculators/sv/sunrise-sunset-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

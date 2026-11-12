@@ -1,0 +1,29 @@
+{
+  "name": "Loona Betygskalkylator",
+  "short_name": "Betygskalkylator",
+  "description": "Gratis viktad betygskalkylator: ange upp till 8 uppgiftsresultat med deras vikter för att få din totala betygsprocent och ditt bokstavsbetyg. Vikterna behöver inte summera till 100.",
+  "id": "/loona-calculators/sv/grade-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

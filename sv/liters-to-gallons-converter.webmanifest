@@ -1,0 +1,29 @@
+{
+  "name": "Loona Liter till gallon-omvandlare",
+  "short_name": "Omvandlare från liter till gallons",
+  "description": "Omvandla liter till gallons (US) direkt. Exakt formel, en fullständig omvandlingstabell för L till gal och genomräknade exempel. Gratis, ingen registrering.",
+  "id": "/loona-calculators/sv/liters-to-gallons-converter.html",
+  "start_url": "./liters-to-gallons-converter.html",
+  "scope": "./liters-to-gallons-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

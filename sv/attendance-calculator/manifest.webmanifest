@@ -1,0 +1,29 @@
+{
+  "name": "Loona Närvarokalkylator",
+  "short_name": "Närvarokalkylator",
+  "description": "Gratis närvarokalkylator för studenter: ange hållna och besökta lektioner för att få din närvaroprocent, hur många lektioner du kan missa, eller hur många du måste besöka för att nå ditt mål.",
+  "id": "/loona-calculators/sv/attendance-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

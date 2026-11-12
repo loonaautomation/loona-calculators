@@ -1,0 +1,29 @@
+{
+  "name": "Loona Vetenskaplig kalkylator",
+  "short_name": "Vetenskaplig kalkylator",
+  "description": "Gratis vetenskaplig kalkylator med sin, cos, tan och deras inverser, log och ln, potenser, rötter, fakultet och procent. DEG/RAD-lägen och fullt tangentbordsstöd — ingen registrering.",
+  "id": "/loona-calculators/sv/scientific-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

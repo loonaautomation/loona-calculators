@@ -1,0 +1,29 @@
+{
+  "name": "Loona MXN till INR-omvandlare",
+  "short_name": "MXN till INR-omvandlare",
+  "description": "Omvandla mexikansk peso (MXN) till indisk rupie (INR). ECB:s referenskurs daterad 06 november 2026, omvänd kurs, omvandlingstabell och korridoranteckningar. Endast vägledande.",
+  "id": "/loona-calculators/sv/mxn-to-inr-converter.html",
+  "start_url": "./mxn-to-inr-converter.html",
+  "scope": "./mxn-to-inr-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

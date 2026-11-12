@@ -1,0 +1,29 @@
+{
+  "name": "Loona Investeringskalkylator",
+  "short_name": "Investeringsräknare",
+  "description": "Gratis investeringskalkylator: startbelopp plus månatliga tillskott och förväntad avkastning — se det framtida värdet, totalt investerat och total vinst över tid.",
+  "id": "/loona-calculators/sv/investment-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

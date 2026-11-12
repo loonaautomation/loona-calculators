@@ -1,0 +1,29 @@
+{
+  "name": "Loona EMI-kalkylator",
+  "short_name": "EMI-kalkylator",
+  "description": "Gratis EMI- och lånekalkylator: ange lånebelopp, ränta eller vinstmarginal och löptid för att få din månadsbetalning, totala ränta och totala betalning. För banklån, bil- och privatlån.",
+  "id": "/loona-calculators/sv/emi-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

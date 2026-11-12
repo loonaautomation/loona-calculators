@@ -1,0 +1,29 @@
+{
+  "name": "Loona Dagar kvar till juldagen",
+  "short_name": "Dagar till juldagen",
+  "description": "Live nedräkning till juldagen: exakta dagar, timmar, minuter och sekunder kvar, datumet i år och de kommande tre åren, fakta och vanliga frågor.",
+  "id": "/loona-calculators/sv/days-until-christmas.html",
+  "start_url": "./days-until-christmas.html",
+  "scope": "./days-until-christmas.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

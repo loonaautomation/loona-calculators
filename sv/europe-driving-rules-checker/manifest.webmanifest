@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kontroll av europeiska trafikregler",
+  "short_name": "Kontrollen för Europas körregler",
+  "description": "Gratis kontroll av Europas körregler: välj ett land för dess körsida, hastighetsgräns på motorväg, promillegräns och viktiga lokala regler för besökande förare.",
+  "id": "/loona-calculators/sv/europe-driving-rules-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

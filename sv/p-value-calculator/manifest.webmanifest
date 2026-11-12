@@ -1,0 +1,29 @@
+{
+  "name": "Loona P-värdeskalkylator",
+  "short_name": "P-värdeskalkylator",
+  "description": "Gratis p-värdeskalkylator: omvandla en z-, t- eller chi-två-teststatistika till ensidiga och tvåsidiga p-värden, med signifikansbedömningen vid 0.05 och 0.01.",
+  "id": "/loona-calculators/sv/p-value-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

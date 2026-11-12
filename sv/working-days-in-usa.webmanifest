@@ -1,0 +1,29 @@
+{
+  "name": "Loona Arbetsdagar i USA",
+  "short_name": "Arbetsdagar i USA",
+  "description": "Kalkylator för arbetsdagar för USA: räkna arbetsdagar mellan två datum med helger och alla 11 amerikanska federala helgdagar 2026 borttagna. Gratis onlineverktyg.",
+  "id": "/loona-calculators/sv/working-days-in-usa.html",
+  "start_url": "./working-days-in-usa.html",
+  "scope": "./working-days-in-usa.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

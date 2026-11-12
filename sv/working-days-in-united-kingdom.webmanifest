@@ -1,0 +1,29 @@
+{
+  "name": "Loona Arbetsdagar i Storbritannien",
+  "short_name": "Arbetsdagar i Storbritannien",
+  "description": "Kalkylator för arbetsdagar för Storbritannien (England och Wales): arbetsdagar mellan två datum, minus helger och alla 8 bankhelgdagar 2026.",
+  "id": "/loona-calculators/sv/working-days-in-united-kingdom.html",
+  "start_url": "./working-days-in-united-kingdom.html",
+  "scope": "./working-days-in-united-kingdom.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

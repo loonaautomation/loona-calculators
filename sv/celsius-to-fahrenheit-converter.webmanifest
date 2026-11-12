@@ -1,0 +1,29 @@
+{
+  "name": "Loona Celsius till fahrenheit-omvandlare",
+  "short_name": "Celsius till Fahrenheit",
+  "description": "Omvandla celsius till fahrenheit direkt. Exakt formel, en fullständig omvandlingstabell för °C till °F och genomräknade exempel. Gratis, ingen registrering.",
+  "id": "/loona-calculators/sv/celsius-to-fahrenheit-converter.html",
+  "start_url": "./celsius-to-fahrenheit-converter.html",
+  "scope": "./celsius-to-fahrenheit-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

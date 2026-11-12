@@ -1,0 +1,29 @@
+{
+  "name": "Loona Rabattkalkylator",
+  "short_name": "Rabattkalkylator",
+  "description": "Gratis rabattkalkylator: ange pris och rabattprocent för att få slutpriset och hur mycket du sparar. Stöder en extra andra rabatt och skatt tillagd efter rabatt.",
+  "id": "/loona-calculators/sv/discount-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

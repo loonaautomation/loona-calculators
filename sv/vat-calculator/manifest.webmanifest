@@ -1,0 +1,29 @@
+{
+  "name": "Loona Momskalkylator",
+  "short_name": "Momskalkylator",
+  "description": "Gratis moms/GST-kalkylator: lägg till skatt på ett nettobelopp eller ta bort skatt från ett bruttobelopp till valfri sats. Fungerar för VAT, GST och omsättningsskatt i alla länder.",
+  "id": "/loona-calculators/sv/vat-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

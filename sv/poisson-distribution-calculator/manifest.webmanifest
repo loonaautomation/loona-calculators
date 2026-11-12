@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkylator för Poissonfördelning",
+  "short_name": "Poissonfördelning",
+  "description": "Gratis Poisson-fördelningskalkylator: sannolikheten för exakt k händelser, högst k eller minst k, givet den genomsnittliga takten lambda. För samtal, ankomster, defekter och sällsynta händelser.",
+  "id": "/loona-calculators/sv/poisson-distribution-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

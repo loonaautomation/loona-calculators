@@ -1,0 +1,29 @@
+{
+  "name": "Loona Byte till bit-omvandlare",
+  "short_name": "Byte till Bit-omvandlare",
+  "description": "Omvandla byte till bit direkt. Exakt formel, en fullständig omvandlingstabell för B till bit, ett genomräknat exempel och vanliga frågor. Gratis, ingen registrering.",
+  "id": "/loona-calculators/sv/bytes-to-bits-converter.html",
+  "start_url": "./bytes-to-bits-converter.html",
+  "scope": "./bytes-to-bits-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

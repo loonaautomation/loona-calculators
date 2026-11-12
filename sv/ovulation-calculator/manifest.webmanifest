@@ -1,0 +1,29 @@
+{
+  "name": "Loona Ägglossningskalkylator",
+  "short_name": "Ägglossningskalkylator",
+  "description": "Gratis ägglossningskalkylator: ange första dagen av din senaste mens och cykellängd för att uppskatta ägglossning, ditt fertila fönster, nästa mens och förlossningsdatum.",
+  "id": "/loona-calculators/sv/ovulation-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona BTU per timme till watt-omvandlare",
+  "short_name": "BTU per timme till Watt-omvandlare",
+  "description": "Omvandla BTU per timme till watt direkt. Exakt formel, en fullständig omvandlingstabell för BTU/h till W, ett genomräknat exempel och vanliga frågor. Gratis, ingen registrering.",
+  "id": "/loona-calculators/sv/btus-per-hour-to-watts-converter.html",
+  "start_url": "./btus-per-hour-to-watts-converter.html",
+  "scope": "./btus-per-hour-to-watts-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

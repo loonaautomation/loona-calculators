@@ -1,0 +1,29 @@
+{
+  "name": "Loona Percentage till CGPA-omvandlare",
+  "short_name": "Omvandlare från procent till CGPA",
+  "description": "Gratis omvandlare från procent till CGPA: förvandla en procent till CGPA av 10 (dela med 9.5) eller GPA av 4, med formeln visad. För nämnder och universitet.",
+  "id": "/loona-calculators/sv/percentage-to-cgpa-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

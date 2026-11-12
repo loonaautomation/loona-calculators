@@ -1,0 +1,29 @@
+{
+  "name": "Loona Varaktighetskalkylator",
+  "short_name": "Kalkylator för tidsvaraktighet",
+  "description": "Gratis tidsvaraktighetskalkylator: ange en start- och sluttid för att få varaktigheten i timmar och minuter, totala minuter och decimala timmar. Räknar korrekt över midnatt.",
+  "id": "/loona-calculators/sv/time-duration-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

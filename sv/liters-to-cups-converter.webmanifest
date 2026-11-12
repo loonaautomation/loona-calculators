@@ -1,0 +1,29 @@
+{
+  "name": "Loona Liter till cup-omvandlare",
+  "short_name": "Omvandlare från liter till cups",
+  "description": "Omvandla liter till cups direkt. Exakt formel, en fullständig omvandlingstabell för L till cup och genomräknade exempel. Gratis, ingen registrering.",
+  "id": "/loona-calculators/sv/liters-to-cups-converter.html",
+  "start_url": "./liters-to-cups-converter.html",
+  "scope": "./liters-to-cups-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

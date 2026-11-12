@@ -1,0 +1,29 @@
+{
+  "name": "Loona Världsklocka",
+  "short_name": "Världsklocka",
+  "description": "Gratis live-världsklocka: den aktuella lokala tiden och datumet i 24 storstäder inklusive London, New York, Dubai, Karachi och Tokyo, uppdateras varje sekund via tidszoner.",
+  "id": "/loona-calculators/sv/world-clock/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

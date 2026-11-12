@@ -1,0 +1,29 @@
+{
+  "name": "Loona Dagar kvar till mors dag",
+  "short_name": "Dagar till mors dag",
+  "description": "Livenedräkning till mors dag: exakta dagar, timmar, minuter och sekunder kvar, datumet i år och de kommande tre åren, fakta och vanliga frågor.",
+  "id": "/loona-calculators/sv/days-until-mothers-day.html",
+  "start_url": "./days-until-mothers-day.html",
+  "scope": "./days-until-mothers-day.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Lösenfrasgenerator",
+  "short_name": "Lösenfrasgenerator",
+  "description": "Gratis lösenfrasgenerator: bygg starka, minnesvärda lösenfraser från slumpmässiga verkliga ord, med alternativ för antal ord, avgränsare, versaler och siffror. Körs i din webbläsare.",
+  "id": "/loona-calculators/sv/passphrase-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

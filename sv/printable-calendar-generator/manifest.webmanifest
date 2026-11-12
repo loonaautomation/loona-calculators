@@ -1,0 +1,29 @@
+{
+  "name": "Loona Generator för utskrivbar kalender",
+  "short_name": "Generator för utskrivbar kalender",
+  "description": "Gratis utskrivbar kalendergenerator: välj valfri månad och år (eller ett helt år) och generera ett rent kalenderrutnät som du kan skriva ut. Start på måndag eller söndag.",
+  "id": "/loona-calculators/sv/printable-calendar-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

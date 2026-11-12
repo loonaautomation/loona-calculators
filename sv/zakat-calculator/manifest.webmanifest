@@ -1,0 +1,29 @@
+{
+  "name": "Loona Zakat-kalkylator",
+  "short_name": "Zakat-kalkylator",
+  "description": "Gratis zakat-kalkylator: kontanter, banksaldo, guld, silver, affärsvaror och skulder — kontrollera nisab och beräkna din zakat på 2.5% i rupier direkt. Enkelt och privat.",
+  "id": "/loona-calculators/sv/zakat-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

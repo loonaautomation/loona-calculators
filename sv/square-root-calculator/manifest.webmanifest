@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kvadratrotskalkylator",
+  "short_name": "Kvadratrotskalkylator",
+  "description": "Gratis kvadratrotskalkylator: ange valfritt tal för att få dess kvadratrot, kubikrot, 4:e och 5:e rötter — plus dess kvadrat och kub — allt på en gång.",
+  "id": "/loona-calculators/sv/square-root-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Mph till Km/h-omvandlare",
+  "short_name": "Mph till Km/h-omvandlare",
+  "description": "Omvandla miles per timme till kilometer per timme direkt. Exakt formel, en fullständig omvandlingstabell för mph till km/h och genomräknade exempel. Gratis, ingen registrering.",
+  "id": "/loona-calculators/sv/mph-to-kmh-converter.html",
+  "start_url": "./mph-to-kmh-converter.html",
+  "scope": "./mph-to-kmh-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

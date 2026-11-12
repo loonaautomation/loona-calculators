@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkylator för lång division",
+  "short_name": "Kalkylator för lång division",
+  "description": "Gratis långdivisionskalkylator som visar varje steg: dividera tal med rest eller decimaler och se hela den skriftliga uträkningen, siffra för siffra. För elever och lärare.",
+  "id": "/loona-calculators/sv/long-division-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

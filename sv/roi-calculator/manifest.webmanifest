@@ -1,0 +1,29 @@
+{
+  "name": "Loona ROI-kalkylator",
+  "short_name": "ROI-kalkylator",
+  "description": "Gratis ROI-kalkylator: ange det investerade beloppet, det återbördade beloppet och åren för att få total ROI i procent och årlig avkastning för valfri investering.",
+  "id": "/loona-calculators/sv/roi-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

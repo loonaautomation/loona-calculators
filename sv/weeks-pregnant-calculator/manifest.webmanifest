@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkylator för graviditetsvecka",
+  "short_name": "Kalkylator för graviditetsveckor",
+  "description": "Gratis kalkylator för graviditetsveckor: ange datumet för din senaste mens eller förlossningsdatum för att se exakt hur många veckor och dagar du är gravid, din trimester och dagar kvar.",
+  "id": "/loona-calculators/sv/weeks-pregnant-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

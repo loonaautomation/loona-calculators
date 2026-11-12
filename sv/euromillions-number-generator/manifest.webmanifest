@@ -1,0 +1,29 @@
+{
+  "name": "Loona EuroMillions-nummergenerator",
+  "short_name": "EuroMillions-nummergenerator",
+  "description": "Gratis EuroMillions-nummergenerator: dra 5 huvudnummer från 50 plus 2 Lucky Stars från 12, med upp till 5 rader åt gången. Säkra slumpval, ingen registrering.",
+  "id": "/loona-calculators/sv/euromillions-number-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

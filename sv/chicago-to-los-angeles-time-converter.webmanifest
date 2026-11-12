@@ -1,0 +1,29 @@
+{
+  "name": "Loona Tidsomvandlare från Chicago till Los Angeles",
+  "short_name": "Tid från Chicago till Los Angeles",
+  "description": "Omvandla tid i Chicago till tid i Los Angeles. Los Angeles ligger 2 timmar efter Chicago hela året, med datum för sommartid, en 24-timmarstabell och det bästa mötesfönstret. Live-omvandlare ingår.",
+  "id": "/loona-calculators/sv/chicago-to-los-angeles-time-converter.html",
+  "start_url": "./chicago-to-los-angeles-time-converter.html",
+  "scope": "./chicago-to-los-angeles-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

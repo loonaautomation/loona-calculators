@@ -1,0 +1,29 @@
+{
+  "name": "Loona Millisekund till timme-omvandlare",
+  "short_name": "Millisekund till timme-omvandlare",
+  "description": "Omvandla millisekunder till timmar direkt. Exakt formel, en fullständig omvandlingstabell för ms till h, ett genomräknat exempel och vanliga frågor. Gratis, ingen registrering.",
+  "id": "/loona-calculators/sv/milliseconds-to-hours-converter.html",
+  "start_url": "./milliseconds-to-hours-converter.html",
+  "scope": "./milliseconds-to-hours-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

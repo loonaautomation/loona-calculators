@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkylator för linjär regression",
+  "short_name": "Räknare för linjär regression",
+  "description": "Gratis linjär regressionskalkylator: klistra in parade data för att få minsta-kvadrat-linjen y = a + bx, korrelation, förutsägelser och ett spridningsdiagram med den anpassade linjen ritad.",
+  "id": "/loona-calculators/sv/linear-regression-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

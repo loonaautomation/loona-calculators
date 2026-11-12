@@ -1,0 +1,29 @@
+{
+  "name": "Loona Bolånekalkylator för Nya Zeeland",
+  "short_name": "Bolån i Nya Zeeland",
+  "description": "Gratis nyzeeländsk bolånekalkylator: månadsbetalning, total ränta och skuldfrihetsdatum för valfritt huspris, insats, räntesats och löptid, plus en jämförelse av extra betalningar.",
+  "id": "/loona-calculators/sv/new-zealand-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

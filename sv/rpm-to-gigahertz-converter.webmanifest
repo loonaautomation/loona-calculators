@@ -1,0 +1,29 @@
+{
+  "name": "Loona Varv per minut till gigahertz",
+  "short_name": "Varv per minut till",
+  "description": "Omvandla varv per minut till gigahertz direkt. Exakt formel, en fullständig omvandlingstabell för rpm till GHz, ett genomräknat exempel och vanliga frågor. Gratis, ingen registrering.",
+  "id": "/loona-calculators/sv/rpm-to-gigahertz-converter.html",
+  "start_url": "./rpm-to-gigahertz-converter.html",
+  "scope": "./rpm-to-gigahertz-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

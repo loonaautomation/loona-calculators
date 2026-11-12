@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkylator för t-test med ett stickprov",
+  "short_name": "Kalkylator för t-test med ett stickprov",
+  "description": "Gratis enstickprovs-t-testkalkylator: ange urvalsmedelvärde, SD, n och det hypotetiska medelvärdet för att få t-statistikan, frihetsgraderna och p-värdena.",
+  "id": "/loona-calculators/sv/t-test-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

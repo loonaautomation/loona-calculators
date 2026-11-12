@@ -1,0 +1,29 @@
+{
+  "name": "Loona Veckonummerkalkylator",
+  "short_name": "Kalkylator för veckonummer",
+  "description": "Gratis veckonummerkalkylator: välj valfritt datum för att få dess ISO-veckonummer, ISO-veckoår, dag på året, dagar kvar av året och kalenderkvartal.",
+  "id": "/loona-calculators/sv/week-number-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Datumkalkylator",
+  "short_name": "Datumkalkylator",
+  "description": "Gratis datumkalkylator: lägg till eller dra ifrån dagar, veckor, månader och år från valfritt datum och få det resulterande datumet med dess veckodag. Deadlines, visum och planering.",
+  "id": "/loona-calculators/sv/date-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

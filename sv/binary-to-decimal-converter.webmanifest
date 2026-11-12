@@ -1,0 +1,29 @@
+{
+  "name": "Loona Omvandlare från binärt till decimalt",
+  "short_name": "Binär till Decimal-omvandlare",
+  "description": "Omvandla binära (bas 2) till decimala (bas 10) med validering, platsvärdesberäkning och en referenstabell.",
+  "id": "/loona-calculators/sv/binary-to-decimal-converter.html",
+  "start_url": "./binary-to-decimal-converter.html",
+  "scope": "./binary-to-decimal-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

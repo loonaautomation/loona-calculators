@@ -1,0 +1,29 @@
+{
+  "name": "Loona Tum till fot-omvandlare",
+  "short_name": "Omvandlare från tum till fot",
+  "description": "Omvandla tum till fot direkt. Exakt formel, en fullständig omvandlingstabell för in till ft och genomräknade exempel. Gratis, ingen registrering.",
+  "id": "/loona-calculators/sv/inches-to-feet-converter.html",
+  "start_url": "./inches-to-feet-converter.html",
+  "scope": "./inches-to-feet-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

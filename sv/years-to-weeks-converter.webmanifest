@@ -1,0 +1,29 @@
+{
+  "name": "Loona År (julianskt) till vecka-omvandlare",
+  "short_name": "År (julianskt) till vecka",
+  "description": "Omvandla år till veckor direkt. Exakt formel, en fullständig omvandlingstabell för yr till wk, ett genomräknat exempel och vanliga frågor. Gratis, ingen registrering.",
+  "id": "/loona-calculators/sv/years-to-weeks-converter.html",
+  "start_url": "./years-to-weeks-converter.html",
+  "scope": "./years-to-weeks-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

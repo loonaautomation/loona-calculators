@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkylator för 10,000:e dagen",
+  "short_name": "Räknare för den 10,000:e dagen",
+  "description": "Gratis dagmilstolpskalkylator: ange ett födelsedatum för att hitta din 10,000:e dag, andra runda dagjubileer, din ålder i dagar och ditt nästa milstolpsdatum.",
+  "id": "/loona-calculators/sv/day-milestone-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

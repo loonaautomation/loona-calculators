@@ -1,0 +1,29 @@
+{
+  "name": "Loona Procentkalkylator",
+  "short_name": "Procentkalkylator",
+  "description": "Gratis procentkalkylator med tre verktyg i ett: vad är X% av Y, X är hur många procent av Y, och procentuell ökning eller minskning mellan två tal.",
+  "id": "/loona-calculators/sv/percentage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

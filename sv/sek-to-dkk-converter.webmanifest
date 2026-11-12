@@ -1,0 +1,29 @@
+{
+  "name": "Loona SEK till DKK-omvandlare",
+  "short_name": "Omvandlare från SEK till DKK",
+  "description": "Omvandla svensk krona (SEK) till dansk krona (DKK). ECB:s referenskurs daterad 06 november 2026, omvänd kurs, omvandlingstabell och korridoranteckningar. Endast vägledande.",
+  "id": "/loona-calculators/sv/sek-to-dkk-converter.html",
+  "start_url": "./sek-to-dkk-converter.html",
+  "scope": "./sek-to-dkk-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

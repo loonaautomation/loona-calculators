@@ -1,0 +1,29 @@
+{
+  "name": "Loona Medelvärdeskalkylator",
+  "short_name": "Medelvärdeskalkylator",
+  "description": "Gratis genomsnittskalkylator: klistra in en lista med tal för att få medelvärde, median, typvärde, summa, antal, minimum, maximum och variationsbredd — direkt, för upp till 50 tal.",
+  "id": "/loona-calculators/sv/average-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
