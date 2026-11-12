@@ -1,0 +1,29 @@
+{
+  "name": "Loona One-Sample T-Test Calculator",
+  "short_name": "One-Sample T-Test Calculator",
+  "description": "Free one-sample t-test calculator: enter sample mean, SD, n and the hypothesised mean to get the t statistic, degrees of freedom and p-values.",
+  "id": "/loona-calculators/en-gb/t-test-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

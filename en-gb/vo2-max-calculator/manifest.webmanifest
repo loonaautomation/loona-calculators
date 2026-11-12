@@ -1,0 +1,29 @@
+{
+  "name": "Loona VO2 Max Calculator",
+  "short_name": "VO2 Max Calculator",
+  "description": "Free VO2 max calculator: estimate aerobic fitness from the Cooper 12-minute run or the Rockport 1-mile walk test. Educational fitness estimate.",
+  "id": "/loona-calculators/en-gb/vo2-max-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

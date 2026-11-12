@@ -1,0 +1,29 @@
+{
+  "name": "Loona US Ton to Tonne Converter",
+  "short_name": "US Ton to Tonne Converter",
+  "description": "Convert us tons to tonnes instantly. Exact formula, a full US ton to t conversion table, a worked example and FAQs. Free, no sign-up.",
+  "id": "/loona-calculators/en-gb/us-tons-to-tonnes-converter.html",
+  "start_url": "./us-tons-to-tonnes-converter.html",
+  "scope": "./us-tons-to-tonnes-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

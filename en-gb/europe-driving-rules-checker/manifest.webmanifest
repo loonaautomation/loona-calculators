@@ -1,0 +1,29 @@
+{
+  "name": "Loona Europe Driving Rules Checker",
+  "short_name": "Europe Driving Rules Checker",
+  "description": "Free Europe driving rules checker: pick a country for its driving side, motorway speed limit, drink-drive limit and key local rules for visiting drivers.",
+  "id": "/loona-calculators/en-gb/europe-driving-rules-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

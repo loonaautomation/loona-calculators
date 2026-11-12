@@ -1,0 +1,29 @@
+{
+  "name": "Loona Joules to Calories Converter",
+  "short_name": "Joules to Calories Converter",
+  "description": "Convert joules to calories instantly. Exact formula, a full J to cal conversion table and worked examples. Free, no sign-up.",
+  "id": "/loona-calculators/en-gb/joules-to-calories-converter.html",
+  "start_url": "./joules-to-calories-converter.html",
+  "scope": "./joules-to-calories-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

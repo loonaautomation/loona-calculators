@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kilocalorie to Joule Converter",
+  "short_name": "Kilocalorie to Joule Converter",
+  "description": "Convert kilocalories to joules instantly. Exact formula, a full kcal to J conversion table, a worked example and FAQs. Free, no sign-up.",
+  "id": "/loona-calculators/en-gb/kilocalories-to-joules-converter.html",
+  "start_url": "./kilocalories-to-joules-converter.html",
+  "scope": "./kilocalories-to-joules-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

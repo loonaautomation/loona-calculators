@@ -1,0 +1,29 @@
+{
+  "name": "Loona Confidence Interval Calculator",
+  "short_name": "Confidence Interval Calculator",
+  "description": "Free confidence interval calculator: CI for a mean with known sigma (z), with sample SD (t), and for a proportion, at 90%, 95% or 99% confidence.",
+  "id": "/loona-calculators/en-gb/confidence-interval-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

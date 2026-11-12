@@ -1,0 +1,29 @@
+{
+  "name": "Loona Working Days in Switzerland",
+  "short_name": "Working Days in Switzerland",
+  "description": "Working days calculator for Switzerland: business days between two dates minus weekends and the 4 public holidays observed in every Swiss canton 2026.",
+  "id": "/loona-calculators/en-gb/working-days-in-switzerland.html",
+  "start_url": "./working-days-in-switzerland.html",
+  "scope": "./working-days-in-switzerland.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

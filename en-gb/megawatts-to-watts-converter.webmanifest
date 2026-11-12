@@ -1,0 +1,29 @@
+{
+  "name": "Loona Megawatt to Watt Converter",
+  "short_name": "Megawatt to Watt Converter",
+  "description": "Convert megawatts to watts instantly. Exact formula, a full MW to W conversion table, a worked example and FAQs. Free, no sign-up.",
+  "id": "/loona-calculators/en-gb/megawatts-to-watts-converter.html",
+  "start_url": "./megawatts-to-watts-converter.html",
+  "scope": "./megawatts-to-watts-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

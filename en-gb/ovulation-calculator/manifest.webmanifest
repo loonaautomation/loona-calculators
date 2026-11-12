@@ -1,0 +1,29 @@
+{
+  "name": "Loona Ovulation Calculator",
+  "short_name": "Ovulation Calculator",
+  "description": "Free ovulation calculator: enter the first day of your last period and cycle length to estimate ovulation, your fertile window, next period and due date.",
+  "id": "/loona-calculators/en-gb/ovulation-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Sunrise & Sunset Calculator",
+  "short_name": "Sunrise & Sunset Calculator",
+  "description": "Free sunrise and sunset calculator: enter a date and latitude/longitude to get sunrise, sunset, day length and solar noon in UTC and local solar terms. NOAA maths.",
+  "id": "/loona-calculators/en-gb/sunrise-sunset-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

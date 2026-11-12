@@ -1,0 +1,29 @@
+{
+  "name": "Loona Pakistan Mortgage Calculator",
+  "short_name": "Pakistan Mortgage Calculator",
+  "description": "Free Pakistan house finance calculator in rupees: monthly instalment on a reducing balance, total markup and debt-free date for any property price, deposit, rate and term.",
+  "id": "/loona-calculators/en-gb/pakistan-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

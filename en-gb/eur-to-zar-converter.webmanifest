@@ -1,0 +1,29 @@
+{
+  "name": "Loona EUR to ZAR Converter",
+  "short_name": "EUR to ZAR Converter",
+  "description": "Convert Euro (EUR) to South African Rand (ZAR). ECB reference rate dated 06 November 2026, inverse rate, conversion table and corridor notes. Indicative only.",
+  "id": "/loona-calculators/en-gb/eur-to-zar-converter.html",
+  "start_url": "./eur-to-zar-converter.html",
+  "scope": "./eur-to-zar-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

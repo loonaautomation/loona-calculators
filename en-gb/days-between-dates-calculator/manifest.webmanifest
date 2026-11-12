@@ -1,0 +1,29 @@
+{
+  "name": "Loona Days Between Dates Calculator",
+  "short_name": "Days Between Dates Calculator",
+  "description": "Free days between dates calculator: count the exact number of days, weeks and years between any two dates. Useful for deadlines, visas, contracts and countdowns.",
+  "id": "/loona-calculators/en-gb/days-between-dates-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

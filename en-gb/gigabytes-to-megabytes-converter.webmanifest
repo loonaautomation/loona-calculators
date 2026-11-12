@@ -1,0 +1,29 @@
+{
+  "name": "Loona Gigabytes to Megabytes Converter",
+  "short_name": "Gigabytes to Megabytes",
+  "description": "Convert gigabytes to megabytes instantly (binary convention: 1 GB = 1,024 MB). Exact formula, a full GB to MB conversion table and worked examples. Free, no sign-up.",
+  "id": "/loona-calculators/en-gb/gigabytes-to-megabytes-converter.html",
+  "start_url": "./gigabytes-to-megabytes-converter.html",
+  "scope": "./gigabytes-to-megabytes-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

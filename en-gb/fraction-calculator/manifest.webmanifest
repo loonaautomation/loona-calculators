@@ -1,0 +1,29 @@
+{
+  "name": "Loona Fraction Calculator",
+  "short_name": "Fraction Calculator",
+  "description": "Free fraction calculator: add, subtract, multiply or divide two fractions and get the simplified answer as a fraction, a mixed number and a decimal.",
+  "id": "/loona-calculators/en-gb/fraction-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

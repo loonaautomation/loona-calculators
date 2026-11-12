@@ -1,0 +1,29 @@
+{
+  "name": "Loona Savings Calculator",
+  "short_name": "Savings Calculator",
+  "description": "Free savings calculator: enter a monthly deposit, interest rate and years to see the future value of your savings, total deposited and interest earned.",
+  "id": "/loona-calculators/en-gb/savings-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

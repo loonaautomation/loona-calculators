@@ -1,0 +1,29 @@
+{
+  "name": "Loona Trigonometry Calculator",
+  "short_name": "Trigonometry Calculator",
+  "description": "Free trigonometry calculator: enter an angle in degrees or radians to get sin, cos, tan, csc, sec and cot, or use inverse sin, cos and tan to find an angle from a ratio. Exact-values table included.",
+  "id": "/loona-calculators/en-gb/trigonometry-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

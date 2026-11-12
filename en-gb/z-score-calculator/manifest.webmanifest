@@ -1,0 +1,29 @@
+{
+  "name": "Loona Z-Score Calculator",
+  "short_name": "Z-Score Calculator",
+  "description": "Free z-score calculator: enter a value, mean and standard deviation to get the z-score, percentile and probabilities from the standard normal table (normal distribution).",
+  "id": "/loona-calculators/en-gb/z-score-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

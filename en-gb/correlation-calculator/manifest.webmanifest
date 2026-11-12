@@ -1,0 +1,29 @@
+{
+  "name": "Loona Correlation Calculator",
+  "short_name": "Correlation Calculator",
+  "description": "Free Pearson correlation calculator: paste paired x,y data to get the correlation coefficient r, r-squared, and a plain-English strength reading.",
+  "id": "/loona-calculators/en-gb/correlation-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

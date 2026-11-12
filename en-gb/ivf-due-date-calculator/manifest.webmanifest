@@ -1,0 +1,29 @@
+{
+  "name": "Loona IVF Due Date Calculator",
+  "short_name": "IVF Due Date Calculator",
+  "description": "Free IVF due date calculator: enter your embryo transfer date and embryo age (day 3 or day 5) to get your estimated due date and current gestational age.",
+  "id": "/loona-calculators/en-gb/ivf-due-date-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
