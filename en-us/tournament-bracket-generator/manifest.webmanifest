@@ -1,0 +1,29 @@
+{
+  "name": "Loona 🏆 Tournament Bracket Generator",
+  "short_name": "🏆 Tournament Bracket Generator",
+  "description": "Free tournament bracket generator: enter entrants, get a properly seeded single-elimination bracket with byes handled — for esports, sports days, chess and quizzes.",
+  "id": "/loona-calculators/en-us/tournament-bracket-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona ✏️ Grade Calculator",
+  "short_name": "✏️ Grade Calculator",
+  "description": "Free weighted grade calculator: enter up to 8 assignment scores with their weights to get your overall grade percentage and letter grade. Weights need not total 100.",
+  "id": "/loona-calculators/en-us/grade-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

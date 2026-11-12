@@ -1,0 +1,29 @@
+{
+  "name": "Loona 🇭🇺 Working Days in Hungary",
+  "short_name": "🇭🇺 Working Days in Hungary",
+  "description": "Working days calculator for Hungary: business days between two dates with weekends, Hungarian public holidays and the 2026 bridge days handled. Free tool.",
+  "id": "/loona-calculators/en-us/working-days-in-hungary.html",
+  "start_url": "./working-days-in-hungary.html",
+  "scope": "./working-days-in-hungary.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

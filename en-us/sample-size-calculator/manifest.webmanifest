@@ -1,0 +1,29 @@
+{
+  "name": "Loona 👥 Sample Size Calculator",
+  "short_name": "👥 Sample Size Calculator",
+  "description": "Free sample size calculator: how many responses you need for a survey proportion or a mean, at your confidence level and margin of error, with finite population correction.",
+  "id": "/loona-calculators/en-us/sample-size-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

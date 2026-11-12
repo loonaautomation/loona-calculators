@@ -1,0 +1,29 @@
+{
+  "name": "Loona 👟 Shoe Size Converter",
+  "short_name": "👟 Shoe Size Converter",
+  "description": "Free shoe size converter for men and women: convert between US, UK and EU sizes and foot length in cm and inches, using the standard conversion charts with nearest matching.",
+  "id": "/loona-calculators/en-us/shoe-size-converter/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

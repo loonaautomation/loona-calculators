@@ -1,0 +1,29 @@
+{
+  "name": "Loona 🥩 Protein Intake Calculator",
+  "short_name": "🥩 Protein Intake Calculator",
+  "description": "Free protein intake calculator: daily protein grams from body weight, activity level and goal using evidence-based g/kg ranges. Distinct from calorie-based macro splits.",
+  "id": "/loona-calculators/en-us/protein-intake-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

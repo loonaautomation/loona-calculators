@@ -1,0 +1,29 @@
+{
+  "name": "Loona 🎓 CGPA Calculator",
+  "short_name": "🎓 CGPA Calculator",
+  "description": "Free CGPA calculator for university students: enter subject marks and credit hours to get your semester GPA, and add your previous CGPA for the cumulative result. HEC grade scale.",
+  "id": "/loona-calculators/en-us/cgpa-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

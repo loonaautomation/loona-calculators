@@ -1,0 +1,29 @@
+{
+  "name": "Loona 🇱🇹 Working Days in Lithuania",
+  "short_name": "🇱🇹 Working Days in Lithuania",
+  "description": "Working days calculator for Lithuania: count business days between two dates with weekends and all 16 Lithuanian public holidays of 2026 removed. Free online tool.",
+  "id": "/loona-calculators/en-us/working-days-in-lithuania.html",
+  "start_url": "./working-days-in-lithuania.html",
+  "scope": "./working-days-in-lithuania.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

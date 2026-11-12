@@ -1,0 +1,29 @@
+{
+  "name": "Loona 🎯 Rounding Calculator",
+  "short_name": "🎯 Rounding Calculator",
+  "description": "Free rounding calculator: round any number to decimal places, to the nearest 10, 100 or 1,000, or to significant figures, with the rule explained.",
+  "id": "/loona-calculators/en-us/rounding-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona ⏰ Hours to Days Converter",
+  "short_name": "⏰ Hours to Days Converter",
+  "description": "Convert hours to days instantly. Exact formula, a full h to days conversion table and worked examples. Free, no sign-up.",
+  "id": "/loona-calculators/en-us/hours-to-days-converter.html",
+  "start_url": "./hours-to-days-converter.html",
+  "scope": "./hours-to-days-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

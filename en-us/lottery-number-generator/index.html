@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lottery Number Generator — Powerball, EuroMillions & UK Lotto | Loona</title>
+<meta name="description" content="Free lottery number generator with presets for Powerball, Mega Millions, EuroMillions and UK Lotto, plus a custom mode for any lottery. Secure random picks.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/en-us/lottery-number-generator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/lottery-number-generator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/lottery-number-generator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/lottery-number-generator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/lottery-number-generator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/lottery-number-generator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/lottery-number-generator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/lottery-number-generator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/lottery-number-generator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/lottery-number-generator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/lottery-number-generator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/lottery-number-generator/"><link rel="alternate" hreflang="id" href="https://loonaautomation.github.io/loona-calculators/id/lottery-number-generator/"><link rel="alternate" hreflang="hi" href="https://loonaautomation.github.io/loona-calculators/hi/lottery-number-generator/"><link rel="alternate" hreflang="ja" href="https://loonaautomation.github.io/loona-calculators/ja/lottery-number-generator/"><link rel="alternate" hreflang="ko" href="https://loonaautomation.github.io/loona-calculators/ko/lottery-number-generator/"><link rel="alternate" hreflang="pl" href="https://loonaautomation.github.io/loona-calculators/pl/lottery-number-generator/"><link rel="alternate" hreflang="vi" href="https://loonaautomation.github.io/loona-calculators/vi/lottery-number-generator/"><link rel="alternate" hreflang="en-US" href="https://loonaautomation.github.io/loona-calculators/en-us/lottery-number-generator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/lottery-number-generator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Lottery Number Generator — Powerball, EuroMillions & UK Lotto | Loona">
+<meta property="og:description" content="Free lottery number generator with presets for Powerball, Mega Millions, EuroMillions and UK Lotto, plus a custom mode for any lottery. Secure random picks.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/en-us/lottery-number-generator/"><meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Lottery Number Generator — Powerball, EuroMillions & UK Lotto | Loona">
+<meta name="twitter:description" content="Free lottery number generator with presets for Powerball, Mega Millions, EuroMillions and UK Lotto, plus a custom mode for any lottery. Secure random picks.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona Lottery Number Generator","url":"https://loonaautomation.github.io/loona-calculators/en-us/lottery-number-generator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Do generated numbers improve my chances of winning?","acceptedAnswer":{"@type":"Answer","text":"No — and any tool that claims otherwise is misleading you. Every valid combination has exactly the same probability, whether you pick it, a machine picks it, or it is 1-2-3-4-5-6. A generator is simply a fair, fast way to choose."}},{"@type":"Question","name":"What are the jackpot odds for each game?","acceptedAnswer":{"@type":"Answer","text":"Powerball: 1 in 292,201,338. Mega Millions: 1 in 290,472,336 (current format since April 2025). EuroMillions: 1 in 139,838,160. UK Lotto: 1 in 45,057,474. For perspective, you are far more likely to be struck by lightning in your lifetime than to win a jackpot."}},{"@type":"Question","name":"Why are the numbers shown sorted?","acceptedAnswer":{"@type":"Answer","text":"Real draws are unordered, but tickets and results are conventionally printed in ascending order so you can compare them easily. Sorting is only presentation — it does not change the combination or its odds."}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<style>.balls{display:flex;gap:9px;flex-wrap:wrap;margin:8px 0}.ball{width:48px;height:48px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:18px;color:#062e2a;background:radial-gradient(circle at 35% 30%,#ffffff,#dfe9e6 65%,#b9cdc8);border:2px solid #0a423b}.ball.bonus{background:radial-gradient(circle at 35% 30%,#f7e08a,#d4af37 65%,#b8912a);border-color:#8a6d1d;color:#231a00}</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/en-us/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Lottery Number Generator",
+      "item": "https://loonaautomation.github.io/loona-calculators/en-us/lottery-number-generator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="../manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation logo">
+<div class="brand">Loona <span>Calculators</span></div>
+<nav>
+<a href="../index.html">Home</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">About</a>
+<a href="../contact.html">Contact</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../index.html">Loona Calculators</a> › Fun › Lottery Number Generator</div>
+<h1 class="pagetitle">🍀 Lottery Number Generator</h1>
+<p class="lead">Pick your game and generate a full set of lottery numbers in one tap — official presets for Powerball, Mega Millions, EuroMillions and the UK Lotto, or build a custom draw for any lottery in the world. Numbers are drawn with secure randomness and shown sorted, just like a real ticket.</p>
+<div class="toolbox"><form class="calcform" id="lotForm">
+<div class="fld"><label for="lotGame">Lottery game</label><select id="lotGame"><option value="powerball" selected>Powerball (USA) — 5 from 69 + Powerball 1 from 26</option><option value="megamillions">Mega Millions (USA) — 5 from 70 + Mega Ball 1 from 24</option><option value="euromillions">EuroMillions (Europe) — 5 from 50 + 2 Lucky Stars from 12</option><option value="uklotto">UK Lotto — 6 from 59</option><option value="custom">Custom lottery</option></select></div>
+<div id="lotCustom" style="display:none">
+<div class="fld"><label for="lotMainCount">Main numbers — how many?</label><input type="number" id="lotMainCount" value="6" min="1" max="15"></div>
+<div class="fld"><label for="lotMainMax">Main numbers — from 1 to</label><input type="number" id="lotMainMax" value="49" min="1" max="1000"></div>
+<div class="fld"><label for="lotBonusCount">Bonus numbers — how many? (0 for none)</label><input type="number" id="lotBonusCount" value="1" min="0" max="5"></div>
+<div class="fld"><label for="lotBonusMax">Bonus numbers — from 1 to</label><input type="number" id="lotBonusMax" value="10" min="1" max="1000"></div>
+</div>
+<button class="calcbtn" type="submit">🍀 Generate Lucky Numbers</button>
+<div class="calcresult" id="lotResult" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>How to use the Lottery Number Generator</h2><ol><li>Choose your lottery game from the list (or Custom for any other lottery).</li><li>For a custom game, set how many main and bonus numbers there are and how large each pool is.</li><li>Press Generate Lucky Numbers — press again for a completely new set.</li></ol>
+<div class="exbox"><strong>Example:</strong> For EuroMillions, the generator draws 5 different main numbers from 1–50 and 2 Lucky Stars from 1–12 — for example 7 · 15 · 23 · 34 · 48 with stars 3 · 9. Any other combination, including 1 · 2 · 3 · 4 · 5, is exactly as likely.</div>
+<h2>Frequently Asked Questions</h2></section><div class="faq"><h3>Do generated numbers improve my chances of winning?</h3><p>No — and any tool that claims otherwise is misleading you. Every valid combination has exactly the same probability, whether you pick it, a machine picks it, or it is 1-2-3-4-5-6. A generator is simply a fair, fast way to choose.</p></div><div class="faq"><h3>What are the jackpot odds for each game?</h3><p>Powerball: 1 in 292,201,338. Mega Millions: 1 in 290,472,336 (current format since April 2025). EuroMillions: 1 in 139,838,160. UK Lotto: 1 in 45,057,474. For perspective, you are far more likely to be struck by lightning in your lifetime than to win a jackpot.</p></div><div class="faq"><h3>Why are the numbers shown sorted?</h3><p>Real draws are unordered, but tickets and results are conventionally printed in ascending order so you can compare them easily. Sorting is only presentation — it does not change the combination or its odds.</p></div>
+<h2 class="sec">Related Calculators</h2><div class="grid"><a class="card" href="../random-number-generator/"><div class="ic">🎲</div><h3>Random Number Generator</h3><p>Fun</p></a><a class="card" href="../dice-roller/"><div class="ic">🎲</div><h3>Dice Roller</h3><p>Fun</p></a><a class="card" href="../coin-flip/"><div class="ic">🪙</div><h3>Coin Flip</h3><p>Fun</p></a><a class="card" href="../love-calculator/"><div class="ic">❤️</div><h3>Love Calculator</h3><p>Fun</p></a><a class="card" href="../percentage-calculator/"><div class="ic">％</div><h3>Percentage Calculator</h3><p>Math</p></a></div>
+</div>
+<section class="txt"><h2>How it works &mdash; the formula</h2>
+<p>The generator draws <strong>without replacement</strong> from each pool using the secure random source (crypto.getRandomValues with rejection sampling), so every combination of the right size is equally likely. The number of possible combinations of a game with pool size <em>n</em> and pick <em>k</em> is the binomial coefficient <strong>C(n, k) = n! ÷ (k! × (n−k)!)</strong>; games with a separate bonus pool multiply the main combinations by the bonus pool size.</p>
+<h3>Worked example</h3>
+<div class="exbox"><strong>Example (UK Lotto):</strong> C(59, 6) = 59! ÷ (6! × 53!) = <strong>45,057,474</strong> possible combinations — hence jackpot odds of 1 in 45,057,474 per ticket line. For Powerball: C(69, 5) = 11,238,513 main combinations × 26 Powerballs = <strong>292,201,338</strong>.</div>
+<h3>Frequently asked questions</h3></section><div class="faq"><h3>Can a number repeat inside one set?</h3><p>Main numbers are always unique within a set, matching how real lotteries draw without replacement. Bonus numbers (like the Powerball) come from a separate pool, so a bonus number can coincidentally equal a main number — exactly as in the real game.</p></div><div class="faq"><h3>Should I avoid 'unlucky' or popular numbers?</h3><p>It makes no difference to your chance of winning, but it can affect the prize if you win: combinations many people play (birthdays 1–31, patterns, famous sequences) are shared with more winners. Unpopular-looking combinations do not win more often — they just tend to be shared less.</p></div><div class="faq"><h3>Is this tool affiliated with any lottery?</h3><p>No. Loona Automation is not affiliated with Powerball, Mega Millions, EuroMillions, the UK National Lottery or any operator. Always check the official rules, pools and draw schedules for your game, and play responsibly — never spend money you cannot afford to lose.</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Embed this calculator on your website — free</h2>
+<p style="margin:0 0 12px;line-height:1.6">Add this calculator to your own website or blog — it is completely free, needs no sign-up, and always shows the latest version. Copy the code below and paste it into your page where you want the calculator to appear. Keeping the small &ldquo;Powered by Loona Automation&rdquo; credit line under the embed helps keep this tool free &mdash; but you are free to style or remove it; the tool works either way.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/en-us/lottery-number-generator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Lottery Number Generator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Powered by &lt;a href="https://loonaautomation.github.io/loona-calculators/en-us/lottery-number-generator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; free Lottery Number Generator&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Copy embed code</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='Copy embed code';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Popular Calculators</h4><ul><li><a href="../age-calculator/">Age Calculator</a></li>
+<li><a href="../zakat-calculator/">Zakat Calculator</a></li>
+<li><a href="../cgpa-calculator/">CGPA Calculator</a></li>
+<li><a href="../percentage-calculator/">Percentage Calculator</a></li>
+<li><a href="../hijri-date-converter/">Hijri Date Converter</a></li>
+<li><a href="../emi-calculator/">EMI & Loan Calculator</a></li></ul></div>
+<div><h4>More Loona Tools</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Image Compressor</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI Assistant</a></li>
+<li><a href="https://loonaautomation.github.io/">All Loona Tools</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">About</a></li>
+<li><a href="../contact.html">Contact</a></li>
+<li><a href="../privacy-policy.html">Privacy Policy</a></li>
+<li><a href="../terms.html">Terms of Use</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — a <a href="https://loonaautomation.github.io/">Loona Automation</a> project. Free online calculators, no signup.
+Contact: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+function cryptoRandomInt(min, max) {
+  var range = max - min + 1;
+  if (!(range >= 1)) throw new Error("Invalid range.");
+  if (range > 4294967296) throw new Error("Range too large.");
+  var limit = Math.floor(4294967296 / range) * range;
+  var buf = new Uint32Array(1), x;
+  do { crypto.getRandomValues(buf); x = buf[0]; } while (x >= limit);
+  return min + (x % range);
+}
+function generateRandomNumbers(min, max, count, unique) {
+  min = Math.floor(min); max = Math.floor(max); count = Math.floor(count);
+  if (isNaN(min) || isNaN(max) || isNaN(count)) throw new Error("Please enter valid numbers in every field.");
+  if (max < min) throw new Error("The maximum must be greater than or equal to the minimum.");
+  if (count < 1 || count > 10000) throw new Error("Choose between 1 and 10,000 numbers.");
+  if (unique && count > (max - min + 1)) throw new Error("There are not enough unique numbers in that range.");
+  var out = [], seen = {};
+  while (out.length < count) {
+    var v = cryptoRandomInt(min, max);
+    if (unique) { if (seen[v]) continue; seen[v] = 1; }
+    out.push(v);
+  }
+  return out;
+}
+function generateUniqueSorted(count, max) {
+  var seen = {}, out = [];
+  while (out.length < count) {
+    var v = cryptoRandomInt(1, max);
+    if (!seen[v]) { seen[v] = 1; out.push(v); }
+  }
+  out.sort(function (a, b) { return a - b; });
+  return out;
+}
+/*TESTABLE_END*/
+
+/*TESTABLE_START*/
+var LOTTERY_PRESETS = {
+  powerball: { name: "Powerball", mainCount: 5, mainMax: 69, bonusCount: 1, bonusMax: 26, bonusName: "Powerball" },
+  megamillions: { name: "Mega Millions", mainCount: 5, mainMax: 70, bonusCount: 1, bonusMax: 24, bonusName: "Mega Ball" },
+  euromillions: { name: "EuroMillions", mainCount: 5, mainMax: 50, bonusCount: 2, bonusMax: 12, bonusName: "Lucky Stars" },
+  uklotto: { name: "UK Lotto", mainCount: 6, mainMax: 59, bonusCount: 0, bonusMax: 0, bonusName: "" }
+};
+function drawLottery(p) {
+  if (p.mainCount < 1 || p.mainCount > p.mainMax) throw new Error("Main numbers: the count must be between 1 and the pool size.");
+  if (p.bonusCount < 0 || (p.bonusCount > 0 && p.bonusCount > p.bonusMax)) throw new Error("Bonus numbers: the count must fit the bonus pool.");
+  return { main: generateUniqueSorted(p.mainCount, p.mainMax), bonus: p.bonusCount > 0 ? generateUniqueSorted(p.bonusCount, p.bonusMax) : [] };
+}
+/*TESTABLE_END*/
+function lotCurrentPreset() {
+  var g = document.getElementById('lotGame').value;
+  if (g !== 'custom') return LOTTERY_PRESETS[g];
+  return {
+    name: "Custom lottery",
+    mainCount: parseInt(document.getElementById('lotMainCount').value, 10) || 0,
+    mainMax: parseInt(document.getElementById('lotMainMax').value, 10) || 0,
+    bonusCount: parseInt(document.getElementById('lotBonusCount').value, 10) || 0,
+    bonusMax: parseInt(document.getElementById('lotBonusMax').value, 10) || 0,
+    bonusName: "Bonus"
+  };
+}
+function lotRun() {
+  var box = document.getElementById('lotResult');
+  try {
+    var p = lotCurrentPreset();
+    var d = drawLottery(p);
+    var balls = d.main.map(function (n) { return '<div class="ball">' + n + '</div>'; }).join('');
+    var bonus = d.bonus.map(function (n) { return '<div class="ball bonus">' + n + '</div>'; }).join('');
+    box.style.display = 'block';
+    box.innerHTML = '<div class="resbig"><span>' + p.name + ' — your numbers</span><strong>Good luck!</strong></div>' +
+      '<div class="balls">' + balls + (bonus ? '<div style="width:14px"></div>' + bonus : '') + '</div>' +
+      '<p style="font-size:15px"><strong>' + d.main.join(' · ') + '</strong>' + (d.bonus.length ? ' &nbsp;|&nbsp; ' + p.bonusName + ': <strong>' + d.bonus.join(' · ') + '</strong>' : '') + '</p>' +
+      '<p class="resnote">Every combination is equally likely — generated numbers have exactly the same chance as any numbers you choose yourself. Play responsibly: a lottery ticket is entertainment, never an investment.</p>';
+  } catch (e) {
+    box.style.display = 'block';
+    box.innerHTML = '<p class="err">' + e.message + '</p>';
+  }
+}
+document.getElementById('lotGame').addEventListener('change', function () {
+  document.getElementById('lotCustom').style.display = this.value === 'custom' ? 'block' : 'none';
+});
+document.getElementById('lotForm').addEventListener('submit', function (e) { e.preventDefault(); lotRun(); });
+lotRun();
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Install App';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Install this app: tap the Share button, then choose "Add to Home Screen".');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

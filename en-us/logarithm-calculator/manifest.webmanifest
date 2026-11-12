@@ -1,0 +1,29 @@
+{
+  "name": "Loona log Logarithm Calculator",
+  "short_name": "log Logarithm Calculator",
+  "description": "Free logarithm calculator: find log to any base, plus the common log (base 10), natural log (ln) and binary log (base 2), each verified by its antilog. Change-of-base formula explained.",
+  "id": "/loona-calculators/en-us/logarithm-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

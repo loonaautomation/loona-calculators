@@ -1,0 +1,29 @@
+{
+  "name": "Loona 🎲 Probability Calculator",
+  "short_name": "🎲 Probability Calculator",
+  "description": "Free probability calculator: probability of A and B, A or B, neither and exactly one; odds conversion; combinations and permutations. With formulas and examples.",
+  "id": "/loona-calculators/en-us/probability-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona 🔋 Kilocalorie to Calorie (small) Converter",
+  "short_name": "🔋 Kilocalorie to Calorie (small) Converter",
+  "description": "Convert kilocalories to calories (small) instantly. Exact formula, a full kcal to cal conversion table, a worked example and FAQs. Free, no sign-up.",
+  "id": "/loona-calculators/en-us/kilocalories-to-calories-converter.html",
+  "start_url": "./kilocalories-to-calories-converter.html",
+  "scope": "./kilocalories-to-calories-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

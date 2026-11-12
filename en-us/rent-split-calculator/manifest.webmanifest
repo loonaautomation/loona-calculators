@@ -1,0 +1,29 @@
+{
+  "name": "Loona 🤝 Rent Split Calculator",
+  "short_name": "🤝 Rent Split Calculator",
+  "description": "Free rent split calculator: divide the monthly rent between 2 to 8 roommates — equally, by room size in square feet, or by income. Shares always add up to the exact total.",
+  "id": "/loona-calculators/en-us/rent-split-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

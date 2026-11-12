@@ -1,0 +1,29 @@
+{
+  "name": "Loona 🍺 Blood Alcohol Calculator",
+  "short_name": "🍺 Blood Alcohol Calculator",
+  "description": "Free blood alcohol content (BAC) calculator using the Widmark formula: weight, sex, drinks and time to estimate BAC percent. Educational estimate only, never drive.",
+  "id": "/loona-calculators/en-us/blood-alcohol-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

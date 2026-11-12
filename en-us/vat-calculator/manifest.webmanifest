@@ -1,0 +1,29 @@
+{
+  "name": "Loona 🧮 VAT / GST Calculator",
+  "short_name": "🧮 VAT / GST Calculator",
+  "description": "Free VAT/GST calculator: add tax to a net amount or remove tax from a gross amount at any rate. Works for VAT, GST and sales tax in any country.",
+  "id": "/loona-calculators/en-us/vat-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona 🇮🇪 Ireland Mortgage Calculator",
+  "short_name": "🇮🇪 Ireland Mortgage Calculator",
+  "description": "Free Ireland mortgage calculator in euros: monthly repayment, total interest and debt-free date for any property price, deposit, interest rate and term, plus an overpayment comparison.",
+  "id": "/loona-calculators/en-us/ireland-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

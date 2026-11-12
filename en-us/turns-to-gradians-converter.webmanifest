@@ -1,0 +1,29 @@
+{
+  "name": "Loona 📐 Turn to Gradian Converter",
+  "short_name": "📐 Turn to Gradian Converter",
+  "description": "Convert turns to gradians instantly. Exact formula, a full turn to gon conversion table, a worked example and FAQs. Free, no sign-up.",
+  "id": "/loona-calculators/en-us/turns-to-gradians-converter.html",
+  "start_url": "./turns-to-gradians-converter.html",
+  "scope": "./turns-to-gradians-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

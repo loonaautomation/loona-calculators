@@ -1,0 +1,29 @@
+{
+  "name": "Loona 💹 Profit Margin Calculator",
+  "short_name": "💹 Profit Margin Calculator",
+  "description": "Free profit margin calculator: enter cost price and selling price to get profit, profit margin percentage and markup percentage instantly. For shops and online sellers.",
+  "id": "/loona-calculators/en-us/profit-margin-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

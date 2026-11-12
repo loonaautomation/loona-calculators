@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>New Zealand Mortgage Calculator — Monthly Payments in NZD | Loona</title>
+<meta name="description" content="Free New Zealand mortgage calculator: monthly payment, total interest and debt-free date for any house price, deposit, interest rate and term, plus an extra-payment comparison.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/en-us/new-zealand-mortgage-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/new-zealand-mortgage-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/new-zealand-mortgage-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/new-zealand-mortgage-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/new-zealand-mortgage-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/new-zealand-mortgage-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/new-zealand-mortgage-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/new-zealand-mortgage-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/new-zealand-mortgage-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/new-zealand-mortgage-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/new-zealand-mortgage-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/new-zealand-mortgage-calculator/"><link rel="alternate" hreflang="id" href="https://loonaautomation.github.io/loona-calculators/id/new-zealand-mortgage-calculator/"><link rel="alternate" hreflang="hi" href="https://loonaautomation.github.io/loona-calculators/hi/new-zealand-mortgage-calculator/"><link rel="alternate" hreflang="ja" href="https://loonaautomation.github.io/loona-calculators/ja/new-zealand-mortgage-calculator/"><link rel="alternate" hreflang="ko" href="https://loonaautomation.github.io/loona-calculators/ko/new-zealand-mortgage-calculator/"><link rel="alternate" hreflang="pl" href="https://loonaautomation.github.io/loona-calculators/pl/new-zealand-mortgage-calculator/"><link rel="alternate" hreflang="vi" href="https://loonaautomation.github.io/loona-calculators/vi/new-zealand-mortgage-calculator/"><link rel="alternate" hreflang="en-US" href="https://loonaautomation.github.io/loona-calculators/en-us/new-zealand-mortgage-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/new-zealand-mortgage-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="New Zealand Mortgage Calculator — Monthly Payments in NZD | Loona">
+<meta property="og:description" content="Free New Zealand mortgage calculator: monthly payment, total interest and debt-free date for any house price, deposit, interest rate and term, plus an extra-payment comparison.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/en-us/new-zealand-mortgage-calculator/"><meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="New Zealand Mortgage Calculator — Monthly Payments in NZD | Loona">
+<meta name="twitter:description" content="Free New Zealand mortgage calculator: monthly payment, total interest and debt-free date for any house price, deposit, interest rate and term, plus an extra-payment comparison.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona New Zealand Mortgage Calculator","url":"https://loonaautomation.github.io/loona-calculators/en-us/new-zealand-mortgage-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How are New Zealand mortgage payments calculated?","acceptedAnswer":{"@type":"Answer","text":"New Zealand home loans use standard amortisation: interest is charged on the remaining balance (most banks calculate it daily and charge it monthly) and the rest of your fixed payment reduces the principal. This calculator uses the standard monthly annuity formula, which matches bank quotes to within rounding."}},{"@type":"Question","name":"How much deposit do I need in New Zealand?","acceptedAnswer":{"@type":"Answer","text":"A 20% deposit is the standard banks work to. Low-deposit loans — for example 10%, and 5% for some first-home buyers — exist under the Reserve Bank's loan-to-value rules, but they usually carry a low-equity margin or fee on the interest rate until you build up more equity."}},{"@type":"Question","name":"Should I fix or float my mortgage rate in New Zealand?","acceptedAnswer":{"@type":"Answer","text":"Most NZ borrowers fix for 6 months to 5 years at a time and re-fix at each expiry; a floating rate gives flexibility to pay extra without penalty. This calculator assumes one rate across the whole term, so it suits comparing loan sizes and terms rather than predicting the exact path of a real loan."}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/en-us/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "New Zealand Mortgage Calculator",
+      "item": "https://loonaautomation.github.io/loona-calculators/en-us/new-zealand-mortgage-calculator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="../manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation logo">
+<div class="brand">Loona <span>Calculators</span></div>
+<nav>
+<a href="../index.html">Home</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">About</a>
+<a href="../contact.html">Contact</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../index.html">Loona Calculators</a> › Money &amp; Finance › New Zealand Mortgage Calculator</div>
+<h1 class="pagetitle">🇳🇿 New Zealand Mortgage Calculator</h1>
+<p class="lead">Work out a mortgage in New Zealand: enter the house price and your deposit to see the exact monthly payment, the total interest over the term and the month you become mortgage-free — with an extra-payment field that shows how much sooner you could finish, and how much interest you would save.</p>
+<div class="toolbox"><form class="calcform" id="nzForm">
+<div class="fld"><label for="nzPrice">Property price (NZ$)</label><input type="number" id="nzPrice" value="900000" step="any" min="0"></div>
+<div class="fld"><label for="nzDep">Deposit (%)</label><input type="number" id="nzDep" value="20" step="any" min="0" max="99"></div>
+<div class="fld"><label for="nzRate">Interest rate (% per year)</label><input type="number" id="nzRate" value="5.5" step="any" min="0"></div>
+<div class="fld"><label for="nzYears">Term (years)</label><input type="number" id="nzYears" value="30" step="1" min="1" max="40"></div>
+<div class="fld"><label for="nzExtra">Monthly overpayment (NZ$)</label><input type="number" id="nzExtra" value="0" step="any" min="0"></div>
+<button class="calcbtn" type="submit">Calculate Monthly Payment</button>
+<div class="calcresult" id="nzResult" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>How to use the New Zealand Mortgage Calculator</h2><ol><li>Enter the property price and your deposit percentage — the calculator borrows the rest.</li><li>Enter the interest rate from your mortgage offer.</li><li>Enter the term in years, add any monthly overpayment you plan to make, and press Calculate.</li></ol>
+<div class="exbox"><strong>Example:</strong> A NZ$900,000 home with a 20% deposit (NZ$180,000) leaves a loan of NZ$720,000. Over 30 years at 5.5% that loan costs <strong>NZ$4,088.08</strong> a month, with NZ$751,709.09 of interest over the term. Add a NZ$500 monthly overpayment and the debt-free date moves forward noticeably — try it above.</div>
+<h2>Frequently Asked Questions</h2></section><div class="faq"><h3>How are New Zealand mortgage payments calculated?</h3><p>New Zealand home loans use standard amortisation: interest is charged on the remaining balance (most banks calculate it daily and charge it monthly) and the rest of your fixed payment reduces the principal. This calculator uses the standard monthly annuity formula, which matches bank quotes to within rounding.</p></div><div class="faq"><h3>How much deposit do I need in New Zealand?</h3><p>A 20% deposit is the standard banks work to. Low-deposit loans — for example 10%, and 5% for some first-home buyers — exist under the Reserve Bank's loan-to-value rules, but they usually carry a low-equity margin or fee on the interest rate until you build up more equity.</p></div><div class="faq"><h3>Should I fix or float my mortgage rate in New Zealand?</h3><p>Most NZ borrowers fix for 6 months to 5 years at a time and re-fix at each expiry; a floating rate gives flexibility to pay extra without penalty. This calculator assumes one rate across the whole term, so it suits comparing loan sizes and terms rather than predicting the exact path of a real loan.</p></div>
+<h2 class="sec">Related Calculators</h2><div class="grid"><a class="card" href="../uk-mortgage-calculator/"><div class="ic">🇬🇧</div><h3>UK Mortgage Calculator</h3><p>Money &amp; Finance</p></a><a class="card" href="../canada-mortgage-calculator/"><div class="ic">🇨🇦</div><h3>Canada Mortgage Calculator</h3><p>Money &amp; Finance</p></a><a class="card" href="../australia-mortgage-calculator/"><div class="ic">🇦🇺</div><h3>Australia Mortgage Calculator</h3><p>Money &amp; Finance</p></a><a class="card" href="../germany-mortgage-calculator/"><div class="ic">🇩🇪</div><h3>Germany Mortgage Calculator</h3><p>Money &amp; Finance</p></a><a class="card" href="../ireland-mortgage-calculator/"><div class="ic">🇮🇪</div><h3>Ireland Mortgage Calculator</h3><p>Money &amp; Finance</p></a><a class="card" href="../south-africa-mortgage-calculator/"><div class="ic">🇿🇦</div><h3>South Africa Mortgage Calculator</h3><p>Money &amp; Finance</p></a><a class="card" href="../mortgage-calculator/"><div class="ic">🏠</div><h3>Mortgage Calculator</h3><p>Money &amp; Finance</p></a><a class="card" href="../emi-calculator/"><div class="ic">🏦</div><h3>EMI & Loan Calculator</h3><p>Money &amp; Finance</p></a></div>
+</div>
+<section class="txt"><h2>How it works &mdash; the formula</h2>
+<p>The monthly payment <em>M</em> on a loan <em>P</em> at monthly rate <em>r</em> (= annual rate ÷ 12 ÷ 100) over <em>n</em> monthly payments is:</p>
+<p><strong>M = P × r ÷ (1 − (1 + r)<sup>−n</sup>)</strong></p>
+<p>Total interest = M × n − P. With a monthly overpayment, the calculator simulates the balance month by month: interest is charged on the balance, the payment plus overpayment is applied, and the loan ends as soon as the balance reaches zero — which is why overpayments early in the term save the most.</p>
+<h3>Worked example</h3>
+<div class="exbox"><strong>Example:</strong> NZ$720,000 at 5.5% over 30 years (360 payments). r = 0.00458, so M = NZ$720,000 × 0.00458 ÷ (1 − 1.00458<sup>−360</sup>) = <strong>NZ$4,088.08</strong> per month. Total paid = 360 × NZ$4,088.08 ≈ NZ$1,471,709.09, of which <strong>NZ$751,709.09</strong> is interest.</div>
+<h3>Frequently asked questions</h3></section><div class="faq"><h3>Does this include application fees or legal costs?</h3><p>No. Bank application fees and your solicitor, LIM report and valuation costs are separate expenses that are not part of the monthly payment math.</p></div><div class="faq"><h3>Repayment or interest-only — which does this calculate?</h3><p>Repayment (principal and interest), the standard for NZ home loans, where every payment reduces the balance and the loan is cleared at the end of the term. Interest-only periods exist but are limited and are not modeled here.</p></div><div class="faq"><h3>Is this financial advice?</h3><p>No — it is an educational calculator using your figures, provided free by Loona Automation. For advice on a real mortgage, speak to your bank or a NZ mortgage adviser and confirm the figures before signing.</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Embed this calculator on your website — free</h2>
+<p style="margin:0 0 12px;line-height:1.6">Add this calculator to your own website or blog — it is completely free, needs no sign-up, and always shows the latest version. Copy the code below and paste it into your page where you want the calculator to appear. Keeping the small &ldquo;Powered by Loona Automation&rdquo; credit line under the embed helps keep this tool free &mdash; but you are free to style or remove it; the tool works either way.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/en-us/new-zealand-mortgage-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="New Zealand Mortgage Calculator Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Powered by &lt;a href="https://loonaautomation.github.io/loona-calculators/en-us/new-zealand-mortgage-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; free New Zealand Mortgage Calculator Calculator&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Copy embed code</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='Copy embed code';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Popular Calculators</h4><ul><li><a href="../age-calculator/">Age Calculator</a></li>
+<li><a href="../zakat-calculator/">Zakat Calculator</a></li>
+<li><a href="../cgpa-calculator/">CGPA Calculator</a></li>
+<li><a href="../percentage-calculator/">Percentage Calculator</a></li>
+<li><a href="../hijri-date-converter/">Hijri Date Converter</a></li>
+<li><a href="../emi-calculator/">EMI & Loan Calculator</a></li></ul></div>
+<div><h4>More Loona Tools</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Image Compressor</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI Assistant</a></li>
+<li><a href="https://loonaautomation.github.io/">All Loona Tools</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">About</a></li>
+<li><a href="../contact.html">Contact</a></li>
+<li><a href="../privacy-policy.html">Privacy Policy</a></li>
+<li><a href="../terms.html">Terms of Use</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — a <a href="https://loonaautomation.github.io/">Loona Automation</a> project. Free online calculators, no signup.
+Contact: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+function amortize(principal, monthlyRate, months, extraMonthly) {
+  var bal = principal, totalInterest = 0, m = 0;
+  var base;
+  if (monthlyRate === 0) base = principal / months;
+  else base = principal * monthlyRate / (1 - Math.pow(1 + monthlyRate, -months));
+  while (bal > 0.005 && m < months + 1200) {
+    var interest = bal * monthlyRate;
+    var pay = base + (extraMonthly || 0);
+    var princ = pay - interest;
+    if (princ <= 0) break;
+    if (princ > bal) princ = bal;
+    bal -= princ; totalInterest += interest; m++;
+  }
+  return { payment: base, totalInterest: totalInterest, totalPaid: principal + totalInterest, monthsTaken: m };
+}
+function standardMonthlyRate(annualPct) { return annualPct / 100 / 12; }
+function canadaMonthlyRate(annualPct) { var i = annualPct / 100; return Math.pow(1 + i / 2, 2 / 12) - 1; }
+function germanPlan(principal, ratePct, tilgungPct, fixedYears) {
+  var monthlyRate = ratePct / 100 / 12;
+  var annualAnnuity = principal * (ratePct + tilgungPct) / 100;
+  var monthly = annualAnnuity / 12;
+  var bal = principal, interestPaid = 0, months = Math.round(fixedYears * 12);
+  for (var k = 0; k < months; k++) {
+    var i = bal * monthlyRate;
+    bal -= (monthly - i);
+    interestPaid += i;
+  }
+  return { annualAnnuity: annualAnnuity, monthlyPayment: monthly, remaining: bal, interestPaid: interestPaid, principalPaid: principal - bal };
+}
+function germanFullTermMonths(principal, ratePct, tilgungPct) {
+  var monthlyRate = ratePct / 100 / 12;
+  var monthly = principal * (ratePct + tilgungPct) / 100 / 12;
+  var bal = principal, m = 0;
+  while (bal > 0.005 && m < 1200) { bal -= (monthly - bal * monthlyRate); m++; }
+  return m;
+}
+/*TESTABLE_END*/
+
+function nzMoney(x) { return new Intl.NumberFormat('en-NZ', { style: 'currency', currency: 'NZD' }).format(x); }
+function nzPayoffText(months) {
+  var d = new Date(); d.setMonth(d.getMonth() + months);
+  return d.toLocaleDateString('en-NZ', { month: 'long', year: 'numeric' }) + ' (' + months + ' monthly payments)';
+}
+function nzRun() {
+  var box = document.getElementById('nzResult');
+  var price = parseFloat(document.getElementById('nzPrice').value);
+  var dep = parseFloat(document.getElementById('nzDep').value);
+  var rate = parseFloat(document.getElementById('nzRate').value);
+  var years = parseFloat(document.getElementById('nzYears').value);
+  var extra = parseFloat(document.getElementById('nzExtra').value) || 0;
+  try {
+    if (isNaN(price) || isNaN(dep) || isNaN(rate) || isNaN(years) || price <= 0 || dep < 0 || dep >= 100 || years < 1) throw new Error("Please enter a valid price, deposit, rate and term.");
+    var P = price * (1 - dep / 100);
+    var mr = standardMonthlyRate(rate);
+    var months = Math.round(years * 12);
+    var base = amortize(P, mr, months, 0);
+    var html = '<div class="resbig"><span>Monthly payment</span><strong>' + nzMoney(base.payment) + '</strong></div>';
+    html += '<table class="restbl">' +
+      '<tr><td>Loan amount (price minus deposit)</td><td><strong>' + nzMoney(P) + '</strong></td></tr>' +
+      '<tr><td>Total interest over the term</td><td><strong>' + nzMoney(base.totalInterest) + '</strong></td></tr>' +
+      '<tr><td>Total cost of the mortgage</td><td><strong>' + nzMoney(base.totalPaid) + '</strong></td></tr>' +
+      '<tr><td>Debt-free date</td><td><strong>' + nzPayoffText(base.monthsTaken) + '</strong></td></tr></table>';
+    if (extra > 0) {
+      var fast = amortize(P, mr, months, extra);
+      var savedMonths = base.monthsTaken - fast.monthsTaken;
+      var savedInterest = base.totalInterest - fast.totalInterest;
+      html += '<div class="resbig"><span>With ' + nzMoney(extra) + ' monthly overpayment</span><strong>Debt-free ' + Math.floor(savedMonths / 12) + 'y ' + (savedMonths % 12) + 'm sooner</strong></div>' +
+        '<table class="restbl"><tr><td>New debt-free date</td><td><strong>' + nzPayoffText(fast.monthsTaken) + '</strong></td></tr>' +
+        '<tr><td>Interest saved</td><td><strong>' + nzMoney(savedInterest) + '</strong></td></tr></table>' +
+        '<p class="resnote">The payment figure above is your required monthly payment; the overpayment is added on top of it every month.</p>';
+    }
+    box.style.display = 'block';
+    box.innerHTML = html;
+  } catch (e) {
+    box.style.display = 'block';
+    box.innerHTML = '<p class="err">' + e.message + '</p>';
+  }
+}
+document.getElementById('nzForm').addEventListener('submit', function (e) { e.preventDefault(); nzRun(); });
+nzRun();
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Install App';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Install this app: tap the Share button, then choose "Add to Home Screen".');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

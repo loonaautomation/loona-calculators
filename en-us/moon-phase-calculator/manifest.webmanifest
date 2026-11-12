@@ -1,0 +1,29 @@
+{
+  "name": "Loona 🌙 Moon Phase Calculator",
+  "short_name": "🌙 Moon Phase Calculator",
+  "description": "Free moon phase calculator: enter any date to see the moon's phase name, illumination percentage, moon age and days to the next new and full moon.",
+  "id": "/loona-calculators/en-us/moon-phase-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

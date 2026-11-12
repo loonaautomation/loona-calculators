@@ -1,0 +1,29 @@
+{
+  "name": "Loona 🚗 Car Loan Calculator",
+  "short_name": "🚗 Car Loan Calculator",
+  "description": "Free car loan calculator: vehicle price, down payment, interest rate and term — get the loan amount, monthly payment, total interest and the car's true total cost.",
+  "id": "/loona-calculators/en-us/car-loan-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

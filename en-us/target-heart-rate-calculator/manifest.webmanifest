@@ -1,0 +1,29 @@
+{
+  "name": "Loona ❤️ Target Heart Rate Calculator",
+  "short_name": "❤️ Target Heart Rate Calculator",
+  "description": "Free target heart rate calculator: maximum heart rate and Karvonen training zones from your age and resting heart rate. Educational fitness guide.",
+  "id": "/loona-calculators/en-us/target-heart-rate-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
