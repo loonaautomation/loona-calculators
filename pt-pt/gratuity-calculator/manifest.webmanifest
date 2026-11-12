@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calculadora de Gratificação",
+  "short_name": "Gratificação Calculadora",
+  "description": "Calculadora de gratificação gratuita: último sorteados mensal salário e concluídos anos de serviço — estimar gratificação a um salário de mês (30 days' wages) por ano de serviço.",
+  "id": "/loona-calculators/pt-pt/gratuity-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

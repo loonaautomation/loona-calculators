@@ -1,0 +1,29 @@
+{
+  "name": "Loona Cantador de Números de Bingo",
+  "short_name": "Anunciador de Números de Bingo",
+  "description": "Gratuito bingo número caller para 75-bola (B-I-N-G-O) e 90-bola games: sorteia números sem repete, mostra atual bola grande, e tracks cada called número em conselho.",
+  "id": "/loona-calculators/pt-pt/bingo-number-caller/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora Loona de Crédito Habitação dos EAU",
+  "short_name": "Calculadora de Crédito Hipotecário dos EAU",
+  "description": "Gratuito EAU calculadora de crédito habitação em dirhams: pagamento mensal, juros totais e sem dívidas data para qualquer imóvel preço, depósito, taxa de juro e prazo, plus overpayment comparação.",
+  "id": "/loona-calculators/pt-pt/uae-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

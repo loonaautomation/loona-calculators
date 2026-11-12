@@ -1,0 +1,29 @@
+{
+  "name": "Conversor Loona de Kibibyte para Byte",
+  "short_name": "Conversor de Kibibyte para Byte",
+  "description": "Converter kibibytes para bytes instantaneamente. Fórmula exata, uma tabela de conversão completa de KiB to B, um exemplo resolvido e perguntas frequentes. Grátis, sem registo.",
+  "id": "/loona-calculators/pt-pt/kibibytes-to-bytes-converter.html",
+  "start_url": "./kibibytes-to-bytes-converter.html",
+  "scope": "./kibibytes-to-bytes-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

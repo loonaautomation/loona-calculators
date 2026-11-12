@@ -1,0 +1,29 @@
+{
+  "name": "Conversor Loona de Stone para Kg",
+  "short_name": "Conversor de Stone para Kg",
+  "description": "Converter stone para quilogramas instantaneamente. Fórmula exata, uma tabela de conversão completa de st to kg e exemplos resolvidos. Grátis, sem registo.",
+  "id": "/loona-calculators/pt-pt/stone-to-kg-converter.html",
+  "start_url": "./stone-to-kg-converter.html",
+  "scope": "./stone-to-kg-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

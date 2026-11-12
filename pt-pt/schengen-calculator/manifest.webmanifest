@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora Loona Schengen 90/180",
+  "short_name": "Calculadora Schengen 90/180",
+  "description": "Calculadora de Schengen 90/180 gratuita: introduza past e planned viagens para ver dias utilizado em qualquer rolling 180-dia window, dias restantes, overstay warnings e earliest seguro re-entry.",
+  "id": "/loona-calculators/pt-pt/schengen-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

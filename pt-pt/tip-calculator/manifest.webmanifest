@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora Loona de Gorjetas",
+  "short_name": "Calculadora de Gorjeta",
+  "description": "Calculadora de dica gratuita: introduza o fatura, dica percentagem e número de pessoas para obter dica montante, total fatura e exato share cada pessoa paga.",
+  "id": "/loona-calculators/pt-pt/tip-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

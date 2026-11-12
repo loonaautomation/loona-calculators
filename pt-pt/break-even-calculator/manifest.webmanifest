@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calculadora de Ponto de Equilíbrio",
+  "short_name": "Calculadora de Ponto de Equilíbrio",
+  "description": "Calculadora de ponto de equilíbrio gratuita: introduza fixo custos, preço de venda e variável custo por unidade para encontrar quantos unidades deve vender para pausa até, e a what revenue.",
+  "id": "/loona-calculators/pt-pt/break-even-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

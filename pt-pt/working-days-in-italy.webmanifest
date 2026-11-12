@@ -1,0 +1,29 @@
+{
+  "name": "Dias Úteis Loona em Itália",
+  "short_name": "Dias Úteis em Itália",
+  "description": "Calculadora de dias úteis para Itália: conte os dias úteis entre duas datas, com os fins de semana e todos os 13 feriados nacionais italianos de 2026 removidos. Grátis.",
+  "id": "/loona-calculators/pt-pt/working-days-in-italy.html",
+  "start_url": "./working-days-in-italy.html",
+  "scope": "./working-days-in-italy.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

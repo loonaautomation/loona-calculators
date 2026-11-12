@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gerador de Quadros de Torneio — Eliminação Simples, com Cabeças de Série | Loona Calculators</title>
+<meta name="description" content="Gerador de tournament quadro gratuito: introduza participantes, obter properly seeded single-elimination quadro com byes tratado — para esports, sports dias, chess e quizzes.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/pt-pt/tournament-bracket-generator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/tournament-bracket-generator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/tournament-bracket-generator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/tournament-bracket-generator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/tournament-bracket-generator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/tournament-bracket-generator/"><link rel="alternate" hreflang="pt-PT" href="https://loonaautomation.github.io/loona-calculators/pt-pt/tournament-bracket-generator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/tournament-bracket-generator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/tournament-bracket-generator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/tournament-bracket-generator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/tournament-bracket-generator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/tournament-bracket-generator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/tournament-bracket-generator/"><link rel="alternate" hreflang="id" href="https://loonaautomation.github.io/loona-calculators/id/tournament-bracket-generator/"><link rel="alternate" hreflang="hi" href="https://loonaautomation.github.io/loona-calculators/hi/tournament-bracket-generator/"><link rel="alternate" hreflang="ja" href="https://loonaautomation.github.io/loona-calculators/ja/tournament-bracket-generator/"><link rel="alternate" hreflang="ko" href="https://loonaautomation.github.io/loona-calculators/ko/tournament-bracket-generator/"><link rel="alternate" hreflang="pl" href="https://loonaautomation.github.io/loona-calculators/pl/tournament-bracket-generator/"><link rel="alternate" hreflang="vi" href="https://loonaautomation.github.io/loona-calculators/vi/tournament-bracket-generator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/tournament-bracket-generator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Gerador de Quadros de Torneio — Eliminação Simples, com Cabeças de Série | Loona Calculators">
+<meta property="og:description" content="Gerador de tournament quadro gratuito: introduza participantes, obter properly seeded single-elimination quadro com byes tratado — para esports, sports dias, chess e quizzes.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/pt-pt/tournament-bracket-generator/"><meta property="og:locale" content="pt_PT">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Gerador de Quadros de Torneio — Eliminação Simples, com Cabeças de Série | Loona Calculators">
+<meta name="twitter:description" content="Gerador de tournament quadro gratuito: introduza participantes, obter properly seeded single-elimination quadro com byes tratado — para esports, sports dias, chess e quizzes.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Gerador de Quadros de Torneio Loona","url":"https://loonaautomation.github.io/loona-calculators/pt-pt/tournament-bracket-generator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"O que é o seeding, em palavras simples?","acceptedAnswer":{"@type":"Answer","text":"Ordenar os participantes antes do sorteio para que os mais fortes fiquem separados. Uma distribuição por cabeças de série adequada garante que os dois primeiros não se podem encontrar antes da final, os quatro primeiros não antes das meias-finais, e assim sucessivamente — a recompensa por uma boa classificação."}},{"@type":"Question","name":"Como funcionam os byes com, por exemplo, 10 participantes?","acceptedAnswer":{"@type":"Answer","text":"O quadro é arredondado para cima até 16 lugares, deixando 6 lugares vazios. Os vazios são colocados em frente aos cabeças de série principais, pelo que os cabeças de série 1–6 saltam a ronda 1 (um bye) e os restantes 4 participantes jogam os únicos jogos da primeira ronda: 7 vs 10 e 8 vs 9, segundo o emparelhamento padrão."}},{"@type":"Question","name":"Em que ordem são mostrados os jogos da primeira ronda?","acceptedAnswer":{"@type":"Answer","text":"Por ordem do quadro — a ordem pela qual os vencedores alimentam a ronda seguinte. O padrão de emparelhamento (1 vs 16, 8 vs 9, 5 vs 12, 4 vs 13, 6 vs 11, 3 vs 14, 7 vs 10, 2 vs 15 para 16 lugares) é o padrão de cabeças de série recursivo padrão utilizado pelos organizadores de torneios."}},{"@type":"Question","name":"Posso baralhar em vez de ordenar por cabeças de série?","acceptedAnswer":{"@type":"Answer","text":"Se pretender um sorteio aleatório em vez de cabeças de série, liste os nomes por qualquer ordem — ou passe-os primeiro pelo Aleatorizador de Listas e cole aqui a ordem baralhada como lista de cabeças de série."}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/pt-pt/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Gerador de Quadros de Torneio",
+      "item": "https://loonaautomation.github.io/loona-calculators/pt-pt/tournament-bracket-generator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Logótipo da Loona Automation">
+<div class="brand">Loona <span>Calculadoras</span></div>
+<nav>
+<a href="../">Casa</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">Sobre</a>
+<a href="../contact.html">Contacto</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › Diversão › Gerador de Quadros de Torneio</div>
+<h1 class="pagetitle">🏆 Gerador de Quadros de Torneio</h1>
+<p class="lead">Introduza o participantes em seed ordem (melhor seed primeiro) e gerar single-elimination quadro construído forma real tournaments fazer isto: seed 1 meets lowest seed, byes ir para topo seeds, e winners fluxo em direção a final.</p>
+<div class="exbox"><strong>Resposta rápida:</strong> Um quadro de eliminação simples precisa de um tamanho que seja potência de dois (4, 8, 16, 32). Com 10 participantes, o quadro tem 16 lugares: os 6 primeiros cabeças de série recebem isenção na primeira ronda, e os cabeças de série são emparelhados 1 vs 16, 8 vs 9, 5 vs 12 e assim por diante, para que os melhores não se encontrem cedo.</div>
+<div class="toolbox"><form class="calcform" id="tbForm">
+<div class="fld"><label for="tbNames">Participantes em seed ordem (strongest primeiro, um por linha)</label><textarea id="tbNames" rows="8" style="width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px">Seed 1
+Seed 2
+Seed 3
+Seed 4
+Seed 5
+Seed 6
+Seed 7
+Seed 8</textarea></div>
+<button class="calcbtn" type="submit">🏆 Gerar Quadro</button>
+<div class="calcresult" id="tbResult" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>Como utilizar o Gerador de Quadros de Torneio</h2><ol><li>Introduza participantes um por linha, em seed ordem — strongest primeiro (2 para 32).</li><li>Prima Gerar Quadro.</li><li>Leia a ronda 1 (e quem tem isenção), depois o percurso de cada vencedor até à final.</li></ol>
+<div class="exbox"><strong>Exemplo:</strong> 8 participantes com cabeças de série 1–8 produzem quartos de final: 1 vs 8, 4 vs 5, 2 vs 7, 3 vs 6 — pelo que, se o cabeça de série mais alto ganhar sempre, as meias-finais são 1 vs 4 e 2 vs 3, e a final é 1 vs 2.</div>
+<h2>Frequently Asked Perguntas</h2></section><div class="faq"><h3>O que é o seeding, em palavras simples?</h3><p>Ordenar os participantes antes do sorteio para que os mais fortes fiquem separados. Uma distribuição por cabeças de série adequada garante que os dois primeiros não se podem encontrar antes da final, os quatro primeiros não antes das meias-finais, e assim sucessivamente — a recompensa por uma boa classificação.</p></div><div class="faq"><h3>Como funcionam os byes com, por exemplo, 10 participantes?</h3><p>O quadro é arredondado para cima até 16 lugares, deixando 6 lugares vazios. Os vazios são colocados em frente aos cabeças de série principais, pelo que os cabeças de série 1–6 saltam a ronda 1 (um bye) e os restantes 4 participantes jogam os únicos jogos da primeira ronda: 7 vs 10 e 8 vs 9, segundo o emparelhamento padrão.</p></div><div class="faq"><h3>Em que ordem são mostrados os jogos da primeira ronda?</h3><p>Por ordem do quadro — a ordem pela qual os vencedores alimentam a ronda seguinte. O padrão de emparelhamento (1 vs 16, 8 vs 9, 5 vs 12, 4 vs 13, 6 vs 11, 3 vs 14, 7 vs 10, 2 vs 15 para 16 lugares) é o padrão de cabeças de série recursivo padrão utilizado pelos organizadores de torneios.</p></div><div class="faq"><h3>Posso baralhar em vez de ordenar por cabeças de série?</h3><p>Se pretender um sorteio aleatório em vez de cabeças de série, liste os nomes por qualquer ordem — ou passe-os primeiro pelo Aleatorizador de Listas e cole aqui a ordem baralhada como lista de cabeças de série.</p></div>
+<h2 class="sec">Calculadoras Relacionadas</h2><div class="grid"><a class="card" href="../random-number-generator/"><div class="ic">🎲</div><h3>Gerador de Números Aleatórios</h3><p>Divertido</p></a><a class="card" href="../dice-roller/"><div class="ic">🎲</div><h3>Dados Roller</h3><p>Divertido</p></a><a class="card" href="../coin-flip/"><div class="ic">🪙</div><h3>Lançamento de Moeda</h3><p>Divertido</p></a><a class="card" href="../lottery-number-generator/"><div class="ic">🍀</div><h3>Gerador de Números de Lotaria</h3><p>Divertido</p></a><a class="card" href="../love-calculator/"><div class="ic">❤️</div><h3>Calculadora do Amor</h3><p>Divertido</p></a><a class="card" href="../random-team-generator/"><div class="ic">👥</div><h3>Gerador de Equipas Aleatórias</h3><p>Divertido</p></a><a class="card" href="../wheel-of-names/"><div class="ic">🎡</div><h3>Roda de Nomes</h3><p>Divertido</p></a><a class="card" href="../list-randomizer/"><div class="ic">🔀</div><h3>Aleatorizador de Listas</h3><p>Divertido</p></a></div>
+</div>
+<section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>Como funciona — a fórmula</h2>
+<p>Tamanho do quadro B = a menor potência de dois ≥ o número de participantes N. Isenções = B − N, atribuídas aos cabeças de série. A ordem dos cabeças de série para o quadro é gerada recursivamente: começar [1, 2]; substituir repetidamente cada cabeça de série s na ordem pelo par (s, 2k + 1 − s), em que 2k é o novo tamanho, de modo que cada par adjacente some B + 1 na ronda 1. Os pares adjacentes (posições 1–2, 3–4, …) formam os jogos da primeira ronda, e os vencedores de jogos adjacentes defrontam-se na ronda seguinte — que é exatamente o que protege os cabeças de série de encontros precoces.</p>
+<h3>Exemplo prático</h3><div class="exbox"><p><strong>Entradas:</strong> 8 sementes.</p><p><strong>Passos:</strong> Começar com [1, 2]. Duplicar para 4: (1, 4), (2, 3) → [1, 4, 2, 3]. Duplicar para 8: (1, 8), (4, 5), (2, 7), (3, 6) → [1, 8, 4, 5, 2, 7, 3, 6]. Pares adjacentes: 1v8, 4v5, 2v7, 3v6.</p><p><strong>Resultado:</strong> Quartos de final <strong>1 vs 8, 4 vs 5, 2 vs 7, 3 vs 6</strong>; o caminho dos favoritos dá meias-finais 1 vs 4, 2 vs 3 e final 1 vs 2.</p></div>
+
+</section>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Embed esta calculadora no seu site — gratuito</h2>
+<p style="margin:0 0 12px;line-height:1.6">Adicione esta calculadora ao seu próprio website ou blogue — é totalmente gratuita, não exige registo e mostra sempre a versão mais recente. Copie o código abaixo e cole-o na sua página, no local onde pretende que a calculadora apareça. Manter a pequena linha de crédito &ldquo;Powered by Loona Automation&rdquo; sob a incorporação ajuda a manter esta ferramenta gratuita &mdash; mas pode formatá-la ou removê-la livremente; a ferramenta funciona de qualquer forma.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/pt-pt/tournament-bracket-generator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Tournament Bracket Generator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Desenvolvido por &lt;a href="https://loonaautomation.github.io/loona-calculators/pt-pt/tournament-bracket-generator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; grátis Gerador de Quadros de Torneio&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Copiar código de incorporação</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='Copiar código de incorporação';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Calculadoras Populares</h4><ul><li><a href="../age-calculator/">Calculadora de Idade</a></li>
+<li><a href="../zakat-calculator/">Calculadora de Zakat</a></li>
+<li><a href="../cgpa-calculator/">Calculadora de CGPA</a></li>
+<li><a href="../percentage-calculator/">Calculadora de Percentagem</a></li>
+<li><a href="../hijri-date-converter/">Hijri Data Conversor</a></li>
+<li><a href="../emi-calculator/">EMI & Empréstimo Calculadora</a></li></ul></div>
+<div><h4>Mais Ferramentas Loona</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Códigos QR Loona</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Compressor de Imagens Loona</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona Assistente de IA</a></li>
+<li><a href="https://loonaautomation.github.io/">Todas as Ferramentas Loona</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">Sobre</a></li>
+<li><a href="../contact.html">Contacto</a></li>
+<li><a href="../privacy-policy.html">Política de Privacidade</a></li>
+<li><a href="../terms.html">Termos de Utilização</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — um <a href="https://loonaautomation.github.io/">Loona Automation</a> projeto. Calculadoras online gratuitas, sem registo.
+Contacto: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+function bracketSeedOrder(size){
+  var order=[1,2];
+  while(order.length<size){
+    var total=order.length*2+1, nxt=[];
+    for(var i=0;i<order.length;i++){nxt.push(order[i]);nxt.push(total-order[i]);}
+    order=nxt;
+  }
+  return order;
+}
+function makeBracket(names){
+  var n=names.length;
+  if(n<2||n>32)return null;
+  var size=2; while(size<n)size*=2;
+  var order=bracketSeedOrder(size);
+  var slots=order.map(function(seed){return seed<=n?{seed:seed,name:names[seed-1]}:{seed:seed,name:null};});
+  var matches=[];
+  for(var i=0;i<slots.length;i+=2){
+    var a=slots[i],b=slots[i+1];
+    if(a.name&&b.name)matches.push({a:a,b:b,bye:false});
+    else if(a.name||b.name)matches.push({a:a.name?a:b,b:null,bye:true});
+  }
+  var rounds=Math.log2(size);
+  return {size:size,byes:size-n,matches:matches,rounds:rounds,slots:slots};
+}
+/*TESTABLE_END*/
+document.getElementById('tbForm').addEventListener('submit',function(e){e.preventDefault();
+ var names=document.getElementById('tbNames').value.split(/\r?\n/).map(function(s){return s.trim();}).filter(Boolean);
+ var br=makeBracket(names);
+ var box=document.getElementById('tbResult'); box.style.display='block';
+ if(!br){box.innerHTML='<p class="err">Introduza entre 2 e 32 participantes.</p>';return;}
+ function esc(s){return String(s).replace(/</g,"&lt;");}
+ var html='<div class="resbig"><span>Dimensão do quadro '+br.size+'</span><strong>'+br.rounds+' rondas'+(br.byes?' · '+br.byes+' bye'+(br.byes>1?'s':''):'')+'</strong></div>';
+ br.matches.forEach(function(m,i){
+   if(m.bye)html+='<p style="margin:7px 0"><strong>Bye:</strong> ('+m.a.seed+') '+esc(m.a.name)+' avança diretamente</p>';
+   else html+='<p style="margin:7px 0"><strong>Match '+(i+1)+':</strong> ('+m.a.seed+') '+esc(m.a.name)+' vs ('+m.b.seed+') '+esc(m.b.name)+'</p>';
+ });
+ var rn=["Final","Semi-finals","Quarter-finals","Round of 16","Round of 32"];
+ html+='<p class="resnote">Os vencedores de jogos adjacentes encontram-se na ronda seguinte, terminando com a '+rn[br.rounds-1]+' entre os vencedores das duas metades.</p>';
+ box.innerHTML=html;});
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Instalar Aplicação';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Instalar esta aplicação: toque no botão Partilhar e, em seguida, escolha "Adicionar ao Ecrã Principal".');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

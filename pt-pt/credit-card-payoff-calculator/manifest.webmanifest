@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calculadora de Liquidação de Cartão de Crédito",
+  "short_name": "Calculadora de Liquidação de Cartão de Crédito",
+  "description": "Calculadora de credit cartão payoff gratuita: saldo, APR e fixo pagamento mensal — ver meses para pagar fora, juros totais e total pago, com warning para too-small pagamentos.",
+  "id": "/loona-calculators/pt-pt/credit-card-payoff-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

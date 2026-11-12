@@ -1,0 +1,29 @@
+{
+  "name": "Dias Úteis Loona em Malta",
+  "short_name": "Dias Úteis em Malta",
+  "description": "Calculadora de dias úteis para Malta: conte os dias úteis entre duas datas, com os fins de semana e todos os 14 feriados malteses de 2026 removidos. Ferramenta online gratuita.",
+  "id": "/loona-calculators/pt-pt/working-days-in-malta.html",
+  "start_url": "./working-days-in-malta.html",
+  "scope": "./working-days-in-malta.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

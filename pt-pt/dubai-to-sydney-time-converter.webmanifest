@@ -1,0 +1,29 @@
+{
+  "name": "Loona Conversor de Hora de Dubai para Sydney",
+  "short_name": "Conversor de Hora de Dubai para Sydney",
+  "description": "Converter a hora de Dubai para a hora de Sydney. Sydney está 7 horas à frente de Dubai em janeiro e 6 horas à frente em julho, com as datas da hora de verão, uma tabela de 24 horas e a melhor janela para reuniões. Conversor em direto incluído.",
+  "id": "/loona-calculators/pt-pt/dubai-to-sydney-time-converter.html",
+  "start_url": "./dubai-to-sydney-time-converter.html",
+  "scope": "./dubai-to-sydney-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

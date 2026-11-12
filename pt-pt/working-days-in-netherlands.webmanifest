@@ -1,0 +1,29 @@
+{
+  "name": "Dias Úteis Loona nos Países Baixos",
+  "short_name": "Dias Úteis nos Países Baixos",
+  "description": "Calculadora de dias úteis para os Países Baixos: dias úteis entre duas datas, com os fins de semana e os feriados nacionais neerlandeses de 2026 removidos. Grátis.",
+  "id": "/loona-calculators/pt-pt/working-days-in-netherlands.html",
+  "start_url": "./working-days-in-netherlands.html",
+  "scope": "./working-days-in-netherlands.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

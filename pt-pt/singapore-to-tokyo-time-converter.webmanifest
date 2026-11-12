@@ -1,0 +1,29 @@
+{
+  "name": "Conversor de Hora Loona de Singapura para Tóquio",
+  "short_name": "Hora de Singapura para Tóquio",
+  "description": "Converter a hora de Singapura para a hora de Tóquio. Tóquio está 1 hora à frente de Singapura durante todo o ano, com as datas da hora de verão, uma tabela de 24 horas e a melhor janela para reuniões. Conversor em direto incluído.",
+  "id": "/loona-calculators/pt-pt/singapore-to-tokyo-time-converter.html",
+  "start_url": "./singapore-to-tokyo-time-converter.html",
+  "scope": "./singapore-to-tokyo-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

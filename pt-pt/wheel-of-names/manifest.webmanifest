@@ -1,0 +1,29 @@
+{
+  "name": "Roda de Nomes Loona",
+  "short_name": "Roda de Nomes",
+  "description": "Gratuito roda de nomes: adicionar nomes, spin colourful roda e escolha um truly aleatório vencedor para raffles, classrooms e giveaways. Sem registo, funciona no seu navegador.",
+  "id": "/loona-calculators/pt-pt/wheel-of-names/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

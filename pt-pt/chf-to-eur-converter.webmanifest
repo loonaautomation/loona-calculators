@@ -1,0 +1,29 @@
+{
+  "name": "Loona Conversor de CHF para EUR",
+  "short_name": "Conversor de CHF para EUR",
+  "description": "Converter Franco suíço (CHF) para Euro (EUR). Taxa de referência do BCE de 06 de novembro de 2026, taxa inversa, tabela de conversão e notas sobre o corredor. Apenas indicativo.",
+  "id": "/loona-calculators/pt-pt/chf-to-eur-converter.html",
+  "start_url": "./chf-to-eur-converter.html",
+  "scope": "./chf-to-eur-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

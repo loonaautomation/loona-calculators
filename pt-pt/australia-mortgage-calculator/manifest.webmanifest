@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calculadora de Crédito Habitação da Austrália",
+  "short_name": "Calculadora de Crédito à Habitação da Austrália",
+  "description": "Gratuito Australiano calculadora de crédito habitação em AUD: prestações mensais, juros totais e custo total, plus extra-repayments comparação para terminar mais cedo.",
+  "id": "/loona-calculators/pt-pt/australia-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

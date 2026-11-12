@@ -1,0 +1,29 @@
+{
+  "name": "Conversor de Unidades Loona",
+  "short_name": "Conversor de Unidades",
+  "description": "Conversor de unidade gratuito: converter comprimento, peso, temperatura, volume e área unidades com exato padrão fatores — km para milhas, kg para libras, Celsius para Fahrenheit.",
+  "id": "/loona-calculators/pt-pt/unit-converter/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

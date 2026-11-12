@@ -1,0 +1,29 @@
+{
+  "name": "Loona Conversor de Hora de Berlim para Denver",
+  "short_name": "Hora de Berlim para Denver",
+  "description": "Converter a hora de Berlim para a hora de Denver. Denver está 8 horas atrás de Berlim durante todo o ano, com as datas da hora de verão, uma tabela de 24 horas e a melhor janela para reuniões. Conversor em direto incluído.",
+  "id": "/loona-calculators/pt-pt/berlin-to-denver-time-converter.html",
+  "start_url": "./berlin-to-denver-time-converter.html",
+  "scope": "./berlin-to-denver-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

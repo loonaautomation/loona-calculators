@@ -1,0 +1,29 @@
+{
+  "name": "Conversor de Fusos Horários Loona",
+  "short_name": "Conversor de Fusos Horários",
+  "description": "Converter a hora entre 60 pares de cidades do mundo, com diferenças sazonais, datas da hora de verão de 2026 e janelas de sobreposição para reuniões.",
+  "id": "/loona-calculators/pt-pt/time-zone-converter.html",
+  "start_url": "./time-zone-converter.html",
+  "scope": "./time-zone-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

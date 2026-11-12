@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora Loona de Frequência Cardíaca Alvo",
+  "short_name": "Calculadora de Frequência Cardíaca Alvo",
+  "description": "Calculadora de objetivo frequência cardíaca gratuita: frequência cardíaca máxima e Karvonen zonas de treino de seu idade e frequência cardíaca em repouso. Educativo fitness guia.",
+  "id": "/loona-calculators/pt-pt/target-heart-rate-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

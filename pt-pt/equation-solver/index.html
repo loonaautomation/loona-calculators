@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Equação Solver (Linear & Quadrática) — Passo a passo Answers | Loona Calculadoras</title>
+<meta name="description" content="Gratuito equação solver para linear (ax + b = cx + d) e quadrática (ax² + bx + c = 0) equations, com completo passo a passo úteis, discriminant, complex raízes e final verificar.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/pt-pt/equation-solver/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/equation-solver/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/equation-solver/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/equation-solver/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/equation-solver/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/equation-solver/"><link rel="alternate" hreflang="pt-PT" href="https://loonaautomation.github.io/loona-calculators/pt-pt/equation-solver/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/equation-solver/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/equation-solver/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/equation-solver/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/equation-solver/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/equation-solver/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/equation-solver/"><link rel="alternate" hreflang="id" href="https://loonaautomation.github.io/loona-calculators/id/equation-solver/"><link rel="alternate" hreflang="hi" href="https://loonaautomation.github.io/loona-calculators/hi/equation-solver/"><link rel="alternate" hreflang="ja" href="https://loonaautomation.github.io/loona-calculators/ja/equation-solver/"><link rel="alternate" hreflang="ko" href="https://loonaautomation.github.io/loona-calculators/ko/equation-solver/"><link rel="alternate" hreflang="pl" href="https://loonaautomation.github.io/loona-calculators/pl/equation-solver/"><link rel="alternate" hreflang="vi" href="https://loonaautomation.github.io/loona-calculators/vi/equation-solver/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/equation-solver/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Equação Solver (Linear & Quadrática) — Passo a passo Answers | Loona Calculadoras">
+<meta property="og:description" content="Gratuito equação solver para linear (ax + b = cx + d) e quadrática (ax² + bx + c = 0) equations, com completo passo a passo úteis, discriminant, complex raízes e final verificar.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/pt-pt/equation-solver/"><meta property="og:locale" content="pt_PT">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Equação Solver (Linear & Quadrática) — Passo a passo Answers | Loona Calculadoras">
+<meta name="twitter:description" content="Gratuito equação solver para linear (ax + b = cx + d) e quadrática (ax² + bx + c = 0) equations, com completo passo a passo úteis, discriminant, complex raízes e final verificar.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona Solucionador de Equações","url":"https://loonaautomation.github.io/loona-calculators/pt-pt/equation-solver/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Que tipos de equações consegue resolver este solucionador?","acceptedAnswer":{"@type":"Answer","text":"Equações lineares na forma ax + b = cx + d, e equações quadráticas na forma ax² + bx + c = 0. Mostra todos os passos, o discriminante para as quadráticas e uma verificação final. Não resolve equações cúbicas, sistemas de equações a duas incógnitas nem inequações — o título da página diz exatamente o que abrange."}},{"@type":"Question","name":"O que significa \"sem solução\" ou \"infinitas soluções\"?","acceptedAnswer":{"@type":"Answer","text":"Por vezes, os termos em x anulam-se por completo. Se os números também coincidirem (como 5x + 1 = 5x + 1), a equação é sempre verdadeira — infinitas soluções. Se os números não coincidirem (5x + 1 = 5x + 3), nunca pode ser verdadeira — sem solução. O solucionador indica honestamente qual é o caso, em vez de inventar uma resposta."}},{"@type":"Question","name":"O que são raízes complexas?","acceptedAnswer":{"@type":"Answer","text":"Quando o discriminante de uma quadrática (b² − 4ac) é negativo, o gráfico nunca cruza o eixo x e não há respostas reais. As raízes são então números complexos com i, onde i² = −1 — por exemplo, x² + 1 = 0 tem raízes x = i e x = −i. Este solucionador mostra-as e continua a verificá-las."}}]}</script>
+
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/pt-pt/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Equação Solver",
+      "item": "https://loonaautomation.github.io/loona-calculators/pt-pt/equation-solver/"
+    }
+  ]
+}</script>
+
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Logótipo da Loona Automation">
+<div class="brand">Loona <span>Calculadoras</span></div>
+<nav>
+<a href="../">Casa</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">Sobre</a>
+<a href="../contact.html">Contacto</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › Matemática › Resolvedor de Equações</div>
+<h1 class="pagetitle">Equação Solver (Linear & Quadrática)</h1>
+<p class="lead">Resolva equações lineares (ax + b = cx + d) e equações quadráticas (ax² + bx + c = 0) com todos os passos apresentados — incluindo o discriminante, as raízes repetidas e complexas, e uma verificação final que substitui a resposta de volta.</p>
+<div class="toolbox">
+<div class="calcform"><div class="fld"><label for="eqMode">Equação digitar</label><select id="eqMode"><option value="linear">Equação linear — ax + b = cx + d</option><option value="quad">Equação quadrática — ax² + bx + c = 0</option></select></div></div>
+<div id="eqLinear" class="view on">
+<form class="calcform" id="eqLinForm">
+<p style="margin-bottom:12px;color:#2c3e3b">Introduza o quatro números em <strong>ax + b = cx + d</strong>. Use 0 onde falta um termo — por exemplo, 2x + 3 = 7 é a = 2, b = 3, c = 0, d = 7.</p>
+<div class="fld"><label for="la">a — coeficiente de x (lado esquerdo)</label><input type="number" step="any" id="la" value="3"></div>
+<div class="fld"><label for="lb">b — número (lado esquerdo)</label><input type="number" step="any" id="lb" value="2"></div>
+<div class="fld"><label for="lc">c — coeficiente de x (lado direito)</label><input type="number" step="any" id="lc" value="1"></div>
+<div class="fld"><label for="ld">d — número (lado direito)</label><input type="number" step="any" id="ld" value="10"></div>
+<button class="calcbtn" type="submit">Resolver com passos</button>
+</form>
+<div class="calcresult" id="eqLinRes" style="display:none"></div>
+</div>
+<div id="eqQuad" class="view">
+<form class="calcform" id="eqQuadForm">
+<p style="margin-bottom:12px;color:#2c3e3b">Introduza o três coefficients em <strong>ax² + bx + c = 0</strong>. Use 0 onde falta um termo — por exemplo, x² − 9 = 0 é a = 1, b = 0, c = −9.</p>
+<div class="fld"><label for="qa">a — coeficiente de x²</label><input type="number" step="any" id="qa" value="1"></div>
+<div class="fld"><label for="qb">b — coeficiente de x</label><input type="number" step="any" id="qb" value="-5"></div>
+<div class="fld"><label for="qc">c — número constante</label><input type="number" step="any" id="qc" value="6"></div>
+<button class="calcbtn" type="submit">Resolver com passos</button>
+</form>
+<div class="calcresult" id="eqQuadRes" style="display:none"></div>
+</div>
+</div>
+<section class="txt"><h2>Como utilizar o Solucionador de Equações</h2><ol><li>Escolha o tipo de equação: linear (apenas x) ou quadrática (x²).</li><li>Escreva os coeficientes — os números à frente de x² e de x, e o número simples. Introduza 0 para qualquer termo em falta.</li><li>Prima Resolver com passos e leia o cálculo linha a linha. O último passo verifica a resposta substituindo-a de volta na equação original.</li></ol>
+<div class="exbox"><strong>Exemplo:</strong> 3x + 2 = x + 10. Mover os termos em x para a esquerda: 2x + 2 = 10. Mover o número para a direita: 2x = 8. Dividir por 2: <strong>x = 4</strong>. Verificação: 3 × 4 + 2 = 14 e 4 + 10 = 14 ✓</div>
+<h2>Frequently Asked Perguntas</h2></section><div class="faq"><h3>Que tipos de equações consegue resolver este solucionador?</h3><p>Equações lineares na forma ax + b = cx + d, e equações quadráticas na forma ax² + bx + c = 0. Mostra todos os passos, o discriminante para as quadráticas e uma verificação final. Não resolve equações cúbicas, sistemas de equações a duas incógnitas nem inequações — o título da página diz exatamente o que abrange.</p></div><div class="faq"><h3>O que significa "sem solução" ou "infinitas soluções"?</h3><p>Por vezes, os termos em x anulam-se por completo. Se os números também coincidirem (como 5x + 1 = 5x + 1), a equação é sempre verdadeira — infinitas soluções. Se os números não coincidirem (5x + 1 = 5x + 3), nunca pode ser verdadeira — sem solução. O solucionador indica honestamente qual é o caso, em vez de inventar uma resposta.</p></div><div class="faq"><h3>O que são raízes complexas?</h3><p>Quando o discriminante de uma quadrática (b² − 4ac) é negativo, o gráfico nunca cruza o eixo x e não há respostas reais. As raízes são então números complexos com i, onde i² = −1 — por exemplo, x² + 1 = 0 tem raízes x = i e x = −i. Este solucionador mostra-as e continua a verificá-las.</p></div>
+<h2 class="sec">Calculadoras Relacionadas</h2><div class="grid"><a class="card" href="../fraction-calculator/"><div class="ic">🍕</div><h3>Fração Calculadora</h3><p>Matemática</p></a><a class="card" href="../percentage-calculator/"><div class="ic">％</div><h3>Calculadora de Percentagem</h3><p>Matemática</p></a><a class="card" href="../exponent-calculator/"><div class="ic">x²</div><h3>Expoente Calculadora</h3><p>Matemática</p></a><a class="card" href="../square-root-calculator/"><div class="ic">√</div><h3>Calculadora de Raiz Quadrada</h3><p>Matemática</p></a><a class="card" href="../scientific-calculator/"><div class="ic">🧮</div><h3>Calculadora Científica</h3><p>Matemática</p></a></div>
+</div>
+<section class="txt"><h2>Como funciona &mdash; o método</h2>
+<p><strong>Equações lineares</strong> resolvem-se mantendo a equação equilibrada — o que fizer a um membro, faz ao outro. Primeiro, juntam-se os termos em x à esquerda (subtrai-se cx de ambos os membros), depois os termos numéricos à direita (subtrai-se b), e por fim dividem-se ambos os membros pelo coeficiente de x.</p>
+<p><strong>Equações quadráticas</strong> usa-se a fórmula quadrática. Para ax² + bx + c = 0:</p>
+<p><strong>x = (−b ± √(b² − 4ac)) ÷ (2a)</strong></p>
+<p>A parte sob a raiz, <strong>D = b² − 4ac</strong>, chama-se discriminante, e indica o tipo de resposta antes de terminar: D &gt; 0 significa duas raízes reais diferentes, D = 0 significa uma raiz repetida, e D &lt; 0 significa duas raízes complexas e nenhuma resposta real.</p>
+<h3>Exemplo prático</h3>
+<div class="exbox"><strong>Exemplo:</strong> Resolver x² − 5x + 6 = 0. Aqui a = 1, b = −5, c = 6. D = (−5)² − 4 × 1 × 6 = 25 − 24 = 1, pelo que √D = 1. Depois x = (5 + 1) ÷ 2 = <strong>3</strong> ou x = (5 − 1) ÷ 2 = <strong>2</strong>. Verifique x = 3: 9 − 15 + 6 = 0 ✓</div>
+<h3>Frequently asked perguntas</h3></section>
+<div class="faq"><h3>Como se introduz uma equação com um termo em falta?</h3><p>Introduza 0 para missing coefficient. x² − 9 = 0 becomes = 1, b = 0, c = −9, e solver dá x = 3 ou x = −3. Para linear equação like 2x = 10, esse é = 2, b = 0, c = 0, d = 10.</p></div>
+<div class="faq"><h3>E se escrever a = 0 no solucionador quadrático?</h3><p>Então, o termo x² desaparece e a equação é, na realidade, linear. O solucionador nota isso e resolve-a como uma equação linear, dizendo que foi isso que aconteceu.</p></div>
+<div class="faq"><h3>Porque é que o solucionador verifica a sua resposta no fim?</h3><p>Substituir a resposta de volta na equação original é a forma mais segura de detetar um erro: se ambos os lados forem iguais, a resposta está certamente certa. Também é um bom hábito para os trabalhos de casa — os professores atribuem frequentemente pontos pelo método quando a verificação é visível.</p></div>
+
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Embed esta calculadora no seu site — gratuito</h2>
+<p style="margin:0 0 12px;line-height:1.6">Adicione esta calculadora ao seu próprio website ou blogue — é totalmente gratuita, não exige registo e mostra sempre a versão mais recente. Copie o código abaixo e cole-o na sua página, no local onde pretende que a calculadora apareça. Manter a pequena linha de crédito &ldquo;Powered by Loona Automation&rdquo; sob a incorporação ajuda a manter esta ferramenta gratuita &mdash; mas pode formatá-la ou removê-la livremente; a ferramenta funciona de qualquer forma.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/pt-pt/equation-solver/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Equation Solver by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Desenvolvido por &lt;a href="https://loonaautomation.github.io/loona-calculators/pt-pt/equation-solver/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; grátis Equação Solver&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Copiar código de incorporação</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='Copiar código de incorporação';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Calculadoras Populares</h4><ul><li><a href="../age-calculator/">Calculadora de Idade</a></li>
+<li><a href="../zakat-calculator/">Calculadora de Zakat</a></li>
+<li><a href="../cgpa-calculator/">Calculadora de CGPA</a></li>
+<li><a href="../percentage-calculator/">Calculadora de Percentagem</a></li>
+<li><a href="../hijri-date-converter/">Hijri Data Conversor</a></li>
+<li><a href="../emi-calculator/">EMI & Empréstimo Calculadora</a></li></ul></div>
+<div><h4>Mais Ferramentas Loona</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Códigos QR Loona</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Compressor de Imagens Loona</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona Assistente de IA</a></li>
+<li><a href="https://loonaautomation.github.io/">Todas as Ferramentas Loona</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">Sobre</a></li>
+<li><a href="../contact.html">Contacto</a></li>
+<li><a href="../privacy-policy.html">Política de Privacidade</a></li>
+<li><a href="../terms.html">Termos de Utilização</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — um <a href="https://loonaautomation.github.io/">Loona Automation</a> projeto. Calculadoras online gratuitas, sem registo.
+Contacto: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+/* Equation Solver (Linear & Quadratic) — pure logic, step-by-step */
+function feq(n){
+  if(typeof n!=="number"||isNaN(n))return "?";
+  if(Math.abs(n)<1e-12)n=0;
+  var s=String(parseFloat(n.toPrecision(10)));
+  return s.replace(/-/g,"−");
+}
+function pm(n){return n<0?" − "+feq(-n):" + "+feq(n);}
+function coef(n){if(n===1)return "";if(n===-1)return "−";return feq(n);}
+function linSide(a,b){return coef(a)+"x"+(b===0?"":pm(b));}
+function solveLinearEq(a,b,c,d){
+  var steps=[];
+  steps.push("Comece pela equação: "+linSide(a,b)+" = "+linSide(c,d)+".");
+  var A=a-c,B=d-b;
+  if(c!==0)steps.push("Desloque os termos em x para a esquerda, subtraindo "+coef(c)+"x dos dois lados: "+linSide(A,b)+" = "+feq(d)+".");
+  if(b!==0)steps.push("Desloque o termo numérico para a direita, "+(b>0?"subtracting":"adding")+" "+feq(Math.abs(b))+" dos dois lados: "+coef(A)+"x = "+feq(B)+".");
+  if(A===0){
+    if(B===0){
+      steps.push("Both sides are identical (0 = 0), so the equation is true for every value of x.");
+      return {steps:steps,kind:"infinite",summary:"Infinitas soluções — a equação é uma identidade."};
+    }
+    steps.push("This leaves 0 = "+feq(B)+", o que é falso, pelo que nenhum valor de x pode satisfazer a equação.");
+    return {steps:steps,kind:"none",summary:"Sem solução — a equação é inconsistente."};
+  }
+  var x=B/A;
+  steps.push("Divida os dois lados por "+feq(A)+": x = "+feq(B)+" ÷ "+feq(A)+" = "+feq(x)+".");
+  var lhs=a*x+b,rhs=c*x+d;
+  steps.push("Check: substitute x = "+feq(x)+" back in. Left side = "+feq(a)+" × "+feq(x)+pm(b)+" = "+feq(lhs)+". Right side = "+feq(c)+" × "+feq(x)+pm(d)+" = "+feq(rhs)+". Os dois lados são iguais ✓");
+  return {steps:steps,kind:"one",x:x,summary:"x = "+feq(x)};
+}
+function quadSide(a,b,c){
+  var s=coef(a)+"x²";
+  if(b!==0)s+=(b<0?" − "+feq(-b):" + "+feq(b))+"x";
+  if(c!==0)s+=pm(c);
+  return s;
+}
+function solveQuadraticEq(a,b,c){
+  var steps=[];
+  if(a===0){
+    steps.push("Here a = 0, so this is not really a quadratic equation — it simplifies to the linear equation "+linSide(b,c)+" = 0.");
+    if(b===0){
+      if(c===0){steps.push("It becomes 0 = 0, which is true for every x.");return {steps:steps,kind:"infinite",summary:"Infinitas soluções."};}
+      steps.push("It becomes "+feq(c)+" = 0, which is false.");return {steps:steps,kind:"none",summary:"Sem solução."};
+    }
+    var xl=-c/b;
+    steps.push("Desloque o termo numérico para o outro lado: "+coef(b)+"x = "+feq(-c)+".");
+    steps.push("Divide by "+feq(b)+": x = "+feq(xl)+".");
+    steps.push("Check: "+feq(b)+" × "+feq(xl)+pm(c)+" = "+feq(b*xl+c)+" ✓");
+    return {steps:steps,kind:"linear",x:xl,summary:"x = "+feq(xl)+" (linear, because a = 0)"};
+  }
+  steps.push("Identifique os coeficientes em "+quadSide(a,b,c)+" = 0: a = "+feq(a)+", b = "+feq(b)+", c = "+feq(c)+".");
+  var D=b*b-4*a*c;
+  steps.push("Work out the discriminant: D = b² − 4ac = ("+feq(b)+")² − 4 × "+feq(a)+" × "+feq(c)+" = "+feq(b*b)+" − "+feq(4*a*c)+" = "+feq(D)+".");
+  if(D>0){
+    var sd=Math.sqrt(D);
+    steps.push("D is positive, so there are two different real roots. √D = √"+feq(D)+" = "+feq(sd)+".");
+    steps.push("Apply the quadratic formula: x = (−b ± √D) ÷ (2a) = ("+feq(-b)+" ± "+feq(sd)+") ÷ "+feq(2*a)+".");
+    var x1=(-b+sd)/(2*a),x2=(-b-sd)/(2*a);
+    steps.push("First root: x = ("+feq(-b)+" + "+feq(sd)+") ÷ "+feq(2*a)+" = "+feq(x1)+".");
+    steps.push("Second root: x = ("+feq(-b)+" − "+feq(sd)+") ÷ "+feq(2*a)+" = "+feq(x2)+".");
+    var v=a*x1*x1+b*x1+c;
+    steps.push("Check with x = "+feq(x1)+": "+feq(a)+" × ("+feq(x1)+")² + "+feq(b)+" × "+feq(x1)+pm(c)+" = "+feq(v)+" ✓ (0, como esperado).");
+    return {steps:steps,kind:"two",x1:x1,x2:x2,summary:"x = "+feq(x1)+" or x = "+feq(x2)};
+  }
+  if(D===0){
+    var xr=-b/(2*a);
+    steps.push("D é exatamente zero, pelo que as duas raízes são iguais (raiz repetida).");
+    steps.push("Apply the formula: x = −b ÷ (2a) = "+feq(-b)+" ÷ "+feq(2*a)+" = "+feq(xr)+".");
+    var v0=a*xr*xr+b*xr+c;
+    steps.push("Check: "+feq(a)+" × ("+feq(xr)+")² + "+feq(b)+" × "+feq(xr)+pm(c)+" = "+feq(v0)+" ✓");
+    return {steps:steps,kind:"equal",x1:xr,x2:xr,summary:"x = "+feq(xr)+" (raiz repetida)"};
+  }
+  var re=-b/(2*a),im=Math.abs(Math.sqrt(-D)/(2*a));
+  steps.push("D é negativo, pelo que não existem raízes reais — a parábola nunca cruza o eixo dos x.");
+  steps.push("Using √−1 = i: √D = √"+feq(-D)+" i = "+feq(Math.sqrt(-D))+"i.");
+  steps.push("Apply the formula: x = ("+feq(-b)+" ± "+feq(Math.sqrt(-D))+"i) ÷ "+feq(2*a)+", giving x = "+feq(re)+" + "+feq(im)+"i or x = "+feq(re)+" − "+feq(im)+"i.");
+  var zre=a*(re*re-im*im)+b*re+c,zim=2*a*re*im+b*im;
+  steps.push("Check with x = "+feq(re)+" + "+feq(im)+"i: a equação resolve-se em "+feq(zre)+" + "+feq(zim)+"i ≈ 0 ✓ (arredondamentos à parte).");
+  return {steps:steps,kind:"complex",re:re,im:im,summary:"x = "+feq(re)+" + "+feq(im)+"i or x = "+feq(re)+" − "+feq(im)+"i (sem raízes reais)"};
+}
+if(typeof module!=="undefined"&&module.exports){module.exports={solveLinearEq:solveLinearEq,solveQuadraticEq:solveQuadraticEq,feq:feq};}
+
+/* ---------- Browser wiring ---------- */
+if(typeof document!=="undefined"){
+  document.addEventListener("DOMContentLoaded",function(){
+    var modeSel=document.getElementById("eqMode"),linView=document.getElementById("eqLinear"),quadView=document.getElementById("eqQuad");
+    if(!modeSel)return;
+    function sync(){var q=modeSel.value==="quad";linView.className="view"+(q?"":" on");quadView.className="view"+(q?" on":"");}
+    modeSel.addEventListener("change",sync);sync();
+    function num(id){return parseFloat(document.getElementById(id).value);}
+    function render(resEl,r){
+      if(!r){resEl.style.display="block";resEl.innerHTML='<p class="err">Introduza números em todas as caixas.</p>';return;}
+      var h='<div class="resbig"><span>Resposta</span><strong>'+r.summary+'</strong></div><p style="font-weight:700;color:#062e2a;margin-bottom:6px">Resolução passo a passo</p><ol style="margin-left:20px">';
+      r.steps.forEach(function(s){h+="<li style='margin-bottom:6px'>"+s+"</li>";});
+      resEl.innerHTML=h+"</ol>";resEl.style.display="block";
+    }
+    document.getElementById("eqLinForm").addEventListener("submit",function(e){
+      e.preventDefault();
+      var a=num("la"),b=num("lb"),c=num("lc"),d=num("ld");
+      if([a,b,c,d].some(isNaN)){render(document.getElementById("eqLinRes"),null);return;}
+      render(document.getElementById("eqLinRes"),solveLinearEq(a,b,c,d));
+    });
+    document.getElementById("eqQuadForm").addEventListener("submit",function(e){
+      e.preventDefault();
+      var a=num("qa"),b=num("qb"),c=num("qc");
+      if([a,b,c].some(isNaN)){render(document.getElementById("eqQuadRes"),null);return;}
+      render(document.getElementById("eqQuadRes"),solveQuadraticEq(a,b,c));
+    });
+  });
+}
+</script>
+
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Instalar Aplicação';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Instalar esta aplicação: toque no botão Partilhar e, em seguida, escolha "Adicionar ao Ecrã Principal".');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body></html>

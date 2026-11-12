@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora Loona de Semanas de Gravidez",
+  "short_name": "Calculadora de Semanas de Gravidez",
+  "description": "Calculadora de semanas grávida gratuita: introduza o seu última menstruação data ou data prevista do parto para ver exatamente quantos semanas e dias grávida são, seu trimestre e dias para ir.",
+  "id": "/loona-calculators/pt-pt/weeks-pregnant-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

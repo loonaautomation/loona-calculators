@@ -1,0 +1,29 @@
+{
+  "name": "Loona Taxas de Câmbio de Moedas",
+  "short_name": "Moeda Taxas de câmbio",
+  "description": "ECB referência taxas de câmbio dated 06 novembro 2026 para 20 moedas — todos 380 pares com conversores, inverso taxas e tabelas.",
+  "id": "/loona-calculators/pt-pt/currency-exchange-rates.html",
+  "start_url": "./currency-exchange-rates.html",
+  "scope": "./currency-exchange-rates.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

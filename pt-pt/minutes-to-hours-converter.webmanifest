@@ -1,0 +1,29 @@
+{
+  "name": "Conversor Loona de Minutos para Horas",
+  "short_name": "Conversor de Minutos para Horas",
+  "description": "Converter minutos para horas instantaneamente. Fórmula exata, uma tabela de conversão completa de min to h e exemplos resolvidos. Grátis, sem registo.",
+  "id": "/loona-calculators/pt-pt/minutes-to-hours-converter.html",
+  "start_url": "./minutes-to-hours-converter.html",
+  "scope": "./minutes-to-hours-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Conversor de Hora de Berlim para Singapura",
+  "short_name": "Hora de Berlim para Singapura",
+  "description": "Converter a hora de Berlim para a hora de Singapura. Singapura está 7 horas à frente de Berlim em janeiro e 6 horas à frente em julho, com as datas da hora de verão, uma tabela de 24 horas e a melhor janela para reuniões. Conversor em direto incluído.",
+  "id": "/loona-calculators/pt-pt/berlin-to-singapore-time-converter.html",
+  "start_url": "./berlin-to-singapore-time-converter.html",
+  "scope": "./berlin-to-singapore-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

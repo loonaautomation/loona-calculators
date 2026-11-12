@@ -1,0 +1,29 @@
+{
+  "name": "Loona Lançador de Dados",
+  "short_name": "Dados Roller",
+  "description": "Gratuita online dados roller: roll 1 para 6 dados — padrão d6, d20 e outro polyhedral dados — com visual dados, totals, averages e roll histórico.",
+  "id": "/loona-calculators/pt-pt/dice-roller/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

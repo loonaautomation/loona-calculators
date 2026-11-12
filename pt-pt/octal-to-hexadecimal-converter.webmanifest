@@ -1,0 +1,29 @@
+{
+  "name": "Conversor Loona de Octal para Hexadecimal",
+  "short_name": "Conversor de Octal para Hexadecimal",
+  "description": "Converter octal (base 8) para hexadecimal (base 16) com validação, resolução por valor posicional e uma tabela de referência.",
+  "id": "/loona-calculators/pt-pt/octal-to-hexadecimal-converter.html",
+  "start_url": "./octal-to-hexadecimal-converter.html",
+  "scope": "./octal-to-hexadecimal-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

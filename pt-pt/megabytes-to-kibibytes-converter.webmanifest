@@ -1,0 +1,29 @@
+{
+  "name": "Conversor Loona de Megabyte para Kibibyte",
+  "short_name": "Conversor de Megabyte para Kibibyte",
+  "description": "Converter megabytes para kibibytes instantaneamente. Fórmula exata, uma tabela de conversão completa de MB to KiB, um exemplo resolvido e perguntas frequentes. Grátis, sem registo.",
+  "id": "/loona-calculators/pt-pt/megabytes-to-kibibytes-converter.html",
+  "start_url": "./megabytes-to-kibibytes-converter.html",
+  "scope": "./megabytes-to-kibibytes-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Conversor Loona de Segundo para Dia",
+  "short_name": "Conversor de Segundo para Dia",
+  "description": "Converter segundos para dias instantaneamente. Fórmula exata, uma tabela de conversão completa de s to d, um exemplo resolvido e perguntas frequentes. Grátis, sem registo.",
+  "id": "/loona-calculators/pt-pt/seconds-to-days-converter.html",
+  "start_url": "./seconds-to-days-converter.html",
+  "scope": "./seconds-to-days-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

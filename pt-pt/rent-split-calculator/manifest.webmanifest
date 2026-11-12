@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora Loona de Divisão de Renda",
+  "short_name": "Calculadora de Divisão de Renda",
+  "description": "Calculadora de renda dividir gratuita: dividir mensal renda entre 2 para 8 roommates — equally, por quarto tamanho em pés quadrados, ou por rendimento. Ações sempre adicionar até exato total.",
+  "id": "/loona-calculators/pt-pt/rent-split-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

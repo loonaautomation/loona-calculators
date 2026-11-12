@@ -1,0 +1,29 @@
+{
+  "name": "Loona Conversor de GPA para Percentagem",
+  "short_name": "Conversor de GPA para Percentagem",
+  "description": "Converter GPA em percentagem e vice-versa: bandas da escala de 4.0 dos EUA, Índia CBSE (CGPA × 9.5), universidade indiana (× 10) e classificações de graus do Reino Unido, cada uma identificada.",
+  "id": "/loona-calculators/pt-pt/gpa-to-percentage/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
