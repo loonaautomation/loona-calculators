@@ -1,0 +1,29 @@
+{
+  "name": "Calculator Loona de maxim la o repetare (1RM)",
+  "short_name": "Calculator de maxim pentru o repetare (1RM)",
+  "description": "Calculator gratuit al maximului la o repetare: estimați-vă 1RM din greutatea și repetările unui set cu formulele Epley, Brzycki și Lombardi, plus procentele de antrenament.",
+  "id": "/loona-calculators/ro/one-rep-max-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

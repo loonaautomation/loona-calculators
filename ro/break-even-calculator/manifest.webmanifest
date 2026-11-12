@@ -1,0 +1,29 @@
+{
+  "name": "Calculator Loona de prag de rentabilitate",
+  "short_name": "Calculator de prag de rentabilitate",
+  "description": "Calculator gratuit al pragului de rentabilitate: introduceți costurile fixe, prețul de vânzare și costul variabil pe unitate pentru a afla câte unități trebuie să vindeți pentru a ieși pe zero și la ce venit.",
+  "id": "/loona-calculators/ro/break-even-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

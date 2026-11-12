@@ -1,0 +1,29 @@
+{
+  "name": "Convertor Loona SGD în EUR",
+  "short_name": "Convertor SGD în EUR",
+  "description": "Convertiți dolarul singaporez (SGD) în euro (EUR). Curs de referință BCE din 06 noiembrie 2026, curs invers, tabel de conversie și note de coridor. Doar orientativ.",
+  "id": "/loona-calculators/ro/sgd-to-eur-converter.html",
+  "start_url": "./sgd-to-eur-converter.html",
+  "scope": "./sgd-to-eur-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

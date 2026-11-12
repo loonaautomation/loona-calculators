@@ -1,0 +1,29 @@
+{
+  "name": "Generator Loona de echipe aleatorii",
+  "short_name": "Generator de echipe aleatorii",
+  "description": "Generator gratuit de echipe aleatorii: lipiți o listă de nume și împărțiți-le în echipe aleatorii echilibrate pentru sporturi, clase, jocuri și ateliere. Amestecare corectă, fără înregistrare.",
+  "id": "/loona-calculators/ro/random-team-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

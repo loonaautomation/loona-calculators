@@ -1,0 +1,29 @@
+{
+  "name": "Calculator Loona de cost al combustibilului",
+  "short_name": "Calculator al costului combustibilului",
+  "description": "Calculator gratuit al costului combustibilului: introduceți distanța, consumul vehiculului și prețul combustibilului pentru a obține litrii necesari și costul total al călătoriei, cu opțiune dus-întors.",
+  "id": "/loona-calculators/ro/fuel-cost-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

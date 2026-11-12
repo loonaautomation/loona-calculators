@@ -1,0 +1,29 @@
+{
+  "name": "Convertor Loona atmosferă în bar",
+  "short_name": "Convertor atmosferă în bar",
+  "description": "Convertiți atmosfere în bar instantaneu. Formula exactă, un tabel complet de conversie atm în bar, un exemplu lucrat și întrebări frecvente. Gratuit, fără înregistrare.",
+  "id": "/loona-calculators/ro/atmospheres-to-bars-converter.html",
+  "start_url": "./atmospheres-to-bars-converter.html",
+  "scope": "./atmospheres-to-bars-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

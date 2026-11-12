@@ -1,0 +1,29 @@
+{
+  "name": "Calculator Loona de faze ale Lunii",
+  "short_name": "Calculator de faze ale Lunii",
+  "description": "Calculator gratuit al fazelor lunii: introduceți orice dată pentru a vedea numele fazei lunii, procentul de iluminare, vârsta lunii și zilele până la următoarea lună nouă și plină.",
+  "id": "/loona-calculators/ro/moon-phase-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

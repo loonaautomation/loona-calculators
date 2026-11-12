@@ -1,0 +1,29 @@
+{
+  "name": "Convertor Loona picior în kilometru",
+  "short_name": "Convertor Picior în Kilometru",
+  "description": "Convertiți picioare în kilometri instantaneu. Formula exactă, un tabel complet de conversie ft în km, un exemplu lucrat și întrebări frecvente. Gratuit, fără înregistrare.",
+  "id": "/loona-calculators/ro/feet-to-kilometers-converter.html",
+  "start_url": "./feet-to-kilometers-converter.html",
+  "scope": "./feet-to-kilometers-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

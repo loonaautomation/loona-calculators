@@ -1,0 +1,29 @@
+{
+  "name": "Cursuri de schimb valutar Loona",
+  "short_name": "Cursuri de schimb valutar",
+  "description": "Cursuri de schimb de referință BCE din 06 noiembrie 2026 pentru 20 de valute — toate cele 380 de perechi cu convertoare, cursuri inverse și tabele.",
+  "id": "/loona-calculators/ro/currency-exchange-rates.html",
+  "start_url": "./currency-exchange-rates.html",
+  "scope": "./currency-exchange-rates.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

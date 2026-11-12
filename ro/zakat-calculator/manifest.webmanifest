@@ -1,0 +1,29 @@
+{
+  "name": "Calculator Loona de zakat",
+  "short_name": "Calculator Zakat",
+  "description": "Calculator gratuit de zakat: numerar, sold bancar, aur, argint, bunuri comerciale și datorii — verificați nisab-ul și calculați-vă instantaneu zakat-ul de 2.5% în rupii. Simplu și privat.",
+  "id": "/loona-calculators/ro/zakat-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

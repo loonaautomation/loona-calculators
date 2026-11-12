@@ -1,0 +1,29 @@
+{
+  "name": "Calculator Loona de masă corporală slabă",
+  "short_name": "Calculator de masă corporală slabă",
+  "description": "Calculator gratuit al masei corporale slabe folosind formulele Boer, James și Hume din greutate, înălțime și sex — fără centimetru necesar. Estimare educațională.",
+  "id": "/loona-calculators/ro/lean-body-mass-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Calculator Loona de gratificație",
+  "short_name": "Calculator de gratificații",
+  "description": "Calculator gratuit de gratificații: ultimul salariu lunar încasat și anii de serviciu împliniți — estimați gratificația la un salariu lunar (salariul pe 30 de zile) pe an de serviciu.",
+  "id": "/loona-calculators/ro/gratuity-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

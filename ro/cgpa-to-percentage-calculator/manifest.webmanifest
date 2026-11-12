@@ -1,0 +1,29 @@
+{
+  "name": "Calculator Loona CGPA în procent",
+  "short_name": "Calculator CGPA în procent",
+  "description": "Convertor gratuit CGPA în procent: convertiți CGPA din 10 (formula ×9.5) sau GPA din 4 în procent, cu o opțiune de multiplicator personalizat pentru orice comisie sau universitate.",
+  "id": "/loona-calculators/ro/cgpa-to-percentage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

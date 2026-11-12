@@ -1,0 +1,29 @@
+{
+  "name": "Calculator Loona de răsărit și apus",
+  "short_name": "Calculator pentru răsărit & apus",
+  "description": "Calculator gratuit al răsăritului și apusului: introduceți o dată și latitudinea/longitudinea pentru a obține răsăritul, apusul, lungimea zilei și amiaza solară în UTC și în termeni solari locali. Matematica NOAA.",
+  "id": "/loona-calculators/ro/sunrise-sunset-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

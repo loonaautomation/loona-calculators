@@ -1,0 +1,29 @@
+{
+  "name": "Calculator Loona SIP",
+  "short_name": "Calculator SIP",
+  "description": "Calculator SIP gratuit: introduceți o investiție lunară, randamentul anual așteptat și anii pentru a proiecta valoarea viitoare, totalul investit și câștigurile estimate ale planului dumneavoastră.",
+  "id": "/loona-calculators/ro/sip-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

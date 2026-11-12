@@ -1,0 +1,29 @@
+{
+  "name": "Calculator Loona de aport de proteine",
+  "short_name": "Calculator de aport de proteine",
+  "description": "Calculator gratuit al aportului de proteine: gramele zilnice de proteine din greutatea corporală, nivelul de activitate și obiectiv, folosind intervale g/kg bazate pe dovezi. Distinct de împărțirile de macronutrienți pe calorii.",
+  "id": "/loona-calculators/ro/protein-intake-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

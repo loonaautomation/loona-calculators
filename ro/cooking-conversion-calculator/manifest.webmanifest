@@ -1,0 +1,29 @@
+{
+  "name": "Calculator Loona de conversii culinare",
+  "short_name": "Calculator de conversii pentru gătit",
+  "description": "Calculator gratuit de conversii culinare: convertiți cești, linguri, mililitri, grame, uncii și livre pentru 10 ingrediente obișnuite folosind densități reale — făină, zahăr, unt, miere și altele.",
+  "id": "/loona-calculators/ro/cooking-conversion-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

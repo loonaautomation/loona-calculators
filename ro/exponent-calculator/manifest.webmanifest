@@ -1,0 +1,29 @@
+{
+  "name": "Calculator Loona de exponenți",
+  "short_name": "Calculator de exponenți",
+  "description": "Calculator gratuit de exponenți: introduceți o bază și un exponent pentru rezultatul puterii, plus un tabel bonus cu pătratul, cubul, rădăcina pătrată și rădăcina cubică ale bazei.",
+  "id": "/loona-calculators/ro/exponent-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

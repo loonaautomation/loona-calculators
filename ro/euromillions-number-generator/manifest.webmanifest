@@ -1,0 +1,29 @@
+{
+  "name": "Generator Loona de numere EuroMillions",
+  "short_name": "Generator de numere EuroMillions",
+  "description": "Generator gratuit de numere EuroMillions: extrageți 5 numere principale din 50 plus 2 Lucky Stars din 12, cu până la 5 linii deodată. Extrageri aleatorii sigure, fără înregistrare.",
+  "id": "/loona-calculators/ro/euromillions-number-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

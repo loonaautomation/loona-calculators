@@ -1,0 +1,29 @@
+{
+  "name": "Calculator Loona de data probabilă a nașterii FIV",
+  "short_name": "Calculator de data probabilă a nașterii FIV",
+  "description": "Calculator gratuit al datei nașterii pentru FIV: introduceți data transferului de embrioni și vârsta embrionului (ziua 3 sau ziua 5) pentru a obține data estimată a nașterii și vârsta gestațională curentă.",
+  "id": "/loona-calculators/ro/ivf-due-date-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

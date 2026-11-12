@@ -1,0 +1,29 @@
+{
+  "name": "Calculator Loona pentru factura de electricitate",
+  "short_name": "Calculator de factură de electricitate",
+  "description": "Calculator gratuit al facturii de electricitate: introduceți unitățile folosite și tarifele pe tranșe pentru a estima factura lunară cu GST. Tarife editabile pentru LESCO, IESCO, K-Electric și toate companiile de electricitate din Pakistan.",
+  "id": "/loona-calculators/ro/electricity-bill-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

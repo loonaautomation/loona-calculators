@@ -1,0 +1,29 @@
+{
+  "name": "Rezolvitor de ecuații Loona (liniare și pătratice)",
+  "short_name": "Rezolvator de ecuații (liniare &",
+  "description": "Rezolvitor gratuit de ecuații pentru ecuații liniare (ax + b = cx + d) și pătratice (ax² + bx + c = 0), cu rezolvare completă pas cu pas, discriminantul, rădăcinile complexe și o verificare finală.",
+  "id": "/loona-calculators/ro/equation-solver/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

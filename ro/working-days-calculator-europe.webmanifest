@@ -1,0 +1,29 @@
+{
+  "name": "Calculator Loona de zile lucrătoare Europa",
+  "short_name": "Calculator de zile lucrătoare Europa",
+  "description": "Calculator de zile lucrătoare pentru 20 de țări europene: numără zilele lucrătoare dintre două date, cu weekendurile și sărbătorile legale 2026 ale fiecărei țări eliminate.",
+  "id": "/loona-calculators/ro/working-days-calculator-europe.html",
+  "start_url": "./working-days-calculator-europe.html",
+  "scope": "./working-days-calculator-europe.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

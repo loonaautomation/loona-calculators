@@ -1,0 +1,29 @@
+{
+  "name": "Loona Zile până în Duminica Paștelui",
+  "short_name": "Zile până la Duminica Paștelui",
+  "description": "Numărătoare inversă live până în Duminica Paștelui: zile, ore, minute și secunde exacte rămase, data din acest an și din următorii trei ani, fapte și întrebări frecvente.",
+  "id": "/loona-calculators/ro/days-until-easter.html",
+  "start_url": "./days-until-easter.html",
+  "scope": "./days-until-easter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

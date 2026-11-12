@@ -1,0 +1,29 @@
+{
+  "name": "Calculator Loona de marjă de profit",
+  "short_name": "Calculator de marjă de profit",
+  "description": "Calculator gratuit al marjei de profit: introduceți prețul de cost și prețul de vânzare pentru a obține instantaneu profitul, procentul marjei de profit și procentul de adaos. Pentru magazine și vânzători online.",
+  "id": "/loona-calculators/ro/profit-margin-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

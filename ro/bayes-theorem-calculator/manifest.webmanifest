@@ -1,0 +1,29 @@
+{
+  "name": "Calculator Loona pentru teorema lui Bayes",
+  "short_name": "Calculator al teoremei lui Bayes",
+  "description": "Calculator gratuit al teoremei lui Bayes: probabilitatea anterioară, rata adevărat-pozitivă și rata fals-pozitivă dau probabilitatea posterioară — clasicul calcul al testelor medicale, explicat.",
+  "id": "/loona-calculators/ro/bayes-theorem-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

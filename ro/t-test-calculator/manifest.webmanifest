@@ -1,0 +1,29 @@
+{
+  "name": "Calculator Loona pentru testul t cu un eșantion",
+  "short_name": "Calculator de test t pentru un eșantion",
+  "description": "Calculator gratuit al testului t pentru un eșantion: introduceți media eșantionului, SD, n și media ipotezată pentru a obține statistica t, gradele de libertate și valorile p.",
+  "id": "/loona-calculators/ro/t-test-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

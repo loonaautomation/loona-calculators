@@ -1,0 +1,29 @@
+{
+  "name": "Calculator Loona de accesibilitate a chiriei",
+  "short_name": "Calculator de accesibilitate a chiriei",
+  "description": "Calculator gratuit de accesibilitate a chiriei: introduceți venitul brut, partea pe care o puteți cheltui pe chirie și datoriile lunare pentru a vedea chiria maximă pe care v-o puteți permite — cu ghidul 28/36.",
+  "id": "/loona-calculators/ro/rent-affordability-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

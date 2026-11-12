@@ -1,0 +1,29 @@
+{
+  "name": "Calculator Loona de distribuție Poisson",
+  "short_name": "Distribuția Poisson",
+  "description": "Calculator gratuit al distribuției Poisson: probabilitatea a exact k evenimente, cel mult k sau cel puțin k, dată fiind rata medie lambda. Pentru apeluri, sosiri, defecte și evenimente rare.",
+  "id": "/loona-calculators/ro/poisson-distribution-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

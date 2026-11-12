@@ -1,0 +1,29 @@
+{
+  "name": "Calculator Loona de credit auto",
+  "short_name": "Calculator de împrumut auto",
+  "description": "Calculator gratuit de credit auto: prețul vehiculului, avansul, rata dobânzii și durata — obțineți suma creditului, plata lunară, dobânda totală și costul total real al mașinii.",
+  "id": "/loona-calculators/ro/car-loan-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

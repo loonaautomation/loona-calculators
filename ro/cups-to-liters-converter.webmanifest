@@ -1,0 +1,29 @@
+{
+  "name": "Convertor Loona căni în litri",
+  "short_name": "Convertor cești în litri",
+  "description": "Convertiți cești în litri instantaneu. Formula exactă, un tabel complet de conversie cup în L și exemple lucrate. Gratuit, fără înregistrare.",
+  "id": "/loona-calculators/ro/cups-to-liters-converter.html",
+  "start_url": "./cups-to-liters-converter.html",
+  "scope": "./cups-to-liters-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

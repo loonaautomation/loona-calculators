@@ -1,0 +1,29 @@
+{
+  "name": "Ceas mondial Loona",
+  "short_name": "Ceas mondial",
+  "description": "Ceas mondial live gratuit: ora și data locală curentă în 24 de orașe mari, inclusiv Londra, New York, Dubai, Karachi și Tokyo, actualizate în fiecare secundă prin fusuri orare.",
+  "id": "/loona-calculators/ro/world-clock/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

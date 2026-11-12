@@ -1,0 +1,29 @@
+{
+  "name": "Calculator Loona de economii",
+  "short_name": "Calculator de economii",
+  "description": "Calculator gratuit de economii: introduceți o depunere lunară, rata dobânzii și anii pentru a vedea valoarea viitoare a economiilor, totalul depus și dobânda câștigată.",
+  "id": "/loona-calculators/ro/savings-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

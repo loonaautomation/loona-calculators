@@ -1,0 +1,29 @@
+{
+  "name": "Calculator Loona pentru testul chi-pătrat",
+  "short_name": "Calculator de test Chi-pătrat",
+  "description": "Calculator gratuit al testului chi-pătrat: introduceți un tabel observat pentru un test de independență sau numărători observate față de așteptate pentru potrivirea distribuției. Chi-pătrat, gl și valoarea p.",
+  "id": "/loona-calculators/ro/chi-square-test-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Calculator Loona de notă finală",
+  "short_name": "Calculator al notei finale",
+  "description": "Calculator gratuit al notei finale: introduceți nota curentă, ponderea examenului final și nota țintă pentru a vedea exact ce punctaj vă trebuie la final.",
+  "id": "/loona-calculators/ro/final-grade-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

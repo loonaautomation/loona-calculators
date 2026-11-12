@@ -1,0 +1,29 @@
+{
+  "name": "Convertor Loona de unități",
+  "short_name": "Convertor de unități",
+  "description": "Convertor gratuit de unități: convertiți unități de lungime, greutate, temperatură, volum și suprafață cu factori standard exacți — km în mile, kg în livre, Celsius în Fahrenheit.",
+  "id": "/loona-calculators/ro/unit-converter/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

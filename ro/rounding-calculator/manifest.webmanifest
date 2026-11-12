@@ -1,0 +1,29 @@
+{
+  "name": "Calculator Loona de rotunjire",
+  "short_name": "Calculator de rotunjire",
+  "description": "Calculator gratuit de rotunjire: rotunjiți orice număr la zecimale, la cea mai apropiată 10, 100 sau 1,000, sau la cifre semnificative, cu regula explicată.",
+  "id": "/loona-calculators/ro/rounding-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

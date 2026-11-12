@@ -1,0 +1,29 @@
+{
+  "name": "Convertor Loona octet în mebioctet",
+  "short_name": "Convertor byte în mebibyte",
+  "description": "Convertiți bytes în mebibyți instantaneu. Formula exactă, un tabel complet de conversie B în MiB, un exemplu lucrat și întrebări frecvente. Gratuit, fără înregistrare.",
+  "id": "/loona-calculators/ro/bytes-to-mebibytes-converter.html",
+  "start_url": "./bytes-to-mebibytes-converter.html",
+  "scope": "./bytes-to-mebibytes-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

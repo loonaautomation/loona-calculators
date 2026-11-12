@@ -1,0 +1,29 @@
+{
+  "name": "Calculator Loona de dobândă compusă",
+  "short_name": "Calculator de dobândă compusă",
+  "description": "Calculator gratuit al dobânzii compuse: vedeți cum cresc banii dumneavoastră cu capitalizare anuală, trimestrială, lunară sau zilnică, cu depuneri lunare opționale și un tabel an cu an.",
+  "id": "/loona-calculators/ro/compound-interest-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

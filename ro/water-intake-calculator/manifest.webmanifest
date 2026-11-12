@@ -1,0 +1,29 @@
+{
+  "name": "Calculator Loona de consum de apă",
+  "short_name": "Calculator de aport de apă",
+  "description": "Calculator gratuit al consumului de apă: introduceți greutatea și exercițiul zilnic pentru a obține consumul recomandat de apă în litri, mililitri și pahare pe zi.",
+  "id": "/loona-calculators/ro/water-intake-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

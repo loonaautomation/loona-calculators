@@ -1,0 +1,29 @@
+{
+  "name": "Calculator Loona de timp",
+  "short_name": "Calculator de timp",
+  "description": "Calculator gratuit de timp: adăugați sau scădeți ore, minute și secunde între două durate. Perfect pentru orele de lucru, lungimile videoclipurilor, timpul de călătorie și orarele de studiu.",
+  "id": "/loona-calculators/ro/time-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

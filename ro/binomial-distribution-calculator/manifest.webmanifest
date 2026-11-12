@@ -1,0 +1,29 @@
+{
+  "name": "Calculator Loona de distribuție binomială",
+  "short_name": "Distribuție binomială",
+  "description": "Calculator gratuit al distribuției binomiale: probabilitatea a exact k succese, cel mult k sau cel puțin k, în n încercări cu probabilitatea de succes p. Valori verificate după manuale.",
+  "id": "/loona-calculators/ro/binomial-distribution-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Verificator Loona de compensații EU261",
+  "short_name": "Verificator de compensații EU261",
+  "description": "Verificator gratuit de compensații EU261: introduceți distanța zborului și întârzierea la sosire pentru a vedea dacă vi se pot datora 250 €, 400 € sau 600 € conform CE 261/2004, inclusiv regula reducerii de 50%.",
+  "id": "/loona-calculators/ro/eu261-compensation-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

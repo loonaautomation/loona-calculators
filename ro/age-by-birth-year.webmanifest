@@ -1,0 +1,29 @@
+{
+  "name": "Vârsta Loona după anul nașterii",
+  "short_name": "Vârsta după anul nașterii",
+  "description": "Vârsta împlinită în 2026 pentru fiecare an de naștere 1946–2025, cu etichete de generație și ani de reper.",
+  "id": "/loona-calculators/ro/age-by-birth-year.html",
+  "start_url": "./age-by-birth-year.html",
+  "scope": "./age-by-birth-year.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

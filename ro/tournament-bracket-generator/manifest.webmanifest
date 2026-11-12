@@ -1,0 +1,29 @@
+{
+  "name": "Generator Loona de tablou de turneu",
+  "short_name": "Generator de tablou de turneu",
+  "description": "Generator gratuit de tablouri de turneu: introduceți participanții și obțineți un tablou cu eliminare simplă, cu capi de serie corecți și tururi libere gestionate — pentru esports, zile sportive, șah și concursuri.",
+  "id": "/loona-calculators/ro/tournament-bracket-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

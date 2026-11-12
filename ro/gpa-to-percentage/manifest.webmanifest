@@ -1,0 +1,29 @@
+{
+  "name": "Convertor Loona GPA în procent",
+  "short_name": "Convertor GPA în Procent",
+  "description": "Convertiți GPA în procent și înapoi: benzi de scală SUA 4.0, India CBSE (CGPA × 9.5), universitate indiană (× 10) și clasificări ale diplomelor din Regatul Unit, fiecare etichetată.",
+  "id": "/loona-calculators/ro/gpa-to-percentage/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Calculator Loona de interval de încredere",
+  "short_name": "Calculator de interval de încredere",
+  "description": "Calculator gratuit al intervalului de încredere: IC pentru o medie cu sigma cunoscut (z), cu abaterea standard a eșantionului (t) și pentru o proporție, la încredere de 90%, 95% sau 99%.",
+  "id": "/loona-calculators/ro/confidence-interval-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

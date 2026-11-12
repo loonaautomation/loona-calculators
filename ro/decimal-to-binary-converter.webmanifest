@@ -1,0 +1,29 @@
+{
+  "name": "Convertor Loona zecimal în binar",
+  "short_name": "Convertor zecimal în binar",
+  "description": "Convertiți zecimal (baza 10) în binar (baza 2) cu validare, calcul al valorii poziționale și un tabel de referință.",
+  "id": "/loona-calculators/ro/decimal-to-binary-converter.html",
+  "start_url": "./decimal-to-binary-converter.html",
+  "scope": "./decimal-to-binary-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

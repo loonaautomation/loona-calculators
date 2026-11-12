@@ -1,0 +1,29 @@
+{
+  "name": "Calculator de logaritmi Loona",
+  "short_name": "Calculator de logaritmi",
+  "description": "Calculator gratuit de logaritmi: găsiți logaritmul în orice bază, plus logaritmul zecimal (baza 10), logaritmul natural (ln) și logaritmul binar (baza 2), fiecare verificat prin antilogaritmul său. Formula de schimbare a bazei explicată.",
+  "id": "/loona-calculators/ro/logarithm-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Apelator de numere Bingo Loona",
+  "short_name": "Apelant de numere Bingo",
+  "description": "Apelator gratuit de numere bingo pentru jocuri cu 75 de bile (B-I-N-G-O) și 90 de bile: extrage numere fără repetări, arată mare bila curentă și urmărește fiecare număr strigat pe un panou.",
+  "id": "/loona-calculators/ro/bingo-number-caller/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

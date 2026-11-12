@@ -1,0 +1,29 @@
+{
+  "name": "Verificator Loona de reguli de conducere în Europa",
+  "short_name": "Verificator de reguli de conducere în Europa",
+  "description": "Verificator gratuit al regulilor de conducere în Europa: alegeți o țară pentru partea sa de conducere, limita de viteză pe autostradă, limita de alcool la volan și regulile locale esențiale pentru șoferii vizitatori.",
+  "id": "/loona-calculators/ro/europe-driving-rules-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

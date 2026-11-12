@@ -1,0 +1,29 @@
+{
+  "name": "Calculator Loona Schengen 90/180",
+  "short_name": "Calculator Schengen 90/180",
+  "description": "Calculator gratuit Schengen 90/180: introduceți călătoriile trecute și planificate pentru a vedea zilele folosite în orice fereastră mobilă de 180 de zile, zilele rămase, avertismentele de depășire și cea mai timpurie reintrare sigură.",
+  "id": "/loona-calculators/ro/schengen-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Verificator Loona de vinietă",
+  "short_name": "Verificator de vinietă",
+  "description": "Verificator gratuit de viniete: selectați țările europene de pe ruta dumneavoastră pentru a vedea care au nevoie de vinietă de autostradă, care percep taxe de drum și care sunt gratuite pentru mașini.",
+  "id": "/loona-calculators/ro/vignette-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

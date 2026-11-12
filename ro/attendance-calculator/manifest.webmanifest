@@ -1,0 +1,29 @@
+{
+  "name": "Calculator de prezență Loona",
+  "short_name": "Calculator de prezență",
+  "description": "Calculator gratuit de prezență pentru studenți: introduceți cursurile ținute și frecventate pentru a obține procentul de prezență, câte cursuri puteți lipsi sau la câte trebuie să participați pentru a vă atinge obiectivul.",
+  "id": "/loona-calculators/ro/attendance-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

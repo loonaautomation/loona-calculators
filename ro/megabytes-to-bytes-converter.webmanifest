@@ -1,0 +1,29 @@
+{
+  "name": "Convertor Loona megaoctet în octet",
+  "short_name": "Convertor megaoctet în octet",
+  "description": "Convertiți megabyți în bytes instantaneu. Formula exactă, un tabel complet de conversie MB în B, un exemplu lucrat și întrebări frecvente. Gratuit, fără înregistrare.",
+  "id": "/loona-calculators/ro/megabytes-to-bytes-converter.html",
+  "start_url": "./megabytes-to-bytes-converter.html",
+  "scope": "./megabytes-to-bytes-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Calculator Loona de regresie liniară",
+  "short_name": "Calculator de regresie liniară",
+  "description": "Calculator gratuit de regresie liniară: lipiți datele pereche pentru a obține dreapta celor mai mici pătrate y = a + bx, corelația, predicțiile și un grafic de dispersie cu dreapta ajustată trasată.",
+  "id": "/loona-calculators/ro/linear-regression-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

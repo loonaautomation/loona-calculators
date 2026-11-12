@@ -1,0 +1,29 @@
+{
+  "name": "Calculator Loona de macronutrienți",
+  "short_name": "Calculator de macronutrienți",
+  "description": "Calculator gratuit de macronutrienți: introduceți ținta zilnică de calorii și alegeți o împărțire — Echilibrată, Bogată în proteine, Săracă în carbohidrați sau Keto — pentru a obține carbohidrații, proteinele și grăsimile în grame pe zi.",
+  "id": "/loona-calculators/ro/macro-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

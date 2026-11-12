@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calculators",
+  "short_name": "Calculatoare",
+  "description": "297 de calculatoare online gratuite: vârstă, zakat, procent, CGPA, EMI, IMC, factura de electricitate și convertor de date Hijri. Fără înregistrare — rapid, precis și privat.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "id": "/loona-calculators/ro/"
+}

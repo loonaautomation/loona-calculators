@@ -1,0 +1,29 @@
+{
+  "name": "Calculator Loona ANOVA unifactorială",
+  "short_name": "Calculator ANOVA unidirecțional",
+  "description": "Calculator gratuit ANOVA cu un factor: introduceți numerele fiecărui grup pe rândul său pentru a obține sumele pătratelor, statistica F, gradele de libertate și valoarea p, cu mediile grupurilor.",
+  "id": "/loona-calculators/ro/anova-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

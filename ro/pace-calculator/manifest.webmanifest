@@ -1,0 +1,29 @@
+{
+  "name": "Calculator Loona de ritm de alergare",
+  "short_name": "Calculator de ritm de alergare",
+  "description": "Calculator gratuit al ritmului de alergare: alegeți 5K, 10K, semimaraton, maraton sau o distanță personalizată cu timpul de sosire pentru a obține ritmul pe km și pe milă, plus timpii de sosire prezisi.",
+  "id": "/loona-calculators/ro/pace-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

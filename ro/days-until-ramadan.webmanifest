@@ -1,0 +1,29 @@
+{
+  "name": "Loona Zile până la Ramadan",
+  "short_name": "Zile până la Ramadan",
+  "description": "Numărătoare inversă live până la Ramadan: zile, ore, minute și secunde exacte rămase, data din acest an și din următorii trei ani, fapte și întrebări frecvente.",
+  "id": "/loona-calculators/ro/days-until-ramadan.html",
+  "start_url": "./days-until-ramadan.html",
+  "scope": "./days-until-ramadan.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

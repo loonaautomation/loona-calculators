@@ -1,0 +1,29 @@
+{
+  "name": "Calculatorul Loona al zilei 10,000",
+  "short_name": "Calculator a 10,000-a zi",
+  "description": "Calculator gratuit de repere în zile: introduceți o dată de naștere pentru a vă găsi a 10,000-a zi, alte aniversări în zile rotunde, vârsta în zile și următoarea dată-reper.",
+  "id": "/loona-calculators/ro/day-milestone-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
