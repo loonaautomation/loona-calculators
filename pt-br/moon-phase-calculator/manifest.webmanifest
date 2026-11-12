@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora Loona de Fases da Lua",
+  "short_name": "Calculadora de Fases da Lua",
+  "description": "Calculadora de lua fase gratuita: digite qualquer data para ver fase de lua nome, iluminação porcentagem, lua idade e dias para seguinte novo e lua cheia.",
+  "id": "/loona-calculators/pt-br/moon-phase-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

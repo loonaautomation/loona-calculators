@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora Loona de Arrendar vs Comprar",
+  "short_name": "Calculadora de Arrendar vs Comprar",
+  "description": "Calculadora de renda vs comprar gratuita: comparar custo total de renting com net custo de compra casa sobre anos plano para ficar — crédito habitação, renda aumenta, preço crescimento e equity incluído.",
+  "id": "/loona-calculators/pt-br/rent-vs-buy-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

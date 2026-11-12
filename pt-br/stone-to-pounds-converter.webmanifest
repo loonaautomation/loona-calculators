@@ -1,0 +1,29 @@
+{
+  "name": "Conversor Loona de Stone para Libras",
+  "short_name": "Conversor de Stone para Libra",
+  "description": "Converter stone para libras instantaneamente. Fórmula exata, uma tabela de conversão completa de st to lb e exemplos resolvidos. Grátis, sem registro.",
+  "id": "/loona-calculators/pt-br/stone-to-pounds-converter.html",
+  "start_url": "./stone-to-pounds-converter.html",
+  "scope": "./stone-to-pounds-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

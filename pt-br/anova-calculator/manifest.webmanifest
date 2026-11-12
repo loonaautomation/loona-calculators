@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora Loona de ANOVA Unidirecional",
+  "short_name": "Calculadora de ANOVA Unidirecional",
+  "description": "Calculadora de one-way ANOVA gratuita: digite cada números de group no seu próprio linha para obter sums de squares, F estatística, graus de liberdade e valor p, com group médias.",
+  "id": "/loona-calculators/pt-br/anova-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

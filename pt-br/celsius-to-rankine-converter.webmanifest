@@ -1,0 +1,29 @@
+{
+  "name": "Loona Conversor de Grau Celsius para Grau Rankine",
+  "short_name": "Grau Celsius para Grau",
+  "description": "Converter graus Celsius para graus Rankine instantaneamente. Fórmula exata, uma tabela de conversão completa de °C to °R, um exemplo resolvido e perguntas frequentes. Grátis, sem registro.",
+  "id": "/loona-calculators/pt-br/celsius-to-rankine-converter.html",
+  "start_url": "./celsius-to-rankine-converter.html",
+  "scope": "./celsius-to-rankine-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

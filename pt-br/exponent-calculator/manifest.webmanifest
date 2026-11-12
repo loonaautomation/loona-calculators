@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calculadora de Expoentes",
+  "short_name": "Expoente Calculadora",
+  "description": "Calculadora de expoente gratuita: digite um base e expoente para potência resultado, plus bonus tabela de quadrado de base, cubo, quadrado raiz e cubo raiz.",
+  "id": "/loona-calculators/pt-br/exponent-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

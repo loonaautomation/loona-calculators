@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora Loona de Reforma",
+  "short_name": "Calculadora de Reforma",
+  "description": "Calculadora de retirement gratuita: atual idade, retirement idade, poupanças e mensal contribuição — project seu retirement corpus e quanto de isto é crescimento.",
+  "id": "/loona-calculators/pt-br/retirement-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

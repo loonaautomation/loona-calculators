@@ -1,0 +1,29 @@
+{
+  "name": "Loona Verificador de Elegibilidade ETIAS",
+  "short_name": "ETIAS Elegibilidade Verificador",
+  "description": "Verificador de ETIAS elegibilidade gratuito: escolha o seu nacionalidade e viagem situation para ver se vai precisar de ETIAS, Schengen visto, ou sem autorização para curto viagens para Europa.",
+  "id": "/loona-calculators/pt-br/etias-eligibility-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

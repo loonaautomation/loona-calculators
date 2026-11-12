@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora Loona de Valor-P",
+  "short_name": "Calculadora de Valor-p",
+  "description": "Calculadora de valor p gratuita: converter z, t ou qui-quadrado estatística de teste para unilateral e bilateral valores p, com significance verdict a 0.05 e 0.01.",
+  "id": "/loona-calculators/pt-br/p-value-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

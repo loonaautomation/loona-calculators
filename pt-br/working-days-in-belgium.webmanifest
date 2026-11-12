@@ -1,0 +1,29 @@
+{
+  "name": "Dias Úteis Loona na Bélgica",
+  "short_name": "Dias Úteis na Bélgica",
+  "description": "Calculadora de dias úteis para Bélgica: conte os dias úteis entre duas datas, com os fins de semana e todos os 10 feriados nacionais belgas de 2026 removidos. Grátis.",
+  "id": "/loona-calculators/pt-br/working-days-in-belgium.html",
+  "start_url": "./working-days-in-belgium.html",
+  "scope": "./working-days-in-belgium.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

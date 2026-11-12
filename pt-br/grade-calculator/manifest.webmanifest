@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calculadora de Notas",
+  "short_name": "Classificação Calculadora",
+  "description": "Calculadora de ponderado classificação gratuita: digite até 8 trabalho pontuações com deles pesos para obter seu overall classificação porcentagem e classificação por letras. Pesos precisar não total 100.",
+  "id": "/loona-calculators/pt-br/grade-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

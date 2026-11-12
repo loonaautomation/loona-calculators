@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calculadora do 10,000º Dia",
+  "short_name": "Calculadora do 10,000.º Dia",
+  "description": "Calculadora de dia milestone gratuita: digite um nascimento data para encontrar seu 10,000th dia, outro round-number dia anniversaries, seu idade em dias e seu seguinte milestone data.",
+  "id": "/loona-calculators/pt-br/day-milestone-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

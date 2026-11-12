@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calculadora de Correlação",
+  "short_name": "Calculadora de Correlação",
+  "description": "Calculadora de Pearson correlação gratuita: colar paired x,y dados para obter correlação coefficient r, r-squared, e plain-English strength reading.",
+  "id": "/loona-calculators/pt-br/correlation-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

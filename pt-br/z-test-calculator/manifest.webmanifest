@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora Loona de Teste Z para Uma Amostra",
+  "short_name": "Calculadora de Teste Z para Uma Amostra",
+  "description": "Calculadora de one-sample z-test gratuita: amostra média, conhecido população SD, n e hypothesised média dar z estatística e valores p. Textbook-checked.",
+  "id": "/loona-calculators/pt-br/z-test-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

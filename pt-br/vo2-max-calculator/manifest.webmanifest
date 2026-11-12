@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora Loona de VO2 Máx.",
+  "short_name": "Calculadora de VO2 Max",
+  "description": "Calculadora de VO2 max gratuita: estimar aerobic fitness de Cooper 12-minuto executar ou Rockport 1-milha caminhar teste. Educativo fitness estimar.",
+  "id": "/loona-calculators/pt-br/vo2-max-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

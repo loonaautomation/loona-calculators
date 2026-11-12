@@ -1,0 +1,29 @@
+{
+  "name": "Conversor Loona de Tamanhos de Calçado",
+  "short_name": "Conversor de Tamanhos de Calçado",
+  "description": "Gratuito shoe tamanho conversor para homens e mulheres: converter entre EUA, Reino Unido e EU tamanhos e pé comprimento em cm e polegadas, utilizando padrão conversão charts com nearest matching.",
+  "id": "/loona-calculators/pt-br/shoe-size-converter/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

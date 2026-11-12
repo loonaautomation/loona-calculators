@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora do Amor Loona",
+  "short_name": "Calculadora do Amor",
+  "description": "Gratuito amor calculadora (apenas para divertido): digite dois nomes e obter playful amor porcentagem e compatibility message. light-hearted jogo para share com amigos.",
+  "id": "/loona-calculators/pt-br/love-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

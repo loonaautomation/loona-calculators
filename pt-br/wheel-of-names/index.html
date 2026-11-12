@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Roda de Nomes — Gire a Roda para Escolher um Vencedor Aleatório | Loona Calculators</title>
+<meta name="description" content="Gratuito roda de nomes: adicionar nomes, spin colourful roda e escolha um truly aleatório vencedor para raffles, classrooms e giveaways. Sem registro, funciona no seu navegador.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/pt-br/wheel-of-names/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/wheel-of-names/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/wheel-of-names/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/wheel-of-names/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/wheel-of-names/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/wheel-of-names/">
+<link rel="alternate" hreflang="pt-BR" href="https://loonaautomation.github.io/loona-calculators/pt-br/wheel-of-names/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/wheel-of-names/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/wheel-of-names/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Roda de Nomes — Gire a Roda para Escolher um Vencedor Aleatório | Loona Calculators">
+<meta property="og:description" content="Gratuito roda de nomes: adicionar nomes, spin colourful roda e escolha um truly aleatório vencedor para raffles, classrooms e giveaways. Sem registro, funciona no seu navegador.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/pt-br/wheel-of-names/"><meta property="og:locale" content="pt_BR">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Roda de Nomes — Gire a Roda para Escolher um Vencedor Aleatório | Loona Calculators">
+<meta name="twitter:description" content="Gratuito roda de nomes: adicionar nomes, spin colourful roda e escolha um truly aleatório vencedor para raffles, classrooms e giveaways. Sem registro, funciona no seu navegador.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Roda de Nomes Loona","url":"https://loonaautomation.github.io/loona-calculators/pt-br/wheel-of-names/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"A roleta é realmente aleatória?","acceptedAnswer":{"@type":"Answer","text":"Sim. A rotação começa a partir de um ângulo aleatório seguro e de um número aleatório de voltas extra, e depois abranda. Cada nome cobre uma fatia igual, pelo que cada nome tem a mesma probabilidade em cada rotação."}},{"@type":"Question","name":"Quantos nomes se podem adicionar?","acceptedAnswer":{"@type":"Answer","text":"Até 100 nomes. Os nomes muito longos são encurtados na roda, para que as fatias permaneçam legíveis."}},{"@type":"Question","name":"Posso utilizá-lo para opções em vez de nomes?","acceptedAnswer":{"@type":"Answer","text":"Sim — prémios, tarefas, temas ou restaurantes, tudo funciona. Qualquer coisa que possa escrever numa linha pode ser uma fatia."}},{"@type":"Question","name":"Vencedor obter excluído automaticamente?","acceptedAnswer":{"@type":"Answer","text":"Não — a lista mantém-se como foi escrita, pelo que a mesma pessoa pode ser sorteada de novo na próxima volta. Apague a linha correspondente se quiser retirá-la."}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/pt-br/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Roda de Nomes",
+      "item": "https://loonaautomation.github.io/loona-calculators/pt-br/wheel-of-names/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Logotipo da Loona Automation">
+<div class="brand">Loona <span>Calculadoras</span></div>
+<nav>
+<a href="../">Casa</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">Sobre</a>
+<a href="../contact.html">Contato</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › Diversão › Roda de Nomes</div>
+<h1 class="pagetitle">🎡 Roda de Nomes</h1>
+<p class="lead">Escreva ou cole uma lista de nomes e depois gire a roda. A roda abranda e para num nome — uma forma justa e divertida de escolher um vencedor de sorteio, decidir quem apresenta primeiro ou escolher entre opções.</p>
+<div class="exbox"><strong>Resposta rápida:</strong> Uma roda de nomes escolhe uma entrada ao acaso: cada nome recebe uma fatia igual da roda, a roda é girada com uma força aleatória, e o nome sob o ponteiro quando ela para é o vencedor — cada nome tem uma probabilidade de 1 em N.</div>
+<div class="toolbox"><form class="calcform" id="whForm">
+<div class="fld"><label for="whNames">Nomes ou opções (um por linha)</label><textarea id="whNames" rows="6" style="width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px">Ali
+Sara
+John
+Maria
+Chen
+Fatima</textarea></div>
+<button class="calcbtn" type="submit">🎡 Girar a Roda</button>
+</form>
+<div style="text-align:center;margin-top:16px"><canvas id="whCanvas" width="420" height="420" style="max-width:100%;height:auto"></canvas></div>
+<div class="calcresult" id="whResult" style="display:none"></div></div>
+<section class="txt"><h2>Como utilizar a Roleta de Nomes</h2><ol><li>Escreva ou cole nomes, um por linha (pelo menos 2).</li><li>Pressione Girar a Roda.</li><li>Veja-a abrandar — o nome por baixo do ponteiro superior vence.</li><li>Pressione Girar novamente para outro sorteio; edite a lista a qualquer momento e a roda redesenha-se sozinha.</li></ol>
+<div class="exbox"><strong>Exemplo:</strong> Com 6 nomes na roda, cada fatia tem 60 graus e cada nome tem uma probabilidade de 1 em 6 (cerca de 16.7%) de vencer qualquer volta.</div>
+<h2>Frequently Asked Perguntas</h2></section><div class="faq"><h3>A roleta é realmente aleatória?</h3><p>Sim. A rotação começa a partir de um ângulo aleatório seguro e de um número aleatório de voltas extra, e depois abranda. Cada nome cobre uma fatia igual, pelo que cada nome tem a mesma probabilidade em cada rotação.</p></div><div class="faq"><h3>Quantos nomes se podem adicionar?</h3><p>Até 100 nomes. Os nomes muito longos são encurtados na roda, para que as fatias permaneçam legíveis.</p></div><div class="faq"><h3>Posso utilizá-lo para opções em vez de nomes?</h3><p>Sim — prémios, tarefas, temas ou restaurantes, tudo funciona. Qualquer coisa que possa escrever numa linha pode ser uma fatia.</p></div><div class="faq"><h3>Vencedor obter excluído automaticamente?</h3><p>Não — a lista mantém-se como foi escrita, pelo que a mesma pessoa pode ser sorteada de novo na próxima volta. Apague a linha correspondente se quiser retirá-la.</p></div>
+<h2 class="sec">Calculadoras Relacionadas</h2><div class="grid"><a class="card" href="../random-number-generator/"><div class="ic">🎲</div><h3>Gerador de Números Aleatórios</h3><p>Divertido</p></a><a class="card" href="../dice-roller/"><div class="ic">🎲</div><h3>Dados Roller</h3><p>Divertido</p></a><a class="card" href="../coin-flip/"><div class="ic">🪙</div><h3>Lançamento de Moeda</h3><p>Divertido</p></a><a class="card" href="../lottery-number-generator/"><div class="ic">🍀</div><h3>Gerador de Números de Lotaria</h3><p>Divertido</p></a><a class="card" href="../love-calculator/"><div class="ic">❤️</div><h3>Calculadora do Amor</h3><p>Divertido</p></a></div>
+</div>
+<section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>Como funciona — a fórmula</h2>
+<p>Com <em>N</em> nomes, cada fatia cobre <strong>360° ÷ N</strong>. Um giro escolhe uma rotação final aleatória segura; a fatia vencedora é a que fica sob o ponteiro fixo no topo quando a roda para, calculada como <strong>vencedor = floor(((ângulo do ponteiro − rotação final) mod 360°) ÷ dimensão da fatia)</strong>. Como a rotação final é uniforme, cada fatia — e, portanto, cada nome — tem probabilidade exatamente <strong>1 ÷ N</strong>.</p>
+<h3>Exemplo prático</h3><div class="exbox"><p><strong>Entradas:</strong> 6 nomes, pelo que cada fatia é 360 ÷ 6 = 60°.</p><p><strong>Passos:</strong> Suponha que a roda para numa rotação final de 725°. 725 mod 360 = 5°. O ponteiro está a 270° em termos de tela (o topo). O ângulo efetivo é (270 − 5) mod 360 = 265°. Fatia = floor(265 ÷ 60) = floor(4.41) = índice 4 — o 5.º nome da lista.</p><p><strong>Resultado:</strong> O 5.º nome ganha, e antes do giro todos os nomes tinham uma <strong>1 em 6</strong> probabilidade.</p></div>
+
+</section>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Embed esta calculadora no seu site — gratuito</h2>
+<p style="margin:0 0 12px;line-height:1.6">Adicione esta calculadora ao seu próprio website ou blogue — é totalmente gratuita, não exige registro e mostra sempre a versão mais recente. Copie o código abaixo e cole-o na sua página, no local onde pretende que a calculadora apareça. Manter a pequena linha de crédito &ldquo;Powered by Loona Automation&rdquo; sob a incorporação ajuda a manter esta ferramenta gratuita &mdash; mas pode formatá-la ou removê-la livremente; a ferramenta funciona de qualquer forma.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/pt-br/wheel-of-names/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Wheel of Names by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Desenvolvido por &lt;a href="https://loonaautomation.github.io/loona-calculators/pt-br/wheel-of-names/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; grátis Roda de Nomes&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Copiar código de incorporação</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='Copiar código de incorporação';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Calculadoras Populares</h4><ul><li><a href="../age-calculator/">Calculadora de Idade</a></li>
+<li><a href="../zakat-calculator/">Calculadora de Zakat</a></li>
+<li><a href="../cgpa-calculator/">Calculadora de CGPA</a></li>
+<li><a href="../percentage-calculator/">Calculadora de Porcentagem</a></li>
+<li><a href="../hijri-date-converter/">Hijri Data Conversor</a></li>
+<li><a href="../emi-calculator/">EMI & Empréstimo Calculadora</a></li></ul></div>
+<div><h4>Mais Ferramentas Loona</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Códigos QR Loona</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Compressor de Imagens Loona</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona Assistente de IA</a></li>
+<li><a href="https://loonaautomation.github.io/">Todas as Ferramentas Loona</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">Sobre</a></li>
+<li><a href="../contact.html">Contato</a></li>
+<li><a href="../privacy-policy.html">Política de Privacidade</a></li>
+<li><a href="../terms.html">Termos de Utilização</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — um <a href="https://loonaautomation.github.io/">Loona Automation</a> projeto. Calculadoras online gratuitas, sem registro.
+Contato: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+function wheelNames(text){return String(text).split(/\r?\n/).map(function(s){return s.trim();}).filter(function(s){return s.length>0;}).slice(0,100);}
+function wheelWinnerIndex(rotationDeg,count){
+  var seg=360/count;
+  var eff=((270-(rotationDeg%360))%360+360)%360;
+  return Math.floor(eff/seg)%count;
+}
+function wheelRandomRotation(rng){
+  var r=(rng||Math.random)();
+  return Math.floor(r*360)+360*6;
+}
+/*TESTABLE_END*/
+var WH_COLORS=["#0a423b","#d4af37","#7fb069","#bc4749","#38618c","#f2af29","#6a4c93","#1982c4","#8ac926","#ff595e","#ffca3a","#6a994e"];
+var whSpinning=false, whRotation=0;
+function whDraw(){
+  var names=wheelNames(document.getElementById('whNames').value);
+  var cv=document.getElementById('whCanvas'), ctx=cv.getContext('2d');
+  var cx=210,cy=210,R=200; ctx.clearRect(0,0,420,420);
+  if(names.length<1){return;}
+  var seg=2*Math.PI/names.length;
+  var rot=whRotation*Math.PI/180;
+  for(var i=0;i<names.length;i++){
+    var a0=rot+i*seg, a1=a0+seg;
+    ctx.beginPath(); ctx.moveTo(cx,cy); ctx.arc(cx,cy,R,a0,a1); ctx.closePath();
+    ctx.fillStyle=WH_COLORS[i%WH_COLORS.length]; ctx.fill();
+    ctx.strokeStyle="#ffffff"; ctx.lineWidth=2; ctx.stroke();
+    ctx.save(); ctx.translate(cx,cy); ctx.rotate(a0+seg/2);
+    ctx.textAlign="right"; ctx.fillStyle="#fff"; ctx.font="bold 15px Arial";
+    var label=names[i].length>16?names[i].slice(0,15)+"…":names[i];
+    ctx.fillText(label,R-12,5); ctx.restore();
+  }
+  ctx.beginPath(); ctx.arc(cx,cy,34,0,2*Math.PI); ctx.fillStyle="#062e2a"; ctx.fill();
+  ctx.fillStyle="#d4af37"; ctx.font="bold 13px Arial"; ctx.textAlign="center"; ctx.fillText("SPIN",cx,cy+4);
+  ctx.beginPath(); ctx.moveTo(cx-14,2); ctx.lineTo(cx+14,2); ctx.lineTo(cx,26); ctx.closePath();
+  ctx.fillStyle="#bc4749"; ctx.fill();
+}
+document.getElementById('whNames').addEventListener('input',function(){if(!whSpinning)whDraw();});
+document.getElementById('whForm').addEventListener('submit',function(e){e.preventDefault();
+  if(whSpinning) return;
+  var names=wheelNames(document.getElementById('whNames').value);
+  var box=document.getElementById('whResult');
+  if(names.length<2){box.style.display='block';box.innerHTML='<p class="err">Acrescente, pelo menos, 2 nomes, um por linha.</p>';return;}
+  whSpinning=true; box.style.display='none';
+  var start=whRotation, delta=wheelRandomRotation(function(){var a=new Uint32Array(1);crypto.getRandomValues(a);return a[0]/4294967296;});
+  var target=start+delta, t0=null, dur=4200;
+  function frame(ts){
+    if(!t0)t0=ts; var p=Math.min((ts-t0)/dur,1);
+    var ease=1-Math.pow(1-p,3);
+    whRotation=start+(target-start)*ease; whDraw();
+    if(p<1){requestAnimationFrame(frame);} else {
+      whRotation=target; whDraw(); whSpinning=false;
+      var w=names[wheelWinnerIndex(whRotation,names.length)];
+      box.style.display='block';
+      box.innerHTML='<div class="resbig"><span>Vencedor</span><strong>'+w.replace(/</g,"&lt;")+'</strong></div><p class="resnote">Cada nome tinha uma probabilidade de 1 em '+names.length+' nesta volta.</p>';
+    }
+  }
+  requestAnimationFrame(frame);
+});
+whDraw();
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Instalar Aplicação';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Instalar esta aplicação: toque no botão Compartilhar e, em seguida, escolha "Adicionar ao Tela Principal".');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

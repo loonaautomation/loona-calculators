@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora Loona de Raiz Quadrada",
+  "short_name": "Calculadora de Raiz Quadrada",
+  "description": "Calculadora de quadrado raiz gratuita: digite qualquer número para obter o seu quadrado raiz, cubo raiz, 4th e 5th raízes — plus o seu quadrado e cubo — todos de uma só vez.",
+  "id": "/loona-calculators/pt-br/square-root-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

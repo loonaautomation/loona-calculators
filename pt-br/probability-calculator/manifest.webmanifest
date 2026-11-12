@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora Loona de Probabilidades",
+  "short_name": "Calculadora de Probabilidades",
+  "description": "Calculadora de probabilidade gratuita: probabilidade de e B, ou B, nenhum e exatamente um; odds conversão; combinations e permutations. Com fórmulas e exemplos.",
+  "id": "/loona-calculators/pt-br/probability-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

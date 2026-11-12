@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora Loona de Dias Úteis na Europa",
+  "short_name": "Calculadora de Dias Úteis Europa",
+  "description": "Calculadora de dias úteis para 20 países europeus: conte os dias úteis entre duas datas, com os fins de semana e os feriados de 2026 de cada país removidos.",
+  "id": "/loona-calculators/pt-br/working-days-calculator-europe.html",
+  "start_url": "./working-days-calculator-europe.html",
+  "scope": "./working-days-calculator-europe.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

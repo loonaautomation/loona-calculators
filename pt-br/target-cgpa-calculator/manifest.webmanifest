@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora Loona de CGPA Alvo",
+  "short_name": "Calculadora de CGPA Alvo",
+  "description": "Calculadora de objetivo CGPA gratuita: atual CGPA, credits feito, objetivo CGPA e credits restantes — ver GPA deve pontuação, ou máximo CGPA ainda reachable.",
+  "id": "/loona-calculators/pt-br/target-cgpa-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Conversor de Hora Loona de Singapura para Sydney",
+  "short_name": "Hora de Singapura para Sydney",
+  "description": "Converter a hora de Singapura para a hora de Sydney. Sydney está 3 horas à frente de Singapura em janeiro e 2 horas à frente em julho, com as datas da hora de verão, uma tabela de 24 horas e a melhor janela para reuniões. Conversor ao vivo incluído.",
+  "id": "/loona-calculators/pt-br/singapore-to-sydney-time-converter.html",
+  "start_url": "./singapore-to-sydney-time-converter.html",
+  "scope": "./singapore-to-sydney-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

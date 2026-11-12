@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora Loona de Acessibilidade de Renda",
+  "short_name": "Calculadora de Renda Acessível",
+  "description": "Calculadora de renda affordability gratuita: digite o seu bruto rendimento, share pode gastar em renda e seu mensal dívidas para ver máximo renda pode pagar — com 28/36 guideline.",
+  "id": "/loona-calculators/pt-br/rent-affordability-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

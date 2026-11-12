@@ -1,0 +1,29 @@
+{
+  "name": "Conversor de Volume Loona",
+  "short_name": "Conversor de Volume",
+  "description": "Cada volume conversão par em um índice: exato fatores, fórmulas e dedicado conversor página para cada par. Gratuito, sem registro.",
+  "id": "/loona-calculators/pt-br/volume-converter.html",
+  "start_url": "./volume-converter.html",
+  "scope": "./volume-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

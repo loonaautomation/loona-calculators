@@ -1,0 +1,29 @@
+{
+  "name": "Conversor Loona de Segundo para Milissegundo",
+  "short_name": "Segundo para Milésimo de Segundo",
+  "description": "Converter segundos para milissegundos instantaneamente. Fórmula exata, uma tabela de conversão completa de s to ms, um exemplo resolvido e perguntas frequentes. Grátis, sem registro.",
+  "id": "/loona-calculators/pt-br/seconds-to-milliseconds-converter.html",
+  "start_url": "./seconds-to-milliseconds-converter.html",
+  "scope": "./seconds-to-milliseconds-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculadora de Matrizes — Adição, Multiplicação, Determinante e Inversa (2x2, 3x3) | Loona</title>
+<meta name="description" content="Gratuito matriz calculadora para 2x2 e 3x3 matrizes: adicionar, subtrair, multiplicar, determinante e inverso com passo valores apresentado. Sem registro, funciona no seu navegador.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/pt-br/matrix-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/matrix-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/matrix-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/matrix-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/matrix-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/matrix-calculator/">
+<link rel="alternate" hreflang="pt-BR" href="https://loonaautomation.github.io/loona-calculators/pt-br/matrix-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/matrix-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/matrix-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Calculadora de Matrizes — Adição, Multiplicação, Determinante e Inversa (2x2, 3x3) | Loona">
+<meta property="og:description" content="Gratuito matriz calculadora para 2x2 e 3x3 matrizes: adicionar, subtrair, multiplicar, determinante e inverso com passo valores apresentado. Sem registro, funciona no seu navegador.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/pt-br/matrix-calculator/"><meta property="og:locale" content="pt_BR">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Calculadora de Matrizes — Adição, Multiplicação, Determinante e Inversa (2x2, 3x3) | Loona">
+<meta name="twitter:description" content="Gratuito matriz calculadora para 2x2 e 3x3 matrizes: adicionar, subtrair, multiplicar, determinante e inverso com passo valores apresentado. Sem registro, funciona no seu navegador.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Calculadora Loona de Matrizes","url":"https://loonaautomation.github.io/loona-calculators/pt-br/matrix-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Em que é que a multiplicação de matrizes difere da adição?","acceptedAnswer":{"@type":"Answer","text":"A adição corresponde célula a célula. A multiplicação combina as linhas de A com as colunas de B: cada célula do resultado é uma soma de produtos, pelo que A × B não é, em geral, igual a B × A."}},{"@type":"Question","name":"Quando é que uma matriz não tem inversa?","acceptedAnswer":{"@type":"Answer","text":"Quando o seu determinante é zero — a matriz chama-se singular. Ela comprime o espaço para uma dimensão inferior, pelo que a transformação não pode ser anulada, e esta calculadora comunica isso em vez de inventar uma resposta."}},{"@type":"Question","name":"O que é o determinante, em palavras simples?","acceptedAnswer":{"@type":"Answer","text":"Um único número que mede quanto a matriz escala áreas (ou volumes em 3×3). Um determinante de −2 significa que as áreas duplicam e invertem a orientação."}},{"@type":"Question","name":"Posso trabalhar com matrizes maiores?","acceptedAnswer":{"@type":"Answer","text":"Esta ferramenta cobre 2×2 e 3×3, que tratam da grande maioria dos problemas de escola, universidade e engenharia do dia a dia."}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+
+.mxin{width:100%;padding:10px;border:1.5px solid var(--line);border-radius:10px;font-size:16px}.mxout{border-collapse:collapse;margin:10px 0}.mxout td{border:1px solid var(--line);padding:9px 14px;text-align:right;font-size:15.5px;background:#fff}</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/pt-br/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Calculadora de Matrizes",
+      "item": "https://loonaautomation.github.io/loona-calculators/pt-br/matrix-calculator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Logotipo da Loona Automation">
+<div class="brand">Loona <span>Calculadoras</span></div>
+<nav>
+<a href="../">Casa</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">Sobre</a>
+<a href="../contact.html">Contato</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › Matemática › Calculadora de Matrizes</div>
+<h1 class="pagetitle">🔢 Calculadora de Matrizes</h1>
+<p class="lead">Digite dois matrizes (2×2 ou 3×3) e adicionar, subtrair ou multiplicar lhes — ou compute determinante e inverso de matriz no seu próprio. Singular matrizes são reported honestly quando sem inverso exists.</p>
+<div class="exbox"><strong>Resposta rápida:</strong> Para 2×2 matriz [[, b], [c, d]], determinante é ad − bc, e se isto é não zero inverso é (1 ÷ (ad − bc)) × [[d, −b], [−c, ]]. Esta calculadora também handles 3×3 matrizes com cofactor expansion.</div>
+<div class="toolbox"><form class="calcform" id="mxForm">
+<div class="fld"><label for="mxSize">Tamanho da matriz</label><select id="mxSize"><option value="2">2 × 2</option><option value="3">3 × 3</option></select></div>
+<h3 style="color:var(--teal);margin:8px 0">Matriz A</h3><div class="mxgrid" data-mx="a2" style="display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-bottom:10px"><input type="number" step="any" class="mxin" data-m="a" data-r="0" data-c="0" data-size="2" value="1"><input type="number" step="any" class="mxin" data-m="a" data-r="0" data-c="1" data-size="2" value="0"><input type="number" step="any" class="mxin" data-m="a" data-r="1" data-c="0" data-size="2" value="0"><input type="number" step="any" class="mxin" data-m="a" data-r="1" data-c="1" data-size="2" value="1"></div><div class="mxgrid" data-mx="a3" style="display:none;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:10px"><input type="number" step="any" class="mxin" data-m="a" data-r="0" data-c="0" data-size="3" value="1"><input type="number" step="any" class="mxin" data-m="a" data-r="0" data-c="1" data-size="3" value="0"><input type="number" step="any" class="mxin" data-m="a" data-r="0" data-c="2" data-size="3" value="0"><input type="number" step="any" class="mxin" data-m="a" data-r="1" data-c="0" data-size="3" value="0"><input type="number" step="any" class="mxin" data-m="a" data-r="1" data-c="1" data-size="3" value="1"><input type="number" step="any" class="mxin" data-m="a" data-r="1" data-c="2" data-size="3" value="0"><input type="number" step="any" class="mxin" data-m="a" data-r="2" data-c="0" data-size="3" value="0"><input type="number" step="any" class="mxin" data-m="a" data-r="2" data-c="1" data-size="3" value="0"><input type="number" step="any" class="mxin" data-m="a" data-r="2" data-c="2" data-size="3" value="1"></div>
+<h3 style="color:var(--teal);margin:8px 0">Matriz B</h3><div class="mxgrid" data-mx="b2" style="display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-bottom:10px"><input type="number" step="any" class="mxin" data-m="b" data-r="0" data-c="0" data-size="2" value="1"><input type="number" step="any" class="mxin" data-m="b" data-r="0" data-c="1" data-size="2" value="2"><input type="number" step="any" class="mxin" data-m="b" data-r="1" data-c="0" data-size="2" value="3"><input type="number" step="any" class="mxin" data-m="b" data-r="1" data-c="1" data-size="2" value="4"></div><div class="mxgrid" data-mx="b3" style="display:none;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:10px"><input type="number" step="any" class="mxin" data-m="b" data-r="0" data-c="0" data-size="3" value="1"><input type="number" step="any" class="mxin" data-m="b" data-r="0" data-c="1" data-size="3" value="2"><input type="number" step="any" class="mxin" data-m="b" data-r="0" data-c="2" data-size="3" value="3"><input type="number" step="any" class="mxin" data-m="b" data-r="1" data-c="0" data-size="3" value="4"><input type="number" step="any" class="mxin" data-m="b" data-r="1" data-c="1" data-size="3" value="5"><input type="number" step="any" class="mxin" data-m="b" data-r="1" data-c="2" data-size="3" value="6"><input type="number" step="any" class="mxin" data-m="b" data-r="2" data-c="0" data-size="3" value="7"><input type="number" step="any" class="mxin" data-m="b" data-r="2" data-c="1" data-size="3" value="8"><input type="number" step="any" class="mxin" data-m="b" data-r="2" data-c="2" data-size="3" value="9"></div>
+<div class="fld"><label for="mxOp">Operação</label><select id="mxOp"><option value="add">A + B</option><option value="sub">A − B</option><option value="mul">A × B</option><option value="det">Determinante de </option><option value="inv">Inversa de A</option></select></div>
+<button class="calcbtn" type="submit">Calcular</button>
+<div class="calcresult" id="mxResult" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>Como utilizar a Calculadora de Matrizes</h2><ol><li>Escolha o tamanho: 2×2 ou 3×3.</li><li>Escreva os valores da matriz A (e B para operações com duas matrizes).</li><li>Escolha a operação: A + B, A − B, A × B, determinante de A ou inversa de A.</li><li>Leia a matriz de resultados — os determinantes e as inversas indicam claramente quando uma matriz é singular.</li></ol>
+<div class="exbox"><strong>Exemplo:</strong> A = [[1, 2], [3, 4]] tem determinante 1×4 − 2×3 = −2, e a sua inversa é [[−2, 1], [1.5, −0.5]]. Multiplique A por essa inversa e obtém a matriz identidade [[1, 0], [0, 1]].</div>
+<h2>Frequently Asked Perguntas</h2></section><div class="faq"><h3>Em que é que a multiplicação de matrizes difere da adição?</h3><p>A adição corresponde célula a célula. A multiplicação combina as linhas de A com as colunas de B: cada célula do resultado é uma soma de produtos, pelo que A × B não é, em geral, igual a B × A.</p></div><div class="faq"><h3>Quando é que uma matriz não tem inversa?</h3><p>Quando o seu determinante é zero — a matriz chama-se singular. Ela comprime o espaço para uma dimensão inferior, pelo que a transformação não pode ser anulada, e esta calculadora comunica isso em vez de inventar uma resposta.</p></div><div class="faq"><h3>O que é o determinante, em palavras simples?</h3><p>Um único número que mede quanto a matriz escala áreas (ou volumes em 3×3). Um determinante de −2 significa que as áreas duplicam e invertem a orientação.</p></div><div class="faq"><h3>Posso trabalhar com matrizes maiores?</h3><p>Esta ferramenta cobre 2×2 e 3×3, que tratam da grande maioria dos problemas de escola, universidade e engenharia do dia a dia.</p></div>
+<h2 class="sec">Calculadoras Relacionadas</h2><div class="grid"><a class="card" href="../percentage-calculator/"><div class="ic">％</div><h3>Calculadora de Porcentagem</h3><p>Matemática</p></a><a class="card" href="../statistics-calculator/"><div class="ic">📊</div><h3>Calculadora de Estatística</h3><p>Matemática</p></a><a class="card" href="../fraction-calculator/"><div class="ic">½</div><h3>Fração Calculadora</h3><p>Matemática</p></a><a class="card" href="../equation-solver/"><div class="ic">🧮</div><h3>Equação Solver</h3><p>Matemática</p></a><a class="card" href="../scientific-calculator/"><div class="ic">🔬</div><h3>Calculadora Científica</h3><p>Matemática</p></a><a class="card" href="../average-calculator/"><div class="ic">📐</div><h3>Calculadora de Médias</h3><p>Matemática</p></a></div>
+</div>
+<section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>Como funciona — a fórmula</h2>
+<p><strong>Determinante (2×2):</strong> det [[a, b], [c, d]] = ad − bc. <strong>Determinante (3×3):</strong> expansão por cofatores ao longo da primeira linha. <strong>Inversa:</strong> A⁻¹ = adjunta(A) ÷ det(A), calculada aqui por eliminação de Gauss–Jordan — o mesmo resultado, com tratamento exato do caso singular (det = 0 significa que não existe inversa). <strong>Multiplicação:</strong> (AB)ᵢⱼ = o produto escalar da linha i de A pela coluna j de B.</p>
+<h3>Exemplo prático</h3><div class="exbox"><p><strong>Entradas:</strong> A = [[1, 2, 3], [0, 1, 4], [5, 6, 0]].</p><p><strong>Passos (determinante):</strong> Expand ao longo primeiro linha: 1 × (1×0 − 4×6) − 2 × (0×0 − 4×5) + 3 × (0×6 − 1×5) = 1 × (−24) − 2 × (−20) + 3 × (−5) = −24 + 40 − 15 = <strong>1</strong>.</p><p><strong>Resultado:</strong> det(A) = <strong>1</strong>, e, como o determinante é 1, a inversa tem números inteiros: [[−24, 18, 5], [20, −15, −4], [−5, 4, 1]]. Ao multiplicar A por ela obtém-se a matriz identidade 3×3.</p></div>
+
+</section>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Embed esta calculadora no seu site — gratuito</h2>
+<p style="margin:0 0 12px;line-height:1.6">Adicione esta calculadora ao seu próprio website ou blogue — é totalmente gratuita, não exige registro e mostra sempre a versão mais recente. Copie o código abaixo e cole-o na sua página, no local onde pretende que a calculadora apareça. Manter a pequena linha de crédito &ldquo;Powered by Loona Automation&rdquo; sob a incorporação ajuda a manter esta ferramenta gratuita &mdash; mas pode formatá-la ou removê-la livremente; a ferramenta funciona de qualquer forma.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/pt-br/matrix-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Matrix Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Desenvolvido por &lt;a href="https://loonaautomation.github.io/loona-calculators/pt-br/matrix-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; grátis Calculadora de Matrizes&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Copiar código de incorporação</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='Copiar código de incorporação';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Calculadoras Populares</h4><ul><li><a href="../age-calculator/">Calculadora de Idade</a></li>
+<li><a href="../zakat-calculator/">Calculadora de Zakat</a></li>
+<li><a href="../cgpa-calculator/">Calculadora de CGPA</a></li>
+<li><a href="../percentage-calculator/">Calculadora de Porcentagem</a></li>
+<li><a href="../hijri-date-converter/">Hijri Data Conversor</a></li>
+<li><a href="../emi-calculator/">EMI & Empréstimo Calculadora</a></li></ul></div>
+<div><h4>Mais Ferramentas Loona</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Códigos QR Loona</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Compressor de Imagens Loona</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona Assistente de IA</a></li>
+<li><a href="https://loonaautomation.github.io/">Todas as Ferramentas Loona</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">Sobre</a></li>
+<li><a href="../contact.html">Contato</a></li>
+<li><a href="../privacy-policy.html">Política de Privacidade</a></li>
+<li><a href="../terms.html">Termos de Utilização</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — um <a href="https://loonaautomation.github.io/">Loona Automation</a> projeto. Calculadoras online gratuitas, sem registro.
+Contato: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+function matAdd(A,B){return A.map(function(r,i){return r.map(function(v,j){return v+B[i][j];});});}
+function matSub(A,B){return A.map(function(r,i){return r.map(function(v,j){return v-B[i][j];});});}
+function matMul(A,B){var n=A.length,out=[];for(var i=0;i<n;i++){out.push([]);for(var j=0;j<n;j++){var s=0;for(var k=0;k<n;k++)s+=A[i][k]*B[k][j];out[i].push(s);}}return out;}
+function matDet(A){
+  if(A.length===2)return A[0][0]*A[1][1]-A[0][1]*A[1][0];
+  var a=A[0][0],b=A[0][1],c=A[0][2],d=A[1][0],e=A[1][1],f=A[1][2],g=A[2][0],h=A[2][1],i=A[2][2];
+  return a*(e*i-f*h)-b*(d*i-f*g)+c*(d*h-e*g);
+}
+function matInverse(A){
+  var n=A.length, det=matDet(A);
+  if(Math.abs(det)<1e-12)return null;
+  var M=A.map(function(r,i){return r.concat(A.map(function(_,j){return i===j?1:0;}));});
+  for(var col=0;col<n;col++){
+    var piv=col; for(var r=col+1;r<n;r++)if(Math.abs(M[r][col])>Math.abs(M[piv][col]))piv=r;
+    if(Math.abs(M[piv][col])<1e-12)return null;
+    var tmp=M[col];M[col]=M[piv];M[piv]=tmp;
+    var dv=M[col][col]; for(var j=0;j<2*n;j++)M[col][j]/=dv;
+    for(var r2=0;r2<n;r2++){ if(r2===col)continue; var f=M[r2][col]; for(var j2=0;j2<2*n;j2++)M[r2][j2]-=f*M[col][j2]; }
+  }
+  return M.map(function(r){return r.slice(n);});
+}
+/*TESTABLE_END*/
+function mxRead(prefix,size){
+  var M=[];
+  for(var r=0;r<size;r++){M.push([]);for(var c=0;c<size;c++){
+    var el=document.querySelector('.mxin[data-m="'+prefix+'"][data-r="'+r+'"][data-c="'+c+'"][data-size="'+size+'"]');
+    M[r].push(parseFloat(el.value)||0);
+  }}
+  return M;
+}
+function mxShow(M){
+  var h='<table class="mxout">';
+  M.forEach(function(row){h+='<tr>'+row.map(function(v){var s=(Math.round(v*10000)/10000).toString();return '<td>'+s+'</td>';}).join("")+'</tr>';});
+  return h+'</table>';
+}
+document.getElementById('mxSize').addEventListener('change',function(){
+  var size=this.value;
+  document.querySelectorAll('.mxgrid').forEach(function(g){g.style.display=g.getAttribute('data-mx').slice(1)===size?'grid':'none';});
+});
+document.getElementById('mxForm').addEventListener('submit',function(e){e.preventDefault();
+ var size=parseInt(document.getElementById('mxSize').value,10);
+ var A=mxRead('a',size), B=mxRead('b',size), op=document.getElementById('mxOp').value;
+ var box=document.getElementById('mxResult'); box.style.display='block';
+ if(op==='add')box.innerHTML='<div class="resbig"><span>A + B</span><strong></strong></div>'+mxShow(matAdd(A,B));
+ else if(op==='sub')box.innerHTML='<div class="resbig"><span>A − B</span><strong></strong></div>'+mxShow(matSub(A,B));
+ else if(op==='mul')box.innerHTML='<div class="resbig"><span>A × B</span><strong></strong></div>'+mxShow(matMul(A,B));
+ else if(op==='det')box.innerHTML='<div class="resbig"><span>Determinante de A</span><strong>'+(Math.round(matDet(A)*10000)/10000)+'</strong></div>';
+ else{var inv=matInverse(A);
+   if(!inv)box.innerHTML='<p class="err">A matriz A é singular (determinante = 0), pelo que não tem inversa.</p>';
+   else box.innerHTML='<div class="resbig"><span>Inversa de A</span><strong>det = '+(Math.round(matDet(A)*10000)/10000)+'</strong></div>'+mxShow(inv)+'<p class="resnote">Verificação: A × A⁻¹ dá a matriz identidade.</p>';}
+});
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Instalar Aplicação';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Instalar esta aplicação: toque no botão Compartilhar e, em seguida, escolha "Adicionar ao Tela Principal".');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

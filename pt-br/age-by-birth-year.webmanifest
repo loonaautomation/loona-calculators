@@ -1,0 +1,29 @@
+{
+  "name": "Loona Idade por Ano de Nascimento",
+  "short_name": "Idade por Ano de Nascimento",
+  "description": "A idade que se completa em 2026 para cada ano de nascimento de 1946–2025, com designações de geração e anos marcantes.",
+  "id": "/loona-calculators/pt-br/age-by-birth-year.html",
+  "start_url": "./age-by-birth-year.html",
+  "scope": "./age-by-birth-year.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

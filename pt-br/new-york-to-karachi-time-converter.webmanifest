@@ -1,0 +1,29 @@
+{
+  "name": "Conversor de Hora Loona de Nova Iorque para Karachi",
+  "short_name": "Hora de Nova Iorque para Karachi",
+  "description": "Converter a hora de Nova Iorque para a hora de Carachi. Carachi está 10 horas à frente de Nova Iorque em janeiro e 9 horas à frente em julho, com as datas da hora de verão, uma tabela de 24 horas e a melhor janela para reuniões. Conversor ao vivo incluído.",
+  "id": "/loona-calculators/pt-br/new-york-to-karachi-time-converter.html",
+  "start_url": "./new-york-to-karachi-time-converter.html",
+  "scope": "./new-york-to-karachi-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

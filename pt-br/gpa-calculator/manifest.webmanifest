@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calculadora de GPA",
+  "short_name": "GPA Calculadora",
+  "description": "Calculadora de GPA gratuita: digite até 8 disciplinas com classificações por letras (para F) e horas de crédito para obter seu GPA em padrão 4.0 escala. Rápido, privado, sem registro.",
+  "id": "/loona-calculators/pt-br/gpa-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

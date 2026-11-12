@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calculadora de Desconto",
+  "short_name": "Discount Calculadora",
+  "description": "Calculadora de discount gratuita: digite preço e discount por cento para obter final preço e quanto poupar. Supports extra segundo discount e imposto adicionado depois discount.",
+  "id": "/loona-calculators/pt-br/discount-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

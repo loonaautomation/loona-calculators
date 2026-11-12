@@ -1,0 +1,29 @@
+{
+  "name": "Gerador de Equipes Aleatórias Loona",
+  "short_name": "Gerador de Equipes Aleatórias",
+  "description": "Gerador de aleatório equipe gratuito: colar lista de nomes e dividir lhes para equilibrado aleatório teams para sports, classes, games e workshops. Justo baralhar, sem registro.",
+  "id": "/loona-calculators/pt-br/random-team-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

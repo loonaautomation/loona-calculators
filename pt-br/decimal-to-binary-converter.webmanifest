@@ -1,0 +1,29 @@
+{
+  "name": "Loona Conversor de Decimal para Binário",
+  "short_name": "Conversor de Decimal para Binário",
+  "description": "Converter decimal (base 10) para binário (base 2) com validação, resolução por valor posicional e uma tabela de referência.",
+  "id": "/loona-calculators/pt-br/decimal-to-binary-converter.html",
+  "start_url": "./decimal-to-binary-converter.html",
+  "scope": "./decimal-to-binary-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

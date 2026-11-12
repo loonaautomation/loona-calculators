@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora Loona de Poupança",
+  "short_name": "Calculadora de Poupança",
+  "description": "Calculadora de poupanças gratuita: digite um mensal depósito, taxa de juro e anos para ver futuro valor do seu poupanças, total deposited e juros ganho.",
+  "id": "/loona-calculators/pt-br/savings-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

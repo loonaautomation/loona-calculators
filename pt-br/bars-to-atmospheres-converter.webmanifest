@@ -1,0 +1,29 @@
+{
+  "name": "Loona Conversor de Bar para Atmosfera",
+  "short_name": "Conversor de Bar para Atmosfera",
+  "description": "Converter bar para atmosferas instantaneamente. Fórmula exata, uma tabela de conversão completa de bar to atm, um exemplo resolvido e perguntas frequentes. Grátis, sem registro.",
+  "id": "/loona-calculators/pt-br/bars-to-atmospheres-converter.html",
+  "start_url": "./bars-to-atmospheres-converter.html",
+  "scope": "./bars-to-atmospheres-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

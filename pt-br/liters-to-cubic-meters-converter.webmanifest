@@ -1,0 +1,29 @@
+{
+  "name": "Conversor Loona de Litros para Metros Cúbicos",
+  "short_name": "Litros para Metros Cúbicos",
+  "description": "Converter litros para metros cúbicos instantaneamente. Fórmula exata, uma tabela de conversão completa de L to m³ e exemplos resolvidos. Grátis, sem registro.",
+  "id": "/loona-calculators/pt-br/liters-to-cubic-meters-converter.html",
+  "start_url": "./liters-to-cubic-meters-converter.html",
+  "scope": "./liters-to-cubic-meters-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

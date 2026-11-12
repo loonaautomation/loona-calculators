@@ -1,0 +1,29 @@
+{
+  "name": "Conversor Loona de Quilocaloria para Joule",
+  "short_name": "Conversor de Quilocaloria para Joule",
+  "description": "Converter quilocalorias para joules instantaneamente. Fórmula exata, uma tabela de conversão completa de kcal to J, um exemplo resolvido e perguntas frequentes. Grátis, sem registro.",
+  "id": "/loona-calculators/pt-br/kilocalories-to-joules-converter.html",
+  "start_url": "./kilocalories-to-joules-converter.html",
+  "scope": "./kilocalories-to-joules-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

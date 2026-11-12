@@ -1,0 +1,29 @@
+{
+  "name": "Conversor Loona de Octal para Binário",
+  "short_name": "Conversor de Octal para Binário",
+  "description": "Converter octal (base 8) para binário (base 2) com validação, resolução por valor posicional e uma tabela de referência.",
+  "id": "/loona-calculators/pt-br/octal-to-binary-converter.html",
+  "start_url": "./octal-to-binary-converter.html",
+  "scope": "./octal-to-binary-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
