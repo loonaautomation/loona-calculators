@@ -1,0 +1,29 @@
+{
+  "name": "Loona เครื่องคำนวณเฟสของดวงจันทร์",
+  "short_name": "เครื่องคำนวณข้างขึ้นข้างแรม",
+  "description": "เครื่องคำนวณเฟสของดวงจันทร์ฟรี: ใส่วันที่ใด ๆ เพื่อดูชื่อเฟสของดวงจันทร์ เปอร์เซ็นต์การส่องสว่าง อายุของดวงจันทร์ และวันจนถึงจันทร์ดับและจันทร์เต็มดวงครั้งถัดไป",
+  "id": "/loona-calculators/th/moon-phase-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

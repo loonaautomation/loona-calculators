@@ -1,0 +1,29 @@
+{
+  "name": "Loona เครื่องคำนวณการทดสอบ Z กลุ่มตัวอย่างเดียว",
+  "short_name": "เครื่องคำนวณการทดสอบ Z แบบกลุ่มเดียว",
+  "description": "เครื่องคำนวณการทดสอบ z ตัวอย่างเดียวฟรี: ค่าเฉลี่ยตัวอย่าง SD ประชากรที่ทราบ n และค่าเฉลี่ยที่ตั้งสมมติฐานให้สถิติ z และค่า p ตรวจสอบกับตำรา",
+  "id": "/loona-calculators/th/z-test-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona เครื่องคำนวณเชงเกน 90/180",
+  "short_name": "เครื่องคำนวณ Schengen 90/180",
+  "description": "เครื่องคำนวณ Schengen 90/180 ฟรี: ใส่การเดินทางในอดีตและที่วางแผนไว้เพื่อดูวันที่ใช้ในหน้าต่างเลื่อน 180 วันใด ๆ วันที่เหลือ คำเตือนการอยู่เกิน และวันกลับเข้าที่ปลอดภัยที่สุด",
+  "id": "/loona-calculators/th/schengen-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona เครื่องคำนวณภาษีเงินเดือนปากีสถาน 2026",
+  "short_name": "เครื่องคำนวณภาษีเงินเดือน",
+  "description": "เครื่องคำนวณภาษีเงินเดือนปากีสถานฟรี (ปีภาษี 2026): ใส่เงินเดือนรวมรายเดือนของคุณเพื่อดูภาษีเงินได้ต่อเดือนและต่อปี เงินเดือนสุทธิที่ได้รับจริง และอัตราภาษีที่แท้จริง เกณฑ์เงินเดือน FBR",
+  "id": "/loona-calculators/th/salary-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

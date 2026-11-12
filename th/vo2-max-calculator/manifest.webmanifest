@@ -1,0 +1,29 @@
+{
+  "name": "Loona เครื่องคำนวณ VO2 Max",
+  "short_name": "เครื่องคำนวณ VO2 Max",
+  "description": "เครื่องคำนวณ VO2 max ฟรี: ประมาณสมรรถภาพแอโรบิกจากการวิ่ง Cooper 12 นาทีหรือการทดสอบเดิน Rockport 1 ไมล์ การประมาณสมรรถภาพเพื่อการศึกษา",
+  "id": "/loona-calculators/th/vo2-max-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

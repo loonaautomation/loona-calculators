@@ -1,0 +1,29 @@
+{
+  "name": "Loona เครื่องคำนวณเช่าเทียบกับซื้อ",
+  "short_name": "เครื่องคำนวณเช่าเทียบกับซื้อ",
+  "description": "เครื่องคำนวณเช่าเทียบกับซื้อฟรี: เปรียบเทียบต้นทุนรวมของการเช่ากับต้นทุนสุทธิของการซื้อบ้านในช่วงปีที่คุณวางแผนจะอยู่ — รวมสินเชื่อบ้าน การขึ้นค่าเช่า การเติบโตของราคา และส่วนของเจ้าของ",
+  "id": "/loona-calculators/th/rent-vs-buy-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

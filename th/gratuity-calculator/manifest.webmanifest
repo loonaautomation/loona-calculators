@@ -1,0 +1,29 @@
+{
+  "name": "Loona เครื่องคำนวณเงินบำเหน็จ",
+  "short_name": "เครื่องคำนวณเงินบำเหน็จ",
+  "description": "เครื่องคำนวณเงินบำเหน็จฟรี: เงินเดือนรายเดือนสุดท้ายที่ได้รับและปีที่ทำงานครบ — ประมาณเงินบำเหน็จที่เงินเดือนหนึ่งเดือน (ค่าจ้าง 30 วัน) ต่อปีที่ทำงาน",
+  "id": "/loona-calculators/th/gratuity-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

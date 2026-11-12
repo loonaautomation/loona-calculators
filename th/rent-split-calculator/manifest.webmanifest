@@ -1,0 +1,29 @@
+{
+  "name": "Loona เครื่องคำนวณการแบ่งค่าเช่า",
+  "short_name": "เครื่องคำนวณการแบ่งค่าเช่า",
+  "description": "เครื่องคำนวณการแบ่งค่าเช่าฟรี: แบ่งค่าเช่ารายเดือนระหว่างเพื่อนร่วมห้อง 2 ถึง 8 คน — เท่ากัน ตามขนาดห้องเป็นตารางฟุต หรือตามรายได้ ส่วนแบ่งรวมกันได้ยอดรวมที่แน่นอนเสมอ",
+  "id": "/loona-calculators/th/rent-split-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

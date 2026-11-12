@@ -1,0 +1,29 @@
+{
+  "name": "Loona เครื่องคำนวณเงินออม",
+  "short_name": "เครื่องคำนวณเงินออม",
+  "description": "เครื่องคำนวณเงินออมฟรี: ใส่เงินฝากรายเดือน อัตราดอกเบี้ย และปีเพื่อดูมูลค่าในอนาคตของเงินออมของคุณ ยอดรวมที่ฝาก และดอกเบี้ยที่ได้รับ",
+  "id": "/loona-calculators/th/savings-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

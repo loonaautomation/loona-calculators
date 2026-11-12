@@ -1,0 +1,29 @@
+{
+  "name": "Loona ตัวแปลง CAD เป็น NZD",
+  "short_name": "ตัวแปลง CAD เป็น NZD",
+  "description": "แปลงดอลลาร์แคนาดา (CAD) เป็นดอลลาร์นิวซีแลนด์ (NZD) อัตราอ้างอิง ECB ลงวันที่ 06 พฤศจิกายน 2026 อัตราผกผัน ตารางการแปลง และบันทึกเส้นทาง เพื่อเป็นข้อมูลเท่านั้น",
+  "id": "/loona-calculators/th/cad-to-nzd-converter.html",
+  "start_url": "./cad-to-nzd-converter.html",
+  "scope": "./cad-to-nzd-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

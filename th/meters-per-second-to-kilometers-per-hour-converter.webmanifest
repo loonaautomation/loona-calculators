@@ -1,0 +1,29 @@
+{
+  "name": "Loona ตัวแปลง เมตรต่อวินาที เป็น Km/h",
+  "short_name": "เมตรต่อวินาทีเป็น Km/h",
+  "description": "แปลงเมตรต่อวินาทีเป็นกิโลเมตรต่อชั่วโมงได้ทันที สูตรที่แน่นอน ตารางการแปลง m/s เป็น km/h ฉบับเต็ม และตัวอย่างที่แสดง ฟรี ไม่ต้องสมัครสมาชิก",
+  "id": "/loona-calculators/th/meters-per-second-to-kilometers-per-hour-converter.html",
+  "start_url": "./meters-per-second-to-kilometers-per-hour-converter.html",
+  "scope": "./meters-per-second-to-kilometers-per-hour-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

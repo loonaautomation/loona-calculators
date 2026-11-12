@@ -1,0 +1,29 @@
+{
+  "name": "Loona เครื่องตรวจสอบคุณสมบัติ ETIAS",
+  "short_name": "เครื่องมือตรวจสอบคุณสมบัติ ETIAS",
+  "description": "ตัวตรวจสอบคุณสมบัติ ETIAS ฟรี: เลือกสัญชาติและสถานการณ์การเดินทางของคุณเพื่อดูว่าคุณต้องการ ETIAS วีซ่า Schengen หรือไม่ต้องการการอนุญาตสำหรับการเดินทางสั้น ๆ ไปยุโรป",
+  "id": "/loona-calculators/th/etias-eligibility-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

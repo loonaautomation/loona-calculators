@@ -1,0 +1,29 @@
+{
+  "name": "Loona โปรแกรมสร้างตารางสายการแข่งขัน",
+  "short_name": "โปรแกรมสร้างตารางสายการแข่งขัน",
+  "description": "เครื่องสร้างสายการแข่งขันฟรี: ใส่ผู้เข้าแข่งขัน รับสายการแข่งขันแบบแพ้คัดออกที่มีการจัดอันดับอย่างเหมาะสมพร้อมบายที่จัดการให้ — สำหรับอีสปอร์ต วันกีฬา หมากรุก และควิซ",
+  "id": "/loona-calculators/th/tournament-bracket-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

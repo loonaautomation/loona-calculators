@@ -1,0 +1,29 @@
+{
+  "name": "Loona เครื่องคำนวณทฤษฎีบทพีทาโกรัส",
+  "short_name": "เครื่องคำนวณทฤษฎีบทพีทาโกรัส",
+  "description": "เครื่องคำนวณทฤษฎีบทพีทาโกรัสฟรี: ใส่สองด้านใด ๆ ของสามเหลี่ยมมุมฉากเพื่อหาด้านที่สาม — ด้านตรงข้ามมุมฉากหรือขา — พร้อมวิธีทำที่แสดง",
+  "id": "/loona-calculators/th/pythagorean-theorem-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

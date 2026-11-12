@@ -1,0 +1,29 @@
+{
+  "name": "Loona ตัวสร้างทีมแบบสุ่ม",
+  "short_name": "โปรแกรมสร้างทีมแบบสุ่ม",
+  "description": "เครื่องสร้างทีมสุ่มฟรี: วางรายการชื่อและแบ่งเป็นทีมสุ่มที่สมดุลสำหรับกีฬา ชั้นเรียน เกม และเวิร์กช็อป การสลับที่ยุติธรรม ไม่ต้องสมัคร",
+  "id": "/loona-calculators/th/random-team-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

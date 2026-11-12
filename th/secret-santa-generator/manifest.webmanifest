@@ -1,0 +1,29 @@
+{
+  "name": "Loona ตัวสร้าง Secret Santa",
+  "short_name": "โปรแกรมสร้าง Secret Santa",
+  "description": "เครื่องสร้าง Secret Santa ฟรี: เพิ่มชื่อ ตั้งข้อยกเว้น (คู่รัก คู่ของปีที่แล้ว) จับฉลากอย่างลับ ๆ จากนั้นแต่ละคนเปิดเผยเฉพาะคู่ของตัวเองเท่านั้น เป็นส่วนตัว ในเบราว์เซอร์",
+  "id": "/loona-calculators/th/secret-santa-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

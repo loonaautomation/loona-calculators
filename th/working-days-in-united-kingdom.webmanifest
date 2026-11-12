@@ -1,0 +1,29 @@
+{
+  "name": "Loona วันทำงานในสหราชอาณาจักร",
+  "short_name": "วันทำงานในสหราชอาณาจักร",
+  "description": "เครื่องคำนวณวันทำงานสำหรับสหราชอาณาจักร (อังกฤษและเวลส์): วันทำการระหว่างสองวันที่ หักวันหยุดสุดสัปดาห์และวันหยุดธนาคารทั้งหมด 8 วันของปี 2026",
+  "id": "/loona-calculators/th/working-days-in-united-kingdom.html",
+  "start_url": "./working-days-in-united-kingdom.html",
+  "scope": "./working-days-in-united-kingdom.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona เครื่องคำนวณพระอาทิตย์ขึ้นและพระอาทิตย์ตก",
+  "short_name": "เครื่องคำนวณเวลาพระอาทิตย์ขึ้นและพระอาทิตย์ตก",
+  "description": "เครื่องคำนวณพระอาทิตย์ขึ้นและตกฟรี: ใส่วันที่และละติจูด/ลองจิจูดเพื่อรับพระอาทิตย์ขึ้น พระอาทิตย์ตก ความยาววัน และเที่ยงแสงอาทิตย์ใน UTC และในแง่แสงอาทิตย์ท้องถิ่น คณิตศาสตร์ NOAA",
+  "id": "/loona-calculators/th/sunrise-sunset-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

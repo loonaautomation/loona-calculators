@@ -1,0 +1,29 @@
+{
+  "name": "Loona ตัวแปลง ชั่วโมง เป็น ปี (จูเลียน)",
+  "short_name": "ชั่วโมงเป็นปี (จูเลียน)",
+  "description": "แปลงชั่วโมงเป็นปีได้ทันที สูตรที่แน่นอน ตารางการแปลง h เป็น yr ฉบับเต็ม ตัวอย่างที่แสดง และคำถามที่พบบ่อย ฟรี ไม่ต้องสมัครสมาชิก",
+  "id": "/loona-calculators/th/hours-to-years-converter.html",
+  "start_url": "./hours-to-years-converter.html",
+  "scope": "./hours-to-years-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

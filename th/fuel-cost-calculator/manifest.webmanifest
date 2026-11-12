@@ -1,0 +1,29 @@
+{
+  "name": "Loona เครื่องคำนวณค่าเชื้อเพลิง",
+  "short_name": "เครื่องคำนวณต้นทุนเชื้อเพลิง",
+  "description": "เครื่องคำนวณต้นทุนเชื้อเพลิงฟรี: ใส่ระยะทาง อัตราสิ้นเปลืองรถ และราคาเชื้อเพลิงเพื่อรับลิตรที่ต้องการและต้นทุนการเดินทางรวม พร้อมตัวเลือกไป-กลับ",
+  "id": "/loona-calculators/th/fuel-cost-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

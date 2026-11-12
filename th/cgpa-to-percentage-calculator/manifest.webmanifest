@@ -1,0 +1,29 @@
+{
+  "name": "Loona เครื่องคำนวณ CGPA เป็น เปอร์เซ็นต์",
+  "short_name": "เครื่องคำนวณ CGPA เป็นเปอร์เซ็นต์",
+  "description": "ตัวแปลง CGPA เป็นเปอร์เซ็นต์ฟรี: แปลง CGPA จาก 10 (สูตร ×9.5) หรือ GPA จาก 4 เป็นเปอร์เซ็นต์ พร้อมตัวเลือกตัวคูณแบบกำหนดเองสำหรับบอร์ดหรือมหาวิทยาลัยใด ๆ",
+  "id": "/loona-calculators/th/cgpa-to-percentage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona เครื่องคำนวณน้ำหนักสูงสุดหนึ่งครั้ง (1RM)",
+  "short_name": "เครื่องคำนวณน้ำหนักสูงสุดที่ยกได้หนึ่งครั้ง (1RM)",
+  "description": "เครื่องคำนวณน้ำหนักสูงสุดหนึ่งครั้งฟรี: ประมาณ 1RM ของคุณจากน้ำหนักและจำนวนครั้งของเซ็ตด้วยสูตร Epley, Brzycki และ Lombardi พร้อมเปอร์เซ็นต์การฝึก",
+  "id": "/loona-calculators/th/one-rep-max-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

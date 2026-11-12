@@ -1,0 +1,29 @@
+{
+  "name": "Loona เครื่องคำนวณตรีโกณมิติ",
+  "short_name": "เครื่องคำนวณตรีโกณมิติ",
+  "description": "เครื่องคำนวณตรีโกณมิติฟรี: ใส่มุมเป็นองศาหรือเรเดียนเพื่อรับ sin, cos, tan, csc, sec และ cot หรือใช้ sin, cos และ tan ผกผันเพื่อหามุมจากอัตราส่วน มีตารางค่าที่แน่นอนรวมอยู่",
+  "id": "/loona-calculators/th/trigonometry-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

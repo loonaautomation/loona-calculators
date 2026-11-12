@@ -1,0 +1,29 @@
+{
+  "name": "Loona เครื่องตรวจสอบปลั๊กและแรงดันไฟฟ้าในยุโรป",
+  "short_name": "เครื่องมือตรวจสอบปลั๊กและแรงดันไฟฟ้าในยุโรป",
+  "description": "ตัวตรวจสอบปลั๊กและแรงดันไฟฟ้ายุโรปฟรี: เลือกประเทศในยุโรปเพื่อดูประเภทปลั๊ก แรงดันไฟฟ้า และความถี่ และว่าคุณต้องการอะแดปเตอร์หรือตัวแปลงหรือไม่",
+  "id": "/loona-calculators/th/europe-plug-voltage-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona เครื่องคำนวณสินเชื่อบ้านแคนาดา",
+  "short_name": "เครื่องคำนวณสินเชื่อบ้านแคนาดา",
+  "description": "เครื่องคำนวณสินเชื่อบ้านแคนาดาฟรีใน CAD ด้วยการทบต้นทุกครึ่งปีที่ถูกต้อง (j2) การชำระรายเดือน ดอกเบี้ยรวม และการเปรียบเทียบการชำระเกิน",
+  "id": "/loona-calculators/th/canada-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

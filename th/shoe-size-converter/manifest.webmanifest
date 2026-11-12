@@ -1,0 +1,29 @@
+{
+  "name": "Loona ตัวแปลงเบอร์รองเท้า",
+  "short_name": "ตัวแปลงไซซ์รองเท้า",
+  "description": "ตัวแปลงขนาดรองเท้าฟรีสำหรับชายและหญิง: แปลงระหว่างขนาด US, UK และ EU และความยาวเท้าเป็น cm และนิ้ว โดยใช้ตารางการแปลงมาตรฐานพร้อมการจับคู่ที่ใกล้ที่สุด",
+  "id": "/loona-calculators/th/shoe-size-converter/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

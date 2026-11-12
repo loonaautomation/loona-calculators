@@ -1,0 +1,29 @@
+{
+  "name": "Loona เครื่องคำนวณเงินเฟ้อ",
+  "short_name": "เครื่องคำนวณเงินเฟ้อ",
+  "description": "เครื่องคำนวณเงินเฟ้อฟรี: ใส่จำนวนเงิน อัตราเงินเฟ้อ และปีเพื่อดูต้นทุนในอนาคตของสินค้าเดียวกันและว่าเงินของวันนี้จะมีมูลค่าจริงเท่าไร",
+  "id": "/loona-calculators/th/inflation-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

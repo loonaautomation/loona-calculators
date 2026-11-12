@@ -1,0 +1,29 @@
+{
+  "name": "Loona การโยนเหรียญ",
+  "short_name": "การโยนเหรียญ",
+  "description": "การพลิกเหรียญออนไลน์ฟรี: พลิกเหรียญเสมือนครั้งละหนึ่งเหรียญหรือสิบเหรียญ พร้อมจำนวนหัว/ก้อย เปอร์เซ็นต์ สถิติช่วงต่อเนื่อง และโหมดแมตช์ชนะก่อน",
+  "id": "/loona-calculators/th/coin-flip/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

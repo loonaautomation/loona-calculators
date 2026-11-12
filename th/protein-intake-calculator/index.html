@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>เครื่องคำนวณปริมาณโปรตีนที่ควรได้รับ — กรัมต่อวันตามน้ำหนัก กิจกรรม และเป้าหมาย | Loona</title>
+<meta name="description" content="เครื่องคำนวณการบริโภคโปรตีนฟรี: กรัมโปรตีนรายวันจากน้ำหนักตัว ระดับกิจกรรม และเป้าหมายโดยใช้ช่วง g/kg ที่มีหลักฐานรองรับ แตกต่างจากการแบ่งมาโครตามแคลอรี">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/th/protein-intake-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/protein-intake-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/protein-intake-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/protein-intake-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/protein-intake-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/protein-intake-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/protein-intake-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/protein-intake-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/protein-intake-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/protein-intake-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/protein-intake-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/protein-intake-calculator/"><link rel="alternate" hreflang="id" href="https://loonaautomation.github.io/loona-calculators/id/protein-intake-calculator/"><link rel="alternate" hreflang="hi" href="https://loonaautomation.github.io/loona-calculators/hi/protein-intake-calculator/"><link rel="alternate" hreflang="ja" href="https://loonaautomation.github.io/loona-calculators/ja/protein-intake-calculator/"><link rel="alternate" hreflang="ko" href="https://loonaautomation.github.io/loona-calculators/ko/protein-intake-calculator/"><link rel="alternate" hreflang="pl" href="https://loonaautomation.github.io/loona-calculators/pl/protein-intake-calculator/"><link rel="alternate" hreflang="vi" href="https://loonaautomation.github.io/loona-calculators/vi/protein-intake-calculator/"><link rel="alternate" hreflang="th" href="https://loonaautomation.github.io/loona-calculators/th/protein-intake-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/protein-intake-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="เครื่องคำนวณปริมาณโปรตีนที่ควรได้รับ — กรัมต่อวันตามน้ำหนัก กิจกรรม และเป้าหมาย | Loona">
+<meta property="og:description" content="เครื่องคำนวณการบริโภคโปรตีนฟรี: กรัมโปรตีนรายวันจากน้ำหนักตัว ระดับกิจกรรม และเป้าหมายโดยใช้ช่วง g/kg ที่มีหลักฐานรองรับ แตกต่างจากการแบ่งมาโครตามแคลอรี">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/th/protein-intake-calculator/"><meta property="og:locale" content="th_TH">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="เครื่องคำนวณปริมาณโปรตีนที่ควรได้รับ — กรัมต่อวันตามน้ำหนัก กิจกรรม และเป้าหมาย | Loona">
+<meta name="twitter:description" content="เครื่องคำนวณการบริโภคโปรตีนฟรี: กรัมโปรตีนรายวันจากน้ำหนักตัว ระดับกิจกรรม และเป้าหมายโดยใช้ช่วง g/kg ที่มีหลักฐานรองรับ แตกต่างจากการแบ่งมาโครตามแคลอรี">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona เครื่องคำนวณปริมาณโปรตีนที่บริโภค","url":"https://loonaautomation.github.io/loona-calculators/th/protein-intake-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"สิ่งนี้แตกต่างจากเครื่องคำนวณสารอาหารหลักอย่างไร?","acceptedAnswer":{"@type":"Answer","text":"เครื่องคำนวณสารอาหารหลักแบ่งเป้าหมายแคลอรีออกเป็นเปอร์เซ็นต์ของโปรตีน คาร์โบไฮเดรต และไขมัน หน้านี้เริ่มจากน้ำหนักตัวและเป้าหมายโดยใช้ช่วง g/kg — วิธีที่ใช้ในงานวิจัยโภชนาการการกีฬาและการปฏิบัติทางโภชนาการ — ดังนั้นทั้งสองหน้าจึงตอบคำถามจากทิศทางที่แตกต่างกัน"}},{"@type":"Question","name":"ขั้นต่ำอย่างเป็นทางการคือเท่าไร?","acceptedAnswer":{"@type":"Answer","text":"RDA สำหรับผู้ใหญ่คือ 0.8 g ต่อกิโลกรัมของน้ำหนักตัวต่อวัน — เป็นขั้นต่ำเพื่อหลีกเลี่ยงการขาดสารอาหารสำหรับผู้ใหญ่ที่เคลื่อนไหวน้อย ไม่ใช่ค่าที่เหมาะสมที่สุดสำหรับการฝึก การลดน้ำหนัก หรือวัยชรา"}},{"@type":"Question","name":"ทำไมโปรตีนจึงสูงขึ้นเมื่อลดน้ำหนัก?","acceptedAnswer":{"@type":"Answer","text":"ในภาวะขาดแคลอรี โปรตีนที่สูงขึ้น (มัก 1.6–2.4 g/kg) ช่วยรักษากล้ามเนื้อไว้ในขณะที่ไขมันลดลง ซึ่งเป็นเหตุผลว่าทำไมช่วงสำหรับการลดไขมันที่นี่จึงสูงกว่าช่วงสำหรับการรักษาน้ำหนัก"}},{"@type":"Question","name":"โปรตีนมากเกินไปสามารถเป็นอันตรายต่อไตได้หรือไม่?","acceptedAnswer":{"@type":"Answer","text":"ในผู้ใหญ่ที่มีสุขภาพดี ยังไม่พบว่าการบริโภคในช่วงเหล่านี้ทำลายไตที่แข็งแรง แต่ผู้ที่เป็นโรคไตหรือมีภาวะทางการแพทย์อื่นต้องปฏิบัติตามคำแนะนำของแพทย์ ไม่ใช่เครื่องคำนวณ หน้านี้มีไว้เพื่อการศึกษาเท่านั้น"}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/th/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "เครื่องคำนวณปริมาณโปรตีนที่ควรได้รับ",
+      "item": "https://loonaautomation.github.io/loona-calculators/th/protein-intake-calculator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="โลโก้ Loona Automation">
+<div class="brand">Loona <span>เครื่องคำนวณ</span></div>
+<nav>
+<a href="../">หน้าแรก</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">เกี่ยวกับ</a>
+<a href="../contact.html">ติดต่อ</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › สุขภาพ › เครื่องคำนวณปริมาณโปรตีนที่ควรได้รับ</div>
+<h1 class="pagetitle">🥩 เครื่องคำนวณปริมาณโปรตีนที่ควรได้รับ</h1>
+<p class="lead">คำนวณว่าคุณควรกินโปรตีนวันละเท่าใดจากน้ำหนักตัว ระดับกิจกรรม และเป้าหมายของคุณ — โดยใช้ช่วงกรัมต่อกิโลกรัมจากแนวทางโภชนาการ แทนที่จะใช้เปอร์เซ็นต์ของแคลอรี</p>
+<div class="exbox"><strong>คำตอบอย่างรวดเร็ว:</strong> โปรตีนรายวัน = น้ำหนักตัว (kg) × ตัวคูณ g/kg: 0.8 g/kg คือค่าขั้นต่ำ RDA สำหรับผู้ใหญ่ 1.2–1.6 g/kg เหมาะกับคนที่มีกิจกรรมมาก และ 1.6–2.2 g/kg คือช่วงตามหลักฐานสำหรับสร้างกล้ามเนื้อ คนที่มีกิจกรรมมากน้ำหนัก 70 kg ตั้งเป้าประมาณ 84–112 g ต่อวัน</div>
+<div class="toolbox"><form class="calcform" id="prForm">
+<div class="fld"><label for="prW">น้ำหนักตัว (kg)</label><input type="number" id="prW" value="70" min="25" max="400" step="0.1"></div>
+<div class="fld"><label for="prAct">ไลฟ์สไตล์ / เป้าหมาย</label><select id="prAct"><option value="sedentary">เคลื่อนไหวน้อย (ขั้นต่ำตาม RDA)</option><option value="active" selected>การฝึกแบบแอ็กทิฟ / เพื่อสันทนาการ</option><option value="muscle">การสร้างกล้ามเนื้อ</option><option value="fatloss">ลดไขมัน รักษากล้ามเนื้อ</option><option value="endurance">นักกีฬาความอดทน</option><option value="older">ผู้สูงอายุ (60+ รักษากล้ามเนื้อ)</option></select></div>
+<button class="calcbtn" type="submit">คำนวณเป้าหมายโปรตีน</button>
+<div class="calcresult" id="prResult" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>วิธีใช้ Protein Intake Calculator</h2><ol><li>ใส่น้ำหนักตัวของคุณเป็นกิโลกรัม</li><li>เลือกกิจกรรม/ไลฟ์สไตล์และเป้าหมายของคุณ</li><li>อ่านช่วงโปรตีนต่อวันของคุณเป็นกรัม รวมทั้งเป้าหมายที่จุดกึ่งกลาง</li></ol>
+<div class="exbox"><strong>ตัวอย่าง:</strong> 70 kg, วิถีชีวิตที่กระฉับกระเฉง, กำลังสร้างกล้ามเนื้อ: ช่วงคือ 70 × 1.6 ถึง 70 × 2.2 = 112–154 g ของโปรตีนต่อวัน</div>
+<h2>คำถามที่พบบ่อย</h2></section><div class="faq"><h3>สิ่งนี้แตกต่างจากเครื่องคำนวณสารอาหารหลักอย่างไร?</h3><p>เครื่องคำนวณสารอาหารหลักแบ่งเป้าหมายแคลอรีออกเป็นเปอร์เซ็นต์ของโปรตีน คาร์โบไฮเดรต และไขมัน หน้านี้เริ่มจากน้ำหนักตัวและเป้าหมายโดยใช้ช่วง g/kg — วิธีที่ใช้ในงานวิจัยโภชนาการการกีฬาและการปฏิบัติทางโภชนาการ — ดังนั้นทั้งสองหน้าจึงตอบคำถามจากทิศทางที่แตกต่างกัน</p></div><div class="faq"><h3>ขั้นต่ำอย่างเป็นทางการคือเท่าไร?</h3><p>RDA สำหรับผู้ใหญ่คือ 0.8 g ต่อกิโลกรัมของน้ำหนักตัวต่อวัน — เป็นขั้นต่ำเพื่อหลีกเลี่ยงการขาดสารอาหารสำหรับผู้ใหญ่ที่เคลื่อนไหวน้อย ไม่ใช่ค่าที่เหมาะสมที่สุดสำหรับการฝึก การลดน้ำหนัก หรือวัยชรา</p></div><div class="faq"><h3>ทำไมโปรตีนจึงสูงขึ้นเมื่อลดน้ำหนัก?</h3><p>ในภาวะขาดแคลอรี โปรตีนที่สูงขึ้น (มัก 1.6–2.4 g/kg) ช่วยรักษากล้ามเนื้อไว้ในขณะที่ไขมันลดลง ซึ่งเป็นเหตุผลว่าทำไมช่วงสำหรับการลดไขมันที่นี่จึงสูงกว่าช่วงสำหรับการรักษาน้ำหนัก</p></div><div class="faq"><h3>โปรตีนมากเกินไปสามารถเป็นอันตรายต่อไตได้หรือไม่?</h3><p>ในผู้ใหญ่ที่มีสุขภาพดี ยังไม่พบว่าการบริโภคในช่วงเหล่านี้ทำลายไตที่แข็งแรง แต่ผู้ที่เป็นโรคไตหรือมีภาวะทางการแพทย์อื่นต้องปฏิบัติตามคำแนะนำของแพทย์ ไม่ใช่เครื่องคำนวณ หน้านี้มีไว้เพื่อการศึกษาเท่านั้น</p></div>
+<h2 class="sec">เครื่องคำนวณที่เกี่ยวข้อง</h2><div class="grid"><a class="card" href="../bmi-calculator/"><div class="ic">⚖️</div><h3>เครื่องคำนวณดัชนีมวลกาย</h3><p>สุขภาพ</p></a><a class="card" href="../calorie-calculator/"><div class="ic">🍽️</div><h3>เครื่องคำนวณแคลอรี</h3><p>สุขภาพ</p></a><a class="card" href="../macro-calculator/"><div class="ic">🥗</div><h3>เครื่องคำนวณสารอาหารหลัก</h3><p>สุขภาพ</p></a><a class="card" href="../ideal-weight-calculator/"><div class="ic">🎯</div><h3>เครื่องคำนวณน้ำหนักในอุดมคติ</h3><p>สุขภาพ</p></a><a class="card" href="../one-rep-max-calculator/"><div class="ic">🏋️</div><h3>เครื่องคำนวณน้ำหนักสูงสุดที่ยกได้หนึ่งครั้ง</h3><p>สุขภาพ</p></a><a class="card" href="../lean-body-mass-calculator/"><div class="ic">💪</div><h3>เครื่องคำนวณมวลกายไร้ไขมัน</h3><p>สุขภาพ</p></a></div>
+</div>
+<section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>วิธีการทำงาน — สูตร</h2>
+<p><strong>โปรตีน (g/วัน) = น้ำหนัก (kg) × ตัวประกอบ</strong> ตัวประกอบที่ใช้: อยู่ประจำ 0.8 (RDA ของผู้ใหญ่); กระฉับกระเฉง 1.2–1.6; สร้างกล้ามเนื้อ 1.6–2.2 (ช่วงที่ได้รับการสนับสนุนจากจุดยืนของ ISSN และการวิเคราะห์อภิมาน); ลดไขมัน 1.6–2.4; ความทนทาน 1.2–1.6; ผู้สูงอายุ 1.0–1.2 (คำแนะนำ PROT-AGE) หมวดค่าเดียวแสดงเป็นเป้าหมายแบบจุด</p>
+<h3>ตัวอย่างการคำนวณ</h3><div class="exbox"><p><strong>ข้อมูลป้อนเข้า:</strong> 70 kg, กำลังสร้างกล้ามเนื้อ</p><p><strong>ก้าว:</strong> ระดับล่าง: 70 × 1.6 = 112 g ระดับบน: 70 × 2.2 = 154 g จุดกึ่งกลาง = 133 g</p><p><strong>ผลลัพธ์:</strong> <strong>112–154 g ต่อวัน</strong>, จุดกึ่งกลาง 133 g</p></div>
+<p class="resnote"><strong>คำปฏิเสธเรื่องสุขภาพ:</strong> ประมาณการเพื่อการศึกษาเท่านั้น — ไม่ใช่คำแนะนำทางการแพทย์ การวินิจฉัย หรือการรักษา ปรึกษาผู้เชี่ยวชาญด้านสุขภาพที่มีคุณสมบัติเสมอเกี่ยวกับสุขภาพของคุณเองหรือของลูกคุณ</p>
+</section>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">ฝังเครื่องคำนวณนี้บนเว็บไซต์ของคุณ — ฟรี</h2>
+<p style="margin:0 0 12px;line-height:1.6">เพิ่มเครื่องคำนวณนี้ลงในเว็บไซต์หรือบล็อกของคุณเอง — ฟรีทั้งหมด ไม่ต้องสมัครสมาชิก และแสดงเวอร์ชันล่าสุดเสมอ คัดลอกโค้ดด้านล่างแล้ววางลงในหน้าของคุณในตำแหน่งที่ต้องการให้เครื่องคำนวณปรากฏ การคงบรรทัดเครดิตเล็ก ๆ &ldquo;Powered by Loona Automation&rdquo; ไว้ใต้ตัวฝังจะช่วยให้เครื่องมือนี้ยังคงฟรีต่อไป &mdash; แต่คุณจะปรับแต่งหรือลบออกก็ได้ เครื่องมือทำงานได้ทั้งสองแบบ</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/th/protein-intake-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Protein Intake Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;ขับเคลื่อนโดย &lt;a href="https://loonaautomation.github.io/loona-calculators/th/protein-intake-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; ฟรี เครื่องคำนวณปริมาณโปรตีนที่ควรได้รับ&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">คัดลอกโค้ดฝัง</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='คัดลอกโค้ดฝัง';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>เครื่องคำนวณยอดนิยม</h4><ul><li><a href="../age-calculator/">เครื่องคำนวณอายุ</a></li>
+<li><a href="../zakat-calculator/">เครื่องคำนวณซะกาต</a></li>
+<li><a href="../cgpa-calculator/">เครื่องคำนวณ CGPA</a></li>
+<li><a href="../percentage-calculator/">เครื่องคำนวณเปอร์เซ็นต์</a></li>
+<li><a href="../hijri-date-converter/">ตัวแปลงวันที่ฮิจเราะห์</a></li>
+<li><a href="../emi-calculator/">เครื่องคำนวณ EMI และสินเชื่อ</a></li></ul></div>
+<div><h4>เครื่องมือ Loona เพิ่มเติม</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona เครื่องมือบีบอัดรูปภาพ</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona ผู้ช่วย AI</a></li>
+<li><a href="https://loonaautomation.github.io/">เครื่องมือ Loona ทั้งหมด</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">เกี่ยวกับ</a></li>
+<li><a href="../contact.html">ติดต่อ</a></li>
+<li><a href="../privacy-policy.html">นโยบายความเป็นส่วนตัว</a></li>
+<li><a href="../terms.html">ข้อกำหนดการใช้งาน</a></li></ul></div>
+</div>
+<div class="bar">© 2026 เครื่องคำนวณ Loona — <a href="https://loonaautomation.github.io/">Loona Automation</a> โปรเจกต์ เครื่องคำนวณออนไลน์ฟรี ไม่ต้องสมัครสมาชิก
+ติดต่อ: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+var PROTEIN_FACTORS={sedentary:[0.8,0.8],active:[1.2,1.6],muscle:[1.6,2.2],fatloss:[1.6,2.4],endurance:[1.2,1.6],older:[1.0,1.2]};
+function proteinCalc(weightKg,category){
+  var f=PROTEIN_FACTORS[category];
+  if(!f||!(weightKg>0))return null;
+  return {low:weightKg*f[0],high:weightKg*f[1],mid:weightKg*(f[0]+f[1])/2,factors:f};
+}
+/*TESTABLE_END*/
+document.getElementById('prForm').addEventListener('submit',function(e){e.preventDefault();
+ var r=proteinCalc(parseFloat(document.getElementById('prW').value),document.getElementById('prAct').value);
+ var box=document.getElementById('prResult'); box.style.display='block';
+ if(!r){box.innerHTML='<p class="err">โปรดป้อนน้ำหนักที่ถูกต้อง</p>';return;}
+ box.innerHTML='<div class="resbig"><span>เป้าหมายโปรตีนประจำวัน</span><strong>'+Math.round(r.low)+' – '+Math.round(r.high)+' g</strong></div>'
+ +'<table class="restbl"><tr><td>เป้าหมายจุดกึ่งกลาง</td><td><strong>'+Math.round(r.mid)+' ก./วัน</strong></td></tr>'
+ +'<tr><td>ปัจจัยที่ใช้</td><td><strong>'+r.factors[0]+' – '+r.factors[1]+' g/kg</strong></td></tr></table>'
+ +'<p class="resnote">เป็นแนวทางเพื่อการศึกษาเท่านั้น — ภาวะทางการแพทย์ (เช่น โรคไต) ต้องได้รับคำแนะนำเฉพาะบุคคลจากแพทย์</p>';});
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' ติดตั้งแอป';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('ติดตั้งแอปนี้: แตะปุ่มแชร์ แล้วเลือก "เพิ่มไปยังหน้าจอหลัก"');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

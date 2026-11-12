@@ -1,0 +1,29 @@
+{
+  "name": "Loona เครื่องคำนวณการทดสอบไคสแควร์",
+  "short_name": "เครื่องคำนวณการทดสอบไคสแควร์",
+  "description": "เครื่องคำนวณการทดสอบไคสแควร์ฟรี: ใส่ตารางที่สังเกตได้สำหรับการทดสอบความเป็นอิสระ หรือจำนวนที่สังเกตเทียบกับที่คาดหวังสำหรับความพอดีของโมเดล ไคสแควร์ df และค่า p",
+  "id": "/loona-calculators/th/chi-square-test-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

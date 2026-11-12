@@ -1,0 +1,29 @@
+{
+  "name": "Loona ตัวแปลง เซลเซียส เป็น เคลวิน",
+  "short_name": "ตัวแปลงเซลเซียสเป็นเคลวิน",
+  "description": "แปลงเซลเซียสเป็นเคลวินได้ทันที สูตรที่แน่นอน ตารางการแปลง °C เป็น K ฉบับเต็ม และตัวอย่างที่แสดง ฟรี ไม่ต้องสมัครสมาชิก",
+  "id": "/loona-calculators/th/celsius-to-kelvin-converter.html",
+  "start_url": "./celsius-to-kelvin-converter.html",
+  "scope": "./celsius-to-kelvin-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

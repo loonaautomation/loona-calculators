@@ -1,0 +1,29 @@
+{
+  "name": "Loona วันทำงานในไซปรัส",
+  "short_name": "วันทำงานในไซปรัส",
+  "description": "เครื่องคำนวณวันทำงานสำหรับไซปรัส: นับวันทำการระหว่างสองวันที่ โดยหักวันหยุดสุดสัปดาห์และวันหยุดราชการทั้งหมด 14 วันของปี 2026 ออก ฟรี เครื่องมือออนไลน์",
+  "id": "/loona-calculators/th/working-days-in-cyprus.html",
+  "start_url": "./working-days-in-cyprus.html",
+  "scope": "./working-days-in-cyprus.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

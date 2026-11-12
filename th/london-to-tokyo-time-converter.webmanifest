@@ -1,0 +1,29 @@
+{
+  "name": "Loona ตัวแปลงเวลา ลอนดอน เป็น โตเกียว",
+  "short_name": "ตัวแปลงเวลา ลอนดอน เป็น โตเกียว",
+  "description": "แปลงเวลาลอนดอนเป็นเวลาโตเกียว โตเกียวเร็วกว่าลอนดอน 9 ชั่วโมงในเดือนมกราคม และเร็วกว่า 8 ชั่วโมงในเดือนกรกฎาคม พร้อมวันที่เวลาออมแสง ตาราง 24 ชั่วโมง และช่วงเวลาประชุมที่ดีที่สุด มีตัวแปลงแบบเรียลไทม์รวมอยู่ด้วย",
+  "id": "/loona-calculators/th/london-to-tokyo-time-converter.html",
+  "start_url": "./london-to-tokyo-time-converter.html",
+  "scope": "./london-to-tokyo-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

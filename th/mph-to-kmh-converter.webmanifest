@@ -1,0 +1,29 @@
+{
+  "name": "Loona ตัวแปลง mph เป็น Km/h",
+  "short_name": "ตัวแปลง Mph เป็น Km/h",
+  "description": "แปลงไมล์ต่อชั่วโมงเป็นกิโลเมตรต่อชั่วโมงได้ทันที สูตรที่แน่นอน ตารางการแปลง mph เป็น km/h ฉบับเต็ม และตัวอย่างที่แสดง ฟรี ไม่ต้องสมัครสมาชิก",
+  "id": "/loona-calculators/th/mph-to-kmh-converter.html",
+  "start_url": "./mph-to-kmh-converter.html",
+  "scope": "./mph-to-kmh-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

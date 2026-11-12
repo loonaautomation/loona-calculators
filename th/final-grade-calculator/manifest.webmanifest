@@ -1,0 +1,29 @@
+{
+  "name": "Loona เครื่องคำนวณเกรดสุดท้าย",
+  "short_name": "เครื่องคำนวณเกรดสุดท้าย",
+  "description": "เครื่องคำนวณเกรดสุดท้ายฟรี: ใส่เกรดปัจจุบัน น้ำหนักของการสอบปลายภาค และเกรดเป้าหมายของคุณเพื่อดูอย่างชัดเจนว่าคุณต้องการคะแนนเท่าไรในรอบสุดท้าย",
+  "id": "/loona-calculators/th/final-grade-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

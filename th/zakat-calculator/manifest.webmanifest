@@ -1,0 +1,29 @@
+{
+  "name": "Loona เครื่องคำนวณซะกาต",
+  "short_name": "เครื่องคำนวณซะกาต",
+  "description": "เครื่องคำนวณซะกาตฟรี: เงินสด ยอดเงินในธนาคาร ทองคำ เงิน สินค้าธุรกิจ และหนี้ — ตรวจสอบ nisab และคำนวณซะกาต 2.5% ของคุณในรูปีทันที ง่ายและเป็นส่วนตัว",
+  "id": "/loona-calculators/th/zakat-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

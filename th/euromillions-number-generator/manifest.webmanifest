@@ -1,0 +1,29 @@
+{
+  "name": "Loona ตัวสร้างเลข EuroMillions",
+  "short_name": "เครื่องสร้างหมายเลข EuroMillions",
+  "description": "เครื่องสร้างตัวเลข EuroMillions ฟรี: สุ่มตัวเลขหลัก 5 ตัวจาก 50 บวก Lucky Stars 2 ดวงจาก 12 พร้อมสูงสุด 5 บรรทัดในครั้งเดียว การสุ่มที่ปลอดภัย ไม่ต้องสมัครสมาชิก",
+  "id": "/loona-calculators/th/euromillions-number-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

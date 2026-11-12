@@ -1,0 +1,29 @@
+{
+  "name": "Loona ตัวแปลง ตารางกิโลเมตร เป็น เอเคอร์",
+  "short_name": "ตารางกิโลเมตร เป็น เอเคอร์",
+  "description": "แปลงตารางกิโลเมตรเป็นเอเคอร์ได้ทันที สูตรที่แน่นอน ตารางการแปลง km² เป็น acre ฉบับเต็ม ตัวอย่างที่แสดง และคำถามที่พบบ่อย ฟรี ไม่ต้องสมัครสมาชิก",
+  "id": "/loona-calculators/th/square-kilometers-to-acres-converter.html",
+  "start_url": "./square-kilometers-to-acres-converter.html",
+  "scope": "./square-kilometers-to-acres-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona เครื่องคำนวณเลขสัปดาห์",
+  "short_name": "เครื่องคำนวณเลขสัปดาห์",
+  "description": "เครื่องคำนวณหมายเลขสัปดาห์ฟรี: เลือกวันที่ใด ๆ เพื่อรับหมายเลขสัปดาห์ ISO ปีสัปดาห์ ISO วันของปี วันที่เหลือในปี และไตรมาสปฏิทิน",
+  "id": "/loona-calculators/th/week-number-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

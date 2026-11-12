@@ -1,0 +1,29 @@
+{
+  "name": "Loona เครื่องทอยลูกเต๋า",
+  "short_name": "เครื่องทอยลูกเต๋า",
+  "description": "ลูกเต๋าออนไลน์ฟรี: ทอยลูกเต๋า 1 ถึง 6 ลูก — d6 มาตรฐาน d20 และลูกเต๋าหลายหน้าอื่น ๆ — พร้อมลูกเต๋าภาพ ยอดรวม ค่าเฉลี่ย และประวัติการทอย",
+  "id": "/loona-calculators/th/dice-roller/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

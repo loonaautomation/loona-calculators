@@ -1,0 +1,29 @@
+{
+  "name": "Loona รอบต่อนาที เป็น เมกะเฮิรตซ์",
+  "short_name": "รอบต่อนาทีเป็น",
+  "description": "แปลงรอบต่อนาทีเป็นเมกะเฮิรตซ์ได้ทันที สูตรที่แน่นอน ตารางการแปลง rpm เป็น MHz ฉบับเต็ม ตัวอย่างที่แสดง และคำถามที่พบบ่อย ฟรี ไม่ต้องสมัครสมาชิก",
+  "id": "/loona-calculators/th/rpm-to-megahertz-converter.html",
+  "start_url": "./rpm-to-megahertz-converter.html",
+  "scope": "./rpm-to-megahertz-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

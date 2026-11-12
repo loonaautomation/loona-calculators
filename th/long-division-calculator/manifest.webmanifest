@@ -1,0 +1,29 @@
+{
+  "name": "Loona เครื่องคำนวณการหารยาว",
+  "short_name": "เครื่องคำนวณการหารยาว",
+  "description": "เครื่องคำนวณการหารยาวฟรีที่แสดงทุกขั้นตอน: หารตัวเลขโดยมีเศษหรือทศนิยมและดูวิธีทำแบบเขียนครบถ้วน ทีละหลัก สำหรับนักเรียนและครู",
+  "id": "/loona-calculators/th/long-division-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

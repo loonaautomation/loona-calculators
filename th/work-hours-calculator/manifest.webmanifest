@@ -1,0 +1,29 @@
+{
+  "name": "Loona เครื่องคำนวณชั่วโมงการทำงาน",
+  "short_name": "เครื่องคำนวณชั่วโมงทำงาน",
+  "description": "เครื่องคำนวณชั่วโมงทำงานฟรี: เริ่ม จบ และพักที่ไม่ได้รับค่าจ้างให้ชั่วโมงสุทธิต่อวันและต่อสัปดาห์ — พร้อมค่าจ้างรายวันและรายสัปดาห์เมื่อคุณเพิ่มอัตรารายชั่วโมง รองรับกะกลางคืน",
+  "id": "/loona-calculators/th/work-hours-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

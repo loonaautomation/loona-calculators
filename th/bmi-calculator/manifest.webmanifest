@@ -1,0 +1,29 @@
+{
+  "name": "Loona เครื่องคำนวณดัชนีมวลกาย",
+  "short_name": "เครื่องคำนวณดัชนีมวลกาย",
+  "description": "เครื่องคำนวณ BMI ฟรี: ใส่น้ำหนักและส่วนสูงของคุณ (cm หรือฟุต/นิ้ว) เพื่อตรวจสอบดัชนีมวลกายของคุณ หมวดหมู่ของคุณ และช่วงน้ำหนักที่ดีต่อสุขภาพสำหรับส่วนสูงของคุณ",
+  "id": "/loona-calculators/th/bmi-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

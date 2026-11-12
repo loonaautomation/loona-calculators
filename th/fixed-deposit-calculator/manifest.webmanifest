@@ -1,0 +1,29 @@
+{
+  "name": "Loona เครื่องคำนวณเงินฝากประจำ",
+  "short_name": "เครื่องคำนวณเงินฝากประจำ",
+  "description": "เครื่องคำนวณเงินฝากประจำ (FD) ฟรี: จำนวนเงินฝาก อัตราดอกเบี้ย ระยะเวลา และความถี่การทบต้น — รับมูลค่าเมื่อครบกำหนดและดอกเบี้ยรวมที่ได้รับ",
+  "id": "/loona-calculators/th/fixed-deposit-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

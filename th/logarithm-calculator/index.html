@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>เครื่องคำนวณลอการิทึม — Log, Ln และ Antilog ทุกฐาน | Loona Calculators</title>
+<meta name="description" content="เครื่องคำนวณลอการิทึมฟรี: หาล็อกในฐานใด ๆ พร้อมล็อกสามัญ (ฐาน 10) ล็อกธรรมชาติ (ln) และล็อกฐานสอง (ฐาน 2) โดยแต่ละค่าตรวจสอบด้วยแอนติล็อก อธิบายสูตรเปลี่ยนฐาน">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/th/logarithm-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/logarithm-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/logarithm-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/logarithm-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/logarithm-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/logarithm-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/logarithm-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/logarithm-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/logarithm-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/logarithm-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/logarithm-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/logarithm-calculator/"><link rel="alternate" hreflang="id" href="https://loonaautomation.github.io/loona-calculators/id/logarithm-calculator/"><link rel="alternate" hreflang="hi" href="https://loonaautomation.github.io/loona-calculators/hi/logarithm-calculator/"><link rel="alternate" hreflang="ja" href="https://loonaautomation.github.io/loona-calculators/ja/logarithm-calculator/"><link rel="alternate" hreflang="ko" href="https://loonaautomation.github.io/loona-calculators/ko/logarithm-calculator/"><link rel="alternate" hreflang="pl" href="https://loonaautomation.github.io/loona-calculators/pl/logarithm-calculator/"><link rel="alternate" hreflang="vi" href="https://loonaautomation.github.io/loona-calculators/vi/logarithm-calculator/"><link rel="alternate" hreflang="th" href="https://loonaautomation.github.io/loona-calculators/th/logarithm-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/logarithm-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="เครื่องคำนวณลอการิทึม — Log, Ln และ Antilog ทุกฐาน | Loona Calculators">
+<meta property="og:description" content="เครื่องคำนวณลอการิทึมฟรี: หาล็อกในฐานใด ๆ พร้อมล็อกสามัญ (ฐาน 10) ล็อกธรรมชาติ (ln) และล็อกฐานสอง (ฐาน 2) โดยแต่ละค่าตรวจสอบด้วยแอนติล็อก อธิบายสูตรเปลี่ยนฐาน">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/th/logarithm-calculator/"><meta property="og:locale" content="th_TH">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="เครื่องคำนวณลอการิทึม — Log, Ln และ Antilog ทุกฐาน | Loona Calculators">
+<meta name="twitter:description" content="เครื่องคำนวณลอการิทึมฟรี: หาล็อกในฐานใด ๆ พร้อมล็อกสามัญ (ฐาน 10) ล็อกธรรมชาติ (ln) และล็อกฐานสอง (ฐาน 2) โดยแต่ละค่าตรวจสอบด้วยแอนติล็อก อธิบายสูตรเปลี่ยนฐาน">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona เครื่องคำนวณลอการิทึม","url":"https://loonaautomation.github.io/loona-calculators/th/logarithm-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"ลอการิทึมคืออะไร อธิบายง่าย ๆ?","acceptedAnswer":{"@type":"Answer","text":"ลอการิทึมตอบคำถามที่ว่า: \"ฉันต้องยกกำลังฐานด้วยเลขชี้กำลังเท่าใดจึงจะได้ตัวเลขนี้\" log10(1000) = 3 เพราะ 10 ที่ยกกำลัง 3 จะได้ 1000 มันเป็นสิ่งที่ตรงกันข้าม (ผกผัน) ของเลขยกกำลัง เช่นเดียวกับการหารที่เป็นสิ่งที่ตรงกันข้ามของการคูณ"}},{"@type":"Question","name":"log และ ln แตกต่างกันอย่างไร?","acceptedAnswer":{"@type":"Answer","text":"\"log\" ในเครื่องคำนวณส่วนใหญ่หมายถึงฐาน 10 — ลอการิทึมสามัญ \"ln\" หมายถึงฐาน e (e ≈ 2.71828) — ลอการิทึมธรรมชาติ ซึ่งใช้กันทั่วทั้งวิทยาศาสตร์และการเงิน เครื่องคำนวณนี้ให้คุณทั้งสองแบบ บวกฐาน 2 (ลอการิทึมฐานสองที่ใช้ในงานคอมพิวเตอร์) สำหรับทุกจำนวนที่คุณป้อน"}},{"@type":"Question","name":"ทำไมฉันจึงหาลอการิทึมของ 0 หรือจำนวนลบไม่ได้?","acceptedAnswer":{"@type":"Answer","text":"เพราะไม่มีเลขยกกำลังใดของฐานบวกที่สามารถให้ผลเป็น 0 หรือค่าลบได้เลย: 10 ยกกำลังใด ๆ จะเป็นบวกเสมอ ดังนั้นสำหรับจำนวนจริง ลอการิทึมของ 0 หรือจำนวนลบจึงไม่นิยาม และเครื่องคำนวณจะบอกคุณตามนั้นแทนที่จะแสดงคำตอบที่สร้างขึ้นมาเอง"}}]}</script>
+
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/th/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "เครื่องคำนวณลอการิทึม",
+      "item": "https://loonaautomation.github.io/loona-calculators/th/logarithm-calculator/"
+    }
+  ]
+}</script>
+
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="โลโก้ Loona Automation">
+<div class="brand">Loona <span>เครื่องคำนวณ</span></div>
+<nav>
+<a href="../">หน้าแรก</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">เกี่ยวกับ</a>
+<a href="../contact.html">ติดต่อ</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › คณิตศาสตร์ › เครื่องคำนวณลอการิทึม</div>
+<h1 class="pagetitle">log เครื่องคำนวณลอการิทึม</h1>
+<p class="lead">หาลอการิทึมของจำนวนใด ๆ ในฐานใดก็ได้ — และรับล็อกสามัญ ล็อกธรรมชาติ (ln) และล็อกฐานสองควบคู่กัน โดยแต่ละค่าตรวจสอบโดยการยกฐานกลับไปที่คำตอบ (แอนติล็อก)</p>
+<div class="toolbox">
+<style>
+.qbases{display:flex;gap:8px;flex-wrap:wrap;margin:-4px 0 13px}
+.qbases button{padding:7px 13px;font-size:13.5px;font-weight:700;border:1.5px solid var(--line);border-radius:16px;background:#fff;cursor:pointer;color:var(--teal)}
+.qbases button:hover{border-color:var(--gold);background:#fdfaf1}
+</style>
+<form class="calcform" id="logForm">
+<div class="fld"><label for="logX">จำนวน (x)</label><input type="number" step="any" id="logX" value="1000"></div>
+<div class="fld"><label for="logB">ฐาน (b)</label><input type="number" step="any" id="logB" value="10"></div>
+<div class="qbases"><button type="button" data-base="10">ฐาน 10</button><button type="button" data-base="2">ฐาน 2</button><button type="button" data-base="2.718281828459045">ฐาน e (ล็อกธรรมชาติ)</button></div>
+<div class="fld"><label for="logY">เลขชี้กำลังแอนติล็อก (ไม่บังคับ) — คำนวณ b<sup>y</sup></label><input type="number" step="any" id="logY" placeholder="ไม่บังคับ เช่น 3"></div>
+<button class="calcbtn" type="submit">คำนวณ</button>
+</form>
+<div class="calcresult" id="logRes" style="display:none"></div>
+</div>
+<section class="txt"><h2>วิธีใช้ Logarithm Calculator</h2><ol><li>ใส่ตัวเลข x ที่คุณต้องการลอการิทึม ต้องมากกว่า 0</li><li>ใส่ฐาน b — หรือแตะฐาน 10 ฐาน 2 หรือฐาน e ฐานต้องมากกว่า 0 และไม่เท่ากับ 1</li><li>กดคำนวณ คุณจะได้ค่าลอการิทึมในฐานของคุณ รวมทั้งลอการิทึมสามัญ (ฐาน 10) ลอการิทึมธรรมชาติ (ฐาน e) และลอการิทึมฐานสอง (ฐาน 2) และการตรวจแอนติลอการิทึมที่ยกฐานกลับไปหาคำตอบของคุณ</li></ol>
+<div class="exbox"><strong>ตัวอย่าง:</strong> log<sub>2</sub>(32) = 5 เพราะ 2<sup>5</sup> = 32 และ log<sub>10</sub>(1000) = 3 เพราะ 10<sup>3</sup> = 1000.</div>
+<h2>คำถามที่พบบ่อย</h2></section><div class="faq"><h3>ลอการิทึมคืออะไร อธิบายง่าย ๆ?</h3><p>ลอการิทึมตอบคำถามที่ว่า: "ฉันต้องยกกำลังฐานด้วยเลขชี้กำลังเท่าใดจึงจะได้ตัวเลขนี้" log<sub>10</sub>(1000) = 3 เพราะ 10 ยกกำลัง 3 คือ 1000 มันเป็นค่าตรงข้าม (ผกผัน) ของการยกกำลัง เช่นเดียวกับการหารที่เป็นค่าตรงข้ามของการคูณ</p></div><div class="faq"><h3>log และ ln แตกต่างกันอย่างไร?</h3><p>"log" ในเครื่องคำนวณส่วนใหญ่หมายถึงฐาน 10 — ลอการิทึมสามัญ "ln" หมายถึงฐาน e (e ≈ 2.71828) — ลอการิทึมธรรมชาติ ซึ่งใช้กันทั่วทั้งวิทยาศาสตร์และการเงิน เครื่องคำนวณนี้ให้คุณทั้งสองแบบ บวกฐาน 2 (ลอการิทึมฐานสองที่ใช้ในงานคอมพิวเตอร์) สำหรับทุกจำนวนที่คุณป้อน</p></div><div class="faq"><h3>ทำไมฉันจึงหาลอการิทึมของ 0 หรือจำนวนลบไม่ได้?</h3><p>เพราะไม่มีเลขยกกำลังใดของฐานบวกที่สามารถให้ผลเป็น 0 หรือค่าลบได้เลย: 10 ยกกำลังใด ๆ จะเป็นบวกเสมอ ดังนั้นสำหรับจำนวนจริง ลอการิทึมของ 0 หรือจำนวนลบจึงไม่นิยาม และเครื่องคำนวณจะบอกคุณตามนั้นแทนที่จะแสดงคำตอบที่สร้างขึ้นมาเอง</p></div>
+<h2 class="sec">เครื่องคำนวณที่เกี่ยวข้อง</h2><div class="grid"><a class="card" href="../exponent-calculator/"><div class="ic">x²</div><h3>เครื่องคำนวณเลขชี้กำลัง</h3><p>คณิตศาสตร์</p></a><a class="card" href="../square-root-calculator/"><div class="ic">√</div><h3>เครื่องคำนวณรากที่สอง</h3><p>คณิตศาสตร์</p></a><a class="card" href="../scientific-calculator/"><div class="ic">🧮</div><h3>เครื่องคำนวณวิทยาศาสตร์</h3><p>คณิตศาสตร์</p></a><a class="card" href="../percentage-calculator/"><div class="ic">％</div><h3>เครื่องคำนวณเปอร์เซ็นต์</h3><p>คณิตศาสตร์</p></a><a class="card" href="../statistics-calculator/"><div class="ic">📉</div><h3>เครื่องคำนวณสถิติ</h3><p>คณิตศาสตร์</p></a></div>
+</div>
+<section class="txt"><h2>วิธีการทำงาน &mdash; สูตร</h2>
+<p><strong>คำนิยาม:</strong> log<sub>b</sub>(x) = y ก็ต่อเมื่อ b<sup>y</sup> = x ลอการิทึมและเลขยกกำลังเป็นสองด้านของข้อเท็จจริงเดียวกัน</p>
+<p><strong>การเปลี่ยนฐาน:</strong> เครื่องคำนวณส่วนใหญ่มีเพียงปุ่ม log (ฐาน 10) และ ln (ฐาน e) หากต้องการหาลอการิทึมในฐานอื่น ให้หาร</p>
+<p><strong>log<sub>b</sub>(x) = ln(x) ÷ ln(b) = log<sub>10</sub>(x) ÷ log<sub>10</sub>(b)</strong></p>
+<p>กฎการเปลี่ยนฐานนั้นคือสิ่งที่หน้านี้ใช้ภายใน ดังนั้นคำตอบที่คุณได้รับสำหรับฐาน b จะเป็นคำตอบเดียวกับที่คุณจะได้ทีละขั้นตอนด้วยมือ</p>
+<p><strong>แอนติล็อก:</strong> แอนติลอการิทึมของ y ในฐาน b คือ b อย่างง่าย<sup>y</sup> — มันย้อนกลับลอการิทึม หาก log<sub>10</sub>(1000) = 3 แล้วแอนติลอการิทึมของ 3 คือ 10<sup>3</sup> = 1000 ผลลัพธ์ทุกอย่างในหน้านี้ได้รับการตรวจสอบด้วยวิธีนี้ก่อนที่คุณจะเห็น</p>
+<h3>ตัวอย่างการคำนวณ</h3>
+<div class="exbox"><strong>ตัวอย่าง:</strong> หาลอการิทึม<sub>2</sub>(32) โดยการเปลี่ยนฐาน ln(32) ≈ 3.4657 และ ln(2) ≈ 0.6931 หาร: 3.4657 ÷ 0.6931 = <strong>5</strong>. ตรวจสอบด้วยแอนติลอการิทึม: 2<sup>5</sup> = 32 ✓</div>
+<h3>คำถามที่พบบ่อย</h3></section>
+<div class="faq"><h3>ลอการิทึมของ 1 ในฐานใด ๆ คือเท่าไร?</h3><p>เป็น 0 เสมอ เพราะฐานใด ๆ ยกกำลัง 0 จะเท่ากับ 1: b<sup>0</sup> = 1 ในทำนองเดียวกัน log<sub>b</sub>(b) เป็น 1 เสมอ เพราะ b<sup>1</sup> = b.</p></div>
+<div class="faq"><h3>ทำไมฐานจึงต้องไม่เป็น 1?</h3><p>เพราะ 1 ยกกำลังใด ๆ จะได้ 1 เสมอ ดังนั้นคำถาม "ต้องยกกำลัง 1 ด้วยเลขใดจึงจะได้ 100?" จึงไม่มีคำตอบเลย — และสำหรับตัวเลข 1 เอง มันจะมีคำตอบมากมายไม่สิ้นสุด ฐาน 1 จึงถูกยกเว้น เช่นเดียวกับฐาน 0 และฐานลบสำหรับงานจำนวนจริง</p></div>
+<div class="faq"><h3>ลอการิทึมใช้ในชีวิตจริงที่ใดบ้าง?</h3><p>ทุกที่ที่ปริมาณเติบโตด้วยการคูณ: ความรุนแรงของแผ่นดินไหว (มาตราริกเตอร์) ความดังของเสียง (เดซิเบล) ความเป็นกรด (pH) ดอกเบี้ยทบต้นและการคำนวณครึ่งชีวิต และลอการิทึมฐานสองในคอมพิวเตอร์ (ชุดข้อมูลต้องการกี่บิต หรือแบ่งครึ่งกี่ครั้ง)</p></div>
+
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">ฝังเครื่องคำนวณนี้บนเว็บไซต์ของคุณ — ฟรี</h2>
+<p style="margin:0 0 12px;line-height:1.6">เพิ่มเครื่องคำนวณนี้ลงในเว็บไซต์หรือบล็อกของคุณเอง — ฟรีทั้งหมด ไม่ต้องสมัครสมาชิก และแสดงเวอร์ชันล่าสุดเสมอ คัดลอกโค้ดด้านล่างแล้ววางลงในหน้าของคุณในตำแหน่งที่ต้องการให้เครื่องคำนวณปรากฏ การคงบรรทัดเครดิตเล็ก ๆ &ldquo;Powered by Loona Automation&rdquo; ไว้ใต้ตัวฝังจะช่วยให้เครื่องมือนี้ยังคงฟรีต่อไป &mdash; แต่คุณจะปรับแต่งหรือลบออกก็ได้ เครื่องมือทำงานได้ทั้งสองแบบ</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/th/logarithm-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Logarithm Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;ขับเคลื่อนโดย &lt;a href="https://loonaautomation.github.io/loona-calculators/th/logarithm-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; ฟรี เครื่องคำนวณลอการิทึม&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">คัดลอกโค้ดฝัง</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='คัดลอกโค้ดฝัง';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>เครื่องคำนวณยอดนิยม</h4><ul><li><a href="../age-calculator/">เครื่องคำนวณอายุ</a></li>
+<li><a href="../zakat-calculator/">เครื่องคำนวณซะกาต</a></li>
+<li><a href="../cgpa-calculator/">เครื่องคำนวณ CGPA</a></li>
+<li><a href="../percentage-calculator/">เครื่องคำนวณเปอร์เซ็นต์</a></li>
+<li><a href="../hijri-date-converter/">ตัวแปลงวันที่ฮิจเราะห์</a></li>
+<li><a href="../emi-calculator/">เครื่องคำนวณ EMI และสินเชื่อ</a></li></ul></div>
+<div><h4>เครื่องมือ Loona เพิ่มเติม</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona เครื่องมือบีบอัดรูปภาพ</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona ผู้ช่วย AI</a></li>
+<li><a href="https://loonaautomation.github.io/">เครื่องมือ Loona ทั้งหมด</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">เกี่ยวกับ</a></li>
+<li><a href="../contact.html">ติดต่อ</a></li>
+<li><a href="../privacy-policy.html">นโยบายความเป็นส่วนตัว</a></li>
+<li><a href="../terms.html">ข้อกำหนดการใช้งาน</a></li></ul></div>
+</div>
+<div class="bar">© 2026 เครื่องคำนวณ Loona — <a href="https://loonaautomation.github.io/">Loona Automation</a> โปรเจกต์ เครื่องคำนวณออนไลน์ฟรี ไม่ต้องสมัครสมาชิก
+ติดต่อ: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+/* Logarithm Calculator — pure logic */
+function calcLog(x,b){
+  if(!(x>0))throw new Error("ตัวเลข (x) ต้องมากกว่า 0 — ลอการิทึมของศูนย์หรือจำนวนลบไม่ได้ถูกนิยามสำหรับจำนวนจริง");
+  if(!(b>0)||b===1)throw new Error("ฐานต้องมากกว่า 0 และไม่เท่ากับ 1");
+  return {logb:Math.log(x)/Math.log(b),log10:Math.log10(x),ln:Math.log(x),log2:Math.log2(x)};
+}
+function antilogCalc(b,y){
+  if(!(b>0)||b===1)throw new Error("ฐานต้องมากกว่า 0 และไม่เท่ากับ 1");
+  return Math.pow(b,y);
+}
+function flog(n){
+  if(Math.abs(n)<1e-12)n=0;
+  return String(parseFloat(n.toPrecision(12))).replace(/-/g,"−");
+}
+if(typeof module!=="undefined"&&module.exports){module.exports={calcLog:calcLog,antilogCalc:antilogCalc};}
+
+/* ---------- Browser wiring ---------- */
+if(typeof document!=="undefined"){
+  document.addEventListener("DOMContentLoaded",function(){
+    var form=document.getElementById("logForm");
+    if(!form)return;
+    var xEl=document.getElementById("logX"),bEl=document.getElementById("logB"),yEl=document.getElementById("logY"),res=document.getElementById("logRes");
+    document.querySelectorAll("[data-base]").forEach(function(btn){
+      btn.addEventListener("click",function(){bEl.value=btn.getAttribute("data-base");});
+    });
+    form.addEventListener("submit",function(e){
+      e.preventDefault();
+      var x=parseFloat(xEl.value),b=parseFloat(bEl.value);
+      res.style.display="block";
+      if(isNaN(x)||isNaN(b)){res.innerHTML='<p class="err">โปรดป้อนตัวเลขและฐาน</p>';return;}
+      try{
+        var r=calcLog(x,b);
+        var h='<div class="resbig"><span>log<sub>'+flog(b)+'</sub>('+flog(x)+')</span><strong>'+flog(r.logb)+'</strong></div>';
+        h+='<table class="restbl">';
+        h+='<tr><td>ล็อกฐานของคุณ — log<sub>'+flog(b)+'</sub>('+flog(x)+')</td><td><strong>'+flog(r.logb)+'</strong></td></tr>';
+        h+='<tr><td>ล็อกสามัญ — log<sub>10</sub>('+flog(x)+')</td><td>'+flog(r.log10)+'</td></tr>';
+        h+='<tr><td>ล็อกธรรมชาติ — ln('+flog(x)+')</td><td>'+flog(r.ln)+'</td></tr>';
+        h+='<tr><td>ล็อกฐานสอง — log<sub>2</sub>('+flog(x)+')</td><td>'+flog(r.log2)+'</td></tr>';
+        h+='</table>';
+        h+='<p class="resnote">ตรวจสอบ (แอนติล็อก): '+flog(b)+'<sup>'+flog(r.logb)+'</sup> = '+flog(Math.pow(b,r.logb))+' — กลับไปยังตัวเลขเริ่มต้นของคุณ ✓</p>';
+        var y=parseFloat(yEl.value);
+        if(!isNaN(y)){
+          h+='<p class="resnote">Antilog: '+flog(b)+'<sup>'+flog(y)+'</sup> = <strong>'+flog(antilogCalc(b,y))+'</strong></p>';
+        }
+        res.innerHTML=h;
+      }catch(err){res.innerHTML='<p class="err">'+err.message+'</p>';}
+    });
+  });
+}
+</script>
+
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' ติดตั้งแอป';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('ติดตั้งแอปนี้: แตะปุ่มแชร์ แล้วเลือก "เพิ่มไปยังหน้าจอหลัก"');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body></html>

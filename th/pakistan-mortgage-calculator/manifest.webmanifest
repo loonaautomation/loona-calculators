@@ -1,0 +1,29 @@
+{
+  "name": "Loona เครื่องคำนวณสินเชื่อบ้านปากีสถาน",
+  "short_name": "เครื่องคำนวณสินเชื่อบ้านปากีสถาน",
+  "description": "เครื่องคำนวณการเงินบ้านปากีสถานฟรีในรูปี: งวดรายเดือนบนยอดคงเหลือที่ลดลง มาร์กอัปรวม และวันปลอดหนี้สำหรับราคาอสังหาริมทรัพย์ เงินมัดจำ อัตรา และระยะเวลาใด ๆ",
+  "id": "/loona-calculators/th/pakistan-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

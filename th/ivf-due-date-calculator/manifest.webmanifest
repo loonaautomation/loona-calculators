@@ -1,0 +1,29 @@
+{
+  "name": "Loona เครื่องคำนวณวันครบกำหนดคลอด IVF",
+  "short_name": "เครื่องคำนวณวันครบกำหนดคลอด IVF",
+  "description": "เครื่องคำนวณวันครบกำหนด IVF ฟรี: ใส่วันย้ายตัวอ่อนและอายุตัวอ่อนของคุณ (วันที่ 3 หรือวันที่ 5) เพื่อรับวันครบกำหนดโดยประมาณและอายุครรภ์ปัจจุบันของคุณ",
+  "id": "/loona-calculators/th/ivf-due-date-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

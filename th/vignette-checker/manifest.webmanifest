@@ -1,0 +1,29 @@
+{
+  "name": "Loona เครื่องตรวจสติกเกอร์ทางด่วน",
+  "short_name": "เครื่องตรวจสติกเกอร์ทางด่วน",
+  "description": "ตัวตรวจสอบสติกเกอร์ทางด่วนฟรี: เลือกประเทศในยุโรปบนเส้นทางการขับของคุณเพื่อดูว่าประเทศใดต้องการสติกเกอร์ทางด่วน ประเทศใดเก็บค่าผ่านทาง และประเทศใดฟรีสำหรับรถยนต์",
+  "id": "/loona-calculators/th/vignette-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

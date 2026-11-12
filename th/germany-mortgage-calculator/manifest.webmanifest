@@ -1,0 +1,29 @@
+{
+  "name": "Loona เครื่องคำนวณสินเชื่อบ้านเยอรมนี",
+  "short_name": "เครื่องคำนวณสินเชื่อบ้านเยอรมนี",
+  "description": "เครื่องคำนวณสินเชื่อบ้านเยอรมัน (Baufinanzierung) ฟรีในยูโร: เงินรายปีรายเดือนจากอัตราดอกเบี้ยและ Tilgung เริ่มต้น หนี้คงเหลือหลังระยะเวลาคงที่",
+  "id": "/loona-calculators/th/germany-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

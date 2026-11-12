@@ -1,0 +1,29 @@
+{
+  "name": "Loona เครื่องคำนวณสินเชื่อบ้าน",
+  "short_name": "เครื่องคำนวณสินเชื่อบ้าน",
+  "description": "เครื่องคำนวณสินเชื่อบ้านฟรี: ราคาบ้าน เงินดาวน์ อัตราดอกเบี้ย และระยะเวลา — รับจำนวนสินเชื่อ การชำระรายเดือน ดอกเบี้ยรวม และต้นทุนรวมของบ้านของคุณ",
+  "id": "/loona-calculators/th/mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

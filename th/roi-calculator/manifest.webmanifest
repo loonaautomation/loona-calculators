@@ -1,0 +1,29 @@
+{
+  "name": "Loona เครื่องคำนวณ ROI",
+  "short_name": "เครื่องคำนวณผลตอบแทนจากการลงทุน",
+  "description": "เครื่องคำนวณ ROI ฟรี: ใส่จำนวนเงินที่ลงทุน จำนวนเงินที่ได้รับคืน และปีที่ถือเพื่อรับเปอร์เซ็นต์ ROI รวมและผลตอบแทนรายปีสำหรับการลงทุนใด ๆ",
+  "id": "/loona-calculators/th/roi-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

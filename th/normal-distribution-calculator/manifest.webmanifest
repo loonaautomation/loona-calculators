@@ -1,0 +1,29 @@
+{
+  "name": "Loona เครื่องคำนวณการแจกแจงปกติ",
+  "short_name": "เครื่องคำนวณการแจกแจงปกติ",
+  "description": "เครื่องคำนวณการแจกแจงปกติฟรี: สำหรับค่าเฉลี่ยและส่วนเบี่ยงเบนมาตรฐานใด ๆ หา P(X<x), P(X>x), P(a<X<b) และค่าที่เปอร์เซ็นไทล์ที่กำหนด",
+  "id": "/loona-calculators/th/normal-distribution-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

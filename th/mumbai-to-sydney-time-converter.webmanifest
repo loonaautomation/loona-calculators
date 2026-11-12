@@ -1,0 +1,29 @@
+{
+  "name": "Loona ตัวแปลงเวลา มุมไบ เป็น ซิดนีย์",
+  "short_name": "มุมไบ เป็น ซิดนีย์",
+  "description": "แปลงเวลามุมไบเป็นเวลาซิดนีย์ ซิดนีย์เร็วกว่ามุมไบ 5 ชั่วโมง 30 นาทีในเดือนมกราคม และเร็วกว่า 4 ชั่วโมง 30 นาทีในเดือนกรกฎาคม พร้อมวันที่เวลาออมแสง ตาราง 24 ชั่วโมง และช่วงเวลาประชุมที่ดีที่สุด มีตัวแปลงแบบเรียลไทม์รวมอยู่ด้วย",
+  "id": "/loona-calculators/th/mumbai-to-sydney-time-converter.html",
+  "start_url": "./mumbai-to-sydney-time-converter.html",
+  "scope": "./mumbai-to-sydney-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

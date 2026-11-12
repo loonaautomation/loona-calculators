@@ -1,0 +1,29 @@
+{
+  "name": "Loona เครื่องคำนวณการวาดกราฟ",
+  "short_name": "เครื่องคำนวณกราฟ",
+  "description": "เครื่องคำนวณกราฟฟรี: พล็อตฟังก์ชันหนึ่งหรือสองฟังก์ชันอย่าง x^2, sin(x) หรือ 2x+3 บนตารางพร้อมซูม ทำงานในเบราว์เซอร์ของคุณ ไม่ต้องสมัคร",
+  "id": "/loona-calculators/th/graphing-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

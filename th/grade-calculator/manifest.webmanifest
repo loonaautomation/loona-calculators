@@ -1,0 +1,29 @@
+{
+  "name": "Loona เครื่องคำนวณเกรด",
+  "short_name": "เครื่องคำนวณเกรด",
+  "description": "เครื่องคำนวณเกรดแบบถ่วงน้ำหนักฟรี: ใส่คะแนนงานสูงสุด 8 ชิ้นพร้อมน้ำหนักเพื่อรับเปอร์เซ็นต์เกรดรวมและเกรดตัวอักษร น้ำหนักไม่จำเป็นต้องรวมเป็น 100",
+  "id": "/loona-calculators/th/grade-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

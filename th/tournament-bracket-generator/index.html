@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>เครื่องมือสร้างสายการแข่งขัน — แพ้คัดออก มีการจัดอันดับมือวาง | เครื่องคำนวณ Loona</title>
+<meta name="description" content="เครื่องสร้างสายการแข่งขันฟรี: ใส่ผู้เข้าแข่งขัน รับสายการแข่งขันแบบแพ้คัดออกที่มีการจัดอันดับอย่างเหมาะสมพร้อมบายที่จัดการให้ — สำหรับอีสปอร์ต วันกีฬา หมากรุก และควิซ">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/th/tournament-bracket-generator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/tournament-bracket-generator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/tournament-bracket-generator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/tournament-bracket-generator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/tournament-bracket-generator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/tournament-bracket-generator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/tournament-bracket-generator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/tournament-bracket-generator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/tournament-bracket-generator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/tournament-bracket-generator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/tournament-bracket-generator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/tournament-bracket-generator/"><link rel="alternate" hreflang="id" href="https://loonaautomation.github.io/loona-calculators/id/tournament-bracket-generator/"><link rel="alternate" hreflang="hi" href="https://loonaautomation.github.io/loona-calculators/hi/tournament-bracket-generator/"><link rel="alternate" hreflang="ja" href="https://loonaautomation.github.io/loona-calculators/ja/tournament-bracket-generator/"><link rel="alternate" hreflang="ko" href="https://loonaautomation.github.io/loona-calculators/ko/tournament-bracket-generator/"><link rel="alternate" hreflang="pl" href="https://loonaautomation.github.io/loona-calculators/pl/tournament-bracket-generator/"><link rel="alternate" hreflang="vi" href="https://loonaautomation.github.io/loona-calculators/vi/tournament-bracket-generator/"><link rel="alternate" hreflang="th" href="https://loonaautomation.github.io/loona-calculators/th/tournament-bracket-generator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/tournament-bracket-generator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="เครื่องมือสร้างสายการแข่งขัน — แพ้คัดออก มีการจัดอันดับมือวาง | เครื่องคำนวณ Loona">
+<meta property="og:description" content="เครื่องสร้างสายการแข่งขันฟรี: ใส่ผู้เข้าแข่งขัน รับสายการแข่งขันแบบแพ้คัดออกที่มีการจัดอันดับอย่างเหมาะสมพร้อมบายที่จัดการให้ — สำหรับอีสปอร์ต วันกีฬา หมากรุก และควิซ">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/th/tournament-bracket-generator/"><meta property="og:locale" content="th_TH">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="เครื่องมือสร้างสายการแข่งขัน — แพ้คัดออก มีการจัดอันดับมือวาง | เครื่องคำนวณ Loona">
+<meta name="twitter:description" content="เครื่องสร้างสายการแข่งขันฟรี: ใส่ผู้เข้าแข่งขัน รับสายการแข่งขันแบบแพ้คัดออกที่มีการจัดอันดับอย่างเหมาะสมพร้อมบายที่จัดการให้ — สำหรับอีสปอร์ต วันกีฬา หมากรุก และควิซ">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona โปรแกรมสร้างตารางสายการแข่งขัน","url":"https://loonaautomation.github.io/loona-calculators/th/tournament-bracket-generator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"การกำหนดค่าเริ่มต้น (seeding) คืออะไร อธิบายแบบง่าย ๆ?","acceptedAnswer":{"@type":"Answer","text":"การจัดอันดับผู้เข้าแข่งขันก่อนการจับฉลากเพื่อให้ผู้ที่แข็งแกร่งที่สุดกระจายออกจากกัน การวางตัววางที่เหมาะสมรับประกันว่าสองอันดับแรกจะไม่พบกันก่อนรอบชิงชนะเลิศ สี่อันดับแรกจะไม่พบกันก่อนรอบรองชนะเลิศ และอื่น ๆ — เป็นรางวัลของการมีอันดับสูง"}},{"@type":"Question","name":"การได้บายทำงานอย่างไร เมื่อมีผู้เข้าแข่งขัน เช่น 10 คน?","acceptedAnswer":{"@type":"Answer","text":"ตารางการแข่งขันปัดขึ้นเป็น 16 ช่อง ทำให้เหลือช่องว่าง 6 ช่อง ช่องว่างถูกวางตรงข้ามกับตัววางอันดับต้น ๆ ดังนั้นตัววาง 1–6 จะข้ามรอบที่ 1 (บาย) และผู้เข้าแข่งขันที่เหลือ 4 คนจะเล่นการแข่งขันรอบแรกเพียงอย่างเดียว: 7 พบ 10 และ 8 พบ 9 ภายใต้การจับคู่มาตรฐาน"}},{"@type":"Question","name":"แมตช์รอบแรกแสดงตามลำดับใด?","acceptedAnswer":{"@type":"Answer","text":"ตามลำดับสายการแข่งขัน — ลำดับที่ผู้ชนะผ่านเข้าสู่รอบถัดไป รูปแบบการจับคู่ (1 vs 16, 8 vs 9, 5 vs 12, 4 vs 13, 6 vs 11, 3 vs 14, 7 vs 10, 2 vs 15 สำหรับ 16 ช่อง) เป็นรูปแบบการจัดอันดับแบบเวียนเกิดมาตรฐานที่ผู้จัดการแข่งขันใช้"}},{"@type":"Question","name":"ฉันสามารถสับเปลี่ยนแทนการจัดมือวางได้หรือไม่?","acceptedAnswer":{"@type":"Answer","text":"หากคุณต้องการการจับสลากแบบสุ่มแทนการจัดอันดับ ให้ระบุชื่อตามลำดับใดก็ได้ — หรือนำไปผ่านตัวสุ่มรายการก่อน แล้ววางลำดับที่สลับแล้วที่นี่เป็นรายการจัดอันดับ"}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/th/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "โปรแกรมสร้างตารางสายการแข่งขัน",
+      "item": "https://loonaautomation.github.io/loona-calculators/th/tournament-bracket-generator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="โลโก้ Loona Automation">
+<div class="brand">Loona <span>เครื่องคำนวณ</span></div>
+<nav>
+<a href="../">หน้าแรก</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">เกี่ยวกับ</a>
+<a href="../contact.html">ติดต่อ</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › ความสนุก › เครื่องสร้างสายการแข่งขัน</div>
+<h1 class="pagetitle">🏆 เครื่องสร้างสายการแข่งขัน</h1>
+<p class="lead">ใส่ผู้เข้าแข่งขันตามลำดับเมล็ด (เมล็ดดีที่สุดก่อน) และสร้างตารางการแข่งขันแบบแพ้คัดออกที่สร้างแบบที่ทัวร์นาเมนต์จริงทำ: เมล็ด 1 เจอกับเมล็ดต่ำที่สุด บายไปให้เมล็ดอันดับต้น ๆ และผู้ชนะไหลเข้าสู่รอบชิงชนะเลิศ</p>
+<div class="exbox"><strong>คำตอบอย่างรวดเร็ว:</strong> สายการแข่งขันแบบแพ้คัดออกต้องมีขนาดเป็นกำลังของสอง (4, 8, 16, 32) ด้วยผู้เข้าแข่งขัน 10 คน สายการแข่งขันจะมี 16 ช่อง: ทีมวางอันดับสูงสุด 6 ทีมจะได้บายในรอบแรก และทีมวางจะจับคู่กัน 1 พบ 16, 8 พบ 9, 5 พบ 12 และต่อไปเรื่อย ๆ เพื่อให้ทีมวางที่ดีที่สุดไม่พบกันเร็วเกินไป</div>
+<div class="toolbox"><form class="calcform" id="tbForm">
+<div class="fld"><label for="tbNames">ผู้เข้าแข่งขันตามลำดับเมล็ด (แข็งแกร่งที่สุดก่อน บรรทัดละหนึ่งคน)</label><textarea id="tbNames" rows="8" style="width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px">Seed 1
+Seed 2
+Seed 3
+Seed 4
+Seed 5
+Seed 6
+Seed 7
+Seed 8</textarea></div>
+<button class="calcbtn" type="submit">🏆 สร้างสายการแข่งขัน</button>
+<div class="calcresult" id="tbResult" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>วิธีใช้ Tournament Bracket Generator</h2><ol><li>ใส่ผู้เข้าแข่งขันบรรทัดละหนึ่งคน ตามลำดับเมล็ด — แข็งแกร่งที่สุดก่อน (2 ถึง 32)</li><li>กดสร้างตารางสายการแข่งขัน</li><li>อ่านรอบที่ 1 (และใครได้บาย) จากนั้นเส้นทางที่ผู้ชนะแต่ละคนไปถึงรอบชิงชนะเลิศ</li></ol>
+<div class="exbox"><strong>ตัวอย่าง:</strong> ผู้เข้าแข่งขัน 8 คนที่มีอันดับ 1–8 จะสร้างรอบก่อนรองชนะเลิศ: 1 พบ 8, 4 พบ 5, 2 พบ 7, 3 พบ 6 — ดังนั้นหากอันดับที่สูงกว่าได้รับชัยชนะเสมอ รอบรองชนะเลิศจะเป็น 1 พบ 4 และ 2 พบ 3, และรอบชิงชนะเลิศคือ 1 พบ 2</div>
+<h2>คำถามที่พบบ่อย</h2></section><div class="faq"><h3>การกำหนดค่าเริ่มต้น (seeding) คืออะไร อธิบายแบบง่าย ๆ?</h3><p>การจัดอันดับผู้เข้าแข่งขันก่อนการจับฉลากเพื่อให้ผู้ที่แข็งแกร่งที่สุดกระจายออกจากกัน การวางตัววางที่เหมาะสมรับประกันว่าสองอันดับแรกจะไม่พบกันก่อนรอบชิงชนะเลิศ สี่อันดับแรกจะไม่พบกันก่อนรอบรองชนะเลิศ และอื่น ๆ — เป็นรางวัลของการมีอันดับสูง</p></div><div class="faq"><h3>การได้บายทำงานอย่างไร เมื่อมีผู้เข้าแข่งขัน เช่น 10 คน?</h3><p>ตารางการแข่งขันปัดขึ้นเป็น 16 ช่อง ทำให้เหลือช่องว่าง 6 ช่อง ช่องว่างถูกวางตรงข้ามกับตัววางอันดับต้น ๆ ดังนั้นตัววาง 1–6 จะข้ามรอบที่ 1 (บาย) และผู้เข้าแข่งขันที่เหลือ 4 คนจะเล่นการแข่งขันรอบแรกเพียงอย่างเดียว: 7 พบ 10 และ 8 พบ 9 ภายใต้การจับคู่มาตรฐาน</p></div><div class="faq"><h3>แมตช์รอบแรกแสดงตามลำดับใด?</h3><p>ตามลำดับสายการแข่งขัน — ลำดับที่ผู้ชนะผ่านเข้าสู่รอบถัดไป รูปแบบการจับคู่ (1 vs 16, 8 vs 9, 5 vs 12, 4 vs 13, 6 vs 11, 3 vs 14, 7 vs 10, 2 vs 15 สำหรับ 16 ช่อง) เป็นรูปแบบการจัดอันดับแบบเวียนเกิดมาตรฐานที่ผู้จัดการแข่งขันใช้</p></div><div class="faq"><h3>ฉันสามารถสับเปลี่ยนแทนการจัดมือวางได้หรือไม่?</h3><p>หากคุณต้องการการจับสลากแบบสุ่มแทนการจัดอันดับ ให้ระบุชื่อตามลำดับใดก็ได้ — หรือนำไปผ่านตัวสุ่มรายการก่อน แล้ววางลำดับที่สลับแล้วที่นี่เป็นรายการจัดอันดับ</p></div>
+<h2 class="sec">เครื่องคำนวณที่เกี่ยวข้อง</h2><div class="grid"><a class="card" href="../random-number-generator/"><div class="ic">🎲</div><h3>โปรแกรมสร้างเลขสุ่ม</h3><p>สนุก</p></a><a class="card" href="../dice-roller/"><div class="ic">🎲</div><h3>เครื่องทอยลูกเต๋า</h3><p>สนุก</p></a><a class="card" href="../coin-flip/"><div class="ic">🪙</div><h3>การโยนเหรียญ</h3><p>สนุก</p></a><a class="card" href="../lottery-number-generator/"><div class="ic">🍀</div><h3>โปรแกรมสร้างเลขลอตเตอรี</h3><p>สนุก</p></a><a class="card" href="../love-calculator/"><div class="ic">❤️</div><h3>เครื่องคำนวณความรัก</h3><p>สนุก</p></a><a class="card" href="../random-team-generator/"><div class="ic">👥</div><h3>โปรแกรมสร้างทีมแบบสุ่ม</h3><p>สนุก</p></a><a class="card" href="../wheel-of-names/"><div class="ic">🎡</div><h3>วงล้อสุ่มชื่อ</h3><p>สนุก</p></a><a class="card" href="../list-randomizer/"><div class="ic">🔀</div><h3>ตัวสุ่มรายการ</h3><p>สนุก</p></a></div>
+</div>
+<section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>วิธีการทำงาน — สูตร</h2>
+<p>ขนาดสายการแข่งขัน B = เลขยกกำลังของสองที่เล็กที่สุดที่ ≥ จำนวนผู้เข้าแข่งขัน N การได้บาย = B − N มอบให้มือวางอันดับสูงสุด ลำดับมือวางสำหรับสายการแข่งขันสร้างแบบเรียกซ้ำ: เริ่ม [1, 2] แทนที่มือวาง s แต่ละตัวในลำดับซ้ำ ๆ ด้วยคู่ (s, 2k + 1 − s) โดยที่ 2k คือขนาดใหม่ ดังนั้นทุกคู่ที่อยู่ติดกันรวมกันได้ B + 1 ในรอบ 1 คู่ที่อยู่ติดกัน (ตำแหน่ง 1–2, 3–4, …) ประกอบเป็นแมตช์รอบแรก และผู้ชนะของแมตช์ที่อยู่ติดกันจะพบกันในรอบถัดไป — ซึ่งเป็นสิ่งที่ปกป้องมือวางอันดับสูงสุดจากการพบกันเร็วเกินไปอย่างแท้จริง</p>
+<h3>ตัวอย่างการคำนวณ</h3><div class="exbox"><p><strong>ข้อมูลป้อนเข้า:</strong> 8 ทีมวางอันดับ</p><p><strong>ก้าว:</strong> เริ่ม [1, 2] เพิ่มเป็นสองเท่าเป็น 4: (1, 4), (2, 3) → [1, 4, 2, 3] เพิ่มเป็นสองเท่าเป็น 8: (1, 8), (4, 5), (2, 7), (3, 6) → [1, 8, 4, 5, 2, 7, 3, 6] คู่ที่อยู่ติดกัน: 1v8, 4v5, 2v7, 3v6</p><p><strong>ผลลัพธ์:</strong> รอบก่อนรองชนะเลิศ <strong>1 vs 8, 4 vs 5, 2 vs 7, 3 vs 6</strong>; เส้นทางของทีมเต็งจะให้รอบรองชนะเลิศ 1 พบ 4, 2 พบ 3 และรอบชิงชนะเลิศ 1 พบ 2</p></div>
+
+</section>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">ฝังเครื่องคำนวณนี้บนเว็บไซต์ของคุณ — ฟรี</h2>
+<p style="margin:0 0 12px;line-height:1.6">เพิ่มเครื่องคำนวณนี้ลงในเว็บไซต์หรือบล็อกของคุณเอง — ฟรีทั้งหมด ไม่ต้องสมัครสมาชิก และแสดงเวอร์ชันล่าสุดเสมอ คัดลอกโค้ดด้านล่างแล้ววางลงในหน้าของคุณในตำแหน่งที่ต้องการให้เครื่องคำนวณปรากฏ การคงบรรทัดเครดิตเล็ก ๆ &ldquo;Powered by Loona Automation&rdquo; ไว้ใต้ตัวฝังจะช่วยให้เครื่องมือนี้ยังคงฟรีต่อไป &mdash; แต่คุณจะปรับแต่งหรือลบออกก็ได้ เครื่องมือทำงานได้ทั้งสองแบบ</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/th/tournament-bracket-generator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Tournament Bracket Generator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;ขับเคลื่อนโดย &lt;a href="https://loonaautomation.github.io/loona-calculators/th/tournament-bracket-generator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; ฟรี โปรแกรมสร้างตารางสายการแข่งขัน&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">คัดลอกโค้ดฝัง</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='คัดลอกโค้ดฝัง';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>เครื่องคำนวณยอดนิยม</h4><ul><li><a href="../age-calculator/">เครื่องคำนวณอายุ</a></li>
+<li><a href="../zakat-calculator/">เครื่องคำนวณซะกาต</a></li>
+<li><a href="../cgpa-calculator/">เครื่องคำนวณ CGPA</a></li>
+<li><a href="../percentage-calculator/">เครื่องคำนวณเปอร์เซ็นต์</a></li>
+<li><a href="../hijri-date-converter/">ตัวแปลงวันที่ฮิจเราะห์</a></li>
+<li><a href="../emi-calculator/">เครื่องคำนวณ EMI และสินเชื่อ</a></li></ul></div>
+<div><h4>เครื่องมือ Loona เพิ่มเติม</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona เครื่องมือบีบอัดรูปภาพ</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona ผู้ช่วย AI</a></li>
+<li><a href="https://loonaautomation.github.io/">เครื่องมือ Loona ทั้งหมด</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">เกี่ยวกับ</a></li>
+<li><a href="../contact.html">ติดต่อ</a></li>
+<li><a href="../privacy-policy.html">นโยบายความเป็นส่วนตัว</a></li>
+<li><a href="../terms.html">ข้อกำหนดการใช้งาน</a></li></ul></div>
+</div>
+<div class="bar">© 2026 เครื่องคำนวณ Loona — <a href="https://loonaautomation.github.io/">Loona Automation</a> โปรเจกต์ เครื่องคำนวณออนไลน์ฟรี ไม่ต้องสมัครสมาชิก
+ติดต่อ: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+function bracketSeedOrder(size){
+  var order=[1,2];
+  while(order.length<size){
+    var total=order.length*2+1, nxt=[];
+    for(var i=0;i<order.length;i++){nxt.push(order[i]);nxt.push(total-order[i]);}
+    order=nxt;
+  }
+  return order;
+}
+function makeBracket(names){
+  var n=names.length;
+  if(n<2||n>32)return null;
+  var size=2; while(size<n)size*=2;
+  var order=bracketSeedOrder(size);
+  var slots=order.map(function(seed){return seed<=n?{seed:seed,name:names[seed-1]}:{seed:seed,name:null};});
+  var matches=[];
+  for(var i=0;i<slots.length;i+=2){
+    var a=slots[i],b=slots[i+1];
+    if(a.name&&b.name)matches.push({a:a,b:b,bye:false});
+    else if(a.name||b.name)matches.push({a:a.name?a:b,b:null,bye:true});
+  }
+  var rounds=Math.log2(size);
+  return {size:size,byes:size-n,matches:matches,rounds:rounds,slots:slots};
+}
+/*TESTABLE_END*/
+document.getElementById('tbForm').addEventListener('submit',function(e){e.preventDefault();
+ var names=document.getElementById('tbNames').value.split(/\r?\n/).map(function(s){return s.trim();}).filter(Boolean);
+ var br=makeBracket(names);
+ var box=document.getElementById('tbResult'); box.style.display='block';
+ if(!br){box.innerHTML='<p class="err">ป้อนผู้เข้าร่วมระหว่าง 2 ถึง 32 คน</p>';return;}
+ function esc(s){return String(s).replace(/</g,"&lt;");}
+ var html='<div class="resbig"><span>ขนาดสายการแข่งขัน '+br.size+'</span><strong>'+br.rounds+' รอบ'+(br.byes?' · '+br.byes+' บาย'+(br.byes>1?'s':''):'')+'</strong></div>';
+ br.matches.forEach(function(m,i){
+   if(m.bye)html+='<p style="margin:7px 0"><strong>Bye:</strong> ('+m.a.seed+') '+esc(m.a.name)+' ผ่านเข้ารอบโดยตรง</p>';
+   else html+='<p style="margin:7px 0"><strong>Match '+(i+1)+':</strong> ('+m.a.seed+') '+esc(m.a.name)+' vs ('+m.b.seed+') '+esc(m.b.name)+'</p>';
+ });
+ var rn=["Final","Semi-finals","Quarter-finals","Round of 16","Round of 32"];
+ html+='<p class="resnote">ผู้ชนะของแมตช์ที่ติดกันจะพบกันในรอบถัดไป และจบด้วย '+rn[br.rounds-1]+' ระหว่างผู้ชนะของทั้งสองสาย</p>';
+ box.innerHTML=html;});
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' ติดตั้งแอป';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('ติดตั้งแอปนี้: แตะปุ่มแชร์ แล้วเลือก "เพิ่มไปยังหน้าจอหลัก"');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "name": "Loona เครื่องคำนวณไขมันในร่างกาย",
+  "short_name": "เครื่องคำนวณไขมันในร่างกาย",
+  "description": "เครื่องคำนวณไขมันในร่างกายฟรีโดยใช้วิธีวัดรอบของกองทัพเรือสหรัฐ: ส่วนสูง คอ เอว (และสะโพกสำหรับผู้หญิง) ให้ % ไขมันในร่างกาย มวลไขมัน มวลไร้ไขมัน และหมวด ACE",
+  "id": "/loona-calculators/th/body-fat-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
