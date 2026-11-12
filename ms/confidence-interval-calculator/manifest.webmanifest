@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Selang Keyakinan",
+  "short_name": "Kalkulator Selang Keyakinan",
+  "description": "Kalkulator selang keyakinan percuma: CI untuk min dengan sigma yang diketahui (z), dengan SD sampel (t), dan untuk perkadaran, pada keyakinan 90%, 95% atau 99%.",
+  "id": "/loona-calculators/ms/confidence-interval-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

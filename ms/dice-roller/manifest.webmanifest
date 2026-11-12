@@ -1,0 +1,29 @@
+{
+  "name": "Loona Pembaling Dadu",
+  "short_name": "Pembaling Dadu",
+  "description": "Pelempar dadu dalam talian percuma: lempar 1 hingga 6 dadu — d6 standard, d20 dan dadu polihedral lain — dengan dadu visual, jumlah, purata dan sejarah lemparan.",
+  "id": "/loona-calculators/ms/dice-roller/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

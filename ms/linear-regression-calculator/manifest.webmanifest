@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Regresi Linear",
+  "short_name": "Kalkulator Regresi Linear",
+  "description": "Kalkulator regresi linear percuma: tampal data berpasangan untuk mendapatkan garis kuasa dua terkecil y = a + bx, korelasi, ramalan, dan plot berserak dengan garis yang dipadankan dilukis.",
+  "id": "/loona-calculators/ms/linear-regression-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Bahagi Sewa",
+  "short_name": "Kalkulator Bahagi Sewa",
+  "description": "Kalkulator pembahagian sewa percuma: bahagikan sewa bulanan antara 2 hingga 8 rakan serumah — sama rata, mengikut saiz bilik dalam kaki persegi, atau mengikut pendapatan. Bahagian sentiasa berjumlah tepat kepada keseluruhan.",
+  "id": "/loona-calculators/ms/rent-split-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

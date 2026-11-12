@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Trigonometri",
+  "short_name": "Kalkulator Trigonometri",
+  "description": "Kalkulator trigonometri percuma: masukkan sudut dalam darjah atau radian untuk mendapatkan sin, cos, tan, csc, sec dan cot, atau gunakan sin, cos dan tan songsang untuk mencari sudut daripada nisbah. Jadual nilai tepat termasuk.",
+  "id": "/loona-calculators/ms/trigonometry-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

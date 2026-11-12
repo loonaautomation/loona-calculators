@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Kenaikan Sewa",
+  "short_name": "Kalkulator Kenaikan Sewa",
+  "description": "Kalkulator kenaikan sewa percuma: masukkan sewa semasa anda dan peratusan kenaikan (atau sewa baharu) untuk melihat sewa bulanan baharu, kos tambahan sebulan dan setahun, dan unjuran tahun demi tahun.",
+  "id": "/loona-calculators/ms/rent-increase-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

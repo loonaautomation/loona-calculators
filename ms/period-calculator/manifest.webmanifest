@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Haid",
+  "short_name": "Kalkulator Haid",
+  "description": "Kalkulator haid percuma: masukkan hari pertama haid terakhir anda dan panjang kitaran untuk meramalkan haid anda yang seterusnya, hari ovulasi dan tempoh subur. Anggaran untuk pendidikan sahaja.",
+  "id": "/loona-calculators/ms/period-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

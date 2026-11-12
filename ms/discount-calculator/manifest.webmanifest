@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Diskaun",
+  "short_name": "Kalkulator Diskaun",
+  "description": "Kalkulator diskaun percuma: masukkan harga dan peratus diskaun untuk mendapatkan harga akhir dan berapa banyak yang anda jimat. Menyokong diskaun kedua tambahan dan cukai yang ditambah selepas diskaun.",
+  "id": "/loona-calculators/ms/discount-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

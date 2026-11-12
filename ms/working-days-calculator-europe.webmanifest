@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Hari Bekerja Eropah",
+  "short_name": "Kalkulator Hari Bekerja Eropah",
+  "description": "Kalkulator hari bekerja untuk 20 negara Eropah: kira hari perniagaan antara dua tarikh dengan hujung minggu dan cuti umum 2026 setiap negara dibuang.",
+  "id": "/loona-calculators/ms/working-days-calculator-europe.html",
+  "start_url": "./working-days-calculator-europe.html",
+  "scope": "./working-days-calculator-europe.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

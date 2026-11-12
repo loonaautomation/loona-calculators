@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Schengen 90/180",
+  "short_name": "Kalkulator Schengen 90/180",
+  "description": "Kalkulator Schengen 90/180 percuma: masukkan perjalanan lalu dan yang dirancang untuk melihat hari digunakan dalam sebarang tetingkap 180 hari bergulir, hari berbaki, amaran terlebih tinggal dan kemasukan semula selamat paling awal.",
+  "id": "/loona-calculators/ms/schengen-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

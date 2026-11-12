@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Teorem Pythagoras",
+  "short_name": "Kalkulator Teorem Pythagoras",
+  "description": "Kalkulator teorem Pythagoras percuma: masukkan mana-mana dua sisi segi tiga tepat untuk mencari sisi ketiga — hipotenus atau kaki — dengan jalan kerja ditunjukkan.",
+  "id": "/loona-calculators/ms/pythagorean-theorem-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

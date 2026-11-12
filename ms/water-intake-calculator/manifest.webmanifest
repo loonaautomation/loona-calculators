@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Pengambilan Air",
+  "short_name": "Kalkulator Pengambilan Air",
+  "description": "Kalkulator pengambilan air percuma: masukkan berat badan dan senaman harian anda untuk mendapatkan pengambilan air yang disyorkan dalam liter, mililiter dan gelas sehari.",
+  "id": "/loona-calculators/ms/water-intake-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

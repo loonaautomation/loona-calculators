@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Taburan Binomial",
+  "short_name": "Taburan Binomial",
+  "description": "Kalkulator taburan binomial percuma: kebarangkalian kejayaan tepat k, paling banyak k, atau sekurang-kurangnya k, dalam n percubaan dengan kebarangkalian kejayaan p. Nilai yang disemak dengan buku teks.",
+  "id": "/loona-calculators/ms/binomial-distribution-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

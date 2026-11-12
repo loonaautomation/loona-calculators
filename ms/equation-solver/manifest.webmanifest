@@ -1,0 +1,29 @@
+{
+  "name": "Loona Penyelesai Persamaan (Linear & Kuadratik)",
+  "short_name": "Penyelesai Persamaan (Linear &",
+  "description": "Penyelesai persamaan percuma untuk persamaan linear (ax + b = cx + d) dan kuadratik (ax² + bx + c = 0), dengan jalan kerja langkah demi langkah yang lengkap, diskriminan, punca kompleks dan semakan akhir.",
+  "id": "/loona-calculators/ms/equation-solver/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

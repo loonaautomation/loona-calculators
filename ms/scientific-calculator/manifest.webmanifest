@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Saintifik",
+  "short_name": "Kalkulator Saintifik",
+  "description": "Kalkulator saintifik percuma dengan sin, cos, tan dan songsangannya, log dan ln, kuasa, punca, faktorial dan peratus. Mod DEG/RAD dan sokongan papan kekunci penuh — tiada pendaftaran.",
+  "id": "/loona-calculators/ms/scientific-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

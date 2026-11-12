@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Waktu Bekerja",
+  "short_name": "Kalkulator Waktu Kerja",
+  "description": "Kalkulator jam kerja percuma: masa mula, tamat dan rehat tanpa gaji memberikan jam bersih sehari dan seminggu — serta gaji harian dan mingguan apabila anda menambah kadar sejam.",
+  "id": "/loona-calculators/ms/work-hours-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

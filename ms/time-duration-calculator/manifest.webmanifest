@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Tempoh Masa",
+  "short_name": "Kalkulator Tempoh Masa",
+  "description": "Kalkulator tempoh masa percuma: masukkan masa mula dan tamat untuk mendapatkan tempoh dalam jam dan minit, jumlah minit dan jam perpuluhan. Mengira merentasi tengah malam dengan betul.",
+  "id": "/loona-calculators/ms/time-duration-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

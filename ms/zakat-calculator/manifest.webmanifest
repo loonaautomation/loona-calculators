@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Zakat",
+  "short_name": "Kalkulator Zakat",
+  "description": "Kalkulator zakat percuma: tunai, baki bank, emas, perak, barangan perniagaan dan hutang — semak nisab dan kira zakat 2.5% anda dalam rupee serta-merta. Mudah dan peribadi.",
+  "id": "/loona-calculators/ms/zakat-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

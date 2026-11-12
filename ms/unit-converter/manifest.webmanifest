@@ -1,0 +1,29 @@
+{
+  "name": "Loona Penukar Unit",
+  "short_name": "Penukar Unit",
+  "description": "Penukar unit percuma: tukar unit panjang, berat, suhu, isi padu dan keluasan dengan faktor standard yang tepat — km kepada batu, kg kepada paun, Celsius kepada Fahrenheit.",
+  "id": "/loona-calculators/ms/unit-converter/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

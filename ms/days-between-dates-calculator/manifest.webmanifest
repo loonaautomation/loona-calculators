@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Hari Antara Tarikh",
+  "short_name": "Kalkulator Hari Antara Tarikh",
+  "description": "Kalkulator hari antara tarikh percuma: kira bilangan tepat hari, minggu dan tahun antara mana-mana dua tarikh. Berguna untuk tarikh akhir, visa, kontrak dan kiraan detik.",
+  "id": "/loona-calculators/ms/days-between-dates-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

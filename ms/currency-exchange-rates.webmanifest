@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kadar Pertukaran Mata Wang",
+  "short_name": "Kadar Pertukaran Mata Wang",
+  "description": "Kadar pertukaran rujukan ECB bertarikh 06 November 2026 untuk 20 mata wang — kesemua 380 pasangan dengan penukar, kadar songsang dan jadual.",
+  "id": "/loona-calculators/ms/currency-exchange-rates.html",
+  "start_url": "./currency-exchange-rates.html",
+  "scope": "./currency-exchange-rates.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator SIP",
+  "short_name": "Kalkulator SIP",
+  "description": "Kalkulator SIP percuma: masukkan pelaburan bulanan, jangkaan pulangan tahunan dan tahun untuk mengunjurkan nilai masa depan, jumlah dilaburkan dan anggaran keuntungan pelan anda.",
+  "id": "/loona-calculators/ms/sip-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

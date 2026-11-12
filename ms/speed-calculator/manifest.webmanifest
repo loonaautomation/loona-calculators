@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Kelajuan",
+  "short_name": "Kalkulator Kelajuan",
+  "description": "Kalkulator kelajuan percuma: masukkan jarak dalam kilometer atau batu dan masa yang diambil untuk mendapatkan kelajuan dalam km/j dan mph, serta rentak per kilometer dan per batu.",
+  "id": "/loona-calculators/ms/speed-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

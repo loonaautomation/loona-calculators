@@ -1,0 +1,29 @@
+{
+  "name": "Loona Penukar Saiz Kasut",
+  "short_name": "Penukar Saiz Kasut",
+  "description": "Penukar saiz kasut percuma untuk lelaki dan wanita: tukar antara saiz AS, UK dan EU dan panjang kaki dalam cm dan inci, menggunakan carta penukaran standard dengan padanan terdekat.",
+  "id": "/loona-calculators/ms/shoe-size-converter/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

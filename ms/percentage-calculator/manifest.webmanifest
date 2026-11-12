@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Peratusan",
+  "short_name": "Kalkulator Peratusan",
+  "description": "Kalkulator peratusan percuma dengan tiga alat dalam satu: berapakah X% daripada Y, X ialah berapa peratus daripada Y, dan kenaikan atau penurunan peratusan antara dua nombor.",
+  "id": "/loona-calculators/ms/percentage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Gadai Janji",
+  "short_name": "Kalkulator Gadai Janji",
+  "description": "Kalkulator gadai janji percuma: harga rumah, bayaran pendahuluan, kadar faedah dan tempoh — dapatkan jumlah pinjaman, bayaran bulanan, jumlah faedah dan jumlah kos rumah anda.",
+  "id": "/loona-calculators/ms/mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

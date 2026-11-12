@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator EMI",
+  "short_name": "Kalkulator EMI",
+  "description": "Kalkulator EMI dan pinjaman percuma: masukkan amaun pinjaman, kadar faedah atau keuntungan dan tempoh untuk mendapatkan bayaran bulanan, jumlah faedah dan jumlah bayaran anda. Untuk pinjaman bank, kereta dan peribadi.",
+  "id": "/loona-calculators/ms/emi-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

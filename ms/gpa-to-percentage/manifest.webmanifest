@@ -1,0 +1,29 @@
+{
+  "name": "Loona Penukar GPA kepada Peratusan",
+  "short_name": "Penukar GPA kepada Peratusan",
+  "description": "Tukarkan GPA kepada peratusan dan sebaliknya: jalur skala AS 4.0, India CBSE (CGPA × 9.5), universiti India (× 10) dan klasifikasi ijazah UK, setiap satu dilabelkan.",
+  "id": "/loona-calculators/ms/gpa-to-percentage/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

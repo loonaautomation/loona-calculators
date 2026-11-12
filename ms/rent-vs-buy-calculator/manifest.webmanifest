@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Sewa lawan Beli",
+  "short_name": "Kalkulator Sewa lawan Beli",
+  "description": "Kalkulator sewa lawan beli percuma: bandingkan jumlah kos menyewa dengan kos bersih membeli rumah sepanjang tahun yang anda rancang untuk tinggal — gadai janji, kenaikan sewa, pertumbuhan harga dan ekuiti termasuk.",
+  "id": "/loona-calculators/ms/rent-vs-buy-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

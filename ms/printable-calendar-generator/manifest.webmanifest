@@ -1,0 +1,29 @@
+{
+  "name": "Loona Penjana Kalendar Boleh Cetak",
+  "short_name": "Penjana Kalendar Boleh Cetak",
+  "description": "Penjana kalendar boleh cetak percuma: pilih sebarang bulan dan tahun (atau setahun penuh) dan jana grid kalendar bersih yang boleh anda cetak. Bermula Isnin atau Ahad.",
+  "id": "/loona-calculators/ms/printable-calendar-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

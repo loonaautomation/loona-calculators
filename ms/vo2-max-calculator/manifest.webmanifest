@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator VO2 Max",
+  "short_name": "Kalkulator VO2 Max",
+  "description": "Kalkulator VO2 max percuma: anggarkan kecergasan aerobik daripada larian Cooper 12 minit atau ujian berjalan Rockport 1 batu. Anggaran kecergasan untuk pendidikan.",
+  "id": "/loona-calculators/ms/vo2-max-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

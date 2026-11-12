@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Taburan Normal",
+  "short_name": "Kalkulator Taburan Normal",
+  "description": "Kalkulator taburan normal percuma: untuk sebarang min dan sisihan piawai, cari P(X<x), P(X>x), P(a<X<b), dan nilai pada persentil tertentu.",
+  "id": "/loona-calculators/ms/normal-distribution-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

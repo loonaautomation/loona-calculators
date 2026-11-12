@@ -1,0 +1,29 @@
+{
+  "name": "Loona Penyusun Rawak Senarai",
+  "short_name": "Penyusun Rawak Senarai",
+  "description": "Pengacak senarai percuma: tampal sebarang senarai untuk mengocoknya ke dalam susunan rawak, atau pilih sampel rawak item. Kocokan selamat, tiada apa-apa dimuat naik.",
+  "id": "/loona-calculators/ms/list-randomizer/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Gadai Janji Jerman",
+  "short_name": "Kalkulator Gadai Janji Jerman",
+  "description": "Kalkulator gadai janji Jerman (Baufinanzierung) percuma dalam euro: anuiti bulanan daripada kadar faedah dan Tilgung awal, baki hutang selepas tempoh tetap.",
+  "id": "/loona-calculators/ms/germany-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Umur",
+  "short_name": "Kalkulator Umur",
+  "description": "Kalkulator umur percuma: masukkan tarikh lahir anda dan dapatkan umur tepat anda dalam tahun, bulan dan hari, serta jumlah hari, minggu dan jam yang telah dilalui dan hari lahir anda yang seterusnya. Tiada pendaftaran.",
+  "id": "/loona-calculators/ms/age-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

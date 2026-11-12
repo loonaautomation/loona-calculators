@@ -1,0 +1,29 @@
+{
+  "name": "Loona Penjana Pasukan Rawak",
+  "short_name": "Penjana Pasukan Rawak",
+  "description": "Penjana pasukan rawak percuma: tampal senarai nama dan bahagikannya kepada pasukan rawak yang seimbang untuk sukan, kelas, permainan dan bengkel. Kocokan adil, tiada pendaftaran.",
+  "id": "/loona-calculators/ms/random-team-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

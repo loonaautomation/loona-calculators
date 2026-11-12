@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Penyelesai Persamaan (Linear & Kuadratik) — Jawapan Langkah demi Langkah | Loona Calculators</title>
+<meta name="description" content="Penyelesai persamaan percuma untuk persamaan linear (ax + b = cx + d) dan kuadratik (ax² + bx + c = 0), dengan jalan kerja langkah demi langkah yang lengkap, diskriminan, punca kompleks dan semakan akhir.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/ms/equation-solver/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/equation-solver/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/equation-solver/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/equation-solver/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/equation-solver/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/equation-solver/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/equation-solver/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/equation-solver/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/equation-solver/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/equation-solver/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/equation-solver/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/equation-solver/"><link rel="alternate" hreflang="hi" href="https://loonaautomation.github.io/loona-calculators/hi/equation-solver/"><link rel="alternate" hreflang="ja" href="https://loonaautomation.github.io/loona-calculators/ja/equation-solver/"><link rel="alternate" hreflang="ko" href="https://loonaautomation.github.io/loona-calculators/ko/equation-solver/"><link rel="alternate" hreflang="pl" href="https://loonaautomation.github.io/loona-calculators/pl/equation-solver/"><link rel="alternate" hreflang="vi" href="https://loonaautomation.github.io/loona-calculators/vi/equation-solver/"><link rel="alternate" hreflang="id" href="https://loonaautomation.github.io/loona-calculators/id/equation-solver/"><link rel="alternate" hreflang="en-us" href="https://loonaautomation.github.io/loona-calculators/en-us/equation-solver/"><link rel="alternate" hreflang="sv" href="https://loonaautomation.github.io/loona-calculators/sv/equation-solver/"><link rel="alternate" hreflang="th" href="https://loonaautomation.github.io/loona-calculators/th/equation-solver/"><link rel="alternate" hreflang="ro" href="https://loonaautomation.github.io/loona-calculators/ro/equation-solver/"><link rel="alternate" hreflang="ms" href="https://loonaautomation.github.io/loona-calculators/ms/equation-solver/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/equation-solver/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Penyelesai Persamaan (Linear & Kuadratik) — Jawapan Langkah demi Langkah | Loona Calculators">
+<meta property="og:description" content="Penyelesai persamaan percuma untuk persamaan linear (ax + b = cx + d) dan kuadratik (ax² + bx + c = 0), dengan jalan kerja langkah demi langkah yang lengkap, diskriminan, punca kompleks dan semakan akhir.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/ms/equation-solver/"><meta property="og:locale" content="ms_MY">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Penyelesai Persamaan (Linear & Kuadratik) — Jawapan Langkah demi Langkah | Loona Calculators">
+<meta name="twitter:description" content="Penyelesai persamaan percuma untuk persamaan linear (ax + b = cx + d) dan kuadratik (ax² + bx + c = 0), dengan jalan kerja langkah demi langkah yang lengkap, diskriminan, punca kompleks dan semakan akhir.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona Penyelesai Persamaan","url":"https://loonaautomation.github.io/loona-calculators/ms/equation-solver/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Apakah jenis persamaan yang boleh dikendalikan oleh penyelesai ini?","acceptedAnswer":{"@type":"Answer","text":"Persamaan linear dalam bentuk ax + b = cx + d, dan persamaan kuadratik dalam bentuk ax² + bx + c = 0. Ia menunjukkan setiap langkah, diskriminan untuk kuadratik, dan semakan akhir. Ia tidak menyelesaikan persamaan kubik, persamaan serentak dalam dua anu, atau ketaksamaan — tajuk halaman menyatakan dengan tepat apa yang diliputinya."}},{"@type":"Question","name":"Apakah maksud \"tiada penyelesaian\" atau \"penyelesaian yang tidak terhingga banyaknya\"?","acceptedAnswer":{"@type":"Answer","text":"Kadangkala sebutan x membatalkan satu sama lain sepenuhnya. Jika nombor juga sepadan (seperti 5x + 1 = 5x + 1) persamaan sentiasa benar — penyelesaian tidak terhingga banyaknya. Jika nombor tidak sepadan (5x + 1 = 5x + 3) ia tidak boleh benar — tiada penyelesaian. Penyelesai memberitahu anda dengan jujur kes mana yang anda ada dan bukannya mencipta jawapan."}},{"@type":"Question","name":"Apakah punca kompleks?","acceptedAnswer":{"@type":"Answer","text":"Apabila diskriminan kuadratik (b² − 4ac) negatif, graf tidak pernah melintasi paksi-x dan tiada jawapan nyata. Punca kemudiannya ialah nombor kompleks menggunakan i, yang mana i² = −1 — sebagai contoh, x² + 1 = 0 mempunyai punca x = i dan x = −i. Penyelesai ini menunjukkannya dan masih menyemaknya."}}]}</script>
+
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/ms/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Penyelesai Persamaan",
+      "item": "https://loonaautomation.github.io/loona-calculators/ms/equation-solver/"
+    }
+  ]
+}</script>
+
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Logo Loona Automation">
+<div class="brand">Loona <span>Kalkulator</span></div>
+<nav>
+<a href="../">Laman Utama</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">Tentang</a>
+<a href="../contact.html">Hubungi</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › Matematik › Penyelesai Persamaan</div>
+<h1 class="pagetitle">Penyelesai Persamaan (Linear & Kuadratik)</h1>
+<p class="lead">Selesaikan persamaan linear (ax + b = cx + d) dan persamaan kuadratik (ax² + bx + c = 0) dengan setiap langkah ditunjukkan — termasuk diskriminan, punca berganda dan punca kompleks, dan semakan akhir yang menggantikan jawapan semula ke dalamnya.</p>
+<div class="toolbox">
+<div class="calcform"><div class="fld"><label for="eqMode">Jenis persamaan</label><select id="eqMode"><option value="linear">Persamaan linear — ax + b = cx + d</option><option value="quad">Persamaan kuadratik — ax² + bx + c = 0</option></select></div></div>
+<div id="eqLinear" class="view on">
+<form class="calcform" id="eqLinForm">
+<p style="margin-bottom:12px;color:#2c3e3b">Masukkan empat nombor dalam <strong>ax + b = cx + d</strong>. Gunakan 0 apabila sesuatu sebutan tiada — contohnya, 2x + 3 = 7 ialah a = 2, b = 3, c = 0, d = 7.</p>
+<div class="fld"><label for="la">a — pekali x (sebelah kiri)</label><input type="number" step="any" id="la" value="3"></div>
+<div class="fld"><label for="lb">b — nombor (sebelah kiri)</label><input type="number" step="any" id="lb" value="2"></div>
+<div class="fld"><label for="lc">c — pekali x (sebelah kanan)</label><input type="number" step="any" id="lc" value="1"></div>
+<div class="fld"><label for="ld">d — nombor (sebelah kanan)</label><input type="number" step="any" id="ld" value="10"></div>
+<button class="calcbtn" type="submit">Selesai dengan langkah</button>
+</form>
+<div class="calcresult" id="eqLinRes" style="display:none"></div>
+</div>
+<div id="eqQuad" class="view">
+<form class="calcform" id="eqQuadForm">
+<p style="margin-bottom:12px;color:#2c3e3b">Masukkan tiga pekali dalam <strong>ax² + bx + c = 0</strong>. Gunakan 0 apabila sesuatu sebutan tiada — contohnya, x² − 9 = 0 ialah a = 1, b = 0, c = −9.</p>
+<div class="fld"><label for="qa">a — pekali x²</label><input type="number" step="any" id="qa" value="1"></div>
+<div class="fld"><label for="qb">b — pekali x</label><input type="number" step="any" id="qb" value="-5"></div>
+<div class="fld"><label for="qc">c — nombor malar</label><input type="number" step="any" id="qc" value="6"></div>
+<button class="calcbtn" type="submit">Selesai dengan langkah</button>
+</form>
+<div class="calcresult" id="eqQuadRes" style="display:none"></div>
+</div>
+</div>
+<section class="txt"><h2>Cara menggunakan Penyelesai Persamaan</h2><ol><li>Pilih jenis persamaan: linear (x sahaja) atau kuadratik (x²).</li><li>Taip pekali — nombor di hadapan x² dan x, dan nombor biasa. Masukkan 0 untuk sebarang sebutan yang tiada.</li><li>Tekan Selesai dengan langkah dan baca jalan kerja baris demi baris. Langkah terakhir menyemak jawapan dengan menggantikannya semula ke dalam persamaan asal.</li></ol>
+<div class="exbox"><strong>Contoh:</strong> 3x + 2 = x + 10. Alihkan sebutan x ke kiri: 2x + 2 = 10. Alihkan nombor ke kanan: 2x = 8. Bahagikan dengan 2: <strong>x = 4</strong>. Semak: 3 × 4 + 2 = 14 dan 4 + 10 = 14 ✓</div>
+<h2>Soalan Lazim</h2></section><div class="faq"><h3>Apakah jenis persamaan yang boleh dikendalikan oleh penyelesai ini?</h3><p>Persamaan linear dalam bentuk ax + b = cx + d, dan persamaan kuadratik dalam bentuk ax² + bx + c = 0. Ia menunjukkan setiap langkah, diskriminan untuk kuadratik, dan semakan akhir. Ia tidak menyelesaikan persamaan kubik, persamaan serentak dalam dua anu, atau ketaksamaan — tajuk halaman menyatakan dengan tepat apa yang diliputinya.</p></div><div class="faq"><h3>Apakah maksud "tiada penyelesaian" atau "penyelesaian yang tidak terhingga banyaknya"?</h3><p>Kadangkala sebutan x membatalkan satu sama lain sepenuhnya. Jika nombor juga sepadan (seperti 5x + 1 = 5x + 1) persamaan sentiasa benar — penyelesaian tidak terhingga banyaknya. Jika nombor tidak sepadan (5x + 1 = 5x + 3) ia tidak boleh benar — tiada penyelesaian. Penyelesai memberitahu anda dengan jujur kes mana yang anda ada dan bukannya mencipta jawapan.</p></div><div class="faq"><h3>Apakah punca kompleks?</h3><p>Apabila diskriminan kuadratik (b² − 4ac) negatif, graf tidak pernah melintasi paksi-x dan tiada jawapan nyata. Punca kemudiannya ialah nombor kompleks menggunakan i, yang mana i² = −1 — sebagai contoh, x² + 1 = 0 mempunyai punca x = i dan x = −i. Penyelesai ini menunjukkannya dan masih menyemaknya.</p></div>
+<h2 class="sec">Kalkulator Berkaitan</h2><div class="grid"><a class="card" href="../fraction-calculator/"><div class="ic">🍕</div><h3>Kalkulator Pecahan</h3><p>Matematik</p></a><a class="card" href="../percentage-calculator/"><div class="ic">％</div><h3>Kalkulator Peratusan</h3><p>Matematik</p></a><a class="card" href="../exponent-calculator/"><div class="ic">x²</div><h3>Kalkulator Eksponen</h3><p>Matematik</p></a><a class="card" href="../square-root-calculator/"><div class="ic">√</div><h3>Kalkulator Punca Kuasa Dua</h3><p>Matematik</p></a><a class="card" href="../scientific-calculator/"><div class="ic">🧮</div><h3>Kalkulator Saintifik</h3><p>Matematik</p></a></div>
+</div>
+<section class="txt"><h2>Cara ia berfungsi &mdash; kaedah</h2>
+<p><strong>Persamaan linear</strong> diselesaikan dengan mengekalkan persamaan seimbang — apa sahaja yang anda lakukan kepada satu belah, anda lakukan kepada belah lain. Pertama, sebutan x dikumpulkan di sebelah kiri (tolak cx daripada kedua-dua belah), kemudian sebutan nombor di sebelah kanan (tolak b), dan akhir sekali kedua-dua belah dibahagikan dengan pekali x.</p>
+<p><strong>Persamaan kuadratik</strong> gunakan formula kuadratik. Untuk ax² + bx + c = 0:</p>
+<p><strong>x = (−b ± √(b² − 4ac)) ÷ (2a)</strong></p>
+<p>Bahagian di bawah punca, <strong>D = b² − 4ac</strong>, dipanggil diskriminan, dan ia memberitahu anda jenis jawapan sebelum anda selesai: D &gt; 0 bermaksud dua punca nyata yang berbeza, D = 0 bermaksud satu punca berulang, dan D &lt; 0 bermaksud dua punca kompleks dan tiada jawapan nyata.</p>
+<h3>Contoh yang dikerjakan</h3>
+<div class="exbox"><strong>Contoh:</strong> Selesaikan x² − 5x + 6 = 0. Di sini a = 1, b = −5, c = 6. D = (−5)² − 4 × 1 × 6 = 25 − 24 = 1, jadi √D = 1. Kemudian x = (5 + 1) ÷ 2 = <strong>3</strong> or x = (5 − 1) ÷ 2 = <strong>2</strong>. Semak x = 3: 9 − 15 + 6 = 0 ✓</div>
+<h3>Soalan lazim</h3></section>
+<div class="faq"><h3>Bagaimanakah saya memasukkan persamaan dengan sebutan yang hilang?</h3><p>Masukkan 0 untuk pekali yang hilang. x² − 9 = 0 menjadi a = 1, b = 0, c = −9, dan penyelesai memberikan x = 3 atau x = −3. Untuk persamaan linear seperti 2x = 10, itu ialah a = 2, b = 0, c = 0, d = 10.</p></div>
+<div class="faq"><h3>Bagaimana jika saya menaip a = 0 dalam penyelesai kuadratik?</h3><p>Maka sebutan x² hilang dan persamaan itu sebenarnya linear. Penyelesai menyedari hal ini dan menyelesaikannya sebagai persamaan linear, sambil memberitahu anda bahawa itulah yang berlaku.</p></div>
+<div class="faq"><h3>Mengapa penyelesai menyemak jawapannya pada akhirnya?</h3><p>Menggantikan jawapan semula ke dalam persamaan asal ialah cara paling pasti untuk mengesan kesilapan: jika kedua-dua belah menjadi sama, jawapan pasti betul. Ia juga tabiat yang baik untuk kerja rumah — guru sering memberikan markah kaedah untuk semakan yang kelihatan.</p></div>
+
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Benamkan kalkulator ini di laman web anda — percuma</h2>
+<p style="margin:0 0 12px;line-height:1.6">Tambah kalkulator ini ke laman web atau blog anda sendiri — ia percuma sepenuhnya, tidak memerlukan pendaftaran, dan sentiasa menunjukkan versi terkini. Salin kod di bawah dan tampalkannya ke halaman anda di tempat anda mahu kalkulator muncul. Mengekalkan baris kredit kecil &ldquo;Powered by Loona Automation&rdquo; di bawah benaman membantu mengekalkan alat ini percuma &mdash; tetapi anda bebas menggayakan atau membuangnya; alat ini berfungsi sama ada cara.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/ms/equation-solver/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Equation Solver by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Dikuasakan oleh &lt;a href="https://loonaautomation.github.io/loona-calculators/ms/equation-solver/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; Percuma Penyelesai Persamaan&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Salin kod benam</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='Salin kod benam';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Kalkulator Popular</h4><ul><li><a href="../age-calculator/">Kalkulator Umur</a></li>
+<li><a href="../zakat-calculator/">Kalkulator Zakat</a></li>
+<li><a href="../cgpa-calculator/">Kalkulator CGPA</a></li>
+<li><a href="../percentage-calculator/">Kalkulator Peratusan</a></li>
+<li><a href="../hijri-date-converter/">Penukar Tarikh Hijri</a></li>
+<li><a href="../emi-calculator/">Kalkulator EMI & Pinjaman</a></li></ul></div>
+<div><h4>Lagi Alat Loona</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Pemampat Imej</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona Pembantu AI</a></li>
+<li><a href="https://loonaautomation.github.io/">Semua Alat Loona</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">Tentang</a></li>
+<li><a href="../contact.html">Hubungi</a></li>
+<li><a href="../privacy-policy.html">Dasar Privasi</a></li>
+<li><a href="../terms.html">Terma Penggunaan</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — a <a href="https://loonaautomation.github.io/">Loona Automation</a> projek. Kalkulator dalam talian percuma, tiada pendaftaran.
+Hubungi: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+/* Equation Solver (Linear & Quadratic) — pure logic, step-by-step */
+function feq(n){
+  if(typeof n!=="number"||isNaN(n))return "?";
+  if(Math.abs(n)<1e-12)n=0;
+  var s=String(parseFloat(n.toPrecision(10)));
+  return s.replace(/-/g,"−");
+}
+function pm(n){return n<0?" − "+feq(-n):" + "+feq(n);}
+function coef(n){if(n===1)return "";if(n===-1)return "−";return feq(n);}
+function linSide(a,b){return coef(a)+"x"+(b===0?"":pm(b));}
+function solveLinearEq(a,b,c,d){
+  var steps=[];
+  steps.push("Mulakan dengan persamaan: "+linSide(a,b)+" = "+linSide(c,d)+".");
+  var A=a-c,B=d-b;
+  if(c!==0)steps.push("Alihkan sebutan x ke kiri dengan menolak "+coef(c)+"x daripada kedua-dua belah: "+linSide(A,b)+" = "+feq(d)+".");
+  if(b!==0)steps.push("Alihkan sebutan nombor ke kanan sebanyak "+(b>0?"subtracting":"adding")+" "+feq(Math.abs(b))+" pada kedua-dua belah: "+coef(A)+"x = "+feq(B)+".");
+  if(A===0){
+    if(B===0){
+      steps.push("Both sides are identical (0 = 0), so the equation is true for every value of x.");
+      return {steps:steps,kind:"infinite",summary:"Penyelesaian tidak terhingga banyaknya — persamaan itu ialah identiti."};
+    }
+    steps.push("This leaves 0 = "+feq(B)+", yang tidak benar, jadi tiada nilai x yang boleh memenuhi persamaan itu.");
+    return {steps:steps,kind:"none",summary:"Tiada penyelesaian — persamaan itu tidak konsisten."};
+  }
+  var x=B/A;
+  steps.push("Bahagikan kedua-dua belah dengan "+feq(A)+": x = "+feq(B)+" ÷ "+feq(A)+" = "+feq(x)+".");
+  var lhs=a*x+b,rhs=c*x+d;
+  steps.push("Check: substitute x = "+feq(x)+" back in. Left side = "+feq(a)+" × "+feq(x)+pm(b)+" = "+feq(lhs)+". Right side = "+feq(c)+" × "+feq(x)+pm(d)+" = "+feq(rhs)+". Kedua-dua belah sama ✓");
+  return {steps:steps,kind:"one",x:x,summary:"x = "+feq(x)};
+}
+function quadSide(a,b,c){
+  var s=coef(a)+"x²";
+  if(b!==0)s+=(b<0?" − "+feq(-b):" + "+feq(b))+"x";
+  if(c!==0)s+=pm(c);
+  return s;
+}
+function solveQuadraticEq(a,b,c){
+  var steps=[];
+  if(a===0){
+    steps.push("Here a = 0, so this is not really a quadratic equation — it simplifies to the linear equation "+linSide(b,c)+" = 0.");
+    if(b===0){
+      if(c===0){steps.push("It becomes 0 = 0, which is true for every x.");return {steps:steps,kind:"infinite",summary:"Penyelesaian tidak terhingga banyaknya."};}
+      steps.push("It becomes "+feq(c)+" = 0, which is false.");return {steps:steps,kind:"none",summary:"Tiada penyelesaian."};
+    }
+    var xl=-c/b;
+    steps.push("Alihkan sebutan nombor ke seberang: "+coef(b)+"x = "+feq(-c)+".");
+    steps.push("Divide by "+feq(b)+": x = "+feq(xl)+".");
+    steps.push("Check: "+feq(b)+" × "+feq(xl)+pm(c)+" = "+feq(b*xl+c)+" ✓");
+    return {steps:steps,kind:"linear",x:xl,summary:"x = "+feq(xl)+" (linear, because a = 0)"};
+  }
+  steps.push("Kenal pasti pekali dalam "+quadSide(a,b,c)+" = 0: a = "+feq(a)+", b = "+feq(b)+", c = "+feq(c)+".");
+  var D=b*b-4*a*c;
+  steps.push("Work out the discriminant: D = b² − 4ac = ("+feq(b)+")² − 4 × "+feq(a)+" × "+feq(c)+" = "+feq(b*b)+" − "+feq(4*a*c)+" = "+feq(D)+".");
+  if(D>0){
+    var sd=Math.sqrt(D);
+    steps.push("D is positive, so there are two different real roots. √D = √"+feq(D)+" = "+feq(sd)+".");
+    steps.push("Apply the quadratic formula: x = (−b ± √D) ÷ (2a) = ("+feq(-b)+" ± "+feq(sd)+") ÷ "+feq(2*a)+".");
+    var x1=(-b+sd)/(2*a),x2=(-b-sd)/(2*a);
+    steps.push("First root: x = ("+feq(-b)+" + "+feq(sd)+") ÷ "+feq(2*a)+" = "+feq(x1)+".");
+    steps.push("Second root: x = ("+feq(-b)+" − "+feq(sd)+") ÷ "+feq(2*a)+" = "+feq(x2)+".");
+    var v=a*x1*x1+b*x1+c;
+    steps.push("Check with x = "+feq(x1)+": "+feq(a)+" × ("+feq(x1)+")² + "+feq(b)+" × "+feq(x1)+pm(c)+" = "+feq(v)+" ✓ (0, seperti yang dijangka).");
+    return {steps:steps,kind:"two",x1:x1,x2:x2,summary:"x = "+feq(x1)+" or x = "+feq(x2)};
+  }
+  if(D===0){
+    var xr=-b/(2*a);
+    steps.push("D tepat sifar, jadi kedua-dua punca adalah sama (punca berulang).");
+    steps.push("Apply the formula: x = −b ÷ (2a) = "+feq(-b)+" ÷ "+feq(2*a)+" = "+feq(xr)+".");
+    var v0=a*xr*xr+b*xr+c;
+    steps.push("Check: "+feq(a)+" × ("+feq(xr)+")² + "+feq(b)+" × "+feq(xr)+pm(c)+" = "+feq(v0)+" ✓");
+    return {steps:steps,kind:"equal",x1:xr,x2:xr,summary:"x = "+feq(xr)+" (punca berulang)"};
+  }
+  var re=-b/(2*a),im=Math.abs(Math.sqrt(-D)/(2*a));
+  steps.push("D negatif, jadi tiada punca nyata — parabola tidak pernah melintasi paksi-x.");
+  steps.push("Using √−1 = i: √D = √"+feq(-D)+" i = "+feq(Math.sqrt(-D))+"i.");
+  steps.push("Apply the formula: x = ("+feq(-b)+" ± "+feq(Math.sqrt(-D))+"i) ÷ "+feq(2*a)+", giving x = "+feq(re)+" + "+feq(im)+"i or x = "+feq(re)+" − "+feq(im)+"i.");
+  var zre=a*(re*re-im*im)+b*re+c,zim=2*a*re*im+b*im;
+  steps.push("Check with x = "+feq(re)+" + "+feq(im)+"i: persamaan itu menghasilkan "+feq(zre)+" + "+feq(zim)+"i ≈ 0 ✓ (selain pembundaran).");
+  return {steps:steps,kind:"complex",re:re,im:im,summary:"x = "+feq(re)+" + "+feq(im)+"i or x = "+feq(re)+" − "+feq(im)+"i (tiada punca nyata)"};
+}
+if(typeof module!=="undefined"&&module.exports){module.exports={solveLinearEq:solveLinearEq,solveQuadraticEq:solveQuadraticEq,feq:feq};}
+
+/* ---------- Browser wiring ---------- */
+if(typeof document!=="undefined"){
+  document.addEventListener("DOMContentLoaded",function(){
+    var modeSel=document.getElementById("eqMode"),linView=document.getElementById("eqLinear"),quadView=document.getElementById("eqQuad");
+    if(!modeSel)return;
+    function sync(){var q=modeSel.value==="quad";linView.className="view"+(q?"":" on");quadView.className="view"+(q?" on":"");}
+    modeSel.addEventListener("change",sync);sync();
+    function num(id){return parseFloat(document.getElementById(id).value);}
+    function render(resEl,r){
+      if(!r){resEl.style.display="block";resEl.innerHTML='<p class="err">Sila masukkan nombor dalam setiap kotak.</p>';return;}
+      var h='<div class="resbig"><span>Jawapan</span><strong>'+r.summary+'</strong></div><p style="font-weight:700;color:#062e2a;margin-bottom:6px">Pengiraan langkah demi langkah</p><ol style="margin-left:20px">';
+      r.steps.forEach(function(s){h+="<li style='margin-bottom:6px'>"+s+"</li>";});
+      resEl.innerHTML=h+"</ol>";resEl.style.display="block";
+    }
+    document.getElementById("eqLinForm").addEventListener("submit",function(e){
+      e.preventDefault();
+      var a=num("la"),b=num("lb"),c=num("lc"),d=num("ld");
+      if([a,b,c,d].some(isNaN)){render(document.getElementById("eqLinRes"),null);return;}
+      render(document.getElementById("eqLinRes"),solveLinearEq(a,b,c,d));
+    });
+    document.getElementById("eqQuadForm").addEventListener("submit",function(e){
+      e.preventDefault();
+      var a=num("qa"),b=num("qb"),c=num("qc");
+      if([a,b,c].some(isNaN)){render(document.getElementById("eqQuadRes"),null);return;}
+      render(document.getElementById("eqQuadRes"),solveQuadraticEq(a,b,c));
+    });
+  });
+}
+</script>
+
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Pasang Apl';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Pasang apl ini: ketik butang Kongsi, kemudian pilih "Tambah ke Skrin Utama".');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body></html>

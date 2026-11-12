@@ -1,0 +1,29 @@
+{
+  "name": "Loona Penyemak Kelayakan ETIAS",
+  "short_name": "Penyemak Kelayakan ETIAS",
+  "description": "Penyemak kelayakan ETIAS percuma: pilih kewarganegaraan dan situasi perjalanan anda untuk melihat sama ada anda memerlukan ETIAS, visa Schengen, atau tiada kebenaran untuk perjalanan singkat ke Eropah.",
+  "id": "/loona-calculators/ms/etias-eligibility-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

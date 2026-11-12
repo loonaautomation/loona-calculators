@@ -1,0 +1,29 @@
+{
+  "name": "Loona Penukar Desimal kepada Binari",
+  "short_name": "Penukar Perpuluhan ke Binari",
+  "description": "Tukarkan perpuluhan (asas 10) kepada binari (asas 2) dengan pengesahan, pengiraan nilai tempat dan jadual rujukan.",
+  "id": "/loona-calculators/ms/decimal-to-binary-converter.html",
+  "start_url": "./decimal-to-binary-converter.html",
+  "scope": "./decimal-to-binary-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

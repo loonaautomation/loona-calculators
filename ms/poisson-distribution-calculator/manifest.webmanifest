@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Taburan Poisson",
+  "short_name": "Taburan Poisson",
+  "description": "Kalkulator taburan Poisson percuma: kebarangkalian tepat k peristiwa, paling banyak k, atau sekurang-kurangnya k, diberikan kadar purata lambda. Untuk panggilan, ketibaan, kecacatan dan peristiwa jarang.",
+  "id": "/loona-calculators/ms/poisson-distribution-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

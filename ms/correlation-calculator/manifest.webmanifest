@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Korelasi",
+  "short_name": "Kalkulator Korelasi",
+  "description": "Kalkulator korelasi Pearson percuma: tampal data berpasangan x,y untuk mendapatkan pekali korelasi r, r kuasa dua, dan bacaan kekuatan dalam bahasa Inggeris yang mudah.",
+  "id": "/loona-calculators/ms/correlation-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

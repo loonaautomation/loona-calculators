@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator GPA",
+  "short_name": "Kalkulator GPA",
+  "description": "Kalkulator GPA percuma: masukkan sehingga 8 kursus dengan gred huruf (A hingga F) dan jam kredit untuk mendapatkan GPA anda pada skala standard 4.0. Pantas, peribadi, tanpa pendaftaran.",
+  "id": "/loona-calculators/ms/gpa-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

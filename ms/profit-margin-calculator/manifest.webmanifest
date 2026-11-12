@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Margin Keuntungan",
+  "short_name": "Kalkulator Margin Untung",
+  "description": "Kalkulator margin keuntungan percuma: masukkan harga kos dan harga jualan untuk mendapatkan keuntungan, peratusan margin keuntungan dan peratusan markup serta-merta. Untuk kedai dan penjual dalam talian.",
+  "id": "/loona-calculators/ms/profit-margin-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Pengambilan Protein",
+  "short_name": "Kalkulator Pengambilan Protein",
+  "description": "Kalkulator pengambilan protein percuma: gram protein harian daripada berat badan, tahap aktiviti dan matlamat menggunakan julat g/kg berasaskan bukti. Berbeza daripada pecahan makro berasaskan kalori.",
+  "id": "/loona-calculators/ms/protein-intake-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

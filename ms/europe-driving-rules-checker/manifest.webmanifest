@@ -1,0 +1,29 @@
+{
+  "name": "Loona Penyemak Peraturan Memandu Eropah",
+  "short_name": "Penyemak Peraturan Memandu Eropah",
+  "description": "Penyemak peraturan memandu Eropah percuma: pilih negara untuk sisi pemanduannya, had laju lebuh raya, had memandu dalam keadaan mabuk dan peraturan tempatan utama untuk pemandu pelawat.",
+  "id": "/loona-calculators/ms/europe-driving-rules-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Rentak Larian",
+  "short_name": "Kalkulator Pace Larian",
+  "description": "Kalkulator rentak larian percuma: pilih 5K, 10K, separuh maraton, maraton atau jarak tersuai dengan masa tamat anda untuk mendapatkan rentak per km dan per batu, serta ramalan masa tamat.",
+  "id": "/loona-calculators/ms/pace-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator ROI",
+  "short_name": "Kalkulator ROI",
+  "description": "Kalkulator ROI percuma: masukkan amaun yang dilaburkan, amaun yang dipulangkan dan tahun dipegang untuk mendapatkan jumlah peratusan ROI dan pulangan tahunan untuk sebarang pelaburan.",
+  "id": "/loona-calculators/ms/roi-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

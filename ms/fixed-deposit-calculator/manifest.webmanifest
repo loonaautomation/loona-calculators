@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Deposit Tetap",
+  "short_name": "Kalkulator Deposit Tetap",
+  "description": "Kalkulator deposit tetap (FD) percuma: jumlah deposit, kadar faedah, tempoh dan kekerapan pengkompaunan — dapatkan nilai matang dan jumlah faedah yang diperoleh.",
+  "id": "/loona-calculators/ms/fixed-deposit-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
