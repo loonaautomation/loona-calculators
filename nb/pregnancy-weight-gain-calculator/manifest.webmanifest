@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator for vektøkning i svangerskapet",
+  "short_name": "Vektøkning i graviditet",
+  "description": "Gratis kalkulator for vektøkning i graviditet: IOM anbefalte totale og uke-for-uke områder for vektøkning basert på BMI-kategorien din før graviditeten. Kun pedagogisk veiledning.",
+  "id": "/loona-calculators/nb/pregnancy-weight-gain-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

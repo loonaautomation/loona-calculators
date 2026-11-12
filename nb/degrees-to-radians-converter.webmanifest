@@ -1,0 +1,29 @@
+{
+  "name": "Loona Grader til radianer-omregner",
+  "short_name": "Grader til radianer-omregner",
+  "description": "Konverter grader til radianer umiddelbart. Nøyaktig formel, en full omregningstabell for ° til rad og gjennomarbeidede eksempler. Gratis, ingen registrering.",
+  "id": "/loona-calculators/nb/degrees-to-radians-converter.html",
+  "start_url": "./degrees-to-radians-converter.html",
+  "scope": "./degrees-to-radians-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

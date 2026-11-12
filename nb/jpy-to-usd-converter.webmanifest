@@ -1,0 +1,29 @@
+{
+  "name": "Loona JPY til USD-omregner",
+  "short_name": "JPY til USD-omregner",
+  "description": "Konverter Japansk yen (JPY) til amerikansk dollar (USD). ECB-referansekurs datert 06. november 2026, invers kurs, konverteringstabell og korridornotater. Kun veiledende.",
+  "id": "/loona-calculators/nb/jpy-to-usd-converter.html",
+  "start_url": "./jpy-to-usd-converter.html",
+  "scope": "./jpy-to-usd-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Binomialfordelingskalkulator",
+  "short_name": "Binomialfordeling",
+  "description": "Gratis kalkulator for binomialfordeling: sannsynlighet for nøyaktig k suksesser, høyst k, eller minst k, i n forsøk med suksessannsynlighet p. Verdier sjekket mot lærebøker.",
+  "id": "/loona-calculators/nb/binomial-distribution-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

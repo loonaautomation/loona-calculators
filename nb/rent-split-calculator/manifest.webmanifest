@@ -1,0 +1,29 @@
+{
+  "name": "Loona Leiedelingskalkulator",
+  "short_name": "Kalkulator for husleiedeling",
+  "description": "Gratis kalkulator for leiedeling: del den månedlige leien mellom 2 til 8 romkamerater — likt, etter romstørrelse i kvadratfot, eller etter inntekt. Andelene summerer alltid til den nøyaktige totalen.",
+  "id": "/loona-calculators/nb/rent-split-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

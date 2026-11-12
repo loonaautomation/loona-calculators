@@ -1,0 +1,29 @@
+{
+  "name": "Loona Husleieøkningskalkulator",
+  "short_name": "Kalkulator for husleieøkning",
+  "description": "Gratis kalkulator for leieøkning: skriv inn nåværende leie og den prosentvise økningen (eller den nye leien) for å se den nye månedlige leien, den ekstra kostnaden per måned og år, og en projeksjon år for år.",
+  "id": "/loona-calculators/nb/rent-increase-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

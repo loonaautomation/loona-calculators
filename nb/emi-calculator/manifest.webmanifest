@@ -1,0 +1,29 @@
+{
+  "name": "Loona EMI-kalkulator",
+  "short_name": "EMI-kalkulator",
+  "description": "Gratis EMI- og lånekalkulator: skriv inn lånebeløp, rente- eller fortjenestesats og løpetid for å få den månedlige innbetalingen, den totale renten og den totale innbetalingen. For banklån, billån og personlån.",
+  "id": "/loona-calculators/nb/emi-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

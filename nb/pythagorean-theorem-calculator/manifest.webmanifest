@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator for Pytagoras' setning",
+  "short_name": "Pytagoras-kalkulator",
+  "description": "Gratis kalkulator for Pytagoras' læresetning: skriv inn to sider i en rettvinklet trekant for å finne den tredje — hypotenus eller katet — med utregningen vist.",
+  "id": "/loona-calculators/nb/pythagorean-theorem-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

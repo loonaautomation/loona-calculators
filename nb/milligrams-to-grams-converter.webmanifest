@@ -1,0 +1,29 @@
+{
+  "name": "Loona Milligram til gram-omregner",
+  "short_name": "Milligram til gram-omregner",
+  "description": "Konverter milligram til gram umiddelbart. Nøyaktig formel, en full omregningstabell for mg til g og regneeksempler. Gratis, ingen registrering.",
+  "id": "/loona-calculators/nb/milligrams-to-grams-converter.html",
+  "start_url": "./milligrams-to-grams-converter.html",
+  "scope": "./milligrams-to-grams-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

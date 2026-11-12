@@ -1,0 +1,29 @@
+{
+  "name": "Loona Ettutvalgs z-testkalkulator",
+  "short_name": "Z-testkalkulator for ett utvalg",
+  "description": "Gratis z-testkalkulator for ett utvalg: utvalgsgjennomsnitt, kjent SD for populasjonen, n og hypotetisk gjennomsnitt gir z-statistikken og p-verdier. Sjekket mot lærebøker.",
+  "id": "/loona-calculators/nb/z-test-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

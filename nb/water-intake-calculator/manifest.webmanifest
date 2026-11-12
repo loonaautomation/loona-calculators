@@ -1,0 +1,29 @@
+{
+  "name": "Loona Vanninntakskalkulator",
+  "short_name": "Vanninntakskalkulator",
+  "description": "Gratis vanninntakskalkulator: skriv inn vekten din og daglig trening for å få det anbefalte vanninntaket ditt i liter, milliliter og glass per dag.",
+  "id": "/loona-calculators/nb/water-intake-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

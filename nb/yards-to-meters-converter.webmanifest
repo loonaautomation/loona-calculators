@@ -1,0 +1,29 @@
+{
+  "name": "Loona Yard til meter-omregner",
+  "short_name": "Yards til meter-omregner",
+  "description": "Konverter yard til meter umiddelbart. Nøyaktig formel, en full omregningstabell for yd til m og regneeksempler. Gratis, ingen registrering.",
+  "id": "/loona-calculators/nb/yards-to-meters-converter.html",
+  "start_url": "./yards-to-meters-converter.html",
+  "scope": "./yards-to-meters-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

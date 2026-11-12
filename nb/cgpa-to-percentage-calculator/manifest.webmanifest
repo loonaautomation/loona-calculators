@@ -1,0 +1,29 @@
+{
+  "name": "Loona CGPA til prosent-kalkulator",
+  "short_name": "CGPA til prosent-kalkulator",
+  "description": "Gratis omregner fra CGPA til prosent: konverter CGPA av 10 (×9.5-formel) eller GPA av 4 til prosent, med et tilpasset multiplikatoralternativ for enhver nemnd eller universitet.",
+  "id": "/loona-calculators/nb/cgpa-to-percentage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

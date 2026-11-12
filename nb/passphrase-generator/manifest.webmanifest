@@ -1,0 +1,29 @@
+{
+  "name": "Loona Passfrasegenerator",
+  "short_name": "Passfrasegenerator",
+  "description": "Gratis passfrasegenerator: bygg sterke, minneverdige passfraser fra tilfeldige ekte ord, med alternativer for antall ord, skilletegn, store bokstaver og tall. Kjører i nettleseren din.",
+  "id": "/loona-calculators/nb/passphrase-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Drikkepengekalkulator",
+  "short_name": "Drikskalkulator",
+  "description": "Gratis drikkskalkulator: skriv inn regningen, driksprosent og antall personer for å få driksbeløpet, den totale regningen og den nøyaktige andelen hver person betaler.",
+  "id": "/loona-calculators/nb/tip-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

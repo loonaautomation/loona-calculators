@@ -1,0 +1,29 @@
+{
+  "name": "Loona Karakterkalkulator",
+  "short_name": "Karakterkalkulator",
+  "description": "Gratis vektet karakterkalkulator: skriv inn opptil 8 oppgavepoeng med vektene deres for å få den samlede karakterprosenten og bokstavkarakteren din. Vekter trenger ikke å summere til 100.",
+  "id": "/loona-calculators/nb/grade-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

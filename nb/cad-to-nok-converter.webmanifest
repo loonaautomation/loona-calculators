@@ -1,0 +1,29 @@
+{
+  "name": "Loona CAD til NOK-omregner",
+  "short_name": "CAD til NOK-omregner",
+  "description": "Konverter Kanadisk dollar (CAD) til norsk krone (NOK). ECB-referansekurs datert 06. november 2026, invers kurs, konverteringstabell og korridornotater. Kun veiledende.",
+  "id": "/loona-calculators/nb/cad-to-nok-converter.html",
+  "start_url": "./cad-to-nok-converter.html",
+  "scope": "./cad-to-nok-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

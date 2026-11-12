@@ -1,0 +1,29 @@
+{
+  "name": "Loona Newton til dyn-omregner",
+  "short_name": "Newton til dyn-omregner",
+  "description": "Konverter newton til dyn umiddelbart. Nøyaktig formel, en full omregningstabell for N til dyn, et regneeksempel og ofte stilte spørsmål. Gratis, ingen registrering.",
+  "id": "/loona-calculators/nb/newtons-to-dynes-converter.html",
+  "start_url": "./newtons-to-dynes-converter.html",
+  "scope": "./newtons-to-dynes-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

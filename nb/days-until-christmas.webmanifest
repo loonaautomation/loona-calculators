@@ -1,0 +1,29 @@
+{
+  "name": "Loona Dager til juledagen",
+  "short_name": "Dager til juledagen",
+  "description": "Direkte nedtelling til juledagen: nøyaktig antall dager, timer, minutter og sekunder som er igjen, datoen i år og de neste tre årene, fakta og vanlige spørsmål.",
+  "id": "/loona-calculators/nb/days-until-christmas.html",
+  "start_url": "./days-until-christmas.html",
+  "scope": "./days-until-christmas.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

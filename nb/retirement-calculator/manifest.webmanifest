@@ -1,0 +1,29 @@
+{
+  "name": "Loona Pensjonskalkulator",
+  "short_name": "Pensjonskalkulator",
+  "description": "Gratis pensjonskalkulator: nåværende alder, pensjonsalder, sparing og månedlig bidrag — projiser pensjonskapitalen din og hvor mye av den som er vekst.",
+  "id": "/loona-calculators/nb/retirement-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona MVA-kalkulator",
+  "short_name": "MVA-kalkulator",
+  "description": "Gratis VAT/GST-kalkulator: legg skatt til et nettobeløp eller fjern skatt fra et bruttobeløp til enhver sats. Fungerer for VAT, GST og omsetningsavgift i ethvert land.",
+  "id": "/loona-calculators/nb/vat-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

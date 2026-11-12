@@ -1,0 +1,29 @@
+{
+  "name": "Loona Terabyte til byte-omregner",
+  "short_name": "Terabyte til byte-omregner",
+  "description": "Konverter terabyte til byte umiddelbart. Nøyaktig formel, en full omregningstabell for TB til B, et regneeksempel og ofte stilte spørsmål. Gratis, ingen registrering.",
+  "id": "/loona-calculators/nb/terabytes-to-bytes-converter.html",
+  "start_url": "./terabytes-to-bytes-converter.html",
+  "scope": "./terabytes-to-bytes-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

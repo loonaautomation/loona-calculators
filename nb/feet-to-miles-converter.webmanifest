@@ -1,0 +1,29 @@
+{
+  "name": "Loona Fot til mile-omregner",
+  "short_name": "Omregner for fot til mile",
+  "description": "Konverter fot til miles umiddelbart. Nøyaktig formel, en full omregningstabell for ft til mi, et gjennomarbeidet eksempel og vanlige spørsmål. Gratis, ingen registrering.",
+  "id": "/loona-calculators/nb/feet-to-miles-converter.html",
+  "start_url": "./feet-to-miles-converter.html",
+  "scope": "./feet-to-miles-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

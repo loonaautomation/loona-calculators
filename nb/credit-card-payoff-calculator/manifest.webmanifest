@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator for nedbetaling av kredittkort",
+  "short_name": "Kalkulator for nedbetaling av kredittkort",
+  "description": "Gratis kalkulator for nedbetaling av kredittkort: saldo, APR og en fast månedlig innbetaling — se månedene til nedbetaling, total rente og totalt betalt, med en advarsel for for små innbetalinger.",
+  "id": "/loona-calculators/nb/credit-card-payoff-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

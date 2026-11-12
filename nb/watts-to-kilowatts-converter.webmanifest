@@ -1,0 +1,29 @@
+{
+  "name": "Loona Watt til kilowatt-omregner",
+  "short_name": "Watt til kilowatt-omregner",
+  "description": "Konverter watt til kilowatt umiddelbart. Nøyaktig formel, en full omregningstabell for W til kW, et regneeksempel og ofte stilte spørsmål. Gratis, ingen registrering.",
+  "id": "/loona-calculators/nb/watts-to-kilowatts-converter.html",
+  "start_url": "./watts-to-kilowatts-converter.html",
+  "scope": "./watts-to-kilowatts-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Sannsynlighetskalkulator",
+  "short_name": "Sannsynlighetskalkulator",
+  "description": "Gratis sannsynlighetskalkulator: sannsynlighet for A og B, A eller B, ingen og nøyaktig én; odds-omregning; kombinasjoner og permutasjoner. Med formler og eksempler.",
+  "id": "/loona-calculators/nb/probability-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

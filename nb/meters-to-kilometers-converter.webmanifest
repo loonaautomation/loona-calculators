@@ -1,0 +1,29 @@
+{
+  "name": "Loona Meter til km-omregner",
+  "short_name": "Meter til km-omregner",
+  "description": "Konverter meter til kilometer umiddelbart. Nøyaktig formel, en full omregningstabell for m til km og regneeksempler. Gratis, ingen registrering.",
+  "id": "/loona-calculators/nb/meters-to-kilometers-converter.html",
+  "start_url": "./meters-to-kilometers-converter.html",
+  "scope": "./meters-to-kilometers-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

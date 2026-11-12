@@ -1,0 +1,29 @@
+{
+  "name": "Loona Arbeidsdager i Ungarn",
+  "short_name": "Arbeidsdager i Ungarn",
+  "description": "Kalkulator for arbeidsdager for Ungarn: virkedager mellom to datoer med helger, ungarske offentlige helligdager og inneklemte fridager i 2026 håndtert. Gratis verktøy.",
+  "id": "/loona-calculators/nb/working-days-in-hungary.html",
+  "start_url": "./working-days-in-hungary.html",
+  "scope": "./working-days-in-hungary.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

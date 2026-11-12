@@ -1,0 +1,29 @@
+{
+  "name": "Loona Aldersforskjellkalkulator",
+  "short_name": "Aldersforskjellkalkulator",
+  "description": "Gratis kalkulator for aldersforskjell: skriv inn to fødselsdatoer for å få den nøyaktige forskjellen i år, måneder og dager, de totale dagene mellom dem, og hvem som er eldre.",
+  "id": "/loona-calculators/nb/age-difference-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

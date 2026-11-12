@@ -1,0 +1,29 @@
+{
+  "name": "Loona Enveis ANOVA-kalkulator",
+  "short_name": "Enveis ANOVA-kalkulator",
+  "description": "Gratis enveis ANOVA-kalkulator: skriv inn tallene for hver gruppe på hver sin linje for å få kvadratsummer, F-statistikk, frihetsgrader og p-verdi, med gruppegjennomsnitt.",
+  "id": "/loona-calculators/nb/anova-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

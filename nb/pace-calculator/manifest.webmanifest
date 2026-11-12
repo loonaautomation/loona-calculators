@@ -1,0 +1,29 @@
+{
+  "name": "Loona Løpetempokalkulator",
+  "short_name": "Kalkulator for løpetempo",
+  "description": "Gratis løpetempokalkulator: velg 5K, 10K, halvmaraton, maraton eller en tilpasset avstand med sluttiden din for å få tempo per km og per mile, pluss predikerte sluttider.",
+  "id": "/loona-calculators/nb/pace-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

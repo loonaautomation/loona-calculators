@@ -1,0 +1,29 @@
+{
+  "name": "Loona Korrelasjonskalkulator",
+  "short_name": "Korrelasjonskalkulator",
+  "description": "Gratis kalkulator for Pearson-korrelasjon: lim inn parede x,y-data for å få korrelasjonskoeffisienten r, r-kvadrert, og en styrkeavlesning i klare ordelag.",
+  "id": "/loona-calculators/nb/correlation-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

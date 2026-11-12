@@ -1,0 +1,29 @@
+{
+  "name": "Loona Sekunder til minutter-omregner",
+  "short_name": "Sekunder til minutter-omregner",
+  "description": "Konverter sekunder til minutter umiddelbart. Nøyaktig formel, en full omregningstabell for s til min og regneeksempler. Gratis, ingen registrering.",
+  "id": "/loona-calculators/nb/seconds-to-minutes-converter.html",
+  "start_url": "./seconds-to-minutes-converter.html",
+  "scope": "./seconds-to-minutes-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

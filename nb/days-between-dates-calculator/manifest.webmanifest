@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator for dager mellom datoer",
+  "short_name": "Kalkulator for dager mellom datoer",
+  "description": "Gratis kalkulator for dager mellom datoer: tell det nøyaktige antallet dager, uker og år mellom to datoer. Nyttig for frister, visum, kontrakter og nedtellinger.",
+  "id": "/loona-calculators/nb/days-between-dates-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

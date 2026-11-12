@@ -1,0 +1,29 @@
+{
+  "name": "Loona Verdensklokke",
+  "short_name": "Verdensklokke",
+  "description": "Gratis verdensklokke i sanntid: nåværende lokal tid og dato i 24 storbyer inkludert London, New York, Dubai, Karachi og Tokyo, oppdatert hvert sekund via tidssoner.",
+  "id": "/loona-calculators/nb/world-clock/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

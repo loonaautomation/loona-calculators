@@ -1,0 +1,29 @@
+{
+  "name": "Loona LCM og HCF-kalkulator",
+  "short_name": "LCM og HCF-kalkulator",
+  "description": "Gratis LCM- og HCF-kalkulator: skriv inn to eller tre hele tall for å få deres minste felles multiplum (LCM) og største felles faktor (HCF/GCD) med en gang.",
+  "id": "/loona-calculators/nb/lcm-hcf-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

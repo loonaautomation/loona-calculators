@@ -1,0 +1,29 @@
+{
+  "name": "Loona Énrepetisjonsmaks (1RM)-kalkulator",
+  "short_name": "Kalkulator for én-repetisjonsmaks (1RM)",
+  "description": "Gratis kalkulator for maksimal én-repetisjon: anslå 1RM-en din fra et setts vekt og reps med formlene Epley, Brzycki og Lombardi, pluss treningsprosenter.",
+  "id": "/loona-calculators/nb/one-rep-max-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona London til Mumbai-tidomregner",
+  "short_name": "London til Mumbai-tid",
+  "description": "Konverter London-tid til Mumbai-tid. Mumbai er 5 timer 30 minutter foran London i januar og 4 timer 30 minutter foran i juli, med sommertidsdatoer, en 24-timers tabell og det beste møtevinduet. Direkte omregner inkludert.",
+  "id": "/loona-calculators/nb/london-to-mumbai-time-converter.html",
+  "start_url": "./london-to-mumbai-time-converter.html",
+  "scope": "./london-to-mumbai-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

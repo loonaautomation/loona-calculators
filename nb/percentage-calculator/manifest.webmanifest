@@ -1,0 +1,29 @@
+{
+  "name": "Loona Prosentkalkulator",
+  "short_name": "Prosentkalkulator",
+  "description": "Gratis prosentkalkulator med tre verktøy i ett: hva er X% av Y, X er hvor mange prosent av Y, og prosentvis økning eller nedgang mellom to tall.",
+  "id": "/loona-calculators/nb/percentage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

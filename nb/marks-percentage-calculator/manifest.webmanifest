@@ -1,0 +1,29 @@
+{
+  "name": "Loona Karakterprosentkalkulator",
+  "short_name": "Karakterprosentkalkulator",
+  "description": "Gratis kalkulator for poengprosent: skriv inn oppnådde og totale poeng for å få prosenten og karakteren din med en gang. For matric, inter, universitet og alle eksamener.",
+  "id": "/loona-calculators/nb/marks-percentage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

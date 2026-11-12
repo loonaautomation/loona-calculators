@@ -1,0 +1,29 @@
+{
+  "name": "Loona Grad til bueminutt-omregner",
+  "short_name": "Grad til bueminutt-omregner",
+  "description": "Konverter grader til bueminutter umiddelbart. Nøyaktig formel, en full omregningstabell for ° til ′, et gjennomarbeidet eksempel og vanlige spørsmål. Gratis, ingen registrering.",
+  "id": "/loona-calculators/nb/degrees-to-arcminutes-converter.html",
+  "start_url": "./degrees-to-arcminutes-converter.html",
+  "scope": "./degrees-to-arcminutes-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

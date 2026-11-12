@@ -1,0 +1,29 @@
+{
+  "name": "Loona Megawatt til watt-omregner",
+  "short_name": "Megawatt til watt-omregner",
+  "description": "Konverter megawatt til watt umiddelbart. Nøyaktig formel, en full omregningstabell for MW til W, et regneeksempel og ofte stilte spørsmål. Gratis, ingen registrering.",
+  "id": "/loona-calculators/nb/megawatts-to-watts-converter.html",
+  "start_url": "./megawatts-to-watts-converter.html",
+  "scope": "./megawatts-to-watts-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

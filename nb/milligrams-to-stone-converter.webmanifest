@@ -1,0 +1,29 @@
+{
+  "name": "Loona Milligram til stone-omregner",
+  "short_name": "Milligram til stone-omregner",
+  "description": "Konverter milligram til stone umiddelbart. Nøyaktig formel, en full omregningstabell for mg til st, et regneeksempel og ofte stilte spørsmål. Gratis, ingen registrering.",
+  "id": "/loona-calculators/nb/milligrams-to-stone-converter.html",
+  "start_url": "./milligrams-to-stone-converter.html",
+  "scope": "./milligrams-to-stone-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

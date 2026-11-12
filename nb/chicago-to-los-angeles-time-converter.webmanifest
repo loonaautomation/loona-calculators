@@ -1,0 +1,29 @@
+{
+  "name": "Loona Chicago til Los Angeles-tidomregner",
+  "short_name": "Chicago til Los Angeles-tid",
+  "description": "Konverter Chicago-tid til Los Angeles-tid. Los Angeles er 2 timer bak Chicago hele året, med sommertidsdatoer, en 24-timers tabell og det beste møtevinduet. Direkte omregner inkludert.",
+  "id": "/loona-calculators/nb/chicago-to-los-angeles-time-converter.html",
+  "start_url": "./chicago-to-los-angeles-time-converter.html",
+  "scope": "./chicago-to-los-angeles-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

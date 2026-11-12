@@ -1,0 +1,29 @@
+{
+  "name": "Loona Menstruasjonskalkulator",
+  "short_name": "Menstruasjonskalkulator",
+  "description": "Gratis menstruasjonskalkulator: skriv inn første dag av siste menstruasjon og sykluslengde for å forutsi de neste menstruasjonene dine, eggløsningsdag og fruktbart vindu. Kun pedagogisk anslag.",
+  "id": "/loona-calculators/nb/period-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Arbeidsdager i Storbritannia",
+  "short_name": "Arbeidsdager i Storbritannia",
+  "description": "Kalkulator for arbeidsdager for Storbritannia (England og Wales): virkedager mellom to datoer, minus helger og alle 8 offentlige helligdager i 2026.",
+  "id": "/loona-calculators/nb/working-days-in-united-kingdom.html",
+  "start_url": "./working-days-in-united-kingdom.html",
+  "scope": "./working-days-in-united-kingdom.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

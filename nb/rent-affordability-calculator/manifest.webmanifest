@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator for overkommelig leie",
+  "short_name": "Kalkulator for husleiebudsjett",
+  "description": "Gratis kalkulator for leieoverkommelighet: skriv inn bruttoinntekten din, andelen du kan bruke på leie og den månedlige gjelden din for å se den maksimale leien du har råd til — med 28/36-retningslinjen.",
+  "id": "/loona-calculators/nb/rent-affordability-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

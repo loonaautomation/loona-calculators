@@ -1,0 +1,29 @@
+{
+  "name": "Loona Skostørrelseomregner",
+  "short_name": "Skostørrelsesomregner",
+  "description": "Gratis skostørrelsesomregner for menn og kvinner: konverter mellom US-, UK- og EU-størrelser og fotlengde i cm og tommer, ved hjelp av standard omregningstabeller med nærmeste match.",
+  "id": "/loona-calculators/nb/shoe-size-converter/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

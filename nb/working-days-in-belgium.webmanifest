@@ -1,0 +1,29 @@
+{
+  "name": "Loona Arbeidsdager i Belgia",
+  "short_name": "Arbeidsdager i Belgia",
+  "description": "Kalkulator for arbeidsdager for Belgia: tell virkedager mellom to datoer med helger og alle 10 belgiske nasjonale offentlige helligdager i 2026 fjernet. Gratis.",
+  "id": "/loona-calculators/nb/working-days-in-belgium.html",
+  "start_url": "./working-days-in-belgium.html",
+  "scope": "./working-days-in-belgium.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

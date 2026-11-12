@@ -1,0 +1,29 @@
+{
+  "name": "Loona Hijri-datoomregner",
+  "short_name": "Datokonverterer for hijri",
+  "description": "Gratis hijri-datoomregner: konverter enhver gregoriansk (engelsk) dato til den islamske hijri-datoen og tilbake, ved hjelp av Umm al-Qura-kalenderen. Ramadan, Eid og islamske datosjekker gjort enkelt.",
+  "id": "/loona-calculators/nb/hijri-date-converter/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

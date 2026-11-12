@@ -1,0 +1,29 @@
+{
+  "name": "Loona Mål-CGPA-kalkulator",
+  "short_name": "Mål-CGPA-kalkulator",
+  "description": "Gratis kalkulator for mål-CGPA: nåværende CGPA, studiepoeng fullført, mål-CGPA og studiepoeng igjen — se GPA-en du må oppnå, eller den maksimale CGPA-en som fortsatt er oppnåelig.",
+  "id": "/loona-calculators/nb/target-cgpa-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

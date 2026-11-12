@@ -1,0 +1,29 @@
+{
+  "name": "Loona Normalfordelingskalkulator",
+  "short_name": "Normalfordelingskalkulator",
+  "description": "Gratis kalkulator for normalfordeling: for ethvert gjennomsnitt og standardavvik, finn P(X<x), P(X>x), P(a<X<b), og verdien ved en gitt persentil.",
+  "id": "/loona-calculators/nb/normal-distribution-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

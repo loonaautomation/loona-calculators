@@ -1,0 +1,29 @@
+{
+  "name": "Loona Gjennomsnittskalkulator",
+  "short_name": "Gjennomsnittskalkulator",
+  "description": "Gratis gjennomsnittskalkulator: lim inn en liste med tall for å få gjennomsnitt, median, modus, sum, antall, minimum, maksimum og område — med en gang, for opptil 50 tall.",
+  "id": "/loona-calculators/nb/average-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

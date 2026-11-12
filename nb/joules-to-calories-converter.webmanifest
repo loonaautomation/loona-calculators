@@ -1,0 +1,29 @@
+{
+  "name": "Loona Joule til kalorier-omregner",
+  "short_name": "Joule til kalorier-omregner",
+  "description": "Konverter joule til kalorier umiddelbart. Nøyaktig formel, en full omregningstabell for J til cal og regneeksempler. Gratis, ingen registrering.",
+  "id": "/loona-calculators/nb/joules-to-calories-converter.html",
+  "start_url": "./joules-to-calories-converter.html",
+  "scope": "./joules-to-calories-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

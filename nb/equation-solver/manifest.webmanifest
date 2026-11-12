@@ -1,0 +1,29 @@
+{
+  "name": "Loona Likningsløser (lineær og kvadratisk)",
+  "short_name": "Ligningsløser (Lineær &",
+  "description": "Gratis ligningsløser for lineære (ax + b = cx + d) og kvadratiske (ax² + bx + c = 0) ligninger, med full utregning trinn for trinn, diskriminanten, komplekse røtter og en siste kontroll.",
+  "id": "/loona-calculators/nb/equation-solver/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

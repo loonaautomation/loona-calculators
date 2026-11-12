@@ -1,0 +1,29 @@
+{
+  "name": "Loona Millisekund til minutt-omregner",
+  "short_name": "Millisekund til Minutt",
+  "description": "Konverter millisekunder til minutter umiddelbart. Nøyaktig formel, en full omregningstabell for ms til min, et regneeksempel og ofte stilte spørsmål. Gratis, ingen registrering.",
+  "id": "/loona-calculators/nb/milliseconds-to-minutes-converter.html",
+  "start_url": "./milliseconds-to-minutes-converter.html",
+  "scope": "./milliseconds-to-minutes-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

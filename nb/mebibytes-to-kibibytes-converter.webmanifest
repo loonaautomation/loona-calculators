@@ -1,0 +1,29 @@
+{
+  "name": "Loona Mebibyte til kibibyte-omregner",
+  "short_name": "Mebibyte til kibibyte-omregner",
+  "description": "Konverter mebibyte til kibibyte umiddelbart. Nøyaktig formel, en full omregningstabell for MiB til KiB, et regneeksempel og ofte stilte spørsmål. Gratis, ingen registrering.",
+  "id": "/loona-calculators/nb/mebibytes-to-kibibytes-converter.html",
+  "start_url": "./mebibytes-to-kibibytes-converter.html",
+  "scope": "./mebibytes-to-kibibytes-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

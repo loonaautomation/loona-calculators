@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator for enkel rente",
+  "short_name": "Kalkulator for enkel rente",
+  "description": "Gratis kalkulator for enkel rente: skriv inn hovedstol, årlig sats og tid (år og måneder) for å beregne opptjent rente og totalt beløp. Enkel formel I = P×R×T/100.",
+  "id": "/loona-calculators/nb/simple-interest-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

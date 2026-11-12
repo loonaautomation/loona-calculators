@@ -1,0 +1,29 @@
+{
+  "name": "Loona Unser til gram-omregner",
+  "short_name": "Unser til gram-omregner",
+  "description": "Konverter unser til gram umiddelbart. Nøyaktig formel, en full omregningstabell for oz til g og regneeksempler. Gratis, ingen registrering.",
+  "id": "/loona-calculators/nb/ounces-to-grams-converter.html",
+  "start_url": "./ounces-to-grams-converter.html",
+  "scope": "./ounces-to-grams-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

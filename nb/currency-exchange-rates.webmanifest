@@ -1,0 +1,29 @@
+{
+  "name": "Loona Valutakurser",
+  "short_name": "Valutakurser",
+  "description": "ECBs referansevalutakurser datert 06. november 2026 for 20 valutaer — alle 380 par med omregnere, inverse kurser og tabeller.",
+  "id": "/loona-calculators/nb/currency-exchange-rates.html",
+  "start_url": "./currency-exchange-rates.html",
+  "scope": "./currency-exchange-rates.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kilogram til tonn-omregner",
+  "short_name": "Kilogram til tonn-omregner",
+  "description": "Konverter kilogram til tonn umiddelbart. Nøyaktig formel, en full omregningstabell for kg til t, et regneeksempel og ofte stilte spørsmål. Gratis, ingen registrering.",
+  "id": "/loona-calculators/nb/kilograms-to-tonnes-converter.html",
+  "start_url": "./kilograms-to-tonnes-converter.html",
+  "scope": "./kilograms-to-tonnes-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

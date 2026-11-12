@@ -1,0 +1,29 @@
+{
+  "name": "Loona Millisekund til uke-omregner",
+  "short_name": "Millisekund til uke-omregner",
+  "description": "Konverter millisekunder til uker umiddelbart. Nøyaktig formel, en full omregningstabell for ms til wk, et regneeksempel og ofte stilte spørsmål. Gratis, ingen registrering.",
+  "id": "/loona-calculators/nb/milliseconds-to-weeks-converter.html",
+  "start_url": "./milliseconds-to-weeks-converter.html",
+  "scope": "./milliseconds-to-weeks-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

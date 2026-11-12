@@ -1,0 +1,29 @@
+{
+  "name": "Loona Alderskalkulator",
+  "short_name": "Alderskalkulator",
+  "description": "Gratis alderskalkulator: skriv inn fødselsdatoen din og få den nøyaktige alderen din i år, måneder og dager, pluss totale dager, uker og timer levd og din neste bursdag. Ingen registrering.",
+  "id": "/loona-calculators/nb/age-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

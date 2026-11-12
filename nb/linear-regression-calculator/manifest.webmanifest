@@ -1,0 +1,29 @@
+{
+  "name": "Loona Lineærregresjonskalkulator",
+  "short_name": "Lineærregresjonskalkulator",
+  "description": "Gratis kalkulator for lineær regresjon: lim inn parede data for å få minste kvadraters linje y = a + bx, korrelasjon, prediksjoner, og et spredningsplott med den tilpassede linjen tegnet.",
+  "id": "/loona-calculators/nb/linear-regression-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
