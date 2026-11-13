@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калкулатор за кредити",
+  "short_name": "Калкулатор за кредити",
+  "description": "Безплатен калкулатор за заеми: въведете сума, годишен лихвен процент и срок, за да получите месечното си плащане, общата лихва и общото изплащане за всеки заем.",
+  "id": "/loona-calculators/bg/loan-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

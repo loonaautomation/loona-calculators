@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калкулатор за процент от оценки",
+  "short_name": "Калкулатор за процент от оценки",
+  "description": "Безплатен калкулатор за процент от оценки: въведете получени и общи оценки, за да получите процента и оценката си мигновено. За matric, inter, университет и всички изпити.",
+  "id": "/loona-calculators/bg/marks-percentage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

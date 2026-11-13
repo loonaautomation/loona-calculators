@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертор на време от Лондон до Сингапур",
+  "short_name": "Време от Лондон до Сингапур",
+  "description": "Преобразувайте времето в Лондон към времето в Сингапур. Сингапур е с 8 часа пред Лондон през януари и със 7 часа пред през юли, с дати на лятното часово време, таблица за 24 часа и най-добрия прозорец за срещи. Включен е конвертор на живо.",
+  "id": "/loona-calculators/bg/london-to-singapore-time-converter.html",
+  "start_url": "./london-to-singapore-time-converter.html",
+  "scope": "./london-to-singapore-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

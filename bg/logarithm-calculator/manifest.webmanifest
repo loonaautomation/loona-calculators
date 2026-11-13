@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калкулатор за логаритми",
+  "short_name": "Калкулатор за логаритми",
+  "description": "Безплатен калкулатор за логаритми: намерете логаритъм при всяка основа, плюс обикновения логаритъм (основа 10), натуралния логаритъм (ln) и двоичния логаритъм (основа 2), всеки проверен от неговия антилогаритъм. Формулата за смяна на основата е обяснена.",
+  "id": "/loona-calculators/bg/logarithm-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

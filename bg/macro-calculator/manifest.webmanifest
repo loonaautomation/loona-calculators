@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калкулатор за макронутриенти",
+  "short_name": "Калкулатор за макронутриенти",
+  "description": "Безплатен калкулатор за макронутриенти: въведете дневната си цел за калории и изберете разделение — Балансирано, Висок протеин, Ниски въглехидрати или Кето — за да получите въглехидрати, протеин и мазнини в грамове на ден.",
+  "id": "/loona-calculators/bg/macro-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
