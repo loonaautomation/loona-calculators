@@ -1,0 +1,29 @@
+{
+  "name": "Loona Ипотечен калкулатор за Южна Африка",
+  "short_name": "Ипотека за Южна Африка",
+  "description": "Безплатен калкулатор за жилищен заем (bond) в Южна Африка в рандове: месечна вноска, обща лихва и дата без дълг за всяка цена на имот, депозит, лихвен процент и срок, плюс сравнение с допълнително плащане.",
+  "id": "/loona-calculators/bg/south-africa-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

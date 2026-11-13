@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калкулатор за SIP (систематичен инвестиционен план)",
+  "short_name": "Калкулатор за SIP",
+  "description": "Безплатен калкулатор за SIP: въведете месечна инвестиция, очаквана годишна възвръщаемост и години, за да проектирате бъдещата стойност, общо инвестираното и прогнозните печалби на вашия план.",
+  "id": "/loona-calculators/bg/sip-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

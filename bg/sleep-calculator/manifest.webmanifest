@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калкулатор за сън",
+  "short_name": "Калкулатор за сън",
+  "description": "Безплатен калкулатор за сън: въведете време за събуждане, за да получите най-добрите времена за лягане, или време за лягане, за да получите най-добрите времена за събуждане — въз основа на 90-минутни цикли на съня плюс време за заспиване.",
+  "id": "/loona-calculators/bg/sleep-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
