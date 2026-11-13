@@ -1,0 +1,29 @@
+{
+  "name": "Loona Mumbai til Singapore tidskonverter",
+  "short_name": "Mumbai til Singapore Tid",
+  "description": "Omregn Mumbai-tid til Singapore-tid. Singapore er 2 timer 30 minutter foran Mumbai hele året, med datoer for sommertid, en 24-timers tabel og det bedste mødevindue. Live-omregner inkluderet.",
+  "id": "/loona-calculators/da/mumbai-to-singapore-time-converter.html",
+  "start_url": "./mumbai-to-singapore-time-converter.html",
+  "scope": "./mumbai-to-singapore-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona EU261-kompensationstjek",
+  "short_name": "EU261-kompensationstjek",
+  "description": "Gratis EU261-kompensationskontrol: indtast flydistance og ankomstforsinkelse for at se, om du kan have krav på €250, €400 eller €600 i henhold til EC 261/2004, herunder 50%-reduktionsreglen.",
+  "id": "/loona-calculators/da/eu261-compensation-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

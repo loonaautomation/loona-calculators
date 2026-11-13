@@ -1,0 +1,29 @@
+{
+  "name": "Loona kalorieberegner",
+  "short_name": "Kalorieberegner",
+  "description": "Gratis kalorieberegner: indtast dine oplysninger, aktivitet og mål for at få dit daglige kaloriemål for at tabe dig, holde vægten eller tage på — med et sikkert minimum.",
+  "id": "/loona-calculators/da/calorie-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

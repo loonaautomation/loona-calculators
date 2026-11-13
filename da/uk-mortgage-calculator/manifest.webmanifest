@@ -1,0 +1,29 @@
+{
+  "name": "Loona UK Boliglånsberegner",
+  "short_name": "UK Boliglånsberegner",
+  "description": "Gratis britisk realkreditberegner i pund: månedligt afdrag, samlet rente og samlede omkostninger for ethvert lån, enhver rente og løbetid, plus en sammenligning af overbetaling.",
+  "id": "/loona-calculators/da/uk-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona grad til gon konverter",
+  "short_name": "Grad til Gon-konverter",
+  "description": "Omregn grader til gon med det samme. Præcis formel, en fuld omregningstabel fra ° til gon, et gennemregnet eksempel og ofte stillede spørgsmål. Gratis, ingen tilmelding.",
+  "id": "/loona-calculators/da/degrees-to-gradians-converter.html",
+  "start_url": "./degrees-to-gradians-converter.html",
+  "scope": "./degrees-to-gradians-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

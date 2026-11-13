@@ -1,0 +1,29 @@
+{
+  "name": "Loona km/t til mph konverter",
+  "short_name": "Km/t til mph konverter",
+  "description": "Omregn kilometer i timen til mile i timen med det samme. Præcis formel, en fuld omregningstabel fra km/h til mph og gennemregnede eksempler. Gratis, ingen tilmelding.",
+  "id": "/loona-calculators/da/kmh-to-mph-converter.html",
+  "start_url": "./kmh-to-mph-converter.html",
+  "scope": "./kmh-to-mph-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

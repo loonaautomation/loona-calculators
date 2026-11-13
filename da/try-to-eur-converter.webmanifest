@@ -1,0 +1,29 @@
+{
+  "name": "Loona TRY til EUR Konverter",
+  "short_name": "TRY til EUR Konverter",
+  "description": "Omregn Tyrkisk lira (TRY) til Euro (EUR). ECB-referencekurs dateret 06. november 2026, invers kurs, omregningstabel og korridornoter. Kun vejledende.",
+  "id": "/loona-calculators/da/try-to-eur-converter.html",
+  "start_url": "./try-to-eur-converter.html",
+  "scope": "./try-to-eur-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Europa stik- og spændingstjek",
+  "short_name": "Tjek af europæiske stik og spænding",
+  "description": "Gratis europæisk stik- og spændingskontrol: vælg et europæisk land for at se dets stiktyper, spænding og frekvens, og om du har brug for en adapter eller en omformer.",
+  "id": "/loona-calculators/da/europe-plug-voltage-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

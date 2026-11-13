@@ -1,0 +1,29 @@
+{
+  "name": "Loona Berlin til Mumbai tidskonverter",
+  "short_name": "Berlin til Mumbai-tid",
+  "description": "Omregn Berlin-tid til Mumbai-tid. Mumbai er 4 timer 30 minutter foran Berlin i januar og 3 timer 30 minutter foran i juli, med datoer for sommertid, en 24-timers tabel og det bedste mødevindue. Live-omregner inkluderet.",
+  "id": "/loona-calculators/da/berlin-to-mumbai-time-converter.html",
+  "start_url": "./berlin-to-mumbai-time-converter.html",
+  "scope": "./berlin-to-mumbai-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

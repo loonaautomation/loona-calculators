@@ -1,0 +1,29 @@
+{
+  "name": "Loona logaritmeberegner",
+  "short_name": "Logaritmeberegner",
+  "description": "Gratis logaritmeberegner: find log til enhver base, plus den almindelige log (base 10), den naturlige log (ln) og den binære log (base 2), hver bekræftet af sin antilog. Baseskifteformlen forklaret.",
+  "id": "/loona-calculators/da/logarithm-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

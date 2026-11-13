@@ -1,0 +1,29 @@
+{
+  "name": "Loona Søvnberegner",
+  "short_name": "Søvnberegner",
+  "description": "Gratis søvnberegner: indtast et opvågningstidspunkt for at få de bedste sengetider, eller en sengetid for at få de bedste opvågningstidspunkter — baseret på 90-minutters søvncyklusser plus indsovningstid.",
+  "id": "/loona-calculators/da/sleep-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

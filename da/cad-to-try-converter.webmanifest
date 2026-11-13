@@ -1,0 +1,29 @@
+{
+  "name": "Loona CAD til TRY konverter",
+  "short_name": "CAD til TRY-omregner",
+  "description": "Omregn Canadisk dollar (CAD) til Tyrkisk lira (TRY). ECB-referencekurs dateret 06. november 2026, invers kurs, omregningstabel og korridornoter. Kun vejledende.",
+  "id": "/loona-calculators/da/cad-to-try-converter.html",
+  "start_url": "./cad-to-try-converter.html",
+  "scope": "./cad-to-try-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

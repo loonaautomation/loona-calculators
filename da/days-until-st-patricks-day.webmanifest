@@ -1,0 +1,29 @@
+{
+  "name": "Loona dage til Sankt Patricks dag",
+  "short_name": "Dage til Sankt Patricks dag",
+  "description": "Live nedtælling til Sankt Patricks dag: præcise dage, timer, minutter og sekunder tilbage, datoen i år og de næste tre år, fakta og ofte stillede spørgsmål.",
+  "id": "/loona-calculators/da/days-until-st-patricks-day.html",
+  "start_url": "./days-until-st-patricks-day.html",
+  "scope": "./days-until-st-patricks-day.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona boliglånsberegner",
+  "short_name": "Boliglånsberegner",
+  "description": "Gratis realkreditberegner: huspris, udbetaling, rente og løbetid — få lånebeløbet, den månedlige ydelse, den samlede rente og dit hjems samlede pris.",
+  "id": "/loona-calculators/da/mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona huslejestigningsberegner",
+  "short_name": "Huslejestigningsberegner",
+  "description": "Gratis beregner for huslejestigning: indtast din nuværende husleje og den procentvise stigning (eller den nye husleje) for at se den nye månedlige husleje, den ekstra omkostning pr. måned og år og en år-for-år-fremskrivning.",
+  "id": "/loona-calculators/da/rent-increase-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona GBP til AUD konverter",
+  "short_name": "GBP til AUD-konverter",
+  "description": "Omregn Britisk pund (GBP) til Australsk dollar (AUD). ECB-referencekurs dateret 06. november 2026, invers kurs, omregningstabel og korridornoter. Kun vejledende.",
+  "id": "/loona-calculators/da/gbp-to-aud-converter.html",
+  "start_url": "./gbp-to-aud-converter.html",
+  "scope": "./gbp-to-aud-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

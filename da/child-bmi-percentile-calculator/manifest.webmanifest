@@ -1,0 +1,29 @@
+{
+  "name": "Loona BMI-percentilberegner for børn",
+  "short_name": "BMI-percentil for børn",
+  "description": "Gratis BMI-percentilberegner til børn med officielle CDC LMS-vækstkurvedata for alderen 2 til 20: BMI, percentil, z-score og vægtkategori for drenge og piger.",
+  "id": "/loona-calculators/da/child-bmi-percentile-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

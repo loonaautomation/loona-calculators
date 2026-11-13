@@ -1,0 +1,29 @@
+{
+  "name": "Loona GPA til procent konverter",
+  "short_name": "Konverter fra GPA til procent",
+  "description": "Omregn GPA til procent og tilbage igen: US 4.0-skalabånd, India CBSE (CGPA × 9.5), indisk universitet (× 10) og UK-gradklassifikationer, hver især mærket.",
+  "id": "/loona-calculators/da/gpa-to-percentage/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

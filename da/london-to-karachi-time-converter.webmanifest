@@ -1,0 +1,29 @@
+{
+  "name": "Loona London til Karachi tidskonverter",
+  "short_name": "London til Karachi tid",
+  "description": "Omregn London-tid til Karachi-tid. Karachi er 5 timer foran London i januar og 4 timer foran i juli, med datoer for sommertid, en 24-timers tabel og det bedste mødevindue. Live-omregner inkluderet.",
+  "id": "/loona-calculators/da/london-to-karachi-time-converter.html",
+  "start_url": "./london-to-karachi-time-converter.html",
+  "scope": "./london-to-karachi-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

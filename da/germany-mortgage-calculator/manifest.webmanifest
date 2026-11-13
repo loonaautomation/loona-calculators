@@ -1,0 +1,29 @@
+{
+  "name": "Loona tysk boliglånsberegner",
+  "short_name": "Tysklands realkreditberegner",
+  "description": "Gratis tysk realkreditberegner (Baufinanzierung) i euro: månedlig annuitet ud fra rente og indledende Tilgung, restgæld efter den faste periode.",
+  "id": "/loona-calculators/da/germany-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

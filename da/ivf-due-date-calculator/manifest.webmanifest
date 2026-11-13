@@ -1,0 +1,29 @@
+{
+  "name": "Loona IVF-terminsberegner",
+  "short_name": "IVF-terminsberegner",
+  "description": "Gratis IVF-terminsberegner: indtast din dato for embryooverførsel og embryoets alder (dag 3 eller dag 5) for at få din anslåede terminsdato og nuværende graviditetsalder.",
+  "id": "/loona-calculators/da/ivf-due-date-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

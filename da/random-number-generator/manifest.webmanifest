@@ -1,0 +1,29 @@
+{
+  "name": "Loona tilfældig talgenerator",
+  "short_name": "Generator til tilfældige tal",
+  "description": "Gratis tilfældig talgenerator med sikker tilfældighed i browseren. Vælg tal i ethvert interval, vælg hvor mange, med en indstilling kun for unikke tal.",
+  "id": "/loona-calculators/da/random-number-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

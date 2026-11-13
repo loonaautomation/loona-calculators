@@ -1,0 +1,29 @@
+{
+  "name": "Loona Arbejdsdage i Italien",
+  "short_name": "Arbejdsdage i Italien",
+  "description": "Beregner for arbejdsdage til Italien: tæl arbejdsdage mellem to datoer, hvor weekender og alle 13 italienske nationale helligdage i 2026 er fjernet. Gratis.",
+  "id": "/loona-calculators/da/working-days-in-italy.html",
+  "start_url": "./working-days-in-italy.html",
+  "scope": "./working-days-in-italy.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona megawatt til kilowatt konverter",
+  "short_name": "Megawatt til Kilowatt Konverter",
+  "description": "Omregn megawatt til kilowatt med det samme. Præcis formel, en fuld omregningstabel fra MW til kW, et gennemregnet eksempel og ofte stillede spørgsmål. Gratis, ingen tilmelding.",
+  "id": "/loona-calculators/da/megawatts-to-kilowatts-converter.html",
+  "start_url": "./megawatts-to-kilowatts-converter.html",
+  "scope": "./megawatts-to-kilowatts-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Spanien Boliglånsberegner",
+  "short_name": "Spanien Boliglånsberegner",
+  "description": "Gratis spansk realkreditberegner i euro: månedlig ydelse (cuota), samlet rente og gældsfri dato for enhver ejendomspris, udbetaling, rente og løbetid, plus en sammenligning af overbetaling.",
+  "id": "/loona-calculators/da/spain-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona celsius til kelvin konverter",
+  "short_name": "Omregner fra Celsius til Kelvin",
+  "description": "Omregn celsius til kelvin med det samme. Præcis formel, en fuld omregningstabel fra °C til K og gennemregnede eksempler. Gratis, ingen tilmelding.",
+  "id": "/loona-calculators/da/celsius-to-kelvin-converter.html",
+  "start_url": "./celsius-to-kelvin-converter.html",
+  "scope": "./celsius-to-kelvin-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

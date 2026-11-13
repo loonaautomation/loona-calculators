@@ -1,0 +1,29 @@
+{
+  "name": "Loona en-stikprøve t-testberegner",
+  "short_name": "T-testberegner for én stikprøve",
+  "description": "Gratis t-testberegner for én stikprøve: indtast stikprøvens gennemsnit, SD, n og det hypotetiske gennemsnit for at få t-statistikken, frihedsgraderne og p-værdierne.",
+  "id": "/loona-calculators/da/t-test-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

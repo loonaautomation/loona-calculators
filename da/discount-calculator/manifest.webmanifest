@@ -1,0 +1,29 @@
+{
+  "name": "Loona rabatberegner",
+  "short_name": "Rabatberegner",
+  "description": "Gratis rabatberegner: indtast pris og rabatprocent for at få den endelige pris, og hvor meget du sparer. Understøtter en ekstra anden rabat og skat lagt til efter rabat.",
+  "id": "/loona-calculators/da/discount-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

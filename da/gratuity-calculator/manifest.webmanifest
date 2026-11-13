@@ -1,0 +1,29 @@
+{
+  "name": "Loona fratrædelsesgodtgørelsesberegner",
+  "short_name": "Fratrædelsesgodtgørelsesberegner",
+  "description": "Gratis fratrædelsesgodtgørelsesberegner: sidst trukne månedsløn og gennemførte tjenesteår — estimer godtgørelsen til en måneds løn (30 dages løn) pr. tjenesteår.",
+  "id": "/loona-calculators/da/gratuity-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

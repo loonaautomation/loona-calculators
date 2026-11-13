@@ -1,0 +1,29 @@
+{
+  "name": "Loona fransk boliglånsberegner",
+  "short_name": "Frankrigs realkreditberegner",
+  "description": "Gratis fransk realkreditberegner i euro: månedlig ydelse med valgfri låntagerforsikring (assurance emprunteur), samlet rente og gældsfri dato for enhver pris, udbetaling, rente og løbetid.",
+  "id": "/loona-calculators/da/france-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

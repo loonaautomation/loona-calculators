@@ -1,0 +1,29 @@
+{
+  "name": "Loona alder efter fødselsår",
+  "short_name": "Alder efter fødselsår",
+  "description": "Alder, man fylder i 2026 for hvert fødselsår 1946–2025, med generationsbetegnelser og milepælsår.",
+  "id": "/loona-calculators/da/age-by-birth-year.html",
+  "start_url": "./age-by-birth-year.html",
+  "scope": "./age-by-birth-year.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

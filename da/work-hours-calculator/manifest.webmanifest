@@ -1,0 +1,29 @@
+{
+  "name": "Loona Arbejdstidsberegner",
+  "short_name": "Beregner for arbejdstimer",
+  "description": "Gratis arbejdstidsberegner: start, slut og ulønnet pause giver nettotimer pr. dag og pr. uge — plus daglig og ugentlig løn, når du tilføjer en timeløn. Natvagter understøttes.",
+  "id": "/loona-calculators/da/work-hours-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

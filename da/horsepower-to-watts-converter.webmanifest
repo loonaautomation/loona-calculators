@@ -1,0 +1,29 @@
+{
+  "name": "Loona hestekræfter til watt konverter",
+  "short_name": "Konverter fra Hestekræfter til Watt",
+  "description": "Omregn hestekræfter til watt med det samme. Præcis formel, en fuld omregningstabel fra hp til W, et gennemregnet eksempel og ofte stillede spørgsmål. Gratis, ingen tilmelding.",
+  "id": "/loona-calculators/da/horsepower-to-watts-converter.html",
+  "start_url": "./horsepower-to-watts-converter.html",
+  "scope": "./horsepower-to-watts-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

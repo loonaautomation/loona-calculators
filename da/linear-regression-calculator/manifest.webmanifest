@@ -1,0 +1,29 @@
+{
+  "name": "Loona lineær regressionsberegner",
+  "short_name": "Lineær regressionsberegner",
+  "description": "Gratis lineær regressionsberegner: indsæt parrede data for at få mindste kvadraters linje y = a + bx, korrelation, forudsigelser og et spredningsdiagram med den tilpassede linje tegnet.",
+  "id": "/loona-calculators/da/linear-regression-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

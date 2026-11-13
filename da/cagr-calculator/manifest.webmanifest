@@ -1,0 +1,29 @@
+{
+  "name": "Loona CAGR-beregner",
+  "short_name": "CAGR-beregner",
+  "description": "Gratis CAGR-beregner: indtast begyndelsesværdien, slutværdien og antallet af år for at finde den sammensatte årlige vækstrate for en investering eller en virksomhed.",
+  "id": "/loona-calculators/da/cagr-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

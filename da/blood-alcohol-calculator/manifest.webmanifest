@@ -1,0 +1,29 @@
+{
+  "name": "Loona promilleberegner",
+  "short_name": "Blodalkoholberegner",
+  "description": "Gratis beregner for alkoholpromille (BAC) med Widmark-formlen: vægt, køn, genstande og tid til at estimere BAC-procent. Kun et uddannelsesmæssigt estimat, kør aldrig.",
+  "id": "/loona-calculators/da/blood-alcohol-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

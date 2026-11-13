@@ -1,0 +1,29 @@
+{
+  "name": "Loona Z-scoreberegner",
+  "short_name": "Z-scoreberegner",
+  "description": "Gratis z-scoreberegner: indtast en værdi, et gennemsnit og en standardafvigelse for at få z-scoren, percentilen og sandsynlighederne fra den almindelige normaltabel (normalfordeling).",
+  "id": "/loona-calculators/da/z-score-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

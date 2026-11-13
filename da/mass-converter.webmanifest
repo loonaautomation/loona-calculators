@@ -1,0 +1,29 @@
+{
+  "name": "Loona masse- og vægtkonverter",
+  "short_name": "Masse- og vægtkonverter",
+  "description": "Hvert masse- og vægtkonverteringspar i ét indeks: nøjagtige faktorer, formler og en dedikeret konverterside til hvert par. Gratis, ingen tilmelding.",
+  "id": "/loona-calculators/da/mass-converter.html",
+  "start_url": "./mass-converter.html",
+  "scope": "./mass-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

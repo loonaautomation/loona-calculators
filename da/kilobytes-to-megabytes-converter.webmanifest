@@ -1,0 +1,29 @@
+{
+  "name": "Loona kilobyte til megabyte konverter",
+  "short_name": "Kilobytes til megabytes",
+  "description": "Omregn kilobyte til megabyte med det samme (binær konvention: 1 GB = 1,024 MB). Præcis formel, en fuld omregningstabel fra KB til MB og gennemregnede eksempler. Gratis, ingen tilmelding.",
+  "id": "/loona-calculators/da/kilobytes-to-megabytes-converter.html",
+  "start_url": "./kilobytes-to-megabytes-converter.html",
+  "scope": "./kilobytes-to-megabytes-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

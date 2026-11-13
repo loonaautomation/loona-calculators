@@ -1,0 +1,29 @@
+{
+  "name": "Loona matrixberegner",
+  "short_name": "Matrixberegner",
+  "description": "Gratis matrixberegner til 2x2- og 3x3-matricer: læg sammen, træk fra, gang, determinant og invers med trinværdier vist. Ingen tilmelding, virker i din browser.",
+  "id": "/loona-calculators/da/matrix-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

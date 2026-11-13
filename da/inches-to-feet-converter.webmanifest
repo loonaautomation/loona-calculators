@@ -1,0 +1,29 @@
+{
+  "name": "Loona tommer til fødder konverter",
+  "short_name": "Tommer til Fod-konverter",
+  "description": "Omregn tommer til fødder med det samme. Præcis formel, en fuld omregningstabel fra in til ft og gennemregnede eksempler. Gratis, ingen tilmelding.",
+  "id": "/loona-calculators/da/inches-to-feet-converter.html",
+  "start_url": "./inches-to-feet-converter.html",
+  "scope": "./inches-to-feet-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

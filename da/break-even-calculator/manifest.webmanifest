@@ -1,0 +1,29 @@
+{
+  "name": "Loona break-even-beregner",
+  "short_name": "Break-Even-beregner",
+  "description": "Gratis break-even-beregner: indtast faste omkostninger, salgspris og variabel omkostning pr. enhed for at finde, hvor mange enheder du skal sælge for at gå i nul, og ved hvilken omsætning.",
+  "id": "/loona-calculators/da/break-even-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona ETIAS-berettigelsestjek",
+  "short_name": "ETIAS-berettigelsestjek",
+  "description": "Gratis ETIAS-berettigelseskontrol: vælg din nationalitet og rejsesituation for at se, om du får brug for ETIAS, et Schengen-visum eller ingen tilladelse til korte rejser til Europa.",
+  "id": "/loona-calculators/da/etias-eligibility-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona listeblander",
+  "short_name": "Listeblander",
+  "description": "Gratis listeblander: indsæt enhver liste for at blande den i en tilfældig rækkefølge eller vælge en tilfældig stikprøve af emner. Sikker blanding, intet uploadet.",
+  "id": "/loona-calculators/da/list-randomizer/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

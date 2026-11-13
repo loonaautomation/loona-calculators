@@ -1,0 +1,29 @@
+{
+  "name": "Loona Momsberegner",
+  "short_name": "Momsberegner",
+  "description": "Gratis VAT/GST-beregner: læg skat til et nettobeløb, eller fjern skat fra et bruttobeløb til enhver sats. Virker til VAT, GST og moms i ethvert land.",
+  "id": "/loona-calculators/da/vat-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

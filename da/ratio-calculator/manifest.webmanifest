@@ -1,0 +1,29 @@
+{
+  "name": "Loona forholdsberegner",
+  "short_name": "Forholdsberegner",
+  "description": "Gratis forholdsberegner: forenkl ethvert forhold til dets laveste led, og del et samlet beløb i et givet forhold — begge andele vist med det samme.",
+  "id": "/loona-calculators/da/ratio-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

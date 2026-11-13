@@ -1,0 +1,29 @@
+{
+  "name": "Loona HKD til MXN konverter",
+  "short_name": "HKD til MXN-konverter",
+  "description": "Omregn Hongkong-dollar (HKD) til Mexicansk peso (MXN). ECB-referencekurs dateret 06. november 2026, invers kurs, omregningstabel og korridornoter. Kun vejledende.",
+  "id": "/loona-calculators/da/hkd-to-mxn-converter.html",
+  "start_url": "./hkd-to-mxn-converter.html",
+  "scope": "./hkd-to-mxn-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

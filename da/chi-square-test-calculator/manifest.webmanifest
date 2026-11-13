@@ -1,0 +1,29 @@
+{
+  "name": "Loona chi-i-anden-testberegner",
+  "short_name": "Beregner til chi-i-anden-test",
+  "description": "Gratis chi-i-anden-testberegner: indtast en observeret tabel til en uafhængighedstest eller observerede mod forventede antal til goodness of fit. Chi-i-anden, df og p-værdi.",
+  "id": "/loona-calculators/da/chi-square-test-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

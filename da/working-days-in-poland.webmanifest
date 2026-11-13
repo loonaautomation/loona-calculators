@@ -1,0 +1,29 @@
+{
+  "name": "Loona Arbejdsdage i Polen",
+  "short_name": "Arbejdsdage i Polen",
+  "description": "Beregner for arbejdsdage til Polen: tæl arbejdsdage mellem to datoer, hvor weekender og alle 14 polske helligdage i 2026 er fjernet. Gratis, ingen tilmelding.",
+  "id": "/loona-calculators/da/working-days-in-poland.html",
+  "start_url": "./working-days-in-poland.html",
+  "scope": "./working-days-in-poland.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

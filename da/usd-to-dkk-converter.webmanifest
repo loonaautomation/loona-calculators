@@ -1,0 +1,29 @@
+{
+  "name": "Loona USD til DKK Konverter",
+  "short_name": "Konverter fra USD til DKK",
+  "description": "Omregn Amerikansk dollar (USD) til Dansk krone (DKK). ECB-referencekurs dateret 06. november 2026, invers kurs, omregningstabel og korridornoter. Kun vejledende.",
+  "id": "/loona-calculators/da/usd-to-dkk-converter.html",
+  "start_url": "./usd-to-dkk-converter.html",
+  "scope": "./usd-to-dkk-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

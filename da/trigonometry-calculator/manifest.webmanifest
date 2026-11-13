@@ -1,0 +1,29 @@
+{
+  "name": "Loona Trigonometriberegner",
+  "short_name": "Trigonometriberegner",
+  "description": "Gratis trigonometriberegner: indtast en vinkel i grader eller radianer for at få sin, cos, tan, csc, sec og cot, eller brug invers sin, cos og tan til at finde en vinkel ud fra et forhold. Tabel med nøjagtige værdier medfølger.",
+  "id": "/loona-calculators/da/trigonometry-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona EuroMillions-nummergenerator",
+  "short_name": "EuroMillions-talgenerator",
+  "description": "Gratis EuroMillions-talgenerator: træk 5 hovedtal fra 50 plus 2 Lucky Stars fra 12, med op til 5 rækker ad gangen. Sikre tilfældige valg, ingen tilmelding.",
+  "id": "/loona-calculators/da/euromillions-number-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

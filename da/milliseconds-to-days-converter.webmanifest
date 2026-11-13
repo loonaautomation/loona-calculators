@@ -1,0 +1,29 @@
+{
+  "name": "Loona millisekund til dag konverter",
+  "short_name": "Millisekund til Dag Konverter",
+  "description": "Omregn millisekunder til dage med det samme. Præcis formel, en fuld omregningstabel fra ms til d, et gennemregnet eksempel og ofte stillede spørgsmål. Gratis, ingen tilmelding.",
+  "id": "/loona-calculators/da/milliseconds-to-days-converter.html",
+  "start_url": "./milliseconds-to-days-converter.html",
+  "scope": "./milliseconds-to-days-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

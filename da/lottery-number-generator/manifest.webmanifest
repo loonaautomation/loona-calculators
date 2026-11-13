@@ -1,0 +1,29 @@
+{
+  "name": "Loona lotterinummergenerator",
+  "short_name": "Lotterinummergenerator",
+  "description": "Gratis lotteritalgenerator med forudindstillinger til Powerball, Mega Millions, EuroMillions og UK Lotto, plus en brugerdefineret tilstand til ethvert lotteri. Sikre tilfældige valg.",
+  "id": "/loona-calculators/da/lottery-number-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kvadratrodsberegner",
+  "short_name": "Kvadratrodsberegner",
+  "description": "Gratis kvadratrodsberegner: indtast ethvert tal for at få dets kvadratrod, kubikrod, 4. og 5. rødder — plus dets kvadrat og kubik — alt på én gang.",
+  "id": "/loona-calculators/da/square-root-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

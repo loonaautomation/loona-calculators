@@ -1,0 +1,29 @@
+{
+  "name": "Loona BMI-beregner",
+  "short_name": "BMI-beregner",
+  "description": "Gratis BMI-beregner: indtast din vægt og højde (cm eller fod/tommer) for at tjekke dit Body Mass Index, din kategori og det sunde vægtinterval for din højde.",
+  "id": "/loona-calculators/da/bmi-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

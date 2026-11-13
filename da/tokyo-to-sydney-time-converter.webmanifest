@@ -1,0 +1,29 @@
+{
+  "name": "Loona Tokyo til Sydney Tidskonverter",
+  "short_name": "Tokyo til Sydney-tidsomregner",
+  "description": "Omregn Tokyo-tid til Sydney-tid. Sydney er 2 timer foran Tokyo i januar og 1 time foran i juli, med datoer for sommertid, en 24-timers tabel og det bedste mødevindue. Live-omregner inkluderet.",
+  "id": "/loona-calculators/da/tokyo-to-sydney-time-converter.html",
+  "start_url": "./tokyo-to-sydney-time-converter.html",
+  "scope": "./tokyo-to-sydney-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

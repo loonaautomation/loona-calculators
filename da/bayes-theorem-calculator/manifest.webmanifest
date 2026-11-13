@@ -1,0 +1,29 @@
+{
+  "name": "Loona Bayes-sætningsberegner",
+  "short_name": "Beregner til Bayes' sætning",
+  "description": "Gratis Bayes-sætning-beregner: forudgående sandsynlighed, sand-positiv-rate og falsk-positiv-rate giver den bagudrettede sandsynlighed — den klassiske beregning for medicinske tests, forklaret.",
+  "id": "/loona-calculators/da/bayes-theorem-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

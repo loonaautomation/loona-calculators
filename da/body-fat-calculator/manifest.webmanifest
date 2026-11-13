@@ -1,0 +1,29 @@
+{
+  "name": "Loona kropsfedtberegner",
+  "short_name": "Kropsfedtberegner",
+  "description": "Gratis kropsfedtberegner med den amerikanske flådes omkredsmetode: højde, hals, talje (og hofte for kvinder) giver kropsfedt %, fedtmasse, mager masse og ACE-kategori.",
+  "id": "/loona-calculators/da/body-fat-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

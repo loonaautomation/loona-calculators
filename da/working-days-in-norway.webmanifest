@@ -1,0 +1,29 @@
+{
+  "name": "Loona Arbejdsdage i Norge",
+  "short_name": "Arbejdsdage i Norge",
+  "description": "Beregner for arbejdsdage til Norge: tæl arbejdsdage mellem to datoer, hvor weekender og alle 12 norske helligdage i 2026 er fjernet. Gratis onlineværktøj.",
+  "id": "/loona-calculators/da/working-days-in-norway.html",
+  "start_url": "./working-days-in-norway.html",
+  "scope": "./working-days-in-norway.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona pascal til bar konverter",
+  "short_name": "Pascal til Bar Konverter",
+  "description": "Omregn pascal til bar med det samme. Præcis formel, en fuld omregningstabel fra Pa til bar, et gennemregnet eksempel og ofte stillede spørgsmål. Gratis, ingen tilmelding.",
+  "id": "/loona-calculators/da/pascals-to-bars-converter.html",
+  "start_url": "./pascals-to-bars-converter.html",
+  "scope": "./pascals-to-bars-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

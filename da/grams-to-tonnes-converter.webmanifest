@@ -1,0 +1,29 @@
+{
+  "name": "Loona gram til ton konverter",
+  "short_name": "Konverter fra Gram til Ton",
+  "description": "Omregn gram til tons med det samme. Præcis formel, en fuld omregningstabel fra g til t, et gennemregnet eksempel og ofte stillede spørgsmål. Gratis, ingen tilmelding.",
+  "id": "/loona-calculators/da/grams-to-tonnes-converter.html",
+  "start_url": "./grams-to-tonnes-converter.html",
+  "scope": "./grams-to-tonnes-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
