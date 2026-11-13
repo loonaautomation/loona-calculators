@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калкулатор за вероятности",
+  "short_name": "Калкулатор за вероятности",
+  "description": "Безплатен калкулатор за вероятности: вероятност за A и B, A или B, нито едното и точно едно; преобразуване на шансове; комбинации и пермутации. С формули и примери.",
+  "id": "/loona-calculators/bg/probability-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калкулатор за закръгляване",
+  "short_name": "Калкулатор за закръгляване",
+  "description": "Безплатен калкулатор за закръгляване: закръглете всяко число до десетични знаци, до най-близките 10, 100 или 1,000, или до значещи цифри, с обяснено правило.",
+  "id": "/loona-calculators/bg/rounding-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

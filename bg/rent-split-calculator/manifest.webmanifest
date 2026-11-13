@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калкулатор за разделяне на наема",
+  "short_name": "Калкулатор за разделяне на наема",
+  "description": "Безплатен калкулатор за разделяне на наема: разделете месечния наем между 2 до 8 съквартиранти — по равно, по размер на стаята в квадратни футове или по доход. Частите винаги се събират до точната обща сума.",
+  "id": "/loona-calculators/bg/rent-split-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

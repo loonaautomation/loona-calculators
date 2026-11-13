@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертор от кварти в галони",
+  "short_name": "Конвертор от кварти в галони",
+  "description": "Конвертирайте кварти към галони мигновено. Точна формула, пълна таблица за преобразуване qt към gal и разработени примери. Безплатно, без регистрация.",
+  "id": "/loona-calculators/bg/quarts-to-gallons-converter.html",
+  "start_url": "./quarts-to-gallons-converter.html",
+  "scope": "./quarts-to-gallons-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

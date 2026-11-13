@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калкулатор за увеличение на наема",
+  "short_name": "Калкулатор за увеличение на наема",
+  "description": "Безплатен калкулатор за увеличение на наема: въведете текущия си наем и процентното увеличение (или новия наем), за да видите новия месечен наем, допълнителните разходи на месец и година и прогноза по години.",
+  "id": "/loona-calculators/bg/rent-increase-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

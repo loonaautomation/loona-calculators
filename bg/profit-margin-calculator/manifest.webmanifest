@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калкулатор за марж на печалбата",
+  "short_name": "Калкулатор за марж на печалбата",
+  "description": "Безплатен калкулатор за марж на печалбата: въведете себестойност и продажна цена, за да получите печалба, процент на маржа на печалбата и процент на надценката мигновено. За магазини и онлайн продавачи.",
+  "id": "/loona-calculators/bg/profit-margin-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

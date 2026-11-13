@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калкулатор за възвръщаемост на инвестицията (ROI)",
+  "short_name": "Калкулатор за ROI",
+  "description": "Безплатен калкулатор за ROI: въведете инвестираната сума, върнатата сума и годините на държане, за да получите общия процент на ROI и годишната възвръщаемост за всяка инвестиция.",
+  "id": "/loona-calculators/bg/roi-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

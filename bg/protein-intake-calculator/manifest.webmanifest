@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калкулатор за прием на протеин",
+  "short_name": "Калкулатор за прием на протеин",
+  "description": "Безплатен калкулатор за прием на протеин: дневни грамове протеин от телесно тегло, ниво на активност и цел, използвайки основани на доказателства диапазони g/kg. Различен от разделенията на макронутриенти на база калории.",
+  "id": "/loona-calculators/bg/protein-intake-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
