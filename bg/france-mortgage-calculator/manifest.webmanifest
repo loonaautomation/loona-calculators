@@ -1,0 +1,29 @@
+{
+  "name": "Loona Ипотечен калкулатор за Франция",
+  "short_name": "Калкулатор за ипотека във Франция",
+  "description": "Безплатен калкулатор за ипотека във Франция в евро: месечна вноска с опционална застраховка на кредитополучателя (assurance emprunteur), обща лихва и дата без дълг за всяка цена, депозит, ставка и срок.",
+  "id": "/loona-calculators/bg/france-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

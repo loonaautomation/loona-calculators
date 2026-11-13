@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калкулатор за срочен депозит",
+  "short_name": "Калкулатор за срочен депозит",
+  "description": "Безплатен калкулатор за срочен депозит (FD): сума на депозита, лихвен процент, срок и честота на олихвяване — получете стойността на падежа и общата спечелена лихва.",
+  "id": "/loona-calculators/bg/fixed-deposit-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

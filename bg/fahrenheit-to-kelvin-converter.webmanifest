@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертор от Фаренхайт в Келвин",
+  "short_name": "Конвертор Фаренхайт към Келвин",
+  "description": "Конвертирайте Фаренхайт към Келвин мигновено. Точна формула, пълна таблица за преобразуване °F към K и разработени примери. Безплатно, без регистрация.",
+  "id": "/loona-calculators/bg/fahrenheit-to-kelvin-converter.html",
+  "start_url": "./fahrenheit-to-kelvin-converter.html",
+  "scope": "./fahrenheit-to-kelvin-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
