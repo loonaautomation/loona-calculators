@@ -1,0 +1,29 @@
+{
+  "name": "Loona 东京到悉尼时间转换器",
+  "short_name": "东京到悉尼时间转换器",
+  "description": "将东京时间转换为悉尼时间。悉尼在一月比东京早 2 小时，在七月早 1 小时，含夏令时日期、24 小时对照表和最佳会议时段。含实时转换器。",
+  "id": "/loona-calculators/zh/tokyo-to-sydney-time-converter.html",
+  "start_url": "./tokyo-to-sydney-time-converter.html",
+  "scope": "./tokyo-to-sydney-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

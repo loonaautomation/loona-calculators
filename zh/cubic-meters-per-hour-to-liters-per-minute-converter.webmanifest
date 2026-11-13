@@ -1,0 +1,29 @@
+{
+  "name": "Loona 立方米/小时到升/分钟",
+  "short_name": "立方米每小时到升",
+  "description": "即时将立方米每小时转换为升每分钟。提供精确公式、完整的m³/h 到 L/min 换算表、一个计算示例和常见问题。免费，无需注册。",
+  "id": "/loona-calculators/zh/cubic-meters-per-hour-to-liters-per-minute-converter.html",
+  "start_url": "./cubic-meters-per-hour-to-liters-per-minute-converter.html",
+  "scope": "./cubic-meters-per-hour-to-liters-per-minute-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

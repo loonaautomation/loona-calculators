@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>日出与日落计算器 — 按纬度与经度的太阳时间 | Loona</title>
+<meta name="description" content="免费日出日落计算器：输入日期和纬度/经度，获得以 UTC 和当地太阳时表示的日出、日落、白昼长度和正午太阳时刻。NOAA 计算。">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/zh/sunrise-sunset-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/sunrise-sunset-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/sunrise-sunset-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/sunrise-sunset-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/sunrise-sunset-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/sunrise-sunset-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/sunrise-sunset-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/sunrise-sunset-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/sunrise-sunset-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/sunrise-sunset-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/sunrise-sunset-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/sunrise-sunset-calculator/"><link rel="alternate" hreflang="zh" href="https://loonaautomation.github.io/loona-calculators/zh/sunrise-sunset-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/sunrise-sunset-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="日出与日落计算器 — 按纬度与经度的太阳时间 | Loona">
+<meta property="og:description" content="免费日出日落计算器：输入日期和纬度/经度，获得以 UTC 和当地太阳时表示的日出、日落、白昼长度和正午太阳时刻。NOAA 计算。">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/zh/sunrise-sunset-calculator/"><meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="日出与日落计算器 — 按纬度与经度的太阳时间 | Loona">
+<meta name="twitter:description" content="免费日出日落计算器：输入日期和纬度/经度，获得以 UTC 和当地太阳时表示的日出、日落、白昼长度和正午太阳时刻。NOAA 计算。">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona 日出与日落计算器","url":"https://loonaautomation.github.io/loona-calculators/zh/sunrise-sunset-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"结果是什么时间标准？","acceptedAnswer":{"@type":"Answer","text":"UTC，因此它们适用于每个地点，无需猜测时区或夏令时规则。添加该日期该地点的 UTC 偏移（例如卡拉奇为 +5，伦敦夏季为 +1）以获得当地时钟时间。"}},{"@type":"Question","name":"它有多准确？","acceptedAnswer":{"@type":"Answer","text":"此处使用的 NOAA/Almanac 算法在大多数有人居住的纬度上，通常与发布的年历时间相差约 1–2 分钟。在极地极端纬度，某些日期太阳可能根本不升起或落下——计算器会如实报告极昼或极夜。"}},{"@type":"Question","name":"为什么是 90.833 度而不是恰好 90？","acceptedAnswer":{"@type":"Answer","text":"因为日出/日落由太阳的上边缘定义，而不是其中心，大气会弯曲阳光。额外的 0.833° 考虑了太阳的半径（0.25°）加上典型的折射（0.583°）。"}},{"@type":"Question","name":"我在哪里可以获得我城镇的坐标？","acceptedAnswer":{"@type":"Answer","text":"任何地图应用都会显示放置图钉的纬度/经度。预设列表涵盖世界和欧洲的主要城市，作为起点。"}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/zh/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "日出与日落计算器",
+      "item": "https://loonaautomation.github.io/loona-calculators/zh/sunrise-sunset-calculator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation 标志">
+<div class="brand">Loona <span>计算器</span></div>
+<nav>
+<a href="../">首页</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">关于</a>
+<a href="../contact.html">联系</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › 日期与时间 › 日出日落计算器</div>
+<h1 class="pagetitle">🌅 日出日落计算器</h1>
+<p class="lead">输入任意日期以及某地点的纬度和经度，使用标准的 NOAA 太阳方程计算日出、日落、白昼长度和正午太阳时刻。包含主要城市的预设。</p>
+<div class="exbox"><strong>快速答案：</strong> 日出和日落是太阳上边缘越过地平线的时刻（天顶角 90.833°）。伦敦，六月21日，2026年：日出约 03:43 UTC（04:43 BST），日落约 20:21 UTC（21:21 BST）——一天大约 16 小时 38 分钟。</div>
+<div class="toolbox"><form class="calcform" id="snForm">
+<div class="fld"><label for="snPreset">预设城市</label><select id="snPreset"><option value="">自定义坐标</option><option value="51.5074,-0.1278">伦敦</option><option value="48.8566,2.3522">巴黎</option><option value="52.52,13.405">Berlin</option><option value="24.8607,67.0011">卡拉奇</option><option value="25.2048,55.2708">迪拜</option><option value="40.7128,-74.006">纽约</option><option value="35.6762,139.6503">东京</option><option value="-33.8688,151.2093">悉尼</option></select></div>
+<div class="fld"><label for="snLat">纬度（−90 到 90）</label><input type="number" id="snLat" value="51.5074" step="any" min="-90" max="90"></div>
+<div class="fld"><label for="snLon">经度（−180 到 180，东为 +）</label><input type="number" id="snLon" value="-0.1278" step="any" min="-180" max="180"></div>
+<div class="fld"><label for="snDate">日期</label><input type="date" id="snDate" required></div>
+<button class="calcbtn" type="submit">计算日出日落时间</button>
+<div class="calcresult" id="snResult" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>如何使用 Sunrise & Sunset Calculator</h2><ol><li>选择一个预设城市，或自己输入纬度（−90 到 90）和经度（−180 到 180，东为正）。</li><li>选择日期。</li><li>以 UTC 读取日出、日落、日长和太阳正午；加上您的时区偏移即可得到当地时钟时间。</li></ol>
+<div class="exbox"><strong>示例：</strong> 卡拉奇（24.86°N，67.00°E）在一月15日（2026年）：日出约为 02:19 UTC = 当地 07:19（UTC+5），日落约为 13:04 UTC = 当地 18:04——冬季白天约 10 小时 45 分钟。</div>
+<h2>常见问题</h2></section><div class="faq"><h3>结果是什么时间标准？</h3><p>UTC，因此它们适用于每个地点，无需猜测时区或夏令时规则。添加该日期该地点的 UTC 偏移（例如卡拉奇为 +5，伦敦夏季为 +1）以获得当地时钟时间。</p></div><div class="faq"><h3>它有多准确？</h3><p>此处使用的 NOAA/Almanac 算法在大多数有人居住的纬度上，通常与发布的年历时间相差约 1–2 分钟。在极地极端纬度，某些日期太阳可能根本不升起或落下——计算器会如实报告极昼或极夜。</p></div><div class="faq"><h3>为什么是 90.833 度而不是恰好 90？</h3><p>因为日出/日落由太阳的上边缘定义，而不是其中心，大气会弯曲阳光。额外的 0.833° 考虑了太阳的半径（0.25°）加上典型的折射（0.583°）。</p></div><div class="faq"><h3>我在哪里可以获得我城镇的坐标？</h3><p>任何地图应用都会显示放置图钉的纬度/经度。预设列表涵盖世界和欧洲的主要城市，作为起点。</p></div>
+<h2 class="sec">相关计算器</h2><div class="grid"><a class="card" href="../date-calculator/"><div class="ic">📆</div><h3>日期计算器</h3><p>日期与时间</p></a><a class="card" href="../days-between-dates-calculator/"><div class="ic">🗓️</div><h3>两个日期之间的天数</h3><p>日期与时间</p></a><a class="card" href="../age-calculator/"><div class="ic">📅</div><h3>年龄计算器</h3><p>日期与时间</p></a><a class="card" href="../working-days-calculator/"><div class="ic">🏢</div><h3>工作日计算器</h3><p>日期与时间</p></a><a class="card" href="../world-clock/"><div class="ic">🌍</div><h3>世界时钟</h3><p>日期与时间</p></a></div>
+</div>
+<section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>工作原理 — 公式</h2>
+<p>标准的 Almanac/NOAA 方法：从年内日序 N 和经度，估计太阳的平近点角 M = 0.9856t − 3.289，其真黄经 L = M + 1.916 sin M + 0.020 sin 2M + 282.634，赤经 RA，以及从 sin(dec) = 0.39782 sin L 得到的赤纬。时角 H 来自 cos H = (cos 90.833° − sin(dec) sin(lat)) ÷ (cos(dec) cos(lat))。日出使用 360° − H，日落使用 H，当地平时间用经度转换为 UTC。如果 |cos H| > 1，太阳在那天永不落下（极昼）或永不升起（极夜）。</p>
+<h3>示例</h3><div class="exbox"><p><strong>输入项：</strong> 伦敦，纬度 51.5074，经度 −0.1278，六月21日，2026年（日序 N = 172）。</p><p><strong>步骤：</strong> 该算法给出太阳赤纬 ≈ +23.43°（接近其夏至最大值）和约 125.1° 的时角，因此半天为 125.1 ÷ 15 = 围绕太阳正午的 8.34 小时。完整计算返回日出 ≈ 03:43 UTC，日落 ≈ 20:21 UTC（04:43 和 21:21 BST，太阳正午 ≈ 12:02 UTC = 13:02 BST——中点），与已发布的 2026 年夏至伦敦年历时间 (timeanddate) 一致。</p><p><strong>结果：</strong> 日长 = 20:21 − 03:43 = <strong>16 h 38 min</strong>.</p></div>
+
+</section>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">将此计算器嵌入您的网站——免费</h2>
+<p style="margin:0 0 12px;line-height:1.6">将本计算器添加到你自己的网站或博客——完全免费，无需注册，并且始终显示最新版本。复制下面的代码，粘贴到你希望计算器出现的页面位置。在嵌入下方保留小小的 &ldquo;Powered by Loona Automation&rdquo; 署名行有助于保持本工具免费——但你可以自由设置样式或将其移除；无论哪种方式工具都能工作。</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/zh/sunrise-sunset-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Sunrise & Sunset Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;技术支持： &lt;a href="https://loonaautomation.github.io/loona-calculators/zh/sunrise-sunset-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 免费 日出与日落计算器&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">复制嵌入代码</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='复制嵌入代码';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>热门计算器</h4><ul><li><a href="../age-calculator/">年龄计算器</a></li>
+<li><a href="../zakat-calculator/">天课计算器</a></li>
+<li><a href="../cgpa-calculator/">CGPA 计算器</a></li>
+<li><a href="../percentage-calculator/">百分比计算器</a></li>
+<li><a href="../hijri-date-converter/">伊斯兰历日期转换器</a></li>
+<li><a href="../emi-calculator/">EMI 与贷款计算器</a></li></ul></div>
+<div><h4>更多 Loona 工具</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona 图片压缩工具</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI 助手</a></li>
+<li><a href="https://loonaautomation.github.io/">所有 Loona 工具</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">关于</a></li>
+<li><a href="../contact.html">联系</a></li>
+<li><a href="../privacy-policy.html">隐私政策</a></li>
+<li><a href="../terms.html">使用条款</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators —— 一个 <a href="https://loonaautomation.github.io/">Loona Automation</a> 项目。免费在线计算器，无需注册。
+联系方式： <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+function sunCalc(dateISO,lat,lon){
+  if(!dateISO||!(lat>=-90&&lat<=90)||!(lon>=-180&&lon<=180))return null;
+  var p=dateISO.split("-");
+  var dt=new Date(Date.UTC(+p[0],+p[1]-1,+p[2]));
+  var start=new Date(Date.UTC(+p[0],0,0));
+  var N=Math.round((dt-start)/86400000);
+  var lngHour=lon/15;
+  function calc(isRise){
+    var t=N+(((isRise?6:18))-lngHour)/24;
+    var M=(0.9856*t)-3.289;
+    var L=M+1.916*Math.sin(M*Math.PI/180)+0.020*Math.sin(2*M*Math.PI/180)+282.634;
+    L=((L%360)+360)%360;
+    var RA=Math.atan(0.91764*Math.tan(L*Math.PI/180))*180/Math.PI;
+    RA=((RA%360)+360)%360;
+    RA+= (Math.floor(L/90)*90 - Math.floor(RA/90)*90);
+    RA/=15;
+    var sinDec=0.39782*Math.sin(L*Math.PI/180);
+    var cosDec=Math.cos(Math.asin(sinDec));
+    var cosH=(Math.cos(90.833*Math.PI/180)-sinDec*Math.sin(lat*Math.PI/180))/(cosDec*Math.cos(lat*Math.PI/180));
+    if(cosH>1)return {polar:"night"};
+    if(cosH<-1)return {polar:"day"};
+    var H=isRise?360-Math.acos(cosH)*180/Math.PI:Math.acos(cosH)*180/Math.PI;
+    H/=15;
+    var T=H+RA-0.06571*t-6.622;
+    var UT=T-lngHour;
+    UT=((UT%24)+24)%24;
+    return {utc:UT};
+  }
+  var rise=calc(true), set=calc(false);
+  if(rise.polar||set.polar)return {polar:(rise.polar||set.polar)};
+  var dayLen=set.utc-rise.utc; if(dayLen<0)dayLen+=24;
+  return {sunrise:rise.utc,sunset:set.utc,dayLength:dayLen,solarNoon:(rise.utc+dayLen/2)%24};
+}
+function fmtHours(h){var H=Math.floor(h),M=Math.round((h-H)*60);if(M===60){H=(H+1)%24;M=0;}return String(H).padStart(2,"0")+":"+String(M).padStart(2,"0");}
+/*TESTABLE_END*/
+document.getElementById('snPreset').addEventListener('change',function(){
+  if(!this.value)return; var parts=this.value.split(",");
+  document.getElementById('snLat').value=parts[0]; document.getElementById('snLon').value=parts[1];
+});
+document.getElementById('snDate').value=new Date().toISOString().slice(0,10);
+document.getElementById('snForm').addEventListener('submit',function(e){e.preventDefault();
+ var r=sunCalc(document.getElementById('snDate').value,parseFloat(document.getElementById('snLat').value),parseFloat(document.getElementById('snLon').value));
+ var box=document.getElementById('snResult'); box.style.display='block';
+ if(!r){box.innerHTML='<p class="err">请检查日期和坐标。</p>';return;}
+ if(r.polar){box.innerHTML='<p class="resnote">在此日期、此纬度，太阳 '+(r.polar==='day'?'永不落下（极昼/午夜太阳）。':'永不升起（极夜）。')+'</p>';return;}
+ var dlH=Math.floor(r.dayLength), dlM=Math.round((r.dayLength-dlH)*60);
+ box.innerHTML='<div class="resbig"><span>日长</span><strong>'+dlH+' h '+dlM+' 分钟</strong></div>'
+ +'<table class="restbl"><tr><td>日出（UTC）</td><td><strong>'+fmtHours(r.sunrise)+'</strong></td></tr>'
+ +'<tr><td>日落（UTC）</td><td><strong>'+fmtHours(r.sunset)+'</strong></td></tr>'
+ +'<tr><td>太阳正午（UTC）</td><td><strong>'+fmtHours(r.solarNoon)+'</strong></td></tr></table>'
+ +'<p class="resnote">时间为 UTC — 加上该地点的 UTC 偏移即可得到当地时钟时间。典型精度 1–2 分钟。</p>';});
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' 安装应用';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('安装此应用：点击分享按钮，然后选择“添加到主屏幕”。');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

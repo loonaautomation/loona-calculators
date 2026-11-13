@@ -1,0 +1,29 @@
+{
+  "name": "Loona P 值计算器",
+  "short_name": "P 值计算器",
+  "description": "免费 p 值计算器：将 z、t 或卡方检验统计量转换为单尾和双尾 p 值，并附有在 0.05 和 0.01 下的显著性结论。",
+  "id": "/loona-calculators/zh/p-value-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

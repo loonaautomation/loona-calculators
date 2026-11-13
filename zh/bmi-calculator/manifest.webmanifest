@@ -1,0 +1,29 @@
+{
+  "name": "Loona BMI 计算器",
+  "short_name": "BMI 计算器",
+  "description": "免费 BMI 计算器：输入您的体重和身高（cm 或英尺/英寸），查看您的体重指数、您的类别以及适合您身高的健康体重范围。",
+  "id": "/loona-calculators/zh/bmi-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

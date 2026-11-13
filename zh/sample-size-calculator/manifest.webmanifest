@@ -1,0 +1,29 @@
+{
+  "name": "Loona 样本量计算器",
+  "short_name": "样本量计算器",
+  "description": "免费样本量计算器：在您的置信水平和误差范围下，调查比例或均值需要多少份回复，带有有限总体校正。",
+  "id": "/loona-calculators/zh/sample-size-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

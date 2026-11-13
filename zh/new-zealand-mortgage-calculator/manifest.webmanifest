@@ -1,0 +1,29 @@
+{
+  "name": "Loona 新西兰按揭计算器",
+  "short_name": "新西兰按揭",
+  "description": "免费新西兰抵押贷款计算器：任何房价、首付、利率和期限下的每月还款、总利息和无债日期，还可比较额外还款。",
+  "id": "/loona-calculators/zh/new-zealand-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

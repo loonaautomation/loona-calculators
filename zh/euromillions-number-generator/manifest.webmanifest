@@ -1,0 +1,29 @@
+{
+  "name": "Loona EuroMillions 号码生成器",
+  "short_name": "EuroMillions 号码生成器",
+  "description": "免费 EuroMillions 号码生成器：从 50 中抽取 5 个主号码加从 12 中选 2 个幸运星，一次最多 5 行。安全随机选号，无需注册。",
+  "id": "/loona-calculators/zh/euromillions-number-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

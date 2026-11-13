@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calculators",
+  "short_name": "计算器",
+  "description": "297 个免费在线计算器：年龄、zakat、百分比、CGPA、EMI、BMI、电费账单和伊斯兰历日期转换器。无需注册——快速、准确、私密。",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "id": "/loona-calculators/zh/"
+}

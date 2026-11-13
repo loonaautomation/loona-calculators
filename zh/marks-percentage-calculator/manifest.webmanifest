@@ -1,0 +1,29 @@
+{
+  "name": "Loona Marks Percentage 计算器",
+  "short_name": "Marks Percentage 计算器",
+  "description": "免费分数百分比计算器：输入获得的分数和总分数，立即获得您的百分比和成绩。适用于中学、中级、大学和所有考试。",
+  "id": "/loona-calculators/zh/marks-percentage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona 信用卡还款计算器",
+  "short_name": "信用卡还款计算器",
+  "description": "免费信用卡还款计算器：余额、APR 和固定每月还款——查看还清所需的月数、总利息和总付款，并对过小的还款发出警告。",
+  "id": "/loona-calculators/zh/credit-card-payoff-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona 日出与日落计算器",
+  "short_name": "日出与日落计算器",
+  "description": "免费日出日落计算器：输入日期和纬度/经度，获得以 UTC 和当地太阳时表示的日出、日落、白昼长度和正午太阳时刻。NOAA 计算。",
+  "id": "/loona-calculators/zh/sunrise-sunset-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

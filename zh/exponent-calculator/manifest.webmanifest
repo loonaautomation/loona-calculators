@@ -1,0 +1,29 @@
+{
+  "name": "Loona 指数计算器",
+  "short_name": "指数计算器",
+  "description": "免费指数计算器：输入底数和指数获得幂结果，还附有底数的平方、立方、平方根和立方根的额外表格。",
+  "id": "/loona-calculators/zh/exponent-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

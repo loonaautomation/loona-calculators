@@ -1,0 +1,29 @@
+{
+  "name": "Loona 毫升到汤匙转换器",
+  "short_name": "毫升到汤匙",
+  "description": "即时将毫升转换为汤匙。提供精确公式、完整的mL 到 tbsp 换算表和多个计算示例。免费，无需注册。",
+  "id": "/loona-calculators/zh/milliliters-to-tablespoons-converter.html",
+  "start_url": "./milliliters-to-tablespoons-converter.html",
+  "scope": "./milliliters-to-tablespoons-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

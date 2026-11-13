@@ -1,0 +1,29 @@
+{
+  "name": "Loona 对数计算器",
+  "short_name": "对数计算器",
+  "description": "免费对数计算器：求任意底数的 log，加上常用对数（底数 10）、自然对数 (ln) 和二进制对数（底数 2），每个都通过其反对数验证。附有换底公式解释。",
+  "id": "/loona-calculators/zh/logarithm-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

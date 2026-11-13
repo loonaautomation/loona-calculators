@@ -1,0 +1,29 @@
+{
+  "name": "Loona 爱沙尼亚的工作日",
+  "short_name": "爱沙尼亚的工作日",
+  "description": "爱沙尼亚的工作日计算器：计算两个日期之间的工作日，除去周末和全部 12 个 2026 年爱沙尼亚公共假日。免费在线工具。",
+  "id": "/loona-calculators/zh/working-days-in-estonia.html",
+  "start_url": "./working-days-in-estonia.html",
+  "scope": "./working-days-in-estonia.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

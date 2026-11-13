@@ -1,0 +1,29 @@
+{
+  "name": "Loona 简易计算器",
+  "short_name": "简单计算器",
+  "description": "免费简易计算器，带有大而易用的按钮，可进行加、减、乘、除。历史记录带、百分比键、复制按钮和完整键盘支持——无需注册。",
+  "id": "/loona-calculators/zh/simple-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

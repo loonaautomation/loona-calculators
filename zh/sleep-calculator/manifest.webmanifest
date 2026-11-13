@@ -1,0 +1,29 @@
+{
+  "name": "Loona 睡眠计算器",
+  "short_name": "睡眠计算器",
+  "description": "免费睡眠计算器：输入起床时间获得最佳就寝时间，或输入就寝时间获得最佳起床时间——基于 90 分钟睡眠周期加上入睡时间。",
+  "id": "/loona-calculators/zh/sleep-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

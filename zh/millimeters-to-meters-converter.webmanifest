@@ -1,0 +1,29 @@
+{
+  "name": "Loona 毫米到米转换器",
+  "short_name": "毫米到米",
+  "description": "即时将毫米转换为米。提供精确公式、完整的mm 到 m 换算表和多个计算示例。免费，无需注册。",
+  "id": "/loona-calculators/zh/millimeters-to-meters-converter.html",
+  "start_url": "./millimeters-to-meters-converter.html",
+  "scope": "./millimeters-to-meters-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona 欧洲插头与电压检查器",
+  "short_name": "欧洲插头与电压查询器",
+  "description": "免费欧洲插头和电压查询器：选择一个欧洲国家，查看其插头类型、电压和频率，以及您是否需要适配器或转换器。",
+  "id": "/loona-calculators/zh/europe-plug-voltage-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona 日期间隔天数计算器",
+  "short_name": "两个日期间隔天数计算器",
+  "description": "免费日期间隔计算器：计算任意两个日期之间确切的天数、周数和年数。适用于截止日期、签证、合同和倒计时。",
+  "id": "/loona-calculators/zh/days-between-dates-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

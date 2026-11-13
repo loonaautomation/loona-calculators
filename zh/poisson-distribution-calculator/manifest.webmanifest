@@ -1,0 +1,29 @@
+{
+  "name": "Loona 泊松分布计算器",
+  "short_name": "泊松分布",
+  "description": "免费泊松分布计算器：在给定平均率 lambda 时，恰好 k 个事件、最多 k 个或至少 k 个事件的概率。适用于来电、到达、缺陷和罕见事件。",
+  "id": "/loona-calculators/zh/poisson-distribution-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

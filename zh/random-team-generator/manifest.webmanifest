@@ -1,0 +1,29 @@
+{
+  "name": "Loona 随机分组生成器",
+  "short_name": "随机组队生成器",
+  "description": "免费随机队伍生成器：粘贴一列名字，将它们分成均衡的随机队伍，适用于体育、课堂、游戏和工作坊。公平洗牌，无需注册。",
+  "id": "/loona-calculators/zh/random-team-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

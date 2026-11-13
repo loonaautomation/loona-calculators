@@ -1,0 +1,29 @@
+{
+  "name": "Loona 随机数生成器",
+  "short_name": "随机数生成器",
+  "description": "免费随机数生成器，使用安全的浏览器随机性。在任何范围内挑选数字，选择数量，并可选择仅生成唯一数字。",
+  "id": "/loona-calculators/zh/random-number-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

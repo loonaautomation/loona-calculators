@@ -1,0 +1,29 @@
+{
+  "name": "Loona IVF 预产期计算器",
+  "short_name": "IVF 预产期计算器",
+  "description": "免费 IVF 预产期计算器：输入您的胚胎移植日期和胚胎年龄（第 3 天或第 5 天），获得您的估计预产期和当前孕龄。",
+  "id": "/loona-calculators/zh/ivf-due-date-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

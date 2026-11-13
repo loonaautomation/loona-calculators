@@ -1,0 +1,29 @@
+{
+  "name": "Loona LCM 和 HCF 计算器",
+  "short_name": "LCM 和 HCF 计算器",
+  "description": "免费 LCM 和 HCF 计算器：输入两个或三个整数，立即获得它们的最小公倍数 (LCM) 和最大公因数 (HCF/GCD)。",
+  "id": "/loona-calculators/zh/lcm-hcf-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

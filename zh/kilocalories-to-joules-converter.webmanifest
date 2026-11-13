@@ -1,0 +1,29 @@
+{
+  "name": "Loona 千卡到焦耳转换器",
+  "short_name": "千卡到焦耳转换器",
+  "description": "即时将千卡转换为焦耳。提供精确公式、完整的kcal 到 J 换算表、一个计算示例和常见问题。免费，无需注册。",
+  "id": "/loona-calculators/zh/kilocalories-to-joules-converter.html",
+  "start_url": "./kilocalories-to-joules-converter.html",
+  "scope": "./kilocalories-to-joules-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

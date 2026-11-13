@@ -1,0 +1,29 @@
+{
+  "name": "Loona 电费账单计算器",
+  "short_name": "电费计算器",
+  "description": "免费电费计算器：输入使用的单位数和阶梯费率，估算您含 GST 的每月账单。可编辑 LESCO、IESCO、K-Electric 和巴基斯坦所有电力公司的费率。",
+  "id": "/loona-calculators/zh/electricity-bill-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

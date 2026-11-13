@@ -1,0 +1,29 @@
+{
+  "name": "Loona 转每分钟到赫兹转换器",
+  "short_name": "每分钟转数到",
+  "description": "即时将转每分钟转换为赫兹。提供精确公式、完整的rpm 到 Hz 换算表、一个计算示例和常见问题。免费，无需注册。",
+  "id": "/loona-calculators/zh/rpm-to-hertz-converter.html",
+  "start_url": "./rpm-to-hertz-converter.html",
+  "scope": "./rpm-to-hertz-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

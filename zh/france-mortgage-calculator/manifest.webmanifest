@@ -1,0 +1,29 @@
+{
+  "name": "Loona 法国按揭计算器",
+  "short_name": "法国抵押贷款计算器",
+  "description": "免费法国抵押贷款计算器（欧元）：每月还款，可选借款人保险 (assurance emprunteur)，以及任何价格、首付、利率和期限下的总利息和无债日期。",
+  "id": "/loona-calculators/zh/france-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

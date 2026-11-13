@@ -1,0 +1,29 @@
+{
+  "name": "Loona 加拿大按揭计算器",
+  "short_name": "加拿大抵押贷款计算器",
+  "description": "免费加拿大抵押贷款计算器（CAD），具有正确的半年复利 (j2)、每月还款、总利息，并可比较超额还款。",
+  "id": "/loona-calculators/zh/canada-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

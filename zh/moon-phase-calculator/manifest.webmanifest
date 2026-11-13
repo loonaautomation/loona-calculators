@@ -1,0 +1,29 @@
+{
+  "name": "Loona 月相计算器",
+  "short_name": "月相计算器",
+  "description": "免费月相计算器：输入任意日期，查看月亮的月相名称、照亮百分比、月龄以及距离下一次新月和满月的天数。",
+  "id": "/loona-calculators/zh/moon-phase-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

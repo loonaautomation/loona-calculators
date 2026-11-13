@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>租金上涨计算器 — 上涨后的新租金 | Loona Calculators</title>
+<meta name="description" content="免费租金上涨计算器：输入您当前的租金和上涨百分比（或新租金），查看新的每月租金、每月和每年的额外成本，以及逐年预测。">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/zh/rent-increase-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/rent-increase-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/rent-increase-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/rent-increase-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/rent-increase-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/rent-increase-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/rent-increase-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/rent-increase-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/rent-increase-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/rent-increase-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/rent-increase-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/rent-increase-calculator/"><link rel="alternate" hreflang="zh" href="https://loonaautomation.github.io/loona-calculators/zh/rent-increase-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/rent-increase-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="租金上涨计算器 — 上涨后的新租金 | Loona Calculators">
+<meta property="og:description" content="免费租金上涨计算器：输入您当前的租金和上涨百分比（或新租金），查看新的每月租金、每月和每年的额外成本，以及逐年预测。">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/zh/rent-increase-calculator/"><meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="租金上涨计算器 — 上涨后的新租金 | Loona Calculators">
+<meta name="twitter:description" content="免费租金上涨计算器：输入您当前的租金和上涨百分比（或新租金），查看新的每月租金、每月和每年的额外成本，以及逐年预测。">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona 租金涨幅计算器","url":"https://loonaautomation.github.io/loona-calculators/zh/rent-increase-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"我如何以百分比计算租金上涨？","acceptedAnswer":{"@type":"Answer","text":"将您当前的租金乘以 (1 + 百分比 ÷ 100)。对于 10% 的涨幅，以 Rs 50,000 的租金为例：50,000 × 1.10 = Rs 55,000。要单独求涨幅金额，只需当前租金 × 百分比 ÷ 100——这里是每月 Rs 5,000。"}},{"@type":"Question","name":"正常的年度租金涨幅是多少？","acceptedAnswer":{"@type":"Answer","text":"这因城市和租赁协议的规定而异。在许多巴基斯坦和印度城市，私人协议中每年 5–10% 的涨幅很常见；在一些国家和城市，涨幅受法律限制或与通货膨胀挂钩。以您自己的协议为准——在接受某个数字之前检查条款，并使用本计算器查看所报百分比的真实成本。"}},{"@type":"Question","name":"5 年后我的房租会是多少？","acceptedAnswer":{"@type":"Answer","text":"通过稳定增长它会复利：第 5 年的房租 = 当前房租 × (1 + 利率)⁵。以每年 10% 计算，Rs 50,000 变为 Rs 80,530，时间为第 5 年——多出 60% 以上，而不是简单乘法暗示的 50%。上面的逐年表显示您自己的数字。"}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/zh/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "租金上涨计算器",
+      "item": "https://loonaautomation.github.io/loona-calculators/zh/rent-increase-calculator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation 标志">
+<div class="brand">Loona <span>计算器</span></div>
+<nav>
+<a href="../">首页</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">关于</a>
+<a href="../contact.html">联系</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › 金钱与金融 › 租金涨幅计算器</div>
+<h1 class="pagetitle">📈 租金涨幅计算器</h1>
+<p class="lead">“10% 的增长”听起来很小，直到它被转换成实际的卢比——而在你看到同样的增长年复一年地做什么之前，它听起来更小。输入你当前的房租和增长额，可以是百分比，也可以是房东报出的新金额，确切地看到你将支付什么。</p>
+<div class="toolbox"><form class="calcform" id="riForm">
+<div class="fld"><label for="riCurrent">当前每月租金</label><input type="number" step="any" min="0" id="riCurrent" value="50000"></div>
+<div class="fld"><label for="riMode">我知道涨幅为…</label><select id="riMode"><option value="pct">百分比增长</option><option value="amount">新租金金额</option></select></div>
+<div class="fld" id="riPctFld"><label for="riPct">涨幅 (%)</label><input type="number" step="any" min="0" id="riPct" value="10"></div>
+<div class="fld" id="riNewFld" style="display:none"><label for="riNew">新的每月租金</label><input type="number" step="any" min="0" id="riNew" value="55000"></div>
+<div class="fld"><label for="riYears">将此增长预测的年数</label><input type="number" step="1" min="1" max="30" id="riYears" value="5"></div>
+<button class="calcbtn" type="submit">计算新租金</button>
+</form>
+<div class="calcresult" id="riRes" style="display:none"></div></div>
+<section class="txt"><h2>如何使用 Rent Increase Calculator</h2><ol><li>输入您当前的月租金。</li><li>选择你如何得知涨幅：以百分比表示（例如 10%），或以房东给你的新租金金额表示——计算器会算出缺少的那一项。</li><li>设置您希望预测的未来年数。</li><li>按“计算”——新租金、每月和每年增加的费用，以及逐年表格随即出现。</li></ol>
+<h2>常见问题</h2></section><div class="faq"><h3>我如何以百分比计算租金上涨？</h3><p>将您当前的租金乘以 (1 + 百分比 ÷ 100)。对于 10% 的涨幅，以 Rs 50,000 的租金为例：50,000 × 1.10 = Rs 55,000。要单独求涨幅金额，只需当前租金 × 百分比 ÷ 100——这里是每月 Rs 5,000。</p></div><div class="faq"><h3>正常的年度租金涨幅是多少？</h3><p>这因城市和租赁协议的规定而异。在许多巴基斯坦和印度城市，私人协议中每年 5–10% 的涨幅很常见；在一些国家和城市，涨幅受法律限制或与通货膨胀挂钩。以您自己的协议为准——在接受某个数字之前检查条款，并使用本计算器查看所报百分比的真实成本。</p></div><div class="faq"><h3>5 年后我的房租会是多少？</h3><p>通过稳定增长它会复利：第 5 年的房租 = 当前房租 × (1 + 利率)⁵。以每年 10% 计算，Rs 50,000 变为 Rs 80,530，时间为第 5 年——多出 60% 以上，而不是简单乘法暗示的 50%。上面的逐年表显示您自己的数字。</p></div>
+<h2 class="sec">相关计算器</h2><div class="grid"><a class="card" href="../rent-affordability-calculator/" data-name="rent affordability calculator rent-affordability-calculator"><div class="ic">🔑</div><h3>租金负担能力计算器</h3><p>免费租金承受能力计算器：输入您的收入和债务，按照 30% 和 28/36 规则查看您能负担的最高租金。</p></a><a class="card" href="../rent-vs-buy-calculator/" data-name="rent vs buy calculator rent-vs-buy-calculator"><div class="ic">⚖️</div><h3>租房还是买房计算器</h3><p>免费租房与买房计算器：比较在您计划居住的年份里租房的总成本与买房的成本。</p></a><a class="card" href="../rent-split-calculator/" data-name="rent split calculator rent-split-calculator"><div class="ic">🤝</div><h3>租金分摊计算器</h3><p>免费租金分摊计算器：在室友之间公平分配租金——平均、按房间面积或按收入。</p></a><a class="card" href="../mortgage-calculator/" data-name="mortgage calculator mortgage-calculator"><div class="ic">🏠</div><h3>按揭计算器</h3><p>免费抵押贷款计算器：房价、首付、利率和期限——获得贷款金额、每月还款、总利息和您房屋的总成本。</p></a><a class="card" href="../emi-calculator/" data-name="emi & loan calculator emi-calculator"><div class="ic">🏦</div><h3>EMI 与贷款计算器</h3><p>免费 EMI 和贷款计算器：输入贷款金额、利息或利润率和期限，获得您的每月分期付款和总成本。</p></a></div>
+</div>
+<section class="txt"><h2>工作原理 — 公式</h2><p>新租金是当前租金乘以一加增长率。如果您只知道新租金，百分比可以反向计算：将新租金除以当前租金，减去 1，再乘以 100。对于预测，同样的增长每年再次应用于当年的租金——这种复利就是为什么稳定的 10% 增长比大多数人预期的增长快得多的原因。</p>
+<p><strong>公式：</strong> 新租金 = 当前租金 × (1 + 涨幅% ÷ 100)。涨幅 % =（新租金 ÷ 当前租金 − 1）× 100。第 n 年租金 = 当前租金 × (1 + 涨幅% ÷ 100)<sup>n</sup>.</p><h3>示例</h3><div class="exbox"><p><strong>输入项：</strong> 当前租金 Rs 50,000；涨幅 10%；预测 3 年。</p>
+<p><strong>步骤：</strong> 新租金 = 50,000 × 1.10 = Rs 55,000——每月增加 Rs 5,000，或每年 Rs 60,000。第 2 年：55,000 × 1.10 = Rs 60,500。第 3 年：60,500 × 1.10 = Rs 66,550。</p>
+<p><strong>结果：</strong> 新的每月租金 <strong>Rs 55,000</strong>；经过三次年度涨价后，同一套房屋的价格为 <strong>每月 Rs 66,550</strong> ——比今天多三分之一。</p></div><h3>常见问题</h3></section><div class="faq"><h3>年度涨幅是应用于原租金还是当前租金？</h3><p>在大多数协议中，它每年应用于当前租金，因此涨幅是复利计算的。有些协议则将涨幅固定为原租金的百分比，以等额步长增长，最终对租户更便宜。本计算器使用更常见的复利方法——并公开说明这一点。</p></div><div class="faq"><h3>如果我只知道新租金，我可以算出百分比吗？</h3><p>是的——在上方选择“新租金金额”并输入两份租金。百分比为（新 ÷ 当前 − 1）× 100。例如，从Rs 50,000涨到Rs 57,500就是（57,500 ÷ 50,000 − 1）× 100 = 15%。</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">将此计算器嵌入您的网站——免费</h2>
+<p style="margin:0 0 12px;line-height:1.6">将本计算器添加到你自己的网站或博客——完全免费，无需注册，并且始终显示最新版本。复制下面的代码，粘贴到你希望计算器出现的页面位置。在嵌入下方保留小小的 &ldquo;Powered by Loona Automation&rdquo; 署名行有助于保持本工具免费——但你可以自由设置样式或将其移除；无论哪种方式工具都能工作。</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/zh/rent-increase-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Rent Increase Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;技术支持： &lt;a href="https://loonaautomation.github.io/loona-calculators/zh/rent-increase-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 免费 租金上涨计算器&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">复制嵌入代码</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='复制嵌入代码';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>热门计算器</h4><ul><li><a href="../age-calculator/">年龄计算器</a></li>
+<li><a href="../zakat-calculator/">天课计算器</a></li>
+<li><a href="../cgpa-calculator/">CGPA 计算器</a></li>
+<li><a href="../percentage-calculator/">百分比计算器</a></li>
+<li><a href="../hijri-date-converter/">伊斯兰历日期转换器</a></li>
+<li><a href="../emi-calculator/">EMI 与贷款计算器</a></li></ul></div>
+<div><h4>更多 Loona 工具</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona 图片压缩工具</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI 助手</a></li>
+<li><a href="https://loonaautomation.github.io/">所有 Loona 工具</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">关于</a></li>
+<li><a href="../contact.html">联系</a></li>
+<li><a href="../privacy-policy.html">隐私政策</a></li>
+<li><a href="../terms.html">使用条款</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators —— 一个 <a href="https://loonaautomation.github.io/">Loona Automation</a> 项目。免费在线计算器，无需注册。
+联系方式： <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+/* Rent Increase — pure logic (unit-tested, inlined into the page) */
+function rentIncrease(currentRent, increasePct, years){
+  var newRent = currentRent * (1 + increasePct / 100);
+  var rows = [];
+  for (var y = 1; y <= years; y++){
+    var m = currentRent * Math.pow(1 + increasePct / 100, y);
+    rows.push({ year: y, monthly: m, annual: m * 12, extraAnnual: m * 12 - currentRent * 12 });
+  }
+  return {
+    newMonthlyRent: newRent,
+    monthlyIncrease: newRent - currentRent,
+    yearlyIncrease: (newRent - currentRent) * 12,
+    newYearlyRent: newRent * 12,
+    rows: rows
+  };
+}
+function impliedIncreasePct(currentRent, newRent){
+  if (currentRent <= 0) return 0;
+  return (newRent / currentRent - 1) * 100;
+}
+function fmt(n){return "Rs " + Math.round(n).toLocaleString("en-IN");}
+function fmt2(n){return "Rs " + n.toLocaleString("en-IN",{minimumFractionDigits:2,maximumFractionDigits:2});}
+function pctFmt(n){return parseFloat(n.toFixed(2)) + "%";}
+function num(id){var v=parseFloat(document.getElementById(id).value);return isNaN(v)?0:v;}
+var riMode = document.getElementById("riMode");
+riMode.addEventListener("change", function(){
+  document.getElementById("riPctFld").style.display = riMode.value === "pct" ? "" : "none";
+  document.getElementById("riNewFld").style.display = riMode.value === "amount" ? "" : "none";
+});
+document.getElementById("riForm").addEventListener("submit", function(e){
+  e.preventDefault();
+  var res = document.getElementById("riRes");
+  var current = num("riCurrent");
+  var years = parseInt(document.getElementById("riYears").value, 10);
+  if (current <= 0){ res.style.display = "block"; res.innerHTML = '<div class="err">请输入您当前的每月租金。</div>'; return; }
+  if (!(years >= 1 && years <= 30)){ res.style.display = "block"; res.innerHTML = '<div class="err">预测年数必须在 1 到 30 之间。</div>'; return; }
+  var pct = riMode.value === "pct" ? num("riPct") : impliedIncreasePct(current, num("riNew"));
+  if (pct < 0){ res.style.display = "block"; res.innerHTML = '<div class="err">新租金低于当前租金 — 本计算器预测的是上涨，因此百分比为负。</div>'; return; }
+  var r = rentIncrease(current, pct, years);
+  var rows = "";
+  for (var i = 0; i < r.rows.length; i++){
+    rows += '<tr><td>年份 ' + r.rows[i].year + '</td><td>' + fmt(r.rows[i].monthly) + '</td><td>' + fmt(r.rows[i].annual) + '</td><td>' + fmt(r.rows[i].extraAnnual) + '</td></tr>';
+  }
+  res.style.display = "block";
+  res.innerHTML = '<div class="resbig"><span>上涨后的新月租 ' + pctFmt(pct) + '</span><strong>' + fmt(r.newMonthlyRent) + '</strong></div>'
+    + '<table class="restbl">'
+    + '<tr><td>每月增加</td><td>' + fmt(r.monthlyIncrease) + '</td></tr>'
+    + '<tr><td>每年增加</td><td>' + fmt(r.yearlyIncrease) + '</td></tr>'
+    + '<tr><td>新年租</td><td>' + fmt(r.newYearlyRent) + '</td></tr>'
+    + '</table>'
+    + '<h3 style="color:var(--teal);font-size:16px;margin:12px 0 6px">如果同样的 ' + pctFmt(pct) + ' 的上涨每年发生</h3>'
+    + '<table class="restbl"><tr><td><strong>年份</strong></td><td><strong>月租</strong></td><td><strong>年租</strong></td><td><strong>与今天相比每年多出</strong></td></tr>' + rows + '</table>'
+    + '<p class="resnote">每年的上涨都应用于当年的租金（复利），这是大多数租赁协议的运作方式。请查看您自己的协议 — 有些协议将上涨固定为原租金的百分比，增长更慢。</p>';
+});
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' 安装应用';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('安装此应用：点击分享按钮，然后选择“添加到主屏幕”。');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body></html>

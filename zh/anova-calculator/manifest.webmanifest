@@ -1,0 +1,29 @@
+{
+  "name": "Loona 单向 ANOVA 计算器",
+  "short_name": "单向 ANOVA 计算器",
+  "description": "免费单因素 ANOVA 计算器：在每组的单独一行输入该组的数字，获得平方和、F 统计量、自由度和 p 值，并附有组均值。",
+  "id": "/loona-calculators/zh/anova-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

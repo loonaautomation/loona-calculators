@@ -1,0 +1,29 @@
+{
+  "name": "Loona 毫米汞柱到巴转换器",
+  "short_name": "毫米汞柱到巴",
+  "description": "即时将毫米汞柱转换为巴。提供精确公式、完整的mmHg 到 bar 换算表、一个计算示例和常见问题。免费，无需注册。",
+  "id": "/loona-calculators/zh/millimeters-of-mercury-to-bars-converter.html",
+  "start_url": "./millimeters-of-mercury-to-bars-converter.html",
+  "scope": "./millimeters-of-mercury-to-bars-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona 工作日计算器 欧洲",
+  "short_name": "欧洲工作日计算器",
+  "description": "20 个欧洲国家的工作日计算器：计算两个日期之间的工作日，除去周末和每个国家 2026 年的公共假日。",
+  "id": "/loona-calculators/zh/working-days-calculator-europe.html",
+  "start_url": "./working-days-calculator-europe.html",
+  "scope": "./working-days-calculator-europe.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

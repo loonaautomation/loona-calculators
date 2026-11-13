@@ -1,0 +1,29 @@
+{
+  "name": "Loona 单位转换器",
+  "short_name": "单位转换器",
+  "description": "免费单位转换器：用确切的标准系数转换长度、重量、温度、体积和面积单位——km 到英里、kg 到磅、摄氏度到华氏度。",
+  "id": "/loona-calculators/zh/unit-converter/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

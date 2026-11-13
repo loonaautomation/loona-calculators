@@ -1,0 +1,29 @@
+{
+  "name": "Loona 柏林到东京时间转换器",
+  "short_name": "柏林到东京时间转换器",
+  "description": "将柏林时间转换为东京时间。东京在一月比柏林早 8 小时，在七月早 7 小时，含夏令时日期、24 小时对照表和最佳会议时段。含实时转换器。",
+  "id": "/loona-calculators/zh/berlin-to-tokyo-time-converter.html",
+  "start_url": "./berlin-to-tokyo-time-converter.html",
+  "scope": "./berlin-to-tokyo-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona 时间计算器",
+  "short_name": "时间计算器",
+  "description": "免费时间计算器：在两个时长之间加减小时、分钟和秒。非常适合工作时间、视频长度、旅行时间和学习日程。",
+  "id": "/loona-calculators/zh/time-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

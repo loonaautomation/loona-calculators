@@ -1,0 +1,29 @@
+{
+  "name": "Loona 码到英尺转换器",
+  "short_name": "码到英尺转换器",
+  "description": "即时将码转换为英尺。提供精确公式、完整的yd 到 ft 换算表和多个计算示例。免费，无需注册。",
+  "id": "/loona-calculators/zh/yards-to-feet-converter.html",
+  "start_url": "./yards-to-feet-converter.html",
+  "scope": "./yards-to-feet-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

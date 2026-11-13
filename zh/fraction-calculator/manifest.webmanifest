@@ -1,0 +1,29 @@
+{
+  "name": "Loona 分数计算器",
+  "short_name": "分数计算器",
+  "description": "免费分数计算器：将两个分数相加、相减、相乘或相除，获得以分数、带分数和小数形式的简化答案。",
+  "id": "/loona-calculators/zh/fraction-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

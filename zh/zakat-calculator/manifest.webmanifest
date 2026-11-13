@@ -1,0 +1,29 @@
+{
+  "name": "Loona 天课计算器",
+  "short_name": "天课计算器",
+  "description": "免费天课计算器：现金、银行余额、黄金、白银、商业货物和债务——检查 nisab 并立即以卢比计算您的 2.5% 天课。简单且私密。",
+  "id": "/loona-calculators/zh/zakat-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

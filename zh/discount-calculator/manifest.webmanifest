@@ -1,0 +1,29 @@
+{
+  "name": "Loona 折扣计算器",
+  "short_name": "折扣计算器",
+  "description": "免费折扣计算器：输入价格和折扣百分比，获得最终价格和您节省的金额。支持额外的二次折扣和折扣后加税。",
+  "id": "/loona-calculators/zh/discount-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

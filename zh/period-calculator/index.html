@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>经期计算器 — 下一次月经、排卵与易孕期 | Loona Calculators</title>
+<meta name="description" content="免费经期计算器：输入您末次月经的第一天和周期长度，预测您下一次的经期、排卵日和易孕窗口。仅为教育性估算。">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/zh/period-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/period-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/period-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/period-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/period-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/period-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/period-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/period-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/period-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/period-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/period-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/period-calculator/"><link rel="alternate" hreflang="zh" href="https://loonaautomation.github.io/loona-calculators/zh/period-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/period-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="经期计算器 — 下一次月经、排卵与易孕期 | Loona Calculators">
+<meta property="og:description" content="免费经期计算器：输入您末次月经的第一天和周期长度，预测您下一次的经期、排卵日和易孕窗口。仅为教育性估算。">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/zh/period-calculator/"><meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="经期计算器 — 下一次月经、排卵与易孕期 | Loona Calculators">
+<meta name="twitter:description" content="免费经期计算器：输入您末次月经的第一天和周期长度，预测您下一次的经期、排卵日和易孕窗口。仅为教育性估算。">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona 经期计算器","url":"https://loonaautomation.github.io/loona-calculators/zh/period-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"我的下次月经日期是如何计算的？","acceptedAnswer":{"@type":"Answer","text":"它是您末次月经的第一天加上周期天数。以 28 天周期（自十月 1 日开始）为例，下一次月经预计在十月 29 日。"}},{"@type":"Question","name":"排卵期是如何估算的？","acceptedAnswer":{"@type":"Answer","text":"排卵估算为预测的下一次月经前 14 天，因为周期的后半段（黄体期）对大多数人来说约为 14 天。这是估算，不是测量。"}},{"@type":"Question","name":"什么是易孕期？","acceptedAnswer":{"@type":"Answer","text":"排卵前的 5 天加上排卵日本身——总共 6 天。精子可存活约 5 天，卵子约 24 小时，这就是为什么许多指南中窗口在排卵后一天结束；本计算器显示以排卵日结束的标准 6 天窗口，外加结果中注明的之后一天。"}},{"@type":"Question","name":"这个计算器构成医疗建议吗？","acceptedAnswer":{"@type":"Answer","text":"不是。这是基于平均周期计算的教育性估算。周期各不相同，本工具不得用作避孕手段或医疗建议的替代品。请咨询医生获取个人指导。"}},{"@type":"Question","name":"如果我的周期不规律怎么办？","acceptedAnswer":{"@type":"Answer","text":"预测的可靠性较低。请使用您最近 3–6 个周期的平均周期长度，并将每个日期视为前后相差几天的大致范围。"}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/zh/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "经期计算器",
+      "item": "https://loonaautomation.github.io/loona-calculators/zh/period-calculator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation 标志">
+<div class="brand">Loona <span>计算器</span></div>
+<nav>
+<a href="../">首页</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">关于</a>
+<a href="../contact.html">联系</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › 健康 › 经期计算器</div>
+<h1 class="pagetitle">🌸 经期计算器</h1>
+<p class="lead">输入您末次月经的第一天和您通常的周期长度，预测您下一次的经期日期、您的预计排卵日，以及接下来三个周期的易孕窗口。</p>
+<div class="exbox"><strong>快速答案：</strong> 你的下一次月经估计为末次月经的第一天加上周期长度。排卵估计在下次月经前约14天，受孕窗口为排卵前5天加上排卵日当天。</div>
+<div class="toolbox"><form class="calcform" id="perForm">
+<div class="fld"><label for="perLmp">末次月经的第一天</label><input type="date" id="perLmp" required></div>
+<div class="fld"><label for="perCycle">通常周期长度（天）</label><input type="number" id="perCycle" value="28" min="15" max="60"></div>
+<div class="fld"><label for="perLen">经期长度（天）</label><input type="number" id="perLen" value="5" min="1" max="14"></div>
+<button class="calcbtn" type="submit">计算</button>
+<div class="calcresult" id="perResult" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>如何使用 Period Calculator</h2><ol><li>输入您末次月经（LMP）的第一天。</li><li>输入您通常的周期长度（以天为单位）（21–35 天是典型范围；28 天是平均值）。</li><li>输入您的经期通常持续多少天。</li><li>按“计算”查看下一次月经、经期结束日期、排卵日和易孕期，以及接下来两次预测的月经。</li></ol>
+<div class="exbox"><strong>示例：</strong> 末次月经 2026 年十月 1 日，周期 28 天：下一次月经预计在 2026 年十月 29 日，排卵约为 2026 年十月 15 日，易孕期为 2026 年十月 10–16 日。</div>
+<h2>常见问题</h2></section><div class="faq"><h3>我的下次月经日期是如何计算的？</h3><p>它是您末次月经的第一天加上周期天数。以 28 天周期（自十月 1 日开始）为例，下一次月经预计在十月 29 日。</p></div><div class="faq"><h3>排卵期是如何估算的？</h3><p>排卵估算为预测的下一次月经前 14 天，因为周期的后半段（黄体期）对大多数人来说约为 14 天。这是估算，不是测量。</p></div><div class="faq"><h3>什么是易孕期？</h3><p>排卵前的 5 天加上排卵日本身——总共 6 天。精子可存活约 5 天，卵子约 24 小时，这就是为什么许多指南中窗口在排卵后一天结束；本计算器显示以排卵日结束的标准 6 天窗口，外加结果中注明的之后一天。</p></div><div class="faq"><h3>这个计算器构成医疗建议吗？</h3><p>不是。这是基于平均周期计算的教育性估算。周期各不相同，本工具不得用作避孕手段或医疗建议的替代品。请咨询医生获取个人指导。</p></div><div class="faq"><h3>如果我的周期不规律怎么办？</h3><p>预测的可靠性较低。请使用您最近 3–6 个周期的平均周期长度，并将每个日期视为前后相差几天的大致范围。</p></div>
+<h2 class="sec">相关计算器</h2><div class="grid"><a class="card" href="../bmi-calculator/"><div class="ic">⚖️</div><h3>BMI 计算器</h3><p>健康</p></a><a class="card" href="../bmr-calculator/"><div class="ic">🔥</div><h3>BMR 和 TDEE 计算器</h3><p>健康</p></a><a class="card" href="../calorie-calculator/"><div class="ic">🍽️</div><h3>卡路里计算器</h3><p>健康</p></a><a class="card" href="../pregnancy-due-date-calculator/"><div class="ic">🤰</div><h3>怀孕预产期计算器</h3><p>健康</p></a><a class="card" href="../ovulation-calculator/"><div class="ic">🌸</div><h3>排卵计算器</h3><p>健康</p></a><a class="card" href="../conception-calculator/"><div class="ic">👶</div><h3>受孕计算器</h3><p>健康</p></a></div>
+</div>
+<section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>工作原理 — 公式</h2>
+<p><strong>下一次月经 = LMP + 周期长度。</strong> <strong>排卵 = 下一次月经 − 14 天。</strong> <strong>易孕窗口 = 排卵 − 5 天到排卵日</strong> (次日也会显示，因为卵子可存活约 24 小时）。预计经期结束日 = 末次月经 + 经期长度 − 1 天。然后再加上相同的周期长度，以预测第二次和第三次未来的经期。</p>
+<h3>示例</h3><div class="exbox"><p><strong>输入项：</strong> LMP 2026 年十月 1 日，周期 28 天，经期 5 天。</p><p><strong>步骤：</strong> 下一次月经 = 十月 1 日 + 28 天 = <strong>29 日 十月 2026 年</strong>。排卵 = 十月 29 日 − 14 天 = <strong>15 日 十月 2026 年</strong>。易孕窗口 = 十月 15 日 − 5 天 = 十月 10 日至十月 15 日（计算器还会注明十月 16 日）。经期结束 = 十月 1 日 + 5 − 1 = 2026 年十月 5 日。随后的经期：十月 29 日 + 28 = 2026 年十一月 26 日，然后是 2026 年十二月 24 日。</p><p><strong>结果：</strong> 下一次月经 <strong>29 日 十月 2026 年</strong>，排卵 <strong>15 日 十月 2026 年</strong>.</p></div>
+<p class="resnote"><strong>健康免责声明：</strong> 这仅是一个教育估算，不是医疗建议。不得单独依赖它做避孕或怀孕规划决定。咨询合格的健康专业人士获取个人建议。</p>
+</section>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">将此计算器嵌入您的网站——免费</h2>
+<p style="margin:0 0 12px;line-height:1.6">将本计算器添加到你自己的网站或博客——完全免费，无需注册，并且始终显示最新版本。复制下面的代码，粘贴到你希望计算器出现的页面位置。在嵌入下方保留小小的 &ldquo;Powered by Loona Automation&rdquo; 署名行有助于保持本工具免费——但你可以自由设置样式或将其移除；无论哪种方式工具都能工作。</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/zh/period-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Period Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;技术支持： &lt;a href="https://loonaautomation.github.io/loona-calculators/zh/period-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 免费 经期计算器&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">复制嵌入代码</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='复制嵌入代码';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>热门计算器</h4><ul><li><a href="../age-calculator/">年龄计算器</a></li>
+<li><a href="../zakat-calculator/">天课计算器</a></li>
+<li><a href="../cgpa-calculator/">CGPA 计算器</a></li>
+<li><a href="../percentage-calculator/">百分比计算器</a></li>
+<li><a href="../hijri-date-converter/">伊斯兰历日期转换器</a></li>
+<li><a href="../emi-calculator/">EMI 与贷款计算器</a></li></ul></div>
+<div><h4>更多 Loona 工具</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona 图片压缩工具</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI 助手</a></li>
+<li><a href="https://loonaautomation.github.io/">所有 Loona 工具</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">关于</a></li>
+<li><a href="../contact.html">联系</a></li>
+<li><a href="../privacy-policy.html">隐私政策</a></li>
+<li><a href="../terms.html">使用条款</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators —— 一个 <a href="https://loonaautomation.github.io/">Loona Automation</a> 项目。免费在线计算器，无需注册。
+联系方式： <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+function dUTC(isoStr){var p=isoStr.split("-");return Date.UTC(+p[0],+p[1]-1,+p[2]);}
+function isoUTC(ms){var d=new Date(ms);return d.getUTCFullYear()+"-"+String(d.getUTCMonth()+1).padStart(2,"0")+"-"+String(d.getUTCDate()).padStart(2,"0");}
+function addDaysISO(isoStr,n){return isoUTC(dUTC(isoStr)+n*86400000);}
+function periodCalc(lmp,cycle,plen){
+  if(!lmp||!(cycle>=15&&cycle<=60)||!(plen>=1&&plen<=14)) return null;
+  var next=addDaysISO(lmp,cycle), ov=addDaysISO(next,-14);
+  return {nextPeriod:next, periodEnd:addDaysISO(lmp,plen-1), ovulation:ov,
+    fertileStart:addDaysISO(ov,-5), fertileEnd:ov, fertileEndPlus1:addDaysISO(ov,1),
+    next2:addDaysISO(next,cycle), next3:addDaysISO(next,2*cycle)};
+}
+/*TESTABLE_END*/
+function fmtD(isoStr){var M=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];var W=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];var d=new Date(dUTC(isoStr));return W[d.getUTCDay()]+", "+d.getUTCDate()+" "+M[d.getUTCMonth()]+" "+d.getUTCFullYear();}
+document.getElementById('perForm').addEventListener('submit',function(e){e.preventDefault();
+ var r=periodCalc(document.getElementById('perLmp').value, parseInt(document.getElementById('perCycle').value,10), parseInt(document.getElementById('perLen').value,10));
+ var box=document.getElementById('perResult'); box.style.display='block';
+ if(!r){box.innerHTML='<p class="err">请输入有效的末次月经日期、15–60 天的周期长度和 1–14 天的经期长度。</p>';return;}
+ box.innerHTML='<div class="resbig"><span>下次月经预测</span><strong>'+fmtD(r.nextPeriod)+'</strong></div>'
+ +'<table class="restbl">'
+ +'<tr><td>本次经期结束</td><td><strong>'+fmtD(r.periodEnd)+'</strong></td></tr>'
+ +'<tr><td>预计排卵</td><td><strong>'+fmtD(r.ovulation)+'</strong></td></tr>'
+ +'<tr><td>易孕窗口</td><td><strong>'+fmtD(r.fertileStart)+' – '+fmtD(r.fertileEnd)+'</strong></td></tr>'
+ +'<tr><td>再下次月经</td><td><strong>'+fmtD(r.next2)+'</strong></td></tr>'
+ +'<tr><td>其后的月经</td><td><strong>'+fmtD(r.next3)+'</strong></td></tr></table>'
+ +'<p class="resnote">卵子在排卵后可存活约 24 小时，因此 '+fmtD(r.fertileEndPlus1)+' 也被许多指南列为最后的易孕日。仅为估算 — 周期因人而异，这不是医疗建议，也不是避孕方法。</p>';});
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' 安装应用';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('安装此应用：点击分享按钮，然后选择“添加到主屏幕”。');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

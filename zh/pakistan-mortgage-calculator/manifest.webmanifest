@@ -1,0 +1,29 @@
+{
+  "name": "Loona 巴基斯坦按揭计算器",
+  "short_name": "巴基斯坦按揭计算器",
+  "description": "免费巴基斯坦房屋融资计算器（卢比）：递减余额上的每月分期付款、总加价和任何房产价格、首付、利率和期限下的无债日期。",
+  "id": "/loona-calculators/zh/pakistan-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

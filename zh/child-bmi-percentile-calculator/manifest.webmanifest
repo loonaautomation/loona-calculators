@@ -1,0 +1,29 @@
+{
+  "name": "Loona 儿童 BMI 百分位计算器",
+  "short_name": "儿童 BMI 百分位",
+  "description": "免费儿童 BMI 百分位计算器，使用官方 CDC LMS 生长图表数据，适用于 2 至 20 岁：男孩和女孩的 BMI、百分位数、z 分数和体重类别。",
+  "id": "/loona-calculators/zh/child-bmi-percentile-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

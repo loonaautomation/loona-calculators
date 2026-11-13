@@ -1,0 +1,29 @@
+{
+  "name": "Loona 公顷到平方米转换器",
+  "short_name": "公顷到平方米",
+  "description": "即时将公顷转换为平方米。提供精确公式、完整的ha 到 m² 换算表、一个计算示例和常见问题。免费，无需注册。",
+  "id": "/loona-calculators/zh/hectares-to-square-meters-converter.html",
+  "start_url": "./hectares-to-square-meters-converter.html",
+  "scope": "./hectares-to-square-meters-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

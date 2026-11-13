@@ -1,0 +1,29 @@
+{
+  "name": "Loona 牛顿到千牛转换器",
+  "short_name": "牛顿到千牛转换器",
+  "description": "即时将牛顿转换为千牛。提供精确公式、完整的N 到 kN 换算表、一个计算示例和常见问题。免费，无需注册。",
+  "id": "/loona-calculators/zh/newtons-to-kilonewtons-converter.html",
+  "start_url": "./newtons-to-kilonewtons-converter.html",
+  "scope": "./newtons-to-kilonewtons-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

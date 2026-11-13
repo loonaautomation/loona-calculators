@@ -1,0 +1,29 @@
+{
+  "name": "Loona hCG 翻倍时间计算器",
+  "short_name": "hCG翻倍时间计算器",
+  "description": "免费 hCG 翻倍计算器：输入两次 beta hCG 结果和血液检测之间的小时数，获得翻倍时间、上升百分比和每日增量。仅供教育用途。",
+  "id": "/loona-calculators/zh/hcg-doubling-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona 列表随机工具",
+  "short_name": "列表随机工具",
+  "description": "免费列表随机化工具：粘贴任何列表，将其洗牌为随机顺序，或挑选一个随机的项目样本。安全洗牌，不上传任何内容。",
+  "id": "/loona-calculators/zh/list-randomizer/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

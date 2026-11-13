@@ -1,0 +1,29 @@
+{
+  "name": "Loona 统计计算器",
+  "short_name": "统计计算器",
+  "description": "免费统计计算器：粘贴一列数字，获得平均数、中位数、众数、范围、方差和标准差（总体和样本）、总和和计数。",
+  "id": "/loona-calculators/zh/statistics-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

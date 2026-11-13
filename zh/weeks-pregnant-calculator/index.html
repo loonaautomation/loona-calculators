@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>怀孕周数计算器 — 我怀孕几周了？| Loona 计算器</title>
+<meta name="description" content="免费怀孕周数计算器：输入您的末次月经日期或预产期，确切查看您怀孕多少周零多少天、您的孕期阶段和剩余天数。">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/zh/weeks-pregnant-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/weeks-pregnant-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/weeks-pregnant-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/weeks-pregnant-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/weeks-pregnant-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/weeks-pregnant-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/weeks-pregnant-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/weeks-pregnant-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/weeks-pregnant-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/weeks-pregnant-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/weeks-pregnant-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/weeks-pregnant-calculator/"><link rel="alternate" hreflang="zh" href="https://loonaautomation.github.io/loona-calculators/zh/weeks-pregnant-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/weeks-pregnant-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="怀孕周数计算器 — 我怀孕几周了？| Loona 计算器">
+<meta property="og:description" content="免费怀孕周数计算器：输入您的末次月经日期或预产期，确切查看您怀孕多少周零多少天、您的孕期阶段和剩余天数。">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/zh/weeks-pregnant-calculator/"><meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="怀孕周数计算器 — 我怀孕几周了？| Loona 计算器">
+<meta name="twitter:description" content="免费怀孕周数计算器：输入您的末次月经日期或预产期，确切查看您怀孕多少周零多少天、您的孕期阶段和剩余天数。">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona 怀孕周数计算器","url":"https://loonaautomation.github.io/loona-calculators/zh/weeks-pregnant-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"这与怀孕预产期计算器有何不同？","acceptedAnswer":{"@type":"Answer","text":"该页面从您的末次月经向前推算，以估计婴儿的预产期。本页回答相反的日常问题——在给定日期我怀孕几周零几天——它也可以从您已经知道的预产期开始。"}},{"@type":"Question","name":"这里使用的孕期分界是什么？","acceptedAnswer":{"@type":"Answer","text":"第一孕期：最多 13 周 + 6 天。第二孕期：14 周到 27 周 + 6 天。第三孕期：28 周直到出生。不同专业机构之间的界限略有不同；这些是广泛使用的分界点。"}},{"@type":"Question","name":"为什么从最后一次月经而不是受孕开始计数？","acceptedAnswer":{"@type":"Answer","text":"因为末次月经日期通常可知，而确切的受孕时刻不可知。世界各地的医学实践都以这种方式计算孕龄，这就是为什么在受孕时你已被计为“怀孕 2 周”。"}},{"@type":"Question","name":"这构成医疗建议吗？","acceptedAnswer":{"@type":"Answer","text":"不是——这是一个教育计算器。您的助产士或医生的测算（包括扫描）始终优先。"}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/zh/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "怀孕周数计算器",
+      "item": "https://loonaautomation.github.io/loona-calculators/zh/weeks-pregnant-calculator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation 标志">
+<div class="brand">Loona <span>计算器</span></div>
+<nav>
+<a href="../">首页</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">关于</a>
+<a href="../contact.html">联系</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › 健康 › 怀孕周数计算器</div>
+<h1 class="pagetitle">🗓️ 怀孕周数计算器</h1>
+<p class="lead">输入您末次月经的第一天——或您已知的预产期——确切查明您今天（或在任何日期）怀孕多少周零多少天、您处于哪个孕期阶段，以及距离预产期还有多少天。</p>
+<div class="exbox"><strong>快速答案：</strong> 孕龄从您末次月经的第一天算起。怀孕周数 = 距 LMP 的天数 ÷ 7。预产期是 LMP + 280 天，因此从预产期算：怀孕周数 = (280 − 距预产期的天数) ÷ 7。</div>
+<div class="toolbox"><form class="calcform" id="wpForm">
+<div class="fld"><label for="wpMode">我知道我的…</label><select id="wpMode"><option value="lmp">末次月经日期 (LMP)</option><option value="due">预产期</option></select></div>
+<div class="fld"><label for="wpDate">该日期</label><input type="date" id="wpDate" required></div>
+<div class="fld"><label for="wpAt">测量日期</label><input type="date" id="wpAt"></div>
+<button class="calcbtn" type="submit">我的年龄是多少周？</button>
+<div class="calcresult" id="wpResult" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>如何使用 Weeks Pregnant Calculator</h2><ol><li>选择你知道的输入：末次月经日期（LMP）或预产期。</li><li>输入日期，以及您想要测量的日期（默认为今天）。</li><li>以周 + 天为单位读取您的孕龄、孕期阶段和剩余天数。</li></ol>
+<div class="exbox"><strong>示例：</strong> LMP 一月1日（2026年），于三月12日（2026年）测量：已过去 70 天，因此您怀孕 10 周 + 0 天——处于妊娠早期，距离预产期还有 210 天（十月8日，2026年）。</div>
+<h2>常见问题</h2></section><div class="faq"><h3>这与怀孕预产期计算器有何不同？</h3><p>该页面从您的末次月经向前推算，以估计婴儿的预产期。本页回答相反的日常问题——在给定日期我怀孕几周零几天——它也可以从您已经知道的预产期开始。</p></div><div class="faq"><h3>这里使用的孕期分界是什么？</h3><p>第一孕期：最多 13 周 + 6 天。第二孕期：14 周到 27 周 + 6 天。第三孕期：28 周直到出生。不同专业机构之间的界限略有不同；这些是广泛使用的分界点。</p></div><div class="faq"><h3>为什么从最后一次月经而不是受孕开始计数？</h3><p>因为末次月经日期通常可知，而确切的受孕时刻不可知。世界各地的医学实践都以这种方式计算孕龄，这就是为什么在受孕时你已被计为“怀孕 2 周”。</p></div><div class="faq"><h3>这构成医疗建议吗？</h3><p>不是——这是一个教育计算器。您的助产士或医生的测算（包括扫描）始终优先。</p></div>
+<h2 class="sec">相关计算器</h2><div class="grid"><a class="card" href="../period-calculator/"><div class="ic">🌸</div><h3>经期计算器</h3><p>健康</p></a><a class="card" href="../pregnancy-due-date-calculator/"><div class="ic">🤰</div><h3>怀孕预产期计算器</h3><p>健康</p></a><a class="card" href="../ovulation-calculator/"><div class="ic">🌸</div><h3>排卵计算器</h3><p>健康</p></a><a class="card" href="../conception-calculator/"><div class="ic">👶</div><h3>受孕计算器</h3><p>健康</p></a><a class="card" href="../pregnancy-weight-gain-calculator/"><div class="ic">🤰</div><h3>孕期体重增加计算器</h3><p>健康</p></a><a class="card" href="../ivf-due-date-calculator/"><div class="ic">🧬</div><h3>IVF 预产期计算器</h3><p>健康</p></a></div>
+</div>
+<section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>工作原理 — 公式</h2>
+<p>从 LMP： <strong>妊娠天数 = 测量日期 − LMP</strong>；周数 = floor(天数 ÷ 7)，额外天数 = 天数 mod 7； <strong>预产期 = LMP + 280天</strong>。从预产期出发：等效末次月经 = 预产期 − 280 天，然后应用相同的计算。孕期划分：&lt; 14 周为孕早期，14 至 &lt; 28 周为孕中期，28+ 周为孕晚期。</p>
+<h3>示例</h3><div class="exbox"><p><strong>输入项：</strong> LMP 2026 年一月 1 日，测量日期 2026 年三月 12 日。</p><p><strong>步骤：</strong> 从一月 1 日到三月12日，2026年，天数 = 31（一月）+ 28（二月）+ 11 = 70 天。70 ÷ 7 = 10 周整，余数 0。预产期 = 一月 1 日 + 280 天 = 十月8日，2026年。剩余天数 = 280 − 70 = 210。</p><p><strong>结果：</strong> <strong>10 周 + 0 天</strong>，孕早期，预产期十月8日，2026年。</p></div>
+<p class="resnote"><strong>健康免责声明：</strong> 仅为教育性估算——不是医疗建议、诊断或治疗。关于您自己或您孩子的健康，请始终咨询合格的医疗专业人员。</p>
+</section>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">将此计算器嵌入您的网站——免费</h2>
+<p style="margin:0 0 12px;line-height:1.6">将本计算器添加到你自己的网站或博客——完全免费，无需注册，并且始终显示最新版本。复制下面的代码，粘贴到你希望计算器出现的页面位置。在嵌入下方保留小小的 &ldquo;Powered by Loona Automation&rdquo; 署名行有助于保持本工具免费——但你可以自由设置样式或将其移除；无论哪种方式工具都能工作。</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/zh/weeks-pregnant-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Weeks Pregnant Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;技术支持： &lt;a href="https://loonaautomation.github.io/loona-calculators/zh/weeks-pregnant-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 免费 怀孕周数计算器&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">复制嵌入代码</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='复制嵌入代码';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>热门计算器</h4><ul><li><a href="../age-calculator/">年龄计算器</a></li>
+<li><a href="../zakat-calculator/">天课计算器</a></li>
+<li><a href="../cgpa-calculator/">CGPA 计算器</a></li>
+<li><a href="../percentage-calculator/">百分比计算器</a></li>
+<li><a href="../hijri-date-converter/">伊斯兰历日期转换器</a></li>
+<li><a href="../emi-calculator/">EMI 与贷款计算器</a></li></ul></div>
+<div><h4>更多 Loona 工具</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona 图片压缩工具</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI 助手</a></li>
+<li><a href="https://loonaautomation.github.io/">所有 Loona 工具</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">关于</a></li>
+<li><a href="../contact.html">联系</a></li>
+<li><a href="../privacy-policy.html">隐私政策</a></li>
+<li><a href="../terms.html">使用条款</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators —— 一个 <a href="https://loonaautomation.github.io/">Loona Automation</a> 项目。免费在线计算器，无需注册。
+联系方式： <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+function dParse(s){var p=s.split("-");return Date.UTC(+p[0],+p[1]-1,+p[2])/86400000;}
+function dISO(d){var x=new Date(d*86400000);return x.getUTCFullYear()+"-"+String(x.getUTCMonth()+1).padStart(2,"0")+"-"+String(x.getUTCDate()).padStart(2,"0");}
+function dFmt(s){var M=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];var p=s.split("-");return (+p[2])+" "+M[(+p[1])-1]+" "+p[0];}
+
+/*TESTABLE_START*/
+function dParse(s){var p=s.split("-");return Date.UTC(+p[0],+p[1]-1,+p[2])/86400000;}
+function dISO(d){var x=new Date(d*86400000);return x.getUTCFullYear()+"-"+String(x.getUTCMonth()+1).padStart(2,"0")+"-"+String(x.getUTCDate()).padStart(2,"0");}
+
+function wpCalc(mode,dateISO,atISO){
+  if(!dateISO||!atISO)return null;
+  var lmp = mode==="due" ? dParse(dateISO)-280 : dParse(dateISO);
+  var days = dParse(atISO)-lmp;
+  if(days<0||days>320)return null;
+  var tri = days<98?1:days<196?2:3;
+  return {totalDays:days,weeks:Math.floor(days/7),days:days%7,due:dISO(lmp+280),remaining:280-days,trimester:tri,lmp:dISO(lmp)};
+}
+/*TESTABLE_END*/
+document.getElementById('wpAt').value=new Date().toISOString().slice(0,10);
+document.getElementById('wpForm').addEventListener('submit',function(e){e.preventDefault();
+ var r=wpCalc(document.getElementById('wpMode').value,document.getElementById('wpDate').value,document.getElementById('wpAt').value);
+ var box=document.getElementById('wpResult'); box.style.display='block';
+ if(!r){box.innerHTML='<p class="err">请检查日期 — 测量日期必须在末次月经之后且在孕期长度窗口内。</p>';return;}
+ box.innerHTML='<div class="resbig"><span>您已怀孕</span><strong>'+r.weeks+' 周 + '+r.days+' 天</strong></div>'
+ +'<table class="restbl"><tr><td>孕期阶段</td><td><strong>'+["","First","Second","Third"][r.trimester]+'</strong></td></tr>'
+ +'<tr><td>预产期</td><td><strong>'+dFmt(r.due)+'</strong></td></tr>'
+ +'<tr><td>剩余天数</td><td><strong>'+r.remaining+'</strong></td></tr></table>'
+ +'<p class="resnote">仅为教育估算 — 以您的护理团队的测算为准。</p>';});
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' 安装应用';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('安装此应用：点击分享按钮，然后选择“添加到主屏幕”。');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

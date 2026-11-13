@@ -1,0 +1,29 @@
+{
+  "name": "Loona 迪拜到东京时间转换器",
+  "short_name": "迪拜到东京时间转换器",
+  "description": "将迪拜时间转换为东京时间。东京全年比迪拜早 5 小时，含夏令时日期、24 小时对照表和最佳会议时段。含实时转换器。",
+  "id": "/loona-calculators/zh/dubai-to-tokyo-time-converter.html",
+  "start_url": "./dubai-to-tokyo-time-converter.html",
+  "scope": "./dubai-to-tokyo-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

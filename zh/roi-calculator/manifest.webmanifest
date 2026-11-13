@@ -1,0 +1,29 @@
+{
+  "name": "Loona ROI 计算器",
+  "short_name": "ROI 计算器",
+  "description": "免费 ROI 计算器：输入投资金额、返还金额和持有年数，获得任何投资的总 ROI 百分比和年化回报。",
+  "id": "/loona-calculators/zh/roi-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

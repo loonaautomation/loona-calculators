@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>申根 90/180 计算器 — 滚动天数、剩余天数与再次入境 | Loona Calculators</title>
+<meta name="description" content="免费申根 90/180 计算器：输入过去和计划的行程，查看任何滚动 180 天窗口内已使用的天数、剩余天数、逾期警告和最早安全再次入境日期。">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/zh/schengen-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/schengen-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/schengen-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/schengen-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/schengen-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/schengen-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/schengen-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/schengen-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/schengen-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/schengen-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/schengen-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/schengen-calculator/"><link rel="alternate" hreflang="zh" href="https://loonaautomation.github.io/loona-calculators/zh/schengen-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/schengen-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="申根 90/180 计算器 — 滚动天数、剩余天数与再次入境 | Loona Calculators">
+<meta property="og:description" content="免费申根 90/180 计算器：输入过去和计划的行程，查看任何滚动 180 天窗口内已使用的天数、剩余天数、逾期警告和最早安全再次入境日期。">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/zh/schengen-calculator/"><meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="申根 90/180 计算器 — 滚动天数、剩余天数与再次入境 | Loona Calculators">
+<meta name="twitter:description" content="免费申根 90/180 计算器：输入过去和计划的行程，查看任何滚动 180 天窗口内已使用的天数、剩余天数、逾期警告和最早安全再次入境日期。">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona 申根 90/180 计算器","url":"https://loonaautomation.github.io/loona-calculators/zh/schengen-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"90/180 规则实际上如何运作？","acceptedAnswer":{"@type":"Answer","text":"在您身处申根区的任何一天，计算包括那一天在内的前 180 天内您的停留天数。总数永远不得超过 90。该窗口每天向前滚动，本计算器在您的所有行程中逐日检查。"}},{"@type":"Question","name":"入境日和出境日计算在内吗？","acceptedAnswer":{"@type":"Answer","text":"是的。按欧盟规则，进入日和离开日都算作完整的停留天数，本计算器就是这样计算的。"}},{"@type":"Question","name":"如果我离开又快速返回，什么算作一次行程？","acceptedAnswer":{"@type":"Answer","text":"身处申根区内的每一天都算数，无论区外的间隔多短。请分别输入每段停留，计算器会将它们全部加到相同的滚动窗口中。"}},{"@type":"Question","name":"这构成法律建议吗？","acceptedAnswer":{"@type":"Answer","text":"不是。这是基于欧盟标准 90/180 短期停留规则的指导，适用于免签和短期签证访客。它不涵盖居留许可、长期签证，或某些国籍在双边协议下的特殊规则。由边境当局决定；请查看欧盟官方来源了解您的情况。"}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+
+.sgrow{display:grid;grid-template-columns:1fr 1fr auto;gap:8px;margin-bottom:8px;align-items:end}.sgrow button{padding:10px 12px;border-radius:10px;border:1.5px solid #f5c6c6;background:#fdecea;color:#8d2020;cursor:pointer;font-weight:700}@media(max-width:600px){.sgrow{grid-template-columns:1fr 1fr}}</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/zh/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "申根 90/180 计算器",
+      "item": "https://loonaautomation.github.io/loona-calculators/zh/schengen-calculator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation 标志">
+<div class="brand">Loona <span>计算器</span></div>
+<nav>
+<a href="../">首页</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">关于</a>
+<a href="../contact.html">联系</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › 日期与时间 › 申根90/180计算器</div>
+<h1 class="pagetitle">🇪🇺 申根90/180计算器</h1>
+<p class="lead">输入您过去和计划前往申根区的行程。计算器会检查每个滚动的 180 天窗口——而不仅仅是日历半年——计算已使用的天数，显示您还剩多少天，警告任何逾期停留，并找出您可以开始新的完整 90 天停留的最早日期。</p>
+<div class="exbox"><strong>快速答案：</strong> 申根短期停留规则允许最多停留 90 天，在任何滚动 180 天期间内。入境日和出境日都算作在场天数，窗口每天移动——它不被分成固定的六个月块。</div>
+<div class="toolbox"><form class="calcform" id="sgForm">
+<div id="sgTrips"></div>
+<button class="calcbtn" type="button" id="sgAdd" style="background:#fff;border:2px solid var(--teal2);color:var(--teal);margin-bottom:10px">+ 添加另一段行程</button>
+<div class="fld"><label for="sgCheck">查看日期</label><input type="date" id="sgCheck"></div>
+<button class="calcbtn" type="submit">查看我的 90/180 天</button>
+<div class="calcresult" id="sgResult" style="display:none"></div>
+</form>
+<div style="margin-top:22px;border-top:2px solid var(--line);padding-top:16px">
+<h3 style="color:var(--teal);margin-bottom:6px">✈️ 旅行规划器 — 检查已规划的行程</h3>
+<p style="font-size:14.5px;color:var(--mut)">将上面输入的行程用作您的历史。输入一次计划行程，查看它的每一天是否都保持在 90/180 限制内。</p>
+<div class="fld" style="margin-top:10px"><label for="sgPlanStart">计划入境日期</label><input type="date" id="sgPlanStart" style="width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px"></div>
+<div class="fld"><label for="sgPlanDays">计划时长（天）</label><input type="number" id="sgPlanDays" value="30" min="1" max="180" style="width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px"></div>
+<button class="calcbtn" type="button" id="sgPlanBtn">查看计划行程</button>
+<div class="calcresult" id="sgPlanResult" style="display:none"></div>
+</div></div>
+<section class="txt"><h2>如何使用 Schengen 90/180 Calculator</h2><ol><li>添加每次行程及其进入和离开日期（两天都算）。</li><li>设置核查日期——默认为今天——以查看截至该日的 180 天窗口内已使用的天数和剩余天数。</li><li>读取任何滚动窗口内找到的最大天数：超过 90 意味着根据该规则逾期停留。</li><li>如果您正在规划一次长途新旅行，使用最早的完整停留结果。</li></ol>
+<div class="exbox"><strong>示例：</strong> 两次行程，各 45 天——一月1日–二月14日，2026年和三月1日–四月14日，2026年——正好用 90 天。在四月14日，2026年，窗口持有全部 90 天，剩余 0 天，不存在逾期停留，因为允许 90 天。</div>
+<h2>常见问题</h2></section><div class="faq"><h3>90/180 规则实际上如何运作？</h3><p>在您身处申根区的任何一天，计算包括那一天在内的前 180 天内您的停留天数。总数永远不得超过 90。该窗口每天向前滚动，本计算器在您的所有行程中逐日检查。</p></div><div class="faq"><h3>入境日和出境日计算在内吗？</h3><p>是的。按欧盟规则，进入日和离开日都算作完整的停留天数，本计算器就是这样计算的。</p></div><div class="faq"><h3>如果我离开又快速返回，什么算作一次行程？</h3><p>身处申根区内的每一天都算数，无论区外的间隔多短。请分别输入每段停留，计算器会将它们全部加到相同的滚动窗口中。</p></div><div class="faq"><h3>这构成法律建议吗？</h3><p>不是。这是基于欧盟标准 90/180 短期停留规则的指导，适用于免签和短期签证访客。它不涵盖居留许可、长期签证，或某些国籍在双边协议下的特殊规则。由边境当局决定；请查看欧盟官方来源了解您的情况。</p></div>
+<h2 class="sec">相关计算器</h2><div class="grid"><a class="card" href="../date-calculator/"><div class="ic">📆</div><h3>日期计算器</h3><p>日期与时间</p></a><a class="card" href="../days-between-dates-calculator/"><div class="ic">🗓️</div><h3>两个日期之间的天数</h3><p>日期与时间</p></a><a class="card" href="../age-calculator/"><div class="ic">📅</div><h3>年龄计算器</h3><p>日期与时间</p></a><a class="card" href="../working-days-calculator/"><div class="ic">🏢</div><h3>工作日计算器</h3><p>日期与时间</p></a><a class="card" href="../time-calculator/"><div class="ic">⏱️</div><h3>时间计算器</h3><p>日期与时间</p></a><a class="card" href="../eu261-compensation-calculator/"><div class="ic">✈️</div><h3>EU261 赔偿查询器</h3><p>金钱与旅行</p></a></div>
+</div>
+<section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>工作原理 — 公式</h2>
+<p>对于每个日期 <em>D</em>，presence(D) = 落入该窗口内的你的行程天数 <strong>[D − 179天，D]</strong>。只有当存在某个 D 使 presence(D) &gt; 90 时，规则才被打破。本计算器会对每一个相关日期评估 presence——每个行程日及其前后日期——而不是抽样，因此滚动窗口的边界情况能被精确捕捉。核查日期的剩余天数 = 90 − presence（核查日期）。最早的完整停留开始日期是通过逐日测试候选开始日期找到的：从 S 开始的 90 天停留只有在停留期间每一天（包括新增的天数本身）presence 都保持在 90 或以下时才是安全的。</p>
+<h3>示例</h3><div class="exbox"><p><strong>输入项：</strong> 行程 1：一月1日–二月14日，2026年（31 + 14 = 45 天）。行程 2：三月1日–四月14日，2026年（31 + 14 = 45 天）。检查日期四月14日，2026年。</p><p><strong>步骤：</strong> 截至 2026 年四月 14 日的 180 天窗口从 2025 年十月 17 日开始，因此它完整包含两次旅行：45 + 45 = 已使用 90 天。剩余天数 = 90 − 90 = 0。任何窗口内的最大值是 90，这是允许的——没有逾期停留。</p><p><strong>结果：</strong> <strong>已使用 90 天，剩余 0 天，未逾期停留</strong> ——但多待一天，日期为四月15日，2026年，窗口内就会变成91天，从而违反规则。</p></div>
+<p class="resnote"><strong>免责声明：</strong> 仅为指导，基于欧盟 90/180 短期停留规则。规则核查日期：十一月8日，2026年。不是法律建议。居留许可、长期签证和双边协议可能改变这一状况——请始终向欧盟或国家官方来源确认。</p>
+</section>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">将此计算器嵌入您的网站——免费</h2>
+<p style="margin:0 0 12px;line-height:1.6">将本计算器添加到你自己的网站或博客——完全免费，无需注册，并且始终显示最新版本。复制下面的代码，粘贴到你希望计算器出现的页面位置。在嵌入下方保留小小的 &ldquo;Powered by Loona Automation&rdquo; 署名行有助于保持本工具免费——但你可以自由设置样式或将其移除；无论哪种方式工具都能工作。</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/zh/schengen-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Schengen 90/180 Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;技术支持： &lt;a href="https://loonaautomation.github.io/loona-calculators/zh/schengen-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 免费 申根 90/180 计算器&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">复制嵌入代码</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='复制嵌入代码';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>热门计算器</h4><ul><li><a href="../age-calculator/">年龄计算器</a></li>
+<li><a href="../zakat-calculator/">天课计算器</a></li>
+<li><a href="../cgpa-calculator/">CGPA 计算器</a></li>
+<li><a href="../percentage-calculator/">百分比计算器</a></li>
+<li><a href="../hijri-date-converter/">伊斯兰历日期转换器</a></li>
+<li><a href="../emi-calculator/">EMI 与贷款计算器</a></li></ul></div>
+<div><h4>更多 Loona 工具</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona 图片压缩工具</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI 助手</a></li>
+<li><a href="https://loonaautomation.github.io/">所有 Loona 工具</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">关于</a></li>
+<li><a href="../contact.html">联系</a></li>
+<li><a href="../privacy-policy.html">隐私政策</a></li>
+<li><a href="../terms.html">使用条款</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators —— 一个 <a href="https://loonaautomation.github.io/">Loona Automation</a> 项目。免费在线计算器，无需注册。
+联系方式： <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+function sgParse(isoStr){var p=isoStr.split("-");return Date.UTC(+p[0],+p[1]-1,+p[2])/86400000;}
+function sgISO(dayNum){var d=new Date(dayNum*86400000);return d.getUTCFullYear()+"-"+String(d.getUTCMonth()+1).padStart(2,"0")+"-"+String(d.getUTCDate()).padStart(2,"0");}
+function sgDaySet(trips){
+  var set={};
+  trips.forEach(function(t){var a=sgParse(t[0]),b=sgParse(t[1]);if(b<a){var tmp=a;a=b;b=tmp;}for(var d=a;d<=b;d++)set[d]=1;});
+  return set;
+}
+function sgPresence(set,day){var c=0;for(var d=day-179;d<=day;d++)if(set[d])c++;return c;}
+function analyzeSchengen(trips,checkISO){
+  var set=sgDaySet(trips), days=Object.keys(set).map(Number).sort(function(a,b){return a-b;});
+  var total=days.length;
+  if(!total)return {total:0,usedAtCheck:0,remaining:90,maxUsed:0,maxDate:null,overstay:false};
+  var check=sgParse(checkISO), usedAtCheck=sgPresence(set,check);
+  var maxUsed=0,maxDay=days[0];
+  var from=days[0], to=days[days.length-1]+179;
+  for(var d=from;d<=to;d++){var p=sgPresence(set,d); if(p>maxUsed){maxUsed=p;maxDay=d;}}
+  return {total:total,usedAtCheck:usedAtCheck,remaining:Math.max(0,90-usedAtCheck),maxUsed:maxUsed,maxDate:sgISO(maxDay),overstay:maxUsed>90};
+}
+function earliestFullStay(trips,fromISO){
+  var set=sgDaySet(trips);
+  var start0=sgParse(fromISO);
+  for(var s=start0;s<start0+730;s++){
+    var ok=true;
+    for(var k=0;k<90&&ok;k++){
+      var d=s+k, presence=0;
+      for(var x=d-179;x<=d;x++){ if(set[x]||(x>=s&&x<=d)) presence++; }
+      if(presence>90) ok=false;
+    }
+    if(ok)return sgISO(s);
+  }
+  return null;
+}
+/*TESTABLE_END*/
+var sgCount=0;
+function sgAddRow(entry,exit){
+  sgCount++;
+  var div=document.createElement('div'); div.className='sgrow';
+  div.innerHTML='<div class="fld" style="margin:0"><label>入境日期</label><input type="date" class="sgIn" value="'+(entry||'')+'"></div>'
+   +'<div class="fld" style="margin:0"><label>出境日期</label><input type="date" class="sgOut" value="'+(exit||'')+'"></div>'
+   +'<button type="button" aria-label="删除行程">✕</button>';
+  div.querySelector('button').addEventListener('click',function(){div.remove();});
+  document.getElementById('sgTrips').appendChild(div);
+}
+sgAddRow(); sgAddRow();
+document.getElementById('sgAdd').addEventListener('click',function(){sgAddRow();});
+document.getElementById('sgCheck').value=new Date().toISOString().slice(0,10);
+document.getElementById('sgForm').addEventListener('submit',function(e){e.preventDefault();
+ var trips=[];
+ document.querySelectorAll('#sgTrips .sgrow').forEach(function(r){
+   var a=r.querySelector('.sgIn').value, b=r.querySelector('.sgOut').value;
+   if(a&&b)trips.push([a,b]);
+ });
+ var box=document.getElementById('sgResult'); box.style.display='block';
+ if(!trips.length){box.innerHTML='<p class="err">请至少添加一段带入境和出境日期的行程。</p>';return;}
+ var check=document.getElementById('sgCheck').value||new Date().toISOString().slice(0,10);
+ var r=analyzeSchengen(trips,check);
+ var lastExit=trips.map(function(t){return t[1];}).sort().pop();
+ var fromForFull=r.overstay?lastExit:check;
+ var full=earliestFullStay(trips,fromForFull);
+ function fmtD(s){var M=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];var p=s.split("-");return (+p[2])+" "+M[(+p[1])-1]+" "+p[0];}
+ box.innerHTML='<div class="resbig"><span>在以下日期结束的窗口内已用天数 '+fmtD(check)+'</span><strong>'+r.usedAtCheck+' / 90</strong></div>'
+  +'<table class="restbl">'
+  +'<tr><td>核查日期的剩余天数</td><td><strong>'+r.remaining+'</strong></td></tr>'
+  +'<tr><td>输入的行程总天数</td><td><strong>'+r.total+'</strong></td></tr>'
+  +'<tr><td>任意滚动 180 天窗口内的最大值</td><td><strong>'+r.maxUsed+' 天（窗口结束于 '+fmtD(r.maxDate)+')</strong></td></tr>'
+  +'<tr><td>全新完整 90 天停留的最早开始</td><td><strong>'+(full?fmtD(full):'未来 2 年内不可行')+'</strong></td></tr></table>'
+  +(r.overstay?'<p class="err">逾期警告：这些行程达到 '+r.maxUsed+' 天（滚动 180 天窗口内），超过了 90 天的上限。</p>':'<p class="resnote">在输入的行程中，任何滚动窗口内均未发现逾期。</p>')
+  +'<p class="resnote">仅为指导，不是法律建议。入境和出境日都计入。不包括居留许可、长期签证和双边协议。</p>';});
+
+</script>
+
+<script>
+/*TESTABLE_START*/
+function planTripCheck(historyTrips, planStartISO, planDays){
+  var trips=historyTrips.slice();
+  var start=sgParse(planStartISO);
+  trips.push([planStartISO, sgISO(start+planDays-1)]);
+  var set=sgDaySet(trips);
+  var maxP=0, firstBad=null;
+  for(var k=0;k<planDays;k++){
+    var d=start+k, pr=sgPresence(set,d);
+    if(pr>maxP)maxP=pr;
+    if(pr>90&&firstBad===null)firstBad=sgISO(d);
+  }
+  return {compliant:firstBad===null, firstViolation:firstBad, maxPresence:maxP, planEnd:sgISO(start+planDays-1)};
+}
+/*TESTABLE_END*/
+document.getElementById('sgPlanBtn').addEventListener('click',function(){
+  var trips=[];
+  document.querySelectorAll('#sgTrips .sgrow').forEach(function(r){
+    var a=r.querySelector('.sgIn').value, b=r.querySelector('.sgOut').value;
+    if(a&&b)trips.push([a,b]);
+  });
+  var box=document.getElementById('sgPlanResult'); box.style.display='block';
+  var start=document.getElementById('sgPlanStart').value, days=parseInt(document.getElementById('sgPlanDays').value,10);
+  if(!start||!(days>=1&&days<=180)){box.innerHTML='<p class="err">请输入计划入境日期和 1-180 天的长度。</p>';return;}
+  var r=planTripCheck(trips,start,days);
+  box.innerHTML='<div class="resbig"><span>计划行程结论</span><strong>'+(r.compliant?'COMPLIANT':'NOT COMPLIANT')+'</strong></div>'
+   +'<table class="restbl"><tr><td>计划出境日期</td><td><strong>'+r.planEnd+'</strong></td></tr>'
+   +'<tr><td>行程期间最高的滚动窗口计数</td><td><strong>'+r.maxPresence+' / 90</strong></td></tr>'
+   +(r.firstViolation?'<tr><td>首次超限日期</td><td><strong>'+r.firstViolation+'</strong></td></tr>':'')
+   +'</table><p class="resnote">仅为规划指导，基于上方输入的行程。规则核查日期：十一月 8 日，2026 年。</p>';
+});
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' 安装应用';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('安装此应用：点击分享按钮，然后选择“添加到主屏幕”。');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

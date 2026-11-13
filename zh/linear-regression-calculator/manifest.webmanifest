@@ -1,0 +1,29 @@
+{
+  "name": "Loona 线性回归计算器",
+  "short_name": "线性回归计算器",
+  "description": "免费线性回归计算器：粘贴成对数据，获得最小二乘线 y = a + bx、相关性、预测，以及绘制了拟合线的散点图。",
+  "id": "/loona-calculators/zh/linear-regression-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

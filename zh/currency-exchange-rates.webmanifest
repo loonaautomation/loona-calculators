@@ -1,0 +1,29 @@
+{
+  "name": "Loona 货币汇率",
+  "short_name": "货币汇率",
+  "description": "欧洲中央银行参考汇率，日期为十一月06日，2026年，涵盖 20 种货币——全部 380 个货币对，配有转换器、反向汇率和换算表。",
+  "id": "/loona-calculators/zh/currency-exchange-rates.html",
+  "start_url": "./currency-exchange-rates.html",
+  "scope": "./currency-exchange-rates.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

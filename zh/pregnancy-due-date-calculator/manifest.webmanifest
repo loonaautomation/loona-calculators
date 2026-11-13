@@ -1,0 +1,29 @@
+{
+  "name": "Loona 怀孕预产期计算器",
+  "short_name": "怀孕预产期计算器",
+  "description": "免费怀孕预产期计算器：输入您末次月经 (LMP) 的第一天，获得您的预计预产期、当前怀孕周数和孕期阶段。",
+  "id": "/loona-calculators/zh/pregnancy-due-date-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

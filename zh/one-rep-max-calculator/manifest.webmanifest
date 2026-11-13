@@ -1,0 +1,29 @@
+{
+  "name": "Loona 单次最大重量 (1RM) 计算器",
+  "short_name": "单次最大重量 (1RM) 计算器",
+  "description": "免费一次最大重量计算器：用 Epley、Brzycki 和 Lombardi 公式根据一组的重量和次数估算您的 1RM，还附有训练百分比。",
+  "id": "/loona-calculators/zh/one-rep-max-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

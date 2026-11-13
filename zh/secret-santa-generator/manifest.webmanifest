@@ -1,0 +1,29 @@
+{
+  "name": "Loona 秘密圣诞老人生成器",
+  "short_name": "秘密圣诞老人生成器",
+  "description": "免费秘密圣诞老人生成器：添加名字，设置排除组合（情侣、去年的配对），秘密抽签，然后每个人只揭晓自己的配对。私密，在浏览器内。",
+  "id": "/loona-calculators/zh/secret-santa-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona 开尔文到兰氏度转换器",
+  "short_name": "开尔文到兰氏度",
+  "description": "即时将开尔文转换为兰氏度。提供精确公式、完整的K 到 °R 换算表、一个计算示例和常见问题。免费，无需注册。",
+  "id": "/loona-calculators/zh/kelvin-to-rankine-converter.html",
+  "start_url": "./kelvin-to-rankine-converter.html",
+  "scope": "./kelvin-to-rankine-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

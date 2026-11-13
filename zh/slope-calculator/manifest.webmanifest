@@ -1,0 +1,29 @@
+{
+  "name": "Loona 斜率计算器",
+  "short_name": "斜率计算器",
+  "description": "免费斜率计算器：输入两个点，获得斜率、它们之间的距离、中点，以及斜截式的直线方程，并附有计算过程。",
+  "id": "/loona-calculators/zh/slope-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

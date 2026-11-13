@@ -1,0 +1,29 @@
+{
+  "name": "Loona 南非按揭计算器",
+  "short_name": "南非抵押贷款",
+  "description": "免费南非住房贷款 (bond) 计算器（兰特）：任何房产价格、首付、利率和期限下的每月还款、总利息和无债日期，还可比较额外还款。",
+  "id": "/loona-calculators/zh/south-africa-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

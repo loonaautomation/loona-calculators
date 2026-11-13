@@ -1,0 +1,29 @@
+{
+  "name": "Loona 图形计算器",
+  "short_name": "图形计算器",
+  "description": "免费图形计算器：在带缩放的网格上绘制一个或两个函数，如 x^2、sin(x) 或 2x+3。在您的浏览器中工作，无需注册。",
+  "id": "/loona-calculators/zh/graphing-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

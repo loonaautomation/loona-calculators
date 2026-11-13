@@ -1,0 +1,29 @@
+{
+  "name": "Loona 千赫兹到每分钟转数",
+  "short_name": "千赫兹到每分钟转数",
+  "description": "即时将千赫转换为转每分钟。提供精确公式、完整的kHz 到 rpm 换算表、一个计算示例和常见问题。免费，无需注册。",
+  "id": "/loona-calculators/zh/kilohertz-to-rpm-converter.html",
+  "start_url": "./kilohertz-to-rpm-converter.html",
+  "scope": "./kilohertz-to-rpm-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona 方程求解器（线性与二次）",
+  "short_name": "方程求解器（线性 &",
+  "description": "免费方程求解器，适用于线性 (ax + b = cx + d) 和二次 (ax² + bx + c = 0) 方程，带有完整的逐步计算、判别式、复根和最终核查。",
+  "id": "/loona-calculators/zh/equation-solver/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

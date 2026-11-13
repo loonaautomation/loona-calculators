@@ -1,0 +1,29 @@
+{
+  "name": "Loona 租金分摊计算器",
+  "short_name": "租金分摊计算器",
+  "description": "免费租金分摊计算器：在 2 到 8 名室友之间分配每月租金——平均、按平方英尺计的房间面积或按收入。份额总和始终等于确切总额。",
+  "id": "/loona-calculators/zh/rent-split-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

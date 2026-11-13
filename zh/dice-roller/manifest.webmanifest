@@ -1,0 +1,29 @@
+{
+  "name": "Loona 掷骰子工具",
+  "short_name": "掷骰子",
+  "description": "免费在线掷骰子工具：掷 1 到 6 个骰子——标准 d6、d20 和其他多面骰子——带有可视骰子、总数、平均值和掷骰历史。",
+  "id": "/loona-calculators/zh/dice-roller/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

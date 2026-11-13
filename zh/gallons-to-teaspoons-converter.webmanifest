@@ -1,0 +1,29 @@
+{
+  "name": "Loona 加仑（美制）到茶匙（美制）转换器",
+  "short_name": "加仑（美制）到茶匙（美制）",
+  "description": "即时将加仑（美制）转换为茶匙（美制）。提供精确公式、完整的gal 到 tsp 换算表、一个计算示例和常见问题。免费，无需注册。",
+  "id": "/loona-calculators/zh/gallons-to-teaspoons-converter.html",
+  "start_url": "./gallons-to-teaspoons-converter.html",
+  "scope": "./gallons-to-teaspoons-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

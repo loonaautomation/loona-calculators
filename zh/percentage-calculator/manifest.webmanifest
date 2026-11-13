@@ -1,0 +1,29 @@
+{
+  "name": "Loona 百分比计算器",
+  "short_name": "百分比计算器",
+  "description": "免费百分比计算器，三合一工具：X% 相当于 Y 的多少、X 占 Y 的百分比，以及两个数字之间的百分比增加或减少。",
+  "id": "/loona-calculators/zh/percentage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

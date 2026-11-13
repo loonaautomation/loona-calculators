@@ -1,0 +1,29 @@
+{
+  "name": "Loona 英国的工作日",
+  "short_name": "英国的工作日",
+  "description": "英国（英格兰和威尔士）的工作日计算器：两个日期之间的工作日，减去周末和全部 8 个 2026 年银行假日。",
+  "id": "/loona-calculators/zh/working-days-in-united-kingdom.html",
+  "start_url": "./working-days-in-united-kingdom.html",
+  "scope": "./working-days-in-united-kingdom.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

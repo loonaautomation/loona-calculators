@@ -1,0 +1,29 @@
+{
+  "name": "Loona 抛硬币",
+  "short_name": "掷硬币",
+  "description": "免费在线抛硬币：一次抛一枚虚拟硬币或一次抛十次，带有正/反面计数、百分比、连串统计和最佳局比赛模式。",
+  "id": "/loona-calculators/zh/coin-flip/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

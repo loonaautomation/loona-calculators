@@ -1,0 +1,29 @@
+{
+  "name": "Loona 租金承受能力计算器",
+  "short_name": "租金负担能力计算器",
+  "description": "免费租金承受能力计算器：输入您的总收入、您可用于租金的份额和您的每月债务，查看您能负担的最高租金——带有 28/36 指南。",
+  "id": "/loona-calculators/zh/rent-affordability-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

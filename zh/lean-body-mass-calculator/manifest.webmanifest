@@ -1,0 +1,29 @@
+{
+  "name": "Loona 瘦体重计算器",
+  "short_name": "瘦体重计算器",
+  "description": "免费去脂体重计算器，使用 Boer、James 和 Hume 公式，根据体重、身高和性别计算——无需卷尺。教育性估算。",
+  "id": "/loona-calculators/zh/lean-body-mass-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

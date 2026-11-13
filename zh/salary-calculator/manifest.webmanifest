@@ -1,0 +1,29 @@
+{
+  "name": "Loona 薪资税计算器 巴基斯坦 2026",
+  "short_name": "工资税计算器",
+  "description": "免费巴基斯坦工资税计算器（2026 税年）：输入您的每月总工资，查看每月和每年的所得税、净实得工资和有效税率。FBR 受薪阶梯。",
+  "id": "/loona-calculators/zh/salary-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>掷硬币 — 在线掷虚拟硬币（正面或反面）| Loona</title>
+<meta name="description" content="免费在线抛硬币：一次抛一枚虚拟硬币或一次抛十次，带有正/反面计数、百分比、连串统计和最佳局比赛模式。">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/zh/coin-flip/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/coin-flip/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/coin-flip/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/coin-flip/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/coin-flip/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/coin-flip/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/coin-flip/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/coin-flip/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/coin-flip/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/coin-flip/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/coin-flip/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/coin-flip/"><link rel="alternate" hreflang="zh" href="https://loonaautomation.github.io/loona-calculators/zh/coin-flip/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/coin-flip/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="掷硬币 — 在线掷虚拟硬币（正面或反面）| Loona">
+<meta property="og:description" content="免费在线抛硬币：一次抛一枚虚拟硬币或一次抛十次，带有正/反面计数、百分比、连串统计和最佳局比赛模式。">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/zh/coin-flip/"><meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="掷硬币 — 在线掷虚拟硬币（正面或反面）| Loona">
+<meta name="twitter:description" content="免费在线抛硬币：一次抛一枚虚拟硬币或一次抛十次，带有正/反面计数、百分比、连串统计和最佳局比赛模式。">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona 抛硬币","url":"https://loonaautomation.github.io/loona-calculators/zh/coin-flip/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"在线抛硬币真的是 50/50 吗？","acceptedAnswer":{"@type":"Answer","text":"是的。每次抛掷都使用crypto.getRandomValues，也就是你浏览器中的安全随机源，因此每次抛掷正面和反面的概率都恰好为50%，与之前的结果无关。"}},{"@type":"Question","name":"正面已经连续出现 5 次——反面是不是要来了？","acceptedAnswer":{"@type":"Answer","text":"不是——这种想法被称为赌徒谬误。硬币没有记忆：在 5 次正面之后，下一次抛掷仍然恰好是 50/50。长连胜感觉令人惊讶，但在 10 次抛掷中至少出现一次 4 次或以上连胜的概率实际上相当高。"}},{"@type":"Question","name":"连续 10 次正面的机会是多少？","acceptedAnswer":{"@type":"Answer","text":"每抛一次机会减半：(1/2)¹⁰ = 1,024 次中出现 1 次，约 0.098%。对于特定的连续十次而言很罕见——但只要抛得足够久，这样的连串最终会纯属偶然地出现。"}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<style>.coin{width:120px;height:120px;border-radius:50%;margin:8px auto;display:flex;align-items:center;justify-content:center;font-size:21px;font-weight:800;color:#231a00;background:radial-gradient(circle at 35% 30%,#f3d27a,#d4af37 60%,#b8912a);border:3px solid #b8912a;box-shadow:0 4px 14px rgba(6,46,42,.25)}</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/zh/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "掷硬币",
+      "item": "https://loonaautomation.github.io/loona-calculators/zh/coin-flip/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation 标志">
+<div class="brand">Loona <span>计算器</span></div>
+<nav>
+<a href="../">首页</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">关于</a>
+<a href="../contact.html">联系</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › 趣味 › 抛硬币</div>
+<h1 class="pagetitle">🪙 抛硬币</h1>
+<p class="lead">以完美的 50/50 公平性抛一枚虚拟硬币。在抛掷时跟踪正面和反面的计数、百分比和连串——或用最佳局模式将其变成一场比赛，先达到目标的一方获胜。</p>
+<div class="toolbox"><form class="calcform" id="coinForm">
+<div class="fld"><label for="coinBestOf">比赛模式（可选）</label><select id="coinBestOf"><option value="0" selected>关 — 自由抛掷</option><option value="3">3 局制 — 先胜 2 局者胜</option><option value="5">5 局制 — 先胜 3 局者胜</option><option value="7">7 局制 — 先胜 4 局者胜</option><option value="11">11 局制 — 先胜 6 局者胜</option></select></div>
+<button class="calcbtn" type="submit">🪙 抛硬币</button>
+<button class="calcbtn" type="button" id="coinFlip10" style="background:#0a423b;color:#fff;margin-top:8px">抛 10 次</button>
+<button class="calcbtn" type="button" id="coinReset" style="background:#e2e9e7;color:#062e2a;margin-top:8px">重置</button>
+<div class="calcresult" id="coinResult" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>如何使用 Coin Flip</h2><ol><li>按“抛硬币”进行单次抛掷，或按“抛 10 次”快速批量抛掷。</li><li>观看运行总计、百分比和连胜统计更新。</li><li>可选：先选择多局多胜比赛模式——首先达到目标的一方赢得比赛。</li></ol>
+<div class="exbox"><strong>示例：</strong> 两个朋友无法决定谁在足球比赛中开球。他们选择五局三胜制（Best of 5）：抛硬币 1 和 3 正面获胜，抛 2 反面获胜，抛 4 正面也获胜——正面先达到 3 次并赢得比赛，公平而决定性。</div>
+<h2>常见问题</h2></section><div class="faq"><h3>在线抛硬币真的是 50/50 吗？</h3><p>是的。每次抛掷都使用crypto.getRandomValues，也就是你浏览器中的安全随机源，因此每次抛掷正面和反面的概率都恰好为50%，与之前的结果无关。</p></div><div class="faq"><h3>正面已经连续出现 5 次——反面是不是要来了？</h3><p>不是——这种想法被称为赌徒谬误。硬币没有记忆：在 5 次正面之后，下一次抛掷仍然恰好是 50/50。长连胜感觉令人惊讶，但在 10 次抛掷中至少出现一次 4 次或以上连胜的概率实际上相当高。</p></div><div class="faq"><h3>连续 10 次正面的机会是多少？</h3><p>每抛一次机会减半：(1/2)¹⁰ = 1,024 次中出现 1 次，约 0.098%。对于特定的连续十次而言很罕见——但只要抛得足够久，这样的连串最终会纯属偶然地出现。</p></div>
+<h2 class="sec">相关计算器</h2><div class="grid"><a class="card" href="../dice-roller/"><div class="ic">🎲</div><h3>掷骰子</h3><p>娱乐</p></a><a class="card" href="../random-number-generator/"><div class="ic">🎲</div><h3>随机数生成器</h3><p>娱乐</p></a><a class="card" href="../lottery-number-generator/"><div class="ic">🍀</div><h3>彩票号码生成器</h3><p>娱乐</p></a><a class="card" href="../love-calculator/"><div class="ic">❤️</div><h3>爱情计算器</h3><p>娱乐</p></a><a class="card" href="../percentage-calculator/"><div class="ic">％</div><h3>百分比计算器</h3><p>数学</p></a></div>
+</div>
+<section class="txt"><h2>工作原理——公式</h2>
+<p>每次抛掷都是一个独立事件，其概率为 <strong>P(heads) = P(tails) = 1/2</strong>。连续出现遵循简单的乘法：一段特定连续结果的概率为 <em>k</em> 结果相同的概率是（1/2）<sup>k</sup>。随着抛掷次数增加，显示的百分比趋向于 50/50——这种模式被称为 <strong>大数定律</strong> ——而当前连对计数器只是追踪你此刻的连续次数。</p>
+<h3>示例</h3>
+<div class="exbox"><strong>示例：</strong> 40 次掷硬币后，你有 24 个正面和 16 个反面。正面百分比 = 24 ÷ 40 × 100 = <strong>60%</strong>。这看起来很不平衡，但仅抛 40 次时，这样（或更极端）的分布约有 27% 的时间纯粹出于偶然出现——小样本波动很大。抛 1,000 次，分布通常会落在 50/50 的几个百分点以内。</div>
+<h3>常见问题</h3></section><div class="faq"><h3>多局决胜模式如何运作？</h3><p>在 N 局多胜制比赛中，胜者是首先赢得 (N+1)/2 次抛掷的一方：3 局制意味着先赢 2 次，5 局制意味着先赢 3 次。体育比赛采用这种赛制，因为它减少了单次幸运抛掷的作用。</p></div><div class="faq"><h3>硬币会记住我的抛掷结果吗？</h3><p>统计数据仅在本页打开时存在于此页中。不会发送任何东西到服务器或保存——按重置或关闭选项卡，一切都会被清除。</p></div><div class="faq"><h3>我可以用它来做决定吗？</h3><p>当然可以——掷硬币是公平打破平局的经典方法，从体育中的开球到选择游戏中谁先开始。许多人发现，当硬币在空中时，他们意识到自己在希望哪个结果——这本身就是一个有用的答案。</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">将此计算器嵌入您的网站——免费</h2>
+<p style="margin:0 0 12px;line-height:1.6">将本计算器添加到你自己的网站或博客——完全免费，无需注册，并且始终显示最新版本。复制下面的代码，粘贴到你希望计算器出现的页面位置。在嵌入下方保留小小的 &ldquo;Powered by Loona Automation&rdquo; 署名行有助于保持本工具免费——但你可以自由设置样式或将其移除；无论哪种方式工具都能工作。</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/zh/coin-flip/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Coin Flip by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;技术支持： &lt;a href="https://loonaautomation.github.io/loona-calculators/zh/coin-flip/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 免费 掷硬币&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">复制嵌入代码</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='复制嵌入代码';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>热门计算器</h4><ul><li><a href="../age-calculator/">年龄计算器</a></li>
+<li><a href="../zakat-calculator/">天课计算器</a></li>
+<li><a href="../cgpa-calculator/">CGPA 计算器</a></li>
+<li><a href="../percentage-calculator/">百分比计算器</a></li>
+<li><a href="../hijri-date-converter/">伊斯兰历日期转换器</a></li>
+<li><a href="../emi-calculator/">EMI 与贷款计算器</a></li></ul></div>
+<div><h4>更多 Loona 工具</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona 图片压缩工具</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI 助手</a></li>
+<li><a href="https://loonaautomation.github.io/">所有 Loona 工具</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">关于</a></li>
+<li><a href="../contact.html">联系</a></li>
+<li><a href="../privacy-policy.html">隐私政策</a></li>
+<li><a href="../terms.html">使用条款</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators —— 一个 <a href="https://loonaautomation.github.io/">Loona Automation</a> 项目。免费在线计算器，无需注册。
+联系方式： <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+function cryptoRandomInt(min, max) {
+  var range = max - min + 1;
+  if (!(range >= 1)) throw new Error("范围无效。");
+  if (range > 4294967296) throw new Error("范围太大。");
+  var limit = Math.floor(4294967296 / range) * range;
+  var buf = new Uint32Array(1), x;
+  do { crypto.getRandomValues(buf); x = buf[0]; } while (x >= limit);
+  return min + (x % range);
+}
+function generateRandomNumbers(min, max, count, unique) {
+  min = Math.floor(min); max = Math.floor(max); count = Math.floor(count);
+  if (isNaN(min) || isNaN(max) || isNaN(count)) throw new Error("请在每个字段中输入有效数字。");
+  if (max < min) throw new Error("最大值必须大于或等于最小值。");
+  if (count < 1 || count > 10000) throw new Error("请选择 1 到 10,000 个数字。");
+  if (unique && count > (max - min + 1)) throw new Error("该范围内没有足够的唯一数字。");
+  var out = [], seen = {};
+  while (out.length < count) {
+    var v = cryptoRandomInt(min, max);
+    if (unique) { if (seen[v]) continue; seen[v] = 1; }
+    out.push(v);
+  }
+  return out;
+}
+function generateUniqueSorted(count, max) {
+  var seen = {}, out = [];
+  while (out.length < count) {
+    var v = cryptoRandomInt(1, max);
+    if (!seen[v]) { seen[v] = 1; out.push(v); }
+  }
+  out.sort(function (a, b) { return a - b; });
+  return out;
+}
+/*TESTABLE_END*/
+
+/*TESTABLE_START*/
+function flipCoin() { return cryptoRandomInt(0, 1) === 0 ? 'H' : 'T'; }
+function newCoinStats() { return { total: 0, heads: 0, tails: 0, lastFlip: null, streak: 0, longestH: 0, longestT: 0, matchH: 0, matchT: 0 }; }
+function applyFlip(stats, flip) {
+  stats.total++;
+  if (flip === 'H') stats.heads++; else stats.tails++;
+  if (stats.lastFlip === flip) stats.streak++; else { stats.streak = 1; stats.lastFlip = flip; }
+  if (flip === 'H') { if (stats.streak > stats.longestH) stats.longestH = stats.streak; stats.matchH++; }
+  else { if (stats.streak > stats.longestT) stats.longestT = stats.streak; stats.matchT++; }
+  return stats;
+}
+function matchTarget(bestOf) { return bestOf > 0 ? Math.floor(bestOf / 2) + 1 : 0; }
+function matchWinner(stats, bestOf) {
+  var target = matchTarget(bestOf);
+  if (!target) return null;
+  if (stats.matchH >= target) return 'H';
+  if (stats.matchT >= target) return 'T';
+  return null;
+}
+/*TESTABLE_END*/
+var coinStats = newCoinStats();
+var coinWinner = null;
+function coinRender() {
+  var box = document.getElementById('coinResult');
+  box.style.display = 'block';
+  var bestOf = parseInt(document.getElementById('coinBestOf').value, 10);
+  var last = coinStats.lastFlip === 'H' ? 'Heads' : (coinStats.lastFlip === 'T' ? 'Tails' : '—');
+  var hp = coinStats.total ? Math.round(coinStats.heads / coinStats.total * 1000) / 10 : 0;
+  var html = '<div class="coin">' + (coinStats.total ? last : 'Flip!') + '</div>';
+  html += '<div class="resbig"><span>最新抛掷</span><strong>' + last + '</strong></div>';
+  html += '<table class="restbl">' +
+    '<tr><td>总抛掷次数</td><td><strong>' + coinStats.total + '</strong></td></tr>' +
+    '<tr><td>正面</td><td><strong>' + coinStats.heads + ' (' + hp + '%)</strong></td></tr>' +
+    '<tr><td>反面</td><td><strong>' + coinStats.tails + ' (' + (coinStats.total ? Math.round(coinStats.tails / coinStats.total * 1000) / 10 : 0) + '%)</strong></td></tr>' +
+    '<tr><td>当前连续</td><td><strong>' + (coinStats.total ? coinStats.streak + ' × ' + last : '—') + '</strong></td></tr>' +
+    '<tr><td>最长正面连续</td><td><strong>' + coinStats.longestH + '</strong></td></tr>' +
+    '<tr><td>最长反面连续</td><td><strong>' + coinStats.longestT + '</strong></td></tr></table>';
+  if (bestOf > 0) {
+    html += '<table class="restbl"><tr><td>比赛比分（先到 ' + matchTarget(bestOf) + ')</td><td><strong>正面 ' + coinStats.matchH + ' — ' + coinStats.matchT + ' 反面</strong></td></tr></table>';
+    if (coinWinner) html += '<p class="resnote"><strong>🏆 ' + (coinWinner === 'H' ? 'Heads' : 'Tails') + ' 赢得比赛！</strong> 更改比赛模式或按重置再玩一次。</p>';
+  }
+  box.innerHTML = html;
+}
+function coinDoFlip(n) {
+  var bestOf = parseInt(document.getElementById('coinBestOf').value, 10);
+  if (coinWinner) { coinStats.matchH = 0; coinStats.matchT = 0; coinWinner = null; }
+  for (var i = 0; i < n; i++) {
+    var before = coinStats.matchH + coinStats.matchT;
+    applyFlip(coinStats, flipCoin());
+    if (bestOf > 0) {
+      coinWinner = matchWinner(coinStats, bestOf);
+      if (coinWinner) break;
+      void before;
+    }
+  }
+  coinRender();
+}
+document.getElementById('coinForm').addEventListener('submit', function (e) { e.preventDefault(); coinDoFlip(1); });
+document.getElementById('coinFlip10').addEventListener('click', function () { coinDoFlip(10); });
+document.getElementById('coinReset').addEventListener('click', function () { coinStats = newCoinStats(); coinWinner = null; coinRender(); });
+document.getElementById('coinBestOf').addEventListener('change', function () { coinStats.matchH = 0; coinStats.matchT = 0; coinWinner = null; coinRender(); });
+coinRender();
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' 安装应用';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('安装此应用：点击分享按钮，然后选择“添加到主屏幕”。');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

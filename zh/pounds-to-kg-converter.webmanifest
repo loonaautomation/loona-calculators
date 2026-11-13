@@ -1,0 +1,29 @@
+{
+  "name": "Loona 磅到千克转换器",
+  "short_name": "磅到千克转换器",
+  "description": "即时将磅转换为千克。提供精确公式、完整的lb 到 kg 换算表和多个计算示例。免费，无需注册。",
+  "id": "/loona-calculators/zh/pounds-to-kg-converter.html",
+  "start_url": "./pounds-to-kg-converter.html",
+  "scope": "./pounds-to-kg-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
