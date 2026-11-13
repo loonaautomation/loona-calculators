@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертор от двоично число в шестнадесетично",
+  "short_name": "Двоичен към шестнадесетичен",
+  "description": "Конвертирайте двоични (основа 2) в шестнадесетични (основа 16) с валидиране, работа с позиционни стойности и справочна таблица.",
+  "id": "/loona-calculators/bg/binary-to-hexadecimal-converter.html",
+  "start_url": "./binary-to-hexadecimal-converter.html",
+  "scope": "./binary-to-hexadecimal-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калкулатор за теоремата на Бейс",
+  "short_name": "Калкулатор за теоремата на Бейс",
+  "description": "Безплатен калкулатор за теоремата на Бейс: априорната вероятност, процентът на истински положителните и процентът на фалшиво положителните дават апостериорната вероятност — класическото изчисление за медицински тестове, обяснено.",
+  "id": "/loona-calculators/bg/bayes-theorem-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

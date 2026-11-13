@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калкулатор за ИТМ",
+  "short_name": "Калкулатор за BMI",
+  "description": "Безплатен калкулатор за BMI: въведете теглото и ръста си (cm или футове/инчове), за да проверите индекса си на телесна маса, категорията си и здравословния диапазон на тегло за вашия ръст.",
+  "id": "/loona-calculators/bg/bmi-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

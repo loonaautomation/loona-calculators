@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калкулатор за BMR",
+  "short_name": "Калкулатор за BMR",
+  "description": "Безплатен калкулатор за BMR и TDEE: въведете възраст, тегло, ръст и ниво на активност, за да намерите калориите, които тялото ви изгаря в покой и в ежедневието (Mifflin-St Jeor).",
+  "id": "/loona-calculators/bg/bmr-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

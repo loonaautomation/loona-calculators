@@ -1,0 +1,29 @@
+{
+  "name": "Loona Генератор на числа за бинго",
+  "short_name": "Викач на числа за бинго",
+  "description": "Безплатен инструмент за извикване на числа за бинго за 75-топкови игри (B-I-N-G-O) и 90-топкови игри: тегли числа без повторения, показва текущата топка голяма и следи всяко извикано число на табло.",
+  "id": "/loona-calculators/bg/bingo-number-caller/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

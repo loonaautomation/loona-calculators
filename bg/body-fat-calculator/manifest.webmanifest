@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калкулатор за телесни мазнини",
+  "short_name": "Калкулатор за телесни мазнини",
+  "description": "Безплатен калкулатор за телесни мазнини, използващ метода с обиколки на ВМС на САЩ: ръст, врат, талия (и ханш при жените) дават процент телесни мазнини, мастна маса, чиста маса и категория по ACE.",
+  "id": "/loona-calculators/bg/body-fat-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

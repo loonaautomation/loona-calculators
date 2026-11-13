@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калкулатор за алкохол в кръвта",
+  "short_name": "Калкулатор за алкохол в кръвта",
+  "description": "Безплатен калкулатор за съдържание на алкохол в кръвта (BAC), използващ формулата на Видмарк: тегло, пол, напитки и време за оценка на процента BAC. Само образователна оценка, никога не шофирайте.",
+  "id": "/loona-calculators/bg/blood-alcohol-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
