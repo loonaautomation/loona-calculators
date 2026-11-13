@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертер гектарів у акри",
+  "short_name": "Конвертер гектарів у акри",
+  "description": "Перетворіть гектари у акри миттєво. Точна формула, повна таблиця перетворення ha у acre і розібрані приклади. Безкоштовно, без реєстрації.",
+  "id": "/loona-calculators/uk/hectares-to-acres-converter.html",
+  "start_url": "./hectares-to-acres-converter.html",
+  "scope": "./hectares-to-acres-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

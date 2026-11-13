@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертер секунд у тижні",
+  "short_name": "Конвертер секунд у тижні",
+  "description": "Перетворіть секунди у тижні миттєво. Точна формула, повна таблиця перетворення s у wk, розібраний приклад і поширені запитання. Безкоштовно, без реєстрації.",
+  "id": "/loona-calculators/uk/seconds-to-weeks-converter.html",
+  "start_url": "./seconds-to-weeks-converter.html",
+  "scope": "./seconds-to-weeks-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

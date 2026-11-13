@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калькулятор Z-оцінки",
+  "short_name": "Калькулятор Z-оцінки",
+  "description": "Безкоштовний калькулятор z-оцінки: введіть значення, середнє та стандартне відхилення, щоб отримати z-оцінку, процентиль і ймовірності зі стандартної нормальної таблиці (нормальний розподіл).",
+  "id": "/loona-calculators/uk/z-score-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

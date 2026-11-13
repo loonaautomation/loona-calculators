@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертер кіловат-години у кілокалорію",
+  "short_name": "Кіловат-година у кілокалорію",
+  "description": "Перетворіть кіловат-години у кілокалорії миттєво. Точна формула, повна таблиця перетворення kWh у kcal, розібраний приклад і поширені запитання. Безкоштовно, без реєстрації.",
+  "id": "/loona-calculators/uk/kilowatt-hours-to-kilocalories-converter.html",
+  "start_url": "./kilowatt-hours-to-kilocalories-converter.html",
+  "scope": "./kilowatt-hours-to-kilocalories-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

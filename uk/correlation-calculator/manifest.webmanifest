@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калькулятор кореляції",
+  "short_name": "Калькулятор кореляції",
+  "description": "Безкоштовний калькулятор кореляції Пірсона: вставте парні дані x,y, щоб отримати коефіцієнт кореляції r, r-квадрат і зрозуміле трактування сили зв’язку.",
+  "id": "/loona-calculators/uk/correlation-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

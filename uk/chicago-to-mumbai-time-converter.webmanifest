@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертер Чикаго у час Мумбаї",
+  "short_name": "Чикаго у час мумбаї",
+  "description": "Перетворіть час Чикаго на час Мумбаї. Мумбаї на 11 годин 30 хвилин попереду від Чикаго в січні та на 10 годин 30 хвилин попереду в липні, з датами переходу на літній час, таблицею на 24 години та найкращим вікном для зустрічей. Живий конвертер включено.",
+  "id": "/loona-calculators/uk/chicago-to-mumbai-time-converter.html",
+  "start_url": "./chicago-to-mumbai-time-converter.html",
+  "scope": "./chicago-to-mumbai-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

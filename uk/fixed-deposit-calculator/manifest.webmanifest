@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калькулятор строкового депозиту",
+  "short_name": "Калькулятор строкового депозиту",
+  "description": "Безкоштовний калькулятор строкового депозиту (FD): сума вкладу, відсоткова ставка, строк і частота капіталізації — отримайте суму на кінець строку та загальні нараховані відсотки.",
+  "id": "/loona-calculators/uk/fixed-deposit-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

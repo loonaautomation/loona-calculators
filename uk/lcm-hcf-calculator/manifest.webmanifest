@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калькулятор НСК і НСД",
+  "short_name": "Калькулятор НСК і НСД",
+  "description": "Безкоштовний калькулятор НСК і НСД: введіть два або три цілі числа, щоб миттєво отримати їхнє найменше спільне кратне (НСК) і найбільший спільний дільник (НСД/GCD).",
+  "id": "/loona-calculators/uk/lcm-hcf-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

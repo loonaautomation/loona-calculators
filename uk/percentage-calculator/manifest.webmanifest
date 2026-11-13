@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калькулятор відсотків",
+  "short_name": "Калькулятор відсотків",
+  "description": "Безкоштовний калькулятор відсотків із трьома інструментами в одному: скільки становить X% від Y, який відсоток становить X від Y, і відсоткове збільшення або зменшення між двома числами.",
+  "id": "/loona-calculators/uk/percentage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

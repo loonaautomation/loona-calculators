@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калькулятор одновибіркового z-критерію",
+  "short_name": "Калькулятор одновибіркового Z-тесту",
+  "description": "Безкоштовний калькулятор одновибіркового z-критерію: вибіркове середнє, відоме СКВ сукупності, n і гіпотетичне середнє дають z-статистику та p-значення. Перевірено за підручниками.",
+  "id": "/loona-calculators/uk/z-test-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

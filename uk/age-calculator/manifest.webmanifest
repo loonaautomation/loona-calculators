@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калькулятор віку",
+  "short_name": "Калькулятор віку",
+  "description": "Безкоштовний калькулятор віку: введіть дату народження й отримайте точний вік у роках, місяцях і днях, а також загальну кількість прожитих днів, тижнів і годин та дату наступного дня народження. Без реєстрації.",
+  "id": "/loona-calculators/uk/age-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

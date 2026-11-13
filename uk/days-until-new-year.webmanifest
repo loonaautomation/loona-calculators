@@ -1,0 +1,29 @@
+{
+  "name": "Loona Днів до Нового року",
+  "short_name": "Днів до Нового року",
+  "description": "Живий зворотний відлік до Нового року: точні дні, години, хвилини та секунди, що лишилися, дата цього року та наступних трьох років, факти й часті запитання.",
+  "id": "/loona-calculators/uk/days-until-new-year.html",
+  "start_url": "./days-until-new-year.html",
+  "scope": "./days-until-new-year.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

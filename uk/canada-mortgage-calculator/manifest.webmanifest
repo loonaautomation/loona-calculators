@@ -1,0 +1,29 @@
+{
+  "name": "Loona Іпотечний калькулятор для Канади",
+  "short_name": "Калькулятор іпотеки Канади",
+  "description": "Безкоштовний іпотечний калькулятор для Канади в CAD із правильним піврічним нарахуванням складних відсотків (j2), щомісячними платежами, загальними відсотками та порівнянням перевищення платежу.",
+  "id": "/loona-calculators/uk/canada-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

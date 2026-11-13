@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калькулятор округлення",
+  "short_name": "Калькулятор округлення",
+  "description": "Безкоштовний калькулятор округлення: округлюйте будь-яке число до десяткових знаків, до найближчих 10, 100 або 1,000, або до значущих цифр, із поясненням правила.",
+  "id": "/loona-calculators/uk/rounding-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

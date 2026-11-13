@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калькулятор споживання білка",
+  "short_name": "Калькулятор споживання білка",
+  "description": "Безкоштовний калькулятор споживання білка: добові грами білка за масою тіла, рівнем активності та метою, із науково обґрунтованими діапазонами g/kg. Відрізняється від розподілів макронутрієнтів за калоріями.",
+  "id": "/loona-calculators/uk/protein-intake-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

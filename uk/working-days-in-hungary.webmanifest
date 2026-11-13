@@ -1,0 +1,29 @@
+{
+  "name": "Loona Робочі дні в Угорщині",
+  "short_name": "Робочі дні в Угорщині",
+  "description": "Калькулятор робочих днів для Угорщини: робочі дні між двома датами з урахуванням вихідних, угорських державних свят і місткових днів 2026 року. Безкоштовний інструмент.",
+  "id": "/loona-calculators/uk/working-days-in-hungary.html",
+  "start_url": "./working-days-in-hungary.html",
+  "scope": "./working-days-in-hungary.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

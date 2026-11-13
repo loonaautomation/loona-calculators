@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертер Берліна у чикагський час",
+  "short_name": "Берлін у чикагський час",
+  "description": "Перетворіть час у Берліні у час у Чикаго. Чикаго на 7 годин позаду від Берліна цілий рік, із датами переходу на літній час, таблицею на 24 години та найкращим вікном для зустрічі. Живий конвертер включено.",
+  "id": "/loona-calculators/uk/berlin-to-chicago-time-converter.html",
+  "start_url": "./berlin-to-chicago-time-converter.html",
+  "scope": "./berlin-to-chicago-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

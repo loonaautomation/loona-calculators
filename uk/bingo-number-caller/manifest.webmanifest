@@ -1,0 +1,29 @@
+{
+  "name": "Loona Генератор номерів бінго",
+  "short_name": "Оголошувач чисел бінго",
+  "description": "Безкоштовний генератор номерів бінго для ігор на 75 кульок (B-I-N-G-O) і 90 кульок: витягує номери без повторів, показує поточну кульку великою та відстежує кожен названий номер на дошці.",
+  "id": "/loona-calculators/uk/bingo-number-caller/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

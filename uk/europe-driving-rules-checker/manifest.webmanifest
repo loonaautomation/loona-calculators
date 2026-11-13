@@ -1,0 +1,29 @@
+{
+  "name": "Loona Перевірка правил дорожнього руху в Європі",
+  "short_name": "Перевірка правил дорожнього руху в Європі",
+  "description": "Безкоштовний перевірник правил дорожнього руху в Європі: виберіть країну, щоб дізнатися її сторону руху, обмеження швидкості на автостраді, обмеження алкоголю та ключові місцеві правила для приїжджих водіїв.",
+  "id": "/loona-calculators/uk/europe-driving-rules-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертер кібібайта у байт",
+  "short_name": "Конвертер кібібайта у байт",
+  "description": "Перетворіть кібібайти у байти миттєво. Точна формула, повна таблиця перетворення KiB у B, розібраний приклад і поширені запитання. Безкоштовно, без реєстрації.",
+  "id": "/loona-calculators/uk/kibibytes-to-bytes-converter.html",
+  "start_url": "./kibibytes-to-bytes-converter.html",
+  "scope": "./kibibytes-to-bytes-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

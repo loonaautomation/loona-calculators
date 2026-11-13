@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калькулятор BMR",
+  "short_name": "Калькулятор BMR",
+  "description": "Безкоштовний калькулятор BMR і TDEE: введіть вік, вагу, зріст і рівень активності, щоб дізнатися калорії, які ваше тіло спалює у стані спокою та у повсякденному житті (Міффлін–Сент-Джеор).",
+  "id": "/loona-calculators/uk/bmr-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

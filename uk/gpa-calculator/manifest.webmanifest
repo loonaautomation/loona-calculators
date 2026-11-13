@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калькулятор GPA",
+  "short_name": "Калькулятор GPA",
+  "description": "Безкоштовний калькулятор GPA: введіть до 8 курсів із літерними оцінками (від A до F) та кредитними годинами, щоб отримати ваш GPA за стандартною шкалою 4.0. Швидко, приватно, без реєстрації.",
+  "id": "/loona-calculators/uk/gpa-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калькулятор часу подвоєння ХГЛ",
+  "short_name": "Калькулятор часу подвоєння ХГЛ",
+  "description": "Безкоштовний калькулятор подвоєння ХГЛ: введіть два результати бета-ХГЛ і кількість годин між аналізами крові, щоб отримати час подвоєння, відсоток зростання та щоденний приріст. Лише в освітніх цілях.",
+  "id": "/loona-calculators/uk/hcg-doubling-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калькулятор розміру вибірки",
+  "short_name": "Калькулятор розміру вибірки",
+  "description": "Безкоштовний калькулятор розміру вибірки: скільки відповідей потрібно для частки або середнього в опитуванні, за вашого рівня довіри та межі похибки, з поправкою на скінченну сукупність.",
+  "id": "/loona-calculators/uk/sample-size-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

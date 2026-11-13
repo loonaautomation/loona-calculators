@@ -1,0 +1,29 @@
+{
+  "name": "Loona Днів до Великодньої неділі",
+  "short_name": "Днів до Великодньої неділі",
+  "description": "Живий зворотний відлік до Великодньої неділі: точні дні, години, хвилини та секунди, що лишилися, дата цього року та наступних трьох років, факти й часті запитання.",
+  "id": "/loona-calculators/uk/days-until-easter.html",
+  "start_url": "./days-until-easter.html",
+  "scope": "./days-until-easter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

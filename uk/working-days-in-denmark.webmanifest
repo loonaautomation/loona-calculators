@@ -1,0 +1,29 @@
+{
+  "name": "Loona Робочі дні в Данії",
+  "short_name": "Робочі дні в Данії",
+  "description": "Калькулятор робочих днів для Данії: рахуйте робочі дні між двома датами з вилученими вихідними та данськими національними державними святами 2026 року. Безкоштовний інструмент.",
+  "id": "/loona-calculators/uk/working-days-in-denmark.html",
+  "start_url": "./working-days-in-denmark.html",
+  "scope": "./working-days-in-denmark.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

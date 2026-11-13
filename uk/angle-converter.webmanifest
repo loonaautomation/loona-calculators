@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертер кутів",
+  "short_name": "Конвертер кутів",
+  "description": "Кожна пара конвертації кутів в одному індексі: точні коефіцієнти, формули та окрема сторінка конвертера для кожної пари. Безкоштовно, без реєстрації.",
+  "id": "/loona-calculators/uk/angle-converter.html",
+  "start_url": "./angle-converter.html",
+  "scope": "./angle-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

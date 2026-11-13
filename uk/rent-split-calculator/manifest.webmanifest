@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калькулятор розподілу оренди",
+  "short_name": "Калькулятор поділу оренди",
+  "description": "Безкоштовний калькулятор розподілу оренди: діліть щомісячну оренду між 2–8 сусідами по житлу — порівну, за розміром кімнати у квадратних футах або за доходом. Частки завжди складаються в точну загальну суму.",
+  "id": "/loona-calculators/uk/rent-split-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

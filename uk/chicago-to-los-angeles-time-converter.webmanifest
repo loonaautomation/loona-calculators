@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертер Чикаго у час Лос-Анджелеса",
+  "short_name": "Чикаго у час лос-анджелеса",
+  "description": "Перетворіть час у Чикаго у час у Лос-Анджелесі. Лос-Анджелес на 2 години позаду від Чикаго цілий рік, із датами переходу на літній час, таблицею на 24 години та найкращим вікном для зустрічі. Живий конвертер включено.",
+  "id": "/loona-calculators/uk/chicago-to-los-angeles-time-converter.html",
+  "start_url": "./chicago-to-los-angeles-time-converter.html",
+  "scope": "./chicago-to-los-angeles-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

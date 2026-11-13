@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калькулятор погашення кредитної картки",
+  "short_name": "Калькулятор погашення кредитної картки",
+  "description": "Безкоштовний калькулятор погашення кредитної картки: баланс, APR і фіксований щомісячний платіж — дивіться кількість місяців до погашення, загальні відсотки та загальну суму виплат, із попередженням про надто малі платежі.",
+  "id": "/loona-calculators/uk/credit-card-payoff-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

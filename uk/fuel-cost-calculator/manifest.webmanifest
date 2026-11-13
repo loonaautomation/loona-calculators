@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калькулятор вартості пального",
+  "short_name": "Калькулятор вартості пального",
+  "description": "Безкоштовний калькулятор вартості пального: введіть відстань, витрату пального автомобіля та ціну пального, щоб отримати потрібні літри та загальну вартість поїздки, з можливістю поїздки туди й назад.",
+  "id": "/loona-calculators/uk/fuel-cost-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

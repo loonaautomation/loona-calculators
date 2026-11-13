@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калькулятор відвідуваності",
+  "short_name": "Калькулятор відвідуваності",
+  "description": "Безкоштовний калькулятор відвідуваності для студентів: введіть кількість проведених і відвіданих занять, щоб дізнатися відсоток відвідуваності, скільки занять можна пропустити або скільки треба відвідати, щоб досягти мети.",
+  "id": "/loona-calculators/uk/attendance-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

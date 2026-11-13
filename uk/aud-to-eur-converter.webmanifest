@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертер AUD у EUR",
+  "short_name": "Конвертер AUD у EUR",
+  "description": "Перетворіть австралійський долар (AUD) у євро (EUR). Довідковий курс ЄЦБ від 06 листопада 2026, зворотний курс, таблиця перетворення та примітки щодо коридору. Лише орієнтовно.",
+  "id": "/loona-calculators/uk/aud-to-eur-converter.html",
+  "start_url": "./aud-to-eur-converter.html",
+  "scope": "./aud-to-eur-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

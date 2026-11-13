@@ -1,0 +1,29 @@
+{
+  "name": "Loona Робочі дні у Великій Британії",
+  "short_name": "Робочі дні у Великій Британії",
+  "description": "Калькулятор робочих днів для Великої Британії (Англія та Уельс): робочі дні між двома датами мінус вихідні та всі 8 банківських вихідних 2026 року.",
+  "id": "/loona-calculators/uk/working-days-in-united-kingdom.html",
+  "start_url": "./working-days-in-united-kingdom.html",
+  "scope": "./working-days-in-united-kingdom.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

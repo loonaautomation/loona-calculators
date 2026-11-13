@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертер Денвера у токійський час",
+  "short_name": "Конвертер Денвера у токійський час",
+  "description": "Перетворіть час Денвера на час Токіо. Токіо на 16 годин попереду від Денвера в січні та на 15 годин попереду в липні, з датами переходу на літній час, таблицею на 24 години та найкращим вікном для зустрічей. Живий конвертер включено.",
+  "id": "/loona-calculators/uk/denver-to-tokyo-time-converter.html",
+  "start_url": "./denver-to-tokyo-time-converter.html",
+  "scope": "./denver-to-tokyo-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

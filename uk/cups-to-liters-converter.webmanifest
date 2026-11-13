@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертер чашок у літри",
+  "short_name": "Конвертер чашок у літри",
+  "description": "Перетворіть чашки у літри миттєво. Точна формула, повна таблиця перетворення cup у L і розібрані приклади. Безкоштовно, без реєстрації.",
+  "id": "/loona-calculators/uk/cups-to-liters-converter.html",
+  "start_url": "./cups-to-liters-converter.html",
+  "scope": "./cups-to-liters-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

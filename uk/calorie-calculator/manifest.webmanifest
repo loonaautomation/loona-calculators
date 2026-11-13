@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калькулятор калорій",
+  "short_name": "Калькулятор калорій",
+  "description": "Безкоштовний калькулятор калорій: введіть свої дані, активність і мету, щоб отримати добову норму калорій для схуднення, підтримання або набору ваги — із безпечним мінімумом.",
+  "id": "/loona-calculators/uk/calorie-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

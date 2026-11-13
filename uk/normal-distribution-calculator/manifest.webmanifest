@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калькулятор нормального розподілу",
+  "short_name": "Калькулятор нормального розподілу",
+  "description": "Безкоштовний калькулятор нормального розподілу: для будь-якого середнього та стандартного відхилення знаходьте P(X<x), P(X>x), P(a<X<b) і значення за заданим процентилем.",
+  "id": "/loona-calculators/uk/normal-distribution-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

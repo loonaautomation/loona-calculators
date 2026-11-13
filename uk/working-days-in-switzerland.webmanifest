@@ -1,0 +1,29 @@
+{
+  "name": "Loona Робочі дні у Швейцарії",
+  "short_name": "Робочі дні у Швейцарії",
+  "description": "Калькулятор робочих днів для Швейцарії: робочі дні між двома датами мінус вихідні та 4 державні свята, які відзначають у кожному швейцарському кантоні у 2026 році.",
+  "id": "/loona-calculators/uk/working-days-in-switzerland.html",
+  "start_url": "./working-days-in-switzerland.html",
+  "scope": "./working-days-in-switzerland.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

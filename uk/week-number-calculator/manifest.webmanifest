@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калькулятор номера тижня",
+  "short_name": "Калькулятор номера тижня",
+  "description": "Безкоштовний калькулятор номера тижня: виберіть будь-яку дату, щоб отримати її номер тижня ISO, рік тижня ISO, день року, дні, що лишилися в році, та календарний квартал.",
+  "id": "/loona-calculators/uk/week-number-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

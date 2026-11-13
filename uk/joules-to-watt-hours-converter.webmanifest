@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертер джоуля у ват-годину",
+  "short_name": "Конвертер джоуля у ват-годину",
+  "description": "Перетворіть джоулі у ват-години миттєво. Точна формула, повна таблиця перетворення J у Wh, розібраний приклад і поширені запитання. Безкоштовно, без реєстрації.",
+  "id": "/loona-calculators/uk/joules-to-watt-hours-converter.html",
+  "start_url": "./joules-to-watt-hours-converter.html",
+  "scope": "./joules-to-watt-hours-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

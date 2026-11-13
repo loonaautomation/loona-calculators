@@ -1,0 +1,29 @@
+{
+  "name": "Loona Кидання кубиків",
+  "short_name": "Кидання кубиків",
+  "description": "Безкоштовне онлайн-кидання кубиків: кидайте від 1 до 6 кубиків — стандартні d6, d20 та інші багатогранні кубики — із візуальними кубиками, сумами, середніми та історією кидків.",
+  "id": "/loona-calculators/uk/dice-roller/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

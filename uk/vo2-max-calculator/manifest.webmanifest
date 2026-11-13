@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калькулятор VO2 max",
+  "short_name": "Калькулятор VO2 max",
+  "description": "Безкоштовний калькулятор VO2 max: оцініть аеробну підготовку за 12-хвилинним бігом Купера або тестом ходьби Рокпорта на 1 милю. Освітня оцінка фізичної форми.",
+  "id": "/loona-calculators/uk/vo2-max-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

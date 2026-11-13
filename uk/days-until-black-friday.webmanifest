@@ -1,0 +1,29 @@
+{
+  "name": "Loona Днів до Чорної п’ятниці",
+  "short_name": "Днів до Чорної п’ятниці",
+  "description": "Живий зворотний відлік до Чорної п’ятниці: точні дні, години, хвилини та секунди, що лишилися, дата цього року та наступних трьох років, факти й часті запитання.",
+  "id": "/loona-calculators/uk/days-until-black-friday.html",
+  "start_url": "./days-until-black-friday.html",
+  "scope": "./days-until-black-friday.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

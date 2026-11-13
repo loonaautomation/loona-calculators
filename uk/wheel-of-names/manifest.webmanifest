@@ -1,0 +1,29 @@
+{
+  "name": "Loona Колесо імен",
+  "short_name": "Колесо імен",
+  "description": "Безкоштовне колесо імен: додайте імена, крутіть барвисте колесо та вибирайте справді випадкового переможця для розіграшів, класів і подарунків. Без реєстрації, працює у браузері.",
+  "id": "/loona-calculators/uk/wheel-of-names/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

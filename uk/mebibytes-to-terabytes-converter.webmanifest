@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертер мебібайта у терабайт",
+  "short_name": "Конвертер мебібайтів у терабайти",
+  "description": "Перетворіть мебібайти у терабайти миттєво. Точна формула, повна таблиця перетворення MiB у TB, розібраний приклад і поширені запитання. Безкоштовно, без реєстрації.",
+  "id": "/loona-calculators/uk/mebibytes-to-terabytes-converter.html",
+  "start_url": "./mebibytes-to-terabytes-converter.html",
+  "scope": "./mebibytes-to-terabytes-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертер вісімкової системи у шістнадцяткова система",
+  "short_name": "Конвертер вісімкової системи в шістнадцяткову",
+  "description": "Перетворіть вісімкову систему (основа 8) у шістнадцяткову (основа 16) із перевіркою, розбором розрядів і довідковою таблицею.",
+  "id": "/loona-calculators/uk/octal-to-hexadecimal-converter.html",
+  "start_url": "./octal-to-hexadecimal-converter.html",
+  "scope": "./octal-to-hexadecimal-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

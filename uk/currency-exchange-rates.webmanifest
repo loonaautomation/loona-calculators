@@ -1,0 +1,29 @@
+{
+  "name": "Loona Курси обміну валют",
+  "short_name": "Курси обміну валют",
+  "description": "Довідкові курси обміну ЄЦБ від 06 листопада 2026 року для 20 валют — усі 380 пар із конвертерами, зворотними курсами та таблицями.",
+  "id": "/loona-calculators/uk/currency-exchange-rates.html",
+  "start_url": "./currency-exchange-rates.html",
+  "scope": "./currency-exchange-rates.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калькулятор податку на зарплату в Пакистані 2026",
+  "short_name": "Калькулятор податку на зарплату",
+  "description": "Безкоштовний калькулятор податку на зарплату для Пакистану (податковий рік 2026): введіть вашу щомісячну валову зарплату, щоб побачити податок на дохід за місяць і рік, чисту зарплату додому та ефективну податкову ставку. Зарплатні ставки FBR.",
+  "id": "/loona-calculators/uk/salary-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калькулятор набору ваги під час вагітності",
+  "short_name": "Набір ваги під час вагітності",
+  "description": "Безкоштовний калькулятор набору ваги під час вагітності: рекомендовані IOM загальні та потижневі діапазони набору ваги на основі вашої категорії ІМТ до вагітності. Лише освітній посібник.",
+  "id": "/loona-calculators/uk/pregnancy-weight-gain-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

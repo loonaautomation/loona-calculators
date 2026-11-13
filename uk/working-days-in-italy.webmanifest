@@ -1,0 +1,29 @@
+{
+  "name": "Loona Робочі дні в Італії",
+  "short_name": "Робочі дні в Італії",
+  "description": "Калькулятор робочих днів для Італії: рахуйте робочі дні між двома датами з вилученими вихідними та всіма 13 італійськими національними державними святами 2026 року. Безкоштовно.",
+  "id": "/loona-calculators/uk/working-days-in-italy.html",
+  "start_url": "./working-days-in-italy.html",
+  "scope": "./working-days-in-italy.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

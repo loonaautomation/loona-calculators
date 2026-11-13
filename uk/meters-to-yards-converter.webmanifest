@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертер метра у ярд",
+  "short_name": "Конвертер метрів у ярди",
+  "description": "Перетворіть метри у ярди миттєво. Точна формула, повна таблиця перетворення m у yd, розібраний приклад і поширені запитання. Безкоштовно, без реєстрації.",
+  "id": "/loona-calculators/uk/meters-to-yards-converter.html",
+  "start_url": "./meters-to-yards-converter.html",
+  "scope": "./meters-to-yards-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

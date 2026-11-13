@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калькулятор логарифмів",
+  "short_name": "Калькулятор логарифмів",
+  "description": "Безкоштовний калькулятор логарифмів: знаходьте логарифм за будь-якою основою, а також десятковий логарифм (основа 10), натуральний (ln) і двійковий (основа 2), кожен перевірений антилогарифмом. Пояснено формулу зміни основи.",
+  "id": "/loona-calculators/uk/logarithm-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

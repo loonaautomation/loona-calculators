@@ -1,0 +1,29 @@
+{
+  "name": "Loona Генератор «Таємний Санта»",
+  "short_name": "Генератор «Таємний Санта»",
+  "description": "Безкоштовний генератор Таємного Санти: додайте імена, встановіть виключення (пари, минулорічні пари), проведіть жеребкування таємно, потім кожна людина відкриє лише свою пару. Приватно, у браузері.",
+  "id": "/loona-calculators/uk/secret-santa-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

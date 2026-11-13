@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калькулятор регулярного депозиту",
+  "short_name": "Калькулятор періодичних депозитів",
+  "description": "Безкоштовний калькулятор регулярного депозиту (RD): щомісячне поповнення, відсоткова ставка та строк у місяцях — сума на кінець строку зі щоквартальною капіталізацією, банківським стандартом.",
+  "id": "/loona-calculators/uk/recurring-deposit-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

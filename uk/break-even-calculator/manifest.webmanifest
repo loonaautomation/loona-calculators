@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калькулятор точки беззбитковості",
+  "short_name": "Калькулятор беззбитковості",
+  "description": "Безкоштовний калькулятор точки беззбитковості: введіть постійні витрати, ціну продажу та змінні витрати на одиницю, щоб дізнатися, скільки одиниць треба продати для беззбитковості та за якого доходу.",
+  "id": "/loona-calculators/uk/break-even-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

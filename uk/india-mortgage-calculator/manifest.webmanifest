@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калькулятор EMI житлового кредиту в Індії",
+  "short_name": "Калькулятор EMI житлового кредиту в Індії",
+  "description": "Безкоштовний калькулятор EMI житлового кредиту для Індії в рупіях: щомісячний EMI, загальні відсотки та дата без боргу для будь-якої ціни нерухомості, первісного внеску, відсоткової ставки та строку, а також порівняння дострокового погашення.",
+  "id": "/loona-calculators/uk/india-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертер Kg у грами",
+  "short_name": "Конвертер Kg у грами",
+  "description": "Перетворіть кілограми у грами миттєво. Точна формула, повна таблиця перетворення kg у g і розібрані приклади. Безкоштовно, без реєстрації.",
+  "id": "/loona-calculators/uk/kilograms-to-grams-converter.html",
+  "start_url": "./kilograms-to-grams-converter.html",
+  "scope": "./kilograms-to-grams-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калькулятор однофакторного ANOVA",
+  "short_name": "Калькулятор однофакторного ANOVA",
+  "description": "Безкоштовний калькулятор однофакторного ANOVA: вводьте числа кожної групи в окремому рядку, щоб отримати суми квадратів, F-статистику, ступені свободи та p-значення, разом із груповими середніми.",
+  "id": "/loona-calculators/uk/anova-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
