@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калкулатор за еднофакторна ANOVA",
+  "short_name": "Калкулатор за еднофакторна ANOVA",
+  "description": "Безплатен калкулатор за еднофакторен ANOVA: въведете числата на всяка група на собствен ред, за да получите суми на квадратите, F статистика, степени на свобода и p-стойност, със средни стойности на групите.",
+  "id": "/loona-calculators/bg/anova-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

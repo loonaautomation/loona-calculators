@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калкулатор за средна стойност",
+  "short_name": "Калкулатор за средна стойност",
+  "description": "Безплатен калкулатор за средна стойност: поставете списък с числа, за да получите средната стойност, медианата, модата, сумата, броя, минимума, максимума и диапазона — мигновено, за до 50 числа.",
+  "id": "/loona-calculators/bg/average-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

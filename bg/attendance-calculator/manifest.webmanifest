@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калкулатор за присъствие",
+  "short_name": "Калкулатор за присъствие",
+  "description": "Безплатен калкулатор за присъствие за ученици: въведете проведени и посетени занятия, за да получите процента си на присъствие, колко занятия можете да пропуснете или колко трябва да посетите, за да достигнете целта си.",
+  "id": "/loona-calculators/bg/attendance-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
