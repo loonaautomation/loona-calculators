@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калкулатор за GPA",
+  "short_name": "Калкулатор за GPA",
+  "description": "Безплатен калкулатор за GPA: въведете до 8 курса с буквени оценки (от A до F) и кредитни часове, за да получите GPA по стандартната скала 4.0. Бързо, поверително, без регистрация.",
+  "id": "/loona-calculators/bg/gpa-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

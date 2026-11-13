@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калкулатор за оценки",
+  "short_name": "Калкулатор за оценка",
+  "description": "Безплатен калкулатор за претеглена оценка: въведете до 8 резултата от задачи с техните тегла, за да получите общия си процент на оценка и буквената оценка. Теглата не е нужно да се събират до 100.",
+  "id": "/loona-calculators/bg/grade-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
