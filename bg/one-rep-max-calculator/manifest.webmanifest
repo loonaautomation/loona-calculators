@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калкулатор за максимум с едно повторение (1RM)",
+  "short_name": "Калкулатор за максимум с едно повторение (1RM)",
+  "description": "Безплатен калкулатор за максимум с едно повторение: оценете своя 1RM от теглото и повторенията в серия с формулите на Epley, Brzycki и Lombardi, плюс проценти за тренировка.",
+  "id": "/loona-calculators/bg/one-rep-max-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

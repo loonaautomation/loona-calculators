@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калкулатор за темпо на бягане",
+  "short_name": "Калкулатор за темпо на бягане",
+  "description": "Безплатен калкулатор за темпо при бягане: изберете 5K, 10K, полумаратон, маратон или потребителско разстояние с времето си на финал, за да получите темпо на km и на миля, плюс прогнозни времена на финал.",
+  "id": "/loona-calculators/bg/pace-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
