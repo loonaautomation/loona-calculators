@@ -1,0 +1,29 @@
+{
+  "name": "מחשבון המטריצות של Loona",
+  "short_name": "מחשבון מטריצות",
+  "description": "מחשבון מטריצות בחינם למטריצות 2x2 ו־3x3: חיבור, חיסור, כפל, דטרמיננטה והופכית עם ערכי ביניים מוצגים. ללא הרשמה, עובד בדפדפן שלכם.",
+  "id": "/loona-calculators/he/matrix-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

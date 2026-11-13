@@ -1,0 +1,29 @@
+{
+  "name": "מחשבון זריחה ושקיעה של Loona",
+  "short_name": "מחשבון זריחה ושקיעה",
+  "description": "מחשבון זריחה ושקיעה בחינם: הזינו תאריך וקו רוחב/אורך, וקבלו זריחה, שקיעה, אורך יום וצהרי שמש ב־UTC ובמונחי שמש מקומיים. חישובי NOAA.",
+  "id": "/loona-calculators/he/sunrise-sunset-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

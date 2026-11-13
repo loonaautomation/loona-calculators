@@ -1,0 +1,29 @@
+{
+  "name": "מחשבון חילוק ארוך של Loona",
+  "short_name": "מחשבון חילוק ארוך",
+  "description": "מחשבון חילוק ארוך בחינם המציג כל שלב: חלקו מספרים עם שארית או עשרוניים וראו את הפתרון הכתוב המלא, ספרה אחר ספרה. לתלמידים ולמורים.",
+  "id": "/loona-calculators/he/long-division-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

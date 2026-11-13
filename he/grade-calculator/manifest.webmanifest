@@ -1,0 +1,29 @@
+{
+  "name": "מחשבון הציונים של Loona",
+  "short_name": "מחשבון ציונים",
+  "description": "מחשבון ציונים משוקללים בחינם: הזינו עד 8 ציוני מטלות עם משקולותיהם וקבלו את אחוז הציון הכולל וציון אותיות. המשקולות אינן חייבות להסתכם ב־100.",
+  "id": "/loona-calculators/he/grade-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

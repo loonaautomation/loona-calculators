@@ -1,0 +1,29 @@
+{
+  "name": "מחשבון מענק הפרישה של Loona",
+  "short_name": "מחשבון פיצויי סיום",
+  "description": "מחשבון פיצויי סיום בחינם: המשכורת החודשית האחרונה ושנות ותק מלאות — העריכו פיצויים בגובה משכורת של חודש אחד (שכר של 30 ימים) לכל שנת ותק.",
+  "id": "/loona-calculators/he/gratuity-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

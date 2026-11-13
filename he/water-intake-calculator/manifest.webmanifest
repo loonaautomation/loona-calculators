@@ -1,0 +1,29 @@
+{
+  "name": "מחשבון צריכת מים של Loona",
+  "short_name": "מחשבון צריכת מים",
+  "description": "מחשבון צריכת מים בחינם: הזינו את משקלכם ואת הפעילות הגופנית היומית, וקבלו את צריכת המים המומלצת בליטרים, במיליליטרים ובכוסות ליום.",
+  "id": "/loona-calculators/he/water-intake-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

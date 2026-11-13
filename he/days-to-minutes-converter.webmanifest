@@ -1,0 +1,29 @@
+{
+  "name": "ממיר יום לדקה של Loona",
+  "short_name": "ממיר יום לדקה",
+  "description": "המירו ימים ל־דקות באופן מיידי. נוסחה מדויקת, טבלת המרה מלאה מ־d ל־min, דוגמה מחושבת ושאלות נפוצות. בחינם, ללא הרשמה.",
+  "id": "/loona-calculators/he/days-to-minutes-converter.html",
+  "start_url": "./days-to-minutes-converter.html",
+  "scope": "./days-to-minutes-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "ממיר פרנהייט לצלזיוס של Loona",
+  "short_name": "פרנהייט לצלזיוס",
+  "description": "המירו פרנהייט ל־צלזיוס באופן מיידי. נוסחה מדויקת, טבלת המרה מלאה מ־°F ל־°C ודוגמאות מחושבות. בחינם, ללא הרשמה.",
+  "id": "/loona-calculators/he/fahrenheit-to-celsius-converter.html",
+  "start_url": "./fahrenheit-to-celsius-converter.html",
+  "scope": "./fahrenheit-to-celsius-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

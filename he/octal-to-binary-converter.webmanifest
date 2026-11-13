@@ -1,0 +1,29 @@
+{
+  "name": "ממיר אוקטלי לבינארי של Loona",
+  "short_name": "ממיר אוקטלי לבינארי",
+  "description": "המירו אוקטלי (בסיס 8) לבינארי (בסיס 2) עם בדיקת תקינות, חישוב לפי ערך מיקום וטבלת עזר.",
+  "id": "/loona-calculators/he/octal-to-binary-converter.html",
+  "start_url": "./octal-to-binary-converter.html",
+  "scope": "./octal-to-binary-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

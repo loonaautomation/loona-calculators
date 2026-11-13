@@ -1,0 +1,29 @@
+{
+  "name": "מחשבון מתאם של Loona",
+  "short_name": "מחשבון מתאם",
+  "description": "מחשבון מתאם פירסון בחינם: הדביקו נתוני x,y מזווגים כדי לקבל את מקדם המתאם r, את r בריבוע, וקריאת עוצמה בשפה פשוטה.",
+  "id": "/loona-calculators/he/correlation-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

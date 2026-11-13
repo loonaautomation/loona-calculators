@@ -1,0 +1,29 @@
+{
+  "name": "מחשבון טריגונומטריה של Loona",
+  "short_name": "מחשבון טריגונומטריה",
+  "description": "מחשבון טריגונומטריה בחינם: הזינו זווית במעלות או ברדיאנים וקבלו sin, cos, tan, csc, sec ו־cot, או השתמשו ב־sin, cos ו־tan הופכיים כדי למצוא זווית מיחס. טבלת ערכים מדויקים נכללת.",
+  "id": "/loona-calculators/he/trigonometry-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "מחשבון חלוקת שכר דירה של Loona",
+  "short_name": "מחשבון חלוקת שכר דירה",
+  "description": "מחשבון חלוקת שכר דירה בחינם: חלקו את שכר הדירה החודשי בין 2 ל־8 שותפים — שווה בשווה, לפי גודל החדר ברגליים רבועות, או לפי הכנסה. החלקים תמיד מסתכמים בסך המדויק.",
+  "id": "/loona-calculators/he/rent-split-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

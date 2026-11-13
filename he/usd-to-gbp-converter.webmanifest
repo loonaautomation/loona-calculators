@@ -1,0 +1,29 @@
+{
+  "name": "ממיר USD ל־GBP של Loona",
+  "short_name": "ממיר USD ל־GBP",
+  "description": "המירו דולר אמריקאי (USD) ל־לירה שטרלינג (GBP). שער הייחוס של ECB מתאריך 06 בנובמבר 2026, שער הפוך, טבלת המרה והערות מסדרון. להמחשה בלבד.",
+  "id": "/loona-calculators/he/usd-to-gbp-converter.html",
+  "start_url": "./usd-to-gbp-converter.html",
+  "scope": "./usd-to-gbp-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

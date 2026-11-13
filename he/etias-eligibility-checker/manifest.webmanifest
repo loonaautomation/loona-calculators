@@ -1,0 +1,29 @@
+{
+  "name": "בודק זכאות ETIAS של Loona",
+  "short_name": "בודק זכאות ETIAS",
+  "description": "בודק זכאות ETIAS בחינם: בחרו את הלאום ואת מצב הנסיעה שלכם כדי לראות אם תצטרכו ETIAS, ויזת שנגן, או שום אישור לנסיעות קצרות לאירופה.",
+  "id": "/loona-calculators/he/etias-eligibility-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

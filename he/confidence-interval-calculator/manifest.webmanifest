@@ -1,0 +1,29 @@
+{
+  "name": "מחשבון רווח סמך של Loona",
+  "short_name": "מחשבון רווח סמך",
+  "description": "מחשבון רווח סמך בחינם: רווח סמך לממוצע עם סיגמה ידועה (z), עם סטיית תקן של מדגם (t), ולפרופורציה, ברמות ביטחון של 90%, 95% או 99%.",
+  "id": "/loona-calculators/he/confidence-interval-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

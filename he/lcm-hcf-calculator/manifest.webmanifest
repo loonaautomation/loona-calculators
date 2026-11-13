@@ -1,0 +1,29 @@
+{
+  "name": "מחשבון LCM ו־HCF של Loona",
+  "short_name": "מחשבון LCM ו־HCF",
+  "description": "מחשבון LCM ו־HCF בחינם: הזינו שניים או שלושה מספרים שלמים כדי לקבל את הכפולה המשותפת הקטנה ביותר (LCM) ואת הגורם המשותף הגדול ביותר (HCF/GCD) באופן מיידי.",
+  "id": "/loona-calculators/he/lcm-hcf-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

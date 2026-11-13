@@ -1,0 +1,29 @@
+{
+  "name": "מחשבון הלוגריתמים של Loona",
+  "short_name": "מחשבון לוגריתמים",
+  "description": "מחשבון לוגריתמים בחינם: מצאו לוגריתם בכל בסיס, וכן את הלוגריתם העשרוני (בסיס 10), הלוגריתם הטבעי (ln) והלוגריתם הבינארי (בסיס 2), כל אחד מאומת על ידי האנטילוג שלו. נוסחת שינוי הבסיס מוסברת.",
+  "id": "/loona-calculators/he/logarithm-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

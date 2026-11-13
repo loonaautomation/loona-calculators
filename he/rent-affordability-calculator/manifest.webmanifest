@@ -1,0 +1,29 @@
+{
+  "name": "מחשבון יכולת תשלום שכר דירה של Loona",
+  "short_name": "מחשבון יכולת שכירות",
+  "description": "מחשבון יכולת שכירות בחינם: הזינו את הכנסתכם ברוטו, את החלק שתוכלו להוציא על שכירות ואת החובות החודשיים, וראו את שכר הדירה המרבי שביכולתכם — עם קו ההנחיה 28/36.",
+  "id": "/loona-calculators/he/rent-affordability-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

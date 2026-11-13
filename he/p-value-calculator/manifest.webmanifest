@@ -1,0 +1,29 @@
+{
+  "name": "מחשבון ערך P של Loona",
+  "short_name": "מחשבון ערך P",
+  "description": "מחשבון ערך p בחינם: המירו סטטיסטי מבחן מסוג z, t או חי־בריבוע לערכי p חד־זנביים ודו־זנביים, עם פסיקת המובהקות ב־0.05 וב־0.01.",
+  "id": "/loona-calculators/he/p-value-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

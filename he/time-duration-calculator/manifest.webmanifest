@@ -1,0 +1,29 @@
+{
+  "name": "מחשבון משך זמן של Loona",
+  "short_name": "מחשבון משך זמן",
+  "description": "מחשבון משך זמן בחינם: הזינו שעת התחלה וסיום וקבלו את המשך בשעות ובדקות, סך הדקות ושעות עשרוניות. סופר נכון גם מעבר לחצות.",
+  "id": "/loona-calculators/he/time-duration-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "מחשבון ההשקעות של Loona",
+  "short_name": "מחשבון השקעות",
+  "description": "מחשבון השקעות בחינם: סכום התחלתי בתוספת הפקדות חודשיות ותשואה צפויה — ראו את הערך העתידי, הסכום הכולל שהושקע וסך הרווח לאורך זמן.",
+  "id": "/loona-calculators/he/investment-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

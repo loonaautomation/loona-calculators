@@ -1,0 +1,29 @@
+{
+  "name": "מחשבון זמן הכפלת hCG של Loona",
+  "short_name": "מחשבון זמן הכפלת hCG",
+  "description": "מחשבון הכפלת hCG בחינם: הזינו שתי תוצאות בטא hCG ואת השעות שבין בדיקות הדם, וקבלו את זמן ההכפלה, אחוז העלייה והעלייה היומית. למטרות לימוד בלבד.",
+  "id": "/loona-calculators/he/hcg-doubling-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

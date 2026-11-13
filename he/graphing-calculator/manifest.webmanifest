@@ -1,0 +1,29 @@
+{
+  "name": "מחשבון גרפי של Loona",
+  "short_name": "מחשבון גרפים",
+  "description": "מחשבון גרפים בחינם: שרטטו פונקציה אחת או שתיים כמו x^2, sin(x) או 2x+3 על רשת עם זום. עובד בדפדפן שלכם, ללא הרשמה.",
+  "id": "/loona-calculators/he/graphing-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "מטיל הקוביות של Loona",
+  "short_name": "מטיל קוביות",
+  "description": "מטיל קוביות מקוון בחינם: הטילו 1 עד 6 קוביות — קוביות d6, d20 וקוביות פוליהדרליות אחרות — עם קוביות חזותיות, סכומים, ממוצעים והיסטוריית הטלות.",
+  "id": "/loona-calculators/he/dice-roller/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

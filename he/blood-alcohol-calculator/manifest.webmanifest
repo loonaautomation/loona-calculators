@@ -1,0 +1,29 @@
+{
+  "name": "מחשבון אלכוהול בדם של Loona",
+  "short_name": "מחשבון אלכוהול בדם",
+  "description": "מחשבון ריכוז אלכוהול בדם (BAC) בחינם בנוסחת וידמרק: משקל, מין, משקאות וזמן להערכת אחוז ה־BAC. הערכה לימודית בלבד — לעולם אל תנהגו.",
+  "id": "/loona-calculators/he/blood-alcohol-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

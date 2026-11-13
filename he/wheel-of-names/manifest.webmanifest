@@ -1,0 +1,29 @@
+{
+  "name": "גלגל שמות של Loona",
+  "short_name": "גלגל השמות",
+  "description": "גלגל שמות בחינם: הוסיפו שמות, סובבו את הגלגל הצבעוני ובחרו מנצח אקראי באמת להגרלות, לכיתות ולחלוקות פרסים. ללא הרשמה, עובד בדפדפן שלכם.",
+  "id": "/loona-calculators/he/wheel-of-names/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "מחשבון אחוזון BMI לילדים של Loona",
+  "short_name": "אחוזון BMI לילדים",
+  "description": "מחשבון אחוזון BMI לילדים בחינם, לפי נתוני עקומות הגדילה הרשמיים של CDC בשיטת LMS לגילאי 2 עד 20: BMI, אחוזון, ציון z וקטגוריית משקל לבנים ולבנות.",
+  "id": "/loona-calculators/he/child-bmi-percentile-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

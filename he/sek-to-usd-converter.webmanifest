@@ -1,0 +1,29 @@
+{
+  "name": "ממיר SEK ל־USD של Loona",
+  "short_name": "ממיר SEK ל-USD",
+  "description": "המירו כתר שוודי (SEK) ל־דולר אמריקאי (USD). שער הייחוס של ECB מתאריך 06 בנובמבר 2026, שער הפוך, טבלת המרה והערות מסדרון. להמחשה בלבד.",
+  "id": "/loona-calculators/he/sek-to-usd-converter.html",
+  "start_url": "./sek-to-usd-converter.html",
+  "scope": "./sek-to-usd-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

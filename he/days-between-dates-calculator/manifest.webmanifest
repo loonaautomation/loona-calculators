@@ -1,0 +1,29 @@
+{
+  "name": "מחשבון ימים בין תאריכים של Loona",
+  "short_name": "מחשבון ימים בין תאריכים",
+  "description": "מחשבון ימים בין תאריכים בחינם: ספרו את מספר הימים, השבועות והשנים המדויק בין כל שני תאריכים. שימושי למועדים אחרונים, ויזות, חוזים וספירות לאחור.",
+  "id": "/loona-calculators/he/days-between-dates-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
