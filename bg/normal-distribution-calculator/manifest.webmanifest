@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калкулатор за нормално разпределение",
+  "short_name": "Калкулатор за нормално разпределение",
+  "description": "Безплатен калкулатор за нормално разпределение: за всяка средна стойност и стандартно отклонение намерете P(X<x), P(X>x), P(a<X<b) и стойността при даден персентил.",
+  "id": "/loona-calculators/bg/normal-distribution-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

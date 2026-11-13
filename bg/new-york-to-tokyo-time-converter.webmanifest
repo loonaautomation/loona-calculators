@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертор на време от Ню Йорк до Токио",
+  "short_name": "Време от Ню Йорк до Токио",
+  "description": "Преобразувайте времето в Ню Йорк към времето в Токио. Токио е с 14 часа пред Ню Йорк през януари и с 13 часа пред през юли, с дати на лятното часово време, таблица за 24 часа и най-добрия прозорец за срещи. Включен е конвертор на живо.",
+  "id": "/loona-calculators/bg/new-york-to-tokyo-time-converter.html",
+  "start_url": "./new-york-to-tokyo-time-converter.html",
+  "scope": "./new-york-to-tokyo-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
