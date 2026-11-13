@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калкулатор за закят",
+  "short_name": "Калкулатор за закят",
+  "description": "Безплатен калкулатор за закят: пари в брой, банков баланс, злато, сребро, бизнес стоки и дългове — проверете нисаба и изчислете своя закят от 2.5% в рупии мигновено. Просто и поверително.",
+  "id": "/loona-calculators/bg/zakat-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

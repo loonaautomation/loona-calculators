@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калкулатор за z-тест за една извадка",
+  "short_name": "Калкулатор за z-тест с една извадка",
+  "description": "Безплатен калкулатор за z-тест с една извадка: средната стойност на извадката, известното SD на популацията, n и хипотетичната средна стойност дават z статистиката и p-стойностите. Проверено по учебник.",
+  "id": "/loona-calculators/bg/z-test-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
