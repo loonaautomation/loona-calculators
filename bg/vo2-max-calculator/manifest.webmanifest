@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калкулатор за VO2 Max",
+  "short_name": "Калкулатор за VO2 Max",
+  "description": "Безплатен калкулатор за VO2 max: оценете аеробната форма от 12-минутното бягане на Cooper или теста с ходене на 1 миля на Rockport. Образователна оценка на формата.",
+  "id": "/loona-calculators/bg/vo2-max-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
