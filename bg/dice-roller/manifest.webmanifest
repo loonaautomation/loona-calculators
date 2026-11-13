@@ -1,0 +1,29 @@
+{
+  "name": "Loona Хвърляне на зар",
+  "short_name": "Хвърляне на зарове",
+  "description": "Безплатен онлайн инструмент за хвърляне на зарове: хвърляйте от 1 до 6 зара — стандартни d6, d20 и други многостенни зарове — с визуални зарове, суми, средни стойности и история на хвърлянията.",
+  "id": "/loona-calculators/bg/dice-roller/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

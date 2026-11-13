@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калкулатор за дни между дати",
+  "short_name": "Калкулатор за дни между дати",
+  "description": "Безплатен калкулатор за дни между дати: пребройте точния брой дни, седмици и години между всеки две дати. Полезно за крайни срокове, визи, договори и обратно броене.",
+  "id": "/loona-calculators/bg/days-between-dates-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

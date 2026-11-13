@@ -1,0 +1,29 @@
+{
+  "name": "Loona Дни до Бъдни вечер",
+  "short_name": "Дни до Бъдни вечер",
+  "description": "Обратно броене на живо до Бъдни вечер: точните оставащи дни, часове, минути и секунди, датата тази година и следващите три години, факти и често задавани въпроси.",
+  "id": "/loona-calculators/bg/days-until-christmas-eve.html",
+  "start_url": "./days-until-christmas-eve.html",
+  "scope": "./days-until-christmas-eve.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

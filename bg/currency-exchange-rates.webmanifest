@@ -1,0 +1,29 @@
+{
+  "name": "Loona Обменни курсове на валути",
+  "short_name": "Валутни курсове",
+  "description": "Референтни валутни курсове на ЕЦБ от 06 ноември 2026 за 20 валути — всички 380 двойки с конвертори, обратни курсове и таблици.",
+  "id": "/loona-calculators/bg/currency-exchange-rates.html",
+  "start_url": "./currency-exchange-rates.html",
+  "scope": "./currency-exchange-rates.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

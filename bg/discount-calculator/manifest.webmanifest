@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калкулатор за отстъпки",
+  "short_name": "Калкулатор за отстъпки",
+  "description": "Безплатен калкулатор за отстъпки: въведете цена и процент отстъпка, за да получите крайната цена и колко спестявате. Поддържа допълнителна втора отстъпка и данък, добавен след отстъпката.",
+  "id": "/loona-calculators/bg/discount-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
