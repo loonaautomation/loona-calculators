@@ -1,0 +1,29 @@
+{
+  "name": "Loona GPA到百分比轉換器",
+  "short_name": "GPA到百分比轉換器",
+  "description": "往返轉換 GPA 與百分比：美國 4.0 量表分段、印度 CBSE（CGPA × 9.5）、印度大學（× 10）和英國學位分類，每項都有標註。",
+  "id": "/loona-calculators/zh-hant/gpa-to-percentage/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona 申根 90/180 計算器",
+  "short_name": "申根 90/180 計算器",
+  "description": "免費申根 90/180 計算器：輸入過去和計劃的行程，檢視任何滾動 180 天視窗內已使用的天數、剩餘天數、逾期警告和最早安全再次入境日期。",
+  "id": "/loona-calculators/zh-hant/schengen-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

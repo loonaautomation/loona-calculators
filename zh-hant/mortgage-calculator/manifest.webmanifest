@@ -1,0 +1,29 @@
+{
+  "name": "Loona 按揭計算器",
+  "short_name": "按揭計算器",
+  "description": "免費抵押貸款計算器：房價、首付、利率和期限——獲得貸款金額、每月還款、總利息和您房屋的總成本。",
+  "id": "/loona-calculators/zh-hant/mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

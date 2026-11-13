@@ -1,0 +1,29 @@
+{
+  "name": "Loona 體脂計算器",
+  "short_name": "體脂計算器",
+  "description": "免費體脂計算器，使用美國海軍圍度法：身高、頸圍、腰圍（女性還需臀圍）給出體脂 %、脂肪量、瘦體重和 ACE 類別。",
+  "id": "/loona-calculators/zh-hant/body-fat-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

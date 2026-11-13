@@ -1,0 +1,29 @@
+{
+  "name": "Loona 米/秒到釐米/秒",
+  "short_name": "米/秒到",
+  "description": "即時將米每秒轉換為釐米每秒。提供精確公式、完整的m/s 到 cm/s 換算表、一個計算示例和常見問題。免費，無需註冊。",
+  "id": "/loona-calculators/zh-hant/meters-per-second-to-centimeters-per-second-converter.html",
+  "start_url": "./meters-per-second-to-centimeters-per-second-converter.html",
+  "scope": "./meters-per-second-to-centimeters-per-second-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

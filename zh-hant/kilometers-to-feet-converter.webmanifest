@@ -1,0 +1,29 @@
+{
+  "name": "Loona 千米到英尺轉換器",
+  "short_name": "千米到英尺轉換器",
+  "description": "即時將千米轉換為英尺。提供精確公式、完整的km 到 ft 換算表、一個計算示例和常見問題。免費，無需註冊。",
+  "id": "/loona-calculators/zh-hant/kilometers-to-feet-converter.html",
+  "start_url": "./kilometers-to-feet-converter.html",
+  "scope": "./kilometers-to-feet-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

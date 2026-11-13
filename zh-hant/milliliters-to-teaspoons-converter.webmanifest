@@ -1,0 +1,29 @@
+{
+  "name": "Loona 毫升到茶匙（美製）轉換器",
+  "short_name": "毫升到茶匙（美製）",
+  "description": "即時將毫升轉換為茶匙（美製）。提供精確公式、完整的mL 到 tsp 換算表、一個計算示例和常見問題。免費，無需註冊。",
+  "id": "/loona-calculators/zh-hant/milliliters-to-teaspoons-converter.html",
+  "start_url": "./milliliters-to-teaspoons-converter.html",
+  "scope": "./milliliters-to-teaspoons-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

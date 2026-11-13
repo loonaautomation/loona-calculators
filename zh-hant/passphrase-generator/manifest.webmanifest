@@ -1,0 +1,29 @@
+{
+  "name": "Loona 密碼短語生成器",
+  "short_name": "密碼短語生成器",
+  "description": "免費密碼短語生成器：用隨機真實單詞構建強而易記的密碼短語，帶有單詞數、分隔符、大寫和數字選項。在您的瀏覽器中執行。",
+  "id": "/loona-calculators/zh-hant/passphrase-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

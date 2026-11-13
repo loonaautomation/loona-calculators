@@ -1,0 +1,29 @@
+{
+  "name": "Loona VAT 計算器",
+  "short_name": "VAT 計算器",
+  "description": "免費 VAT/GST 計算器：以任何稅率將稅加到淨額上或從總額中去除稅。適用於任何國家的 VAT、GST 和銷售稅。",
+  "id": "/loona-calculators/zh-hant/vat-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

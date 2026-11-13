@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>簡單計算器 — 免費基本線上計算器 | Loona Calculators</title>
+<meta name="description" content="免費簡易計算器，帶有大而易用的按鈕，可進行加、減、乘、除。歷史記錄帶、百分比鍵、複製按鈕和完整鍵盤支援——無需註冊。">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/zh-hant/simple-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/simple-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/simple-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/simple-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/simple-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/simple-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/simple-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/simple-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/simple-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/simple-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/simple-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/simple-calculator/"><link rel="alternate" hreflang="zh" href="https://loonaautomation.github.io/loona-calculators/zh/simple-calculator/"><link rel="alternate" hreflang="zh-Hant" href="https://loonaautomation.github.io/loona-calculators/zh-hant/simple-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/simple-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="簡單計算器 — 免費基本線上計算器 | Loona Calculators">
+<meta property="og:description" content="免費簡易計算器，帶有大而易用的按鈕，可進行加、減、乘、除。歷史記錄帶、百分比鍵、複製按鈕和完整鍵盤支援——無需註冊。">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/zh-hant/simple-calculator/"><meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="簡單計算器 — 免費基本線上計算器 | Loona Calculators">
+<meta name="twitter:description" content="免費簡易計算器，帶有大而易用的按鈕，可進行加、減、乘、除。歷史記錄帶、百分比鍵、複製按鈕和完整鍵盤支援——無需註冊。">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona 簡易計算器","url":"https://loonaautomation.github.io/loona-calculators/zh-hant/simple-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"% 按鈕做什麼？","acceptedAnswer":{"@type":"Answer","text":"它將前面的數字除以 100，因此 50% 變為 0.5，10% 變為 0.1。例如，200 × 10% = 20——便於快速計算折扣、小費和稅款。如需計算兩個數字之間的百分比變化，請使用我們的 Percentage Calculator。"}},{"@type":"Question","name":"歷史記錄功能如何運作？","acceptedAnswer":{"@type":"Answer","text":"每次您按下 =，已完成的計算就會新增到計算器下方的記錄帶中，就像舊式加法機上的紙卷一樣。點按記錄帶上的任意一行即可取回其答案並繼續用它計算，使用清除歷史記錄可清空記錄帶。記錄帶只存在於您瀏覽器中的此頁面——任何內容都不會傳送到伺服器或儲存在伺服器上。"}},{"@type":"Question","name":"我可以使用鍵盤嗎？","acceptedAnswer":{"@type":"Answer","text":"是的。數字鍵和.用於輸入數字，+ − * /選擇運算，Enter或=完成計算，%表示百分號，Backspace刪除最後一位數字，Delete清除當前輸入，Escape清除全部。"}},{"@type":"Question","name":"如果我除以零會發生什麼？","acceptedAnswer":{"@type":"Answer","text":"本計算器顯示“無法除以零”而不是答案，因為在數學中除以零沒有定義的結果。什麼都不會損壞——按 C 或 AC，或直接開始輸入新數字，即可繼續。"}},{"@type":"Question","name":"我應該使用簡單計算器還是科學計算器？","acceptedAnswer":{"@type":"Answer","text":"將本簡單計算器用於日常加、減、乘、除——購物、賬單、家庭作業和快速總計——大按鈕和歷史記錄最有幫助。當您需要 sin、cos、tan、對數、冪、根或階乘時使用科學計算器。"}}]}</script>
+
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/zh-hant/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "簡單計算器",
+      "item": "https://loonaautomation.github.io/loona-calculators/zh-hant/simple-calculator/"
+    }
+  ]
+}</script>
+
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation 標誌">
+<div class="brand">Loona <span>計算器</span></div>
+<nav>
+<a href="../">首頁</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">關於</a>
+<a href="../contact.html">聯絡</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › 數學 › 簡易計算器</div>
+<h1 class="pagetitle">🧮 簡易計算器</h1>
+<p class="lead">一個免費的基本計算器，配有大而友好的按鈕：加、減、乘、除，帶百分鍵、記錄你算出的一切的歷史帶、複製按鈕和完整的鍵盤支援。</p>
+<div class="toolbox">
+<style>
+#simExpr{min-height:24px;text-align:right;font-size:15.5px;color:var(--mut);font-family:ui-monospace,Menlo,Consolas,monospace;padding:2px 8px;overflow-x:auto;white-space:nowrap}
+#simDisp{width:100%;padding:16px 14px;border:1.5px solid var(--line);border-radius:12px;font-size:42px;font-weight:800;text-align:right;background:#fbfdfd;font-family:ui-monospace,Menlo,Consolas,monospace;color:var(--teal);overflow-x:auto;white-space:nowrap;line-height:1.2}
+#simDisp.simerr{font-size:21px;color:#8d2020;background:#fdecea;border-color:#f5c6c6;font-weight:700}
+.simkeys{display:grid;grid-template-columns:repeat(4,1fr);gap:9px;margin-top:12px}
+.simkeys button{padding:16px 2px;min-height:62px;font-size:22px;font-weight:700;border:1.5px solid var(--line);border-radius:12px;background:#fff;cursor:pointer;color:var(--teal)}
+.simkeys button:hover{border-color:var(--gold);background:#fdfaf1}
+.simkeys .simop{background:#eef6f3}
+.simkeys .simac{background:#fdecea;color:#8d2020}
+.simkeys .simeq{background:var(--gold);color:#231a00;font-size:26px}
+.simkeys .simeq:hover{background:var(--gold2);color:#fff}
+.simrow{display:flex;gap:12px;align-items:center;margin-top:14px;flex-wrap:wrap}
+#simCopy{background:var(--teal);color:#fff;border:0;border-radius:9px;padding:10px 18px;font-size:14.5px;font-weight:700;cursor:pointer}
+#simCopy:hover{background:var(--teal2)}
+#simMsg{font-size:13.5px;color:var(--mut)}
+#simHistWrap{margin-top:16px;border-top:1px dashed var(--line);padding-top:12px}
+.simhisthead{display:flex;justify-content:space-between;align-items:center}
+.simhisthead strong{color:var(--teal);font-size:15.5px}
+#simHistClear{background:#fff;border:1px solid var(--line);border-radius:8px;padding:5px 12px;cursor:pointer;font-size:13px;color:var(--mut)}
+#simHistClear:hover{border-color:var(--gold)}
+#simHist{list-style:none;margin-top:9px}
+#simHist li{padding:9px 12px;border:1px solid var(--line);border-radius:9px;margin-bottom:7px;cursor:pointer;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:15.5px;text-align:right;background:#fbfdfd;color:var(--teal)}
+#simHist li:hover{border-color:var(--gold);background:#fdfaf1}
+.simhistnote{font-size:12.5px;color:var(--mut)}
+@media(max-width:600px){#simDisp{font-size:34px}.simkeys button{min-height:56px;font-size:20px}}
+</style>
+<div id="simExpr">&nbsp;</div>
+<div id="simDisp">0</div>
+<div class="simkeys">
+<button type="button" class="simac" data-sim="ac">AC</button>
+<button type="button" data-sim="ce">C</button>
+<button type="button" data-sim="back">⌫</button>
+<button type="button" class="simop" data-op="/">÷</button>
+<button type="button" data-sim="7">7</button>
+<button type="button" data-sim="8">8</button>
+<button type="button" data-sim="9">9</button>
+<button type="button" class="simop" data-op="*">×</button>
+<button type="button" data-sim="4">4</button>
+<button type="button" data-sim="5">5</button>
+<button type="button" data-sim="6">6</button>
+<button type="button" class="simop" data-op="-">−</button>
+<button type="button" data-sim="1">1</button>
+<button type="button" data-sim="2">2</button>
+<button type="button" data-sim="3">3</button>
+<button type="button" class="simop" data-op="+">+</button>
+<button type="button" class="simop" data-sim="pct">%</button>
+<button type="button" data-sim="0">0</button>
+<button type="button" data-sim=".">.</button>
+<button type="button" class="simeq" data-sim="eq">=</button>
+</div>
+<div class="simrow"><button type="button" id="simCopy">複製結果</button><span id="simMsg">點選按鈕或使用鍵盤——按 Enter 表示 =。</span></div>
+<div id="simHistWrap" style="display:none">
+<div class="simhisthead"><strong>歷史記錄帶</strong><button type="button" id="simHistClear">清除歷史記錄</button></div>
+<ul id="simHist"></ul>
+<p class="simhistnote">點選任意一行以重新使用其答案。</p>
+</div>
+</div>
+<section class="txt"><h2>如何使用 Simple Calculator</h2><ol><li>點選數字按鈕（或在鍵盤上輸入）以輸入第一個數字。</li><li>點選 + − × 或 ÷，然後輸入第二個數字。您可以繼續連鎖計算——2 + 3 + 4 會在進行時逐步計算每一步。</li><li>按 = 檢視答案。再次按 = 可重複上一次運算，點選複製結果可複製答案，或點選歷史記錄帶上的任意一行以重新使用之前的答案。</li><li>輸錯了？⌫ 刪除最後一位數字，C 只清除您正在輸入的數字，AC 清除一切。</li></ol>
+<div class="exbox"><strong>示例：</strong> 一張商店賬單為 1,250，你加上 175 的送貨費，然後由 2 人分攤：輸入 1250 + 175 = ，記錄帶顯示 1,250 + 175 = 1,425。然後輸入 ÷ 2 = ，每人 712.5。</div>
+<h2>常見問題</h2></section><div class="faq"><h3>% 按鈕做什麼？</h3><p>它將前面的數字除以 100，因此 50% 變為 0.5，10% 變為 0.1。例如，200 × 10% = 20——便於快速計算折扣、小費和稅款。如需計算兩個數字之間的百分比變化，請使用我們的 Percentage Calculator。</p></div><div class="faq"><h3>歷史記錄功能如何運作？</h3><p>每次您按下 =，已完成的計算就會新增到計算器下方的記錄帶中，就像舊式加法機上的紙卷一樣。點按記錄帶上的任意一行即可取回其答案並繼續用它計算，使用清除歷史記錄可清空記錄帶。記錄帶只存在於您瀏覽器中的此頁面——任何內容都不會傳送到伺服器或儲存在伺服器上。</p></div><div class="faq"><h3>我可以使用鍵盤嗎？</h3><p>是的。數字鍵和.用於輸入數字，+ − * /選擇運算，Enter或=完成計算，%表示百分號，Backspace刪除最後一位數字，Delete清除當前輸入，Escape清除全部。</p></div>
+<h2 class="sec">相關計算器</h2><div class="grid"><a class="card" href="../scientific-calculator/"><div class="ic">🧮</div><h3>科學計算器</h3><p>數學</p></a><a class="card" href="../percentage-calculator/"><div class="ic">％</div><h3>百分比計算器</h3><p>數學</p></a><a class="card" href="../average-calculator/"><div class="ic">🔢</div><h3>平均值計算器</h3><p>數學</p></a><a class="card" href="../fraction-calculator/"><div class="ic">🍕</div><h3>分數計算器</h3><p>數學</p></a><a class="card" href="../ratio-calculator/"><div class="ic">➗</div><h3>比率計算器</h3><p>數學</p></a></div>
+</div>
+<section class="txt"><h2>什麼是簡單計算器？</h2>
+<p>一個簡單的計算器——也稱為基本或四功能計算器——執行四種日常運算：加法、減法、乘法和除法，通常帶百分鍵。它是大多數人大多數時候真正需要的計算器：合計購物賬單、分攤餐廳支票、檢查家庭作業、計算找零或合計一天的開支。這個計算器還新增了人們在手機計算器上缺少的東西：易於點按的大按鈕、可以檢查每個步驟的歷史帶，以及桌面上合適的鍵盤佈局。</p>
+<h2>鍵盤快捷鍵</h2>
+<ul>
+<li><strong>0–9</strong> 和 <strong>.</strong> ——輸入一個數字</li>
+<li><strong>+ − * /</strong> ——加、減、乘、除</li>
+<li><strong>輸入</strong> 或 <strong>=</strong> ——完成計算（再按一次可重複）</li>
+<li><strong>%</strong> ——百分號（將數字除以100）</li>
+<li><strong>退格</strong> ——刪除最後一位數字 &nbsp;·&nbsp; <strong>刪除</strong> ——清除當前輸入（C）&nbsp;·&nbsp; <strong>Escape</strong> ——清除全部（AC）</li>
+</ul>
+<h2>簡單還是科學——您需要哪一種？</h2>
+<p>如果您的計算只用到 + − × ÷ 和 %，這個 Simple Calculator 是更快、更友好的選擇——按鈕更大，沒有多餘功能，還有顯示計算過程的記錄帶。當計算需要三角函式、對數、冪、根或階乘時，請切換到我們的 <a href="../scientific-calculator/">科學計算器</a> 代替。關於百分比本身的計算——一個數是另一個數的百分之幾，或百分比的增減——請使用 <a href="../percentage-calculator/">百分比計算器</a> 解釋每一步。</p>
+<h3>常見問題</h3></section>
+<div class="faq"><h3>如果我除以零會發生什麼？</h3><p>本計算器顯示“無法除以零”而不是答案，因為在數學中除以零沒有定義的結果。什麼都不會損壞——按 C 或 AC，或直接開始輸入新數字，即可繼續。</p></div><div class="faq"><h3>我應該使用簡單計算器還是科學計算器？</h3><p>將本簡單計算器用於日常加、減、乘、除——購物、賬單、家庭作業和快速總計——大按鈕和歷史記錄最有幫助。當您需要 sin、cos、tan、對數、冪、根或階乘時使用科學計算器。</p></div>
+
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">將此計算器嵌入您的網站——免費</h2>
+<p style="margin:0 0 12px;line-height:1.6">將本計算器新增到你自己的網站或部落格——完全免費，無需註冊，並且始終顯示最新版本。複製下面的程式碼，貼上到你希望計算器出現的頁面位置。在嵌入下方保留小小的 &ldquo;Powered by Loona Automation&rdquo; 署名行有助於保持本工具免費——但你可以自由設定樣式或將其移除；無論哪種方式工具都能工作。</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/zh-hant/simple-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Simple Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;技術支援： &lt;a href="https://loonaautomation.github.io/loona-calculators/zh-hant/simple-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 免費 簡單計算器&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">複製嵌入程式碼</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='複製嵌入程式碼';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+
+<footer><div class="fin">
+<div class="cols">
+<div><h4>熱門計算器</h4><ul><li><a href="../age-calculator/">年齡計算器</a></li>
+<li><a href="../zakat-calculator/">天課計算器</a></li>
+<li><a href="../cgpa-calculator/">CGPA 計算器</a></li>
+<li><a href="../percentage-calculator/">百分比計算器</a></li>
+<li><a href="../hijri-date-converter/">伊斯蘭曆日期轉換器</a></li>
+<li><a href="../emi-calculator/">EMI 與貸款計算器</a></li></ul></div>
+<div><h4>更多 Loona 工具</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona 圖片壓縮工具</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI 助手</a></li>
+<li><a href="https://loonaautomation.github.io/">所有 Loona 工具</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">關於</a></li>
+<li><a href="../contact.html">聯絡</a></li>
+<li><a href="../privacy-policy.html">隱私政策</a></li>
+<li><a href="../terms.html">使用條款</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators —— 一個 <a href="https://loonaautomation.github.io/">Loona Automation</a> 專案。免費線上計算器，無需註冊。
+聯絡方式： <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+/* Simple Calculator — safe state-machine engine, no eval (unit-tested logic inlined verbatim) */
+/* Loona Simple Calculator — safe state-machine engine (NO eval).
+   Pure logic: exported for node tests and inlined verbatim into the page. */
+function createSimpleCalc() {
+  var cur = "0";            // current entry, raw string (ASCII '-', no separators)
+  var acc = null;           // accumulated / left-hand value (number) or null
+  var op = null;            // pending operator '+','-','*','/' or null
+  var fresh = true;         // display is showing a result or acc; next digit starts a new entry
+  var lastOp = null;        // repeat-= memory
+  var lastOperand = null;
+  var error = null;         // error message or null
+  var expr = "";            // last completed line, e.g. "12 + 8 = 20"
+
+  var SYM = { "+": "+", "-": "\u2212", "*": "\u00D7", "/": "\u00F7" };
+  function sym(o) { return SYM[o] || o; }
+
+  function reset() {
+    cur = "0"; acc = null; op = null; fresh = true;
+    lastOp = null; lastOperand = null; error = null; expr = "";
+  }
+  function clean(v) {
+    if (typeof v !== "number" || isNaN(v)) throw new Error("Invalid calculation");
+    if (!isFinite(v)) throw new Error("結果太大");
+    var r = parseFloat(v.toPrecision(12));   // kills float noise: 0.1+0.2 -> 0.3
+    return Object.is(r, -0) ? 0 : r;
+  }
+  function apply(a, o, b) {
+    switch (o) {
+      case "+": return a + b;
+      case "-": return a - b;
+      case "*": return a * b;
+      case "/":
+        if (b === 0) throw new Error("不能除以零");
+        return a / b;
+    }
+    throw new Error("Unknown operator");
+  }
+  function num() { var v = parseFloat(cur); return isNaN(v) ? 0 : v; }
+
+  /* --- formatting --- */
+  function fmtEntry(s) {           // raw string -> grouped display string
+    s = String(s);
+    if (s.indexOf("e") !== -1 || s.indexOf("E") !== -1) return s.replace("-", "\u2212");
+    var neg = s.charAt(0) === "-";
+    if (neg) s = s.slice(1);
+    var parts = s.split(".");
+    var intPart = parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    var out = (neg ? "\u2212" : "") + intPart;
+    if (parts.length > 1) out += "." + parts[1];
+    return out;
+  }
+  function fmtNum(v) {             // number -> grouped display string
+    if (typeof v !== "number" || !isFinite(v)) return String(v);
+    var r = parseFloat(v.toPrecision(12));
+    if (Object.is(r, -0)) r = 0;
+    var s = String(r);
+    if (s.indexOf("e") !== -1 || s.indexOf("E") !== -1) {
+      var p = s.split("e");
+      var m = String(parseFloat(parseFloat(p[0]).toPrecision(8)));
+      return (m + "e" + p[1]).replace("-", "\u2212");
+    }
+    return fmtEntry(s);
+  }
+
+  function fail(msg, attemptedExpr) {
+    error = msg;
+    if (attemptedExpr) expr = attemptedExpr;
+  }
+  function startFreshEntryIfResult() {
+    // typing a digit/dot while a finished result is shown (and no op pending) starts a new sum
+    if (fresh && op === null && acc !== null) { acc = null; lastOp = null; lastOperand = null; expr = ""; }
+  }
+
+  /* --- keys --- */
+  function digit(d) {
+    if (error) reset();
+    startFreshEntryIfResult();
+    if (fresh) { cur = String(d); fresh = false; return; }
+    if (cur.replace(/[^0-9]/g, "").length >= 16) return;   // sane entry cap
+    if (cur === "0") cur = String(d);
+    else if (cur === "-0") cur = "-" + d;
+    else cur += d;
+  }
+  function dot() {
+    if (error) reset();
+    startFreshEntryIfResult();
+    if (fresh) { cur = "0."; fresh = false; return; }
+    if (cur.indexOf(".") === -1) cur += ".";
+  }
+  function setOp(o) {
+    if (error) return null;
+    var entry = null;
+    if (op !== null && !fresh) {
+      // chain: finish the pending sum first (2 + 3 + -> shows 5)
+      var attempted = fmtNum(acc) + " " + sym(op) + " " + fmtEntry(cur);
+      var r;
+      try { r = clean(apply(acc, op, num())); }
+      catch (e) { fail(e.message, attempted); return null; }
+      entry = attempted + " = " + fmtNum(r);
+      acc = r; cur = String(r);
+    } else if (acc === null) {
+      acc = num();
+    }
+    // if fresh with an op pending, this just changes the operator (change of mind)
+    op = o; fresh = true;
+    return entry ? { text: entry, value: acc } : null;
+  }
+  function equals() {
+    if (error) return null;
+    if (op !== null) {
+      var b = num();
+      var attempted = fmtNum(acc) + " " + sym(op) + " " + fmtNum(b);
+      var r;
+      try { r = clean(apply(acc, op, b)); }
+      catch (e) { fail(e.message, attempted); return null; }
+      lastOp = op; lastOperand = b;
+      acc = r; cur = String(r); op = null; fresh = true;
+      expr = attempted + " = " + fmtNum(r);
+      return { text: expr, value: r };
+    }
+    if (lastOp !== null) {           // repeat the last operation: 2 + 3 = = = -> 5, 8, 11
+      var a = num();
+      var attempted2 = fmtNum(a) + " " + sym(lastOp) + " " + fmtNum(lastOperand);
+      var r2;
+      try { r2 = clean(apply(a, lastOp, lastOperand)); }
+      catch (e) { fail(e.message, attempted2); return null; }
+      acc = r2; cur = String(r2); fresh = true;
+      expr = attempted2 + " = " + fmtNum(r2);
+      return { text: expr, value: r2 };
+    }
+    return null;
+  }
+  function percent() {
+    if (error) return;
+    try {
+      if (fresh && op !== null) {        // % right after an operator: converts the shown acc into the entry
+        cur = String(clean(acc / 100)); fresh = false;
+      } else if (fresh && op === null) { // % on a finished result
+        var v = clean(num() / 100); cur = String(v); acc = v;
+      } else {
+        cur = String(clean(num() / 100));
+      }
+    } catch (e) { fail(e.message); }
+  }
+  function backspace() {
+    if (error) { reset(); return; }
+    if (fresh) return;                   // a result / pending display cannot be edited digit by digit
+    cur = cur.slice(0, -1);
+    if (cur === "" || cur === "-") cur = "0";
+  }
+  function clearEntry() {                // C: clears only the number being typed
+    if (error) { reset(); return; }
+    cur = "0"; fresh = false;
+    if (op === null) { acc = null; lastOp = null; lastOperand = null; expr = ""; }
+  }
+  function allClear() { reset(); }       // AC
+  function setResult(v) {                // tap a history line: reuse its answer
+    reset();
+    var r = clean(v);
+    cur = String(r); acc = r; fresh = true;
+  }
+
+  /* --- display --- */
+  function getDisplay() {
+    if (error) return error;
+    return fresh ? fmtNum(parseFloat(cur)) : fmtEntry(cur);
+  }
+  function getExpr() {
+    if (error) return expr;
+    if (op !== null) return fmtNum(acc) + " " + sym(op) + (fresh ? "" : " " + fmtEntry(cur));
+    return expr;
+  }
+
+  return {
+    digit: digit, dot: dot, setOp: setOp, equals: equals, percent: percent,
+    backspace: backspace, clearEntry: clearEntry, allClear: allClear,
+    setResult: setResult, getDisplay: getDisplay, getExpr: getExpr,
+    hasError: function () { return !!error; }
+  };
+}
+if (typeof module !== "undefined" && module.exports) { module.exports = { createSimpleCalc: createSimpleCalc }; }
+
+
+/* ---------- Browser wiring ---------- */
+if(typeof document!=="undefined"){
+  document.addEventListener("DOMContentLoaded",function(){
+    var calc=createSimpleCalc();
+    var disp=document.getElementById("simDisp"),exprEl=document.getElementById("simExpr"),msg=document.getElementById("simMsg");
+    var histWrap=document.getElementById("simHistWrap"),histEl=document.getElementById("simHist");
+    var copyBtn=document.getElementById("simCopy"),histClear=document.getElementById("simHistClear");
+    if(!disp)return;
+    var hist=[];
+    function note(t){msg.textContent=t||"";}
+    function render(){
+      disp.textContent=calc.getDisplay();
+      disp.classList.toggle("simerr",calc.hasError());
+      exprEl.textContent=calc.getExpr()||"\u00A0";
+    }
+    function renderHist(){
+      histWrap.style.display=hist.length?"":"none";
+      histEl.innerHTML="";
+      hist.forEach(function(hItem){
+        var li=document.createElement("li");
+        li.textContent=hItem.text;
+        li.title="點選以重用此答案";
+        li.addEventListener("click",function(){calc.setResult(hItem.value);note("答案已從記錄帶載入 — 繼續計算，或點選數字開始新的計算。");render();});
+        histEl.appendChild(li);
+      });
+    }
+    function addEntry(en){if(en){hist.unshift(en);if(hist.length>50)hist.pop();renderHist();}}
+    function doEquals(){addEntry(calc.equals());render();}
+    function doOp(o){addEntry(calc.setOp(o));note("");render();}
+    document.querySelectorAll("[data-sim]").forEach(function(b){
+      b.addEventListener("click",function(){
+        var a=b.getAttribute("data-sim");
+        if(a==="eq")doEquals();
+        else if(a==="ac"){calc.allClear();note("");render();}
+        else if(a==="ce"){calc.clearEntry();note("");render();}
+        else if(a==="back"){calc.backspace();render();}
+        else if(a==="pct"){calc.percent();note("");render();}
+        else if(a==="."){calc.dot();note("");render();}
+        else{calc.digit(a);note("");render();}
+        if(b.blur)b.blur();
+      });
+    });
+    document.querySelectorAll("[data-op]").forEach(function(b){
+      b.addEventListener("click",function(){doOp(b.getAttribute("data-op"));if(b.blur)b.blur();});
+    });
+    if(copyBtn){
+      copyBtn.addEventListener("click",function(){
+        if(calc.hasError()){note("尚無可複製的內容。");return;}
+        var plain=calc.getDisplay().replace(/,/g,"").replace(/\u2212/g,"-");
+        var done=function(){copyBtn.textContent="Copied!";setTimeout(function(){copyBtn.textContent="Copy result";},2000);};
+        if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(plain).then(done,function(){note("複製失敗 — 答案是 "+calc.getDisplay());});}
+        else{note("答案是 "+calc.getDisplay());}
+      });
+    }
+    if(histClear){histClear.addEventListener("click",function(){hist=[];renderHist();note("歷史已清除。");});}
+    document.addEventListener("keydown",function(e){
+      var t=e.target;
+      if(t&&(t.tagName==="TEXTAREA"||t.tagName==="INPUT"))return;
+      if(e.ctrlKey||e.metaKey||e.altKey)return;
+      var k=e.key;
+      if(k>="0"&&k<="9"){calc.digit(k);note("");render();}
+      else if(k==="."){calc.dot();note("");render();}
+      else if(k==="+"||k==="-"||k==="*"||k==="/"){e.preventDefault();doOp(k);}
+      else if(k==="Enter"||k==="="){e.preventDefault();doEquals();}
+      else if(k==="%"){calc.percent();note("");render();}
+      else if(k==="Backspace"){e.preventDefault();calc.backspace();render();}
+      else if(k==="Delete"){calc.clearEntry();note("");render();}
+      else if(k==="Escape"){calc.allClear();note("");render();}
+    });
+    render();
+  });
+}
+
+</script>
+
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' 安裝應用';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('安裝此應用：點選分享按鈕，然後選擇“新增到主螢幕”。');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body></html>

@@ -1,0 +1,29 @@
+{
+  "name": "Loona 單利計算器",
+  "short_name": "單利計算器",
+  "description": "免費單利計算器：輸入本金、年利率和時間（年和月），計算賺取的利息和總金額。簡單公式 I = P×R×T/100。",
+  "id": "/loona-calculators/zh-hant/simple-interest-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

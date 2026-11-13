@@ -1,0 +1,29 @@
+{
+  "name": "Loona 燃油成本計算器",
+  "short_name": "燃油成本計算器",
+  "description": "免費燃油成本計算器：輸入距離、車輛油耗和燃油價格，獲得所需升數和總行程成本，並有往返選項。",
+  "id": "/loona-calculators/zh-hant/fuel-cost-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

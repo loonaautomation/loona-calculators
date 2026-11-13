@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>密碼短語生成器 — 易記的單詞密碼（Diceware 風格） | Loona</title>
+<meta name="description" content="免費密碼短語生成器：用隨機真實單詞構建強而易記的密碼短語，帶有單詞數、分隔符、大寫和數字選項。在您的瀏覽器中執行。">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/zh-hant/passphrase-generator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/passphrase-generator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/passphrase-generator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/passphrase-generator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/passphrase-generator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/passphrase-generator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/passphrase-generator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/passphrase-generator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/passphrase-generator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/passphrase-generator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/passphrase-generator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/passphrase-generator/"><link rel="alternate" hreflang="zh" href="https://loonaautomation.github.io/loona-calculators/zh/passphrase-generator/"><link rel="alternate" hreflang="zh-Hant" href="https://loonaautomation.github.io/loona-calculators/zh-hant/passphrase-generator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/passphrase-generator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="密碼短語生成器 — 易記的單詞密碼（Diceware 風格） | Loona">
+<meta property="og:description" content="免費密碼短語生成器：用隨機真實單詞構建強而易記的密碼短語，帶有單詞數、分隔符、大寫和數字選項。在您的瀏覽器中執行。">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/zh-hant/passphrase-generator/"><meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="密碼短語生成器 — 易記的單詞密碼（Diceware 風格） | Loona">
+<meta name="twitter:description" content="免費密碼短語生成器：用隨機真實單詞構建強而易記的密碼短語，帶有單詞數、分隔符、大寫和數字選項。在您的瀏覽器中執行。">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona 密碼短語生成器","url":"https://loonaautomation.github.io/loona-calculators/zh-hant/passphrase-generator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"這與 Loona Text Tools 上的密碼生成器有何不同？","acceptedAnswer":{"@type":"Answer","text":"該工具生成字元密碼（設定長度的隨機字母、數字和符號）。本工具生成單詞密碼短語——一種由 Diceware 推廣、並被安全指南推薦給人類使用的、刻意易記的不同格式。它們是針對不同偏好的獨立工具；許多人將密碼短語用於主密碼，將字元密碼放在管理器中。"}},{"@type":"Question","name":"單詞密碼短語的強度如何？","acceptedAnswer":{"@type":"Answer","text":"強度來自隨機性和詞數：來自 160 詞列表的每個詞增加約 7.3 位熵，因此 5 個詞 ≈ 37 位，7 個詞 ≈ 51 位，這還不算分隔符/大小寫/數字變化。對於最高風險的賬戶，請使用更多詞。"}},{"@type":"Question","name":"單詞真的是隨機選擇的嗎？","acceptedAnswer":{"@type":"Answer","text":"是的——加密級隨機數會獨立地、有放回地抽取每個詞，因此可能重複，且每種組合出現的機率完全相同。"}},{"@type":"Question","name":"我應該將我在這裡生成的密碼短語用於銀行業務嗎？","acceptedAnswer":{"@type":"Answer","text":"生成的短語從不儲存或傳輸，數學原理也是可靠的——但對於關鍵賬戶，在您的密碼管理器內生成是黃金標準。這個工具非常適合學習這種格式和用於低風險登入。"}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/zh-hant/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "密碼短語生成器",
+      "item": "https://loonaautomation.github.io/loona-calculators/zh-hant/passphrase-generator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation 標誌">
+<div class="brand">Loona <span>計算器</span></div>
+<nav>
+<a href="../">首頁</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">關於</a>
+<a href="../contact.html">聯絡</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › 趣味 › 口令生成器</div>
+<h1 class="pagetitle">🔑 口令生成器</h1>
+<p class="lead">生成一個您真正能記住的強密碼：一串隨機選擇的真實單詞，Diceware 風格。選擇單詞數量、分隔符、大寫方式，以及是否加一個數字。</p>
+<div class="exbox"><strong>快速答案：</strong> 一個 5 詞密碼短語，從本頁的 160+ 詞表中抽取，在大小寫和數字選項之前約有 160^5 ≈ 10^11 種組合——因長度而強大，卻比隨機字元更容易輸入和記憶。</div>
+<div class="toolbox"><form class="calcform" id="ppForm">
+<div class="fld"><label for="ppCount">單詞數量</label><select id="ppCount"><option>4</option><option selected>5</option><option>6</option><option>7</option><option>8</option></select></div>
+<div class="fld"><label for="ppSep">分隔符</label><select id="ppSep"><option value="-">連字元 (-)</option><option value=" ">空格</option><option value="_">下劃線（_）</option><option value="">無</option></select></div>
+<div class="fld"><label><input type="checkbox" id="ppCap" checked style="width:auto;margin-right:8px">每個單詞首字母大寫</label></div>
+<div class="fld"><label><input type="checkbox" id="ppNum" checked style="width:auto;margin-right:8px">在末尾新增一個隨機數字</label></div>
+<button class="calcbtn" type="submit">🔑 生成口令</button>
+<div class="calcresult" id="ppResult" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>如何使用 Passphrase Generator</h2><ol><li>選擇單詞數量（4–8；5 或 6 是不錯的預設選擇）。</li><li>選擇分隔符，以及是否將每個單詞大寫或新增隨機數字。</li><li>按“生成”——再按一次可生成一句新短語。任何內容都不會被儲存或傳送到任何地方。</li></ol>
+<div class="exbox"><strong>示例：</strong> 生成的密碼短語可能看起來像：Copper-Willow-Anchor-Planet-Ember-42——六個單詞，首字母大寫，連字元分隔，末尾帶一個數字。</div>
+<h2>常見問題</h2></section><div class="faq"><h3>這與 Loona Text Tools 上的密碼生成器有何不同？</h3><p>該工具生成字元密碼（設定長度的隨機字母、數字和符號）。本工具生成單詞密碼短語——一種由 Diceware 推廣、並被安全指南推薦給人類使用的、刻意易記的不同格式。它們是針對不同偏好的獨立工具；許多人將密碼短語用於主密碼，將字元密碼放在管理器中。</p></div><div class="faq"><h3>單詞密碼短語的強度如何？</h3><p>強度來自隨機性和詞數：來自 160 詞列表的每個詞增加約 7.3 位熵，因此 5 個詞 ≈ 37 位，7 個詞 ≈ 51 位，這還不算分隔符/大小寫/數字變化。對於最高風險的賬戶，請使用更多詞。</p></div><div class="faq"><h3>單詞真的是隨機選擇的嗎？</h3><p>是的——加密級隨機數會獨立地、有放回地抽取每個詞，因此可能重複，且每種組合出現的機率完全相同。</p></div><div class="faq"><h3>我應該將我在這裡生成的密碼短語用於銀行業務嗎？</h3><p>生成的短語從不儲存或傳輸，數學原理也是可靠的——但對於關鍵賬戶，在您的密碼管理器內生成是黃金標準。這個工具非常適合學習這種格式和用於低風險登入。</p></div>
+<h2 class="sec">相關計算器</h2><div class="grid"><a class="card" href="../random-number-generator/"><div class="ic">🎲</div><h3>隨機數生成器</h3><p>娛樂</p></a><a class="card" href="../dice-roller/"><div class="ic">🎲</div><h3>擲骰子</h3><p>娛樂</p></a><a class="card" href="../coin-flip/"><div class="ic">🪙</div><h3>擲硬幣</h3><p>娛樂</p></a><a class="card" href="../lottery-number-generator/"><div class="ic">🍀</div><h3>彩票號碼生成器</h3><p>娛樂</p></a><a class="card" href="../love-calculator/"><div class="ic">❤️</div><h3>愛情計算器</h3><p>娛樂</p></a><a class="card" href="../random-number-generator/"><div class="ic">🎲</div><h3>隨機數生成器</h3><p>娛樂</p></a></div>
+</div>
+<section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>工作原理 — 公式</h2>
+<p>每個單詞都使用加密級隨機性從包含 W 個單詞的內建詞表中獨立且均勻地抽取，因此一個 k 詞短語具有 <strong>W^k</strong> 等可能結果與熵 <strong>k × log₂(W)</strong> 位元。當W ≈ 160時：log₂(160) ≈ 每詞7.32位元。</p>
+<h3>示例</h3><div class="exbox"><p><strong>輸入項：</strong> 6 個單詞，列表大小 160。</p><p><strong>步驟：</strong> 組合數 = 160^6 = 16,777,216 × 10^6 ≈ 1.68 × 10^13。熵 = 6 × log₂(160) = 6 × 7.32 = 43.9 bits，再加上大小寫選擇帶來的額外不確定性，以及可選的兩位數（×100 → 啟用且攻擊者未知時約 +6.6 bits）。</p><p><strong>結果：</strong> 一個 6 詞短語大約攜帶 <strong>44–50 bits</strong> 的熵——對一個易記的秘密來說很強。</p></div>
+
+</section>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">將此計算器嵌入您的網站——免費</h2>
+<p style="margin:0 0 12px;line-height:1.6">將本計算器新增到你自己的網站或部落格——完全免費，無需註冊，並且始終顯示最新版本。複製下面的程式碼，貼上到你希望計算器出現的頁面位置。在嵌入下方保留小小的 &ldquo;Powered by Loona Automation&rdquo; 署名行有助於保持本工具免費——但你可以自由設定樣式或將其移除；無論哪種方式工具都能工作。</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/zh-hant/passphrase-generator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Passphrase Generator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;技術支援： &lt;a href="https://loonaautomation.github.io/loona-calculators/zh-hant/passphrase-generator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 免費 密碼短語生成器&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">複製嵌入程式碼</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='複製嵌入程式碼';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>熱門計算器</h4><ul><li><a href="../age-calculator/">年齡計算器</a></li>
+<li><a href="../zakat-calculator/">天課計算器</a></li>
+<li><a href="../cgpa-calculator/">CGPA 計算器</a></li>
+<li><a href="../percentage-calculator/">百分比計算器</a></li>
+<li><a href="../hijri-date-converter/">伊斯蘭曆日期轉換器</a></li>
+<li><a href="../emi-calculator/">EMI 與貸款計算器</a></li></ul></div>
+<div><h4>更多 Loona 工具</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona 圖片壓縮工具</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI 助手</a></li>
+<li><a href="https://loonaautomation.github.io/">所有 Loona 工具</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">關於</a></li>
+<li><a href="../contact.html">聯絡</a></li>
+<li><a href="../privacy-policy.html">隱私政策</a></li>
+<li><a href="../terms.html">使用條款</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators —— 一個 <a href="https://loonaautomation.github.io/">Loona Automation</a> 專案。免費線上計算器，無需註冊。
+聯絡方式： <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+var PASSPHRASE_WORDS=["apple", "river", "mountain", "silver", "garden", "bridge", "harbor", "meadow", "velvet", "thunder", "copper", "marble", "sunset", "forest", "island", "breeze", "castle", "window", "planet", "rocket", "pencil", "notebook", "camera", "guitar", "violin", "trumpet", "banana", "orange", "lemon", "melon", "cherry", "walnut", "almond", "coffee", "cocoa", "honey", "pepper", "ginger", "valley", "desert", "ocean", "lagoon", "glacier", "volcano", "canyon", "prairie", "tundra", "jungle", "savanna", "oasis", "cliff", "cave", "reef", "wave", "storm", "cloud", "rain", "snow", "frost", "ember", "flame", "spark", "pearl", "ruby", "topaz", "opal", "jade", "amber", "coral", "ivory", "onyx", "quartz", "bronze", "iron", "steel", "nickel", "zinc", "linen", "cotton", "denim", "satin", "tulip", "daisy", "poppy", "violet", "jasmine", "laurel", "maple", "birch", "cedar", "pine", "oak", "elm", "falcon", "eagle", "heron", "raven", "sparrow", "robin", "finch", "osprey", "badger", "otter", "beaver", "lynx", "moose", "bison", "zebra", "giraffe", "panda", "koala", "lemur", "gecko", "viper", "salmon", "trout", "perch", "cod", "bass", "atlas", "comet", "orbit", "lunar", "solar", "astro", "cosmos", "nebula", "quasar", "meteor", "eclipse", "zenith", "aurora", "mirage", "tempest", "monsoon", "zephyr", "sailor", "anchor", "compass", "lantern", "beacon", "harbour", "voyage", "journey", "willow", "aspen", "rowan", "sorrel", "clover", "heather", "bracken", "nettle", "thistle", "kestrel", "merlin", "plover", "curlew", "avocet", "egret", "stork", "crane", "ibis"];
+function makePassphrase(count,sep,capitalise,addNumber,rng){
+  var rand=rng||function(max){var a=new Uint32Array(1);crypto.getRandomValues(a);return a[0]%max;};
+  if(count<3||count>12)return null;
+  var words=[];
+  for(var i=0;i<count;i++){var w=PASSPHRASE_WORDS[rand(PASSPHRASE_WORDS.length)];if(capitalise)w=w.charAt(0).toUpperCase()+w.slice(1);words.push(w);}
+  var phrase=words.join(sep);
+  if(addNumber)phrase+= (sep?sep:"") + rand(100);
+  return phrase;
+}
+function passphraseEntropy(count){return count*Math.log2(PASSPHRASE_WORDS.length);}
+/*TESTABLE_END*/
+document.getElementById('ppForm').addEventListener('submit',function(e){e.preventDefault();
+ var n=parseInt(document.getElementById('ppCount').value,10);
+ var phrase=makePassphrase(n,document.getElementById('ppSep').value,document.getElementById('ppCap').checked,document.getElementById('ppNum').checked);
+ var box=document.getElementById('ppResult'); box.style.display='block';
+ box.innerHTML='<div class="resbig"><span>您的密碼短語</span><strong style="font-size:17px;word-break:break-all">'+phrase+'</strong></div>'
+ +'<p class="resnote">約 '+passphraseEntropy(n).toFixed(1)+' 位熵，僅來自單詞（'+PASSPHRASE_WORDS.length+' 詞表）。本地生成 — 不儲存、不傳送。按生成再來一個。</p>';});
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' 安裝應用';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('安裝此應用：點選分享按鈕，然後選擇“新增到主螢幕”。');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "name": "Loona 日期計算器",
+  "short_name": "日期計算器",
+  "description": "免費日期計算器：從任何日期加上或減去天、周、月和年，獲得結果日期及其星期幾。截止日期、簽證和規劃。",
+  "id": "/loona-calculators/zh-hant/date-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

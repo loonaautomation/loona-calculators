@@ -1,0 +1,29 @@
+{
+  "name": "Loona 統計計算器",
+  "short_name": "統計計算器",
+  "description": "免費統計計算器：貼上一列數字，獲得平均數、中位數、眾數、範圍、方差和標準差（總體和樣本）、總和和計數。",
+  "id": "/loona-calculators/zh-hant/statistics-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

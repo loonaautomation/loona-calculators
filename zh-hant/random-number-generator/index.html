@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>隨機數生成器 — 線上安全隨機數 | Loona Calculators</title>
+<meta name="description" content="免費隨機數生成器，使用安全的瀏覽器隨機性。在任何範圍內挑選數字，選擇數量，並可選擇僅生成唯一數字。">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/zh-hant/random-number-generator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/random-number-generator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/random-number-generator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/random-number-generator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/random-number-generator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/random-number-generator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/random-number-generator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/random-number-generator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/random-number-generator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/random-number-generator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/random-number-generator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/random-number-generator/"><link rel="alternate" hreflang="zh" href="https://loonaautomation.github.io/loona-calculators/zh/random-number-generator/"><link rel="alternate" hreflang="zh-Hant" href="https://loonaautomation.github.io/loona-calculators/zh-hant/random-number-generator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/random-number-generator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="隨機數生成器 — 線上安全隨機數 | Loona Calculators">
+<meta property="og:description" content="免費隨機數生成器，使用安全的瀏覽器隨機性。在任何範圍內挑選數字，選擇數量，並可選擇僅生成唯一數字。">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/zh-hant/random-number-generator/"><meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="隨機數生成器 — 線上安全隨機數 | Loona Calculators">
+<meta name="twitter:description" content="免費隨機數生成器，使用安全的瀏覽器隨機性。在任何範圍內挑選數字，選擇數量，並可選擇僅生成唯一數字。">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona 隨機數生成器","url":"https://loonaautomation.github.io/loona-calculators/zh-hant/random-number-generator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"這個隨機數生成器是真正隨機的嗎？","acceptedAnswer":{"@type":"Answer","text":"它使用 crypto.getRandomValues，這是內建於每個現代瀏覽器中的加密安全隨機源。作業系統以現實世界的不可預測性（計時、硬體噪聲）為其提供種子，因此數字無法被預測或按需重複——這是比大多數簡單生成器使用的 Math.random 函式強得多的來源。"}},{"@type":"Question","name":"唯一選項做什麼？","acceptedAnswer":{"@type":"Answer","text":"使用“僅唯一數字”，每個生成的數字都不同——非常適合彩票式抽獎、抽獎活動和挑選學生或獲勝者。使用“允許重複”，每次抽取都是獨立的，因此同一數字可以出現多次，如擲骰子。"}},{"@type":"Question","name":"它可以重複同一組兩次嗎？","acceptedAnswer":{"@type":"Answer","text":"理論上任何一組數字都可能偶然再次出現，但使用安全隨機性時，每次抽取之間沒有模式、種子或記憶。按下“生成”始終開始一次全新的、獨立的抽取。"}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/zh-hant/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "隨機數生成器",
+      "item": "https://loonaautomation.github.io/loona-calculators/zh-hant/random-number-generator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation 標誌">
+<div class="brand">Loona <span>計算器</span></div>
+<nav>
+<a href="../">首頁</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">關於</a>
+<a href="../contact.html">聯絡</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › 趣味 › 隨機數生成器</div>
+<h1 class="pagetitle">🎲 隨機數生成器</h1>
+<p class="lead">在您的瀏覽器中直接生成真正隨機的數字。與大多數線上生成器不同，這個生成器使用您瀏覽器的安全隨機源——與網站用於加密的相同源——因此結果不可預測且無偏。</p>
+<div class="toolbox"><form class="calcform" id="rngForm">
+<div class="fld"><label for="rngMin">最小值</label><input type="number" id="rngMin" value="1" step="1"></div>
+<div class="fld"><label for="rngMax">最大值</label><input type="number" id="rngMax" value="100" step="1"></div>
+<div class="fld"><label for="rngCount">有多少個數字？</label><input type="number" id="rngCount" value="5" step="1" min="1" max="10000"></div>
+<div class="fld"><label for="rngUnique">重複項</label><select id="rngUnique"><option value="unique" selected>僅唯一數字（不重複）</option><option value="allow">允許重複</option></select></div>
+<button class="calcbtn" type="submit">生成號碼</button>
+<div class="calcresult" id="rngResult" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>如何使用 Random Number Generator</h2><ol><li>輸入您想要的最小數字（最小值）和最大數字（最大值）。</li><li>選擇要生成的數字數量（最多 10,000）。</li><li>選擇數字必須唯一還是可以重複，然後按生成數字。</li></ol>
+<div class="exbox"><strong>示例：</strong> 一名教師需要從學號 1 到 40 中公平地挑選 6 名學生：設定最小值 1、最大值 40、數量 6、僅唯一——出現六個不同的學號，不可能有偏袒。</div>
+<h2>常見問題</h2></section><div class="faq"><h3>這個隨機數生成器是真正隨機的嗎？</h3><p>它使用 crypto.getRandomValues，這是內建於每個現代瀏覽器中的加密安全隨機源。作業系統以現實世界的不可預測性（計時、硬體噪聲）為其提供種子，因此數字無法被預測或按需重複——這是比大多數簡單生成器使用的 Math.random 函式強得多的來源。</p></div><div class="faq"><h3>唯一選項做什麼？</h3><p>使用“僅唯一數字”，每個生成的數字都不同——非常適合彩票式抽獎、抽獎活動和挑選學生或獲勝者。使用“允許重複”，每次抽取都是獨立的，因此同一數字可以出現多次，如擲骰子。</p></div><div class="faq"><h3>它可以重複同一組兩次嗎？</h3><p>理論上任何一組數字都可能偶然再次出現，但使用安全隨機性時，每次抽取之間沒有模式、種子或記憶。按下“生成”始終開始一次全新的、獨立的抽取。</p></div>
+<h2 class="sec">相關計算器</h2><div class="grid"><a class="card" href="../dice-roller/"><div class="ic">🎲</div><h3>擲骰子</h3><p>娛樂</p></a><a class="card" href="../coin-flip/"><div class="ic">🪙</div><h3>擲硬幣</h3><p>娛樂</p></a><a class="card" href="../lottery-number-generator/"><div class="ic">🍀</div><h3>彩票號碼生成器</h3><p>娛樂</p></a><a class="card" href="../love-calculator/"><div class="ic">❤️</div><h3>愛情計算器</h3><p>娛樂</p></a><a class="card" href="../age-calculator/"><div class="ic">📅</div><h3>年齡計算器</h3><p>日期與時間</p></a></div>
+</div>
+<section class="txt"><h2>工作原理——公式</h2>
+<p>生成器使用 <strong>拒絕取樣</strong> 基於32位安全隨機值，這消除了較簡單方法中的細微偏差：</p>
+<p>1. 瀏覽器填充一個 32 位無符號整數 <em>x</em> 使用 <strong>crypto.getRandomValues</strong>.<br>
+2. 設 <em>範圍</em> = 最大值 − 最小值 + 1。以下值 <em>x</em> 達到或高於 <em>極限</em> = ⌊2³² ÷ range⌋ × range 會被拒絕並重新抽取，因此剩餘的值能被該範圍整除。<br>
+3. 結果是 <strong>min + (x mod range)</strong> ——你的範圍內的每個數字機率完全相同。</p>
+<h3>示例</h3>
+<div class="exbox"><strong>示例：</strong> 從 1 到 6 抽取一個數字（擲骰子）。範圍為 6，因此 limit = ⌊4,294,967,296 ÷ 6⌋ × 6 = 4,294,967,296 − 4 = 4,294,967,292。幾乎每一個隨機的 32 位數值都會被接受；如果 x = 1,000,000,007，則 1,000,000,007 mod 6 = 5，結果為 1 + 5 = <strong>6</strong>。六種結果中的每一種出現的可能性都完全相同。</div>
+<h3>常見問題</h3></section><div class="faq"><h3>最大範圍和計數是多少？</h3><p>每次抽取最多可生成10,000個數字，範圍可跨越數十億個數值（本工具使用整數；你輸入的小數會向下取整為整數）。</p></div><div class="faq"><h3>我的數字會被髮送到伺服器或儲存嗎？</h3><p>不是。生成器完全使用 JavaScript 在您的瀏覽器中執行。不會上傳、記錄或儲存任何內容——關閉標籤頁，數字即消失。</p></div><div class="faq"><h3>為什麼不直接使用 Math.random？</h3><p>Math.random 是一個為方便而設計的偽隨機生成器，而不是為公平：它的序列是確定性的，原則上可以預測。對於抽獎、贈品和遊戲，安全的來源很重要，這就是本工具基於 crypto.getRandomValues 並採用拒絕取樣構建的原因，使您範圍內每個值的可能性相等。</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">將此計算器嵌入您的網站——免費</h2>
+<p style="margin:0 0 12px;line-height:1.6">將本計算器新增到你自己的網站或部落格——完全免費，無需註冊，並且始終顯示最新版本。複製下面的程式碼，貼上到你希望計算器出現的頁面位置。在嵌入下方保留小小的 &ldquo;Powered by Loona Automation&rdquo; 署名行有助於保持本工具免費——但你可以自由設定樣式或將其移除；無論哪種方式工具都能工作。</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/zh-hant/random-number-generator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Random Number Generator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;技術支援： &lt;a href="https://loonaautomation.github.io/loona-calculators/zh-hant/random-number-generator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 免費 隨機數生成器&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">複製嵌入程式碼</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='複製嵌入程式碼';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>熱門計算器</h4><ul><li><a href="../age-calculator/">年齡計算器</a></li>
+<li><a href="../zakat-calculator/">天課計算器</a></li>
+<li><a href="../cgpa-calculator/">CGPA 計算器</a></li>
+<li><a href="../percentage-calculator/">百分比計算器</a></li>
+<li><a href="../hijri-date-converter/">伊斯蘭曆日期轉換器</a></li>
+<li><a href="../emi-calculator/">EMI 與貸款計算器</a></li></ul></div>
+<div><h4>更多 Loona 工具</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona 圖片壓縮工具</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI 助手</a></li>
+<li><a href="https://loonaautomation.github.io/">所有 Loona 工具</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">關於</a></li>
+<li><a href="../contact.html">聯絡</a></li>
+<li><a href="../privacy-policy.html">隱私政策</a></li>
+<li><a href="../terms.html">使用條款</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators —— 一個 <a href="https://loonaautomation.github.io/">Loona Automation</a> 專案。免費線上計算器，無需註冊。
+聯絡方式： <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+function cryptoRandomInt(min, max) {
+  var range = max - min + 1;
+  if (!(range >= 1)) throw new Error("範圍無效。");
+  if (range > 4294967296) throw new Error("範圍太大。");
+  var limit = Math.floor(4294967296 / range) * range;
+  var buf = new Uint32Array(1), x;
+  do { crypto.getRandomValues(buf); x = buf[0]; } while (x >= limit);
+  return min + (x % range);
+}
+function generateRandomNumbers(min, max, count, unique) {
+  min = Math.floor(min); max = Math.floor(max); count = Math.floor(count);
+  if (isNaN(min) || isNaN(max) || isNaN(count)) throw new Error("請在每個欄位中輸入有效數字。");
+  if (max < min) throw new Error("最大值必須大於或等於最小值。");
+  if (count < 1 || count > 10000) throw new Error("請選擇 1 到 10,000 個數字。");
+  if (unique && count > (max - min + 1)) throw new Error("該範圍內沒有足夠的唯一數字。");
+  var out = [], seen = {};
+  while (out.length < count) {
+    var v = cryptoRandomInt(min, max);
+    if (unique) { if (seen[v]) continue; seen[v] = 1; }
+    out.push(v);
+  }
+  return out;
+}
+function generateUniqueSorted(count, max) {
+  var seen = {}, out = [];
+  while (out.length < count) {
+    var v = cryptoRandomInt(1, max);
+    if (!seen[v]) { seen[v] = 1; out.push(v); }
+  }
+  out.sort(function (a, b) { return a - b; });
+  return out;
+}
+/*TESTABLE_END*/
+
+function rngRun() {
+  var box = document.getElementById('rngResult');
+  try {
+    var nums = generateRandomNumbers(
+      parseFloat(document.getElementById('rngMin').value),
+      parseFloat(document.getElementById('rngMax').value),
+      parseFloat(document.getElementById('rngCount').value),
+      document.getElementById('rngUnique').value === 'unique');
+    box.style.display = 'block';
+    box.innerHTML = '<div class="resbig"><span>您的隨機數</span><strong>' + nums.length + ' 已抽取</strong></div>' +
+      '<p style="font-size:19px;line-height:1.9;word-break:break-word"><strong>' + nums.join(', ') + '</strong></p>' +
+      '<p class="resnote">使用 crypto.getRandomValues 在您的瀏覽器本地生成 — 不會傳送到任何伺服器。再按一次生成即可得到新的一組。</p>';
+  } catch (e) {
+    box.style.display = 'block';
+    box.innerHTML = '<p class="err">' + e.message + '</p>';
+  }
+}
+document.getElementById('rngForm').addEventListener('submit', function (e) { e.preventDefault(); rngRun(); });
+rngRun();
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' 安裝應用';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('安裝此應用：點選分享按鈕，然後選擇“新增到主螢幕”。');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

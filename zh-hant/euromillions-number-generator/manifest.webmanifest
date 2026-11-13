@@ -1,0 +1,29 @@
+{
+  "name": "Loona EuroMillions 號碼生成器",
+  "short_name": "EuroMillions 號碼生成器",
+  "description": "免費 EuroMillions 號碼生成器：從 50 中抽取 5 個主號碼加從 12 中選 2 個幸運星，一次最多 5 行。安全隨機選號，無需註冊。",
+  "id": "/loona-calculators/zh-hant/euromillions-number-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

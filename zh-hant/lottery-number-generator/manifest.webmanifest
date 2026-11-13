@@ -1,0 +1,29 @@
+{
+  "name": "Loona 彩票號碼生成器",
+  "short_name": "彩票號碼生成器",
+  "description": "免費彩票號碼生成器，帶有 Powerball、Mega Millions、EuroMillions 和 UK Lotto 的預設，還有適用於任何彩票的自定義模式。安全隨機選號。",
+  "id": "/loona-calculators/zh-hant/lottery-number-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

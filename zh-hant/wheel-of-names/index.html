@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>名字輪盤 — 旋轉輪盤挑選隨機獲勝者 | Loona 計算器</title>
+<meta name="description" content="免費名字轉盤：新增名字，旋轉彩色轉盤，為抽獎、課堂和贈品挑選一個真正隨機的獲勝者。無需註冊，在您的瀏覽器中工作。">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/zh-hant/wheel-of-names/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/wheel-of-names/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/wheel-of-names/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/wheel-of-names/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/wheel-of-names/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/wheel-of-names/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/wheel-of-names/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/wheel-of-names/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/wheel-of-names/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/wheel-of-names/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/wheel-of-names/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/wheel-of-names/"><link rel="alternate" hreflang="zh" href="https://loonaautomation.github.io/loona-calculators/zh/wheel-of-names/"><link rel="alternate" hreflang="zh-Hant" href="https://loonaautomation.github.io/loona-calculators/zh-hant/wheel-of-names/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/wheel-of-names/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="名字輪盤 — 旋轉輪盤挑選隨機獲勝者 | Loona 計算器">
+<meta property="og:description" content="免費名字轉盤：新增名字，旋轉彩色轉盤，為抽獎、課堂和贈品挑選一個真正隨機的獲勝者。無需註冊，在您的瀏覽器中工作。">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/zh-hant/wheel-of-names/"><meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="名字輪盤 — 旋轉輪盤挑選隨機獲勝者 | Loona 計算器">
+<meta name="twitter:description" content="免費名字轉盤：新增名字，旋轉彩色轉盤，為抽獎、課堂和贈品挑選一個真正隨機的獲勝者。無需註冊，在您的瀏覽器中工作。">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona 姓名轉盤","url":"https://loonaautomation.github.io/loona-calculators/zh-hant/wheel-of-names/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"轉盤真的隨機嗎？","acceptedAnswer":{"@type":"Answer","text":"是的。轉盤從一個安全隨機角度和隨機額外圈數開始旋轉，然後緩緩停下。每個名字佔據相等的扇區，因此每次旋轉每個名字的機會都相等。"}},{"@type":"Question","name":"我可以新增多少個名字？","acceptedAnswer":{"@type":"Answer","text":"最多 100 個名字。很長的名字在輪盤上會縮短，以保持切片可讀。"}},{"@type":"Question","name":"我可以將其用於選項而不是姓名嗎？","acceptedAnswer":{"@type":"Answer","text":"是的——獎品、任務、話題或餐廳都可以。任何能輸入在一行裡的內容都可以成為一個扇區。"}},{"@type":"Question","name":"獲勝者會被自動移除嗎？","acceptedAnswer":{"@type":"Answer","text":"不是——列表保持您所寫的樣子，因此同一個人可以在下一次旋轉時再次被抽中。如果您想讓他們退出，請自己刪除他們的那一行。"}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/zh-hant/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "名字輪盤",
+      "item": "https://loonaautomation.github.io/loona-calculators/zh-hant/wheel-of-names/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation 標誌">
+<div class="brand">Loona <span>計算器</span></div>
+<nav>
+<a href="../">首頁</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">關於</a>
+<a href="../contact.html">聯絡</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › 趣味 › 名字轉盤</div>
+<h1 class="pagetitle">🎡 名字轉盤</h1>
+<p class="lead">輸入或貼上名字清單，然後旋轉輪盤。輪盤減速並停在一個名字上——一種公平、有趣的方式來挑選抽獎獲勝者、選擇誰先展示，或在選項之間做決定。</p>
+<div class="exbox"><strong>快速答案：</strong> 名字轉盤隨機挑選一個條目：每個名字獲得轉盤的相等一片，轉盤以隨機力度旋轉，停止時指標下方的名字就是贏家——每個名字都有 N 分之 1 的機會。</div>
+<div class="toolbox"><form class="calcform" id="whForm">
+<div class="fld"><label for="whNames">姓名或選項（每行一個）</label><textarea id="whNames" rows="6" style="width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px">Ali
+Sara
+John
+Maria
+Chen
+Fatima</textarea></div>
+<button class="calcbtn" type="submit">🎡 轉動轉盤</button>
+</form>
+<div style="text-align:center;margin-top:16px"><canvas id="whCanvas" width="420" height="420" style="max-width:100%;height:auto"></canvas></div>
+<div class="calcresult" id="whResult" style="display:none"></div></div>
+<section class="txt"><h2>如何使用 Wheel of Names</h2><ol><li>輸入或貼上名字，每行一個（至少 2 個）。</li><li>按“旋轉轉盤”。</li><li>看它慢下來——頂部指標下的名字獲勝。</li><li>再次按“旋轉”進行另一次抽獎；隨時編輯列表，轉盤會自動重繪。</li></ol>
+<div class="exbox"><strong>示例：</strong> 輪盤上有 6 個名字時，每個切片是 60 度，每個名字在任何一次旋轉中都有 1/6（約 16.7%）的獲勝機會。</div>
+<h2>常見問題</h2></section><div class="faq"><h3>轉盤真的隨機嗎？</h3><p>是的。轉盤從一個安全隨機角度和隨機額外圈數開始旋轉，然後緩緩停下。每個名字佔據相等的扇區，因此每次旋轉每個名字的機會都相等。</p></div><div class="faq"><h3>我可以新增多少個名字？</h3><p>最多 100 個名字。很長的名字在輪盤上會縮短，以保持切片可讀。</p></div><div class="faq"><h3>我可以將其用於選項而不是姓名嗎？</h3><p>是的——獎品、任務、話題或餐廳都可以。任何能輸入在一行裡的內容都可以成為一個扇區。</p></div><div class="faq"><h3>獲勝者會被自動移除嗎？</h3><p>不是——列表保持您所寫的樣子，因此同一個人可以在下一次旋轉時再次被抽中。如果您想讓他們退出，請自己刪除他們的那一行。</p></div>
+<h2 class="sec">相關計算器</h2><div class="grid"><a class="card" href="../random-number-generator/"><div class="ic">🎲</div><h3>隨機數生成器</h3><p>娛樂</p></a><a class="card" href="../dice-roller/"><div class="ic">🎲</div><h3>擲骰子</h3><p>娛樂</p></a><a class="card" href="../coin-flip/"><div class="ic">🪙</div><h3>擲硬幣</h3><p>娛樂</p></a><a class="card" href="../lottery-number-generator/"><div class="ic">🍀</div><h3>彩票號碼生成器</h3><p>娛樂</p></a><a class="card" href="../love-calculator/"><div class="ic">❤️</div><h3>愛情計算器</h3><p>娛樂</p></a></div>
+</div>
+<section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>工作原理 — 公式</h2>
+<p>使用 <em>N</em> 個名字，每個扇區覆蓋 <strong>360° ÷ N</strong>。一次旋轉會選出一個安全隨機的最終旋轉角度；獲勝的扇區是轉盤停止時位於固定頂部指標下方的那一個，計算方法為 <strong>獲勝者 = floor（（（指標角度 − 最終旋轉）mod 360°）÷ 扇區大小）</strong>。因為最終旋轉是均勻的，所以每個扇區——進而每個名字——的機率恰好為 <strong>1 ÷ N</strong>.</p>
+<h3>示例</h3><div class="exbox"><p><strong>輸入項：</strong> 6 個名字，因此每個扇區是 360 ÷ 6 = 60°。</p><p><strong>步驟：</strong> 假設轉盤停在最終旋轉角度 725°。725 mod 360 = 5°。指標在畫布術語中位於 270°（頂部）。有效角度為 (270 − 5) mod 360 = 265°。切片 = floor(265 ÷ 60) = floor(4.41) = 索引 4——列表上的第 5 個名字。</p><p><strong>結果：</strong> 第 5 個名字獲勝，在旋轉之前每個名字都有 <strong>1 / 6</strong> 機率。</p></div>
+
+</section>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">將此計算器嵌入您的網站——免費</h2>
+<p style="margin:0 0 12px;line-height:1.6">將本計算器新增到你自己的網站或部落格——完全免費，無需註冊，並且始終顯示最新版本。複製下面的程式碼，貼上到你希望計算器出現的頁面位置。在嵌入下方保留小小的 &ldquo;Powered by Loona Automation&rdquo; 署名行有助於保持本工具免費——但你可以自由設定樣式或將其移除；無論哪種方式工具都能工作。</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/zh-hant/wheel-of-names/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Wheel of Names by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;技術支援： &lt;a href="https://loonaautomation.github.io/loona-calculators/zh-hant/wheel-of-names/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 免費 名字輪盤&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">複製嵌入程式碼</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='複製嵌入程式碼';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>熱門計算器</h4><ul><li><a href="../age-calculator/">年齡計算器</a></li>
+<li><a href="../zakat-calculator/">天課計算器</a></li>
+<li><a href="../cgpa-calculator/">CGPA 計算器</a></li>
+<li><a href="../percentage-calculator/">百分比計算器</a></li>
+<li><a href="../hijri-date-converter/">伊斯蘭曆日期轉換器</a></li>
+<li><a href="../emi-calculator/">EMI 與貸款計算器</a></li></ul></div>
+<div><h4>更多 Loona 工具</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona 圖片壓縮工具</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI 助手</a></li>
+<li><a href="https://loonaautomation.github.io/">所有 Loona 工具</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">關於</a></li>
+<li><a href="../contact.html">聯絡</a></li>
+<li><a href="../privacy-policy.html">隱私政策</a></li>
+<li><a href="../terms.html">使用條款</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators —— 一個 <a href="https://loonaautomation.github.io/">Loona Automation</a> 專案。免費線上計算器，無需註冊。
+聯絡方式： <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+function wheelNames(text){return String(text).split(/\r?\n/).map(function(s){return s.trim();}).filter(function(s){return s.length>0;}).slice(0,100);}
+function wheelWinnerIndex(rotationDeg,count){
+  var seg=360/count;
+  var eff=((270-(rotationDeg%360))%360+360)%360;
+  return Math.floor(eff/seg)%count;
+}
+function wheelRandomRotation(rng){
+  var r=(rng||Math.random)();
+  return Math.floor(r*360)+360*6;
+}
+/*TESTABLE_END*/
+var WH_COLORS=["#0a423b","#d4af37","#7fb069","#bc4749","#38618c","#f2af29","#6a4c93","#1982c4","#8ac926","#ff595e","#ffca3a","#6a994e"];
+var whSpinning=false, whRotation=0;
+function whDraw(){
+  var names=wheelNames(document.getElementById('whNames').value);
+  var cv=document.getElementById('whCanvas'), ctx=cv.getContext('2d');
+  var cx=210,cy=210,R=200; ctx.clearRect(0,0,420,420);
+  if(names.length<1){return;}
+  var seg=2*Math.PI/names.length;
+  var rot=whRotation*Math.PI/180;
+  for(var i=0;i<names.length;i++){
+    var a0=rot+i*seg, a1=a0+seg;
+    ctx.beginPath(); ctx.moveTo(cx,cy); ctx.arc(cx,cy,R,a0,a1); ctx.closePath();
+    ctx.fillStyle=WH_COLORS[i%WH_COLORS.length]; ctx.fill();
+    ctx.strokeStyle="#ffffff"; ctx.lineWidth=2; ctx.stroke();
+    ctx.save(); ctx.translate(cx,cy); ctx.rotate(a0+seg/2);
+    ctx.textAlign="right"; ctx.fillStyle="#fff"; ctx.font="bold 15px Arial";
+    var label=names[i].length>16?names[i].slice(0,15)+"…":names[i];
+    ctx.fillText(label,R-12,5); ctx.restore();
+  }
+  ctx.beginPath(); ctx.arc(cx,cy,34,0,2*Math.PI); ctx.fillStyle="#062e2a"; ctx.fill();
+  ctx.fillStyle="#d4af37"; ctx.font="bold 13px Arial"; ctx.textAlign="center"; ctx.fillText("SPIN",cx,cy+4);
+  ctx.beginPath(); ctx.moveTo(cx-14,2); ctx.lineTo(cx+14,2); ctx.lineTo(cx,26); ctx.closePath();
+  ctx.fillStyle="#bc4749"; ctx.fill();
+}
+document.getElementById('whNames').addEventListener('input',function(){if(!whSpinning)whDraw();});
+document.getElementById('whForm').addEventListener('submit',function(e){e.preventDefault();
+  if(whSpinning) return;
+  var names=wheelNames(document.getElementById('whNames').value);
+  var box=document.getElementById('whResult');
+  if(names.length<2){box.style.display='block';box.innerHTML='<p class="err">請至少新增 2 個名字，每行一個。</p>';return;}
+  whSpinning=true; box.style.display='none';
+  var start=whRotation, delta=wheelRandomRotation(function(){var a=new Uint32Array(1);crypto.getRandomValues(a);return a[0]/4294967296;});
+  var target=start+delta, t0=null, dur=4200;
+  function frame(ts){
+    if(!t0)t0=ts; var p=Math.min((ts-t0)/dur,1);
+    var ease=1-Math.pow(1-p,3);
+    whRotation=start+(target-start)*ease; whDraw();
+    if(p<1){requestAnimationFrame(frame);} else {
+      whRotation=target; whDraw(); whSpinning=false;
+      var w=names[wheelWinnerIndex(whRotation,names.length)];
+      box.style.display='block';
+      box.innerHTML='<div class="resbig"><span>獲勝者</span><strong>'+w.replace(/</g,"&lt;")+'</strong></div><p class="resnote">每個名字在這次旋轉中都有 1 / '+names.length+' 的機會。</p>';
+    }
+  }
+  requestAnimationFrame(frame);
+});
+whDraw();
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' 安裝應用';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('安裝此應用：點選分享按鈕，然後選擇“新增到主螢幕”。');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>德國抵押貸款計算器 — 年金與 Tilgung | Loona</title>
+<meta name="description" content="免費德國抵押貸款 (Baufinanzierung) 計算器（歐元）：根據利率和初始 Tilgung 計算的每月年金，固定期後的剩餘債務。">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/zh-hant/germany-mortgage-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/germany-mortgage-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/germany-mortgage-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/germany-mortgage-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/germany-mortgage-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/germany-mortgage-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/germany-mortgage-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/germany-mortgage-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/germany-mortgage-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/germany-mortgage-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/germany-mortgage-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/germany-mortgage-calculator/"><link rel="alternate" hreflang="zh" href="https://loonaautomation.github.io/loona-calculators/zh/germany-mortgage-calculator/"><link rel="alternate" hreflang="zh-Hant" href="https://loonaautomation.github.io/loona-calculators/zh-hant/germany-mortgage-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/germany-mortgage-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="德國抵押貸款計算器 — 年金與 Tilgung | Loona">
+<meta property="og:description" content="免費德國抵押貸款 (Baufinanzierung) 計算器（歐元）：根據利率和初始 Tilgung 計算的每月年金，固定期後的剩餘債務。">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/zh-hant/germany-mortgage-calculator/"><meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="德國抵押貸款計算器 — 年金與 Tilgung | Loona">
+<meta name="twitter:description" content="免費德國抵押貸款 (Baufinanzierung) 計算器（歐元）：根據利率和初始 Tilgung 計算的每月年金，固定期後的剩餘債務。">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona 德國按揭計算器","url":"https://loonaautomation.github.io/loona-calculators/zh-hant/germany-mortgage-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"什麼是 Tilgung？","acceptedAnswer":{"@type":"Answer","text":"Tilgung 是您年金中的還款部分，以每年原始貸款的百分比表示。2% 的 Tilgung（貸款為 €300,000）時，您最初每年償還 €6,000 的本金——但因為年金保持固定而利息下降，還款份額每月增長，因此貸款清除得比百分比暗示的更快。"}},{"@type":"Question","name":"什麼是年金（Annuität）？","acceptedAnswer":{"@type":"Answer","text":"恆定的年度付款：（利率 + Tilgung）× 原始貸款金額。在 €300,000 上，利率 3.5% + 2%，年金為 5.5% × €300,000 = 每年 €16,500，或每月 €1,375。在該固定付款內部，組合從開始時以利息為主轉變為結束時以還款為主。"}},{"@type":"Question","name":"Zinsbindung 結束時會發生什麼？","acceptedAnswer":{"@type":"Answer","text":"利率僅在所選期間內固定（通常為 10 年）。之後，剩餘債務 (Restschuld) 必須再融資——透過與同一家或新銀行的 Anschlussfinanzierung，按未來那一天的利率。更高的 Tilgung 意味著更少的剩餘債務和更少的未來利率上漲風險。"}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/zh-hant/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "德國抵押貸款計算器",
+      "item": "https://loonaautomation.github.io/loona-calculators/zh-hant/germany-mortgage-calculator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation 標誌">
+<div class="brand">Loona <span>計算器</span></div>
+<nav>
+<a href="../">首頁</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">關於</a>
+<a href="../contact.html">聯絡</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › 金錢與金融 › 德國抵押貸款計算器</div>
+<h1 class="pagetitle">🇩🇪 德國抵押貸款計算器</h1>
+<p class="lead">德國抵押貸款的運作方式不同：您將利率固定 5–30 年，並選擇一個初始還款率 (Tilgung)；每月年金保持恆定，而利息份額縮小。本計算器顯示您的年金、固定期間支付的利息，以及您需要再融資的剩餘債務 (Restschuld)。</p>
+<div class="toolbox"><form class="calcform" id="deForm">
+<div class="fld"><label for="deAmount">貸款金額 (€)</label><input type="number" id="deAmount" value="300000" step="any" min="0"></div>
+<div class="fld"><label for="deRate">利率 — Sollzins（每年 %）</label><input type="number" id="deRate" value="3.5" step="any" min="0"></div>
+<div class="fld"><label for="deTilgung">初始還款 — anfängliche Tilgung（每年 %）</label><input type="number" id="deTilgung" value="2" step="any" min="0.1"></div>
+<div class="fld"><label for="deYears">固定利率期 — Zinsbindung（年）</label><input type="number" id="deYears" value="10" step="1" min="1" max="30"></div>
+<button class="calcbtn" type="submit">計算年金</button>
+<div class="calcresult" id="deResult" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>如何使用 Germany Mortgage Calculator</h2><ol><li>輸入以歐元為單位的貸款金額（Kaufpreis 減去您的自有資金/Eigenkapital）。</li><li>輸入銀行報價中的利率（Sollzins）。</li><li>輸入初始 Tilgung——2% 是常見的起點——以及固定利率期（Zinsbindung），然後按計算。</li></ol>
+<div class="exbox"><strong>示例：</strong> 一筆 €300,000 的貸款，利率 3.5%，初始 Tilgung 為 2%，年年金為 €16,500.00—— <strong>€1,375.00</strong> 每月。10年固定期結束後，還剩€228,283.74的債務需要再融資。</div>
+<h2>常見問題</h2></section><div class="faq"><h3>什麼是 Tilgung？</h3><p>Tilgung 是您年金中的還款部分，以每年原始貸款的百分比表示。2% 的 Tilgung（貸款為 €300,000）時，您最初每年償還 €6,000 的本金——但因為年金保持固定而利息下降，還款份額每月增長，因此貸款清除得比百分比暗示的更快。</p></div><div class="faq"><h3>什麼是年金（Annuität）？</h3><p>恆定的年度付款：（利率 + Tilgung）× 原始貸款金額。在 €300,000 上，利率 3.5% + 2%，年金為 5.5% × €300,000 = 每年 €16,500，或每月 €1,375。在該固定付款內部，組合從開始時以利息為主轉變為結束時以還款為主。</p></div><div class="faq"><h3>Zinsbindung 結束時會發生什麼？</h3><p>利率僅在所選期間內固定（通常為 10 年）。之後，剩餘債務 (Restschuld) 必須再融資——透過與同一家或新銀行的 Anschlussfinanzierung，按未來那一天的利率。更高的 Tilgung 意味著更少的剩餘債務和更少的未來利率上漲風險。</p></div>
+<h2 class="sec">相關計算器</h2><div class="grid"><a class="card" href="../uk-mortgage-calculator/"><div class="ic">🇬🇧</div><h3>英國抵押貸款計算器</h3><p>金錢與金融</p></a><a class="card" href="../canada-mortgage-calculator/"><div class="ic">🇨🇦</div><h3>加拿大抵押貸款計算器</h3><p>金錢與金融</p></a><a class="card" href="../australia-mortgage-calculator/"><div class="ic">🇦🇺</div><h3>澳大利亞抵押貸款計算器</h3><p>金錢與金融</p></a><a class="card" href="../mortgage-calculator/"><div class="ic">🏠</div><h3>按揭計算器</h3><p>金錢與金融</p></a><a class="card" href="../loan-calculator/"><div class="ic">💳</div><h3>貸款計算器</h3><p>金錢與金融</p></a><a class="card" href="../emi-calculator/"><div class="ic">🏦</div><h3>EMI 與貸款計算器</h3><p>金錢與金融</p></a></div>
+</div>
+<section class="txt"><h2>工作原理——公式</h2>
+<p>德國年金貸款 (Annuitätendarlehen) 保持還款恆定：</p>
+<p><strong>年年金 = 貸款 ×（利率 + Tilgung）÷ 100</strong> &nbsp;·&nbsp; 每月付款額 = 年金 ÷ 12</p>
+<p>每月按當前餘額以（利率 ÷ 12）收取利息；固定還款的其餘部分償還本金。本計算器模擬固定期內的所有月份，以得出利息總額和 Restschuld，並繼續同樣的模擬來預測全部還清所需時間。</p>
+<h3>示例</h3>
+<div class="exbox"><strong>示例：</strong> €300,000，利率3.5%，Tilgung為2%。年金 = 300,000 × 5.5% = <strong>€16,500/year = €1,375.00/month</strong>。第一個月：利息 = 300,000 × 3.5% ÷ 12 = €875，還款 = 1,375 − 875 = €500。120 個月後，剩餘債務為 <strong>€228,283.74</strong> 且固定期內支付的總利息為€93,283.74。</div>
+<h3>常見問題</h3></section><div class="faq"><h3>Tilgung（本金償還額）應該多高？</h3><p>Tilgung 越高 = 債務消失得越快，總利息也少得多，但每月還款更高。一個常見的經驗法則是至少 2%，並且足以在退休前還清貸款。使用本計算器顯示的預計完整期限來測試不同的值——從 1% 提高到 2% 通常會縮短許多年。</p></div><div class="faq"><h3>什麼是 Sondertilgung？</h3><p>許多德國合同允許計劃外額外還款（Sondertilgung），通常每年高達貸款的 5% 且不收費。額外還款減少固定期結束時的剩餘債務；它們通常不改變每月年金。</p></div><div class="faq"><h3>這構成財務建議嗎？</h3><p>不是——這是一個德國年金風格的免費教育計算器。德國按揭報價還涉及有效利率（effektiver Jahreszins）、費用和房產轉讓稅（Grunderwerbsteuer），這些不在本計算範圍內；請比較完整的報價並考慮獨立建議。</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">將此計算器嵌入您的網站——免費</h2>
+<p style="margin:0 0 12px;line-height:1.6">將本計算器新增到你自己的網站或部落格——完全免費，無需註冊，並且始終顯示最新版本。複製下面的程式碼，貼上到你希望計算器出現的頁面位置。在嵌入下方保留小小的 &ldquo;Powered by Loona Automation&rdquo; 署名行有助於保持本工具免費——但你可以自由設定樣式或將其移除；無論哪種方式工具都能工作。</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/zh-hant/germany-mortgage-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Germany Mortgage Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;技術支援： &lt;a href="https://loonaautomation.github.io/loona-calculators/zh-hant/germany-mortgage-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 免費 德國抵押貸款計算器&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">複製嵌入程式碼</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='複製嵌入程式碼';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>熱門計算器</h4><ul><li><a href="../age-calculator/">年齡計算器</a></li>
+<li><a href="../zakat-calculator/">天課計算器</a></li>
+<li><a href="../cgpa-calculator/">CGPA 計算器</a></li>
+<li><a href="../percentage-calculator/">百分比計算器</a></li>
+<li><a href="../hijri-date-converter/">伊斯蘭曆日期轉換器</a></li>
+<li><a href="../emi-calculator/">EMI 與貸款計算器</a></li></ul></div>
+<div><h4>更多 Loona 工具</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona 圖片壓縮工具</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI 助手</a></li>
+<li><a href="https://loonaautomation.github.io/">所有 Loona 工具</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">關於</a></li>
+<li><a href="../contact.html">聯絡</a></li>
+<li><a href="../privacy-policy.html">隱私政策</a></li>
+<li><a href="../terms.html">使用條款</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators —— 一個 <a href="https://loonaautomation.github.io/">Loona Automation</a> 專案。免費線上計算器，無需註冊。
+聯絡方式： <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+function amortize(principal, monthlyRate, months, extraMonthly) {
+  var bal = principal, totalInterest = 0, m = 0;
+  var base;
+  if (monthlyRate === 0) base = principal / months;
+  else base = principal * monthlyRate / (1 - Math.pow(1 + monthlyRate, -months));
+  while (bal > 0.005 && m < months + 1200) {
+    var interest = bal * monthlyRate;
+    var pay = base + (extraMonthly || 0);
+    var princ = pay - interest;
+    if (princ <= 0) break;
+    if (princ > bal) princ = bal;
+    bal -= princ; totalInterest += interest; m++;
+  }
+  return { payment: base, totalInterest: totalInterest, totalPaid: principal + totalInterest, monthsTaken: m };
+}
+function standardMonthlyRate(annualPct) { return annualPct / 100 / 12; }
+function canadaMonthlyRate(annualPct) { var i = annualPct / 100; return Math.pow(1 + i / 2, 2 / 12) - 1; }
+function germanPlan(principal, ratePct, tilgungPct, fixedYears) {
+  var monthlyRate = ratePct / 100 / 12;
+  var annualAnnuity = principal * (ratePct + tilgungPct) / 100;
+  var monthly = annualAnnuity / 12;
+  var bal = principal, interestPaid = 0, months = Math.round(fixedYears * 12);
+  for (var k = 0; k < months; k++) {
+    var i = bal * monthlyRate;
+    bal -= (monthly - i);
+    interestPaid += i;
+  }
+  return { annualAnnuity: annualAnnuity, monthlyPayment: monthly, remaining: bal, interestPaid: interestPaid, principalPaid: principal - bal };
+}
+function germanFullTermMonths(principal, ratePct, tilgungPct) {
+  var monthlyRate = ratePct / 100 / 12;
+  var monthly = principal * (ratePct + tilgungPct) / 100 / 12;
+  var bal = principal, m = 0;
+  while (bal > 0.005 && m < 1200) { bal -= (monthly - bal * monthlyRate); m++; }
+  return m;
+}
+/*TESTABLE_END*/
+
+function deMoney(x) { return new Intl.NumberFormat('en-IE', { style: 'currency', currency: 'EUR' }).format(x); }
+function deRun() {
+  var box = document.getElementById('deResult');
+  var P = parseFloat(document.getElementById('deAmount').value);
+  var rate = parseFloat(document.getElementById('deRate').value);
+  var tilg = parseFloat(document.getElementById('deTilgung').value);
+  var years = parseFloat(document.getElementById('deYears').value);
+  try {
+    if (isNaN(P) || isNaN(rate) || isNaN(tilg) || isNaN(years) || P <= 0 || tilg <= 0 || years < 1) throw new Error("請輸入有效的金額、利率、Tilgung 和固定期。");
+    var plan = germanPlan(P, rate, tilg, years);
+    var full = germanFullTermMonths(P, rate, tilg);
+    box.style.display = 'block';
+    box.innerHTML = '<div class="resbig"><span>每月還款（Annuität）</span><strong>' + deMoney(plan.monthlyPayment) + '</strong></div>' +
+      '<table class="restbl">' +
+      '<tr><td>年年金（利息 + Tilgung）</td><td><strong>' + deMoney(plan.annualAnnuity) + '</strong></td></tr>' +
+      '<tr><td>在以下期間支付的利息 ' + years + ' 年固定期內</td><td><strong>' + deMoney(plan.interestPaid) + '</strong></td></tr>' +
+      '<tr><td>固定期內償還的本金</td><td><strong>' + deMoney(plan.principalPaid) + '</strong></td></tr>' +
+      '<tr><td>剩餘債務（Restschuld），在 ' + years + ' 年後</td><td><strong>' + deMoney(plan.remaining) + '</strong></td></tr>' +
+      '<tr><td>全部還清時間（同一年金，預計）</td><td><strong>' + Math.floor(full / 12) + ' 年 ' + (full % 12) + ' 個月</strong></td></tr></table>' +
+      '<p class="resnote">固定期結束後，剩餘債務將按當時的利率再融資（Anschlussfinanzierung）— 該預測只是展示同一年金繼續下去會發生什麼。</p>';
+  } catch (e) {
+    box.style.display = 'block';
+    box.innerHTML = '<p class="err">' + e.message + '</p>';
+  }
+}
+document.getElementById('deForm').addEventListener('submit', function (e) { e.preventDefault(); deRun(); });
+deRun();
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' 安裝應用';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('安裝此應用：點選分享按鈕，然後選擇“新增到主螢幕”。');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

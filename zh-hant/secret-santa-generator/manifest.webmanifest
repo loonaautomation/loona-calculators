@@ -1,0 +1,29 @@
+{
+  "name": "Loona 秘密聖誕老人生成器",
+  "short_name": "秘密聖誕老人生成器",
+  "description": "免費秘密聖誕老人生成器：新增名字，設定排除組合（情侶、去年的配對），秘密抽籤，然後每個人只揭曉自己的配對。私密，在瀏覽器內。",
+  "id": "/loona-calculators/zh-hant/secret-santa-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

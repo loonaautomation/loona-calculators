@@ -1,0 +1,29 @@
+{
+  "name": "Loona 線性迴歸計算器",
+  "short_name": "線性迴歸計算器",
+  "description": "免費線性迴歸計算器：貼上成對資料，獲得最小二乘線 y = a + bx、相關性、預測，以及繪製了擬合線的散點圖。",
+  "id": "/loona-calculators/zh-hant/linear-regression-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

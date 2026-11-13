@@ -1,0 +1,29 @@
+{
+  "name": "Loona 鞋碼轉換器",
+  "short_name": "鞋碼轉換器",
+  "description": "免費男性和女性鞋碼轉換器：使用標準換算表和最接近匹配，在美國、英國和歐盟尺碼以及以 cm 和英寸計的腳長之間轉換。",
+  "id": "/loona-calculators/zh-hant/shoe-size-converter/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona EU261 賠償檢查器",
+  "short_name": "EU261 賠償查詢器",
+  "description": "免費 EU261 賠償查詢器：輸入飛行距離和到達延誤，檢視根據 EC 261/2004 您可能獲得的 €250、€400 或 €600，包括 50% 的減額規則。",
+  "id": "/loona-calculators/zh-hant/eu261-compensation-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

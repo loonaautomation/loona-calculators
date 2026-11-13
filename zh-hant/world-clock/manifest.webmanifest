@@ -1,0 +1,29 @@
+{
+  "name": "Loona 世界時鐘",
+  "short_name": "世界時鐘",
+  "description": "免費實時世界時鐘：24 個主要城市（包括倫敦、紐約、迪拜、卡拉奇和東京）的當前當地時間和日期，透過時區每秒更新。",
+  "id": "/loona-calculators/zh-hant/world-clock/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

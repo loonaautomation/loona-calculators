@@ -1,0 +1,29 @@
+{
+  "name": "Loona 出勤計算器",
+  "short_name": "出勤計算器",
+  "description": "免費學生出勤計算器：輸入已舉行的課時和出席的課時，獲得您的出勤百分比、您可以缺席多少節課，或您必須出席多少節課才能達到目標。",
+  "id": "/loona-calculators/zh-hant/attendance-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

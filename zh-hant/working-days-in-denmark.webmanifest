@@ -1,0 +1,29 @@
+{
+  "name": "Loona 丹麥的工作日",
+  "short_name": "丹麥的工作日",
+  "description": "丹麥的工作日計算器：計算兩個日期之間的工作日，除去週末和 2026 年丹麥國家公共假日。免費工具。",
+  "id": "/loona-calculators/zh-hant/working-days-in-denmark.html",
+  "start_url": "./working-days-in-denmark.html",
+  "scope": "./working-days-in-denmark.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

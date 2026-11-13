@@ -1,0 +1,29 @@
+{
+  "name": "Loona 英國按揭計算器",
+  "short_name": "英國抵押貸款計算器",
+  "description": "免費英國抵押貸款計算器（英鎊）：任何貸款、利率和期限下的每月還款、總利息和總成本，還可比較超額還款。",
+  "id": "/loona-calculators/zh-hant/uk-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

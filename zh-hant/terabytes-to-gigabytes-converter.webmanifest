@@ -1,0 +1,29 @@
+{
+  "name": "Loona 太位元組到吉位元組轉換器",
+  "short_name": "太位元組到吉位元組轉換器",
+  "description": "即時將太位元組轉換為吉位元組。提供精確公式、完整的TB 到 GB 換算表、一個計算示例和常見問題。免費，無需註冊。",
+  "id": "/loona-calculators/zh-hant/terabytes-to-gigabytes-converter.html",
+  "start_url": "./terabytes-to-gigabytes-converter.html",
+  "scope": "./terabytes-to-gigabytes-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

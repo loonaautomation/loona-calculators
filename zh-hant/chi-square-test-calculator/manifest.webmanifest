@@ -1,0 +1,29 @@
+{
+  "name": "Loona 卡方檢驗計算器",
+  "short_name": "卡方檢驗計算器",
+  "description": "免費卡方檢驗計算器：輸入觀測表進行獨立性檢驗，或輸入觀測計數與期望計數進行擬合優度檢驗。卡方、df 和 p 值。",
+  "id": "/loona-calculators/zh-hant/chi-square-test-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

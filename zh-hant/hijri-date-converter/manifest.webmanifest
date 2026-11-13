@@ -1,0 +1,29 @@
+{
+  "name": "Loona 伊斯蘭曆日期轉換器",
+  "short_name": "伊斯蘭曆日期轉換器",
+  "description": "免費伊斯蘭曆日期轉換器：使用烏姆庫拉歷，將任何公曆（英語）日期轉換為伊斯蘭曆日期並轉回。齋月、開齋節和伊斯蘭日期查詢變得簡單。",
+  "id": "/loona-calculators/zh-hant/hijri-date-converter/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

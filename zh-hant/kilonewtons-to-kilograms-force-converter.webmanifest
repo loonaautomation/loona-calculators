@@ -1,0 +1,29 @@
+{
+  "name": "Loona 千牛到千克力轉換器",
+  "short_name": "千牛到千克力",
+  "description": "即時將千牛轉換為千克力。提供精確公式、完整的kN 到 kgf 換算表、一個計算示例和常見問題。免費，無需註冊。",
+  "id": "/loona-calculators/zh-hant/kilonewtons-to-kilograms-force-converter.html",
+  "start_url": "./kilonewtons-to-kilograms-force-converter.html",
+  "scope": "./kilonewtons-to-kilograms-force-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona 烹飪換算計算器",
+  "short_name": "烹飪換算計算器",
+  "description": "免費烹飪換算計算器：使用真實密度，為 10 種常見配料轉換杯、勺、毫升、克、盎司和磅——麵粉、糖、黃油、蜂蜜等。",
+  "id": "/loona-calculators/zh-hant/cooking-conversion-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

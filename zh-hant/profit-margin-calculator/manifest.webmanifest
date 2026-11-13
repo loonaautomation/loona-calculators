@@ -1,0 +1,29 @@
+{
+  "name": "Loona 利潤率計算器",
+  "short_name": "利潤率計算器",
+  "description": "免費利潤率計算器：輸入成本價和售價，立即獲得利潤、利潤率百分比和加價率百分比。適用於商店和線上賣家。",
+  "id": "/loona-calculators/zh-hant/profit-margin-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

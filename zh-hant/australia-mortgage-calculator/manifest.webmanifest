@@ -1,0 +1,29 @@
+{
+  "name": "Loona 澳大利亞按揭計算器",
+  "short_name": "澳大利亞抵押貸款計算器",
+  "description": "免費澳大利亞住房貸款計算器（AUD）：每月還款、總利息和總成本，還可比較額外還款以便更早還清。",
+  "id": "/loona-calculators/zh-hant/australia-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

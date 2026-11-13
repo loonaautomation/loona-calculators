@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ETIAS 資格檢查器 — 您需要 ETIAS、簽證，還是都不需要？| Loona</title>
+<meta name="description" content="免費 ETIAS 資格查詢器：選擇您的國籍和旅行情況，檢視您在歐洲短期旅行時是否需要 ETIAS、申根簽證或無需授權。">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/zh-hant/etias-eligibility-checker/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/etias-eligibility-checker/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/etias-eligibility-checker/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/etias-eligibility-checker/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/etias-eligibility-checker/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/etias-eligibility-checker/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/etias-eligibility-checker/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/etias-eligibility-checker/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/etias-eligibility-checker/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/etias-eligibility-checker/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/etias-eligibility-checker/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/etias-eligibility-checker/"><link rel="alternate" hreflang="zh" href="https://loonaautomation.github.io/loona-calculators/zh/etias-eligibility-checker/"><link rel="alternate" hreflang="zh-Hant" href="https://loonaautomation.github.io/loona-calculators/zh-hant/etias-eligibility-checker/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/etias-eligibility-checker/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="ETIAS 資格檢查器 — 您需要 ETIAS、簽證，還是都不需要？| Loona">
+<meta property="og:description" content="免費 ETIAS 資格查詢器：選擇您的國籍和旅行情況，檢視您在歐洲短期旅行時是否需要 ETIAS、申根簽證或無需授權。">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/zh-hant/etias-eligibility-checker/"><meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ETIAS 資格檢查器 — 您需要 ETIAS、簽證，還是都不需要？| Loona">
+<meta name="twitter:description" content="免費 ETIAS 資格查詢器：選擇您的國籍和旅行情況，檢視您在歐洲短期旅行時是否需要 ETIAS、申根簽證或無需授權。">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona ETIAS 資格檢查器","url":"https://loonaautomation.github.io/loona-calculators/zh-hant/etias-eligibility-checker/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"用一句話說，什麼是 ETIAS？","acceptedAnswer":{"@type":"Answer","text":"ETIAS 是歐盟計劃推出的旅行前授權，適用於免籤進入申根區的訪客——其性質與美國的 ESTA 類似——與您的護照繫結，並在出行前進行核查。"}},{"@type":"Question","name":"ETIAS 何時開始，費用多少？","acceptedAnswer":{"@type":"Answer","text":"歐盟已分階段推出，公共來源在不同時間引用了不同的日期和數字，因此本頁特意不列印開始日期或費用。在依賴任何一項之前，請在 europa.eu 上檢視歐盟 ETIAS 官方頁面以獲取當前日期和費用。"}},{"@type":"Question","name":"ETIAS 會取代 90/180 天規則嗎？","acceptedAnswer":{"@type":"Answer","text":"不是。ETIAS 是旅行授權；90 天（任何 180 天內）的停留限制仍然決定您可以停留多久。請使用本站的 Schengen 90/180 Calculator 來規劃天數本身。"}},{"@type":"Question","name":"我持有居留許可或長期停留簽證——這適用於我嗎？","acceptedAnswer":{"@type":"Answer","text":"一般不會：居民和長期簽證持有者遵循其許可證的規則，而不是短期停留授權系統。本查詢器僅涵蓋短期旅遊和商務訪問。"}},{"@type":"Question","name":"這構成法律或移民建議嗎？","acceptedAnswer":{"@type":"Answer","text":"不是——僅為一般指導。入境決定由邊境當局作出，您的確切情況取決於您的檔案。請向官方來源確認。"}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/zh-hant/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "ETIAS 資格檢查器",
+      "item": "https://loonaautomation.github.io/loona-calculators/zh-hant/etias-eligibility-checker/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation 標誌">
+<div class="brand">Loona <span>計算器</span></div>
+<nav>
+<a href="../">首頁</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">關於</a>
+<a href="../contact.html">聯絡</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › 金錢與旅行 › ETIAS資格檢查器</div>
+<h1 class="pagetitle">🛂 ETIAS資格檢查器</h1>
+<p class="lead">回答三個問題——你的國籍群體、你要去哪裡、停留多久——以檢視哪種旅行授權適用於你在申根地區的短期停留：無（EU/EEA/瑞士公民）、ETIAS（免籤訪客，系統上線後），或提前申請的申根簽證。</p>
+<div class="exbox"><strong>快速答案：</strong> 歐盟/歐洲經濟區和瑞士公民無需授權。來自免籤國家的訪客（例如美國、英國、加拿大、澳大利亞和日本）可免籤旅行，ETIAS 啟用後將需要 ETIAS 授權。大多數其他國籍的人——包括巴基斯坦和印度——在旅行前需要申根簽證。</div>
+<div class="toolbox"><form class="calcform" id="etForm">
+<div class="fld"><label for="etNat">你的護照</label><select id="etNat"><option value="eu">歐盟 / 歐洲經濟區國家或瑞士</option><option value="exempt" selected>免簽證國家（如美國、英國、加拿大、澳大利亞、日本、阿聯酋、巴西）</option><option value="visa">需要簽證的國家（如巴基斯坦、印度、中國、埃及、奈及利亞、孟加拉國）</option><option value="resident">我持有歐盟居留許可/長期停留簽證</option></select></div>
+<div class="fld"><label for="etDest">目的地</label><select id="etDest"><option value="schengen">一個申根國家（例如法國、德國、西班牙、義大利）</option><option value="ireland">愛爾蘭（不在申根區）</option></select></div>
+<div class="fld"><label for="etDays">計劃停留時間（天）</label><input type="number" id="etDays" value="10" min="1" max="365"></div>
+<button class="calcbtn" type="submit">檢視我需要多少</button>
+<div class="calcresult" id="etResult" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>如何使用 ETIAS Eligibility Checker</h2><ol><li>選擇您的護照所屬的組別。</li><li>選擇您的旅行目的地和時長。</li><li>讀取哪種授權適用——並且在預訂前務必在歐盟或國家官方網站上確認。</li></ol>
+<div class="exbox"><strong>示例：</strong> 一名訪問法國 10 天的美國公民：現今免籤，系統啟動後屬於 ETIAS 群體。一名訪問法國 10 天的巴基斯坦公民：需要提前辦理申根短期簽證。一名訪問法國的德國公民：完全不需要任何授權。</div>
+<h2>常見問題</h2></section><div class="faq"><h3>用一句話說，什麼是 ETIAS？</h3><p>ETIAS 是歐盟計劃推出的旅行前授權，適用於免籤進入申根區的訪客——其性質與美國的 ESTA 類似——與您的護照繫結，並在出行前進行核查。</p></div><div class="faq"><h3>ETIAS 何時開始，費用多少？</h3><p>歐盟已分階段推出，公共來源在不同時間引用了不同的日期和數字，因此本頁特意不列印開始日期或費用。在依賴任何一項之前，請在 europa.eu 上檢視歐盟 ETIAS 官方頁面以獲取當前日期和費用。</p></div><div class="faq"><h3>ETIAS 會取代 90/180 天規則嗎？</h3><p>不是。ETIAS 是旅行授權；90 天（任何 180 天內）的停留限制仍然決定您可以停留多久。請使用本站的 Schengen 90/180 Calculator 來規劃天數本身。</p></div><div class="faq"><h3>我持有居留許可或長期停留簽證——這適用於我嗎？</h3><p>一般不會：居民和長期簽證持有者遵循其許可證的規則，而不是短期停留授權系統。本查詢器僅涵蓋短期旅遊和商務訪問。</p></div><div class="faq"><h3>這構成法律或移民建議嗎？</h3><p>不是——僅為一般指導。入境決定由邊境當局作出，您的確切情況取決於您的檔案。請向官方來源確認。</p></div>
+<h2 class="sec">相關計算器</h2><div class="grid"><a class="card" href="../schengen-calculator/"><div class="ic">🇪🇺</div><h3>申根 90/180 計算器</h3><p>日期與時間</p></a><a class="card" href="../eu261-compensation-calculator/"><div class="ic">✈️</div><h3>EU261 賠償查詢器</h3><p>金錢與旅行</p></a></div>
+</div>
+<section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>工作原理 — 公式</h2>
+<p>該邏輯遵循歐盟的短期停留框架： <strong>歐盟/歐洲經濟區/瑞士公民</strong> 行使自由流動權——無需授權。 <strong>免簽證國民</strong> (歐盟附件 II 名單，包括美國、英國、加拿大、澳大利亞、日本、阿聯酋、巴西等）可免籤進入作短期停留，他們正是 ETIAS 正在為之建設的群體。 <strong>需要簽證的國民</strong> (附件 I，包括巴基斯坦、印度、中國、埃及、奈及利亞和孟加拉國）在旅行前必須持有申根簽證。超過 90 天的停留不在兩種短期停留途徑的覆蓋範圍內——需要國家長期簽證或居留許可。愛爾蘭不在申根區內，實行自己的規則。</p>
+<h3>示例</h3><div class="exbox"><p><strong>情形 1：</strong> 美國護照，法國，10 天 → 免簽證組 → 無需簽證即可今天旅行；系統上線後將需要 ETIAS 授權；停留必須符合 90/180 限制。</p><p><strong>情形 2：</strong> 巴基斯坦護照，法國，10 天 → 需簽證組 → 出行前在領事館/簽證中心申請申根短期簽證。</p><p><strong>情形 3：</strong> 任何護照，法國，120 天 → 超過短期停留上限 → 對每個國籍群體來說，途徑是國家長期簽證或居留許可。</p></div>
+<p class="resnote"><strong>規則核查日期：十一月8日，2026年。</strong> 旅行規則會變——旅行前務必向官方政府或歐盟來源確認。</p>
+</section>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">將此計算器嵌入您的網站——免費</h2>
+<p style="margin:0 0 12px;line-height:1.6">將本計算器新增到你自己的網站或部落格——完全免費，無需註冊，並且始終顯示最新版本。複製下面的程式碼，貼上到你希望計算器出現的頁面位置。在嵌入下方保留小小的 &ldquo;Powered by Loona Automation&rdquo; 署名行有助於保持本工具免費——但你可以自由設定樣式或將其移除；無論哪種方式工具都能工作。</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/zh-hant/etias-eligibility-checker/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="ETIAS Eligibility Checker by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;技術支援： &lt;a href="https://loonaautomation.github.io/loona-calculators/zh-hant/etias-eligibility-checker/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 免費 ETIAS 資格檢查器&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">複製嵌入程式碼</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='複製嵌入程式碼';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>熱門計算器</h4><ul><li><a href="../age-calculator/">年齡計算器</a></li>
+<li><a href="../zakat-calculator/">天課計算器</a></li>
+<li><a href="../cgpa-calculator/">CGPA 計算器</a></li>
+<li><a href="../percentage-calculator/">百分比計算器</a></li>
+<li><a href="../hijri-date-converter/">伊斯蘭曆日期轉換器</a></li>
+<li><a href="../emi-calculator/">EMI 與貸款計算器</a></li></ul></div>
+<div><h4>更多 Loona 工具</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona 圖片壓縮工具</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI 助手</a></li>
+<li><a href="https://loonaautomation.github.io/">所有 Loona 工具</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">關於</a></li>
+<li><a href="../contact.html">聯絡</a></li>
+<li><a href="../privacy-policy.html">隱私政策</a></li>
+<li><a href="../terms.html">使用條款</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators —— 一個 <a href="https://loonaautomation.github.io/">Loona Automation</a> 專案。免費線上計算器，無需註冊。
+聯絡方式： <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+function etiasCheck(nat,dest,days){
+  if(days>90)return {code:"longstay",text:"超過 90 天的停留需要國家長期簽證或居留許可 — 短期途徑（免籤旅行、ETIAS、申根短期簽證）從不涵蓋這類停留。"};
+  if(dest==="ireland")return {code:"ireland",text:"愛爾蘭不在申根區，也不屬於 ETIAS。愛爾蘭有自己的簽證系統 — 請檢視愛爾蘭移民局（如果您是英國或愛爾蘭公民，請注意英愛共同旅行區）。"};
+  if(nat==="eu")return {code:"none",text:"無需授權。歐盟/歐洲經濟區和瑞士公民對申根國家享有自由流動權。"};
+  if(nat==="resident")return {code:"resident",text:"您的居留許可/長期簽證決定您的旅行。ETIAS 和短期簽證一般不適用於居民 — 請檢視您許可證的旅行權利。"};
+  if(nat==="exempt")return {code:"etias",text:"您屬於免籤群體：您可以在 90/180 限制內免籤短期旅行，ETIAS 系統上線後您將需要 ETIAS 授權。本頁特意不印費用或開始日期 — 兩者在官方公告中都有變化，請在 europa.eu 上確認當前數字。"};
+  if(nat==="visa")return {code:"visa",text:"您需要申根短期簽證，須提前向主要目的地國家的領事館或官方簽證中心申請。ETIAS 不適用於需要簽證的國民。"};
+  return null;
+}
+/*TESTABLE_END*/
+document.getElementById('etForm').addEventListener('submit',function(e){e.preventDefault();
+ var r=etiasCheck(document.getElementById('etNat').value,document.getElementById('etDest').value,parseInt(document.getElementById('etDays').value,10));
+ var box=document.getElementById('etResult'); box.style.display='block';
+ if(!r){box.innerHTML='<p class="err">請完成全部三個回答。</p>';return;}
+ box.innerHTML='<div class="resbig"><span>您的情況</span><strong>'+r.code.toUpperCase()+'</strong></div><p style="font-size:15.5px">'+r.text+'</p><p class="resnote">僅為指導，不是移民建議。規則核查日期：十一月 8 日，2026 年 — 預訂前請在歐盟/國家官方來源確認。</p>';});
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' 安裝應用';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('安裝此應用：點選分享按鈕，然後選擇“新增到主螢幕”。');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

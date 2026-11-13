@@ -1,0 +1,29 @@
+{
+  "name": "Loona 退休計算器",
+  "short_name": "退休計算器",
+  "description": "免費退休計算器：當前年齡、退休年齡、儲蓄和每月供款——預測您的退休資金總額以及其中有多少是增長。",
+  "id": "/loona-calculators/zh-hant/retirement-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

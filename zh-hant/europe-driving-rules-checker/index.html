@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>歐洲駕駛規則查詢器 — 限速、BAC 與道路行駛方向 | Loona</title>
+<meta name="description" content="免費歐洲駕駛規則查詢器：選擇一個國家，檢視其駕駛方向、高速公路限速、酒駕限制以及對到訪駕駛員的重要當地規則。">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/zh-hant/europe-driving-rules-checker/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/europe-driving-rules-checker/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/europe-driving-rules-checker/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/europe-driving-rules-checker/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/europe-driving-rules-checker/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/europe-driving-rules-checker/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/europe-driving-rules-checker/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/europe-driving-rules-checker/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/europe-driving-rules-checker/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/europe-driving-rules-checker/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/europe-driving-rules-checker/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/europe-driving-rules-checker/"><link rel="alternate" hreflang="zh" href="https://loonaautomation.github.io/loona-calculators/zh/europe-driving-rules-checker/"><link rel="alternate" hreflang="zh-Hant" href="https://loonaautomation.github.io/loona-calculators/zh-hant/europe-driving-rules-checker/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/europe-driving-rules-checker/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="歐洲駕駛規則查詢器 — 限速、BAC 與道路行駛方向 | Loona">
+<meta property="og:description" content="免費歐洲駕駛規則查詢器：選擇一個國家，檢視其駕駛方向、高速公路限速、酒駕限制以及對到訪駕駛員的重要當地規則。">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/zh-hant/europe-driving-rules-checker/"><meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="歐洲駕駛規則查詢器 — 限速、BAC 與道路行駛方向 | Loona">
+<meta name="twitter:description" content="免費歐洲駕駛規則查詢器：選擇一個國家，檢視其駕駛方向、高速公路限速、酒駕限制以及對到訪駕駛員的重要當地規則。">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona 歐洲駕駛規則檢查器","url":"https://loonaautomation.github.io/loona-calculators/zh-hant/europe-driving-rules-checker/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"這些是每個國家的完整法律嗎？","acceptedAnswer":{"@type":"Answer","text":"不是——這是給汽車駕駛者的主要規則旅行者摘要。完整法律包含更多細節（兒童座椅、冬季裝置日期、城市區域、檔案）。當地標誌和警察指示始終優先。"}},{"@type":"Question","name":"為什麼酒駕限制差異如此之大？","acceptedAnswer":{"@type":"Answer","text":"每個國家自行設定：波蘭為 0.02%，西歐大部分地區為 0.05%，英格蘭和威爾士為 0.08%。各地的安全準則都很簡單：開車就完全不要飲酒。"}},{"@type":"Question","name":"雨天或新手司機的限速會變化嗎？","acceptedAnswer":{"@type":"Answer","text":"通常是的——法國和義大利在雨天降低高速公路限速，幾個國家對新手司機施加更低的限速。檢查器註明主要情況；請遵循標誌。"}},{"@type":"Question","name":"來訪司機應攜帶什麼檔案？","acceptedAnswer":{"@type":"Answer","text":"護照/身份證、駕駛執照（在需要時加上國際駕駛許可證）、車輛登記和保險檔案，以及該路線的任何 vignette 或通行費賬戶。"}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/zh-hant/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "歐洲駕駛規則查詢器",
+      "item": "https://loonaautomation.github.io/loona-calculators/zh-hant/europe-driving-rules-checker/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation 標誌">
+<div class="brand">Loona <span>計算器</span></div>
+<nav>
+<a href="../">首頁</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">關於</a>
+<a href="../contact.html">聯絡</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › 金錢與旅行 › 歐洲駕駛規則檢查器</div>
+<h1 class="pagetitle">🚗 歐洲駕駛規則檢查器</h1>
+<p class="lead">選擇一個歐洲國家，檢視外來駕駛者的要點：道路的哪一側行駛、汽車的高速公路限速、酒駕限制，以及最常讓遊客措手不及的當地規則。</p>
+<div class="exbox"><strong>快速答案：</strong> 歐洲大部分地區靠右行駛，高速公路限速 120–130 km/h，酒駕限制為 0.05%。主要例外：英國和愛爾蘭靠左行駛，德國有不限速的高速公路路段，波蘭的酒駕限制嚴格為 0.02%。</div>
+<div class="toolbox"><form class="calcform" id="drForm">
+<div class="fld"><label for="drCountry">在以下地區駕駛</label><select id="drCountry"></select></div>
+<button class="calcbtn" type="submit">顯示駕駛規則</button>
+<div class="calcresult" id="drResult" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>如何使用 Europe Driving Rules Checker</h2><ol><li>選擇您將駕車的國家。</li><li>讀取駕駛側、高速公路限速和酒精限量。</li><li>出發前請注意針對具體國家的警告——並始終遵循當地標誌，它們優先於任何指南。</li></ol>
+<div class="exbox"><strong>示例：</strong> 在波蘭駕駛：右側通行，高速公路限速 140 km/h（歐洲最高），嚴格的 0.02% 酒精限值，並且全年全天都必須開車燈。</div>
+<h2>常見問題</h2></section><div class="faq"><h3>這些是每個國家的完整法律嗎？</h3><p>不是——這是給汽車駕駛者的主要規則旅行者摘要。完整法律包含更多細節（兒童座椅、冬季裝置日期、城市區域、檔案）。當地標誌和警察指示始終優先。</p></div><div class="faq"><h3>為什麼酒駕限制差異如此之大？</h3><p>每個國家自行設定：波蘭為 0.02%，西歐大部分地區為 0.05%，英格蘭和威爾士為 0.08%。各地的安全準則都很簡單：開車就完全不要飲酒。</p></div><div class="faq"><h3>雨天或新手司機的限速會變化嗎？</h3><p>通常是的——法國和義大利在雨天降低高速公路限速，幾個國家對新手司機施加更低的限速。檢查器註明主要情況；請遵循標誌。</p></div><div class="faq"><h3>來訪司機應攜帶什麼檔案？</h3><p>護照/身份證、駕駛執照（在需要時加上國際駕駛許可證）、車輛登記和保險檔案，以及該路線的任何 vignette 或通行費賬戶。</p></div>
+<h2 class="sec">相關計算器</h2><div class="grid"><a class="card" href="../vignette-checker/"><div class="ic">🎫</div><h3>高速公路 vignette 檢查器</h3><p>金錢與旅行</p></a><a class="card" href="../europe-plug-voltage-checker/"><div class="ic">🔌</div><h3>歐洲插頭與電壓查詢器</h3><p>金錢與旅行</p></a><a class="card" href="../etias-eligibility-checker/"><div class="ic">🛂</div><h3>ETIAS 資格檢查器</h3><p>金錢與旅行</p></a></div>
+</div>
+<section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>工作原理 — 公式</h2>
+<p>一份精選參考查詢，由各國道路安全主管部門為外來駕駛者釋出的摘要彙編而成：駕駛方向、良好天氣下汽車的標準高速公路限速、一般的酒駕 (BAC) 限制，以及每個國家一兩個高頻的遊客陷阱。它是一個入門簡報，而不是法律本身。</p>
+<h3>示例</h3><div class="exbox"><p><strong>情形：</strong> 一位開車去法國的英國司機。</p><p><strong>核對：</strong> 駕駛側從左側翻轉為 <strong>右</strong>。高速公路限速 130 km/h（雨天 110），而不是 70 mph。BAC 限值從 0.08% 降至 <strong>0.05%</strong>。額外物品：駕駛艙內的高可見度背心、大燈光束調整，以及進入覆蓋城市時所需的 Crit'Air 貼紙。</p><p><strong>結果：</strong> 在乘渡輪前要準備的四個具體變化——正是本查詢器按國家總結的內容。</p></div>
+<p class="resnote"><strong>規則核查日期：十一月8日，2026年。</strong> 旅行規則會變——旅行前務必向官方政府或歐盟來源確認。</p><p class="resnote">僅面向自駕遊客的摘要——不是法律建議。當地標誌和現行國家法律優先於本指南。</p>
+</section>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">將此計算器嵌入您的網站——免費</h2>
+<p style="margin:0 0 12px;line-height:1.6">將本計算器新增到你自己的網站或部落格——完全免費，無需註冊，並且始終顯示最新版本。複製下面的程式碼，貼上到你希望計算器出現的頁面位置。在嵌入下方保留小小的 &ldquo;Powered by Loona Automation&rdquo; 署名行有助於保持本工具免費——但你可以自由設定樣式或將其移除；無論哪種方式工具都能工作。</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/zh-hant/europe-driving-rules-checker/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Europe Driving Rules Checker by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;技術支援： &lt;a href="https://loonaautomation.github.io/loona-calculators/zh-hant/europe-driving-rules-checker/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 免費 歐洲駕駛規則查詢器&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">複製嵌入程式碼</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='複製嵌入程式碼';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>熱門計算器</h4><ul><li><a href="../age-calculator/">年齡計算器</a></li>
+<li><a href="../zakat-calculator/">天課計算器</a></li>
+<li><a href="../cgpa-calculator/">CGPA 計算器</a></li>
+<li><a href="../percentage-calculator/">百分比計算器</a></li>
+<li><a href="../hijri-date-converter/">伊斯蘭曆日期轉換器</a></li>
+<li><a href="../emi-calculator/">EMI 與貸款計算器</a></li></ul></div>
+<div><h4>更多 Loona 工具</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona 圖片壓縮工具</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI 助手</a></li>
+<li><a href="https://loonaautomation.github.io/">所有 Loona 工具</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">關於</a></li>
+<li><a href="../contact.html">聯絡</a></li>
+<li><a href="../privacy-policy.html">隱私政策</a></li>
+<li><a href="../terms.html">使用條款</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators —— 一個 <a href="https://loonaautomation.github.io/">Loona Automation</a> 專案。免費線上計算器，無需註冊。
+聯絡方式： <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+var DRIVE_DATA={"France": {"side": "Right", "motorway": "130 km/h（雨天 110）", "bac": "0.05% (0.02% novice)", "note": "Headlights recommended in tunnels/poor visibility; hi-vis vest must be in the cabin."}, "Germany": {"side": "Right", "motorway": "許多高速公路無一般限速（建議 130）", "bac": "0.05% (0.00% novice/professional)", "note": "Winter tyres required in winter conditions; no handheld phone use."}, "Spain": {"side": "Right", "motorway": "120 km/h", "bac": "0.05%（新手更低限值正在分階段實施）", "note": "Two warning triangles or a V16 beacon; flip-flops driving is fined in practice."}, "Italy": {"side": "Right", "motorway": "130 km/h（雨天 110）", "bac": "0.05% (0.00% novice)", "note": "Headlights required outside built-up areas on many roads; ZTL city zones catch tourists often."}, "United Kingdom": {"side": "Left", "motorway": "70 mph (112 km/h)", "bac": "0.08% (0.05% in Scotland)", "note": "Drive on the left; speed limits in mph; headlamp converters for EU cars."}, "Ireland": {"side": "Left", "motorway": "120 km/h", "bac": "0.05% (0.02% novice/professional)", "note": "Drive on the left; limits in km/h."}, "Netherlands": {"side": "Right", "motorway": "100 km/h daytime / 120\u2013130 at night on signed sections", "bac": "0.05% (0.02% novice)", "note": "Strict phone and priority rules; many 30 km/h urban zones."}, "Poland": {"side": "Right", "motorway": "140 km/h", "bac": "0.02%", "note": "全年全天必須開車燈。"}, "Austria": {"side": "Right", "motorway": "130 km/h", "bac": "0.05% (0.01% novice)", "note": "Winter tyres mandatory 1 Nov\u201315 Apr in winter conditions; vignette for motorways."}, "Switzerland": {"side": "Right", "motorway": "120 km/h", "bac": "0.05% (0.00% novice)", "note": "Dipped headlights required at all times; vignette for motorways."}, "Greece": {"side": "Right", "motorway": "130 km/h", "bac": "0.05% (0.02% novice/professional)", "note": "Priority rules at unsigned junctions differ from much of Europe \u2014 drive defensively."}, "Portugal": {"side": "Right", "motorway": "120 km/h", "bac": "0.05% (0.02% novice)", "note": "Hi-vis vest required; toll gantries are electronic on many motorways."}};
+function drivingRules(country){return DRIVE_DATA[country]||null;}
+/*TESTABLE_END*/
+(function(){var sel=document.getElementById('drCountry');Object.keys(DRIVE_DATA).forEach(function(c){var o=document.createElement('option');o.value=c;o.textContent=c;sel.appendChild(o);});sel.value="France";})();
+document.getElementById('drForm').addEventListener('submit',function(e){e.preventDefault();
+ var c=document.getElementById('drCountry').value, r=drivingRules(c);
+ var box=document.getElementById('drResult'); box.style.display='block';
+ if(!r){box.innerHTML='<p class="err">請選擇國家。</p>';return;}
+ box.innerHTML='<div class="resbig"><span>'+c+'</span><strong>行駛方向：'+r.side+'</strong></div>'
+ +'<table class="restbl"><tr><td>高速公路限速（汽車）</td><td><strong>'+r.motorway+'</strong></td></tr>'
+ +'<tr><td>酒駕限值</td><td><strong>'+r.bac+'</strong></td></tr></table>'
+ +'<p style="font-size:15px">'+r.note+'</p>'
+ +'<p class="resnote">旅行者摘要 — 當地標誌和現行法律優先於本指南。規則核查日期：2026 年十一月 8 日。</p>';});
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' 安裝應用';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('安裝此應用：點選分享按鈕，然後選擇“新增到主螢幕”。');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

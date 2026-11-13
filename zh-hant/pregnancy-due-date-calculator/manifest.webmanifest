@@ -1,0 +1,29 @@
+{
+  "name": "Loona 懷孕預產期計算器",
+  "short_name": "懷孕預產期計算器",
+  "description": "免費懷孕預產期計算器：輸入您末次月經 (LMP) 的第一天，獲得您的預計預產期、當前懷孕週數和孕期階段。",
+  "id": "/loona-calculators/zh-hant/pregnancy-due-date-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

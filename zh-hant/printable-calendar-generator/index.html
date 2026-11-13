@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>可列印日曆生成器 — 任意月份或整年，免費 | Loona Calculators</title>
+<meta name="description" content="免費可列印日曆生成器：選擇任何月份和年份（或一整年），生成一個您可以列印的乾淨日曆網格。星期一或星期日開頭。">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/zh-hant/printable-calendar-generator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/printable-calendar-generator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/printable-calendar-generator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/printable-calendar-generator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/printable-calendar-generator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/printable-calendar-generator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/printable-calendar-generator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/printable-calendar-generator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/printable-calendar-generator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/printable-calendar-generator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/printable-calendar-generator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/printable-calendar-generator/"><link rel="alternate" hreflang="zh" href="https://loonaautomation.github.io/loona-calculators/zh/printable-calendar-generator/"><link rel="alternate" hreflang="zh-Hant" href="https://loonaautomation.github.io/loona-calculators/zh-hant/printable-calendar-generator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/printable-calendar-generator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="可列印日曆生成器 — 任意月份或整年，免費 | Loona Calculators">
+<meta property="og:description" content="免費可列印日曆生成器：選擇任何月份和年份（或一整年），生成一個您可以列印的乾淨日曆網格。星期一或星期日開頭。">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/zh-hant/printable-calendar-generator/"><meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="可列印日曆生成器 — 任意月份或整年，免費 | Loona Calculators">
+<meta name="twitter:description" content="免費可列印日曆生成器：選擇任何月份和年份（或一整年），生成一個您可以列印的乾淨日曆網格。星期一或星期日開頭。">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona 可列印日曆生成器","url":"https://loonaautomation.github.io/loona-calculators/zh-hant/printable-calendar-generator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"它可以向前和向後追溯多遠？","acceptedAnswer":{"@type":"Answer","text":"使用公曆的 1900 年到 2100 年的任何年份，涵蓋每個實際規劃需求。閏年按標準規則處理（能被 4 整除，世紀年中不能被 400 整除的除外）。"}},{"@type":"Question","name":"我可以新增自己的事件或備註嗎？","acceptedAnswer":{"@type":"Answer","text":"列印空白網格並在紙上書寫——經典方法——或列印為 PDF 並以數字方式批註。本生成器特意生成乾淨、無品牌標識的網格。"}},{"@type":"Question","name":"為什麼列印輸出只顯示日曆？","acceptedAnswer":{"@type":"Answer","text":"列印樣式隱藏了頁首、表單和按鈕，因此紙質副本只有帶標題的月份網格。"}},{"@type":"Question","name":"哪些國家從星期日開始一週？","acceptedAnswer":{"@type":"Answer","text":"美國、加拿大和日本通常列印以星期日為起始的日曆；歐洲大部分地區和英國使用以星期一為起始（ISO 標準）。請選擇與您的牆上計劃表匹配的型別。"}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+
+.calgrid{border-collapse:collapse;width:100%;margin:0 0 22px;background:#fff}.calgrid th,.calgrid td{border:1px solid var(--line);padding:8px;text-align:center;width:14.28%}.calgrid th{background:var(--teal);color:#fff;font-size:13px}.calgrid td{height:44px;vertical-align:top;text-align:left;font-size:14px}.calmonth{color:var(--teal);margin:16px 0 8px}@media print{body>*{display:none!important}#calPrintArea{display:block!important}}</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/zh-hant/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "可列印日曆生成器",
+      "item": "https://loonaautomation.github.io/loona-calculators/zh-hant/printable-calendar-generator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation 標誌">
+<div class="brand">Loona <span>計算器</span></div>
+<nav>
+<a href="../">首頁</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">關於</a>
+<a href="../contact.html">聯絡</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › 日期與時間 › 可列印日曆生成器</div>
+<h1 class="pagetitle">🖨️ 可列印日曆生成器</h1>
+<p class="lead">選擇月份和年份——或一次性生成整年——即可得到整潔、可直接列印的日曆網格。選擇以星期一或星期日作為一週開始，然後從瀏覽器列印或另存為 PDF。</p>
+<div class="exbox"><strong>快速答案：</strong> 日曆網格需要該月 1 日的星期幾和該月的天數：例如，2026 年十一月從星期日開始，有 30 天，因此以星期一開始的網格以六個空格開頭，以十一月 30 日星期一結束。</div>
+<div class="toolbox"><form class="calcform" id="calForm">
+<div class="fld"><label for="calYear">年</label><input type="number" id="calYear" value="2026" min="1900" max="2100"></div>
+<div class="fld"><label for="calMonth">月</label><select id="calMonth"><option value="0">一月</option><option value="1">二月</option><option value="2">三月</option><option value="3">四月</option><option value="4">五月</option><option value="5">六月</option><option value="6">七月</option><option value="7">八月</option><option value="8">九月</option><option value="9">十月</option><option value="10" selected>十一月</option><option value="11">十二月</option></select></div>
+<div class="fld"><label for="calStart">周開始於</label><select id="calStart"><option value="1">星期一</option><option value="0">星期日</option></select></div>
+<div class="fld"><label><input type="checkbox" id="calFull" style="width:auto;margin-right:8px">改為生成全年</label></div>
+<button class="calcbtn" type="submit">生成日曆</button>
+<button class="calcbtn" type="button" id="calPrint" style="background:#fff;border:2px solid var(--teal2);color:var(--teal);margin-top:8px">🖨️ 列印日曆</button>
+</form>
+<div id="calOut" style="margin-top:18px"></div></div>
+<section class="txt"><h2>如何使用 Printable Calendar Generator</h2><ol><li>輸入年份並選擇一個月——或勾選全年。</li><li>選擇周以星期一還是星期日開始。</li><li>按“生成”，然後按“列印”以獲得乾淨的紙質副本（只列印日曆）。</li></ol>
+<div class="exbox"><strong>示例：</strong> 2026 年十一月，星期一開始：1 日是星期日，因此第一行有六個空單元格，然後星期日為 1；該月到第六行第一個單元格的十一月 30 日星期一結束。</div>
+<h2>常見問題</h2></section><div class="faq"><h3>它可以向前和向後追溯多遠？</h3><p>使用公曆的 1900 年到 2100 年的任何年份，涵蓋每個實際規劃需求。閏年按標準規則處理（能被 4 整除，世紀年中不能被 400 整除的除外）。</p></div><div class="faq"><h3>我可以新增自己的事件或備註嗎？</h3><p>列印空白網格並在紙上書寫——經典方法——或列印為 PDF 並以數字方式批註。本生成器特意生成乾淨、無品牌標識的網格。</p></div><div class="faq"><h3>為什麼列印輸出只顯示日曆？</h3><p>列印樣式隱藏了頁首、表單和按鈕，因此紙質副本只有帶標題的月份網格。</p></div><div class="faq"><h3>哪些國家從星期日開始一週？</h3><p>美國、加拿大和日本通常列印以星期日為起始的日曆；歐洲大部分地區和英國使用以星期一為起始（ISO 標準）。請選擇與您的牆上計劃表匹配的型別。</p></div>
+<h2 class="sec">相關計算器</h2><div class="grid"><a class="card" href="../date-calculator/"><div class="ic">📆</div><h3>日期計算器</h3><p>日期與時間</p></a><a class="card" href="../days-between-dates-calculator/"><div class="ic">🗓️</div><h3>兩個日期之間的天數</h3><p>日期與時間</p></a><a class="card" href="../age-calculator/"><div class="ic">📅</div><h3>年齡計算器</h3><p>日期與時間</p></a><a class="card" href="../working-days-calculator/"><div class="ic">🏢</div><h3>工作日計算器</h3><p>日期與時間</p></a></div>
+</div>
+<section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>工作原理 — 公式</h2>
+<p>一個月的網格完全由兩個事實決定： <strong>1日的星期</strong> 和 <strong>該月的天數</strong> (28–31，其中二月的天數由閏年規則決定：年份能被 4 整除餘數為 0 則為閏年，但世紀年必須能被 400 整除——因此 2000 年是閏年，而 1900 年不是）。1 日之前的空白單元格 = (1 日的星期 − 每週起始日 + 7) mod 7。其餘都是計數。</p>
+<h3>示例</h3><div class="exbox"><p><strong>輸入項：</strong> 2026 年十一月，星期一開始。</p><p><strong>步驟：</strong> 2026 年十一月 1 日是星期日。以星期一為第 0 天……星期日為第 6 天，1 日之前的空白 = 6。十一月有 30 天（2026 年不是閏年，且十一月始終有 30 天）。使用的單元格總數 = 6 + 30 = 36 → 6 行（36 ÷ 7 向上取整為 6 周）。</p><p><strong>結果：</strong> 一個 6 行網格，以以下內容結尾 <strong>十一月 30 日星期一</strong> 位於最後一行的第一個單元格。</p></div>
+
+</section>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">將此計算器嵌入您的網站——免費</h2>
+<p style="margin:0 0 12px;line-height:1.6">將本計算器新增到你自己的網站或部落格——完全免費，無需註冊，並且始終顯示最新版本。複製下面的程式碼，貼上到你希望計算器出現的頁面位置。在嵌入下方保留小小的 &ldquo;Powered by Loona Automation&rdquo; 署名行有助於保持本工具免費——但你可以自由設定樣式或將其移除；無論哪種方式工具都能工作。</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/zh-hant/printable-calendar-generator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Printable Calendar Generator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;技術支援： &lt;a href="https://loonaautomation.github.io/loona-calculators/zh-hant/printable-calendar-generator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 免費 可列印日曆生成器&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">複製嵌入程式碼</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='複製嵌入程式碼';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>熱門計算器</h4><ul><li><a href="../age-calculator/">年齡計算器</a></li>
+<li><a href="../zakat-calculator/">天課計算器</a></li>
+<li><a href="../cgpa-calculator/">CGPA 計算器</a></li>
+<li><a href="../percentage-calculator/">百分比計算器</a></li>
+<li><a href="../hijri-date-converter/">伊斯蘭曆日期轉換器</a></li>
+<li><a href="../emi-calculator/">EMI 與貸款計算器</a></li></ul></div>
+<div><h4>更多 Loona 工具</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona 圖片壓縮工具</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI 助手</a></li>
+<li><a href="https://loonaautomation.github.io/">所有 Loona 工具</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">關於</a></li>
+<li><a href="../contact.html">聯絡</a></li>
+<li><a href="../privacy-policy.html">隱私政策</a></li>
+<li><a href="../terms.html">使用條款</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators —— 一個 <a href="https://loonaautomation.github.io/">Loona Automation</a> 專案。免費線上計算器，無需註冊。
+聯絡方式： <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+function isLeap(y){return (y%4===0&&y%100!==0)||y%400===0;}
+function daysInMonth(y,m){var D=[31,28,31,30,31,30,31,31,30,31,30,31];return m===1?(isLeap(y)?29:28):D[m];}
+function monthGrid(y,m,weekStart){
+  var first=new Date(Date.UTC(y,m,1)).getUTCDay();
+  var blanks=((first-weekStart)%7+7)%7;
+  var dim=daysInMonth(y,m);
+  var cells=[];
+  for(var i=0;i<blanks;i++)cells.push(null);
+  for(var d=1;d<=dim;d++)cells.push(d);
+  while(cells.length%7!==0)cells.push(null);
+  var rows=[];
+  for(var r=0;r<cells.length/7;r++)rows.push(cells.slice(r*7,r*7+7));
+  return {blanks:blanks,days:dim,rows:rows};
+}
+/*TESTABLE_END*/
+var MONTHS=["January","February","March","April","May","June","July","August","September","October","November","December"];
+function renderMonth(y,m,start){
+  var g=monthGrid(y,m,start);
+  var heads=start===1?["Mon","Tue","Wed","Thu","Fri","Sat","Sun"]:["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+  var h='<h3 class="calmonth">'+MONTHS[m]+' '+y+'</h3><table class="calgrid"><tr>'+heads.map(function(x){return '<th>'+x+'</th>';}).join("")+'</tr>';
+  g.rows.forEach(function(row){h+='<tr>'+row.map(function(c){return '<td>'+(c===null?'':c)+'</td>';}).join("")+'</tr>';});
+  return h+'</table>';
+}
+document.getElementById('calForm').addEventListener('submit',function(e){e.preventDefault();
+ var y=parseInt(document.getElementById('calYear').value,10), start=parseInt(document.getElementById('calStart').value,10);
+ var full=document.getElementById('calFull').checked, m=parseInt(document.getElementById('calMonth').value,10);
+ var html='';
+ if(full){for(var i=0;i<12;i++)html+=renderMonth(y,i,start);}
+ else html=renderMonth(y,m,start);
+ document.getElementById('calOut').innerHTML=html;
+});
+document.getElementById('calPrint').addEventListener('click',function(){
+ var out=document.getElementById('calOut');
+ if(!out.innerHTML){alert('請先生成日曆。');return;}
+ var area=document.getElementById('calPrintArea');
+ if(!area){area=document.createElement('div');area.id='calPrintArea';document.body.appendChild(area);}
+ area.innerHTML=out.innerHTML;
+ window.print();
+});
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' 安裝應用';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('安裝此應用：點選分享按鈕，然後選擇“新增到主螢幕”。');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

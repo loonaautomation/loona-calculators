@@ -1,0 +1,29 @@
+{
+  "name": "Loona 貨幣匯率",
+  "short_name": "貨幣匯率",
+  "description": "歐洲中央銀行參考匯率，日期為十一月06日，2026年，涵蓋 20 種貨幣——全部 380 個貨幣對，配有轉換器、反向匯率和換算表。",
+  "id": "/loona-calculators/zh-hant/currency-exchange-rates.html",
+  "start_url": "./currency-exchange-rates.html",
+  "scope": "./currency-exchange-rates.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

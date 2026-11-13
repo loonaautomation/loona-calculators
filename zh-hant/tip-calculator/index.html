@@ -1,0 +1,1852 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>小費計算器 — 分攤賬單和每人小費 | Loona 計算器</title>
+<meta name="description" content="免費小費計算器：輸入賬單、小費百分比和人數，獲得小費金額、賬單總額和每個人支付的確切份額。">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/zh-hant/tip-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/tip-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/tip-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/tip-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/tip-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/tip-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/tip-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/tip-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/tip-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/tip-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/tip-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/tip-calculator/"><link rel="alternate" hreflang="zh" href="https://loonaautomation.github.io/loona-calculators/zh/tip-calculator/"><link rel="alternate" hreflang="zh-Hant" href="https://loonaautomation.github.io/loona-calculators/zh-hant/tip-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/tip-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="小費計算器 — 分攤賬單和每人小費 | Loona 計算器">
+<meta property="og:description" content="免費小費計算器：輸入賬單、小費百分比和人數，獲得小費金額、賬單總額和每個人支付的確切份額。">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/zh-hant/tip-calculator/"><meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="小費計算器 — 分攤賬單和每人小費 | Loona 計算器">
+<meta name="twitter:description" content="免費小費計算器：輸入賬單、小費百分比和人數，獲得小費金額、賬單總額和每個人支付的確切份額。">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona 小費計算器","url":"https://loonaautomation.github.io/loona-calculators/zh-hant/tip-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"我應該給多少小費？","acceptedAnswer":{"@type":"Answer","text":"這因國家和服務而異：許多地方約 10% 很常見，美國優質服務為 15-20%，而一些國家將服務費包含在賬單中。"}},{"@type":"Question","name":"小費是平均分攤的嗎？","acceptedAnswer":{"@type":"Answer","text":"是的——總額（賬單加小費）會按你輸入的人數平均分攤。"}},{"@type":"Question","name":"如果我獨自付款怎麼辦？","acceptedAnswer":{"@type":"Answer","text":"將人數保持為 1——您將直接看到小費和總計。"}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/zh-hant/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "小費計算器",
+      "item": "https://loonaautomation.github.io/loona-calculators/zh-hant/tip-calculator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation 標誌">
+<div class="brand">Loona <span>計算器</span></div>
+<nav>
+<a href="../">首頁</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">關於</a>
+<a href="../contact.html">聯絡</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › 金錢與金融 › 小費計算器</div>
+<h1 class="pagetitle">🧾 小費計算器</h1>
+<p class="lead">和朋友外出就餐？輸入賬單，選擇小費百分比，公平分攤總額——小費金額、賬單總額和每個人的份額，一次點按全部搞定。</p>
+<div class="toolbox"><div data-calc="tip-calculator"></div></div>
+<section class="txt"><h2>如何使用 Tip Calculator</h2><ol><li>輸入賬單金額。</li><li>輸入小費百分比（已預填 10%——可隨您喜歡調整）。</li><li>輸入參與分攤的人數，然後按計算。</li></ol>
+<div class="exbox"><strong>示例：</strong> 一筆 Rs 5,000 的賬單，10% 的小費由 4 人分攤：小費是 Rs 500，總額是 Rs 5,500，每人支付 Rs 1,375。</div>
+<h2>常見問題</h2></section><div class="faq"><h3>我應該給多少小費？</h3><p>這因國家和服務而異：許多地方約 10% 很常見，美國優質服務為 15-20%，而一些國家將服務費包含在賬單中。</p></div><div class="faq"><h3>小費是平均分攤的嗎？</h3><p>是的——總額（賬單加小費）會按你輸入的人數平均分攤。</p></div><div class="faq"><h3>如果我獨自付款怎麼辦？</h3><p>將人數保持為 1——您將直接看到小費和總計。</p></div>
+<section class="txt"><h2>工作原理 — 公式</h2><p>數學是賬單的一個直接百分比。本計算器將賬單乘以小費百分比並除以 100 得到小費，將其加到賬單中得到總額，然後將總額——以及小費本身——除以人數，因此您可以看到每個人總共支付多少，以及該份額中有多少是小費。人數被視為整數。</p><p><strong>公式：</strong> 小費 = 賬單 × 小費 % ÷ 100。總計 = 賬單 + 小費。每人 = 總計 ÷ 人數。</p><h3>示例</h3><div class="exbox"><p><strong>輸入項：</strong> 賬單 Rs 8,450；小費 15%；由 3 人分攤。</p><p><strong>步驟：</strong> 小費 = 8,450 × 15 ÷ 100 = Rs 1,267.5。總計 = 8,450 + 1,267.5 = Rs 9,717.5。每人份額 = 9,717.5 ÷ 3 = Rs 3,239.17，其中小費部分為 1,267.5 ÷ 3 = Rs 422.5。</p><p><strong>結果：</strong> <strong>應付總額：Rs 9,717.5 — 每人 Rs 3,239.17。</strong></p></div><h3>常見問題</h3><div class="faq"><h3>小費是按稅前還是稅後的賬單計算的？</h3><p>正是您輸入的金額。計算器只是將您的百分比應用於該數字，因此如果您的列印賬單已包含稅款或服務費，而您希望按稅前金額給小費，請將稅前數字輸入為賬單。</p></div><div class="faq"><h3>我可以使用帶小數的小費百分比嗎，例如 12.5%？</h3><p>是的。百分比按普通數字讀取，因此12.5、17.5或任何其他數值都與整數一樣適用。</p></div><div class="faq"><h3>為什麼每人份額相加可能不完全等於總數？</h3><p>每個份額為顯示起見四捨五入到小數點後兩位。將 Rs 9,717.5 三等分，每人 Rs 3,239.17，三個四捨五入後的份額與確切總額相比可能相差一個 paisa 或一分錢——通常由一個人補上這點小差額即可。</p></div><div class="faq"><h3>如果我輸入 0 人或將欄位留空會發生什麼？</h3><p>本計算器要求至少 1 人，並且不會產生分攤，因為將賬單分給無人是沒有答案的。當您自己支付全部賬單時，將其保持在 1。</p></div><div class="faq"><h3>它只適用於盧比嗎？</h3><p>金額標記為 Rs，但計算本身是純百分比數學，因此相同的數字對美元、英鎊、歐元或任何其他貨幣都同樣適用，無需更改。</p></div></section><h2 class="sec">相關計算器</h2><div class="grid"><a class="card" href="../emi-calculator/"><div class="ic">🏦</div><h3>EMI 與貸款計算器</h3><p>金錢與金融</p></a><a class="card" href="../compound-interest-calculator/"><div class="ic">📈</div><h3>複利</h3><p>金錢與金融</p></a><a class="card" href="../electricity-bill-calculator/"><div class="ic">💡</div><h3>電費賬單</h3><p>金錢與金融</p></a><a class="card" href="../age-calculator/"><div class="ic">📅</div><h3>年齡計算器</h3><p>日期與時間</p></a><a class="card" href="../recurring-deposit-calculator/"><div class="ic">🔁</div><h3>定期存款計算器</h3><p>金錢與金融</p></a></div>
+</div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">將此計算器嵌入您的網站——免費</h2>
+<p style="margin:0 0 12px;line-height:1.6">將本計算器新增到你自己的網站或部落格——完全免費，無需註冊，並且始終顯示最新版本。複製下面的程式碼，貼上到你希望計算器出現的頁面位置。在嵌入下方保留小小的 &ldquo;Powered by Loona Automation&rdquo; 署名行有助於保持本工具免費——但你可以自由設定樣式或將其移除；無論哪種方式工具都能工作。</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/zh-hant/tip-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Tip Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;技術支援： &lt;a href="https://loonaautomation.github.io/loona-calculators/zh-hant/tip-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 免費 小費計算器&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">複製嵌入程式碼</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='複製嵌入程式碼';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>熱門計算器</h4><ul><li><a href="../age-calculator/">年齡計算器</a></li>
+<li><a href="../zakat-calculator/">天課計算器</a></li>
+<li><a href="../cgpa-calculator/">CGPA 計算器</a></li>
+<li><a href="../percentage-calculator/">百分比計算器</a></li>
+<li><a href="../hijri-date-converter/">伊斯蘭曆日期轉換器</a></li>
+<li><a href="../emi-calculator/">EMI 與貸款計算器</a></li></ul></div>
+<div><h4>更多 Loona 工具</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona 圖片壓縮工具</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI 助手</a></li>
+<li><a href="https://loonaautomation.github.io/">所有 Loona 工具</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">關於</a></li>
+<li><a href="../contact.html">聯絡</a></li>
+<li><a href="../privacy-policy.html">隱私政策</a></li>
+<li><a href="../terms.html">使用條款</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators —— 一個 <a href="https://loonaautomation.github.io/">Loona Automation</a> 專案。免費線上計算器，無需註冊。
+聯絡方式： <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>/* Loona Calculators — shared calculation engine (pure functions, unit-testable).
+   Each CALCS[slug].run(v) takes string values and returns result HTML (or "ERR:..."). */
+"use strict";
+function N(x){var n=parseFloat(x);return isNaN(n)?0:n;}
+function F(x,d){if(d===undefined)d=2;var p=Math.pow(10,d);var r=Math.round(x*p)/p;
+  return r.toLocaleString("en-IN",{minimumFractionDigits:0,maximumFractionDigits:d});}
+function Rs(x){return "Rs "+F(x,2);}
+function row(k,v){return '<tr><td>'+k+'</td><td><strong>'+v+'</strong></td></tr>';}
+function big(label,val){return '<div class="resbig"><span>'+label+'</span><strong>'+val+'</strong></div>';}
+function tbl(rows){return '<table class="restbl">'+rows+'</table>';}
+function note(t){return '<p class="resnote">'+t+'</p>';}
+function pdate(s){if(!s)return null;var p=s.split("-");if(p.length<3)return null;
+  return new Date(+p[0],+p[1]-1,+p[2]);}
+function fdate(d){var M=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+  var W=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+  return W[d.getDay()]+", "+d.getDate()+" "+M[d.getMonth()]+" "+d.getFullYear();}
+function iso(d){return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");}
+function dayDiff(a,b){return Math.round((b-a)/86400000);}
+function ymdDiff(a,b){ /* a<=b -> {y,m,d} calendar difference */
+  var y=b.getFullYear()-a.getFullYear(),m=b.getMonth()-a.getMonth(),d=b.getDate()-a.getDate();
+  if(d<0){m--;var prev=new Date(b.getFullYear(),b.getMonth(),0);d+=prev.getDate();}
+  if(m<0){y--;m+=12;}
+  return {y:y,m:m,d:d};
+}
+const HIJRI_MONTHS=["Muharram","Safar","Rabi al-Awwal","Rabi al-Thani","Jumada al-Ula","Jumada al-Akhirah","Rajab","Shaban","Ramadan","Shawwal","Dhul Qadah","Dhul Hijjah"];
+function hijriParts(gd){
+  var fmt=new Intl.DateTimeFormat("en-u-ca-islamic",{day:"numeric",month:"numeric",year:"numeric"});
+  var parts=fmt.formatToParts(gd),o={};
+  parts.forEach(function(p){o[p.type]=p.value;});
+  return {y:+o.year,m:+o.month,d:+o.day};
+}
+function hijriToGreg(hy,hm,hd){
+  /* approximate start: Hijri epoch 16 Jul 622; year length 354.367 days */
+  var approx=new Date(622,6,16).getTime()+((hy-1)*354.367+ (hm-1)*29.53 + (hd-1))*86400000;
+  var d=new Date(approx),p=hijriParts(d),guard=0;
+  function key(pp){return pp.y*10000+pp.m*100+pp.d;}
+  var target=hy*10000+hm*100+hd;
+  while(key(p)!==target&&guard<500){
+    var diff=(hy-p.y)*354+((hm-p.m)*30)+(hd-p.d);
+    if(diff===0)diff=(target>key(p))?1:-1;
+    d=new Date(d.getTime()+diff*86400000);p=hijriParts(d);guard++;
+  }
+  return d;
+}
+
+/* ---------- Batch 3 shared helpers ---------- */
+function gcd2(a,b){a=Math.abs(Math.round(a));b=Math.abs(Math.round(b));while(b){var t=a%b;a=b;b=t;}return a||1;}
+function lcm2(a,b){return a/gcd2(a,b)*b;}
+function parseList(s){
+  if(s===undefined||s===null)return null;
+  var parts=String(s).split(/[\s,;]+/).filter(function(x){return x.length>0;});
+  if(!parts.length)return null;
+  var out=[];
+  for(var i=0;i<parts.length;i++){var n=Number(parts[i]);if(!isFinite(n))return null;out.push(n);}
+  return out;
+}
+function medianSorted(s){var n=s.length,m=Math.floor(n/2);return n%2?s[m]:(s[m-1]+s[m])/2;}
+function modeText(arr){
+  var counts={},best=0,i;
+  for(i=0;i<arr.length;i++){var k=String(arr[i]);counts[k]=(counts[k]||0)+1;if(counts[k]>best)best=counts[k];}
+  if(best<=1)return "No mode \u2014 every value appears once";
+  var modes=Object.keys(counts).filter(function(k){return counts[k]===best;});
+  modes.sort(function(a,b){return parseFloat(a)-parseFloat(b);});
+  return modes.map(function(k){return F(parseFloat(k));}).join(", ")+"（出現 "+best+" 次）";
+}
+
+/* ---------- Batch 4 shared helpers ---------- */
+function fmtClock(mins){mins=((Math.round(mins)%1440)+1440)%1440;var h=Math.floor(mins/60),m=mins%60;
+  var suf=h<12?"AM":"PM";var h12=h%12;if(h12===0)h12=12;
+  return h12+":"+(m<10?"0":"")+m+" "+suf;}
+function hmText(min){var h=Math.floor(min/60),m=Math.round(min-h*60);if(m===60){h++;m=0;}
+  return h+(h===1?" 小時":" 小時")+", "+m+(m===1?" 分鐘":" 分鐘");}
+function paceText(sec){var t=Math.round(sec);var m=Math.floor(t/60),s=t%60;
+  return m+":"+(s<10?"0":"")+s;}
+function fmtHMS(sec){var t=Math.round(sec);var h=Math.floor(t/3600),m=Math.floor((t%3600)/60),s=t%60;
+  function p(x){return (x<10?"0":"")+x;}
+  return h>0?h+":"+p(m)+":"+p(s):m+":"+p(s);}
+function isoWeekYear(d){ /* ISO 8601: weeks start Monday; week 1 holds the year's first Thursday */
+  var t=new Date(d.getFullYear(),d.getMonth(),d.getDate());
+  var day=(t.getDay()+6)%7; /* Mon=0 .. Sun=6 */
+  t.setDate(t.getDate()+(3-day)); /* Thursday of this week */
+  var isoYear=t.getFullYear();
+  var firstThu=new Date(isoYear,0,4);
+  var fd=(firstThu.getDay()+6)%7;
+  firstThu.setDate(firstThu.getDate()+(3-fd)); /* Thursday of ISO week 1 */
+  var week=1+Math.round((t-firstThu)/(7*86400000));
+  return {week:week,year:isoYear};
+}
+
+const CALCS={
+
+/* 1 — AGE */
+"age-calculator":{
+ fields:[
+  {id:"dob",l:"出生日期",t:"d",req:1},
+  {id:"to",l:"計算年齡的日期（已預填今天）",t:"d",def:"today"}],
+ run:function(v){
+  var dob=pdate(v.dob),to=pdate(v.to)||new Date();
+  if(!dob)return "ERR:請輸入您的出生日期。";
+  if(dob>to)return "ERR:出生日期必須早於計算年齡的日期。";
+  var a=ymdDiff(dob,to),days=dayDiff(dob,to);
+  var nb=new Date(to.getFullYear(),dob.getMonth(),dob.getDate());
+  if(nb<to)nb=new Date(to.getFullYear()+1,dob.getMonth(),dob.getDate());
+  var until=dayDiff(to,nb);
+  return big("Your Age",a.y+" 年，"+a.m+" 個月，"+a.d+" 天")
+   +tbl(row("已生活總天數",F(days,0))
+     +row("Total months",F(a.y*12+a.m,0)+" 個月，"+a.d+" 天")
+     +row("Total weeks",F(Math.floor(days/7),0)+" 周，"+(days%7)+" 天")
+     +row("Total hours",F(days*24,0))
+     +row("Born on",fdate(dob))
+     +row("Next birthday",fdate(nb)+" ("+until+" 天）"));
+ }},
+
+/* 2 — ZAKAT */
+"zakat-calculator":{
+ fields:[
+  {id:"cash",l:"手頭現金（Rs）",t:"n"},
+  {id:"bank",l:"銀行餘額（Rs）",t:"n"},
+  {id:"gold_g",l:"Gold (grams)",t:"n"},
+  {id:"gold_rate",l:"每克黃金價格（Rs）",t:"n"},
+  {id:"silver_g",l:"Silver (grams)",t:"n"},
+  {id:"silver_rate",l:"每克白銀價格（Rs）",t:"n"},
+  {id:"goods",l:"經營商品/庫存價值（Rs）",t:"n"},
+  {id:"recv",l:"他人欠您的錢（Rs）",t:"n"},
+  {id:"debts",l:"您要償還的債務（Rs）",t:"n"}],
+ run:function(v){
+  var goldVal=N(v.gold_g)*N(v.gold_rate),silVal=N(v.silver_g)*N(v.silver_rate);
+  var assets=N(v.cash)+N(v.bank)+goldVal+silVal+N(v.goods)+N(v.recv);
+  var net=Math.max(0,assets-N(v.debts));
+  var nisabs=[];
+  if(N(v.gold_rate)>0)nisabs.push({n:"Gold nisab (87.48 g)",val:87.48*N(v.gold_rate)});
+  if(N(v.silver_rate)>0)nisabs.push({n:"Silver nisab (612.36 g)",val:612.36*N(v.silver_rate)});
+  var rows=tbl(row("Total assets",Rs(assets))+row("Debts",Rs(N(v.debts)))+row("淨財富（應繳天課）",Rs(net)));
+  if(!nisabs.length)return rows+note("要核對尼薩布（nisab），請輸入黃金或白銀的每克價格。");
+  var nisab=nisabs.reduce(function(a,b){return b.val<a.val?b:a;});
+  rows+=tbl(row("採用的尼薩布（金/銀中較低者）",nisab.n+" = "+Rs(nisab.val)));
+  if(net>=nisab.val){
+    return big("Your Zakat (2.5%)",Rs(net*0.025))+rows
+      +note("此計算僅為估算。有關天課的宗教裁定，請向值得信賴的學者（穆夫提）確認。");
+  }
+  return big("Zakat Due","Rs 0 — 低於尼薩布")+rows
+    +note("您的淨財富低於尼薩布（"+Rs(nisab.val)+"），因此按此估算您無需繳納天課。宗教裁定請向學者確認。");
+ }},
+
+/* 3 — CGPA */
+"cgpa-calculator":{
+ fields:[
+  {id:"subjects",l:"科目（每科滿分 100 分 + 學分）",t:"sub"},
+  {id:"prev_cgpa",l:"以往 CGPA（如有 — 否則留空）",t:"n"},
+  {id:"prev_cr",l:"以往總學分",t:"n"}],
+ run:function(v){
+  function gp(m){if(m>=85)return 4.0;if(m>=80)return 3.7;if(m>=75)return 3.3;if(m>=70)return 3.0;
+    if(m>=65)return 2.7;if(m>=61)return 2.3;if(m>=58)return 2.0;if(m>=55)return 1.7;
+    if(m>=51)return 1.3;if(m>=50)return 1.0;return 0;}
+  var pts=0,cr=0,rows="";
+  for(var i=1;i<=8;i++){
+    var m=v["s"+i+"m"],c=N(v["s"+i+"c"]);
+    if(m===""||m===undefined||c<=0)continue;
+    var g=gp(N(m));pts+=g*c;cr+=c;
+    rows+=row("Subject "+i+" ("+F(N(m),0)+" 分，"+c+" cr)",g.toFixed(2)+" 績點");
+  }
+  if(cr===0)return "ERR:請至少輸入一門科目的分數和學分。";
+  var sgpa=pts/cr,html=tbl(rows);
+  if(N(v.prev_cgpa)>0&&N(v.prev_cr)>0){
+    var cum=(N(v.prev_cgpa)*N(v.prev_cr)+pts)/(N(v.prev_cr)+cr);
+    return big("您的 CGPA（累計）",cum.toFixed(2))+html
+      +tbl(row("本學期 GPA",sgpa.toFixed(2))+row("學期學分",F(cr,0)));
+  }
+  return big("您的 GPA（本學期）",sgpa.toFixed(2))+html
+    +note("Grade points use the common HEC scale: 85+ = 4.0, 80 = 3.7, 75 = 3.3, 70 = 3.0, 65 = 2.7, 61 = 2.3, 58 = 2.0, 55 = 1.7, 51 = 1.3, 50 = 1.0. Your university may use a different scale.");
+ }},
+
+/* 4 — PERCENTAGE */
+"percentage-calculator":{
+ fields:[
+  {id:"mode",l:"您想計算什麼？",t:"s",o:[["of","Y 的 X% 是多少？"],["iswhat","X 是 Y 的百分之多少？"],["change","從 X 到 Y 的百分比變化？"]]},
+  {id:"x",l:"X (first value)",t:"n",req:1},
+  {id:"y",l:"Y (second value)",t:"n",req:1}],
+ run:function(v){
+  var x=N(v.x),y=N(v.y);
+  if(v.mode==="of")return big("Result",F(x/100*y))+tbl(row("Formula",F(x,0)+"% \u00D7 "+F(y,0)+" \u00F7 100"));
+  if(v.mode==="iswhat"){if(y===0)return "ERR:Y 不能為零。";return big("Result",F(x/y*100)+"%")+tbl(row("Formula",F(x,0)+" \u00F7 "+F(y,0)+" \u00D7 100"));}
+  if(x===0)return "ERR:X（起始值）不能為零。";
+  var ch=(y-x)/x*100;
+  return big("Change",(ch>=0?"+":"")+F(ch)+"%") + tbl(row("Difference",F(y-x))+row("Type",ch>=0?"Increase":"Decrease"));
+ }},
+
+/* 5 — HIJRI CONVERTER */
+"hijri-date-converter":{
+ fields:[
+  {id:"dir",l:"Direction",t:"s",o:[["toH","Gregorian (English) \u2192 Hijri (Islamic)"],["toG","Hijri (Islamic) \u2192 Gregorian (English)"]]},
+  {id:"gdate",l:"公曆日期（用於第一個方向）",t:"d"},
+  {id:"hy",l:"伊歷年份（用於第二個方向）",t:"n"},
+  {id:"hm",l:"Hijri month",t:"s",o:HIJRI_MONTHS.map(function(m,i){return [String(i+1),m];})},
+  {id:"hd",l:"Hijri day",t:"n"}],
+ run:function(v){
+  if(v.dir==="toG"){
+    var hy=N(v.hy),hm=N(v.hm),hd=N(v.hd);
+    if(hy<1||hd<1||hd>30)return "ERR:請輸入有效的伊歷年份和日期（1-30）。";
+    var g=hijriToGreg(hy,hm,hd);
+    return big("Gregorian Date",fdate(g))
+      +tbl(row("Hijri date",hd+" "+HIJRI_MONTHS[hm-1]+" "+hy+" AH")+row("Day",fdate(g).split(",")[0]));
+  }
+  var gd=pdate(v.gdate);
+  if(!gd)return "ERR:請選擇公曆日期。";
+  var p=hijriParts(gd);
+  return big("Hijri Date",p.d+" "+HIJRI_MONTHS[p.m-1]+" "+p.y+" AH")
+    +tbl(row("Gregorian date",fdate(gd))+row("Hijri month",HIJRI_MONTHS[p.m-1])+row("Hijri year",p.y+" AH"))
+    +note("日期遵循烏姆古拉曆法，可能與貴國官方觀月曆法相差一天。");
+ }},
+
+/* 6 — EMI / LOAN */
+"emi-calculator":{
+ fields:[
+  {id:"amt",l:"貸款金額（Rs）",t:"n",req:1},
+  {id:"rate",l:"年利率/利潤率（%）",t:"n",req:1},
+  {id:"ten",l:"Tenure",t:"n",req:1},
+  {id:"unit",l:"Tenure unit",t:"s",o:[["m","Months"],["y","Years"]]}],
+ run:function(v){
+  var P=N(v.amt),r=N(v.rate)/1200,n=N(v.ten)*(v.unit==="y"?12:1);
+  if(P<=0||n<=0)return "ERR:請輸入有效的貸款金額和期限。";
+  var emi,total;
+  if(r===0){emi=P/n;total=P;}
+  else{var f=Math.pow(1+r,n);emi=P*r*f/(f-1);total=emi*n;}
+  return big("Monthly Payment",Rs(emi))
+   +tbl(row("Loan amount",Rs(P))+row("利息/利潤總額",Rs(total-P))
+     +row("Total payment",Rs(total))+row("還款期數",F(n,0)));
+ }}
+};
+
+Object.assign(CALCS,{
+
+/* 7 — BMI */
+"bmi-calculator":{
+ fields:[
+  {id:"w",l:"Weight (kg)",t:"n",req:1},
+  {id:"hcm",l:"身高（釐米）— 或使用下方的英尺/英寸",t:"n"},
+  {id:"hft",l:"身高英尺（可選）",t:"n"},
+  {id:"hin",l:"身高英寸（可選）",t:"n"}],
+ run:function(v){
+  var w=N(v.w),h=N(v.hcm);
+  if(N(v.hft)>0||N(v.hin)>0)h=(N(v.hft)*12+N(v.hin))*2.54;
+  if(w<=0||h<=0)return "ERR:請輸入有效的體重和身高。";
+  var m=h/100,bmi=w/(m*m),cat;
+  if(bmi<18.5)cat="Underweight";else if(bmi<25)cat="Normal";
+  else if(bmi<30)cat="Overweight";else cat="Obese";
+  return big("Your BMI",F(bmi,1)+" — "+cat)
+   +tbl(row("適合您身高的健康體重",F(18.5*m*m,1)+" kg to "+F(24.9*m*m,1)+" kg")
+     +row("Height",F(h,0)+" cm")+row("Weight",F(w,1)+" kg"))
+   +note("BMI 僅為一般參考，可能不適用於運動員或所有體型。健康方面的決定請諮詢醫生。");
+ }},
+
+/* 8 — DAYS BETWEEN DATES */
+"days-between-dates-calculator":{
+ fields:[
+  {id:"s",l:"Start date",t:"d",req:1},
+  {id:"e",l:"End date",t:"d",def:"today"}],
+ run:function(v){
+  var a=pdate(v.s),b=pdate(v.e)||new Date();
+  if(!a)return "ERR:請選擇開始日期。";
+  if(b<a){var t=a;a=b;b=t;}
+  var days=dayDiff(a,b),d=ymdDiff(a,b);
+  return big("Total Days",F(days,0))
+   +tbl(row("Breakdown",d.y+" 年，"+d.m+" 個月，"+d.d+" 天")
+     +row("Weeks",F(Math.floor(days/7),0)+" 周，"+(days%7)+" 天")
+     +row("包括結束日期",F(days+1,0)+" 天")
+     +row("Total hours",F(days*24,0))+row("From",fdate(a))+row("To",fdate(b)));
+ }},
+
+/* 9 — COMPOUND INTEREST */
+"compound-interest-calculator":{
+ fields:[
+  {id:"p",l:"起始金額（Rs）",t:"n",req:1},
+  {id:"rate",l:"年利率（%）",t:"n",req:1},
+  {id:"yrs",l:"Years",t:"n",req:1},
+  {id:"freq",l:"每年複利次數",t:"s",o:[["1","Yearly (1)"],["2","Half-yearly (2)"],["4","Quarterly (4)"],["12","Monthly (12)"],["365","Daily (365)"]]},
+  {id:"dep",l:"每月存款（Rs，可選）",t:"n"}],
+ run:function(v){
+  var P=N(v.p),r=N(v.rate)/100,t=N(v.yrs),m=N(v.freq)||1,dep=N(v.dep);
+  if(P<0||t<=0)return "ERR:請輸入有效的數值。";
+  var bal=P,rows="";
+  for(var yr=1;yr<=Math.min(t,50);yr++){
+    bal=P*Math.pow(1+r/m,m*yr);
+    if(dep>0&&r>0){var rm=r/12;bal+=dep*((Math.pow(1+rm,12*yr)-1)/rm)*(1);}
+    else if(dep>0){bal+=dep*12*yr;}
+    rows+=row("Year "+yr,Rs(bal));
+  }
+  var fin=P*Math.pow(1+r/m,m*t);
+  if(dep>0&&r>0){var rm2=r/12;fin+=dep*((Math.pow(1+rm2,12*t)-1)/rm2);}
+  else if(dep>0){fin+=dep*12*t;}
+  var invested=P+dep*12*t;
+  return big("Final Amount",Rs(fin))
+   +tbl(row("You invested",Rs(invested))+row("Interest earned",Rs(fin-invested)))
+   +tbl(rows);
+ }},
+
+/* 10 — MARKS PERCENTAGE */
+"marks-percentage-calculator":{
+ fields:[
+  {id:"obt",l:"Obtained marks",t:"n",req:1},
+  {id:"tot",l:"Total marks",t:"n",req:1}],
+ run:function(v){
+  var o=N(v.obt),t=N(v.tot);
+  if(t<=0||o<0||o>t)return "ERR:請輸入有效分數（得分不能超過總分）。";
+  var p=o/t*100,g;
+  if(p>=90)g="A+";else if(p>=80)g="A";else if(p>=70)g="B";else if(p>=60)g="C";else if(p>=50)g="D";else g="F (Fail)";
+  return big("Percentage",F(p)+"%")
+   +tbl(row("等級（通用標準）",g)+row("Obtained",F(o,0)+" / "+F(t,0))
+     +row("達到 90% 所需分數",F(Math.max(0,Math.ceil(0.9*t-o)),0)+" 分"));
+ }},
+
+/* 11 — ELECTRICITY BILL */
+"electricity-bill-calculator":{
+ fields:[
+  {id:"units",l:"用電量（kWh）",t:"n",req:1},
+  {id:"r1",l:"費率：1-100 度（每度 Rs）",t:"n",def:"23.51"},
+  {id:"r2",l:"Rate: units 101-200",t:"n",def:"30.07"},
+  {id:"r3",l:"Rate: units 201-300",t:"n",def:"33.39"},
+  {id:"r4",l:"Rate: units 301-400",t:"n",def:"36.50"},
+  {id:"r5",l:"Rate: units 401-700",t:"n",def:"39.47"},
+  {id:"r6",l:"Rate: units 700+",t:"n",def:"41.20"},
+  {id:"gst",l:"GST (%)",t:"n",def:"18"},
+  {id:"other",l:"其他費用（Rs）— FPA、固定費用等",t:"n"}],
+ run:function(v){
+  var u=N(v.units);
+  if(u<=0)return "ERR:請輸入用電量。";
+  var slabs=[[100,N(v.r1)],[100,N(v.r2)],[100,N(v.r3)],[100,N(v.r4)],[300,N(v.r5)],[Infinity,N(v.r6)]];
+  var left=u,cost=0,rows="";
+  for(var i=0;i<slabs.length&&left>0;i++){
+    var take=Math.min(left,slabs[i][0]),c=take*slabs[i][1];
+    cost+=c;left-=take;
+    rows+=row("Slab "+(i+1)+" — "+F(take,0)+" units \u00D7 Rs "+F(slabs[i][1]),Rs(c));
+  }
+  var gst=cost*N(v.gst)/100,total=cost+gst+N(v.other);
+  return big("Estimated Bill",Rs(total))
+   +tbl(rows)+tbl(row("Energy cost",Rs(cost))+row("GST ("+F(N(v.gst),0)+"%)",Rs(gst))
+     +row("Other charges",Rs(N(v.other)))+row("每度平均費率",Rs(total/u)))
+   +note("This is an estimate only. Rates change over time and differ by company (LESCO, IESCO, K-Electric and others) — for the closest estimate, type the slab rates printed on your latest bill into the fields above; every rate can be edited.");
+ }},
+
+/* 12 — MARLA / KANAL AREA CONVERTER */
+"marla-kanal-area-converter":{
+ fields:[
+  {id:"val",l:"數值（面積是多少？）",t:"n",req:1},
+  {id:"from",l:"From Unit",t:"s",o:[["sqft","Square Feet"],["sqyd","平方碼（Gaj）"],["sqm","Square Metres"],["marla","Marla"],["kanal","Kanal"],["acre","Acre"],["hectare","Hectare"]]},
+  {id:"msize",l:"Marla size",t:"s",o:[["272.25","標準 — 272.25 平方英尺"],["225","舊式/小 — 225 平方英尺"]]}],
+ run:function(v){
+  var ms=N(v.msize)||272.25;
+  var base={"sqft":1,"sqyd":9,"sqm":10.7639,"marla":ms,"kanal":20*ms,"acre":43560,"hectare":107639};
+  var labels={"sqft":"Square Feet","sqyd":"平方碼（Gaj）","sqm":"Square Metres","marla":"Marla","kanal":"Kanal","acre":"Acre","hectare":"Hectare"};
+  var val=N(v.val);
+  if(val<=0)return "ERR:請輸入有效的數值。";
+  var inFt=val*base[v.from],rows="";
+  for(var k in base)rows+=row(labels[k],F(inFt/base[k],4));
+  return big(labels[v.from]+" \u2192 all units","")+tbl(rows)
+   +note("1 Kanal = 20 Marla. 1 Acre = 8 Kanal = 43,560 sq ft. In some areas a marla is 225 sq ft instead of the standard 272.25 — you can select the size above.");
+ }},
+
+/* 13 — SALARY / TAX (PAKISTAN) */
+"salary-calculator":{
+ fields:[
+  {id:"gross",l:"每月總工資（Rs）",t:"n",req:1},
+  {id:"mode",l:"Tax method",t:"s",o:[["pk","巴基斯坦工薪稅階（2026 稅年）"],["flat","自定義固定 %（在下方輸入）"]]},
+  {id:"flat",l:"自定義稅率（%）— 僅用於固定模式",t:"n"}],
+ run:function(v){
+  var g=N(v.gross);
+  if(g<=0)return "ERR:請輸入有效的工資。";
+  var annual=g*12,taxA;
+  if(v.mode==="flat"){taxA=annual*N(v.flat)/100;}
+  else{
+    var slabs=[[600000,0,0],[600000,6000,0.01],[1000000,6000,0.01],[1000000,116000,0.11],[1000000,346000,0.23],[900000,346000,0.30],[Infinity,616000,0.35]];
+    /* progressive: [width, baseTaxAtStartOfThisBand... handled below] */
+    var bands=[[600000,0],[600000,0.01],[1000000,0.11],[1000000,0.23],[900000,0.30],[Infinity,0.35]];
+    var bases=[0,0,6000,116000,346000,616000];
+    taxA=0;var rem=annual;
+    for(var i=0;i<bands.length;i++){
+      var w=bands[i][0];
+      if(rem>w){taxA=bases[i]+w*bands[i][1];rem-=w;}
+      else{taxA=bases[i]+rem*bands[i][1];rem=0;break;}
+    }
+    if(rem>0){/* beyond last finite band already handled by Infinity width */}
+  }
+  var taxM=taxA/12;
+  return big("每月淨工資",Rs(g-taxM))
+   +tbl(row("Gross monthly",Rs(g))+row("每月稅額",Rs(taxM))
+     +row("每年稅額",Rs(taxA))+row("實際稅率",F(taxA/annual*100)+"%")
+     +row("Net yearly",Rs(annual-taxA)))
+   +note("基於巴基斯坦 2026 稅年工薪所得稅階。稅率可能隨預算變化 — 最終數字請檢視最新 FBR 表格或您的工資單。");
+ }}
+});
+
+Object.assign(CALCS,{
+
+/* 14 — DISCOUNT */
+"discount-calculator":{
+ fields:[
+  {id:"price",l:"原價（Rs）",t:"n",req:1},
+  {id:"d1",l:"Discount (%)",t:"n",req:1},
+  {id:"d2",l:"額外疊加折扣（%）— 可選",t:"n"},
+  {id:"tax",l:"折扣後加收的稅/GST（%）— 可選",t:"n"}],
+ run:function(v){
+  var p=N(v.price);
+  if(p<=0)return "ERR:請輸入有效的價格。";
+  var after=p*(1-N(v.d1)/100)*(1-N(v.d2)/100);
+  var fin=after*(1+N(v.tax)/100);
+  return big("Final Price",Rs(fin))
+   +tbl(row("Original price",Rs(p))+row("折扣後價格",Rs(after))
+     +row("You save",Rs(p-after))+row("Effective discount",F((p-after)/p*100)+"%"));
+ }},
+
+/* 15 — CGPA TO PERCENTAGE */
+"cgpa-to-percentage-calculator":{
+ fields:[
+  {id:"val",l:"您的 CGPA / GPA",t:"n",req:1},
+  {id:"scale",l:"Scale",t:"s",o:[["10","滿分 10（CGPA）"],["4","滿分 4（GPA）"],["c","自定義乘數（在下方輸入）"]]},
+  {id:"mult",l:"自定義乘數 — 僅用於自定義標準",t:"n",def:"9.5"}],
+ run:function(v){
+  var x=N(v.val),pct,how;
+  if(x<=0)return "ERR:請輸入有效的 CGPA。";
+  if(v.scale==="10"){if(x>10)return "ERR:在 10 分制下，CGPA 不能超過 10。";pct=x*9.5;how="CGPA \u00D7 9.5";}
+  else if(v.scale==="4"){if(x>4)return "ERR:在 4 分制下，GPA 不能超過 4。";pct=x/4*100;how="GPA \u00F7 4 \u00D7 100";}
+  else{var m=N(v.mult);if(m<=0)return "ERR:請輸入乘數。";pct=x*m;how="CGPA \u00D7 "+F(m);}
+  return big("Percentage",F(pct)+"%")+tbl(row("Formula used",how))
+   +note("Every board and university may use its own formula (for example CBSE uses CGPA \u00D7 9.5). For official use, please confirm the formula with your board or university.");
+ }},
+
+/* 16 — TIME CALCULATOR */
+"time-calculator":{
+ fields:[
+  {id:"op",l:"Operation",t:"s",o:[["add","Add"],["sub","Subtract"]]},
+  {id:"h1",l:"Time 1 — Hours",t:"n"},{id:"m1",l:"Time 1 — Minutes",t:"n"},{id:"s1",l:"Time 1 — Seconds",t:"n"},
+  {id:"h2",l:"Time 2 — Hours",t:"n"},{id:"m2",l:"Time 2 — Minutes",t:"n"},{id:"s2",l:"Time 2 — Seconds",t:"n"}],
+ run:function(v){
+  var a=N(v.h1)*3600+N(v.m1)*60+N(v.s1),b=N(v.h2)*3600+N(v.m2)*60+N(v.s2);
+  var t=v.op==="sub"?a-b:a+b;
+  if(t<0)return "ERR:結果為負 — 時間 1 小於時間 2。";
+  var d=Math.floor(t/86400),h=Math.floor(t%86400/3600),m=Math.floor(t%3600/60),s=Math.floor(t%60);
+  return big("Result",(d>0?d+"d ":"")+h+"h : "+m+"m : "+s+"s")
+   +tbl(row("Total hours",F(t/3600,4))+row("Total minutes",F(t/60,2))+row("Total seconds",F(t,0)));
+ }},
+
+/* 17 — PREGNANCY DUE DATE */
+"pregnancy-due-date-calculator":{
+ fields:[{id:"lmp",l:"末次月經第一天（LMP）",t:"d",req:1}],
+ run:function(v){
+  var lmp=pdate(v.lmp);
+  if(!lmp)return "ERR:請選擇末次月經日期。";
+  var today=new Date();today.setHours(0,0,0,0);
+  if(lmp>today)return "ERR:末次月經日期必須是過去的日期。";
+  var due=new Date(lmp.getTime()+280*86400000);
+  var days=dayDiff(lmp,today),wk=Math.floor(days/7),wd=days%7;
+  var tri=wk<14?"First (1st)":(wk<28?"Second (2nd)":"Third (3rd)");
+  var left=dayDiff(today,due);
+  return big("預產期",fdate(due))
+   +tbl(row("您已懷孕（約）",wk+" 周，"+wd+" 天")
+     +row("Trimester",tri)+row("距預產期天數",left>0?F(left,0):"預產期已過")
+     +row("Estimated conception",fdate(new Date(lmp.getTime()+14*86400000))))
+   +note("此估算假設週期規律為 28 天。如需準確指導，請諮詢您的醫生或婦科醫生。");
+ }},
+
+/* 18 — SIMPLE INTEREST */
+"simple-interest-calculator":{
+ fields:[
+  {id:"p",l:"本金（Rs）",t:"n",req:1},
+  {id:"rate",l:"年利率（%）",t:"n",req:1},
+  {id:"yrs",l:"Years",t:"n"},
+  {id:"mos",l:"Months (additional)",t:"n"}],
+ run:function(v){
+  var P=N(v.p),r=N(v.rate),t=N(v.yrs)+N(v.mos)/12;
+  if(P<=0||t<=0)return "ERR:請輸入有效的金額和時間。";
+  var I=P*r*t/100;
+  return big("Total Amount",Rs(P+I))
+   +tbl(row("Principal",Rs(P))+row("Interest earned",Rs(I))+row("Time",F(t,2)+" 年"));
+ }},
+
+/* 19 — ATTENDANCE */
+"attendance-calculator":{
+ fields:[
+  {id:"held",l:"已上課總次數（至今）",t:"n",req:1},
+  {id:"att",l:"Classes attended",t:"n",req:1},
+  {id:"target",l:"Target attendance (%)",t:"n",def:"75"}],
+ run:function(v){
+  var h=N(v.held),a=N(v.att),tg=N(v.target)/100;
+  if(h<=0||a<0||a>h)return "ERR:請輸入有效數字（出勤不能超過總課次）。";
+  if(tg<=0||tg>=1)return "ERR:目標請保持在 1% 到 99% 之間。";
+  var cur=a/h*100,html=big("Current Attendance",F(cur)+"%");
+  if(cur/100>=tg){
+    var miss=Math.floor(a/tg-h);
+    html+=tbl(row("Status","Target achieved \u2713")+row("還可以缺席的課次",F(Math.max(0,miss),0)));
+  }else{
+    var need=Math.ceil((tg*h-a)/(1-tg));
+    html+=tbl(row("Status","Below target")+row("需連續出勤的課次",F(need,0)+" 次，且不能再缺席"));
+  }
+  return html+note("This shows your current position; the final percentage also depends on how many classes remain in the term.");
+ }},
+
+/* 20 — LOVE CALCULATOR (fun) */
+"love-calculator":{
+ fields:[
+  {id:"n1",l:"Your name",t:"t",req:1},
+  {id:"n2",l:"伴侶/心儀物件的名字",t:"t",req:1}],
+ run:function(v){
+  var a=(v.n1||"").trim().toLowerCase(),b=(v.n2||"").trim().toLowerCase();
+  if(!a||!b)return "ERR:請輸入兩個名字。";
+  var s=a+"\u2764"+b,h=0;
+  for(var i=0;i<s.length;i++)h+=s.charCodeAt(i)*(i+7);
+  var pct=41+(h%60),msg;
+  if(pct>=90)msg="Made for each other! \uD83D\uDC98";
+  else if(pct>=75)msg="A wonderful match \u2764\uFE0F";
+  else if(pct>=60)msg="Great chemistry \uD83D\uDE0A";
+  else msg="Friendship is beautiful too \uD83D\uDE04";
+  return big(a+" \u2764 "+b,pct+"%")+tbl(row("Result",msg))
+   +note("This is just for fun — real love is never measured by a calculator. \uD83D\uDE0A");
+ }}
+});
+
+Object.assign(CALCS,{
+
+/* 21 — LOAN (BATCH 2) */
+"loan-calculator":{
+ fields:[
+  {id:"amt",l:"貸款金額（Rs）",t:"n",req:1},
+  {id:"rate",l:"年利率（%）",t:"n",req:1},
+  {id:"ten",l:"Tenure",t:"n",req:1},
+  {id:"unit",l:"Tenure unit",t:"s",o:[["m","Months"],["y","Years"]]}],
+ run:function(v){
+  var P=N(v.amt),r=N(v.rate)/1200,n=N(v.ten)*(v.unit==="y"?12:1);
+  if(P<=0||n<=0)return "ERR:請輸入有效的貸款金額和期限。";
+  var pay,total;
+  if(r===0){pay=P/n;total=P;}
+  else{var f=Math.pow(1+r,n);pay=P*r*f/(f-1);total=pay*n;}
+  return big("Monthly Payment",Rs(pay))
+   +tbl(row("Loan amount",Rs(P))+row("Total interest",Rs(total-P))
+     +row("Total payment",Rs(total))+row("還款期數",F(n,0)))
+   +note("這是基於等額月供的估算。您的銀行可能加收手續費、保險或稅費 — 簽約前請務必確認最終還款計劃。");
+ }},
+
+/* 22 — MORTGAGE (BATCH 2) */
+"mortgage-calculator":{
+ fields:[
+  {id:"price",l:"房價（Rs）",t:"n",req:1},
+  {id:"down",l:"首付（Rs）",t:"n",req:1},
+  {id:"rate",l:"年利率（%）",t:"n",req:1},
+  {id:"yrs",l:"貸款期限（年）",t:"n",req:1}],
+ run:function(v){
+  var price=N(v.price),down=N(v.down),loan=price-down,r=N(v.rate)/1200,n=N(v.yrs)*12;
+  if(price<=0||down<0||loan<=0||n<=0)return "ERR:請輸入有效的房價，且首付須小於房價。";
+  var pay,total;
+  if(r===0){pay=loan/n;total=loan;}
+  else{var f=Math.pow(1+r,n);pay=loan*r*f/(f-1);total=pay*n;}
+  return big("Monthly Payment",Rs(pay))
+   +tbl(row("Home price",Rs(price))+row("Down payment",Rs(down))+row("Loan amount",Rs(loan))
+     +row("Total interest",Rs(total-loan))+row("住房總成本",Rs(total+down)))
+   +note("僅為估算 — 不含稅費、保險、評估和銀行費用。請向您的銀行或住房金融機構確認確切數字。");
+ }},
+
+/* 23 — SAVINGS (BATCH 2) */
+"savings-calculator":{
+ fields:[
+  {id:"dep",l:"每月存款（Rs）",t:"n",req:1},
+  {id:"rate",l:"年利率（%）",t:"n",req:1},
+  {id:"yrs",l:"Years",t:"n",req:1}],
+ run:function(v){
+  var dep=N(v.dep),rate=N(v.rate),yrs=N(v.yrs),r=rate/1200,n=yrs*12;
+  if(dep<=0||yrs<=0)return "ERR:請輸入有效的每月存款和年數。";
+  var fv,depTotal=dep*n;
+  if(r===0)fv=depTotal;
+  else fv=dep*((Math.pow(1+r,n)-1)/r)*(1+r); /* deposit at the start of each month */
+  return big("Future Value",Rs(fv))
+   +tbl(row("Total deposited",Rs(depTotal))+row("Interest earned",Rs(fv-depTotal))
+     +row("Monthly deposit",Rs(dep))+row("存款次數",F(n,0)))
+   +note("假設利率固定、按月複利，且每筆存款在月初存入。真實儲蓄賬戶和計劃的利潤計算方式可能不同。");
+ }},
+
+/* 24 — INVESTMENT (BATCH 2) */
+"investment-calculator":{
+ fields:[
+  {id:"init",l:"初始金額（Rs）",t:"n",req:1},
+  {id:"add",l:"每月追加（Rs，可選）",t:"n"},
+  {id:"rate",l:"預期年回報率（%）",t:"n",req:1},
+  {id:"yrs",l:"Years",t:"n",req:1}],
+ run:function(v){
+  var P=N(v.init),add=N(v.add),rate=N(v.rate),yrs=N(v.yrs),r=rate/1200,n=yrs*12;
+  if(P<0||yrs<=0||(P===0&&add<=0))return "ERR:請輸入初始金額或每月追加金額，以及年數。";
+  var fv;
+  if(r===0)fv=P+add*n;
+  else fv=P*Math.pow(1+r,n)+add*((Math.pow(1+r,n)-1)/r); /* additions at month end */
+  var invested=P+add*n;
+  return big("Future Value",Rs(fv))
+   +tbl(row("Total invested",Rs(invested))+row("Total gain",Rs(fv-invested))
+     +row("Initial amount",Rs(P))+row("每月追加總額",Rs(add*n)))
+   +note("假設回報穩定、按月複利，且追加在每月月末進行。真實投資有漲有跌 — 過往表現從不保證未來回報。");
+ }},
+
+/* 25 — TIP (BATCH 2) */
+"tip-calculator":{
+ fields:[
+  {id:"bill",l:"Bill amount",t:"n",req:1},
+  {id:"tip",l:"Tip (%)",t:"n",req:1,def:"10"},
+  {id:"people",l:"分攤人數",t:"n",req:1,def:"1"}],
+ run:function(v){
+  var bill=N(v.bill),tipPct=N(v.tip),ppl=Math.floor(N(v.people));
+  if(bill<=0)return "ERR:請輸入有效的賬單金額。";
+  if(ppl<1)return "ERR:人數至少為 1。";
+  var tip=bill*tipPct/100,total=bill+tip;
+  return big("應付總額",Rs(total))
+   +tbl(row("Bill amount",Rs(bill))+row("Tip ("+F(tipPct,0)+"%)",Rs(tip))
+     +row("Per person ("+ppl+(ppl===1?" 人":" 人")+")",Rs(total/ppl))
+     +row("每人小費",Rs(tip/ppl)))
+   +note("小費習俗因國家和服務質量而異 — 10% 是常見的起點，優質服務通常可得 15-20%。");
+ }},
+
+/* 26 — VAT / GST (BATCH 2) */
+"vat-calculator":{
+ fields:[
+  {id:"amt",l:"Amount",t:"n",req:1},
+  {id:"rate",l:"增值稅/GST/銷售稅稅率（%）",t:"n",req:1,def:"18"},
+  {id:"mode",l:"Mode",t:"s",o:[["add","加稅 — 我的金額不含稅（淨額）"],["remove","去稅 — 我的金額含稅（總額）"]]}],
+ run:function(v){
+  var a=N(v.amt),rate=N(v.rate),net,tax,gross;
+  if(a<=0)return "ERR:請輸入有效的金額。";
+  if(rate<0)return "ERR:稅率不能為負。";
+  if(v.mode==="remove"){gross=a;net=a/(1+rate/100);tax=gross-net;}
+  else{net=a;tax=a*rate/100;gross=net+tax;}
+  return big("含稅總額",Rs(gross))
+   +tbl(row("不含稅淨額",Rs(net))+row("Tax amount ("+F(rate,0)+"%)",Rs(tax))
+     +row("含稅總額",Rs(gross)))
+   +note("適用於世界各地的增值稅、GST 和銷售稅。稅率因國家和產品而異 — 請輸入適用於您的購買或發票的稅率。");
+ }},
+
+/* 27 — BMR & TDEE (BATCH 2) */
+"bmr-calculator":{
+ fields:[
+  {id:"sex",l:"Gender",t:"s",o:[["m","Male"],["f","Female"]]},
+  {id:"age",l:"Age (years)",t:"n",req:1},
+  {id:"w",l:"Weight (kg)",t:"n",req:1},
+  {id:"h",l:"Height (cm)",t:"n",req:1},
+  {id:"act",l:"Activity level",t:"s",o:[["1.2","久坐 — 伏案工作，幾乎不運動"],["1.375","輕度 — 每週運動 1-3 天"],["1.55","中度 — 每週運動 3-5 天"],["1.725","活躍 — 每週運動 6-7 天"],["1.9","運動員 — 每天高強度訓練"]]}],
+ run:function(v){
+  var age=N(v.age),w=N(v.w),h=N(v.h),act=N(v.act)||1.2;
+  if(age<=0||w<=0||h<=0)return "ERR:請輸入有效的年齡、體重和身高。";
+  var bmr=10*w+6.25*h-5*age+(v.sex==="f"?-161:5);
+  var tdee=bmr*act;
+  return big("您的 TDEE（每日卡路里）",F(tdee,0)+" 千卡")
+   +tbl(row("BMR（完全靜息時消耗的卡路里）",F(bmr,0)+" 千卡")
+     +row("TDEE (BMR \u00D7 activity)",F(tdee,0)+" 千卡"))
+   +note("採用 Mifflin-St Jeor 公式計算，這是應用最廣的估算方法。您的真實代謝可能不同 — 請將其視為起點，而非醫學測量。");
+ }},
+
+/* 28 — DAILY CALORIES (BATCH 2) */
+"calorie-calculator":{
+ fields:[
+  {id:"sex",l:"Gender",t:"s",o:[["m","Male"],["f","Female"]]},
+  {id:"age",l:"Age (years)",t:"n",req:1},
+  {id:"w",l:"Weight (kg)",t:"n",req:1},
+  {id:"h",l:"Height (cm)",t:"n",req:1},
+  {id:"act",l:"Activity level",t:"s",o:[["1.2","久坐 — 伏案工作，幾乎不運動"],["1.375","輕度 — 每週運動 1-3 天"],["1.55","中度 — 每週運動 3-5 天"],["1.725","活躍 — 每週運動 6-7 天"],["1.9","運動員 — 每天高強度訓練"]]},
+  {id:"goal",l:"Your goal",t:"s",o:[["maintain","保持我的體重"],["lose","Lose weight"],["gain","Gain weight"]]}],
+ run:function(v){
+  var age=N(v.age),w=N(v.w),h=N(v.h),act=N(v.act)||1.2;
+  if(age<=0||w<=0||h<=0)return "ERR:請輸入有效的年齡、體重和身高。";
+  var bmr=10*w+6.25*h-5*age+(v.sex==="f"?-161:5);
+  var tdee=bmr*act,target=tdee,gnote="以保持您目前的體重";
+  if(v.goal==="lose"){target=tdee-500;gnote="以每週減重約 0.5 kg";}
+  if(v.goal==="gain"){target=tdee+500;gnote="以每週增重約 0.5 kg";}
+  var clamped=false;
+  if(target<1200){target=1200;clamped=true;}
+  return big("您的每日卡路里目標",F(target,0)+" 千卡")
+   +tbl(row("維持卡路里（TDEE）",F(tdee,0)+" 千卡")
+     +row("Your goal","Eat "+F(target,0)+" 千卡/天 "+gnote))
+   +(clamped?note("已應用安全下限：不建議在沒有醫療監督的情況下每天攝入少於 1,200 千卡，因此您的目標已設為 1,200 千卡。"):note("每天 500 千卡的差額約使體重每週變化 0.5 kg。切勿在沒有醫療監督的情況下低於每天 1,200 千卡 — 個人飲食計劃請諮詢醫生或營養師。"));
+ }},
+
+/* 29 — WATER INTAKE (BATCH 2) */
+"water-intake-calculator":{
+ fields:[
+  {id:"w",l:"您的體重（kg）",t:"n",req:1},
+  {id:"ex",l:"每天運動時間（分鐘）",t:"n",def:"0"}],
+ run:function(v){
+  var w=N(v.w),ex=N(v.ex);
+  if(w<=0)return "ERR:請輸入有效的體重。";
+  var ml=w*35+(ex/30)*350;
+  return big("推薦飲水量",F(ml/1000,2)+" 升/天")
+   +tbl(row("In millilitres",F(ml,0)+" ml")
+     +row("以杯計（每杯 250 ml）",F(ml/250,1)+" 杯")
+     +row("按您的體重（每 kg 35 ml）",F(w*35,0)+" ml")
+     +row("運動額外補充",F((ex/30)*350,0)+" ml"))
+   +note("一般指導：35 ml 每 kg 體重，加上約 350 ml，每 30 分鐘運動一次。炎熱天氣、體力勞動和疾病都會增加需求 — 口渴本身也是有用的訊號。");
+ }},
+
+/* 30 — IDEAL WEIGHT (BATCH 2) */
+"ideal-weight-calculator":{
+ fields:[
+  {id:"sex",l:"Gender",t:"s",o:[["m","Male"],["f","Female"]]},
+  {id:"h",l:"Height (cm)",t:"n",req:1}],
+ run:function(v){
+  var h=N(v.h);
+  if(h<=0)return "ERR:請輸入有效的身高。";
+  var m=h/100,over=h/2.54-60;
+  var devine=(v.sex==="f"?45.5:50)+2.3*over;
+  return big("您的理想體重（Devine 公式）",F(devine,1)+" kg")
+   +tbl(row("適合您身高的健康 BMI 體重範圍",F(18.5*m*m,1)+" kg to "+F(24.9*m*m,1)+" kg")
+     +row("Height",F(h,0)+" cm")+row("健康 BMI 範圍","18.5 to 24.9"))
+   +note("Devine 公式和 BMI 範圍是一般人群參考。肌肉、骨骼結構和健康狀況同樣重要 — 個人建議請諮詢醫生。");
+ }},
+
+/* 31 — DATE CALCULATOR ADD/SUBTRACT (BATCH 2) */
+"date-calculator":{
+ fields:[
+  {id:"s",l:"Start date",t:"d",req:1},
+  {id:"op",l:"Operation",t:"s",o:[["add","日期加上"],["sub","日期減去"]]},
+  {id:"d",l:"Days",t:"n",def:"0"},
+  {id:"wk",l:"Weeks",t:"n",def:"0"},
+  {id:"mo",l:"Months",t:"n",def:"0"},
+  {id:"yr",l:"Years",t:"n",def:"0"}],
+ run:function(v){
+  var s=pdate(v.s);
+  if(!s)return "ERR:請選擇開始日期。";
+  var sgn=v.op==="sub"?-1:1;
+  var out=new Date(s.getFullYear(),s.getMonth(),s.getDate());
+  out.setFullYear(out.getFullYear()+sgn*N(v.yr));
+  out.setMonth(out.getMonth()+sgn*N(v.mo));
+  out.setDate(out.getDate()+sgn*(N(v.d)+N(v.wk)*7));
+  var moved=Math.abs(dayDiff(s,out));
+  return big("Resulting Date",fdate(out))
+   +tbl(row("Start date",fdate(s))
+     +row("Change",(v.op==="sub"?"\u2212 ":"")+F(Math.abs(N(v.yr)),0)+" 年，"+F(Math.abs(N(v.mo)),0)+" 個月，"+F(Math.abs(N(v.wk)),0)+" 周，"+F(Math.abs(N(v.d)),0)+" 天")
+     +row("移動總天數",F(moved,0)));
+ }},
+
+/* 32 — WORKING DAYS (BATCH 2) */
+"working-days-calculator":{
+ fields:[
+  {id:"s",l:"Start date",t:"d",req:1},
+  {id:"e",l:"End date",t:"d",def:"today"}],
+ run:function(v){
+  var a=pdate(v.s),b=pdate(v.e)||new Date();
+  if(!a)return "ERR:請選擇開始日期。";
+  if(b<a){var t=a;a=b;b=t;}
+  var total=0,work=0,weekend=0,cur=new Date(a.getTime());
+  while(cur<=b){
+    total++;
+    var dw=cur.getDay();
+    if(dw===0||dw===6)weekend++;else work++;
+    cur.setDate(cur.getDate()+1);
+    if(total>36600)return "ERR:該日期範圍太大（超過 100 年）。";
+  }
+  return big("工作日（週一至週五）",F(work,0))
+   +tbl(row("總天數（包括起止日期）",F(total,0))
+     +row("週末天數（週六至週日）",F(weekend,0))
+     +row("From",fdate(a))+row("To",fdate(b)))
+   +note("此處的工作日指週一至週五。公共假日因國家而異，未予扣除 — 精確的休假或截止日期規劃請檢視當地假日日曆。");
+ }},
+
+/* 33 — OVULATION (BATCH 2) */
+"ovulation-calculator":{
+ fields:[
+  {id:"lmp",l:"末次月經第一天",t:"d",req:1},
+  {id:"cycle",l:"週期長度（天）",t:"n",req:1,def:"28"}],
+ run:function(v){
+  var lmp=pdate(v.lmp),cyc=N(v.cycle);
+  if(!lmp)return "ERR:請選擇末次月經第一天。";
+  if(cyc<21||cyc>40)return "ERR:請輸入 21 至 40 天之間的週期長度。";
+  function add(d,n){return new Date(d.getTime()+n*86400000);}
+  var ov=add(lmp,cyc-14),fert=add(ov,-5),next=add(lmp,cyc),due=add(ov,266);
+  return big("預計排卵日",fdate(ov))
+   +tbl(row("Fertile window",fdate(fert)+" to "+fdate(ov))
+     +row("下次月經預計",fdate(next))
+     +row("如受孕的預計預產期",fdate(due)))
+   +note("這是基於平均週期的估算：假設排卵發生在下次月經前 14 天。真實週期每月都可能不同 — 本計算器不是醫療器械，不得作為避孕依據。備孕計劃或疑慮請諮詢醫生。");
+ }},
+
+/* 34 — FUEL COST (BATCH 2) */
+"fuel-cost-calculator":{
+ fields:[
+  {id:"dist",l:"Distance (km)",t:"n",req:1},
+  {id:"mil",l:"車輛油耗（km/升）",t:"n",req:1},
+  {id:"price",l:"燃油價格（每升）",t:"n",req:1},
+  {id:"trip",l:"Trip type",t:"s",o:[["one","One way"],["round","Round trip"]]}],
+ run:function(v){
+  var d=N(v.dist),mil=N(v.mil),price=N(v.price);
+  if(d<=0||mil<=0||price<=0)return "ERR:請輸入有效的距離、油耗和燃油價格。";
+  var totalDist=v.trip==="round"?d*2:d;
+  var litres=totalDist/mil,cost=litres*price;
+  return big("燃油總成本",Rs(cost))
+   +tbl(row("Total distance",F(totalDist,0)+" km")
+     +row("Fuel needed",F(litres,2)+" 升")
+     +row("每升燃油價格",Rs(price))
+     +row("每公里成本",Rs(cost/totalDist)))
+   +note("基於您車輛平均油耗的估算。交通、空調、載重和路況都會改變實際油耗 — 長途旅行請留少量餘量。");
+ }},
+
+/* 35 — UNIT CONVERTER (BATCH 2) */
+"unit-converter":{
+ fields:[
+  {id:"cat",l:"Category",t:"s",o:[["length","Length"],["weight","Weight"],["temperature","Temperature"],["volume","Volume"],["area","Area"]]},
+  {id:"val",l:"要轉換的數值",t:"n",req:1},
+  {id:"from",l:"From Unit",t:"s",o:[["mm","Length \u2014 Millimetre (mm)"],["cm","Length \u2014 Centimetre (cm)"],["m","Length \u2014 Metre (m)"],["km","Length \u2014 Kilometre (km)"],["in","Length \u2014 Inch"],["ft","Length \u2014 Foot"],["yd","Length \u2014 Yard"],["mi","Length \u2014 Mile"],["g","Weight \u2014 Gram (g)"],["kg","Weight \u2014 Kilogram (kg)"],["t","Weight \u2014 Tonne"],["lb","Weight \u2014 Pound (lb)"],["oz","Weight \u2014 Ounce (oz)"],["c","Temperature \u2014 Celsius (\u00B0C)"],["f","Temperature \u2014 Fahrenheit (\u00B0F)"],["k","Temperature \u2014 Kelvin (K)"],["ml","Volume \u2014 Millilitre (ml)"],["l","Volume \u2014 Litre (L)"],["gal","Volume \u2014 US Gallon"],["m3","Volume \u2014 Cubic Metre (m\u00B3)"],["m2","Area \u2014 Square Metre (m\u00B2)"],["ft2","Area \u2014 Square Foot (ft\u00B2)"],["yd2","Area \u2014 Square Yard (yd\u00B2)"],["acre","Area \u2014 Acre"],["ha","Area \u2014 Hectare"]]},
+  {id:"to",l:"To Unit",t:"s",o:[["mm","Length \u2014 Millimetre (mm)"],["cm","Length \u2014 Centimetre (cm)"],["m","Length \u2014 Metre (m)"],["km","Length \u2014 Kilometre (km)"],["in","Length \u2014 Inch"],["ft","Length \u2014 Foot"],["yd","Length \u2014 Yard"],["mi","Length \u2014 Mile"],["g","Weight \u2014 Gram (g)"],["kg","Weight \u2014 Kilogram (kg)"],["t","Weight \u2014 Tonne"],["lb","Weight \u2014 Pound (lb)"],["oz","Weight \u2014 Ounce (oz)"],["c","Temperature \u2014 Celsius (\u00B0C)"],["f","Temperature \u2014 Fahrenheit (\u00B0F)"],["k","Temperature \u2014 Kelvin (K)"],["ml","Volume \u2014 Millilitre (ml)"],["l","Volume \u2014 Litre (L)"],["gal","Volume \u2014 US Gallon"],["m3","Volume \u2014 Cubic Metre (m\u00B3)"],["m2","Area \u2014 Square Metre (m\u00B2)"],["ft2","Area \u2014 Square Foot (ft\u00B2)"],["yd2","Area \u2014 Square Yard (yd\u00B2)"],["acre","Area \u2014 Acre"],["ha","Area \u2014 Hectare"]]}],
+ run:function(v){
+  var FACT={
+   length:{base:"metres",u:{mm:0.001,cm:0.01,m:1,km:1000,"in":0.0254,ft:0.3048,yd:0.9144,mi:1609.344},lab:{mm:"millimetres",cm:"centimetres",m:"metres",km:"kilometres","in":"inches",ft:"feet",yd:"yards",mi:"miles"}},
+   weight:{base:"kilograms",u:{g:0.001,kg:1,t:1000,lb:0.45359237,oz:0.028349523125},lab:{g:"grams",kg:"kilograms",t:"tonnes",lb:"pounds",oz:"ounces"}},
+   volume:{base:"litres",u:{ml:0.001,l:1,gal:3.785411784,m3:1000},lab:{ml:"millilitres",l:"litres",gal:"US gallons",m3:"cubic metres"}},
+   area:{base:"square metres",u:{m2:1,ft2:0.09290304,yd2:0.83612736,acre:4046.8564224,ha:10000},lab:{m2:"square metres",ft2:"square feet",yd2:"square yards",acre:"acres",ha:"hectares"}}};
+  var val=N(v.val),cat=v.cat;
+  if(v.from===v.to&&val!==0){/* same unit: handled naturally below */}
+  if(cat==="temperature"){
+    if(["c","f","k"].indexOf(v.from)<0||["c","f","k"].indexOf(v.to)<0)
+      return "ERR:For Temperature, choose the From and To units from the Temperature group (\u00B0C, \u00B0F, K).";
+    var cval=v.from==="c"?val:(v.from==="f"?(val-32)*5/9:val-273.15);
+    var out=v.to==="c"?cval:(v.to==="f"?cval*9/5+32:cval+273.15);
+    var names={c:"\u00B0C",f:"\u00B0F",k:"K"};
+    return big(F(val)+names[v.from]+" =",F(out)+" "+names[v.to])
+     +tbl(row("In Celsius",F(cval)+"\u00B0C")+row("In Fahrenheit",F(cval*9/5+32)+"\u00B0F")+row("In Kelvin",F(cval+273.15)+" K"))
+     +note("Temperature is converted with the exact formulas: \u00B0F = \u00B0C \u00D7 9/5 + 32 and K = \u00B0C + 273.15.");
+  }
+  var C=FACT[cat];
+  if(!C||!(v.from in C.u)||!(v.to in C.u))
+    return "ERR:源單位和目標單位必須同屬所選類別。請更換類別或從其分組中選擇單位。";
+  var res=val*C.u[v.from]/C.u[v.to];
+  return big(F(val)+" "+C.lab[v.from]+" =",F(res,4)+" "+C.lab[v.to])
+   +tbl(row("Category",cat.charAt(0).toUpperCase()+cat.slice(1))+row("Result in "+C.base,F(val*C.u[v.from],4)))
+   +note("Conversions use exact international standard factors (for example 1 mile = 1,609.344 metres and 1 pound = 0.45359237 kg). Results are rounded to 4 decimal places.");
+ }}});
+
+Object.assign(CALCS,{
+
+/* 36 — PROFIT MARGIN (BATCH 3) */
+"profit-margin-calculator":{
+ fields:[
+  {id:"cost",l:"成本價（產品讓您花費的）",t:"n",req:1},
+  {id:"price",l:"售價（顧客支付的）",t:"n",req:1}],
+ run:function(v){
+  var cost=N(v.cost),price=N(v.price);
+  if(cost<=0)return "ERR:成本價必須大於零。";
+  if(price<=0)return "ERR:售價必須大於零。";
+  var profit=price-cost;
+  return big(profit>=0?"Profit":"虧損（負利潤）",Rs(profit))
+   +tbl(row("Cost price",Rs(cost))+row("Selling price",Rs(price))
+     +row("利潤率（按售價計）",F(profit/price*100)+"%")
+     +row("加價率（按成本價計）",F(profit/cost*100)+"%"))
+   +note("Margin and markup describe the same profit in two different ways: margin is measured against the selling price, markup against the cost price. Margin can never exceed 100%; markup can.");
+ }},
+
+/* 37 — BREAK-EVEN (BATCH 3) */
+"break-even-calculator":{
+ fields:[
+  {id:"fixed",l:"固定成本總額（Rs）",t:"n",req:1},
+  {id:"price",l:"每件售價（Rs）",t:"n",req:1},
+  {id:"varcost",l:"每件變動成本（Rs）",t:"n",req:1}],
+ run:function(v){
+  var fixed=N(v.fixed),price=N(v.price),vc=N(v.varcost),contrib=price-vc;
+  if(fixed<0||price<=0||vc<0)return "ERR:請輸入有效成本和大於零的售價。";
+  if(contrib<=0)return "ERR:The selling price must be higher than the variable cost per unit \u2014 otherwise every sale loses money and break-even is impossible.";
+  var units=Math.ceil(fixed/contrib);
+  return big("Break-Even Point",F(units,0)+" 件")
+   +tbl(row("Break-even revenue",Rs(units*price))
+     +row("Contribution per unit (price \u2212 variable cost)",Rs(contrib))
+     +row("Fixed costs",Rs(fixed))
+     +row("每件售價",Rs(price)))
+   +note("件數向上取整到下一個整數，因為不足一件無法出售。在盈虧平衡點之後每多賣一件，就會增加 "+Rs(contrib)+" 的利潤（每件的貢獻）。");
+ }},
+
+/* 38 — ROI (BATCH 3) */
+"roi-calculator":{
+ fields:[
+  {id:"invested",l:"投資金額（Rs）",t:"n",req:1},
+  {id:"returned",l:"回報金額/現值（Rs）",t:"n",req:1},
+  {id:"yrs",l:"Years held",t:"n",req:1}],
+ run:function(v){
+  var inv=N(v.invested),ret=N(v.returned),yrs=N(v.yrs);
+  if(inv<=0)return "ERR:投資金額必須大於零。";
+  if(ret<0)return "ERR:回報金額不能為負。";
+  if(yrs<=0)return "ERR:請輸入持有年數（大於零）。";
+  var profit=ret-inv,total=profit/inv*100,ann=(Math.pow(ret/inv,1/yrs)-1)*100;
+  return big("Total ROI",F(total)+"%")
+   +tbl(row("Amount invested",Rs(inv))+row("Amount returned",Rs(ret))
+     +row(profit>=0?"Profit":"Loss",Rs(profit))
+     +row("年化 ROI（每年）",F(ann)+"%")
+     +row("Years held",F(yrs)))
+   +note("Annualized ROI is the steady yearly growth rate that would carry the invested amount to the returned amount \u2014 it lets you compare investments held for different lengths of time.");
+ }},
+
+/* 39 — SIP (BATCH 3) */
+"sip-calculator":{
+ fields:[
+  {id:"monthly",l:"每月投資（Rs）",t:"n",req:1},
+  {id:"rate",l:"預期年回報率（%）",t:"n",req:1},
+  {id:"yrs",l:"Years",t:"n",req:1}],
+ run:function(v){
+  var P=N(v.monthly),rate=N(v.rate),yrs=N(v.yrs),r=rate/1200,n=yrs*12;
+  if(P<=0||yrs<=0)return "ERR:請輸入有效的每月投資和年數。";
+  var fv;
+  if(r===0)fv=P*n;else fv=P*((Math.pow(1+r,n)-1)/r)*(1+r);
+  var invested=P*n;
+  return big("預計未來價值",Rs(fv))
+   +tbl(row("Total invested",Rs(invested))+row("Estimated gains",Rs(fv-invested))
+     +row("Monthly investment",Rs(P))+row("投資次數",F(n,0)))
+   +note("Assumes each monthly investment is made at the START of the month, with monthly compounding. The return is a projection using the rate you enter \u2014 real market returns are never guaranteed and never grow in a straight line.");
+ }},
+
+/* 40 — FIXED DEPOSIT (BATCH 3) */
+"fixed-deposit-calculator":{
+ fields:[
+  {id:"amt",l:"存款金額（Rs）",t:"n",req:1},
+  {id:"rate",l:"年利率（%）",t:"n",req:1},
+  {id:"ten",l:"Tenure",t:"n",req:1},
+  {id:"unit",l:"Tenure unit",t:"s",o:[["m","Months"],["y","Years"]]},
+  {id:"freq",l:"Compounding frequency",t:"s",o:[["4","每季度（每年 4 次）"],["2","Half-yearly (2)"],["1","Yearly (1)"],["12","Monthly (12)"]]}],
+ run:function(v){
+  var P=N(v.amt),rate=N(v.rate),ten=N(v.ten),f=N(v.freq)||4;
+  if(P<=0||ten<=0)return "ERR:請輸入有效的存款金額和期限。";
+  var t=v.unit==="y"?ten:ten/12;
+  var A=P*Math.pow(1+rate/100/f,f*t);
+  var flab={"1":"Yearly","2":"Half-yearly","4":"Quarterly","12":"Monthly"}[v.freq]||"Quarterly";
+  return big("Maturity Value",Rs(A))
+   +tbl(row("Deposit amount",Rs(P))+row("Interest earned",Rs(A-P))
+     +row("Annual rate",F(rate)+"%")
+     +row("Tenure",F(ten,0)+(v.unit==="y"?" 年":" 個月"))
+     +row("Compounding",flab))
+   +note("The rate of a fixed deposit is fixed when you open it. Early withdrawal usually earns a lower rate, and tax may apply to the interest \u2014 check your bank's current terms.");
+ }},
+
+/* 41 — RECURRING DEPOSIT (BATCH 3) */
+"recurring-deposit-calculator":{
+ fields:[
+  {id:"dep",l:"每月存款（Rs）",t:"n",req:1},
+  {id:"rate",l:"年利率（%）",t:"n",req:1},
+  {id:"mos",l:"Tenure (months)",t:"n",req:1}],
+ run:function(v){
+  var P=N(v.dep),rate=N(v.rate),mos=N(v.mos);
+  if(P<=0||mos<=0)return "ERR:請輸入有效的每月存款和以月計的期限。";
+  var i=rate/100/4,fv;
+  if(i===0)fv=P*mos;
+  else{var q=Math.pow(1+i,1/3);fv=P*q*(Math.pow(q,mos)-1)/(q-1);}
+  return big("Maturity Value",Rs(fv))
+   +tbl(row("Total deposited",Rs(P*mos))+row("Interest earned",Rs(fv-P*mos))
+     +row("Monthly deposit",Rs(P))+row("Tenure",F(mos,0)+" 個月"))
+   +note("按銀行標準方式計算：利息每季度複利（每 3 個月），且每筆存款假設在月初存入。漏存通常會被銀行小額罰款，到期價值也會略有降低。");
+ }},
+
+/* 42 — GRATUITY (BATCH 3) */
+"gratuity-calculator":{
+ fields:[
+  {id:"salary",l:"Last drawn monthly salary (Rs) \u2014 basic + dearness allowance",t:"n",req:1},
+  {id:"yrs",l:"已完成服務年限",t:"n",req:1}],
+ run:function(v){
+  var sal=N(v.salary),yrs=N(v.yrs);
+  if(sal<=0)return "ERR:請輸入您最後領取的月薪。";
+  if(yrs<=0)return "ERR:請輸入您已完成的服務年限。";
+  var g=sal*yrs;
+  return big("Estimated Gratuity",Rs(g))
+   +tbl(row("最後領取的月薪",Rs(sal))
+     +row("已完成服務年限",F(yrs))
+     +row("Formula","Monthly salary \u00D7 years of service (30 days' wages per year)"))
+   +note("This estimate uses the convention common in Pakistan: gratuity equal to 30 days' wages for every completed year of service \u2014 one month's last drawn salary per year. It is an estimate only: your employer's rules, your employment category and the current law decide the exact amount.");
+ }},
+
+/* 43 — RETIREMENT (BATCH 3) */
+"retirement-calculator":{
+ fields:[
+  {id:"cage",l:"您現在的年齡",t:"n",req:1},
+  {id:"rage",l:"計劃退休年齡",t:"n",req:1},
+  {id:"sav",l:"當前儲蓄（Rs）",t:"n"},
+  {id:"mon",l:"每月繳存（Rs）",t:"n"},
+  {id:"rate",l:"預期年回報率（%）",t:"n",req:1}],
+ run:function(v){
+  var cage=N(v.cage),rage=N(v.rage),sav=N(v.sav),mon=N(v.mon),rate=N(v.rate);
+  var yrs=rage-cage;
+  if(cage<=0||rage<=0)return "ERR:請輸入您現在的年齡和計劃退休年齡。";
+  if(yrs<=0)return "ERR:退休年齡必須大於您現在的年齡。";
+  if(sav<0||mon<0||(sav===0&&mon===0))return "ERR:請輸入您的當前儲蓄或每月繳存。";
+  var n=yrs*12,r=rate/1200,corpus;
+  if(r===0)corpus=sav+mon*n;
+  else corpus=sav*Math.pow(1+r,n)+mon*((Math.pow(1+r,n)-1)/r);
+  var contrib=sav+mon*n;
+  return big("退休時預計資金總額",Rs(corpus))
+   +tbl(row("距退休年數",F(yrs,0))
+     +row("Current savings",Rs(sav))
+     +row("您將投入的總額",Rs(contrib))
+     +row("增長（利息/回報）",Rs(corpus-contrib)))
+   +note("Assumes contributions at the END of each month with monthly compounding, at the steady return you enter. The corpus is in future rupees \u2014 inflation will reduce what it buys, so also try our Inflation Calculator for a realistic target.");
+ }},
+
+/* 44 — INFLATION (BATCH 3) */
+"inflation-calculator":{
+ fields:[
+  {id:"amt",l:"Amount (Rs)",t:"n",req:1},
+  {id:"rate",l:"年通貨膨脹率（%）",t:"n",req:1},
+  {id:"yrs",l:"Years",t:"n",req:1}],
+ run:function(v){
+  var amt=N(v.amt),rate=N(v.rate),yrs=N(v.yrs);
+  if(amt<=0||yrs<=0)return "ERR:請輸入有效的金額和年數。";
+  var f=Math.pow(1+rate/100,yrs);
+  return big("同樣商品的未來成本",Rs(amt*f))
+   +tbl(row("Amount today",Rs(amt))
+     +row("該金額在以下時間的購買力 "+F(yrs,0)+" 年",Rs(amt/f))
+     +row("Inflation rate",F(rate)+"% per year")
+     +row("損失的購買力",F((1-1/f)*100)+"%"))
+   +note("Money that does not grow loses buying power every year. To keep up, savings and investments need to earn at least the inflation rate \u2014 just to stand still.");
+ }},
+
+/* 45 — CAGR (BATCH 3) */
+"cagr-calculator":{
+ fields:[
+  {id:"begin",l:"起始價值（Rs）",t:"n",req:1},
+  {id:"end",l:"結束價值（Rs）",t:"n",req:1},
+  {id:"yrs",l:"年數",t:"n",req:1}],
+ run:function(v){
+  var b=N(v.begin),e=N(v.end),yrs=N(v.yrs);
+  if(b<=0)return "ERR:起始價值必須大於零。";
+  if(e<0)return "ERR:結束價值不能為負。";
+  if(yrs<=0)return "ERR:請輸入年數（大於零）。";
+  var cagr=(Math.pow(e/b,1/yrs)-1)*100;
+  return big("CAGR",F(cagr)+"% per year")
+   +tbl(row("Beginning value",Rs(b))+row("Ending value",Rs(e))
+     +row("Total growth",F((e-b)/b*100)+"%")
+     +row("Years",F(yrs)))
+   +note("CAGR is the steady yearly rate that would carry the beginning value to the ending value with smooth compounding. Real growth is never this smooth \u2014 CAGR is a comparison tool, not a history of what happened in between.");
+ }},
+
+/* 46 — AVERAGE (BATCH 3) */
+"average-calculator":{
+ fields:[
+  {id:"nums",l:"Your numbers (separated by commas or spaces \u2014 up to 50)",t:"t",req:1,ph:"e.g. 10, 20, 30, 40"}],
+ run:function(v){
+  var raw=(v.nums||"").split(/[\s,;]+/).filter(function(x){return x.length>0;});
+  if(raw.length>50)return "ERR:最多請輸入 50 個數字。";
+  var arr=parseList(v.nums);
+  if(!arr)return "ERR:請只輸入數字，用逗號或空格分隔。";
+  var sorted=arr.slice().sort(function(a,b){return a-b;});
+  var sum=arr.reduce(function(a,b){return a+b;},0),n=arr.length;
+  return big("Mean (Average)",F(sum/n))
+   +tbl(row("中位數（中間值）",F(medianSorted(sorted)))
+     +row("眾數（出現最頻繁）",modeText(arr))
+     +row("Sum",F(sum))+row("Count",F(n,0))
+     +row("Minimum",F(sorted[0]))+row("Maximum",F(sorted[n-1]))
+     +row("Range (max \u2212 min)",F(sorted[n-1]-sorted[0])))
+   +note("The mean suits evenly spread numbers. When a few extreme values pull the mean away from the typical value \u2014 incomes are the classic example \u2014 the median describes the middle better.");
+ }},
+
+/* 47 — RATIO (BATCH 3) */
+"ratio-calculator":{
+ fields:[
+  {id:"a",l:"First value (A)",t:"n",req:1},
+  {id:"b",l:"Second value (B)",t:"n",req:1},
+  {id:"total",l:"按此比例分配的總額（可選）",t:"n"}],
+ run:function(v){
+  var a=N(v.a),b=N(v.b);
+  if(a<=0||b<=0)return "ERR:請輸入兩個都大於零的值。";
+  function decs(x){var s=String(x),p=s.indexOf(".");return p<0?0:Math.min(6,s.length-p-1);}
+  var scale=Math.pow(10,Math.max(decs(a),decs(b)));
+  var ai=Math.round(a*scale),bi=Math.round(b*scale),g=gcd2(ai,bi);
+  var sa=ai/g,sb=bi/g,parts=sa+sb;
+  var rows=row("Original ratio",F(a)+" : "+F(b))+row("Total parts",F(parts,0));
+  var tot=N(v.total);
+  if(tot>0){
+    rows+=row("A 的份額（共 "+F(tot)+")",F(tot*sa/parts))
+         +row("B 的份額（共 "+F(tot)+")",F(tot*sb/parts));
+  }
+  return big("Simplified Ratio",sa+" : "+sb)+tbl(rows)
+   +note("兩邊都除以它們的最大公約數，得到最簡整數比。在上方新增總額，即可按此確切比例分配金錢、配料或任何東西。");
+ }},
+
+/* 48 — FRACTION (BATCH 3) */
+"fraction-calculator":{
+ fields:[
+  {id:"n1",l:"First fraction \u2014 numerator (top number)",t:"n",req:1},
+  {id:"d1",l:"First fraction \u2014 denominator (bottom number)",t:"n",req:1},
+  {id:"op",l:"Operation",t:"s",o:[["add","Add (+)"],["sub","Subtract (\u2212)"],["mul","Multiply (\u00D7)"],["div","Divide (\u00F7)"]]},
+  {id:"n2",l:"Second fraction \u2014 numerator (top number)",t:"n",req:1},
+  {id:"d2",l:"Second fraction \u2014 denominator (bottom number)",t:"n",req:1}],
+ run:function(v){
+  var n1=N(v.n1),d1=N(v.d1),n2=N(v.n2),d2=N(v.d2);
+  if(!Number.isInteger(n1)||!Number.isInteger(d1)||!Number.isInteger(n2)||!Number.isInteger(d2))
+    return "ERR:Please enter whole numbers for both fractions (write decimals as fractions, e.g. 0.5 = 1/2).";
+  if(d1===0||d2===0)return "ERR:分母不能為零。";
+  var rn,rd,sym;
+  if(v.op==="add"){rn=n1*d2+n2*d1;rd=d1*d2;sym="+";}
+  else if(v.op==="sub"){rn=n1*d2-n2*d1;rd=d1*d2;sym="\u2212";}
+  else if(v.op==="mul"){rn=n1*n2;rd=d1*d2;sym="\u00D7";}
+  else{
+    if(n2===0)return "ERR:You cannot divide by a fraction whose numerator is zero \u2014 that is dividing by zero.";
+    rn=n1*d2;rd=d1*n2;sym="\u00F7";
+  }
+  if(rd<0){rn=-rn;rd=-rd;}
+  var g=gcd2(rn,rd);rn/=g;rd/=g;
+  var sign=rn<0?"\u2212":"",an=Math.abs(rn),whole=Math.floor(an/rd),rem=an%rd;
+  var fracStr,mixedStr;
+  if(rd===1){fracStr=sign+an;mixedStr=fracStr;}
+  else if(whole>0&&rem>0){fracStr=sign+an+"/"+rd;mixedStr=sign+whole+" "+rem+"/"+rd;}
+  else{fracStr=sign+an+"/"+rd;mixedStr=fracStr;}
+  return big("Result",fracStr)
+   +tbl(row("化為帶分數",mixedStr)
+     +row("As a decimal",F(rn/rd,4))
+     +row("Calculation",F(n1,0)+"/"+F(d1,0)+" "+sym+" "+F(n2,0)+"/"+F(d2,0)))
+   +note("答案透過將分子和分母除以它們的最大公約數來化簡。");
+ }},
+
+/* 49 — STATISTICS (BATCH 3) */
+"statistics-calculator":{
+ fields:[
+  {id:"nums",l:"Your numbers (separated by commas or spaces \u2014 up to 50)",t:"t",req:1,ph:"e.g. 4, 8, 15, 16, 23, 42"}],
+ run:function(v){
+  var raw=(v.nums||"").split(/[\s,;]+/).filter(function(x){return x.length>0;});
+  if(raw.length>50)return "ERR:最多請輸入 50 個數字。";
+  var arr=parseList(v.nums);
+  if(!arr)return "ERR:請只輸入數字，用逗號或空格分隔。";
+  var n=arr.length,sorted=arr.slice().sort(function(a,b){return a-b;});
+  var sum=arr.reduce(function(a,b){return a+b;},0),mean=sum/n;
+  var ss=arr.reduce(function(a,x){return a+(x-mean)*(x-mean);},0);
+  var pvar=ss/n,psd=Math.sqrt(pvar),svar=n>1?ss/(n-1):null;
+  return big("Mean",F(mean))
+   +tbl(row("Median",F(medianSorted(sorted)))
+     +row("Mode",modeText(arr))
+     +row("Range",F(sorted[n-1]-sorted[0]))
+     +row("Variance (population)",F(pvar))
+     +row("標準差（總體）",F(psd))
+     +row("Variance (sample)",svar===null?"\u2014 (needs at least 2 numbers)":F(svar))
+     +row("標準差（樣本）",svar===null?"\u2014 (needs at least 2 numbers)":F(Math.sqrt(svar)))
+     +row("Sum",F(sum))+row("Count",F(n,0))
+     +row("Minimum",F(sorted[0]))+row("Maximum",F(sorted[n-1])))
+   +note("Use the population figures when your numbers are the complete set you care about; use the sample figures when they are a sample drawn from a larger group. Standard deviation measures how spread out the values are around the mean.");
+ }},
+
+/* 50 — LCM & HCF (BATCH 3) */
+"lcm-hcf-calculator":{
+ fields:[
+  {id:"a",l:"第一個整數",t:"n",req:1},
+  {id:"b",l:"第二個整數",t:"n",req:1},
+  {id:"c",l:"第三個整數（可選）",t:"n"}],
+ run:function(v){
+  var a=N(v.a),b=N(v.b),hasC=(v.c!==undefined&&String(v.c).trim()!==""),c=hasC?N(v.c):0;
+  if(!Number.isInteger(a)||!Number.isInteger(b)||a<1||b<1)return "ERR:前兩個數字請輸入至少為 1 的整數。";
+  if(hasC&&(!Number.isInteger(c)||c<1))return "ERR:第三個數字必須是至少為 1 的整數（或留空）。";
+  var h=gcd2(a,b),l=lcm2(a,b),label=F(a,0)+" 和 "+F(b,0);
+  if(hasC){h=gcd2(h,c);l=lcm2(l,c);label+=", "+F(c,0);}
+  return big("LCM（最小公倍數）",F(l,0))
+   +tbl(row("HCF（最大公因數 / GCD）",F(h,0))
+     +row("Numbers",label))
+   +note("The HCF is the largest number that divides each of yours exactly; the LCM is the smallest number that each of yours divides into exactly. Both are workhorses for fractions, ratios and scheduling problems.");
+ }},
+
+/* 51 — EXPONENT (BATCH 3) */
+"exponent-calculator":{
+ fields:[
+  {id:"base",l:"Base number",t:"n",req:1},
+  {id:"exp",l:"Exponent (power) \u2014 can be negative or a fraction like 0.5",t:"n",req:1}],
+ run:function(v){
+  if(v.base===""||v.base===undefined||v.exp===""||v.exp===undefined)return "ERR:請輸入底數和指數。";
+  var b=N(v.base),e=N(v.exp);
+  if(b===0&&e<=0)return "ERR:零不能取零次冪或負次冪。";
+  var res=Math.pow(b,e);
+  if(typeof res!=="number"||isNaN(res))return "ERR:This has no real-number answer \u2014 a negative base with a fractional exponent is not a real number.";
+  if(!isFinite(res))return "ERR:結果太大，無法顯示。";
+  return big("Result",F(res,6))
+   +tbl(row("Calculation",F(b)+" ^ "+F(e))
+     +row("底數的平方（"+F(b)+"\u00B2)",F(b*b))
+     +row("底數的立方（"+F(b)+"\u00B3)",F(b*b*b))
+     +row("底數的平方根",b<0?"不是實數":F(Math.sqrt(b),4))
+     +row("底數的立方根",F(Math.cbrt(b),4)))
+   +note("A fractional exponent is a root in disguise: power 0.5 means square root, power 1/3 means cube root. A negative exponent flips the value into a fraction: base^-2 = 1 \u00F7 (base \u00D7 base).");
+ }},
+
+/* 52 — SQUARE ROOT (BATCH 3) */
+"square-root-calculator":{
+ fields:[
+  {id:"num",l:"數字（0 或更大）",t:"n",req:1}],
+ run:function(v){
+  if(v.num===""||v.num===undefined)return "ERR:請輸入數字。";
+  var x=N(v.num);
+  if(x<0)return "ERR:Enter a number of 0 or greater \u2014 negative numbers have no real square root.";
+  return big("Square Root",F(Math.sqrt(x),4))
+   +tbl(row("Cube root",F(Math.cbrt(x),4))
+     +row("Fourth root",F(Math.pow(x,0.25),4))
+     +row("Fifth root",F(Math.pow(x,0.2),4))
+     +row("Square ("+F(x,0)+"\u00B2)",F(x*x))
+     +row("Cube ("+F(x,0)+"\u00B3)",F(x*x*x)))
+   +note("The square root of a number is the value that, multiplied by itself, gives the number back \u2014 for example 12 \u00D7 12 = 144, so the square root of 144 is 12. Higher roots work the same way with more multiplications.");
+ }},
+
+/* 53 — CREDIT CARD PAYOFF (BATCH 3) */
+"credit-card-payoff-calculator":{
+ fields:[
+  {id:"bal",l:"當前卡餘額（Rs）",t:"n",req:1},
+  {id:"apr",l:"Card APR \u2014 annual interest rate (%)",t:"n",req:1},
+  {id:"pay",l:"固定月還款（Rs）",t:"n",req:1}],
+ run:function(v){
+  var B=N(v.bal),apr=N(v.apr),pay=N(v.pay);
+  if(B<=0)return "ERR:請輸入您當前的卡餘額。";
+  if(apr<0)return "ERR:APR 不能為負。";
+  if(pay<=0)return "ERR:請輸入您可以支付的月還款額。";
+  var r=apr/100/12,firstInt=B*r;
+  if(pay<=firstInt)return "ERR:您的月還款額 "+Rs(pay)+" 不足以覆蓋第一個月的利息 "+Rs(firstInt)+" \u2014 with this payment the balance would grow instead of shrinking, and could never be cleared. Increase the monthly payment.";
+  var bal=B,months=0,totalInt=0;
+  while(bal>0){
+    var interest=bal*r;totalInt+=interest;
+    var due=bal+interest,pmt=Math.min(pay,due);
+    bal=due-pmt;months++;
+    if(months>1200)return "ERR:This would take over 100 years to pay off \u2014 the payment is too close to the monthly interest. Increase the monthly payment.";
+  }
+  var rows=row("Card balance",Rs(B))+row("Monthly payment",Rs(pay))
+    +row("您將支付的利息總額",Rs(totalInt))
+    +row("總支付金額",Rs(B+totalInt));
+  if(months>=12)rows+=row("以年計的時間","About "+Math.floor(months/12)+(Math.floor(months/12)===1?" 年":" 年")+(months%12?" 和 "+(months%12)+" 個月":""));
+  return big("還清所需時間",months+(months===1?" 個月":" 個月"))
+   +tbl(rows)
+   +note("假設卡上沒有新消費、沒有費用或罰金，且每月固定還款額相同。每月即使多還一點，利息也會大幅減少，因為利息只對剩餘餘額收取。");
+ }}});
+
+
+Object.assign(CALCS,{
+
+/* 54 — CAR LOAN (BATCH 4) */
+"car-loan-calculator":{
+ fields:[
+  {id:"price",l:"車輛價格（Rs）",t:"n",req:1},
+  {id:"down",l:"首付（Rs）",t:"n",req:1},
+  {id:"rate",l:"年利率（%）",t:"n",req:1},
+  {id:"yrs",l:"貸款期限（年）",t:"n",req:1}],
+ run:function(v){
+  var price=N(v.price),down=N(v.down),loan=price-down,r=N(v.rate)/1200,n=N(v.yrs)*12;
+  if(price<=0||down<0||loan<=0||n<=0)return "ERR:請輸入有效的車輛價格，且首付須小於價格。";
+  var pay,total;
+  if(r===0){pay=loan/n;total=loan;}
+  else{var f=Math.pow(1+r,n);pay=loan*r*f/(f-1);total=pay*n;}
+  return big("Monthly Payment",Rs(pay))
+   +tbl(row("Vehicle price",Rs(price))+row("Down payment",Rs(down))+row("Loan amount",Rs(loan))
+     +row("Total interest",Rs(total-loan))+row("車輛總成本",Rs(total+down)))
+   +note("僅為估算 — 不含註冊、保險、手續費和稅費。簽約前請向您的銀行或經銷商確認確切數字和付款計劃。");
+ }},
+
+/* 55 — GRADE (BATCH 4) */
+"grade-calculator":{
+ fields:[
+  {id:"rows",l:"作業 — 每項的分數和權重（未用行留空）",t:"grow"}],
+ run:function(v){
+  var sw=0,tw=0,count=0;
+  for(var i=1;i<=8;i++){
+    var sRaw=v["g"+i+"s"],w=N(v["g"+i+"w"]);
+    if(sRaw===""||sRaw===undefined||w<=0)continue;
+    var s=N(sRaw);
+    if(s<0||s>100)return "ERR:分數必須在 0 到 100 之間（作業 "+i+" 超出範圍）。";
+    sw+=s*w;tw+=w;count++;
+  }
+  if(tw<=0)return "ERR:請至少輸入一項帶分數和權重的作業。";
+  var overall=sw/tw,letter;
+  if(overall>=90)letter="A+";else if(overall>=80)letter="A";else if(overall>=70)letter="B";
+  else if(overall>=60)letter="C";else if(overall>=50)letter="D";else letter="F";
+  return big("您的總成績",F(overall)+"% \u2014 "+letter)
+   +tbl(row("Assignments counted",F(count,0))+row("計入的總權重",F(tw)+"%")
+     +row("Letter grade",letter))
+   +note("權重不必加起來等於 100：您的成績按您實際輸入的權重歸一化，因此權重 40 對總權重 50 相當於成績的 80%。評分標準因學校和國家而異 — 本工具採用 A+ 為 90、A 為 80、B 為 70、C 為 60、D 為 50。");
+ }},
+
+/* 56 — GPA (BATCH 4) */
+"gpa-calculator":{
+ fields:[
+  {id:"rows",l:"課程 — 每門課的字母等級和學分（未用行留空）",t:"gparow"}],
+ run:function(v){
+  var PTS={"A":4.0,"A-":3.7,"B+":3.3,"B":3.0,"B-":2.7,"C+":2.3,"C":2.0,"C-":1.7,"D+":1.3,"D":1.0,"F":0};
+  var pts=0,cr=0,count=0;
+  for(var i=1;i<=8;i++){
+    var g=v["c"+i+"g"],c=N(v["c"+i+"c"]);
+    if(!g||c<=0||!(g in PTS))continue;
+    pts+=PTS[g]*c;cr+=c;count++;
+  }
+  if(cr<=0)return "ERR:請至少輸入一門帶等級和學分的課程。";
+  var gpa=pts/cr;
+  return big("Your GPA",gpa.toFixed(2)+" / 4.0")
+   +tbl(row("Courses counted",F(count,0))+row("總學分",F(cr))
+     +row("獲得的績點",F(pts)))
+   +note("Uses the standard 4.0 scale: A = 4.0, A- = 3.7, B+ = 3.3, B = 3.0, B- = 2.7, C+ = 2.3, C = 2.0, C- = 1.7, D+ = 1.3, D = 1.0, F = 0. Some universities weight honours or AP courses differently — check your transcript for the official figure.");
+ }},
+
+/* 57 — PERCENTAGE TO CGPA (BATCH 4) */
+"percentage-to-cgpa-calculator":{
+ fields:[
+  {id:"pct",l:"Your percentage (%)",t:"n",req:1},
+  {id:"scale",l:"轉換為哪個標準？",t:"s",o:[["10","滿分 10 的 CGPA"],["4","滿分 4 的 GPA"]]}],
+ run:function(v){
+  var p=N(v.pct);
+  if(p<0||p>100)return "ERR:請輸入 0 到 100 之間的百分比。";
+  if(v.scale==="4"){
+    var gpa=p/100*4;
+    return big("Your GPA",F(gpa)+" / 4.0")
+     +tbl(row("Percentage",F(p)+"%")+row("Formula used","Percentage \u00F7 100 \u00D7 4"))
+     +note("這是許多機構使用的直接比例換算。您的教育委員會或大學可能使用自己的公式 — 正式使用前請確認。");
+  }
+  var raw=p/9.5,capped=raw>10,val=capped?10:raw;
+  return big("Your CGPA",F(val)+" / 10")
+   +tbl(row("Percentage",F(p)+"%")+row("Formula used","Percentage \u00F7 9.5"))
+   +(capped?note("超過 95 的百分比在數學上超過 10.0 的 CGPA，因此結果已封頂為 10 — 這是該標準的最高值。"):
+     note("This reverses the common CBSE-style formula (Percentage = CGPA \u00D7 9.5). Your board or university may use its own multiplier — confirm before official use."));
+ }},
+
+/* 58 — TARGET CGPA (BATCH 4) */
+"target-cgpa-calculator":{
+ fields:[
+  {id:"cur",l:"當前 CGPA（滿分 4.0）",t:"n",req:1},
+  {id:"done",l:"已完成學分",t:"n",req:1},
+  {id:"target",l:"目標 CGPA（滿分 4.0）",t:"n",req:1},
+  {id:"rem",l:"剩餘學分",t:"n",req:1}],
+ run:function(v){
+  var cur=N(v.cur),done=N(v.done),target=N(v.target),rem=N(v.rem);
+  if(cur<0||cur>4||target<=0||target>4||done<0||rem<=0)
+    return "ERR:請輸入 0 到 4.0 之間的 CGPA 值，以及正數的剩餘學分。";
+  var req=(target*(done+rem)-cur*done)/rem;
+  var rows=row("Current CGPA",cur.toFixed(2))+row("Credits completed",F(done,0))
+    +row("Target CGPA",target.toFixed(2))+row("Credits remaining",F(rem,0));
+  if(req>4){
+    var maxCGPA=(cur*done+4*rem)/(done+rem);
+    return big("您能達到的最高 CGPA",maxCGPA.toFixed(2))
+     +tbl(rows+row("達到目標所需的 GPA",req.toFixed(2)+" \u2014 above the 4.0 maximum")
+       +row("Target status","在剩餘學分內無法達到"))
+     +note("即使每個剩餘學分都拿到完美的 4.0，也只能把您的 CGPA 提升到 "+maxCGPA.toFixed(2)+"。可以考慮用額外學分延長學習、如大學允許則重修低分課程，或調整目標。");
+  }
+  if(req<=0){
+    return big("剩餘學分所需的 GPA","0.00")
+     +tbl(rows+row("Target status","Already secured \u2014 your target holds even before the remaining credits"))
+     +note("按您目前的 CGPA，即使攤到所有剩餘學分，也已經保持在目標或以上。繼續加油。");
+  }
+  return big("剩餘學分所需的 GPA",req.toFixed(2))
+   +tbl(rows+row("Target status","Reachable \u2014 aim for at least "+req.toFixed(2)+" 在每個剩餘學分中"))
+   +note("這是您在所有剩餘學分中必須取得的平均 GPA。一個薄弱的學期會抬高其他學期的要求，所以請逐門課程規劃。");
+ }},
+
+/* 59 — BODY FAT, US NAVY METHOD (BATCH 4) */
+"body-fat-calculator":{
+ fields:[
+  {id:"sex",l:"Gender",t:"s",o:[["m","Male"],["f","Female"]]},
+  {id:"w",l:"Weight (kg)",t:"n",req:1},
+  {id:"h",l:"Height (cm)",t:"n",req:1},
+  {id:"neck",l:"頸圍（cm）— 喉結正下方",t:"n",req:1},
+  {id:"waist",l:"腰圍（cm）— 肚臍水平",t:"n",req:1},
+  {id:"hip",l:"臀圍（cm）— 僅女性，最寬處",t:"n"}],
+ run:function(v){
+  var w=N(v.w),h=N(v.h),neck=N(v.neck),waist=N(v.waist),hip=N(v.hip);
+  if(w<=0||h<=0||neck<=0||waist<=0)return "ERR:請輸入您的體重、身高、頸圍和腰圍。";
+  function log10(x){return Math.log(x)/Math.LN10;}
+  var bf;
+  if(v.sex==="f"){
+    if(hip<=0)return "ERR:對女性而言，海軍公式還需要臀圍。";
+    if(waist+hip<=neck)return "ERR:這些測量值看起來不一致 — 腰圍加臀圍必須大於頸圍。";
+    bf=495/(1.29579-0.35004*log10(waist+hip-neck)+0.22100*log10(h))-450;
+  }else{
+    if(waist<=neck)return "ERR:這些測量值看起來不一致 — 腰圍必須大於頸圍。";
+    bf=495/(1.0324-0.19077*log10(waist-neck)+0.15456*log10(h))-450;
+  }
+  if(!(bf>0)||bf>=80)return "ERR:這些測量值得出的體脂結果不可能出現 — 請重新測量後再試。";
+  var cat;
+  if(v.sex==="f"){cat=bf<=13?"Essential":(bf<=20?"Athletes":(bf<=24?"Fitness":(bf<=31?"Average":"Obese")));}
+  else{cat=bf<=5?"Essential":(bf<=13?"Athletes":(bf<=17?"Fitness":(bf<=24?"Average":"Obese")));}
+  var fat=w*bf/100,lean=w-fat;
+  return big("您的體脂",F(bf,1)+"% \u2014 "+cat)
+   +tbl(row("Fat mass",F(fat,1)+" kg")+row("瘦體重",F(lean,1)+" kg")
+     +row("Weight",F(w,1)+" kg")+row("類別（ACE 範圍）",cat))
+   +note("美國海軍圍度法是估算 — 捲尺位置和姿勢會使結果偏移幾個百分點。類別遵循美國運動委員會（ACE）的範圍。醫療決定請使用臨床測量（DEXA、專業皮脂鉗）並諮詢醫生。");
+ }},
+
+/* 60 — MACRO (BATCH 4) */
+"macro-calculator":{
+ fields:[
+  {id:"cal",l:"每日卡路里目標（kcal）",t:"n",req:1},
+  {id:"split",l:"Macro split",t:"s",o:[["b","Balanced \u2014 40% carbs, 30% protein, 30% fat"],["hp","High Protein \u2014 30% carbs, 40% protein, 30% fat"],["lc","Low Carb \u2014 25% carbs, 45% protein, 30% fat"],["keto","Keto \u2014 5% carbs, 25% protein, 70% fat"]]}],
+ run:function(v){
+  var cal=N(v.cal);
+  if(cal<=0)return "ERR:請輸入您的每日卡路里目標。";
+  var SPLITS={"b":[40,30,30],"hp":[30,40,30],"lc":[25,45,30],"keto":[5,25,70]};
+  var s=SPLITS[v.split]||SPLITS["b"];
+  var ck=cal*s[0]/100,pk=cal*s[1]/100,fk=cal*s[2]/100;
+  var cg=ck/4,pg=pk/4,fg=fk/9;
+  return big("Daily Calories",F(cal,0)+" 千卡")
+   +tbl(row("Carbohydrates ("+s[0]+"%)",F(cg)+" g \u2014 "+F(ck,0)+" 千卡")
+     +row("Protein ("+s[1]+"%)",F(pg)+" g \u2014 "+F(pk,0)+" 千卡")
+     +row("Fat ("+s[2]+"%)",F(fg)+" g \u2014 "+F(fk,0)+" 千卡"))
+   +note("克數使用標準能量值：碳水化合物和蛋白質每克提供 4 千卡，脂肪每克提供 9 千卡。不確定您的卡路里目標？先用我們的每日卡路里計算器算一下。");
+ }},
+
+/* 61 — SLEEP CYCLES (BATCH 4) */
+"sleep-calculator":{
+ fields:[
+  {id:"mode",l:"您知道什麼？",t:"s",o:[["wake","我想在這個時間醒來"],["bed","我將在這個時間睡覺"]]},
+  {id:"hh",l:"Hour",t:"s",o:[["0","12 AM"],["1","1 AM"],["2","2 AM"],["3","3 AM"],["4","4 AM"],["5","5 AM"],["6","6 AM"],["7","7 AM"],["8","8 AM"],["9","9 AM"],["10","10 AM"],["11","11 AM"],["12","12 PM"],["13","1 PM"],["14","2 PM"],["15","3 PM"],["16","4 PM"],["17","5 PM"],["18","6 PM"],["19","7 PM"],["20","8 PM"],["21","9 PM"],["22","10 PM"],["23","11 PM"]]},
+  {id:"mm",l:"Minute",t:"s",o:[["0","00"],["5","05"],["10","10"],["15","15"],["20","20"],["25","25"],["30","30"],["35","35"],["40","40"],["45","45"],["50","50"],["55","55"]]}],
+ run:function(v){
+  var t0=N(v.hh)*60+N(v.mm),FALL=14,rows="",best=null;
+  [6,5,4].forEach(function(cyc){
+    var dur=cyc*90,t;
+    if(v.mode==="bed"){t=t0+FALL+dur;}else{t=t0-(FALL+dur);}
+    var rec=cyc>=5;
+    if(cyc===6)best=fmtClock(t);
+    rows+=row(cyc+" cycles \u2014 "+hmText(dur)+" 的睡眠",fmtClock(t)+(rec?" \u2B50 Recommended":""));
+  });
+  if(v.mode==="bed"){
+    return big("最佳起床時間",best)+tbl(rows)
+     +note("Sleep runs in cycles of about 90 minutes; waking at the end of a cycle feels far easier than waking mid-cycle. Times include about 14 minutes to fall asleep. Six cycles (9 hours) suits most adults; five (7 hours 30 minutes) is the common minimum target.");
+  }
+  return big("Best Bedtime",best)+tbl(rows)
+   +note("Sleep runs in cycles of about 90 minutes; waking at the end of a cycle feels far easier than waking mid-cycle. Times include about 14 minutes to fall asleep, so be in bed by the time shown. Six cycles (9 hours) suits most adults; five (7 hours 30 minutes) is the common minimum target.");
+ }},
+
+/* 62 — CONCEPTION (BATCH 4) */
+"conception-calculator":{
+ fields:[
+  {id:"due",l:"預產期",t:"d",req:1}],
+ run:function(v){
+  var due=pdate(v.due);
+  if(!due)return "ERR:請選擇預產期。";
+  function add(d,n){return new Date(d.getTime()+n*86400000);}
+  var conception=add(due,-266),lmp=add(due,-280),triEnd=add(lmp,84);
+  return big("預計受孕日期",fdate(conception))
+   +tbl(row("預產期",fdate(due))
+     +row("預計末次月經第一天（LMP）",fdate(lmp))
+     +row("預計孕早期結束",fdate(triEnd)))
+   +note("這些日期按標準平均值從預產期倒推：受孕約在預產期前 266 天，末次月經約在前 280 天。真實週期各不相同，只有超聲檢查和您的醫生能可靠地確定孕期 — 這裡的每個日期都只是估算。");
+ }},
+
+/* 63 — AGE DIFFERENCE (BATCH 4) */
+"age-difference-calculator":{
+ fields:[
+  {id:"dob1",l:"第 1 人 — 出生日期",t:"d",req:1},
+  {id:"dob2",l:"第 2 人 — 出生日期",t:"d",req:1}],
+ run:function(v){
+  var a=pdate(v.dob1),b=pdate(v.dob2);
+  if(!a||!b)return "ERR:請選擇兩個出生日期。";
+  if(a.getTime()===b.getTime()){
+    return big("Age Difference","0 days")
+     +tbl(row("誰年紀更大","Same age \u2014 born on the same day")
+       +row("Person 1 born",fdate(a))+row("Person 2 born",fdate(b)));
+  }
+  var olderFirst=a<b,lo=olderFirst?a:b,hi=olderFirst?b:a;
+  var d=ymdDiff(lo,hi),total=dayDiff(lo,hi);
+  return big("Age Difference",d.y+" 年，"+d.m+" 個月，"+d.d+" 天")
+   +tbl(row("兩次出生之間的總天數",F(total,0))
+     +row("誰年紀更大",olderFirst?"Person 1":"Person 2")
+     +row("Person 1 born",fdate(a))+row("Person 2 born",fdate(b)))
+   +note("差值按日曆計算，因此閏年被精確計入。");
+ }}});
+
+Object.assign(CALCS,{
+
+/* 64 — TIME DURATION (BATCH 4) */
+"time-duration-calculator":{
+ fields:[
+  {id:"sh",l:"Start time \u2014 hour (0-23)",t:"n",req:1,ph:"0-23"},
+  {id:"sm",l:"Start time \u2014 minute (0-59)",t:"n",req:1,ph:"0-59"},
+  {id:"eh",l:"End time \u2014 hour (0-23)",t:"n",req:1,ph:"0-23"},
+  {id:"em",l:"End time \u2014 minute (0-59)",t:"n",req:1,ph:"0-59"}],
+ run:function(v){
+  var sh=N(v.sh),sm=N(v.sm),eh=N(v.eh),em=N(v.em);
+  function bad(h,m){return h<0||h>23||m<0||m>59||Math.floor(h)!==h||Math.floor(m)!==m;}
+  if(bad(sh,sm)||bad(eh,em))return "ERR:請輸入 0 到 23 的小時和 0 到 59 的分鐘。";
+  var start=sh*60+sm,end=eh*60+em,nextDay=end<start;
+  var dur=end-start+(nextDay?1440:0);
+  return big("Duration",hmText(dur))
+   +tbl(row("Total minutes",F(dur,0))+row("總小時（小數）",F(dur/60)+" 小時")
+     +row("From",fmtClock(start))+row("To",fmtClock(end)+(nextDay?"（次日）":"")))
+   +(nextDay?note("The end time is earlier than the start time, so it has been counted as falling on the next day \u2014 exactly how overnight shifts, flights and journeys work."):
+     note("If the end time falls on the next day (for example 10 PM to 6 AM), just enter it as-is \u2014 the calculator counts across midnight automatically."));
+ }},
+
+/* 65 — WORK HOURS (BATCH 4) */
+"work-hours-calculator":{
+ fields:[
+  {id:"sh",l:"Start time \u2014 hour (0-23)",t:"n",req:1,ph:"0-23"},
+  {id:"sm",l:"Start time \u2014 minute (0-59)",t:"n",req:1,ph:"0-59"},
+  {id:"eh",l:"End time \u2014 hour (0-23)",t:"n",req:1,ph:"0-23"},
+  {id:"em",l:"End time \u2014 minute (0-59)",t:"n",req:1,ph:"0-59"},
+  {id:"brk",l:"無薪休息（分鐘）",t:"n",def:"0"},
+  {id:"days",l:"每週工作天數",t:"n",req:1,def:"5"},
+  {id:"rate",l:"Hourly rate (optional \u2014 for pay figures)",t:"n"}],
+ run:function(v){
+  var sh=N(v.sh),sm=N(v.sm),eh=N(v.eh),em=N(v.em),brk=N(v.brk),days=N(v.days),rate=N(v.rate);
+  function bad(h,m){return h<0||h>23||m<0||m>59||Math.floor(h)!==h||Math.floor(m)!==m;}
+  if(bad(sh,sm)||bad(eh,em))return "ERR:請輸入 0 到 23 的小時和 0 到 59 的分鐘。";
+  if(days<=0||days>7)return "ERR:每週工作天數必須在 1 到 7 之間。";
+  var start=sh*60+sm,end=eh*60+em;
+  var dur=end-start+(end<start?1440:0);
+  var net=dur-brk;
+  if(net<=0)return "ERR:The unpaid break is as long as (or longer than) the whole shift \u2014 check the times and the break.";
+  var netH=net/60,weekH=netH*days;
+  var rows=row("每天淨工作時間",hmText(net))
+    +row("每天淨小時數",F(netH)+" 小時")
+    +row("每週小時數（"+F(days,0)+(days===1?" 天":" 天")+")",F(weekH)+" 小時");
+  if(rate>0)rows+=row("每天工資",Rs(netH*rate))+row("每週工資",Rs(weekH*rate));
+  return big("每天淨小時數",F(netH)+" 小時")+tbl(rows)
+   +note("Times on the 24-hour clock; an end time earlier than the start time is counted as the next day, so night shifts work too. Pay figures are gross estimates before any tax or deductions.");
+ }},
+
+/* 66 — WEEK NUMBER (BATCH 4) */
+"week-number-calculator":{
+ fields:[
+  {id:"date",l:"Date",t:"d",req:1,def:"today"}],
+ run:function(v){
+  var d=pdate(v.date);
+  if(!d)return "ERR:請選擇日期。";
+  var iw=isoWeekYear(d);
+  var jan1=new Date(d.getFullYear(),0,1),nextJan1=new Date(d.getFullYear()+1,0,1);
+  var doy=dayDiff(jan1,d)+1,daysInYear=dayDiff(jan1,nextJan1);
+  var quarter=Math.floor(d.getMonth()/3)+1;
+  return big("ISO 周序號","Week "+iw.week)
+   +tbl(row("Date",fdate(d))+row("ISO 周序號年份",String(iw.year))
+     +row("一年中的第幾天","Day "+doy+" of "+daysInYear)
+     +row("今年剩餘天數",F(daysInYear-doy,0))
+     +row("Calendar quarter","Q"+quarter))
+   +note("ISO weeks start on Monday, and week 1 is the week holding the year's first Thursday \u2014 so dates around New Year can belong to the neighbouring year's week count (for example 1 January 2023 is in week 52 of 2022). This is the system used in business, logistics and most of Europe.");
+ }},
+
+/* 67 — COOKING CONVERSION (BATCH 4) */
+"cooking-conversion-calculator":{
+ fields:[
+  {id:"ing",l:"Ingredient",t:"s",o:[["0.52","All-purpose flour"],["0.85","Granulated sugar"],["0.78","Brown sugar"],["0.96","Butter"],["1.03","Milk"],["1.00","Water"],["0.92","Vegetable oil"],["0.85","Uncooked rice"],["0.50","Cocoa powder"],["1.42","Honey"]]},
+  {id:"amt",l:"Amount",t:"n",req:1},
+  {id:"from",l:"From unit",t:"s",o:[["cup","US cup"],["tbsp","Tablespoon"],["tsp","Teaspoon"],["ml","Millilitre"],["l","Litre"],["g","Gram"],["oz","Ounce"],["lb","Pound"]]},
+  {id:"to",l:"To unit",t:"s",o:[["g","Gram"],["cup","US cup"],["tbsp","Tablespoon"],["tsp","Teaspoon"],["ml","Millilitre"],["l","Litre"],["oz","Ounce"],["lb","Pound"]]}],
+ run:function(v){
+  var ML={"cup":236.588,"tbsp":14.787,"tsp":4.929,"ml":1,"l":1000};
+  var G={"g":1,"oz":28.35,"lb":453.59};
+  var LAB={"cup":"US cup","tbsp":"tablespoon","tsp":"teaspoon","ml":"ml","l":"litre","g":"g","oz":"oz","lb":"lb"};
+  var amt=N(v.amt),dens=N(v.ing);
+  if(amt<=0)return "ERR:請輸入要轉換的金額。";
+  if(dens<=0)return "ERR:請選擇配料。";
+  var ml,grams;
+  if(v.from in ML){ml=amt*ML[v.from];grams=ml*dens;}
+  else{grams=amt*G[v.from];ml=grams/dens;}
+  var out=(v.to in ML)?ml/ML[v.to]:grams/G[v.to];
+  return big("Converted Amount",F(out)+" "+LAB[v.to])
+   +tbl(row("In grams",F(grams)+" g")+row("In millilitres",F(ml)+" ml")
+     +row("一美式杯這種配料重",F(236.588*dens,1)+" g"))
+   +note("Volume and weight only convert through the ingredient's density (grams per millilitre), which is why a cup of flour weighs far less than a cup of honey. Densities are standard kitchen averages for spooned, level measures \u2014 packing flour or sugar changes the weight.");
+ }},
+
+/* 68 — SPEED (BATCH 4) */
+"speed-calculator":{
+ fields:[
+  {id:"dist",l:"Distance",t:"n",req:1},
+  {id:"unit",l:"Distance unit",t:"s",o:[["km","Kilometres"],["mi","Miles"]]},
+  {id:"th",l:"Time \u2014 hours",t:"n",def:"0"},
+  {id:"tm",l:"Time \u2014 minutes",t:"n",def:"0"},
+  {id:"ts",l:"Time \u2014 seconds",t:"n",def:"0"}],
+ run:function(v){
+  var dist=N(v.dist),totalSec=N(v.th)*3600+N(v.tm)*60+N(v.ts);
+  if(dist<=0)return "ERR:請輸入有效的距離。";
+  if(totalSec<=0)return "ERR:請輸入所用時間。";
+  var distKm=v.unit==="mi"?dist*1.609344:dist;
+  var distMi=v.unit==="mi"?dist:dist/1.609344;
+  var hours=totalSec/3600,kmh=distKm/hours,mph=distMi/hours;
+  return big("Your Speed",F(kmh)+" km/h")
+   +tbl(row("以英里每小時計",F(mph)+" mph")
+     +row("每公里配速",paceText(totalSec/distKm)+" 分鐘/公里")
+     +row("每英里配速",paceText(totalSec/distMi)+" 分鐘/英里")
+     +row("Distance",F(dist)+" "+(v.unit==="mi"?"miles":"km")+" \u2014 "+F(distKm)+" km"))
+   +note("Speed is distance divided by time; pace is its mirror image \u2014 the time each kilometre or mile takes. Averages smooth out stops and slow stretches, so real journeys vary around these figures.");
+ }},
+
+/* 69 — RUNNING PACE (BATCH 4) */
+"pace-calculator":{
+ fields:[
+  {id:"dist",l:"Race distance",t:"s",o:[["5","5K"],["10","10K"],["21.0975","半程馬拉松（21.0975 km）"],["42.195","Marathon (42.195 km)"],["custom","自定義距離（在下方輸入）"]]},
+  {id:"custom",l:"Custom distance (km) \u2014 only for the custom option",t:"n"},
+  {id:"th",l:"Finish time \u2014 hours",t:"n",def:"0"},
+  {id:"tm",l:"Finish time \u2014 minutes",t:"n",def:"0"},
+  {id:"ts",l:"Finish time \u2014 seconds",t:"n",def:"0"}],
+ run:function(v){
+  var dKm=v.dist==="custom"?N(v.custom):N(v.dist);
+  var totalSec=N(v.th)*3600+N(v.tm)*60+N(v.ts);
+  if(dKm<=0)return "ERR:請選擇比賽距離（或輸入以 km 計的自定義距離）。";
+  if(totalSec<=0)return "ERR:請輸入您的完賽時間。";
+  var paceKm=totalSec/dKm,paceMi=paceKm*1.609344;
+  var rows=row("每英里配速",paceText(paceMi)+" 每英里")
+    +row("Your distance",F(dKm,4)+" km \u2014 finished in "+fmtHMS(totalSec));
+  var preds=[["5K",5],["10K",10],["Half Marathon",21.0975],["Marathon",42.195]];
+  preds.forEach(function(p){rows+=row("Predicted "+p[0]+" 以此配速完賽",fmtHMS(paceKm*p[1]));});
+  return big("Your Pace",paceText(paceKm)+" 每公里")+tbl(rows)
+   +note("Predictions assume you could hold exactly the same pace at every distance \u2014 real runners slow down as distance grows, so treat the longer predictions as the optimistic edge of a target range.");
+ }},
+
+/* 70 — SHOE SIZE CONVERTER (BATCH 4) */
+"shoe-size-converter":{
+ fields:[
+  {id:"sex",l:"Gender",t:"s",o:[["m","Men"],["f","Women"]]},
+  {id:"sys",l:"我知道我的尺碼單位是",t:"s",o:[["us","US sizes"],["uk","UK sizes"],["eu","EU sizes"],["cm","腳長（cm）"]]},
+  {id:"val",l:"Size value",t:"n",req:1}],
+ run:function(v){
+  var MEN=[[6,5.5,38.5,24.1],[6.5,6,39,24.4],[7,6,40,24.8],[7.5,6.5,40.5,25.2],[8,7,41,25.7],[8.5,7.5,42,26.0],[9,8,42.5,26.7],[9.5,8.5,43,27.1],[10,9,44,27.4],[10.5,9.5,44.5,27.8],[11,10,45,28.3],[11.5,10.5,45.5,28.7],[12,11,46,29.2],[13,12,47.5,30.0],[14,13,48.5,30.8],[15,14,49.5,31.8]];
+  var WOMEN=[[5,3,35.5,22.1],[5.5,3.5,36,22.5],[6,4,36.5,22.9],[6.5,4.5,37.5,23.2],[7,5,38,23.5],[7.5,5.5,38.5,23.8],[8,6,39,24.1],[8.5,6.5,39.5,24.6],[9,7,40,25.0],[9.5,7.5,40.5,25.4],[10,8,41,25.7],[10.5,8.5,42,26.0],[11,9,42.5,26.7],[12,10,43.5,27.4]];
+  var chart=v.sex==="f"?WOMEN:MEN;
+  var val=N(v.val);
+  if(val<=0)return "ERR:請輸入您的尺碼值。";
+  var idx={"us":0,"uk":1,"eu":2,"cm":3}[v.sys];
+  var bestRow=chart[0],bestDiff=Infinity;
+  chart.forEach(function(r){var df=Math.abs(r[idx]-val);if(df<bestDiff){bestDiff=df;bestRow=r;}});
+  return big("Closest Match \u2014 US Size",F(bestRow[0]))
+   +tbl(row("US size",F(bestRow[0]))+row("UK size",F(bestRow[1]))+row("EU size",F(bestRow[2]))
+     +row("Foot length",F(bestRow[3],1)+" cm \u2014 "+F(bestRow[3]/2.54)+" 英寸"))
+   +note("Sizes are matched to the NEAREST row of the standard conversion chart, because no single official chart exists \u2014 brands differ by up to half a size. When buying online, foot length in centimetres is the most reliable guide; measure in the evening, when feet are at their largest.");
+ }}});
+
+/* ---------- Form binder (browser only) ---------- */
+function fieldHTML(f){
+  if(f.t==="grow"){
+    var gh='<div class="subgrid"><div class="subhead"><span>分數 %</span><span>權重 %</span></div>';
+    for(var gi=1;gi<=8;gi++){
+      gh+='<div class="subrow"><input type="number" min="0" max="100" step="any" id="g'+gi+'s" placeholder="Assignment '+gi+' 分數"><input type="number" min="0" step="any" id="g'+gi+'w" placeholder="權重"></div>';
+    }
+    return gh+"</div>";
+  }
+  if(f.t==="gparow"){
+    var grades=["","A","A-","B+","B","B-","C+","C","C-","D+","D","F"];
+    var gopts=grades.map(function(g){return '<option value="'+g+'">'+(g||"Grade")+'</option>';}).join("");
+    var ph='<div class="subgrid"><div class="subhead"><span>字母等級</span><span>學分</span></div>';
+    for(var pi=1;pi<=8;pi++){
+      ph+='<div class="subrow"><select id="c'+pi+'g">'+gopts+'</select><input type="number" min="0" step="0.5" id="c'+pi+'c" placeholder="Course '+pi+' 學分"></div>';
+    }
+    return ph+"</div>";
+  }
+  if(f.t==="sub"){
+    var h='<div class="subgrid"><div class="subhead"><span>分數 /100</span><span>學分</span></div>';
+    for(var i=1;i<=8;i++){
+      h+='<div class="subrow"><input type="number" min="0" max="100" id="s'+i+'m" placeholder="Subject '+i+' 分數"><input type="number" min="0" step="0.5" id="s'+i+'c" placeholder="學分"></div>';
+    }
+    return h+"</div>";
+  }
+  var req=f.req?' 必填':"";
+  if(f.t==="s"){
+    var o=f.o.map(function(x){return '<option value="'+x[0]+'">'+x[1]+"</option>";}).join("");
+    return '<select id="'+f.id+'">'+o+"</select>";
+  }
+  if(f.t==="d")return '<input type="date" id="'+f.id+'"'+req+">";
+  if(f.t==="t")return '<input type="text" id="'+f.id+'" placeholder="'+(f.ph||"")+'"'+req+">";
+  return '<input type="number" step="any" id="'+f.id+'"'+(f.def?' value="'+f.def+'"':"")+' placeholder="'+(f.ph||"0")+'"'+req+">";
+}
+function buildCalc(slug,mount){
+  var C=CALCS[slug];if(!C||!mount)return;
+  var form=document.createElement("form");form.className="calcform";
+  C.fields.forEach(function(f){
+    var wrap=document.createElement("div");wrap.className="fld";
+    var lab=document.createElement("label");lab.textContent=f.l;lab.setAttribute("for",f.id);
+    wrap.appendChild(lab);
+    var tmp=document.createElement("div");tmp.innerHTML=fieldHTML(f);
+    while(tmp.firstChild)wrap.appendChild(tmp.firstChild);
+    form.appendChild(wrap);
+    if(f.def==="today"){var inp=wrap.querySelector("input");if(inp)inp.value=iso(new Date());}
+  });
+  var btn=document.createElement("button");btn.type="submit";btn.className="calcbtn";btn.textContent="Calculate";
+  form.appendChild(btn);
+  var res=document.createElement("div");res.className="calcresult";res.style.display="none";
+  mount.appendChild(form);mount.appendChild(res);
+  form.addEventListener("submit",function(e){
+    e.preventDefault();
+    var v={};
+    C.fields.forEach(function(f){
+      if(f.t==="sub"){for(var i=1;i<=8;i++){v["s"+i+"m"]=document.getElementById("s"+i+"m").value;v["s"+i+"c"]=document.getElementById("s"+i+"c").value;}return;}
+      if(f.t==="grow"){for(var i=1;i<=8;i++){v["g"+i+"s"]=document.getElementById("g"+i+"s").value;v["g"+i+"w"]=document.getElementById("g"+i+"w").value;}return;}
+      if(f.t==="gparow"){for(var i=1;i<=8;i++){v["c"+i+"g"]=document.getElementById("c"+i+"g").value;v["c"+i+"c"]=document.getElementById("c"+i+"c").value;}return;}
+      var el=form.querySelector("#"+CSS.escape(f.id));v[f.id]=el?el.value:"";
+    });
+    var out=C.run(v);
+    res.style.display="block";
+    if(out.indexOf("ERR:")===0)res.innerHTML='<p class="err">'+out.slice(4)+"</p>";
+    else res.innerHTML=out;
+    if(res.scrollIntoView)res.scrollIntoView({behavior:"smooth",block:"nearest"});
+  });
+}
+if(typeof document!=="undefined"){
+  document.addEventListener("DOMContentLoaded",function(){
+    document.querySelectorAll("[data-calc]").forEach(function(el){buildCalc(el.getAttribute("data-calc"),el);});
+  });
+}
+if(typeof module!=="undefined"&&module.exports){module.exports={CALCS:CALCS,hijriParts:hijriParts,hijriToGreg:hijriToGreg};}
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' 安裝應用';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('安裝此應用：點選分享按鈕，然後選擇“新增到主螢幕”。');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body></html>

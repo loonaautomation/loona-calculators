@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>目標心率計算器 — 按年齡的 Karvonen 區間 | Loona Calculators</title>
+<meta name="description" content="免費目標心率計算器：根據您的年齡和靜息心率得出最大心率和 Karvonen 訓練區。教育性健身指南。">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/zh-hant/target-heart-rate-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/target-heart-rate-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/target-heart-rate-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/target-heart-rate-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/target-heart-rate-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/target-heart-rate-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/target-heart-rate-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/target-heart-rate-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/target-heart-rate-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/target-heart-rate-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/target-heart-rate-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/target-heart-rate-calculator/"><link rel="alternate" hreflang="zh" href="https://loonaautomation.github.io/loona-calculators/zh/target-heart-rate-calculator/"><link rel="alternate" hreflang="zh-Hant" href="https://loonaautomation.github.io/loona-calculators/zh-hant/target-heart-rate-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/target-heart-rate-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="目標心率計算器 — 按年齡的 Karvonen 區間 | Loona Calculators">
+<meta property="og:description" content="免費目標心率計算器：根據您的年齡和靜息心率得出最大心率和 Karvonen 訓練區。教育性健身指南。">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/zh-hant/target-heart-rate-calculator/"><meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="目標心率計算器 — 按年齡的 Karvonen 區間 | Loona Calculators">
+<meta name="twitter:description" content="免費目標心率計算器：根據您的年齡和靜息心率得出最大心率和 Karvonen 訓練區。教育性健身指南。">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona 目標心率計算器","url":"https://loonaautomation.github.io/loona-calculators/zh-hant/target-heart-rate-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"什麼是 Karvonen 公式？","acceptedAnswer":{"@type":"Answer","text":"目標心率 = 靜息心率 + 強度 ×（最大心率 − 靜息心率）。括號中的項是您的心率儲備——您的心臟實際能工作的範圍——這就是 Karvonen 區間與最大心率簡單百分比不同的原因。"}},{"@type":"Question","name":"220 − 年齡有多準確？","acceptedAnswer":{"@type":"Answer","text":"這是總體估算，對個體的典型誤差約為 ±10–12 bpm。Tanaka 公式（208 − 0.7 × 年齡）與研究資料的擬合略好；本頁顯示兩種最大估值，並基於經典的 220 − 年齡構建區間，使結果與大多數健身房圖表一致。"}},{"@type":"Question","name":"哪個區間燃燒脂肪？","acceptedAnswer":{"@type":"Answer","text":"較低的區間使用更高比例的脂肪作為燃料，但總卡路里對減重更重要。2 區（約 60–70%）是經典的可持續耐力區間，用於大部分訓練量。"}},{"@type":"Question","name":"我應該以最大心率訓練嗎？","acceptedAnswer":{"@type":"Answer","text":"第5區適合健康且受過訓練的人進行短時高強度間歇訓練。如果你有任何心臟疾病、症狀或健康疑慮，在進行高強度訓練前請諮詢醫生。本頁是教育指南，不是醫療建議。"}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/zh-hant/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "目標心率計算器",
+      "item": "https://loonaautomation.github.io/loona-calculators/zh-hant/target-heart-rate-calculator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation 標誌">
+<div class="brand">Loona <span>計算器</span></div>
+<nav>
+<a href="../">首頁</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">關於</a>
+<a href="../contact.html">聯絡</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › 健康 › 目標心率計算器</div>
+<h1 class="pagetitle">❤️ 目標心率計算器</h1>
+<p class="lead">輸入您的年齡和靜息心率，使用 Karvonen 公式獲得您的估計最大心率和五個訓練區，該公式利用您的心率儲備來個性化訓練區。</p>
+<div class="exbox"><strong>快速答案：</strong> 最大心率估算為 220 − 年齡。給定強度的 Karvonen 目標為靜息心率 + 強度 ×（最大心率 − 靜息心率）。對於一名靜息心率為 60 的 40 歲人士，2 區（60–70%）為 132–144 bpm。</div>
+<div class="toolbox"><form class="calcform" id="thrForm">
+<div class="fld"><label for="thrAge">年齡（歲）</label><input type="number" id="thrAge" value="40" min="5" max="100"></div>
+<div class="fld"><label for="thrRest">靜息心率 (bpm)</label><input type="number" id="thrRest" value="60" min="30" max="120"></div>
+<button class="calcbtn" type="submit">計算區帶</button>
+<div class="calcresult" id="thrResult" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>如何使用 Target Heart Rate Calculator</h2><ol><li>輸入您的年齡。</li><li>輸入您的靜息心率——在早上起床前測量，數整整一分鐘的心跳。</li><li>讀取您的五個區間：恢復、燃脂耐力、有氧、閾值和最大努力。</li></ol>
+<div class="exbox"><strong>示例：</strong> 年齡 40，靜息心率 60：最大心率 = 180，心率儲備 = 120。區間 2 在 60–70% 強度下 = 60 + 0.60×120 到 60 + 0.70×120 = 每分鐘 132–144 次。</div>
+<h2>常見問題</h2></section><div class="faq"><h3>什麼是 Karvonen 公式？</h3><p>目標心率 = 靜息心率 + 強度 ×（最大心率 − 靜息心率）。括號中的項是您的心率儲備——您的心臟實際能工作的範圍——這就是 Karvonen 區間與最大心率簡單百分比不同的原因。</p></div><div class="faq"><h3>220 − 年齡有多準確？</h3><p>這是總體估算，對個體的典型誤差約為 ±10–12 bpm。Tanaka 公式（208 − 0.7 × 年齡）與研究資料的擬合略好；本頁顯示兩種最大估值，並基於經典的 220 − 年齡構建區間，使結果與大多數健身房圖表一致。</p></div><div class="faq"><h3>哪個區間燃燒脂肪？</h3><p>較低的區間使用更高比例的脂肪作為燃料，但總卡路里對減重更重要。2 區（約 60–70%）是經典的可持續耐力區間，用於大部分訓練量。</p></div><div class="faq"><h3>我應該以最大心率訓練嗎？</h3><p>第5區適合健康且受過訓練的人進行短時高強度間歇訓練。如果你有任何心臟疾病、症狀或健康疑慮，在進行高強度訓練前請諮詢醫生。本頁是教育指南，不是醫療建議。</p></div>
+<h2 class="sec">相關計算器</h2><div class="grid"><a class="card" href="../bmi-calculator/"><div class="ic">⚖️</div><h3>BMI 計算器</h3><p>健康</p></a><a class="card" href="../bmr-calculator/"><div class="ic">🔥</div><h3>BMR 和 TDEE 計算器</h3><p>健康</p></a><a class="card" href="../calorie-calculator/"><div class="ic">🍽️</div><h3>卡路里計算器</h3><p>健康</p></a><a class="card" href="../sleep-calculator/"><div class="ic">😴</div><h3>睡眠計算器</h3><p>健康</p></a></div>
+</div>
+<section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>工作原理 — 公式</h2>
+<p><strong>最大心率 ≈ 220 − 年齡</strong> (Tanaka 替代公式：208 − 0.7 × 年齡)。 <strong>心率儲備 (HRR) = 最大 HR − 靜息 HR。</strong> <strong>Karvonen 目標 = 靜息心率 + 強度 × 心率儲備。</strong> 區間：第1區 = HRR的50–60%，第2區 = 60–70%，第3區 = 70–80%，第4區 = 80–90%，第5區 = 90–100%。</p>
+<h3>示例</h3><div class="exbox"><p><strong>輸入項：</strong> 年齡40歲，靜息心率60 bpm。</p><p><strong>步驟：</strong> 最大心率 = 220 − 40 = 180。心率儲備 = 180 − 60 = 120。2 區下限 = 60 + 0.60 × 120 = 132；2 區上限 = 60 + 0.70 × 120 = 144。Tanaka 最大估值 = 208 − 0.7 × 40 = 180——此處相同。</p><p><strong>結果：</strong> 第2區 = <strong>132–144 bpm</strong>，最大 HR <strong>180 bpm</strong>.</p></div>
+<p class="resnote"><strong>健康免責宣告：</strong> 僅為教育性健身指南，不是醫療建議。心率公式是人群層面的估算；如果您有任何健康狀況，在進行高強度運動前請諮詢醫生。</p>
+</section>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">將此計算器嵌入您的網站——免費</h2>
+<p style="margin:0 0 12px;line-height:1.6">將本計算器新增到你自己的網站或部落格——完全免費，無需註冊，並且始終顯示最新版本。複製下面的程式碼，貼上到你希望計算器出現的頁面位置。在嵌入下方保留小小的 &ldquo;Powered by Loona Automation&rdquo; 署名行有助於保持本工具免費——但你可以自由設定樣式或將其移除；無論哪種方式工具都能工作。</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/zh-hant/target-heart-rate-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Target Heart Rate Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;技術支援： &lt;a href="https://loonaautomation.github.io/loona-calculators/zh-hant/target-heart-rate-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 免費 目標心率計算器&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">複製嵌入程式碼</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='複製嵌入程式碼';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>熱門計算器</h4><ul><li><a href="../age-calculator/">年齡計算器</a></li>
+<li><a href="../zakat-calculator/">天課計算器</a></li>
+<li><a href="../cgpa-calculator/">CGPA 計算器</a></li>
+<li><a href="../percentage-calculator/">百分比計算器</a></li>
+<li><a href="../hijri-date-converter/">伊斯蘭曆日期轉換器</a></li>
+<li><a href="../emi-calculator/">EMI 與貸款計算器</a></li></ul></div>
+<div><h4>更多 Loona 工具</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona 圖片壓縮工具</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI 助手</a></li>
+<li><a href="https://loonaautomation.github.io/">所有 Loona 工具</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">關於</a></li>
+<li><a href="../contact.html">聯絡</a></li>
+<li><a href="../privacy-policy.html">隱私政策</a></li>
+<li><a href="../terms.html">使用條款</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators —— 一個 <a href="https://loonaautomation.github.io/">Loona Automation</a> 專案。免費線上計算器，無需註冊。
+聯絡方式： <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+function thrCalc(age,resting){
+  if(!(age>=5&&age<=100)||!(resting>=30&&resting<=120)) return null;
+  var maxClassic=220-age, maxTanaka=Math.round(208-0.7*age), hrr=maxClassic-resting;
+  function zone(lo,hi){return [Math.round(resting+lo*hrr),Math.round(resting+hi*hrr)];}
+  return {maxClassic:maxClassic,maxTanaka:maxTanaka,hrr:hrr,
+    zones:[[0.5,0.6,zone(0.5,0.6)],[0.6,0.7,zone(0.6,0.7)],[0.7,0.8,zone(0.7,0.8)],[0.8,0.9,zone(0.8,0.9)],[0.9,1.0,zone(0.9,1.0)]]};
+}
+/*TESTABLE_END*/
+document.getElementById('thrForm').addEventListener('submit',function(e){e.preventDefault();
+ var r=thrCalc(parseFloat(document.getElementById('thrAge').value),parseFloat(document.getElementById('thrRest').value));
+ var box=document.getElementById('thrResult'); box.style.display='block';
+ if(!r){box.innerHTML='<p class="err">請輸入 5–100 的年齡和 30–120 bpm 的靜息心率。</p>';return;}
+ var names=["Zone 1 — Recovery (50–60%)","2 區 — 耐力/燃脂（60–70%）","Zone 3 — Aerobic (70–80%)","Zone 4 — Threshold (80–90%)","5 區 — 最大努力（90–100%）"];
+ var rows=r.zones.map(function(z,i){return '<tr><td>'+names[i]+'</td><td><strong>'+z[2][0]+' – '+z[2][1]+' bpm</strong></td></tr>';}).join("");
+ box.innerHTML='<div class="resbig"><span>預計最大心率</span><strong>'+r.maxClassic+' bpm</strong></div>'
+ +'<table class="restbl"><tr><td>Tanaka 最大值估算</td><td><strong>'+r.maxTanaka+' bpm</strong></td></tr><tr><td>心率儲備</td><td><strong>'+r.hrr+' bpm</strong></td></tr>'+rows+'</table>'
+ +'<p class="resnote">人群估算（個體約 ±10 bpm）。僅為教育參考，不是醫療建議。</p>';});
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' 安裝應用';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('安裝此應用：點選分享按鈕，然後選擇“新增到主螢幕”。');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

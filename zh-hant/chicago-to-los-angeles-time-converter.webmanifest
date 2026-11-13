@@ -1,0 +1,29 @@
+{
+  "name": "Loona 芝加哥到洛杉磯時間轉換器",
+  "short_name": "芝加哥到洛杉磯時間",
+  "description": "將芝加哥時間轉換為洛杉磯時間。洛杉磯全年比芝加哥晚 2 小時，含夏令時日期、24 小時對照表和最佳會議時段。含實時轉換器。",
+  "id": "/loona-calculators/zh-hant/chicago-to-los-angeles-time-converter.html",
+  "start_url": "./chicago-to-los-angeles-time-converter.html",
+  "scope": "./chicago-to-los-angeles-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

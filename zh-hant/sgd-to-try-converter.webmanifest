@@ -1,0 +1,29 @@
+{
+  "name": "Loona SGD 到 TRY 轉換器",
+  "short_name": "SGD 到 TRY 轉換器",
+  "description": "將新加坡元（SGD）轉換為土耳其里拉（TRY）。歐洲中央銀行參考匯率（十一月 06 日，2026 年）、反向匯率、換算表和通道說明。僅供參考。",
+  "id": "/loona-calculators/zh-hant/sgd-to-try-converter.html",
+  "start_url": "./sgd-to-try-converter.html",
+  "scope": "./sgd-to-try-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

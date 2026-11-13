@@ -1,0 +1,29 @@
+{
+  "name": "Loona 租與買計算器",
+  "short_name": "租房還是買房計算器",
+  "description": "免費租房與買房計算器：比較在您計劃居住的年份裡租房的總成本與買房的淨成本——包括抵押貸款、租金上漲、價格增長和權益。",
+  "id": "/loona-calculators/zh-hant/rent-vs-buy-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

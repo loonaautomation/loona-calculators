@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>歐洲工作日計算器 — 按國家的工作日與公共假日 | Loona</title>
+<meta name="description" content="20 個歐洲國家的工作日計算器：計算兩個日期之間的工作日，除去週末和每個國家 2026 年的公共假日。">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/zh-hant/working-days-calculator-europe.html"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/working-days-calculator-europe.html"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/working-days-calculator-europe.html"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/working-days-calculator-europe.html"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/working-days-calculator-europe.html"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/working-days-calculator-europe.html"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/working-days-calculator-europe.html"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/working-days-calculator-europe.html"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/working-days-calculator-europe.html"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/working-days-calculator-europe.html"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/working-days-calculator-europe.html"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/working-days-calculator-europe.html"><link rel="alternate" hreflang="zh" href="https://loonaautomation.github.io/loona-calculators/zh/working-days-calculator-europe.html"><link rel="alternate" hreflang="zh-Hant" href="https://loonaautomation.github.io/loona-calculators/zh-hant/working-days-calculator-europe.html"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/working-days-calculator-europe.html">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="歐洲工作日計算器 — 按國家的工作日與公共假日 | Loona">
+<meta property="og:description" content="20 個歐洲國家的工作日計算器：計算兩個日期之間的工作日，除去週末和每個國家 2026 年的公共假日。">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/zh-hant/working-days-calculator-europe.html"><meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="歐洲工作日計算器 — 按國家的工作日與公共假日 | Loona">
+<meta name="twitter:description" content="20 個歐洲國家的工作日計算器：計算兩個日期之間的工作日，除去週末和每個國家 2026 年的公共假日。">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona 工作日計算器 歐洲","url":"https://loonaautomation.github.io/loona-calculators/zh-hant/working-days-calculator-europe.html","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"歐洲工作日計算器涵蓋哪些國家？","acceptedAnswer":{"@type":"Answer","text":"二十個國家：英國（英格蘭和威爾士）、愛爾蘭、德國、法國、西班牙、義大利、荷蘭、波蘭、葡萄牙、比利時、奧地利、瑞典、丹麥、挪威、芬蘭、希臘、捷克、羅馬尼亞、匈牙利和瑞士——每個都有自己內建的 2025 年至 2027 年官方公共假日清單。"}},{"@type":"Question","name":"每個國家的公眾假日如何處理？","acceptedAnswer":{"@type":"Answer","text":"每個國家都使用自己的全國清單。基於復活節的假日按年計算——希臘和羅馬尼亞遵循東正教復活節日曆，其餘國家遵循西方日曆。不包括地區假日；每個國家頁面都會說明計算和不計算哪些內容。"}},{"@type":"Question","name":"為什麼瑞士只顯示 4 個假日？","acceptedAnswer":{"@type":"Answer","text":"瑞士公共假日由各州設定，而不是聯邦政府。只有瑞士國慶日（八月 1 日）是聯邦假日，只有四天是全部 26 個州的假日。每個州在此基礎上新增自己的假日。"}},{"@type":"Question","name":"什麼算作工作日？","acceptedAnswer":{"@type":"Answer","text":"所選國家中不是國家公共假日的星期一至星期五。一個特殊情況：匈牙利每年頒佈幾個工作星期六（2026 年有三個），這些星期六對匈牙利計為工作日。"}},{"@type":"Question","name":"我可以計算跨入另一年的範圍嗎？","acceptedAnswer":{"@type":"Answer","text":"是的。假日資料涵蓋2025、2026和2027年，區間可以自由跨月跨年——從十二月到一月，或一次算整整一年。起始和結束日期都計入總數。"}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/zh-hant/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "歐洲的工作日",
+      "item": "https://loonaautomation.github.io/loona-calculators/zh-hant/working-days-calculator-europe.html"
+    }
+  ]
+}</script>
+<link rel="manifest" href="working-days-calculator-europe.webmanifest">
+</head>
+<body>
+<header>
+<img class="logo" src="../icon-192.png" alt="Loona Automation 標誌">
+<div class="brand">Loona <span>計算器</span></div>
+<nav>
+<a href="./">首頁</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="about.html">關於</a>
+<a href="contact.html">聯絡</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="./">Loona Calculators</a> › 日期與時間 › 歐洲工作日</div>
+<h1 class="pagetitle">🌍 工作日計算器 — 歐洲</h1>
+<p class="lead">您的期間內實際有多少個工作日？選擇一個歐洲國家和兩個日期——週末和該國自己的公共假日將根據其官方假日日曆自動扣除。</p>
+<div class="toolbox"><form class="calcform" id="wdForm">
+<div class="fld"><label for="wdCountry">國家</label><select id="wdCountry"><option value="united-kingdom">🇬🇧 英國</option><option value="ireland">🇮🇪 愛爾蘭</option><option value="germany" selected>🇩🇪 德國</option><option value="austria">🇦🇹 奧地利</option><option value="switzerland">🇨🇭 瑞士</option><option value="france">🇫🇷 法國</option><option value="belgium">🇧🇪 比利時</option><option value="netherlands">🇳🇱 荷蘭</option><option value="spain">🇪🇸 西班牙</option><option value="portugal">🇵🇹 葡萄牙</option><option value="italy">🇮🇹 義大利</option><option value="greece">🇬🇷 希臘</option><option value="poland">🇵🇱 波蘭</option><option value="czechia">🇨🇿 捷克</option><option value="romania">🇷🇴 羅馬尼亞</option><option value="sweden">🇸🇪 瑞典</option><option value="denmark">🇩🇰 丹麥</option><option value="norway">🇳🇴 挪威</option><option value="finland">🇫🇮 芬蘭</option><option value="hungary">🇭🇺 匈牙利</option></select></div>
+<div class="fld"><label for="wdStart">開始日期</label><input type="date" id="wdStart" value="2026-12-01" required></div>
+<div class="fld"><label for="wdEnd">結束日期</label><input type="date" id="wdEnd" value="2026-12-31"></div>
+<button type="submit" class="calcbtn">計算工作日天數</button>
+<div class="res" id="wdRes" style="margin-top:14px"></div>
+</form></div>
+<section class="txt"><h2>如何使用 Europe working days calculator</h2><ol><li>在 28 個國家中選擇一個。</li><li>選擇您經期的開始和結束日期。</li><li>按“計算”——您將獲得總天數、週末天數、範圍內找到的公共假日（附名稱和日期），以及實際工作日。</li></ol>
+<div class="exbox"><strong>示例：</strong> 德國 2026 年十二月的工作日：22——共 31 天，其中 8 個週末日和 2 個公共假日。在上方試用：德國已預選，2026 年十二月範圍已填入。</div>
+</section>
+<section class="txt"><h2>歐洲工作日一覽 — 2026</h2>
+<p>歐洲沒有統一的假日日曆：在 2026 年，全國公眾假日的數量從瑞士的 4 個（各州自行設定）到羅馬尼亞的 16 個不等，同一時期在不同國家的工作日數量可能大不相同。該表顯示了這裡涵蓋的每個國家——開啟一個國家頁面，檢視其完整的 2026 年假日清單及其自己的計算器。</p>
+<table class="restbl"><tr><td><strong>國家</strong></td><td><strong>2026 年公共假日</strong></td><td><strong>在工作日</strong></td><td><strong>2026 年的工作日</strong></td></tr><tr><td><a href="working-days-in-united-kingdom.html">🇬🇧 英國</a></td><td>8</td><td>8</td><td>253</td></tr><tr><td><a href="working-days-in-ireland.html">🇮🇪 愛爾蘭</a></td><td>10</td><td>9</td><td>252</td></tr><tr><td><a href="working-days-in-germany.html">🇩🇪 德國</a></td><td>9</td><td>7</td><td>254</td></tr><tr><td><a href="working-days-in-austria.html">🇦🇹 奧地利</a></td><td>13</td><td>10</td><td>251</td></tr><tr><td><a href="working-days-in-switzerland.html">🇨🇭 瑞士</a></td><td>4</td><td>3</td><td>258</td></tr><tr><td><a href="working-days-in-france.html">🇫🇷 法國</a></td><td>11</td><td>9</td><td>252</td></tr><tr><td><a href="working-days-in-belgium.html">🇧🇪 比利時</a></td><td>10</td><td>8</td><td>253</td></tr><tr><td><a href="working-days-in-netherlands.html">🇳🇱 荷蘭</a></td><td>11</td><td>8</td><td>253</td></tr><tr><td><a href="working-days-in-spain.html">🇪🇸 西班牙</a></td><td>10</td><td>7</td><td>254</td></tr><tr><td><a href="working-days-in-portugal.html">🇵🇹 葡萄牙</a></td><td>13</td><td>9</td><td>252</td></tr><tr><td><a href="working-days-in-italy.html">🇮🇹 義大利</a></td><td>13</td><td>7</td><td>254</td></tr><tr><td><a href="working-days-in-greece.html">🇬🇷 希臘</a></td><td>12</td><td>10</td><td>251</td></tr><tr><td><a href="working-days-in-poland.html">🇵🇱 波蘭</a></td><td>14</td><td>8</td><td>253</td></tr><tr><td><a href="working-days-in-czechia.html">🇨🇿 捷克</a></td><td>13</td><td>11</td><td>250</td></tr><tr><td><a href="working-days-in-romania.html">🇷🇴 羅馬尼亞</a></td><td>16</td><td>11</td><td>250</td></tr><tr><td><a href="working-days-in-sweden.html">🇸🇪 瑞典</a></td><td>13</td><td>7</td><td>254</td></tr><tr><td><a href="working-days-in-denmark.html">🇩🇰 丹麥</a></td><td>10</td><td>7</td><td>254</td></tr><tr><td><a href="working-days-in-norway.html">🇳🇴 挪威</a></td><td>12</td><td>8</td><td>253</td></tr><tr><td><a href="working-days-in-finland.html">🇫🇮 芬蘭</a></td><td>11</td><td>7</td><td>254</td></tr><tr><td><a href="working-days-in-hungary.html">🇭🇺 匈牙利</a></td><td>14</td><td>11</td><td>253</td></tr></table>
+</section>
+<section class="txt"><h2>工作原理 — 公式</h2>
+<p>本計算器一次遍歷您的範圍一個日曆日，包括開始和結束日期。每一天被分類為週末日（星期六或星期日）、來自所選國家官方清單的公共假日，或工作日。假日資料涵蓋 2025 年到 2027 年；基於復活節的假日為每年計算，希臘和羅馬尼亞遵循東正教日曆。</p>
+<p><strong>公式：</strong> 工作日 = 包含範圍內的總天數 − 週末日 − 落在工作日的公共假日。</p>
+<h3>示例</h3>
+<div class="exbox"><p><strong>輸入項：</strong> 國家：德國；開始日期：星期二，十二月1日，2026年；結束日期：星期四，十二月31日，2026年。</p><p><strong>步驟：</strong> 包含起止的範圍共有 31 天。週末天數（週六和週日）：8。範圍內的公共假日：聖誕節（十二月 25 日，星期五）；節禮日（十二月 26 日，星期六）——總共 2 個，其中 1 個落在工作日。工作日 = 31 − 8 − 1 = 22。</p><p><strong>結果：</strong> <strong id="wdExResult">德國 2026 年十二月的工作日：22——共 31 天，其中 8 個週末日和 2 個公共假日。</strong></p></div>
+</section>
+<section class="txt"><h2>常見問題</h2></section>
+<div class="faq"><h3>歐洲工作日計算器涵蓋哪些國家？</h3><p>二十個國家：英國（英格蘭和威爾士）、愛爾蘭、德國、法國、西班牙、義大利、荷蘭、波蘭、葡萄牙、比利時、奧地利、瑞典、丹麥、挪威、芬蘭、希臘、捷克、羅馬尼亞、匈牙利和瑞士——每個都有自己內建的 2025 年至 2027 年官方公共假日清單。</p></div><div class="faq"><h3>每個國家的公眾假日如何處理？</h3><p>每個國家都使用自己的全國清單。基於復活節的假日按年計算——希臘和羅馬尼亞遵循東正教復活節日曆，其餘國家遵循西方日曆。不包括地區假日；每個國家頁面都會說明計算和不計算哪些內容。</p></div><div class="faq"><h3>為什麼瑞士只顯示 4 個假日？</h3><p>瑞士公共假日由各州設定，而不是聯邦政府。只有瑞士國慶日（八月 1 日）是聯邦假日，只有四天是全部 26 個州的假日。每個州在此基礎上新增自己的假日。</p></div><div class="faq"><h3>什麼算作工作日？</h3><p>所選國家中不是國家公共假日的星期一至星期五。一個特殊情況：匈牙利每年頒佈幾個工作星期六（2026 年有三個），這些星期六對匈牙利計為工作日。</p></div><div class="faq"><h3>我可以計算跨入另一年的範圍嗎？</h3><p>是的。假日資料涵蓋2025、2026和2027年，區間可以自由跨月跨年——從十二月到一月，或一次算整整一年。起始和結束日期都計入總數。</p></div>
+<h2 class="sec">按國家的工作日</h2>
+<div class="grid"><a class="card" href="working-days-in-united-kingdom.html"><div class="ic">🇬🇧</div><h3>英國的工作日</h3><p>8 個公共假日（2026年）</p></a><a class="card" href="working-days-in-ireland.html"><div class="ic">🇮🇪</div><h3>愛爾蘭的工作日</h3><p>10 個公共假日（2026年）</p></a><a class="card" href="working-days-in-germany.html"><div class="ic">🇩🇪</div><h3>德國的工作日</h3><p>9 個公共假日（2026年）</p></a><a class="card" href="working-days-in-austria.html"><div class="ic">🇦🇹</div><h3>奧地利的工作日</h3><p>13 個公共假日（2026年）</p></a><a class="card" href="working-days-in-switzerland.html"><div class="ic">🇨🇭</div><h3>瑞士的工作日</h3><p>4 個公共假日（2026年）</p></a><a class="card" href="working-days-in-france.html"><div class="ic">🇫🇷</div><h3>法國的工作日</h3><p>11 個公共假日（2026年）</p></a><a class="card" href="working-days-in-belgium.html"><div class="ic">🇧🇪</div><h3>比利時的工作日</h3><p>10 個公共假日（2026年）</p></a><a class="card" href="working-days-in-netherlands.html"><div class="ic">🇳🇱</div><h3>荷蘭的工作日</h3><p>11 個公共假日（2026年）</p></a><a class="card" href="working-days-in-spain.html"><div class="ic">🇪🇸</div><h3>西班牙的工作日</h3><p>10 個公共假日（2026年）</p></a><a class="card" href="working-days-in-portugal.html"><div class="ic">🇵🇹</div><h3>葡萄牙的工作日</h3><p>13 個公共假日（2026年）</p></a><a class="card" href="working-days-in-italy.html"><div class="ic">🇮🇹</div><h3>義大利的工作日</h3><p>13 個公共假日（2026年）</p></a><a class="card" href="working-days-in-greece.html"><div class="ic">🇬🇷</div><h3>希臘的工作日</h3><p>12 個公共假日（2026年）</p></a><a class="card" href="working-days-in-poland.html"><div class="ic">🇵🇱</div><h3>波蘭的工作日</h3><p>14 個公共假日（2026年）</p></a><a class="card" href="working-days-in-czechia.html"><div class="ic">🇨🇿</div><h3>捷克的工作日</h3><p>13 個公共假日（2026年）</p></a><a class="card" href="working-days-in-romania.html"><div class="ic">🇷🇴</div><h3>羅馬尼亞的工作日</h3><p>16 個公共假日（2026年）</p></a><a class="card" href="working-days-in-sweden.html"><div class="ic">🇸🇪</div><h3>瑞典的工作日</h3><p>13 個公共假日（2026年）</p></a><a class="card" href="working-days-in-denmark.html"><div class="ic">🇩🇰</div><h3>丹麥的工作日</h3><p>10 個公共假日（2026年）</p></a><a class="card" href="working-days-in-norway.html"><div class="ic">🇳🇴</div><h3>挪威的工作日</h3><p>12 個公共假日（2026年）</p></a><a class="card" href="working-days-in-finland.html"><div class="ic">🇫🇮</div><h3>芬蘭的工作日</h3><p>11 個公共假日（2026年）</p></a><a class="card" href="working-days-in-hungary.html"><div class="ic">🇭🇺</div><h3>匈牙利的工作日</h3><p>14 個公共假日（2026年）</p></a></div>
+<h2 class="sec">相關計算器</h2>
+<div class="grid"><a class="card" href="working-days-calculator/"><div class="ic">🏢</div><h3>工作日計算器</h3><p>日期 &amp; 時間</p></a><a class="card" href="age-calculator/"><div class="ic">📅</div><h3>年齡計算器</h3><p>日期 &amp; 時間</p></a><a class="card" href="days-between-dates-calculator/"><div class="ic">🗓️</div><h3>兩個日期之間的天數</h3><p>日期 &amp; 時間</p></a><a class="card" href="date-calculator/"><div class="ic">📆</div><h3>日期計算器</h3><p>日期 &amp; 時間</p></a><a class="card" href="time-calculator/"><div class="ic">⏱️</div><h3>時間計算器</h3><p>日期 &amp; 時間</p></a></div>
+</div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">將此計算器嵌入您的網站——免費</h2>
+<p style="margin:0 0 12px;line-height:1.6">將本計算器新增到你自己的網站或部落格——完全免費，無需註冊，並且始終顯示最新版本。複製下面的程式碼，貼上到你希望計算器出現的頁面位置。在嵌入下方保留小小的 &ldquo;Powered by Loona Automation&rdquo; 署名行有助於保持本工具免費——但你可以自由設定樣式或將其移除；無論哪種方式工具都能工作。</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/zh-hant/working-days-calculator-europe.html" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Working Days Calculator Europe by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;技術支援： &lt;a href="https://loonaautomation.github.io/loona-calculators/zh-hant/working-days-calculator-europe.html" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 免費 歐洲工作日計算器&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">複製嵌入程式碼</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='複製嵌入程式碼';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>熱門計算器</h4><ul><li><a href="age-calculator/">年齡計算器</a></li>
+<li><a href="zakat-calculator/">天課計算器</a></li>
+<li><a href="cgpa-calculator/">CGPA 計算器</a></li>
+<li><a href="percentage-calculator/">百分比計算器</a></li>
+<li><a href="hijri-date-converter/">伊斯蘭曆日期轉換器</a></li>
+<li><a href="emi-calculator/">EMI 與貸款計算器</a></li></ul></div>
+<div><h4>更多 Loona 工具</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona 圖片壓縮工具</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI 助手</a></li>
+<li><a href="https://loonaautomation.github.io/">所有 Loona 工具</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="about.html">關於</a></li>
+<li><a href="contact.html">聯絡</a></li>
+<li><a href="privacy-policy.html">隱私政策</a></li>
+<li><a href="terms.html">使用條款</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators —— 一個 <a href="https://loonaautomation.github.io/">Loona Automation</a> 專案。免費線上計算器，無需註冊。
+聯絡方式： <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+"use strict";
+var WD_NAMES={"united-kingdom": "United Kingdom", "ireland": "Ireland", "germany": "Germany", "austria": "Austria", "switzerland": "Switzerland", "france": "France", "belgium": "Belgium", "netherlands": "Netherlands", "spain": "Spain", "portugal": "Portugal", "italy": "Italy", "greece": "Greece", "poland": "Poland", "czechia": "Czechia", "romania": "Romania", "sweden": "Sweden", "denmark": "Denmark", "norway": "Norway", "finland": "Finland", "hungary": "Hungary"};
+var WD_DATA={"united-kingdom": {"h": {"2025-01-01": "元旦", "2025-04-18": "Good Friday", "2025-04-21": "Easter Monday", "2025-05-05": "五月初銀行假日", "2025-05-26": "春季銀行假日", "2025-08-25": "夏季銀行假日", "2025-12-25": "Christmas Day", "2025-12-26": "Boxing Day", "2026-01-01": "元旦", "2026-04-03": "Good Friday", "2026-04-06": "Easter Monday", "2026-05-04": "五月初銀行假日", "2026-05-25": "春季銀行假日", "2026-08-31": "夏季銀行假日", "2026-12-25": "Christmas Day", "2026-12-28": "節禮日（替代日）", "2027-01-01": "元旦", "2027-03-26": "Good Friday", "2027-03-29": "Easter Monday", "2027-05-03": "五月初銀行假日", "2027-05-31": "春季銀行假日", "2027-08-30": "夏季銀行假日", "2027-12-27": "聖誕節（替代日）", "2027-12-28": "節禮日（替代日）"}, "x": {}}, "ireland": {"h": {"2025-01-01": "元旦", "2025-02-03": "聖布麗吉德日", "2025-03-17": "聖帕特里克日", "2025-04-21": "Easter Monday", "2025-05-05": "May Day", "2025-06-02": "六月銀行假日", "2025-08-04": "八月銀行假日", "2025-10-27": "十月銀行假日", "2025-12-25": "Christmas Day", "2025-12-26": "聖斯蒂芬日", "2026-01-01": "元旦", "2026-02-02": "聖布麗吉德日", "2026-03-17": "聖帕特里克日", "2026-04-06": "Easter Monday", "2026-05-04": "May Day", "2026-06-01": "六月銀行假日", "2026-08-03": "八月銀行假日", "2026-10-26": "十月銀行假日", "2026-12-25": "Christmas Day", "2026-12-26": "聖斯蒂芬日", "2027-01-01": "元旦", "2027-02-01": "聖布麗吉德日", "2027-03-17": "聖帕特里克日", "2027-03-29": "Easter Monday", "2027-05-03": "May Day", "2027-06-07": "六月銀行假日", "2027-08-02": "八月銀行假日", "2027-10-25": "十月銀行假日", "2027-12-25": "Christmas Day", "2027-12-26": "聖斯蒂芬日"}, "x": {}}, "germany": {"h": {"2025-01-01": "元旦", "2025-04-18": "Good Friday", "2025-04-21": "Easter Monday", "2025-05-01": "May Day", "2025-05-29": "Ascension Day", "2025-06-09": "Whit Monday", "2025-10-03": "德國統一日", "2025-12-25": "Christmas Day", "2025-12-26": "Boxing Day", "2026-01-01": "元旦", "2026-04-03": "Good Friday", "2026-04-06": "Easter Monday", "2026-05-01": "May Day", "2026-05-14": "Ascension Day", "2026-05-25": "Whit Monday", "2026-10-03": "德國統一日", "2026-12-25": "Christmas Day", "2026-12-26": "Boxing Day", "2027-01-01": "元旦", "2027-03-26": "Good Friday", "2027-03-29": "Easter Monday", "2027-05-01": "May Day", "2027-05-06": "Ascension Day", "2027-05-17": "Whit Monday", "2027-10-03": "德國統一日", "2027-12-25": "Christmas Day", "2027-12-26": "Boxing Day"}, "x": {}}, "austria": {"h": {"2025-01-01": "元旦", "2025-01-06": "Epiphany", "2025-04-21": "Easter Monday", "2025-05-01": "Labour Day", "2025-05-29": "Ascension Day", "2025-06-09": "Whit Monday", "2025-06-19": "Corpus Christi", "2025-08-15": "聖母升天節", "2025-10-26": "National Day", "2025-11-01": "諸聖節", "2025-12-08": "Immaculate Conception", "2025-12-25": "Christmas Day", "2025-12-26": "聖斯蒂芬日", "2026-01-01": "元旦", "2026-01-06": "Epiphany", "2026-04-06": "Easter Monday", "2026-05-01": "Labour Day", "2026-05-14": "Ascension Day", "2026-05-25": "Whit Monday", "2026-06-04": "Corpus Christi", "2026-08-15": "聖母升天節", "2026-10-26": "National Day", "2026-11-01": "諸聖節", "2026-12-08": "Immaculate Conception", "2026-12-25": "Christmas Day", "2026-12-26": "聖斯蒂芬日", "2027-01-01": "元旦", "2027-01-06": "Epiphany", "2027-03-29": "Easter Monday", "2027-05-01": "Labour Day", "2027-05-06": "Ascension Day", "2027-05-17": "Whit Monday", "2027-05-27": "Corpus Christi", "2027-08-15": "聖母升天節", "2027-10-26": "National Day", "2027-11-01": "諸聖節", "2027-12-08": "Immaculate Conception", "2027-12-25": "Christmas Day", "2027-12-26": "聖斯蒂芬日"}, "x": {}}, "switzerland": {"h": {"2025-01-01": "元旦", "2025-05-29": "Ascension Day", "2025-08-01": "瑞士國慶日", "2025-12-25": "Christmas Day", "2026-01-01": "元旦", "2026-05-14": "Ascension Day", "2026-08-01": "瑞士國慶日", "2026-12-25": "Christmas Day", "2027-01-01": "元旦", "2027-05-06": "Ascension Day", "2027-08-01": "瑞士國慶日", "2027-12-25": "Christmas Day"}, "x": {}}, "france": {"h": {"2025-01-01": "元旦", "2025-04-21": "Easter Monday", "2025-05-01": "Labour Day", "2025-05-08": "Victory Day", "2025-05-29": "Ascension Day", "2025-06-09": "Whit Monday", "2025-07-14": "Bastille Day", "2025-08-15": "聖母升天節", "2025-11-01": "諸聖節", "2025-11-11": "Armistice Day", "2025-12-25": "Christmas Day", "2026-01-01": "元旦", "2026-04-06": "Easter Monday", "2026-05-01": "Labour Day", "2026-05-08": "Victory Day", "2026-05-14": "Ascension Day", "2026-05-25": "Whit Monday", "2026-07-14": "Bastille Day", "2026-08-15": "聖母升天節", "2026-11-01": "諸聖節", "2026-11-11": "Armistice Day", "2026-12-25": "Christmas Day", "2027-01-01": "元旦", "2027-03-29": "Easter Monday", "2027-05-01": "Labour Day", "2027-05-06": "Ascension Day", "2027-05-08": "Victory Day", "2027-05-17": "Whit Monday", "2027-07-14": "Bastille Day", "2027-08-15": "聖母升天節", "2027-11-01": "諸聖節", "2027-11-11": "Armistice Day", "2027-12-25": "Christmas Day"}, "x": {}}, "belgium": {"h": {"2025-01-01": "元旦", "2025-04-21": "Easter Monday", "2025-05-01": "Labour Day", "2025-05-29": "Ascension Day", "2025-06-09": "Whit Monday", "2025-07-21": "比利時國慶日", "2025-08-15": "聖母升天節", "2025-11-01": "諸聖節", "2025-11-11": "Armistice Day", "2025-12-25": "Christmas Day", "2026-01-01": "元旦", "2026-04-06": "Easter Monday", "2026-05-01": "Labour Day", "2026-05-14": "Ascension Day", "2026-05-25": "Whit Monday", "2026-07-21": "比利時國慶日", "2026-08-15": "聖母升天節", "2026-11-01": "諸聖節", "2026-11-11": "Armistice Day", "2026-12-25": "Christmas Day", "2027-01-01": "元旦", "2027-03-29": "Easter Monday", "2027-05-01": "Labour Day", "2027-05-06": "Ascension Day", "2027-05-17": "Whit Monday", "2027-07-21": "比利時國慶日", "2027-08-15": "聖母升天節", "2027-11-01": "諸聖節", "2027-11-11": "Armistice Day", "2027-12-25": "Christmas Day"}, "x": {}}, "netherlands": {"h": {"2025-01-01": "元旦", "2025-04-18": "Good Friday", "2025-04-20": "Easter Sunday", "2025-04-21": "Easter Monday", "2025-04-26": "King's Day", "2025-05-05": "Liberation Day", "2025-05-29": "Ascension Day", "2025-06-08": "Whit Sunday", "2025-06-09": "Whit Monday", "2025-12-25": "Christmas Day", "2025-12-26": "聖誕節第二天", "2026-01-01": "元旦", "2026-04-03": "Good Friday", "2026-04-05": "Easter Sunday", "2026-04-06": "Easter Monday", "2026-04-27": "King's Day", "2026-05-05": "Liberation Day", "2026-05-14": "Ascension Day", "2026-05-24": "Whit Sunday", "2026-05-25": "Whit Monday", "2026-12-25": "Christmas Day", "2026-12-26": "聖誕節第二天", "2027-01-01": "元旦", "2027-03-26": "Good Friday", "2027-03-28": "Easter Sunday", "2027-03-29": "Easter Monday", "2027-04-27": "King's Day", "2027-05-05": "Liberation Day", "2027-05-06": "Ascension Day", "2027-05-16": "Whit Sunday", "2027-05-17": "Whit Monday", "2027-12-25": "Christmas Day", "2027-12-26": "聖誕節第二天"}, "x": {}}, "spain": {"h": {"2025-01-01": "元旦", "2025-01-06": "Epiphany", "2025-04-18": "Good Friday", "2025-05-01": "Labour Day", "2025-08-15": "聖母升天節", "2025-10-12": "西班牙國慶日", "2025-11-01": "諸聖節", "2025-12-06": "Constitution Day", "2025-12-08": "Immaculate Conception", "2025-12-25": "Christmas Day", "2026-01-01": "元旦", "2026-01-06": "Epiphany", "2026-04-03": "Good Friday", "2026-05-01": "Labour Day", "2026-08-15": "聖母升天節", "2026-10-12": "西班牙國慶日", "2026-11-01": "諸聖節", "2026-12-06": "Constitution Day", "2026-12-08": "Immaculate Conception", "2026-12-25": "Christmas Day", "2027-01-01": "元旦", "2027-01-06": "Epiphany", "2027-03-26": "Good Friday", "2027-05-01": "Labour Day", "2027-08-15": "聖母升天節", "2027-10-12": "西班牙國慶日", "2027-11-01": "諸聖節", "2027-12-06": "Constitution Day", "2027-12-08": "Immaculate Conception", "2027-12-25": "Christmas Day"}, "x": {}}, "portugal": {"h": {"2025-01-01": "元旦", "2025-04-18": "Good Friday", "2025-04-20": "Easter Sunday", "2025-04-25": "Liberty Day", "2025-05-01": "Labour Day", "2025-06-10": "Portugal Day", "2025-06-19": "Corpus Christi", "2025-08-15": "聖母升天節", "2025-10-05": "Republic Day", "2025-11-01": "諸聖節", "2025-12-01": "獨立恢復日", "2025-12-08": "Immaculate Conception", "2025-12-25": "Christmas Day", "2026-01-01": "元旦", "2026-04-03": "Good Friday", "2026-04-05": "Easter Sunday", "2026-04-25": "Liberty Day", "2026-05-01": "Labour Day", "2026-06-04": "Corpus Christi", "2026-06-10": "Portugal Day", "2026-08-15": "聖母升天節", "2026-10-05": "Republic Day", "2026-11-01": "諸聖節", "2026-12-01": "獨立恢復日", "2026-12-08": "Immaculate Conception", "2026-12-25": "Christmas Day", "2027-01-01": "元旦", "2027-03-26": "Good Friday", "2027-03-28": "Easter Sunday", "2027-04-25": "Liberty Day", "2027-05-01": "Labour Day", "2027-05-27": "Corpus Christi", "2027-06-10": "Portugal Day", "2027-08-15": "聖母升天節", "2027-10-05": "Republic Day", "2027-11-01": "諸聖節", "2027-12-01": "獨立恢復日", "2027-12-08": "Immaculate Conception", "2027-12-25": "Christmas Day"}, "x": {}}, "italy": {"h": {"2025-01-01": "元旦", "2025-01-06": "Epiphany", "2025-04-20": "Easter Sunday", "2025-04-21": "Easter Monday", "2025-04-25": "Liberation Day", "2025-05-01": "Labour Day", "2025-06-02": "Republic Day", "2025-08-15": "聖母升天節", "2025-11-01": "諸聖節", "2025-12-08": "Immaculate Conception", "2025-12-25": "Christmas Day", "2025-12-26": "聖斯蒂芬日", "2026-01-01": "元旦", "2026-01-06": "Epiphany", "2026-04-05": "Easter Sunday", "2026-04-06": "Easter Monday", "2026-04-25": "Liberation Day", "2026-05-01": "Labour Day", "2026-06-02": "Republic Day", "2026-08-15": "聖母升天節", "2026-10-04": "聖方濟各瞻禮", "2026-11-01": "諸聖節", "2026-12-08": "Immaculate Conception", "2026-12-25": "Christmas Day", "2026-12-26": "聖斯蒂芬日", "2027-01-01": "元旦", "2027-01-06": "Epiphany", "2027-03-28": "Easter Sunday", "2027-03-29": "Easter Monday", "2027-04-25": "Liberation Day", "2027-05-01": "Labour Day", "2027-06-02": "Republic Day", "2027-08-15": "聖母升天節", "2027-10-04": "聖方濟各瞻禮", "2027-11-01": "諸聖節", "2027-12-08": "Immaculate Conception", "2027-12-25": "Christmas Day", "2027-12-26": "聖斯蒂芬日"}, "x": {}}, "greece": {"h": {"2025-01-01": "元旦", "2025-01-06": "Epiphany", "2025-03-03": "Clean Monday", "2025-03-25": "Independence Day", "2025-04-18": "東正教耶穌受難日", "2025-04-21": "東正教復活節星期一", "2025-05-01": "Labour Day", "2025-06-09": "聖靈星期一", "2025-08-15": "聖母安眠節", "2025-10-28": "Ochi Day", "2025-12-25": "Christmas Day", "2025-12-26": "天主之母集會節", "2026-01-01": "元旦", "2026-01-06": "Epiphany", "2026-02-23": "Clean Monday", "2026-03-25": "Independence Day", "2026-04-10": "東正教耶穌受難日", "2026-04-13": "東正教復活節星期一", "2026-05-01": "Labour Day", "2026-06-01": "聖靈星期一", "2026-08-15": "聖母安眠節", "2026-10-28": "Ochi Day", "2026-12-25": "Christmas Day", "2026-12-26": "天主之母集會節", "2027-01-01": "元旦", "2027-01-06": "Epiphany", "2027-03-15": "Clean Monday", "2027-03-25": "Independence Day", "2027-04-30": "東正教耶穌受難日", "2027-05-01": "Labour Day", "2027-05-03": "東正教復活節星期一", "2027-06-21": "聖靈星期一", "2027-08-15": "聖母安眠節", "2027-10-28": "Ochi Day", "2027-12-25": "Christmas Day", "2027-12-26": "天主之母集會節"}, "x": {}}, "poland": {"h": {"2025-01-01": "元旦", "2025-01-06": "Epiphany", "2025-04-20": "Easter Sunday", "2025-04-21": "Easter Monday", "2025-05-01": "Labour Day", "2025-05-03": "Constitution Day", "2025-06-08": "Whit Sunday", "2025-06-19": "Corpus Christi", "2025-08-15": "聖母升天節", "2025-11-01": "諸聖節", "2025-11-11": "Independence Day", "2025-12-24": "Christmas Eve", "2025-12-25": "Christmas Day", "2025-12-26": "聖誕節第二天", "2026-01-01": "元旦", "2026-01-06": "Epiphany", "2026-04-05": "Easter Sunday", "2026-04-06": "Easter Monday", "2026-05-01": "Labour Day", "2026-05-03": "Constitution Day", "2026-05-24": "Whit Sunday", "2026-06-04": "Corpus Christi", "2026-08-15": "聖母升天節", "2026-11-01": "諸聖節", "2026-11-11": "Independence Day", "2026-12-24": "Christmas Eve", "2026-12-25": "Christmas Day", "2026-12-26": "聖誕節第二天", "2027-01-01": "元旦", "2027-01-06": "Epiphany", "2027-03-28": "Easter Sunday", "2027-03-29": "Easter Monday", "2027-05-01": "Labour Day", "2027-05-03": "Constitution Day", "2027-05-16": "Whit Sunday", "2027-05-27": "Corpus Christi", "2027-08-15": "聖母升天節", "2027-11-01": "諸聖節", "2027-11-11": "Independence Day", "2027-12-24": "Christmas Eve", "2027-12-25": "Christmas Day", "2027-12-26": "聖誕節第二天"}, "x": {}}, "czechia": {"h": {"2025-01-01": "元旦", "2025-04-18": "Good Friday", "2025-04-21": "Easter Monday", "2025-05-01": "Labour Day", "2025-05-08": "Victory Day", "2025-07-05": "聖西里爾與聖美多德日", "2025-07-06": "揚·胡斯日", "2025-09-28": "聖瓦茨拉夫日", "2025-10-28": "捷克斯洛伐克獨立建國日", "2025-11-17": "爭取自由與民主鬥爭日", "2025-12-24": "Christmas Eve", "2025-12-25": "Christmas Day", "2025-12-26": "聖斯蒂芬日", "2026-01-01": "元旦", "2026-04-03": "Good Friday", "2026-04-06": "Easter Monday", "2026-05-01": "Labour Day", "2026-05-08": "Victory Day", "2026-07-05": "聖西里爾與聖美多德日", "2026-07-06": "揚·胡斯日", "2026-09-28": "聖瓦茨拉夫日", "2026-10-28": "捷克斯洛伐克獨立建國日", "2026-11-17": "爭取自由與民主鬥爭日", "2026-12-24": "Christmas Eve", "2026-12-25": "Christmas Day", "2026-12-26": "聖斯蒂芬日", "2027-01-01": "元旦", "2027-03-26": "Good Friday", "2027-03-29": "Easter Monday", "2027-05-01": "Labour Day", "2027-05-08": "Victory Day", "2027-07-05": "聖西里爾與聖美多德日", "2027-07-06": "揚·胡斯日", "2027-09-28": "聖瓦茨拉夫日", "2027-10-28": "捷克斯洛伐克獨立建國日", "2027-11-17": "爭取自由與民主鬥爭日", "2027-12-24": "Christmas Eve", "2027-12-25": "Christmas Day", "2027-12-26": "聖斯蒂芬日"}, "x": {}}, "romania": {"h": {"2025-01-01": "元旦", "2025-01-02": "元旦次日", "2025-01-06": "Epiphany", "2025-01-07": "施洗者聖約翰集會節", "2025-01-24": "Unification Day", "2025-04-18": "東正教耶穌受難日", "2025-04-20": "東正教復活節星期日", "2025-04-21": "東正教復活節星期一", "2025-05-01": "Labour Day", "2025-06-01": "Children's Day", "2025-06-08": "Orthodox Pentecost", "2025-06-09": "東正教聖靈降臨節星期一", "2025-08-15": "聖瑪麗日", "2025-11-30": "聖安德烈日", "2025-12-01": "National Day", "2025-12-25": "Christmas Day", "2025-12-26": "聖誕節第二天", "2026-01-01": "元旦", "2026-01-02": "元旦次日", "2026-01-06": "Epiphany", "2026-01-07": "施洗者聖約翰集會節", "2026-01-24": "Unification Day", "2026-04-10": "東正教耶穌受難日", "2026-04-12": "東正教復活節星期日", "2026-04-13": "東正教復活節星期一", "2026-05-01": "Labour Day", "2026-05-31": "Orthodox Pentecost", "2026-06-01": "東正教聖靈降臨節星期一 / 兒童節", "2026-08-15": "聖瑪麗日", "2026-11-30": "聖安德烈日", "2026-12-01": "National Day", "2026-12-25": "Christmas Day", "2026-12-26": "聖誕節第二天", "2027-01-01": "元旦", "2027-01-02": "元旦次日", "2027-01-06": "Epiphany", "2027-01-07": "施洗者聖約翰集會節", "2027-01-24": "Unification Day", "2027-04-30": "東正教耶穌受難日", "2027-05-01": "Labour Day", "2027-05-02": "東正教復活節星期日", "2027-05-03": "東正教復活節星期一", "2027-06-01": "Children's Day", "2027-06-20": "Orthodox Pentecost", "2027-06-21": "東正教聖靈降臨節星期一", "2027-08-15": "聖瑪麗日", "2027-11-30": "聖安德烈日", "2027-12-01": "National Day", "2027-12-25": "Christmas Day", "2027-12-26": "聖誕節第二天"}, "x": {}}, "sweden": {"h": {"2025-01-01": "元旦", "2025-01-06": "Epiphany", "2025-04-18": "Good Friday", "2025-04-20": "Easter Sunday", "2025-04-21": "Easter Monday", "2025-05-01": "May Day", "2025-05-29": "Ascension Day", "2025-06-06": "National Day", "2025-06-08": "Whit Sunday", "2025-06-21": "Midsummer Day", "2025-11-01": "諸聖節", "2025-12-25": "Christmas Day", "2025-12-26": "Boxing Day", "2026-01-01": "元旦", "2026-01-06": "Epiphany", "2026-04-03": "Good Friday", "2026-04-05": "Easter Sunday", "2026-04-06": "Easter Monday", "2026-05-01": "May Day", "2026-05-14": "Ascension Day", "2026-05-24": "Whit Sunday", "2026-06-06": "National Day", "2026-06-20": "Midsummer Day", "2026-10-31": "諸聖節", "2026-12-25": "Christmas Day", "2026-12-26": "Boxing Day", "2027-01-01": "元旦", "2027-01-06": "Epiphany", "2027-03-26": "Good Friday", "2027-03-28": "Easter Sunday", "2027-03-29": "Easter Monday", "2027-05-01": "May Day", "2027-05-06": "Ascension Day", "2027-05-16": "Whit Sunday", "2027-06-06": "National Day", "2027-06-26": "Midsummer Day", "2027-11-06": "諸聖節", "2027-12-25": "Christmas Day", "2027-12-26": "Boxing Day"}, "x": {}}, "denmark": {"h": {"2025-01-01": "元旦", "2025-04-17": "Maundy Thursday", "2025-04-18": "Good Friday", "2025-04-20": "Easter Sunday", "2025-04-21": "Easter Monday", "2025-05-29": "Ascension Day", "2025-06-08": "Whit Sunday", "2025-06-09": "Whit Monday", "2025-12-25": "Christmas Day", "2025-12-26": "聖誕節第二天", "2026-01-01": "元旦", "2026-04-02": "Maundy Thursday", "2026-04-03": "Good Friday", "2026-04-05": "Easter Sunday", "2026-04-06": "Easter Monday", "2026-05-14": "Ascension Day", "2026-05-24": "Whit Sunday", "2026-05-25": "Whit Monday", "2026-12-25": "Christmas Day", "2026-12-26": "聖誕節第二天", "2027-01-01": "元旦", "2027-03-25": "Maundy Thursday", "2027-03-26": "Good Friday", "2027-03-28": "Easter Sunday", "2027-03-29": "Easter Monday", "2027-05-06": "Ascension Day", "2027-05-16": "Whit Sunday", "2027-05-17": "Whit Monday", "2027-12-25": "Christmas Day", "2027-12-26": "聖誕節第二天"}, "x": {}}, "norway": {"h": {"2025-01-01": "元旦", "2025-04-17": "Maundy Thursday", "2025-04-18": "Good Friday", "2025-04-20": "Easter Sunday", "2025-04-21": "Easter Monday", "2025-05-01": "Labour Day", "2025-05-17": "Constitution Day", "2025-05-29": "Ascension Day", "2025-06-08": "Whit Sunday", "2025-06-09": "Whit Monday", "2025-12-25": "Christmas Day", "2025-12-26": "Boxing Day", "2026-01-01": "元旦", "2026-04-02": "Maundy Thursday", "2026-04-03": "Good Friday", "2026-04-05": "Easter Sunday", "2026-04-06": "Easter Monday", "2026-05-01": "Labour Day", "2026-05-14": "Ascension Day", "2026-05-17": "Constitution Day", "2026-05-24": "Whit Sunday", "2026-05-25": "Whit Monday", "2026-12-25": "Christmas Day", "2026-12-26": "Boxing Day", "2027-01-01": "元旦", "2027-03-25": "Maundy Thursday", "2027-03-26": "Good Friday", "2027-03-28": "Easter Sunday", "2027-03-29": "Easter Monday", "2027-05-01": "Labour Day", "2027-05-06": "Ascension Day", "2027-05-16": "Whit Sunday", "2027-05-17": "憲法日 / 聖靈星期一", "2027-12-25": "Christmas Day", "2027-12-26": "Boxing Day"}, "x": {}}, "finland": {"h": {"2025-01-01": "元旦", "2025-01-06": "Epiphany", "2025-04-18": "Good Friday", "2025-04-21": "Easter Monday", "2025-05-01": "May Day", "2025-05-29": "Ascension Day", "2025-06-21": "Midsummer Day", "2025-11-01": "諸聖節", "2025-12-06": "Independence Day", "2025-12-25": "Christmas Day", "2025-12-26": "Boxing Day", "2026-01-01": "元旦", "2026-01-06": "Epiphany", "2026-04-03": "Good Friday", "2026-04-06": "Easter Monday", "2026-05-01": "May Day", "2026-05-14": "Ascension Day", "2026-06-20": "Midsummer Day", "2026-10-31": "諸聖節", "2026-12-06": "Independence Day", "2026-12-25": "Christmas Day", "2026-12-26": "Boxing Day", "2027-01-01": "元旦", "2027-01-06": "Epiphany", "2027-03-26": "Good Friday", "2027-03-29": "Easter Monday", "2027-05-01": "May Day", "2027-05-06": "Ascension Day", "2027-06-26": "Midsummer Day", "2027-11-06": "諸聖節", "2027-12-06": "Independence Day", "2027-12-25": "Christmas Day", "2027-12-26": "Boxing Day"}, "x": {}}, "hungary": {"h": {"2025-01-01": "元旦", "2025-03-15": "1848 年革命紀念日", "2025-04-18": "Good Friday", "2025-04-21": "Easter Monday", "2025-05-01": "Labour Day", "2025-06-09": "Whit Monday", "2025-08-20": "National Day", "2025-10-23": "1956 年革命紀念日", "2025-11-01": "諸聖節", "2025-12-25": "Christmas Day", "2025-12-26": "聖誕節第二天", "2026-01-01": "元旦", "2026-01-02": "新年假期（調休日）", "2026-03-15": "1848 年革命紀念日", "2026-04-03": "Good Friday", "2026-04-06": "Easter Monday", "2026-05-01": "Labour Day", "2026-05-25": "Whit Monday", "2026-08-20": "National Day", "2026-08-21": "國慶假期（調休日）", "2026-10-23": "1956 年革命紀念日", "2026-11-01": "諸聖節", "2026-12-24": "平安夜（調休日）", "2026-12-25": "Christmas Day", "2026-12-26": "聖誕節第二天", "2027-01-01": "元旦", "2027-03-15": "1848 年革命紀念日", "2027-03-26": "Good Friday", "2027-03-29": "Easter Monday", "2027-05-01": "Labour Day", "2027-05-17": "Whit Monday", "2027-08-20": "National Day", "2027-10-23": "1956 年革命紀念日", "2027-11-01": "諸聖節", "2027-12-25": "Christmas Day", "2027-12-26": "聖誕節第二天"}, "x": {"2026-01-10": 1, "2026-08-08": 1, "2026-12-12": 1}}};
+var WD_COUNTRY="germany";
+function wdParse(s){if(!s)return null;var p=s.split("-");if(p.length<3)return null;return new Date(+p[0],+p[1]-1,+p[2]);}
+function wdKey(d){return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");}
+function wdFmt(d){return d.toLocaleDateString("en-GB",{weekday:"long",day:"numeric",month:"long",year:"numeric"});}
+function wdCount(a,b){var D=WD_DATA[WD_COUNTRY];var H=D.h,X=D.x;
+ if(b<a){var t=a;a=b;b=t;}
+ var total=0,weekend=0,work=0,hol=[],holWd=0,extra=0,cur=new Date(a.getTime());
+ while(cur<=b){total++;var k=wdKey(cur),dow=cur.getDay(),isWk=(dow===0||dow===6),isX=!!X[k],isH=H[k];
+  if(isH){hol.push({date:new Date(cur.getTime()),name:isH,weekend:isWk&&!isX});if(!isWk||isX)holWd++;}
+  if(isX&&isWk)extra++;
+  if(isWk&&!isX){weekend++;}else if(!isH){work++;}
+  cur.setDate(cur.getDate()+1);if(total>36600)return null;}
+ return {from:a,to:b,total:total,weekend:weekend,working:work,holidays:hol,holWeekday:holWd,extraWork:extra};}
+
+</script>
+<script>
+function wdRow(l,v){return "<tr><td>"+l+"</td><td>"+v+"</td></tr>";}
+function wdRender(r,cn){
+ var h="<div class=\"resbig\"><span>工作日</span><strong>"+r.working+"</strong></div>";
+ h+="<table class=\"restbl\">"+wdRow("總天數（包括起止日期）",r.total)
+   +wdRow("Weekend days (Sat\u2013Sun)",r.weekend)
+   +wdRow("範圍內公共假日",r.holidays.length)
+   +wdRow("其中在工作日的",r.holWeekday);
+ if(r.extraWork>0)h+=wdRow("範圍內額外工作週六",r.extraWork);
+ h+=wdRow("From",wdFmt(r.from))+wdRow("To",wdFmt(r.to))+"</table>";
+ if(r.holidays.length){h+="<table class=\"restbl\">";for(var i=0;i<r.holidays.length;i++){var o=r.holidays[i];h+=wdRow(o.name,wdFmt(o.date)+(o.weekend?"（週末）":""));}h+="<tr><td><a href="working-days-in-bulgaria.html">🇧🇬 保加利亞</a></td><td>18</td><td>13</td><td>248</td></tr><tr><td><a href="working-days-in-cyprus.html">🇨🇾 塞普勒斯</a></td><td>14</td><td>12</td><td>249</td></tr><tr><td><a href="working-days-in-estonia.html">🇪🇪 愛沙尼亞</a></td><td>12</td><td>9</td><td>252</td></tr><tr><td><a href="working-days-in-latvia.html">🇱🇻 拉脫維亞</a></td><td>17</td><td>13</td><td>250</td></tr><tr><td><a href="working-days-in-lithuania.html">🇱🇹 立陶宛</a></td><td>16</td><td>10</td><td>251</td></tr><tr><td><a href="working-days-in-malta.html">🇲🇹 馬耳他</a></td><td>14</td><td>11</td><td>250</td></tr><tr><td><a href="working-days-in-slovakia.html">🇸🇰 斯洛伐克</a></td><td>11</td><td>7</td><td>254</td></tr><tr><td><a href="working-days-in-slovenia.html">🇸🇮 斯洛維尼亞</a></td><td>15</td><td>7</td><td>254</td></tr></table>";}
+ var note="Working days = Monday to Friday, minus the national public holidays of "+cn+" 已列於本頁。";
+ if(r.from<new Date(2025,0,1)||r.to>new Date(2027,11,31))note+=" Holiday data covers 2025\u20132027; days outside that range are counted without holidays.";
+ h+="<p class=\"resnote\">"+note+"</p>";
+ return h;}
+function wdRun(){
+ var a=wdParse(document.getElementById("wdStart").value),b=wdParse(document.getElementById("wdEnd").value)||new Date();
+ var box=document.getElementById("wdRes");
+ if(!a){box.innerHTML="<p class=\"err\">請選擇開始日期。</p>";return;}
+ var sel=document.getElementById("wdCountry");if(sel)WD_COUNTRY=sel.value;
+ var r=wdCount(a,b);
+ if(!r){box.innerHTML="<p class=\"err\">該日期範圍太大（超過 100 年）。</p>";return;}
+ box.innerHTML=wdRender(r,WD_NAMES[WD_COUNTRY]);}
+document.getElementById("wdForm").addEventListener("submit",function(e){e.preventDefault();wdRun();});
+var wdSel=document.getElementById("wdCountry");if(wdSel)wdSel.addEventListener("change",wdRun);
+wdRun();
+
+(function(){var r=wdCount(wdParse("2026-12-01"),wdParse("2026-12-31"));var el=document.getElementById("wdExResult");if(r&&el){el.textContent="德國 2026 年十二月的工作日："+r.working+" — 共 "+r.total+" 天，其中 "+r.weekend+" 個週末日和 "+r.holidays.length+" 個公共假日。";}})();
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' 安裝應用';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('安裝此應用：點選分享按鈕，然後選擇“新增到主螢幕”。');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

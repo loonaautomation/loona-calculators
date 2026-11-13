@@ -1,0 +1,29 @@
+{
+  "name": "Loona Km/h 到 Mph 轉換器",
+  "short_name": "Km/h 到 Mph 轉換器",
+  "description": "即時將千米每小時轉換為英里每小時。提供精確公式、完整的km/h 到 mph 換算表和多個計算示例。免費，無需註冊。",
+  "id": "/loona-calculators/zh-hant/kmh-to-mph-converter.html",
+  "start_url": "./kmh-to-mph-converter.html",
+  "scope": "./kmh-to-mph-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

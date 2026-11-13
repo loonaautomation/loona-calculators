@@ -1,0 +1,29 @@
+{
+  "name": "Loona 電費賬單計算器",
+  "short_name": "電費計算器",
+  "description": "免費電費計算器：輸入使用的單位數和階梯費率，估算您含 GST 的每月賬單。可編輯 LESCO、IESCO、K-Electric 和巴基斯坦所有電力公司的費率。",
+  "id": "/loona-calculators/zh-hant/electricity-bill-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

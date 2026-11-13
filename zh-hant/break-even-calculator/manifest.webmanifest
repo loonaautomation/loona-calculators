@@ -1,0 +1,29 @@
+{
+  "name": "Loona 盈虧平衡計算器",
+  "short_name": "盈虧平衡計算器",
+  "description": "免費盈虧平衡計算器：輸入固定成本、售價和每單位可變成本，查明您必須賣出多少單位才能盈虧平衡，以及在什麼收入下。",
+  "id": "/loona-calculators/zh-hant/break-even-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

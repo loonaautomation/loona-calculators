@@ -1,0 +1,29 @@
+{
+  "name": "Loona 可列印日曆生成器",
+  "short_name": "可列印日曆生成器",
+  "description": "免費可列印日曆生成器：選擇任何月份和年份（或一整年），生成一個您可以列印的乾淨日曆網格。星期一或星期日開頭。",
+  "id": "/loona-calculators/zh-hant/printable-calendar-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>期末成績計算器 — 我在期末考試中需要多少分？| Loona</title>
+<meta name="description" content="免費期末成績計算器：輸入您當前的成績、期末考試的權重和您的目標成績，確切檢視您在期末考試中需要多少分。">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/zh-hant/final-grade-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/final-grade-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/final-grade-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/final-grade-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/final-grade-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/final-grade-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/final-grade-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/final-grade-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/final-grade-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/final-grade-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/final-grade-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/final-grade-calculator/"><link rel="alternate" hreflang="zh" href="https://loonaautomation.github.io/loona-calculators/zh/final-grade-calculator/"><link rel="alternate" hreflang="zh-Hant" href="https://loonaautomation.github.io/loona-calculators/zh-hant/final-grade-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/final-grade-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="期末成績計算器 — 我在期末考試中需要多少分？| Loona">
+<meta property="og:description" content="免費期末成績計算器：輸入您當前的成績、期末考試的權重和您的目標成績，確切檢視您在期末考試中需要多少分。">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/zh-hant/final-grade-calculator/"><meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="期末成績計算器 — 我在期末考試中需要多少分？| Loona">
+<meta name="twitter:description" content="免費期末成績計算器：輸入您當前的成績、期末考試的權重和您的目標成績，確切檢視您在期末考試中需要多少分。">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona 最終成績計算器","url":"https://loonaautomation.github.io/loona-calculators/zh-hant/final-grade-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"所需的期末分數是如何計算的？","acceptedAnswer":{"@type":"Answer","text":"你的課程成績是加權平均：當前成績 ×（1 − 權重）+ 期末分數 × 權重。解這個方程求期末分數，得到所需分數 =（目標 − 當前 ×（1 − 權重））÷ 權重。本計算器正是為你完成這一步代數運算。"}},{"@type":"Question","name":"如果本計算器說我的目標不可能實現怎麼辦？","acceptedAnswer":{"@type":"Answer","text":"這意味著即使期末考試得到 100%，也無法將您的加權平均分提升到目標——計算過程已展示，以便您核實。實際的選擇是：爭取仍能達到的最高成績，詢問額外學分或重考，並把精力放在最能改變結果的地方。"}},{"@type":"Question","name":"如果它說我的成績已經確保怎麼辦？","acceptedAnswer":{"@type":"Answer","text":"當您當前的加權成績即使期末考 0% 也已達到目標時，就會發生這種情況（所需分數 ≤ 0）。在大多數課程中您仍需要參加考試——但壓力已經解除。"}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/zh-hant/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "期末成績計算器",
+      "item": "https://loonaautomation.github.io/loona-calculators/zh-hant/final-grade-calculator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation 標誌">
+<div class="brand">Loona <span>計算器</span></div>
+<nav>
+<a href="../">首頁</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">關於</a>
+<a href="../contact.html">聯絡</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › 教育 › 期末成績計算器</div>
+<h1 class="pagetitle">✏️ 期末成績計算器</h1>
+<p class="lead">經典的期末問題：我期末考試需要多少分才能得到我想要的成績？輸入您當前的成績、期末考試所佔的比重和您的目標——計算器會告訴您所需的確切分數，以及是否仍然可能。</p>
+<div class="toolbox"><form class="calcform" id="fgForm">
+<div class="fld"><label for="fgCurrent">你的當前成績（%）</label><input type="number" id="fgCurrent" value="88" step="any" min="0" max="100"></div>
+<div class="fld"><label for="fgWeight">期末考試權重（占課程成績的 %）</label><input type="number" id="fgWeight" value="30" step="any" min="0" max="100"></div>
+<div class="fld"><label for="fgTarget">您想在課程中獲得的成績 (%)</label><input type="number" id="fgTarget" value="90" step="any" min="0" max="100"></div>
+<button class="calcbtn" type="submit">計算我需要多少</button>
+<div class="calcresult" id="fgResult" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>如何使用 Final Grade Calculator</h2><ol><li>輸入您當前的課程成績（百分比）。</li><li>輸入期末考試的權重——它占課程總成績的多少（請檢視您的教學大綱）。</li><li>輸入您期望達到的課程成績，然後按計算。</li></ol>
+<div class="exbox"><strong>示例：</strong> 你目前是88%，期末佔30%，你希望總評達到90%。你需要在期末考到（90 − 88 × 0.70）÷ 0.30 = 94.7%——很難，但有可能。結果下方的表格會顯示其他每個期末分數能帶來的總評。</div>
+<h2>常見問題</h2></section><div class="faq"><h3>所需的期末分數是如何計算的？</h3><p>你的課程成績是加權平均：當前成績 ×（1 − 權重）+ 期末分數 × 權重。解這個方程求期末分數，得到所需分數 =（目標 − 當前 ×（1 − 權重））÷ 權重。本計算器正是為你完成這一步代數運算。</p></div><div class="faq"><h3>如果本計算器說我的目標不可能實現怎麼辦？</h3><p>這意味著即使期末考試得到 100%，也無法將您的加權平均分提升到目標——計算過程已展示，以便您核實。實際的選擇是：爭取仍能達到的最高成績，詢問額外學分或重考，並把精力放在最能改變結果的地方。</p></div><div class="faq"><h3>如果它說我的成績已經確保怎麼辦？</h3><p>當您當前的加權成績即使期末考 0% 也已達到目標時，就會發生這種情況（所需分數 ≤ 0）。在大多數課程中您仍需要參加考試——但壓力已經解除。</p></div>
+<h2 class="sec">相關計算器</h2><div class="grid"><a class="card" href="../gpa-calculator/"><div class="ic">🎓</div><h3>GPA 計算器</h3><p>教育</p></a><a class="card" href="../cgpa-calculator/"><div class="ic">🎓</div><h3>CGPA 計算器</h3><p>教育</p></a><a class="card" href="../grade-calculator/"><div class="ic">✏️</div><h3>成績計算器</h3><p>教育</p></a><a class="card" href="../gpa-to-percentage/"><div class="ic">🔄</div><h3>GPA到百分比</h3><p>教育</p></a><a class="card" href="../target-cgpa-calculator/"><div class="ic">🎯</div><h3>目標 CGPA 計算器</h3><p>教育</p></a><a class="card" href="../marks-percentage-calculator/"><div class="ic">📝</div><h3>Marks Percentage</h3><p>教育</p></a></div>
+</div>
+<section class="txt"><h2>工作原理——公式</h2>
+<p>課程成績是加權平均值。如果您當前的成績 <em>C</em> 計入（1 − <em>w</em>) 的課程，最終考試佔 <em>w</em>:</p>
+<p><strong>課程成績 = C × (1 − w) + 期末分數 × w</strong></p>
+<p>重新整理以求解您需要的最終分數：</p>
+<p><strong>所需分數 =（目標 − C × (1 − w)）÷ w</strong></p>
+<p>如果結果高於 100，目標在數學上無法實現；如果為 0 或以下，目標已經穩操勝券。</p>
+<h3>示例</h3>
+<div class="exbox"><strong>示例：</strong> 當前成績 88%，期末權重 30%（w = 0.30），目標 90%。<br>所需 = (90 − 88 × 0.70) ÷ 0.30 = (90 − 61.6) ÷ 0.30 = 28.4 ÷ 0.30 = <strong>94.7%</strong>.<br>核對：88 × 0.70 + 94.7 × 0.30 = 61.6 + 28.4 = <strong>90.0%</strong> ✓</div>
+<h3>常見問題</h3></section><div class="faq"><h3>我在哪裡找到期末考試的權重？</h3><p>在您的課程大綱或學生手冊中——它通常表示為總成績的百分比（常見值為 20–40%）。如果大綱給出的是分數（例如期末 = 200 分，總分 1,000 分），則權重為 200 ÷ 1,000 = 20%。</p></div><div class="faq"><h3>這適用於字母等級（A、B、C）嗎？</h3><p>先把你的字母等級換算成學校使用的百分比（例如在美國常用標準中 A = 90–100%，B = 80–89%——以你所在機構的等級標準為準）。輸入中間值或老師給出的確切百分比，然後使用本計算器。如需換算 GPA，請試用我們的 GPA 到百分比轉換器。</p></div><div class="faq"><h3>我的期末成績取代我最低的測驗分數——公式會改變嗎？</h3><p>是的：如果期末成績會替換另一個組成部分，你的“當前成績”應按替換後的狀態計算。先把被替換的分數換掉，算出課程平均分，再用這個數字使用本計算器。</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">將此計算器嵌入您的網站——免費</h2>
+<p style="margin:0 0 12px;line-height:1.6">將本計算器新增到你自己的網站或部落格——完全免費，無需註冊，並且始終顯示最新版本。複製下面的程式碼，貼上到你希望計算器出現的頁面位置。在嵌入下方保留小小的 &ldquo;Powered by Loona Automation&rdquo; 署名行有助於保持本工具免費——但你可以自由設定樣式或將其移除；無論哪種方式工具都能工作。</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/zh-hant/final-grade-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Final Grade Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;技術支援： &lt;a href="https://loonaautomation.github.io/loona-calculators/zh-hant/final-grade-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 免費 期末成績計算器&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">複製嵌入程式碼</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='複製嵌入程式碼';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>熱門計算器</h4><ul><li><a href="../age-calculator/">年齡計算器</a></li>
+<li><a href="../zakat-calculator/">天課計算器</a></li>
+<li><a href="../cgpa-calculator/">CGPA 計算器</a></li>
+<li><a href="../percentage-calculator/">百分比計算器</a></li>
+<li><a href="../hijri-date-converter/">伊斯蘭曆日期轉換器</a></li>
+<li><a href="../emi-calculator/">EMI 與貸款計算器</a></li></ul></div>
+<div><h4>更多 Loona 工具</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona 圖片壓縮工具</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI 助手</a></li>
+<li><a href="https://loonaautomation.github.io/">所有 Loona 工具</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">關於</a></li>
+<li><a href="../contact.html">聯絡</a></li>
+<li><a href="../privacy-policy.html">隱私政策</a></li>
+<li><a href="../terms.html">使用條款</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators —— 一個 <a href="https://loonaautomation.github.io/">Loona Automation</a> 專案。免費線上計算器，無需註冊。
+聯絡方式： <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+function finalGradeNeeded(current, weightPct, target) {
+  var w = weightPct / 100;
+  if (!(w > 0)) throw new Error("期末考試權重必須大於 0%。");
+  if (w > 1) throw new Error("期末考試權重不能超過 100%。");
+  var gradeIfZero = current * (1 - w);
+  var maxPossible = gradeIfZero + 100 * w;
+  var needed = (target - gradeIfZero) / w;
+  var status = needed <= 0 ? "secured" : (needed > 100 ? "impossible" : "ok");
+  return { needed: needed, status: status, maxPossible: maxPossible, gradeIfZero: gradeIfZero };
+}
+function courseGrade(current, weightPct, finalScore) {
+  var w = weightPct / 100;
+  return current * (1 - w) + finalScore * w;
+}
+/*TESTABLE_END*/
+function fgFmt(x, d) { return (Math.round(x * Math.pow(10, d)) / Math.pow(10, d)).toFixed(d); }
+function fgRun() {
+  var box = document.getElementById('fgResult');
+  var current = parseFloat(document.getElementById('fgCurrent').value);
+  var weight = parseFloat(document.getElementById('fgWeight').value);
+  var target = parseFloat(document.getElementById('fgTarget').value);
+  try {
+    if (isNaN(current) || isNaN(weight) || isNaN(target)) throw new Error("請輸入全部三個值。");
+    if (current < 0 || current > 100 || target < 0 || target > 100) throw new Error("成績必須在 0% 到 100% 之間。");
+    var r = finalGradeNeeded(current, weight, target);
+    var html;
+    if (r.status === 'secured') {
+      html = '<div class="resbig"><span>期末所需分數</span><strong>0% — 已經穩了 🎉</strong></div>' +
+        '<p class="resnote">好訊息：即使期末得 0%，您也能保持在 ' + fgFmt(r.gradeIfZero, 1) + '%，這已經達到您的 ' + fgFmt(target, 1) + '% 目標。您得的任何分數都是額外獎勵。</p>';
+    } else if (r.status === 'impossible') {
+      html = '<div class="resbig"><span>期末所需分數</span><strong>' + fgFmt(r.needed, 1) + '% — 不可能</strong></div>' +
+        '<p class="err">即使期末拿到完美的 100%，您也只能得到 ' + fgFmt(r.maxPossible, 1) + '%，低於您的 ' + fgFmt(target, 1) + '% 目標。可以考慮瞄準下一個較低的等級檔，或檢視是否有額外學分可用。</p>';
+    } else {
+      html = '<div class="resbig"><span>期末所需分數</span><strong>' + fgFmt(r.needed, 1) + '%</strong></div>' +
+        '<p class="resnote">期末至少得 ' + fgFmt(Math.ceil(r.needed * 10) / 10, 1) + '%，才能以 ' + fgFmt(target, 1) + '% 或更好的成績完成課程。</p>';
+    }
+    var rows = [0, 50, 60, 70, 80, 90, 100].map(function (s) {
+      return '<tr><td>如果您得 ' + s + '%（期末）</td><td><strong>' + fgFmt(courseGrade(current, weight, s), 1) + '%</strong></td></tr>';
+    }).join('');
+    html += '<table class="restbl">' + rows + '</table>';
+    box.style.display = 'block';
+    box.innerHTML = html;
+  } catch (e) {
+    box.style.display = 'block';
+    box.innerHTML = '<p class="err">' + e.message + '</p>';
+  }
+}
+document.getElementById('fgForm').addEventListener('submit', function (e) { e.preventDefault(); fgRun(); });
+fgRun();
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' 安裝應用';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('安裝此應用：點選分享按鈕，然後選擇“新增到主螢幕”。');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

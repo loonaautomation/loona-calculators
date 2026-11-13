@@ -1,0 +1,29 @@
+{
+  "name": "Loona 懷孕週數計算器",
+  "short_name": "懷孕週數計算器",
+  "description": "免費懷孕週數計算器：輸入您的末次月經日期或預產期，確切檢視您懷孕多少周零多少天、您的孕期階段和剩餘天數。",
+  "id": "/loona-calculators/zh-hant/weeks-pregnant-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

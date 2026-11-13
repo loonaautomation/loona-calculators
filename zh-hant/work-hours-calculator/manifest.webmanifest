@@ -1,0 +1,29 @@
+{
+  "name": "Loona 工作時間計算器",
+  "short_name": "工作時間計算器",
+  "description": "免費工作小時計算器：開始、結束和無薪休息給出每天和每週的淨小時數——加上小時工資後還給出每日和每週工資。支援夜班。",
+  "id": "/loona-calculators/zh-hant/work-hours-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

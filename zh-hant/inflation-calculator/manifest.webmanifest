@@ -1,0 +1,29 @@
+{
+  "name": "Loona 通貨膨脹計算器",
+  "short_name": "通貨膨脹計算器",
+  "description": "免費通貨膨脹計算器：輸入金額、通貨膨脹率和年數，檢視相同商品的未來成本以及今天的錢真正值多少。",
+  "id": "/loona-calculators/zh-hant/inflation-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona 目標心率計算器",
+  "short_name": "目標心率計算器",
+  "description": "免費目標心率計算器：根據您的年齡和靜息心率得出最大心率和 Karvonen 訓練區。教育性健身指南。",
+  "id": "/loona-calculators/zh-hant/target-heart-rate-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

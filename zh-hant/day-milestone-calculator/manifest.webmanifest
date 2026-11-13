@@ -1,0 +1,29 @@
+{
+  "name": "Loona 第 10,000 天計算器",
+  "short_name": "第 10,000 天計算器",
+  "description": "免費天數里程碑計算器：輸入出生日期，查詢您的第 10,000 天、其他整數天紀念日、您以天計的年齡和您的下一個里程碑日期。",
+  "id": "/loona-calculators/zh-hant/day-milestone-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

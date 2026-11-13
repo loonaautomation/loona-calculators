@@ -1,0 +1,29 @@
+{
+  "name": "Loona 置信區間計算器",
+  "short_name": "置信區間計算器",
+  "description": "免費置信區間計算器：在 90%、95% 或 99% 置信度下，已知 sigma 時均值的 CI (z)、有樣本 SD 時的 CI (t)，以及比例的 CI。",
+  "id": "/loona-calculators/zh-hant/confidence-interval-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

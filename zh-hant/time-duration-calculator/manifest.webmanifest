@@ -1,0 +1,29 @@
+{
+  "name": "Loona 時長計算器",
+  "short_name": "時間時長計算器",
+  "description": "免費時長計算器：輸入開始和結束時間，獲得以小時和分鐘計的時長、總分鐘數和十進位制小時數。能正確跨午夜計算。",
+  "id": "/loona-calculators/zh-hant/time-duration-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

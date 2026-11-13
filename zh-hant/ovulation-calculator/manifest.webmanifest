@@ -1,0 +1,29 @@
+{
+  "name": "Loona 排卵計算器",
+  "short_name": "排卵計算器",
+  "description": "免費排卵計算器：輸入您末次月經的第一天和週期長度，估算排卵、您的易孕視窗、下一次經期和預產期。",
+  "id": "/loona-calculators/zh-hant/ovulation-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

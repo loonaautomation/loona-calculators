@@ -1,0 +1,29 @@
+{
+  "name": "Loona Z 分數計算器",
+  "short_name": "Z分數計算器",
+  "description": "免費 z 分數計算器：輸入一個值、均值和標準差，從標準正態表（正態分佈）獲得 z 分數、百分位數和機率。",
+  "id": "/loona-calculators/zh-hant/z-score-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

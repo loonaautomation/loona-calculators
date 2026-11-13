@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GPA到百分比轉換器 — US, India CBSE & UK | Loona</title>
+<meta name="description" content="往返轉換 GPA 與百分比：美國 4.0 量表分段、印度 CBSE（CGPA × 9.5）、印度大學（× 10）和英國學位分類，每項都有標註。">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/zh-hant/gpa-to-percentage/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/gpa-to-percentage/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/gpa-to-percentage/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/gpa-to-percentage/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/gpa-to-percentage/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/gpa-to-percentage/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/gpa-to-percentage/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/gpa-to-percentage/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/gpa-to-percentage/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/gpa-to-percentage/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/gpa-to-percentage/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/gpa-to-percentage/"><link rel="alternate" hreflang="zh" href="https://loonaautomation.github.io/loona-calculators/zh/gpa-to-percentage/"><link rel="alternate" hreflang="zh-Hant" href="https://loonaautomation.github.io/loona-calculators/zh-hant/gpa-to-percentage/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/gpa-to-percentage/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="GPA到百分比轉換器 — US, India CBSE & UK | Loona">
+<meta property="og:description" content="往返轉換 GPA 與百分比：美國 4.0 量表分段、印度 CBSE（CGPA × 9.5）、印度大學（× 10）和英國學位分類，每項都有標註。">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/zh-hant/gpa-to-percentage/"><meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="GPA到百分比轉換器 — US, India CBSE & UK | Loona">
+<meta name="twitter:description" content="往返轉換 GPA 與百分比：美國 4.0 量表分段、印度 CBSE（CGPA × 9.5）、印度大學（× 10）和英國學位分類，每項都有標註。">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona GPA到百分比轉換器","url":"https://loonaautomation.github.io/loona-calculators/zh-hant/gpa-to-percentage/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"GPA 換算百分比有統一的官方公式嗎？","acceptedAnswer":{"@type":"Answer","text":"不存在單一的全球公式——每個體系都是由教育委員會、大學或國家制定的約定。這就是為什麼本轉換器始終註明其應用的約定：美國分段量表、CBSE × 9.5、印度大學 × 10，或英國分類分段。"}},{"@type":"Question","name":"為什麼 CBSE 使用 × 9.5？","acceptedAnswer":{"@type":"Answer","text":"印度中央中等教育委員會 (CBSE) 釋出了估算公式百分比 = CGPA × 9.5，用於將其 10 分制 CGPA 轉換為指示性百分比。這是一個官方近似值——各科百分比會有所不同，因為 CGPA 平均的是成績點，而不是原始分數。"}},{"@type":"Question","name":"哪些印度大學使用 × 10？","acceptedAnswer":{"@type":"Answer","text":"許多印度大學（包括孟買大學和幾所邦立/技術大學）在其條例中釋出 百分比 = CGPA × 10 或接近的變體。其他大學使用 × 9.5 或自己的公式——在報告數字之前，務必核查你大學的官方換算規則。"}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/zh-hant/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "GPA到百分比轉換器",
+      "item": "https://loonaautomation.github.io/loona-calculators/zh-hant/gpa-to-percentage/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation 標誌">
+<div class="brand">Loona <span>計算器</span></div>
+<nav>
+<a href="../">首頁</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">關於</a>
+<a href="../contact.html">聯絡</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › 教育 › GPA到百分比轉換器</div>
+<h1 class="pagetitle">🔄 GPA到百分比轉換器</h1>
+<p class="lead">成績在國家之間並不通用——一個 3.7、一個 9.2 CGPA 和一個英國 2:1 都需要翻譯。本轉換器處理最常被請求的四個系統，告訴您它使用了哪種約定，並雙向轉換。</p>
+<div class="toolbox"><form class="calcform" id="gpaForm">
+<div class="fld"><label for="gpaSystem">評分系統</label><select id="gpaSystem"><option value="us" selected>美國 — 4.0 GPA 量表</option><option value="cbse">印度 — CBSE CGPA (× 9.5)</option><option value="univ">印度 — 大學 CGPA (× 10)</option><option value="uk">英國 — 學位分類</option></select></div>
+<div class="fld"><label for="gpaDir">轉換</label><select id="gpaDir"><option value="g2p" selected>GPA / CGPA → 百分比</option><option value="p2g">百分比 → GPA / CGPA</option></select></div>
+<div class="fld"><label for="gpaValue" id="gpaValueLabel">GPA（0 – 4.0）</label><input type="number" id="gpaValue" value="3.7" step="any"></div>
+<button class="calcbtn" type="submit">轉換</button>
+<div class="calcresult" id="gpaResult" style="display:none"></div>
+<p style="margin-top:14px;font-size:14px">所選系統的完整換算表顯示在結果下方、常見問題下方。</p>
+</form></div>
+<section class="txt"><h2>如何使用 GPA to Percentage Converter</h2><ol><li>選擇你的評分體系——美國 4.0、印度 CBSE、印度大學，或英國分類。</li><li>選擇方向：GPA → 百分比，或百分比 → GPA。</li><li>輸入您的值並按轉換。結果中會註明所使用的約定。</li></ol>
+<div class="exbox"><strong>示例：</strong> 一名 CBSE 學生，CGPA 為 9.2：9.2 × 9.5 = <strong>87.4%</strong>。一名 GPA 為 3.7 的美國學生在標準美國量表上落在 90–92% 區間。同一個學生，不同的評分語言。</div>
+<h2>常見問題</h2></section><div class="faq"><h3>GPA 換算百分比有統一的官方公式嗎？</h3><p>不存在單一的全球公式——每個體系都是由教育委員會、大學或國家制定的約定。這就是為什麼本轉換器始終註明其應用的約定：美國分段量表、CBSE × 9.5、印度大學 × 10，或英國分類分段。</p></div><div class="faq"><h3>為什麼 CBSE 使用 × 9.5？</h3><p>印度中央中等教育委員會 (CBSE) 釋出了估算公式百分比 = CGPA × 9.5，用於將其 10 分制 CGPA 轉換為指示性百分比。這是一個官方近似值——各科百分比會有所不同，因為 CGPA 平均的是成績點，而不是原始分數。</p></div><div class="faq"><h3>哪些印度大學使用 × 10？</h3><p>許多印度大學（包括孟買大學和幾所邦立/技術大學）在其條例中釋出 百分比 = CGPA × 10 或接近的變體。其他大學使用 × 9.5 或自己的公式——在報告數字之前，務必核查你大學的官方換算規則。</p></div>
+<h2 class="sec">相關計算器</h2><div class="grid"><a class="card" href="../cgpa-to-percentage-calculator/"><div class="ic">🔄</div><h3>CGPA → 百分比</h3><p>教育</p></a><a class="card" href="../cgpa-calculator/"><div class="ic">🎓</div><h3>CGPA 計算器</h3><p>教育</p></a><a class="card" href="../gpa-calculator/"><div class="ic">🎓</div><h3>GPA 計算器</h3><p>教育</p></a><a class="card" href="../percentage-to-cgpa-calculator/"><div class="ic">🔄</div><h3>百分比到CGPA</h3><p>教育</p></a><a class="card" href="../final-grade-calculator/"><div class="ic">✏️</div><h3>期末成績計算器</h3><p>教育</p></a><a class="card" href="../grade-calculator/"><div class="ic">✏️</div><h3>成績計算器</h3><p>教育</p></a></div>
+</div>
+<section class="txt"><h2>工作原理——公式</h2>
+<p>每種體系的換算方式不同——誠實的做法是明確說明所用約定：</p>
+<p><strong>美國 4.0 量表：</strong> 按等級區間劃分。4.0 = 93–100%，3.7 = 90–92%，3.3 = 87–89%，3.0 = 83–86%，2.7 = 80–82%，2.3 = 77–79%，2.0 = 73–76%，1.7 = 70–72%，1.3 = 67–69%，1.0 = 65–66%，0.7 = 63–64%，0 = 低於63%。<br>
+<strong>印度 CBSE：</strong> 百分比 = CGPA × 9.5（CBSE 公佈的估算）；CGPA = 百分比 ÷ 9.5。<br>
+<strong>印度大學（× 10 約定）：</strong> 百分比 = CGPA × 10。<br>
+<strong>英國：</strong> 等級區間——一等 ≥ 70，二等一（2:1）= 60–69，二等二（2:2）= 50–59，三等 = 40–49——對應的參考GPA為4.0 / 3.0 / 2.0 / 1.0。</p>
+<h3>示例</h3>
+<div class="exbox"><strong>示例：</strong> CBSE CGPA 9.2 → 9.2 × 9.5 = <strong>87.4%</strong>。大學 CGPA 8.5 → 8.5 × 10 = <strong>85%</strong>。美國 GPA 3.3 → 區間 <strong>87–89%</strong>。英國分數 68% → <strong>二等上榮譽（2:1）</strong>，指示性 GPA ≈ 3.0。反向：76% → 美國 GPA <strong>2.0</strong> (73–76 分段)。</div>
+<h3>常見問題</h3></section><div class="faq"><h3>為什麼美國轉換給出為範圍（區間）？</h3><p>美國的字母成績對映到百分比區間（常見 College Board 式量表上 A = 93–100，A− = 90–92 等），因此 GPA 對應一個區間，而不是一個確切百分比。我們顯示區間及其中點；各學校有自己的分數線。</p></div><div class="faq"><h3>英國的學位等級如何轉換為 GPA？</h3><p>僅為指示性。一種常見的學術換算（Scholaro 風格）將一等 (70%+) 視為 ≈ 4.0，二等上 (60–69) 視為 ≈ 3.0，二等下 (50–59) 視為 ≈ 2.0，三等 (40–49) 視為 ≈ 1.0。英國分數不是 GPA 量表的百分比——英國的 70 分是優秀，而不是 C。招生辦公室使用自己的國家指南。</p></div><div class="faq"><h3>我可以在申請時使用轉換後的成績嗎？</h3><p>將它們用於估算和比較，但在正式申請中按頒發的原樣輸入您的原始成績，讓接收機構轉換它們——大多數大學和證書評估機構（如 WES）堅持這一點，非官方轉換可能被視為錯誤。</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">將此計算器嵌入您的網站——免費</h2>
+<p style="margin:0 0 12px;line-height:1.6">將本計算器新增到你自己的網站或部落格——完全免費，無需註冊，並且始終顯示最新版本。複製下面的程式碼，貼上到你希望計算器出現的頁面位置。在嵌入下方保留小小的 &ldquo;Powered by Loona Automation&rdquo; 署名行有助於保持本工具免費——但你可以自由設定樣式或將其移除；無論哪種方式工具都能工作。</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/zh-hant/gpa-to-percentage/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="GPA to Percentage Converter by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;技術支援： &lt;a href="https://loonaautomation.github.io/loona-calculators/zh-hant/gpa-to-percentage/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 免費 GPA到百分比轉換器&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">複製嵌入程式碼</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='複製嵌入程式碼';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>熱門計算器</h4><ul><li><a href="../age-calculator/">年齡計算器</a></li>
+<li><a href="../zakat-calculator/">天課計算器</a></li>
+<li><a href="../cgpa-calculator/">CGPA 計算器</a></li>
+<li><a href="../percentage-calculator/">百分比計算器</a></li>
+<li><a href="../hijri-date-converter/">伊斯蘭曆日期轉換器</a></li>
+<li><a href="../emi-calculator/">EMI 與貸款計算器</a></li></ul></div>
+<div><h4>更多 Loona 工具</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona 圖片壓縮工具</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI 助手</a></li>
+<li><a href="https://loonaautomation.github.io/">所有 Loona 工具</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">關於</a></li>
+<li><a href="../contact.html">聯絡</a></li>
+<li><a href="../privacy-policy.html">隱私政策</a></li>
+<li><a href="../terms.html">使用條款</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators —— 一個 <a href="https://loonaautomation.github.io/">Loona Automation</a> 專案。免費線上計算器，無需註冊。
+聯絡方式： <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+var US_BANDS = [
+  [4.0, 93, 100], [3.7, 90, 92], [3.3, 87, 89], [3.0, 83, 86], [2.7, 80, 82], [2.3, 77, 79],
+  [2.0, 73, 76], [1.7, 70, 72], [1.3, 67, 69], [1.0, 65, 66], [0.7, 63, 64], [0.0, 0, 62]
+];
+function usGpaToBand(g) {
+  var best = US_BANDS[US_BANDS.length - 1];
+  for (var i = 0; i < US_BANDS.length; i++) {
+    if (Math.abs(US_BANDS[i][0] - g) < Math.abs(best[0] - g)) best = US_BANDS[i];
+  }
+  return { gpa: best[0], low: best[1], high: best[2], mid: (best[1] + best[2]) / 2 };
+}
+function percentToUsGpa(p) {
+  for (var i = 0; i < US_BANDS.length; i++) {
+    if (p >= US_BANDS[i][1]) return US_BANDS[i][0];
+  }
+  return 0.0;
+}
+function cbseToPercent(cgpa) { return cgpa * 9.5; }
+function percentToCbse(p) { return p / 9.5; }
+function univToPercent(cgpa) { return cgpa * 10; }
+function percentToUniv(p) { return p / 10; }
+var UK_BANDS = [
+  { name: "First-Class Honours", low: 70, high: 100, gpa: 4.0 },
+  { name: "Upper Second-Class (2:1)", low: 60, high: 69, gpa: 3.0 },
+  { name: "Lower Second-Class (2:2)", low: 50, high: 59, gpa: 2.0 },
+  { name: "Third-Class Honours", low: 40, high: 49, gpa: 1.0 },
+  { name: "Fail", low: 0, high: 39, gpa: 0.0 }
+];
+function ukClassFromPercent(p) {
+  for (var i = 0; i < UK_BANDS.length; i++) if (p >= UK_BANDS[i].low) return UK_BANDS[i];
+  return UK_BANDS[UK_BANDS.length - 1];
+}
+function ukBandFromGpa(g) {
+  var best = UK_BANDS[UK_BANDS.length - 1];
+  for (var i = 0; i < UK_BANDS.length; i++) if (Math.abs(UK_BANDS[i].gpa - g) < Math.abs(best.gpa - g)) best = UK_BANDS[i];
+  return best;
+}
+/*TESTABLE_END*/
+function g1(x) { return (Math.round(x * 10) / 10).toFixed(1); }
+function g2(x) { return (Math.round(x * 100) / 100).toFixed(2); }
+function gpaSystemMeta() {
+  var s = document.getElementById('gpaSystem').value;
+  var d = document.getElementById('gpaDir').value;
+  var label = document.getElementById('gpaValueLabel');
+  if (s === 'us') label.textContent = d === 'g2p' ? 'GPA (0 – 4.0)' : 'Percentage (0 – 100)';
+  else if (s === 'uk') label.textContent = d === 'g2p' ? '美國等值 GPA（0 – 4.0）— 見說明' : '百分比/英國分數（0 – 100）';
+  else label.textContent = d === 'g2p' ? 'CGPA (0 – 10)' : 'Percentage (0 – 100)';
+}
+function gpaRun() {
+  var box = document.getElementById('gpaResult');
+  var s = document.getElementById('gpaSystem').value;
+  var dir = document.getElementById('gpaDir').value;
+  var v = parseFloat(document.getElementById('gpaValue').value);
+  try {
+    if (isNaN(v)) throw new Error("請輸入要轉換的值。");
+    var big, rows = '';
+    if (s === 'us') {
+      if (dir === 'g2p') {
+        if (v < 0 || v > 4) throw new Error("美國 GPA 必須在 0 到 4.0 之間。");
+        var b = usGpaToBand(v);
+        big = '≈ ' + b.low + '–' + b.high + '% (midpoint ' + g1(b.mid) + '%)';
+        rows = '<tr><td>GPA 的標準檔 ' + b.gpa.toFixed(1) + '</td><td><strong>' + b.low + '–' + b.high + '%</strong></td></tr>';
+      } else {
+        if (v < 0 || v > 100) throw new Error("百分比必須在 0 到 100 之間。");
+        big = percentToUsGpa(v).toFixed(1) + ' GPA';
+        rows = '<tr><td>輸入的百分比</td><td><strong>' + g1(v) + '%</strong></td></tr>';
+      }
+    } else if (s === 'cbse' || s === 'univ') {
+      var f = s === 'cbse' ? 9.5 : 10;
+      if (dir === 'g2p') {
+        if (v < 0 || v > 10) throw new Error("CGPA 必須在 0 到 10 之間。");
+        big = g1(v * f) + '%';
+        rows = '<tr><td>使用的公式</td><td><strong>CGPA × ' + f + '</strong></td></tr>';
+      } else {
+        if (v < 0 || v > 100) throw new Error("百分比必須在 0 到 100 之間。");
+        big = g2(v / f) + ' CGPA';
+        rows = '<tr><td>使用的公式</td><td><strong>百分比 ÷ ' + f + '</strong></td></tr>';
+      }
+    } else {
+      if (dir === 'g2p') {
+        if (v < 0 || v > 4) throw new Error("GPA 必須在 0 到 4.0 之間。");
+        var ub = ukBandFromGpa(v);
+        big = ub.name + ' (' + ub.low + '–' + ub.high + '%)';
+        rows = '<tr><td>GPA 的參考對應 ' + v.toFixed(1) + '</td><td><strong>' + ub.name + '</strong></td></tr>';
+      } else {
+        if (v < 0 || v > 100) throw new Error("百分比必須在 0 到 100 之間。");
+        var uc = ukClassFromPercent(v);
+        big = uc.name + ' — 參考 GPA ' + uc.gpa.toFixed(1);
+        rows = '<tr><td>英國學位分類</td><td><strong>' + uc.name + '</strong></td></tr>';
+      }
+    }
+    box.style.display = 'block';
+    box.innerHTML = '<div class="resbig"><span>轉換結果</span><strong>' + big + '</strong></div><table class="restbl">' + rows + '</table>' +
+      '<p class="resnote">評分系統之間的轉換是慣例，不是精確科學 — 在申請中使用轉換數字之前，請務必向您所在機構確認其官方標準。</p>';
+  } catch (e) {
+    box.style.display = 'block';
+    box.innerHTML = '<p class="err">' + e.message + '</p>';
+  }
+}
+document.getElementById('gpaSystem').addEventListener('change', gpaSystemMeta);
+document.getElementById('gpaDir').addEventListener('change', gpaSystemMeta);
+document.getElementById('gpaForm').addEventListener('submit', function (e) { e.preventDefault(); gpaRun(); });
+gpaSystemMeta(); gpaRun();
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' 安裝應用';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('安裝此應用：點選分享按鈕，然後選擇“新增到主螢幕”。');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

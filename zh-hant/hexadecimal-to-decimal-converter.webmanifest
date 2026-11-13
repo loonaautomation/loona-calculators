@@ -1,0 +1,29 @@
+{
+  "name": "Loona 十六進位制到十進位制轉換器",
+  "short_name": "十六進位制到十進位制",
+  "description": "將十六進位制（基數 16）轉換為十進位制（基數 10），帶校驗、數位演算和參考表。",
+  "id": "/loona-calculators/zh-hant/hexadecimal-to-decimal-converter.html",
+  "start_url": "./hexadecimal-to-decimal-converter.html",
+  "scope": "./hexadecimal-to-decimal-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

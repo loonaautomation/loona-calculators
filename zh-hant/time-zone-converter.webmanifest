@@ -1,0 +1,29 @@
+{
+  "name": "Loona 時區轉換器",
+  "short_name": "時區轉換器",
+  "description": "在全球 60 對城市之間換算時間，包含季節差異、2026 年夏令時日期和會議重疊時間段。",
+  "id": "/loona-calculators/zh-hant/time-zone-converter.html",
+  "start_url": "./time-zone-converter.html",
+  "scope": "./time-zone-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

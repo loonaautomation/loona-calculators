@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>時區轉換器 — 60 個城市對，附帶實時轉換器 | Loona</title>
+<meta name="description" content="在全球 60 對城市之間換算時間，包含季節差異、2026 年夏令時日期和會議重疊時間段。">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/zh-hant/time-zone-converter.html"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/time-zone-converter.html"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/time-zone-converter.html"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/time-zone-converter.html"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/time-zone-converter.html"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/time-zone-converter.html"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/time-zone-converter.html"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/time-zone-converter.html"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/time-zone-converter.html"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/time-zone-converter.html"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/time-zone-converter.html"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/time-zone-converter.html"><link rel="alternate" hreflang="zh" href="https://loonaautomation.github.io/loona-calculators/zh/time-zone-converter.html"><link rel="alternate" hreflang="zh-Hant" href="https://loonaautomation.github.io/loona-calculators/zh-hant/time-zone-converter.html"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/time-zone-converter.html">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="時區轉換器 — 60 個城市對，附帶實時轉換器 | Loona">
+<meta property="og:description" content="在全球 60 對城市之間換算時間，包含季節差異、2026 年夏令時日期和會議重疊時間段。">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/zh-hant/time-zone-converter.html"><meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="時區轉換器 — 60 個城市對，附帶實時轉換器 | Loona">
+<meta name="twitter:description" content="在全球 60 對城市之間換算時間，包含季節差異、2026 年夏令時日期和會議重疊時間段。">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona 時區轉換器 — 60 個城市組合，帶實時轉換器","url":"https://loonaautomation.github.io/loona-calculators/zh-hant/time-zone-converter.html","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"為什麼時差在一年中會變化？","acceptedAnswer":{"@type":"Answer","text":"夏令時。實行夏令時的城市並不都在同一日期調時鐘——美國在三月/十一月調整，歐洲在三月/十月調整，悉尼在四月/十月調整（南半球）。在兩個調整日期之間，城市對的時差會偏移一小時。"}},{"@type":"Question","name":"共列出了多少個時區組合？","acceptedAnswer":{"@type":"Answer","text":"60 個組合，涵蓋12個世界商業城市，每個都有自己的轉換器、季節性時差表和會議視窗說明。"}},{"@type":"Question","name":"轉換器是實時的嗎？","acceptedAnswer":{"@type":"Answer","text":"是的——每個配對頁面都使用瀏覽器內建的時區資料庫轉換任意日期和時間，因此會針對你所選的確切日期應用夏令時。"}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Loona Automation","item":"https://loonaautomation.github.io/"},{"@type":"ListItem","position":2,"name":"Loona Calculators","item":"https://loonaautomation.github.io/loona-calculators/zh-hant/"},{"@type":"ListItem","position":3,"name":"所有計算器","item":"https://loonaautomation.github.io/loona-calculators/zh-hant/"},{"@type":"ListItem","position":4,"name":"時區轉換器","item":"https://loonaautomation.github.io/loona-calculators/zh-hant/time-zone-converter.html"}]}</script>
+<link rel="manifest" href="time-zone-converter.webmanifest">
+</head>
+<body>
+<header>
+<img class="logo" src="../icon-192.png" alt="Loona Automation 標誌">
+<div class="brand">Loona <span>計算器</span></div>
+<nav>
+<a href="./">首頁</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="about.html">關於</a>
+<a href="contact.html">聯絡</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="./">Loona Calculators</a> › 時區轉換器</div>
+<h1 class="pagetitle">🕐 時區轉換器 — 城市配對</h1>
+<p class="lead">12 個世界商業城市之間的時差，逐對列出——附帶移動它們的夏令時日期、每個頁面上的實時轉換器，以及用於會議的工作時間重疊。</p>
+<section class="txt"><h2>這 12 座城市</h2>
+<table class="restbl"><tr><td><strong>城市</strong></td><td><strong>標準偏移</strong></td><td><strong>夏令時偏移</strong></td><td><strong>2026 年夏令時</strong></td></tr><tr><td><strong>倫敦</strong></td><td>UTC+0</td><td>UTC+1</td><td>2026 年夏令時：時鐘於三月29日（2026年）撥快，於十月25日（2026年）撥回。</td></tr><tr><td><strong>Berlin</strong></td><td>UTC+1</td><td>UTC+2</td><td>2026 年夏令時：時鐘於三月29日（2026年）撥快，於十月25日（2026年）撥回。</td></tr><tr><td><strong>紐約</strong></td><td>UTC−5</td><td>UTC−4</td><td>2026 年夏令時：時鐘於三月8日（2026年）撥快，於十一月1日（2026年）撥回。</td></tr><tr><td><strong>芝加哥</strong></td><td>UTC−6</td><td>UTC−5</td><td>2026 年夏令時：時鐘於三月8日（2026年）撥快，於十一月1日（2026年）撥回。</td></tr><tr><td><strong>丹佛</strong></td><td>UTC−7</td><td>UTC−6</td><td>2026 年夏令時：時鐘於三月8日（2026年）撥快，於十一月1日（2026年）撥回。</td></tr><tr><td><strong>洛杉磯</strong></td><td>UTC−8</td><td>UTC−7</td><td>2026 年夏令時：時鐘於三月8日（2026年）撥快，於十一月1日（2026年）撥回。</td></tr><tr><td><strong>迪拜</strong></td><td>UTC+4</td><td>UTC+4</td><td>無夏令時——偏移永不改變。</td></tr><tr><td><strong>卡拉奇</strong></td><td>UTC+5</td><td>UTC+5</td><td>無夏令時——偏移永不改變。</td></tr><tr><td><strong>孟買</strong></td><td>UTC+5:30</td><td>UTC+5:30</td><td>無夏令時——偏移永不改變。</td></tr><tr><td><strong>新加坡</strong></td><td>UTC+8</td><td>UTC+8</td><td>無夏令時——偏移永不改變。</td></tr><tr><td><strong>東京</strong></td><td>UTC+9</td><td>UTC+9</td><td>無夏令時——偏移永不改變。</td></tr><tr><td><strong>悉尼</strong></td><td>UTC+10</td><td>UTC+11</td><td>2026 年夏令時：於四月5日（2026年）結束，並於十月4日（2026年）再次開始（南半球——夏季為十二月至二月）。</td></tr></table>
+<h2>全部 60 個配對</h2><p><a href="london-to-berlin-time-converter.html">倫敦到柏林</a> · <a href="london-to-new-york-time-converter.html">倫敦到紐約</a> · <a href="london-to-chicago-time-converter.html">倫敦到芝加哥</a> · <a href="london-to-denver-time-converter.html">倫敦到丹佛</a> · <a href="london-to-los-angeles-time-converter.html">倫敦到洛杉磯</a> · <a href="london-to-dubai-time-converter.html">倫敦到迪拜</a> · <a href="london-to-karachi-time-converter.html">倫敦到卡拉奇</a> · <a href="london-to-mumbai-time-converter.html">倫敦到孟買</a> · <a href="london-to-singapore-time-converter.html">倫敦到新加坡</a> · <a href="london-to-tokyo-time-converter.html">倫敦到東京</a> · <a href="london-to-sydney-time-converter.html">倫敦到悉尼</a> · <a href="berlin-to-new-york-time-converter.html">柏林到紐約</a> · <a href="berlin-to-chicago-time-converter.html">柏林到芝加哥</a> · <a href="berlin-to-denver-time-converter.html">柏林到丹佛</a> · <a href="berlin-to-los-angeles-time-converter.html">柏林到洛杉磯</a> · <a href="berlin-to-dubai-time-converter.html">柏林到迪拜</a> · <a href="berlin-to-karachi-time-converter.html">柏林到卡拉奇</a> · <a href="berlin-to-mumbai-time-converter.html">柏林到孟買</a> · <a href="berlin-to-singapore-time-converter.html">柏林到新加坡</a> · <a href="berlin-to-tokyo-time-converter.html">柏林到東京</a> · <a href="berlin-to-sydney-time-converter.html">柏林到悉尼</a> · <a href="new-york-to-chicago-time-converter.html">紐約到芝加哥</a> · <a href="new-york-to-denver-time-converter.html">紐約到丹佛</a> · <a href="new-york-to-los-angeles-time-converter.html">紐約到洛杉磯</a> · <a href="new-york-to-dubai-time-converter.html">紐約到迪拜</a> · <a href="new-york-to-karachi-time-converter.html">紐約到卡拉奇</a> · <a href="new-york-to-mumbai-time-converter.html">紐約到孟買</a> · <a href="new-york-to-singapore-time-converter.html">紐約到新加坡</a> · <a href="new-york-to-tokyo-time-converter.html">紐約到東京</a> · <a href="new-york-to-sydney-time-converter.html">紐約到悉尼</a> · <a href="chicago-to-denver-time-converter.html">芝加哥到丹佛</a> · <a href="chicago-to-los-angeles-time-converter.html">芝加哥到洛杉磯</a> · <a href="chicago-to-dubai-time-converter.html">芝加哥到迪拜</a> · <a href="chicago-to-mumbai-time-converter.html">芝加哥到孟買</a> · <a href="chicago-to-singapore-time-converter.html">芝加哥到新加坡</a> · <a href="chicago-to-tokyo-time-converter.html">芝加哥到東京</a> · <a href="denver-to-los-angeles-time-converter.html">丹佛到洛杉磯</a> · <a href="denver-to-dubai-time-converter.html">丹佛到迪拜</a> · <a href="denver-to-tokyo-time-converter.html">丹佛到東京</a> · <a href="los-angeles-to-dubai-time-converter.html">洛杉磯到迪拜</a> · <a href="los-angeles-to-karachi-time-converter.html">洛杉磯到卡拉奇</a> · <a href="los-angeles-to-mumbai-time-converter.html">洛杉磯到孟買</a> · <a href="los-angeles-to-singapore-time-converter.html">洛杉磯到新加坡</a> · <a href="los-angeles-to-tokyo-time-converter.html">洛杉磯到東京</a> · <a href="los-angeles-to-sydney-time-converter.html">洛杉磯到悉尼</a> · <a href="dubai-to-karachi-time-converter.html">迪拜到卡拉奇</a> · <a href="dubai-to-mumbai-time-converter.html">迪拜到孟買</a> · <a href="dubai-to-singapore-time-converter.html">迪拜到新加坡</a> · <a href="dubai-to-tokyo-time-converter.html">迪拜到東京</a> · <a href="dubai-to-sydney-time-converter.html">迪拜到悉尼</a> · <a href="karachi-to-mumbai-time-converter.html">卡拉奇到孟買</a> · <a href="karachi-to-singapore-time-converter.html">卡拉奇到新加坡</a> · <a href="karachi-to-tokyo-time-converter.html">卡拉奇到東京</a> · <a href="karachi-to-sydney-time-converter.html">卡拉奇到悉尼</a> · <a href="mumbai-to-singapore-time-converter.html">孟買到新加坡</a> · <a href="mumbai-to-tokyo-time-converter.html">孟買到東京</a> · <a href="mumbai-to-sydney-time-converter.html">孟買到悉尼</a> · <a href="singapore-to-tokyo-time-converter.html">新加坡到東京</a> · <a href="singapore-to-sydney-time-converter.html">新加坡到悉尼</a> · <a href="tokyo-to-sydney-time-converter.html">東京到悉尼</a></p>
+</section>
+<section class="txt"><h2>常見問題</h2></section>
+<div class="faq"><h3>為什麼時差在一年中會變化？</h3><p>夏令時。實行夏令時的城市並不都在同一日期調時鐘——美國在三月/十一月調整，歐洲在三月/十月調整，悉尼在四月/十月調整（南半球）。在兩個調整日期之間，城市對的時差會偏移一小時。</p></div><div class="faq"><h3>共列出了多少個時區組合？</h3><p>60 個組合，涵蓋12個世界商業城市，每個都有自己的轉換器、季節性時差表和會議視窗說明。</p></div><div class="faq"><h3>轉換器是實時的嗎？</h3><p>是的——每個配對頁面都使用瀏覽器內建的時區資料庫轉換任意日期和時間，因此會針對你所選的確切日期應用夏令時。</p></div>
+</div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">將此計算器嵌入您的網站——免費</h2>
+<p style="margin:0 0 12px;line-height:1.6">將本計算器新增到你自己的網站或部落格——完全免費，無需註冊，並且始終顯示最新版本。複製下面的程式碼，貼上到你希望計算器出現的頁面位置。在嵌入下方保留小小的 &ldquo;Powered by Loona Automation&rdquo; 署名行有助於保持本工具免費——但你可以自由設定樣式或將其移除；無論哪種方式工具都能工作。</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/zh-hant/time-zone-converter.html" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Time Zone Converter by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;技術支援： &lt;a href="https://loonaautomation.github.io/loona-calculators/zh-hant/time-zone-converter.html" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 免費 時區轉換器&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">複製嵌入程式碼</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='複製嵌入程式碼';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>熱門計算器</h4><ul><li><a href="age-calculator/">年齡計算器</a></li>
+<li><a href="zakat-calculator/">天課計算器</a></li>
+<li><a href="cgpa-calculator/">CGPA 計算器</a></li>
+<li><a href="percentage-calculator/">百分比計算器</a></li>
+<li><a href="hijri-date-converter/">伊斯蘭曆日期轉換器</a></li>
+<li><a href="emi-calculator/">EMI 與貸款計算器</a></li></ul></div>
+<div><h4>更多 Loona 工具</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona 圖片壓縮工具</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI 助手</a></li>
+<li><a href="https://loonaautomation.github.io/">所有 Loona 工具</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="about.html">關於</a></li>
+<li><a href="contact.html">聯絡</a></li>
+<li><a href="privacy-policy.html">隱私政策</a></li>
+<li><a href="terms.html">使用條款</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators —— 一個 <a href="https://loonaautomation.github.io/">Loona Automation</a> 專案。免費線上計算器，無需註冊。
+聯絡方式： <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' 安裝應用';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('安裝此應用：點選分享按鈕，然後選擇“新增到主螢幕”。');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

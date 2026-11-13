@@ -1,0 +1,29 @@
+{
+  "name": "Loona 週數計算器",
+  "short_name": "週數計算器",
+  "description": "免費週數計算器：選擇任何日期，獲得其 ISO 週數、ISO 週年、一年中的第幾天、年內剩餘天數和日曆季度。",
+  "id": "/loona-calculators/zh-hant/week-number-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

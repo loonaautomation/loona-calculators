@@ -1,0 +1,29 @@
+{
+  "name": "Loona 三角函式計算器",
+  "short_name": "三角學計算器",
+  "description": "免費三角函式計算器：輸入以度或弧度計的角度，獲得 sin、cos、tan、csc、sec 和 cot，或使用反 sin、cos 和 tan 從一個比值求出角度。包含確切值表。",
+  "id": "/loona-calculators/zh-hant/trigonometry-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

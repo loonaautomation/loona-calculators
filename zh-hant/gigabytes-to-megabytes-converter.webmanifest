@@ -1,0 +1,29 @@
+{
+  "name": "Loona 吉位元組到兆位元組轉換器",
+  "short_name": "吉位元組到兆位元組",
+  "description": "即時將吉位元組轉換為兆位元組（二進位制約定：1 GB = 1,024 MB）。提供精確公式、完整的GB 到 MB 換算表和多個計算示例。免費，無需註冊。",
+  "id": "/loona-calculators/zh-hant/gigabytes-to-megabytes-converter.html",
+  "start_url": "./gigabytes-to-megabytes-converter.html",
+  "scope": "./gigabytes-to-megabytes-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

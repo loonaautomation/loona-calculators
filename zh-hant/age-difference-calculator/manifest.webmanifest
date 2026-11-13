@@ -1,0 +1,29 @@
+{
+  "name": "Loona 年齡差計算器",
+  "short_name": "年齡差計算器",
+  "description": "免費年齡差計算器：輸入兩個出生日期，獲得以年、月和日計的確切差值、它們之間的總天數，以及誰更年長。",
+  "id": "/loona-calculators/zh-hant/age-difference-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

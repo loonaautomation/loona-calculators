@@ -1,0 +1,29 @@
+{
+  "name": "Loona Vignette 檢查器",
+  "short_name": "高速公路 vignette 檢查器",
+  "description": "免費通行貼紙查詢器：選擇您駕駛路線上的歐洲國家，檢視哪些需要高速公路通行貼紙、哪些收取通行費、哪些對汽車免費。",
+  "id": "/loona-calculators/zh-hant/vignette-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

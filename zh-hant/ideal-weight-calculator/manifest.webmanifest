@@ -1,0 +1,29 @@
+{
+  "name": "Loona 理想體重計算器",
+  "short_name": "理想體重計算器",
+  "description": "免費理想體重計算器：輸入您的身高和性別，獲得您的理想體重 (Devine 公式）以及適合您身高的完整健康 BMI 體重範圍。",
+  "id": "/loona-calculators/zh-hant/ideal-weight-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

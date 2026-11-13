@@ -1,0 +1,29 @@
+{
+  "name": "Loona 速度轉換器",
+  "short_name": "速度轉換器",
+  "description": "每個速度換算對都彙集在一個索引中：確切的換算係數、公式，以及每個換算對的專用轉換器頁面。免費，無需註冊。",
+  "id": "/loona-calculators/zh-hant/speed-converter.html",
+  "start_url": "./speed-converter.html",
+  "scope": "./speed-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

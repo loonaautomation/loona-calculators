@@ -1,0 +1,29 @@
+{
+  "name": "Loona 弧度到度轉換器",
+  "short_name": "弧度到度轉換器",
+  "description": "即時將弧度轉換為度。提供精確公式、完整的rad 到 ° 換算表和多個計算示例。免費，無需註冊。",
+  "id": "/loona-calculators/zh-hant/radians-to-degrees-converter.html",
+  "start_url": "./radians-to-degrees-converter.html",
+  "scope": "./radians-to-degrees-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

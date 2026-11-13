@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>對數計算器 — 任意底數的 Log、Ln 和反對數 | Loona Calculators</title>
+<meta name="description" content="免費對數計算器：求任意底數的 log，加上常用對數（底數 10）、自然對數 (ln) 和二進位制對數（底數 2），每個都透過其反對數驗證。附有換底公式解釋。">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/zh-hant/logarithm-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/logarithm-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/logarithm-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/logarithm-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/logarithm-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/logarithm-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/logarithm-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/logarithm-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/logarithm-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/logarithm-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/logarithm-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/logarithm-calculator/"><link rel="alternate" hreflang="zh" href="https://loonaautomation.github.io/loona-calculators/zh/logarithm-calculator/"><link rel="alternate" hreflang="zh-Hant" href="https://loonaautomation.github.io/loona-calculators/zh-hant/logarithm-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/logarithm-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="對數計算器 — 任意底數的 Log、Ln 和反對數 | Loona Calculators">
+<meta property="og:description" content="免費對數計算器：求任意底數的 log，加上常用對數（底數 10）、自然對數 (ln) 和二進位制對數（底數 2），每個都透過其反對數驗證。附有換底公式解釋。">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/zh-hant/logarithm-calculator/"><meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="對數計算器 — 任意底數的 Log、Ln 和反對數 | Loona Calculators">
+<meta name="twitter:description" content="免費對數計算器：求任意底數的 log，加上常用對數（底數 10）、自然對數 (ln) 和二進位制對數（底數 2），每個都透過其反對數驗證。附有換底公式解釋。">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona 對數計算器","url":"https://loonaautomation.github.io/loona-calculators/zh-hant/logarithm-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"用簡單的話說，什麼是對數？","acceptedAnswer":{"@type":"Answer","text":"對數回答這個問題：“我必須將底數乘方到多少才能得到這個數？”log10(1000) = 3，因為 10 的 3 次方是 1000。它是冪的相反（逆）運算，正如除法是乘法的相反運算。"}},{"@type":"Question","name":"log 和 ln 有什麼區別？","acceptedAnswer":{"@type":"Answer","text":"大多數計算器上的“log”指以 10 為底——常用對數。“ln”指以 e 為底（e ≈ 2.71828）——自然對數，廣泛用於科學和金融領域。本計算器可為你輸入的任意數字同時給出這兩者，以及以 2 為底的對數（計算領域使用的二進位制對數）。"}},{"@type":"Question","name":"為什麼我不能取 0 或負數的對數？","acceptedAnswer":{"@type":"Answer","text":"因為正底數的任何次冪都永遠不能產生 0 或負結果：10 的任何次方始終是正數。因此對於實數，0 或負數的對數是未定義的，計算器會告訴你這一點，而不是顯示一個編造的答案。"}}]}</script>
+
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/zh-hant/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "對數計算器",
+      "item": "https://loonaautomation.github.io/loona-calculators/zh-hant/logarithm-calculator/"
+    }
+  ]
+}</script>
+
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation 標誌">
+<div class="brand">Loona <span>計算器</span></div>
+<nav>
+<a href="../">首頁</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">關於</a>
+<a href="../contact.html">聯絡</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › 數學 › 對數計算器</div>
+<h1 class="pagetitle">log 對數計算器</h1>
+<p class="lead">求任意數字在任意底數下的對數——並同時獲得常用對數、自然對數 (ln) 和二進位制對數，每一個都透過將底數提高到答案的冪（反對數）來驗證。</p>
+<div class="toolbox">
+<style>
+.qbases{display:flex;gap:8px;flex-wrap:wrap;margin:-4px 0 13px}
+.qbases button{padding:7px 13px;font-size:13.5px;font-weight:700;border:1.5px solid var(--line);border-radius:16px;background:#fff;cursor:pointer;color:var(--teal)}
+.qbases button:hover{border-color:var(--gold);background:#fdfaf1}
+</style>
+<form class="calcform" id="logForm">
+<div class="fld"><label for="logX">數字 (x)</label><input type="number" step="any" id="logX" value="1000"></div>
+<div class="fld"><label for="logB">底數 (b)</label><input type="number" step="any" id="logB" value="10"></div>
+<div class="qbases"><button type="button" data-base="10">10 進位制</button><button type="button" data-base="2">2 進位制</button><button type="button" data-base="2.718281828459045">底數 e（自然對數）</button></div>
+<div class="fld"><label for="logY">反對數指數（可選）——計算 b<sup>y</sup></label><input type="number" step="any" id="logY" placeholder="可選，例如 3"></div>
+<button class="calcbtn" type="submit">計算</button>
+</form>
+<div class="calcresult" id="logRes" style="display:none"></div>
+</div>
+<section class="txt"><h2>如何使用 Logarithm Calculator</h2><ol><li>輸入您想求其對數的數字 x。它必須大於 0。</li><li>輸入底數 b——或點按底數 10、底數 2 或底數 e。底數必須大於 0 且不等於 1。</li><li>按“計算”。您將獲得以您的底數為底的對數，外加常用對數（底數 10）、自然對數（底數 e）和二進位制對數（底數 2），以及一個反對數檢驗：將底數升到您的答案次冪。</li></ol>
+<div class="exbox"><strong>示例：</strong> log<sub>2</sub>(32) = 5，因為 2<sup>5</sup> = 32。而 log<sub>10</sub>(1000) = 3，因為 10<sup>3</sup> = 1000.</div>
+<h2>常見問題</h2></section><div class="faq"><h3>用簡單的話說，什麼是對數？</h3><p>對數回答這個問題：“我必須將底數乘方到多少才能得到這個數？”log<sub>10</sub>(1000) = 3，因為 10 的 3 次方是 1000。它是冪的相反（逆）運算，正如除法是乘法的相反運算。</p></div><div class="faq"><h3>log 和 ln 有什麼區別？</h3><p>大多數計算器上的“log”指以 10 為底——常用對數。“ln”指以 e 為底（e ≈ 2.71828）——自然對數，廣泛用於科學和金融領域。本計算器可為你輸入的任意數字同時給出這兩者，以及以 2 為底的對數（計算領域使用的二進位制對數）。</p></div><div class="faq"><h3>為什麼我不能取 0 或負數的對數？</h3><p>因為正底數的任何次冪都永遠不能產生 0 或負結果：10 的任何次方始終是正數。因此對於實數，0 或負數的對數是未定義的，計算器會告訴你這一點，而不是顯示一個編造的答案。</p></div>
+<h2 class="sec">相關計算器</h2><div class="grid"><a class="card" href="../exponent-calculator/"><div class="ic">x²</div><h3>指數計算器</h3><p>數學</p></a><a class="card" href="../square-root-calculator/"><div class="ic">√</div><h3>平方根計算器</h3><p>數學</p></a><a class="card" href="../scientific-calculator/"><div class="ic">🧮</div><h3>科學計算器</h3><p>數學</p></a><a class="card" href="../percentage-calculator/"><div class="ic">％</div><h3>百分比計算器</h3><p>數學</p></a><a class="card" href="../statistics-calculator/"><div class="ic">📉</div><h3>統計計算器</h3><p>數學</p></a></div>
+</div>
+<section class="txt"><h2>工作原理——公式</h2>
+<p><strong>定義：</strong> log<sub>b</sub>(x) = y 當且僅當 b<sup>y</sup> = x。對數和冪是同一事實的兩面。</p>
+<p><strong>換底：</strong> 大多數計算器只有log（以10為底）和ln（以e為底）鍵。要計算任何其他底數的對數，請做除法：</p>
+<p><strong>log<sub>b</sub>(x) = ln(x) ÷ ln(b) = log<sub>10</sub>(x) ÷ log<sub>10</sub>(b)</strong></p>
+<p>該換底規則正是本頁內部使用的規則，因此您對底數 b 得到的結果與您逐步手動計算的結果相同。</p>
+<p><strong>反對數：</strong> 以b為底y的反對數就是b<sup>y</sup> ——它是對數的逆運算。如果log<sub>10</sub>(1000) = 3，那麼 3 的反對數是 10<sup>3</sup> = 1000。本頁的每一個結果在你看到之前都以這種方式核查過。</p>
+<h3>示例</h3>
+<div class="exbox"><strong>示例：</strong> 求 log<sub>2</sub>(32) 透過換底公式計算。ln(32) ≈ 3.4657，ln(2) ≈ 0.6931。相除：3.4657 ÷ 0.6931 = <strong>5</strong>。用反對數檢驗：2<sup>5</sup> = 32 ✓</div>
+<h3>常見問題</h3></section>
+<div class="faq"><h3>任何底數下 1 的對數是多少？</h3><p>始終為 0，因為任何底數的 0 次方都等於 1：b<sup>0</sup> = 1。同樣地，log<sub>b</sub>(b) 始終為 1，因為 b<sup>1</sup> = b.</p></div>
+<div class="faq"><h3>為什麼底數不能是 1？</h3><p>因為 1 的任何次方始終是 1，因此“我必須將 1 乘方到多少才能得到 100？”根本沒有答案——而對於數字 1 本身，它會有無限多個。因此底數 1 被排除，底數 0 和負底數在實數工作中也被排除。</p></div>
+<div class="faq"><h3>對數在現實生活中用在哪裡？</h3><p>無論數量透過乘法增長的地方：地震強度（里氏震級）、聲音響度（分貝）、酸度（pH）、複利和半衰期計算，以及計算中的二進位制對數（資料集需要多少位，或多少次對摺）。</p></div>
+
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">將此計算器嵌入您的網站——免費</h2>
+<p style="margin:0 0 12px;line-height:1.6">將本計算器新增到你自己的網站或部落格——完全免費，無需註冊，並且始終顯示最新版本。複製下面的程式碼，貼上到你希望計算器出現的頁面位置。在嵌入下方保留小小的 &ldquo;Powered by Loona Automation&rdquo; 署名行有助於保持本工具免費——但你可以自由設定樣式或將其移除；無論哪種方式工具都能工作。</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/zh-hant/logarithm-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Logarithm Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;技術支援： &lt;a href="https://loonaautomation.github.io/loona-calculators/zh-hant/logarithm-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 免費 對數計算器&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">複製嵌入程式碼</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='複製嵌入程式碼';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>熱門計算器</h4><ul><li><a href="../age-calculator/">年齡計算器</a></li>
+<li><a href="../zakat-calculator/">天課計算器</a></li>
+<li><a href="../cgpa-calculator/">CGPA 計算器</a></li>
+<li><a href="../percentage-calculator/">百分比計算器</a></li>
+<li><a href="../hijri-date-converter/">伊斯蘭曆日期轉換器</a></li>
+<li><a href="../emi-calculator/">EMI 與貸款計算器</a></li></ul></div>
+<div><h4>更多 Loona 工具</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona 圖片壓縮工具</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI 助手</a></li>
+<li><a href="https://loonaautomation.github.io/">所有 Loona 工具</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">關於</a></li>
+<li><a href="../contact.html">聯絡</a></li>
+<li><a href="../privacy-policy.html">隱私政策</a></li>
+<li><a href="../terms.html">使用條款</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators —— 一個 <a href="https://loonaautomation.github.io/">Loona Automation</a> 專案。免費線上計算器，無需註冊。
+聯絡方式： <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+/* Logarithm Calculator — pure logic */
+function calcLog(x,b){
+  if(!(x>0))throw new Error("數字（x）必須大於 0 — 零或負數的對數在實數中沒有定義。");
+  if(!(b>0)||b===1)throw new Error("底數必須大於 0 且不等於 1。");
+  return {logb:Math.log(x)/Math.log(b),log10:Math.log10(x),ln:Math.log(x),log2:Math.log2(x)};
+}
+function antilogCalc(b,y){
+  if(!(b>0)||b===1)throw new Error("底數必須大於 0 且不等於 1。");
+  return Math.pow(b,y);
+}
+function flog(n){
+  if(Math.abs(n)<1e-12)n=0;
+  return String(parseFloat(n.toPrecision(12))).replace(/-/g,"−");
+}
+if(typeof module!=="undefined"&&module.exports){module.exports={calcLog:calcLog,antilogCalc:antilogCalc};}
+
+/* ---------- Browser wiring ---------- */
+if(typeof document!=="undefined"){
+  document.addEventListener("DOMContentLoaded",function(){
+    var form=document.getElementById("logForm");
+    if(!form)return;
+    var xEl=document.getElementById("logX"),bEl=document.getElementById("logB"),yEl=document.getElementById("logY"),res=document.getElementById("logRes");
+    document.querySelectorAll("[data-base]").forEach(function(btn){
+      btn.addEventListener("click",function(){bEl.value=btn.getAttribute("data-base");});
+    });
+    form.addEventListener("submit",function(e){
+      e.preventDefault();
+      var x=parseFloat(xEl.value),b=parseFloat(bEl.value);
+      res.style.display="block";
+      if(isNaN(x)||isNaN(b)){res.innerHTML='<p class="err">請輸入數字和底數。</p>';return;}
+      try{
+        var r=calcLog(x,b);
+        var h='<div class="resbig"><span>log<sub>'+flog(b)+'</sub>('+flog(x)+')</span><strong>'+flog(r.logb)+'</strong></div>';
+        h+='<table class="restbl">';
+        h+='<tr><td>以您的底數取對數 — log<sub>'+flog(b)+'</sub>('+flog(x)+')</td><td><strong>'+flog(r.logb)+'</strong></td></tr>';
+        h+='<tr><td>常用對數 — log<sub>10</sub>('+flog(x)+')</td><td>'+flog(r.log10)+'</td></tr>';
+        h+='<tr><td>自然對數 — ln('+flog(x)+')</td><td>'+flog(r.ln)+'</td></tr>';
+        h+='<tr><td>二進位制對數 — log<sub>2</sub>('+flog(x)+')</td><td>'+flog(r.log2)+'</td></tr>';
+        h+='</table>';
+        h+='<p class="resnote">驗算（反對數）：'+flog(b)+'<sup>'+flog(r.logb)+'</sup> = '+flog(Math.pow(b,r.logb))+' — 回到您的起始數字 ✓</p>';
+        var y=parseFloat(yEl.value);
+        if(!isNaN(y)){
+          h+='<p class="resnote">反對數：'+flog(b)+'<sup>'+flog(y)+'</sup> = <strong>'+flog(antilogCalc(b,y))+'</strong></p>';
+        }
+        res.innerHTML=h;
+      }catch(err){res.innerHTML='<p class="err">'+err.message+'</p>';}
+    });
+  });
+}
+</script>
+
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' 安裝應用';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('安裝此應用：點選分享按鈕，然後選擇“新增到主螢幕”。');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body></html>

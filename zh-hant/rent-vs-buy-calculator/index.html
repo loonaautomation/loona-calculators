@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>租房還是買房計算器 — 租房還是買房？| Loona Calculators</title>
+<meta name="description" content="免費租房與買房計算器：比較在您計劃居住的年份裡租房的總成本與買房的淨成本——包括抵押貸款、租金上漲、價格增長和權益。">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/zh-hant/rent-vs-buy-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/rent-vs-buy-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/rent-vs-buy-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/rent-vs-buy-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/rent-vs-buy-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/rent-vs-buy-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/rent-vs-buy-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/rent-vs-buy-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/rent-vs-buy-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/rent-vs-buy-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/rent-vs-buy-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/rent-vs-buy-calculator/"><link rel="alternate" hreflang="zh" href="https://loonaautomation.github.io/loona-calculators/zh/rent-vs-buy-calculator/"><link rel="alternate" hreflang="zh-Hant" href="https://loonaautomation.github.io/loona-calculators/zh-hant/rent-vs-buy-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/rent-vs-buy-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="租房還是買房計算器 — 租房還是買房？| Loona Calculators">
+<meta property="og:description" content="免費租房與買房計算器：比較在您計劃居住的年份裡租房的總成本與買房的淨成本——包括抵押貸款、租金上漲、價格增長和權益。">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/zh-hant/rent-vs-buy-calculator/"><meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="租房還是買房計算器 — 租房還是買房？| Loona Calculators">
+<meta name="twitter:description" content="免費租房與買房計算器：比較在您計劃居住的年份裡租房的總成本與買房的淨成本——包括抵押貸款、租金上漲、價格增長和權益。">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona 租與買計算器","url":"https://loonaautomation.github.io/loona-calculators/zh-hant/rent-vs-buy-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"租房還是買房更好？","acceptedAnswer":{"@type":"Answer","text":"這主要取決於您將居住多久，以及價格和租金如何變化。買房前期成本高，且早期按揭還款大部分是利息，因此短住通常更適合租房。居住時間越長，您積累的權益越多，買房就越佔優勢。在上面輸入您自己的數字——僅居住時長就可能顛覆答案。"}},{"@type":"Question","name":"購買房屋的 5 年規則是什麼？","acceptedAnswer":{"@type":"Answer","text":"一個粗略的指導原則是，通常只有在同一套房屋中居住約五年後，購買才開始勝過租賃，因為前期成本和利息佔比較高的早期還款需要時間來分攤，並被淨值和價格增長抵消。它只是一個指導原則——高租金增長或快速的價格增長可以縮短它，平坦的價格可以將其遠遠拉長到五年以上。"}},{"@type":"Question","name":"這個計算器包括房產稅和購房成本嗎？","acceptedAnswer":{"@type":"Answer","text":"持續成本透過維護與保險百分比涵蓋，您可以提高它以包括房產稅。一次性成本——印花稅、註冊費、法律費用和銷售佣金——不在預設模型中。它們是真實存在的，並且對短住不利；如果它們對您的情況重要，請將買房結果視為略偏樂觀。"}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/zh-hant/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "租房還是買房計算器",
+      "item": "https://loonaautomation.github.io/loona-calculators/zh-hant/rent-vs-buy-calculator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation 標誌">
+<div class="brand">Loona <span>計算器</span></div>
+<nav>
+<a href="../">首頁</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">關於</a>
+<a href="../contact.html">聯絡</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › 金錢與金融 › 租房與買房比較計算器</div>
+<h1 class="pagetitle">⚖️ 租房與買房比較計算器</h1>
+<p class="lead">“租房是把錢扔掉”和“房子永遠是投資”這兩種說法都過於簡單。誠實的答案取決於你會住多久、租金隨時間如何變化，以及你積累了多少淨資產。輸入你自己的數字，本計算器會比較兩種選擇在你停留期間的真實成本。</p>
+<div class="toolbox"><form class="calcform" id="rbForm">
+<div class="fld"><label for="rbPrice">房價</label><input type="number" step="any" min="0" id="rbPrice" value="8000000"></div>
+<div class="fld"><label for="rbDown">首付（%）</label><input type="number" step="any" min="0" max="100" id="rbDown" value="25"></div>
+<div class="fld"><label for="rbRate">按揭利率（每年 %）</label><input type="number" step="any" min="0" id="rbRate" value="9"></div>
+<div class="fld"><label for="rbTerm">按揭期限（年）</label><input type="number" step="any" min="1" id="rbTerm" value="15"></div>
+<div class="fld"><label for="rbRent">類似住房的當前每月租金</label><input type="number" step="any" min="0" id="rbRent" value="30000"></div>
+<div class="fld"><label for="rbYears">您計劃在家中居住的年數</label><input type="number" step="any" min="1" id="rbYears" value="5"></div>
+<div class="fld"><label for="rbRentInc">租金漲幅（% 每年）</label><input type="number" step="any" min="0" id="rbRentInc" value="5"></div>
+<div class="fld"><label for="rbAppr">房價增長（每年 %）</label><input type="number" step="any" min="0" id="rbAppr" value="4"></div>
+<div class="fld"><label for="rbMaint">維護 &amp; 保險（每年佔價格的 %）</label><input type="number" step="any" min="0" id="rbMaint" value="1"></div>
+<button class="calcbtn" type="submit">租房與買房對比</button>
+</form>
+<div class="calcresult" id="rbRes" style="display:none"></div></div>
+<section class="txt"><h2>如何使用 Rent vs Buy Calculator</h2><ol><li>輸入房屋的價格和您將支付的首付。</li><li>新增抵押貸款利率和期限，以及你為類似房屋本應支付的租金。</li><li>設定您預計停留的年數、租金每年的上漲速度，以及房價的增長速度。</li><li>按“比較”——結論將顯示在您停留期間哪個選項花費更少，以及少多少。</li></ol>
+<h2>常見問題</h2></section><div class="faq"><h3>租房還是買房更好？</h3><p>這主要取決於您將居住多久，以及價格和租金如何變化。買房前期成本高，且早期按揭還款大部分是利息，因此短住通常更適合租房。居住時間越長，您積累的權益越多，買房就越佔優勢。在上面輸入您自己的數字——僅居住時長就可能顛覆答案。</p></div><div class="faq"><h3>購買房屋的 5 年規則是什麼？</h3><p>一個粗略的指導原則是，通常只有在同一套房屋中居住約五年後，購買才開始勝過租賃，因為前期成本和利息佔比較高的早期還款需要時間來分攤，並被淨值和價格增長抵消。它只是一個指導原則——高租金增長或快速的價格增長可以縮短它，平坦的價格可以將其遠遠拉長到五年以上。</p></div><div class="faq"><h3>這個計算器包括房產稅和購房成本嗎？</h3><p>持續成本透過維護與保險百分比涵蓋，您可以提高它以包括房產稅。一次性成本——印花稅、註冊費、法律費用和銷售佣金——不在預設模型中。它們是真實存在的，並且對短住不利；如果它們對您的情況重要，請將買房結果視為略偏樂觀。</p></div>
+<h2 class="sec">相關計算器</h2><div class="grid"><a class="card" href="../rent-affordability-calculator/" data-name="rent affordability calculator rent-affordability-calculator"><div class="ic">🔑</div><h3>租金負擔能力計算器</h3><p>免費租金承受能力計算器：輸入您的收入和債務，按照 30% 和 28/36 規則檢視您能負擔的最高租金。</p></a><a class="card" href="../rent-split-calculator/" data-name="rent split calculator rent-split-calculator"><div class="ic">🤝</div><h3>租金分攤計算器</h3><p>免費租金分攤計算器：在室友之間公平分配租金——平均、按房間面積或按收入。</p></a><a class="card" href="../rent-increase-calculator/" data-name="rent increase calculator rent-increase-calculator"><div class="ic">📈</div><h3>租金上漲計算器</h3><p>免費租金上漲計算器：檢視百分比上漲後的新租金，還附有逐年預測。</p></a><a class="card" href="../mortgage-calculator/" data-name="mortgage calculator mortgage-calculator"><div class="ic">🏠</div><h3>按揭計算器</h3><p>免費抵押貸款計算器：房價、首付、利率和期限——獲得貸款金額、每月還款、總利息和您房屋的總成本。</p></a><a class="card" href="../emi-calculator/" data-name="emi & loan calculator emi-calculator"><div class="ic">🏦</div><h3>EMI 與貸款計算器</h3><p>免費 EMI 和貸款計算器：輸入貸款金額、利息或利潤率和期限，獲得您的每月分期付款和總成本。</p></a></div>
+</div>
+<section class="txt"><h2>工作原理 — 公式</h2><p><strong>租房</strong> 是一個幾何級數：每年租金按你的漲幅百分比上升，因此總額是你停留期間每年租金的總和。 <strong>購買</strong> 按淨額比較——你付出的一切，減去你收回的部分。抵押貸款還款使用標準年金公式（月利率 = 年利率 ÷ 1200）。在停留期結束時，房屋按升值後的價值出售；你保留的是該價值減去尚欠的貸款餘額（你的淨資產）。</p>
+<p><strong>公式：</strong> 租金總額 = Σ 月租金 × (1 + 漲幅)<sup>年</sup> × 12。每月還款 = Loan × r × (1 + r)<sup>n</sup> ÷ ((1 + r)<sup>n</sup> − 1)。買房淨成本 = 首付 + 停留期間的抵押貸款還款 + 維護與保險 −（出售價值 − 剩餘餘額）。</p><h3>示例</h3><div class="exbox"><p><strong>輸入項：</strong> 房價 Rs 80,00,000；首付 25% (Rs 20,00,000)；抵押貸款 9%，期限 15 年；租金 Rs 30,000/月，每年上漲 5%；停留 5 年；價格每年增長 4%；維護 &amp; 保險每年為價格的 1%。</p>
+<p><strong>步驟：</strong> 貸款為 Rs 60,00,000，每月付款為 Rs 60,856。租房在 5 年內花費 Rs 19,89,227。買房：Rs 20,00,000 首付 + Rs 36,51,360 付款 + Rs 4,00,000 維護 = 支出 Rs 60,51,360；住房增長到 Rs 97,33,223，貸款餘額為 Rs 48,04,075，因此返還的權益為 Rs 49,29,148——淨成本為 Rs 11,22,212。</p>
+<p><strong>結果：</strong> 在 5 年內， <strong>買房便宜Rs 8,67,016</strong> 在這個例子中。把停留期改成2年或把增長率改成0%，答案就會翻轉——這正是輸入項由你設定的原因。</p></div><h3>常見問題</h3></section><div class="faq"><h3>為什麼我的停留時長如此改變答案？</h3><p>當您租房時，每筆付款都一去不復返，但沒有什麼需要設定。當您購買時，首付和費用在第一天就支出，而收益——權益——起初積累緩慢，因為早期付款大多是利息。時間讓對整個房屋價值的升值和下降的貸款餘額對您有利。</p></div><div class="faq"><h3>我應該輸入什麼價格增長率？</h3><p>為您的城市使用保守的長期數字——許多地區每年 3–5% 是合理的規劃範圍，大致與長期通貨膨脹一致。避免將最近最熱的一年作為您的假設；如果答案只有在 8–10% 增長下才行得通，那就是增長在起作用，而不是購買。</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">將此計算器嵌入您的網站——免費</h2>
+<p style="margin:0 0 12px;line-height:1.6">將本計算器新增到你自己的網站或部落格——完全免費，無需註冊，並且始終顯示最新版本。複製下面的程式碼，貼上到你希望計算器出現的頁面位置。在嵌入下方保留小小的 &ldquo;Powered by Loona Automation&rdquo; 署名行有助於保持本工具免費——但你可以自由設定樣式或將其移除；無論哪種方式工具都能工作。</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/zh-hant/rent-vs-buy-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Rent vs Buy Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;技術支援： &lt;a href="https://loonaautomation.github.io/loona-calculators/zh-hant/rent-vs-buy-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 免費 租房還是買房計算器&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">複製嵌入程式碼</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='複製嵌入程式碼';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>熱門計算器</h4><ul><li><a href="../age-calculator/">年齡計算器</a></li>
+<li><a href="../zakat-calculator/">天課計算器</a></li>
+<li><a href="../cgpa-calculator/">CGPA 計算器</a></li>
+<li><a href="../percentage-calculator/">百分比計算器</a></li>
+<li><a href="../hijri-date-converter/">伊斯蘭曆日期轉換器</a></li>
+<li><a href="../emi-calculator/">EMI 與貸款計算器</a></li></ul></div>
+<div><h4>更多 Loona 工具</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona 圖片壓縮工具</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI 助手</a></li>
+<li><a href="https://loonaautomation.github.io/">所有 Loona 工具</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">關於</a></li>
+<li><a href="../contact.html">聯絡</a></li>
+<li><a href="../privacy-policy.html">隱私政策</a></li>
+<li><a href="../terms.html">使用條款</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators —— 一個 <a href="https://loonaautomation.github.io/">Loona Automation</a> 專案。免費線上計算器，無需註冊。
+聯絡方式： <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+/* Rent vs Buy — pure logic (unit-tested, inlined into the page) */
+function monthlyPayment(principal, annualRatePct, termYears){
+  var r = annualRatePct / 1200, n = termYears * 12;
+  if (principal <= 0) return 0;
+  if (r === 0) return principal / n;
+  var f = Math.pow(1 + r, n);
+  return principal * r * f / (f - 1);
+}
+function remainingBalance(principal, annualRatePct, termYears, monthsPaid){
+  var r = annualRatePct / 1200, n = termYears * 12;
+  if (monthsPaid >= n) return 0;
+  var m = monthlyPayment(principal, annualRatePct, termYears);
+  if (r === 0) return principal - m * monthsPaid;
+  var f = Math.pow(1 + r, monthsPaid);
+  return principal * f - m * (f - 1) / r;
+}
+function rentTotalCost(monthlyRent, increasePct, years){
+  var total = 0, rent = monthlyRent;
+  for (var y = 0; y < years; y++){ total += rent * 12; rent *= (1 + increasePct / 100); }
+  return total;
+}
+function rentVsBuy(o){
+  var down = o.price * o.downPct / 100;
+  var loan = o.price - down;
+  var m = monthlyPayment(loan, o.ratePct, o.termYears);
+  var monthsStay = o.years * 12;
+  var payMonths = Math.min(monthsStay, o.termYears * 12);
+  var totalPayments = m * payMonths;
+  var balance = remainingBalance(loan, o.ratePct, o.termYears, monthsStay);
+  var valueAtSale = o.price * Math.pow(1 + o.appreciationPct / 100, o.years);
+  var equity = valueAtSale - balance;
+  var maintenance = o.price * o.maintenancePct / 100 * o.years;
+  var buyNetCost = down + totalPayments + maintenance - equity;
+  var rentCost = rentTotalCost(o.monthlyRent, o.rentIncreasePct, o.years);
+  return {
+    downPayment: down, loanAmount: loan, monthlyPayment: m,
+    totalPayments: totalPayments, remainingBalance: balance,
+    valueAtSale: valueAtSale, equity: equity, maintenance: maintenance,
+    buyNetCost: buyNetCost, rentTotalCost: rentCost,
+    difference: Math.abs(rentCost - buyNetCost),
+    cheaper: buyNetCost < rentCost ? "buy" : (rentCost < buyNetCost ? "rent" : "equal")
+  };
+}
+function fmt(n){return "Rs " + Math.round(n).toLocaleString("en-IN");}
+function fmt2(n){return "Rs " + n.toLocaleString("en-IN",{minimumFractionDigits:2,maximumFractionDigits:2});}
+function pctFmt(n){return parseFloat(n.toFixed(2)) + "%";}
+function num(id){var v=parseFloat(document.getElementById(id).value);return isNaN(v)?0:v;}
+document.getElementById("rbForm").addEventListener("submit", function(e){
+  e.preventDefault();
+  var res = document.getElementById("rbRes");
+  var o = { price: num("rbPrice"), downPct: num("rbDown"), ratePct: num("rbRate"), termYears: num("rbTerm"),
+            monthlyRent: num("rbRent"), years: num("rbYears"), rentIncreasePct: num("rbRentInc"),
+            appreciationPct: num("rbAppr"), maintenancePct: num("rbMaint") };
+  if (o.price <= 0 || o.termYears <= 0 || o.years <= 0){ res.style.display = "block"; res.innerHTML = '<div class="err">請輸入房價、抵押期限和大於零的居住時長。</div>'; return; }
+  var r = rentVsBuy(o);
+  var verdict = r.cheaper === "buy" ? "買房更便宜，便宜 " + fmt(r.difference)
+              : r.cheaper === "rent" ? "租房更便宜，便宜 " + fmt(r.difference)
+              : "兩者成本幾乎完全相同";
+  res.style.display = "block";
+  res.innerHTML = '<div class="resbig"><span>' + verdict + ' 在 ' + o.years + (o.years == 1 ? ' 年' : ' 年') + '</span><strong>' + fmt(r.difference) + '</strong></div>'
+    + '<table class="restbl">'
+    + '<tr><td>租房總成本（租金上漲 ' + pctFmt(o.rentIncreasePct) + ' 每年）</td><td>' + fmt(r.rentTotalCost) + '</td></tr>'
+    + '<tr><td>買房淨成本（出售並保留權益後）</td><td>' + fmt(r.buyNetCost) + '</td></tr>'
+    + '<tr><td>首付</td><td>' + fmt(r.downPayment) + '</td></tr>'
+    + '<tr><td>貸款金額</td><td>' + fmt(r.loanAmount) + '</td></tr>'
+    + '<tr><td>每月抵押還款</td><td>' + fmt(r.monthlyPayment) + '</td></tr>'
+    + '<tr><td>居住期間支付的抵押還款</td><td>' + fmt(r.totalPayments) + '</td></tr>'
+    + '<tr><td>居住期間的維護與保險</td><td>' + fmt(r.maintenance) + '</td></tr>'
+    + '<tr><td>出售時的房屋價值</td><td>' + fmt(r.valueAtSale) + '</td></tr>'
+    + '<tr><td>出售時仍欠的貸款餘額</td><td>' + fmt(r.remainingBalance) + '</td></tr>'
+    + '<tr><td>您帶走的權益（價值 − 餘額）</td><td>' + fmt(r.equity) + '</td></tr>'
+    + '</table>'
+    + '<p class="resnote">買房數字是淨成本：您支付的一切（首付、抵押還款、維護和保險）減去出售時拿回的權益。它不包括一次性買賣費用，如印花稅、法律費或中介佣金，且假設租金每年上漲一次。如需大致計入這些費用，請將其加到維護百分比中。</p>';
+});
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' 安裝應用';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('安裝此應用：點選分享按鈕，然後選擇“新增到主螢幕”。');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body></html>

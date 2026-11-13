@@ -1,0 +1,29 @@
+{
+  "name": "Loona BMR 計算器",
+  "short_name": "BMR 計算器",
+  "description": "免費 BMR 和 TDEE 計算器：輸入年齡、體重、身高和活動水平，查明您的身體在休息和日常生活中燃燒的卡路里 (Mifflin-St Jeor)。",
+  "id": "/loona-calculators/zh-hant/bmr-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

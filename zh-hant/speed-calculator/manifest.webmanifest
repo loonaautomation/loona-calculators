@@ -1,0 +1,29 @@
+{
+  "name": "Loona 速度計算器",
+  "short_name": "速度計算器",
+  "description": "免費速度計算器：輸入以公里或英里計的距離和所用時間，獲得以 km/h 和 mph 計的速度，加上每公里和每英里的配速。",
+  "id": "/loona-calculators/zh-hant/speed-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

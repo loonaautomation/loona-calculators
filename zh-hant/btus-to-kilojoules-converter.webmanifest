@@ -1,0 +1,29 @@
+{
+  "name": "Loona 英熱單位到千焦",
+  "short_name": "英國熱量單位到",
+  "description": "即時將英熱單位轉換為千焦。提供精確公式、完整的BTU 到 kJ 換算表、一個計算示例和常見問題。免費，無需註冊。",
+  "id": "/loona-calculators/zh-hant/btus-to-kilojoules-converter.html",
+  "start_url": "./btus-to-kilojoules-converter.html",
+  "scope": "./btus-to-kilojoules-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona ETIAS 資格檢查器",
+  "short_name": "ETIAS 資格檢查器",
+  "description": "免費 ETIAS 資格查詢器：選擇您的國籍和旅行情況，檢視您在歐洲短期旅行時是否需要 ETIAS、申根簽證或無需授權。",
+  "id": "/loona-calculators/zh-hant/etias-eligibility-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

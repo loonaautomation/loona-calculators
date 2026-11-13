@@ -1,0 +1,29 @@
+{
+  "name": "Loona 平方英尺到公頃轉換器",
+  "short_name": "平方英尺到公頃",
+  "description": "即時將平方英尺轉換為公頃。提供精確公式、完整的ft² 到 ha 換算表、一個計算示例和常見問題。免費，無需註冊。",
+  "id": "/loona-calculators/zh-hant/square-feet-to-hectares-converter.html",
+  "start_url": "./square-feet-to-hectares-converter.html",
+  "scope": "./square-feet-to-hectares-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

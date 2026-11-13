@@ -1,0 +1,29 @@
+{
+  "name": "Loona 按出生年份計算年齡",
+  "short_name": "按出生年份計算年齡",
+  "description": "每個出生年份 1946–2025 的人在 2026 年的年齡，帶世代標籤和里程碑年份。",
+  "id": "/loona-calculators/zh-hant/age-by-birth-year.html",
+  "start_url": "./age-by-birth-year.html",
+  "scope": "./age-by-birth-year.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

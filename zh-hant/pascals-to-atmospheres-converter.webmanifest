@@ -1,0 +1,29 @@
+{
+  "name": "Loona 帕斯卡到標準大氣壓轉換器",
+  "short_name": "帕斯卡到標準大氣壓轉換器",
+  "description": "即時將帕斯卡轉換為標準大氣壓。提供精確公式、完整的Pa 到 atm 換算表、一個計算示例和常見問題。免費，無需註冊。",
+  "id": "/loona-calculators/zh-hant/pascals-to-atmospheres-converter.html",
+  "start_url": "./pascals-to-atmospheres-converter.html",
+  "scope": "./pascals-to-atmospheres-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

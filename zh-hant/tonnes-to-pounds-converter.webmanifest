@@ -1,0 +1,29 @@
+{
+  "name": "Loona 噸到磅轉換器",
+  "short_name": "噸到磅轉換器",
+  "description": "即時將噸轉換為磅。提供精確公式、完整的t 到 lb 換算表、一個計算示例和常見問題。免費，無需註冊。",
+  "id": "/loona-calculators/zh-hant/tonnes-to-pounds-converter.html",
+  "start_url": "./tonnes-to-pounds-converter.html",
+  "scope": "./tonnes-to-pounds-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

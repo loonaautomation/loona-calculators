@@ -1,0 +1,29 @@
+{
+  "name": "Loona 定期存款計算器",
+  "short_name": "定期存款計算器",
+  "description": "免費定期存款 (FD) 計算器：存款金額、利率、期限和複利頻率——獲得到期價值和賺取的總利息。",
+  "id": "/loona-calculators/zh-hant/fixed-deposit-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

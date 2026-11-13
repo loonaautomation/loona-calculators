@@ -1,0 +1,29 @@
+{
+  "name": "Loona 賓果報號器",
+  "short_name": "賓果號碼播報器",
+  "description": "免費賓果號碼播報器，適用於 75 球 (B-I-N-G-O) 和 90 球遊戲：無重複地抽取號碼，大字顯示當前球，並在板上跟蹤每個已叫號碼。",
+  "id": "/loona-calculators/zh-hant/bingo-number-caller/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
