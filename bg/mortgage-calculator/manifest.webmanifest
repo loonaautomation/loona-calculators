@@ -1,0 +1,29 @@
+{
+  "name": "Loona Ипотечен калкулатор",
+  "short_name": "Ипотечен калкулатор",
+  "description": "Безплатен калкулатор за ипотека: цена на жилището, първоначална вноска, лихвен процент и срок — получете размера на заема, месечното плащане, общата лихва и общата цена на жилището ви.",
+  "id": "/loona-calculators/bg/mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

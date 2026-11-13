@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертор от Mm в инчове",
+  "short_name": "Конвертор от Mm в инчове",
+  "description": "Конвертирайте милиметри към инчове мигновено. Точна формула, пълна таблица за преобразуване mm към in и разработени примери. Безплатно, без регистрация.",
+  "id": "/loona-calculators/bg/mm-to-inches-converter.html",
+  "start_url": "./mm-to-inches-converter.html",
+  "scope": "./mm-to-inches-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
