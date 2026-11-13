@@ -1,0 +1,29 @@
+{
+  "name": "Loona Работни дни в Канада",
+  "short_name": "Работни дни в Канада",
+  "description": "Калкулатор за работни дни за Канада: бройте работните дни между две дати с премахнати почивни дни и всички 11 канадски федерални празници за 2026 г. Безплатен онлайн инструмент.",
+  "id": "/loona-calculators/bg/working-days-in-canada.html",
+  "start_url": "./working-days-in-canada.html",
+  "scope": "./working-days-in-canada.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

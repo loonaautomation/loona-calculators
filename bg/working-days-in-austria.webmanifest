@@ -1,0 +1,29 @@
+{
+  "name": "Loona Работни дни в Австрия",
+  "short_name": "Работни дни в Австрия",
+  "description": "Калкулатор за работни дни за Австрия: бройте работните дни между две дати с премахнати почивни дни и всички 13 австрийски национални официални празници за 2026 г.",
+  "id": "/loona-calculators/bg/working-days-in-austria.html",
+  "start_url": "./working-days-in-austria.html",
+  "scope": "./working-days-in-austria.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

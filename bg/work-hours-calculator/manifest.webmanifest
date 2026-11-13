@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калкулатор за работни часове",
+  "short_name": "Калкулатор за работни часове",
+  "description": "Безплатен калкулатор за работни часове: начало, край и неплатена почивка дават нетни часове на ден и на седмица — плюс дневно и седмично заплащане, когато добавите почасова ставка. Поддържат се нощни смени.",
+  "id": "/loona-calculators/bg/work-hours-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

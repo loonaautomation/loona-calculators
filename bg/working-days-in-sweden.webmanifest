@@ -1,0 +1,29 @@
+{
+  "name": "Loona Работни дни в Швеция",
+  "short_name": "Работни дни в Швеция",
+  "description": "Калкулатор за работни дни за Швеция: бройте работни дни между две дати с премахнати почивни дни и всички 13 шведски официални празници (червени дни) за 2026 г. Безплатно.",
+  "id": "/loona-calculators/bg/working-days-in-sweden.html",
+  "start_url": "./working-days-in-sweden.html",
+  "scope": "./working-days-in-sweden.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

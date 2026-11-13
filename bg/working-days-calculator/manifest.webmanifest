@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калкулатор за работни дни",
+  "short_name": "Калкулатор за работни дни",
+  "description": "Безплатен калкулатор за работни дни: пребройте общите дни, работните дни (от понеделник до петък) и почивните дни между всеки две дати. За отпуски, крайни срокове и проектни планове.",
+  "id": "/loona-calculators/bg/working-days-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
