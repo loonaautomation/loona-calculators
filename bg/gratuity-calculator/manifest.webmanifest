@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калкулатор за обезщетение при напускане",
+  "short_name": "Калкулатор за обезщетение при напускане",
+  "description": "Безплатен калкулатор за обезщетение при напускане: последна изтеглена месечна заплата и завършени години служба — оценете обезщетението на една месечна заплата (заплащане за 30 дни) за година служба.",
+  "id": "/loona-calculators/bg/gratuity-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

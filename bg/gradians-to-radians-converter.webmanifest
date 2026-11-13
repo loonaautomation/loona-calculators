@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертор от гради в радиани",
+  "short_name": "Конвертор градиан към радиан",
+  "description": "Конвертирайте градиани към радиани мигновено. Точна формула, пълна таблица за преобразуване gon към rad, разработен пример и ЧЗВ. Безплатно, без регистрация.",
+  "id": "/loona-calculators/bg/gradians-to-radians-converter.html",
+  "start_url": "./gradians-to-radians-converter.html",
+  "scope": "./gradians-to-radians-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

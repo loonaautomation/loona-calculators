@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертор от грамове във фунтове",
+  "short_name": "Конвертор грамове към паунди",
+  "description": "Конвертирайте грамове към паунди мигновено. Точна формула, пълна таблица за преобразуване g към lb и разработени примери. Безплатно, без регистрация.",
+  "id": "/loona-calculators/bg/grams-to-pounds-converter.html",
+  "start_url": "./grams-to-pounds-converter.html",
+  "scope": "./grams-to-pounds-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
