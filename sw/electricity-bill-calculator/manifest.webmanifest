@@ -1,0 +1,29 @@
+{
+  "name": "Kikokotoo cha Loona cha Bili ya Umeme",
+  "short_name": "Kikokotoo cha Bili ya Umeme",
+  "description": "Kikokotoo cha bure cha bili ya umeme: weka vitengo vilivyotumika na viwango vya slab ili kukadiria bili yako ya kila mwezi pamoja na GST. Viwango vinavyoweza kuhaririwa kwa LESCO, IESCO, K-Electric na makampuni yote ya umeme ya Pakistan.",
+  "id": "/loona-calculators/sw/electricity-bill-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

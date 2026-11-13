@@ -1,0 +1,29 @@
+{
+  "name": "Kibadilishaji cha Loona cha Oktali kwenda Desimali",
+  "short_name": "Kibadilishaji cha Oktali kwenda Desimali",
+  "description": "Badilisha oktali (msingi 8) kuwa desimali (msingi 10) kwa uthibitishaji, ufanyaji kazi wa thamani ya nafasi na jedwali la rejeo.",
+  "id": "/loona-calculators/sw/octal-to-decimal-converter.html",
+  "start_url": "./octal-to-decimal-converter.html",
+  "scope": "./octal-to-decimal-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

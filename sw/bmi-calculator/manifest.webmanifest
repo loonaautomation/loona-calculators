@@ -1,0 +1,29 @@
+{
+  "name": "Kikokotoo cha Loona cha BMI",
+  "short_name": "Kikokotoo cha BMI",
+  "description": "Kikokotoo bure cha BMI: weka uzito na urefu wako (cm au futi/inchi) ili uangalie Faharasa yako ya Uzito wa Mwili, kategoria yako na kiwango cha uzito wa afya kwa urefu wako.",
+  "id": "/loona-calculators/sw/bmi-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

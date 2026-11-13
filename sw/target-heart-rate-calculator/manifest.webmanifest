@@ -1,0 +1,29 @@
+{
+  "name": "Kikokotoo cha Mapigo ya Moyo Lengwa cha Loona",
+  "short_name": "Kikokotoo cha Mapigo ya Moyo Lengwa",
+  "description": "Kikokotoo cha bure cha mapigo lengwa ya moyo: mapigo ya juu zaidi ya moyo na kanda za mafunzo za Karvonen kutoka umri wako na mapigo ya moyo ya kupumzika. Mwongozo wa kielimu wa utimamu.",
+  "id": "/loona-calculators/sw/target-heart-rate-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

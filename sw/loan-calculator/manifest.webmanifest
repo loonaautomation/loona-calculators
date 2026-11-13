@@ -1,0 +1,29 @@
+{
+  "name": "Kikokotoo cha Loona cha Mkopo",
+  "short_name": "Kikokotoo cha Mkopo",
+  "description": "Kikokotoo cha bure cha mkopo: weka kiasi, kiwango cha riba cha kila mwaka na muda ili kupata malipo yako ya kila mwezi, jumla ya riba na jumla ya ulipaji kwa mkopo wowote.",
+  "id": "/loona-calculators/sw/loan-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

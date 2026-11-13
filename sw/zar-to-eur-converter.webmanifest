@@ -1,0 +1,29 @@
+{
+  "name": "Kibadilishaji cha ZAR kwenda EUR cha Loona",
+  "short_name": "Kibadilishaji cha ZAR kwenda EUR",
+  "description": "Badilisha Randi ya Afrika Kusini (ZAR) kuwa Euro (EUR). Kiwango cha rejeo cha ECB cha tarehe 06 Novemba 2026, kiwango cha kinyume, jedwali la ubadilishaji na maelezo ya korido. Kwa makadirio tu.",
+  "id": "/loona-calculators/sw/zar-to-eur-converter.html",
+  "start_url": "./zar-to-eur-converter.html",
+  "scope": "./zar-to-eur-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Kikokotoo cha Takwimu cha Loona",
+  "short_name": "Kikokotoo cha Takwimu",
+  "description": "Kikokotoo cha bure cha takwimu: bandika orodha ya nambari kwa wastani, kati, modi, wigo, tofauti na mkengeuko wa kawaida (idadi ya watu na sampuli), jumla na hesabu.",
+  "id": "/loona-calculators/sw/statistics-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

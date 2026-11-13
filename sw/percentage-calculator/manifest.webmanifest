@@ -1,0 +1,29 @@
+{
+  "name": "Kikokotoo cha Loona cha Asilimia",
+  "short_name": "Kikokotoo cha Asilimia",
+  "description": "Kikokotoo cha bure cha asilimia chenye zana tatu katika moja: X% ya Y ni ngapi, X ni asilimia ngapi ya Y, na ongezeko au upungufu wa asilimia kati ya nambari mbili.",
+  "id": "/loona-calculators/sw/percentage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

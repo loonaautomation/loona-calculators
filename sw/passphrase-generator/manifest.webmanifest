@@ -1,0 +1,29 @@
+{
+  "name": "Kizalishaji cha Vifungu vya Siri",
+  "short_name": "Kizalishaji cha Nenosiri la Maneno",
+  "description": "Kizalishaji cha bure cha vifungu vya siri: tengeneza vifungu vya siri vikali vinavyoweza kukumbukwa kutoka maneno halisi ya nasibu, kikiwa na chaguo za idadi ya maneno, kitenganishi, herufi kubwa na nambari. Hufanya kazi katika kivinjari chako.",
+  "id": "/loona-calculators/sw/passphrase-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

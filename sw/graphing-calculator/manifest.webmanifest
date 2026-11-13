@@ -1,0 +1,29 @@
+{
+  "name": "Kikokotoo cha Loona cha Uchoraji wa Grafu",
+  "short_name": "Kikokotoo cha Uchoraji wa Grafu",
+  "description": "Kikokotoo cha bure cha uchoraji wa grafu: chora kitendakazi kimoja au viwili kama x^2, sin(x) au 2x+3 kwenye gridi yenye kukuza. Hufanya kazi katika kivinjari chako, hakuna kujisajili.",
+  "id": "/loona-calculators/sw/graphing-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

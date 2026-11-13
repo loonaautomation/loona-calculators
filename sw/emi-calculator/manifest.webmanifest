@@ -1,0 +1,29 @@
+{
+  "name": "Kikokotoo cha Loona cha EMI",
+  "short_name": "Kikokotoo cha EMI",
+  "description": "Kikokotoo bure cha EMI na mkopo: weka kiasi cha mkopo, kiwango cha riba au faida na muda ili kupata malipo yako ya kila mwezi, jumla ya riba na jumla ya malipo. Kwa mikopo ya benki, ya gari na ya kibinafsi.",
+  "id": "/loona-calculators/sw/emi-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

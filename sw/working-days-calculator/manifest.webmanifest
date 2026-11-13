@@ -1,0 +1,29 @@
+{
+  "name": "Kikokotoo cha Siku za Kazi cha Loona",
+  "short_name": "Kikokotoo cha Siku za Kazi",
+  "description": "Kikokotoo cha bure cha siku za kazi: hesabu jumla ya siku, siku za kazi (Jumatatu hadi Ijumaa) na siku za wikendi kati ya tarehe zozote mbili. Kwa likizo, tarehe za mwisho na mipango ya miradi.",
+  "id": "/loona-calculators/sw/working-days-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

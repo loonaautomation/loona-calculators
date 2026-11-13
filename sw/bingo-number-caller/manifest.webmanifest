@@ -1,0 +1,29 @@
+{
+  "name": "Kiita Nambari cha Bingo",
+  "short_name": "Mwita Nambari za Bingo",
+  "description": "Kiita nambari cha bure cha bingo kwa michezo ya mipira 75 (B-I-N-G-O) na mipira 90: huchota nambari bila kurudia, huonyesha mpira wa sasa kwa ukubwa, na hufuatilia kila nambari iliyoitwa kwenye ubao.",
+  "id": "/loona-calculators/sw/bingo-number-caller/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

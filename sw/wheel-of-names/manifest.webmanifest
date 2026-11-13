@@ -1,0 +1,29 @@
+{
+  "name": "Gurudumu la Majina la Loona",
+  "short_name": "Gurudumu la Majina",
+  "description": "Gurudumu la bure la majina: ongeza majina, zungusha gurudumu lenye rangi na uchague mshindi wa nasibu kweli kwa bahati nasibu, madarasa na zawadi. Hakuna kujisajili, hufanya kazi katika kivinjari chako.",
+  "id": "/loona-calculators/sw/wheel-of-names/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

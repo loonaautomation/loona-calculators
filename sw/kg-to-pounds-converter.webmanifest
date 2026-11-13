@@ -1,0 +1,29 @@
+{
+  "name": "Kibadilishaji cha Loona cha Kg kwenda paundi",
+  "short_name": "Kibadilishaji cha Kg kwenda paundi",
+  "description": "Badilisha kilogramu kuwa paundi papo hapo. Fomula kamili, jedwali kamili la ubadilishaji wa kg kwenda lb na mifano iliyofanyiwa kazi. Bure, bila kujisajili.",
+  "id": "/loona-calculators/sw/kg-to-pounds-converter.html",
+  "start_url": "./kg-to-pounds-converter.html",
+  "scope": "./kg-to-pounds-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

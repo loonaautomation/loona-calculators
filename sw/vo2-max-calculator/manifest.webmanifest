@@ -1,0 +1,29 @@
+{
+  "name": "Kikokotoo cha VO2 Max cha Loona",
+  "short_name": "Kikokotoo cha VO2 Max",
+  "description": "Kikokotoo cha bure cha VO2 max: kadiria utimamu wa aerobiki kutoka mbio za Cooper za dakika 12 au jaribio la kutembea la Rockport la maili 1. Makadirio ya kielimu ya utimamu.",
+  "id": "/loona-calculators/sw/vo2-max-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

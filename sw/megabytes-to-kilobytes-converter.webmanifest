@@ -1,0 +1,29 @@
+{
+  "name": "Kibadilishaji cha Loona cha megabaiti kwenda Kilobaiti",
+  "short_name": "Megabaiti kwenda Kilobaiti",
+  "description": "Badilisha megabaiti kuwa kilobaiti papo hapo (desturi ya jozi: 1 GB = 1,024 MB). Fomula kamili, jedwali kamili la ubadilishaji wa MB kwenda KB na mifano iliyofanyiwa kazi. Bure, bila kujisajili.",
+  "id": "/loona-calculators/sw/megabytes-to-kilobytes-converter.html",
+  "start_url": "./megabytes-to-kilobytes-converter.html",
+  "scope": "./megabytes-to-kilobytes-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

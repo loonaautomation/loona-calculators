@@ -1,0 +1,29 @@
+{
+  "name": "Kikokotoo cha Usingizi cha Loona",
+  "short_name": "Kikokotoo cha Usingizi",
+  "description": "Kikokotoo cha bure cha usingizi: weka muda wa kuamka ili kupata muda bora wa kulala, au muda wa kulala ili kupata muda bora wa kuamka — kulingana na mizunguko ya usingizi ya dakika 90 pamoja na muda wa kupata usingizi.",
+  "id": "/loona-calculators/sw/sleep-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

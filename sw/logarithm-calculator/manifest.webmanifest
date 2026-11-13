@@ -1,0 +1,29 @@
+{
+  "name": "Kikokotoo cha Loona cha Logariti",
+  "short_name": "Kikokotoo cha Logariti",
+  "description": "Kikokotoo cha bure cha logariti: pata log kwa msingi wowote, pamoja na log ya kawaida (msingi 10), log asilia (ln) na log ya jozi (msingi 2), kila moja ikithibitishwa na antilog yake. Fomula ya kubadili msingi imeelezwa.",
+  "id": "/loona-calculators/sw/logarithm-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

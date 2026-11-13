@@ -1,0 +1,29 @@
+{
+  "name": "Kibadilishaji cha Loona cha Nguvu",
+  "short_name": "Kibadilishaji cha Nguvu",
+  "description": "Kila jozi ya ubadilishaji wa nguvu katika faharasa moja: vipengele halisi, fomula na ukurasa wa kibadilishaji uliojitolea kwa kila jozi. Bure, hakuna kujisajili.",
+  "id": "/loona-calculators/sw/power-converter.html",
+  "start_url": "./power-converter.html",
+  "scope": "./power-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

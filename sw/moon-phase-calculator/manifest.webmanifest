@@ -1,0 +1,29 @@
+{
+  "name": "Kikokotoo cha Loona cha Awamu ya Mwezi",
+  "short_name": "Kikokotoo cha Awamu ya Mwezi",
+  "description": "Kikokotoo cha bure cha awamu ya mwezi: weka tarehe yoyote ili kuona jina la awamu ya mwezi, asilimia ya mwangaza, umri wa mwezi na siku hadi mwezi mpya na mwezi mpevu unaofuata.",
+  "id": "/loona-calculators/sw/moon-phase-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

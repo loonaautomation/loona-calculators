@@ -1,0 +1,29 @@
+{
+  "name": "Kikokotoo cha Zaka cha Loona",
+  "short_name": "Kikokotoo cha Zaka",
+  "description": "Kikokotoo cha bure cha zaka: pesa taslimu, salio la benki, dhahabu, fedha, bidhaa za biashara na madeni — angalia nisab na ukokotoe zaka yako ya 2.5% kwa rupia papo hapo. Rahisi na ya faragha.",
+  "id": "/loona-calculators/sw/zakat-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

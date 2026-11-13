@@ -1,0 +1,29 @@
+{
+  "name": "Kikokotoo cha Loona cha Mapenzi",
+  "short_name": "Kikokotoo cha Mapenzi",
+  "description": "Kikokotoo cha bure cha mapenzi (kwa burudani tu): weka majina mawili na upate asilimia ya mapenzi ya kuchekesha na ujumbe wa uoanifu. Mchezo mwepesi wa kushiriki na marafiki.",
+  "id": "/loona-calculators/sw/love-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Kibadilishaji cha ZAR kwenda USD cha Loona",
+  "short_name": "Kibadilishaji cha ZAR kwenda USD",
+  "description": "Badilisha Randi ya Afrika Kusini (ZAR) kuwa Dola ya Marekani (USD). Kiwango cha rejeo cha ECB cha tarehe 06 Novemba 2026, kiwango cha kinyume, jedwali la ubadilishaji na maelezo ya korido. Kwa makadirio tu.",
+  "id": "/loona-calculators/sw/zar-to-usd-converter.html",
+  "start_url": "./zar-to-usd-converter.html",
+  "scope": "./zar-to-usd-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
