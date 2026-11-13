@@ -1,0 +1,29 @@
+{
+  "name": "Loona BMR ক্যালকুলেটর",
+  "short_name": "BMR ক্যালকুলেটর",
+  "description": "বিনামূল্যে BMR ও TDEE ক্যালকুলেটর: বিশ্রামে এবং দৈনন্দিন জীবনে আপনার শরীর কত ক্যালোরি পোড়ায় তা জানতে বয়স, ওজন, উচ্চতা ও কার্যকলাপের স্তর লিখুন (Mifflin-St Jeor)।",
+  "id": "/loona-calculators/bn/bmr-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

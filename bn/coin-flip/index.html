@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>মুদ্রা ছোড়া — অনলাইনে একটি ভার্চুয়াল মুদ্রা ছুড়ুন (হেড বা টেইল) | Loona</title>
+<meta name="description" content="বিনামূল্যে অনলাইন মুদ্রা উল্টানো: একটি ভার্চুয়াল মুদ্রা একবার বা একবারে দশবার উল্টান, হেড/টেইল গণনা, শতাংশ, ধারার পরিসংখ্যান ও একটি best-of ম্যাচ মোডসহ।">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/bn/coin-flip/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/coin-flip/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/coin-flip/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/coin-flip/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/coin-flip/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/coin-flip/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/coin-flip/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/coin-flip/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/coin-flip/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/coin-flip/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/coin-flip/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/coin-flip/"><link rel="alternate" hreflang="bn" href="https://loonaautomation.github.io/loona-calculators/bn/coin-flip/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/coin-flip/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="মুদ্রা ছোড়া — অনলাইনে একটি ভার্চুয়াল মুদ্রা ছুড়ুন (হেড বা টেইল) | Loona">
+<meta property="og:description" content="বিনামূল্যে অনলাইন মুদ্রা উল্টানো: একটি ভার্চুয়াল মুদ্রা একবার বা একবারে দশবার উল্টান, হেড/টেইল গণনা, শতাংশ, ধারার পরিসংখ্যান ও একটি best-of ম্যাচ মোডসহ।">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/bn/coin-flip/"><meta property="og:locale" content="bn_BD">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="মুদ্রা ছোড়া — অনলাইনে একটি ভার্চুয়াল মুদ্রা ছুড়ুন (হেড বা টেইল) | Loona">
+<meta name="twitter:description" content="বিনামূল্যে অনলাইন মুদ্রা উল্টানো: একটি ভার্চুয়াল মুদ্রা একবার বা একবারে দশবার উল্টান, হেড/টেইল গণনা, শতাংশ, ধারার পরিসংখ্যান ও একটি best-of ম্যাচ মোডসহ।">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona মুদ্রা টস","url":"https://loonaautomation.github.io/loona-calculators/bn/coin-flip/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"অনলাইন কয়েন ফ্লিপ কি সত্যিই 50/50?","acceptedAnswer":{"@type":"Answer","text":"হ্যাঁ। প্রতিটি নিক্ষেপ crypto.getRandomValues ব্যবহার করে, যা আপনার ব্রাউজারের নিরাপদ এলোমেলো উৎস, তাই প্রতিটি নিক্ষেপে হেড ও টেইলের প্রতিটির সম্ভাবনা ঠিক 50%, আগের সবকিছু থেকে স্বাধীনভাবে।"}},{"@type":"Question","name":"পরপর 5 বার হেড এসেছে — এবার কি টেল আসার পালা?","acceptedAnswer":{"@type":"Answer","text":"না — এই ধারণাটিকে জুয়াড়ির ভ্রান্তি বলা হয়। মুদ্রার কোনো স্মৃতি নেই: টানা 5 বার হেড ওঠার পরও পরের টসটি ঠিক 50/50-ই থাকে। দীর্ঘ ধারাবাহিকতা অবাক করার মতো মনে হলেও, 10টি টসে অন্তত একবার 4 বা তার বেশি টানা একই ফল আসার সম্ভাবনা আসলে বেশ বেশি।"}},{"@type":"Question","name":"পরপর 10 বার হেড আসার সম্ভাবনা কত?","acceptedAnswer":{"@type":"Answer","text":"প্রতিটি উল্টানো সম্ভাবনা অর্ধেক করে দেয়: (1/2)¹⁰ = 1,024-এর মধ্যে 1, প্রায় 0.098%। দশবারের নির্দিষ্ট একটি ধারার জন্য এটি বিরল — কিন্তু যথেষ্ট সময় ধরে উল্টাতে থাকলে এমন ধারা শেষ পর্যন্ত নিছক কাকতালেই দেখা দেয়।"}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<style>.coin{width:120px;height:120px;border-radius:50%;margin:8px auto;display:flex;align-items:center;justify-content:center;font-size:21px;font-weight:800;color:#231a00;background:radial-gradient(circle at 35% 30%,#f3d27a,#d4af37 60%,#b8912a);border:3px solid #b8912a;box-shadow:0 4px 14px rgba(6,46,42,.25)}</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/bn/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "মুদ্রা ছোড়া",
+      "item": "https://loonaautomation.github.io/loona-calculators/bn/coin-flip/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation-এর লোগো">
+<div class="brand">Loona <span>ক্যালকুলেটরসমূহ</span></div>
+<nav>
+<a href="../">হোম</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">About</a>
+<a href="../contact.html">যোগাযোগ</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › মজা › কয়েন ফ্লিপ</div>
+<h1 class="pagetitle">🪙 মুদ্রা টস</h1>
+<p class="lead">নিখুঁত 50/50 ন্যায্যতা সহ একটি ভার্চুয়াল মুদ্রা উল্টান। উল্টানোর সঙ্গে সঙ্গে হেড ও টেইলের সংখ্যা, শতাংশ ও ধারা ট্র্যাক করুন — অথবা best-of মোড দিয়ে এটিকে একটি ম্যাচে পরিণত করুন, যেখানে লক্ষ্যে প্রথম পৌঁছানো পক্ষটি জেতে।</p>
+<div class="toolbox"><form class="calcform" id="coinForm">
+<div class="fld"><label for="coinBestOf">ম্যাচ মোড (ঐচ্ছিক)</label><select id="coinBestOf"><option value="0" selected>বন্ধ — অবাধ ফ্লিপিং</option><option value="3">3-এর মধ্যে সেরা — প্রথমে 2 পেলেই জয়</option><option value="5">5-এর মধ্যে সেরা — প্রথমে 3 পেলেই জয়</option><option value="7">7-এর মধ্যে সেরা — প্রথমে 4 পেলেই জয়</option><option value="11">11-এর মধ্যে সেরা — প্রথমে 6 পেলেই জয়</option></select></div>
+<button class="calcbtn" type="submit">🪙 মুদ্রাটি টস করুন</button>
+<button class="calcbtn" type="button" id="coinFlip10" style="background:#0a423b;color:#fff;margin-top:8px">10 বার উল্টান</button>
+<button class="calcbtn" type="button" id="coinReset" style="background:#e2e9e7;color:#062e2a;margin-top:8px">রিসেট</button>
+<div class="calcresult" id="coinResult" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>কীভাবে কয়েন ফ্লিপ ব্যবহার করবেন</h2><ol><li>একবার ওল্টাতে Flip the Coin চাপুন, অথবা দ্রুত একগুচ্ছ ওল্টাতে Flip 10 Times চাপুন।</li><li>চলমান মোট, শতাংশ ও ধারাবাহিকতার পরিসংখ্যান আপডেট হতে দেখুন।</li><li>ঐচ্ছিক: প্রথমে একটি best-of ম্যাচ মোড বেছে নিন — যে পক্ষ প্রথমে লক্ষ্যে পৌঁছাবে, সেই পক্ষই ম্যাচ জিতবে।</li></ol>
+<div class="exbox"><strong>উদাহরণ:</strong> দুই বন্ধু সিদ্ধান্ত নিতে পারছে না ফুটবল খেলায় কে কিক অফ করবে। তারা Best of 5 বেছে নেয়: হেডস ফ্লিপ 1 ও 3 জেতে, টেইলস ফ্লিপ 2 জেতে, এবং হেডস ফ্লিপ 4-ও নেয় — হেডস প্রথমে 3-এ পৌঁছায় এবং ম্যাচ জেতে, ন্যায্যভাবে ও চূড়ান্তভাবে।</div>
+<h2>সচরাচর জিজ্ঞাসিত প্রশ্নাবলী</h2></section><div class="faq"><h3>অনলাইন কয়েন ফ্লিপ কি সত্যিই 50/50?</h3><p>হ্যাঁ। প্রতিটি নিক্ষেপ crypto.getRandomValues ব্যবহার করে, যা আপনার ব্রাউজারের নিরাপদ এলোমেলো উৎস, তাই প্রতিটি নিক্ষেপে হেড ও টেইলের প্রতিটির সম্ভাবনা ঠিক 50%, আগের সবকিছু থেকে স্বাধীনভাবে।</p></div><div class="faq"><h3>পরপর 5 বার হেড এসেছে — এবার কি টেল আসার পালা?</h3><p>না — এই ধারণাটিকে জুয়াড়ির ভ্রান্তি বলা হয়। মুদ্রার কোনো স্মৃতি নেই: টানা 5 বার হেড ওঠার পরও পরের টসটি ঠিক 50/50-ই থাকে। দীর্ঘ ধারাবাহিকতা অবাক করার মতো মনে হলেও, 10টি টসে অন্তত একবার 4 বা তার বেশি টানা একই ফল আসার সম্ভাবনা আসলে বেশ বেশি।</p></div><div class="faq"><h3>পরপর 10 বার হেড আসার সম্ভাবনা কত?</h3><p>প্রতিটি উল্টানো সম্ভাবনা অর্ধেক করে দেয়: (1/2)¹⁰ = 1,024-এর মধ্যে 1, প্রায় 0.098%। দশবারের নির্দিষ্ট একটি ধারার জন্য এটি বিরল — কিন্তু যথেষ্ট সময় ধরে উল্টাতে থাকলে এমন ধারা শেষ পর্যন্ত নিছক কাকতালেই দেখা দেয়।</p></div>
+<h2 class="sec">সম্পর্কিত ক্যালকুলেটর</h2><div class="grid"><a class="card" href="../dice-roller/"><div class="ic">🎲</div><h3>ডাইস রোলার</h3><p>মজা</p></a><a class="card" href="../random-number-generator/"><div class="ic">🎲</div><h3>র‍্যান্ডম সংখ্যা জেনারেটর</h3><p>মজা</p></a><a class="card" href="../lottery-number-generator/"><div class="ic">🍀</div><h3>লটারি সংখ্যা জেনারেটর</h3><p>মজা</p></a><a class="card" href="../love-calculator/"><div class="ic">❤️</div><h3>Love ক্যালকুলেটর</h3><p>মজা</p></a><a class="card" href="../percentage-calculator/"><div class="ic">％</div><h3>শতাংশ ক্যালকুলেটর</h3><p>গণিত</p></a></div>
+</div>
+<section class="txt"><h2>এটি কীভাবে কাজ করে &mdash; সূত্রটি</h2>
+<p>প্রতিটি উল্টানো একটি স্বাধীন ঘটনা যার সম্ভাবনা হলো <strong>P(heads) = P(tails) = 1/2</strong>। ধারাবাহিকতা একটি সরল গুণ অনুসরণ করে: একটি নির্দিষ্ট ধারার সম্ভাবনা হলো <em>k</em> অভিন্ন ফলাফলের হলো (1/2)<sup>k</sup>। ওল্টানোর সংখ্যা বাড়ার সঙ্গে সঙ্গে দেখানো শতাংশগুলো 50/50-এর দিকে এগিয়ে যায় — এই ধরনটিকে বলা হয় <strong>বৃহৎ সংখ্যার সূত্র</strong> — আর বর্তমান-ধারাবাহিকতা গণনাকারীটি কেবল আপনি এই মুহূর্তে যে ধারায় আছেন তা অনুসরণ করে।</p>
+<h3>সমাধান করা উদাহরণ</h3>
+<div class="exbox"><strong>উদাহরণ:</strong> 40 flips-এর পরে আপনার 24 heads এবং 16 tails আছে। Heads percentage = 24 ÷ 40 × 100 = <strong>60%</strong>। এটি একপেশে মনে হতে পারে, কিন্তু মাত্র 40 বার ওল্টালে এমন বিভাজন (বা আরও চরম কিছু) নিছক কাকতালীয়ভাবে প্রায় 27% সময় ঘটে — ছোট নমুনা অনেক দুলতে থাকে। 1,000 বার ওল্টান, দেখবেন বিভাজনটি সাধারণত 50/50-এর কয়েক শতাংশের মধ্যেই থাকবে।</div>
+<h3>সচরাচর জিজ্ঞাসিত প্রশ্ন</h3></section><div class="faq"><h3>বেস্ট-অফ মোড কীভাবে কাজ করে?</h3><p>বেস্ট-অফ-N ম্যাচে, বিজয়ী হয় সেই পক্ষ যে প্রথমে (N+1)/2 ফ্লিপ জেতে: বেস্ট অফ 3 মানে প্রথমে 2, বেস্ট অফ 5 মানে প্রথমে 3। খেলাধুলায় এই ফরম্যাট ব্যবহৃত হয় কারণ এটি একটি একক ভাগ্যবান ফ্লিপের ভূমিকা কমিয়ে দেয়।</p></div><div class="faq"><h3>মুদ্রাটি কি আমার টসগুলো মনে রাখে?</h3><p>পরিসংখ্যান এই পেজটি খোলা থাকলেই শুধু এতে থাকে। কিছুই কোনো সার্ভারে পাঠানো বা সংরক্ষণ করা হয় না — Reset চাপুন বা ট্যাবটি বন্ধ করুন, সবকিছু মুছে যাবে।</p></div><div class="faq"><h3>আমি কি সিদ্ধান্ত নিতে এটি ব্যবহার করতে পারি?</h3><p>অবশ্যই — একটি coin flip হলো ন্যায্যভাবে tie ভাঙার একটি ধ্রুপদি উপায়, খেলায় kick-off থেকে একটি game-এ কে প্রথম যাবে তা বেছে নেওয়া পর্যন্ত। অনেকেই দেখেন coin বাতাসে থাকাকালীন তারা বুঝতে পারেন তারা কোন ফলাফল আশা করছিলেন — যা নিজেই একটি কার্যকর উত্তর।</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">এই ক্যালকুলেটরটি আপনার ওয়েবসাইটে এম্বেড করুন — বিনামূল্যে</h2>
+<p style="margin:0 0 12px;line-height:1.6">এই calculator আপনার নিজের website বা blog-এ যোগ করুন — এটি সম্পূর্ণ free, কোনো sign-up লাগে না, এবং সবসময় সর্বশেষ version দেখায়। নিচের code copy করুন এবং আপনার পেজে যেখানে calculator দেখাতে চান সেখানে paste করুন। Embed-এর নিচে ছোট &ldquo;Powered by Loona Automation&rdquo; credit line রাখা এই tool-কে free রাখতে সাহায্য করে &mdash; কিন্তু আপনি এটি style করতে বা সরিয়ে ফেলতে স্বাধীন; tool যেভাবেই হোক কাজ করে।</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/bn/coin-flip/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Coin Flip by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;দ্বারা চালিত &lt;a href="https://loonaautomation.github.io/loona-calculators/bn/coin-flip/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; বিনামূল্যে মুদ্রা ছোড়া&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">এম্বেড কোড কপি করুন</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='এম্বেড কোড কপি করুন';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>জনপ্রিয় ক্যালকুলেটর</h4><ul><li><a href="../age-calculator/">বয়স ক্যালকুলেটর</a></li>
+<li><a href="../zakat-calculator/">যাকাত ক্যালকুলেটর</a></li>
+<li><a href="../cgpa-calculator/">CGPA ক্যালকুলেটর</a></li>
+<li><a href="../percentage-calculator/">শতাংশ ক্যালকুলেটর</a></li>
+<li><a href="../hijri-date-converter/">হিজরি তারিখ কনভার্টার</a></li>
+<li><a href="../emi-calculator/">EMI ও ঋণ ক্যালকুলেটর</a></li></ul></div>
+<div><h4>আরও Loona টুল</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR কোড</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona ছবি সংকোচক</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI সহকারী</a></li>
+<li><a href="https://loonaautomation.github.io/">সব Loona Tools</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">About</a></li>
+<li><a href="../contact.html">যোগাযোগ</a></li>
+<li><a href="../privacy-policy.html">গোপনীয়তা নীতি</a></li>
+<li><a href="../terms.html">ব্যবহারের শর্তাবলি</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — একটি <a href="https://loonaautomation.github.io/">Loona Automation</a> প্রকল্প। ফ্রি অনলাইন ক্যালকুলেটর, সাইনআপ নেই।
+যোগাযোগ: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+function cryptoRandomInt(min, max) {
+  var range = max - min + 1;
+  if (!(range >= 1)) throw new Error("অবৈধ পরিসীমা।");
+  if (range > 4294967296) throw new Error("পরিসীমা খুব বড়।");
+  var limit = Math.floor(4294967296 / range) * range;
+  var buf = new Uint32Array(1), x;
+  do { crypto.getRandomValues(buf); x = buf[0]; } while (x >= limit);
+  return min + (x % range);
+}
+function generateRandomNumbers(min, max, count, unique) {
+  min = Math.floor(min); max = Math.floor(max); count = Math.floor(count);
+  if (isNaN(min) || isNaN(max) || isNaN(count)) throw new Error("অনুগ্রহ করে প্রতিটি ক্ষেত্রে বৈধ সংখ্যা লিখুন।");
+  if (max < min) throw new Error("সর্বোচ্চটি সর্বনিম্নের চেয়ে বড় বা সমান হতে হবে।");
+  if (count < 1 || count > 10000) throw new Error("1 থেকে 10,000 সংখ্যার মধ্যে বেছে নিন।");
+  if (unique && count > (max - min + 1)) throw new Error("সেই পরিসীমায় পর্যাপ্ত অনন্য সংখ্যা নেই।");
+  var out = [], seen = {};
+  while (out.length < count) {
+    var v = cryptoRandomInt(min, max);
+    if (unique) { if (seen[v]) continue; seen[v] = 1; }
+    out.push(v);
+  }
+  return out;
+}
+function generateUniqueSorted(count, max) {
+  var seen = {}, out = [];
+  while (out.length < count) {
+    var v = cryptoRandomInt(1, max);
+    if (!seen[v]) { seen[v] = 1; out.push(v); }
+  }
+  out.sort(function (a, b) { return a - b; });
+  return out;
+}
+/*TESTABLE_END*/
+
+/*TESTABLE_START*/
+function flipCoin() { return cryptoRandomInt(0, 1) === 0 ? 'H' : 'T'; }
+function newCoinStats() { return { total: 0, heads: 0, tails: 0, lastFlip: null, streak: 0, longestH: 0, longestT: 0, matchH: 0, matchT: 0 }; }
+function applyFlip(stats, flip) {
+  stats.total++;
+  if (flip === 'H') stats.heads++; else stats.tails++;
+  if (stats.lastFlip === flip) stats.streak++; else { stats.streak = 1; stats.lastFlip = flip; }
+  if (flip === 'H') { if (stats.streak > stats.longestH) stats.longestH = stats.streak; stats.matchH++; }
+  else { if (stats.streak > stats.longestT) stats.longestT = stats.streak; stats.matchT++; }
+  return stats;
+}
+function matchTarget(bestOf) { return bestOf > 0 ? Math.floor(bestOf / 2) + 1 : 0; }
+function matchWinner(stats, bestOf) {
+  var target = matchTarget(bestOf);
+  if (!target) return null;
+  if (stats.matchH >= target) return 'H';
+  if (stats.matchT >= target) return 'T';
+  return null;
+}
+/*TESTABLE_END*/
+var coinStats = newCoinStats();
+var coinWinner = null;
+function coinRender() {
+  var box = document.getElementById('coinResult');
+  box.style.display = 'block';
+  var bestOf = parseInt(document.getElementById('coinBestOf').value, 10);
+  var last = coinStats.lastFlip === 'H' ? 'Heads' : (coinStats.lastFlip === 'T' ? 'Tails' : '—');
+  var hp = coinStats.total ? Math.round(coinStats.heads / coinStats.total * 1000) / 10 : 0;
+  var html = '<div class="coin">' + (coinStats.total ? last : 'Flip!') + '</div>';
+  html += '<div class="resbig"><span>সর্বশেষ উল্টানো</span><strong>' + last + '</strong></div>';
+  html += '<table class="restbl">' +
+    '<tr><td>মোট উল্টানো</td><td><strong>' + coinStats.total + '</strong></td></tr>' +
+    '<tr><td>হেড</td><td><strong>' + coinStats.heads + ' (' + hp + '%)</strong></td></tr>' +
+    '<tr><td>টেইল</td><td><strong>' + coinStats.tails + ' (' + (coinStats.total ? Math.round(coinStats.tails / coinStats.total * 1000) / 10 : 0) + '%)</strong></td></tr>' +
+    '<tr><td>বর্তমান ধারা</td><td><strong>' + (coinStats.total ? coinStats.streak + ' × ' + last : '—') + '</strong></td></tr>' +
+    '<tr><td>দীর্ঘতম হেড ধারা</td><td><strong>' + coinStats.longestH + '</strong></td></tr>' +
+    '<tr><td>দীর্ঘতম টেইল ধারা</td><td><strong>' + coinStats.longestT + '</strong></td></tr></table>';
+  if (bestOf > 0) {
+    html += '<table class="restbl"><tr><td>ম্যাচ স্কোর (প্রথমে ' + matchTarget(bestOf) + ')</td><td><strong>হেড ' + coinStats.matchH + ' — ' + coinStats.matchT + ' টেইল</strong></td></tr></table>';
+    if (coinWinner) html += '<p class="resnote"><strong>🏆 ' + (coinWinner === 'H' ? 'Heads' : 'Tails') + ' ম্যাচ জিতেছে!</strong> ম্যাচ মোড বদলান বা আবার খেলতে রিসেট চাপুন।</p>';
+  }
+  box.innerHTML = html;
+}
+function coinDoFlip(n) {
+  var bestOf = parseInt(document.getElementById('coinBestOf').value, 10);
+  if (coinWinner) { coinStats.matchH = 0; coinStats.matchT = 0; coinWinner = null; }
+  for (var i = 0; i < n; i++) {
+    var before = coinStats.matchH + coinStats.matchT;
+    applyFlip(coinStats, flipCoin());
+    if (bestOf > 0) {
+      coinWinner = matchWinner(coinStats, bestOf);
+      if (coinWinner) break;
+      void before;
+    }
+  }
+  coinRender();
+}
+document.getElementById('coinForm').addEventListener('submit', function (e) { e.preventDefault(); coinDoFlip(1); });
+document.getElementById('coinFlip10').addEventListener('click', function () { coinDoFlip(10); });
+document.getElementById('coinReset').addEventListener('click', function () { coinStats = newCoinStats(); coinWinner = null; coinRender(); });
+document.getElementById('coinBestOf').addEventListener('change', function () { coinStats.matchH = 0; coinStats.matchT = 0; coinWinner = null; coinRender(); });
+coinRender();
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' অ্যাপ ইনস্টল করুন';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('এই অ্যাপটি ইনস্টল করুন: শেয়ার বোতামে ট্যাপ করুন, তারপর "Add to Home Screen" বেছে নিন।');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "name": "Loona বিঙ্গো নম্বর কলার",
+  "short_name": "বিঙ্গো নম্বর কলার",
+  "description": "75-বল (B-I-N-G-O) ও 90-বল গেমের জন্য বিনামূল্যে bingo সংখ্যা ডাকার টুল: পুনরাবৃত্তি ছাড়াই সংখ্যা তোলে, বর্তমান বলটি বড় করে দেখায়, এবং একটি বোর্ডে ডাকা প্রতিটি সংখ্যা ট্র্যাক করে।",
+  "id": "/loona-calculators/bn/bingo-number-caller/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

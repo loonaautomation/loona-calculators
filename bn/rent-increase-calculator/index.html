@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ভাড়া বৃদ্ধি ক্যালকুলেটর — বৃদ্ধির পর নতুন ভাড়া | Loona Calculators</title>
+<meta name="description" content="বিনামূল্যে ভাড়া বৃদ্ধি ক্যালকুলেটর: নতুন মাসিক ভাড়া, প্রতি মাস ও বছরে অতিরিক্ত খরচ, এবং একটি বছর-বাই-বছর অনুমান দেখতে আপনার বর্তমান ভাড়া ও শতাংশ বৃদ্ধি (বা নতুন ভাড়া) লিখুন।">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/bn/rent-increase-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/rent-increase-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/rent-increase-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/rent-increase-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/rent-increase-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/rent-increase-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/rent-increase-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/rent-increase-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/rent-increase-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/rent-increase-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/rent-increase-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/rent-increase-calculator/"><link rel="alternate" hreflang="bn" href="https://loonaautomation.github.io/loona-calculators/bn/rent-increase-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/rent-increase-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="ভাড়া বৃদ্ধি ক্যালকুলেটর — বৃদ্ধির পর নতুন ভাড়া | Loona Calculators">
+<meta property="og:description" content="বিনামূল্যে ভাড়া বৃদ্ধি ক্যালকুলেটর: নতুন মাসিক ভাড়া, প্রতি মাস ও বছরে অতিরিক্ত খরচ, এবং একটি বছর-বাই-বছর অনুমান দেখতে আপনার বর্তমান ভাড়া ও শতাংশ বৃদ্ধি (বা নতুন ভাড়া) লিখুন।">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/bn/rent-increase-calculator/"><meta property="og:locale" content="bn_BD">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ভাড়া বৃদ্ধি ক্যালকুলেটর — বৃদ্ধির পর নতুন ভাড়া | Loona Calculators">
+<meta name="twitter:description" content="বিনামূল্যে ভাড়া বৃদ্ধি ক্যালকুলেটর: নতুন মাসিক ভাড়া, প্রতি মাস ও বছরে অতিরিক্ত খরচ, এবং একটি বছর-বাই-বছর অনুমান দেখতে আপনার বর্তমান ভাড়া ও শতাংশ বৃদ্ধি (বা নতুন ভাড়া) লিখুন।">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona ভাড়া বৃদ্ধি ক্যালকুলেটর","url":"https://loonaautomation.github.io/loona-calculators/bn/rent-increase-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"আমি কীভাবে শতাংশে ভাড়া বৃদ্ধি হিসাব করব?","acceptedAnswer":{"@type":"Answer","text":"আপনার বর্তমান ভাড়াকে (1 + percentage ÷ 100) দিয়ে গুণ করুন। Rs 50,000 ভাড়ার ওপর 10% বৃদ্ধির ক্ষেত্রে হিসাবটি হলো: 50,000 × 1.10 = Rs 55,000. শুধু বৃদ্ধির পরিমাণটি বের করতে চাইলে হিসাবটি সহজ — বর্তমান ভাড়া × percentage ÷ 100, অর্থাৎ এখানে মাসে Rs 5,000।"}},{"@type":"Question","name":"একটি স্বাভাবিক বার্ষিক ভাড়া বৃদ্ধি কী?","acceptedAnswer":{"@type":"Answer","text":"এটি শহর অনুযায়ী এবং ভাড়া চুক্তিতে যা বলা আছে তার উপর নির্ভর করে। অনেক পাকিস্তানি ও ভারতীয় শহরে, ব্যক্তিগত চুক্তিতে 5–10% বার্ষিক বৃদ্ধি সাধারণ; কিছু দেশ ও শহরে বৃদ্ধিটি আইন দ্বারা সীমাবদ্ধ বা মুদ্রাস্ফীতির সঙ্গে যুক্ত। আপনার নিজের চুক্তিই গুরুত্বপূর্ণ — কোনো সংখ্যা মেনে নেওয়ার আগে ধারাটি যাচাই করুন, এবং উদ্ধৃত শতাংশের প্রকৃত খরচ দেখতে এই ক্যালকুলেটর ব্যবহার করুন।"}},{"@type":"Question","name":"5 বছরে আমার ভাড়া কত হবে?","acceptedAnswer":{"@type":"Answer","text":"স্থির বৃদ্ধির ক্ষেত্রে এটি চক্রবৃদ্ধি হয়: 5ম বছরে ভাড়া = বর্তমান ভাড়া × (1 + rate)⁵। বছরে 10% হারে Rs 50,000 5ম বছরে Rs 80,530 হয় — 60%-এর বেশি বৃদ্ধি, সাধারণ গুণে মনে হওয়া 50% নয়। উপরের বছরভিত্তিক সারণিতে আপনার নিজের হিসাব দেখানো হয়েছে।"}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/bn/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "ভাড়া বৃদ্ধি ক্যালকুলেটর",
+      "item": "https://loonaautomation.github.io/loona-calculators/bn/rent-increase-calculator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation-এর লোগো">
+<div class="brand">Loona <span>ক্যালকুলেটরসমূহ</span></div>
+<nav>
+<a href="../">হোম</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">About</a>
+<a href="../contact.html">যোগাযোগ</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › অর্থ ও অর্থনীতি › ভাড়া বৃদ্ধি ক্যালকুলেটর</div>
+<h1 class="pagetitle">📈 ভাড়া বৃদ্ধি ক্যালকুলেটর</h1>
+<p class="lead">একটি “10% increase” ছোট শোনায় যতক্ষণ না তা আসল rupees-এ রূপান্তরিত হয় — এবং আরও ছোট শোনায় যতক্ষণ না আপনি দেখেন একই বৃদ্ধি বছর বছর কী করে। আপনার বর্তমান ভাড়া এবং বৃদ্ধিটি লিখুন, হয় percentage হিসেবে অথবা আপনার landlord-এর জানানো নতুন পরিমাণ হিসেবে, এবং ঠিক দেখুন আপনি কত দেবেন।</p>
+<div class="toolbox"><form class="calcform" id="riForm">
+<div class="fld"><label for="riCurrent">বর্তমান মাসিক ভাড়া</label><input type="number" step="any" min="0" id="riCurrent" value="50000"></div>
+<div class="fld"><label for="riMode">আমি বৃদ্ধিটি জানি … হিসাবে</label><select id="riMode"><option value="pct">একটি percentage বৃদ্ধি</option><option value="amount">নতুন ভাড়ার অঙ্ক</option></select></div>
+<div class="fld" id="riPctFld"><label for="riPct">বৃদ্ধি (%)</label><input type="number" step="any" min="0" id="riPct" value="10"></div>
+<div class="fld" id="riNewFld" style="display:none"><label for="riNew">নতুন মাসিক ভাড়া</label><input type="number" step="any" min="0" id="riNew" value="55000"></div>
+<div class="fld"><label for="riYears">এই বৃদ্ধিটি কত বছরের জন্য প্রাক্কলন করবেন (বছর)</label><input type="number" step="1" min="1" max="30" id="riYears" value="5"></div>
+<button class="calcbtn" type="submit">নতুন ভাড়া হিসাব করুন</button>
+</form>
+<div class="calcresult" id="riRes" style="display:none"></div></div>
+<section class="txt"><h2>কীভাবে ভাড়া বৃদ্ধি ক্যালকুলেটর ব্যবহার করবেন</h2><ol><li>আপনার বর্তমান মাসিক ভাড়া লিখুন।</li><li>বৃদ্ধিটি আপনি কীভাবে জানেন তা বেছে নিন: শতকরা হার হিসেবে (যেমন 10%) অথবা আপনাকে বলা নতুন ভাড়ার পরিমাণ হিসেবে — ক্যালকুলেটর যেটি অনুপস্থিত সেটি বের করে দেবে।</li><li>প্রাক্কলনটি কত বছর এগিয়ে দেখতে চান তা ঠিক করুন।</li><li>‘হিসাব করুন’ চাপুন — নতুন ভাড়া, অতিরিক্ত মাসিক ও বার্ষিক খরচ এবং বছরভিত্তিক টেবিল দেখা যাবে।</li></ol>
+<h2>সচরাচর জিজ্ঞাসিত প্রশ্নাবলী</h2></section><div class="faq"><h3>আমি কীভাবে শতাংশে ভাড়া বৃদ্ধি হিসাব করব?</h3><p>আপনার বর্তমান ভাড়াকে (1 + percentage ÷ 100) দিয়ে গুণ করুন। Rs 50,000 ভাড়ার ওপর 10% বৃদ্ধির ক্ষেত্রে হিসাবটি হলো: 50,000 × 1.10 = Rs 55,000. শুধু বৃদ্ধির পরিমাণটি বের করতে চাইলে হিসাবটি সহজ — বর্তমান ভাড়া × percentage ÷ 100, অর্থাৎ এখানে মাসে Rs 5,000।</p></div><div class="faq"><h3>একটি স্বাভাবিক বার্ষিক ভাড়া বৃদ্ধি কী?</h3><p>এটি শহর অনুযায়ী এবং ভাড়া চুক্তিতে যা বলা আছে তার উপর নির্ভর করে। অনেক পাকিস্তানি ও ভারতীয় শহরে, ব্যক্তিগত চুক্তিতে 5–10% বার্ষিক বৃদ্ধি সাধারণ; কিছু দেশ ও শহরে বৃদ্ধিটি আইন দ্বারা সীমাবদ্ধ বা মুদ্রাস্ফীতির সঙ্গে যুক্ত। আপনার নিজের চুক্তিই গুরুত্বপূর্ণ — কোনো সংখ্যা মেনে নেওয়ার আগে ধারাটি যাচাই করুন, এবং উদ্ধৃত শতাংশের প্রকৃত খরচ দেখতে এই ক্যালকুলেটর ব্যবহার করুন।</p></div><div class="faq"><h3>5 বছরে আমার ভাড়া কত হবে?</h3><p>স্থির বৃদ্ধির ক্ষেত্রে এটি চক্রবৃদ্ধি হয়: 5ম বছরে ভাড়া = বর্তমান ভাড়া × (1 + rate)⁵। বছরে 10% হারে Rs 50,000 5ম বছরে Rs 80,530 হয় — 60%-এর বেশি বৃদ্ধি, সাধারণ গুণে মনে হওয়া 50% নয়। উপরের বছরভিত্তিক সারণিতে আপনার নিজের হিসাব দেখানো হয়েছে।</p></div>
+<h2 class="sec">সম্পর্কিত ক্যালকুলেটর</h2><div class="grid"><a class="card" href="../rent-affordability-calculator/" data-name="rent affordability calculator rent-affordability-calculator"><div class="ic">🔑</div><h3>ভাড়া সামর্থ্য ক্যালকুলেটর</h3><p>বিনামূল্যে ভাড়া সাধ্য ক্যালকুলেটর: 30% এবং 28/36 নিয়মে আপনি সর্বোচ্চ কত ভাড়া বহন করতে পারেন তা দেখতে আপনার আয় ও ঋণ লিখুন।</p></a><a class="card" href="../rent-vs-buy-calculator/" data-name="rent vs buy calculator rent-vs-buy-calculator"><div class="ic">⚖️</div><h3>ভাড়া বনাম ক্রয় ক্যালকুলেটর</h3><p>বিনামূল্যে ভাড়া বনাম কেনা ক্যালকুলেটর: আপনি যত বছর থাকার পরিকল্পনা করেন তত বছরে ভাড়া নেওয়ার মোট খরচের সঙ্গে একটি বাড়ি কেনার খরচ তুলনা করুন।</p></a><a class="card" href="../rent-split-calculator/" data-name="rent split calculator rent-split-calculator"><div class="ic">🤝</div><h3>ভাড়া ভাগ ক্যালকুলেটর</h3><p>বিনামূল্যে ভাড়া ভাগ ক্যালকুলেটর: রুমমেটদের মধ্যে ভাড়া ন্যায্যভাবে ভাগ করুন — সমানভাবে, ঘরের আকার অনুযায়ী বা আয় অনুযায়ী।</p></a><a class="card" href="../mortgage-calculator/" data-name="mortgage calculator mortgage-calculator"><div class="ic">🏠</div><h3>মর্টগেজ ক্যালকুলেটর</h3><p>বিনামূল্যে মর্টগেজ ক্যালকুলেটর: বাড়ির মূল্য, ডাউন পেমেন্ট, সুদের হার ও মেয়াদ — ঋণের পরিমাণ, মাসিক পরিশোধ, মোট সুদ ও আপনার বাড়ির মোট খরচ পান।</p></a><a class="card" href="../emi-calculator/" data-name="emi & loan calculator emi-calculator"><div class="ic">🏦</div><h3>EMI ও ঋণ ক্যালকুলেটর</h3><p>বিনামূল্যে EMI ও ঋণ ক্যালকুলেটর: আপনার মাসিক কিস্তি ও মোট খরচ পেতে ঋণের পরিমাণ, সুদ বা মুনাফার হার ও মেয়াদ লিখুন।</p></a></div>
+</div>
+<section class="txt"><h2>এটি কীভাবে কাজ করে — সূত্রটি</h2><p>নতুন ভাড়া হলো বর্তমান ভাড়াকে এক যোগ বৃদ্ধির হার দিয়ে গুণ করা। আপনি শুধু নতুন ভাড়া জানলে, শতাংশটি পিছিয়ে বের করা হয়: নতুন ভাড়াকে বর্তমান ভাড়া দিয়ে ভাগ করুন, 1 বিয়োগ করুন, এবং 100 দিয়ে গুণ করুন। হিসাবের জন্য, প্রতি বছর ওই বছরের ভাড়ায় একই বৃদ্ধি আবার প্রয়োগ করা হয় — এই চক্রবৃদ্ধিই কারণ একটি স্থির 10% বৃদ্ধি বেশিরভাগ মানুষের প্রত্যাশার চেয়ে অনেক দ্রুত বাড়ে।</p>
+<p><strong>সূত্রসমূহ:</strong> নতুন ভাড়া = বর্তমান ভাড়া × (1 + increase% ÷ 100)। Increase % = (নতুন ভাড়া ÷ বর্তমান ভাড়া − 1) × 100। n-তম বছরের ভাড়া = বর্তমান ভাড়া × (1 + increase% ÷ 100)<sup>n</sup>.</p><h3>সমাধান করা উদাহরণ</h3><div class="exbox"><p><strong>ইনপুটসমূহ:</strong> বর্তমান ভাড়া Rs 50,000; বৃদ্ধি 10%; প্রক্ষেপণ 3 বছর।</p>
+<p><strong>ধাপসমূহ:</strong> নতুন ভাড়া = 50,000 × 1.10 = Rs 55,000 — অর্থাৎ মাসে Rs 5,000, বা বছরে Rs 60,000 বৃদ্ধি। Year 2: 55,000 × 1.10 = Rs 60,500. Year 3: 60,500 × 1.10 = Rs 66,550।</p>
+<p><strong>ফলাফল:</strong> নতুন মাসিক ভাড়া <strong>Rs 55,000</strong>; তিনটি বার্ষিক বৃদ্ধির পর একই বাড়ির দাম দাঁড়ায় <strong>মাসে Rs 66,550</strong> — আজকের চেয়ে এক তৃতীয়াংশ বেশি।</p></div><h3>সচরাচর জিজ্ঞাসিত প্রশ্ন</h3></section><div class="faq"><h3>বার্ষিক বৃদ্ধি কি মূল ভাড়ার উপর নাকি বর্তমান ভাড়ার উপর প্রয়োগ করা হয়?</h3><p>বেশিরভাগ চুক্তিতে এটি প্রতি বছর বর্তমান ভাড়ার উপর প্রয়োগ করা হয়, তাই বৃদ্ধিগুলো চক্রবৃদ্ধি হয়। কিছু চুক্তিতে বরং বৃদ্ধিটি মূল ভাড়ার শতাংশ হিসাবে নির্দিষ্ট থাকে, যা সমান ধাপে বাড়ে এবং ভাড়াটের জন্য শেষ পর্যন্ত সস্তা হয়। এই ক্যালকুলেটর চক্রবৃদ্ধি পদ্ধতিটি ব্যবহার করে, যেটি বেশি প্রচলিত — এবং তা খোলাখুলি বলেও দেয়।</p></div><div class="faq"><h3>আমি যদি শুধু নতুন ভাড়াটাই জানি, তাহলে কি শতকরা হার বের করতে পারি?</h3><p>হ্যাঁ — উপরে “The new rent amount” বেছে নিন এবং দুটি ভাড়াই লিখুন। শতাংশটি হলো (new ÷ current − 1) × 100। উদাহরণস্বরূপ, Rs 50,000 থেকে Rs 57,500-এ বৃদ্ধি হলো (57,500 ÷ 50,000 − 1) × 100 = 15%।</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">এই ক্যালকুলেটরটি আপনার ওয়েবসাইটে এম্বেড করুন — বিনামূল্যে</h2>
+<p style="margin:0 0 12px;line-height:1.6">এই calculator আপনার নিজের website বা blog-এ যোগ করুন — এটি সম্পূর্ণ free, কোনো sign-up লাগে না, এবং সবসময় সর্বশেষ version দেখায়। নিচের code copy করুন এবং আপনার পেজে যেখানে calculator দেখাতে চান সেখানে paste করুন। Embed-এর নিচে ছোট &ldquo;Powered by Loona Automation&rdquo; credit line রাখা এই tool-কে free রাখতে সাহায্য করে &mdash; কিন্তু আপনি এটি style করতে বা সরিয়ে ফেলতে স্বাধীন; tool যেভাবেই হোক কাজ করে।</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/bn/rent-increase-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Rent Increase Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;দ্বারা চালিত &lt;a href="https://loonaautomation.github.io/loona-calculators/bn/rent-increase-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; বিনামূল্যে ভাড়া বৃদ্ধি ক্যালকুলেটর&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">এম্বেড কোড কপি করুন</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='এম্বেড কোড কপি করুন';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>জনপ্রিয় ক্যালকুলেটর</h4><ul><li><a href="../age-calculator/">বয়স ক্যালকুলেটর</a></li>
+<li><a href="../zakat-calculator/">যাকাত ক্যালকুলেটর</a></li>
+<li><a href="../cgpa-calculator/">CGPA ক্যালকুলেটর</a></li>
+<li><a href="../percentage-calculator/">শতাংশ ক্যালকুলেটর</a></li>
+<li><a href="../hijri-date-converter/">হিজরি তারিখ কনভার্টার</a></li>
+<li><a href="../emi-calculator/">EMI ও ঋণ ক্যালকুলেটর</a></li></ul></div>
+<div><h4>আরও Loona টুল</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR কোড</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona ছবি সংকোচক</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI সহকারী</a></li>
+<li><a href="https://loonaautomation.github.io/">সব Loona Tools</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">About</a></li>
+<li><a href="../contact.html">যোগাযোগ</a></li>
+<li><a href="../privacy-policy.html">গোপনীয়তা নীতি</a></li>
+<li><a href="../terms.html">ব্যবহারের শর্তাবলি</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — একটি <a href="https://loonaautomation.github.io/">Loona Automation</a> প্রকল্প। ফ্রি অনলাইন ক্যালকুলেটর, সাইনআপ নেই।
+যোগাযোগ: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+/* Rent Increase — pure logic (unit-tested, inlined into the page) */
+function rentIncrease(currentRent, increasePct, years){
+  var newRent = currentRent * (1 + increasePct / 100);
+  var rows = [];
+  for (var y = 1; y <= years; y++){
+    var m = currentRent * Math.pow(1 + increasePct / 100, y);
+    rows.push({ year: y, monthly: m, annual: m * 12, extraAnnual: m * 12 - currentRent * 12 });
+  }
+  return {
+    newMonthlyRent: newRent,
+    monthlyIncrease: newRent - currentRent,
+    yearlyIncrease: (newRent - currentRent) * 12,
+    newYearlyRent: newRent * 12,
+    rows: rows
+  };
+}
+function impliedIncreasePct(currentRent, newRent){
+  if (currentRent <= 0) return 0;
+  return (newRent / currentRent - 1) * 100;
+}
+function fmt(n){return "Rs " + Math.round(n).toLocaleString("en-IN");}
+function fmt2(n){return "Rs " + n.toLocaleString("en-IN",{minimumFractionDigits:2,maximumFractionDigits:2});}
+function pctFmt(n){return parseFloat(n.toFixed(2)) + "%";}
+function num(id){var v=parseFloat(document.getElementById(id).value);return isNaN(v)?0:v;}
+var riMode = document.getElementById("riMode");
+riMode.addEventListener("change", function(){
+  document.getElementById("riPctFld").style.display = riMode.value === "pct" ? "" : "none";
+  document.getElementById("riNewFld").style.display = riMode.value === "amount" ? "" : "none";
+});
+document.getElementById("riForm").addEventListener("submit", function(e){
+  e.preventDefault();
+  var res = document.getElementById("riRes");
+  var current = num("riCurrent");
+  var years = parseInt(document.getElementById("riYears").value, 10);
+  if (current <= 0){ res.style.display = "block"; res.innerHTML = '<div class="err">অনুগ্রহ করে আপনার বর্তমান মাসিক ভাড়া লিখুন।</div>'; return; }
+  if (!(years >= 1 && years <= 30)){ res.style.display = "block"; res.innerHTML = '<div class="err">প্রক্ষেপণের বছর অবশ্যই 1 থেকে 30-এর মধ্যে হতে হবে।</div>'; return; }
+  var pct = riMode.value === "pct" ? num("riPct") : impliedIncreasePct(current, num("riNew"));
+  if (pct < 0){ res.style.display = "block"; res.innerHTML = '<div class="err">সেই নতুন ভাড়া বর্তমান ভাড়ার চেয়ে কম — এই ক্যালকুলেটর বৃদ্ধি প্রক্ষেপণ করে, তাই শতাংশ ঋণাত্মক আসে।</div>'; return; }
+  var r = rentIncrease(current, pct, years);
+  var rows = "";
+  for (var i = 0; i < r.rows.length; i++){
+    rows += '<tr><td>বছর ' + r.rows[i].year + '</td><td>' + fmt(r.rows[i].monthly) + '</td><td>' + fmt(r.rows[i].annual) + '</td><td>' + fmt(r.rows[i].extraAnnual) + '</td></tr>';
+  }
+  res.style.display = "block";
+  res.innerHTML = '<div class="resbig"><span>নতুন মাসিক ভাড়া একটি ' + pctFmt(pct) + ' বৃদ্ধির পরে</span><strong>' + fmt(r.newMonthlyRent) + '</strong></div>'
+    + '<table class="restbl">'
+    + '<tr><td>প্রতি মাসে বৃদ্ধি</td><td>' + fmt(r.monthlyIncrease) + '</td></tr>'
+    + '<tr><td>প্রতি বছরে বৃদ্ধি</td><td>' + fmt(r.yearlyIncrease) + '</td></tr>'
+    + '<tr><td>নতুন বার্ষিক ভাড়া</td><td>' + fmt(r.newYearlyRent) + '</td></tr>'
+    + '</table>'
+    + '<h3 style="color:var(--teal);font-size:16px;margin:12px 0 6px">যদি একই ' + pctFmt(pct) + ' বৃদ্ধি প্রতি বছর ঘটে</h3>'
+    + '<table class="restbl"><tr><td><strong>বছর</strong></td><td><strong>মাসিক ভাড়া</strong></td><td><strong>বার্ষিক ভাড়া</strong></td><td><strong>আজকের তুলনায় অতিরিক্ত, প্রতি বছর</strong></td></tr>' + rows + '</table>'
+    + '<p class="resnote">প্রতিটি বছরের বৃদ্ধি সেই বছরের ভাড়ায় প্রয়োগ করা হয় (চক্রবৃদ্ধি), যা বেশিরভাগ ভাড়া চুক্তির কাজ। আপনার নিজের চুক্তি যাচাই করুন — কিছু চুক্তি বৃদ্ধিকে আসল ভাড়ার শতাংশ হিসেবে স্থির করে, যা আরও ধীরে বাড়ে।</p>';
+});
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' অ্যাপ ইনস্টল করুন';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('এই অ্যাপটি ইনস্টল করুন: শেয়ার বোতামে ট্যাপ করুন, তারপর "Add to Home Screen" বেছে নিন।');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body></html>

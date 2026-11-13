@@ -1,0 +1,29 @@
+{
+  "name": "Loona লক্ষ্য CGPA ক্যালকুলেটর",
+  "short_name": "লক্ষ্য CGPA ক্যালকুলেটর",
+  "description": "বিনামূল্যে লক্ষ্য CGPA ক্যালকুলেটর: বর্তমান CGPA, সম্পন্ন ক্রেডিট, লক্ষ্য CGPA ও অবশিষ্ট ক্রেডিট — আপনাকে কত GPA স্কোর করতে হবে, বা এখনও পৌঁছানো যায় এমন সর্বোচ্চ CGPA দেখুন।",
+  "id": "/loona-calculators/bn/target-cgpa-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

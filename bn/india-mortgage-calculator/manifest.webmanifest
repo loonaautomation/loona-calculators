@@ -1,0 +1,29 @@
+{
+  "name": "Loona ভারত গৃহঋণ EMI ক্যালকুলেটর",
+  "short_name": "ভারত হোম লোন EMI ক্যালকুলেটর",
+  "description": "রুপিতে বিনামূল্যে India হোম লোন EMI ক্যালকুলেটর: যেকোনো সম্পত্তির মূল্য, ডাউন পেমেন্ট, সুদের হার ও মেয়াদের জন্য মাসিক EMI, মোট সুদ ও ঋণমুক্তির তারিখ, সঙ্গে একটি অগ্রিম পরিশোধের তুলনা।",
+  "id": "/loona-calculators/bn/india-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

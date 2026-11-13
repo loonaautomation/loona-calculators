@@ -1,0 +1,29 @@
+{
+  "name": "Loona Trigonometry ক্যালকুলেটর",
+  "short_name": "ত্রিকোণমিতি ক্যালকুলেটর",
+  "description": "বিনামূল্যে ত্রিকোণমিতি ক্যালকুলেটর: sin, cos, tan, csc, sec ও cot পেতে ডিগ্রি বা রেডিয়ানে একটি কোণ লিখুন, বা একটি অনুপাত থেকে একটি কোণ খুঁজতে বিপরীত sin, cos ও tan ব্যবহার করুন। সঠিক-মানের সারণি অন্তর্ভুক্ত।",
+  "id": "/loona-calculators/bn/trigonometry-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

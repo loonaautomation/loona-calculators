@@ -1,0 +1,29 @@
+{
+  "name": "Loona পাসফ্রেজ জেনারেটর",
+  "short_name": "পাসফ্রেজ জেনারেটর",
+  "description": "বিনামূল্যে পাসফ্রেজ জেনারেটর: এলোমেলো আসল শব্দ থেকে শক্তিশালী, মনে রাখার মতো পাসফ্রেজ তৈরি করুন, শব্দ সংখ্যা, বিভাজক, বড় হাতের অক্ষর ও সংখ্যার বিকল্পসহ। আপনার ব্রাউজারে চলে।",
+  "id": "/loona-calculators/bn/passphrase-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

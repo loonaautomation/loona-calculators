@@ -1,0 +1,29 @@
+{
+  "name": "Loona গর্ভাবস্থা নির্ধারিত তারিখ ক্যালকুলেটর",
+  "short_name": "গর্ভাবস্থা নির্ধারিত তারিখ ক্যালকুলেটর",
+  "description": "বিনামূল্যে গর্ভাবস্থার প্রসবের তারিখ ক্যালকুলেটর: আপনার প্রত্যাশিত প্রসবের তারিখ, গর্ভাবস্থার বর্তমান সপ্তাহ ও ত্রৈমাসিক পেতে আপনার শেষ মাসিকের (LMP) প্রথম দিন লিখুন।",
+  "id": "/loona-calculators/bn/pregnancy-due-date-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

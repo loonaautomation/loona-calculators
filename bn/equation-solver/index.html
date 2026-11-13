@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>সমীকরণ সমাধানকারী (সরল ও দ্বিঘাত) — ধাপে ধাপে উত্তর | Loona Calculators</title>
+<meta name="description" content="রৈখিক (ax + b = cx + d) ও দ্বিঘাত (ax² + bx + c = 0) সমীকরণের জন্য বিনামূল্যে সমীকরণ সমাধানকারী, সম্পূর্ণ ধাপে ধাপে কাজ, নির্ণায়ক, জটিল মূল ও একটি চূড়ান্ত যাচাইসহ।">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/bn/equation-solver/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/equation-solver/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/equation-solver/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/equation-solver/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/equation-solver/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/equation-solver/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/equation-solver/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/equation-solver/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/equation-solver/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/equation-solver/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/equation-solver/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/equation-solver/"><link rel="alternate" hreflang="bn" href="https://loonaautomation.github.io/loona-calculators/bn/equation-solver/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/equation-solver/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="সমীকরণ সমাধানকারী (সরল ও দ্বিঘাত) — ধাপে ধাপে উত্তর | Loona Calculators">
+<meta property="og:description" content="রৈখিক (ax + b = cx + d) ও দ্বিঘাত (ax² + bx + c = 0) সমীকরণের জন্য বিনামূল্যে সমীকরণ সমাধানকারী, সম্পূর্ণ ধাপে ধাপে কাজ, নির্ণায়ক, জটিল মূল ও একটি চূড়ান্ত যাচাইসহ।">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/bn/equation-solver/"><meta property="og:locale" content="bn_BD">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="সমীকরণ সমাধানকারী (সরল ও দ্বিঘাত) — ধাপে ধাপে উত্তর | Loona Calculators">
+<meta name="twitter:description" content="রৈখিক (ax + b = cx + d) ও দ্বিঘাত (ax² + bx + c = 0) সমীকরণের জন্য বিনামূল্যে সমীকরণ সমাধানকারী, সম্পূর্ণ ধাপে ধাপে কাজ, নির্ণায়ক, জটিল মূল ও একটি চূড়ান্ত যাচাইসহ।">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona সমীকরণ সমাধানকারী","url":"https://loonaautomation.github.io/loona-calculators/bn/equation-solver/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"এই সমাধানকারী কোন ধরনের সমীকরণ সামলাতে পারে?","acceptedAnswer":{"@type":"Answer","text":"ax + b = cx + d আকারের রৈখিক সমীকরণ এবং ax² + bx + c = 0 আকারের দ্বিঘাত সমীকরণ। এতে প্রতিটি ধাপ, দ্বিঘাতের জন্য নিশ্চায়ক (ডিসক্রিমিন্যান্ট) এবং শেষে যাচাই দেখানো হয়। এটি ঘন সমীকরণ, দুই অজানা রাশির যুগপৎ সমীকরণ বা অসমতা সমাধান করে না — পৃষ্ঠার শিরোনামেই ঠিক বলা আছে এটি কী কী করে।"}},{"@type":"Question","name":"\"no solution\" বা \"infinitely many solutions\" বলতে কী বোঝায়?","acceptedAnswer":{"@type":"Answer","text":"কখনো কখনো x পদগুলো পুরোপুরি কেটে যায়। সংখ্যাগুলোও যদি মিলে যায় (যেমন 5x + 1 = 5x + 1), সমীকরণটি সবসময় সত্য — অসীম সংখ্যক সমাধান। সংখ্যাগুলো না মিললে (5x + 1 = 5x + 3) এটি কখনোই সত্য হতে পারে না — কোনো সমাধান নেই। উত্তর বানিয়ে দেওয়ার বদলে সমাধানকারী সৎভাবে আপনাকে জানিয়ে দেয়, আপনার ক্ষেত্রে কোনটি প্রযোজ্য।"}},{"@type":"Question","name":"জটিল মূল কী?","acceptedAnswer":{"@type":"Answer","text":"যখন একটি দ্বিঘাত সমীকরণের ডিসক্রিমিন্যান্ট (b² − 4ac) ঋণাত্মক হয়, তখন লেখচিত্রটি কখনো x-অক্ষকে ছেদ করে না এবং কোনো বাস্তব উত্তর থাকে না। তখন মূলগুলো i ব্যবহার করে জটিল সংখ্যা হয়, যেখানে i² = −1 — উদাহরণস্বরূপ, x² + 1 = 0-এর মূল x = i এবং x = −i। এই সমাধানকারী সেগুলো দেখায় এবং তবুও সেগুলো যাচাই করে।"}}]}</script>
+
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/bn/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "সমীকরণ সমাধানকারী",
+      "item": "https://loonaautomation.github.io/loona-calculators/bn/equation-solver/"
+    }
+  ]
+}</script>
+
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation-এর লোগো">
+<div class="brand">Loona <span>ক্যালকুলেটরসমূহ</span></div>
+<nav>
+<a href="../">হোম</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">About</a>
+<a href="../contact.html">যোগাযোগ</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › গণিত › সমীকরণ সমাধানকারী</div>
+<h1 class="pagetitle">সমীকরণ সমাধানকারী (সরল ও দ্বিঘাত)</h1>
+<p class="lead">প্রতিটি ধাপ দেখিয়ে রৈখিক সমীকরণ (ax + b = cx + d) এবং দ্বিঘাত সমীকরণ (ax² + bx + c = 0) সমাধান করুন — যার মধ্যে রয়েছে নিশ্চায়ক, পুনরাবৃত্ত ও জটিল মূল, এবং উত্তরটি আবার বসিয়ে করা একটি চূড়ান্ত যাচাই।</p>
+<div class="toolbox">
+<div class="calcform"><div class="fld"><label for="eqMode">সমীকরণের ধরন</label><select id="eqMode"><option value="linear">রৈখিক সমীকরণ — ax + b = cx + d</option><option value="quad">দ্বিঘাত সমীকরণ — ax² + bx + c = 0</option></select></div></div>
+<div id="eqLinear" class="view on">
+<form class="calcform" id="eqLinForm">
+<p style="margin-bottom:12px;color:#2c3e3b">চারটি সংখ্যা লিখুন <strong>ax + b = cx + d</strong>। কোনো পদ অনুপস্থিত থাকলে সেখানে 0 ব্যবহার করুন — যেমন, 2x + 3 = 7 হলো a = 2, b = 3, c = 0, d = 7।</p>
+<div class="fld"><label for="la">a — x-এর সহগ (বাম পাশ)</label><input type="number" step="any" id="la" value="3"></div>
+<div class="fld"><label for="lb">b — সংখ্যা (বাম পাশ)</label><input type="number" step="any" id="lb" value="2"></div>
+<div class="fld"><label for="lc">c — x-এর সহগ (ডান পাশ)</label><input type="number" step="any" id="lc" value="1"></div>
+<div class="fld"><label for="ld">d — সংখ্যা (ডান পাশ)</label><input type="number" step="any" id="ld" value="10"></div>
+<button class="calcbtn" type="submit">ধাপসহ সমাধান করুন</button>
+</form>
+<div class="calcresult" id="eqLinRes" style="display:none"></div>
+</div>
+<div id="eqQuad" class="view">
+<form class="calcform" id="eqQuadForm">
+<p style="margin-bottom:12px;color:#2c3e3b">তিনটি সহগ লিখুন <strong>ax² + bx + c = 0</strong>। কোনো পদ অনুপস্থিত থাকলে সেখানে 0 ব্যবহার করুন — যেমন, x² − 9 = 0 হলো a = 1, b = 0, c = −9।</p>
+<div class="fld"><label for="qa">a — x²-এর সহগ</label><input type="number" step="any" id="qa" value="1"></div>
+<div class="fld"><label for="qb">b — x-এর সহগ</label><input type="number" step="any" id="qb" value="-5"></div>
+<div class="fld"><label for="qc">c — ধ্রুবক সংখ্যা</label><input type="number" step="any" id="qc" value="6"></div>
+<button class="calcbtn" type="submit">ধাপসহ সমাধান করুন</button>
+</form>
+<div class="calcresult" id="eqQuadRes" style="display:none"></div>
+</div>
+</div>
+<section class="txt"><h2>কীভাবে সমীকরণ সমাধানকারী ব্যবহার করবেন</h2><ol><li>সমীকরণের ধরন বেছে নিন: রৈখিক (শুধু x) অথবা দ্বিঘাত (x²)।</li><li>সহগগুলো লিখুন — x² ও x-এর সামনের সংখ্যা, এবং সরল সংখ্যাটি। কোনো পদ অনুপস্থিত থাকলে 0 দিন।</li><li>ধাপসহ Solve চাপুন এবং ধাপে ধাপে হিসাবটি পড়ুন। শেষ ধাপে উত্তরটি মূল সমীকরণে বসিয়ে দিয়ে তা যাচাই করা হয়।</li></ol>
+<div class="exbox"><strong>উদাহরণ:</strong> 3x + 2 = x + 10। x-এর পদগুলো বামে নিন: 2x + 2 = 10। সংখ্যাটি ডানে নিন: 2x = 8। 2 দিয়ে ভাগ করুন: <strong>x = 4</strong>। যাচাই করুন: 3 × 4 + 2 = 14 এবং 4 + 10 = 14 ✓</div>
+<h2>সচরাচর জিজ্ঞাসিত প্রশ্নাবলী</h2></section><div class="faq"><h3>এই সমাধানকারী কোন ধরনের সমীকরণ সামলাতে পারে?</h3><p>ax + b = cx + d আকারের রৈখিক সমীকরণ এবং ax² + bx + c = 0 আকারের দ্বিঘাত সমীকরণ। এতে প্রতিটি ধাপ, দ্বিঘাতের জন্য নিশ্চায়ক (ডিসক্রিমিন্যান্ট) এবং শেষে যাচাই দেখানো হয়। এটি ঘন সমীকরণ, দুই অজানা রাশির যুগপৎ সমীকরণ বা অসমতা সমাধান করে না — পৃষ্ঠার শিরোনামেই ঠিক বলা আছে এটি কী কী করে।</p></div><div class="faq"><h3>"no solution" বা "infinitely many solutions" বলতে কী বোঝায়?</h3><p>কখনো কখনো x পদগুলো পুরোপুরি কেটে যায়। সংখ্যাগুলোও যদি মিলে যায় (যেমন 5x + 1 = 5x + 1), সমীকরণটি সবসময় সত্য — অসীম সংখ্যক সমাধান। সংখ্যাগুলো না মিললে (5x + 1 = 5x + 3) এটি কখনোই সত্য হতে পারে না — কোনো সমাধান নেই। উত্তর বানিয়ে দেওয়ার বদলে সমাধানকারী সৎভাবে আপনাকে জানিয়ে দেয়, আপনার ক্ষেত্রে কোনটি প্রযোজ্য।</p></div><div class="faq"><h3>জটিল মূল কী?</h3><p>যখন একটি দ্বিঘাত সমীকরণের ডিসক্রিমিন্যান্ট (b² − 4ac) ঋণাত্মক হয়, তখন লেখচিত্রটি কখনো x-অক্ষকে ছেদ করে না এবং কোনো বাস্তব উত্তর থাকে না। তখন মূলগুলো i ব্যবহার করে জটিল সংখ্যা হয়, যেখানে i² = −1 — উদাহরণস্বরূপ, x² + 1 = 0-এর মূল x = i এবং x = −i। এই সমাধানকারী সেগুলো দেখায় এবং তবুও সেগুলো যাচাই করে।</p></div>
+<h2 class="sec">সম্পর্কিত ক্যালকুলেটর</h2><div class="grid"><a class="card" href="../fraction-calculator/"><div class="ic">🍕</div><h3>ভগ্নাংশ ক্যালকুলেটর</h3><p>গণিত</p></a><a class="card" href="../percentage-calculator/"><div class="ic">％</div><h3>শতাংশ ক্যালকুলেটর</h3><p>গণিত</p></a><a class="card" href="../exponent-calculator/"><div class="ic">x²</div><h3>সূচক ক্যালকুলেটর</h3><p>গণিত</p></a><a class="card" href="../square-root-calculator/"><div class="ic">√</div><h3>বর্গমূল ক্যালকুলেটর</h3><p>গণিত</p></a><a class="card" href="../scientific-calculator/"><div class="ic">🧮</div><h3>বৈজ্ঞানিক ক্যালকুলেটর</h3><p>গণিত</p></a></div>
+</div>
+<section class="txt"><h2>এটি কীভাবে কাজ করে &mdash; পদ্ধতিটি</h2>
+<p><strong>রৈখিক সমীকরণসমূহ</strong> সমীকরণটিকে ভারসাম্যপূর্ণ রেখে সমাধান করা হয় — এক পাশে আপনি যা করেন, অন্য পাশেও তাই করেন। প্রথমে x পদগুলো বাম দিকে জড়ো করা হয় (উভয় পাশ থেকে cx বিয়োগ করে), তারপর সংখ্যার পদগুলো ডান দিকে (b বিয়োগ করে), এবং অবশেষে উভয় পাশকে x-এর সহগ দিয়ে ভাগ করা হয়।</p>
+<p><strong>দ্বিঘাত সমীকরণ</strong> দ্বিঘাত সূত্রটি ব্যবহার করুন। ax² + bx + c = 0-এর জন্য:</p>
+<p><strong>x = (−b ± √(b² − 4ac)) ÷ (2a)</strong></p>
+<p>মূলের নিচের অংশটি, <strong>D = b² − 4ac</strong>, -কে বলা হয় ডিসক্রিমিন্যান্ট, এবং এটি শেষ করার আগেই আপনাকে উত্তরের ধরনটি বলে দেয়: D &gt; 0 মানে দুটি আলাদা বাস্তব মূল, D = 0 মানে একটি পুনরাবৃত্ত মূল, এবং D &lt; 0 মানে দুটি জটিল মূল এবং কোনো বাস্তব উত্তর নেই।</p>
+<h3>সমাধান করা উদাহরণ</h3>
+<div class="exbox"><strong>উদাহরণ:</strong> x² − 5x + 6 = 0 সমাধান করুন। এখানে a = 1, b = −5, c = 6। D = (−5)² − 4 × 1 × 6 = 25 − 24 = 1, তাই √D = 1। তারপর x = (5 + 1) ÷ 2 = <strong>3</strong> or x = (5 − 1) ÷ 2 = <strong>2</strong>। যাচাই করুন x = 3: 9 − 15 + 6 = 0 ✓</div>
+<h3>সচরাচর জিজ্ঞাসিত প্রশ্ন</h3></section>
+<div class="faq"><h3>কোনো একটি পদ বাদ থাকলে আমি কীভাবে একটি সমীকরণ লিখব?</h3><p>অনুপস্থিত সহগের জন্য 0 লিখুন। x² − 9 = 0 হয়ে যায় a = 1, b = 0, c = −9, এবং সমাধানকারী দেয় x = 3 অথবা x = −3। 2x = 10-এর মতো একটি সরল সমীকরণের ক্ষেত্রে তা হলো a = 2, b = 0, c = 0, d = 10।</p></div>
+<div class="faq"><h3>আমি দ্বিঘাত সমাধানকারীতে a = 0 লিখলে কী হবে?</h3><p>তখন x² পদটি অদৃশ্য হয়ে যায় এবং সমীকরণটি আসলে রৈখিক। সমাধানকারী এটি লক্ষ্য করে এবং বদলে এটিকে একটি রৈখিক সমীকরণ হিসেবে সমাধান করে, আপনাকে জানিয়ে যে তা-ই ঘটেছে।</p></div>
+<div class="faq"><h3>সমাধানকারী শেষে তার উত্তর যাচাই করে কেন?</h3><p>উত্তরটি মূল সমীকরণে আবার বসানোই ভুল ধরার সবচেয়ে নিশ্চিত উপায়: দুই পাশ সমান এলে উত্তরটি অবশ্যই ঠিক। এটি বাড়ির কাজের জন্যও একটি ভালো অভ্যাস — শিক্ষকেরা প্রায়ই দৃশ্যমান যাচাইয়ের জন্য পদ্ধতির নম্বর দেন।</p></div>
+
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">এই ক্যালকুলেটরটি আপনার ওয়েবসাইটে এম্বেড করুন — বিনামূল্যে</h2>
+<p style="margin:0 0 12px;line-height:1.6">এই calculator আপনার নিজের website বা blog-এ যোগ করুন — এটি সম্পূর্ণ free, কোনো sign-up লাগে না, এবং সবসময় সর্বশেষ version দেখায়। নিচের code copy করুন এবং আপনার পেজে যেখানে calculator দেখাতে চান সেখানে paste করুন। Embed-এর নিচে ছোট &ldquo;Powered by Loona Automation&rdquo; credit line রাখা এই tool-কে free রাখতে সাহায্য করে &mdash; কিন্তু আপনি এটি style করতে বা সরিয়ে ফেলতে স্বাধীন; tool যেভাবেই হোক কাজ করে।</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/bn/equation-solver/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Equation Solver by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;দ্বারা চালিত &lt;a href="https://loonaautomation.github.io/loona-calculators/bn/equation-solver/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; বিনামূল্যে সমীকরণ সমাধানকারী&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">এম্বেড কোড কপি করুন</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='এম্বেড কোড কপি করুন';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>জনপ্রিয় ক্যালকুলেটর</h4><ul><li><a href="../age-calculator/">বয়স ক্যালকুলেটর</a></li>
+<li><a href="../zakat-calculator/">যাকাত ক্যালকুলেটর</a></li>
+<li><a href="../cgpa-calculator/">CGPA ক্যালকুলেটর</a></li>
+<li><a href="../percentage-calculator/">শতাংশ ক্যালকুলেটর</a></li>
+<li><a href="../hijri-date-converter/">হিজরি তারিখ কনভার্টার</a></li>
+<li><a href="../emi-calculator/">EMI ও ঋণ ক্যালকুলেটর</a></li></ul></div>
+<div><h4>আরও Loona টুল</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR কোড</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona ছবি সংকোচক</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI সহকারী</a></li>
+<li><a href="https://loonaautomation.github.io/">সব Loona Tools</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">About</a></li>
+<li><a href="../contact.html">যোগাযোগ</a></li>
+<li><a href="../privacy-policy.html">গোপনীয়তা নীতি</a></li>
+<li><a href="../terms.html">ব্যবহারের শর্তাবলি</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — একটি <a href="https://loonaautomation.github.io/">Loona Automation</a> প্রকল্প। ফ্রি অনলাইন ক্যালকুলেটর, সাইনআপ নেই।
+যোগাযোগ: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+/* Equation Solver (Linear & Quadratic) — pure logic, step-by-step */
+function feq(n){
+  if(typeof n!=="number"||isNaN(n))return "?";
+  if(Math.abs(n)<1e-12)n=0;
+  var s=String(parseFloat(n.toPrecision(10)));
+  return s.replace(/-/g,"−");
+}
+function pm(n){return n<0?" − "+feq(-n):" + "+feq(n);}
+function coef(n){if(n===1)return "";if(n===-1)return "−";return feq(n);}
+function linSide(a,b){return coef(a)+"x"+(b===0?"":pm(b));}
+function solveLinearEq(a,b,c,d){
+  var steps=[];
+  steps.push("সমীকরণ দিয়ে শুরু করুন: "+linSide(a,b)+" = "+linSide(c,d)+".");
+  var A=a-c,B=d-b;
+  if(c!==0)steps.push("x পদগুলো বাম দিকে নিন, উভয় পাশ থেকে "+coef(c)+"x বিয়োগ করে: "+linSide(A,b)+" = "+feq(d)+".");
+  if(b!==0)steps.push("সংখ্যা পদটি ডান দিকে সরান, উভয় পাশে "+(b>0?"subtracting":"adding")+" "+feq(Math.abs(b))+" উভয় পাশে: "+coef(A)+"x = "+feq(B)+".");
+  if(A===0){
+    if(B===0){
+      steps.push("Both sides are identical (0 = 0), so the equation is true for every value of x.");
+      return {steps:steps,kind:"infinite",summary:"অসীম সংখ্যক সমাধান — সমীকরণটি একটি অভেদ।"};
+    }
+    steps.push("This leaves 0 = "+feq(B)+", যা মিথ্যা, তাই x-এর কোনো মানই সমীকরণটি পূরণ করতে পারে না।");
+    return {steps:steps,kind:"none",summary:"কোনো সমাধান নেই — সমীকরণটি অসামঞ্জস্যপূর্ণ।"};
+  }
+  var x=B/A;
+  steps.push("উভয় পাশকে ভাগ করুন "+feq(A)+": x = "+feq(B)+" ÷ "+feq(A)+" = "+feq(x)+".");
+  var lhs=a*x+b,rhs=c*x+d;
+  steps.push("Check: substitute x = "+feq(x)+" back in. Left side = "+feq(a)+" × "+feq(x)+pm(b)+" = "+feq(lhs)+". Right side = "+feq(c)+" × "+feq(x)+pm(d)+" = "+feq(rhs)+"। উভয় পাশ সমান ✓");
+  return {steps:steps,kind:"one",x:x,summary:"x = "+feq(x)};
+}
+function quadSide(a,b,c){
+  var s=coef(a)+"x²";
+  if(b!==0)s+=(b<0?" − "+feq(-b):" + "+feq(b))+"x";
+  if(c!==0)s+=pm(c);
+  return s;
+}
+function solveQuadraticEq(a,b,c){
+  var steps=[];
+  if(a===0){
+    steps.push("Here a = 0, so this is not really a quadratic equation — it simplifies to the linear equation "+linSide(b,c)+" = 0.");
+    if(b===0){
+      if(c===0){steps.push("It becomes 0 = 0, which is true for every x.");return {steps:steps,kind:"infinite",summary:"অসীম সংখ্যক সমাধান।"};}
+      steps.push("It becomes "+feq(c)+" = 0, which is false.");return {steps:steps,kind:"none",summary:"কোনো সমাধান নেই।"};
+    }
+    var xl=-c/b;
+    steps.push("সংখ্যা পদটি ওপাশে সরান: "+coef(b)+"x = "+feq(-c)+".");
+    steps.push("Divide by "+feq(b)+": x = "+feq(xl)+".");
+    steps.push("Check: "+feq(b)+" × "+feq(xl)+pm(c)+" = "+feq(b*xl+c)+" ✓");
+    return {steps:steps,kind:"linear",x:xl,summary:"x = "+feq(xl)+" (linear, because a = 0)"};
+  }
+  steps.push("সহগগুলো শনাক্ত করুন "+quadSide(a,b,c)+" = 0: a = "+feq(a)+", b = "+feq(b)+", c = "+feq(c)+".");
+  var D=b*b-4*a*c;
+  steps.push("Work out the discriminant: D = b² − 4ac = ("+feq(b)+")² − 4 × "+feq(a)+" × "+feq(c)+" = "+feq(b*b)+" − "+feq(4*a*c)+" = "+feq(D)+".");
+  if(D>0){
+    var sd=Math.sqrt(D);
+    steps.push("D is positive, so there are two different real roots. √D = √"+feq(D)+" = "+feq(sd)+".");
+    steps.push("Apply the quadratic formula: x = (−b ± √D) ÷ (2a) = ("+feq(-b)+" ± "+feq(sd)+") ÷ "+feq(2*a)+".");
+    var x1=(-b+sd)/(2*a),x2=(-b-sd)/(2*a);
+    steps.push("First root: x = ("+feq(-b)+" + "+feq(sd)+") ÷ "+feq(2*a)+" = "+feq(x1)+".");
+    steps.push("Second root: x = ("+feq(-b)+" − "+feq(sd)+") ÷ "+feq(2*a)+" = "+feq(x2)+".");
+    var v=a*x1*x1+b*x1+c;
+    steps.push("Check with x = "+feq(x1)+": "+feq(a)+" × ("+feq(x1)+")² + "+feq(b)+" × "+feq(x1)+pm(c)+" = "+feq(v)+" ✓ (0, প্রত্যাশিত অনুযায়ী)।");
+    return {steps:steps,kind:"two",x1:x1,x2:x2,summary:"x = "+feq(x1)+" or x = "+feq(x2)};
+  }
+  if(D===0){
+    var xr=-b/(2*a);
+    steps.push("D ঠিক শূন্য, তাই উভয় মূলই একই (একটি পুনরাবৃত্ত মূল)।");
+    steps.push("Apply the formula: x = −b ÷ (2a) = "+feq(-b)+" ÷ "+feq(2*a)+" = "+feq(xr)+".");
+    var v0=a*xr*xr+b*xr+c;
+    steps.push("Check: "+feq(a)+" × ("+feq(xr)+")² + "+feq(b)+" × "+feq(xr)+pm(c)+" = "+feq(v0)+" ✓");
+    return {steps:steps,kind:"equal",x1:xr,x2:xr,summary:"x = "+feq(xr)+" (পুনরাবৃত্ত মূল)"};
+  }
+  var re=-b/(2*a),im=Math.abs(Math.sqrt(-D)/(2*a));
+  steps.push("D ঋণাত্মক, তাই কোনো বাস্তব মূল নেই — প্যারাবোলাটি কখনো x-অক্ষ অতিক্রম করে না।");
+  steps.push("Using √−1 = i: √D = √"+feq(-D)+" i = "+feq(Math.sqrt(-D))+"i.");
+  steps.push("Apply the formula: x = ("+feq(-b)+" ± "+feq(Math.sqrt(-D))+"i) ÷ "+feq(2*a)+", giving x = "+feq(re)+" + "+feq(im)+"i or x = "+feq(re)+" − "+feq(im)+"i.");
+  var zre=a*(re*re-im*im)+b*re+c,zim=2*a*re*im+b*im;
+  steps.push("Check with x = "+feq(re)+" + "+feq(im)+"i: সমীকরণটি দাঁড়ায় "+feq(zre)+" + "+feq(zim)+"i ≈ 0 ✓ (রাউন্ডিং বাদে)।");
+  return {steps:steps,kind:"complex",re:re,im:im,summary:"x = "+feq(re)+" + "+feq(im)+"i or x = "+feq(re)+" − "+feq(im)+"i (কোনো বাস্তব মূল নেই)"};
+}
+if(typeof module!=="undefined"&&module.exports){module.exports={solveLinearEq:solveLinearEq,solveQuadraticEq:solveQuadraticEq,feq:feq};}
+
+/* ---------- Browser wiring ---------- */
+if(typeof document!=="undefined"){
+  document.addEventListener("DOMContentLoaded",function(){
+    var modeSel=document.getElementById("eqMode"),linView=document.getElementById("eqLinear"),quadView=document.getElementById("eqQuad");
+    if(!modeSel)return;
+    function sync(){var q=modeSel.value==="quad";linView.className="view"+(q?"":" on");quadView.className="view"+(q?" on":"");}
+    modeSel.addEventListener("change",sync);sync();
+    function num(id){return parseFloat(document.getElementById(id).value);}
+    function render(resEl,r){
+      if(!r){resEl.style.display="block";resEl.innerHTML='<p class="err">অনুগ্রহ করে প্রতিটি বাক্সে সংখ্যা লিখুন।</p>';return;}
+      var h='<div class="resbig"><span>উত্তর</span><strong>'+r.summary+'</strong></div><p style="font-weight:700;color:#062e2a;margin-bottom:6px">ধাপে ধাপে কাজ</p><ol style="margin-left:20px">';
+      r.steps.forEach(function(s){h+="<li style='margin-bottom:6px'>"+s+"</li>";});
+      resEl.innerHTML=h+"</ol>";resEl.style.display="block";
+    }
+    document.getElementById("eqLinForm").addEventListener("submit",function(e){
+      e.preventDefault();
+      var a=num("la"),b=num("lb"),c=num("lc"),d=num("ld");
+      if([a,b,c,d].some(isNaN)){render(document.getElementById("eqLinRes"),null);return;}
+      render(document.getElementById("eqLinRes"),solveLinearEq(a,b,c,d));
+    });
+    document.getElementById("eqQuadForm").addEventListener("submit",function(e){
+      e.preventDefault();
+      var a=num("qa"),b=num("qb"),c=num("qc");
+      if([a,b,c].some(isNaN)){render(document.getElementById("eqQuadRes"),null);return;}
+      render(document.getElementById("eqQuadRes"),solveQuadraticEq(a,b,c));
+    });
+  });
+}
+</script>
+
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' অ্যাপ ইনস্টল করুন';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('এই অ্যাপটি ইনস্টল করুন: শেয়ার বোতামে ট্যাপ করুন, তারপর "Add to Home Screen" বেছে নিন।');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body></html>

@@ -1,0 +1,29 @@
+{
+  "name": "Loona চূড়ান্ত গ্রেড ক্যালকুলেটর",
+  "short_name": "চূড়ান্ত গ্রেড ক্যালকুলেটর",
+  "description": "বিনামূল্যে চূড়ান্ত গ্রেড ক্যালকুলেটর: ফাইনালে আপনার ঠিক কত স্কোর প্রয়োজন তা দেখতে আপনার বর্তমান গ্রেড, চূড়ান্ত পরীক্ষার গুরুত্ব ও আপনার লক্ষ্য গ্রেড লিখুন।",
+  "id": "/loona-calculators/bn/final-grade-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

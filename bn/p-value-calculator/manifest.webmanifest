@@ -1,0 +1,29 @@
+{
+  "name": "Loona P-মান ক্যালকুলেটর",
+  "short_name": "P-মান ক্যালকুলেটর",
+  "description": "বিনামূল্যে p-value ক্যালকুলেটর: একটি z, t বা chi-square পরীক্ষার পরিসংখ্যানকে এক-লেজ ও দুই-লেজ p-মানে রূপান্তর করুন, 0.05 ও 0.01-এ তাৎপর্য রায়সহ।",
+  "id": "/loona-calculators/bn/p-value-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

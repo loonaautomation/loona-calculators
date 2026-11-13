@@ -1,0 +1,29 @@
+{
+  "name": "Loona LCM ও HCF ক্যালকুলেটর",
+  "short_name": "LCM ও HCF ক্যালকুলেটর",
+  "description": "বিনামূল্যে LCM ও HCF ক্যালকুলেটর: তাদের লঘিষ্ঠ সাধারণ গুণিতক (LCM) এবং গরিষ্ঠ সাধারণ গুণনীয়ক (HCF/GCD) তাৎক্ষণিকভাবে পেতে দুটি বা তিনটি পূর্ণ সংখ্যা লিখুন।",
+  "id": "/loona-calculators/bn/lcm-hcf-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

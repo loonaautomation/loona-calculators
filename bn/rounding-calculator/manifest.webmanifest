@@ -1,0 +1,29 @@
+{
+  "name": "Loona রাউন্ডিং ক্যালকুলেটর",
+  "short_name": "রাউন্ডিং ক্যালকুলেটর",
+  "description": "বিনামূল্যে পূর্ণসংখ্যা ক্যালকুলেটর: যেকোনো সংখ্যাকে দশমিক স্থানে, নিকটতম 10, 100 বা 1,000-এ, বা তাৎপর্যপূর্ণ অঙ্কে পূর্ণসংখ্যা করুন, নিয়ম ব্যাখ্যাসহ।",
+  "id": "/loona-calculators/bn/rounding-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona শেনজেন 90/180 ক্যালকুলেটর",
+  "short_name": "Schengen 90/180 ক্যালকুলেটর",
+  "description": "বিনামূল্যে Schengen 90/180 ক্যালকুলেটর: যেকোনো ঘূর্ণায়মান 180-দিনের উইন্ডোতে ব্যবহৃত দিন, অবশিষ্ট দিন, অতিরিক্ত অবস্থানের সতর্কতা ও সবচেয়ে তাড়াতাড়ি নিরাপদ পুনঃপ্রবেশ দেখতে অতীত ও পরিকল্পিত ভ্রমণ লিখুন।",
+  "id": "/loona-calculators/bn/schengen-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

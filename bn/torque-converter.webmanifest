@@ -1,0 +1,29 @@
+{
+  "name": "Loona টর্ক কনভার্টার",
+  "short_name": "টর্ক রূপান্তরক",
+  "description": "প্রতিটি টর্ক রূপান্তর জোড়া একটি সূচকে: সঠিক গুণক, সূত্র এবং প্রতিটি জোড়ার জন্য আলাদা কনভার্টার পেজ। বিনামূল্যে, সাইন-আপ ছাড়াই।",
+  "id": "/loona-calculators/bn/torque-converter.html",
+  "start_url": "./torque-converter.html",
+  "scope": "./torque-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

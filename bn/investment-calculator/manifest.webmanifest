@@ -1,0 +1,29 @@
+{
+  "name": "Loona বিনিয়োগ ক্যালকুলেটর",
+  "short_name": "বিনিয়োগ ক্যালকুলেটর",
+  "description": "বিনামূল্যে বিনিয়োগ ক্যালকুলেটর: প্রাথমিক পরিমাণ যোগ মাসিক সংযোজন ও প্রত্যাশিত রিটার্ন — সময়ের সঙ্গে ভবিষ্যৎ মূল্য, মোট বিনিয়োগ ও মোট লাভ দেখুন।",
+  "id": "/loona-calculators/bn/investment-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

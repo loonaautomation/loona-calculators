@@ -1,0 +1,29 @@
+{
+  "name": "Loona ভাড়া বনাম কেনা ক্যালকুলেটর",
+  "short_name": "ভাড়া বনাম ক্রয় ক্যালকুলেটর",
+  "description": "বিনামূল্যে ভাড়া বনাম কেনা ক্যালকুলেটর: আপনি যত বছর থাকার পরিকল্পনা করেন তত বছরে ভাড়া নেওয়ার মোট খরচের সঙ্গে একটি বাড়ি কেনার নিট খরচ তুলনা করুন — মর্টগেজ, ভাড়া বৃদ্ধি, মূল্য বৃদ্ধি ও ইকুইটি অন্তর্ভুক্ত।",
+  "id": "/loona-calculators/bn/rent-vs-buy-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

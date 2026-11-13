@@ -1,0 +1,29 @@
+{
+  "name": "Loona CGPA থেকে শতাংশ ক্যালকুলেটর",
+  "short_name": "CGPA থেকে শতকরা হার ক্যালকুলেটর",
+  "description": "বিনামূল্যে CGPA থেকে শতাংশ কনভার্টার: 10-এর মধ্যে CGPA (×9.5 সূত্র) বা 4-এর মধ্যে GPA-কে শতাংশে রূপান্তর করুন, যেকোনো বোর্ড বা বিশ্ববিদ্যালয়ের জন্য একটি কাস্টম গুণক বিকল্পসহ।",
+  "id": "/loona-calculators/bn/cgpa-to-percentage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona রান্নার রূপান্তর ক্যালকুলেটর",
+  "short_name": "রান্নার রূপান্তর ক্যালকুলেটর",
+  "description": "বিনামূল্যে রান্নার রূপান্তর ক্যালকুলেটর: আসল ঘনত্ব ব্যবহার করে 10টি সাধারণ উপাদানের জন্য কাপ, চামচ, মিলিলিটার, গ্রাম, আউন্স ও পাউন্ড রূপান্তর করুন — ময়দা, চিনি, মাখন, মধু এবং আরও অনেক।",
+  "id": "/loona-calculators/bn/cooking-conversion-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

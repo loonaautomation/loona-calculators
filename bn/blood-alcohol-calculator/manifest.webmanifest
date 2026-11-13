@@ -1,0 +1,29 @@
+{
+  "name": "Loona রক্তে অ্যালকোহল ক্যালকুলেটর",
+  "short_name": "রক্তে অ্যালকোহল ক্যালকুলেটর",
+  "description": "Widmark সূত্র ব্যবহার করে বিনামূল্যে রক্তের অ্যালকোহল মাত্রা (BAC) ক্যালকুলেটর: BAC শতাংশ অনুমান করতে ওজন, লিঙ্গ, পানীয় ও সময়। শুধুমাত্র শিক্ষামূলক অনুমান, কখনো গাড়ি চালাবেন না।",
+  "id": "/loona-calculators/bn/blood-alcohol-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

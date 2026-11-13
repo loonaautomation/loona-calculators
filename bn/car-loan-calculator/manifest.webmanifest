@@ -1,0 +1,29 @@
+{
+  "name": "Loona গাড়ি ঋণ ক্যালকুলেটর",
+  "short_name": "গাড়ি ঋণ ক্যালকুলেটর",
+  "description": "বিনামূল্যে গাড়ি ঋণ ক্যালকুলেটর: যানবাহনের মূল্য, ডাউন পেমেন্ট, সুদের হার ও মেয়াদ — ঋণের পরিমাণ, মাসিক পরিশোধ, মোট সুদ ও গাড়ির প্রকৃত মোট খরচ পান।",
+  "id": "/loona-calculators/bn/car-loan-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

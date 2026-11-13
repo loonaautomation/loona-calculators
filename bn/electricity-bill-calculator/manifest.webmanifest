@@ -1,0 +1,29 @@
+{
+  "name": "Loona বিদ্যুৎ বিল ক্যালকুলেটর",
+  "short_name": "বিদ্যুৎ বিল ক্যালকুলেটর",
+  "description": "বিনামূল্যে বিদ্যুৎ বিল ক্যালকুলেটর: GST-সহ আপনার মাসিক বিল অনুমান করতে ব্যবহৃত ইউনিট ও স্ল্যাব হার লিখুন। LESCO, IESCO, K-Electric এবং সব Pakistan বিদ্যুৎ কোম্পানির জন্য সম্পাদনযোগ্য হার।",
+  "id": "/loona-calculators/bn/electricity-bill-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

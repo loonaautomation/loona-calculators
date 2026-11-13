@@ -1,0 +1,29 @@
+{
+  "name": "Loona বর্গমূল ক্যালকুলেটর",
+  "short_name": "বর্গমূল ক্যালকুলেটর",
+  "description": "বিনামূল্যে বর্গমূল ক্যালকুলেটর: যেকোনো সংখ্যা লিখুন তার বর্গমূল, ঘনমূল, 4র্থ ও 5ম মূল পেতে — সঙ্গে তার বর্গ ও ঘন — সব একসঙ্গে।",
+  "id": "/loona-calculators/bn/square-root-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

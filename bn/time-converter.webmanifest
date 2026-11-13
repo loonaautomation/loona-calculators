@@ -1,0 +1,29 @@
+{
+  "name": "Loona সময় কনভার্টার",
+  "short_name": "সময় রূপান্তরক",
+  "description": "প্রতিটি সময় রূপান্তর জোড়া একটি সূচকে: সঠিক গুণক, সূত্র এবং প্রতিটি জোড়ার জন্য আলাদা কনভার্টার পেজ। বিনামূল্যে, সাইন-আপ ছাড়াই।",
+  "id": "/loona-calculators/bn/time-converter.html",
+  "start_url": "./time-converter.html",
+  "scope": "./time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

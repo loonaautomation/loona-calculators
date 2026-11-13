@@ -1,0 +1,29 @@
+{
+  "name": "Loona ছাপাযোগ্য ক্যালেন্ডার জেনারেটর",
+  "short_name": "প্রিন্টযোগ্য ক্যালেন্ডার জেনারেটর",
+  "description": "বিনামূল্যে ছাপারযোগ্য ক্যালেন্ডার জেনারেটর: যেকোনো মাস ও বছর (বা একটি পুরো বছর) বেছে নিন এবং একটি পরিষ্কার ক্যালেন্ডার গ্রিড তৈরি করুন যা আপনি ছাপতে পারেন। সোমবার বা রবিবার শুরু।",
+  "id": "/loona-calculators/bn/printable-calendar-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

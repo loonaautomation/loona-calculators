@@ -1,0 +1,29 @@
+{
+  "name": "Loona পাশা রোলার",
+  "short_name": "ডাইস রোলার",
+  "description": "বিনামূল্যে অনলাইন পাশা রোলার: 1 থেকে 6টি পাশা রোল করুন — আদর্শ d6, d20 ও অন্যান্য বহুভুজ পাশা — দৃশ্যমান পাশা, মোট, গড় ও একটি রোল ইতিহাসসহ।",
+  "id": "/loona-calculators/bn/dice-roller/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

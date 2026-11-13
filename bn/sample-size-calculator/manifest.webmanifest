@@ -1,0 +1,29 @@
+{
+  "name": "Loona নমুনার আকার ক্যালকুলেটর",
+  "short_name": "নমুনা আকার ক্যালকুলেটর",
+  "description": "বিনামূল্যে নমুনা আকার ক্যালকুলেটর: একটি জরিপ অনুপাত বা একটি গড়ের জন্য আপনার কতগুলি প্রতিক্রিয়া প্রয়োজন, আপনার আস্থার স্তর ও ত্রুটির মার্জিনে, সসীম জনসংখ্যা সংশোধনসহ।",
+  "id": "/loona-calculators/bn/sample-size-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

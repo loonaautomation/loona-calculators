@@ -1,0 +1,29 @@
+{
+  "name": "Loona জন্মবছর অনুযায়ী বয়স",
+  "short_name": "জন্ম বছর অনুযায়ী বয়স",
+  "description": "1946–2025-এর প্রতিটি জন্ম বছরের জন্য 2026 সালে পূর্ণ হওয়া বয়স, generation labels এবং milestone years সহ।",
+  "id": "/loona-calculators/bn/age-by-birth-year.html",
+  "start_url": "./age-by-birth-year.html",
+  "scope": "./age-by-birth-year.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

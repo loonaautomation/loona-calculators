@@ -1,0 +1,29 @@
+{
+  "name": "Loona ভিনিয়েট চেকার",
+  "short_name": "ভিগনেট যাচাইকারী",
+  "description": "বিনামূল্যে ভিনিয়েট যাচাইকারী: আপনার গাড়ি চালানোর রুটে ইউরোপীয় দেশগুলো বেছে নিন কোনগুলোর মোটরওয়ে ভিনিয়েট প্রয়োজন, কোনগুলো টোল নেয়, এবং কোনগুলো গাড়ির জন্য বিনামূল্যে তা দেখতে।",
+  "id": "/loona-calculators/bn/vignette-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona সরল ক্যালকুলেটর",
+  "short_name": "সাধারণ ক্যালকুলেটর",
+  "description": "যোগ, বিয়োগ, গুণ ও ভাগের জন্য বড়, সহজ বোতামসহ বিনামূল্যে সহজ ক্যালকুলেটর। ইতিহাস টেপ, শতাংশ কী, কপি বোতাম ও সম্পূর্ণ কীবোর্ড সমর্থন — সাইন-আপ ছাড়াই।",
+  "id": "/loona-calculators/bn/simple-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

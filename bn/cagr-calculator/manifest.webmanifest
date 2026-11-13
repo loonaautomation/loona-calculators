@@ -1,0 +1,29 @@
+{
+  "name": "Loona CAGR ক্যালকুলেটর",
+  "short_name": "CAGR ক্যালকুলেটর",
+  "description": "বিনামূল্যে CAGR ক্যালকুলেটর: একটি বিনিয়োগ বা ব্যবসার চক্রবৃদ্ধি বার্ষিক বৃদ্ধির হার জানতে শুরুর মান, শেষের মান ও বছরের সংখ্যা লিখুন।",
+  "id": "/loona-calculators/bn/cagr-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

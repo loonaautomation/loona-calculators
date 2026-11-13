@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calculators",
+  "short_name": "ক্যালকুলেটরসমূহ",
+  "description": "297টি free online calculators: age, zakat, percentage, CGPA, EMI, BMI, electricity bill এবং Hijri date converter। কোনো signup নেই — দ্রুত, সঠিক এবং গোপনীয়।",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "id": "/loona-calculators/bn/"
+}

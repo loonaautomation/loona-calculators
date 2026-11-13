@@ -1,0 +1,29 @@
+{
+  "name": "Loona অস্ট্রেলিয়া মর্গেজ ক্যালকুলেটর",
+  "short_name": "Australia Mortgage ক্যালকুলেটর",
+  "description": "AUD-তে বিনামূল্যে Australian হোম লোন ক্যালকুলেটর: মাসিক পরিশোধ, মোট সুদ ও মোট খরচ, সঙ্গে তাড়াতাড়ি শেষ করার জন্য অতিরিক্ত পরিশোধের তুলনা।",
+  "id": "/loona-calculators/bn/australia-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

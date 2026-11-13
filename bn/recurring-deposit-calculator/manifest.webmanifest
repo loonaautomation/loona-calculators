@@ -1,0 +1,29 @@
+{
+  "name": "Loona পুনরাবৃত্ত জমা ক্যালকুলেটর",
+  "short_name": "রেকারিং ডিপোজিট ক্যালকুলেটর",
+  "description": "বিনামূল্যে recurring deposit (RD) ক্যালকুলেটর: মাসিক জমা, সুদের হার ও মাসে মেয়াদ — ত্রৈমাসিক চক্রবৃদ্ধিসহ মেয়াদপূর্তি মূল্য, ব্যাংকের মান।",
+  "id": "/loona-calculators/bn/recurring-deposit-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

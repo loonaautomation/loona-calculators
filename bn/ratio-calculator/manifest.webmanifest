@@ -1,0 +1,29 @@
+{
+  "name": "Loona অনুপাত ক্যালকুলেটর",
+  "short_name": "অনুপাত ক্যালকুলেটর",
+  "description": "বিনামূল্যে অনুপাত ক্যালকুলেটর: যেকোনো অনুপাতকে তার সর্বনিম্ন পদে সরল করুন এবং একটি প্রদত্ত অনুপাতে একটি মোট পরিমাণ ভাগ করুন — দুটি ভাগই তাৎক্ষণিক দেখানো হয়।",
+  "id": "/loona-calculators/bn/ratio-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ম্যাট্রিক্স ক্যালকুলেটর — যোগ, গুণ, নির্ণায়ক ও বিপরীত (2x2, 3x3) | Loona</title>
+<meta name="description" content="2x2 ও 3x3 ম্যাট্রিক্সের জন্য বিনামূল্যে ম্যাট্রিক্স ক্যালকুলেটর: যোগ, বিয়োগ, গুণ, নির্ণায়ক ও বিপরীত, ধাপের মান দেখানোসহ। সাইন-আপ ছাড়াই, আপনার ব্রাউজারে কাজ করে।">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/bn/matrix-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/matrix-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/matrix-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/matrix-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/matrix-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/matrix-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/matrix-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/matrix-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/matrix-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/matrix-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/matrix-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/matrix-calculator/"><link rel="alternate" hreflang="bn" href="https://loonaautomation.github.io/loona-calculators/bn/matrix-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/matrix-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="ম্যাট্রিক্স ক্যালকুলেটর — যোগ, গুণ, নির্ণায়ক ও বিপরীত (2x2, 3x3) | Loona">
+<meta property="og:description" content="2x2 ও 3x3 ম্যাট্রিক্সের জন্য বিনামূল্যে ম্যাট্রিক্স ক্যালকুলেটর: যোগ, বিয়োগ, গুণ, নির্ণায়ক ও বিপরীত, ধাপের মান দেখানোসহ। সাইন-আপ ছাড়াই, আপনার ব্রাউজারে কাজ করে।">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/bn/matrix-calculator/"><meta property="og:locale" content="bn_BD">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ম্যাট্রিক্স ক্যালকুলেটর — যোগ, গুণ, নির্ণায়ক ও বিপরীত (2x2, 3x3) | Loona">
+<meta name="twitter:description" content="2x2 ও 3x3 ম্যাট্রিক্সের জন্য বিনামূল্যে ম্যাট্রিক্স ক্যালকুলেটর: যোগ, বিয়োগ, গুণ, নির্ণায়ক ও বিপরীত, ধাপের মান দেখানোসহ। সাইন-আপ ছাড়াই, আপনার ব্রাউজারে কাজ করে।">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona ম্যাট্রিক্স ক্যালকুলেটর","url":"https://loonaautomation.github.io/loona-calculators/bn/matrix-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"ম্যাট্রিক্স গুণন যোগ করার থেকে কীভাবে আলাদা?","acceptedAnswer":{"@type":"Answer","text":"যোগ cell-এর সঙ্গে cell মেলায়। গুণ A-এর সারিগুলোকে B-এর column-গুলোর সঙ্গে মেলায়: প্রতিটি result cell গুণফলগুলোর একটি যোগফল, তাই A × B সাধারণত B × A-এর মতো এক নয়।"}},{"@type":"Question","name":"কখন একটি ম্যাট্রিক্সের কোনো বিপরীত (inverse) থাকে না?","acceptedAnswer":{"@type":"Answer","text":"যখন এর ডিটারমিন্যান্ট শূন্য হয় — তখন ম্যাট্রিক্সটিকে সিঙ্গুলার বলা হয়। এটি স্থানকে একটি নিম্নতর মাত্রায় সংকুচিত করে, তাই রূপান্তরটি ফেরানো যায় না, এবং এই ক্যালকুলেটর উত্তর বানিয়ে না দিয়ে সেটাই জানায়।"}},{"@type":"Question","name":"সহজ ভাষায় ডিটারমিন্যান্ট কী?","acceptedAnswer":{"@type":"Answer","text":"একটি একক সংখ্যা যা মাপে matrix ক্ষেত্রফলগুলোকে কতটা scale করে (অথবা 3×3-তে আয়তন)। −2 determinant মানে ক্ষেত্রফল দ্বিগুণ হয় এবং orientation উল্টে যায়।"}},{"@type":"Question","name":"আমি কি আরও বড় ম্যাট্রিক্স নিয়ে কাজ করতে পারি?","acceptedAnswer":{"@type":"Answer","text":"এই টুলটি 2×2 ও 3×3 আচ্ছাদন করে, যা স্কুল, কলেজ ও দৈনন্দিন প্রকৌশল সমস্যার বেশিরভাগ সামলায়।"}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+
+.mxin{width:100%;padding:10px;border:1.5px solid var(--line);border-radius:10px;font-size:16px}.mxout{border-collapse:collapse;margin:10px 0}.mxout td{border:1px solid var(--line);padding:9px 14px;text-align:right;font-size:15.5px;background:#fff}</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/bn/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Matrix ক্যালকুলেটর",
+      "item": "https://loonaautomation.github.io/loona-calculators/bn/matrix-calculator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation-এর লোগো">
+<div class="brand">Loona <span>ক্যালকুলেটরসমূহ</span></div>
+<nav>
+<a href="../">হোম</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">About</a>
+<a href="../contact.html">যোগাযোগ</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › গণিত › ম্যাট্রিক্স ক্যালকুলেটর</div>
+<h1 class="pagetitle">🔢 ম্যাট্রিক্স ক্যালকুলেটর</h1>
+<p class="lead">দুটি ম্যাট্রিক্স লিখুন (2×2 অথবা 3×3) এবং সেগুলো যোগ, বিয়োগ বা গুণ করুন — অথবা ম্যাট্রিক্স A-এর এককভাবে নির্ণায়ক এবং বিপরীত বের করুন। কোনো বিপরীত না থাকলে সিঙ্গুলার ম্যাট্রিক্স সততার সঙ্গে জানানো হয়।</p>
+<div class="exbox"><strong>দ্রুত উত্তর:</strong> একটি 2×2 ম্যাট্রিক্স [[a, b], [c, d]]-এর জন্য, নির্ণায়ক হলো ad − bc, এবং এটি শূন্য না হলে বিপরীতটি হলো (1 ÷ (ad − bc)) × [[d, −b], [−c, a]]। এই ক্যালকুলেটর cofactor বিস্তার দিয়ে 3×3 ম্যাট্রিক্সও পরিচালনা করে।</div>
+<div class="toolbox"><form class="calcform" id="mxForm">
+<div class="fld"><label for="mxSize">ম্যাট্রিক্সের আকার</label><select id="mxSize"><option value="2">2 × 2</option><option value="3">3 × 3</option></select></div>
+<h3 style="color:var(--teal);margin:8px 0">ম্যাট্রিক্স A</h3><div class="mxgrid" data-mx="a2" style="display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-bottom:10px"><input type="number" step="any" class="mxin" data-m="a" data-r="0" data-c="0" data-size="2" value="1"><input type="number" step="any" class="mxin" data-m="a" data-r="0" data-c="1" data-size="2" value="0"><input type="number" step="any" class="mxin" data-m="a" data-r="1" data-c="0" data-size="2" value="0"><input type="number" step="any" class="mxin" data-m="a" data-r="1" data-c="1" data-size="2" value="1"></div><div class="mxgrid" data-mx="a3" style="display:none;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:10px"><input type="number" step="any" class="mxin" data-m="a" data-r="0" data-c="0" data-size="3" value="1"><input type="number" step="any" class="mxin" data-m="a" data-r="0" data-c="1" data-size="3" value="0"><input type="number" step="any" class="mxin" data-m="a" data-r="0" data-c="2" data-size="3" value="0"><input type="number" step="any" class="mxin" data-m="a" data-r="1" data-c="0" data-size="3" value="0"><input type="number" step="any" class="mxin" data-m="a" data-r="1" data-c="1" data-size="3" value="1"><input type="number" step="any" class="mxin" data-m="a" data-r="1" data-c="2" data-size="3" value="0"><input type="number" step="any" class="mxin" data-m="a" data-r="2" data-c="0" data-size="3" value="0"><input type="number" step="any" class="mxin" data-m="a" data-r="2" data-c="1" data-size="3" value="0"><input type="number" step="any" class="mxin" data-m="a" data-r="2" data-c="2" data-size="3" value="1"></div>
+<h3 style="color:var(--teal);margin:8px 0">ম্যাট্রিক্স B</h3><div class="mxgrid" data-mx="b2" style="display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-bottom:10px"><input type="number" step="any" class="mxin" data-m="b" data-r="0" data-c="0" data-size="2" value="1"><input type="number" step="any" class="mxin" data-m="b" data-r="0" data-c="1" data-size="2" value="2"><input type="number" step="any" class="mxin" data-m="b" data-r="1" data-c="0" data-size="2" value="3"><input type="number" step="any" class="mxin" data-m="b" data-r="1" data-c="1" data-size="2" value="4"></div><div class="mxgrid" data-mx="b3" style="display:none;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:10px"><input type="number" step="any" class="mxin" data-m="b" data-r="0" data-c="0" data-size="3" value="1"><input type="number" step="any" class="mxin" data-m="b" data-r="0" data-c="1" data-size="3" value="2"><input type="number" step="any" class="mxin" data-m="b" data-r="0" data-c="2" data-size="3" value="3"><input type="number" step="any" class="mxin" data-m="b" data-r="1" data-c="0" data-size="3" value="4"><input type="number" step="any" class="mxin" data-m="b" data-r="1" data-c="1" data-size="3" value="5"><input type="number" step="any" class="mxin" data-m="b" data-r="1" data-c="2" data-size="3" value="6"><input type="number" step="any" class="mxin" data-m="b" data-r="2" data-c="0" data-size="3" value="7"><input type="number" step="any" class="mxin" data-m="b" data-r="2" data-c="1" data-size="3" value="8"><input type="number" step="any" class="mxin" data-m="b" data-r="2" data-c="2" data-size="3" value="9"></div>
+<div class="fld"><label for="mxOp">অপারেশন</label><select id="mxOp"><option value="add">A + B</option><option value="sub">A − B</option><option value="mul">A × B</option><option value="det">A-এর নির্ণায়ক</option><option value="inv">A-এর বিপরীত</option></select></div>
+<button class="calcbtn" type="submit">হিসাব করুন</button>
+<div class="calcresult" id="mxResult" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>কীভাবে ম্যাট্রিক্স ক্যালকুলেটর ব্যবহার করবেন</h2><ol><li>আকার বেছে নিন: 2×2 অথবা 3×3।</li><li>ম্যাট্রিক্স A (এবং দুই-ম্যাট্রিক্স ক্রিয়ার জন্য B)-এর মানগুলো লিখুন।</li><li>প্রক্রিয়াটি বেছে নিন: A + B, A − B, A × B, A-এর নির্ণায়ক, অথবা A-এর বিপরীত।</li><li>ফলাফলের ম্যাট্রিক্সটি পড়ুন — কোনো ম্যাট্রিক্স একক (singular) হলে নির্ণায়ক ও বিপরীতের অংশে তা স্পষ্টভাবে বলা থাকে।</li></ol>
+<div class="exbox"><strong>উদাহরণ:</strong> A = [[1, 2], [3, 4]]-এর determinant 1×4 − 2×3 = −2, এবং এর inverse হলো [[−2, 1], [1.5, −0.5]]। A-কে সেই inverse দিয়ে গুণ করলে আপনি identity matrix [[1, 0], [0, 1]] পাবেন।</div>
+<h2>সচরাচর জিজ্ঞাসিত প্রশ্নাবলী</h2></section><div class="faq"><h3>ম্যাট্রিক্স গুণন যোগ করার থেকে কীভাবে আলাদা?</h3><p>যোগ cell-এর সঙ্গে cell মেলায়। গুণ A-এর সারিগুলোকে B-এর column-গুলোর সঙ্গে মেলায়: প্রতিটি result cell গুণফলগুলোর একটি যোগফল, তাই A × B সাধারণত B × A-এর মতো এক নয়।</p></div><div class="faq"><h3>কখন একটি ম্যাট্রিক্সের কোনো বিপরীত (inverse) থাকে না?</h3><p>যখন এর ডিটারমিন্যান্ট শূন্য হয় — তখন ম্যাট্রিক্সটিকে সিঙ্গুলার বলা হয়। এটি স্থানকে একটি নিম্নতর মাত্রায় সংকুচিত করে, তাই রূপান্তরটি ফেরানো যায় না, এবং এই ক্যালকুলেটর উত্তর বানিয়ে না দিয়ে সেটাই জানায়।</p></div><div class="faq"><h3>সহজ ভাষায় ডিটারমিন্যান্ট কী?</h3><p>একটি একক সংখ্যা যা মাপে matrix ক্ষেত্রফলগুলোকে কতটা scale করে (অথবা 3×3-তে আয়তন)। −2 determinant মানে ক্ষেত্রফল দ্বিগুণ হয় এবং orientation উল্টে যায়।</p></div><div class="faq"><h3>আমি কি আরও বড় ম্যাট্রিক্স নিয়ে কাজ করতে পারি?</h3><p>এই টুলটি 2×2 ও 3×3 আচ্ছাদন করে, যা স্কুল, কলেজ ও দৈনন্দিন প্রকৌশল সমস্যার বেশিরভাগ সামলায়।</p></div>
+<h2 class="sec">সম্পর্কিত ক্যালকুলেটর</h2><div class="grid"><a class="card" href="../percentage-calculator/"><div class="ic">％</div><h3>শতাংশ ক্যালকুলেটর</h3><p>গণিত</p></a><a class="card" href="../statistics-calculator/"><div class="ic">📊</div><h3>পরিসংখ্যান ক্যালকুলেটর</h3><p>গণিত</p></a><a class="card" href="../fraction-calculator/"><div class="ic">½</div><h3>ভগ্নাংশ ক্যালকুলেটর</h3><p>গণিত</p></a><a class="card" href="../equation-solver/"><div class="ic">🧮</div><h3>সমীকরণ সমাধানকারী</h3><p>গণিত</p></a><a class="card" href="../scientific-calculator/"><div class="ic">🔬</div><h3>বৈজ্ঞানিক ক্যালকুলেটর</h3><p>গণিত</p></a><a class="card" href="../average-calculator/"><div class="ic">📐</div><h3>গড় ক্যালকুলেটর</h3><p>গণিত</p></a></div>
+</div>
+<section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>এটি কীভাবে কাজ করে — সূত্রটি</h2>
+<p><strong>নির্ণায়ক (2×2):</strong> det [[a, b], [c, d]] = ad − bc. <strong>নির্ণায়ক (3×3):</strong> প্রথম সারি বরাবর সহগুণক সম্প্রসারণ। <strong>বিপরীত:</strong> A⁻¹ = adjugate(A) ÷ det(A), এখানে Gauss–Jordan elimination দিয়ে হিসাব করা — একই ফলাফল, singular ক্ষেত্রের সঠিক সামলানো সহ (det = 0 মানে কোনো inverse নেই)। <strong>গুণ:</strong> (AB)ᵢⱼ = A-এর i সারির সঙ্গে B-এর j কলামের ডট প্রোডাক্ট।</p>
+<h3>সমাধান করা উদাহরণ</h3><div class="exbox"><p><strong>ইনপুটসমূহ:</strong> A = [[1, 2, 3], [0, 1, 4], [5, 6, 0]].</p><p><strong>ধাপসমূহ (নির্ণায়ক):</strong> প্রথম সারি বরাবর বিস্তৃত করুন: 1 × (1×0 − 4×6) − 2 × (0×0 − 4×5) + 3 × (0×6 − 1×5) = 1 × (−24) − 2 × (−20) + 3 × (−5) = −24 + 40 − 15 = <strong>1</strong>.</p><p><strong>ফলাফল:</strong> det(A) = <strong>1</strong>, এবং নির্ণায়ক 1 হওয়ায় বিপরীত ম্যাট্রিক্সটিতে পূর্ণ সংখ্যা রয়েছে: [[−24, 18, 5], [20, −15, −4], [−5, 4, 1]]। A-কে এটি দিয়ে গুণ করলে 3×3 অভেদ ম্যাট্রিক্স পাওয়া যায়।</p></div>
+
+</section>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">এই ক্যালকুলেটরটি আপনার ওয়েবসাইটে এম্বেড করুন — বিনামূল্যে</h2>
+<p style="margin:0 0 12px;line-height:1.6">এই calculator আপনার নিজের website বা blog-এ যোগ করুন — এটি সম্পূর্ণ free, কোনো sign-up লাগে না, এবং সবসময় সর্বশেষ version দেখায়। নিচের code copy করুন এবং আপনার পেজে যেখানে calculator দেখাতে চান সেখানে paste করুন। Embed-এর নিচে ছোট &ldquo;Powered by Loona Automation&rdquo; credit line রাখা এই tool-কে free রাখতে সাহায্য করে &mdash; কিন্তু আপনি এটি style করতে বা সরিয়ে ফেলতে স্বাধীন; tool যেভাবেই হোক কাজ করে।</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/bn/matrix-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Matrix Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;দ্বারা চালিত &lt;a href="https://loonaautomation.github.io/loona-calculators/bn/matrix-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; বিনামূল্যে Matrix ক্যালকুলেটর&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">এম্বেড কোড কপি করুন</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='এম্বেড কোড কপি করুন';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>জনপ্রিয় ক্যালকুলেটর</h4><ul><li><a href="../age-calculator/">বয়স ক্যালকুলেটর</a></li>
+<li><a href="../zakat-calculator/">যাকাত ক্যালকুলেটর</a></li>
+<li><a href="../cgpa-calculator/">CGPA ক্যালকুলেটর</a></li>
+<li><a href="../percentage-calculator/">শতাংশ ক্যালকুলেটর</a></li>
+<li><a href="../hijri-date-converter/">হিজরি তারিখ কনভার্টার</a></li>
+<li><a href="../emi-calculator/">EMI ও ঋণ ক্যালকুলেটর</a></li></ul></div>
+<div><h4>আরও Loona টুল</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR কোড</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona ছবি সংকোচক</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI সহকারী</a></li>
+<li><a href="https://loonaautomation.github.io/">সব Loona Tools</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">About</a></li>
+<li><a href="../contact.html">যোগাযোগ</a></li>
+<li><a href="../privacy-policy.html">গোপনীয়তা নীতি</a></li>
+<li><a href="../terms.html">ব্যবহারের শর্তাবলি</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — একটি <a href="https://loonaautomation.github.io/">Loona Automation</a> প্রকল্প। ফ্রি অনলাইন ক্যালকুলেটর, সাইনআপ নেই।
+যোগাযোগ: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+function matAdd(A,B){return A.map(function(r,i){return r.map(function(v,j){return v+B[i][j];});});}
+function matSub(A,B){return A.map(function(r,i){return r.map(function(v,j){return v-B[i][j];});});}
+function matMul(A,B){var n=A.length,out=[];for(var i=0;i<n;i++){out.push([]);for(var j=0;j<n;j++){var s=0;for(var k=0;k<n;k++)s+=A[i][k]*B[k][j];out[i].push(s);}}return out;}
+function matDet(A){
+  if(A.length===2)return A[0][0]*A[1][1]-A[0][1]*A[1][0];
+  var a=A[0][0],b=A[0][1],c=A[0][2],d=A[1][0],e=A[1][1],f=A[1][2],g=A[2][0],h=A[2][1],i=A[2][2];
+  return a*(e*i-f*h)-b*(d*i-f*g)+c*(d*h-e*g);
+}
+function matInverse(A){
+  var n=A.length, det=matDet(A);
+  if(Math.abs(det)<1e-12)return null;
+  var M=A.map(function(r,i){return r.concat(A.map(function(_,j){return i===j?1:0;}));});
+  for(var col=0;col<n;col++){
+    var piv=col; for(var r=col+1;r<n;r++)if(Math.abs(M[r][col])>Math.abs(M[piv][col]))piv=r;
+    if(Math.abs(M[piv][col])<1e-12)return null;
+    var tmp=M[col];M[col]=M[piv];M[piv]=tmp;
+    var dv=M[col][col]; for(var j=0;j<2*n;j++)M[col][j]/=dv;
+    for(var r2=0;r2<n;r2++){ if(r2===col)continue; var f=M[r2][col]; for(var j2=0;j2<2*n;j2++)M[r2][j2]-=f*M[col][j2]; }
+  }
+  return M.map(function(r){return r.slice(n);});
+}
+/*TESTABLE_END*/
+function mxRead(prefix,size){
+  var M=[];
+  for(var r=0;r<size;r++){M.push([]);for(var c=0;c<size;c++){
+    var el=document.querySelector('.mxin[data-m="'+prefix+'"][data-r="'+r+'"][data-c="'+c+'"][data-size="'+size+'"]');
+    M[r].push(parseFloat(el.value)||0);
+  }}
+  return M;
+}
+function mxShow(M){
+  var h='<table class="mxout">';
+  M.forEach(function(row){h+='<tr>'+row.map(function(v){var s=(Math.round(v*10000)/10000).toString();return '<td>'+s+'</td>';}).join("")+'</tr>';});
+  return h+'</table>';
+}
+document.getElementById('mxSize').addEventListener('change',function(){
+  var size=this.value;
+  document.querySelectorAll('.mxgrid').forEach(function(g){g.style.display=g.getAttribute('data-mx').slice(1)===size?'grid':'none';});
+});
+document.getElementById('mxForm').addEventListener('submit',function(e){e.preventDefault();
+ var size=parseInt(document.getElementById('mxSize').value,10);
+ var A=mxRead('a',size), B=mxRead('b',size), op=document.getElementById('mxOp').value;
+ var box=document.getElementById('mxResult'); box.style.display='block';
+ if(op==='add')box.innerHTML='<div class="resbig"><span>A + B</span><strong></strong></div>'+mxShow(matAdd(A,B));
+ else if(op==='sub')box.innerHTML='<div class="resbig"><span>A − B</span><strong></strong></div>'+mxShow(matSub(A,B));
+ else if(op==='mul')box.innerHTML='<div class="resbig"><span>A × B</span><strong></strong></div>'+mxShow(matMul(A,B));
+ else if(op==='det')box.innerHTML='<div class="resbig"><span>A-এর নির্ধারক</span><strong>'+(Math.round(matDet(A)*10000)/10000)+'</strong></div>';
+ else{var inv=matInverse(A);
+   if(!inv)box.innerHTML='<p class="err">ম্যাট্রিক্স A একক (determinant = 0), তাই এর কোনো বিপরীত নেই।</p>';
+   else box.innerHTML='<div class="resbig"><span>A-এর বিপরীত</span><strong>det = '+(Math.round(matDet(A)*10000)/10000)+'</strong></div>'+mxShow(inv)+'<p class="resnote">যাচাই: A × A⁻¹ অভেদ ম্যাট্রিক্স দেয়।</p>';}
+});
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' অ্যাপ ইনস্টল করুন';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('এই অ্যাপটি ইনস্টল করুন: শেয়ার বোতামে ট্যাপ করুন, তারপর "Add to Home Screen" বেছে নিন।');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

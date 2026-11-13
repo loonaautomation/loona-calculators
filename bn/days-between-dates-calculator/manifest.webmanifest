@@ -1,0 +1,29 @@
+{
+  "name": "Loona তারিখগুলোর মধ্যবর্তী দিন ক্যালকুলেটর",
+  "short_name": "দুটি তারিখের মধ্যে দিনের ক্যালকুলেটর",
+  "description": "বিনামূল্যে তারিখের মধ্যে দিন ক্যালকুলেটর: যেকোনো দুটি তারিখের মধ্যে দিন, সপ্তাহ ও বছরের সঠিক সংখ্যা গণনা করুন। সময়সীমা, ভিসা, চুক্তি ও কাউন্টডাউনের জন্য কার্যকর।",
+  "id": "/loona-calculators/bn/days-between-dates-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

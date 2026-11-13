@@ -1,0 +1,29 @@
+{
+  "name": "Loona লটারি নম্বর জেনারেটর",
+  "short_name": "লটারি সংখ্যা জেনারেটর",
+  "description": "Powerball, Mega Millions, EuroMillions ও UK Lotto-র জন্য প্রিসেটসহ বিনামূল্যে লটারি সংখ্যা জেনারেটর, সঙ্গে যেকোনো লটারির জন্য একটি কাস্টম মোড। নিরাপদ এলোমেলো বাছাই।",
+  "id": "/loona-calculators/bn/lottery-number-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

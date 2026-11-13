@@ -1,0 +1,29 @@
+{
+  "name": "Loona হেক্সাডেসিমাল থেকে দশমিক রূপান্তরকারী",
+  "short_name": "হেক্সাডেসিমাল থেকে দশমিক",
+  "description": "হেক্সাডেসিমাল (ভিত্তি 16) কে ডেসিমাল (ভিত্তি 10)-তে রূপান্তর করুন, সঙ্গে যাচাই, স্থানীয় মানের হিসাব এবং একটি রেফারেন্স সারণি।",
+  "id": "/loona-calculators/bn/hexadecimal-to-decimal-converter.html",
+  "start_url": "./hexadecimal-to-decimal-converter.html",
+  "scope": "./hexadecimal-to-decimal-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

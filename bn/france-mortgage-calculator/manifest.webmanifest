@@ -1,0 +1,29 @@
+{
+  "name": "Loona ফ্রান্স মর্গেজ ক্যালকুলেটর",
+  "short_name": "ফ্রান্স মর্টগেজ ক্যালকুলেটর",
+  "description": "ইউরোতে বিনামূল্যে France মর্টগেজ ক্যালকুলেটর: ঐচ্ছিক ঋণগ্রহীতা বীমা (assurance emprunteur) সহ মাসিক পরিশোধ, মোট সুদ এবং যেকোনো মূল্য, জমা, হার ও মেয়াদের জন্য ঋণমুক্তির তারিখ।",
+  "id": "/loona-calculators/bn/france-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

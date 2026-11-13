@@ -1,0 +1,29 @@
+{
+  "name": "Loona GPA থেকে শতাংশ রূপান্তরকারী",
+  "short_name": "GPA থেকে শতাংশ কনভার্টার",
+  "description": "GPA কে শতকরা হারে এবং উল্টোভাবে রূপান্তর করুন: মার্কিন 4.0 স্কেলের ব্যান্ড, ভারতের CBSE (CGPA × 9.5), ভারতীয় বিশ্ববিদ্যালয় (× 10) এবং যুক্তরাজ্যের ডিগ্রি শ্রেণিবিভাগ, প্রতিটি আলাদাভাবে চিহ্নিত।",
+  "id": "/loona-calculators/bn/gpa-to-percentage/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona রৈখিক রিগ্রেশন ক্যালকুলেটর",
+  "short_name": "রৈখিক রিগ্রেশন ক্যালকুলেটর",
+  "description": "বিনামূল্যে রৈখিক রিগ্রেশন ক্যালকুলেটর: লঘিষ্ঠ-বর্গ রেখা y = a + bx, সম্পর্ক, পূর্বাভাস, এবং আঁকা ফিট করা রেখাসহ একটি ছড়ানো প্লট পেতে জোড়া ডেটা পেস্ট করুন।",
+  "id": "/loona-calculators/bn/linear-regression-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

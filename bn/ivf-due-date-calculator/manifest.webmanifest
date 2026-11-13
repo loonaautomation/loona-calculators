@@ -1,0 +1,29 @@
+{
+  "name": "Loona IVF নির্ধারিত তারিখ ক্যালকুলেটর",
+  "short_name": "IVF প্রসবের তারিখ ক্যালকুলেটর",
+  "description": "বিনামূল্যে IVF প্রসবের তারিখ ক্যালকুলেটর: আপনার আনুমানিক প্রসবের তারিখ ও বর্তমান গর্ভকালীন বয়স পেতে আপনার ভ্রূণ স্থানান্তরের তারিখ ও ভ্রূণের বয়স (day 3 বা day 5) লিখুন।",
+  "id": "/loona-calculators/bn/ivf-due-date-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

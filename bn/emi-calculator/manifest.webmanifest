@@ -1,0 +1,29 @@
+{
+  "name": "Loona EMI ক্যালকুলেটর",
+  "short_name": "EMI ক্যালকুলেটর",
+  "description": "বিনামূল্যে EMI ও ঋণ ক্যালকুলেটর: আপনার মাসিক পরিশোধ, মোট সুদ ও মোট পরিশোধ পেতে ঋণের পরিমাণ, সুদ বা মুনাফার হার ও মেয়াদ লিখুন। ব্যাংক ঋণ, গাড়ি ও ব্যক্তিগত ঋণের জন্য।",
+  "id": "/loona-calculators/bn/emi-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

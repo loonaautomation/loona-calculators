@@ -1,0 +1,29 @@
+{
+  "name": "Loona Zakat ক্যালকুলেটর",
+  "short_name": "যাকাত ক্যালকুলেটর",
+  "description": "বিনামূল্যে যাকাত ক্যালকুলেটর: নগদ, ব্যাংক ব্যালান্স, সোনা, রূপা, ব্যবসায়িক পণ্য ও ঋণ — নিসাব যাচাই করুন এবং রুপিতে আপনার 2.5% যাকাত তাৎক্ষণিক হিসাব করুন। সহজ ও ব্যক্তিগত।",
+  "id": "/loona-calculators/bn/zakat-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona চাঁদের কলা ক্যালকুলেটর",
+  "short_name": "Moon Phase ক্যালকুলেটর",
+  "description": "বিনামূল্যে চাঁদের পর্যায় ক্যালকুলেটর: চাঁদের পর্যায়ের নাম, আলোকসজ্জার শতাংশ, চাঁদের বয়স এবং পরবর্তী অমাবস্যা ও পূর্ণিমা পর্যন্ত দিন দেখতে যেকোনো তারিখ লিখুন।",
+  "id": "/loona-calculators/bn/moon-phase-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

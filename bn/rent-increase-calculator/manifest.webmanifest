@@ -1,0 +1,29 @@
+{
+  "name": "Loona ভাড়া বৃদ্ধি ক্যালকুলেটর",
+  "short_name": "ভাড়া বৃদ্ধি ক্যালকুলেটর",
+  "description": "বিনামূল্যে ভাড়া বৃদ্ধি ক্যালকুলেটর: নতুন মাসিক ভাড়া, প্রতি মাস ও বছরে অতিরিক্ত খরচ, এবং একটি বছর-বাই-বছর অনুমান দেখতে আপনার বর্তমান ভাড়া ও শতাংশ বৃদ্ধি (বা নতুন ভাড়া) লিখুন।",
+  "id": "/loona-calculators/bn/rent-increase-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

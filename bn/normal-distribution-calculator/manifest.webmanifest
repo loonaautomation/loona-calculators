@@ -1,0 +1,29 @@
+{
+  "name": "Loona স্বাভাবিক বণ্টন ক্যালকুলেটর",
+  "short_name": "স্বাভাবিক বিন্যাস ক্যালকুলেটর",
+  "description": "বিনামূল্যে স্বাভাবিক বণ্টন ক্যালকুলেটর: যেকোনো গড় ও আদর্শ বিচ্যুতির জন্য, P(X<x), P(X>x), P(a<X<b), এবং একটি প্রদত্ত পার্সেন্টাইলে মান খুঁজুন।",
+  "id": "/loona-calculators/bn/normal-distribution-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

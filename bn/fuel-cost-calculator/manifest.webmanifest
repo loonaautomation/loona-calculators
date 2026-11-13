@@ -1,0 +1,29 @@
+{
+  "name": "Loona জ্বালানি খরচ ক্যালকুলেটর",
+  "short_name": "জ্বালানি খরচ ক্যালকুলেটর",
+  "description": "বিনামূল্যে জ্বালানি খরচ ক্যালকুলেটর: প্রয়োজনীয় লিটার ও মোট ভ্রমণ খরচ পেতে দূরত্ব, যানবাহনের মাইলেজ ও জ্বালানির মূল্য লিখুন, যাওয়া-আসার বিকল্পসহ।",
+  "id": "/loona-calculators/bn/fuel-cost-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

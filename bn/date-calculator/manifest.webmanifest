@@ -1,0 +1,29 @@
+{
+  "name": "Loona তারিখ ক্যালকুলেটর",
+  "short_name": "তারিখ ক্যালকুলেটর",
+  "description": "বিনামূল্যে তারিখ ক্যালকুলেটর: যেকোনো তারিখ থেকে দিন, সপ্তাহ, মাস ও বছর যোগ বা বিয়োগ করুন এবং ফলাফল তারিখটি তার সপ্তাহের দিনসহ পান। সময়সীমা, ভিসা ও পরিকল্পনা।",
+  "id": "/loona-calculators/bn/date-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

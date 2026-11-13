@@ -1,0 +1,29 @@
+{
+  "name": "Loona স্থায়ী আমানত ক্যালকুলেটর",
+  "short_name": "স্থায়ী আমানত ক্যালকুলেটর",
+  "description": "বিনামূল্যে স্থায়ী আমানত (FD) ক্যালকুলেটর: জমার পরিমাণ, সুদের হার, মেয়াদ ও চক্রবৃদ্ধির ফ্রিকোয়েন্সি — মেয়াদপূর্তি মূল্য ও অর্জিত মোট সুদ পান।",
+  "id": "/loona-calculators/bn/fixed-deposit-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona গ্রাফিং ক্যালকুলেটর",
+  "short_name": "গ্রাফিং ক্যালকুলেটর",
+  "description": "বিনামূল্যে গ্রাফিং ক্যালকুলেটর: জুমসহ একটি গ্রিডে x^2, sin(x) বা 2x+3-এর মতো একটি বা দুটি ফাংশন প্লট করুন। আপনার ব্রাউজারেই কাজ করে, সাইন-আপ ছাড়াই।",
+  "id": "/loona-calculators/bn/graphing-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

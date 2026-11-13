@@ -1,0 +1,29 @@
+{
+  "name": "Loona GPA ক্যালকুলেটর",
+  "short_name": "GPA ক্যালকুলেটর",
+  "description": "বিনামূল্যে GPA ক্যালকুলেটর: আদর্শ 4.0 স্কেলে আপনার GPA পেতে অক্ষর গ্রেড (A থেকে F) ও ক্রেডিট আওয়ারসহ সর্বোচ্চ 8টি কোর্স লিখুন। দ্রুত, ব্যক্তিগত, সাইনআপ ছাড়াই।",
+  "id": "/loona-calculators/bn/gpa-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

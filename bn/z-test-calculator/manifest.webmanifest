@@ -1,0 +1,29 @@
+{
+  "name": "Loona ওয়ান-স্যাম্পল Z-টেস্ট ক্যালকুলেটর",
+  "short_name": "একটি-নমুনা Z-পরীক্ষা ক্যালকুলেটর",
+  "description": "বিনামূল্যে one-sample z-test ক্যালকুলেটর: নমুনা গড়, পরিচিত জনসংখ্যার SD, n ও অনুমান করা গড় z পরিসংখ্যান ও p-মান দেয়। পাঠ্যবই-যাচাইকৃত।",
+  "id": "/loona-calculators/bn/z-test-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

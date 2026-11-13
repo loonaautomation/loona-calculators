@@ -1,0 +1,29 @@
+{
+  "name": "Loona সম্ভাবনা ক্যালকুলেটর",
+  "short_name": "সম্ভাবনা ক্যালকুলেটর",
+  "description": "বিনামূল্যে সম্ভাবনা ক্যালকুলেটর: A ও B-এর সম্ভাবনা, A বা B, কোনোটিই নয় ও ঠিক একটি; অডস রূপান্তর; সমন্বয় ও বিন্যাস। সূত্র ও উদাহরণসহ।",
+  "id": "/loona-calculators/bn/probability-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

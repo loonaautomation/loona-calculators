@@ -1,0 +1,29 @@
+{
+  "name": "Loona Z-Score ক্যালকুলেটর",
+  "short_name": "Z-Score ক্যালকুলেটর",
+  "description": "বিনামূল্যে z-score ক্যালকুলেটর: z-score, পার্সেন্টাইল ও প্রমিত স্বাভাবিক সারণি (স্বাভাবিক বণ্টন) থেকে সম্ভাবনা পেতে একটি মান, গড় ও আদর্শ বিচ্যুতি লিখুন।",
+  "id": "/loona-calculators/bn/z-score-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona ব্রেক-ইভেন ক্যালকুলেটর",
+  "short_name": "ব্রেক-ইভেন ক্যালকুলেটর",
+  "description": "বিনামূল্যে break-even ক্যালকুলেটর: সমচ্ছেদে পৌঁছাতে আপনাকে কতগুলি ইউনিট বিক্রি করতে হবে, এবং কত রাজস্বে, তা জানতে স্থির খরচ, বিক্রয় মূল্য ও প্রতি ইউনিট পরিবর্তনশীল খরচ লিখুন।",
+  "id": "/loona-calculators/bn/break-even-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

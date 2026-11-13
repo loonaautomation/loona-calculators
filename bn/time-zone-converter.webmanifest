@@ -1,0 +1,29 @@
+{
+  "name": "Loona সময় Zone কনভার্টার",
+  "short_name": "সময় অঞ্চল রূপান্তরক",
+  "description": "বিশ্বের 60 জোড়া শহরের মধ্যে সময় রূপান্তর করুন, ঋতুভেদে পার্থক্য, 2026 সালের দিবালোক সাশ্রয়ের তারিখ এবং মিটিং মিলে যাওয়ার সময়সীমাসহ।",
+  "id": "/loona-calculators/bn/time-zone-converter.html",
+  "start_url": "./time-zone-converter.html",
+  "scope": "./time-zone-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

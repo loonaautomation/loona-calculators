@@ -1,0 +1,29 @@
+{
+  "name": "Loona SIP ক্যালকুলেটর",
+  "short_name": "SIP ক্যালকুলেটর",
+  "description": "বিনামূল্যে SIP ক্যালকুলেটর: আপনার পরিকল্পনার ভবিষ্যৎ মূল্য, মোট বিনিয়োগ ও আনুমানিক লাভ অনুমান করতে একটি মাসিক বিনিয়োগ, প্রত্যাশিত বার্ষিক রিটার্ন ও বছর লিখুন।",
+  "id": "/loona-calculators/bn/sip-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

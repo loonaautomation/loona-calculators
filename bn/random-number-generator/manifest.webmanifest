@@ -1,0 +1,29 @@
+{
+  "name": "Loona এলোমেলো সংখ্যা জেনারেটর",
+  "short_name": "র‍্যান্ডম সংখ্যা জেনারেটর",
+  "description": "নিরাপদ ব্রাউজার এলোমেলোকরণ ব্যবহার করে বিনামূল্যে এলোমেলো সংখ্যা জেনারেটর। যেকোনো পরিসরে সংখ্যা বেছে নিন, কতগুলি তা বেছে নিন, শুধুমাত্র অনন্য সংখ্যার বিকল্পসহ।",
+  "id": "/loona-calculators/bn/random-number-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

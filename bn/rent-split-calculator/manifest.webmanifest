@@ -1,0 +1,29 @@
+{
+  "name": "Loona ভাড়া ভাগ ক্যালকুলেটর",
+  "short_name": "ভাড়া ভাগ ক্যালকুলেটর",
+  "description": "বিনামূল্যে ভাড়া ভাগ ক্যালকুলেটর: 2 থেকে 8 রুমমেটের মধ্যে মাসিক ভাড়া ভাগ করুন — সমানভাবে, বর্গফুটে ঘরের আকার অনুযায়ী, বা আয় অনুযায়ী। ভাগগুলো সবসময় ঠিক মোটের সঙ্গে যোগ হয়।",
+  "id": "/loona-calculators/bn/rent-split-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

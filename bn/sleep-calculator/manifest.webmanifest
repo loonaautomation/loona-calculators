@@ -1,0 +1,29 @@
+{
+  "name": "Loona ঘুম ক্যালকুলেটর",
+  "short_name": "ঘুমের ক্যালকুলেটর",
+  "description": "বিনামূল্যে ঘুম ক্যালকুলেটর: সেরা শোয়ার সময় পেতে একটি জাগার সময় লিখুন, বা সেরা জাগার সময় পেতে একটি শোয়ার সময় — 90-মিনিটের ঘুম চক্র ও ঘুমিয়ে পড়ার সময়ের উপর ভিত্তি করে।",
+  "id": "/loona-calculators/bn/sleep-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

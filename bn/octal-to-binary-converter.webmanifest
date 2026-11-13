@@ -1,0 +1,29 @@
+{
+  "name": "Loona অক্টাল থেকে বাইনারি রূপান্তরকারী",
+  "short_name": "অক্টাল থেকে বাইনারি কনভার্টার",
+  "description": "অক্টাল (বেস 8) থেকে বাইনারি (বেস 2) রূপান্তর করুন, সঙ্গে যাচাই, স্থান-মানের হিসাব এবং একটি রেফারেন্স টেবিল।",
+  "id": "/loona-calculators/bn/octal-to-binary-converter.html",
+  "start_url": "./octal-to-binary-converter.html",
+  "scope": "./octal-to-binary-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

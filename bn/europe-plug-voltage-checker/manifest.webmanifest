@@ -1,0 +1,29 @@
+{
+  "name": "Loona ইউরোপ প্লাগ ও ভোল্টেজ যাচাইকারী",
+  "short_name": "Europe প্লাগ ও ভোল্টেজ যাচাইকারী",
+  "description": "বিনামূল্যে Europe প্লাগ ও ভোল্টেজ যাচাইকারী: একটি ইউরোপীয় দেশ বেছে নিন তার প্লাগ ধরন, ভোল্টেজ ও ফ্রিকোয়েন্সি দেখতে, এবং আপনার অ্যাডাপ্টার বা কনভার্টার লাগবে কিনা তা জানতে।",
+  "id": "/loona-calculators/bn/europe-plug-voltage-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

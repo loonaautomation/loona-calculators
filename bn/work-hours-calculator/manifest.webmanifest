@@ -1,0 +1,29 @@
+{
+  "name": "Loona Work ঘণ্টা ক্যালকুলেটর",
+  "short_name": "কর্মঘণ্টা ক্যালকুলেটর",
+  "description": "বিনামূল্যে কাজের ঘণ্টা ক্যালকুলেটর: শুরু, শেষ ও অবৈতনিক বিরতি প্রতিদিন ও প্রতি সপ্তাহে নিট ঘণ্টা দেয় — সঙ্গে আপনি একটি ঘণ্টা প্রতি হার যোগ করলে দৈনিক ও সাপ্তাহিক বেতন। রাতের শিফট সমর্থিত।",
+  "id": "/loona-calculators/bn/work-hours-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

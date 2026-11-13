@@ -1,0 +1,29 @@
+{
+  "name": "Loona ওয়ান-স্যাম্পল T-টেস্ট ক্যালকুলেটর",
+  "short_name": "একটি-নমুনা T-পরীক্ষা ক্যালকুলেটর",
+  "description": "বিনামূল্যে one-sample t-test ক্যালকুলেটর: t পরিসংখ্যান, স্বাধীনতার মাত্রা ও p-মান পেতে নমুনা গড়, SD, n ও অনুমান করা গড় লিখুন।",
+  "id": "/loona-calculators/bn/t-test-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

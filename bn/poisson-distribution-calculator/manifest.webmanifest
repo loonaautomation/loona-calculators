@@ -1,0 +1,29 @@
+{
+  "name": "Loona পোয়াসোঁ বণ্টন ক্যালকুলেটর",
+  "short_name": "পয়সন বণ্টন",
+  "description": "বিনামূল্যে Poisson বণ্টন ক্যালকুলেটর: গড় হার lambda দেওয়া থাকলে ঠিক kটি ঘটনা, সর্বোচ্চ kটি, বা কমপক্ষে kটি ঘটনার সম্ভাবনা। কল, আগমন, ত্রুটি ও বিরল ঘটনার জন্য।",
+  "id": "/loona-calculators/bn/poisson-distribution-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

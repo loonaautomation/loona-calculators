@@ -1,0 +1,29 @@
+{
+  "name": "Loona চক্রবৃদ্ধি সুদ ক্যালকুলেটর",
+  "short_name": "চক্রবৃদ্ধি সুদ ক্যালকুলেটর",
+  "description": "বিনামূল্যে চক্রবৃদ্ধি সুদ ক্যালকুলেটর: বার্ষিক, ত্রৈমাসিক, মাসিক বা দৈনিক চক্রবৃদ্ধিতে আপনার টাকা কীভাবে বাড়ে দেখুন, ঐচ্ছিক মাসিক জমা ও বছর-বাই-বছর সারণিসহ।",
+  "id": "/loona-calculators/bn/compound-interest-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

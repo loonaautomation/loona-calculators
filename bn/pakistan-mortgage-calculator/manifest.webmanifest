@@ -1,0 +1,29 @@
+{
+  "name": "Loona পাকিস্তান মর্টগেজ ক্যালকুলেটর",
+  "short_name": "পাকিস্তান বন্ধকী ঋণ ক্যালকুলেটর",
+  "description": "রুপিতে বিনামূল্যে Pakistan হাউস ফাইন্যান্স ক্যালকুলেটর: হ্রাসমান ব্যালান্সে মাসিক কিস্তি, মোট মার্কআপ এবং যেকোনো সম্পত্তির মূল্য, জমা, হার ও মেয়াদের জন্য ঋণমুক্তির তারিখ।",
+  "id": "/loona-calculators/bn/pakistan-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

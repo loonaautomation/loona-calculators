@@ -1,0 +1,29 @@
+{
+  "name": "Loona এলোমেলো দল জেনারেটর",
+  "short_name": "র‍্যান্ডম টিম জেনারেটর",
+  "description": "বিনামূল্যে এলোমেলো দল জেনারেটর: নামের একটি তালিকা পেস্ট করুন এবং খেলাধুলা, ক্লাস, গেম ও কর্মশালার জন্য সেগুলোকে ভারসাম্যপূর্ণ এলোমেলো দলে ভাগ করুন। ন্যায্য শাফল, সাইন-আপ ছাড়াই।",
+  "id": "/loona-calculators/bn/random-team-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

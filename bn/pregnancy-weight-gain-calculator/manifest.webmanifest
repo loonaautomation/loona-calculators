@@ -1,0 +1,29 @@
+{
+  "name": "Loona গর্ভাবস্থা ওজন বৃদ্ধি ক্যালকুলেটর",
+  "short_name": "গর্ভাবস্থায় ওজন বৃদ্ধি",
+  "description": "বিনামূল্যে গর্ভাবস্থায় ওজন বৃদ্ধি ক্যালকুলেটর: আপনার গর্ভাবস্থার আগের BMI বিভাগের উপর ভিত্তি করে IOM প্রস্তাবিত মোট ও সপ্তাহে-সপ্তাহে ওজন বৃদ্ধির পরিসর। শুধুমাত্র শিক্ষামূলক নির্দেশিকা।",
+  "id": "/loona-calculators/bn/pregnancy-weight-gain-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

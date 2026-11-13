@@ -1,0 +1,29 @@
+{
+  "name": "Loona আদর্শ ওজন ক্যালকুলেটর",
+  "short_name": "আদর্শ ওজন ক্যালকুলেটর",
+  "description": "বিনামূল্যে আদর্শ ওজন ক্যালকুলেটর: আপনার আদর্শ ওজন (Devine সূত্র) ও আপনার উচ্চতার জন্য সম্পূর্ণ স্বাস্থ্যকর BMI ওজন পরিসর পেতে আপনার উচ্চতা ও লিঙ্গ লিখুন।",
+  "id": "/loona-calculators/bn/ideal-weight-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

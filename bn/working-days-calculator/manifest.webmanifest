@@ -1,0 +1,29 @@
+{
+  "name": "Loona কর্ম দিন ক্যালকুলেটর",
+  "short_name": "কর্মদিবস ক্যালকুলেটর",
+  "description": "বিনামূল্যে কর্মদিবস ক্যালকুলেটর: যেকোনো দুটি তারিখের মধ্যে মোট দিন, কর্মদিবস (সোমবার থেকে শুক্রবার) ও সাপ্তাহিক ছুটির দিন গণনা করুন। ছুটি, সময়সীমা ও প্রকল্প পরিকল্পনার জন্য।",
+  "id": "/loona-calculators/bn/working-days-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

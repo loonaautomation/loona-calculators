@@ -1,0 +1,29 @@
+{
+  "name": "Loona লগারিদম ক্যালকুলেটর",
+  "short_name": "লগারিদম ক্যালকুলেটর",
+  "description": "বিনামূল্যে লগারিদম ক্যালকুলেটর: যেকোনো ভিত্তির লগ খুঁজুন, সঙ্গে সাধারণ লগ (ভিত্তি 10), প্রাকৃতিক লগ (ln) ও বাইনারি লগ (ভিত্তি 2), প্রতিটি তার অ্যান্টিলগ দিয়ে যাচাই করা। ভিত্তি-পরিবর্তন সূত্র ব্যাখ্যা করা হয়েছে।",
+  "id": "/loona-calculators/bn/logarithm-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona ক্যালোরি ক্যালকুলেটর",
+  "short_name": "ক্যালরি ক্যালকুলেটর",
+  "description": "বিনামূল্যে ক্যালোরি ক্যালকুলেটর: ওজন কমানো, বজায় রাখা বা বাড়ানোর জন্য আপনার দৈনিক ক্যালোরি লক্ষ্য পেতে আপনার বিবরণ, কার্যকলাপ ও লক্ষ্য লিখুন — একটি নিরাপদ সর্বনিম্নসহ।",
+  "id": "/loona-calculators/bn/calorie-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

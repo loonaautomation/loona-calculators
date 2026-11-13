@@ -1,0 +1,29 @@
+{
+  "name": "Loona পিথাগোরাসের উপপাদ্য ক্যালকুলেটর",
+  "short_name": "পিথাগোরাসের উপপাদ্য ক্যালকুলেটর",
+  "description": "বিনামূল্যে পিথাগোরাস উপপাদ্য ক্যালকুলেটর: তৃতীয়টি — অতিভুজ বা বাহু — বের করতে একটি সমকোণী ত্রিভুজের যেকোনো দুটি বাহু লিখুন, কাজ দেখানোসহ।",
+  "id": "/loona-calculators/bn/pythagorean-theorem-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

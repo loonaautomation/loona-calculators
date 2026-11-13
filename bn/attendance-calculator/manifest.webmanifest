@@ -1,0 +1,29 @@
+{
+  "name": "Loona উপস্থিতি ক্যালকুলেটর",
+  "short_name": "উপস্থিতি ক্যালকুলেটর",
+  "description": "শিক্ষার্থীদের জন্য বিনামূল্যে উপস্থিতি ক্যালকুলেটর: আপনার উপস্থিতির শতাংশ, আপনি কতগুলি ক্লাস মিস করতে পারেন, বা আপনার লক্ষ্যে পৌঁছাতে কতগুলি ক্লাসে উপস্থিত থাকতে হবে তা পেতে অনুষ্ঠিত ও উপস্থিত ক্লাসের সংখ্যা লিখুন।",
+  "id": "/loona-calculators/bn/attendance-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

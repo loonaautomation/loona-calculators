@@ -1,0 +1,29 @@
+{
+  "name": "Loona দীর্ঘ ভাগ ক্যালকুলেটর",
+  "short_name": "দীর্ঘ ভাগ ক্যালকুলেটর",
+  "description": "প্রতিটি ধাপ দেখানো বিনামূল্যে দীর্ঘ ভাগ ক্যালকুলেটর: অবশিষ্ট বা দশমিকসহ সংখ্যা ভাগ করুন এবং সম্পূর্ণ লিখিত কাজ দেখুন, অঙ্কে অঙ্কে। শিক্ষার্থী ও শিক্ষকদের জন্য।",
+  "id": "/loona-calculators/bn/long-division-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
