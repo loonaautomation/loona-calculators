@@ -129,8 +129,8 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <nav>
 <a href="../">Forside</a>
 <a href="https://loonaautomation.github.io/">Loona Automation</a>
-<a href="../../about.html">Om</a>
-<a href="../../contact.html">Kontakt</a>
+<a href="../about.html">Om</a>
+<a href="../contact.html">Kontakt</a>
 </nav>
 </header>
 <div class="wrap">
@@ -141,7 +141,7 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <section class="txt"><h2>Sådan bruger du Elregningsberegner</h2><ol><li>Indtast de enheder, der er brugt denne måned (forskellen mellem måleraflæsninger).</li><li>Tjek taksttrinene — almindelige nyere takster er forudfyldt og kan erstattes med de takster, der står på din egen regning.</li><li>Tilføj eventuelt GST og andre gebyrer (såsom FPA), og tryk derefter på Beregn.</li></ol>
 <div class="exbox"><strong>Eksempel:</strong> For 300 enheder med de forudfyldte satser er energiomkostningen Rs 8,697, og med GST (18%) lagt til bliver regningen omkring Rs 10,262 (den faktiske regning afhænger af dit selskabs nyeste satser).</div>
 <h2>Ofte stillede spørgsmål</h2></section><div class="faq"><h3>Hvorfor er min faktiske regning anderledes?</h3><p>Satserne ændrer sig med offentlige meddelelser, brændstofprisjusteringer (FPA) og din forbrugerkategori (beskyttet/ubeskyttet). Indtast de satser, der står på din egen regning, for det tætteste skøn.</p></div><div class="faq"><h3>Hvad er en slab?</h3><p>Elektricitet opkræves i blokke: de første 100 enheder til én sats, de næste 100 til en højere sats, og så videre. Denne beregner anvender hvert trin korrekt.</p></div><div class="faq"><h3>Omfatter den FPA og faste gebyrer?</h3><p>Tilføj dem i feltet Andre gebyrer — de vises på din regning og varierer hver måned.</p></div>
-<h2 class="sec">Relaterede Beregnere</h2><div class="grid"><a class="card" href="../../emi-calculator"><div class="ic">🏦</div><h3>EMI- og låneberegner</h3><p>Penge og finans</p></a><a class="card" href="../../compound-interest-calculator"><div class="ic">📈</div><h3>Rentes rente</h3><p>Penge og finans</p></a><a class="card" href="../../salary-calculator"><div class="ic">💼</div><h3>Lønskatteberegner</h3><p>Penge og finans</p></a><a class="card" href="../../age-calculator"><div class="ic">📅</div><h3>Aldersberegner</h3><p>Dato & Tid</p></a><a class="card" href="../../discount-calculator"><div class="ic">🏷️</div><h3>Rabatberegner</h3><p>Penge og finans</p></a><a class="card" href="../../simple-interest-calculator"><div class="ic">💰</div><h3>Enkel rente</h3><p>Penge og finans</p></a></div>
+<h2 class="sec">Relaterede Beregnere</h2><div class="grid"><a class="card" href="../emi-calculator/"><div class="ic">🏦</div><h3>EMI- og låneberegner</h3><p>Penge og finans</p></a><a class="card" href="../compound-interest-calculator/"><div class="ic">📈</div><h3>Rentes rente</h3><p>Penge og finans</p></a><a class="card" href="../salary-calculator/"><div class="ic">💼</div><h3>Lønskatteberegner</h3><p>Penge og finans</p></a><a class="card" href="../age-calculator/"><div class="ic">📅</div><h3>Aldersberegner</h3><p>Dato & Tid</p></a><a class="card" href="../discount-calculator/"><div class="ic">🏷️</div><h3>Rabatberegner</h3><p>Penge og finans</p></a><a class="card" href="../simple-interest-calculator/"><div class="ic">💰</div><h3>Enkel rente</h3><p>Penge og finans</p></a></div>
 <section class="txt"><h2>Sådan fungerer det — formlen</h2><p>Indenlandsk elektricitet i Pakistan opkræves efter et progressivt trinsystem: dine enheder opdeles i blokke, og hver blok opkræves til sin egen sats — de første 100 enheder til den billigste sats, de næste 100 til en højere sats, og så videre. Beregneren fører dine enheder gennem de seks trin i rækkefølge, lægger GST til energiomkostningen og lægger derefter eventuelle andre gebyrer til, som du indtaster.</p><div class="exbox"><strong>Formel:</strong> Energiomkostning = (første 100 enheder × sats 1) + (næste 100 × sats 2) + (næste 100 × sats 3) + (næste 100 × sats 4) + (næste 300 × sats 5) + (enheder over 700 × sats 6) · Samlet regning = energiomkostning + GST + andre gebyrer</div><h3>Gennemregnet eksempel</h3><p>For 350 enheder til denne sides standardsatser pr. trin: 100 × Rs 23.51 = Rs 2,351, plus 100 × Rs 30.07 = Rs 3,007, plus 100 × Rs 33.39 = Rs 3,339, plus 50 × Rs 36.50 = Rs 1,825 — en energiomkostning på Rs 10,522. Tilføjelse af GST på 18% (Rs 1,893.96) og Rs 500 i andre gebyrer giver en anslået regning på Rs 12,915.96, et gennemsnit på Rs 36.90 pr. enhed.</p><h3>Ofte stillede spørgsmål</h3></section><div class="faq"><h3>Opkræves alle mine enheder til den højeste trinsats, jeg når?</h3><p>Nej — satstrinnene er progressive. Kun enhederne inden for et trin betaler det trins sats; i eksemplet ovenfor opkræves de første 100 enheder stadig til Rs 23.51, selvom husstanden nåede det fjerde trin.</p></div><div class="faq"><h3>Hvordan beregnes den gennemsnitlige sats pr. enhed?</h3><p>Det er den samlede regning divideret med de forbrugte enheder — Rs 12,915.96 ÷ 350 enheder = Rs 36.90 pr. enhed i det gennemarbejdede eksempel. Det er et nyttigt enkelt tal til at sammenligne én måned med en anden.</p></div><div class="faq"><h3>Hvad sker der, hvis jeg bruger mere end 700 enheder?</h3><p>Hver enhed over 700 opkræves til det sidste trins sats (Rs 41.20 ved standardværdierne). Det trin har ingen øvre grænse i denne beregner, så ethvert forbrug kan estimeres.</p></div><div class="faq"><h3>Standardsatserne er ikke mit firmas satser. Hvad skal jeg gøre?</h3><p>Skriv over dem. Hver trinsats, GST-procenten og feltet for øvrige gebyrer kan redigeres — kopiér trinsatserne fra din egen seneste regning (LESCO, IESCO, K-Electric eller et andet selskab) for at få det nærmeste skøn.</p></div><div class="faq"><h3>Kan jeg estimere min regning, før måleren aflæses?</h3><p>Ja. Træk din målers forrige aflæsning fra den aktuelle for at få de forbrugte enheder, og indtast det tal — estimatet opdateres med den samme trinvise matematik, som selve regningen bruger.</p></div>
 </div>
 <div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
@@ -156,22 +156,22 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 </script>
 <footer><div class="fin">
 <div class="cols">
-<div><h4>Populære Beregnere</h4><ul><li><a href="../../age-calculator">Aldersberegner</a></li>
-<li><a href="../../zakat-calculator">Zakatberegner</a></li>
-<li><a href="../../cgpa-calculator">CGPA-beregner</a></li>
-<li><a href="../../percentage-calculator">Procentberegner</a></li>
-<li><a href="../../hijri-date-converter">Hijri-datokonverter</a></li>
-<li><a href="../../emi-calculator">EMI- og låneberegner</a></li></ul></div>
+<div><h4>Populære Beregnere</h4><ul><li><a href="../age-calculator/">Aldersberegner</a></li>
+<li><a href="../zakat-calculator/">Zakatberegner</a></li>
+<li><a href="../cgpa-calculator/">CGPA-beregner</a></li>
+<li><a href="../percentage-calculator/">Procentberegner</a></li>
+<li><a href="../hijri-date-converter/">Hijri-datokonverter</a></li>
+<li><a href="../emi-calculator/">EMI- og låneberegner</a></li></ul></div>
 <div><h4>Flere Loona-værktøjer</h4><ul>
 <li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR-koder</a></li>
 <li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona billedkompressor</a></li>
 <li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI-assistent</a></li>
 <li><a href="https://loonaautomation.github.io/">Alle Loona-værktøjer</a></li></ul></div>
 <div><h4>Loona Calculators</h4><ul>
-<li><a href="../../about.html">Om</a></li>
-<li><a href="../../contact.html">Kontakt</a></li>
-<li><a href="../../privacy-policy.html">Privatlivspolitik</a></li>
-<li><a href="../../terms.html">Brugsbetingelser</a></li></ul></div>
+<li><a href="../about.html">Om</a></li>
+<li><a href="../contact.html">Kontakt</a></li>
+<li><a href="../privacy-policy.html">Privatlivspolitik</a></li>
+<li><a href="../terms.html">Brugsbetingelser</a></li></ul></div>
 </div>
 <div class="bar">© 2026 Loona Calculators — en <a href="https://loonaautomation.github.io/">Loona Automation</a> projekt. Gratis onlineberegnere, ingen tilmelding.
 Kontakt: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>

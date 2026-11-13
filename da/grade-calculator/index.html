@@ -129,8 +129,8 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <nav>
 <a href="../">Forside</a>
 <a href="https://loonaautomation.github.io/">Loona Automation</a>
-<a href="../../about.html">Om</a>
-<a href="../../contact.html">Kontakt</a>
+<a href="../about.html">Om</a>
+<a href="../contact.html">Kontakt</a>
 </nav>
 </header>
 <div class="wrap">
@@ -141,7 +141,7 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <section class="txt"><h2>Sådan bruger du Karakterberegner</h2><ol><li>Indtast scoren (%) og vægten (%) for hver opgave — lad ubrugte rækker stå tomme.</li><li>Vægte behøver ikke at lægge op til 100; resultatet normaliseres over det, du indtastede.</li><li>Tryk på Beregn — den samlede karakter og bogstavkarakteren vises nedenfor.</li></ol>
 <div class="exbox"><strong>Eksempel:</strong> Fire opgaver med scorerne 90, 80, 70 og 100 og vægtene 40, 30, 20 og 10 giver (3600 + 2400 + 1400 + 1000) ÷ 100 = 84% — en karakter A.</div>
 <h2>Ofte stillede spørgsmål</h2></section><div class="faq"><h3>Hvorfor behøver vægtene ikke at give 100 i alt?</h3><p>Fordi beregneren dividerer med den samlede vægt, du faktisk indtastede. At indtaste vægte på 40 og 10 er det samme som 80 og 20 — kun proportionerne betyder noget.</p></div><div class="faq"><h3>Hvilken bogstavskala bruges der?</h3><p>A+ fra 90%, A fra 80%, B fra 70%, C fra 60%, D fra 50% og F under 50%. Din skole bruger muligvis en anden skala — procenten er det tal, der overføres.</p></div><div class="faq"><h3>Kan jeg lade nogle rækker stå tomme?</h3><p>Ja — tomme rækker og rækker med en vægt på 0 ignoreres ganske enkelt.</p></div>
-<h2 class="sec">Relaterede Beregnere</h2><div class="grid"><a class="card" href="../../cgpa-calculator"><div class="ic">🎓</div><h3>CGPA-beregner</h3><p>Uddannelse</p></a><a class="card" href="../../marks-percentage-calculator"><div class="ic">📝</div><h3>Karakterprocent</h3><p>Uddannelse</p></a><a class="card" href="../../cgpa-to-percentage-calculator"><div class="ic">🔄</div><h3>CGPA → Procent</h3><p>Uddannelse</p></a><a class="card" href="../../age-calculator"><div class="ic">📅</div><h3>Aldersberegner</h3><p>Dato & Tid</p></a><a class="card" href="../../percentage-to-cgpa-calculator"><div class="ic">🔄</div><h3>Procent til CGPA Konverter</h3><p>Uddannelse</p></a></div>
+<h2 class="sec">Relaterede Beregnere</h2><div class="grid"><a class="card" href="../cgpa-calculator/"><div class="ic">🎓</div><h3>CGPA-beregner</h3><p>Uddannelse</p></a><a class="card" href="../marks-percentage-calculator/"><div class="ic">📝</div><h3>Karakterprocent</h3><p>Uddannelse</p></a><a class="card" href="../cgpa-to-percentage-calculator/"><div class="ic">🔄</div><h3>CGPA → Procent</h3><p>Uddannelse</p></a><a class="card" href="../age-calculator/"><div class="ic">📅</div><h3>Aldersberegner</h3><p>Dato & Tid</p></a><a class="card" href="../percentage-to-cgpa-calculator/"><div class="ic">🔄</div><h3>Procent til CGPA Konverter</h3><p>Uddannelse</p></a></div>
 </div>
 <section class="txt"><h2>Sådan fungerer det — formlen</h2><p>Beregneren laver et vægtet gennemsnit af dine opgavepoint. Hvert point (en procent) ganges med sin vægt, produkterne lægges sammen, og summen divideres med summen af de vægte, du har indtastet — ikke med 100. Derfor virker delvise oplysninger stadig: hvis du indtil videre kun er blevet bedømt på arbejde, der tæller 70% af faget, beregnes din nuværende karakter over de 70. Procenten omregnes derefter til et bogstav: A+ ved 90, A ved 80, B ved 70, C ved 60, D ved 50, F under 50.</p><p><strong>Formel:</strong> Samlet karakter = Σ (score × vægt) ÷ Σ vægte.</p><h3>Gennemregnet eksempel</h3><div class="exbox"><strong>Eksempel:</strong> Tre opgaver indtil videre: 88% med vægt 25, 76% med vægt 25 og 95% med vægt 20. Vægtede point = (88 × 25) + (76 × 25) + (95 × 20) = 2,200 + 1,900 + 1,900 = 6,000. Samlet vægt = 70. Samlet = 6,000 ÷ 70 = <strong>85.71% — karakteren A</strong>.</div><h3>Ofte stillede spørgsmål</h3></section><div class="faq"><h3>Hvordan kan jeg regne ud, hvad jeg har brug for til den afsluttende eksamen?</h3><p>Indtast dit gennemførte arbejde plus et gæt for finalens score, og juster gættet, indtil den samlede karakter matcher dit mål. Eller arbejd baglæns: de point, der stadig er brug for = (mål-% × samlet vægt af alt) − point allerede optjent, divideret med finalens vægt.</p></div><div class="faq"><h3>Kan vægte være point i stedet for procenter — f.eks. en eksamen, der er 200 værd?</h3><p>Ja. Vægtene behøver kun at være indbyrdes konsistente, fordi kun deres forhold betyder noget: vægte på 200 og 100 opfører sig nøjagtigt som 2 og 1. Det er scorerne, der skal være procenter mellem 0 og 100.</p></div><div class="faq"><h3>Hvad hvis jeg scorede over 100 med bonuspoint?</h3><p>Beregneren afviser point over 100, så begræns pointet til 100 (eller omskalér opgaven til en procent først). Det holder hver opgave på det samme 0–100-grundlag.</p></div><div class="faq"><h3>Hvor mange opgaver kan jeg indtaste?</h3><p>Op til 8 rækker. Hvis dit kursus har flere dele, så gruppér de små sammen først — læg deres vægtede point og vægte sammen i én enkelt række.</p></div><div class="faq"><h3>Hvad gør en række med vægt 0?</h3><p>Intet — rækker med en tom score eller en vægt på 0 springes helt over, så du trygt kan lade ekstra rækker stå.</p></div>
 <div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
@@ -156,22 +156,22 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 </script>
 <footer><div class="fin">
 <div class="cols">
-<div><h4>Populære Beregnere</h4><ul><li><a href="../../age-calculator">Aldersberegner</a></li>
-<li><a href="../../zakat-calculator">Zakatberegner</a></li>
-<li><a href="../../cgpa-calculator">CGPA-beregner</a></li>
-<li><a href="../../percentage-calculator">Procentberegner</a></li>
-<li><a href="../../hijri-date-converter">Hijri-datokonverter</a></li>
-<li><a href="../../emi-calculator">EMI- og låneberegner</a></li></ul></div>
+<div><h4>Populære Beregnere</h4><ul><li><a href="../age-calculator/">Aldersberegner</a></li>
+<li><a href="../zakat-calculator/">Zakatberegner</a></li>
+<li><a href="../cgpa-calculator/">CGPA-beregner</a></li>
+<li><a href="../percentage-calculator/">Procentberegner</a></li>
+<li><a href="../hijri-date-converter/">Hijri-datokonverter</a></li>
+<li><a href="../emi-calculator/">EMI- og låneberegner</a></li></ul></div>
 <div><h4>Flere Loona-værktøjer</h4><ul>
 <li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR-koder</a></li>
 <li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona billedkompressor</a></li>
 <li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI-assistent</a></li>
 <li><a href="https://loonaautomation.github.io/">Alle Loona-værktøjer</a></li></ul></div>
 <div><h4>Loona Calculators</h4><ul>
-<li><a href="../../about.html">Om</a></li>
-<li><a href="../../contact.html">Kontakt</a></li>
-<li><a href="../../privacy-policy.html">Privatlivspolitik</a></li>
-<li><a href="../../terms.html">Brugsbetingelser</a></li></ul></div>
+<li><a href="../about.html">Om</a></li>
+<li><a href="../contact.html">Kontakt</a></li>
+<li><a href="../privacy-policy.html">Privatlivspolitik</a></li>
+<li><a href="../terms.html">Brugsbetingelser</a></li></ul></div>
 </div>
 <div class="bar">© 2026 Loona Calculators — en <a href="https://loonaautomation.github.io/">Loona Automation</a> projekt. Gratis onlineberegnere, ingen tilmelding.
 Kontakt: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>

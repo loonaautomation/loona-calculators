@@ -130,8 +130,8 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <nav>
 <a href="../">Forside</a>
 <a href="https://loonaautomation.github.io/">Loona Automation</a>
-<a href="../../about.html">Om</a>
-<a href="../../contact.html">Kontakt</a>
+<a href="../about.html">Om</a>
+<a href="../contact.html">Kontakt</a>
 </nav>
 </header>
 <div class="wrap">
@@ -150,7 +150,7 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <section class="txt"><h2>Sådan bruger du Grafberegner</h2><ol><li>Indtast den første funktion, for eksempel x^2 - 4.</li><li>Indtast eventuelt en anden funktion til sammenligning i en anden farve.</li><li>Tryk på Plot, og brug derefter Zoom Ind / Zoom Ud eller Nulstil Visning.</li><li>Aflæs skæringspunkter og krydsninger fra gitteret — hver firkant er 1 enhed som standard.</li></ol>
 <div class="exbox"><strong>Eksempel:</strong> At plotte x^2 - 4 giver en parabel, der krydser x-aksen ved x = -2 og x = 2, med sit laveste punkt i (0, -4). At tilføje linjen 2x+3 viser, hvor kurven og linjen mødes.</div>
 <h2>Ofte stillede spørgsmål</h2></section><div class="faq"><h3>Hvilke udtryk kan jeg bruge?</h3><p>Tal, x, + − * / ^ og parenteser samt sin, cos, tan, sqrt, abs, log (base 10), ln, exp og konstanterne pi og e. Implicit multiplikation virker også: 2x, 3(x+1) og (x+1)(x-1) forstås alle.</p></div><div class="faq"><h3>Hvorfor har grafen for 1/x eller tan(x) brud visse steder?</h3><p>De funktioner springer mellem meget store positive og negative værdier ved en asymptote. Plotteren registrerer springet og løfter pennen i stedet for at tegne en falsk lodret linje.</p></div><div class="faq"><h3>Hvordan skriver jeg x i anden eller en potens?</h3><p>Brug hat-tegnet: x^2 betyder x i anden, x^3 i tredje, og x^0.5 er det samme som sqrt(x). Potenser er højreassociative, så 2^3^2 læses som 2^(3^2) = 512.</p></div><div class="faq"><h3>Hvilket interval viser grafen?</h3><p>Den starter ved x fra −10 til 10 og y fra −10 til 10. Hvert zoomtrin ganger området med omkring 0.7 (ind) eller 1.4 (ud).</p></div>
-<h2 class="sec">Relaterede Beregnere</h2><div class="grid"><a class="card" href="../../percentage-calculator"><div class="ic">％</div><h3>Procentberegner</h3><p>Matematik</p></a><a class="card" href="../../statistics-calculator"><div class="ic">📊</div><h3>Statistikberegner</h3><p>Matematik</p></a><a class="card" href="../../fraction-calculator"><div class="ic">½</div><h3>Brøkberegner</h3><p>Matematik</p></a><a class="card" href="../../equation-solver"><div class="ic">🧮</div><h3>Ligningsløser</h3><p>Matematik</p></a><a class="card" href="../../scientific-calculator"><div class="ic">🔬</div><h3>Videnskabelig lommeregner</h3><p>Matematik</p></a><a class="card" href="../../average-calculator"><div class="ic">📐</div><h3>Gennemsnitsberegner</h3><p>Matematik</p></a></div>
+<h2 class="sec">Relaterede Beregnere</h2><div class="grid"><a class="card" href="../percentage-calculator/"><div class="ic">％</div><h3>Procentberegner</h3><p>Matematik</p></a><a class="card" href="../statistics-calculator/"><div class="ic">📊</div><h3>Statistikberegner</h3><p>Matematik</p></a><a class="card" href="../fraction-calculator/"><div class="ic">½</div><h3>Brøkberegner</h3><p>Matematik</p></a><a class="card" href="../equation-solver/"><div class="ic">🧮</div><h3>Ligningsløser</h3><p>Matematik</p></a><a class="card" href="../scientific-calculator/"><div class="ic">🔬</div><h3>Videnskabelig lommeregner</h3><p>Matematik</p></a><a class="card" href="../average-calculator/"><div class="ic">📐</div><h3>Gennemsnitsberegner</h3><p>Matematik</p></a></div>
 </div>
 <section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>Sådan fungerer det — formlen</h2>
 <p>Plotteren opdeler hvert udtryk i tokens (tal, x, operatorer, funktioner), indsætter implicitte gangetegn (2x → 2*x) og evaluerer det med en rekursiv-nedstignings-parser, der respekterer den almindelige regnearternes rækkefølge: <strong>^ binder strammest og associerer til højre, derefter * og /, derefter + og −</strong>, med funktioner og parenteser først. Derefter samples funktionen ved 720 x-positioner på tværs af vinduet, og på hinanden følgende endelige punkter forbindes, idet der springes over huller, hvor funktionen er udefineret eller springer over en asymptote.</p>
@@ -169,22 +169,22 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 </script>
 <footer><div class="fin">
 <div class="cols">
-<div><h4>Populære Beregnere</h4><ul><li><a href="../../age-calculator">Aldersberegner</a></li>
-<li><a href="../../zakat-calculator">Zakatberegner</a></li>
-<li><a href="../../cgpa-calculator">CGPA-beregner</a></li>
-<li><a href="../../percentage-calculator">Procentberegner</a></li>
-<li><a href="../../hijri-date-converter">Hijri-datokonverter</a></li>
-<li><a href="../../emi-calculator">EMI- og låneberegner</a></li></ul></div>
+<div><h4>Populære Beregnere</h4><ul><li><a href="../age-calculator/">Aldersberegner</a></li>
+<li><a href="../zakat-calculator/">Zakatberegner</a></li>
+<li><a href="../cgpa-calculator/">CGPA-beregner</a></li>
+<li><a href="../percentage-calculator/">Procentberegner</a></li>
+<li><a href="../hijri-date-converter/">Hijri-datokonverter</a></li>
+<li><a href="../emi-calculator/">EMI- og låneberegner</a></li></ul></div>
 <div><h4>Flere Loona-værktøjer</h4><ul>
 <li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR-koder</a></li>
 <li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona billedkompressor</a></li>
 <li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI-assistent</a></li>
 <li><a href="https://loonaautomation.github.io/">Alle Loona-værktøjer</a></li></ul></div>
 <div><h4>Loona Calculators</h4><ul>
-<li><a href="../../about.html">Om</a></li>
-<li><a href="../../contact.html">Kontakt</a></li>
-<li><a href="../../privacy-policy.html">Privatlivspolitik</a></li>
-<li><a href="../../terms.html">Brugsbetingelser</a></li></ul></div>
+<li><a href="../about.html">Om</a></li>
+<li><a href="../contact.html">Kontakt</a></li>
+<li><a href="../privacy-policy.html">Privatlivspolitik</a></li>
+<li><a href="../terms.html">Brugsbetingelser</a></li></ul></div>
 </div>
 <div class="bar">© 2026 Loona Calculators — en <a href="https://loonaautomation.github.io/">Loona Automation</a> projekt. Gratis onlineberegnere, ingen tilmelding.
 Kontakt: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>

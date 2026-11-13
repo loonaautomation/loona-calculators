@@ -130,8 +130,8 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <nav>
 <a href="../">Forside</a>
 <a href="https://loonaautomation.github.io/">Loona Automation</a>
-<a href="../../about.html">Om</a>
-<a href="../../contact.html">Kontakt</a>
+<a href="../about.html">Om</a>
+<a href="../contact.html">Kontakt</a>
 </nav>
 </header>
 <div class="wrap">
@@ -150,7 +150,7 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <section class="txt"><h2>Sådan bruger du Chi-i-anden-testberegner</h2><ol><li>Vælg Uafhængighed (en tabel) eller Tilpasningsgrad.</li><li>Til en tabel skal du indtaste én række pr. linje med antal adskilt af mellemrum eller kommaer — alle rækker med samme længde.</li><li>Til goodness of fit skal du indtaste de observerede antal og de forventede antal i samme rækkefølge.</li><li>Aflæs χ², df, p og de forventede værdier, der blev brugt.</li></ol>
 <div class="exbox"><strong>Eksempel:</strong> En 2×2-tabel fra en undersøgelse [[10, 20], [20, 10]] (60 personer): χ² = 6.667, df = 1, p ≈ 0.0098 — det er usandsynligt, at de to variable er uafhængige.</div>
 <h2>Ofte stillede spørgsmål</h2></section><div class="faq"><h3>Hvad er frihedsgraderne?</h3><p>For uafhængighed: (rækker − 1) × (kolonner − 1). For goodness of fit: kategorier − 1 (minus eventuelle parametre estimeret ud fra dataene, hvilket denne beregner ikke gør).</p></div><div class="faq"><h3>Hvor store bør de forventede antal være?</h3><p>Den almindelige tommelfingerregel vil have, at de fleste forventede antal er mindst 5. Med bittesmå forventede antal svækkes chi-i-anden-approksimationen — Fishers eksakte test er det klassiske alternativ til små 2×2-tabeller.</p></div><div class="faq"><h3>Hvad fortæller et signifikant resultat mig?</h3><p>For uafhængighed: de to variabler er forbundne — ikke at den ene forårsager den anden. For goodness of fit: det observerede mønster afviger fra den forventede model mere, end tilfældigheder alene typisk ville frembringe.</p></div><div class="faq"><h3>Hvorfor viser beregneren den forventede tabel?</h3><p>Fordi kontrol af forventede antal er en del af at udføre testen ærligt — du kan se præcis, hvilke celler der driver statistikken.</p></div>
-<h2 class="sec">Relaterede Beregnere</h2><div class="grid"><a class="card" href="../../percentage-calculator"><div class="ic">％</div><h3>Procentberegner</h3><p>Matematik</p></a><a class="card" href="../../statistics-calculator"><div class="ic">📊</div><h3>Statistikberegner</h3><p>Matematik</p></a><a class="card" href="../../fraction-calculator"><div class="ic">½</div><h3>Brøkberegner</h3><p>Matematik</p></a><a class="card" href="../../equation-solver"><div class="ic">🧮</div><h3>Ligningsløser</h3><p>Matematik</p></a><a class="card" href="../../scientific-calculator"><div class="ic">🔬</div><h3>Videnskabelig lommeregner</h3><p>Matematik</p></a><a class="card" href="../../average-calculator"><div class="ic">📐</div><h3>Gennemsnitsberegner</h3><p>Matematik</p></a><a class="card" href="../../z-score-calculator"><div class="ic">🔔</div><h3>Z-scoreberegner</h3><p>Matematik</p></a><a class="card" href="../../probability-calculator"><div class="ic">🎲</div><h3>Sandsynlighedsberegner</h3><p>Matematik</p></a></div>
+<h2 class="sec">Relaterede Beregnere</h2><div class="grid"><a class="card" href="../percentage-calculator/"><div class="ic">％</div><h3>Procentberegner</h3><p>Matematik</p></a><a class="card" href="../statistics-calculator/"><div class="ic">📊</div><h3>Statistikberegner</h3><p>Matematik</p></a><a class="card" href="../fraction-calculator/"><div class="ic">½</div><h3>Brøkberegner</h3><p>Matematik</p></a><a class="card" href="../equation-solver/"><div class="ic">🧮</div><h3>Ligningsløser</h3><p>Matematik</p></a><a class="card" href="../scientific-calculator/"><div class="ic">🔬</div><h3>Videnskabelig lommeregner</h3><p>Matematik</p></a><a class="card" href="../average-calculator/"><div class="ic">📐</div><h3>Gennemsnitsberegner</h3><p>Matematik</p></a><a class="card" href="../z-score-calculator/"><div class="ic">🔔</div><h3>Z-scoreberegner</h3><p>Matematik</p></a><a class="card" href="../probability-calculator/"><div class="ic">🎲</div><h3>Sandsynlighedsberegner</h3><p>Matematik</p></a></div>
 </div>
 <section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>Sådan fungerer det — formlen</h2>
 <p><strong>χ² = Σ (O − E)² ÷ E</strong> over alle celler. For uafhængighed er E for en celle = (rækketotal × kolonnetotal) ÷ samlet total, og df = (r − 1)(c − 1). For goodness of fit leveres E-værdierne af modellen, og df = kategorier − 1. p-værdien er den højre hale af chi-i-anden-fordelingen, beregnet via den ufuldstændige gammafunktion.</p>
@@ -169,22 +169,22 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 </script>
 <footer><div class="fin">
 <div class="cols">
-<div><h4>Populære Beregnere</h4><ul><li><a href="../../age-calculator">Aldersberegner</a></li>
-<li><a href="../../zakat-calculator">Zakatberegner</a></li>
-<li><a href="../../cgpa-calculator">CGPA-beregner</a></li>
-<li><a href="../../percentage-calculator">Procentberegner</a></li>
-<li><a href="../../hijri-date-converter">Hijri-datokonverter</a></li>
-<li><a href="../../emi-calculator">EMI- og låneberegner</a></li></ul></div>
+<div><h4>Populære Beregnere</h4><ul><li><a href="../age-calculator/">Aldersberegner</a></li>
+<li><a href="../zakat-calculator/">Zakatberegner</a></li>
+<li><a href="../cgpa-calculator/">CGPA-beregner</a></li>
+<li><a href="../percentage-calculator/">Procentberegner</a></li>
+<li><a href="../hijri-date-converter/">Hijri-datokonverter</a></li>
+<li><a href="../emi-calculator/">EMI- og låneberegner</a></li></ul></div>
 <div><h4>Flere Loona-værktøjer</h4><ul>
 <li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR-koder</a></li>
 <li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona billedkompressor</a></li>
 <li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI-assistent</a></li>
 <li><a href="https://loonaautomation.github.io/">Alle Loona-værktøjer</a></li></ul></div>
 <div><h4>Loona Calculators</h4><ul>
-<li><a href="../../about.html">Om</a></li>
-<li><a href="../../contact.html">Kontakt</a></li>
-<li><a href="../../privacy-policy.html">Privatlivspolitik</a></li>
-<li><a href="../../terms.html">Brugsbetingelser</a></li></ul></div>
+<li><a href="../about.html">Om</a></li>
+<li><a href="../contact.html">Kontakt</a></li>
+<li><a href="../privacy-policy.html">Privatlivspolitik</a></li>
+<li><a href="../terms.html">Brugsbetingelser</a></li></ul></div>
 </div>
 <div class="bar">© 2026 Loona Calculators — en <a href="https://loonaautomation.github.io/">Loona Automation</a> projekt. Gratis onlineberegnere, ingen tilmelding.
 Kontakt: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>

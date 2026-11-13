@@ -130,8 +130,8 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <nav>
 <a href="../">Forside</a>
 <a href="https://loonaautomation.github.io/">Loona Automation</a>
-<a href="../../about.html">Om</a>
-<a href="../../contact.html">Kontakt</a>
+<a href="../about.html">Om</a>
+<a href="../contact.html">Kontakt</a>
 </nav>
 </header>
 <div class="wrap">
@@ -151,7 +151,7 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <section class="txt"><h2>Sådan bruger du BMI-percentilberegner for børn</h2><ol><li>Indtast barnets alder i år og måneder (alder 2 til 20).</li><li>Vælg dreng eller pige — CDC-kurverne er kønsspecifikke.</li><li>Indtast højde i cm og vægt i kg.</li><li>Aflæs BMI, dets percentil og z-score samt CDC-kategorien.</li></ol>
 <div class="exbox"><strong>Eksempel:</strong> En 10-årig dreng (120.5 måneder) med et BMI på 16.65 ligger præcis på CDC-medianen — 50-percentilen. Et BMI på 22.15 i samme alder er CDC's 95-percentil.</div>
 <h2>Ofte stillede spørgsmål</h2></section><div class="faq"><h3>Hvor kommer dataene fra?</h3><p>Den officielle CDC-vækstkurvedatafil (bmiagerev.csv, LMS-parametre efter køn og alder i måneder). Denne side indlejrer CDC's L-, M- og S-værdier hver 6. måned fra 24.5 til 240.5 måneder og interpolerer lineært mellem dem; percentiler ved tabellens egne punkter svarer til CDC's offentliggjorte percentiler.</p></div><div class="faq"><h3>Hvordan fungerer LMS-metoden?</h3><p>Hver alder/hvert køn har tre tal: L (skævhedspotens), M (median-BMI) og S (variation). Z-scoren er z = ((BMI ÷ M)^L − 1) ÷ (L × S), og percentilen er den standardnormale CDF af z. Det er den nøjagtige metode, CDC offentliggør.</p></div><div class="faq"><h3>Hvorfor ikke bruge BMI-kategorierne for voksne?</h3><p>Fordi børn stadig vokser: et BMI, der er sundt ved 16 år, kan være højt ved 8 år. Percentiler sammenligner et barn med referencepopulationen med samme alder og køn, og derfor bruger pædiatrisk praksis dem.</p></div><div class="faq"><h3>Skal jeg bekymre mig om ét resultat?</h3><p>En enkelt percentil er et screeningsøjebliksbillede, ikke en diagnose. Vækstmønstre over tid betyder mere. Drøft altid bekymringer med dit barns læge. Denne side er kun til undervisningsbrug.</p></div>
-<h2 class="sec">Relaterede Beregnere</h2><div class="grid"><a class="card" href="../../bmi-calculator"><div class="ic">⚖️</div><h3>BMI-beregner</h3><p>Sundhed</p></a><a class="card" href="../../calorie-calculator"><div class="ic">🍽️</div><h3>Kalorieberegner</h3><p>Sundhed</p></a><a class="card" href="../../ideal-weight-calculator"><div class="ic">🎯</div><h3>Idealvægtsberegner</h3><p>Sundhed</p></a></div>
+<h2 class="sec">Relaterede Beregnere</h2><div class="grid"><a class="card" href="../bmi-calculator/"><div class="ic">⚖️</div><h3>BMI-beregner</h3><p>Sundhed</p></a><a class="card" href="../calorie-calculator/"><div class="ic">🍽️</div><h3>Kalorieberegner</h3><p>Sundhed</p></a><a class="card" href="../ideal-weight-calculator/"><div class="ic">🎯</div><h3>Idealvægtsberegner</h3><p>Sundhed</p></a></div>
 </div>
 <section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>Sådan fungerer det — formlen</h2>
 <p>BMI = vægt (kg) ÷ højde (m)². Derefter CDC LMS-metoden: med L-, M- og S-værdierne for barnets køn og alder i måneder (interpoleret fra CDC-tabellen), <strong>z = ((BMI ÷ M)^L − 1) ÷ (L × S)</strong> og <strong>percentil = Φ(z) × 100</strong>, hvor Φ er standardnormalfordelingens kumulative fordeling. Kategorier (CDC): &lt; 5. undervægt; 5.–&lt;85. sund vægt; 85.–&lt;95. overvægt; ≥ 95. fedme.</p>
@@ -170,22 +170,22 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 </script>
 <footer><div class="fin">
 <div class="cols">
-<div><h4>Populære Beregnere</h4><ul><li><a href="../../age-calculator">Aldersberegner</a></li>
-<li><a href="../../zakat-calculator">Zakatberegner</a></li>
-<li><a href="../../cgpa-calculator">CGPA-beregner</a></li>
-<li><a href="../../percentage-calculator">Procentberegner</a></li>
-<li><a href="../../hijri-date-converter">Hijri-datokonverter</a></li>
-<li><a href="../../emi-calculator">EMI- og låneberegner</a></li></ul></div>
+<div><h4>Populære Beregnere</h4><ul><li><a href="../age-calculator/">Aldersberegner</a></li>
+<li><a href="../zakat-calculator/">Zakatberegner</a></li>
+<li><a href="../cgpa-calculator/">CGPA-beregner</a></li>
+<li><a href="../percentage-calculator/">Procentberegner</a></li>
+<li><a href="../hijri-date-converter/">Hijri-datokonverter</a></li>
+<li><a href="../emi-calculator/">EMI- og låneberegner</a></li></ul></div>
 <div><h4>Flere Loona-værktøjer</h4><ul>
 <li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR-koder</a></li>
 <li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona billedkompressor</a></li>
 <li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI-assistent</a></li>
 <li><a href="https://loonaautomation.github.io/">Alle Loona-værktøjer</a></li></ul></div>
 <div><h4>Loona Calculators</h4><ul>
-<li><a href="../../about.html">Om</a></li>
-<li><a href="../../contact.html">Kontakt</a></li>
-<li><a href="../../privacy-policy.html">Privatlivspolitik</a></li>
-<li><a href="../../terms.html">Brugsbetingelser</a></li></ul></div>
+<li><a href="../about.html">Om</a></li>
+<li><a href="../contact.html">Kontakt</a></li>
+<li><a href="../privacy-policy.html">Privatlivspolitik</a></li>
+<li><a href="../terms.html">Brugsbetingelser</a></li></ul></div>
 </div>
 <div class="bar">© 2026 Loona Calculators — en <a href="https://loonaautomation.github.io/">Loona Automation</a> projekt. Gratis onlineberegnere, ingen tilmelding.
 Kontakt: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>

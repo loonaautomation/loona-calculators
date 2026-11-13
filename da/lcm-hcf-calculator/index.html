@@ -129,8 +129,8 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <nav>
 <a href="../">Forside</a>
 <a href="https://loonaautomation.github.io/">Loona Automation</a>
-<a href="../../about.html">Om</a>
-<a href="../../contact.html">Kontakt</a>
+<a href="../about.html">Om</a>
+<a href="../contact.html">Kontakt</a>
 </nav>
 </header>
 <div class="wrap">
@@ -141,7 +141,7 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <section class="txt"><h2>Sådan bruger du LCM- og HCF-beregner</h2><ol><li>Indtast det første hele tal.</li><li>Indtast det andet hele tal — og et tredje, hvis du har et.</li><li>Tryk på Beregn — det mindste fælles multiplum og den største fælles divisor vises nedenfor.</li></ol>
 <div class="exbox"><strong>Eksempel:</strong> For 12 og 18: største fælles divisor er 6, og mindste fælles multiplum er 36. Tilføjelse af 24 som et tredje tal holder største fælles divisor på 6 og hæver mindste fælles multiplum til 72.</div>
 <h2>Ofte stillede spørgsmål</h2></section><div class="faq"><h3>Hvad er forskellen mellem mindste fælles multiplum og største fælles divisor?</h3><p>Største fælles divisor (HCF) er det største tal, der deler begge tal eksakt. Mindste fælles multiplum (LCM) er det mindste tal, som begge tal deler eksakt.</p></div><div class="faq"><h3>Er HCF det samme som GCD?</h3><p>Ja — Highest Common Factor og Greatest Common Divisor er to navne for den samme værdi.</p></div><div class="faq"><h3>Hvor bruges mindste fælles multiplum og største fælles divisor?</h3><p>At lægge brøker sammen og forenkle dem kræver det mindste fælles multiplum af nævnerne og den største fælles divisor af tæller og nævner; forholds-, flise- og planlægningsproblemer bruger dem også.</p></div>
-<h2 class="sec">Relaterede Beregnere</h2><div class="grid"><a class="card" href="../../percentage-calculator"><div class="ic">％</div><h3>Procentberegner</h3><p>Matematik</p></a><a class="card" href="../../average-calculator"><div class="ic">🔢</div><h3>Gennemsnitsberegner</h3><p>Matematik</p></a><a class="card" href="../../ratio-calculator"><div class="ic">➗</div><h3>Forholdsberegner</h3><p>Matematik</p></a><a class="card" href="../../age-calculator"><div class="ic">📅</div><h3>Aldersberegner</h3><p>Dato & Tid</p></a><a class="card" href="../../square-root-calculator"><div class="ic">√</div><h3>Kvadratrodsberegner</h3><p>Matematik</p></a></div>
+<h2 class="sec">Relaterede Beregnere</h2><div class="grid"><a class="card" href="../percentage-calculator/"><div class="ic">％</div><h3>Procentberegner</h3><p>Matematik</p></a><a class="card" href="../average-calculator/"><div class="ic">🔢</div><h3>Gennemsnitsberegner</h3><p>Matematik</p></a><a class="card" href="../ratio-calculator/"><div class="ic">➗</div><h3>Forholdsberegner</h3><p>Matematik</p></a><a class="card" href="../age-calculator/"><div class="ic">📅</div><h3>Aldersberegner</h3><p>Dato & Tid</p></a><a class="card" href="../square-root-calculator/"><div class="ic">√</div><h3>Kvadratrodsberegner</h3><p>Matematik</p></a></div>
 </div>
 <section class="txt"><h2>Sådan fungerer det — formlen</h2><p>Beregneren finder største fælles divisor med den euklidiske algoritme: divider gentagne gange det større tal med det mindre og behold resten, indtil resten er nul — den sidste divisor er største fælles divisor (også kaldet GCD). Mindste fælles multiplum findes derefter ud fra største fælles divisor, fordi produktet af mindste fælles multiplum og største fælles divisor for to tal altid er lig med produktet af selve tallene. Med et tredje tal anvendes begge operationer ganske enkelt igen: største fælles divisor for alle tre = HCF(HCF(a, b), c), og tilsvarende for mindste fælles multiplum.</p><p><strong>Formler:</strong> LCM(a, b) = (a × b) ÷ HCF(a, b) · og derfor LCM × HCF = a × b.</p><h3>Gennemregnet eksempel</h3><div class="exbox"><strong>Eksempel:</strong> For 16 og 24. Euklidisk algoritme: 24 ÷ 16 giver resten 8; 16 ÷ 8 giver resten 0, så største fælles divisor er <strong>8</strong>. Så er LCM = (16 × 24) ÷ 8 = 384 ÷ 8 = <strong>48</strong>. Tjek: 48 × 8 = 384 = 16 × 24. ✔</div><h3>Ofte stillede spørgsmål</h3></section><div class="faq"><h3>Hvordan kan jeg selv tjekke et svar for mindste fælles multiplum og største fælles divisor?</h3><p>Gang dem: for to vilkårlige tal skal mindste fælles multiplum × største fælles divisor være lig med de to tal ganget sammen. I det gennemregnede eksempel er 48 × 8 = 384 og 16 × 24 = 384, så svaret stemmer.</p></div><div class="faq"><h3>Hvad hvis tallene ikke har fælles faktorer, som 8 og 9?</h3><p>Så er største fælles divisor (HCF) 1 (tallene kaldes indbyrdes primiske), og mindste fælles multiplum (LCM) er ganske enkelt deres produkt: 8 × 9 = 72. Denne beregner returnerer nøjagtigt det.</p></div><div class="faq"><h3>Kan jeg indtaste decimaler, nul eller negative tal?</h3><p>Nej — værktøjet accepterer hele tal på mindst 1 for de to første tal (og for det valgfrie tredje). Mindste fælles multiplum og største fælles divisor er defineret for positive hele tal.</p></div><div class="faq"><h3>Hvorfor kræver addition og subtraktion af brøker det mindste fælles multiplum?</h3><p>Brøker kan kun lægges sammen eller trækkes fra over en fællesnævner, og mindste fælles multiplum for nævnerne er den mindste, der virker — for 1/16 og 1/24 er det 48, hvilket giver 3/48 og 2/48.</p></div><div class="faq"><h3>Kan jeg bruge mere end tre tal?</h3><p>Ja, i etaper: find det mindste fælles multiplum (eller den største fælles divisor) af de første tal, og kombiner derefter det resultat med det næste tal i en anden kørsel. Den trinvise regel — LCM(LCM(a, b), c) — er præcis sådan, denne beregner håndterer sit tredje tal.</p></div>
 <div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
@@ -156,22 +156,22 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 </script>
 <footer><div class="fin">
 <div class="cols">
-<div><h4>Populære Beregnere</h4><ul><li><a href="../../age-calculator">Aldersberegner</a></li>
-<li><a href="../../zakat-calculator">Zakatberegner</a></li>
-<li><a href="../../cgpa-calculator">CGPA-beregner</a></li>
-<li><a href="../../percentage-calculator">Procentberegner</a></li>
-<li><a href="../../hijri-date-converter">Hijri-datokonverter</a></li>
-<li><a href="../../emi-calculator">EMI- og låneberegner</a></li></ul></div>
+<div><h4>Populære Beregnere</h4><ul><li><a href="../age-calculator/">Aldersberegner</a></li>
+<li><a href="../zakat-calculator/">Zakatberegner</a></li>
+<li><a href="../cgpa-calculator/">CGPA-beregner</a></li>
+<li><a href="../percentage-calculator/">Procentberegner</a></li>
+<li><a href="../hijri-date-converter/">Hijri-datokonverter</a></li>
+<li><a href="../emi-calculator/">EMI- og låneberegner</a></li></ul></div>
 <div><h4>Flere Loona-værktøjer</h4><ul>
 <li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR-koder</a></li>
 <li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona billedkompressor</a></li>
 <li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI-assistent</a></li>
 <li><a href="https://loonaautomation.github.io/">Alle Loona-værktøjer</a></li></ul></div>
 <div><h4>Loona Calculators</h4><ul>
-<li><a href="../../about.html">Om</a></li>
-<li><a href="../../contact.html">Kontakt</a></li>
-<li><a href="../../privacy-policy.html">Privatlivspolitik</a></li>
-<li><a href="../../terms.html">Brugsbetingelser</a></li></ul></div>
+<li><a href="../about.html">Om</a></li>
+<li><a href="../contact.html">Kontakt</a></li>
+<li><a href="../privacy-policy.html">Privatlivspolitik</a></li>
+<li><a href="../terms.html">Brugsbetingelser</a></li></ul></div>
 </div>
 <div class="bar">© 2026 Loona Calculators — en <a href="https://loonaautomation.github.io/">Loona Automation</a> projekt. Gratis onlineberegnere, ingen tilmelding.
 Kontakt: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>

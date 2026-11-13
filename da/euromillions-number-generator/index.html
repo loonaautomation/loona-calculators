@@ -130,8 +130,8 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <nav>
 <a href="../">Forside</a>
 <a href="https://loonaautomation.github.io/">Loona Automation</a>
-<a href="../../about.html">Om</a>
-<a href="../../contact.html">Kontakt</a>
+<a href="../about.html">Om</a>
+<a href="../contact.html">Kontakt</a>
 </nav>
 </header>
 <div class="wrap">
@@ -144,14 +144,14 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <button class="calcbtn" type="submit">⭐ Generér EuroMillions-tal</button>
 <div class="calcresult" id="emResult" style="display:none"></div>
 </form>
-<p style="margin-top:12px">Spiller du et andet spil? Brug den generelle <a href="../../lottery-number-generator">Lotterinummergenerator</a> til Powerball, Mega Millions, UK Lotto og brugerdefinerede spil.</p></div>
+<p style="margin-top:12px">Spiller du et andet spil? Brug den generelle <a href="../lottery-number-generator/">Lotterinummergenerator</a> til Powerball, Mega Millions, UK Lotto og brugerdefinerede spil.</p></div>
 <section class="txt"><h2>Sådan bruger du EuroMillions-nummergenerator</h2><ol><li>Vælg, hvor mange linjer du vil have (1–5).</li><li>Tryk på Generer.</li><li>Hver linje viser 5 hovedtal og 2 Lucky Stars, sorteret som på en rigtig kupon.</li><li>Tryk igen for et helt nyt sæt linjer.</li></ol>
 <div class="exbox"><strong>Eksempel:</strong> Én genereret række kunne være 7 · 15 · 23 · 34 · 48 med Lucky Stars 3 · 9. Enhver anden gyldig kombination — inklusive 1 · 2 · 3 · 4 · 5 med stjerner 1 · 2 — er præcis lige så sandsynlig.</div>
 <h2>Ofte stillede spørgsmål</h2></section><div class="faq"><h3>Hvordan adskiller EuroMillions sig fra andre lotterier?</h3><p>EuroMillions bruger to puljer: 5 hovedtal fra 50 og 2 Lucky Stars fra 12. Den generelle Lotteri-talgenerator på dette site dækker mange spil med forudindstillinger; denne side er kun dedikeret til EuroMillions, inklusive kuponer med flere rækker.</p></div><div class="faq"><h3>Hvad er chancerne for at vinde EuroMillions-jackpotten?</h3><p>1 ud af 139,838,160 pr. linje: C(50, 5) = 2,118,760 hovedkombinationer ganget med C(12, 2) = 66 stjernekombinationer.</p></div><div class="faq"><h3>Kan det samme tal optræde både som hovedtal og som Lucky Star?</h3><p>Ja. Stjernerne trækkes fra en separat pulje, så en stjerne kan gentage et hovedtal. Inden for selve hovedtallene — og inden for de to stjerner — gentages tal aldrig.</p></div><div class="faq"><h3>Forbedrer genererede tal mine chancer?</h3><p>Nej. Hver gyldig kombination har præcis den samme sandsynlighed. En generator er blot en retfærdig, hurtig måde at vælge på. Spil ansvarligt og brug aldrig penge, du ikke har råd til at tabe.</p></div>
-<h2 class="sec">Relaterede Beregnere</h2><div class="grid"><a class="card" href="../../random-number-generator"><div class="ic">🎲</div><h3>Generator til tilfældige tal</h3><p>Sjov</p></a><a class="card" href="../../dice-roller"><div class="ic">🎲</div><h3>Terningekaster</h3><p>Sjov</p></a><a class="card" href="../../coin-flip"><div class="ic">🪙</div><h3>Møntkast</h3><p>Sjov</p></a><a class="card" href="../../lottery-number-generator"><div class="ic">🍀</div><h3>Lotterinummergenerator</h3><p>Sjov</p></a><a class="card" href="../../love-calculator"><div class="ic">❤️</div><h3>Kærlighedsberegner</h3><p>Sjov</p></a></div>
+<h2 class="sec">Relaterede Beregnere</h2><div class="grid"><a class="card" href="../random-number-generator/"><div class="ic">🎲</div><h3>Generator til tilfældige tal</h3><p>Sjov</p></a><a class="card" href="../dice-roller/"><div class="ic">🎲</div><h3>Terningekaster</h3><p>Sjov</p></a><a class="card" href="../coin-flip/"><div class="ic">🪙</div><h3>Møntkast</h3><p>Sjov</p></a><a class="card" href="../lottery-number-generator/"><div class="ic">🍀</div><h3>Lotterinummergenerator</h3><p>Sjov</p></a><a class="card" href="../love-calculator/"><div class="ic">❤️</div><h3>Kærlighedsberegner</h3><p>Sjov</p></a></div>
 </div>
 <section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>Sådan fungerer det — formlen</h2>
-<p>Hver linje trækker <strong>uden tilbagelægning</strong> fra hver pulje ved hjælp af sikker tilfældighed (crypto.getRandomValues med rejection sampling), så hver kombination er lige sandsynlig. Antallet af mulige linjer er <strong>C(50, 5) × C(12, 2)</strong>, hvor C(n, k) = n! ÷ (k! × (n−k)!).</p><p>Denne side er en dedikeret EuroMillions-variant. Den generelle <a href="../../lottery-number-generator">Lotterinummergenerator</a> dækker EuroMillions som én forudindstilling blandt flere spil; den side er uændret.</p>
+<p>Hver linje trækker <strong>uden tilbagelægning</strong> fra hver pulje ved hjælp af sikker tilfældighed (crypto.getRandomValues med rejection sampling), så hver kombination er lige sandsynlig. Antallet af mulige linjer er <strong>C(50, 5) × C(12, 2)</strong>, hvor C(n, k) = n! ÷ (k! × (n−k)!).</p><p>Denne side er en dedikeret EuroMillions-variant. Den generelle <a href="../lottery-number-generator/">Lotterinummergenerator</a> dækker EuroMillions som én forudindstilling blandt flere spil; den side er uændret.</p>
 <h3>Gennemregnet eksempel</h3><div class="exbox"><p><strong>Trin:</strong> C(50, 5) = 50! ÷ (5! × 45!) = 2,118,760. C(12, 2) = 12! ÷ (2! × 10!) = 66. Samlede kombinationer = 2,118,760 × 66 = <strong>139,838,160</strong>.</p><p><strong>Resultat:</strong> Jackpotodds på <strong>1 ud af 139,838,160</strong> pr. linje — det officielle tal for EuroMillions.</p></div>
 
 </section>
@@ -167,22 +167,22 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 </script>
 <footer><div class="fin">
 <div class="cols">
-<div><h4>Populære Beregnere</h4><ul><li><a href="../../age-calculator">Aldersberegner</a></li>
-<li><a href="../../zakat-calculator">Zakatberegner</a></li>
-<li><a href="../../cgpa-calculator">CGPA-beregner</a></li>
-<li><a href="../../percentage-calculator">Procentberegner</a></li>
-<li><a href="../../hijri-date-converter">Hijri-datokonverter</a></li>
-<li><a href="../../emi-calculator">EMI- og låneberegner</a></li></ul></div>
+<div><h4>Populære Beregnere</h4><ul><li><a href="../age-calculator/">Aldersberegner</a></li>
+<li><a href="../zakat-calculator/">Zakatberegner</a></li>
+<li><a href="../cgpa-calculator/">CGPA-beregner</a></li>
+<li><a href="../percentage-calculator/">Procentberegner</a></li>
+<li><a href="../hijri-date-converter/">Hijri-datokonverter</a></li>
+<li><a href="../emi-calculator/">EMI- og låneberegner</a></li></ul></div>
 <div><h4>Flere Loona-værktøjer</h4><ul>
 <li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR-koder</a></li>
 <li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona billedkompressor</a></li>
 <li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI-assistent</a></li>
 <li><a href="https://loonaautomation.github.io/">Alle Loona-værktøjer</a></li></ul></div>
 <div><h4>Loona Calculators</h4><ul>
-<li><a href="../../about.html">Om</a></li>
-<li><a href="../../contact.html">Kontakt</a></li>
-<li><a href="../../privacy-policy.html">Privatlivspolitik</a></li>
-<li><a href="../../terms.html">Brugsbetingelser</a></li></ul></div>
+<li><a href="../about.html">Om</a></li>
+<li><a href="../contact.html">Kontakt</a></li>
+<li><a href="../privacy-policy.html">Privatlivspolitik</a></li>
+<li><a href="../terms.html">Brugsbetingelser</a></li></ul></div>
 </div>
 <div class="bar">© 2026 Loona Calculators — en <a href="https://loonaautomation.github.io/">Loona Automation</a> projekt. Gratis onlineberegnere, ingen tilmelding.
 Kontakt: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>

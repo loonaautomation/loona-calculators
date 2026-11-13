@@ -129,8 +129,8 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <nav>
 <a href="../">Forside</a>
 <a href="https://loonaautomation.github.io/">Loona Automation</a>
-<a href="../../about.html">Om</a>
-<a href="../../contact.html">Kontakt</a>
+<a href="../about.html">Om</a>
+<a href="../contact.html">Kontakt</a>
 </nav>
 </header>
 <div class="wrap">
@@ -141,7 +141,7 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <section class="txt"><h2>Sådan bruger du Beregner til afbetaling af kreditkort</h2><ol><li>Indtast din nuværende kortsaldo.</li><li>Indtast kortets årlige ÅOP (%) — den står på dit kontoudtog.</li><li>Indtast den faste månedlige ydelse, du har råd til, og tryk derefter på Beregn.</li></ol>
 <div class="exbox"><strong>Eksempel:</strong> En saldo på Rs 50,000 med 36% i ÅOP, tilbagebetalt med Rs 3,000 pr. måned, tager 24 måneder at afvikle og koster Rs 20,360.29 i renter — Rs 70,360.29 betalt i alt.</div>
 <h2>Ofte stillede spørgsmål</h2></section><div class="faq"><h3>Hvorfor advarer beregneren om små betalinger?</h3><p>Hvis din betaling ikke engang dækker én måneds renter, vokser saldoen i stedet for at skrumpe og kan aldrig blive indfriet. Advarslen fortæller dig den første måneds rente — enhver varig betaling skal være over den.</p></div><div class="faq"><h3>Antager dette, at jeg holder op med at bruge kortet?</h3><p>Ja — estimatet forudsætter intet nyt forbrug på kortet, ingen gebyrer og den samme faste betaling hver måned. Nye køb eller manglende betalinger vil forlænge tilbagebetalingen.</p></div><div class="faq"><h3>Ville det hjælpe at betale lidt mere hver måned?</h3><p>Enormt meget — hvert ekstra beløb reducerer saldoen, som næste måneds rente beregnes af. Prøv at hæve ydelsen ovenfor og se den samlede rente falde.</p></div>
-<h2 class="sec">Relaterede Beregnere</h2><div class="grid"><a class="card" href="../../emi-calculator"><div class="ic">🏦</div><h3>EMI- og låneberegner</h3><p>Penge og finans</p></a><a class="card" href="../../compound-interest-calculator"><div class="ic">📈</div><h3>Rentes rente</h3><p>Penge og finans</p></a><a class="card" href="../../electricity-bill-calculator"><div class="ic">💡</div><h3>Elregning</h3><p>Penge og finans</p></a><a class="card" href="../../age-calculator"><div class="ic">📅</div><h3>Aldersberegner</h3><p>Dato & Tid</p></a><a class="card" href="../../discount-calculator"><div class="ic">🏷️</div><h3>Rabatberegner</h3><p>Penge og finans</p></a><a class="card" href="../../savings-calculator"><div class="ic">🐷</div><h3>Opsparingsberegner</h3><p>Penge og finans</p></a></div>
+<h2 class="sec">Relaterede Beregnere</h2><div class="grid"><a class="card" href="../emi-calculator/"><div class="ic">🏦</div><h3>EMI- og låneberegner</h3><p>Penge og finans</p></a><a class="card" href="../compound-interest-calculator/"><div class="ic">📈</div><h3>Rentes rente</h3><p>Penge og finans</p></a><a class="card" href="../electricity-bill-calculator/"><div class="ic">💡</div><h3>Elregning</h3><p>Penge og finans</p></a><a class="card" href="../age-calculator/"><div class="ic">📅</div><h3>Aldersberegner</h3><p>Dato & Tid</p></a><a class="card" href="../discount-calculator/"><div class="ic">🏷️</div><h3>Rabatberegner</h3><p>Penge og finans</p></a><a class="card" href="../savings-calculator/"><div class="ic">🐷</div><h3>Opsparingsberegner</h3><p>Penge og finans</p></a></div>
 <section class="txt"><h2>Sådan fungerer det — formlen</h2><p>Beregneren simulerer dit kort måned for måned. Hver måned pålægger den rente på den aktuelle saldo med en tolvtedel af ÅOP, lægger den rente til saldoen og trækker derefter din faste ydelse fra — i den sidste måned betaler du kun, hvad der er tilbage. Den gentager dette, indtil saldoen når nul, og lægger hver måneds rente sammen undervejs.</p><div class="exbox"><strong>Formel:</strong> Månedlig rente = nuværende saldo × (ÅOP ÷ 100 ÷ 12) · Hver måned: ny saldo = saldo + rente − din betaling, gentaget, indtil saldoen er nul</div><h3>Gennemregnet eksempel</h3><p>Med en saldo på Rs 1,50,000, en ÅOP på 42% og en fast betaling på Rs 10,000 om måneden er renten i den første måned alene Rs 1,50,000 × 3.5% = Rs 5,250. Følger man simuleringen igennem, er kortet betalt ud på 22 måneder — omkring 1 år og 10 måneder — med en samlet rente på Rs 66,437.71 og Rs 2,16,437.71 betalt i alt.</p><h3>Ofte stillede spørgsmål</h3></section><div class="faq"><h3>Hvordan beregnes hver måneds rente?</h3><p>Renter opkræves af den saldo, der er tilbage, med ÅOP ÷ 12 om måneden. Fordi saldoen falder hver måned, skrumper renteomkostningen også — i eksemplet starter den ved Rs 5,250 og bliver mindre med hver betaling.</p></div><div class="faq"><h3>Hvad hvis min månedlige ydelse er mindre end renten for den første måned?</h3><p>Beregneren stopper og advarer dig i stedet for at give en afdragstid: hvis ydelsen ikke dækker renten, vokser saldoen hver måned og kunne aldrig blive ryddet på det ydelsesniveau.</p></div><div class="faq"><h3>Er den sidste måneds betaling det samme fulde beløb?</h3><p>Normalt ikke. Den sidste ydelse er kun den resterende saldo plus den pågældende måneds rente, hvilket normalt er mindre end din faste månedlige ydelse.</p></div><div class="faq"><h3>Er årlige gebyrer, gebyrer for sen betaling eller bøder medregnet i estimatet?</h3><p>Nej — simuleringen tæller kun saldoen og dens rente. Den forudsætter ingen nye forbrug på kortet, ingen gebyrer eller straffe og den samme faste betaling hver måned.</p></div><div class="faq"><h3>Hvilken ÅOP skal jeg indtaste?</h3><p>Den årlige procentsats, der står på dit kortudtog. Hvis din bank i stedet angiver en månedlig sats, så gang det månedlige tal med 12 for at få den årlige sats, som denne beregner forventer.</p></div>
 </div>
 <div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
@@ -156,22 +156,22 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 </script>
 <footer><div class="fin">
 <div class="cols">
-<div><h4>Populære Beregnere</h4><ul><li><a href="../../age-calculator">Aldersberegner</a></li>
-<li><a href="../../zakat-calculator">Zakatberegner</a></li>
-<li><a href="../../cgpa-calculator">CGPA-beregner</a></li>
-<li><a href="../../percentage-calculator">Procentberegner</a></li>
-<li><a href="../../hijri-date-converter">Hijri-datokonverter</a></li>
-<li><a href="../../emi-calculator">EMI- og låneberegner</a></li></ul></div>
+<div><h4>Populære Beregnere</h4><ul><li><a href="../age-calculator/">Aldersberegner</a></li>
+<li><a href="../zakat-calculator/">Zakatberegner</a></li>
+<li><a href="../cgpa-calculator/">CGPA-beregner</a></li>
+<li><a href="../percentage-calculator/">Procentberegner</a></li>
+<li><a href="../hijri-date-converter/">Hijri-datokonverter</a></li>
+<li><a href="../emi-calculator/">EMI- og låneberegner</a></li></ul></div>
 <div><h4>Flere Loona-værktøjer</h4><ul>
 <li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR-koder</a></li>
 <li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona billedkompressor</a></li>
 <li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI-assistent</a></li>
 <li><a href="https://loonaautomation.github.io/">Alle Loona-værktøjer</a></li></ul></div>
 <div><h4>Loona Calculators</h4><ul>
-<li><a href="../../about.html">Om</a></li>
-<li><a href="../../contact.html">Kontakt</a></li>
-<li><a href="../../privacy-policy.html">Privatlivspolitik</a></li>
-<li><a href="../../terms.html">Brugsbetingelser</a></li></ul></div>
+<li><a href="../about.html">Om</a></li>
+<li><a href="../contact.html">Kontakt</a></li>
+<li><a href="../privacy-policy.html">Privatlivspolitik</a></li>
+<li><a href="../terms.html">Brugsbetingelser</a></li></ul></div>
 </div>
 <div class="bar">© 2026 Loona Calculators — en <a href="https://loonaautomation.github.io/">Loona Automation</a> projekt. Gratis onlineberegnere, ingen tilmelding.
 Kontakt: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>

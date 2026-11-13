@@ -130,8 +130,8 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <nav>
 <a href="../">Forside</a>
 <a href="https://loonaautomation.github.io/">Loona Automation</a>
-<a href="../../about.html">Om</a>
-<a href="../../contact.html">Kontakt</a>
+<a href="../about.html">Om</a>
+<a href="../contact.html">Kontakt</a>
 </nav>
 </header>
 <div class="wrap">
@@ -149,7 +149,7 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <section class="txt"><h2>Sådan bruger du Afrundingsberegner</h2><ol><li>Indtast tallet, der skal afrundes.</li><li>Vælg afrundingstilstanden og præcisionen.</li><li>Aflæs det afrundede resultat og den anvendte regel.</li></ol>
 <div class="exbox"><strong>Eksempel:</strong> 1,234.5678: til 2 decimaler → 1,234.57; til nærmeste 100 → 1,200; til 4 betydende cifre → 1,235 (da det 5. betydende ciffer er 5, rundes det 4. op fra 4 til 5 — hvilket giver 1,235).</div>
 <h2>Ofte stillede spørgsmål</h2></section><div class="faq"><h3>Hvad er 'rund halvdelen op'?</h3><p>Når den bortkastede del er præcis halvdelen (et 5 efterfulgt af ingenting), runder tallet op, væk fra nul for positive tal. Det er den konvention, der undervises i i skoler og bruges i de fleste hverdagssammenhænge. Bankers' rounding (halv til lige) findes inden for finans og databehandling, men er ikke standarden her.</p></div><div class="faq"><h3>Hvad er betydende cifre?</h3><p>Cifre, der bærer betydning, talt fra det første ciffer forskelligt fra nul. 0.004560 har 4 betydende cifre (4, 5, 6 og det afsluttende 0). Afrunding til betydende cifre holder præcisionen proportional med tallets størrelse, og derfor foretrækker forskere det.</p></div><div class="faq"><h3>Hvordan afrunder jeg til nærmeste tusinde?</h3><p>Det er afrunding ved pladsværdien −3: se på hundredetallet; 1,234 har hundredetallet 2, så det rundes ned til 1,000, mens 1,567 rundes op til 2,000.</p></div><div class="faq"><h3>Hvorfor kan computere vise 2.675 som 2.67?</h3><p>Binær flydende komma kan ikke gemme de fleste decimalbrøker nøjagtigt, så naiv kode runder nogle gange 'forkert'. Denne beregner korrigerer med en lille epsilon, så nøjagtige halvdele opfører sig, som skolematematik forventer.</p></div>
-<h2 class="sec">Relaterede Beregnere</h2><div class="grid"><a class="card" href="../../percentage-calculator"><div class="ic">％</div><h3>Procentberegner</h3><p>Matematik</p></a><a class="card" href="../../statistics-calculator"><div class="ic">📊</div><h3>Statistikberegner</h3><p>Matematik</p></a><a class="card" href="../../fraction-calculator"><div class="ic">½</div><h3>Brøkberegner</h3><p>Matematik</p></a><a class="card" href="../../equation-solver"><div class="ic">🧮</div><h3>Ligningsløser</h3><p>Matematik</p></a><a class="card" href="../../scientific-calculator"><div class="ic">🔬</div><h3>Videnskabelig lommeregner</h3><p>Matematik</p></a><a class="card" href="../../average-calculator"><div class="ic">📐</div><h3>Gennemsnitsberegner</h3><p>Matematik</p></a></div>
+<h2 class="sec">Relaterede Beregnere</h2><div class="grid"><a class="card" href="../percentage-calculator/"><div class="ic">％</div><h3>Procentberegner</h3><p>Matematik</p></a><a class="card" href="../statistics-calculator/"><div class="ic">📊</div><h3>Statistikberegner</h3><p>Matematik</p></a><a class="card" href="../fraction-calculator/"><div class="ic">½</div><h3>Brøkberegner</h3><p>Matematik</p></a><a class="card" href="../equation-solver/"><div class="ic">🧮</div><h3>Ligningsløser</h3><p>Matematik</p></a><a class="card" href="../scientific-calculator/"><div class="ic">🔬</div><h3>Videnskabelig lommeregner</h3><p>Matematik</p></a><a class="card" href="../average-calculator/"><div class="ic">📐</div><h3>Gennemsnitsberegner</h3><p>Matematik</p></a></div>
 </div>
 <section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>Sådan fungerer det — formlen</h2>
 <p><strong>Decimaler:</strong> afrundet = round(x × 10ᵈ) ÷ 10ᵈ ved hjælp af round-half-up (med en epsilonkorrektion for binær flydende komma). <strong>Pladsværdi:</strong> samme formel med negativt d — afrunding til nærmeste 100 er d = −2. <strong>Betydende cifre:</strong> hvis x ≠ 0, d = sig − 1 − floor(log₁₀|x|), anvend derefter reglen for decimaler med det d.</p>
@@ -168,22 +168,22 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 </script>
 <footer><div class="fin">
 <div class="cols">
-<div><h4>Populære Beregnere</h4><ul><li><a href="../../age-calculator">Aldersberegner</a></li>
-<li><a href="../../zakat-calculator">Zakatberegner</a></li>
-<li><a href="../../cgpa-calculator">CGPA-beregner</a></li>
-<li><a href="../../percentage-calculator">Procentberegner</a></li>
-<li><a href="../../hijri-date-converter">Hijri-datokonverter</a></li>
-<li><a href="../../emi-calculator">EMI- og låneberegner</a></li></ul></div>
+<div><h4>Populære Beregnere</h4><ul><li><a href="../age-calculator/">Aldersberegner</a></li>
+<li><a href="../zakat-calculator/">Zakatberegner</a></li>
+<li><a href="../cgpa-calculator/">CGPA-beregner</a></li>
+<li><a href="../percentage-calculator/">Procentberegner</a></li>
+<li><a href="../hijri-date-converter/">Hijri-datokonverter</a></li>
+<li><a href="../emi-calculator/">EMI- og låneberegner</a></li></ul></div>
 <div><h4>Flere Loona-værktøjer</h4><ul>
 <li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR-koder</a></li>
 <li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona billedkompressor</a></li>
 <li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI-assistent</a></li>
 <li><a href="https://loonaautomation.github.io/">Alle Loona-værktøjer</a></li></ul></div>
 <div><h4>Loona Calculators</h4><ul>
-<li><a href="../../about.html">Om</a></li>
-<li><a href="../../contact.html">Kontakt</a></li>
-<li><a href="../../privacy-policy.html">Privatlivspolitik</a></li>
-<li><a href="../../terms.html">Brugsbetingelser</a></li></ul></div>
+<li><a href="../about.html">Om</a></li>
+<li><a href="../contact.html">Kontakt</a></li>
+<li><a href="../privacy-policy.html">Privatlivspolitik</a></li>
+<li><a href="../terms.html">Brugsbetingelser</a></li></ul></div>
 </div>
 <div class="bar">© 2026 Loona Calculators — en <a href="https://loonaautomation.github.io/">Loona Automation</a> projekt. Gratis onlineberegnere, ingen tilmelding.
 Kontakt: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>

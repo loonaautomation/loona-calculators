@@ -129,8 +129,8 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <nav>
 <a href="../">Forside</a>
 <a href="https://loonaautomation.github.io/">Loona Automation</a>
-<a href="../../about.html">Om</a>
-<a href="../../contact.html">Kontakt</a>
+<a href="../about.html">Om</a>
+<a href="../contact.html">Kontakt</a>
 </nav>
 </header>
 <div class="wrap">
@@ -141,7 +141,7 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <section class="txt"><h2>Sådan bruger du Statistikberegner</h2><ol><li>Skriv eller indsæt dine tal, adskilt af kommaer eller mellemrum (op til 50).</li><li>Tryk på Beregn.</li><li>Hele oversigten — inklusive populations- og stikprøvestandardafvigelse — vises nedenfor.</li></ol>
 <div class="exbox"><strong>Eksempel:</strong> For 4, 8, 15, 16, 23, 42: gennemsnittet er 18, medianen er 15.5, populationens standardafvigelse er omkring 12.32, og stikprøvens standardafvigelse er omkring 13.49.</div>
 <h2>Ofte stillede spørgsmål</h2></section><div class="faq"><h3>Populations- eller stikprøvestandardafvigelse — hvilken en?</h3><p>Brug population, når dine tal er det fuldstændige sæt, du interesserer dig for. Brug stikprøve, når dine tal er trukket fra en større gruppe — den dividerer med (antal − 1) i stedet for antallet for at korrigere skønnet.</p></div><div class="faq"><h3>Hvad fortæller standardafvigelsen mig?</h3><p>Hvor spredte tallene er omkring gennemsnittet. En lille standardafvigelse betyder, at værdierne ligger tæt samlet; en stor betyder, at de er spredt vidt.</p></div><div class="faq"><h3>Hvad er varians?</h3><p>Gennemsnittet af de kvadrerede afvigelser fra middelværdien. Standardafvigelsen er ganske enkelt dens kvadratrod, hvilket bringer målet tilbage til de oprindelige enheder.</p></div>
-<h2 class="sec">Relaterede Beregnere</h2><div class="grid"><a class="card" href="../../percentage-calculator"><div class="ic">％</div><h3>Procentberegner</h3><p>Matematik</p></a><a class="card" href="../../average-calculator"><div class="ic">🔢</div><h3>Gennemsnitsberegner</h3><p>Matematik</p></a><a class="card" href="../../ratio-calculator"><div class="ic">➗</div><h3>Forholdsberegner</h3><p>Matematik</p></a><a class="card" href="../../age-calculator"><div class="ic">📅</div><h3>Aldersberegner</h3><p>Dato & Tid</p></a></div>
+<h2 class="sec">Relaterede Beregnere</h2><div class="grid"><a class="card" href="../percentage-calculator/"><div class="ic">％</div><h3>Procentberegner</h3><p>Matematik</p></a><a class="card" href="../average-calculator/"><div class="ic">🔢</div><h3>Gennemsnitsberegner</h3><p>Matematik</p></a><a class="card" href="../ratio-calculator/"><div class="ic">➗</div><h3>Forholdsberegner</h3><p>Matematik</p></a><a class="card" href="../age-calculator/"><div class="ic">📅</div><h3>Aldersberegner</h3><p>Dato & Tid</p></a></div>
 </div>
 <section class="txt"><h2>Sådan fungerer det — formlen</h2><p>Skriv eller indsæt op til 50 tal, hvorefter beregneren sorterer dem og giver hele oversigten i ét gennemløb. Gennemsnittet lægger alle værdierne sammen og dividerer med antallet; medianen er den midterste værdi på den sorterede liste; typetallet er den værdi, der forekommer oftest; og variationsbredden er afstanden mellem den mindste og største værdi. Spredningen måles med varians og standardafvigelse, hver beregnet på to måder — divideret med antallet (population) eller med antallet minus én (stikprøve).</p><p><strong>Formler:</strong> Gennemsnit = Sum ÷ Antal. Varians (population) = Σ(x − gennemsnit)<sup>2</sup> ÷ n. Varians (stikprøve) = Σ(x − gennemsnit)<sup>2</sup> ÷ (n − 1). Standardafvigelse = √Varians. Variationsbredde = Maksimum − Minimum.</p><h3>Gennemregnet eksempel</h3><div class="exbox"><strong>Eksempel:</strong> For tallene 12, 7, 25, 7, 19, 30, 7, 14: antallet er 8, og summen er 121, så gennemsnittet er <strong>15.13</strong>. Sorteret (7, 7, 7, 12, 14, 19, 25, 30) er medianen 13 og typetallet 7, som forekommer 3 gange. Spændvidden er 23; populationsvariansen er 67.86 med en standardafvigelse på 8.24, og stikprøvevariansen er 77.55 med en standardafvigelse på 8.81.</div><h3>Ofte stillede spørgsmål</h3></section><div class="faq"><h3>Hvad hvis ingen tal gentages — er der stadig et typetal?</h3><p>Nej. Hvis hver værdi kun forekommer én gang, rapporterer beregneren "Ingen modus — hver værdi forekommer én gang" i stedet for at opfinde en. En modus findes kun, når mindst én værdi forekommer oftere end de andre.</p></div><div class="faq"><h3>Hvor mange tal kan jeg indtaste, og hvordan adskiller jeg dem?</h3><p>Op til 50 tal. Adskil dem med kommaer, mellemrum eller semikolon — alle tre virker, og du kan blande dem. Alt, der ikke er et tal, får beregneren til kun at bede om tal.</p></div><div class="faq"><h3>Kan jeg bruge negative tal og decimaler?</h3><p>Ja. For eksempel giver indtastning af −5, 2.5, 10 et gennemsnit og en median på 2.5, en variationsbredde på 15 og en sum på 7.5. Karakterer, temperaturer, overskud og tab med negative værdier håndteres alle normalt.</p></div><div class="faq"><h3>Hvordan findes medianen, når der er et lige antal tal?</h3><p>Det er gennemsnittet af de to midterste værdier på den sorterede liste. I det gennemarbejdede eksempel er de to midterste værdier 12 og 14, så medianen er (12 + 14) ÷ 2 = 13, selvom 13 ikke selv er på listen.</p></div><div class="faq"><h3>Hvorfor er stikprøvevariansen altid større end populationsvariansen?</h3><p>Fordi den dividerer den samme total med et mindre tal — n − 1 i stedet for n. I det gennemarbejdede eksempel gør det 67.86 til 77.55. Den mindre divisor korrigerer for, at en stikprøve normalt undervurderer, hvor spredt hele gruppen i virkeligheden er.</p></div>
 <div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
@@ -156,22 +156,22 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 </script>
 <footer><div class="fin">
 <div class="cols">
-<div><h4>Populære Beregnere</h4><ul><li><a href="../../age-calculator">Aldersberegner</a></li>
-<li><a href="../../zakat-calculator">Zakatberegner</a></li>
-<li><a href="../../cgpa-calculator">CGPA-beregner</a></li>
-<li><a href="../../percentage-calculator">Procentberegner</a></li>
-<li><a href="../../hijri-date-converter">Hijri-datokonverter</a></li>
-<li><a href="../../emi-calculator">EMI- og låneberegner</a></li></ul></div>
+<div><h4>Populære Beregnere</h4><ul><li><a href="../age-calculator/">Aldersberegner</a></li>
+<li><a href="../zakat-calculator/">Zakatberegner</a></li>
+<li><a href="../cgpa-calculator/">CGPA-beregner</a></li>
+<li><a href="../percentage-calculator/">Procentberegner</a></li>
+<li><a href="../hijri-date-converter/">Hijri-datokonverter</a></li>
+<li><a href="../emi-calculator/">EMI- og låneberegner</a></li></ul></div>
 <div><h4>Flere Loona-værktøjer</h4><ul>
 <li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR-koder</a></li>
 <li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona billedkompressor</a></li>
 <li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI-assistent</a></li>
 <li><a href="https://loonaautomation.github.io/">Alle Loona-værktøjer</a></li></ul></div>
 <div><h4>Loona Calculators</h4><ul>
-<li><a href="../../about.html">Om</a></li>
-<li><a href="../../contact.html">Kontakt</a></li>
-<li><a href="../../privacy-policy.html">Privatlivspolitik</a></li>
-<li><a href="../../terms.html">Brugsbetingelser</a></li></ul></div>
+<li><a href="../about.html">Om</a></li>
+<li><a href="../contact.html">Kontakt</a></li>
+<li><a href="../privacy-policy.html">Privatlivspolitik</a></li>
+<li><a href="../terms.html">Brugsbetingelser</a></li></ul></div>
 </div>
 <div class="bar">© 2026 Loona Calculators — en <a href="https://loonaautomation.github.io/">Loona Automation</a> projekt. Gratis onlineberegnere, ingen tilmelding.
 Kontakt: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>

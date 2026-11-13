@@ -129,8 +129,8 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <nav>
 <a href="../">Forside</a>
 <a href="https://loonaautomation.github.io/">Loona Automation</a>
-<a href="../../about.html">Om</a>
-<a href="../../contact.html">Kontakt</a>
+<a href="../about.html">Om</a>
+<a href="../contact.html">Kontakt</a>
 </nav>
 </header>
 <div class="wrap">
@@ -141,7 +141,7 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <section class="txt"><h2>Sådan bruger du Pensionsopsparingsberegner</h2><ol><li>Indtast din nuværende alder og den alder, hvor du planlægger at gå på pension.</li><li>Indtast din nuværende opsparing og dit månedlige bidrag.</li><li>Indtast det forventede årlige afkast (%), og tryk derefter på Beregn.</li></ol>
 <div class="exbox"><strong>Eksempel:</strong> At starte som 30-årig med Rs 2,00,000 allerede sparet op og tilføje Rs 20,000 hver måned ved et forventet afkast på 10% indtil 60-årsalderen opbygger en fremskrevet formue på Rs 4,91,77,238.37 — hvoraf Rs 74,00,000 er penge, du selv har sat ind.</div>
 <h2>Ofte stillede spørgsmål</h2></section><div class="faq"><h3>Hvornår antages månedlige bidrag at ske?</h3><p>I slutningen af hver måned, med månedlig rentetilskrivning. Din nuværende opsparing vokser i hele perioden frem til pensionen.</p></div><div class="faq"><h3>Tager dette højde for inflation?</h3><p>Nej — korpusset er i fremtidige rupees, som vil købe mindre end dagens rupees. Vores Inflationsberegner viser, hvor meget mindre; omhyggelig planlægning sigter højere for at tage højde for det.</p></div><div class="faq"><h3>Er afkastet garanteret?</h3><p>Nej. Det er det stabile gennemsnit, du indtaster. Reelle afkast varierer fra år til år, og tidligere resultater garanterer aldrig fremtidige resultater.</p></div>
-<h2 class="sec">Relaterede Beregnere</h2><div class="grid"><a class="card" href="../../emi-calculator"><div class="ic">🏦</div><h3>EMI- og låneberegner</h3><p>Penge og finans</p></a><a class="card" href="../../compound-interest-calculator"><div class="ic">📈</div><h3>Rentes rente</h3><p>Penge og finans</p></a><a class="card" href="../../electricity-bill-calculator"><div class="ic">💡</div><h3>Elregning</h3><p>Penge og finans</p></a><a class="card" href="../../age-calculator"><div class="ic">📅</div><h3>Aldersberegner</h3><p>Dato & Tid</p></a><a class="card" href="../../loan-calculator"><div class="ic">💳</div><h3>Låneberegner</h3><p>Penge og finans</p></a></div>
+<h2 class="sec">Relaterede Beregnere</h2><div class="grid"><a class="card" href="../emi-calculator/"><div class="ic">🏦</div><h3>EMI- og låneberegner</h3><p>Penge og finans</p></a><a class="card" href="../compound-interest-calculator/"><div class="ic">📈</div><h3>Rentes rente</h3><p>Penge og finans</p></a><a class="card" href="../electricity-bill-calculator/"><div class="ic">💡</div><h3>Elregning</h3><p>Penge og finans</p></a><a class="card" href="../age-calculator/"><div class="ic">📅</div><h3>Aldersberegner</h3><p>Dato & Tid</p></a><a class="card" href="../loan-calculator/"><div class="ic">💳</div><h3>Låneberegner</h3><p>Penge og finans</p></a></div>
 </div>
 <section class="txt"><h2>Sådan fungerer det — formlen</h2><p>Beregneren lader to pengebeløb vokse side om side frem til din pensionsalder. Din nuværende opsparing forrentes i hele perioden, og hvert månedlige bidrag — lagt til i slutningen af hver måned — forrentes i de måneder, der er tilbage, efter at det er indbetalt. Begge dele bruger månedlig rentetilskrivning til den månedlige sats (årligt afkast ÷ 12), og de to voksede beløb lægges derefter sammen til den forventede formue.</p><p><strong>Formel:</strong> Corpus = S × (1 + r)<sup>n</sup> + M × [((1 + r)<sup>n</sup> − 1) ÷ r], hvor S er din nuværende opsparing, M er det månedlige bidrag, r er det årlige afkast ÷ 1200, og n er årene til pension × 12. Hvis det indtastede afkast er 0, er formuen simpelthen S + M × n — de penge, du har sat ind, uden vækst.</p><h3>Gennemregnet eksempel</h3><div class="exbox"><strong>Eksempel:</strong> Du starter i en alder af 25 år med Rs 1,00,000 allerede sparet op, lægger Rs 15,000 til hver måned og planlægger at gå på pension som 60-årig — 35 års vækst. Ved et forventet afkast på 11% fremskriver beregneren en formue på <strong>Rs 7,85,42,050.53</strong>. Kun Rs 64,00,000 af det er penge, du selv har sat ind (Rs 1,00,000 plus 420 indbetalinger af Rs 15,000); de resterende Rs 7,21,42,050.53 er vækst — og derfor betyder det så meget at starte tidligt.</div><h3>Ofte stillede spørgsmål</h3></section><div class="faq"><h3>Hvad sker der, hvis det forventede afkast er 0%?</h3><p>Formuen er derefter nøjagtigt de penge, du satte ind, med nul vækst. For eksempel giver det at starte som 40-årig med Rs 5,00,000 sparet op og lægge Rs 10,000 til om måneden indtil 60 år ved et afkast på 0% en formue på Rs 29,00,000 — præcis det samlede indbetalte beløb.</p></div><div class="faq"><h3>Kan jeg lade nuværende opsparing eller det månedlige bidrag stå på nul?</h3><p>Ja — den ene eller den anden kan godt være nul, så længe den anden ikke er det. Hvis begge er nul, er der intet at få til at vokse, så beregneren beder dig indtaste mindst én af dem.</p></div><div class="faq"><h3>Stiger mit månedlige bidrag over årene?</h3><p>Nej. Der forudsættes det samme indskud hver måned i hele perioden. Hvis du vil se effekten af at spare mere op senere — for eksempel efter en forfremmelse — så kør beregneren igen med det højere månedlige beløb og sammenlign de to resultater.</p></div><div class="faq"><h3>Planlægger den min indkomst efter pensionering?</h3><p>Nej. Beregningen stopper ved din pensionsalder med korpussets størrelse. Den regner ikke månedlige udbetalinger, en pension eller hvor længe pengene vil vare — det kræver dit forventede forbrug og din levetid som ekstra indtastninger.</p></div><div class="faq"><h3>Hvorfor ændrer nogle få ekstra år resultatet så meget?</h3><p>Rentetilskrivning. I det gennemregnede eksempel er indbetalingerne Rs 64,00,000, men væksten tilføjer over Rs 7.2 crore, fordi renten i de senere år selv tjener renter på en meget stor saldo. At tilføje år i starten er langt kraftigere end at tilføje de samme år til sidst.</p></div>
 <div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
@@ -156,22 +156,22 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 </script>
 <footer><div class="fin">
 <div class="cols">
-<div><h4>Populære Beregnere</h4><ul><li><a href="../../age-calculator">Aldersberegner</a></li>
-<li><a href="../../zakat-calculator">Zakatberegner</a></li>
-<li><a href="../../cgpa-calculator">CGPA-beregner</a></li>
-<li><a href="../../percentage-calculator">Procentberegner</a></li>
-<li><a href="../../hijri-date-converter">Hijri-datokonverter</a></li>
-<li><a href="../../emi-calculator">EMI- og låneberegner</a></li></ul></div>
+<div><h4>Populære Beregnere</h4><ul><li><a href="../age-calculator/">Aldersberegner</a></li>
+<li><a href="../zakat-calculator/">Zakatberegner</a></li>
+<li><a href="../cgpa-calculator/">CGPA-beregner</a></li>
+<li><a href="../percentage-calculator/">Procentberegner</a></li>
+<li><a href="../hijri-date-converter/">Hijri-datokonverter</a></li>
+<li><a href="../emi-calculator/">EMI- og låneberegner</a></li></ul></div>
 <div><h4>Flere Loona-værktøjer</h4><ul>
 <li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR-koder</a></li>
 <li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona billedkompressor</a></li>
 <li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI-assistent</a></li>
 <li><a href="https://loonaautomation.github.io/">Alle Loona-værktøjer</a></li></ul></div>
 <div><h4>Loona Calculators</h4><ul>
-<li><a href="../../about.html">Om</a></li>
-<li><a href="../../contact.html">Kontakt</a></li>
-<li><a href="../../privacy-policy.html">Privatlivspolitik</a></li>
-<li><a href="../../terms.html">Brugsbetingelser</a></li></ul></div>
+<li><a href="../about.html">Om</a></li>
+<li><a href="../contact.html">Kontakt</a></li>
+<li><a href="../privacy-policy.html">Privatlivspolitik</a></li>
+<li><a href="../terms.html">Brugsbetingelser</a></li></ul></div>
 </div>
 <div class="bar">© 2026 Loona Calculators — en <a href="https://loonaautomation.github.io/">Loona Automation</a> projekt. Gratis onlineberegnere, ingen tilmelding.
 Kontakt: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>

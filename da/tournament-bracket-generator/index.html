@@ -130,8 +130,8 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <nav>
 <a href="../">Forside</a>
 <a href="https://loonaautomation.github.io/">Loona Automation</a>
-<a href="../../about.html">Om</a>
-<a href="../../contact.html">Kontakt</a>
+<a href="../about.html">Om</a>
+<a href="../contact.html">Kontakt</a>
 </nav>
 </header>
 <div class="wrap">
@@ -154,7 +154,7 @@ Seed 8</textarea></div>
 <section class="txt"><h2>Sådan bruger du Turneringsoversigtsgenerator</h2><ol><li>Indtast deltagere én pr. linje, i seedrækkefølge — stærkeste først (2 til 32).</li><li>Tryk på Generer Turneringsplan.</li><li>Aflæs runde 1 (og hvem der har en bye), derefter den vej, hver vinder tager til finalen.</li></ol>
 <div class="exbox"><strong>Eksempel:</strong> 8 deltagere seedet 1–8 giver kvartfinaler: 1 mod 8, 4 mod 5, 2 mod 7, 3 mod 6 — så hvis den højeste seedning altid vinder, bliver semifinalerne 1 mod 4 og 2 mod 3, og finalen bliver 1 mod 2.</div>
 <h2>Ofte stillede spørgsmål</h2></section><div class="faq"><h3>Hvad er seeding med almindelige ord?</h3><p>At rangere deltagere før lodtrækningen, så de stærkeste spredes fra hinanden. Korrekt seedning garanterer, at de to bedste ikke kan mødes før finalen, de fire bedste ikke før semifinalerne, og så videre — belønningen for at være højt rangeret.</p></div><div class="faq"><h3>Hvordan fungerer byes med f.eks. 10 deltagere?</h3><p>Turneringstræet rundes op til 16 pladser, hvilket efterlader 6 tomme pladser. De tomme pladser placeres over for de højeste seedninger, så seedning 1–6 springer runde 1 over (en bye), og de resterende 4 deltagere spiller de eneste kampe i første runde: 7 mod 10 og 8 mod 9 efter standardparring.</p></div><div class="faq"><h3>I hvilken rækkefølge vises kampene i første runde?</h3><p>I parentesrækkefølge — den rækkefølge, hvori vindere går videre til næste runde. Parringsmønsteret (1 mod 16, 8 mod 9, 5 mod 12, 4 mod 13, 6 mod 11, 3 mod 14, 7 mod 10, 2 mod 15 ved 16 pladser) er det standard rekursive seedningsmønster, som turneringsarrangører bruger.</p></div><div class="faq"><h3>Kan jeg blande i stedet for at seede?</h3><p>Hvis du ønsker en tilfældig lodtrækning frem for seedninger, skal du angive navnene i vilkårlig rækkefølge — eller køre dem gennem Listeblanderen først og derefter indsætte den blandede rækkefølge her som seedningsliste.</p></div>
-<h2 class="sec">Relaterede Beregnere</h2><div class="grid"><a class="card" href="../../random-number-generator"><div class="ic">🎲</div><h3>Generator til tilfældige tal</h3><p>Sjov</p></a><a class="card" href="../../dice-roller"><div class="ic">🎲</div><h3>Terningekaster</h3><p>Sjov</p></a><a class="card" href="../../coin-flip"><div class="ic">🪙</div><h3>Møntkast</h3><p>Sjov</p></a><a class="card" href="../../lottery-number-generator"><div class="ic">🍀</div><h3>Lotterinummergenerator</h3><p>Sjov</p></a><a class="card" href="../../love-calculator"><div class="ic">❤️</div><h3>Kærlighedsberegner</h3><p>Sjov</p></a><a class="card" href="../../random-team-generator"><div class="ic">👥</div><h3>Generator til tilfældige hold</h3><p>Sjov</p></a><a class="card" href="../../wheel-of-names"><div class="ic">🎡</div><h3>Navnehjul</h3><p>Sjov</p></a><a class="card" href="../../list-randomizer"><div class="ic">🔀</div><h3>Listeblander</h3><p>Sjov</p></a></div>
+<h2 class="sec">Relaterede Beregnere</h2><div class="grid"><a class="card" href="../random-number-generator/"><div class="ic">🎲</div><h3>Generator til tilfældige tal</h3><p>Sjov</p></a><a class="card" href="../dice-roller/"><div class="ic">🎲</div><h3>Terningekaster</h3><p>Sjov</p></a><a class="card" href="../coin-flip/"><div class="ic">🪙</div><h3>Møntkast</h3><p>Sjov</p></a><a class="card" href="../lottery-number-generator/"><div class="ic">🍀</div><h3>Lotterinummergenerator</h3><p>Sjov</p></a><a class="card" href="../love-calculator/"><div class="ic">❤️</div><h3>Kærlighedsberegner</h3><p>Sjov</p></a><a class="card" href="../random-team-generator/"><div class="ic">👥</div><h3>Generator til tilfældige hold</h3><p>Sjov</p></a><a class="card" href="../wheel-of-names/"><div class="ic">🎡</div><h3>Navnehjul</h3><p>Sjov</p></a><a class="card" href="../list-randomizer/"><div class="ic">🔀</div><h3>Listeblander</h3><p>Sjov</p></a></div>
 </div>
 <section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>Sådan fungerer det — formlen</h2>
 <p>Bracketstørrelse B = den mindste potens af to ≥ antallet af deltagere N. Byes = B − N, tildelt de øverste seedninger. Seedrækkefølgen for bracketen genereres rekursivt: start [1, 2]; erstat gentagne gange hver seedning s i rækkefølgen med parret (s, 2k + 1 − s), hvor 2k er den nye størrelse, så hvert nabopar summerer til B + 1 i runde 1. Nabopar (position 1–2, 3–4, …) danner kampene i første runde, og vinderne af nabokampe mødes i næste runde — hvilket er præcis det, der beskytter de øverste seedninger mod tidlige møder.</p>
@@ -173,22 +173,22 @@ Seed 8</textarea></div>
 </script>
 <footer><div class="fin">
 <div class="cols">
-<div><h4>Populære Beregnere</h4><ul><li><a href="../../age-calculator">Aldersberegner</a></li>
-<li><a href="../../zakat-calculator">Zakatberegner</a></li>
-<li><a href="../../cgpa-calculator">CGPA-beregner</a></li>
-<li><a href="../../percentage-calculator">Procentberegner</a></li>
-<li><a href="../../hijri-date-converter">Hijri-datokonverter</a></li>
-<li><a href="../../emi-calculator">EMI- og låneberegner</a></li></ul></div>
+<div><h4>Populære Beregnere</h4><ul><li><a href="../age-calculator/">Aldersberegner</a></li>
+<li><a href="../zakat-calculator/">Zakatberegner</a></li>
+<li><a href="../cgpa-calculator/">CGPA-beregner</a></li>
+<li><a href="../percentage-calculator/">Procentberegner</a></li>
+<li><a href="../hijri-date-converter/">Hijri-datokonverter</a></li>
+<li><a href="../emi-calculator/">EMI- og låneberegner</a></li></ul></div>
 <div><h4>Flere Loona-værktøjer</h4><ul>
 <li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR-koder</a></li>
 <li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona billedkompressor</a></li>
 <li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI-assistent</a></li>
 <li><a href="https://loonaautomation.github.io/">Alle Loona-værktøjer</a></li></ul></div>
 <div><h4>Loona Calculators</h4><ul>
-<li><a href="../../about.html">Om</a></li>
-<li><a href="../../contact.html">Kontakt</a></li>
-<li><a href="../../privacy-policy.html">Privatlivspolitik</a></li>
-<li><a href="../../terms.html">Brugsbetingelser</a></li></ul></div>
+<li><a href="../about.html">Om</a></li>
+<li><a href="../contact.html">Kontakt</a></li>
+<li><a href="../privacy-policy.html">Privatlivspolitik</a></li>
+<li><a href="../terms.html">Brugsbetingelser</a></li></ul></div>
 </div>
 <div class="bar">© 2026 Loona Calculators — en <a href="https://loonaautomation.github.io/">Loona Automation</a> projekt. Gratis onlineberegnere, ingen tilmelding.
 Kontakt: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>

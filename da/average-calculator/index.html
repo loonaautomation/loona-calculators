@@ -129,8 +129,8 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <nav>
 <a href="../">Forside</a>
 <a href="https://loonaautomation.github.io/">Loona Automation</a>
-<a href="../../about.html">Om</a>
-<a href="../../contact.html">Kontakt</a>
+<a href="../about.html">Om</a>
+<a href="../contact.html">Kontakt</a>
 </nav>
 </header>
 <div class="wrap">
@@ -141,7 +141,7 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <section class="txt"><h2>Sådan bruger du Gennemsnitsberegner</h2><ol><li>Skriv eller indsæt dine tal, adskilt af kommaer eller mellemrum (op til 50).</li><li>Tryk på Beregn.</li><li>Gennemsnittet, medianen, typetallet og hele oversigten vises nedenfor.</li></ol>
 <div class="exbox"><strong>Eksempel:</strong> For tallene 10, 20, 30 og 40: gennemsnittet er 25, medianen er 25, summen er 100, og variationsbredden er 30.</div>
 <h2>Ofte stillede spørgsmål</h2></section><div class="faq"><h3>Hvad er forskellen mellem gennemsnit, median og typetal?</h3><p>Gennemsnittet er summen divideret med antallet. Medianen er den midterste værdi, når tallene er sorteret. Typetallet er den værdi, der optræder oftest.</p></div><div class="faq"><h3>Hvilket gennemsnit skal jeg bruge?</h3><p>Gennemsnittet passer til jævnt fordelte data. Medianen er bedre, når nogle få meget store eller små værdier ville trække gennemsnittet væk fra den typiske værdi — husstandsindkomster er det klassiske eksempel.</p></div><div class="faq"><h3>Hvor mange tal kan jeg indtaste?</h3><p>Op til 50 tal, adskilt af kommaer, mellemrum eller en blanding af begge.</p></div>
-<section class="txt"><h2>Sådan fungerer det — formlen</h2><p>Beregneren gennemgår listen, lægger hver værdi til summen og dividerer med antallet af værdier for at få middelværdien. Til medianen sorterer den værdierne: ved et ulige antal tager den den midterste værdi, og ved et lige antal tager den gennemsnittet af de to midterste værdier. Typetallet er den eller de værdier med den højeste hyppighed; hvis hver værdi kun optræder én gang, rapporterer den, at der ikke er noget typetal. Den rapporterer også minimum, maksimum og variationsbredde (maksimum − minimum).</p><p><strong>Formler:</strong> gennemsnit = sum ÷ antal; median = midterste sorterede værdi, eller gennemsnittet af de to midterste sorterede værdier; variationsbredde = maksimum − minimum.</p><h3>Gennemregnet eksempel</h3><div class="exbox"><p><strong>Input:</strong> 12, 18, 18, 24, 30.</p><p><strong>Trin:</strong> summen er 12 + 18 + 18 + 24 + 30 = 102, og antallet er 5, så gennemsnittet er 102 ÷ 5 = 20.4. I sorteret rækkefølge er den midterste værdi 18, så medianen er 18. Værdien 18 optræder to gange, oftere end enhver anden værdi, så modusen er 18. Variationsbredden er 30 − 12 = 18.</p><p><strong>Resultat:</strong> <strong>gennemsnit 20.4, median 18, modus 18</strong>, med sum 102 og spændvidde 18.</p></div><h3>Ofte stillede spørgsmål</h3><div class="faq"><h3>Kan jeg indtaste decimaltal eller negative tal?</h3><p>Ja. Parseren accepterer almindelige decimaltal og negative tal samt hele tal. Hver indtastning skal være numerisk, ellers beder beregneren dig om at rette listen.</p></div><div class="faq"><h3>Hvad sker der, når ingen tal gentages?</h3><p>Beregneren rapporterer “Intet typetal — hver værdi optræder én gang”. Middelværdien og medianen beregnes stadig normalt.</p></div><div class="faq"><h3>Kan en liste have mere end ét typetal?</h3><p>Ja. Hvis to eller flere værdier deler den højeste hyppighed, viser beregneren dem alle som modus og viser, hvor mange gange de optræder.</p></div><div class="faq"><h3>Ændrer den rækkefølge, jeg indtaster tallene i, svaret?</h3><p>Nej. Summen og antallet er de samme i enhver rækkefølge, og beregneren sorterer en kopi af listen, før den finder medianen, minimum og maksimum.</p></div><div class="faq"><h3>Hvilke separatorer kan jeg bruge?</h3><p>Du kan adskille tal med kommaer, mellemrum eller semikoloner, også en blanding af dem. Tomme separatorer i enderne ignoreres.</p></div></section><h2 class="sec">Relaterede Beregnere</h2><div class="grid"><a class="card" href="../../percentage-calculator"><div class="ic">％</div><h3>Procentberegner</h3><p>Matematik</p></a><a class="card" href="../../ratio-calculator"><div class="ic">➗</div><h3>Forholdsberegner</h3><p>Matematik</p></a><a class="card" href="../../fraction-calculator"><div class="ic">🍕</div><h3>Brøkberegner</h3><p>Matematik</p></a><a class="card" href="../../age-calculator"><div class="ic">📅</div><h3>Aldersberegner</h3><p>Dato & Tid</p></a><a class="card" href="../../exponent-calculator"><div class="ic">x²</div><h3>Eksponentberegner</h3><p>Matematik</p></a><a class="card" href="../../statistics-calculator"><div class="ic">📉</div><h3>Statistikberegner</h3><p>Matematik</p></a></div>
+<section class="txt"><h2>Sådan fungerer det — formlen</h2><p>Beregneren gennemgår listen, lægger hver værdi til summen og dividerer med antallet af værdier for at få middelværdien. Til medianen sorterer den værdierne: ved et ulige antal tager den den midterste værdi, og ved et lige antal tager den gennemsnittet af de to midterste værdier. Typetallet er den eller de værdier med den højeste hyppighed; hvis hver værdi kun optræder én gang, rapporterer den, at der ikke er noget typetal. Den rapporterer også minimum, maksimum og variationsbredde (maksimum − minimum).</p><p><strong>Formler:</strong> gennemsnit = sum ÷ antal; median = midterste sorterede værdi, eller gennemsnittet af de to midterste sorterede værdier; variationsbredde = maksimum − minimum.</p><h3>Gennemregnet eksempel</h3><div class="exbox"><p><strong>Input:</strong> 12, 18, 18, 24, 30.</p><p><strong>Trin:</strong> summen er 12 + 18 + 18 + 24 + 30 = 102, og antallet er 5, så gennemsnittet er 102 ÷ 5 = 20.4. I sorteret rækkefølge er den midterste værdi 18, så medianen er 18. Værdien 18 optræder to gange, oftere end enhver anden værdi, så modusen er 18. Variationsbredden er 30 − 12 = 18.</p><p><strong>Resultat:</strong> <strong>gennemsnit 20.4, median 18, modus 18</strong>, med sum 102 og spændvidde 18.</p></div><h3>Ofte stillede spørgsmål</h3><div class="faq"><h3>Kan jeg indtaste decimaltal eller negative tal?</h3><p>Ja. Parseren accepterer almindelige decimaltal og negative tal samt hele tal. Hver indtastning skal være numerisk, ellers beder beregneren dig om at rette listen.</p></div><div class="faq"><h3>Hvad sker der, når ingen tal gentages?</h3><p>Beregneren rapporterer “Intet typetal — hver værdi optræder én gang”. Middelværdien og medianen beregnes stadig normalt.</p></div><div class="faq"><h3>Kan en liste have mere end ét typetal?</h3><p>Ja. Hvis to eller flere værdier deler den højeste hyppighed, viser beregneren dem alle som modus og viser, hvor mange gange de optræder.</p></div><div class="faq"><h3>Ændrer den rækkefølge, jeg indtaster tallene i, svaret?</h3><p>Nej. Summen og antallet er de samme i enhver rækkefølge, og beregneren sorterer en kopi af listen, før den finder medianen, minimum og maksimum.</p></div><div class="faq"><h3>Hvilke separatorer kan jeg bruge?</h3><p>Du kan adskille tal med kommaer, mellemrum eller semikoloner, også en blanding af dem. Tomme separatorer i enderne ignoreres.</p></div></section><h2 class="sec">Relaterede Beregnere</h2><div class="grid"><a class="card" href="../percentage-calculator/"><div class="ic">％</div><h3>Procentberegner</h3><p>Matematik</p></a><a class="card" href="../ratio-calculator/"><div class="ic">➗</div><h3>Forholdsberegner</h3><p>Matematik</p></a><a class="card" href="../fraction-calculator/"><div class="ic">🍕</div><h3>Brøkberegner</h3><p>Matematik</p></a><a class="card" href="../age-calculator/"><div class="ic">📅</div><h3>Aldersberegner</h3><p>Dato & Tid</p></a><a class="card" href="../exponent-calculator/"><div class="ic">x²</div><h3>Eksponentberegner</h3><p>Matematik</p></a><a class="card" href="../statistics-calculator/"><div class="ic">📉</div><h3>Statistikberegner</h3><p>Matematik</p></a></div>
 </div>
 <div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
 <h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Indlejr denne beregner på din hjemmeside — gratis</h2>
@@ -155,22 +155,22 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 </script>
 <footer><div class="fin">
 <div class="cols">
-<div><h4>Populære Beregnere</h4><ul><li><a href="../../age-calculator">Aldersberegner</a></li>
-<li><a href="../../zakat-calculator">Zakatberegner</a></li>
-<li><a href="../../cgpa-calculator">CGPA-beregner</a></li>
-<li><a href="../../percentage-calculator">Procentberegner</a></li>
-<li><a href="../../hijri-date-converter">Hijri-datokonverter</a></li>
-<li><a href="../../emi-calculator">EMI- og låneberegner</a></li></ul></div>
+<div><h4>Populære Beregnere</h4><ul><li><a href="../age-calculator/">Aldersberegner</a></li>
+<li><a href="../zakat-calculator/">Zakatberegner</a></li>
+<li><a href="../cgpa-calculator/">CGPA-beregner</a></li>
+<li><a href="../percentage-calculator/">Procentberegner</a></li>
+<li><a href="../hijri-date-converter/">Hijri-datokonverter</a></li>
+<li><a href="../emi-calculator/">EMI- og låneberegner</a></li></ul></div>
 <div><h4>Flere Loona-værktøjer</h4><ul>
 <li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR-koder</a></li>
 <li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona billedkompressor</a></li>
 <li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI-assistent</a></li>
 <li><a href="https://loonaautomation.github.io/">Alle Loona-værktøjer</a></li></ul></div>
 <div><h4>Loona Calculators</h4><ul>
-<li><a href="../../about.html">Om</a></li>
-<li><a href="../../contact.html">Kontakt</a></li>
-<li><a href="../../privacy-policy.html">Privatlivspolitik</a></li>
-<li><a href="../../terms.html">Brugsbetingelser</a></li></ul></div>
+<li><a href="../about.html">Om</a></li>
+<li><a href="../contact.html">Kontakt</a></li>
+<li><a href="../privacy-policy.html">Privatlivspolitik</a></li>
+<li><a href="../terms.html">Brugsbetingelser</a></li></ul></div>
 </div>
 <div class="bar">© 2026 Loona Calculators — en <a href="https://loonaautomation.github.io/">Loona Automation</a> projekt. Gratis onlineberegnere, ingen tilmelding.
 Kontakt: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>

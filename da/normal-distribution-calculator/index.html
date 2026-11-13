@@ -130,8 +130,8 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <nav>
 <a href="../">Forside</a>
 <a href="https://loonaautomation.github.io/">Loona Automation</a>
-<a href="../../about.html">Om</a>
-<a href="../../contact.html">Kontakt</a>
+<a href="../about.html">Om</a>
+<a href="../contact.html">Kontakt</a>
 </nav>
 </header>
 <div class="wrap">
@@ -151,7 +151,7 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <section class="txt"><h2>Sådan bruger du Normalfordelingsberegner</h2><ol><li>Indtast gennemsnittet og standardafvigelsen for din fordeling.</li><li>Vælg spørgsmålstypen, og indtast værdien/værdierne eller percentilen.</li><li>Aflæs sandsynligheds- eller percentilværdien.</li></ol>
 <div class="exbox"><strong>Eksempel:</strong> Testresultater med gennemsnit 70, SD 15: sandsynligheden for at score under 85 er 84.13%; mellem 55 og 85 er den 68.27%; over 100 er den kun 2.28%.</div>
 <h2>Ofte stillede spørgsmål</h2></section><div class="faq"><h3>Hvordan adskiller dette sig fra Z-score-beregneren?</h3><p>Z-score-beregneren standardiserer én værdi og rapporterer dens percentil. Denne side arbejder med hele fordelingen i oprindelige enheder: intervalsandsynligheder begge veje og det omvendte spørgsmål — hvilken værdi ligger ved en given percentil.</p></div><div class="faq"><h3>Hvad gør den omvendte tilstand (percentil)?</h3><p>Den kører CDF'en baglæns: angiv en percentil som 90, og den returnerer den værdi, som 90% af fordelingen ligger under, ved hjælp af en præcis invers-normal tilnærmelse.</p></div><div class="faq"><h3>Hvor nøjagtige er tallene?</h3><p>CDF'en bruger Abramowitz–Stegun-tilnærmelsen (fejl under 0.00005), og den inverse bruger Acklam-algoritmen (fejl under 0.0001 i z) — begge svarer til trykte z-tabeller med deres offentliggjorte præcision.</p></div><div class="faq"><h3>Mine data er ikke normale — kan jeg stadig bruge dette?</h3><p>Sandsynlighederne er kun så gode som normalantagelsen. Mange naturlige fordelinger og eksamensscorefordelinger er tæt nok på; stærkt skæve data (indkomster, ventetider) er det ikke og ville kræve en anden fordeling.</p></div>
-<h2 class="sec">Relaterede Beregnere</h2><div class="grid"><a class="card" href="../../percentage-calculator"><div class="ic">％</div><h3>Procentberegner</h3><p>Matematik</p></a><a class="card" href="../../statistics-calculator"><div class="ic">📊</div><h3>Statistikberegner</h3><p>Matematik</p></a><a class="card" href="../../fraction-calculator"><div class="ic">½</div><h3>Brøkberegner</h3><p>Matematik</p></a><a class="card" href="../../equation-solver"><div class="ic">🧮</div><h3>Ligningsløser</h3><p>Matematik</p></a><a class="card" href="../../scientific-calculator"><div class="ic">🔬</div><h3>Videnskabelig lommeregner</h3><p>Matematik</p></a><a class="card" href="../../average-calculator"><div class="ic">📐</div><h3>Gennemsnitsberegner</h3><p>Matematik</p></a><a class="card" href="../../z-score-calculator"><div class="ic">🔔</div><h3>Z-scoreberegner</h3><p>Matematik</p></a><a class="card" href="../../probability-calculator"><div class="ic">🎲</div><h3>Sandsynlighedsberegner</h3><p>Matematik</p></a></div>
+<h2 class="sec">Relaterede Beregnere</h2><div class="grid"><a class="card" href="../percentage-calculator/"><div class="ic">％</div><h3>Procentberegner</h3><p>Matematik</p></a><a class="card" href="../statistics-calculator/"><div class="ic">📊</div><h3>Statistikberegner</h3><p>Matematik</p></a><a class="card" href="../fraction-calculator/"><div class="ic">½</div><h3>Brøkberegner</h3><p>Matematik</p></a><a class="card" href="../equation-solver/"><div class="ic">🧮</div><h3>Ligningsløser</h3><p>Matematik</p></a><a class="card" href="../scientific-calculator/"><div class="ic">🔬</div><h3>Videnskabelig lommeregner</h3><p>Matematik</p></a><a class="card" href="../average-calculator/"><div class="ic">📐</div><h3>Gennemsnitsberegner</h3><p>Matematik</p></a><a class="card" href="../z-score-calculator/"><div class="ic">🔔</div><h3>Z-scoreberegner</h3><p>Matematik</p></a><a class="card" href="../probability-calculator/"><div class="ic">🎲</div><h3>Sandsynlighedsberegner</h3><p>Matematik</p></a></div>
 </div>
 <section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>Sådan fungerer det — formlen</h2>
 <p>Standardiser med <strong>z = (x − μ) ÷ σ</strong>, brug derefter standardnormalfordelingens CDF Φ. P(X &lt; x) = Φ(z); P(X &gt; x) = 1 − Φ(z); P(a &lt; X &lt; b) = Φ(z_b) − Φ(z_a). Den inverse bruger z = Φ⁻¹(percentil) og x = μ + zσ.</p>
@@ -170,22 +170,22 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 </script>
 <footer><div class="fin">
 <div class="cols">
-<div><h4>Populære Beregnere</h4><ul><li><a href="../../age-calculator">Aldersberegner</a></li>
-<li><a href="../../zakat-calculator">Zakatberegner</a></li>
-<li><a href="../../cgpa-calculator">CGPA-beregner</a></li>
-<li><a href="../../percentage-calculator">Procentberegner</a></li>
-<li><a href="../../hijri-date-converter">Hijri-datokonverter</a></li>
-<li><a href="../../emi-calculator">EMI- og låneberegner</a></li></ul></div>
+<div><h4>Populære Beregnere</h4><ul><li><a href="../age-calculator/">Aldersberegner</a></li>
+<li><a href="../zakat-calculator/">Zakatberegner</a></li>
+<li><a href="../cgpa-calculator/">CGPA-beregner</a></li>
+<li><a href="../percentage-calculator/">Procentberegner</a></li>
+<li><a href="../hijri-date-converter/">Hijri-datokonverter</a></li>
+<li><a href="../emi-calculator/">EMI- og låneberegner</a></li></ul></div>
 <div><h4>Flere Loona-værktøjer</h4><ul>
 <li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR-koder</a></li>
 <li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona billedkompressor</a></li>
 <li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI-assistent</a></li>
 <li><a href="https://loonaautomation.github.io/">Alle Loona-værktøjer</a></li></ul></div>
 <div><h4>Loona Calculators</h4><ul>
-<li><a href="../../about.html">Om</a></li>
-<li><a href="../../contact.html">Kontakt</a></li>
-<li><a href="../../privacy-policy.html">Privatlivspolitik</a></li>
-<li><a href="../../terms.html">Brugsbetingelser</a></li></ul></div>
+<li><a href="../about.html">Om</a></li>
+<li><a href="../contact.html">Kontakt</a></li>
+<li><a href="../privacy-policy.html">Privatlivspolitik</a></li>
+<li><a href="../terms.html">Brugsbetingelser</a></li></ul></div>
 </div>
 <div class="bar">© 2026 Loona Calculators — en <a href="https://loonaautomation.github.io/">Loona Automation</a> projekt. Gratis onlineberegnere, ingen tilmelding.
 Kontakt: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>

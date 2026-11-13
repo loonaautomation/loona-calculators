@@ -130,8 +130,8 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <nav>
 <a href="../">Forside</a>
 <a href="https://loonaautomation.github.io/">Loona Automation</a>
-<a href="../../about.html">Om</a>
-<a href="../../contact.html">Kontakt</a>
+<a href="../about.html">Om</a>
+<a href="../contact.html">Kontakt</a>
 </nav>
 </header>
 <div class="wrap">
@@ -149,7 +149,7 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <section class="txt"><h2>Sådan bruger du P-værdi-beregner</h2><ol><li>Vælg statistiktypen: z, t eller chi-i-anden.</li><li>Indtast statistikkens værdi (og frihedsgrader for t / chi-square).</li><li>Aflæs de højresidede, venstresidede og tosidet p-værdier.</li></ol>
 <div class="exbox"><strong>Eksempel:</strong> En undersøgelse rapporterer z = 2.58. Tosidet p ≈ 0.0099 — signifikant på 0.01-niveauet. Det samme tal som en ensidet (højre) test giver p ≈ 0.0049.</div>
 <h2>Ofte stillede spørgsmål</h2></section><div class="faq"><h3>Hvad betyder en p-værdi IKKE?</h3><p>Det er ikke sandsynligheden for, at nulhypotesen er sand, og heller ikke sandsynligheden for, at dit resultat er et tilfælde i almindelige termer. Den måler, hvor overraskende dataene ville være, hvis nulhypotesen var sand — intet mere, og derfor betyder effektstørrelser og konfidensintervaller noget ved siden af den.</p></div><div class="faq"><h3>Ensidet eller tosidet?</h3><p>Tosidet er det ærlige standardvalg: den tæller ekstremer i begge retninger og skal vælges, før man ser data. Ensidede test kan kun forsvares, når retningen var fastlagt på forhånd, og den anden retning er reelt umulig eller irrelevant.</p></div><div class="faq"><h3>Er p = 0.049 virkelig forskellig fra p = 0.051?</h3><p>Næppe. Grænsen på 0.05 er en konvention, ikke en klippe i beviserne. God rapportering angiver den nøjagtige p-værdi, hvilket er det, denne beregner returnerer.</p></div><div class="faq"><h3>Hvad med chi-i-anden-retning?</h3><p>Chi-i-anden-tests er i sig selv højresidede: store statistikværdier betyder større afvigelser fra de forventede værdier, så kun den højresidede p-værdi gælder.</p></div>
-<h2 class="sec">Relaterede Beregnere</h2><div class="grid"><a class="card" href="../../percentage-calculator"><div class="ic">％</div><h3>Procentberegner</h3><p>Matematik</p></a><a class="card" href="../../statistics-calculator"><div class="ic">📊</div><h3>Statistikberegner</h3><p>Matematik</p></a><a class="card" href="../../fraction-calculator"><div class="ic">½</div><h3>Brøkberegner</h3><p>Matematik</p></a><a class="card" href="../../equation-solver"><div class="ic">🧮</div><h3>Ligningsløser</h3><p>Matematik</p></a><a class="card" href="../../scientific-calculator"><div class="ic">🔬</div><h3>Videnskabelig lommeregner</h3><p>Matematik</p></a><a class="card" href="../../average-calculator"><div class="ic">📐</div><h3>Gennemsnitsberegner</h3><p>Matematik</p></a><a class="card" href="../../z-score-calculator"><div class="ic">🔔</div><h3>Z-scoreberegner</h3><p>Matematik</p></a><a class="card" href="../../probability-calculator"><div class="ic">🎲</div><h3>Sandsynlighedsberegner</h3><p>Matematik</p></a></div>
+<h2 class="sec">Relaterede Beregnere</h2><div class="grid"><a class="card" href="../percentage-calculator/"><div class="ic">％</div><h3>Procentberegner</h3><p>Matematik</p></a><a class="card" href="../statistics-calculator/"><div class="ic">📊</div><h3>Statistikberegner</h3><p>Matematik</p></a><a class="card" href="../fraction-calculator/"><div class="ic">½</div><h3>Brøkberegner</h3><p>Matematik</p></a><a class="card" href="../equation-solver/"><div class="ic">🧮</div><h3>Ligningsløser</h3><p>Matematik</p></a><a class="card" href="../scientific-calculator/"><div class="ic">🔬</div><h3>Videnskabelig lommeregner</h3><p>Matematik</p></a><a class="card" href="../average-calculator/"><div class="ic">📐</div><h3>Gennemsnitsberegner</h3><p>Matematik</p></a><a class="card" href="../z-score-calculator/"><div class="ic">🔔</div><h3>Z-scoreberegner</h3><p>Matematik</p></a><a class="card" href="../probability-calculator/"><div class="ic">🎲</div><h3>Sandsynlighedsberegner</h3><p>Matematik</p></a></div>
 </div>
 <section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>Sådan fungerer det — formlen</h2>
 <p>P-værdier aflæses fra hver fordelings kumulative funktion: for z, Φ fra standardnormalfordelingen; for t, t-CDF'en via den ufuldstændige betafunktion; for chi-i-anden, chi-i-anden-CDF'en via den ufuldstændige gammafunktion. Tosidet p for z/t = 2 × (1 − CDF(|statistic|)); chi-i-anden bruger kun den højre hale: p = 1 − CDF(statistic).</p>
@@ -168,22 +168,22 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 </script>
 <footer><div class="fin">
 <div class="cols">
-<div><h4>Populære Beregnere</h4><ul><li><a href="../../age-calculator">Aldersberegner</a></li>
-<li><a href="../../zakat-calculator">Zakatberegner</a></li>
-<li><a href="../../cgpa-calculator">CGPA-beregner</a></li>
-<li><a href="../../percentage-calculator">Procentberegner</a></li>
-<li><a href="../../hijri-date-converter">Hijri-datokonverter</a></li>
-<li><a href="../../emi-calculator">EMI- og låneberegner</a></li></ul></div>
+<div><h4>Populære Beregnere</h4><ul><li><a href="../age-calculator/">Aldersberegner</a></li>
+<li><a href="../zakat-calculator/">Zakatberegner</a></li>
+<li><a href="../cgpa-calculator/">CGPA-beregner</a></li>
+<li><a href="../percentage-calculator/">Procentberegner</a></li>
+<li><a href="../hijri-date-converter/">Hijri-datokonverter</a></li>
+<li><a href="../emi-calculator/">EMI- og låneberegner</a></li></ul></div>
 <div><h4>Flere Loona-værktøjer</h4><ul>
 <li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR-koder</a></li>
 <li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona billedkompressor</a></li>
 <li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI-assistent</a></li>
 <li><a href="https://loonaautomation.github.io/">Alle Loona-værktøjer</a></li></ul></div>
 <div><h4>Loona Calculators</h4><ul>
-<li><a href="../../about.html">Om</a></li>
-<li><a href="../../contact.html">Kontakt</a></li>
-<li><a href="../../privacy-policy.html">Privatlivspolitik</a></li>
-<li><a href="../../terms.html">Brugsbetingelser</a></li></ul></div>
+<li><a href="../about.html">Om</a></li>
+<li><a href="../contact.html">Kontakt</a></li>
+<li><a href="../privacy-policy.html">Privatlivspolitik</a></li>
+<li><a href="../terms.html">Brugsbetingelser</a></li></ul></div>
 </div>
 <div class="bar">© 2026 Loona Calculators — en <a href="https://loonaautomation.github.io/">Loona Automation</a> projekt. Gratis onlineberegnere, ingen tilmelding.
 Kontakt: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>

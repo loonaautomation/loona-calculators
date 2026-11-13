@@ -130,8 +130,8 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <nav>
 <a href="../">Forside</a>
 <a href="https://loonaautomation.github.io/">Loona Automation</a>
-<a href="../../about.html">Om</a>
-<a href="../../contact.html">Kontakt</a>
+<a href="../about.html">Om</a>
+<a href="../contact.html">Kontakt</a>
 </nav>
 </header>
 <div class="wrap">
@@ -152,7 +152,7 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <section class="txt"><h2>Sådan bruger du Sandsynlighedsberegner</h2><ol><li>Indtast sandsynligheden for hændelse A og hændelse B (som decimaler 0–1 eller procenter — beregneren behandler værdier over 1 som procenter).</li><li>Vælg, om hændelserne er uafhængige eller gensidigt udelukkende, hvis du bruger hurtigtilstandene.</li><li>Eller rul til kombinationer/permutationer: indtast n og r for at få C(n, r) og P(n, r).</li></ol>
 <div class="exbox"><strong>Eksempel:</strong> Kast med to retfærdige mønter: P(krone) = 0.5 for hver. Begge krone = 0.5 × 0.5 = 0.25. Mindst én krone = 0.75. Ingen krone = 0.25. Præcis én krone = 0.50.</div>
 <h2>Ofte stillede spørgsmål</h2></section><div class="faq"><h3>Hvad er forskellen mellem uafhængig og gensidigt udelukkende?</h3><p>Uafhængige hændelser påvirker ikke hinanden (to møntkast). Gensidigt udelukkende hændelser kan ikke begge ske (at slå en 2'er og en 5'er med én terning) — for dem er P(A eller B) = P(A) + P(B) og P(begge) = 0. Hændelser kan være ingen af delene, men aldrig begge på én gang.</p></div><div class="faq"><h3>Hvordan adskiller kombinationer og permutationer sig?</h3><p>Permutationer tæller arrangementer, hvor rækkefølgen betyder noget: P(n, r) = n! ÷ (n−r)!. Kombinationer tæller udvalg, hvor rækkefølgen ikke betyder noget: C(n, r) = n! ÷ (r! × (n−r)!). En podieplacering er en permutation; et udvalg er en kombination.</p></div><div class="faq"><h3>Hvordan omregner jeg sandsynlighed til odds?</h3><p>Odds i favør = p ÷ (1 − p), skrevet som et forhold. En sandsynlighed på 0.75 er odds 3:1 i favør og 1:3 imod.</p></div><div class="faq"><h3>Erstatter denne side Statistikberegneren?</h3><p>Nej. Statistikberegneren opsummerer datasæt (gennemsnit, median, standardafvigelse). Denne side arbejder med hændelsessandsynligheder og optælling — den anden halvdel af et typisk kursus i sandsynlighed og statistik.</p></div>
-<h2 class="sec">Relaterede Beregnere</h2><div class="grid"><a class="card" href="../../percentage-calculator"><div class="ic">％</div><h3>Procentberegner</h3><p>Matematik</p></a><a class="card" href="../../statistics-calculator"><div class="ic">📊</div><h3>Statistikberegner</h3><p>Matematik</p></a><a class="card" href="../../fraction-calculator"><div class="ic">½</div><h3>Brøkberegner</h3><p>Matematik</p></a><a class="card" href="../../equation-solver"><div class="ic">🧮</div><h3>Ligningsløser</h3><p>Matematik</p></a><a class="card" href="../../scientific-calculator"><div class="ic">🔬</div><h3>Videnskabelig lommeregner</h3><p>Matematik</p></a><a class="card" href="../../average-calculator"><div class="ic">📐</div><h3>Gennemsnitsberegner</h3><p>Matematik</p></a><a class="card" href="../../dice-roller"><div class="ic">🎲</div><h3>Terningekaster</h3><p>Sjov</p></a><a class="card" href="../../coin-flip"><div class="ic">🪙</div><h3>Møntkast</h3><p>Sjov</p></a></div>
+<h2 class="sec">Relaterede Beregnere</h2><div class="grid"><a class="card" href="../percentage-calculator/"><div class="ic">％</div><h3>Procentberegner</h3><p>Matematik</p></a><a class="card" href="../statistics-calculator/"><div class="ic">📊</div><h3>Statistikberegner</h3><p>Matematik</p></a><a class="card" href="../fraction-calculator/"><div class="ic">½</div><h3>Brøkberegner</h3><p>Matematik</p></a><a class="card" href="../equation-solver/"><div class="ic">🧮</div><h3>Ligningsløser</h3><p>Matematik</p></a><a class="card" href="../scientific-calculator/"><div class="ic">🔬</div><h3>Videnskabelig lommeregner</h3><p>Matematik</p></a><a class="card" href="../average-calculator/"><div class="ic">📐</div><h3>Gennemsnitsberegner</h3><p>Matematik</p></a><a class="card" href="../dice-roller/"><div class="ic">🎲</div><h3>Terningekaster</h3><p>Sjov</p></a><a class="card" href="../coin-flip/"><div class="ic">🪙</div><h3>Møntkast</h3><p>Sjov</p></a></div>
 </div>
 <section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>Sådan fungerer det — formlen</h2>
 <p><strong>Uafhængige hændelser:</strong> P(A and B) = P(A) × P(B); P(A or B) = P(A) + P(B) − P(A)×P(B); P(neither) = (1 − P(A)) × (1 − P(B)); P(exactly one) = P(A or B) − P(A and B). <strong>Gensidigt udelukkende:</strong> P(both) = 0 and P(A or B) = P(A) + P(B). <strong>Optælling:</strong> P(n, r) = n! ÷ (n−r)! and C(n, r) = n! ÷ (r! × (n−r)!).</p>
@@ -171,22 +171,22 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 </script>
 <footer><div class="fin">
 <div class="cols">
-<div><h4>Populære Beregnere</h4><ul><li><a href="../../age-calculator">Aldersberegner</a></li>
-<li><a href="../../zakat-calculator">Zakatberegner</a></li>
-<li><a href="../../cgpa-calculator">CGPA-beregner</a></li>
-<li><a href="../../percentage-calculator">Procentberegner</a></li>
-<li><a href="../../hijri-date-converter">Hijri-datokonverter</a></li>
-<li><a href="../../emi-calculator">EMI- og låneberegner</a></li></ul></div>
+<div><h4>Populære Beregnere</h4><ul><li><a href="../age-calculator/">Aldersberegner</a></li>
+<li><a href="../zakat-calculator/">Zakatberegner</a></li>
+<li><a href="../cgpa-calculator/">CGPA-beregner</a></li>
+<li><a href="../percentage-calculator/">Procentberegner</a></li>
+<li><a href="../hijri-date-converter/">Hijri-datokonverter</a></li>
+<li><a href="../emi-calculator/">EMI- og låneberegner</a></li></ul></div>
 <div><h4>Flere Loona-værktøjer</h4><ul>
 <li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR-koder</a></li>
 <li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona billedkompressor</a></li>
 <li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI-assistent</a></li>
 <li><a href="https://loonaautomation.github.io/">Alle Loona-værktøjer</a></li></ul></div>
 <div><h4>Loona Calculators</h4><ul>
-<li><a href="../../about.html">Om</a></li>
-<li><a href="../../contact.html">Kontakt</a></li>
-<li><a href="../../privacy-policy.html">Privatlivspolitik</a></li>
-<li><a href="../../terms.html">Brugsbetingelser</a></li></ul></div>
+<li><a href="../about.html">Om</a></li>
+<li><a href="../contact.html">Kontakt</a></li>
+<li><a href="../privacy-policy.html">Privatlivspolitik</a></li>
+<li><a href="../terms.html">Brugsbetingelser</a></li></ul></div>
 </div>
 <div class="bar">© 2026 Loona Calculators — en <a href="https://loonaautomation.github.io/">Loona Automation</a> projekt. Gratis onlineberegnere, ingen tilmelding.
 Kontakt: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>

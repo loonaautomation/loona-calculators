@@ -130,8 +130,8 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <nav>
 <a href="../">Forside</a>
 <a href="https://loonaautomation.github.io/">Loona Automation</a>
-<a href="../../about.html">Om</a>
-<a href="../../contact.html">Kontakt</a>
+<a href="../about.html">Om</a>
+<a href="../contact.html">Kontakt</a>
 </nav>
 </header>
 <div class="wrap">
@@ -149,7 +149,7 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <section class="txt"><h2>Sådan bruger du Envejs-ANOVA-beregner</h2><ol><li>Skriv hver gruppes tal på sin egen linje, adskilt af mellemrum eller kommaer.</li><li>Brug mindst 2 grupper med mindst 2 tal i hver.</li><li>Aflæs ANOVA-tabellen: kvadratsummer, middelkvadrater, F og p.</li></ol>
 <div class="exbox"><strong>Eksempel:</strong> Tre undervisningsmetoder scorede [1,2,3], [4,5,6], [7,8,9] i et legetøjseksempel: gruppegennemsnittene (2, 5, 8) er langt fra hinanden i forhold til den pæne spredning inden for grupperne, så F = 27 og p ≈ 0.001.</div>
 <h2>Ofte stillede spørgsmål</h2></section><div class="faq"><h3>Hvorfor ikke bare køre flere t-tests?</h3><p>Hver t-test bærer sin egen falsk-positive risiko; tre grupper betyder tre tests og cirka 14% familiemæssig fejlrate ved α = 0.05 i stedet for 5%. ANOVA kontrollerer det med én samlet test først.</p></div><div class="faq"><h3>Hvad fortæller en signifikant ANOVA mig — og hvad fortæller den mig ikke?</h3><p>Den siger, at mindst ét gruppegennemsnit adskiller sig fra de andre, men ikke hvilke par der adskiller sig. Følg op med post-hoc-sammenligninger (som Tukeys HSD) for historien par for par.</p></div><div class="faq"><h3>Hvilke forudsætninger ligger under?</h3><p>Uafhængige observationer, tilnærmelsesvis normale data inden for hver gruppe og lignende varianser på tværs af grupper (homoskedasticitet). Meget ulige spredninger eller kraftig skævhed kræver alternativer som Welchs ANOVA eller Kruskal–Wallis.</p></div><div class="faq"><h3>Hvad er SS-between og SS-within med almindelige ord?</h3><p>SS-within måler, hvor meget individer spreder sig omkring deres egen gruppes gennemsnit (støj). SS-between måler, hvor meget gruppegennemsnit spreder sig omkring det samlede gennemsnit (signal, skaleret efter gruppestørrelse). F er signal-til-støj-forholdet efter justering for frihedsgrader.</p></div>
-<h2 class="sec">Relaterede Beregnere</h2><div class="grid"><a class="card" href="../../percentage-calculator"><div class="ic">％</div><h3>Procentberegner</h3><p>Matematik</p></a><a class="card" href="../../statistics-calculator"><div class="ic">📊</div><h3>Statistikberegner</h3><p>Matematik</p></a><a class="card" href="../../fraction-calculator"><div class="ic">½</div><h3>Brøkberegner</h3><p>Matematik</p></a><a class="card" href="../../equation-solver"><div class="ic">🧮</div><h3>Ligningsløser</h3><p>Matematik</p></a><a class="card" href="../../scientific-calculator"><div class="ic">🔬</div><h3>Videnskabelig lommeregner</h3><p>Matematik</p></a><a class="card" href="../../average-calculator"><div class="ic">📐</div><h3>Gennemsnitsberegner</h3><p>Matematik</p></a><a class="card" href="../../z-score-calculator"><div class="ic">🔔</div><h3>Z-scoreberegner</h3><p>Matematik</p></a><a class="card" href="../../probability-calculator"><div class="ic">🎲</div><h3>Sandsynlighedsberegner</h3><p>Matematik</p></a></div>
+<h2 class="sec">Relaterede Beregnere</h2><div class="grid"><a class="card" href="../percentage-calculator/"><div class="ic">％</div><h3>Procentberegner</h3><p>Matematik</p></a><a class="card" href="../statistics-calculator/"><div class="ic">📊</div><h3>Statistikberegner</h3><p>Matematik</p></a><a class="card" href="../fraction-calculator/"><div class="ic">½</div><h3>Brøkberegner</h3><p>Matematik</p></a><a class="card" href="../equation-solver/"><div class="ic">🧮</div><h3>Ligningsløser</h3><p>Matematik</p></a><a class="card" href="../scientific-calculator/"><div class="ic">🔬</div><h3>Videnskabelig lommeregner</h3><p>Matematik</p></a><a class="card" href="../average-calculator/"><div class="ic">📐</div><h3>Gennemsnitsberegner</h3><p>Matematik</p></a><a class="card" href="../z-score-calculator/"><div class="ic">🔔</div><h3>Z-scoreberegner</h3><p>Matematik</p></a><a class="card" href="../probability-calculator/"><div class="ic">🎲</div><h3>Sandsynlighedsberegner</h3><p>Matematik</p></a></div>
 </div>
 <section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>Sådan fungerer det — formlen</h2>
 <p>Samlet gennemsnit over alle N værdier. <strong>SS-between = Σ nᵢ(meanᵢ − grand)²</strong> med df = grupper − 1. <strong>SS-within = Σ Σ (x − meanᵢ)²</strong> med df = N − grupper. <strong>F = (SS-between ÷ df-between) ÷ (SS-within ÷ df-within)</strong>, og p-værdien er højre hale i F-fordelingen, beregnet via den ufuldstændige betafunktion.</p>
@@ -168,22 +168,22 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 </script>
 <footer><div class="fin">
 <div class="cols">
-<div><h4>Populære Beregnere</h4><ul><li><a href="../../age-calculator">Aldersberegner</a></li>
-<li><a href="../../zakat-calculator">Zakatberegner</a></li>
-<li><a href="../../cgpa-calculator">CGPA-beregner</a></li>
-<li><a href="../../percentage-calculator">Procentberegner</a></li>
-<li><a href="../../hijri-date-converter">Hijri-datokonverter</a></li>
-<li><a href="../../emi-calculator">EMI- og låneberegner</a></li></ul></div>
+<div><h4>Populære Beregnere</h4><ul><li><a href="../age-calculator/">Aldersberegner</a></li>
+<li><a href="../zakat-calculator/">Zakatberegner</a></li>
+<li><a href="../cgpa-calculator/">CGPA-beregner</a></li>
+<li><a href="../percentage-calculator/">Procentberegner</a></li>
+<li><a href="../hijri-date-converter/">Hijri-datokonverter</a></li>
+<li><a href="../emi-calculator/">EMI- og låneberegner</a></li></ul></div>
 <div><h4>Flere Loona-værktøjer</h4><ul>
 <li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR-koder</a></li>
 <li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona billedkompressor</a></li>
 <li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI-assistent</a></li>
 <li><a href="https://loonaautomation.github.io/">Alle Loona-værktøjer</a></li></ul></div>
 <div><h4>Loona Calculators</h4><ul>
-<li><a href="../../about.html">Om</a></li>
-<li><a href="../../contact.html">Kontakt</a></li>
-<li><a href="../../privacy-policy.html">Privatlivspolitik</a></li>
-<li><a href="../../terms.html">Brugsbetingelser</a></li></ul></div>
+<li><a href="../about.html">Om</a></li>
+<li><a href="../contact.html">Kontakt</a></li>
+<li><a href="../privacy-policy.html">Privatlivspolitik</a></li>
+<li><a href="../terms.html">Brugsbetingelser</a></li></ul></div>
 </div>
 <div class="bar">© 2026 Loona Calculators — en <a href="https://loonaautomation.github.io/">Loona Automation</a> projekt. Gratis onlineberegnere, ingen tilmelding.
 Kontakt: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>

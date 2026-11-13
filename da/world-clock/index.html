@@ -130,8 +130,8 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <nav>
 <a href="../">Forside</a>
 <a href="https://loonaautomation.github.io/">Loona Automation</a>
-<a href="../../about.html">Om</a>
-<a href="../../contact.html">Kontakt</a>
+<a href="../about.html">Om</a>
+<a href="../contact.html">Kontakt</a>
 </nav>
 </header>
 <div class="wrap">
@@ -143,7 +143,7 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <section class="txt"><h2>Sådan bruger du Verdensur</h2><ol><li>Åbn siden — der kræves intet input.</li><li>Find din by i gitteret; klokkeslættet og datoen opdateres hvert sekund.</li><li>Brug forskydningslinjen under hver by til at sammenligne den med din egen lokale tid.</li></ol>
 <div class="exbox"><strong>Eksempel:</strong> Kl. 12:00:00 UTC den 15. januar 2026 viser uret London 12:00, Karachi 17:00, Dubai 16:00, New York 07:00 og Tokyo 21:00 — det samme øjeblik, fem forskellige lokale tider.</div>
 <h2>Ofte stillede spørgsmål</h2></section><div class="faq"><h3>Hvordan forbliver verdensuret præcist?</h3><p>Den læser din enheds ur én gang i sekundet og omregner det øjeblik til hver bys IANA-tidszone ved hjælp af Intl API'en, der er indbygget i din browser. Tidszonereglerne, herunder sommertid, kommer fra den samme database, som operativsystemer bruger.</p></div><div class="faq"><h3>Hvorfor kan datoen være anderledes i en anden by?</h3><p>Fordi daggrænsen ligger mellem byer: når det er tidlig morgen i Auckland, er det stadig den foregående eftermiddag i Los Angeles. Hvert kort viser derfor byens egen dato såvel som dens tid.</p></div><div class="faq"><h3>Er dette det samme som tidszonekonverteren på Loona Hours?</h3><p>Nej. Det værktøj omregner ét valgt tidspunkt mellem to zoner. Denne side er et live opslag med aktuelle tider i 24 byer på et øjeblik. Den eksisterende Tidsberegner på dette websted lægger varigheder sammen og trækker dem fra — et helt andet job.</p></div><div class="faq"><h3>Hvad hvis et tidspunkt ser forkert ud?</h3><p>Tjek først uret på din enhed — omregningerne er præcise, men de tager udgangspunkt i din enheds aktuelle tidspunkt. Browsere henter tidszoneregler fra dit operativsystem, så hold det opdateret.</p></div>
-<h2 class="sec">Relaterede Beregnere</h2><div class="grid"><a class="card" href="../../date-calculator"><div class="ic">📆</div><h3>Datoberegner</h3><p>Dato & Tid</p></a><a class="card" href="../../days-between-dates-calculator"><div class="ic">🗓️</div><h3>Dage mellem datoer</h3><p>Dato & Tid</p></a><a class="card" href="../../age-calculator"><div class="ic">📅</div><h3>Aldersberegner</h3><p>Dato & Tid</p></a><a class="card" href="../../working-days-calculator"><div class="ic">🏢</div><h3>Beregner for arbejdsdage</h3><p>Dato & Tid</p></a><a class="card" href="../../time-calculator"><div class="ic">⏱️</div><h3>Tidsberegner</h3><p>Dato & Tid</p></a></div>
+<h2 class="sec">Relaterede Beregnere</h2><div class="grid"><a class="card" href="../date-calculator/"><div class="ic">📆</div><h3>Datoberegner</h3><p>Dato & Tid</p></a><a class="card" href="../days-between-dates-calculator/"><div class="ic">🗓️</div><h3>Dage mellem datoer</h3><p>Dato & Tid</p></a><a class="card" href="../age-calculator/"><div class="ic">📅</div><h3>Aldersberegner</h3><p>Dato & Tid</p></a><a class="card" href="../working-days-calculator/"><div class="ic">🏢</div><h3>Beregner for arbejdsdage</h3><p>Dato & Tid</p></a><a class="card" href="../time-calculator/"><div class="ic">⏱️</div><h3>Tidsberegner</h3><p>Dato & Tid</p></a></div>
 </div>
 <section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>Sådan fungerer det — formlen</h2>
 <p>Hvert kort konverterer ét øjeblik — den aktuelle tid fra din enhed — til en tidszone med den indbyggede <strong>Intl.DateTimeFormat</strong> API og IANA-tidszonenavnet (for eksempel <em>Asia/Karachi</em>). Den UTC-forskydning, som hver zone viser, er den, zonen har på den dato, så sommer- og vinterforskydninger (sommertid) anvendes automatisk. <strong>Lokal tid = UTC-tidspunkt + zonens forskydning på den dato.</strong></p>
@@ -163,22 +163,22 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 </script>
 <footer><div class="fin">
 <div class="cols">
-<div><h4>Populære Beregnere</h4><ul><li><a href="../../age-calculator">Aldersberegner</a></li>
-<li><a href="../../zakat-calculator">Zakatberegner</a></li>
-<li><a href="../../cgpa-calculator">CGPA-beregner</a></li>
-<li><a href="../../percentage-calculator">Procentberegner</a></li>
-<li><a href="../../hijri-date-converter">Hijri-datokonverter</a></li>
-<li><a href="../../emi-calculator">EMI- og låneberegner</a></li></ul></div>
+<div><h4>Populære Beregnere</h4><ul><li><a href="../age-calculator/">Aldersberegner</a></li>
+<li><a href="../zakat-calculator/">Zakatberegner</a></li>
+<li><a href="../cgpa-calculator/">CGPA-beregner</a></li>
+<li><a href="../percentage-calculator/">Procentberegner</a></li>
+<li><a href="../hijri-date-converter/">Hijri-datokonverter</a></li>
+<li><a href="../emi-calculator/">EMI- og låneberegner</a></li></ul></div>
 <div><h4>Flere Loona-værktøjer</h4><ul>
 <li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR-koder</a></li>
 <li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona billedkompressor</a></li>
 <li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI-assistent</a></li>
 <li><a href="https://loonaautomation.github.io/">Alle Loona-værktøjer</a></li></ul></div>
 <div><h4>Loona Calculators</h4><ul>
-<li><a href="../../about.html">Om</a></li>
-<li><a href="../../contact.html">Kontakt</a></li>
-<li><a href="../../privacy-policy.html">Privatlivspolitik</a></li>
-<li><a href="../../terms.html">Brugsbetingelser</a></li></ul></div>
+<li><a href="../about.html">Om</a></li>
+<li><a href="../contact.html">Kontakt</a></li>
+<li><a href="../privacy-policy.html">Privatlivspolitik</a></li>
+<li><a href="../terms.html">Brugsbetingelser</a></li></ul></div>
 </div>
 <div class="bar">© 2026 Loona Calculators — en <a href="https://loonaautomation.github.io/">Loona Automation</a> projekt. Gratis onlineberegnere, ingen tilmelding.
 Kontakt: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>

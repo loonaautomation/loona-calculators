@@ -130,8 +130,8 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <nav>
 <a href="../">Forside</a>
 <a href="https://loonaautomation.github.io/">Loona Automation</a>
-<a href="../../about.html">Om</a>
-<a href="../../contact.html">Kontakt</a>
+<a href="../about.html">Om</a>
+<a href="../contact.html">Kontakt</a>
 </nav>
 </header>
 <div class="wrap">
@@ -151,7 +151,7 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <section class="txt"><h2>Sådan bruger du Konfidensintervalberegner</h2><ol><li>Vælg intervaltypen: middelværdi (σ kendt), middelværdi (stikprøvens SD) eller andel.</li><li>Indtast statistikken og stikprøvestørrelsen.</li><li>Vælg konfidensniveauet, og aflæs intervallet og dets fejlmargin.</li></ol>
 <div class="exbox"><strong>Eksempel:</strong> En meningsmåling finder 60% støtte blandt 100 vælgere: 95% CI er 0.6 ± 1.96 × √(0.6×0.4÷100) = 0.6 ± 0.096 → 50.4% til 69.6% — og derfor står der '± cirka 10 point' under sådanne målinger.</div>
 <h2>Ofte stillede spørgsmål</h2></section><div class="faq"><h3>Hvad betyder '95% konfidens' egentlig?</h3><p>Hvis den samme stikprøveprocedure blev gentaget mange gange, ville omkring 95% af de intervaller, der bygges på denne måde, indeholde den sande værdi. Det er en udtalelse om metodens pålidelighed på lang sigt, ikke en 95% sandsynlighed for netop dette ene interval i den strenge frekventistiske læsning.</p></div><div class="faq"><h3>Hvornår bruger jeg t i stedet for z?</h3><p>Brug t, når σ er ukendt og estimeret fra stikprøven (det sædvanlige tilfælde). Den kritiske t-værdi er større end z — især ved små stikprøver — hvilket ærligt gør intervallet bredere. Denne beregner beregner nøjagtige kritiske t-værdier fra t-fordelingen.</p></div><div class="faq"><h3>Hvorfor gør en større stikprøve intervallet smallere?</h3><p>Marginen krymper med √n: at firdoble stikprøven halverer marginen. At gå fra n = 100 til n = 400 i meningsmålingseksemplet skærer ±9.6 point ned til ±4.8 point.</p></div><div class="faq"><h3>Virker proportionsintervallet tæt på 0% eller 100%?</h3><p>Det almindelige (Wald-)interval, der bruges her, kan opføre sig forkert ved meget små stikprøver eller ekstreme proportioner; behandl resultater forsigtigt, når np eller n(1−p) er under omkring 10.</p></div>
-<h2 class="sec">Relaterede Beregnere</h2><div class="grid"><a class="card" href="../../percentage-calculator"><div class="ic">％</div><h3>Procentberegner</h3><p>Matematik</p></a><a class="card" href="../../statistics-calculator"><div class="ic">📊</div><h3>Statistikberegner</h3><p>Matematik</p></a><a class="card" href="../../fraction-calculator"><div class="ic">½</div><h3>Brøkberegner</h3><p>Matematik</p></a><a class="card" href="../../equation-solver"><div class="ic">🧮</div><h3>Ligningsløser</h3><p>Matematik</p></a><a class="card" href="../../scientific-calculator"><div class="ic">🔬</div><h3>Videnskabelig lommeregner</h3><p>Matematik</p></a><a class="card" href="../../average-calculator"><div class="ic">📐</div><h3>Gennemsnitsberegner</h3><p>Matematik</p></a><a class="card" href="../../z-score-calculator"><div class="ic">🔔</div><h3>Z-scoreberegner</h3><p>Matematik</p></a><a class="card" href="../../probability-calculator"><div class="ic">🎲</div><h3>Sandsynlighedsberegner</h3><p>Matematik</p></a></div>
+<h2 class="sec">Relaterede Beregnere</h2><div class="grid"><a class="card" href="../percentage-calculator/"><div class="ic">％</div><h3>Procentberegner</h3><p>Matematik</p></a><a class="card" href="../statistics-calculator/"><div class="ic">📊</div><h3>Statistikberegner</h3><p>Matematik</p></a><a class="card" href="../fraction-calculator/"><div class="ic">½</div><h3>Brøkberegner</h3><p>Matematik</p></a><a class="card" href="../equation-solver/"><div class="ic">🧮</div><h3>Ligningsløser</h3><p>Matematik</p></a><a class="card" href="../scientific-calculator/"><div class="ic">🔬</div><h3>Videnskabelig lommeregner</h3><p>Matematik</p></a><a class="card" href="../average-calculator/"><div class="ic">📐</div><h3>Gennemsnitsberegner</h3><p>Matematik</p></a><a class="card" href="../z-score-calculator/"><div class="ic">🔔</div><h3>Z-scoreberegner</h3><p>Matematik</p></a><a class="card" href="../probability-calculator/"><div class="ic">🎲</div><h3>Sandsynlighedsberegner</h3><p>Matematik</p></a></div>
 </div>
 <section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>Sådan fungerer det — formlen</h2>
 <p><strong>Gennemsnit, σ kendt:</strong> x̄ ± z* × σ ÷ √n. <strong>Gennemsnit, s kendt:</strong> x̄ ± t*(df = n − 1) × s ÷ √n, hvor t* findes ved numerisk at invertere t-CDF'en. <strong>Forhold:</strong> p̂ ± z* × √(p̂(1 − p̂) ÷ n). Kritiske værdier: z* = Φ⁻¹((1 + niveau) ÷ 2) — 1.645, 1.960, 2.576 for 90/95/99%.</p>
@@ -170,22 +170,22 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 </script>
 <footer><div class="fin">
 <div class="cols">
-<div><h4>Populære Beregnere</h4><ul><li><a href="../../age-calculator">Aldersberegner</a></li>
-<li><a href="../../zakat-calculator">Zakatberegner</a></li>
-<li><a href="../../cgpa-calculator">CGPA-beregner</a></li>
-<li><a href="../../percentage-calculator">Procentberegner</a></li>
-<li><a href="../../hijri-date-converter">Hijri-datokonverter</a></li>
-<li><a href="../../emi-calculator">EMI- og låneberegner</a></li></ul></div>
+<div><h4>Populære Beregnere</h4><ul><li><a href="../age-calculator/">Aldersberegner</a></li>
+<li><a href="../zakat-calculator/">Zakatberegner</a></li>
+<li><a href="../cgpa-calculator/">CGPA-beregner</a></li>
+<li><a href="../percentage-calculator/">Procentberegner</a></li>
+<li><a href="../hijri-date-converter/">Hijri-datokonverter</a></li>
+<li><a href="../emi-calculator/">EMI- og låneberegner</a></li></ul></div>
 <div><h4>Flere Loona-værktøjer</h4><ul>
 <li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR-koder</a></li>
 <li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona billedkompressor</a></li>
 <li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI-assistent</a></li>
 <li><a href="https://loonaautomation.github.io/">Alle Loona-værktøjer</a></li></ul></div>
 <div><h4>Loona Calculators</h4><ul>
-<li><a href="../../about.html">Om</a></li>
-<li><a href="../../contact.html">Kontakt</a></li>
-<li><a href="../../privacy-policy.html">Privatlivspolitik</a></li>
-<li><a href="../../terms.html">Brugsbetingelser</a></li></ul></div>
+<li><a href="../about.html">Om</a></li>
+<li><a href="../contact.html">Kontakt</a></li>
+<li><a href="../privacy-policy.html">Privatlivspolitik</a></li>
+<li><a href="../terms.html">Brugsbetingelser</a></li></ul></div>
 </div>
 <div class="bar">© 2026 Loona Calculators — en <a href="https://loonaautomation.github.io/">Loona Automation</a> projekt. Gratis onlineberegnere, ingen tilmelding.
 Kontakt: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>

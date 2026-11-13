@@ -130,8 +130,8 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <nav>
 <a href="../">Forside</a>
 <a href="https://loonaautomation.github.io/">Loona Automation</a>
-<a href="../../about.html">Om</a>
-<a href="../../contact.html">Kontakt</a>
+<a href="../about.html">Om</a>
+<a href="../contact.html">Kontakt</a>
 </nav>
 </header>
 <div class="wrap">
@@ -157,7 +157,7 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <section class="txt"><h2>Sådan bruger du Schengen 90/180-beregner</h2><ol><li>Tilføj hver rejse med dens ind- og udrejsedatoer (begge dage tæller).</li><li>Indstil kontroldatoen — i dag er standarden — for at se dage brugt i 180-dages vinduet, der slutter på den dato, og resterende dage.</li><li>Aflæs det maksimale antal dage fundet i ethvert rullende vindue: over 90 betyder et overophold efter reglen.</li><li>Brug det tidligste resultat for et fuldt ophold, hvis du planlægger en lang ny rejse.</li></ol>
 <div class="exbox"><strong>Eksempel:</strong> To rejser på 45 dage hver — 1. jan.–14. feb. 2026 og 1. mar.–14. apr. 2026 — bruger præcis 90 dage. Den 14. april 2026 rummer vinduet alle 90 dage, 0 dage er tilbage, og der er intet overophold, fordi 90 er tilladt.</div>
 <h2>Ofte stillede spørgsmål</h2></section><div class="faq"><h3>Hvordan fungerer 90/180-reglen egentlig?</h3><p>På enhver dag, hvor du opholder dig i Schengen-området, skal du tælle dine tilstedeværelsesdage i de foregående 180 dage inklusive den dag. Totalen må aldrig overstige 90. Vinduet ruller dagligt fremad, hvilket denne beregner kontrollerer dag for dag på tværs af alle dine rejser.</p></div><div class="faq"><h3>Tæller ind- og udrejsedagene med?</h3><p>Ja. Efter EU-reglen tæller både den dag, du rejser ind, og den dag, du rejser ud, som hele tilstedeværelsesdage, og denne beregner tæller dem på den måde.</p></div><div class="faq"><h3>Hvad tæller som én rejse, hvis jeg rejser ud og vender hurtigt tilbage?</h3><p>Hver dag fysisk inde i Schengen-området tæller, uanset hvor kort opholdet udenfor er. Indtast hvert ophold separat, og beregneren lægger dem alle til i de samme rullende vinduer.</p></div><div class="faq"><h3>Er dette juridisk rådgivning?</h3><p>Nej. Det er vejledning baseret på den almindelige EU-regel om 90/180 dage for kort ophold for visumfrie besøgende og besøgende med kortvisum. Den dækker ikke opholdstilladelser, langtidsvisa eller de særlige regler, som nogle nationaliteter har under bilaterale aftaler. Grænsemyndighederne afgør; tjek officielle EU-kilder for din sag.</p></div>
-<h2 class="sec">Relaterede Beregnere</h2><div class="grid"><a class="card" href="../../date-calculator"><div class="ic">📆</div><h3>Datoberegner</h3><p>Dato & Tid</p></a><a class="card" href="../../days-between-dates-calculator"><div class="ic">🗓️</div><h3>Dage mellem datoer</h3><p>Dato & Tid</p></a><a class="card" href="../../age-calculator"><div class="ic">📅</div><h3>Aldersberegner</h3><p>Dato & Tid</p></a><a class="card" href="../../working-days-calculator"><div class="ic">🏢</div><h3>Beregner for arbejdsdage</h3><p>Dato & Tid</p></a><a class="card" href="../../time-calculator"><div class="ic">⏱️</div><h3>Tidsberegner</h3><p>Dato & Tid</p></a><a class="card" href="../../eu261-compensation-calculator"><div class="ic">✈️</div><h3>EU261-kompensationstjek</h3><p>Penge og rejser</p></a></div>
+<h2 class="sec">Relaterede Beregnere</h2><div class="grid"><a class="card" href="../date-calculator/"><div class="ic">📆</div><h3>Datoberegner</h3><p>Dato & Tid</p></a><a class="card" href="../days-between-dates-calculator/"><div class="ic">🗓️</div><h3>Dage mellem datoer</h3><p>Dato & Tid</p></a><a class="card" href="../age-calculator/"><div class="ic">📅</div><h3>Aldersberegner</h3><p>Dato & Tid</p></a><a class="card" href="../working-days-calculator/"><div class="ic">🏢</div><h3>Beregner for arbejdsdage</h3><p>Dato & Tid</p></a><a class="card" href="../time-calculator/"><div class="ic">⏱️</div><h3>Tidsberegner</h3><p>Dato & Tid</p></a><a class="card" href="../eu261-compensation-calculator/"><div class="ic">✈️</div><h3>EU261-kompensationstjek</h3><p>Penge og rejser</p></a></div>
 </div>
 <section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>Sådan fungerer det — formlen</h2>
 <p>For hver dato <em>D</em>, presence(D) = antallet af dine rejsedage, der falder i vinduet <strong>[D − 179 days, D]</strong>. Reglen brydes kun, hvis presence(D) &gt; 90 for en eller anden D. Denne beregner evaluerer presence for hver relevant dag — hver rejsedag og dagene omkring den — i stedet for at tage stikprøver, så kanttilfælde med rullende vinduer fanges nøjagtigt. Resterende dage på tjekdatoen = 90 − presence(tjekdato). Den tidligste start på et fuldt ophold findes ved at teste kandidatstartdatoer dag for dag: et 90-dages ophold, der starter på S, er kun sikkert, hvis presence holder sig på eller under 90 på hver dag af opholdet, inklusive de nye dage selv.</p>
@@ -176,22 +176,22 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 </script>
 <footer><div class="fin">
 <div class="cols">
-<div><h4>Populære Beregnere</h4><ul><li><a href="../../age-calculator">Aldersberegner</a></li>
-<li><a href="../../zakat-calculator">Zakatberegner</a></li>
-<li><a href="../../cgpa-calculator">CGPA-beregner</a></li>
-<li><a href="../../percentage-calculator">Procentberegner</a></li>
-<li><a href="../../hijri-date-converter">Hijri-datokonverter</a></li>
-<li><a href="../../emi-calculator">EMI- og låneberegner</a></li></ul></div>
+<div><h4>Populære Beregnere</h4><ul><li><a href="../age-calculator/">Aldersberegner</a></li>
+<li><a href="../zakat-calculator/">Zakatberegner</a></li>
+<li><a href="../cgpa-calculator/">CGPA-beregner</a></li>
+<li><a href="../percentage-calculator/">Procentberegner</a></li>
+<li><a href="../hijri-date-converter/">Hijri-datokonverter</a></li>
+<li><a href="../emi-calculator/">EMI- og låneberegner</a></li></ul></div>
 <div><h4>Flere Loona-værktøjer</h4><ul>
 <li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR-koder</a></li>
 <li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona billedkompressor</a></li>
 <li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI-assistent</a></li>
 <li><a href="https://loonaautomation.github.io/">Alle Loona-værktøjer</a></li></ul></div>
 <div><h4>Loona Calculators</h4><ul>
-<li><a href="../../about.html">Om</a></li>
-<li><a href="../../contact.html">Kontakt</a></li>
-<li><a href="../../privacy-policy.html">Privatlivspolitik</a></li>
-<li><a href="../../terms.html">Brugsbetingelser</a></li></ul></div>
+<li><a href="../about.html">Om</a></li>
+<li><a href="../contact.html">Kontakt</a></li>
+<li><a href="../privacy-policy.html">Privatlivspolitik</a></li>
+<li><a href="../terms.html">Brugsbetingelser</a></li></ul></div>
 </div>
 <div class="bar">© 2026 Loona Calculators — en <a href="https://loonaautomation.github.io/">Loona Automation</a> projekt. Gratis onlineberegnere, ingen tilmelding.
 Kontakt: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>

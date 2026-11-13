@@ -129,8 +129,8 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <nav>
 <a href="../">Forside</a>
 <a href="https://loonaautomation.github.io/">Loona Automation</a>
-<a href="../../about.html">Om</a>
-<a href="../../contact.html">Kontakt</a>
+<a href="../about.html">Om</a>
+<a href="../contact.html">Kontakt</a>
 </nav>
 </header>
 <div class="wrap">
@@ -141,7 +141,7 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <section class="txt"><h2>Sådan bruger du Opsparingsberegner</h2><ol><li>Indtast din månedlige indbetaling.</li><li>Indtast den årlige rentesats (%) og antallet af år.</li><li>Tryk på Beregn — den fremtidige værdi, indskud og optjent rente vises nedenfor.</li></ol>
 <div class="exbox"><strong>Eksempel:</strong> At spare Rs 10,000 op hver måned til 8% om året i 10 år vokser til cirka Rs 18,41,657 — Rs 12,00,000 indbetalt af dig og cirka Rs 6,41,657 tjent som rente.</div>
 <h2>Ofte stillede spørgsmål</h2></section><div class="faq"><h3>Hvornår antages hver indbetaling at blive foretaget?</h3><p>I starten af hver måned, med månedlig rentetilskrivning — den almindelige måde, almindelige opsparingsplaner modelleres på.</p></div><div class="faq"><h3>Er renten garanteret?</h3><p>Nej — satsen er den, du indtaster. Bankkonti, opsparingsordninger og investeringer betaler alle forskelligt og kan ændre sig over tid.</p></div><div class="faq"><h3>Hvordan adskiller dette sig fra Renters rente-beregneren?</h3><p>Det værktøj tager udgangspunkt i et engangsbeløb (med en valgfri indbetaling). Dette er bygget udelukkende op omkring en fast månedlig indbetaling.</p></div>
-<h2 class="sec">Relaterede Beregnere</h2><div class="grid"><a class="card" href="../../emi-calculator"><div class="ic">🏦</div><h3>EMI- og låneberegner</h3><p>Penge og finans</p></a><a class="card" href="../../compound-interest-calculator"><div class="ic">📈</div><h3>Rentes rente</h3><p>Penge og finans</p></a><a class="card" href="../../electricity-bill-calculator"><div class="ic">💡</div><h3>Elregning</h3><p>Penge og finans</p></a><a class="card" href="../../age-calculator"><div class="ic">📅</div><h3>Aldersberegner</h3><p>Dato & Tid</p></a><a class="card" href="../../mortgage-calculator"><div class="ic">🏠</div><h3>Boliglånsberegner</h3><p>Penge og finans</p></a></div>
+<h2 class="sec">Relaterede Beregnere</h2><div class="grid"><a class="card" href="../emi-calculator/"><div class="ic">🏦</div><h3>EMI- og låneberegner</h3><p>Penge og finans</p></a><a class="card" href="../compound-interest-calculator/"><div class="ic">📈</div><h3>Rentes rente</h3><p>Penge og finans</p></a><a class="card" href="../electricity-bill-calculator/"><div class="ic">💡</div><h3>Elregning</h3><p>Penge og finans</p></a><a class="card" href="../age-calculator/"><div class="ic">📅</div><h3>Aldersberegner</h3><p>Dato & Tid</p></a><a class="card" href="../mortgage-calculator/"><div class="ic">🏠</div><h3>Boliglånsberegner</h3><p>Penge og finans</p></a></div>
 </div>
 <section class="txt"><h2>Sådan fungerer det — formlen</h2><p>Et fast beløb indsættes hver måned, og hvert indskud får renters rente med den månedlige rente (årlig rente ÷ 12). Hvert indskud antages at ske i starten af måneden, så alle indskud — også det allersidste — får mindst én måneds rente. Det gør dette til "annuity due"-formen af formlen for fremtidig værdi, og det er også derfor, renten her er lidt højere, end indskud i slutningen af hver måned ville give.</p><p><strong>Formel:</strong> Fremtidig værdi = D × [((1 + r)<sup>n</sup> − 1) ÷ r] × (1 + r), hvor D er det månedlige indskud, r er den årlige sats ÷ 1200, og n er årene × 12. Det sidste × (1 + r) er den ekstra måned, som hvert indskud i starten af måneden tjener. Ved en sats på 0% er fremtidsværdien simpelthen D × n.</p><h3>Gennemregnet eksempel</h3><div class="exbox"><strong>Eksempel:</strong> Indbetal Rs 15,000 hver måned til 9% om året i 15 år. Det er 180 indbetalinger på i alt Rs 27,00,000. Med månedlig rentetilskrivning giver beregneren en fremtidig værdi på <strong>Rs 57,18,657.18</strong> — så Rs 30,18,657.18 af det endelige beløb er rente, mere end det samlede beløb, du indbetalte.</div><h3>Ofte stillede spørgsmål</h3></section><div class="faq"><h3>Hvad sker der, hvis renten er 0%?</h3><p>Fremtidsværdien er derefter blot dine indbetalinger lagt sammen, helt uden rente. Rs 5,000 om måneden i 5 år ved 0% giver nøjagtigt Rs 3,00,000 — 60 indbetalinger og Rs 0 i rente, nøjagtigt som beregneren viser.</p></div><div class="faq"><h3>Kan indskudsbeløbet ændre sig halvvejs?</h3><p>Nej. Ét fast månedligt indskud forudsættes for hele perioden. Hvis du planlægger at hæve dit indskud senere, skal du køre beregneren igen med det nye beløb for at se, hvilken forskel det ville gøre over de resterende år.</p></div><div class="faq"><h3>Forbliver rentesatsen den samme i hele perioden?</h3><p>I denne beregning, ja — den ene sats, du indtaster, anvendes på hver måned. Hvis en ægte konto eller ordning ændrer sin fortjenstsats undervejs, vil det faktiske resultat afvige fra denne fremskrivning.</p></div><div class="faq"><h3>Fratrækkes skat eller andre fradrag af renterne?</h3><p>Nej. Den fremtidige værdi, der vises, er bruttobeløbet før enhver skat eller fradrag. Hvad der kan blive fratrukket af overskuddet på en rigtig konto, afhænger af kontotypen og de gældende regler og indgår ikke i denne beregning.</p></div><div class="faq"><h3>Hvor mange indbetalinger foretager jeg i alt?</h3><p>Tolv for hvert år — resultattabellen viser det nøjagtige antal. I det gennemregnede eksempel betyder 15 år 180 månedlige indbetalinger. Når du kender antallet, kan du kontrollere det samlede indbetalte beløb: 180 × Rs 15,000 = Rs 27,00,000.</p></div>
 <div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
@@ -156,22 +156,22 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 </script>
 <footer><div class="fin">
 <div class="cols">
-<div><h4>Populære Beregnere</h4><ul><li><a href="../../age-calculator">Aldersberegner</a></li>
-<li><a href="../../zakat-calculator">Zakatberegner</a></li>
-<li><a href="../../cgpa-calculator">CGPA-beregner</a></li>
-<li><a href="../../percentage-calculator">Procentberegner</a></li>
-<li><a href="../../hijri-date-converter">Hijri-datokonverter</a></li>
-<li><a href="../../emi-calculator">EMI- og låneberegner</a></li></ul></div>
+<div><h4>Populære Beregnere</h4><ul><li><a href="../age-calculator/">Aldersberegner</a></li>
+<li><a href="../zakat-calculator/">Zakatberegner</a></li>
+<li><a href="../cgpa-calculator/">CGPA-beregner</a></li>
+<li><a href="../percentage-calculator/">Procentberegner</a></li>
+<li><a href="../hijri-date-converter/">Hijri-datokonverter</a></li>
+<li><a href="../emi-calculator/">EMI- og låneberegner</a></li></ul></div>
 <div><h4>Flere Loona-værktøjer</h4><ul>
 <li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR-koder</a></li>
 <li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona billedkompressor</a></li>
 <li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI-assistent</a></li>
 <li><a href="https://loonaautomation.github.io/">Alle Loona-værktøjer</a></li></ul></div>
 <div><h4>Loona Calculators</h4><ul>
-<li><a href="../../about.html">Om</a></li>
-<li><a href="../../contact.html">Kontakt</a></li>
-<li><a href="../../privacy-policy.html">Privatlivspolitik</a></li>
-<li><a href="../../terms.html">Brugsbetingelser</a></li></ul></div>
+<li><a href="../about.html">Om</a></li>
+<li><a href="../contact.html">Kontakt</a></li>
+<li><a href="../privacy-policy.html">Privatlivspolitik</a></li>
+<li><a href="../terms.html">Brugsbetingelser</a></li></ul></div>
 </div>
 <div class="bar">© 2026 Loona Calculators — en <a href="https://loonaautomation.github.io/">Loona Automation</a> projekt. Gratis onlineberegnere, ingen tilmelding.
 Kontakt: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>

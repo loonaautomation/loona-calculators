@@ -130,8 +130,8 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <nav>
 <a href="../">Forside</a>
 <a href="https://loonaautomation.github.io/">Loona Automation</a>
-<a href="../../about.html">Om</a>
-<a href="../../contact.html">Kontakt</a>
+<a href="../about.html">Om</a>
+<a href="../contact.html">Kontakt</a>
 </nav>
 </header>
 <div class="wrap">
@@ -150,7 +150,7 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <section class="txt"><h2>Sådan bruger du Solopgangs- og solnedgangsberegner</h2><ol><li>Vælg en forudindstillet by, eller indtast selv breddegrad (−90 til 90) og længdegrad (−180 til 180, øst positiv).</li><li>Vælg datoen.</li><li>Aflæs solopgang, solnedgang, daglængde og solmiddag i UTC; læg din tidszoneforskydning til for at få lokale klokkeslæt.</li></ol>
 <div class="exbox"><strong>Eksempel:</strong> Karachi (24.86°N, 67.00°E) den 15. januar 2026: solopgang omkring 02:19 UTC = 07:19 lokal tid (UTC+5), solnedgang omkring 13:04 UTC = 18:04 lokal tid — en vinterdag på omkring 10 timer og 45 minutter.</div>
 <h2>Ofte stillede spørgsmål</h2></section><div class="faq"><h3>I hvilken tidsstandard er resultaterne?</h3><p>, så de virker til alle steder uden at skulle gætte tidszoner eller regler for sommertid. Læg stedets UTC-offset for den pågældende dato til (for eksempel +5 for Karachi, +1 for London om sommeren) for at få lokalt klokkeslæt.</p></div><div class="faq"><h3>Hvor nøjagtig er den?</h3><p>Den NOAA/Almanac-algoritme, der bruges her, ligger typisk inden for omkring 1–2 minutter af de offentliggjorte almanaktider på de fleste befolkede breddegrader. På ekstreme polare breddegrader står solen måske slet ikke op eller går ned på visse datoer — beregneren angiver ærligt polardag eller polarnat.</p></div><div class="faq"><h3>Hvorfor 90.833 grader og ikke præcis 90?</h3><p>Fordi solopgang/solnedgang defineres ved solens øverste kant, ikke dens centrum, og atmosfæren bøjer sollyset. De ekstra 0.833° tager højde for solens radius (0.25°) plus typisk refraktion (0.583°).</p></div><div class="faq"><h3>Hvor kan jeg få koordinater til min by?</h3><p>Enhver kortapp viser bredde-/længdegrad for en placeret nål. Den forudindstillede liste dækker store byer i verden og Europa at starte ud fra.</p></div>
-<h2 class="sec">Relaterede Beregnere</h2><div class="grid"><a class="card" href="../../date-calculator"><div class="ic">📆</div><h3>Datoberegner</h3><p>Dato & Tid</p></a><a class="card" href="../../days-between-dates-calculator"><div class="ic">🗓️</div><h3>Dage mellem datoer</h3><p>Dato & Tid</p></a><a class="card" href="../../age-calculator"><div class="ic">📅</div><h3>Aldersberegner</h3><p>Dato & Tid</p></a><a class="card" href="../../working-days-calculator"><div class="ic">🏢</div><h3>Beregner for arbejdsdage</h3><p>Dato & Tid</p></a><a class="card" href="../../world-clock"><div class="ic">🌍</div><h3>Verdensur</h3><p>Dato & Tid</p></a></div>
+<h2 class="sec">Relaterede Beregnere</h2><div class="grid"><a class="card" href="../date-calculator/"><div class="ic">📆</div><h3>Datoberegner</h3><p>Dato & Tid</p></a><a class="card" href="../days-between-dates-calculator/"><div class="ic">🗓️</div><h3>Dage mellem datoer</h3><p>Dato & Tid</p></a><a class="card" href="../age-calculator/"><div class="ic">📅</div><h3>Aldersberegner</h3><p>Dato & Tid</p></a><a class="card" href="../working-days-calculator/"><div class="ic">🏢</div><h3>Beregner for arbejdsdage</h3><p>Dato & Tid</p></a><a class="card" href="../world-clock/"><div class="ic">🌍</div><h3>Verdensur</h3><p>Dato & Tid</p></a></div>
 </div>
 <section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>Sådan fungerer det — formlen</h2>
 <p>Den almindelige Almanac/NOAA-metode: ud fra årets dag N og længdegraden estimeres solens middelanomali M = 0.9856t − 3.289, dens sande længde L = M + 1.916 sin M + 0.020 sin 2M + 282.634, rektascension RA og deklination ud fra sin(dec) = 0.39782 sin L. Timevinklen H følger af cos H = (cos 90.833° − sin(dec) sin(lat)) ÷ (cos(dec) cos(lat)). Solopgang bruger 360° − H, solnedgang bruger H, og lokal middeltid omregnes til UTC med længdegraden. Hvis |cos H| &gt; 1, går solen aldrig ned (polardag) eller står aldrig op (polarnat) den dag.</p>
@@ -169,22 +169,22 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 </script>
 <footer><div class="fin">
 <div class="cols">
-<div><h4>Populære Beregnere</h4><ul><li><a href="../../age-calculator">Aldersberegner</a></li>
-<li><a href="../../zakat-calculator">Zakatberegner</a></li>
-<li><a href="../../cgpa-calculator">CGPA-beregner</a></li>
-<li><a href="../../percentage-calculator">Procentberegner</a></li>
-<li><a href="../../hijri-date-converter">Hijri-datokonverter</a></li>
-<li><a href="../../emi-calculator">EMI- og låneberegner</a></li></ul></div>
+<div><h4>Populære Beregnere</h4><ul><li><a href="../age-calculator/">Aldersberegner</a></li>
+<li><a href="../zakat-calculator/">Zakatberegner</a></li>
+<li><a href="../cgpa-calculator/">CGPA-beregner</a></li>
+<li><a href="../percentage-calculator/">Procentberegner</a></li>
+<li><a href="../hijri-date-converter/">Hijri-datokonverter</a></li>
+<li><a href="../emi-calculator/">EMI- og låneberegner</a></li></ul></div>
 <div><h4>Flere Loona-værktøjer</h4><ul>
 <li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR-koder</a></li>
 <li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona billedkompressor</a></li>
 <li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI-assistent</a></li>
 <li><a href="https://loonaautomation.github.io/">Alle Loona-værktøjer</a></li></ul></div>
 <div><h4>Loona Calculators</h4><ul>
-<li><a href="../../about.html">Om</a></li>
-<li><a href="../../contact.html">Kontakt</a></li>
-<li><a href="../../privacy-policy.html">Privatlivspolitik</a></li>
-<li><a href="../../terms.html">Brugsbetingelser</a></li></ul></div>
+<li><a href="../about.html">Om</a></li>
+<li><a href="../contact.html">Kontakt</a></li>
+<li><a href="../privacy-policy.html">Privatlivspolitik</a></li>
+<li><a href="../terms.html">Brugsbetingelser</a></li></ul></div>
 </div>
 <div class="bar">© 2026 Loona Calculators — en <a href="https://loonaautomation.github.io/">Loona Automation</a> projekt. Gratis onlineberegnere, ingen tilmelding.
 Kontakt: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
