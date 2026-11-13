@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калкулатор за термин при инвитро",
+  "short_name": "Калкулатор за термин при инвитро",
+  "description": "Безплатен калкулатор за термин при IVF: въведете датата на трансфера на ембриона и възрастта на ембриона (ден 3 или ден 5), за да получите прогнозния си термин и текущата гестационна възраст.",
+  "id": "/loona-calculators/bg/ivf-due-date-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

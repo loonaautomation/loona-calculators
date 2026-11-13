@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертор от часове в години (юлиански)",
+  "short_name": "Час в година (юлианска)",
+  "description": "Конвертирайте часове към години мигновено. Точна формула, пълна таблица за преобразуване h към yr, разработен пример и ЧЗВ. Безплатно, без регистрация.",
+  "id": "/loona-calculators/bg/hours-to-years-converter.html",
+  "start_url": "./hours-to-years-converter.html",
+  "scope": "./hours-to-years-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

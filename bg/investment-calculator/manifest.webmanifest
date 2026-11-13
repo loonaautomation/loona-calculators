@@ -1,0 +1,29 @@
+{
+  "name": "Loona Инвестиционен калкулатор",
+  "short_name": "Инвестиционен калкулатор",
+  "description": "Безплатен калкулатор за инвестиции: начална сума плюс месечни добавки и очаквана възвръщаемост — вижте бъдещата стойност, общо инвестираното и общата печалба с времето.",
+  "id": "/loona-calculators/bg/investment-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
