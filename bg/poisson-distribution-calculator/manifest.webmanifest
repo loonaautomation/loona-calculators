@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калкулатор за разпределение на Поасон",
+  "short_name": "Разпределение на Поасон",
+  "description": "Безплатен калкулатор за разпределение на Поасон: вероятност за точно k събития, най-много k или поне k, при дадена средна ставка ламбда. За обаждания, пристигания, дефекти и редки събития.",
+  "id": "/loona-calculators/bg/poisson-distribution-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
