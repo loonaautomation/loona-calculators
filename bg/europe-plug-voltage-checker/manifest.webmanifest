@@ -1,0 +1,29 @@
+{
+  "name": "Loona Проверка на щепселите и напрежението в Европа",
+  "short_name": "Проверка на щепсели и напрежение в Европа",
+  "description": "Безплатна проверка на щепсели и напрежение в Европа: изберете европейска държава, за да видите нейните видове щепсели, напрежение и честота, и дали ви трябва адаптер или конвертор.",
+  "id": "/loona-calculators/bg/europe-plug-voltage-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

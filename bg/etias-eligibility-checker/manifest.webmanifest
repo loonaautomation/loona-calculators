@@ -1,0 +1,29 @@
+{
+  "name": "Loona Проверка за допустимост за ETIAS",
+  "short_name": "Проверка за допустимост за ETIAS",
+  "description": "Безплатна проверка за допустимост за ETIAS: изберете националността и ситуацията си на пътуване, за да видите дали ще ви трябва ETIAS, шенгенска виза или никакво разрешение за кратки пътувания до Европа.",
+  "id": "/loona-calculators/bg/etias-eligibility-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

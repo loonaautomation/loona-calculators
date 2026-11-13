@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертор от Фаренхайт в Целзий",
+  "short_name": "Фаренхайт към Целзий",
+  "description": "Конвертирайте Фаренхайт към Целзий мигновено. Точна формула, пълна таблица за преобразуване °F към °C и разработени примери. Безплатно, без регистрация.",
+  "id": "/loona-calculators/bg/fahrenheit-to-celsius-converter.html",
+  "start_url": "./fahrenheit-to-celsius-converter.html",
+  "scope": "./fahrenheit-to-celsius-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

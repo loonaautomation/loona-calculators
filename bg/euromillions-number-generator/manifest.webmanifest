@@ -1,0 +1,29 @@
+{
+  "name": "Loona Генератор на числа за EuroMillions",
+  "short_name": "Генератор на числа за EuroMillions",
+  "description": "Безплатен генератор на числа за EuroMillions: изтеглете 5 основни числа от 50 плюс 2 Lucky Stars от 12, с до 5 реда наведнъж. Сигурни случайни избори, без регистрация.",
+  "id": "/loona-calculators/bg/euromillions-number-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

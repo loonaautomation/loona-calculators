@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертор на време от Дубай до Мумбай",
+  "short_name": "Конвертор на време Дубай към Мумбай",
+  "description": "Преобразувайте времето в Дубай към времето в Мумбай. Мумбай е с 1 час и 30 минути пред Дубай през цялата година, с дати на лятното часово време, таблица за 24 часа и най-добрия прозорец за срещи. Включен е конвертор на живо.",
+  "id": "/loona-calculators/bg/dubai-to-mumbai-time-converter.html",
+  "start_url": "./dubai-to-mumbai-time-converter.html",
+  "scope": "./dubai-to-mumbai-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
