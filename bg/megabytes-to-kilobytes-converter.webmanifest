@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертор от мегабайти в килобайти",
+  "short_name": "Мегабайти в килобайти",
+  "description": "Конвертирайте мегабайтове към килобайтове мигновено (двоична конвенция: 1 GB = 1,024 MB). Точна формула, пълна таблица за преобразуване MB към KB и разработени примери. Безплатно, без регистрация.",
+  "id": "/loona-calculators/bg/megabytes-to-kilobytes-converter.html",
+  "start_url": "./megabytes-to-kilobytes-converter.html",
+  "scope": "./megabytes-to-kilobytes-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
