@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертор за готварски мерки",
+  "short_name": "Калкулатор за готварски преобразувания",
+  "description": "Безплатен калкулатор за готварски преобразувания: преобразувайте чаши, лъжици, милилитри, грамове, унции и паунди за 10 често срещани съставки, използвайки реални плътности — брашно, захар, масло, мед и още.",
+  "id": "/loona-calculators/bg/cooking-conversion-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калкулатор за зачеване",
+  "short_name": "Калкулатор за зачеване",
+  "description": "Безплатен калкулатор за зачеване: въведете очаквания термин, за да оцените датата на зачеване, първия ден на последната менструация и края на първия триместър.",
+  "id": "/loona-calculators/bg/conception-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

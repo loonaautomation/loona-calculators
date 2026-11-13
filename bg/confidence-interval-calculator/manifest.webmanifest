@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калкулатор за доверителен интервал",
+  "short_name": "Калкулатор за доверителен интервал",
+  "description": "Безплатен калкулатор за доверителен интервал: CI за средна стойност с известно сигма (z), с извадково SD (t) и за пропорция, при 90%, 95% или 99% доверителност.",
+  "id": "/loona-calculators/bg/confidence-interval-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
