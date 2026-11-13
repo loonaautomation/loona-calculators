@@ -1,0 +1,29 @@
+{
+  "name": "Loona Binomijakaumalaskuri",
+  "short_name": "Binomijakauma",
+  "description": "Ilmainen binomijakaumalaskuri: todennäköisyys tasan k onnistumiselle, enintään k:lle tai vähintään k:lle n kokeessa onnistumistodennäköisyydellä p. Oppikirjoilla tarkistetut arvot.",
+  "id": "/loona-calculators/fi/binomial-distribution-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

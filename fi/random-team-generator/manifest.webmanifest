@@ -1,0 +1,29 @@
+{
+  "name": "Loona satunnaisjoukkuelaskuri",
+  "short_name": "Satunnaisten joukkueiden generoija",
+  "description": "Ilmainen satunnaisten joukkueiden generoija: liitä luettelo nimistä ja jaa ne tasapainotettuihin satunnaisiin joukkueisiin urheilulle, luokille, peleille ja työpajoille. Reilu sekoitus, ei rekisteröitymistä.",
+  "id": "/loona-calculators/fi/random-team-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

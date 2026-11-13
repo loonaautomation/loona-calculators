@@ -1,0 +1,29 @@
+{
+  "name": "Loona Raskauden painonnousulaskuri",
+  "short_name": "Raskauden painonnousu",
+  "description": "Ilmainen raskauden painonnousulaskuri: IOM:n suosittelema kokonais- ja viikko viikolta -painonnousun vaihteluväli BMI-luokkasi perusteella ennen raskautta. Vain koulutuksellinen opas.",
+  "id": "/loona-calculators/fi/pregnancy-weight-gain-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

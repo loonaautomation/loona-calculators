@@ -1,0 +1,29 @@
+{
+  "name": "Loona BTU tunnissa–Kilowatti-muunnin",
+  "short_name": "BTU tunnissa → kilowatti",
+  "description": "Muunna BTU tunnissa kilowateiksi heti. Tarkka kaava, täysi BTU/h–kW-muunnostaulukko, esimerkkilaskelma ja UKK. Ilmainen, ei rekisteröitymistä.",
+  "id": "/loona-calculators/fi/btus-per-hour-to-kilowatts-converter.html",
+  "start_url": "./btus-per-hour-to-kilowatts-converter.html",
+  "scope": "./btus-per-hour-to-kilowatts-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

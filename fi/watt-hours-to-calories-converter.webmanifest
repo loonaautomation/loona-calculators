@@ -1,0 +1,29 @@
+{
+  "name": "Loona Watt-hour–Calorie (small)-muunnin",
+  "short_name": "Wattitunti–Kalori (pieni)",
+  "description": "Muunna wattitunnit kaloreiksi (pieni) heti. Tarkka kaava, täysi Wh–cal-muuntotaulukko, laskettu esimerkki ja usein kysytyt kysymykset. Ilmainen, ei rekisteröitymistä.",
+  "id": "/loona-calculators/fi/watt-hours-to-calories-converter.html",
+  "start_url": "./watt-hours-to-calories-converter.html",
+  "scope": "./watt-hours-to-calories-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona EUR–NZD-muunnin",
+  "short_name": "EUR–NZD-muunnin",
+  "description": "Muunna euro (EUR) Uuden-Seelannin dollariksi (NZD). EKP:n viitekurssi päivätty 06. marraskuuta 2026, käänteinen kurssi, muunnostaulukko ja käytävää koskevat huomautukset. Vain suuntaa antava.",
+  "id": "/loona-calculators/fi/eur-to-nzd-converter.html",
+  "start_url": "./eur-to-nzd-converter.html",
+  "scope": "./eur-to-nzd-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

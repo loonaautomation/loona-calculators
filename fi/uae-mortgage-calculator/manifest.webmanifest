@@ -1,0 +1,29 @@
+{
+  "name": "Loona Yhdistyneiden arabiemiirikuntien asuntolainalaskuri",
+  "short_name": "UAE:n asuntolainalaskuri",
+  "description": "Ilmainen UAE-asuntolainalaskuri dirhameina: kuukausierä, kokonaiskorko ja velattomuuspäivä mille tahansa kiinteistön hinnalle, käsirahalle, korolle ja laina-ajalle sekä ylimääräisten lyhennysten vertailu.",
+  "id": "/loona-calculators/fi/uae-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona HKD–EUR-muunnin",
+  "short_name": "HKD–EUR-muunnin",
+  "description": "Muunna Hongkongin dollari (HKD) euroksi (EUR). EKP:n viitekurssi päivätty 06. marraskuuta 2026, käänteinen kurssi, muunnostaulukko ja käytävää koskevat huomautukset. Vain suuntaa antava.",
+  "id": "/loona-calculators/fi/hkd-to-eur-converter.html",
+  "start_url": "./hkd-to-eur-converter.html",
+  "scope": "./hkd-to-eur-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

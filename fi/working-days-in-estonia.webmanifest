@@ -1,0 +1,29 @@
+{
+  "name": "Loona Työpäivät maassa Viro",
+  "short_name": "Työpäivät Virossa",
+  "description": "Työpäivälaskuri Viroon: laske arkipäivät kahden päivämäärän välillä niin, että viikonloput ja kaikki 12 Viron pyhäpäivää vuonna 2026 on poistettu. Ilmainen verkkotyökalu.",
+  "id": "/loona-calculators/fi/working-days-in-estonia.html",
+  "start_url": "./working-days-in-estonia.html",
+  "scope": "./working-days-in-estonia.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

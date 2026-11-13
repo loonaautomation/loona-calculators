@@ -1,0 +1,29 @@
+{
+  "name": "Loona Työpäivät Sveitsissä",
+  "short_name": "Työpäivät Sveitsissä",
+  "description": "Työpäivälaskuri Sveitsille: työpäivät kahden päivämäärän välillä miinus viikonloput ja 4 yleistä vapaapäivää, joita vietetään jokaisessa Sveitsin kantonissa vuonna 2026.",
+  "id": "/loona-calculators/fi/working-days-in-switzerland.html",
+  "start_url": "./working-days-in-switzerland.html",
+  "scope": "./working-days-in-switzerland.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

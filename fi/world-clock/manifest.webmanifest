@@ -1,0 +1,29 @@
+{
+  "name": "Loona Maailmankello",
+  "short_name": "Maailmankello",
+  "description": "Ilmainen live-maailmankello: nykyinen paikallinen aika ja päivämäärä 24 suuressa kaupungissa, mukaan lukien Lontoo, New York, Dubai, Karachi ja Tokio, päivittyen joka sekunti aikavyöhykkeiden mukaan.",
+  "id": "/loona-calculators/fi/world-clock/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

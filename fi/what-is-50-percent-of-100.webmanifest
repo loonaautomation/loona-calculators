@@ -1,0 +1,29 @@
+{
+  "name": "Loona Mikä on 50 prosenttia luvusta 100?",
+  "short_name": "Mikä on 50 prosenttia luvusta 100?",
+  "description": "50% luvusta 100 on 50. Katso koko laskelma, päässälaskuvinkki, 50% muista summista ja 100 muilla prosenteilla.",
+  "id": "/loona-calculators/fi/what-is-50-percent-of-100.html",
+  "start_url": "./what-is-50-percent-of-100.html",
+  "scope": "./what-is-50-percent-of-100.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona MXN–INR-muunnin",
+  "short_name": "MXN–INR-muunnin",
+  "description": "Muunna Meksikon peso (MXN) Intian rupiaksi (INR). EKP:n viitekurssi päivältä 06. marraskuuta 2026, käänteinen kurssi, muuntotaulukko ja käytävähuomiot. Vain suuntaa antava.",
+  "id": "/loona-calculators/fi/mxn-to-inr-converter.html",
+  "start_url": "./mxn-to-inr-converter.html",
+  "scope": "./mxn-to-inr-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

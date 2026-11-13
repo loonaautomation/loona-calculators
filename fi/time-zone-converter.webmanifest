@@ -1,0 +1,29 @@
+{
+  "name": "Loona Aikavyöhykemuunnin",
+  "short_name": "Aikavyöhykemuunnin",
+  "description": "Muunna aikaa 60 maailman kaupunkiparin välillä, kausittaisilla eroilla, vuoden 2026 kesäajan päivämäärillä ja kokousten päällekkäisyysikkunoilla.",
+  "id": "/loona-calculators/fi/time-zone-converter.html",
+  "start_url": "./time-zone-converter.html",
+  "scope": "./time-zone-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Rasvattoman kehonmassan laskuri",
+  "short_name": "Rasvattoman massan laskuri",
+  "description": "Ilmainen rasvattoman massan laskuri Boerin, Jamesin ja Humen kaavoilla painosta, pituudesta ja sukupuolesta — mittanauhoja ei tarvita. Koulutuksellinen arvio.",
+  "id": "/loona-calculators/fi/lean-body-mass-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

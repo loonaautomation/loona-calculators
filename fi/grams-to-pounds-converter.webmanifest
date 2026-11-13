@@ -1,0 +1,29 @@
+{
+  "name": "Loona grammat–paunat-muunnin",
+  "short_name": "Grams – Pounds -muunnin",
+  "description": "Muunna grammat paunoiksi heti. Tarkka kaava, täysi g–lb-muunnostaulukko ja laskettuja esimerkkejä. Ilmainen, ei rekisteröitymistä.",
+  "id": "/loona-calculators/fi/grams-to-pounds-converter.html",
+  "start_url": "./grams-to-pounds-converter.html",
+  "scope": "./grams-to-pounds-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

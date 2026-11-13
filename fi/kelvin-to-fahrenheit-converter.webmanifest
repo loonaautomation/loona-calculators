@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kelvin–Fahrenheit-aste-muunnin",
+  "short_name": "Kelvin – Fahrenheit-aste",
+  "description": "Tee kelvin–degrees fahrenheit-muunnos välittömästi. Tarkka kaava, täysi K–°F-muuntotaulukko, laskettu esimerkki ja usein kysytyt kysymykset. Ilmainen, ei rekisteröitymistä.",
+  "id": "/loona-calculators/fi/kelvin-to-fahrenheit-converter.html",
+  "start_url": "./kelvin-to-fahrenheit-converter.html",
+  "scope": "./kelvin-to-fahrenheit-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

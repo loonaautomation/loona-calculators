@@ -1,0 +1,29 @@
+{
+  "name": "Loona Lasten BMI-persentiililaskuri",
+  "short_name": "Lapsen BMI-persentiili",
+  "description": "Ilmainen lasten BMI-persentiililaskuri käyttäen virallisia CDC:n LMS-kasvukäyrätietoja ikävuosille 2–20: BMI, persentiili, z-pisteet ja painoluokka pojille ja tytöille.",
+  "id": "/loona-calculators/fi/child-bmi-percentile-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

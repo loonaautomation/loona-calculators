@@ -1,0 +1,29 @@
+{
+  "name": "Loona Matriisilaskuri",
+  "short_name": "Matriisilaskuri",
+  "description": "Ilmainen matriisilaskuri 2x2- ja 3x3-matriiseille: yhteenlasku, vähennyslasku, kertolasku, determinantti ja käänteismatriisi vaihearvoineen. Ei rekisteröitymistä, toimii selaimessasi.",
+  "id": "/loona-calculators/fi/matrix-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Toistuvan talletuksen laskuri",
+  "short_name": "Toistuvien talletusten laskuri",
+  "description": "Ilmainen toistuvan talletuksen laskuri (RD): kuukausittainen talletus, korko ja laina-aika kuukausina — erääntymisarvo neljännesvuosittaisella korkoa korolle -laskennalla, pankkien standardi.",
+  "id": "/loona-calculators/fi/recurring-deposit-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

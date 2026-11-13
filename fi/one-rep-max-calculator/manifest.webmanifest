@@ -1,0 +1,29 @@
+{
+  "name": "Loona Yhden toiston maksimin (1RM) laskuri",
+  "short_name": "Yhden toiston maksimin (1RM) laskuri",
+  "description": "Ilmainen yhden toiston maksimilaskuri: arvioi 1RM sarjan painosta ja toistoista Epleyn, Brzyckin ja Lombardin kaavoilla, plus harjoitusprosentit.",
+  "id": "/loona-calculators/fi/one-rep-max-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

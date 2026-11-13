@@ -1,0 +1,29 @@
+{
+  "name": "Loona Ruoanlaiton muunnoslaskuri",
+  "short_name": "Ruoanlaiton muunnoslaskuri",
+  "description": "Ilmainen ruoanlaiton muunnoslaskuri: muunna kupit, lusikat, millilitrat, grammat, unssit ja paunat 10 yleiselle ainesosalle käyttäen todellisia tiheyksiä — jauho, sokeri, voi, hunaja ja lisää.",
+  "id": "/loona-calculators/fi/cooking-conversion-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

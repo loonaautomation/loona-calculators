@@ -1,0 +1,29 @@
+{
+  "name": "Loona 10,000. päivän laskuri",
+  "short_name": "10,000. päivän laskuri",
+  "description": "Ilmainen päivän virstanpylväslaskuri: syötä syntymäpäivä löytääksesi 10,000. päiväsi, muut pyöreiden lukujen päivävuosipäivät, ikäsi päivinä ja seuraavan virstanpylvään päivämäärän.",
+  "id": "/loona-calculators/fi/day-milestone-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Päiviä Eid al-Fitriin",
+  "short_name": "Päiviä Eid al-Fitriin",
+  "description": "Reaaliaikainen laskenta Eid al-Fitriin: tarkat jäljellä olevat päivät, tunnit, minuutit ja sekunnit, tämän vuoden ja kolmen seuraavan vuoden päivämäärä, tietoja ja usein kysyttyjä kysymyksiä.",
+  "id": "/loona-calculators/fi/days-until-eid-al-fitr.html",
+  "start_url": "./days-until-eid-al-fitr.html",
+  "scope": "./days-until-eid-al-fitr.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

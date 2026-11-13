@@ -1,0 +1,29 @@
+{
+  "name": "Loona nimipyörä",
+  "short_name": "Nimipyörä",
+  "description": "Ilmainen nimipyörä: lisää nimiä, pyöräytä värikästä pyörää ja valitse todella satunnainen voittaja arvonnoille, luokkahuoneille ja arvontoihin. Ei rekisteröitymistä, toimii selaimessasi.",
+  "id": "/loona-calculators/fi/wheel-of-names/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

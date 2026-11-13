@@ -1,0 +1,29 @@
+{
+  "name": "Loona ilmakehä – pauna neliötuumaa kohden",
+  "short_name": "Atmosphere – Pound per",
+  "description": "Muunna ilmakehät paunoiksi neliötuumaa kohden heti. Tarkka kaava, täysi atm–psi-muunnostaulukko, laskettu esimerkki ja usein kysytyt kysymykset. Ilmainen, ei rekisteröitymistä.",
+  "id": "/loona-calculators/fi/atmospheres-to-psi-converter.html",
+  "start_url": "./atmospheres-to-psi-converter.html",
+  "scope": "./atmospheres-to-psi-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

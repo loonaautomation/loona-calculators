@@ -1,0 +1,29 @@
+{
+  "name": "Loona Raskauden lasketun ajan laskuri",
+  "short_name": "Raskauden lasketun ajan laskuri",
+  "description": "Ilmainen raskauden eräpäivälaskuri: syötä viimeisten kuukautistesi ensimmäinen päivä (LMP), niin saat odotetun eräpäiväsi, raskauden nykyisen viikon ja kolmanneksen.",
+  "id": "/loona-calculators/fi/pregnancy-due-date-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

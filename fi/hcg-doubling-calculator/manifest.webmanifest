@@ -1,0 +1,29 @@
+{
+  "name": "Loona hCG-kaksinkertaistumisaikalaskuri",
+  "short_name": "hCG-kaksinkertaistumisaikalaskuri",
+  "description": "Ilmainen hCG-kaksinkertaistumislaskuri: syötä kaksi beeta-hCG-tulosta ja verikokeiden välinen aika tunteina saadaksesi kaksinkertaistumisajan, prosentuaalisen nousun ja päivittäisen kasvun. Vain opetuksellinen.",
+  "id": "/loona-calculators/fi/hcg-doubling-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

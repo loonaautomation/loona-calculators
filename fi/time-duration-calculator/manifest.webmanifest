@@ -1,0 +1,29 @@
+{
+  "name": "Loona Ajan kestolaskuri",
+  "short_name": "Ajan kestolaskuri",
+  "description": "Ilmainen aikakestolaskuri: syötä alkamis- ja päättymisaika, niin saat keston tunteina ja minuutteina, kokonaisminuutteina ja desimaalitunteina. Laskee keskiyön yli oikein.",
+  "id": "/loona-calculators/fi/time-duration-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

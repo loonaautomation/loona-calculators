@@ -1,0 +1,29 @@
+{
+  "name": "Loona Tonnit–Kg-muunnin",
+  "short_name": "Tonnit–Kg-muunnin",
+  "description": "Muunna tonnit kilogrammoiksi heti. Tarkka kaava, täysi t–kg-muunnostaulukko ja laskettuja esimerkkejä. Ilmainen, ei rekisteröitymistä.",
+  "id": "/loona-calculators/fi/tons-to-kilograms-converter.html",
+  "start_url": "./tons-to-kilograms-converter.html",
+  "scope": "./tons-to-kilograms-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

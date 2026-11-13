@@ -1,0 +1,29 @@
+{
+  "name": "Loona gigatavut–megatavut-muunnin",
+  "short_name": "Gigatavut–Megatavut",
+  "description": "Muunna gigatavut megatavuiksi heti (binaarikäytäntö: 1 GB = 1,024 MB). Tarkka kaava, täysi GB–MB-muunnostaulukko ja laskettuja esimerkkejä. Ilmainen, ei rekisteröitymistä.",
+  "id": "/loona-calculators/fi/gigabytes-to-megabytes-converter.html",
+  "start_url": "./gigabytes-to-megabytes-converter.html",
+  "scope": "./gigabytes-to-megabytes-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

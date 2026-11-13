@@ -1,0 +1,29 @@
+{
+  "name": "Loona USD–TRY-muunnin",
+  "short_name": "USD–TRY-muunnin",
+  "description": "Muunna Yhdysvaltain dollari (USD) Turkin liiraksi (TRY). EKP:n viitekurssi päivätty 06. marraskuuta 2026, käänteinen kurssi, muunnostaulukko ja käytävää koskevat huomautukset. Vain suuntaa antava.",
+  "id": "/loona-calculators/fi/usd-to-try-converter.html",
+  "start_url": "./usd-to-try-converter.html",
+  "scope": "./usd-to-try-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

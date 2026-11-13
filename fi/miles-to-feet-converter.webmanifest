@@ -1,0 +1,29 @@
+{
+  "name": "Loona maili–jalka-muunnin",
+  "short_name": "Maili–jalka-muunnin",
+  "description": "Muunna mailit jaloiksi heti. Tarkka kaava, täysi mi–ft-muuntotaulukko, laskettu esimerkki ja usein kysytyt kysymykset. Ilmainen, ei rekisteröitymistä.",
+  "id": "/loona-calculators/fi/miles-to-feet-converter.html",
+  "start_url": "./miles-to-feet-converter.html",
+  "scope": "./miles-to-feet-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

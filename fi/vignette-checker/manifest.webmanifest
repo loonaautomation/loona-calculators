@@ -1,0 +1,29 @@
+{
+  "name": "Loona Vinjettitarkistaja",
+  "short_name": "Vinjettitarkistaja",
+  "description": "Ilmainen vinjettitarkistin: valitse ajoreittisi Euroopan maat nähdäksesi, mitkä tarvitsevat moottoritievinjetin, mitkä perivät tietulleja ja mitkä ovat autoille ilmaisia.",
+  "id": "/loona-calculators/fi/vignette-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

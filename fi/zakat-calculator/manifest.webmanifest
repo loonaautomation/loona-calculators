@@ -1,0 +1,29 @@
+{
+  "name": "Loona Zakat-laskuri",
+  "short_name": "Zakat-laskuri",
+  "description": "Ilmainen zakat-laskuri: käteinen, pankkisaldo, kulta, hopea, liiketoiminnan tavarat ja velat — tarkista nisab ja laske 2.5 %:n zakatisi rupeina heti. Yksinkertainen ja yksityinen.",
+  "id": "/loona-calculators/fi/zakat-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona EMI-laskuri",
+  "short_name": "EMI-laskuri",
+  "description": "Ilmainen EMI- ja lainalaskuri: syötä lainasumma, korko- tai voittoprosentti ja laina-aika, niin saat kuukausimaksusi, kokonaiskoron ja kokonaismaksun. Pankkilainoille, auto- ja henkilökohtaisille lainoille.",
+  "id": "/loona-calculators/fi/emi-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

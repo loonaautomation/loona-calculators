@@ -1,0 +1,29 @@
+{
+  "name": "Loona Ilmakehä–Elohopeamillimetri",
+  "short_name": "Ilmakehä → millimetri",
+  "description": "Muunna ilmakehät elohopeamillimetreiksi heti. Tarkka kaava, täysi atm–mmHg-muuntotaulukko, laskettu esimerkki ja usein kysytyt kysymykset. Ilmainen, ei rekisteröitymistä.",
+  "id": "/loona-calculators/fi/atmospheres-to-millimeters-of-mercury-converter.html",
+  "start_url": "./atmospheres-to-millimeters-of-mercury-converter.html",
+  "scope": "./atmospheres-to-millimeters-of-mercury-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

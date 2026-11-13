@@ -1,0 +1,29 @@
+{
+  "name": "Loona CGPA–prosentti-laskuri",
+  "short_name": "CGPA–prosenttilaskuri",
+  "description": "Ilmainen CGPA:n prosenttimuunnin: muunna CGPA 10:stä (×9.5-kaava) tai GPA 4:stä prosenttiosuudeksi, mukautetulla kerroinvaihtoehdolla mille tahansa oppilaitokselle tai yliopistolle.",
+  "id": "/loona-calculators/fi/cgpa-to-percentage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

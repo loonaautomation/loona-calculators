@@ -1,0 +1,29 @@
+{
+  "name": "Loona megawatti–hevosvoima-muunnin",
+  "short_name": "Megawatti → hevosvoima",
+  "description": "Tee megawatts–horsepower-muunnos välittömästi. Tarkka kaava, täysi MW–hp-muuntotaulukko, laskettu esimerkki ja usein kysytyt kysymykset. Ilmainen, ei rekisteröitymistä.",
+  "id": "/loona-calculators/fi/megawatts-to-horsepower-converter.html",
+  "start_url": "./megawatts-to-horsepower-converter.html",
+  "scope": "./megawatts-to-horsepower-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

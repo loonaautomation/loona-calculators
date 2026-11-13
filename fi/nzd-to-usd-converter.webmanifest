@@ -1,0 +1,29 @@
+{
+  "name": "Loona NZD–USD-muunnin",
+  "short_name": "NZD–USD-muunnin",
+  "description": "Muunna Uuden-Seelannin dollari (NZD) Yhdysvaltain dollariksi (USD). EKP:n viitekurssi päivätty 06. marraskuuta 2026, käänteinen kurssi, muunnostaulukko ja käytävää koskevat huomautukset. Vain suuntaa antava.",
+  "id": "/loona-calculators/fi/nzd-to-usd-converter.html",
+  "start_url": "./nzd-to-usd-converter.html",
+  "scope": "./nzd-to-usd-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Chicago–Denver Time-muunnin",
+  "short_name": "Chicago–Denver-aika",
+  "description": "Muunna Chicagon aika Denverin ajaksi. Denver on 1 tuntia Chicagon jäljessä ympäri vuoden, kesäaikapäivämäärineen, 24 tunnin taulukoineen ja parhaine kokousikkunoineen. Mukana reaaliaikainen muunnin.",
+  "id": "/loona-calculators/fi/chicago-to-denver-time-converter.html",
+  "start_url": "./chicago-to-denver-time-converter.html",
+  "scope": "./chicago-to-denver-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona AUD–CHF-muunnin",
+  "short_name": "AUD–CHF-muunnin",
+  "description": "Muunna Australian dollari (AUD) Sveitsin frangiksi (CHF). EKP:n viitekurssi päivätty 06. marraskuuta 2026, käänteiskurssi, muunnostaulukko ja käytävähuomautukset. Vain suuntaa-antava.",
+  "id": "/loona-calculators/fi/aud-to-chf-converter.html",
+  "start_url": "./aud-to-chf-converter.html",
+  "scope": "./aud-to-chf-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

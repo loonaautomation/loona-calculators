@@ -1,0 +1,29 @@
+{
+  "name": "Loona Päiviä halloweeniin",
+  "short_name": "Päiviä halloweeniin",
+  "description": "Reaaliaikainen lähtölaskenta halloweeniin: tarkat jäljellä olevat päivät, tunnit, minuutit ja sekunnit, päivämäärä tälle vuodelle ja seuraaville kolmelle vuodelle, tietoa ja usein kysytyt kysymykset.",
+  "id": "/loona-calculators/fi/days-until-halloween.html",
+  "start_url": "./days-until-halloween.html",
+  "scope": "./days-until-halloween.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Luettelosekoitin",
+  "short_name": "Luettelon satunnaistaja",
+  "description": "Ilmainen listojen sekoittaja: liitä mikä tahansa lista sekoittaaksesi sen satunnaiseen järjestykseen tai valitaksesi satunnaisen otoksen kohteista. Turvallinen sekoitus, mitään ei ladata.",
+  "id": "/loona-calculators/fi/list-randomizer/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Tulostettavan kalenterin generaattori",
+  "short_name": "Tulostettavien kalenterien generaattori",
+  "description": "Ilmainen tulostettava kalenterigeneraattori: valitse mikä tahansa kuukausi ja vuosi (tai koko vuosi) ja luo siisti kalenteriruudukko, jonka voit tulostaa. Maanantai- tai sunnuntai-alku.",
+  "id": "/loona-calculators/fi/printable-calendar-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

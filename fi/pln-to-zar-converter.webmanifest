@@ -1,0 +1,29 @@
+{
+  "name": "Loona PLN–ZAR-muunnin",
+  "short_name": "PLN–ZAR-muunnin",
+  "description": "Muunna Puolan zloty (PLN) Etelä-Afrikan randiksi (ZAR). EKP:n viitekurssi päivältä 06. marraskuuta 2026, käänteinen kurssi, muuntotaulukko ja käytävähuomiot. Vain suuntaa antava.",
+  "id": "/loona-calculators/fi/pln-to-zar-converter.html",
+  "start_url": "./pln-to-zar-converter.html",
+  "scope": "./pln-to-zar-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Valuuttakurssit",
+  "short_name": "Valuuttakurssit",
+  "description": "EKP:n viitekurssit päivätty 06. marraskuuta 2026 20 valuutalle — kaikki 380 paria muuntimineen, käänteisine kursseineen ja taulukoineen.",
+  "id": "/loona-calculators/fi/currency-exchange-rates.html",
+  "start_url": "./currency-exchange-rates.html",
+  "scope": "./currency-exchange-rates.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

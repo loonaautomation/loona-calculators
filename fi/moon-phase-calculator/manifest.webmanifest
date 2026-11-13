@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kuunvaihelaskuri",
+  "short_name": "Kuun vaiheen laskuri",
+  "description": "Ilmainen kuun vaiheen laskuri: syötä mikä tahansa päivämäärä nähdäksesi kuun vaiheen nimen, valaistusprosentin, kuun iän ja päivien määrän seuraavaan uuteen ja täyteen kuuhun.",
+  "id": "/loona-calculators/fi/moon-phase-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

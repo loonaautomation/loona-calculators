@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kannattavuusrajan laskuri",
+  "short_name": "Kannattavuusrajan laskuri",
+  "description": "Ilmainen kannattavuusrajan laskuri: syötä kiinteät kustannukset, myyntihinta ja muuttuva kustannus yksikköä kohti löytääksesi, kuinka monta yksikköä sinun on myytävä kannattavuusrajaan ja millä liikevaihdolla.",
+  "id": "/loona-calculators/fi/break-even-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

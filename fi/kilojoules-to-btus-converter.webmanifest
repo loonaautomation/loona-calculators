@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kilojoule–Brittiläinen lämpöyksikkö",
+  "short_name": "Kilojoule–Brittiläinen lämpö",
+  "description": "Muunna kilojoulet brittiläisiksi lämpöyksiköiksi heti. Tarkka kaava, täysi kJ–BTU-muuntotaulukko, laskettu esimerkki ja usein kysytyt kysymykset. Ilmainen, ei rekisteröitymistä.",
+  "id": "/loona-calculators/fi/kilojoules-to-btus-converter.html",
+  "start_url": "./kilojoules-to-btus-converter.html",
+  "scope": "./kilojoules-to-btus-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona teratavu–megatavu-muunnin",
+  "short_name": "Terabyte–Megabyte-muunnin",
+  "description": "Muunna teratavut megatavuiksi heti. Tarkka kaava, täysi TB–MB-muunnostaulukko, esimerkkilaskelma ja UKK. Ilmainen, ei rekisteröitymistä.",
+  "id": "/loona-calculators/fi/terabytes-to-megabytes-converter.html",
+  "start_url": "./terabytes-to-megabytes-converter.html",
+  "scope": "./terabytes-to-megabytes-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
