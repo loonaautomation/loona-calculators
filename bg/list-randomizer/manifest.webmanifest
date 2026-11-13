@@ -1,0 +1,29 @@
+{
+  "name": "Loona Разбъркване на списък",
+  "short_name": "Разбъркване на списък",
+  "description": "Безплатен инструмент за разбъркване на списъци: поставете всеки списък, за да го разбъркате в случаен ред, или изберете случайна извадка от елементи. Сигурно разбъркване, нищо не се качва.",
+  "id": "/loona-calculators/bg/list-randomizer/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

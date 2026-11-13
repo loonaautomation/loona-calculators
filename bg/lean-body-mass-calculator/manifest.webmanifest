@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калкулатор за чиста телесна маса",
+  "short_name": "Калкулатор за чиста телесна маса",
+  "description": "Безплатен калкулатор за чиста телесна маса, използващ формулите на Boer, James и Hume от тегло, ръст и пол — не са нужни шивашки метри. Образователна оценка.",
+  "id": "/loona-calculators/bg/lean-body-mass-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

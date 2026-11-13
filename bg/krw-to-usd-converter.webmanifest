@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертор от KRW в USD",
+  "short_name": "Конвертор от KRW в USD",
+  "description": "Конвертирайте Южнокорейски вон (KRW) към Щатски долар (USD). Референтен курс на ЕЦБ от 06 ноември 2026, обратен курс, таблица за преобразуване и бележки за коридора. Само ориентировъчно.",
+  "id": "/loona-calculators/bg/krw-to-usd-converter.html",
+  "start_url": "./krw-to-usd-converter.html",
+  "scope": "./krw-to-usd-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
