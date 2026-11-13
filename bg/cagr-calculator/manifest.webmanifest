@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калкулатор за CAGR",
+  "short_name": "Калкулатор за CAGR",
+  "description": "Безплатен калкулатор за CAGR: въведете началната стойност, крайната стойност и броя години, за да намерите сложния годишен темп на растеж на инвестиция или бизнес.",
+  "id": "/loona-calculators/bg/cagr-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

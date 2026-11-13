@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертор от BTU на час в киловати",
+  "short_name": "BTU на час към киловат",
+  "description": "Конвертирайте BTU на час към киловати мигновено. Точна формула, пълна таблица за преобразуване BTU/h към kW, разработен пример и ЧЗВ. Безплатно, без регистрация.",
+  "id": "/loona-calculators/bg/btus-per-hour-to-kilowatts-converter.html",
+  "start_url": "./btus-per-hour-to-kilowatts-converter.html",
+  "scope": "./btus-per-hour-to-kilowatts-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

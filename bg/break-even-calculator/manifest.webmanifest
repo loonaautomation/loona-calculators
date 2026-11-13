@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калкулатор за точка на рентабилност",
+  "short_name": "Калкулатор за точка на рентабилност",
+  "description": "Безплатен калкулатор за точка на рентабилност: въведете фиксирани разходи, продажна цена и променливи разходи на единица, за да намерите колко единици трябва да продадете, за да излезете на нула, и при какъв приход.",
+  "id": "/loona-calculators/bg/break-even-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
