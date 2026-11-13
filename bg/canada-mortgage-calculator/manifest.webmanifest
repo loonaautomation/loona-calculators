@@ -1,0 +1,29 @@
+{
+  "name": "Loona Ипотечен калкулатор за Канада",
+  "short_name": "Калкулатор за ипотека в Канада",
+  "description": "Безплатен калкулатор за ипотека в Канада в CAD с правилно полугодишно олихвяване (j2), месечни вноски, обща лихва и сравнение при свръхплащане.",
+  "id": "/loona-calculators/bg/canada-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

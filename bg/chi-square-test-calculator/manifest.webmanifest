@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калкулатор за хи-квадрат теста",
+  "short_name": "Калкулатор за хи-квадрат тест",
+  "description": "Безплатен калкулатор за хи-квадрат тест: въведете наблюдавана таблица за тест за независимост или наблюдавани срещу очаквани бройки за добро съответствие. Хи-квадрат, df и p-стойност.",
+  "id": "/loona-calculators/bg/chi-square-test-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

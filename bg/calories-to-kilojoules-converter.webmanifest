@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертор от калории (малки) в килоджаули",
+  "short_name": "Калория (малка) към килоджаул",
+  "description": "Конвертирайте калории (малки) към килоджаули мигновено. Точна формула, пълна таблица за преобразуване cal към kJ, разработен пример и ЧЗВ. Безплатно, без регистрация.",
+  "id": "/loona-calculators/bg/calories-to-kilojoules-converter.html",
+  "start_url": "./calories-to-kilojoules-converter.html",
+  "scope": "./calories-to-kilojoules-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

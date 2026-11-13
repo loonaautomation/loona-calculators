@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калкулатор за CGPA",
+  "short_name": "Калкулатор за CGPA",
+  "description": "Безплатен калкулатор за CGPA за студенти: въведете оценки по предмети и кредитни часове, за да получите семестриалния си GPA, и добавете предишния си CGPA за кумулативния резултат. Скала за оценки на HEC.",
+  "id": "/loona-calculators/bg/cgpa-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

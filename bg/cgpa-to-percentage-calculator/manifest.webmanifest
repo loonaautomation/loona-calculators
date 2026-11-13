@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калкулатор от CGPA в проценти",
+  "short_name": "Калкулатор CGPA към процент",
+  "description": "Безплатен конвертор от CGPA към процент: преобразувайте CGPA от 10 (формула ×9.5) или GPA от 4 в процент, с опция за персонализиран множител за всяка комисия или университет.",
+  "id": "/loona-calculators/bg/cgpa-to-percentage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
