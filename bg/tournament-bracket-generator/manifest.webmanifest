@@ -1,0 +1,29 @@
+{
+  "name": "Loona Генератор на турнирни схеми",
+  "short_name": "Генератор на турнирни схеми",
+  "description": "Безплатен генератор на турнирни схеми: въведете участници, получете правилно подредена схема с единична елиминация с обработени свободни места (byes) — за електронни спортове, спортни дни, шах и викторини.",
+  "id": "/loona-calculators/bg/tournament-bracket-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

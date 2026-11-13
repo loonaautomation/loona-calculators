@@ -1,0 +1,29 @@
+{
+  "name": "Loona Конвертор от терабайти в килобайти",
+  "short_name": "Конвертор от терабайт в килобайт",
+  "description": "Конвертирайте терабайтове към килобайтове мигновено. Точна формула, пълна таблица за преобразуване TB към KB, разработен пример и ЧЗВ. Безплатно, без регистрация.",
+  "id": "/loona-calculators/bg/terabytes-to-kilobytes-converter.html",
+  "start_url": "./terabytes-to-kilobytes-converter.html",
+  "scope": "./terabytes-to-kilobytes-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
