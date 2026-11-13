@@ -1,0 +1,29 @@
+{
+  "name": "Loona Генератор на Таен Дядо Коледа",
+  "short_name": "Генератор за Таен Дядо Коледа",
+  "description": "Безплатен генератор за Таен Дядо Коледа: добавете имена, задайте изключения (двойки, съчетанията от миналата година), теглете тайно, след което всеки разкрива само своето съчетание. Поверително, в браузъра.",
+  "id": "/loona-calculators/bg/secret-santa-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

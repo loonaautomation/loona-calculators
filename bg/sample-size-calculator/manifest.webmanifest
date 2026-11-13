@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калкулатор за размер на извадката",
+  "short_name": "Калкулатор за размер на извадката",
+  "description": "Безплатен калкулатор за размер на извадката: колко отговора ви трябват за пропорция или средна стойност от анкета, при вашето ниво на доверителност и граница на грешката, с корекция за крайна популация.",
+  "id": "/loona-calculators/bg/sample-size-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

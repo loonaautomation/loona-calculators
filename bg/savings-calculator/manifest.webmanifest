@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калкулатор за спестявания",
+  "short_name": "Калкулатор за спестявания",
+  "description": "Безплатен калкулатор за спестявания: въведете месечен депозит, лихвен процент и години, за да видите бъдещата стойност на спестяванията си, общо депозираното и спечелената лихва.",
+  "id": "/loona-calculators/bg/savings-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
