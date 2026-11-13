@@ -1,0 +1,29 @@
+{
+  "name": "Loona Статистически калкулатор",
+  "short_name": "Калкулатор за статистика",
+  "description": "Безплатен калкулатор за статистика: поставете списък с числа за средна стойност, медиана, мода, диапазон, дисперсия и стандартно отклонение (на популацията и на извадката), сума и брой.",
+  "id": "/loona-calculators/bg/statistics-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
