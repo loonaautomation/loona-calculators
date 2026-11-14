@@ -1,0 +1,29 @@
+{
+  "name": "Γεννήτρια Τυχαίων Ομάδων Loona",
+  "short_name": "Γεννήτρια Τυχαίων Ομάδων",
+  "description": "Δωρεάν γεννήτρια τυχαίων ομάδων: επικολλήστε μια λίστα ονομάτων και χωρίστε τα σε ισορροπημένες τυχαίες ομάδες για αθλήματα, τάξεις, παιχνίδια και εργαστήρια. Δίκαιο ανακάτεμα, χωρίς εγγραφή.",
+  "id": "/loona-calculators/el/random-team-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Μετατροπέας EUR σε USD Loona",
+  "short_name": "Μετατροπέας EUR σε USD",
+  "description": "Μετατρέψτε το Ευρώ (EUR) σε Δολάριο ΗΠΑ (USD). Ισοτιμία αναφοράς της ΕΚΤ με ημερομηνία 06 Νοεμβρίου 2026, αντίστροφη ισοτιμία, πίνακας μετατροπής και σημειώσεις διαδρόμου. Μόνο ενδεικτικά.",
+  "id": "/loona-calculators/el/eur-to-usd-converter.html",
+  "start_url": "./eur-to-usd-converter.html",
+  "scope": "./eur-to-usd-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

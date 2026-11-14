@@ -1,0 +1,29 @@
+{
+  "name": "Μετατροπέας Θερμοκρασίας Loona",
+  "short_name": "Μετατροπέας Θερμοκρασίας",
+  "description": "Κάθε ζεύγος μετατροπής θερμοκρασίας σε έναν δείκτη: ακριβείς συντελεστές, τύποι και μια αποκλειστική σελίδα μετατροπέα για κάθε ζεύγος. Δωρεάν, χωρίς εγγραφή.",
+  "id": "/loona-calculators/el/temperature-converter.html",
+  "start_url": "./temperature-converter.html",
+  "scope": "./temperature-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

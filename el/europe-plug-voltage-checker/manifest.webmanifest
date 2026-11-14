@@ -1,0 +1,29 @@
+{
+  "name": "Έλεγχος Πρίζας & Τάσης Ευρώπης Loona",
+  "short_name": "Έλεγχος Φις & Τάσης Ευρώπης",
+  "description": "Δωρεάν έλεγχος βυσμάτων και τάσης Ευρώπης: επιλέξτε μια ευρωπαϊκή χώρα για να δείτε τους τύπους βυσμάτων, την τάση και τη συχνότητά της, και αν χρειάζεστε αντάπτορα ή μετατροπέα.",
+  "id": "/loona-calculators/el/europe-plug-voltage-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

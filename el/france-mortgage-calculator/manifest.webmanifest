@@ -1,0 +1,29 @@
+{
+  "name": "Υπολογιστής Στεγαστικού Δανείου Γαλλίας Loona",
+  "short_name": "Υπολογιστής Στεγαστικού Δανείου Γαλλίας",
+  "description": "Δωρεάν γαλλικός υπολογιστής στεγαστικού δανείου σε ευρώ: μηνιαία δόση με προαιρετική ασφάλεια δανειολήπτη (assurance emprunteur), συνολικός τόκος και ημερομηνία απαλλαγής από χρέος για οποιαδήποτε τιμή, προκαταβολή, επιτόκιο και διάρκεια.",
+  "id": "/loona-calculators/el/france-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

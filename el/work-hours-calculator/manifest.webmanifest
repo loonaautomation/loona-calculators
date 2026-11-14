@@ -1,0 +1,29 @@
+{
+  "name": "Υπολογιστής Ωρών Εργασίας Loona",
+  "short_name": "Αριθμομηχανή Ωρών Εργασίας",
+  "description": "Δωρεάν υπολογιστής ωρών εργασίας: έναρξη, λήξη και απλήρωτο διάλειμμα δίνουν καθαρές ώρες ανά ημέρα και ανά εβδομάδα — συν ημερήσια και εβδομαδιαία αμοιβή όταν προσθέσετε ωριαίο ποσοστό. Νυχτερινές βάρδιες υποστηρίζονται.",
+  "id": "/loona-calculators/el/work-hours-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

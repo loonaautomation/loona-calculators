@@ -1,0 +1,29 @@
+{
+  "name": "Μετατροπέας Δεκαεξαδικού σε Δεκαδικό Loona",
+  "short_name": "Δεκαεξαδικό σε Δεκαδικό",
+  "description": "Μετατρέψτε το δεκαεξαδικό (βάση 16) σε δεκαδικό (βάση 10) με επικύρωση, επεξεργασία αξίας θέσης και έναν πίνακα αναφοράς.",
+  "id": "/loona-calculators/el/hexadecimal-to-decimal-converter.html",
+  "start_url": "./hexadecimal-to-decimal-converter.html",
+  "scope": "./hexadecimal-to-decimal-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

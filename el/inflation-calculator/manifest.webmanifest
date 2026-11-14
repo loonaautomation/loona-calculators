@@ -1,0 +1,29 @@
+{
+  "name": "Υπολογιστής Πληθωρισμού Loona",
+  "short_name": "Υπολογιστής Πληθωρισμού",
+  "description": "Δωρεάν υπολογιστής πληθωρισμού: εισαγάγετε ένα ποσό, το ποσοστό πληθωρισμού και έτη για να δείτε το μελλοντικό κόστος των ίδιων αγαθών και τι θα αξίζουν πραγματικά τα σημερινά χρήματα.",
+  "id": "/loona-calculators/el/inflation-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

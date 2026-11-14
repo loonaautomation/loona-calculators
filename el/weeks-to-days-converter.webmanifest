@@ -1,0 +1,29 @@
+{
+  "name": "Μετατροπέας Εβδομάδων σε Ημέρες Loona",
+  "short_name": "Μετατροπέας Εβδομάδων σε Ημέρες",
+  "description": "Μετατρέψτε τις εβδομάδες σε ημέρες αμέσως. Ακριβής τύπος, ένας πλήρης πίνακας μετατροπής weeks σε days και λυμένα παραδείγματα. Δωρεάν, χωρίς εγγραφή.",
+  "id": "/loona-calculators/el/weeks-to-days-converter.html",
+  "start_url": "./weeks-to-days-converter.html",
+  "scope": "./weeks-to-days-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

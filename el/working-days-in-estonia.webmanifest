@@ -1,0 +1,29 @@
+{
+  "name": "Εργάσιμες Ημέρες στην Εσθονία Loona",
+  "short_name": "Εργάσιμες Ημέρες στην Εσθονία",
+  "description": "Αριθμομηχανή εργάσιμων ημερών για την Εσθονία: μετρήστε τις εργάσιμες ημέρες μεταξύ δύο ημερομηνιών με τα Σαββατοκύριακα και τις 12 εσθονικές δημόσιες αργίες του 2026 αφαιρεμένες. Δωρεάν διαδικτυακό εργαλείο.",
+  "id": "/loona-calculators/el/working-days-in-estonia.html",
+  "start_url": "./working-days-in-estonia.html",
+  "scope": "./working-days-in-estonia.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

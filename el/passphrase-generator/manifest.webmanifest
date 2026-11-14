@@ -1,0 +1,29 @@
+{
+  "name": "Γεννήτρια Φράσης Πρόσβασης Loona",
+  "short_name": "Γεννήτρια Φράσης Πρόσβασης",
+  "description": "Δωρεάν γεννήτρια φράσης-κλειδιού: δημιουργήστε ισχυρές, αξιομνημόνευτες φράσεις-κλειδιά από τυχαίες πραγματικές λέξεις, με επιλογές πλήθους λέξεων, διαχωριστικού, κεφαλαιοποίησης και αριθμού. Λειτουργεί στον φυλλομετρητή σας.",
+  "id": "/loona-calculators/el/passphrase-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Γεννήτρια Μυστικού Άγιου Βασίλη Loona",
+  "short_name": "Γεννήτρια Μυστικού Άγιου Βασίλη",
+  "description": "Δωρεάν γεννήτρια Secret Santa: προσθέστε ονόματα, ορίστε εξαιρέσεις (ζευγάρια, τα ζεύγη της περασμένης χρονιάς), κληρώστε μυστικά, και μετά κάθε άτομο αποκαλύπτει μόνο το δικό του ταίρι. Ιδιωτικό, στον φυλλομετρητή.",
+  "id": "/loona-calculators/el/secret-santa-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

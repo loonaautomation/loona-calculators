@@ -1,0 +1,29 @@
+{
+  "name": "Γεννήτρια Τυχαίων Αριθμών Loona",
+  "short_name": "Γεννήτρια Τυχαίων Αριθμών",
+  "description": "Δωρεάν γεννήτρια τυχαίων αριθμών με ασφαλή τυχαιότητα φυλλομετρητή. Επιλέξτε αριθμούς σε οποιοδήποτε εύρος, επιλέξτε πόσους, με επιλογή μόνο μοναδικών αριθμών.",
+  "id": "/loona-calculators/el/random-number-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

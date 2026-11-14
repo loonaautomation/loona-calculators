@@ -1,0 +1,29 @@
+{
+  "name": "Υπολογιστής Παρουσίας Loona",
+  "short_name": "Υπολογιστής Παρουσιών",
+  "description": "Δωρεάν υπολογιστής παρουσίας για μαθητές: εισαγάγετε μαθήματα που έγιναν και παρακολουθήθηκαν για να πάρετε το ποσοστό παρουσίας σας, πόσα μαθήματα μπορείτε να χάσετε, ή πόσα πρέπει να παρακολουθήσετε για να φτάσετε τον στόχο σας.",
+  "id": "/loona-calculators/el/attendance-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

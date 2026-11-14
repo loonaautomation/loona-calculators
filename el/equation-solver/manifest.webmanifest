@@ -1,0 +1,29 @@
+{
+  "name": "Επίλυση Εξισώσεων (Γραμμικών & Δευτεροβάθμιων) Loona",
+  "short_name": "Επιλυτής Εξισώσεων (Γραμμικών &",
+  "description": "Δωρεάν λύτης εξισώσεων για γραμμικές (ax + b = cx + d) και τετραγωνικές (ax² + bx + c = 0) εξισώσεις, με πλήρεις βήμα-βήμα πράξεις, τη διακρίνουσα, μιγαδικές ρίζες και τελικό έλεγχο.",
+  "id": "/loona-calculators/el/equation-solver/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

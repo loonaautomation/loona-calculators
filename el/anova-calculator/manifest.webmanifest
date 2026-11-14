@@ -1,0 +1,29 @@
+{
+  "name": "Υπολογιστής ANOVA Μονής Κατεύθυνσης Loona",
+  "short_name": "Υπολογιστής ANOVA Μίας Κατεύθυνσης",
+  "description": "Δωρεάν υπολογιστής ANOVA μίας κατεύθυνσης: εισαγάγετε τους αριθμούς κάθε ομάδας στη δική του γραμμή για να πάρετε αθροίσματα τετραγώνων, στατιστικό F, βαθμούς ελευθερίας και τιμή p, με μέσους όρους ομάδων.",
+  "id": "/loona-calculators/el/anova-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

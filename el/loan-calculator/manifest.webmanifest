@@ -1,0 +1,29 @@
+{
+  "name": "Υπολογιστής Δανείου Loona",
+  "short_name": "Υπολογιστής Δανείου",
+  "description": "Δωρεάν υπολογιστής δανείου: εισαγάγετε ποσό, ετήσιο επιτόκιο και διάρκεια για να πάρετε τη μηνιαία δόση, τον συνολικό τόκο και τη συνολική αποπληρωμή για οποιοδήποτε δάνειο.",
+  "id": "/loona-calculators/el/loan-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

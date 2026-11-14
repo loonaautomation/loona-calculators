@@ -1,0 +1,29 @@
+{
+  "name": "Υπολογιστής Μετατροπών Μαγειρικής Loona",
+  "short_name": "Υπολογιστής Μετατροπής Μαγειρικής",
+  "description": "Δωρεάν υπολογιστής μετατροπών μαγειρικής: μετατρέψτε κύπελλα, κουτάλια, χιλιοστόλιτρα, γραμμάρια, ουγγιές και λίβρες για 10 κοινά συστατικά χρησιμοποιώντας πραγματικές πυκνότητες — αλεύρι, ζάχαρη, βούτυρο, μέλι και άλλα.",
+  "id": "/loona-calculators/el/cooking-conversion-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

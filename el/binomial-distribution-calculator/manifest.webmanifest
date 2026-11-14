@@ -1,0 +1,29 @@
+{
+  "name": "Υπολογιστής Διωνυμικής Κατανομής Loona",
+  "short_name": "Διωνυμική Κατανομή",
+  "description": "Δωρεάν υπολογιστής διωνυμικής κατανομής: πιθανότητα ακριβώς k επιτυχιών, το πολύ k, ή τουλάχιστον k, σε n δοκιμές με πιθανότητα επιτυχίας p. Τιμές ελεγμένες σε σχολικά βιβλία.",
+  "id": "/loona-calculators/el/binomial-distribution-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Υπολογιστής Μέγιστης Μίας Επανάληψης (1RM) Loona",
+  "short_name": "Υπολογιστής Μέγιστης Μίας Επανάληψης (1RM)",
+  "description": "Δωρεάν υπολογιστής μέγιστης μίας επανάληψης: εκτιμήστε το 1RM σας από το βάρος και τις επαναλήψεις ενός σετ με τους τύπους Epley, Brzycki και Lombardi, συν ποσοστά προπόνησης.",
+  "id": "/loona-calculators/el/one-rep-max-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Μετατροπέας EUR σε KRW Loona",
+  "short_name": "Μετατροπέας EUR σε KRW",
+  "description": "Μετατρέψτε το Ευρώ (EUR) σε Νοτιοκορεατικό Γουόν (KRW). Ισοτιμία αναφοράς της ΕΚΤ με ημερομηνία 06 Νοεμβρίου 2026, αντίστροφη ισοτιμία, πίνακας μετατροπής και σημειώσεις διαδρόμου. Μόνο ενδεικτικά.",
+  "id": "/loona-calculators/el/eur-to-krw-converter.html",
+  "start_url": "./eur-to-krw-converter.html",
+  "scope": "./eur-to-krw-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Υπολογιστής Ηλικίας Loona",
+  "short_name": "Υπολογιστής Ηλικίας",
+  "description": "Δωρεάν υπολογιστής ηλικίας: εισαγάγετε την ημερομηνία γέννησής σας και πάρτε την ακριβή ηλικία σας σε έτη, μήνες και ημέρες, συν συνολικές ημέρες, εβδομάδες και ώρες που έχετε ζήσει και τα επόμενα γενέθλιά σας. Χωρίς εγγραφή.",
+  "id": "/loona-calculators/el/age-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

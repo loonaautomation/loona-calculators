@@ -1,0 +1,29 @@
+{
+  "name": "Υπολογιστής Ελέγχου T Ενός Δείγματος Loona",
+  "short_name": "Υπολογιστής T-Test Ενός Δείγματος",
+  "description": "Δωρεάν υπολογιστής ελέγχου t ενός δείγματος: εισαγάγετε δειγματικό μέσο όρο, ΤΑ, n και τον υποθετικό μέσο όρο για να πάρετε το στατιστικό t, τους βαθμούς ελευθερίας και τις τιμές p.",
+  "id": "/loona-calculators/el/t-test-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

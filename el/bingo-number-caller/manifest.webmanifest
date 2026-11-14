@@ -1,0 +1,29 @@
+{
+  "name": "Κλήση Αριθμών Μπίνγκο Loona",
+  "short_name": "Κληρωτής Αριθμών Bingo",
+  "description": "Δωρεάν καλών αριθμών μπίνγκο για παιχνίδια 75 σφαιρών (B-I-N-G-O) και 90 σφαιρών: κληρώνει αριθμούς χωρίς επαναλήψεις, δείχνει την τρέχουσα σφαίρα μεγάλη, και παρακολουθεί κάθε κληρωμένο αριθμό σε έναν πίνακα.",
+  "id": "/loona-calculators/el/bingo-number-caller/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

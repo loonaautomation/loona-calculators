@@ -1,0 +1,29 @@
+{
+  "name": "Υπολογιστής Ελέγχου Χι-Τετράγωνο Loona",
+  "short_name": "Υπολογιστής Τεστ Χι-Τετράγωνο",
+  "description": "Δωρεάν υπολογιστής ελέγχου χι-τετράγωνο: εισαγάγετε έναν παρατηρούμενο πίνακα για έλεγχο ανεξαρτησίας, ή παρατηρούμενες έναντι αναμενόμενων συχνοτήτων για καλή προσαρμογή. Χι-τετράγωνο, df και τιμή p.",
+  "id": "/loona-calculators/el/chi-square-test-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Υπολογιστής Φιλοδωρήματος Loona",
+  "short_name": "Υπολογιστής Φιλοδωρήματος",
+  "description": "Δωρεάν υπολογιστής φιλοδωρήματος: εισαγάγετε τον λογαριασμό, το ποσοστό φιλοδωρήματος και τον αριθμό ατόμων για να πάρετε το ποσό φιλοδωρήματος, τον συνολικό λογαριασμό και το ακριβές μερίδιο που πληρώνει κάθε άτομο.",
+  "id": "/loona-calculators/el/tip-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

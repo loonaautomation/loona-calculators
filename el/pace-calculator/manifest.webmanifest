@@ -1,0 +1,29 @@
+{
+  "name": "Υπολογιστής Ρυθμού Τρεξίματος Loona",
+  "short_name": "Υπολογιστής Ρυθμού Τρεξίματος",
+  "description": "Δωρεάν υπολογιστής ρυθμού τρεξίματος: επιλέξτε 5K, 10K, ημιμαραθώνιο, μαραθώνιο ή προσαρμοσμένη απόσταση με τον χρόνο τερματισμού σας για να πάρετε ρυθμό ανά km και ανά μίλι, συν προβλεπόμενους χρόνους τερματισμού.",
+  "id": "/loona-calculators/el/pace-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

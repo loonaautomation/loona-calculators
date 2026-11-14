@@ -1,0 +1,29 @@
+{
+  "name": "Υπολογιστής CGPA Loona",
+  "short_name": "Υπολογιστής CGPA",
+  "description": "Δωρεάν υπολογιστής CGPA για φοιτητές πανεπιστημίου: εισαγάγετε βαθμούς μαθημάτων και διδακτικές ώρες για να πάρετε το GPA εξαμήνου σας, και προσθέστε το προηγούμενο CGPA σας για το σωρευτικό αποτέλεσμα. Κλίμακα βαθμολογίας HEC.",
+  "id": "/loona-calculators/el/cgpa-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

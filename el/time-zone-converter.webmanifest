@@ -1,0 +1,29 @@
+{
+  "name": "Μετατροπέας Ζώνης Ώρας Loona",
+  "short_name": "Μετατροπέας Ζώνης Ώρας",
+  "description": "Μετατρέψτε την ώρα ανάμεσα σε 60 ζεύγη πόλεων του κόσμου, με εποχικές διαφορές, ημερομηνίες θερινής ώρας του 2026 και παράθυρα επικάλυψης συναντήσεων.",
+  "id": "/loona-calculators/el/time-zone-converter.html",
+  "start_url": "./time-zone-converter.html",
+  "scope": "./time-zone-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

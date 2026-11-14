@@ -1,0 +1,29 @@
+{
+  "name": "Υπολογιστής Μοιράσματος Ενοικίου Loona",
+  "short_name": "Υπολογιστής Διαχωρισμού Ενοικίου",
+  "description": "Δωρεάν υπολογιστής διαίρεσης ενοικίου: διαιρέστε το μηνιαίο ενοίκιο μεταξύ 2 έως 8 συγκατοίκων — ισότιμα, ανά μέγεθος δωματίου σε τετραγωνικά πόδια, ή ανά εισόδημα. Τα μερίδια πάντα αθροίζονται στο ακριβές σύνολο.",
+  "id": "/loona-calculators/el/rent-split-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

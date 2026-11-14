@@ -1,0 +1,29 @@
+{
+  "name": "Υπολογιστής Φόρου Μισθού Πακιστάν 2026 Loona",
+  "short_name": "Υπολογιστής Φόρου Μισθού",
+  "description": "Δωρεάν πακιστανικός υπολογιστής φόρου μισθού (Φορολογικό Έτος 2026): εισαγάγετε τον μηνιαίο ακαθάριστο μισθό σας για να δείτε φόρο εισοδήματος ανά μήνα και έτος, καθαρό μισθό στο χέρι και πραγματικό φορολογικό συντελεστή. Φορολογικές κλίμακες μισθωτών FBR.",
+  "id": "/loona-calculators/el/salary-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Υπολογιστής Εργάσιμων Ημερών Loona",
+  "short_name": "Αριθμομηχανή Εργάσιμων Ημερών",
+  "description": "Δωρεάν υπολογιστής εργάσιμων ημερών: μετρήστε συνολικές ημέρες, εργάσιμες ημέρες (Δευτέρα έως Παρασκευή) και ημέρες Σαββατοκύριακου μεταξύ οποιωνδήποτε δύο ημερομηνιών. Για άδειες, προθεσμίες και πλάνα έργων.",
+  "id": "/loona-calculators/el/working-days-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

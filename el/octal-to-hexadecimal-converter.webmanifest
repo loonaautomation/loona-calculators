@@ -1,0 +1,29 @@
+{
+  "name": "Μετατροπέας Οκταδικού σε Δεκαεξαδικό Loona",
+  "short_name": "Μετατροπέας Οκταδικού σε Δεκαεξαδικό",
+  "description": "Μετατρέψτε το οκταδικό (βάση 8) σε δεκαεξαδικό (βάση 16) με επικύρωση, επεξεργασία αξίας θέσης και έναν πίνακα αναφοράς.",
+  "id": "/loona-calculators/el/octal-to-hexadecimal-converter.html",
+  "start_url": "./octal-to-hexadecimal-converter.html",
+  "scope": "./octal-to-hexadecimal-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

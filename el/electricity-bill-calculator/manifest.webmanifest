@@ -1,0 +1,29 @@
+{
+  "name": "Υπολογιστής Λογαριασμού Ηλεκτρικού Ρεύματος Loona",
+  "short_name": "Υπολογιστής Λογαριασμού Ηλεκτρικού Ρεύματος",
+  "description": "Δωρεάν υπολογιστής λογαριασμού ηλεκτρικού ρεύματος: εισαγάγετε μονάδες που χρησιμοποιήθηκαν και τιμές κλιμακίων για να εκτιμήσετε τον μηνιαίο λογαριασμό σας με GST. Επεξεργάσιμες τιμές για LESCO, IESCO, K-Electric και όλες τις εταιρείες ηλεκτρισμού του Πακιστάν.",
+  "id": "/loona-calculators/el/electricity-bill-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

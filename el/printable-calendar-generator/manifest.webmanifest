@@ -1,0 +1,29 @@
+{
+  "name": "Γεννήτρια Εκτυπώσιμου Ημερολογίου Loona",
+  "short_name": "Γεννήτρια Εκτυπώσιμου Ημερολογίου",
+  "description": "Δωρεάν γεννήτρια εκτυπώσιμου ημερολογίου: επιλέξτε οποιονδήποτε μήνα και έτος (ή ένα πλήρες έτος) και δημιουργήστε ένα καθαρό πλέγμα ημερολογίου που μπορείτε να εκτυπώσετε. Έναρξη Δευτέρα ή Κυριακή.",
+  "id": "/loona-calculators/el/printable-calendar-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

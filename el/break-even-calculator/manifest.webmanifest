@@ -1,0 +1,29 @@
+{
+  "name": "Υπολογιστής Σημείου Ισοσκέλισης Loona",
+  "short_name": "Υπολογιστής Νεκρού Σημείου",
+  "description": "Δωρεάν υπολογιστής νεκρού σημείου: εισαγάγετε σταθερά κόστη, τιμή πώλησης και μεταβλητό κόστος ανά μονάδα για να βρείτε πόσες μονάδες πρέπει να πουλήσετε για να καλύψετε τα έξοδα, και σε ποια έσοδα.",
+  "id": "/loona-calculators/el/break-even-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

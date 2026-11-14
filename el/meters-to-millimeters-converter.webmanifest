@@ -1,0 +1,29 @@
+{
+  "name": "Μετατροπέας Μέτρου σε Χιλιοστό Loona",
+  "short_name": "Μετατροπέας Μέτρου σε Χιλιοστό",
+  "description": "Μετατρέψτε τα μέτρα σε χιλιοστά αμέσως. Ακριβής τύπος, ένας πλήρης πίνακας μετατροπής m σε mm, ένα λυμένο παράδειγμα και συχνές ερωτήσεις. Δωρεάν, χωρίς εγγραφή.",
+  "id": "/loona-calculators/el/meters-to-millimeters-converter.html",
+  "start_url": "./meters-to-millimeters-converter.html",
+  "scope": "./meters-to-millimeters-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

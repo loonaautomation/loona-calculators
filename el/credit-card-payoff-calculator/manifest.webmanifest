@@ -1,0 +1,29 @@
+{
+  "name": "Υπολογιστής Εξόφλησης Πιστωτικής Κάρτας Loona",
+  "short_name": "Υπολογιστής Εξόφλησης Πιστωτικής Κάρτας",
+  "description": "Δωρεάν υπολογιστής εξόφλησης πιστωτικής κάρτας: υπόλοιπο, APR και σταθερή μηνιαία πληρωμή — δείτε τους μήνες έως την εξόφληση, τον συνολικό τόκο και το σύνολο που πληρώθηκε, με προειδοποίηση για πολύ μικρές πληρωμές.",
+  "id": "/loona-calculators/el/credit-card-payoff-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

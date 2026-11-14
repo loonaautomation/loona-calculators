@@ -1,0 +1,29 @@
+{
+  "name": "Υπολογιστής ΔΜΣ Loona",
+  "short_name": "Υπολογιστής ΔΜΣ",
+  "description": "Δωρεάν υπολογιστής ΔΜΣ: εισαγάγετε το βάρος και το ύψος σας (cm ή πόδια/ίντσες) για να ελέγξετε τον Δείκτη Μάζας Σώματός σας, την κατηγορία σας και το υγιές εύρος βάρους για το ύψος σας.",
+  "id": "/loona-calculators/el/bmi-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

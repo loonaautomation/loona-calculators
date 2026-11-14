@@ -1,0 +1,29 @@
+{
+  "name": "Υπολογιστής Φάσης Σελήνης Loona",
+  "short_name": "Υπολογιστής Φάσης Σελήνης",
+  "description": "Δωρεάν υπολογιστής φάσης σελήνης: εισαγάγετε οποιαδήποτε ημερομηνία για να δείτε το όνομα φάσης της σελήνης, το ποσοστό φωτισμού, την ηλικία της σελήνης και τις ημέρες έως την επόμενη νέα και πανσέληνο.",
+  "id": "/loona-calculators/el/moon-phase-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

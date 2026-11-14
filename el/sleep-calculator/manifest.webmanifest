@@ -1,0 +1,29 @@
+{
+  "name": "Υπολογιστής Ύπνου Loona",
+  "short_name": "Υπολογιστής Ύπνου",
+  "description": "Δωρεάν υπολογιστής ύπνου: εισαγάγετε μια ώρα ξυπνήματος για να πάρετε τις καλύτερες ώρες ύπνου, ή μια ώρα ύπνου για να πάρετε τις καλύτερες ώρες ξυπνήματος — βάσει κύκλων ύπνου 90 λεπτών συν χρόνου αποκοιμήσεως.",
+  "id": "/loona-calculators/el/sleep-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

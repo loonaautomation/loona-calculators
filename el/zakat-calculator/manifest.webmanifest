@@ -1,0 +1,29 @@
+{
+  "name": "Υπολογιστής Ζακάτ Loona",
+  "short_name": "Υπολογιστής Ζακάτ",
+  "description": "Δωρεάν υπολογιστής zakat: μετρητά, τραπεζικό υπόλοιπο, χρυσός, ασήμι, εμπορικά αγαθά και χρέη — ελέγξτε το nisab και υπολογίστε το 2.5% zakat σας σε ρουπίες αμέσως. Απλό και ιδιωτικό.",
+  "id": "/loona-calculators/el/zakat-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

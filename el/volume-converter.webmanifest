@@ -1,0 +1,29 @@
+{
+  "name": "Μετατροπέας Όγκου Loona",
+  "short_name": "Μετατροπέας Όγκου",
+  "description": "Κάθε ζεύγος μετατροπής όγκου σε έναν δείκτη: ακριβείς συντελεστές, τύποι και μια αποκλειστική σελίδα μετατροπέα για κάθε ζεύγος. Δωρεάν, χωρίς εγγραφή.",
+  "id": "/loona-calculators/el/volume-converter.html",
+  "start_url": "./volume-converter.html",
+  "scope": "./volume-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

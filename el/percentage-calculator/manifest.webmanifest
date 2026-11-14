@@ -1,0 +1,29 @@
+{
+  "name": "Υπολογιστής Ποσοστού Loona",
+  "short_name": "Υπολογιστής Ποσοστού",
+  "description": "Δωρεάν υπολογιστής ποσοστού με τρία εργαλεία σε ένα: τι είναι το X% του Y, το X είναι τι ποσοστό του Y, και ποσοστιαία αύξηση ή μείωση μεταξύ δύο αριθμών.",
+  "id": "/loona-calculators/el/percentage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

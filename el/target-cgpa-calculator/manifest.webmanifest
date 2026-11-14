@@ -1,0 +1,29 @@
+{
+  "name": "Υπολογιστής Στόχου CGPA Loona",
+  "short_name": "Υπολογιστής Στόχου CGPA",
+  "description": "Δωρεάν υπολογιστής CGPA-στόχου: τρέχον CGPA, μονάδες που ολοκληρώθηκαν, CGPA-στόχος και μονάδες που απομένουν — δείτε το GPA που πρέπει να σημειώσετε, ή το μέγιστο CGPA που είναι ακόμη εφικτό.",
+  "id": "/loona-calculators/el/target-cgpa-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

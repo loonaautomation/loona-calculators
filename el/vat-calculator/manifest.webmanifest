@@ -1,0 +1,29 @@
+{
+  "name": "Υπολογιστής ΦΠΑ Loona",
+  "short_name": "Υπολογιστής ΦΠΑ",
+  "description": "Δωρεάν υπολογιστής ΦΠΑ/GST: προσθέστε φόρο σε ένα καθαρό ποσό ή αφαιρέστε φόρο από ένα μικτό ποσό με οποιοδήποτε συντελεστή. Λειτουργεί για ΦΠΑ, GST και φόρο πωλήσεων σε οποιαδήποτε χώρα.",
+  "id": "/loona-calculators/el/vat-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Υπολογιστής Στεγαστικού Δανείου ΗΒ Loona",
+  "short_name": "Υπολογιστής Στεγαστικού Δανείου ΗΒ",
+  "description": "Δωρεάν υπολογιστής στεγαστικού δανείου ΗΒ σε λίρες: μηνιαία αποπληρωμή, συνολικός τόκος και συνολικό κόστος για οποιοδήποτε δάνειο, επιτόκιο και διάρκεια, συν σύγκριση υπεπληρωμής.",
+  "id": "/loona-calculators/el/uk-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

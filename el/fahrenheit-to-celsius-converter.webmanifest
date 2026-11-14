@@ -1,0 +1,29 @@
+{
+  "name": "Μετατροπέας Φαρενάιτ σε Κελσίου Loona",
+  "short_name": "Φαρενάιτ σε Κελσίου",
+  "description": "Μετατρέψτε τους βαθμούς Φαρενάιτ σε βαθμούς Κελσίου αμέσως. Ακριβής τύπος, ένας πλήρης πίνακας μετατροπής °F σε °C και λυμένα παραδείγματα. Δωρεάν, χωρίς εγγραφή.",
+  "id": "/loona-calculators/el/fahrenheit-to-celsius-converter.html",
+  "start_url": "./fahrenheit-to-celsius-converter.html",
+  "scope": "./fahrenheit-to-celsius-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

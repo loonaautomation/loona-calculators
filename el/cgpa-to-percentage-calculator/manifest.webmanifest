@@ -1,0 +1,29 @@
+{
+  "name": "Υπολογιστής CGPA σε Ποσοστό Loona",
+  "short_name": "Υπολογιστής CGPA σε Ποσοστό",
+  "description": "Δωρεάν μετατροπέας CGPA σε ποσοστό: μετατρέψτε CGPA από 10 (τύπος ×9.5) ή GPA από 4 σε ποσοστό, με επιλογή προσαρμοσμένου πολλαπλασιαστή για οποιαδήποτε επιτροπή ή πανεπιστήμιο.",
+  "id": "/loona-calculators/el/cgpa-to-percentage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

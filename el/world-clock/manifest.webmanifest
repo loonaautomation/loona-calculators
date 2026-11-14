@@ -1,0 +1,29 @@
+{
+  "name": "Παγκόσμιο Ρολόι Loona",
+  "short_name": "Παγκόσμιο Ρολόι",
+  "description": "Δωρεάν ζωντανό παγκόσμιο ρολόι: η τρέχουσα τοπική ώρα και ημερομηνία σε 24 μεγάλες πόλεις συμπεριλαμβανομένων Λονδίνου, Νέας Υόρκης, Ντουμπάι, Καράτσι και Τόκιο, ενημερώνεται κάθε δευτερόλεπτο μέσω ζωνών ώρας.",
+  "id": "/loona-calculators/el/world-clock/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

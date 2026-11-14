@@ -1,0 +1,29 @@
+{
+  "name": "Μετατροπέας TRY σε DKK Loona",
+  "short_name": "Μετατροπέας TRY σε DKK",
+  "description": "Μετατρέψτε την Τουρκική Λίρα (TRY) σε Δανική Κορόνα (DKK). Ισοτιμία αναφοράς της ΕΚΤ με ημερομηνία 06 Νοεμβρίου 2026, αντίστροφη ισοτιμία, πίνακας μετατροπής και σημειώσεις διαδρόμου. Μόνο ενδεικτικά.",
+  "id": "/loona-calculators/el/try-to-dkk-converter.html",
+  "start_url": "./try-to-dkk-converter.html",
+  "scope": "./try-to-dkk-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

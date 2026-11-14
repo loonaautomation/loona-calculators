@@ -1,0 +1,29 @@
+{
+  "name": "Υπολογιστής Δανείου Αυτοκινήτου Loona",
+  "short_name": "Υπολογιστής Δανείου Αυτοκινήτου",
+  "description": "Δωρεάν υπολογιστής δανείου αυτοκινήτου: τιμή οχήματος, προκαταβολή, επιτόκιο και διάρκεια — πάρτε το ποσό δανείου, τη μηνιαία δόση, τον συνολικό τόκο και το πραγματικό συνολικό κόστος του αυτοκινήτου.",
+  "id": "/loona-calculators/el/car-loan-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

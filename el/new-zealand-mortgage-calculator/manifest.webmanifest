@@ -1,0 +1,29 @@
+{
+  "name": "Υπολογιστής Στεγαστικού Δανείου Νέας Ζηλανδίας Loona",
+  "short_name": "Στεγαστικό Δάνειο Νέας Ζηλανδίας",
+  "description": "Δωρεάν υπολογιστής στεγαστικού δανείου Νέας Ζηλανδίας: μηνιαία δόση, συνολικός τόκος και ημερομηνία απαλλαγής από χρέος για οποιαδήποτε τιμή σπιτιού, προκαταβολή, επιτόκιο και διάρκεια, συν σύγκριση επιπλέον πληρωμής.",
+  "id": "/loona-calculators/el/new-zealand-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

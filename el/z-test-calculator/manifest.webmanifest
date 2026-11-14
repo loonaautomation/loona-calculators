@@ -1,0 +1,29 @@
+{
+  "name": "Υπολογιστής Ελέγχου Z Ενός Δείγματος Loona",
+  "short_name": "Υπολογιστής Z-Test Ενός Δείγματος",
+  "description": "Δωρεάν υπολογιστής ελέγχου z ενός δείγματος: δειγματικός μέσος όρος, γνωστή πληθυσμιακή ΤΑ, n και υποθετικός μέσος όρος δίνουν το στατιστικό z και τιμές p. Ελεγμένο σε σχολικά βιβλία.",
+  "id": "/loona-calculators/el/z-test-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

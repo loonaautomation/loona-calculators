@@ -1,0 +1,29 @@
+{
+  "name": "Μετατροπέας Ημερομηνίας Χίζρι Loona",
+  "short_name": "Μετατροπέας Ημερομηνίας Hijri",
+  "description": "Δωρεάν μετατροπέας ημερομηνίας Hijri: μετατρέψτε οποιαδήποτε γρηγοριανή (αγγλική) ημερομηνία στην ισλαμική ημερομηνία Hijri και πίσω, χρησιμοποιώντας το ημερολόγιο Umm al-Qura. Έλεγχοι Ραμαζανιού, Eid και ισλαμικών ημερομηνιών εύκολα.",
+  "id": "/loona-calculators/el/hijri-date-converter/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

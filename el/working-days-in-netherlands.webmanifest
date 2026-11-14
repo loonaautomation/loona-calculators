@@ -1,0 +1,29 @@
+{
+  "name": "Εργάσιμες Ημέρες στην Ολλανδία Loona",
+  "short_name": "Εργάσιμες Ημέρες στην Ολλανδία",
+  "description": "Αριθμομηχανή εργάσιμων ημερών για την Ολλανδία: εργάσιμες ημέρες μεταξύ δύο ημερομηνιών με τα Σαββατοκύριακα και τις ολλανδικές εθνικές δημόσιες αργίες του 2026 αφαιρεμένες. Δωρεάν.",
+  "id": "/loona-calculators/el/working-days-in-netherlands.html",
+  "start_url": "./working-days-in-netherlands.html",
+  "scope": "./working-days-in-netherlands.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

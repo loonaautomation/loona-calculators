@@ -1,0 +1,29 @@
+{
+  "name": "Τυχαιοποιητής Λίστας Loona",
+  "short_name": "Τυχαιοποιητής Λίστας",
+  "description": "Δωρεάν ανακατευτής λίστας: επικολλήστε οποιαδήποτε λίστα για να την ανακατέψετε σε τυχαία σειρά, ή επιλέξτε ένα τυχαίο δείγμα στοιχείων. Ασφαλές ανακάτεμα, τίποτα δεν ανεβαίνει.",
+  "id": "/loona-calculators/el/list-randomizer/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

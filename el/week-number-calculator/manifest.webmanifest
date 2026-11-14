@@ -1,0 +1,29 @@
+{
+  "name": "Υπολογιστής Αριθμού Εβδομάδας Loona",
+  "short_name": "Υπολογιστής Αριθμού Εβδομάδας",
+  "description": "Δωρεάν υπολογιστής αριθμού εβδομάδας: επιλέξτε οποιαδήποτε ημερομηνία για να πάρετε τον αριθμό εβδομάδας ISO, το έτος-εβδομάδα ISO, την ημέρα του έτους, τις ημέρες που απομένουν στο έτος και το ημερολογιακό τρίμηνο.",
+  "id": "/loona-calculators/el/week-number-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

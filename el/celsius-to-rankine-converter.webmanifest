@@ -1,0 +1,29 @@
+{
+  "name": "Μετατροπέας Βαθμού Κελσίου σε Βαθμό Ράνκιν Loona",
+  "short_name": "Βαθμός Κελσίου σε Βαθμό",
+  "description": "Μετατρέψτε τους βαθμούς Κελσίου σε βαθμούς Ράνκιν αμέσως. Ακριβής τύπος, ένας πλήρης πίνακας μετατροπής °C σε °R, ένα λυμένο παράδειγμα και συχνές ερωτήσεις. Δωρεάν, χωρίς εγγραφή.",
+  "id": "/loona-calculators/el/celsius-to-rankine-converter.html",
+  "start_url": "./celsius-to-rankine-converter.html",
+  "scope": "./celsius-to-rankine-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

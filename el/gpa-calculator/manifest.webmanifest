@@ -1,0 +1,29 @@
+{
+  "name": "Υπολογιστής GPA Loona",
+  "short_name": "Υπολογιστής GPA",
+  "description": "Δωρεάν υπολογιστής GPA: εισαγάγετε έως 8 μαθήματα με βαθμούς-γράμματα (A έως F) και διδακτικές ώρες για να πάρετε το GPA σας στην τυπική κλίμακα 4.0. Γρήγορο, ιδιωτικό, χωρίς εγγραφή.",
+  "id": "/loona-calculators/el/gpa-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

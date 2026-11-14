@@ -1,0 +1,29 @@
+{
+  "name": "Υπολογιστής Στεγαστικού Δανείου Πακιστάν Loona",
+  "short_name": "Υπολογιστής Στεγαστικού Δανείου Πακιστάν",
+  "description": "Δωρεάν πακιστανικός υπολογιστής χρηματοδότησης σπιτιού σε ρουπίες: μηνιαία δόση σε μειούμενο υπόλοιπο, συνολική προσαύξηση και ημερομηνία απαλλαγής από χρέος για οποιαδήποτε τιμή ακινήτου, προκαταβολή, επιτόκιο και διάρκεια.",
+  "id": "/loona-calculators/el/pakistan-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

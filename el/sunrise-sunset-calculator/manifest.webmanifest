@@ -1,0 +1,29 @@
+{
+  "name": "Υπολογιστής Ανατολής & Δύσης Ηλίου Loona",
+  "short_name": "Υπολογιστής Ανατολής & Δύσης Ηλίου",
+  "description": "Δωρεάν υπολογιστής ανατολής και δύσης ηλίου: εισαγάγετε μια ημερομηνία και γεωγραφικό πλάτος/μήκος για να πάρετε ανατολή, δύση, διάρκεια ημέρας και μεσημβρινό μεσημέρι σε UTC και τοπικούς ηλιακούς όρους. Μαθηματικά NOAA.",
+  "id": "/loona-calculators/el/sunrise-sunset-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Υπολογιστής Αποταμίευσης Loona",
+  "short_name": "Υπολογιστής Αποταμίευσης",
+  "description": "Δωρεάν υπολογιστής αποταμίευσης: εισαγάγετε μηνιαία κατάθεση, επιτόκιο και έτη για να δείτε τη μελλοντική αξία των αποταμιεύσεών σας, το σύνολο που κατατέθηκε και τον τόκο που κερδήθηκε.",
+  "id": "/loona-calculators/el/savings-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

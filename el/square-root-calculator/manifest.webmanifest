@@ -1,0 +1,29 @@
+{
+  "name": "Υπολογιστής Τετραγωνικής Ρίζας Loona",
+  "short_name": "Υπολογιστής Τετραγωνικής Ρίζας",
+  "description": "Δωρεάν υπολογιστής τετραγωνικής ρίζας: εισαγάγετε οποιονδήποτε αριθμό για να πάρετε την τετραγωνική του ρίζα, την κυβική ρίζα, τις ρίζες 4ης και 5ης — συν το τετράγωνο και τον κύβο του — όλα ταυτόχρονα.",
+  "id": "/loona-calculators/el/square-root-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Υπολογιστής Αλκοόλ στο Αίμα Loona",
+  "short_name": "Υπολογιστής Αλκοόλ στο Αίμα",
+  "description": "Δωρεάν υπολογιστής περιεκτικότητας αλκοόλ στο αίμα (BAC) με τον τύπο Widmark: βάρος, φύλο, ποτά και χρόνος για εκτίμηση ποσοστού BAC. Μόνο εκπαιδευτική εκτίμηση, ποτέ μην οδηγείτε.",
+  "id": "/loona-calculators/el/blood-alcohol-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Μετατροπέας INR σε SEK Loona",
+  "short_name": "Μετατροπέας INR σε SEK",
+  "description": "Μετατρέψτε την Ινδική Ρουπία (INR) σε Σουηδική Κορόνα (SEK). Ισοτιμία αναφοράς της ΕΚΤ με ημερομηνία 06 Νοεμβρίου 2026, αντίστροφη ισοτιμία, πίνακας μετατροπής και σημειώσεις διαδρόμου. Μόνο ενδεικτικά.",
+  "id": "/loona-calculators/el/inr-to-sek-converter.html",
+  "start_url": "./inr-to-sek-converter.html",
+  "scope": "./inr-to-sek-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

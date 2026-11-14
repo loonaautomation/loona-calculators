@@ -1,0 +1,29 @@
+{
+  "name": "Υπολογιστής Επαναλαμβανόμενης Κατάθεσης Loona",
+  "short_name": "Υπολογιστής Επαναλαμβανόμενης Κατάθεσης",
+  "description": "Δωρεάν υπολογιστής επαναλαμβανόμενης κατάθεσης (RD): μηνιαία κατάθεση, επιτόκιο και διάρκεια σε μήνες — αξία λήξης με τριμηνιαία κεφαλαιοποίηση, το τραπεζικό πρότυπο.",
+  "id": "/loona-calculators/el/recurring-deposit-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

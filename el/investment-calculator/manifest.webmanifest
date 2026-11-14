@@ -1,0 +1,29 @@
+{
+  "name": "Υπολογιστής Επενδύσεων Loona",
+  "short_name": "Υπολογιστής Επενδύσεων",
+  "description": "Δωρεάν υπολογιστής επένδυσης: αρχικό ποσό συν μηνιαίες προσθήκες και αναμενόμενη απόδοση — δείτε τη μελλοντική αξία, το σύνολο που επενδύθηκε και το συνολικό κέρδος με την πάροδο του χρόνου.",
+  "id": "/loona-calculators/el/investment-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
