@@ -18,7 +18,7 @@
 <meta name="twitter:title" content="hCG-duplázódási idő kalkulátor — Béta-hCG-emelkedés két teszt között | Loona">
 <meta name="twitter:description" content="Ingyenes hCG-duplázódási kalkulátor: adjon meg két béta-hCG-eredményt és a vérvételek közötti órákat, és megkapja a duplázódási időt, a százalékos emelkedést és a napi növekedést. Csak oktatási célra.">
 <meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona hCG Doubling Kalkulátor","url":"https://loonaautomation.github.io/loona-calculators/hu/hcg-doubling-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona hCG-duplázódási kalkulátor","url":"https://loonaautomation.github.io/loona-calculators/hu/hcg-doubling-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Milyen duplázódási idő jellemző a korai terhességben?","acceptedAnswer":{"@type":"Answer","text":"Nagyon durván a hCG gyakran 48–72 óránként duplázódik a legkorábbi hetekben, amikor a szintek alacsonyak, majd lassul, ahogy a szintek emelkednek (nagyjából 96+ óra, ha a szintek több ezret meghaladnak). A tartományok szélesek, és átfednek az egészséges és problémás terhességek között — csak a klinikusa értelmezheti az eredményeit a kontextusban."}},{"@type":"Question","name":"Miért a tesztek közötti pontos órákat használjuk?","acceptedAnswer":{"@type":"Answer","text":"Egy hétfő reggel 9-es és egy szerda délután 3-as teszt 54 órára van egymástól, nem 48-ra. A duplázódási idő nagyon érzékeny az intervallumra, ezért az órákat a lehető legpontosabban adja meg."}},{"@type":"Question","name":"A hCG-m csökkent — mit mutat a kalkulátor?","acceptedAnswer":{"@type":"Answer","text":"Helyette felezési időt jelent — azt az időt, amely alatt a szint a felére csökken —, ugyanazzal a képlettel, 1 alatti aránnyal."}},{"@type":"Question","name":"Ez orvosi tanács?","acceptedAnswer":{"@type":"Answer","text":"Nem. Ez csak oktatási célú matematikai eszköz. A hCG-mintázatok önmagukban soha nem diagnosztizálnak semmit; az eredményeket mindig beszélje meg orvosával."}}]}</script>
 <style>
 :root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
@@ -141,7 +141,7 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <div class="exbox"><strong>Gyors válasz:</strong> Duplázódási idő = a tesztek között eltelt órák × ln(2) ÷ ln(második eredmény ÷ első eredmény). Például: a hCG 100-ról 220-ra emelkedése 48 óra alatt körülbelül 42 órás duplázódási időt ad.</div>
 <div class="toolbox"><form class="calcform" id="hcgForm">
 <div class="fld"><label for="hcg1">Első hCG-eredmény (IU/L)</label><input type="number" id="hcg1" value="100" step="any" min="0"></div>
-<div class="fld"><label for="hcg2">Másodperc hCG eredmény (IU/L)</label><input type="number" id="hcg2" value="220" step="any" min="0"></div>
+<div class="fld"><label for="hcg2">Második hCG-eredmény (IU/L)</label><input type="number" id="hcg2" value="220" step="any" min="0"></div>
 <div class="fld"><label for="hcgH">A két teszt közötti órák</label><input type="number" id="hcgH" value="48" step="any" min="0"></div>
 <button class="calcbtn" type="submit">Duplázódási idő számítása</button>
 <div class="calcresult" id="hcgResult" style="display:none"></div>
@@ -149,7 +149,7 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <section class="txt"><h2>A hCG-duplázódási kalkulátor használata</h2><ol><li>Adja meg az első hCG-eredményt (IU/L, mIU/mL alakban is írják — a mértékegységek egyenértékűek).</li><li>Adja meg a második eredményt és a két vérvétel között eltelt pontos órákat.</li><li>Olvassa le a duplázódási időt, a teljes százalékos növekedést és az átlagos napi emelkedést.</li></ol>
 <div class="exbox"><strong>Példa:</strong> Első eredmény 100 IU/L, második eredmény 220 IU/L, 48 óra különbséggel: ln(220 ÷ 100) = ln(2.2) = 0.7885; duplázódási idő = 48 × 0.6931 ÷ 0.7885 = 42.2 óra. A növekedés 120% a két nap alatt.</div>
 <h2>Gyakran ismételt kérdések</h2></section><div class="faq"><h3>Milyen duplázódási idő jellemző a korai terhességben?</h3><p>Nagyon durván a hCG gyakran 48–72 óránként duplázódik a legkorábbi hetekben, amikor a szintek alacsonyak, majd lassul, ahogy a szintek emelkednek (nagyjából 96+ óra, ha a szintek több ezret meghaladnak). A tartományok szélesek, és átfednek az egészséges és problémás terhességek között — csak a klinikusa értelmezheti az eredményeit a kontextusban.</p></div><div class="faq"><h3>Miért a tesztek közötti pontos órákat használjuk?</h3><p>Egy hétfő reggel 9-es és egy szerda délután 3-as teszt 54 órára van egymástól, nem 48-ra. A duplázódási idő nagyon érzékeny az intervallumra, ezért az órákat a lehető legpontosabban adja meg.</p></div><div class="faq"><h3>A hCG-m csökkent — mit mutat a kalkulátor?</h3><p>Helyette felezési időt jelent — azt az időt, amely alatt a szint a felére csökken —, ugyanazzal a képlettel, 1 alatti aránnyal.</p></div><div class="faq"><h3>Ez orvosi tanács?</h3><p>Nem. Ez csak oktatási célú matematikai eszköz. A hCG-mintázatok önmagukban soha nem diagnosztizálnak semmit; az eredményeket mindig beszélje meg orvosával.</p></div>
-<h2 class="sec">Related Kalkulátorok</h2><div class="grid"><a class="card" href="../period-calculator/"><div class="ic">🌸</div><h3>Menstruáció-kalkulátor</h3><p>Egészség</p></a><a class="card" href="../pregnancy-due-date-calculator/"><div class="ic">🤰</div><h3>Szülés várható ideje kalkulátor</h3><p>Egészség</p></a><a class="card" href="../ovulation-calculator/"><div class="ic">🌸</div><h3>Ovuláció-kalkulátor</h3><p>Egészség</p></a><a class="card" href="../conception-calculator/"><div class="ic">👶</div><h3>Fogantatás-kalkulátor</h3><p>Egészség</p></a><a class="card" href="../weeks-pregnant-calculator/"><div class="ic">🗓️</div><h3>Hét Pregnant Kalkulátor</h3><p>Egészség</p></a></div>
+<h2 class="sec">Kapcsolódó kalkulátorok</h2><div class="grid"><a class="card" href="../period-calculator/"><div class="ic">🌸</div><h3>Menstruáció-kalkulátor</h3><p>Egészség</p></a><a class="card" href="../pregnancy-due-date-calculator/"><div class="ic">🤰</div><h3>Szülés várható ideje kalkulátor</h3><p>Egészség</p></a><a class="card" href="../ovulation-calculator/"><div class="ic">🌸</div><h3>Ovuláció-kalkulátor</h3><p>Egészség</p></a><a class="card" href="../conception-calculator/"><div class="ic">👶</div><h3>Fogantatás-kalkulátor</h3><p>Egészség</p></a><a class="card" href="../weeks-pregnant-calculator/"><div class="ic">🗓️</div><h3>Hét Pregnant Kalkulátor</h3><p>Egészség</p></a></div>
 </div>
 <section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>Hogyan működik — a képlet</h2>
 <p><strong>Duplázódási idő = t × ln(2) ÷ ln(hCG₂ ÷ hCG₁)</strong>, ahol t a tesztek közötti órák száma. Százalékos emelkedés = (hCG₂ ÷ hCG₁ − 1) × 100%. A képlet sima exponenciális növekedést feltételez a két mérés között, ami rövid időszakokra a szokásos közelítés.</p>
@@ -168,13 +168,13 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 </script>
 <footer><div class="fin">
 <div class="cols">
-<div><h4>Popular Kalkulátorok</h4><ul><li><a href="../age-calculator/">Életkor-kalkulátor</a></li>
+<div><h4>Népszerű kalkulátorok</h4><ul><li><a href="../age-calculator/">Életkor-kalkulátor</a></li>
 <li><a href="../zakat-calculator/">Zakátkalkulátor</a></li>
 <li><a href="../cgpa-calculator/">CGPA-kalkulátor</a></li>
 <li><a href="../percentage-calculator/">Százalékkalkulátor</a></li>
 <li><a href="../hijri-date-converter/">Hidzsri dátumátváltó</a></li>
 <li><a href="../emi-calculator/">EMI- és hitelkalkulátor</a></li></ul></div>
-<div><h4>Több Loona Eszközök</h4><ul>
+<div><h4>További Loona-eszközök</h4><ul>
 <li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
 <li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Képtömörítő</a></li>
 <li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI-asszisztens</a></li>
@@ -182,8 +182,8 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <div><h4>Loona Calculators</h4><ul>
 <li><a href="../about.html">Rólunk</a></li>
 <li><a href="../contact.html">Kapcsolat</a></li>
-<li><a href="../privacy-policy.html">Privacy Policy</a></li>
-<li><a href="../terms.html">Feltételek Használat</a></li></ul></div>
+<li><a href="../privacy-policy.html">Adatvédelmi irányelvek</a></li>
+<li><a href="../terms.html">Felhasználási feltételek</a></li></ul></div>
 </div>
 <div class="bar">© 2026 Loona Calculators — egy <a href="https://loonaautomation.github.io/">Loona Automation</a> projekt. Ingyenes online kalkulátorok, regisztráció nélkül.
 Kapcsolat: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>

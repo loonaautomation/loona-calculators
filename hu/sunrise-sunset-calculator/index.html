@@ -150,7 +150,7 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <section class="txt"><h2>A Napkelte- és napnyugta-kalkulátor használata</h2><ol><li>Válasszon egy előre beállított várost, vagy adja meg Ön a szélességet (−90 és 90 között) és a hosszúságot (−180 és 180 között, a keleti pozitív).</li><li>Válassza ki a dátumot.</li><li>Olvassa le a napfelkeltét, a napnyugtát, a nap hosszát és a déli napállást UTC-ben; adja hozzá az időzóna-eltolását, hogy megkapja a helyi óraidőket.</li></ol>
 <div class="exbox"><strong>Példa:</strong> Karacsi (24.86°N, 67.00°E) 2026. január 15-én: napkelte körülbelül 02:19 UTC = 07:19 helyi idő (UTC+5), napnyugta körülbelül 13:04 UTC = 18:04 helyi idő — egy körülbelül 10 óra 45 perces téli nap.</div>
 <h2>Gyakran ismételt kérdések</h2></section><div class="faq"><h3>Milyen időszabványban vannak az eredmények?</h3><p>UTC, tehát minden helyszínre működnek időzónák vagy nyári időszámítási szabályok találgatása nélkül. Adja hozzá a helyszín UTC-eltolását arra a dátumra (például +5 Karacsira, +1 Londonra nyáron), hogy helyi óra-időt kapjon.</p></div><div class="faq"><h3>Mennyire pontos?</h3><p>Az itt használt NOAA/Almanac algoritmus a legtöbb lakott szélességen jellemzően körülbelül 1–2 percen belül van a közzétett almanach-időktől. Szélsőséges sarki szélességeken a nap néhány napon egyáltalán nem kelhet fel vagy nyugodhat le — a kalkulátor őszintén jelenti a sarki nappalt vagy a sarki éjszakát.</p></div><div class="faq"><h3>Miért 90.833 fok és nem pontosan 90?</h3><p>Mert a napkelte/napnyugta a nap felső szélével van definiálva, nem a középpontjával, és a légkör meghajlítja a napfényt. Az extra 0.833° a nap sugarát (0.25°) plusz a tipikus fénytörést (0.583°) fedezi.</p></div><div class="faq"><h3>Hol szerezhetek koordinátákat a városomhoz?</h3><p>Minden térképalkalmazás megmutatja a szélességet/hosszúságot egy letett jelölőnél. Az előre beállított lista a világ és Európa nagyvárosait fedi le kiindulásként.</p></div>
-<h2 class="sec">Related Kalkulátorok</h2><div class="grid"><a class="card" href="../date-calculator/"><div class="ic">📆</div><h3>Dátumkalkulátor</h3><p>Dátum és idő</p></a><a class="card" href="../days-between-dates-calculator/"><div class="ic">🗓️</div><h3>Napok két dátum között</h3><p>Dátum és idő</p></a><a class="card" href="../age-calculator/"><div class="ic">📅</div><h3>Életkor-kalkulátor</h3><p>Dátum és idő</p></a><a class="card" href="../working-days-calculator/"><div class="ic">🏢</div><h3>Munkanapok-kalkulátor</h3><p>Dátum és idő</p></a><a class="card" href="../world-clock/"><div class="ic">🌍</div><h3>Világ Óra</h3><p>Dátum és idő</p></a></div>
+<h2 class="sec">Kapcsolódó kalkulátorok</h2><div class="grid"><a class="card" href="../date-calculator/"><div class="ic">📆</div><h3>Dátumkalkulátor</h3><p>Dátum és idő</p></a><a class="card" href="../days-between-dates-calculator/"><div class="ic">🗓️</div><h3>Napok két dátum között</h3><p>Dátum és idő</p></a><a class="card" href="../age-calculator/"><div class="ic">📅</div><h3>Életkor-kalkulátor</h3><p>Dátum és idő</p></a><a class="card" href="../working-days-calculator/"><div class="ic">🏢</div><h3>Munkanapok-kalkulátor</h3><p>Dátum és idő</p></a><a class="card" href="../world-clock/"><div class="ic">🌍</div><h3>Világ Óra</h3><p>Dátum és idő</p></a></div>
 </div>
 <section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>Hogyan működik — a képlet</h2>
 <p>A szokásos Almanac/NOAA módszer: az év napjából N és a hosszúságból becsülje a nap közepes anomáliáját M = 0.9856t − 3.289, a valódi hosszúságát L = M + 1.916 sin M + 0.020 sin 2M + 282.634, a rektaszcenziót RA, és a deklinációt a sin(dec) = 0.39782 sin L alapján. Az óraszög H a cos H = (cos 90.833° − sin(dec) sin(lat)) ÷ (cos(dec) cos(lat)) képletből következik. A napkelte 360° − H-t használ, a napnyugta H-t, és a helyi közepes idő a hosszúsággal alakul UTC-vé. Ha |cos H| > 1, a nap azon a napon soha nem nyugszik le (sarki nappal) vagy soha nem kel fel (sarki éjszaka).</p>
@@ -169,13 +169,13 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 </script>
 <footer><div class="fin">
 <div class="cols">
-<div><h4>Popular Kalkulátorok</h4><ul><li><a href="../age-calculator/">Életkor-kalkulátor</a></li>
+<div><h4>Népszerű kalkulátorok</h4><ul><li><a href="../age-calculator/">Életkor-kalkulátor</a></li>
 <li><a href="../zakat-calculator/">Zakátkalkulátor</a></li>
 <li><a href="../cgpa-calculator/">CGPA-kalkulátor</a></li>
 <li><a href="../percentage-calculator/">Százalékkalkulátor</a></li>
 <li><a href="../hijri-date-converter/">Hidzsri dátumátváltó</a></li>
 <li><a href="../emi-calculator/">EMI- és hitelkalkulátor</a></li></ul></div>
-<div><h4>Több Loona Eszközök</h4><ul>
+<div><h4>További Loona-eszközök</h4><ul>
 <li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
 <li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Képtömörítő</a></li>
 <li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI-asszisztens</a></li>
@@ -183,8 +183,8 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <div><h4>Loona Calculators</h4><ul>
 <li><a href="../about.html">Rólunk</a></li>
 <li><a href="../contact.html">Kapcsolat</a></li>
-<li><a href="../privacy-policy.html">Privacy Policy</a></li>
-<li><a href="../terms.html">Feltételek Használat</a></li></ul></div>
+<li><a href="../privacy-policy.html">Adatvédelmi irányelvek</a></li>
+<li><a href="../terms.html">Felhasználási feltételek</a></li></ul></div>
 </div>
 <div class="bar">© 2026 Loona Calculators — egy <a href="https://loonaautomation.github.io/">Loona Automation</a> projekt. Ingyenes online kalkulátorok, regisztráció nélkül.
 Kapcsolat: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>

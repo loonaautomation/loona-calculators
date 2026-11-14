@@ -142,13 +142,13 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <div class="fld"><label for="coinBestOf">Meccs mód (opcionális)</label><select id="coinBestOf"><option value="0" selected>Ki — szabad érmefeldobás</option><option value="3">3 közül a legjobb — az nyer, aki előbb éri el 2-ot</option><option value="5">5 közül a legjobb — az nyer, aki előbb éri el 3-ot</option><option value="7">7 közül a legjobb — az nyer, aki előbb éri el 4-ot</option><option value="11">11 közül a legjobb — az nyer, aki előbb éri el 6-ot</option></select></div>
 <button class="calcbtn" type="submit">🪙 Érme feldobása</button>
 <button class="calcbtn" type="button" id="coinFlip10" style="background:#0a423b;color:#fff;margin-top:8px">Dobás 10 alkalommal</button>
-<button class="calcbtn" type="button" id="coinReset" style="background:#e2e9e7;color:#062e2a;margin-top:8px">Reset</button>
+<button class="calcbtn" type="button" id="coinReset" style="background:#e2e9e7;color:#062e2a;margin-top:8px">Visszaállítás</button>
 <div class="calcresult" id="coinResult" style="display:none"></div>
 </form></div>
 <section class="txt"><h2>Az Érmefeldobás használata</h2><ol><li>Nyomja meg az Érme feldobása gombot egyetlen dobáshoz, vagy a Dobás 10-szer gombot egy gyors sorozathoz.</li><li>Figyelje, ahogy a futó összegek, százalékok és sorozatstatisztikák frissülnek.</li><li>Opcionális: előbb válasszon ki egy többnyertes mérkőzésmódot — az a fél nyeri a mérkőzést, amelyik előbb eléri a célt.</li></ol>
 <div class="exbox"><strong>Példa:</strong> Két barát nem tudja eldönteni, ki rúg először egy focimeccsen. A Best of 5-öt választják: a fej nyeri az 1. és 3. dobást, az írás nyeri a 2. dobást, és a fej a 4. dobást is megnyeri — a fej előbb éri el a 3-at, és megnyeri a mérkőzést, tisztességesen és véglegesen.</div>
 <h2>Gyakran ismételt kérdések</h2></section><div class="faq"><h3>Az online érmefeldobás tényleg 50/50?</h3><p>Igen. Minden dobás a crypto.getRandomValues függvényt használja, a böngészője biztonságos véletlenforrását, így a fej és az írás minden dobásnál pontosan 50% valószínűségű, függetlenül mindattól, ami előtte történt.</p></div><div class="faq"><h3>A fej egymás után 5-ször jött ki — most az írás következik?</h3><p>Nem — ezt a gondolatot szerencsejátékos tévedésnek nevezik. Az érmének nincs memóriája: 5 fej után a következő dobás továbbra is pontosan 50/50. A hosszú sorozatok meglepőnek tűnnek, de 10 dobásban annak az esélye, hogy legalább egy 4-es vagy hosszabb sorozat előfordul, valójában elég magas.</p></div><div class="faq"><h3>Mekkora az esélye annak, hogy 10-szer egymás után fejet dobjak?</h3><p>Minden dobás felezi az esélyt: (1/2)¹⁰ = 1 az 1,024-ből, körülbelül 0.098%. Egy adott tízes sorozatra ritka — de ha elég sokáig dob, az ilyen sorozatok végül pusztán véletlenül is megjelennek.</p></div>
-<h2 class="sec">Related Kalkulátorok</h2><div class="grid"><a class="card" href="../dice-roller/"><div class="ic">🎲</div><h3>Dobókocka-dobó</h3><p>Szórakozás</p></a><a class="card" href="../random-number-generator/"><div class="ic">🎲</div><h3>Véletlen szám generátor</h3><p>Szórakozás</p></a><a class="card" href="../lottery-number-generator/"><div class="ic">🍀</div><h3>Lottószám-generátor</h3><p>Szórakozás</p></a><a class="card" href="../love-calculator/"><div class="ic">❤️</div><h3>Szerelem-kalkulátor</h3><p>Szórakozás</p></a><a class="card" href="../percentage-calculator/"><div class="ic">％</div><h3>Százalékkalkulátor</h3><p>Matematika</p></a></div>
+<h2 class="sec">Kapcsolódó kalkulátorok</h2><div class="grid"><a class="card" href="../dice-roller/"><div class="ic">🎲</div><h3>Dobókocka-dobó</h3><p>Szórakozás</p></a><a class="card" href="../random-number-generator/"><div class="ic">🎲</div><h3>Véletlen szám generátor</h3><p>Szórakozás</p></a><a class="card" href="../lottery-number-generator/"><div class="ic">🍀</div><h3>Lottószám-generátor</h3><p>Szórakozás</p></a><a class="card" href="../love-calculator/"><div class="ic">❤️</div><h3>Szerelem-kalkulátor</h3><p>Szórakozás</p></a><a class="card" href="../percentage-calculator/"><div class="ic">％</div><h3>Százalékkalkulátor</h3><p>Matematika</p></a></div>
 </div>
 <section class="txt"><h2>Hogyan működik &mdash; a képlet</h2>
 <p>Minden dobás független esemény, amelynek valószínűsége <strong>P(heads) = P(tails) = 1/2</strong>. A sorozatok egyszerű szorzást követnek: egy adott sorozat valószínűsége: <em>k</em> azonos eredményeké (1/2)<sup>k</sup>. A megjelenített százalékok az 50/50 értékhez közelednek, ahogy a feldobások száma nő — ezt a mintázatot nevezzük így: <strong>a nagy számok törvénye</strong> — miközben az aktuális sorozatszámláló egyszerűen azt a futamot követi, amelyben éppen van.</p>
@@ -167,13 +167,13 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 </script>
 <footer><div class="fin">
 <div class="cols">
-<div><h4>Popular Kalkulátorok</h4><ul><li><a href="../age-calculator/">Életkor-kalkulátor</a></li>
+<div><h4>Népszerű kalkulátorok</h4><ul><li><a href="../age-calculator/">Életkor-kalkulátor</a></li>
 <li><a href="../zakat-calculator/">Zakátkalkulátor</a></li>
 <li><a href="../cgpa-calculator/">CGPA-kalkulátor</a></li>
 <li><a href="../percentage-calculator/">Százalékkalkulátor</a></li>
 <li><a href="../hijri-date-converter/">Hidzsri dátumátváltó</a></li>
 <li><a href="../emi-calculator/">EMI- és hitelkalkulátor</a></li></ul></div>
-<div><h4>Több Loona Eszközök</h4><ul>
+<div><h4>További Loona-eszközök</h4><ul>
 <li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
 <li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Képtömörítő</a></li>
 <li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI-asszisztens</a></li>
@@ -181,8 +181,8 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <div><h4>Loona Calculators</h4><ul>
 <li><a href="../about.html">Rólunk</a></li>
 <li><a href="../contact.html">Kapcsolat</a></li>
-<li><a href="../privacy-policy.html">Privacy Policy</a></li>
-<li><a href="../terms.html">Feltételek Használat</a></li></ul></div>
+<li><a href="../privacy-policy.html">Adatvédelmi irányelvek</a></li>
+<li><a href="../terms.html">Felhasználási feltételek</a></li></ul></div>
 </div>
 <div class="bar">© 2026 Loona Calculators — egy <a href="https://loonaautomation.github.io/">Loona Automation</a> projekt. Ingyenes online kalkulátorok, regisztráció nélkül.
 Kapcsolat: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>

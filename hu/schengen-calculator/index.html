@@ -157,7 +157,7 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <section class="txt"><h2>A Schengeni 90/180 kalkulátor használata</h2><ol><li>Adja hozzá minden utazást a belépési és kilépési dátumával (mindkét nap számít).</li><li>Állítsa be az ellenőrzési dátumot — alapértelmezés szerint ma —, hogy lássa az arra a dátumra végződő 180 napos ablakban felhasznált napokat és a hátralévő napokat.</li><li>Olvassa le a bármely gördülő ablakban talált maximális napokat: 90 felett a szabály szerinti túltartózkodást jelent.</li><li>Ha hosszú új utat tervez, használja a legkorábbi teljes tartózkodásra vonatkozó eredményt.</li></ol>
 <div class="exbox"><strong>Példa:</strong> Két, egyenként 45 napos utazás — 2026. január 1. – február 14. és 2026. március 1. – április 14. — pontosan 90 napot használ fel. 2026. április 14-én az ablak mind a 90 napot tartalmazza, 0 nap marad, és nincs túltartózkodás, mert a 90 megengedett.</div>
 <h2>Gyakran ismételt kérdések</h2></section><div class="faq"><h3>Hogyan működik valójában a 90/180 szabály?</h3><p>Bármely napon, amikor a schengeni térségben tartózkodik, számolja a jelenléti napjait az előző 180 napban, azt a napot is beleértve. Az összes soha nem haladhatja meg a 90-et. Az ablak naponta gördül előre, amit ez a kalkulátor napról napra ellenőriz az összes utazásán.</p></div><div class="faq"><h3>Számít-e a belépés és a kilépés napja?</h3><p>Igen. Az uniós szabály szerint a belépés napja és a kilépés napja is teljes jelenléti napnak számít, és ez a kalkulátor így számolja őket.</p></div><div class="faq"><h3>Mi számít egy utazásnak, ha elmegyek és gyorsan visszatérek?</h3><p>A schengeni térségben fizikailag töltött minden nap számít, bármilyen rövid is a kintlét. Adjon meg minden tartózkodást külön, és a kalkulátor mindet ugyanabba a gördülő ablakba adja össze.</p></div><div class="faq"><h3>Ez jogi tanács?</h3><p>Nem. Ez az EU 90/180 rövid távú tartózkodási szabályán alapuló útmutatás a vízummentes és rövid távú vízummal utazók számára. Nem fedi le a tartózkodási engedélyeket, a hosszú távú vízumokat, vagy azokat a különleges szabályokat, amelyek egyes állampolgárságokra kétoldalú megállapodások alapján vonatkoznak. A határhatóságok döntenek; ellenőrizze a hivatalos EU-forrásokat az Ön esetében.</p></div>
-<h2 class="sec">Related Kalkulátorok</h2><div class="grid"><a class="card" href="../date-calculator/"><div class="ic">📆</div><h3>Dátumkalkulátor</h3><p>Dátum és idő</p></a><a class="card" href="../days-between-dates-calculator/"><div class="ic">🗓️</div><h3>Napok két dátum között</h3><p>Dátum és idő</p></a><a class="card" href="../age-calculator/"><div class="ic">📅</div><h3>Életkor-kalkulátor</h3><p>Dátum és idő</p></a><a class="card" href="../working-days-calculator/"><div class="ic">🏢</div><h3>Munkanapok-kalkulátor</h3><p>Dátum és idő</p></a><a class="card" href="../time-calculator/"><div class="ic">⏱️</div><h3>Idő-kalkulátor</h3><p>Dátum és idő</p></a><a class="card" href="../eu261-compensation-calculator/"><div class="ic">✈️</div><h3>EU261 kártérítés-ellenőrző</h3><p>Pénz és utazás</p></a></div>
+<h2 class="sec">Kapcsolódó kalkulátorok</h2><div class="grid"><a class="card" href="../date-calculator/"><div class="ic">📆</div><h3>Dátumkalkulátor</h3><p>Dátum és idő</p></a><a class="card" href="../days-between-dates-calculator/"><div class="ic">🗓️</div><h3>Napok két dátum között</h3><p>Dátum és idő</p></a><a class="card" href="../age-calculator/"><div class="ic">📅</div><h3>Életkor-kalkulátor</h3><p>Dátum és idő</p></a><a class="card" href="../working-days-calculator/"><div class="ic">🏢</div><h3>Munkanapok-kalkulátor</h3><p>Dátum és idő</p></a><a class="card" href="../time-calculator/"><div class="ic">⏱️</div><h3>Idő-kalkulátor</h3><p>Dátum és idő</p></a><a class="card" href="../eu261-compensation-calculator/"><div class="ic">✈️</div><h3>EU261 kártérítés-ellenőrző</h3><p>Pénz és utazás</p></a></div>
 </div>
 <section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>Hogyan működik — a képlet</h2>
 <p>Minden dátumra <em>D</em>, jelenlét(D) = az utazása napjainak száma, amelyek az időablakba esnek <strong>[D − 179 nap, D]</strong>. A szabály csak akkor sérül, ha presence(D) &gt; 90 valamely D-re. Ez a kalkulátor minden releváns napra kiértékeli a jelenlétet — minden utazási napra és a körülötte lévő napokra — mintavétel helyett, így a gördülő ablakos határeseteket pontosan elkapja. Az ellenőrzés napján hátralévő napok = 90 − presence(ellenőrzés napja). A legkorábbi teljes tartózkodás kezdete úgy található meg, hogy a jelölt kezdődátumokat napról napra teszteljük: egy S napon kezdődő 90 napos tartózkodás csak akkor biztonságos, ha a jelenlét a tartózkodás minden napján legfeljebb 90 marad, az új napokat is beleértve.</p>
@@ -176,13 +176,13 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 </script>
 <footer><div class="fin">
 <div class="cols">
-<div><h4>Popular Kalkulátorok</h4><ul><li><a href="../age-calculator/">Életkor-kalkulátor</a></li>
+<div><h4>Népszerű kalkulátorok</h4><ul><li><a href="../age-calculator/">Életkor-kalkulátor</a></li>
 <li><a href="../zakat-calculator/">Zakátkalkulátor</a></li>
 <li><a href="../cgpa-calculator/">CGPA-kalkulátor</a></li>
 <li><a href="../percentage-calculator/">Százalékkalkulátor</a></li>
 <li><a href="../hijri-date-converter/">Hidzsri dátumátváltó</a></li>
 <li><a href="../emi-calculator/">EMI- és hitelkalkulátor</a></li></ul></div>
-<div><h4>Több Loona Eszközök</h4><ul>
+<div><h4>További Loona-eszközök</h4><ul>
 <li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
 <li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Képtömörítő</a></li>
 <li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI-asszisztens</a></li>
@@ -190,8 +190,8 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <div><h4>Loona Calculators</h4><ul>
 <li><a href="../about.html">Rólunk</a></li>
 <li><a href="../contact.html">Kapcsolat</a></li>
-<li><a href="../privacy-policy.html">Privacy Policy</a></li>
-<li><a href="../terms.html">Feltételek Használat</a></li></ul></div>
+<li><a href="../privacy-policy.html">Adatvédelmi irányelvek</a></li>
+<li><a href="../terms.html">Felhasználási feltételek</a></li></ul></div>
 </div>
 <div class="bar">© 2026 Loona Calculators — egy <a href="https://loonaautomation.github.io/">Loona Automation</a> projekt. Ingyenes online kalkulátorok, regisztráció nélkül.
 Kapcsolat: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>

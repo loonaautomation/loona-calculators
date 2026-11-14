@@ -157,11 +157,11 @@ Omar</textarea></div>
 <section class="txt"><h2>A Véletlen csapatgenerátor használata</h2><ol><li>Illessze be a nevek, egy per sor.</li><li>Válassza ki a csapatok számát.</li><li>Nyomja meg Generate Csapatok.</li><li>Nyomja meg újra egy új keverésért, vagy másolja ki a csapatokat az eredménymezőből.</li></ol>
 <div class="exbox"><strong>Példa:</strong> 10 név 3 csapatra osztva 4, 3 és 3 fős csapatméreteket ad — automatikusan kiegyensúlyozva, minden név pontosan egyszer felhasználva.</div>
 <h2>Gyakran ismételt kérdések</h2></section><div class="faq"><h3>Hogyan lesznek a csapatok korrektek?</h3><p>A lista Fisher–Yates keveréssel keveredik, biztonságos véletlen számok által vezérelve, majd körben osztják ki a csapatoknak. A méretek ezért legfeljebb eggyel különböznek, és minden pozíció egyformán valószínű mindenki számára.</p></div><div class="faq"><h3>Mi van, ha a nevek nem oszthatók el egyenletesen?</h3><p>Az első csapatok egy extra személyt kapnak. 10 emberrel és 3 csapattal a méretek 4, 3, 3 — soha nem 5, 3, 2.</p></div><div class="faq"><h3>Készíthetek inkább fix méretű csapatokat?</h3><p>Válassza ki a méretének megfelelő csapatok számát: 4 fős csapatokhoz 20 emberrel válasszon 5 csapatot.</p></div><div class="faq"><h3>Engedélyezettek az ismétlődő nevek?</h3><p>Külön bejegyzésként kezeljük őket, így két azonos keresztnevű személy is bekerül a sorsolásba. Adjon meg vezetéknevet vagy kezdőbetűt, hogy meg lehessen különböztetni őket.</p></div>
-<h2 class="sec">Related Kalkulátorok</h2><div class="grid"><a class="card" href="../random-number-generator/"><div class="ic">🎲</div><h3>Véletlen szám generátor</h3><p>Szórakozás</p></a><a class="card" href="../dice-roller/"><div class="ic">🎲</div><h3>Dobókocka-dobó</h3><p>Szórakozás</p></a><a class="card" href="../coin-flip/"><div class="ic">🪙</div><h3>Érmefeldobás</h3><p>Szórakozás</p></a><a class="card" href="../lottery-number-generator/"><div class="ic">🍀</div><h3>Lottószám-generátor</h3><p>Szórakozás</p></a><a class="card" href="../love-calculator/"><div class="ic">❤️</div><h3>Szerelem-kalkulátor</h3><p>Szórakozás</p></a><a class="card" href="../wheel-of-names/"><div class="ic">🎡</div><h3>Kerék Nevek</h3><p>Szórakozás</p></a></div>
+<h2 class="sec">Kapcsolódó kalkulátorok</h2><div class="grid"><a class="card" href="../random-number-generator/"><div class="ic">🎲</div><h3>Véletlen szám generátor</h3><p>Szórakozás</p></a><a class="card" href="../dice-roller/"><div class="ic">🎲</div><h3>Dobókocka-dobó</h3><p>Szórakozás</p></a><a class="card" href="../coin-flip/"><div class="ic">🪙</div><h3>Érmefeldobás</h3><p>Szórakozás</p></a><a class="card" href="../lottery-number-generator/"><div class="ic">🍀</div><h3>Lottószám-generátor</h3><p>Szórakozás</p></a><a class="card" href="../love-calculator/"><div class="ic">❤️</div><h3>Szerelem-kalkulátor</h3><p>Szórakozás</p></a><a class="card" href="../wheel-of-names/"><div class="ic">🎡</div><h3>Kerék Nevek</h3><p>Szórakozás</p></a></div>
 </div>
 <section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>Hogyan működik — a képlet</h2>
 <p>A generátor használ egy <strong>Fisher–Yates keverés</strong>: a lista végétől minden pozícióban cserélje fel azt egy egyenletesen véletlen korábbi pozícióval (kriptográfiai erősségű véletlenszerűséggel). A lista minden rendezése így egyformán valószínű. A kevert listát egyenként osztjuk ki az 1, 2, … N, 1, 2, … csapatoknak, így a csapatméretek ⌊összesen ÷ N⌋ vagy ⌈összesen ÷ N⌉ — soha nem térnek el egynél többel.</p>
-<h3>Kidolgozott példa</h3><div class="exbox"><p><strong>Bemenetek:</strong> 10 név, 3 csapat.</p><p><strong>Lépések:</strong> Keverés után a neveket pozíciókban osztjuk ki: az 1. csapat a kevert nevekből 1, 4, 7, 10-et kap (4 ember); a 2. csapat a 2, 5, 8 neveket (3 ember); a 3. csapat a 3, 6, 9 neveket (3 ember). 4 + 3 + 3 = 10 — mindenki egyszer szerepel.</p><p><strong>Eredmény:</strong> Kiegyensúlyozott csapatok, létszám: <strong>4, 3 and 3</strong>.</p></div>
+<h3>Kidolgozott példa</h3><div class="exbox"><p><strong>Bemenetek:</strong> 10 név, 3 csapat.</p><p><strong>Lépések:</strong> Keverés után a neveket pozíciókban osztjuk ki: az 1. csapat a kevert nevekből 1, 4, 7, 10-et kap (4 ember); a 2. csapat a 2, 5, 8 neveket (3 ember); a 3. csapat a 3, 6, 9 neveket (3 ember). 4 + 3 + 3 = 10 — mindenki egyszer szerepel.</p><p><strong>Eredmény:</strong> Kiegyensúlyozott csapatok, létszám: <strong>4, 3 és 3</strong>.</p></div>
 
 </section>
 <div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
@@ -176,13 +176,13 @@ Omar</textarea></div>
 </script>
 <footer><div class="fin">
 <div class="cols">
-<div><h4>Popular Kalkulátorok</h4><ul><li><a href="../age-calculator/">Életkor-kalkulátor</a></li>
+<div><h4>Népszerű kalkulátorok</h4><ul><li><a href="../age-calculator/">Életkor-kalkulátor</a></li>
 <li><a href="../zakat-calculator/">Zakátkalkulátor</a></li>
 <li><a href="../cgpa-calculator/">CGPA-kalkulátor</a></li>
 <li><a href="../percentage-calculator/">Százalékkalkulátor</a></li>
 <li><a href="../hijri-date-converter/">Hidzsri dátumátváltó</a></li>
 <li><a href="../emi-calculator/">EMI- és hitelkalkulátor</a></li></ul></div>
-<div><h4>Több Loona Eszközök</h4><ul>
+<div><h4>További Loona-eszközök</h4><ul>
 <li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
 <li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Képtömörítő</a></li>
 <li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI-asszisztens</a></li>
@@ -190,8 +190,8 @@ Omar</textarea></div>
 <div><h4>Loona Calculators</h4><ul>
 <li><a href="../about.html">Rólunk</a></li>
 <li><a href="../contact.html">Kapcsolat</a></li>
-<li><a href="../privacy-policy.html">Privacy Policy</a></li>
-<li><a href="../terms.html">Feltételek Használat</a></li></ul></div>
+<li><a href="../privacy-policy.html">Adatvédelmi irányelvek</a></li>
+<li><a href="../terms.html">Felhasználási feltételek</a></li></ul></div>
 </div>
 <div class="bar">© 2026 Loona Calculators — egy <a href="https://loonaautomation.github.io/">Loona Automation</a> projekt. Ingyenes online kalkulátorok, regisztráció nélkül.
 Kapcsolat: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>

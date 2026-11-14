@@ -141,14 +141,14 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <div class="fld"><label for="caAmount">Jelzáloghitel összeg (CAD)</label><input type="number" id="caAmount" value="500000" step="any" min="0"></div>
 <div class="fld"><label for="caRate">Kamatláb (% évente)</label><input type="number" id="caRate" value="5" step="any" min="0"></div>
 <div class="fld"><label for="caYears">Futamidő (év)</label><input type="number" id="caYears" value="25" step="1" min="1" max="40"></div>
-<div class="fld"><label for="caExtra">Hónaply túlfizetés (CAD)</label><input type="number" id="caExtra" value="0" step="any" min="0"></div>
+<div class="fld"><label for="caExtra">Havi túlfizetés (CAD)</label><input type="number" id="caExtra" value="0" step="any" min="0"></div>
 <button class="calcbtn" type="submit">Havi törlesztés számítása</button>
 <div class="calcresult" id="caResult" style="display:none"></div>
 </form></div>
 <section class="txt"><h2>A Kanadai jelzáloghitel-kalkulátor használata</h2><ol><li>Adja meg a jelzáloghitel összegét kanadai dollárban (az ár mínusz az önerő).</li><li>Adja meg a szerződéses kamatlábat.</li><li>Adja meg a törlesztési időszakot években (25 a szokásos maximum a biztosított jelzáloghiteleknél), adjon hozzá bármilyen extra havi befizetést, majd nyomja meg a Számítás gombot.</li></ol>
 <div class="exbox"><strong>Példa:</strong> Egy 500,000 $-os jelzáloghitel 5%-kal, 25 év alatt ennyibe kerül: <strong>$2,908.02</strong> havonta Kanadában — valamivel kevesebb, mint ugyanaz a hitel az USA-ban, mert a kanadai kamatok évente csak kétszer kamatoznak. A képlet rész elmagyarázza, miért.</div>
 <h2>Gyakran ismételt kérdések</h2></section><div class="faq"><h3>Miért számolják másképp a kanadai jelzáloghitel-fizetéseket?</h3><p>Kanadai megállapodás szerint (és a legtöbb jelzálogra törvény szerint) a kamat félévente kamatozik — a közölt ráta névleges éves ráta évi két kamatperiódussal (j2-nek nevezik). Havi törlesztés számítása előtt át kell váltani: havi ráta = (1 + éves ÷ 2)<sup>2/12</sup> − 1. Ez a kalkulátor végzi el ezt az átváltást; egy amerikai stílusú számítás kissé túlbecsülné a törlesztést.</p></div><div class="faq"><h3>Mi a különbség a futamidő és az amortizáció között?</h3><p>Az amortizáció a teljes jelzálog visszafizetésének teljes ideje (gyakran 25 év). A futamidő a jelenlegi szerződése hossza (gyakran 5 év) — a futamidő végén az akkor elérhető kamatlábon újít, a fennmaradó amortizációt megtartva. Ez a kalkulátor az egyszerűség kedvéért egy kamatlábat modellez az egész amortizáción.</p></div><div class="faq"><h3>Mi a CMHC-biztosítás, és tartalmazza-e a kalkulátor?</h3><p>Ha az önerője 20% alatt van, a kanadai jog hitelbiztosítást (általában CMHC-től) követel meg. A díj — a hitel százaléka, amely az önerő csökkenésével nő — rendesen hozzáadódik a jelzálog-egyenlegéhez, így kamatot is fizet utána. A díj nem szerepel ebben a kalkulátorban: adja hozzá a jelzálogösszegéhez, ha tükrözni szeretné.</p></div>
-<h2 class="sec">Related Kalkulátorok</h2><div class="grid"><a class="card" href="../uk-mortgage-calculator/"><div class="ic">🇬🇧</div><h3>UK Jelzáloghitel Kalkulátor</h3><p>Pénz & Finance</p></a><a class="card" href="../australia-mortgage-calculator/"><div class="ic">🇦🇺</div><h3>Ausztrália jelzáloghitel-kalkulátor</h3><p>Pénz & Finance</p></a><a class="card" href="../germany-mortgage-calculator/"><div class="ic">🇩🇪</div><h3>Német jelzáloghitel-kalkulátor</h3><p>Pénz & Finance</p></a><a class="card" href="../mortgage-calculator/"><div class="ic">🏠</div><h3>Jelzáloghitel-kalkulátor</h3><p>Pénz & Finance</p></a><a class="card" href="../loan-calculator/"><div class="ic">💳</div><h3>Hitelkalkulátor</h3><p>Pénz & Finance</p></a><a class="card" href="../emi-calculator/"><div class="ic">🏦</div><h3>EMI- és hitelkalkulátor</h3><p>Pénz & Finance</p></a></div>
+<h2 class="sec">Kapcsolódó kalkulátorok</h2><div class="grid"><a class="card" href="../uk-mortgage-calculator/"><div class="ic">🇬🇧</div><h3>UK Jelzáloghitel Kalkulátor</h3><p>Pénz és pénzügyek</p></a><a class="card" href="../australia-mortgage-calculator/"><div class="ic">🇦🇺</div><h3>Ausztrália jelzáloghitel-kalkulátor</h3><p>Pénz és pénzügyek</p></a><a class="card" href="../germany-mortgage-calculator/"><div class="ic">🇩🇪</div><h3>Német jelzáloghitel-kalkulátor</h3><p>Pénz és pénzügyek</p></a><a class="card" href="../mortgage-calculator/"><div class="ic">🏠</div><h3>Jelzáloghitel-kalkulátor</h3><p>Pénz és pénzügyek</p></a><a class="card" href="../loan-calculator/"><div class="ic">💳</div><h3>Hitelkalkulátor</h3><p>Pénz és pénzügyek</p></a><a class="card" href="../emi-calculator/"><div class="ic">🏦</div><h3>EMI- és hitelkalkulátor</h3><p>Pénz és pénzügyek</p></a></div>
 </div>
 <section class="txt"><h2>Hogyan működik &mdash; a képlet</h2>
 <p>A kanadai fix kamatozású jelzáloghitelek féléves kamatozással számított névleges éves kamatot adnak meg. Az egyenértékű havi kamat:</p>
@@ -169,13 +169,13 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 </script>
 <footer><div class="fin">
 <div class="cols">
-<div><h4>Popular Kalkulátorok</h4><ul><li><a href="../age-calculator/">Életkor-kalkulátor</a></li>
+<div><h4>Népszerű kalkulátorok</h4><ul><li><a href="../age-calculator/">Életkor-kalkulátor</a></li>
 <li><a href="../zakat-calculator/">Zakátkalkulátor</a></li>
 <li><a href="../cgpa-calculator/">CGPA-kalkulátor</a></li>
 <li><a href="../percentage-calculator/">Százalékkalkulátor</a></li>
 <li><a href="../hijri-date-converter/">Hidzsri dátumátváltó</a></li>
 <li><a href="../emi-calculator/">EMI- és hitelkalkulátor</a></li></ul></div>
-<div><h4>Több Loona Eszközök</h4><ul>
+<div><h4>További Loona-eszközök</h4><ul>
 <li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
 <li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Képtömörítő</a></li>
 <li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI-asszisztens</a></li>
@@ -183,8 +183,8 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <div><h4>Loona Calculators</h4><ul>
 <li><a href="../about.html">Rólunk</a></li>
 <li><a href="../contact.html">Kapcsolat</a></li>
-<li><a href="../privacy-policy.html">Privacy Policy</a></li>
-<li><a href="../terms.html">Feltételek Használat</a></li></ul></div>
+<li><a href="../privacy-policy.html">Adatvédelmi irányelvek</a></li>
+<li><a href="../terms.html">Felhasználási feltételek</a></li></ul></div>
 </div>
 <div class="bar">© 2026 Loona Calculators — egy <a href="https://loonaautomation.github.io/">Loona Automation</a> projekt. Ingyenes online kalkulátorok, regisztráció nélkül.
 Kapcsolat: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>

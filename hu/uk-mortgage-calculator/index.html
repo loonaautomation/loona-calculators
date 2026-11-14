@@ -141,14 +141,14 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <div class="fld"><label for="ukAmount">Jelzáloghitel összeg (£)</label><input type="number" id="ukAmount" value="250000" step="any" min="0"></div>
 <div class="fld"><label for="ukRate">Kamatláb (% évente)</label><input type="number" id="ukRate" value="4.5" step="any" min="0"></div>
 <div class="fld"><label for="ukYears">Futamidő (év)</label><input type="number" id="ukYears" value="25" step="1" min="1" max="40"></div>
-<div class="fld"><label for="ukExtra">Hónaply túlfizetés (£)</label><input type="number" id="ukExtra" value="0" step="any" min="0"></div>
+<div class="fld"><label for="ukExtra">Havi túlfizetés (£)</label><input type="number" id="ukExtra" value="0" step="any" min="0"></div>
 <button class="calcbtn" type="submit">Havi törlesztés számítása</button>
 <div class="calcresult" id="ukResult" style="display:none"></div>
 </form></div>
 <section class="txt"><h2>A Brit jelzáloghitel-kalkulátor használata</h2><ol><li>Adja meg a felvett összeget (nem az ingatlan árat — először vonja le az önerőt).</li><li>Adja meg a jelzáloghitel-ajánlat kamatlábát.</li><li>Adja meg a futamidőt években, adjon hozzá bármilyen havi túlfizetést, amelyet tervez, majd nyomja meg a Számítás gombot.</li></ol>
 <div class="exbox"><strong>Példa:</strong> Egy 250,000 £-os jelzáloghitel 25 év alatt, 4.5%-kal ennyibe kerül: <strong>£1,389.58</strong> havonta, a futamidő alatt £166,874.36 kamattal. Adjon hozzá havi £200 túlfizetést, és a tartozásmentesség dátuma érezhetően előbbre kerül — próbálja ki fent.</div>
 <h2>Gyakran ismételt kérdések</h2></section><div class="faq"><h3>Hogyan számítják a brit jelzáloghitel-törlesztéseket?</h3><p>A brit törlesztéses jelzáloghitelek szokásos amortizációt használnak havi tőkésítéssel: minden hónapban kamatot számítanak fel Önnek a fennmaradó egyenlegre az éves kamatláb ÷ 12 alapján, és a fix törlesztése többi része a tőkét csökkenti. A korai törlesztések többnyire kamatból állnak; a későbbiek többnyire tőkéből.</p></div><div class="faq"><h3>Törlesszem elő a jelzáloghitelemet?</h3><p>A túlfizetés gyorsabban csökkenti az egyenleget, ezért összességében kevesebb kamatot fizet, és korábban végez — a kalkulátor megmutatja a pontos megtakarítást. Két óvatosság: sok fix kamatozású ajánlat korlátozza a büntetésmentes túlfizetéseket (gyakran az egyenleg évi 10%-ára), és tartania kell egy vésztartalékot, ahelyett hogy minden szabad fontot a házba tenne.</p></div><div class="faq"><h3>Mi történik, amikor a rögzített kamatozásom lejár?</h3><p>A legtöbb brit hitelfelvevő 2–5 évre rögzít, majd a hitelező szabványos változó kamatlábára (SVR) esik, amely általában sokkal magasabb. Ez a kalkulátor az egyszerűség kedvéért egy kamatlábat feltételez az egész futamidőre — a gyakorlatban a legtöbb ember úgy tartja alacsonyan a törlesztéseket, hogy minden rögzítés végén új ajánlatra újra jelzálogoz.</p></div>
-<h2 class="sec">Related Kalkulátorok</h2><div class="grid"><a class="card" href="../canada-mortgage-calculator/"><div class="ic">🇨🇦</div><h3>Kanada jelzáloghitel-kalkulátor</h3><p>Pénz & Finance</p></a><a class="card" href="../australia-mortgage-calculator/"><div class="ic">🇦🇺</div><h3>Ausztrália jelzáloghitel-kalkulátor</h3><p>Pénz & Finance</p></a><a class="card" href="../germany-mortgage-calculator/"><div class="ic">🇩🇪</div><h3>Német jelzáloghitel-kalkulátor</h3><p>Pénz & Finance</p></a><a class="card" href="../mortgage-calculator/"><div class="ic">🏠</div><h3>Jelzáloghitel-kalkulátor</h3><p>Pénz & Finance</p></a><a class="card" href="../loan-calculator/"><div class="ic">💳</div><h3>Hitelkalkulátor</h3><p>Pénz & Finance</p></a><a class="card" href="../emi-calculator/"><div class="ic">🏦</div><h3>EMI- és hitelkalkulátor</h3><p>Pénz & Finance</p></a></div>
+<h2 class="sec">Kapcsolódó kalkulátorok</h2><div class="grid"><a class="card" href="../canada-mortgage-calculator/"><div class="ic">🇨🇦</div><h3>Kanada jelzáloghitel-kalkulátor</h3><p>Pénz és pénzügyek</p></a><a class="card" href="../australia-mortgage-calculator/"><div class="ic">🇦🇺</div><h3>Ausztrália jelzáloghitel-kalkulátor</h3><p>Pénz és pénzügyek</p></a><a class="card" href="../germany-mortgage-calculator/"><div class="ic">🇩🇪</div><h3>Német jelzáloghitel-kalkulátor</h3><p>Pénz és pénzügyek</p></a><a class="card" href="../mortgage-calculator/"><div class="ic">🏠</div><h3>Jelzáloghitel-kalkulátor</h3><p>Pénz és pénzügyek</p></a><a class="card" href="../loan-calculator/"><div class="ic">💳</div><h3>Hitelkalkulátor</h3><p>Pénz és pénzügyek</p></a><a class="card" href="../emi-calculator/"><div class="ic">🏦</div><h3>EMI- és hitelkalkulátor</h3><p>Pénz és pénzügyek</p></a></div>
 </div>
 <section class="txt"><h2>Hogyan működik &mdash; a képlet</h2>
 <p>A havi fizetés <em>M</em> egy hitelen <em>P</em> havi kamatlábbal <em>r</em> (= éves kamatláb ÷ 12 ÷ 100) alatt <em>n</em> havi törlesztéseké:</p>
@@ -169,13 +169,13 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 </script>
 <footer><div class="fin">
 <div class="cols">
-<div><h4>Popular Kalkulátorok</h4><ul><li><a href="../age-calculator/">Életkor-kalkulátor</a></li>
+<div><h4>Népszerű kalkulátorok</h4><ul><li><a href="../age-calculator/">Életkor-kalkulátor</a></li>
 <li><a href="../zakat-calculator/">Zakátkalkulátor</a></li>
 <li><a href="../cgpa-calculator/">CGPA-kalkulátor</a></li>
 <li><a href="../percentage-calculator/">Százalékkalkulátor</a></li>
 <li><a href="../hijri-date-converter/">Hidzsri dátumátváltó</a></li>
 <li><a href="../emi-calculator/">EMI- és hitelkalkulátor</a></li></ul></div>
-<div><h4>Több Loona Eszközök</h4><ul>
+<div><h4>További Loona-eszközök</h4><ul>
 <li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
 <li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Képtömörítő</a></li>
 <li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI-asszisztens</a></li>
@@ -183,8 +183,8 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <div><h4>Loona Calculators</h4><ul>
 <li><a href="../about.html">Rólunk</a></li>
 <li><a href="../contact.html">Kapcsolat</a></li>
-<li><a href="../privacy-policy.html">Privacy Policy</a></li>
-<li><a href="../terms.html">Feltételek Használat</a></li></ul></div>
+<li><a href="../privacy-policy.html">Adatvédelmi irányelvek</a></li>
+<li><a href="../terms.html">Felhasználási feltételek</a></li></ul></div>
 </div>
 <div class="bar">© 2026 Loona Calculators — egy <a href="https://loonaautomation.github.io/">Loona Automation</a> projekt. Ingyenes online kalkulátorok, regisztráció nélkül.
 Kapcsolat: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>

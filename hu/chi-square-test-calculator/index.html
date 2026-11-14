@@ -150,7 +150,7 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <section class="txt"><h2>A Khí-négyzet próba kalkulátor használata</h2><ol><li>Válassza a Függetlenség (táblázat) vagy az Illeszkedésvizsgálat lehetőséget.</li><li>Táblázathoz adjon meg soronként egy sort, a darabszámokat szóközökkel vagy vesszőkkel elválasztva — minden sor azonos hosszúságú.</li><li>Illeszkedésvizsgálathoz adja meg a megfigyelt darabszámokat és a várt darabszámokat ugyanabban a sorrendben.</li><li>Olvassa le χ²-t, df-et, p-t és a használt várt értékeket.</li></ol>
 <div class="exbox"><strong>Példa:</strong> Egy 2×2-es felmérési táblázat [[10, 20], [20, 10]] (60 fő): χ² = 6.667, df = 1, p ≈ 0.0098 — a két változó valószínűleg nem független.</div>
 <h2>Gyakran ismételt kérdések</h2></section><div class="faq"><h3>Mik a szabadsági fokok?</h3><p>Függetlenséghez: (sorok − 1) × (oszlopok − 1). Illeszkedésvizsgálathoz: kategóriák − 1 (mínusz az adatokból becsült paraméterek, amit ez a kalkulátor nem tesz).</p></div><div class="faq"><h3>Mekkorák legyenek a várt gyakoriságok?</h3><p>A bevett szabály szerint a legtöbb várt értéknek legalább 5-nek kell lennie. Apró várt értékeknél a khí-négyzet közelítés gyengül — Fisher egzakt próbája a klasszikus alternatíva a kis 2×2-es táblázatokra.</p></div><div class="faq"><h3>Mit árul el nekem egy szignifikáns eredmény?</h3><p>Függetlenség esetén: a két változó összefügg — nem az, hogy az egyik okozza a másikat. Illeszkedésvizsgálat esetén: a megfigyelt minta jobban eltér a várt modelltől, mint ahogyan azt a véletlen egyedül általában produkálná.</p></div><div class="faq"><h3>Miért mutatja a kalkulátor a várható táblázatot?</h3><p>Mert a várt darabszámok ellenőrzése a teszt őszinte elvégzésének része — pontosan láthatja, mely cellák vezérlik a statisztikát.</p></div>
-<h2 class="sec">Related Kalkulátorok</h2><div class="grid"><a class="card" href="../percentage-calculator/"><div class="ic">％</div><h3>Százalékkalkulátor</h3><p>Matematika</p></a><a class="card" href="../statistics-calculator/"><div class="ic">📊</div><h3>Statistics Kalkulátor</h3><p>Matematika</p></a><a class="card" href="../fraction-calculator/"><div class="ic">½</div><h3>Törtkalkulátor</h3><p>Matematika</p></a><a class="card" href="../equation-solver/"><div class="ic">🧮</div><h3>Egyenletmegoldó</h3><p>Matematika</p></a><a class="card" href="../scientific-calculator/"><div class="ic">🔬</div><h3>Tudományos-kalkulátor</h3><p>Matematika</p></a><a class="card" href="../average-calculator/"><div class="ic">📐</div><h3>Átlagkalkulátor</h3><p>Matematika</p></a><a class="card" href="../z-score-calculator/"><div class="ic">🔔</div><h3>Z-pontszám-kalkulátor</h3><p>Matematika</p></a><a class="card" href="../probability-calculator/"><div class="ic">🎲</div><h3>Valószínűség-kalkulátor</h3><p>Matematika</p></a></div>
+<h2 class="sec">Kapcsolódó kalkulátorok</h2><div class="grid"><a class="card" href="../percentage-calculator/"><div class="ic">％</div><h3>Százalékkalkulátor</h3><p>Matematika</p></a><a class="card" href="../statistics-calculator/"><div class="ic">📊</div><h3>Statistics Kalkulátor</h3><p>Matematika</p></a><a class="card" href="../fraction-calculator/"><div class="ic">½</div><h3>Törtkalkulátor</h3><p>Matematika</p></a><a class="card" href="../equation-solver/"><div class="ic">🧮</div><h3>Egyenletmegoldó</h3><p>Matematika</p></a><a class="card" href="../scientific-calculator/"><div class="ic">🔬</div><h3>Tudományos-kalkulátor</h3><p>Matematika</p></a><a class="card" href="../average-calculator/"><div class="ic">📐</div><h3>Átlagkalkulátor</h3><p>Matematika</p></a><a class="card" href="../z-score-calculator/"><div class="ic">🔔</div><h3>Z-pontszám-kalkulátor</h3><p>Matematika</p></a><a class="card" href="../probability-calculator/"><div class="ic">🎲</div><h3>Valószínűség-kalkulátor</h3><p>Matematika</p></a></div>
 </div>
 <section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>Hogyan működik — a képlet</h2>
 <p><strong>χ² = Σ (O − E)² ÷ E</strong> minden cellán át. A függetlenséghez egy cella E-je = (sorösszes × oszlopösszes) ÷ főösszes, és df = (r − 1)(c − 1). Az illeszkedés jóságához az E értékeket a modell adja, és df = kategóriák − 1. A p-érték a khí-négyzet eloszlás jobb farka, a nem teljes gamma-függvénnyel számolva.</p>
@@ -169,13 +169,13 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 </script>
 <footer><div class="fin">
 <div class="cols">
-<div><h4>Popular Kalkulátorok</h4><ul><li><a href="../age-calculator/">Életkor-kalkulátor</a></li>
+<div><h4>Népszerű kalkulátorok</h4><ul><li><a href="../age-calculator/">Életkor-kalkulátor</a></li>
 <li><a href="../zakat-calculator/">Zakátkalkulátor</a></li>
 <li><a href="../cgpa-calculator/">CGPA-kalkulátor</a></li>
 <li><a href="../percentage-calculator/">Százalékkalkulátor</a></li>
 <li><a href="../hijri-date-converter/">Hidzsri dátumátváltó</a></li>
 <li><a href="../emi-calculator/">EMI- és hitelkalkulátor</a></li></ul></div>
-<div><h4>Több Loona Eszközök</h4><ul>
+<div><h4>További Loona-eszközök</h4><ul>
 <li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
 <li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Képtömörítő</a></li>
 <li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI-asszisztens</a></li>
@@ -183,8 +183,8 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <div><h4>Loona Calculators</h4><ul>
 <li><a href="../about.html">Rólunk</a></li>
 <li><a href="../contact.html">Kapcsolat</a></li>
-<li><a href="../privacy-policy.html">Privacy Policy</a></li>
-<li><a href="../terms.html">Feltételek Használat</a></li></ul></div>
+<li><a href="../privacy-policy.html">Adatvédelmi irányelvek</a></li>
+<li><a href="../terms.html">Felhasználási feltételek</a></li></ul></div>
 </div>
 <div class="bar">© 2026 Loona Calculators — egy <a href="https://loonaautomation.github.io/">Loona Automation</a> projekt. Ingyenes online kalkulátorok, regisztráció nélkül.
 Kapcsolat: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>

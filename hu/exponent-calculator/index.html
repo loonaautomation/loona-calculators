@@ -141,7 +141,7 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <section class="txt"><h2>A Hatványkalkulátor használata</h2><ol><li>Adja meg az alapszámot.</li><li>Adja meg a kitevőt (lehet negatív, vagy tört, például 0.5).</li><li>Nyomja meg a Számítás gombot — a teljesítmény és a bónusztáblázat alább jelenik meg.</li></ol>
 <div class="exbox"><strong>Példa:</strong> 2 a 10. hatványon = 1,024. 9-es alapra pedig: a négyzet 81, a köb 729, a négyzetgyök 3.</div>
 <h2>Gyakran ismételt kérdések</h2></section><div class="faq"><h3>Mit jelent a törtkitevő?</h3><p>A 0.5-ös kitevő a négyzetgyök, az 1/3 pedig a köbgyök — a törthatványok álcázott gyökök.</p></div><div class="faq"><h3>Mi egy negatív exponent átlag?</h3><p>A számot törtté alakítja: 2^-2 = 1 / (2 × 2) = 0.25. Az eredmény kisebb lesz; a kitevő előjele önmagában soha nem teszi negatívvá a választ.</p></div><div class="faq"><h3>Miért kaptam hibát negatív alap miatt?</h3><p>A negatív alap törtkitevővel (mint a -4^0.5) nem ad valós szám választ, ezért a kalkulátor ezt őszintén jelzi, ahelyett hogy értéket találna ki.</p></div>
-<h2 class="sec">Related Kalkulátorok</h2><div class="grid"><a class="card" href="../percentage-calculator/"><div class="ic">％</div><h3>Százalékkalkulátor</h3><p>Matematika</p></a><a class="card" href="../average-calculator/"><div class="ic">🔢</div><h3>Átlagkalkulátor</h3><p>Matematika</p></a><a class="card" href="../ratio-calculator/"><div class="ic">➗</div><h3>Arány-kalkulátor</h3><p>Matematika</p></a><a class="card" href="../age-calculator/"><div class="ic">📅</div><h3>Életkor-kalkulátor</h3><p>Dátum és idő</p></a><a class="card" href="../lcm-hcf-calculator/"><div class="ic">✖️</div><h3>LKKT- és LNKO-kalkulátor</h3><p>Matematika</p></a></div>
+<h2 class="sec">Kapcsolódó kalkulátorok</h2><div class="grid"><a class="card" href="../percentage-calculator/"><div class="ic">％</div><h3>Százalékkalkulátor</h3><p>Matematika</p></a><a class="card" href="../average-calculator/"><div class="ic">🔢</div><h3>Átlagkalkulátor</h3><p>Matematika</p></a><a class="card" href="../ratio-calculator/"><div class="ic">➗</div><h3>Arány-kalkulátor</h3><p>Matematika</p></a><a class="card" href="../age-calculator/"><div class="ic">📅</div><h3>Életkor-kalkulátor</h3><p>Dátum és idő</p></a><a class="card" href="../lcm-hcf-calculator/"><div class="ic">✖️</div><h3>LKKT- és LNKO-kalkulátor</h3><p>Matematika</p></a></div>
 </div>
 <section class="txt"><h2>Hogyan működik — a képlet</h2><p>A hatvány megmondja, hányszor kell az alapot önmagával megszorozni. Ez a kalkulátor közvetlenül értékeli ki a hatványt, így az egész, negatív és tört kitevők mind ugyanúgy működnek: a negatív kitevő a végeredményt törtté fordítja (a pozitív hatvány reciproka), a tört kitevő pedig gyök — 0.5 négyzetgyököt jelent, 1/3 köbgyököt. A válasz mellett megmutatja az alap négyzetét, köbét, négyzetgyökét és köbgyökét is.</p><p><strong>Képlet:</strong> Eredmény = alap<sup>kitevő</sup> — például 5<sup>3</sup> = 5 × 5 × 5. Negatív kitevővel az eredmény = 1 ÷ alap<sup>|exponent|</sup>.</p><h3>Kidolgozott példa</h3><div class="exbox"><strong>Példa:</strong> Mennyi az 5 a 3. hatványon? Szorozza végig lépésenként: 5 × 5 = 25, majd 25 × 5 = <strong>125</strong>. A kalkulátor megadja az alap négyzetét (25), köbét (125), négyzetgyökét (2.2361) és köbgyökét (1.71) is.</div><h3>Gyakori kérdések</h3></section><div class="faq"><h3>Mennyi bármely szám a 0. hatványon?</h3><p>Pontosan 1 — próbálja ki a 7-es alapot 0 kitevővel, és az eredmény 1. (Maga a nulla a kivétel: a 0 a 0-adikon hatványnak nincs elfogadott értéke, és ez a kalkulátor hibaként kezeli a nulla alapot nulla vagy negatív kitevővel.)</p></div><div class="faq"><h3>Lehet a kitevő tizedes, például 2.5?</h3><p>Igen. Egy tizedes kitevő egy hatványt és egy gyököt kombinál: 4<sup>2.5</sup> 4 négyzetét jelenti, szorozva 4 négyzetgyökével — 16 × 2 = 32, pontosan azt, amit ez a kalkulátor ad.</p></div><div class="faq"><h3>Mi tegye alap 1 és alap 0 ad?</h3><p>Az 1 bármely hatványon mindig 1, a 0 pedig bármely pozitív hatványon 0. A nulla nulladik vagy negatív hatványa nem értelmezett, ezért a kalkulátor hibát jelez a találgatás helyett.</p></div><div class="faq"><h3>Működik-e negatív alappal?</h3><p>Igen, egész számú kitevőkkel: (−3)<sup>2</sup> = 9 és (−3)<sup>3</sup> = −27. Csak a negatív alap törtkitevőjének nincs valós szám válasza, mert az negatív számból való gyökvonást jelentene.</p></div><div class="faq"><h3>Mekkora eredményt tud ez kezelni?</h3><p>A nagyon nagy hatványok túlcsordulnak azon, amit egy számítógépes szám kezelni tud — például 10<sup>400</sup>. Ebben az esetben a kalkulátor őszintén jelzi, hogy az eredmény túl nagy a megjelenítéshez, ahelyett hogy hibás értéket mutatna.</p></div>
 <div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
@@ -156,13 +156,13 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 </script>
 <footer><div class="fin">
 <div class="cols">
-<div><h4>Popular Kalkulátorok</h4><ul><li><a href="../age-calculator/">Életkor-kalkulátor</a></li>
+<div><h4>Népszerű kalkulátorok</h4><ul><li><a href="../age-calculator/">Életkor-kalkulátor</a></li>
 <li><a href="../zakat-calculator/">Zakátkalkulátor</a></li>
 <li><a href="../cgpa-calculator/">CGPA-kalkulátor</a></li>
 <li><a href="../percentage-calculator/">Százalékkalkulátor</a></li>
 <li><a href="../hijri-date-converter/">Hidzsri dátumátváltó</a></li>
 <li><a href="../emi-calculator/">EMI- és hitelkalkulátor</a></li></ul></div>
-<div><h4>Több Loona Eszközök</h4><ul>
+<div><h4>További Loona-eszközök</h4><ul>
 <li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
 <li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Képtömörítő</a></li>
 <li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI-asszisztens</a></li>
@@ -170,8 +170,8 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <div><h4>Loona Calculators</h4><ul>
 <li><a href="../about.html">Rólunk</a></li>
 <li><a href="../contact.html">Kapcsolat</a></li>
-<li><a href="../privacy-policy.html">Privacy Policy</a></li>
-<li><a href="../terms.html">Feltételek Használat</a></li></ul></div>
+<li><a href="../privacy-policy.html">Adatvédelmi irányelvek</a></li>
+<li><a href="../terms.html">Felhasználási feltételek</a></li></ul></div>
 </div>
 <div class="bar">© 2026 Loona Calculators — egy <a href="https://loonaautomation.github.io/">Loona Automation</a> projekt. Ingyenes online kalkulátorok, regisztráció nélkül.
 Kapcsolat: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>

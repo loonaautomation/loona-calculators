@@ -151,7 +151,7 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <section class="txt"><h2>A Normális eloszlás kalkulátor használata</h2><ol><li>Adja meg eloszlása átlagát és szórását.</li><li>Válassza ki a kérdés típusát, és adja meg az érték(ek)et vagy a percentilist.</li><li>Olvassa el a valószínűség vagy percentilis érték.</li></ol>
 <div class="exbox"><strong>Példa:</strong> Tesztpontszámok 70-es átlaggal, 15-ös SD-vel: a 85 alatti eredmény esélye 84.13%; 55 és 85 között 68.27%; 100 felett mindössze 2.28%.</div>
 <h2>Gyakran ismételt kérdések</h2></section><div class="faq"><h3>Miben különbözik ez a Z-érték-kalkulátortól?</h3><p>A Z-pontszám-kalkulátor egy értéket standardizál, és jelenti a percentilisét. Ez az oldal a teljes eloszlással dolgozik eredeti egységekben: intervallum-valószínűségek mindkét irányban, és a fordított kérdés — melyik érték ül egy adott percentilisnél.</p></div><div class="faq"><h3>Mit csinál a fordított (percentilis) mód?</h3><p>A CDF-et visszafelé futtatja: adjon meg egy percentilist, például 90-et, és visszaadja azt az értéket, amely alatt az eloszlás 90%-a fekszik, pontos inverz-normális közelítéssel.</p></div><div class="faq"><h3>Mennyire pontosak a számok?</h3><p>A CDF az Abramowitz–Stegun-közelítést használja (a hiba 0.00005 alatt), az inverz pedig az Acklam-algoritmust (a hiba z-ben 0.0001 alatt) — mindkettő a közölt pontosságukig egyezik a nyomtatott z-táblázatokkal.</p></div><div class="faq"><h3>Az adataim nem normális eloszlásúak — használhatom még ezt?</h3><p>A valószínűségek csak annyira jók, amennyire a normális feltételezés. Sok természetes és vizsgapontszám-eloszlás elég közel van; az erősen ferde adatok (jövedelmek, várakozási idők) nem, és más eloszlást igényelnének.</p></div>
-<h2 class="sec">Related Kalkulátorok</h2><div class="grid"><a class="card" href="../percentage-calculator/"><div class="ic">％</div><h3>Százalékkalkulátor</h3><p>Matematika</p></a><a class="card" href="../statistics-calculator/"><div class="ic">📊</div><h3>Statistics Kalkulátor</h3><p>Matematika</p></a><a class="card" href="../fraction-calculator/"><div class="ic">½</div><h3>Törtkalkulátor</h3><p>Matematika</p></a><a class="card" href="../equation-solver/"><div class="ic">🧮</div><h3>Egyenletmegoldó</h3><p>Matematika</p></a><a class="card" href="../scientific-calculator/"><div class="ic">🔬</div><h3>Tudományos-kalkulátor</h3><p>Matematika</p></a><a class="card" href="../average-calculator/"><div class="ic">📐</div><h3>Átlagkalkulátor</h3><p>Matematika</p></a><a class="card" href="../z-score-calculator/"><div class="ic">🔔</div><h3>Z-pontszám-kalkulátor</h3><p>Matematika</p></a><a class="card" href="../probability-calculator/"><div class="ic">🎲</div><h3>Valószínűség-kalkulátor</h3><p>Matematika</p></a></div>
+<h2 class="sec">Kapcsolódó kalkulátorok</h2><div class="grid"><a class="card" href="../percentage-calculator/"><div class="ic">％</div><h3>Százalékkalkulátor</h3><p>Matematika</p></a><a class="card" href="../statistics-calculator/"><div class="ic">📊</div><h3>Statistics Kalkulátor</h3><p>Matematika</p></a><a class="card" href="../fraction-calculator/"><div class="ic">½</div><h3>Törtkalkulátor</h3><p>Matematika</p></a><a class="card" href="../equation-solver/"><div class="ic">🧮</div><h3>Egyenletmegoldó</h3><p>Matematika</p></a><a class="card" href="../scientific-calculator/"><div class="ic">🔬</div><h3>Tudományos-kalkulátor</h3><p>Matematika</p></a><a class="card" href="../average-calculator/"><div class="ic">📐</div><h3>Átlagkalkulátor</h3><p>Matematika</p></a><a class="card" href="../z-score-calculator/"><div class="ic">🔔</div><h3>Z-pontszám-kalkulátor</h3><p>Matematika</p></a><a class="card" href="../probability-calculator/"><div class="ic">🎲</div><h3>Valószínűség-kalkulátor</h3><p>Matematika</p></a></div>
 </div>
 <section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>Hogyan működik — a képlet</h2>
 <p>Standardise <strong>z = (x − μ) ÷ σ</strong>, majd használja a standard normális eloszlásfüggvényt, Φ-t. P(X &lt; x) = Φ(z); P(X &gt; x) = 1 − Φ(z); P(a &lt; X &lt; b) = Φ(z_b) − Φ(z_a). Az inverz a z = Φ⁻¹(percentilis) és az x = μ + zσ képleteket használja.</p>
@@ -170,13 +170,13 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 </script>
 <footer><div class="fin">
 <div class="cols">
-<div><h4>Popular Kalkulátorok</h4><ul><li><a href="../age-calculator/">Életkor-kalkulátor</a></li>
+<div><h4>Népszerű kalkulátorok</h4><ul><li><a href="../age-calculator/">Életkor-kalkulátor</a></li>
 <li><a href="../zakat-calculator/">Zakátkalkulátor</a></li>
 <li><a href="../cgpa-calculator/">CGPA-kalkulátor</a></li>
 <li><a href="../percentage-calculator/">Százalékkalkulátor</a></li>
 <li><a href="../hijri-date-converter/">Hidzsri dátumátváltó</a></li>
 <li><a href="../emi-calculator/">EMI- és hitelkalkulátor</a></li></ul></div>
-<div><h4>Több Loona Eszközök</h4><ul>
+<div><h4>További Loona-eszközök</h4><ul>
 <li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
 <li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Képtömörítő</a></li>
 <li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI-asszisztens</a></li>
@@ -184,8 +184,8 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <div><h4>Loona Calculators</h4><ul>
 <li><a href="../about.html">Rólunk</a></li>
 <li><a href="../contact.html">Kapcsolat</a></li>
-<li><a href="../privacy-policy.html">Privacy Policy</a></li>
-<li><a href="../terms.html">Feltételek Használat</a></li></ul></div>
+<li><a href="../privacy-policy.html">Adatvédelmi irányelvek</a></li>
+<li><a href="../terms.html">Felhasználási feltételek</a></li></ul></div>
 </div>
 <div class="bar">© 2026 Loona Calculators — egy <a href="https://loonaautomation.github.io/">Loona Automation</a> projekt. Ingyenes online kalkulátorok, regisztráció nélkül.
 Kapcsolat: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>

@@ -155,9 +155,9 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <div class="calcresult" id="logRes" style="display:none"></div>
 </div>
 <section class="txt"><h2>A Logaritmuskalkulátor használata</h2><ol><li>Adja meg az x számot, amelynek a logaritmusát szeretné. 0-nál nagyobbnak kell lennie.</li><li>Adja meg a b alapot — vagy koppintson a 10-es alap, 2-es alap vagy e alap gombra. Az alapnak 0-nál nagyobbnak kell lennie, és nem lehet egyenlő 1-gyel.</li><li>Nyomja meg a Számítás gombot. Megkapja a saját alapú logaritmust, valamint a tízes alapú (10-es alapú) logaritmust, a természetes (e alapú) logaritmust és a kettes alapú (2-es alapú) logaritmust, továbbá egy antilogaritmus-ellenőrzést, amely az alapot visszaemeli az Ön eredményére.</li></ol>
-<div class="exbox"><strong>Példa:</strong> log<sub>2</sub>(32) = 5, because 2<sup>5</sup> = 32. And log<sub>10</sub>(1000) = 3, because 10<sup>3</sup> = 1000.</div>
+<div class="exbox"><strong>Példa:</strong> log<sub>2</sub>(32) = 5, mert 2<sup>5</sup> = 32. És log<sub>10</sub>(1000) = 3, mert 10<sup>3</sup> = 1000.</div>
 <h2>Gyakran ismételt kérdések</h2></section><div class="faq"><h3>Mi a logaritmus egyszerű szavakkal?</h3><p>A logaritmus arra a kérdésre válaszol: "Milyen hatványra kell emelnem az alapot, hogy ezt a számot kapjam?" log<sub>10</sub>(1000) = 3, mert a 10 a 3. hatványon 1000. Ez a hatvány ellentéte (inverze), ahogyan az osztás a szorzás ellentéte.</p></div><div class="faq"><h3>Mi a különbség logaritmus és ln között?</h3><p>A legtöbb kalkulátoron a „log" a 10-es alapú logaritmust jelenti — a közönséges logaritmust. Az „ln" az e alapút jelenti (e ≈ 2.71828) — a természetes logaritmust, amelyet a tudományban és a pénzügyekben használnak. Ez a kalkulátor mindkettőt megadja, plusz a 2-es alapút (a számítástechnikában használt bináris logaritmust), bármely beírt számhoz.</p></div><div class="faq"><h3>Miért nem vehetem a 0 vagy egy negatív szám logaritmusát?</h3><p>Mert pozitív alap egyetlen hatványa sem adhat 0-t vagy negatív eredményt: a 10 bármely hatványa mindig pozitív. Tehát valós számokra a 0 vagy negatív szám logaritmusa nem értelmezett, és a kalkulátor ezt közli Önnel, ahelyett, hogy kitalált választ mutatna.</p></div>
-<h2 class="sec">Related Kalkulátorok</h2><div class="grid"><a class="card" href="../exponent-calculator/"><div class="ic">x²</div><h3>Hatványkalkulátor</h3><p>Matematika</p></a><a class="card" href="../square-root-calculator/"><div class="ic">√</div><h3>Négyzet Gyök Kalkulátor</h3><p>Matematika</p></a><a class="card" href="../scientific-calculator/"><div class="ic">🧮</div><h3>Tudományos-kalkulátor</h3><p>Matematika</p></a><a class="card" href="../percentage-calculator/"><div class="ic">％</div><h3>Százalékkalkulátor</h3><p>Matematika</p></a><a class="card" href="../statistics-calculator/"><div class="ic">📉</div><h3>Statistics Kalkulátor</h3><p>Matematika</p></a></div>
+<h2 class="sec">Kapcsolódó kalkulátorok</h2><div class="grid"><a class="card" href="../exponent-calculator/"><div class="ic">x²</div><h3>Hatványkalkulátor</h3><p>Matematika</p></a><a class="card" href="../square-root-calculator/"><div class="ic">√</div><h3>Négyzet Gyök Kalkulátor</h3><p>Matematika</p></a><a class="card" href="../scientific-calculator/"><div class="ic">🧮</div><h3>Tudományos-kalkulátor</h3><p>Matematika</p></a><a class="card" href="../percentage-calculator/"><div class="ic">％</div><h3>Százalékkalkulátor</h3><p>Matematika</p></a><a class="card" href="../statistics-calculator/"><div class="ic">📉</div><h3>Statistics Kalkulátor</h3><p>Matematika</p></a></div>
 </div>
 <section class="txt"><h2>Hogyan működik &mdash; a képlet</h2>
 <p><strong>Definíció:</strong> log<sub>b</sub>(x) = y pontosan akkor, amikor b<sup>y</sup> = x. A logaritmus és a hatvány ugyanannak a ténynek a két oldala.</p>
@@ -169,7 +169,7 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <div class="exbox"><strong>Példa:</strong> Logaritmus keresése<sub>2</sub>(32) alapváltással. ln(32) ≈ 3.4657 és ln(2) ≈ 0.6931. Osztás: 3.4657 ÷ 0.6931 = <strong>5</strong>. Ellenőrzés az antilogaritmussal: 2<sup>5</sup> = 32 ✓</div>
 <h3>Gyakori kérdések</h3></section>
 <div class="faq"><h3>Mennyi az 1 logaritmusa bármely alap esetén?</h3><p>Mindig 0, mert bármely alap 0. hatványa 1: b<sup>0</sup> = 1. Ugyanígy a log<sub>b</sub>(b) mindig 1, mert b<sup>1</sup> = b.</p></div>
-<div class="faq"><h3>Miért kell a alap nem lenni 1?</h3><p>Mert az 1 bármilyen hatványra emelve mindig 1, így arra a kérdésre, hogy „milyen hatványra kell emelnem az 1-et, hogy 100-at kapjak?", egyáltalán nincs válasz — és magára az 1-es számra végtelen sok lenne. Az 1-es alap ezért kizárt, és ugyanígy a 0 alap és a negatív alapok is a valós számokkal végzett munkában.</p></div>
+<div class="faq"><h3>Miért nem lehet az alap 1?</h3><p>Mert az 1 bármilyen hatványra emelve mindig 1, így arra a kérdésre, hogy „milyen hatványra kell emelnem az 1-et, hogy 100-at kapjak?", egyáltalán nincs válasz — és magára az 1-es számra végtelen sok lenne. Az 1-es alap ezért kizárt, és ugyanígy a 0 alap és a negatív alapok is a valós számokkal végzett munkában.</p></div>
 <div class="faq"><h3>Hol használják a logaritmusokat a való életben?</h3><p>Ahol a mennyiségek szorzással nőnek: a földrengés erőssége (Richter-skála), a hang hangossága (decibel), a savasság (pH), a kamatos kamat és a felezési idő számításai, és a kettes logaritmus a számítástechnikában (hány bitre, vagy hány felezésre van szüksége egy adathalmaznak).</p></div>
 
 <div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
@@ -184,13 +184,13 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 </script>
 <footer><div class="fin">
 <div class="cols">
-<div><h4>Popular Kalkulátorok</h4><ul><li><a href="../age-calculator/">Életkor-kalkulátor</a></li>
+<div><h4>Népszerű kalkulátorok</h4><ul><li><a href="../age-calculator/">Életkor-kalkulátor</a></li>
 <li><a href="../zakat-calculator/">Zakátkalkulátor</a></li>
 <li><a href="../cgpa-calculator/">CGPA-kalkulátor</a></li>
 <li><a href="../percentage-calculator/">Százalékkalkulátor</a></li>
 <li><a href="../hijri-date-converter/">Hidzsri dátumátváltó</a></li>
 <li><a href="../emi-calculator/">EMI- és hitelkalkulátor</a></li></ul></div>
-<div><h4>Több Loona Eszközök</h4><ul>
+<div><h4>További Loona-eszközök</h4><ul>
 <li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
 <li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Képtömörítő</a></li>
 <li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI-asszisztens</a></li>
@@ -198,8 +198,8 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <div><h4>Loona Calculators</h4><ul>
 <li><a href="../about.html">Rólunk</a></li>
 <li><a href="../contact.html">Kapcsolat</a></li>
-<li><a href="../privacy-policy.html">Privacy Policy</a></li>
-<li><a href="../terms.html">Feltételek Használat</a></li></ul></div>
+<li><a href="../privacy-policy.html">Adatvédelmi irányelvek</a></li>
+<li><a href="../terms.html">Felhasználási feltételek</a></li></ul></div>
 </div>
 <div class="bar">© 2026 Loona Calculators — egy <a href="https://loonaautomation.github.io/">Loona Automation</a> projekt. Ingyenes online kalkulátorok, regisztráció nélkül.
 Kapcsolat: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>

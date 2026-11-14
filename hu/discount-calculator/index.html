@@ -141,7 +141,7 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <section class="txt"><h2>A Kedvezménykalkulátor használata</h2><ol><li>Adja meg az eredeti árat.</li><li>Adja meg a kedvezmény %-át — és egy extra kedvezmény %-át, ha az üzlet kínálja.</li><li>Nyomja meg Kiszámít.</li></ol>
 <div class="exbox"><strong>Példa:</strong> Egy Rs 5,000 árú tétel 30%-os kedvezménnyel Rs 3,500-ba kerül — Rs 1,500-t takarít meg.</div>
 <h2>Gyakran ismételt kérdések</h2></section><div class="faq"><h3>Hogyan számítják ki a kedvezményt?</h3><p>Végső ár = ár × (1 − kedvezmény ÷ 100).</p></div><div class="faq"><h3>Mi a dupla kedvezmény?</h3><p>Egyes akciók második kedvezményt adnak a már csökkentett árra. Adja meg ezt extra kedvezményként — az első után érvényesül.</p></div><div class="faq"><h3>Hozzáadhatom az adót a kedvezmény után?</h3><p>Igen — adja meg az adószázalékot, és az a kedvezményes árhoz adódik, ahogy a legtöbb boltban teszik.</p></div>
-<h2 class="sec">Related Kalkulátorok</h2><div class="grid"><a class="card" href="../emi-calculator/"><div class="ic">🏦</div><h3>EMI- és hitelkalkulátor</h3><p>Pénz & Finance</p></a><a class="card" href="../compound-interest-calculator/"><div class="ic">📈</div><h3>Kamatos kamat</h3><p>Pénz & Finance</p></a><a class="card" href="../electricity-bill-calculator/"><div class="ic">💡</div><h3>Villanyszámla</h3><p>Pénz & Finance</p></a><a class="card" href="../age-calculator/"><div class="ic">📅</div><h3>Életkor-kalkulátor</h3><p>Dátum és idő</p></a><a class="card" href="../credit-card-payoff-calculator/"><div class="ic">💸</div><h3>Hitelkártya-visszafizetési kalkulátor</h3><p>Pénz & Finance</p></a><a class="card" href="../simple-interest-calculator/"><div class="ic">💰</div><h3>Egyszerű Kamat</h3><p>Pénz & Finance</p></a></div>
+<h2 class="sec">Kapcsolódó kalkulátorok</h2><div class="grid"><a class="card" href="../emi-calculator/"><div class="ic">🏦</div><h3>EMI- és hitelkalkulátor</h3><p>Pénz és pénzügyek</p></a><a class="card" href="../compound-interest-calculator/"><div class="ic">📈</div><h3>Kamatos kamat</h3><p>Pénz és pénzügyek</p></a><a class="card" href="../electricity-bill-calculator/"><div class="ic">💡</div><h3>Villanyszámla</h3><p>Pénz és pénzügyek</p></a><a class="card" href="../age-calculator/"><div class="ic">📅</div><h3>Életkor-kalkulátor</h3><p>Dátum és idő</p></a><a class="card" href="../credit-card-payoff-calculator/"><div class="ic">💸</div><h3>Hitelkártya-visszafizetési kalkulátor</h3><p>Pénz és pénzügyek</p></a><a class="card" href="../simple-interest-calculator/"><div class="ic">💰</div><h3>Egyszerű Kamat</h3><p>Pénz és pénzügyek</p></a></div>
 <section class="txt"><h2>Hogyan működik — a képlet</h2><p>A kedvezményeket egymás után alkalmazzák a csökkenő árra, nem összeadják őket: az első kedvezmény csökkenti az árat, majd az opcionális további kedvezmény a maradékot csökkenti — ezért takarít meg két kedvezmény mindig valamivel kevesebbet, mint amennyit az összegük sugall. A megadott adó utoljára adódik hozzá, a kedvezményes ár tetejére.</p><div class="exbox"><strong>Képlet:</strong> Ár kedvezmények után = eredeti ár × (1 − első kedvezmény ÷ 100) × (1 − extra kedvezmény ÷ 100) · Végső ár = ár kedvezmények után × (1 + adó ÷ 100) · Effektív kedvezmény = (eredeti − kedvezmények után) ÷ eredeti × 100</div><h3>Kidolgozott példa</h3><p>Egy Rs 5,000 áru termék 20% kedvezménnyel, majd további 10% kedvezménnyel: az első kedvezmény Rs 4,000-t hagy, a további 10% erre vonatkozik, így a végső ár Rs 3,600. Rs 1,400-t takarít meg, ami 28%-os tényleges kedvezmény — nem az a 30%, amelyet a két százalék ígérni látszik.</p><h3>Gyakori kérdések</h3></section><div class="faq"><h3>Miért nem 30% a 20% kedvezmény plusz további 10% kedvezmény?</h3><p>Mert a második kedvezményt a már csökkentett árból vonják le, nem az eredetiből. A két tényező összeszorzódik — 0.80 × 0.90 = 0.72 —, így az eredeti ár 72%-át fizeti, ami 28%-os tényleges megtakarítás.</p></div><div class="faq"><h3>Mit jelent a 'tényleges kedvezmény' értéke?</h3><p>Ez az az egyetlen kedvezményszázalék, amely pontosan ugyanazt a megtakarítást adná, mint az egymásra rakott kedvezményei: a teljes megtakarítása osztva az eredeti árral, szorozva 100-zal.</p></div><div class="faq"><h3>Csak egy kedvezményem van. Mi kerül a plusz kedvezmény mezőbe?</h3><p>Hagyja üresen (vagy nullán). Az üres plusz kedvezmény 1-gyel szorozza az árat, így csak az első kedvezménye érvényesül.</p></div><div class="faq"><h3>Figyelembe veszi-e az adót a 'Megtakarítás' összege?</h3><p>Nem — a megtakarításokat adó előtt mérik. A példában 17% GST utólagos hozzáadása Rs 4,212 végső árat ad, de a megtakarítás Rs 1,400 marad, mert az adót a kedvezményes áron számítják fel, nem kedvezményként adják vissza.</p></div><div class="faq"><h3>Az áram már tartalmazza az adót. Hogyan használjam az adómezőt?</h3><p>Hagyja üresen az adó mezőt. Az adó opció csak az adó előtt megadott árakra vonatkozik, ahol az adót a kedvezményes összeg tetejéhez kell hozzáadni.</p></div>
 </div>
 <div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
@@ -156,13 +156,13 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 </script>
 <footer><div class="fin">
 <div class="cols">
-<div><h4>Popular Kalkulátorok</h4><ul><li><a href="../age-calculator/">Életkor-kalkulátor</a></li>
+<div><h4>Népszerű kalkulátorok</h4><ul><li><a href="../age-calculator/">Életkor-kalkulátor</a></li>
 <li><a href="../zakat-calculator/">Zakátkalkulátor</a></li>
 <li><a href="../cgpa-calculator/">CGPA-kalkulátor</a></li>
 <li><a href="../percentage-calculator/">Százalékkalkulátor</a></li>
 <li><a href="../hijri-date-converter/">Hidzsri dátumátváltó</a></li>
 <li><a href="../emi-calculator/">EMI- és hitelkalkulátor</a></li></ul></div>
-<div><h4>Több Loona Eszközök</h4><ul>
+<div><h4>További Loona-eszközök</h4><ul>
 <li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
 <li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Képtömörítő</a></li>
 <li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI-asszisztens</a></li>
@@ -170,8 +170,8 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <div><h4>Loona Calculators</h4><ul>
 <li><a href="../about.html">Rólunk</a></li>
 <li><a href="../contact.html">Kapcsolat</a></li>
-<li><a href="../privacy-policy.html">Privacy Policy</a></li>
-<li><a href="../terms.html">Feltételek Használat</a></li></ul></div>
+<li><a href="../privacy-policy.html">Adatvédelmi irányelvek</a></li>
+<li><a href="../terms.html">Felhasználási feltételek</a></li></ul></div>
 </div>
 <div class="bar">© 2026 Loona Calculators — egy <a href="https://loonaautomation.github.io/">Loona Automation</a> projekt. Ingyenes online kalkulátorok, regisztráció nélkül.
 Kapcsolat: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>

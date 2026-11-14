@@ -140,7 +140,7 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <p class="lead">Válasszon bármilyen európai országot, és lássa az ott használt csatlakozótípusokat, a hálózati feszültséget és frekvenciát — és egyértelmű útmutatást arról, hogy eszközeihez elég-e egy egyszerű adapter, vagy feszültségátalakítóra van szükség.</p>
 <div class="exbox"><strong>Gyors válasz:</strong> Európa szinte egésze 230 V-tal működik 50 Hz-en. A különbségek a csatlakozóformák: a kontinens nagy része C/F típust használ, Franciaország/Belgium/Lengyelország C/E-t, Olaszország L-t is, Svájc J-t, az Egyesült Királyság és Írország pedig a háromtűs G típust.</div>
 <div class="toolbox"><form class="calcform" id="plForm">
-<div class="fld"><label for="plCountry">Visiting</label><select id="plCountry"></select></div>
+<div class="fld"><label for="plCountry">Látogatott ország</label><select id="plCountry"></select></div>
 <div class="fld"><label for="plFrom">Eszközeim származási helye</label><select id="plFrom"><option value="G">Egyesült Királyság / Írország (Típus G)</option><option value="CF">Kontinentális Európa (C/F típus)</option><option value="A">Észak-Amerika (A/B típus, 120 V)</option><option value="I">Ausztrália / Új-Zéland (I típus)</option></select></div>
 <button class="calcbtn" type="submit">Dugók &amp; feszültség ellenőrzése</button>
 <div class="calcresult" id="plResult" style="display:none"></div>
@@ -148,7 +148,7 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <section class="txt"><h2>Az Európai csatlakozó- és feszültségellenőrző használata</h2><ol><li>Válassza ki azt az országot, amelyet meglátogat.</li><li>Válassza ki, honnan származnak az eszközei.</li><li>Olvassa le a csatlakozótípusokat és a feszültséget, és hogy adapterre vagy átalakítóra van-e szükség.</li></ol>
 <div class="exbox"><strong>Példa:</strong> Franciaországba utazás az Egyesült Királyságból: Franciaország C és E típust használ 230 V/50 Hz-en. A feszültség egyezik az Egyesült Királyság 230 V-jával, így csak csatlakozóadapterre van szüksége (brit G típus francia E típusra) — feszültségátalakítóra nem.</div>
 <h2>Gyakran ismételt kérdések</h2></section><div class="faq"><h3>Mi a különbség egy adapter és egy átváltó között?</h3><p>Az adapter csak a csatlakozó formáját változtatja meg, hogy a csatlakozó fizikailag illeszkedjen. Az átalakító a feszültséget változtatja meg. Ha készüléke címkéjén INPUT: 100–240 V szerepel (ez szinte minden telefon-, laptop- és fényképezőtöltőre igaz), egy adapter önmagában Európa-szerte biztonságos.</p></div><div class="faq"><h3>Mely európai csatlakozók cserélhetők fel egymással?</h3><p>A vékony C típus (Europlug) lazán-jól illeszkedik a C, E, F, J (általában), K és L aljzatokba, ezért fed le egyetlen kis adapter a kontinens nagy részét. Az F vagy E csatlakozóval rendelkező földelt készülékeknek a megfelelő földelt adapterre van szükségük a teljes biztonsághoz.</p></div><div class="faq"><h3>Miért Svájc kell annak saját adapter?</h3><p>A svájci J típusú aljzatoknak egy harmadik érintkezőjük van egyedi háromszög-elrendezésben; a C típusú dugók illeszkednek, de a máshonnan származó földelt dugók nem. Egy univerzális adapter vagy egy kifejezetten svájci adapter megoldja ezt.</p></div><div class="faq"><h3>Az Egyesült Királyság tényleg a kakukktojás?</h3><p>Az Egyesült Királyság és Írország a G típust használja — a nagy háromtűs, biztosítékkal ellátott csatlakozót —, amely Európa más részén sehova sem illik, és az európai csatlakozók csak adapteren át illeszkednek a brit aljzatokba. A feszültség mindkét oldalon ugyanaz a 230 V.</p></div>
-<h2 class="sec">Related Kalkulátorok</h2><div class="grid"><a class="card" href="../vignette-checker/"><div class="ic">🎫</div><h3>Matrica Checker</h3><p>Pénz és utazás</p></a><a class="card" href="../europe-driving-rules-checker/"><div class="ic">🚗</div><h3>Európai vezetési szabályok ellenőrzője</h3><p>Pénz és utazás</p></a><a class="card" href="../etias-eligibility-checker/"><div class="ic">🛂</div><h3>ETIAS-jogosultság-ellenőrző</h3><p>Pénz és utazás</p></a></div>
+<h2 class="sec">Kapcsolódó kalkulátorok</h2><div class="grid"><a class="card" href="../vignette-checker/"><div class="ic">🎫</div><h3>Matrica Checker</h3><p>Pénz és utazás</p></a><a class="card" href="../europe-driving-rules-checker/"><div class="ic">🚗</div><h3>Európai vezetési szabályok ellenőrzője</h3><p>Pénz és utazás</p></a><a class="card" href="../etias-eligibility-checker/"><div class="ic">🛂</div><h3>ETIAS-jogosultság-ellenőrző</h3><p>Pénz és utazás</p></a></div>
 </div>
 <section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>Hogyan működik — a képlet</h2>
 <p>Válogatott referenciakeresés nemzeti szabványokból (IEC): a feszültség és a frekvencia gyakorlatilag egységes Európában, értéke: <strong>230 V / 50 Hz</strong>, így az eszköz valódi munkája a csatlakozóformák kompatibilitása: összehasonlítja a célország csatlakozócsaládjait az otthoni csatlakozócsaláddal, és azt a szabályt alkalmazza, hogy feszültségátalakítóra csak akkor van szükség, ha az otthoni szabvány 120 V (Észak-Amerika), és a készüléken nincs feltüntetve a 100–240 V.</p>
@@ -167,13 +167,13 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 </script>
 <footer><div class="fin">
 <div class="cols">
-<div><h4>Popular Kalkulátorok</h4><ul><li><a href="../age-calculator/">Életkor-kalkulátor</a></li>
+<div><h4>Népszerű kalkulátorok</h4><ul><li><a href="../age-calculator/">Életkor-kalkulátor</a></li>
 <li><a href="../zakat-calculator/">Zakátkalkulátor</a></li>
 <li><a href="../cgpa-calculator/">CGPA-kalkulátor</a></li>
 <li><a href="../percentage-calculator/">Százalékkalkulátor</a></li>
 <li><a href="../hijri-date-converter/">Hidzsri dátumátváltó</a></li>
 <li><a href="../emi-calculator/">EMI- és hitelkalkulátor</a></li></ul></div>
-<div><h4>Több Loona Eszközök</h4><ul>
+<div><h4>További Loona-eszközök</h4><ul>
 <li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
 <li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Képtömörítő</a></li>
 <li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI-asszisztens</a></li>
@@ -181,8 +181,8 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <div><h4>Loona Calculators</h4><ul>
 <li><a href="../about.html">Rólunk</a></li>
 <li><a href="../contact.html">Kapcsolat</a></li>
-<li><a href="../privacy-policy.html">Privacy Policy</a></li>
-<li><a href="../terms.html">Feltételek Használat</a></li></ul></div>
+<li><a href="../privacy-policy.html">Adatvédelmi irányelvek</a></li>
+<li><a href="../terms.html">Felhasználási feltételek</a></li></ul></div>
 </div>
 <div class="bar">© 2026 Loona Calculators — egy <a href="https://loonaautomation.github.io/">Loona Automation</a> projekt. Ingyenes online kalkulátorok, regisztráció nélkül.
 Kapcsolat: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>

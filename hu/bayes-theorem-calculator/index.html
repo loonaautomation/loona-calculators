@@ -140,7 +140,7 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <p class="lead">Adjon meg három számot — milyen gyakori az állapot (előzetes), milyen gyakran jelenik meg a bizonyíték, amikor az állapot fennáll (érzékenység), és milyen gyakran jelenik meg, amikor nem áll fenn (téves pozitív arány) —, és Bayes tétele visszaadja a frissített valószínűséget.</p>
 <div class="exbox"><strong>Gyors válasz:</strong> Posterior = (prior × érzékenység) ÷ (prior × érzékenység + (1 − prior) × téves pozitív arány). A híres példa: egy 100-ból 1 embert érintő betegség, egy 99%-os érzékenységű teszt 5% téves pozitívval — egy pozitív eredmény még mindig csak körülbelül 16.7% betegségi esélyt jelent.</div>
 <div class="toolbox"><form class="calcform" id="byForm">
-<div class="fld"><label for="byPrior">Prior P(Egy) — alap árfolyam (0–1)</label><input type="number" id="byPrior" value="0.01" step="any" min="0" max="1"></div>
+<div class="fld"><label for="byPrior">Prior P(A) — alapráta (0–1)</label><input type="number" id="byPrior" value="0.01" step="any" min="0" max="1"></div>
 <div class="fld"><label for="bySens">P(bizonyíték | A) — valódi pozitív arány (0–1)</label><input type="number" id="bySens" value="0.99" step="any" min="0" max="1"></div>
 <div class="fld"><label for="byFpr">P(bizonyíték | not A) — hamis pozitív arány (0–1)</label><input type="number" id="byFpr" value="0.05" step="any" min="0" max="1"></div>
 <button class="calcbtn" type="submit">Update a valószínűség</button>
@@ -149,10 +149,10 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <section class="txt"><h2>A Bayes-tétel-kalkulátor használata</h2><ol><li>Adja meg az előzetes P(A) valószínűséget — hogy mennyire volt valószínű az állapot a bizonyíték előtt.</li><li>Adja meg a P(bizonyíték | A) értéket — a valódi pozitív arányt / érzékenységet.</li><li>Adja meg a P(bizonyíték | nem A) értéket — a téves pozitív arányt.</li><li>Olvassa le a P(A | bizonyíték) poszterior valószínűséget és a teljes részletezést.</li></ol>
 <div class="exbox"><strong>Példa:</strong> 10,000 ember szűrése egy 1%-os állapotra: 100-nak megvan, és 99 tesztje pozitív; 9,900-nak nincs meg, és 495-é tévesen pozitív. Az 594 pozitívból csak 99 valódi: 99 ÷ 594 = 16.7%.</div>
 <h2>Gyakran ismételt kérdések</h2></section><div class="faq"><h3>Miért jóval alacsonyabb a válasz, mint 'a teszt 99%-ban pontos'?</h3><p>Mert az állapot ritka. A hatalmas egészséges csoportból származó hamis pozitívok (9,900 × 5% = 495) elnyomják az apró beteg csoport valódi pozitívjait (100 × 99% = 99). Az alapráták dominálnak — ez a Bayes-tétel egész tanulsága.</p></div><div class="faq"><h3>Mi tegye prior és posterior átlag?</h3><p>A prior az Ön hiedelme az új bizonyíték előtt; a posterior a frissített hiedelem, miután a bizonyítékot mérlegelte aszerint, mennyire várt az egyes lehetőségek alatt. Bayes tétele ennek a frissítésnek a pontos számtana.</p></div><div class="faq"><h3>Használhatom orvosi teszteken túl is?</h3><p>Igen — a spamszűrők, a hibadiagnosztika, a törvényszéki valószínűségek és az előrejelzés mind ugyanazt a szerkezetet használja: egy alaparányt, egy találati arányt és egy téves riasztási arányt.</p></div><div class="faq"><h3>Mi van, ha csak az összesített bizonyítékarányt, a P(B)-t ismerem?</h3><p>A klasszikus P(A|B) = P(B|A) × P(A) ÷ P(B) alaknak közvetlenül P(B) kell; ez a kalkulátor ehelyett a két feltételes rátából építi fel P(B)-t, ahogyan a bemenetek a gyakorlatban általában ismertek.</p></div>
-<h2 class="sec">Related Kalkulátorok</h2><div class="grid"><a class="card" href="../percentage-calculator/"><div class="ic">％</div><h3>Százalékkalkulátor</h3><p>Matematika</p></a><a class="card" href="../statistics-calculator/"><div class="ic">📊</div><h3>Statistics Kalkulátor</h3><p>Matematika</p></a><a class="card" href="../fraction-calculator/"><div class="ic">½</div><h3>Törtkalkulátor</h3><p>Matematika</p></a><a class="card" href="../equation-solver/"><div class="ic">🧮</div><h3>Egyenletmegoldó</h3><p>Matematika</p></a><a class="card" href="../scientific-calculator/"><div class="ic">🔬</div><h3>Tudományos-kalkulátor</h3><p>Matematika</p></a><a class="card" href="../average-calculator/"><div class="ic">📐</div><h3>Átlagkalkulátor</h3><p>Matematika</p></a><a class="card" href="../z-score-calculator/"><div class="ic">🔔</div><h3>Z-pontszám-kalkulátor</h3><p>Matematika</p></a><a class="card" href="../probability-calculator/"><div class="ic">🎲</div><h3>Valószínűség-kalkulátor</h3><p>Matematika</p></a></div>
+<h2 class="sec">Kapcsolódó kalkulátorok</h2><div class="grid"><a class="card" href="../percentage-calculator/"><div class="ic">％</div><h3>Százalékkalkulátor</h3><p>Matematika</p></a><a class="card" href="../statistics-calculator/"><div class="ic">📊</div><h3>Statistics Kalkulátor</h3><p>Matematika</p></a><a class="card" href="../fraction-calculator/"><div class="ic">½</div><h3>Törtkalkulátor</h3><p>Matematika</p></a><a class="card" href="../equation-solver/"><div class="ic">🧮</div><h3>Egyenletmegoldó</h3><p>Matematika</p></a><a class="card" href="../scientific-calculator/"><div class="ic">🔬</div><h3>Tudományos-kalkulátor</h3><p>Matematika</p></a><a class="card" href="../average-calculator/"><div class="ic">📐</div><h3>Átlagkalkulátor</h3><p>Matematika</p></a><a class="card" href="../z-score-calculator/"><div class="ic">🔔</div><h3>Z-pontszám-kalkulátor</h3><p>Matematika</p></a><a class="card" href="../probability-calculator/"><div class="ic">🎲</div><h3>Valószínűség-kalkulátor</h3><p>Matematika</p></a></div>
 </div>
 <section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>Hogyan működik — a képlet</h2>
-<p><strong>P(Egy | B) = P(B | Egy) × P(Egy) ÷ P(B)</strong>, a teljes valószínűség törvényével felépített összesített bizonyítékaránnyal: <strong>P(B) = P(B | A) × P(A) + P(B | not A) × P(not A)</strong>. A behelyettesítés megadja azt a hárombemenetes alakot, amelyet ez a kalkulátor használ.</p>
+<p><strong>P(A | B) = P(B | A) × P(A) ÷ P(B)</strong>, a teljes valószínűség törvényével felépített összesített bizonyítékaránnyal: <strong>P(B) = P(B | A) × P(A) + P(B | not A) × P(not A)</strong>. A behelyettesítés megadja azt a hárombemenetes alakot, amelyet ez a kalkulátor használ.</p>
 <h3>Kidolgozott példa</h3><div class="exbox"><p><strong>Bemenetek:</strong> prior 0.01, érzékenység 0.99, álpozitív arány 0.05.</p><p><strong>Lépések:</strong> P(B) = 0.99 × 0.01 + 0.05 × 0.99 = 0.0099 + 0.0495 = 0.0594. Utólagos = 0.0099 ÷ 0.0594 = 0.1667.</p><p><strong>Eredmény:</strong> P(Egy | pozitív) = <strong>16.67%</strong> — egy '99% pontos' teszt ellenére, mert az állapot ritka.</p></div>
 
 </section>
@@ -168,13 +168,13 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 </script>
 <footer><div class="fin">
 <div class="cols">
-<div><h4>Popular Kalkulátorok</h4><ul><li><a href="../age-calculator/">Életkor-kalkulátor</a></li>
+<div><h4>Népszerű kalkulátorok</h4><ul><li><a href="../age-calculator/">Életkor-kalkulátor</a></li>
 <li><a href="../zakat-calculator/">Zakátkalkulátor</a></li>
 <li><a href="../cgpa-calculator/">CGPA-kalkulátor</a></li>
 <li><a href="../percentage-calculator/">Százalékkalkulátor</a></li>
 <li><a href="../hijri-date-converter/">Hidzsri dátumátváltó</a></li>
 <li><a href="../emi-calculator/">EMI- és hitelkalkulátor</a></li></ul></div>
-<div><h4>Több Loona Eszközök</h4><ul>
+<div><h4>További Loona-eszközök</h4><ul>
 <li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
 <li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Képtömörítő</a></li>
 <li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI-asszisztens</a></li>
@@ -182,8 +182,8 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <div><h4>Loona Calculators</h4><ul>
 <li><a href="../about.html">Rólunk</a></li>
 <li><a href="../contact.html">Kapcsolat</a></li>
-<li><a href="../privacy-policy.html">Privacy Policy</a></li>
-<li><a href="../terms.html">Feltételek Használat</a></li></ul></div>
+<li><a href="../privacy-policy.html">Adatvédelmi irányelvek</a></li>
+<li><a href="../terms.html">Felhasználási feltételek</a></li></ul></div>
 </div>
 <div class="bar">© 2026 Loona Calculators — egy <a href="https://loonaautomation.github.io/">Loona Automation</a> projekt. Ingyenes online kalkulátorok, regisztráció nélkül.
 Kapcsolat: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>

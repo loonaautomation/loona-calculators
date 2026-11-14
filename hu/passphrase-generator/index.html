@@ -141,7 +141,7 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <div class="exbox"><strong>Gyors válasz:</strong> Az oldal 160+ szavas listájáról húzott 5 szavas jelmondatnak körülbelül 160^5 ≈ 10^11 kombinációja van a nagybetűs írás és a számopciók előtt — erős a hossza miatt, mégis sokkal könnyebb beírni és megjegyezni, mint a véletlen karaktereket.</div>
 <div class="toolbox"><form class="calcform" id="ppForm">
 <div class="fld"><label for="ppCount">Szavak száma</label><select id="ppCount"><option>4</option><option selected>5</option><option>6</option><option>7</option><option>8</option></select></div>
-<div class="fld"><label for="ppSep">Separator</label><select id="ppSep"><option value="-">Kötőjel (-)</option><option value=" ">Space</option><option value="_">Underscore (_)</option><option value="">None</option></select></div>
+<div class="fld"><label for="ppSep">Elválasztó</label><select id="ppSep"><option value="-">Kötőjel (-)</option><option value=" ">Szóköz</option><option value="_">Alulvonás (_)</option><option value="">Nincs</option></select></div>
 <div class="fld"><label><input type="checkbox" id="ppCap" checked style="width:auto;margin-right:8px">Minden szó nagybetűsítése</label></div>
 <div class="fld"><label><input type="checkbox" id="ppNum" checked style="width:auto;margin-right:8px">Adjon hozzá egy véletlen számot a végére</label></div>
 <button class="calcbtn" type="submit">🔑 Jelszófrázis generálása</button>
@@ -150,7 +150,7 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <section class="txt"><h2>A Jelmondatgenerátor használata</h2><ol><li>Válassza ki a szavak számát (4–8; az 5 vagy 6 jó alapértelmezett).</li><li>Válasszon elválasztót, és azt, hogy minden szó nagy kezdőbetűs legyen-e, vagy véletlen számot is hozzáadjunk.</li><li>Nyomja meg a Generálás gombot — nyomja meg újra egy új kifejezésért. Semmi sem tárolódik és sehová sem küldődik el.</li></ol>
 <div class="exbox"><strong>Példa:</strong> Egy generált jelszókifejezés így nézhet ki: Copper-Willow-Anchor-Planet-Ember-42 — hat szó, nagybetűsítve, kötőjellel elválasztva, záró számmal.</div>
 <h2>Gyakran ismételt kérdések</h2></section><div class="faq"><h3>Miben különbözik ez a Loona Text Tools Jelszógenerátorától?</h3><p>Az az eszköz karakterjelszavakat épít (véletlen betűk, számjegyek és szimbólumok egy beállított hosszon). Ez szavakból álló jelmondatokat épít — egy eltérő, szándékosan megjegyezhető formátumot, amelyet a Diceware népszerűsített, és amelyet a biztonsági útmutatás embereknek ajánl. Külön eszközök külön preferenciákra; sokan jelmondatokat használnak főjelszavakhoz és karakterjelszavakat egy kezelőben.</p></div><div class="faq"><h3>Mennyire erős egy szavas jelmondat?</h3><p>Az erősség a véletlenszerűségből és a szószámból származik: egy 160 szavas listából minden szó körülbelül 7.3 bit entrópiát ad, tehát 5 szó ≈ 37 bit és 7 szó ≈ 51 bit, az elválasztó/kis-nagybetű/szám variációk előtt. A legmagasabb tétű fiókokhoz használjon több szót.</p></div><div class="faq"><h3>A kiválasztott szavak tényleg véletlenszerűek?</h3><p>Igen — kriptográfiai minőségű véletlen számok választanak ki minden szót egymástól függetlenül, ismétléssel, így az ismétlődések lehetségesek, és minden kombináció egyformán valószínű.</p></div><div class="faq"><h3>Használjak az itt generált jelmondatot banki ügyekhez?</h3><p>A generált kifejezéseket soha nem tárolják és nem továbbítják, és a matematika megalapozott — de kritikus fiókokhoz a jelszókezelőjében való generálás az aranystandard. Ez az eszköz ideális a formátum megismerésére és az alacsonyabb tétű bejelentkezésekre.</p></div>
-<h2 class="sec">Related Kalkulátorok</h2><div class="grid"><a class="card" href="../random-number-generator/"><div class="ic">🎲</div><h3>Véletlen szám generátor</h3><p>Szórakozás</p></a><a class="card" href="../dice-roller/"><div class="ic">🎲</div><h3>Dobókocka-dobó</h3><p>Szórakozás</p></a><a class="card" href="../coin-flip/"><div class="ic">🪙</div><h3>Érmefeldobás</h3><p>Szórakozás</p></a><a class="card" href="../lottery-number-generator/"><div class="ic">🍀</div><h3>Lottószám-generátor</h3><p>Szórakozás</p></a><a class="card" href="../love-calculator/"><div class="ic">❤️</div><h3>Szerelem-kalkulátor</h3><p>Szórakozás</p></a><a class="card" href="../random-number-generator/"><div class="ic">🎲</div><h3>Véletlen szám generátor</h3><p>Szórakozás</p></a></div>
+<h2 class="sec">Kapcsolódó kalkulátorok</h2><div class="grid"><a class="card" href="../random-number-generator/"><div class="ic">🎲</div><h3>Véletlen szám generátor</h3><p>Szórakozás</p></a><a class="card" href="../dice-roller/"><div class="ic">🎲</div><h3>Dobókocka-dobó</h3><p>Szórakozás</p></a><a class="card" href="../coin-flip/"><div class="ic">🪙</div><h3>Érmefeldobás</h3><p>Szórakozás</p></a><a class="card" href="../lottery-number-generator/"><div class="ic">🍀</div><h3>Lottószám-generátor</h3><p>Szórakozás</p></a><a class="card" href="../love-calculator/"><div class="ic">❤️</div><h3>Szerelem-kalkulátor</h3><p>Szórakozás</p></a><a class="card" href="../random-number-generator/"><div class="ic">🎲</div><h3>Véletlen szám generátor</h3><p>Szórakozás</p></a></div>
 </div>
 <section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>Hogyan működik — a képlet</h2>
 <p>Minden szót függetlenül és egyenletesen húzunk a W szót tartalmazó beágyazott szólistából, kriptográfiai szintű véletlenszerűséggel, így egy k szavas kifejezésnek <strong>W^k</strong> egyenlő valószínűségű kimenetelek és entrópia <strong>k × log₂(W)</strong> bit. W ≈ 160 esetén: log₂(160) ≈ 7.32 bit szavanként.</p>
@@ -169,13 +169,13 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 </script>
 <footer><div class="fin">
 <div class="cols">
-<div><h4>Popular Kalkulátorok</h4><ul><li><a href="../age-calculator/">Életkor-kalkulátor</a></li>
+<div><h4>Népszerű kalkulátorok</h4><ul><li><a href="../age-calculator/">Életkor-kalkulátor</a></li>
 <li><a href="../zakat-calculator/">Zakátkalkulátor</a></li>
 <li><a href="../cgpa-calculator/">CGPA-kalkulátor</a></li>
 <li><a href="../percentage-calculator/">Százalékkalkulátor</a></li>
 <li><a href="../hijri-date-converter/">Hidzsri dátumátváltó</a></li>
 <li><a href="../emi-calculator/">EMI- és hitelkalkulátor</a></li></ul></div>
-<div><h4>Több Loona Eszközök</h4><ul>
+<div><h4>További Loona-eszközök</h4><ul>
 <li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
 <li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Képtömörítő</a></li>
 <li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI-asszisztens</a></li>
@@ -183,8 +183,8 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <div><h4>Loona Calculators</h4><ul>
 <li><a href="../about.html">Rólunk</a></li>
 <li><a href="../contact.html">Kapcsolat</a></li>
-<li><a href="../privacy-policy.html">Privacy Policy</a></li>
-<li><a href="../terms.html">Feltételek Használat</a></li></ul></div>
+<li><a href="../privacy-policy.html">Adatvédelmi irányelvek</a></li>
+<li><a href="../terms.html">Felhasználási feltételek</a></li></ul></div>
 </div>
 <div class="bar">© 2026 Loona Calculators — egy <a href="https://loonaautomation.github.io/">Loona Automation</a> projekt. Ingyenes online kalkulátorok, regisztráció nélkül.
 Kapcsolat: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>

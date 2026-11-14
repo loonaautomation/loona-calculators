@@ -153,7 +153,7 @@ Task E</textarea></div>
 <section class="txt"><h2>A Listakeverő használata</h2><ol><li>Illessze be az elemeit, soronként egyet.</li><li>Válassza a Teljes lista keverése lehetőséget, vagy a Minta választása lehetőséget, és állítsa be, hány elemet sorsoljon.</li><li>Nyomja meg a Véletlenszerűsítés gombot, és másolja ki az eredményt.</li></ol>
 <div class="exbox"><strong>Példa:</strong> Egy 5 elemű listának (A, B, C, D, E) 5! = 120 lehetséges sorrendje van, tisztességes keverés után mindegyik egyformán valószínű. Egy 10 elemből választott 2-es minta C(10, 2) = 45 lehetséges párt adhat.</div>
 <h2>Gyakran ismételt kérdések</h2></section><div class="faq"><h3>Miben különbözik ez a Véletlen csapatgenerátortól és a Névkeréktől?</h3><p>Azok a véletlen sorrendet csapatokká vagy egyetlen pörgő nyertessé alakítják. Ennek az eszköznek a feladata maga a nyers kevert lista — egy véletlen futási sorrend, várólista vagy minta —, amelyet aztán bárhol felhasználhat.</p></div><div class="faq"><h3>Korrekta a keverés?</h3><p>Igen. Fisher–Yates keverést használ, amelyet kriptográfiai minőségű véletlen számok hajtanak — ez a szokásos módszer, amely minden sorrendet egyformán valószínűvé tesz.</p></div><div class="faq"><h3>Megjelenhet egy tétel kétszer egy mintában?</h3><p>Nem. A mintavétel visszatevés nélküli: minden kihúzott elem kikerül a készletből, mint amikor neveket húzunk egy kalapból.</p></div><div class="faq"><h3>Feltöltődik valahová a listám?</h3><p>Nem. Minden az Ön böngészőjében fut; zárja be az oldalt, és a lista eltűnik.</p></div>
-<h2 class="sec">Related Kalkulátorok</h2><div class="grid"><a class="card" href="../random-number-generator/"><div class="ic">🎲</div><h3>Véletlen szám generátor</h3><p>Szórakozás</p></a><a class="card" href="../dice-roller/"><div class="ic">🎲</div><h3>Dobókocka-dobó</h3><p>Szórakozás</p></a><a class="card" href="../coin-flip/"><div class="ic">🪙</div><h3>Érmefeldobás</h3><p>Szórakozás</p></a><a class="card" href="../lottery-number-generator/"><div class="ic">🍀</div><h3>Lottószám-generátor</h3><p>Szórakozás</p></a><a class="card" href="../love-calculator/"><div class="ic">❤️</div><h3>Szerelem-kalkulátor</h3><p>Szórakozás</p></a><a class="card" href="../wheel-of-names/"><div class="ic">🎡</div><h3>Kerék Nevek</h3><p>Szórakozás</p></a><a class="card" href="../random-team-generator/"><div class="ic">👥</div><h3>Véletlen Csapat Generátor</h3><p>Szórakozás</p></a></div>
+<h2 class="sec">Kapcsolódó kalkulátorok</h2><div class="grid"><a class="card" href="../random-number-generator/"><div class="ic">🎲</div><h3>Véletlen szám generátor</h3><p>Szórakozás</p></a><a class="card" href="../dice-roller/"><div class="ic">🎲</div><h3>Dobókocka-dobó</h3><p>Szórakozás</p></a><a class="card" href="../coin-flip/"><div class="ic">🪙</div><h3>Érmefeldobás</h3><p>Szórakozás</p></a><a class="card" href="../lottery-number-generator/"><div class="ic">🍀</div><h3>Lottószám-generátor</h3><p>Szórakozás</p></a><a class="card" href="../love-calculator/"><div class="ic">❤️</div><h3>Szerelem-kalkulátor</h3><p>Szórakozás</p></a><a class="card" href="../wheel-of-names/"><div class="ic">🎡</div><h3>Kerék Nevek</h3><p>Szórakozás</p></a><a class="card" href="../random-team-generator/"><div class="ic">👥</div><h3>Véletlen Csapat Generátor</h3><p>Szórakozás</p></a></div>
 </div>
 <section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>Hogyan működik — a képlet</h2>
 <p>A <strong>Fisher–Yates keverés</strong> a listát az utolsó elemtől a másodikig járja végig, minden elemet felcserélve egy egyenletesen véletlen, a saját pozíciójánál nem hátrébb lévő elemmel. Egy n elemű listának <strong>n!</strong> lehetséges sorrend, és a Fisher–Yates mindegyiknek pontosan 1 ÷ n! valószínűséget ad. A k elem n-ből való kiválasztása részleges keverés: összesen <strong>C(n, k) = n! ÷ (k! × (n−k)!)</strong> lehetséges minta van, mindegyik egyenlően valószínű.</p>
@@ -172,13 +172,13 @@ Task E</textarea></div>
 </script>
 <footer><div class="fin">
 <div class="cols">
-<div><h4>Popular Kalkulátorok</h4><ul><li><a href="../age-calculator/">Életkor-kalkulátor</a></li>
+<div><h4>Népszerű kalkulátorok</h4><ul><li><a href="../age-calculator/">Életkor-kalkulátor</a></li>
 <li><a href="../zakat-calculator/">Zakátkalkulátor</a></li>
 <li><a href="../cgpa-calculator/">CGPA-kalkulátor</a></li>
 <li><a href="../percentage-calculator/">Százalékkalkulátor</a></li>
 <li><a href="../hijri-date-converter/">Hidzsri dátumátváltó</a></li>
 <li><a href="../emi-calculator/">EMI- és hitelkalkulátor</a></li></ul></div>
-<div><h4>Több Loona Eszközök</h4><ul>
+<div><h4>További Loona-eszközök</h4><ul>
 <li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
 <li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Képtömörítő</a></li>
 <li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI-asszisztens</a></li>
@@ -186,8 +186,8 @@ Task E</textarea></div>
 <div><h4>Loona Calculators</h4><ul>
 <li><a href="../about.html">Rólunk</a></li>
 <li><a href="../contact.html">Kapcsolat</a></li>
-<li><a href="../privacy-policy.html">Privacy Policy</a></li>
-<li><a href="../terms.html">Feltételek Használat</a></li></ul></div>
+<li><a href="../privacy-policy.html">Adatvédelmi irányelvek</a></li>
+<li><a href="../terms.html">Felhasználási feltételek</a></li></ul></div>
 </div>
 <div class="bar">© 2026 Loona Calculators — egy <a href="https://loonaautomation.github.io/">Loona Automation</a> projekt. Ingyenes online kalkulátorok, regisztráció nélkül.
 Kapcsolat: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>

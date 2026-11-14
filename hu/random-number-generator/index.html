@@ -148,7 +148,7 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <section class="txt"><h2>A Véletlenszám-generátor használata</h2><ol><li>Adja meg a kívánt legkisebb számot (minimum) és legnagyobb számot (maximum).</li><li>Válassza ki, hány számot generáljon (legfeljebb 10,000).</li><li>Válassza ki, hogy a számoknak egyedieknek kell-e lenniük, vagy ismétlődhetnek, majd nyomja meg a Számok generálása gombot.</li></ol>
 <div class="exbox"><strong>Példa:</strong> Egy tanárnak 6 tanulót kell tisztességesen kiválasztania az 1–40-es naplószámok közül: állítsa a minimumot 1-re, a maximumot 40-re, a darabszámot 6-ra, csak egyedieket — hat különböző naplószám jelenik meg, részrehajlás nélkül.</div>
 <h2>Gyakran ismételt kérdések</h2></section><div class="faq"><h3>Ez a véletlenszám-generátor tényleg véletlenszerű?</h3><p>A crypto.getRandomValues függvényt használja, a minden modern böngészőbe beépített, kriptográfiailag biztonságos véletlenforrást. Az operációs rendszerek valós világbeli kiszámíthatatlanságból táplálják (időzítés, hardverzaj), ezért a számok nem jelezhetők előre és nem ismételhetők meg kérésre — sokkal erősebb forrás, mint a Math.random függvény, amelyet a legtöbb egyszerű generátor használ.</p></div><div class="faq"><h3>Mit csinál az egyedi lehetőség?</h3><p>Az „csak egyedi számok” beállítással minden generált szám különbözik — ideális lottószerű sorsolásokhoz, tombolákhoz és diákok vagy nyertesek kiválasztásához. Az „ismétlések megengedettek” beállítással minden húzás független, tehát ugyanaz a szám többször is megjelenhet, mint a kockadobásnál.</p></div><div class="faq"><h3>Megismételheti ugyanazt a halmazt kétszer?</h3><p>Elméletben bármely számhalmaz véletlenül újra előfordulhat, de biztonságos véletlenszerűség mellett nincs minta, kezdőérték vagy memória a húzások között. A Generálás gomb megnyomása mindig teljesen új, független húzást indít.</p></div>
-<h2 class="sec">Related Kalkulátorok</h2><div class="grid"><a class="card" href="../dice-roller/"><div class="ic">🎲</div><h3>Dobókocka-dobó</h3><p>Szórakozás</p></a><a class="card" href="../coin-flip/"><div class="ic">🪙</div><h3>Érmefeldobás</h3><p>Szórakozás</p></a><a class="card" href="../lottery-number-generator/"><div class="ic">🍀</div><h3>Lottószám-generátor</h3><p>Szórakozás</p></a><a class="card" href="../love-calculator/"><div class="ic">❤️</div><h3>Szerelem-kalkulátor</h3><p>Szórakozás</p></a><a class="card" href="../age-calculator/"><div class="ic">📅</div><h3>Életkor-kalkulátor</h3><p>Dátum és idő</p></a></div>
+<h2 class="sec">Kapcsolódó kalkulátorok</h2><div class="grid"><a class="card" href="../dice-roller/"><div class="ic">🎲</div><h3>Dobókocka-dobó</h3><p>Szórakozás</p></a><a class="card" href="../coin-flip/"><div class="ic">🪙</div><h3>Érmefeldobás</h3><p>Szórakozás</p></a><a class="card" href="../lottery-number-generator/"><div class="ic">🍀</div><h3>Lottószám-generátor</h3><p>Szórakozás</p></a><a class="card" href="../love-calculator/"><div class="ic">❤️</div><h3>Szerelem-kalkulátor</h3><p>Szórakozás</p></a><a class="card" href="../age-calculator/"><div class="ic">📅</div><h3>Életkor-kalkulátor</h3><p>Dátum és idő</p></a></div>
 </div>
 <section class="txt"><h2>Hogyan működik &mdash; a képlet</h2>
 <p>A generátor használ <strong>elutasításos mintavétel</strong> 32 bites biztonságos véletlen értékeken, ami megszünteti az egyszerűbb módszerek finom torzítását:</p>
@@ -170,13 +170,13 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 </script>
 <footer><div class="fin">
 <div class="cols">
-<div><h4>Popular Kalkulátorok</h4><ul><li><a href="../age-calculator/">Életkor-kalkulátor</a></li>
+<div><h4>Népszerű kalkulátorok</h4><ul><li><a href="../age-calculator/">Életkor-kalkulátor</a></li>
 <li><a href="../zakat-calculator/">Zakátkalkulátor</a></li>
 <li><a href="../cgpa-calculator/">CGPA-kalkulátor</a></li>
 <li><a href="../percentage-calculator/">Százalékkalkulátor</a></li>
 <li><a href="../hijri-date-converter/">Hidzsri dátumátváltó</a></li>
 <li><a href="../emi-calculator/">EMI- és hitelkalkulátor</a></li></ul></div>
-<div><h4>Több Loona Eszközök</h4><ul>
+<div><h4>További Loona-eszközök</h4><ul>
 <li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
 <li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Képtömörítő</a></li>
 <li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI-asszisztens</a></li>
@@ -184,8 +184,8 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <div><h4>Loona Calculators</h4><ul>
 <li><a href="../about.html">Rólunk</a></li>
 <li><a href="../contact.html">Kapcsolat</a></li>
-<li><a href="../privacy-policy.html">Privacy Policy</a></li>
-<li><a href="../terms.html">Feltételek Használat</a></li></ul></div>
+<li><a href="../privacy-policy.html">Adatvédelmi irányelvek</a></li>
+<li><a href="../terms.html">Felhasználási feltételek</a></li></ul></div>
 </div>
 <div class="bar">© 2026 Loona Calculators — egy <a href="https://loonaautomation.github.io/">Loona Automation</a> projekt. Ingyenes online kalkulátorok, regisztráció nélkül.
 Kapcsolat: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>

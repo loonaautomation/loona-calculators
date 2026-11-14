@@ -150,7 +150,7 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <section class="txt"><h2>A Lineáris regresszió kalkulátor használata</h2><ol><li>Illessze be az egymáshoz illő x és y listákat (legalább 3 párt).</li><li>Nyomja meg az Egyenes illesztése gombot, hogy lássa az egyenletet, r-t és r²-t, valamint a szóródási diagramot.</li><li>Adjon meg bármilyen x értéket a modell által előre jelzett y leolvasásához.</li></ol>
 <div class="exbox"><strong>Példa:</strong> A tanulási órák adataira (x = 1–5, y = 2,4,5,4,5) az y = 2.2 + 0.6x egyenes 2.2 + 0.6×6 = 5.8 pontszámot jelez x = 6 esetén — ez az adatokon túli extrapoláció, ezért óvatosan kezelje.</div>
 <h2>Gyakran ismételt kérdések</h2></section><div class="faq"><h3>Mit jelent a 'legkisebb négyzetek' kifejezés?</h3><p>Az egyenest úgy választjuk, hogy minimalizálja a pontok és az egyenes közötti négyzetes függőleges távolságok (reziduumok) összegét. A négyzetre emelés súlyosan bünteti a nagy tévedéseket, ezért a kiugró értékek elhúzhatják az egyenest.</p></div><div class="faq"><h3>Mit jelent a meredekség és a tengelymetszet egyszerű szavakkal?</h3><p>A meredekség azt mutatja, mennyit változik átlagosan y, amikor x 1-gyel nő. A tengelymetszet a modell y értéke, amikor x = 0 — csak akkor értelmes, ha x = 0 az adatai tartományán belül vagy annak közelében van.</p></div><div class="faq"><h3>Biztonságos az adattartományon kívüli előrejelzés?</h3><p>Ez extrapoláció, és kockázatos: a kapcsolatok a megfigyelt tartományon túl gyakran elhajlanak. A kalkulátor kiszámítja, de minél távolabb van az x-tartományától, annál kevésbé érdemli meg az egyenes a bizalmat.</p></div><div class="faq"><h3>Hogyan kapcsolódik ez a Korreláció-kalkulátorhoz?</h3><p>Ugyanazokon az összegeken osztoznak: az r a standardizált meredekség. A regresszió hozzáadja a tényleges egyenest (y-egység per x-egység mértékben) és az előrejelzéseket, amelyeket a korreláció önmagában nem tud megadni.</p></div>
-<h2 class="sec">Related Kalkulátorok</h2><div class="grid"><a class="card" href="../percentage-calculator/"><div class="ic">％</div><h3>Százalékkalkulátor</h3><p>Matematika</p></a><a class="card" href="../statistics-calculator/"><div class="ic">📊</div><h3>Statistics Kalkulátor</h3><p>Matematika</p></a><a class="card" href="../fraction-calculator/"><div class="ic">½</div><h3>Törtkalkulátor</h3><p>Matematika</p></a><a class="card" href="../equation-solver/"><div class="ic">🧮</div><h3>Egyenletmegoldó</h3><p>Matematika</p></a><a class="card" href="../scientific-calculator/"><div class="ic">🔬</div><h3>Tudományos-kalkulátor</h3><p>Matematika</p></a><a class="card" href="../average-calculator/"><div class="ic">📐</div><h3>Átlagkalkulátor</h3><p>Matematika</p></a><a class="card" href="../z-score-calculator/"><div class="ic">🔔</div><h3>Z-pontszám-kalkulátor</h3><p>Matematika</p></a><a class="card" href="../probability-calculator/"><div class="ic">🎲</div><h3>Valószínűség-kalkulátor</h3><p>Matematika</p></a><a class="card" href="../correlation-calculator/"><div class="ic">🔗</div><h3>Korrelációs kalkulátor</h3><p>Matematika</p></a><a class="card" href="../graphing-calculator/"><div class="ic">📈</div><h3>Grafikus kalkulátor</h3><p>Matematika</p></a></div>
+<h2 class="sec">Kapcsolódó kalkulátorok</h2><div class="grid"><a class="card" href="../percentage-calculator/"><div class="ic">％</div><h3>Százalékkalkulátor</h3><p>Matematika</p></a><a class="card" href="../statistics-calculator/"><div class="ic">📊</div><h3>Statistics Kalkulátor</h3><p>Matematika</p></a><a class="card" href="../fraction-calculator/"><div class="ic">½</div><h3>Törtkalkulátor</h3><p>Matematika</p></a><a class="card" href="../equation-solver/"><div class="ic">🧮</div><h3>Egyenletmegoldó</h3><p>Matematika</p></a><a class="card" href="../scientific-calculator/"><div class="ic">🔬</div><h3>Tudományos-kalkulátor</h3><p>Matematika</p></a><a class="card" href="../average-calculator/"><div class="ic">📐</div><h3>Átlagkalkulátor</h3><p>Matematika</p></a><a class="card" href="../z-score-calculator/"><div class="ic">🔔</div><h3>Z-pontszám-kalkulátor</h3><p>Matematika</p></a><a class="card" href="../probability-calculator/"><div class="ic">🎲</div><h3>Valószínűség-kalkulátor</h3><p>Matematika</p></a><a class="card" href="../correlation-calculator/"><div class="ic">🔗</div><h3>Korrelációs kalkulátor</h3><p>Matematika</p></a><a class="card" href="../graphing-calculator/"><div class="ic">📈</div><h3>Grafikus kalkulátor</h3><p>Matematika</p></a></div>
 </div>
 <section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>Hogyan működik — a képlet</h2>
 <p><strong>Meredekség b = Sxy ÷ Sxx</strong> ahol Sxy = Σ(x−x̄)(y−ȳ) és Sxx = Σ(x−x̄)². <strong>Metszék a = ȳ − b·x̄</strong> — ami garantálja, hogy az egyenes mindig átmegy az adatok súlypontján, (x̄, ȳ). Becslés: ŷ = a + b·x. Szerepel még: r, r² és a reziduális standard hiba.</p>
@@ -169,13 +169,13 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 </script>
 <footer><div class="fin">
 <div class="cols">
-<div><h4>Popular Kalkulátorok</h4><ul><li><a href="../age-calculator/">Életkor-kalkulátor</a></li>
+<div><h4>Népszerű kalkulátorok</h4><ul><li><a href="../age-calculator/">Életkor-kalkulátor</a></li>
 <li><a href="../zakat-calculator/">Zakátkalkulátor</a></li>
 <li><a href="../cgpa-calculator/">CGPA-kalkulátor</a></li>
 <li><a href="../percentage-calculator/">Százalékkalkulátor</a></li>
 <li><a href="../hijri-date-converter/">Hidzsri dátumátváltó</a></li>
 <li><a href="../emi-calculator/">EMI- és hitelkalkulátor</a></li></ul></div>
-<div><h4>Több Loona Eszközök</h4><ul>
+<div><h4>További Loona-eszközök</h4><ul>
 <li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
 <li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Képtömörítő</a></li>
 <li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI-asszisztens</a></li>
@@ -183,8 +183,8 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <div><h4>Loona Calculators</h4><ul>
 <li><a href="../about.html">Rólunk</a></li>
 <li><a href="../contact.html">Kapcsolat</a></li>
-<li><a href="../privacy-policy.html">Privacy Policy</a></li>
-<li><a href="../terms.html">Feltételek Használat</a></li></ul></div>
+<li><a href="../privacy-policy.html">Adatvédelmi irányelvek</a></li>
+<li><a href="../terms.html">Felhasználási feltételek</a></li></ul></div>
 </div>
 <div class="bar">© 2026 Loona Calculators — egy <a href="https://loonaautomation.github.io/">Loona Automation</a> projekt. Ingyenes online kalkulátorok, regisztráció nélkül.
 Kapcsolat: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>

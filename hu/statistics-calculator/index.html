@@ -141,7 +141,7 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <section class="txt"><h2>A Statisztikakalkulátor használata</h2><ol><li>Írja be vagy illessze be a számait, vesszővel vagy szóközzel elválasztva (legfeljebb 50).</li><li>Nyomja meg Kiszámít.</li><li>A teljes összefoglaló — beleértve a populációs és a minta-szórásokat — alább jelenik meg.</li></ol>
 <div class="exbox"><strong>Példa:</strong> A 4, 8, 15, 16, 23, 42 számokra: az átlag 18, a medián 15.5, a populációs szórás körülbelül 12.32 és a minta szórása körülbelül 13.49.</div>
 <h2>Gyakran ismételt kérdések</h2></section><div class="faq"><h3>Sokasági vagy mintabeli szórás — melyiket?</h3><p>A sokaságot akkor használja, ha a számai az Önt érdeklő teljes halmazt adják. A mintát akkor használja, ha a számai egy nagyobb csoportból származnak — ez (darabszám − 1)-gyel oszt darabszám helyett, hogy korrigálja a becslést.</p></div><div class="faq"><h3>Mit árul el nekem a szórás?</h3><p>Mennyire szóródnak a számok az átlag körül. A kis szórás azt jelenti, hogy az értékek szorosan csoportosulnak; a nagy szórás azt, hogy széles körben szóródnak.</p></div><div class="faq"><h3>Mi a variancia?</h3><p>Az átlagtól vett eltérések négyzeteinek átlaga. A szórás egyszerűen ennek négyzetgyöke, amely a mértéket visszaviszi az eredeti mértékegységekbe.</p></div>
-<h2 class="sec">Related Kalkulátorok</h2><div class="grid"><a class="card" href="../percentage-calculator/"><div class="ic">％</div><h3>Százalékkalkulátor</h3><p>Matematika</p></a><a class="card" href="../average-calculator/"><div class="ic">🔢</div><h3>Átlagkalkulátor</h3><p>Matematika</p></a><a class="card" href="../ratio-calculator/"><div class="ic">➗</div><h3>Arány-kalkulátor</h3><p>Matematika</p></a><a class="card" href="../age-calculator/"><div class="ic">📅</div><h3>Életkor-kalkulátor</h3><p>Dátum és idő</p></a></div>
+<h2 class="sec">Kapcsolódó kalkulátorok</h2><div class="grid"><a class="card" href="../percentage-calculator/"><div class="ic">％</div><h3>Százalékkalkulátor</h3><p>Matematika</p></a><a class="card" href="../average-calculator/"><div class="ic">🔢</div><h3>Átlagkalkulátor</h3><p>Matematika</p></a><a class="card" href="../ratio-calculator/"><div class="ic">➗</div><h3>Arány-kalkulátor</h3><p>Matematika</p></a><a class="card" href="../age-calculator/"><div class="ic">📅</div><h3>Életkor-kalkulátor</h3><p>Dátum és idő</p></a></div>
 </div>
 <section class="txt"><h2>Hogyan működik — a képlet</h2><p>Írjon be vagy illesszen be legfeljebb 50 számot, és a kalkulátor rendezi őket, és egy menetben elkészíti a teljes összefoglalót. Az átlag minden értéket összead, és elosztja azzal, hány van; a medián a rendezett lista középső értéke; a módusz az az érték, amely a leggyakrabban fordul elő; és a tartomány a legkisebb és legnagyobb érték közötti rés. A szóródást szórással és varianciával mérik, mindkettőt kétféleképpen számolva — a számmal való osztással (populáció) vagy a szám mínusz eggyel (minta).</p><p><strong>Képletek:</strong> Átlag = összeg ÷ darabszám. Variancia (sokaság) = Σ(x − átlag)<sup>2</sup> ÷ n. Variancia (minta) = Σ(x − átlag)<sup>2</sup> ÷ (n − 1). Szórás = √Variancia. Terjedelem = Maximum − Minimum.</p><h3>Kidolgozott példa</h3><div class="exbox"><strong>Példa:</strong> A 12, 7, 25, 7, 19, 30, 7, 14 számokra: a darabszám 8 és az összeg 121, így az átlag <strong>15.13</strong>. Rendezve (7, 7, 7, 12, 14, 19, 25, 30) a medián 13, a módusz 7, amely 3 alkalommal fordul elő. A terjedelem 23; a populációs variancia 67.86, szórása 8.24, a minta varianciája 77.55, szórása 8.81.</div><h3>Gyakori kérdések</h3></section><div class="faq"><h3>Mi van, ha egy szám sem ismétlődik — van még módusz?</h3><p>Nem. Ha minden érték csak egyszer fordul elő, a kalkulátor azt jelenti: „No mode — every value appears once”, ahelyett hogy kitalálna egyet. Módusz csak akkor létezik, ha legalább egy érték gyakrabban fordul elő, mint a többi.</p></div><div class="faq"><h3>Hány számot adhatok meg, és hogyan válasszam el őket?</h3><p>Legfeljebb 50 szám. Válassza el őket vesszővel, szóközzel vagy pontosvesszővel — mindhárom működik, és keverheti is őket. Bármi, ami nem szám, arra készteti a kalkulátort, hogy csak számokat kérjen.</p></div><div class="faq"><h3>Használhatok negatív számokat és tizedeseket?</h3><p>Igen. Például a −5, 2.5, 10 megadása 2.5-ös átlagot és mediánt, 15-ös terjedelmet és 7.5-ös összeget ad. A jegyek, hőmérsékletek, nyereségek és negatív értékű veszteségek mind rendesen kezelődnek.</p></div><div class="faq"><h3>Hogyan találják meg a mediánt, ha páros számú szám van?</h3><p>Ez a rendezett lista két középső értékének átlaga. A kidolgozott példában a két középső érték 12 és 14, így a medián (12 + 14) ÷ 2 = 13, bár a 13 maga nincs a listában.</p></div><div class="faq"><h3>Miért mindig nagyobb a minta szórásnégyzete a populációénál?</h3><p>Mert ugyanazt az összeget kisebb számmal osztja el — n − 1-gyel n helyett. A kidolgozott példában ez a 67.86-ot 77.55-re változtatja. A kisebb osztó korrigálja azt a tényt, hogy a minta általában alulbecsli, mennyire szétszórt valójában a teljes csoport.</p></div>
 <div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
@@ -156,13 +156,13 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 </script>
 <footer><div class="fin">
 <div class="cols">
-<div><h4>Popular Kalkulátorok</h4><ul><li><a href="../age-calculator/">Életkor-kalkulátor</a></li>
+<div><h4>Népszerű kalkulátorok</h4><ul><li><a href="../age-calculator/">Életkor-kalkulátor</a></li>
 <li><a href="../zakat-calculator/">Zakátkalkulátor</a></li>
 <li><a href="../cgpa-calculator/">CGPA-kalkulátor</a></li>
 <li><a href="../percentage-calculator/">Százalékkalkulátor</a></li>
 <li><a href="../hijri-date-converter/">Hidzsri dátumátváltó</a></li>
 <li><a href="../emi-calculator/">EMI- és hitelkalkulátor</a></li></ul></div>
-<div><h4>Több Loona Eszközök</h4><ul>
+<div><h4>További Loona-eszközök</h4><ul>
 <li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
 <li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Képtömörítő</a></li>
 <li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI-asszisztens</a></li>
@@ -170,8 +170,8 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <div><h4>Loona Calculators</h4><ul>
 <li><a href="../about.html">Rólunk</a></li>
 <li><a href="../contact.html">Kapcsolat</a></li>
-<li><a href="../privacy-policy.html">Privacy Policy</a></li>
-<li><a href="../terms.html">Feltételek Használat</a></li></ul></div>
+<li><a href="../privacy-policy.html">Adatvédelmi irányelvek</a></li>
+<li><a href="../terms.html">Felhasználási feltételek</a></li></ul></div>
 </div>
 <div class="bar">© 2026 Loona Calculators — egy <a href="https://loonaautomation.github.io/">Loona Automation</a> projekt. Ingyenes online kalkulátorok, regisztráció nélkül.
 Kapcsolat: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
