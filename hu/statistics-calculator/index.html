@@ -18,7 +18,7 @@
 <meta name="twitter:title" content="Statisztikakalkulátor — Átlag, medián, módusz és szórás | Loona Calculators">
 <meta name="twitter:description" content="Ingyenes statisztikakalkulátor: illesszen be egy számlistát az átlaghoz, mediánhoz, móduszhoz, terjedelemhez, varianciához és szóráshoz (populációs és mintabeli), összeghez és darabszámhoz.">
 <meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona Statistics Kalkulátor","url":"https://loonaautomation.github.io/loona-calculators/hu/statistics-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona Statisztikakalkulátor","url":"https://loonaautomation.github.io/loona-calculators/hu/statistics-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Sokasági vagy mintabeli szórás — melyiket?","acceptedAnswer":{"@type":"Answer","text":"A sokaságot akkor használja, ha a számai az Önt érdeklő teljes halmazt adják. A mintát akkor használja, ha a számai egy nagyobb csoportból származnak — ez (darabszám − 1)-gyel oszt darabszám helyett, hogy korrigálja a becslést."}},{"@type":"Question","name":"Mit árul el nekem a szórás?","acceptedAnswer":{"@type":"Answer","text":"Mennyire szóródnak a számok az átlag körül. A kis szórás azt jelenti, hogy az értékek szorosan csoportosulnak; a nagy szórás azt, hogy széles körben szóródnak."}},{"@type":"Question","name":"Mi a variancia?","acceptedAnswer":{"@type":"Answer","text":"Az átlagtól vett eltérések négyzeteinek átlaga. A szórás egyszerűen ennek négyzetgyöke, amely a mértéket visszaviszi az eredeti mértékegységekbe."}}]}</script>
 <style>
 :root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
@@ -116,7 +116,7 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
     {
       "@type": "ListItem",
       "position": 3,
-      "name": "Statistics Kalkulátor",
+      "name": "Statisztikakalkulátor",
       "item": "https://loonaautomation.github.io/loona-calculators/hu/statistics-calculator/"
     }
   ]
@@ -148,7 +148,7 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Ágyazza be ezt a kalkulátort a weboldalába — ingyen</h2>
 <p style="margin:0 0 12px;line-height:1.6">Adja hozzá ezt a kalkulátort saját weboldalához vagy blogjához — teljesen ingyenes, regisztráció nem kell hozzá, és mindig a legújabb verziót mutatja. Másolja ki az alábbi kódot, és illessze be oldalába oda, ahová a kalkulátort szeretné. A kis &ldquo;Powered by Loona Automation&rdquo; jóváírási sor megtartása a beágyazás alatt segít ezt az eszközt ingyenesen tartani &mdash; de szabadon formázhatja vagy eltávolíthatja; az eszköz így is, úgy is működik.</p>
 <textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/hu/statistics-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Statistics Calculator by Loona"&gt;&lt;/iframe&gt;
-&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Készítette &lt;a href="https://loonaautomation.github.io/loona-calculators/hu/statistics-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; ingyenes Statistics Kalkulátor&lt;/p&gt;</textarea>
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Készítette &lt;a href="https://loonaautomation.github.io/loona-calculators/hu/statistics-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; ingyenes Statisztikakalkulátor&lt;/p&gt;</textarea>
 <p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Beágyazókód másolása</button></p>
 </div>
 <script>
@@ -1636,7 +1636,7 @@ Object.assign(CALCS,{
    +tbl(row("Összes perc",F(dur,0))+row("Összes óra (tizedes)",F(dur/60)+" óra")
      +row("Kezdés",fmtClock(start))+row("Befejezés",fmtClock(end)+(nextDay?" (következő nap)":"")))
    +(nextDay?note("A befejezési idő korábbi, mint a kezdési idő, ezért másnapra esőnek számoltuk — pontosan úgy, ahogyan az éjszakai műszakok, a járatok és az utazások működnek."):
-     note("Ha a befejezési idő másnapra esik (például 10 PM-től 6 AM-ig), egyszerűen írja be úgy, ahogy van — a kalkulátor automatikusan átszámol éjfélen túlra."));
+     note("Ha a befejezési idő másnapra esik (például 22:00-tól 6:00-ig), egyszerűen írja be úgy, ahogy van — a kalkulátor automatikusan átszámol éjfélen túlra."));
  }},
 
 /* 65 — WORK HOURS (BATCH 4) */

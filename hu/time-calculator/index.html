@@ -1646,7 +1646,7 @@ Object.assign(CALCS,{
    +tbl(row("Összes perc",F(dur,0))+row("Összes óra (tizedes)",F(dur/60)+" óra")
      +row("Kezdés",fmtClock(start))+row("Befejezés",fmtClock(end)+(nextDay?" (következő nap)":"")))
    +(nextDay?note("A befejezési idő korábbi, mint a kezdési idő, ezért másnapra esőnek számoltuk — pontosan úgy, ahogyan az éjszakai műszakok, a járatok és az utazások működnek."):
-     note("Ha a befejezési idő másnapra esik (például 10 PM-től 6 AM-ig), egyszerűen írja be úgy, ahogy van — a kalkulátor automatikusan átszámol éjfélen túlra."));
+     note("Ha a befejezési idő másnapra esik (például 22:00-tól 6:00-ig), egyszerűen írja be úgy, ahogy van — a kalkulátor automatikusan átszámol éjfélen túlra."));
  }},
 
 /* 65 — WORK HOURS (BATCH 4) */
