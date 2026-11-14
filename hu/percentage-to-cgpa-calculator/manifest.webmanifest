@@ -1,0 +1,29 @@
+{
+  "name": "Loona Százalék–CGPA átváltó",
+  "short_name": "Százalékage CGPA Átváltó",
+  "description": "Ingyenes százalék–CGPA átváltó: alakítson egy százalékot 10-es skálájú CGPA-vá (9.5-tel osztva) vagy 4-es skálájú GPA-vá, a képlettel együtt. Tanintézeteknek és egyetemeknek.",
+  "id": "/loona-calculators/hu/percentage-to-cgpa-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

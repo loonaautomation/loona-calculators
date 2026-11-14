@@ -1,0 +1,29 @@
+{
+  "name": "Loona HKD–MXN átváltó",
+  "short_name": "HKD–MXN átváltó",
+  "description": "Hongkongi dollár (HKD) átváltása mexikói pesóra (MXN). Az EKB 2026. november 06-i referenciaárfolyama, inverz árfolyam, átváltási táblázat és sávjegyzetek. Csak tájékoztató jellegű.",
+  "id": "/loona-calculators/hu/hkd-to-mxn-converter.html",
+  "start_url": "./hkd-to-mxn-converter.html",
+  "scope": "./hkd-to-mxn-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

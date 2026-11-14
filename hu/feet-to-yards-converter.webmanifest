@@ -1,0 +1,29 @@
+{
+  "name": "Loona Láb–yard átváltó",
+  "short_name": "láb–yard átváltó",
+  "description": "Láb átváltása yardra azonnal. Pontos képlet, teljes ft–yd átváltási táblázat és kidolgozott példák. Ingyenes, regisztráció nélkül.",
+  "id": "/loona-calculators/hu/feet-to-yards-converter.html",
+  "start_url": "./feet-to-yards-converter.html",
+  "scope": "./feet-to-yards-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

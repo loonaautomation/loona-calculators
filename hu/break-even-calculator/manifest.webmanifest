@@ -1,0 +1,29 @@
+{
+  "name": "Loona Fedezetipont-kalkulátor",
+  "short_name": "Fedezetipont-kalkulátor",
+  "description": "Ingyenes fedezetipont-kalkulátor: adja meg az állandó költségeket, az eladási árat és az egységenkénti változó költséget, és megtudja, hány egységet kell eladnia a fedezeti pont eléréséhez, és mekkora bevételnél.",
+  "id": "/loona-calculators/hu/break-even-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

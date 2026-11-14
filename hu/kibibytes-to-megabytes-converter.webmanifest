@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kibibájt–megabájt átváltó",
+  "short_name": "Kibibájt–megabájt átváltó",
+  "description": "Kibibájt átváltása megabájtra azonnal. Pontos képlet, teljes KiB–MB átváltási táblázat, kidolgozott példa és gyakori kérdések. Ingyenes, regisztráció nélkül.",
+  "id": "/loona-calculators/hu/kibibytes-to-megabytes-converter.html",
+  "start_url": "./kibibytes-to-megabytes-converter.html",
+  "scope": "./kibibytes-to-megabytes-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona EUR–KRW átváltó",
+  "short_name": "EUR–KRW átváltó",
+  "description": "Euró (EUR) átváltása dél-koreai vonra (KRW). Az EKB 2026. november 06-i referenciaárfolyama, inverz árfolyam, átváltási táblázat és sávjegyzetek. Csak tájékoztató jellegű.",
+  "id": "/loona-calculators/hu/eur-to-krw-converter.html",
+  "start_url": "./eur-to-krw-converter.html",
+  "scope": "./eur-to-krw-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

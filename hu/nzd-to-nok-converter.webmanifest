@@ -1,0 +1,29 @@
+{
+  "name": "Loona NZD–NOK átváltó",
+  "short_name": "NZD–NOK átváltó",
+  "description": "Új-zélandi dollár (NZD) átváltása norvég koronára (NOK). Az EKB 2026. november 06-i referenciaárfolyama, inverz árfolyam, átváltási táblázat és sávjegyzetek. Csak tájékoztató jellegű.",
+  "id": "/loona-calculators/hu/nzd-to-nok-converter.html",
+  "start_url": "./nzd-to-nok-converter.html",
+  "scope": "./nzd-to-nok-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

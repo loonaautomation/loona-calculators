@@ -1,0 +1,29 @@
+{
+  "name": "Loona Rendszeresbetét-kalkulátor",
+  "short_name": "Recurring Betét Kalkulátor",
+  "description": "Ingyenes rendszeresbetét- (RD) kalkulátor: havi befizetés, kamatláb és futamidő hónapokban — lejárati érték negyedéves kamatozással, a banki szabvány szerint.",
+  "id": "/loona-calculators/hu/recurring-deposit-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

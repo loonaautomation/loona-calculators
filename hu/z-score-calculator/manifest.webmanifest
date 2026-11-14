@@ -1,0 +1,29 @@
+{
+  "name": "Loona Z-pontszám-kalkulátor",
+  "short_name": "Z-pontszám-kalkulátor",
+  "description": "Ingyenes Z-érték-kalkulátor: adjon meg egy értéket, átlagot és szórást, és megkapja a Z-értéket, a percentilist és a valószínűségeket a standard normális táblázatból (normális eloszlás).",
+  "id": "/loona-calculators/hu/z-score-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

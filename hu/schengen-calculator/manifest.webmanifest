@@ -1,0 +1,29 @@
+{
+  "name": "Loona Schengeni 90/180 kalkulátor",
+  "short_name": "Schengeni 90/180 kalkulátor",
+  "description": "Ingyenes schengeni 90/180 kalkulátor: adja meg a múltbeli és a tervezett utazásokat, hogy lássa a bármely gördülő 180 napos ablakban felhasznált napokat, a hátralévő napokat, a túltartózkodási figyelmeztetéseket és a legkorábbi biztonságos visszatérést.",
+  "id": "/loona-calculators/hu/schengen-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Holdfázis-kalkulátor",
+  "short_name": "Hold Fázis Kalkulátor",
+  "description": "Ingyenes holdfázis-kalkulátor: adjon meg bármely dátumot, és nézze meg a hold fázisának nevét, a megvilágítási százalékot, a hold korát és a következő újholdig és teliholdig hátralévő napokat.",
+  "id": "/loona-calculators/hu/moon-phase-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

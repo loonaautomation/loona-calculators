@@ -1,0 +1,29 @@
+{
+  "name": "Loona London–Los Angeles időátváltó",
+  "short_name": "London–Los Angeles idő",
+  "description": "London idejének átváltása Los Angeles idejére. Los Angeles egész évben 8 órával van London mögött, nyári időszámítási dátumokkal, 24 órás táblázattal és a legjobb találkozóablakkal. Élő átváltó mellékelve.",
+  "id": "/loona-calculators/hu/london-to-los-angeles-time-converter.html",
+  "start_url": "./london-to-los-angeles-time-converter.html",
+  "scope": "./london-to-los-angeles-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Zakát-kalkulátor",
+  "short_name": "Zakátkalkulátor",
+  "description": "Ingyenes zakátkalkulátor: készpénz, banki egyenleg, arany, ezüst, üzleti áruk és tartozások — ellenőrizze a niszábot, és számítsa ki a 2.5%-os zakátját rúpiában azonnal. Egyszerűen és bizalmasan.",
+  "id": "/loona-calculators/hu/zakat-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

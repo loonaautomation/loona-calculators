@@ -1,0 +1,29 @@
+{
+  "name": "Loona Normális eloszlás kalkulátor",
+  "short_name": "Normál Distribution Kalkulátor",
+  "description": "Ingyenes normális eloszlás kalkulátor: bármely átlagra és szórásra megtalálja a P(X<x), P(X>x), P(a<X<b) értékeket, és egy adott percentilishez tartozó értéket.",
+  "id": "/loona-calculators/hu/normal-distribution-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

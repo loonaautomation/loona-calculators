@@ -1,0 +1,29 @@
+{
+  "name": "Loona Testzsír-kalkulátor",
+  "short_name": "Testzsír-kalkulátor",
+  "description": "Ingyenes testzsír-kalkulátor az amerikai haditengerészet kerületméréses módszerével: a magasság, a nyak, a derék (és nőknél a csípő) alapján megadja a testzsírszázalékot, a zsírtömeget, a zsírmentes tömeget és az ACE kategóriát.",
+  "id": "/loona-calculators/hu/body-fat-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Napok két dátum között kalkulátor",
+  "short_name": "Két dátum közötti napok kalkulátora",
+  "description": "Ingyenes napok két dátum között kalkulátor: számolja meg a napok, hetek és évek pontos számát bármely két dátum között. Hasznos határidőkhöz, vízumokhoz, szerződésekhez és visszaszámlálásokhoz.",
+  "id": "/loona-calculators/hu/days-between-dates-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

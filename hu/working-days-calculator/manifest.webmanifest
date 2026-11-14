@@ -1,0 +1,29 @@
+{
+  "name": "Loona Munkanapok-kalkulátor",
+  "short_name": "Munkanapok-kalkulátor",
+  "description": "Ingyenes munkanap-kalkulátor: számolja meg az összes napot, a munkanapokat (hétfőtől péntekig) és a hétvégi napokat bármely két dátum között. Szabadsághoz, határidőkhöz és projekttervekhez.",
+  "id": "/loona-calculators/hu/working-days-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

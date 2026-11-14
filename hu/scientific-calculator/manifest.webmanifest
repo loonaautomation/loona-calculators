@@ -1,0 +1,29 @@
+{
+  "name": "Loona Tudományos-kalkulátor",
+  "short_name": "Tudományos-kalkulátor",
+  "description": "Ingyenes tudományos kalkulátor sin, cos, tan függvényekkel és inverzeikkel, log és ln, hatványok, gyökök, faktoriális és százalék. DEG/RAD módok és teljes billentyűzettámogatás — regisztráció nélkül.",
+  "id": "/loona-calculators/hu/scientific-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Mumbai–Szingapúr időátváltó",
+  "short_name": "Mumbai Szingapúr Idő",
+  "description": "Mumbai idejének átváltása Szingapúr idejére. Szingapúr egész évben 2 óra 30 perccel van Mumbai előtt, nyári időszámítási dátumokkal, 24 órás táblázattal és a legjobb találkozóablakkal. Élő átváltó mellékelve.",
+  "id": "/loona-calculators/hu/mumbai-to-singapore-time-converter.html",
+  "start_url": "./mumbai-to-singapore-time-converter.html",
+  "scope": "./mumbai-to-singapore-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

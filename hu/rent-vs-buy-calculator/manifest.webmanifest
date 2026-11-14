@@ -1,0 +1,29 @@
+{
+  "name": "Loona Bérlés vagy vásárlás kalkulátor",
+  "short_name": "Lakbér vs Vásárol Kalkulátor",
+  "description": "Ingyenes bérlés vagy vásárlás kalkulátor: hasonlítsa össze a bérlés teljes költségét egy otthon vásárlásának nettó költségével azon évekre, amíg maradni tervez — jelzáloghitellel, lakbéremelésekkel, árnövekedéssel és önerővel együtt.",
+  "id": "/loona-calculators/hu/rent-vs-buy-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

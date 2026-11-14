@@ -1,0 +1,29 @@
+{
+  "name": "Loona Pitagorasz-tétel-kalkulátor",
+  "short_name": "Pythagorean Theorem Kalkulátor",
+  "description": "Ingyenes Pitagorasz-tétel kalkulátor: adja meg egy derékszögű háromszög bármely két oldalát a harmadik — átfogó vagy befogó — megtalálásához, a levezetéssel együtt.",
+  "id": "/loona-calculators/hu/pythagorean-theorem-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

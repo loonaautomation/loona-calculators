@@ -1,0 +1,29 @@
+{
+  "name": "Loona Életkor-kalkulátor",
+  "short_name": "Életkor-kalkulátor",
+  "description": "Ingyenes életkor-kalkulátor: adja meg a születési dátumát, és megkapja a pontos életkorát években, hónapokban és napokban, plusz a megélt napok, hetek és órák összes számát és a következő születésnapját. Regisztráció nélkül.",
+  "id": "/loona-calculators/hu/age-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

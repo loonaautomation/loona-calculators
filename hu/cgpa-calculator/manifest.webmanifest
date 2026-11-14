@@ -1,0 +1,29 @@
+{
+  "name": "Loona CGPA-kalkulátor",
+  "short_name": "CGPA-kalkulátor",
+  "description": "Ingyenes CGPA-kalkulátor egyetemi hallgatóknak: adja meg a tantárgyi pontszámokat és a kreditórákat a féléves GPA-hoz, és adja hozzá korábbi CGPA-ját a kumulatív eredményhez. HEC jegyskálával.",
+  "id": "/loona-calculators/hu/cgpa-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

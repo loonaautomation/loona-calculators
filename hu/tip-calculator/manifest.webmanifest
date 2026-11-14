@@ -1,0 +1,29 @@
+{
+  "name": "Loona Borravaló-kalkulátor",
+  "short_name": "Borravaló-kalkulátor",
+  "description": "Ingyenes borravaló-kalkulátor: adja meg a számlát, a borravaló százalékát és a személyek számát, és megkapja a borravaló összegét, a teljes számlát és a pontos részt, amelyet minden személy fizet.",
+  "id": "/loona-calculators/hu/tip-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

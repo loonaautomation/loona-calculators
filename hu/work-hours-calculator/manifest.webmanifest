@@ -1,0 +1,29 @@
+{
+  "name": "Loona Munka óra Kalkulátor",
+  "short_name": "Munka óra Kalkulátor",
+  "description": "Ingyenes munkaóra-kalkulátor: a kezdés, a befejezés és a fizetetlen szünet megadja a nettó órákat naponta és hetente — plusz a napi és heti bért, ha óradíjat is megad. Éjszakai műszak is támogatott.",
+  "id": "/loona-calculators/hu/work-hours-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona London–New York időátváltó",
+  "short_name": "London–New York idő",
+  "description": "London idejének átváltása New York idejére. New York egész évben 5 órával van London mögött, nyári időszámítási dátumokkal, 24 órás táblázattal és a legjobb találkozóablakkal. Élő átváltó mellékelve.",
+  "id": "/loona-calculators/hu/london-to-new-york-time-converter.html",
+  "start_url": "./london-to-new-york-time-converter.html",
+  "scope": "./london-to-new-york-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

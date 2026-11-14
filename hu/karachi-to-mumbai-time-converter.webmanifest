@@ -1,0 +1,29 @@
+{
+  "name": "Loona Karacsi–Mumbai időátváltó",
+  "short_name": "Karacsi–Mumbai idő",
+  "description": "Karachi idejének átváltása Mumbai idejére. Mumbai egész évben 0 óra 30 perccel van Karachi előtt, nyári időszámítási dátumokkal, 24 órás táblázattal és a legjobb találkozóablakkal. Élő átváltó mellékelve.",
+  "id": "/loona-calculators/hu/karachi-to-mumbai-time-converter.html",
+  "start_url": "./karachi-to-mumbai-time-converter.html",
+  "scope": "./karachi-to-mumbai-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

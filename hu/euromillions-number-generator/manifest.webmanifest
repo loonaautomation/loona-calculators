@@ -1,0 +1,29 @@
+{
+  "name": "Loona EuroMillions-számgenerátor",
+  "short_name": "EuroMillions számgenerátor",
+  "description": "Ingyenes EuroMillions számgenerátor: húzzon 5 fő számot 50-ből plusz 2 Lucky Starst 12-ből, egyszerre legfeljebb 5 sorral. Biztonságos véletlen választások, regisztráció nélkül.",
+  "id": "/loona-calculators/hu/euromillions-number-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

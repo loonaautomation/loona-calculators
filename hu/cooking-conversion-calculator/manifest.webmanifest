@@ -1,0 +1,29 @@
+{
+  "name": "Loona Főzési átváltó kalkulátor",
+  "short_name": "Főzési átváltási kalkulátor",
+  "description": "Ingyenes főzési átváltó kalkulátor: váltsa át a csészét, kanalat, millilitert, grammot, unciát és fontot 10 gyakori hozzávalóhoz valós sűrűségekkel — liszt, cukor, vaj, méz és még több.",
+  "id": "/loona-calculators/hu/cooking-conversion-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

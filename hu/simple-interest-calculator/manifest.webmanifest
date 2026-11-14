@@ -1,0 +1,29 @@
+{
+  "name": "Loona Egyszerű kamat kalkulátor",
+  "short_name": "Egyszerű kamat kalkulátor",
+  "description": "Ingyenes egyszerű kamat kalkulátor: adja meg a tőkét, az éves kamatlábat és az időt (évek és hónapok), és számítsa ki a megszerzett kamatot és a teljes összeget. Egyszerű képlet: I = P×R×T/100.",
+  "id": "/loona-calculators/hu/simple-interest-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

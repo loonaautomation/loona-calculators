@@ -1,0 +1,29 @@
+{
+  "name": "Loona Átlagkalkulátor",
+  "short_name": "Átlagkalkulátor",
+  "description": "Ingyenes átlagkalkulátor: illesszen be egy számlistát, és azonnal megkapja az átlagot, a mediánt, a móduszt, az összeget, a darabszámot, a minimumot, a maximumot és a terjedelmet — akár 50 számig.",
+  "id": "/loona-calculators/hu/average-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

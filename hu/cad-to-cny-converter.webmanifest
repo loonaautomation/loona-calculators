@@ -1,0 +1,29 @@
+{
+  "name": "Loona CAD–CNY átváltó",
+  "short_name": "CAD–CNY átváltó",
+  "description": "Kanadai dollár (CAD) átváltása kínai jüanra (renminbi) (CNY). Az EKB 2026. november 06-i referenciaárfolyama, inverz árfolyam, átváltási táblázat és sávjegyzetek. Csak tájékoztató jellegű.",
+  "id": "/loona-calculators/hu/cad-to-cny-converter.html",
+  "start_url": "./cad-to-cny-converter.html",
+  "scope": "./cad-to-cny-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

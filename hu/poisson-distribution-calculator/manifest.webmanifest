@@ -1,0 +1,29 @@
+{
+  "name": "Loona Poisson-eloszlás kalkulátor",
+  "short_name": "Poisson Distribution",
+  "description": "Ingyenes Poisson-eloszlás kalkulátor: pontosan k esemény, legfeljebb k vagy legalább k valószínűsége, az átlagos lambda ráta mellett. Hívásokra, érkezésekre, hibákra és ritka eseményekre.",
+  "id": "/loona-calculators/hu/poisson-distribution-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

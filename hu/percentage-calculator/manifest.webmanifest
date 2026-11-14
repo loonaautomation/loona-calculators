@@ -1,0 +1,29 @@
+{
+  "name": "Loona Százalékkalkulátor",
+  "short_name": "Százalékkalkulátor",
+  "description": "Ingyenes százalékkalkulátor három eszközzel egyben: mennyi Y X%-a, X hány százaléka Y-nak, és a százalékos növekedés vagy csökkenés két szám között.",
+  "id": "/loona-calculators/hu/percentage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

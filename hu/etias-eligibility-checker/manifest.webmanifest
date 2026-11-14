@@ -1,0 +1,29 @@
+{
+  "name": "Loona ETIAS-jogosultság-ellenőrző",
+  "short_name": "ETIAS-jogosultság-ellenőrző",
+  "description": "Ingyenes ETIAS-jogosultság-ellenőrző: válassza ki állampolgárságát és utazási helyzetét, hogy lássa, szüksége lesz-e ETIAS-ra, schengeni vízumra vagy egyik engedélyre sem a rövid európai utazásokhoz.",
+  "id": "/loona-calculators/hu/etias-eligibility-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

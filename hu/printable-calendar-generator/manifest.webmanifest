@@ -1,0 +1,29 @@
+{
+  "name": "Loona Nyomtatható naptárgenerátor",
+  "short_name": "Nyomtatható naptár generátor",
+  "description": "Ingyenes nyomtatható naptárgenerátor: válasszon bármely hónapot és évet (vagy egy teljes évet), és generáljon egy tiszta naptárrácsot, amelyet kinyomtathat. Hétfői vagy vasárnapi kezdéssel.",
+  "id": "/loona-calculators/hu/printable-calendar-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

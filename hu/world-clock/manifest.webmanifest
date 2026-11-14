@@ -1,0 +1,29 @@
+{
+  "name": "Loona Világ Óra",
+  "short_name": "Világ Óra",
+  "description": "Ingyenes élő világóra: az aktuális helyi idő és dátum 24 nagyvárosban, köztük Londonban, New Yorkban, Dubajban, Karacsiban és Tokióban, másodpercenként frissülve időzónák alapján.",
+  "id": "/loona-calculators/hu/world-clock/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

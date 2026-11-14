@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kerekítéskalkulátor",
+  "short_name": "Kerekítés Kalkulátor",
+  "description": "Ingyenes kerekítéskalkulátor: kerekítsen bármely számot tizedesjegyekre, a legközelebbi 10-re, 100-ra vagy 1,000-re, vagy értékes jegyekre, a szabály magyarázatával.",
+  "id": "/loona-calculators/hu/rounding-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

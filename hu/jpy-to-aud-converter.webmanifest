@@ -1,0 +1,29 @@
+{
+  "name": "Loona JPY–AUD átváltó",
+  "short_name": "JPY–AUD átváltó",
+  "description": "Japán jen (JPY) átváltása ausztrál dollárra (AUD). Az EKB 2026. november 06-i referenciaárfolyama, inverz árfolyam, átváltási táblázat és sávjegyzetek. Csak tájékoztató jellegű.",
+  "id": "/loona-calculators/hu/jpy-to-aud-converter.html",
+  "start_url": "./jpy-to-aud-converter.html",
+  "scope": "./jpy-to-aud-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

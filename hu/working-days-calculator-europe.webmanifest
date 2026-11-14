@@ -1,0 +1,29 @@
+{
+  "name": "Loona Munka nap Kalkulátor európe",
+  "short_name": "Munka nap Kalkulátor európe",
+  "description": "Munkanap-kalkulátor 20 európai országhoz: munkanapok számolása két dátum között, a hétvégék és az egyes országok 2026-os munkaszüneti napjai nélkül.",
+  "id": "/loona-calculators/hu/working-days-calculator-europe.html",
+  "start_url": "./working-days-calculator-europe.html",
+  "scope": "./working-days-calculator-europe.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

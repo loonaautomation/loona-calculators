@@ -1,0 +1,29 @@
+{
+  "name": "Loona Sunrise & Sunset Kalkulátor",
+  "short_name": "Sunrise & Sunset Kalkulátor",
+  "description": "Ingyenes napkelte- és napnyugta-kalkulátor: adjon meg egy dátumot és szélességet/hosszúságot, és megkapja a napkeltét, napnyugtát, a nappal hosszát és a napdelet UTC és helyi napidő szerint. NOAA-matematika.",
+  "id": "/loona-calculators/hu/sunrise-sunset-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

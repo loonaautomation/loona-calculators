@@ -1,0 +1,29 @@
+{
+  "name": "Loona Szerelemkalkulátor",
+  "short_name": "Szerelem-kalkulátor",
+  "description": "Ingyenes szerelemkalkulátor (csak szórakozásból): adjon meg két nevet, és kapjon egy játékos szerelmi százalékot és összeillési üzenetet. Könnyed játék, amelyet megoszthat a barátaival.",
+  "id": "/loona-calculators/hu/love-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Lineáris regresszió kalkulátor",
+  "short_name": "Lineáris regresszió kalkulátor",
+  "description": "Ingyenes lineáris regresszió kalkulátor: illesszen be párosított adatokat, és megkapja a legkisebb négyzetek egyenesét (y = a + bx), a korrelációt, az előrejelzéseket és egy szórásdiagramot a berajzolt illesztett egyenessel.",
+  "id": "/loona-calculators/hu/linear-regression-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

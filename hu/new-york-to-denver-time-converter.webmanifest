@@ -1,0 +1,29 @@
+{
+  "name": "Loona New York–Denver időátváltó",
+  "short_name": "Új York Denver Idő",
+  "description": "New York idejének átváltása Denver idejére. Denver egész évben 2 órával van New York mögött, nyári időszámítási dátumokkal, 24 órás táblázattal és a legjobb találkozóablakkal. Élő átváltó mellékelve.",
+  "id": "/loona-calculators/hu/new-york-to-denver-time-converter.html",
+  "start_url": "./new-york-to-denver-time-converter.html",
+  "scope": "./new-york-to-denver-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

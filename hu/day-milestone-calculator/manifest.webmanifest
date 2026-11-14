@@ -1,0 +1,29 @@
+{
+  "name": "Loona 10,000. nap kalkulátor",
+  "short_name": "10,000. nap kalkulátor",
+  "description": "Ingyenes nap-mérföldkő kalkulátor: adjon meg egy születési dátumot, és megtalálja a 10,000. napját, más kerek nap-évfordulókat, az életkorát napokban és a következő mérföldkő dátumát.",
+  "id": "/loona-calculators/hu/day-milestone-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

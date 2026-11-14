@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Valószínűség-kalkulátor — Két esemény, kombinációk és permutációk | Loona</title>
+<meta name="description" content="Ingyenes valószínűség-kalkulátor: A és B, A vagy B, egyik sem és pontosan az egyik valószínűsége; esélyátváltás; kombinációk és permutációk. Képletekkel és példákkal.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/hu/probability-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/probability-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/probability-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/probability-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/probability-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/probability-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/probability-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/probability-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/probability-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/probability-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/probability-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/probability-calculator/"><link rel="alternate" hreflang="hi" href="https://loonaautomation.github.io/loona-calculators/hi/probability-calculator/"><link rel="alternate" hreflang="bn" href="https://loonaautomation.github.io/loona-calculators/bn/probability-calculator/"><link rel="alternate" hreflang="ja" href="https://loonaautomation.github.io/loona-calculators/ja/probability-calculator/"><link rel="alternate" hreflang="ko" href="https://loonaautomation.github.io/loona-calculators/ko/probability-calculator/"><link rel="alternate" hreflang="zh" href="https://loonaautomation.github.io/loona-calculators/zh/probability-calculator/"><link rel="alternate" hreflang="zh-hant" href="https://loonaautomation.github.io/loona-calculators/zh-hant/probability-calculator/"><link rel="alternate" hreflang="pl" href="https://loonaautomation.github.io/loona-calculators/pl/probability-calculator/"><link rel="alternate" hreflang="vi" href="https://loonaautomation.github.io/loona-calculators/vi/probability-calculator/"><link rel="alternate" hreflang="id" href="https://loonaautomation.github.io/loona-calculators/id/probability-calculator/"><link rel="alternate" hreflang="en-us" href="https://loonaautomation.github.io/loona-calculators/en-us/probability-calculator/"><link rel="alternate" hreflang="en-gb" href="https://loonaautomation.github.io/loona-calculators/en-gb/probability-calculator/"><link rel="alternate" hreflang="sv" href="https://loonaautomation.github.io/loona-calculators/sv/probability-calculator/"><link rel="alternate" hreflang="th" href="https://loonaautomation.github.io/loona-calculators/th/probability-calculator/"><link rel="alternate" hreflang="ro" href="https://loonaautomation.github.io/loona-calculators/ro/probability-calculator/"><link rel="alternate" hreflang="ms" href="https://loonaautomation.github.io/loona-calculators/ms/probability-calculator/"><link rel="alternate" hreflang="cs" href="https://loonaautomation.github.io/loona-calculators/cs/probability-calculator/"><link rel="alternate" hreflang="nb" href="https://loonaautomation.github.io/loona-calculators/nb/probability-calculator/"><link rel="alternate" hreflang="da" href="https://loonaautomation.github.io/loona-calculators/da/probability-calculator/"><link rel="alternate" hreflang="fi" href="https://loonaautomation.github.io/loona-calculators/fi/probability-calculator/"><link rel="alternate" hreflang="he" href="https://loonaautomation.github.io/loona-calculators/he/probability-calculator/"><link rel="alternate" hreflang="sw" href="https://loonaautomation.github.io/loona-calculators/sw/probability-calculator/"><link rel="alternate" hreflang="uk" href="https://loonaautomation.github.io/loona-calculators/uk/probability-calculator/"><link rel="alternate" hreflang="bg" href="https://loonaautomation.github.io/loona-calculators/bg/probability-calculator/"><link rel="alternate" hreflang="pt-br" href="https://loonaautomation.github.io/loona-calculators/pt-br/probability-calculator/"><link rel="alternate" hreflang="pt-pt" href="https://loonaautomation.github.io/loona-calculators/pt-pt/probability-calculator/"><link rel="alternate" hreflang="hu" href="https://loonaautomation.github.io/loona-calculators/hu/probability-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/probability-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Valószínűség-kalkulátor — Két esemény, kombinációk és permutációk | Loona">
+<meta property="og:description" content="Ingyenes valószínűség-kalkulátor: A és B, A vagy B, egyik sem és pontosan az egyik valószínűsége; esélyátváltás; kombinációk és permutációk. Képletekkel és példákkal.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/hu/probability-calculator/"><meta property="og:locale" content="hu_HU">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Valószínűség-kalkulátor — Két esemény, kombinációk és permutációk | Loona">
+<meta name="twitter:description" content="Ingyenes valószínűség-kalkulátor: A és B, A vagy B, egyik sem és pontosan az egyik valószínűsége; esélyátváltás; kombinációk és permutációk. Képletekkel és példákkal.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona Valószínűség-kalkulátor","url":"https://loonaautomation.github.io/loona-calculators/hu/probability-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Mi a különbség a független és a kölcsönösen kizáró események között?","acceptedAnswer":{"@type":"Answer","text":"A független események nem hatnak egymásra (két érmefeldobás). A kölcsönösen kizáró események nem történhetnek meg egyszerre (2-est és 5-öst dobni egy kockán) — ezekre P(A or B) = P(A) + P(B) és P(both) = 0. Az események lehetnek egyik sem, de soha nem lehetnek egyszerre mindkettő."}},{"@type":"Question","name":"Miben különböznek a kombinációk és a permutációk?","acceptedAnswer":{"@type":"Answer","text":"A permutációk a sorrend számításon alapuló elrendezéseket számolják: P(n, r) = n! ÷ (n−r)!. A kombinációk a sorrend számításán kívüli kiválasztásokat számolják: C(n, r) = n! ÷ (r! × (n−r)!). A dobogós helyezés permutáció; egy bizottság kombináció."}},{"@type":"Question","name":"Hogyan válthatok át valószínűségről esélyekre?","acceptedAnswer":{"@type":"Answer","text":"Az esély mellette = p ÷ (1 − p), arányként felírva. A 0.75 valószínűség 3:1 esélyt jelent mellette, ellene pedig 1:3-at."}},{"@type":"Question","name":"Ez az oldal helyettesíti-e a Statisztika kalkulátort?","acceptedAnswer":{"@type":"Answer","text":"Nem. A Statisztika-kalkulátor adathalmazokat foglal össze (átlag, medián, szórás). Ez az oldal esemény-valószínűségekkel és számlálással dolgozik — egy tipikus valószínűségi és statisztikai kurzus másik fele."}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/hu/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Valószínűség-kalkulátor",
+      "item": "https://loonaautomation.github.io/loona-calculators/hu/probability-calculator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation logó">
+<div class="brand">Loona <span>Kalkulátorok</span></div>
+<nav>
+<a href="../">Kezdőlap</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">Rólunk</a>
+<a href="../contact.html">Kapcsolat</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › Matematika › Valószínűség-kalkulátor</div>
+<h1 class="pagetitle">🎲 Valószínűség-kalkulátor</h1>
+<p class="lead">Számoljon ki valószínűségeket egy vagy két eseményre: mindkettő bekövetkezik, bármelyik bekövetkezik, egyik sem, vagy pontosan egy — plusz váltson át valószínűség és esély között, és számoljon kombinációkat C(n, r) és permutációkat P(n, r). A Statisztikai Kalkulátor az adatösszefoglalókat fedi le; ez az oldal az eseményvalószínűséget fedi le.</p>
+<div class="exbox"><strong>Gyors válasz:</strong> Két független eseményre: P(A és B) = P(A) × P(B), és P(A vagy B) = P(A) + P(B) − P(A és B). P(A) = P(B) = 0.5 mellett: mindkettő = 0.25, bármelyik = 0.75, egyik sem = 0.25, pontosan egy = 0.50.</div>
+<div class="toolbox"><form class="calcform" id="pbForm">
+<div class="fld"><label for="pbA">Az A esemény valószínűsége (0–1, vagy 1 felett %)</label><input type="number" id="pbA" value="0.5" step="any" min="0"></div>
+<div class="fld"><label for="pbB">A B esemény valószínűsége</label><input type="number" id="pbB" value="0.5" step="any" min="0"></div>
+<div class="fld"><label for="pbMode">Eseménykapcsolat</label><select id="pbMode"><option value="ind">Független</option><option value="excl">Kölcsönösen kizáró</option></select></div>
+<h3 style="color:var(--teal);margin:10px 0 6px">Kombinációk &amp; permutációk (opcionális)</h3>
+<div class="fld"><label for="pbN">n (összes elem)</label><input type="number" id="pbN" value="10" min="0" max="170"></div>
+<div class="fld"><label for="pbR">r (kiválasztott elemek)</label><input type="number" id="pbR" value="3" min="0" max="170"></div>
+<button class="calcbtn" type="submit">Valószínűség számítása</button>
+<div class="calcresult" id="pbResult" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>A Valószínűség-kalkulátor használata</h2><ol><li>Adja meg az A esemény és a B esemény valószínűségét (0–1 tizedesként vagy százalékként — az 1-nél nagyobb értékeket a kalkulátor százaléknak tekinti).</li><li>Válassza ki, hogy az események függetlenek vagy kölcsönösen kizárják egymást, ha a gyors módokat használja.</li><li>Vagy görgessen a kombinációkhoz/permutációkhoz: adja meg n-et és r-t, hogy megkapja a C(n, r)-t és a P(n, r)-t.</li></ol>
+<div class="exbox"><strong>Példa:</strong> Két szabályos érme feldobása: P(fej) = 0.5 mindegyikre. Mindkettő fej = 0.5 × 0.5 = 0.25. Legalább egy fej = 0.75. Nincs fej = 0.25. Pontosan egy fej = 0.50.</div>
+<h2>Gyakran ismételt kérdések</h2></section><div class="faq"><h3>Mi a különbség a független és a kölcsönösen kizáró események között?</h3><p>A független események nem hatnak egymásra (két érmefeldobás). A kölcsönösen kizáró események nem történhetnek meg egyszerre (2-est és 5-öst dobni egy kockán) — ezekre P(A or B) = P(A) + P(B) és P(both) = 0. Az események lehetnek egyik sem, de soha nem lehetnek egyszerre mindkettő.</p></div><div class="faq"><h3>Miben különböznek a kombinációk és a permutációk?</h3><p>A permutációk a sorrend számításon alapuló elrendezéseket számolják: P(n, r) = n! ÷ (n−r)!. A kombinációk a sorrend számításán kívüli kiválasztásokat számolják: C(n, r) = n! ÷ (r! × (n−r)!). A dobogós helyezés permutáció; egy bizottság kombináció.</p></div><div class="faq"><h3>Hogyan válthatok át valószínűségről esélyekre?</h3><p>Az esély mellette = p ÷ (1 − p), arányként felírva. A 0.75 valószínűség 3:1 esélyt jelent mellette, ellene pedig 1:3-at.</p></div><div class="faq"><h3>Ez az oldal helyettesíti-e a Statisztika kalkulátort?</h3><p>Nem. A Statisztika-kalkulátor adathalmazokat foglal össze (átlag, medián, szórás). Ez az oldal esemény-valószínűségekkel és számlálással dolgozik — egy tipikus valószínűségi és statisztikai kurzus másik fele.</p></div>
+<h2 class="sec">Related Kalkulátorok</h2><div class="grid"><a class="card" href="../percentage-calculator/"><div class="ic">％</div><h3>Százalékkalkulátor</h3><p>Matematika</p></a><a class="card" href="../statistics-calculator/"><div class="ic">📊</div><h3>Statistics Kalkulátor</h3><p>Matematika</p></a><a class="card" href="../fraction-calculator/"><div class="ic">½</div><h3>Törtkalkulátor</h3><p>Matematika</p></a><a class="card" href="../equation-solver/"><div class="ic">🧮</div><h3>Egyenletmegoldó</h3><p>Matematika</p></a><a class="card" href="../scientific-calculator/"><div class="ic">🔬</div><h3>Tudományos-kalkulátor</h3><p>Matematika</p></a><a class="card" href="../average-calculator/"><div class="ic">📐</div><h3>Átlagkalkulátor</h3><p>Matematika</p></a><a class="card" href="../dice-roller/"><div class="ic">🎲</div><h3>Dobókocka-dobó</h3><p>Szórakozás</p></a><a class="card" href="../coin-flip/"><div class="ic">🪙</div><h3>Érmefeldobás</h3><p>Szórakozás</p></a></div>
+</div>
+<section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>Hogyan működik — a képlet</h2>
+<p><strong>Független események:</strong> P(A and B) = P(A) × P(B); P(A or B) = P(A) + P(B) − P(A)×P(B); P(neither) = (1 − P(A)) × (1 − P(B)); P(exactly one) = P(A or B) − P(A and B). <strong>Kölcsönösen kizáró:</strong> P(mindkettő) = 0 és P(A or B) = P(A) + P(B). <strong>Számlálás:</strong> P(n, r) = n! ÷ (n−r)! és C(n, r) = n! ÷ (r! × (n−r)!).</p>
+<h3>Kidolgozott példa</h3><div class="exbox"><p><strong>Bemenetek:</strong> P(Egy) = 0.5, P(B) = 0.5, független; és n = 10, r = 3.</p><p><strong>Lépések:</strong> Mindkettő = 0.5 × 0.5 = 0.25. Bármelyik = 0.5 + 0.5 − 0.25 = 0.75. Egyik sem = 0.5 × 0.5 = 0.25. Pontosan egy = 0.75 − 0.25 = 0.50. C(10, 3) = 10! ÷ (3! × 7!) = (10 × 9 × 8) ÷ 6 = 120. P(10, 3) = 10 × 9 × 8 = 720.</p><p><strong>Eredmény:</strong> Mindkettő <strong>25%</strong>, akár <strong>75%</strong>, pontosan egy <strong>50%</strong>; C(10, 3) = <strong>120</strong>, P(10, 3) = <strong>720</strong>.</p></div>
+
+</section>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Ágyazza be ezt a kalkulátort a weboldalába — ingyen</h2>
+<p style="margin:0 0 12px;line-height:1.6">Adja hozzá ezt a kalkulátort saját weboldalához vagy blogjához — teljesen ingyenes, regisztráció nem kell hozzá, és mindig a legújabb verziót mutatja. Másolja ki az alábbi kódot, és illessze be oldalába oda, ahová a kalkulátort szeretné. A kis &ldquo;Powered by Loona Automation&rdquo; jóváírási sor megtartása a beágyazás alatt segít ezt az eszközt ingyenesen tartani &mdash; de szabadon formázhatja vagy eltávolíthatja; az eszköz így is, úgy is működik.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/hu/probability-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Probability Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Készítette &lt;a href="https://loonaautomation.github.io/loona-calculators/hu/probability-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; ingyenes Valószínűség-kalkulátor&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Beágyazókód másolása</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='Beágyazási kód másolása';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Popular Kalkulátorok</h4><ul><li><a href="../age-calculator/">Életkor-kalkulátor</a></li>
+<li><a href="../zakat-calculator/">Zakátkalkulátor</a></li>
+<li><a href="../cgpa-calculator/">CGPA-kalkulátor</a></li>
+<li><a href="../percentage-calculator/">Százalékkalkulátor</a></li>
+<li><a href="../hijri-date-converter/">Hidzsri dátumátváltó</a></li>
+<li><a href="../emi-calculator/">EMI- és hitelkalkulátor</a></li></ul></div>
+<div><h4>Több Loona Eszközök</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Képtömörítő</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI-asszisztens</a></li>
+<li><a href="https://loonaautomation.github.io/">Összes Loona eszköz</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">Rólunk</a></li>
+<li><a href="../contact.html">Kapcsolat</a></li>
+<li><a href="../privacy-policy.html">Privacy Policy</a></li>
+<li><a href="../terms.html">Feltételek Használat</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — egy <a href="https://loonaautomation.github.io/">Loona Automation</a> projekt. Ingyenes online kalkulátorok, regisztráció nélkül.
+Kapcsolat: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+
+/*TESTABLE_START*/
+function normProb(x){if(x>1)return x/100;return x;}
+function probTwo(a,b,mode){
+  a=normProb(a);b=normProb(b);
+  if(!(a>=0&&a<=1)||!(b>=0&&b<=1))return null;
+  if(mode==="excl"){if(a+b>1)return null;return {both:0,either:a+b,neither:1-(a+b),exactlyOne:a+b};}
+  var both=a*b;return {both:both,either:a+b-both,neither:(1-a)*(1-b),exactlyOne:a+b-2*both};
+}
+function fact(n){var r=1;for(var i=2;i<=n;i++)r*=i;return r;}
+function nCr(n,r){if(r<0||r>n||n<0)return null;return fact(n)/(fact(r)*fact(n-r));}
+function nPr(n,r){if(r<0||r>n||n<0)return null;return fact(n)/fact(n-r);}
+function oddsText(p){if(p<=0)return "0 : 1";if(p>=1)return "certain";var o=p/(1-p);return (Math.round(o*100)/100)+" : 1 mellette";}
+/*TESTABLE_END*/
+document.getElementById('pbForm').addEventListener('submit',function(e){e.preventDefault();
+ var r=probTwo(parseFloat(document.getElementById('pbA').value),parseFloat(document.getElementById('pbB').value),document.getElementById('pbMode').value);
+ var n=parseInt(document.getElementById('pbN').value,10), rr=parseInt(document.getElementById('pbR').value,10);
+ var box=document.getElementById('pbResult'); box.style.display='block';
+ if(!r){box.innerHTML='<p class="err">Adjon meg valószínűségeket 0 és 1 között (vagy 0–100 százalékként). Egymást kizáró eseményeknél a két valószínűség összege legfeljebb 1 lehet.</p>';return;}
+ function pc(x){return (x*100).toFixed(2)+'%';}
+ var html='<div class="resbig"><span>P(A vagy B) — legalább az egyik bekövetkezik</span><strong>'+pc(r.either)+'</strong></div>'
+ +'<table class="restbl"><tr><td>P(A és B) — mindkettő</td><td><strong>'+pc(r.both)+'</strong></td></tr>'
+ +'<tr><td>P(egyik sem)</td><td><strong>'+pc(r.neither)+'</strong></td></tr>'
+ +'<tr><td>P(pontosan egy)</td><td><strong>'+pc(r.exactlyOne)+'</strong></td></tr>'
+ +'<tr><td>Esélyek az A eseményre</td><td><strong>'+oddsText(normProb(parseFloat(document.getElementById('pbA').value)))+'</strong></td></tr></table>';
+ var c=nCr(n,rr), p=nPr(n,rr);
+ if(c!==null&&p!==null)html+='<table class="restbl"><tr><td>C('+n+', '+rr+') kombináció</td><td><strong>'+c.toLocaleString('en-US')+'</strong></td></tr><tr><td>P('+n+', '+rr+') permutáció</td><td><strong>'+p.toLocaleString('en-US')+'</strong></td></tr></table>';
+ box.innerHTML=html;});
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Alkalmazás telepítése';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Telepítse ezt az alkalmazást: koppintson a Megosztás gombra, majd válassza a „Hozzáadás a kezdőképernyőhöz” lehetőséget.');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

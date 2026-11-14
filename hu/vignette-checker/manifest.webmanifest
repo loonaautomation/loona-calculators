@@ -1,0 +1,29 @@
+{
+  "name": "Loona Matrica Checker",
+  "short_name": "Matrica Checker",
+  "description": "Ingyenes matricaellenőrző: válassza ki az európai országokat a vezetési útvonalán, és nézze meg, melyekben kell autópálya-matrica, melyekben van útdíj, és melyek ingyenesek az autók számára.",
+  "id": "/loona-calculators/hu/vignette-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

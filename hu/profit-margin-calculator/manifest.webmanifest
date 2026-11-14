@@ -1,0 +1,29 @@
+{
+  "name": "Loona Haszonkulcs-kalkulátor",
+  "short_name": "Haszonkulcs-kalkulátor",
+  "description": "Ingyenes haszonkulcs-kalkulátor: adja meg a beszerzési és az eladási árat, és azonnal megkapja a nyereséget, a haszonkulcs százalékát és a felár százalékát. Boltoknak és online eladóknak.",
+  "id": "/loona-calculators/hu/profit-margin-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

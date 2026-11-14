@@ -1,0 +1,29 @@
+{
+  "name": "Loona EMI-kalkulátor",
+  "short_name": "EMI-kalkulátor",
+  "description": "Ingyenes EMI- és hitelkalkulátor: adja meg a hitelösszeget, a kamat- vagy nyereségrátát és a futamidőt a havi befizetés, a teljes kamat és a teljes befizetés megkapásához. Banki hitelekre, autó- és személyi hitelekre.",
+  "id": "/loona-calculators/hu/emi-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

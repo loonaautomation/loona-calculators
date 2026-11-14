@@ -1,0 +1,29 @@
+{
+  "name": "Loona Mértékegység Átváltó",
+  "short_name": "Mértékegység átváltó",
+  "description": "Ingyenes mértékegység-átváltó: váltsa át a hossz-, súly-, hőmérséklet-, térfogat- és területmértékegységeket pontos szabványfaktorokkal — km mérföldre, kg fontra, Celsius Fahrenheitre.",
+  "id": "/loona-calculators/hu/unit-converter/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

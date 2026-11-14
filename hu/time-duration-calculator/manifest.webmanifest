@@ -1,0 +1,29 @@
+{
+  "name": "Loona Idő Időtartam Kalkulátor",
+  "short_name": "Idő Időtartam Kalkulátor",
+  "description": "Ingyenes időtartam-kalkulátor: adjon meg egy kezdő és egy befejező időpontot, és megkapja az időtartamot órában és percben, az összes percet és a tizedes órát. Éjfélen át is helyesen számol.",
+  "id": "/loona-calculators/hu/time-duration-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

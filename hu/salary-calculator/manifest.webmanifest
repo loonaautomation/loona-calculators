@@ -1,0 +1,29 @@
+{
+  "name": "Loona Fizetés Adó Kalkulátor Pakisztán 2026",
+  "short_name": "Béradó-kalkulátor",
+  "description": "Ingyenes pakisztáni fizetési adókalkulátor (2026-as adóév): adja meg havi bruttó fizetését, hogy lássa a havi és éves jövedelemadót, a nettó hazavihető fizetést és az effektív adókulcsot. FBR fizetési sávok.",
+  "id": "/loona-calculators/hu/salary-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

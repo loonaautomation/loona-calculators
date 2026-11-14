@@ -1,0 +1,29 @@
+{
+  "name": "Loona Meredekség-kalkulátor",
+  "short_name": "Meredekség-kalkulátor",
+  "description": "Ingyenes meredekségkalkulátor: adjon meg két pontot, és megkapja a meredekséget, a köztük lévő távolságot, a felezőpontot és az egyenes egyenletét meredekség-metszék alakban, levezetéssel.",
+  "id": "/loona-calculators/hu/slope-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

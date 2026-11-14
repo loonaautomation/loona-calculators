@@ -1,0 +1,29 @@
+{
+  "name": "Loona másodperc–óra átváltó",
+  "short_name": "Másodperc–óra átváltó",
+  "description": "Másodperc átváltása órára azonnal. Pontos képlet, teljes s–h átváltási táblázat, kidolgozott példa és gyakori kérdések. Ingyenes, regisztráció nélkül.",
+  "id": "/loona-calculators/hu/seconds-to-hours-converter.html",
+  "start_url": "./seconds-to-hours-converter.html",
+  "scope": "./seconds-to-hours-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

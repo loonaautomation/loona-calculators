@@ -1,0 +1,29 @@
+{
+  "name": "Loona Lakbéremelés-kalkulátor",
+  "short_name": "Lakbér Növekedés Kalkulátor",
+  "description": "Ingyenes lakbéremelés-kalkulátor: adja meg a jelenlegi lakbérét és a százalékos emelést (vagy az új lakbért), és nézze meg az új havi lakbért, a plusz költséget havonta és évente, valamint egy évenkénti előrejelzést.",
+  "id": "/loona-calculators/hu/rent-increase-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Tournament Bracket Generátor",
+  "short_name": "Tournament Bracket Generátor",
+  "description": "Ingyenes versenyágrajz-generátor: adja meg a résztvevőket, és kapjon egy megfelelően kiemelt egyenes kieséses ágrajzot a szabad továbbjutások kezelésével — esportokhoz, sportnapokhoz, sakkozáshoz és kvízekhez.",
+  "id": "/loona-calculators/hu/tournament-bracket-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

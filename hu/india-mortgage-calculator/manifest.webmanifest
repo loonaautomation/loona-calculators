@@ -1,0 +1,29 @@
+{
+  "name": "Loona Indiai lakáshitel-EMI kalkulátor",
+  "short_name": "Indiai lakáshitel-EMI kalkulátor",
+  "description": "Ingyenes indiai lakáshitel-EMI kalkulátor rúpiában: havi EMI, teljes kamat és adósságmentes dátum bármilyen ingatlanárra, önerőre, kamatlábra és futamidőre, plusz egy előtörlesztési összehasonlítás.",
+  "id": "/loona-calculators/hu/india-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

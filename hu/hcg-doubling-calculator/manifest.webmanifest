@@ -1,0 +1,29 @@
+{
+  "name": "Loona hCG Doubling Idő Kalkulátor",
+  "short_name": "hCG-duplázódási idő kalkulátor",
+  "description": "Ingyenes hCG-duplázódási kalkulátor: adjon meg két béta-hCG-eredményt és a vérvételek közötti órákat, és megkapja a duplázódási időt, a százalékos emelkedést és a napi növekedést. Csak oktatási célra.",
+  "id": "/loona-calculators/hu/hcg-doubling-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

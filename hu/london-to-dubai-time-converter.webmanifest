@@ -1,0 +1,29 @@
+{
+  "name": "Loona London–Dubaj időátváltó",
+  "short_name": "London–Dubaj időátváltó",
+  "description": "Váltsa át London idejét Dubaj idejére. Dubaj januárban 4 órával jár London előtt, júliusban pedig 3 órával, nyári időszámítási dátumokkal, 24 órás táblázattal és a legjobb találkozóablakkal. Élő átváltót tartalmaz.",
+  "id": "/loona-calculators/hu/london-to-dubai-time-converter.html",
+  "start_url": "./london-to-dubai-time-converter.html",
+  "scope": "./london-to-dubai-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
