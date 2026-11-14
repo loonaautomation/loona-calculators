@@ -148,7 +148,7 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 </div>
 <p id="cdMsg" style="font-size:16px;margin:12px 0 2px"></p>
 </div></div>
-<section class="txt"><h2>Amikor van Újév?</h2>
+<section class="txt"><h2>Mikor van Újév?</h2>
 <p>Az újév napja január 1-jén nyitja a gregorián naptári évet — először a csendes-óceáni szigetországok köszöntik, és körülbelül 26 órával később utoljára az USA külterületi szigetei, így ez az év legglobálisabban megosztott visszaszámlálása.</p>
 <p><strong>Dátumszabály:</strong> Minden év január 1-je. 2026-ban újév napja erre a napra esik: <strong>Csütörtök, 2026. január 1.</strong>.</p>
 
@@ -167,7 +167,7 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Beágyazókód másolása</button></p>
 </div>
 <script>
-(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='Beágyazási kód másolása';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Másolva!';setTimeout(function(){b.textContent='Beágyazási kód másolása';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
 </script>
 <footer><div class="fin">
 <div class="cols">

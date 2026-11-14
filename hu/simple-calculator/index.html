@@ -225,7 +225,7 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Beágyazókód másolása</button></p>
 </div>
 <script>
-(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='Beágyazási kód másolása';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Másolva!';setTimeout(function(){b.textContent='Beágyazási kód másolása';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
 </script>
 
 <footer><div class="fin">
@@ -272,7 +272,7 @@ function createSimpleCalc() {
     lastOp = null; lastOperand = null; error = null; expr = "";
   }
   function clean(v) {
-    if (typeof v !== "number" || isNaN(v)) throw new Error("Invalid calculation");
+    if (typeof v !== "number" || isNaN(v)) throw new Error("Érvénytelen számítás");
     if (!isFinite(v)) throw new Error("Az eredmény túl nagy");
     var r = parseFloat(v.toPrecision(12));   // kills float noise: 0.1+0.2 -> 0.3
     return Object.is(r, -0) ? 0 : r;
@@ -286,7 +286,7 @@ function createSimpleCalc() {
         if (b === 0) throw new Error("Nullával nem lehet osztani");
         return a / b;
     }
-    throw new Error("Unknown operator");
+    throw new Error("Ismeretlen operátor");
   }
   function num() { var v = parseFloat(cur); return isNaN(v) ? 0 : v; }
 
@@ -483,7 +483,7 @@ if(typeof document!=="undefined"){
       copyBtn.addEventListener("click",function(){
         if(calc.hasError()){note("Még nincs másolnivaló.");return;}
         var plain=calc.getDisplay().replace(/,/g,"").replace(/\u2212/g,"-");
-        var done=function(){copyBtn.textContent="Copied!";setTimeout(function(){copyBtn.textContent="Copy result";},2000);};
+        var done=function(){copyBtn.textContent="Másolva!";setTimeout(function(){copyBtn.textContent="Copy result";},2000);};
         if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(plain).then(done,function(){note("A másolás sikertelen — a válasz: "+calc.getDisplay());});}
         else{note("A válasz: "+calc.getDisplay());}
       });

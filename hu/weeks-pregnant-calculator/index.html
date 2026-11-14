@@ -141,7 +141,7 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <div class="exbox"><strong>Gyors válasz:</strong> A terhességi kort az utolsó menstruáció első napjától számolják. Terhességi hetek = az LMP óta eltelt napok ÷ 7. A szülési dátum LMP + 280 nap, tehát szülési dátumból: terhességi hetek = (280 − a szülési dátumig hátralévő napok) ÷ 7.</div>
 <div class="toolbox"><form class="calcform" id="wpForm">
 <div class="fld"><label for="wpMode">Ismerem a…</label><select id="wpMode"><option value="lmp">Utolsó menstruáció dátuma (LMP)</option><option value="due">Szülés várható időpontja</option></select></div>
-<div class="fld"><label for="wpDate">Az dátum</label><input type="date" id="wpDate" required></div>
+<div class="fld"><label for="wpDate">Az a dátum</label><input type="date" id="wpDate" required></div>
 <div class="fld"><label for="wpAt">Mér dátum</label><input type="date" id="wpAt"></div>
 <button class="calcbtn" type="submit">Hány hetes terhes vagyok?</button>
 <div class="calcresult" id="wpResult" style="display:none"></div>
@@ -164,7 +164,7 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Beágyazókód másolása</button></p>
 </div>
 <script>
-(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='Beágyazási kód másolása';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Másolva!';setTimeout(function(){b.textContent='Beágyazási kód másolása';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
 </script>
 <footer><div class="fin">
 <div class="cols">
@@ -213,7 +213,7 @@ document.getElementById('wpForm').addEventListener('submit',function(e){e.preven
  var box=document.getElementById('wpResult'); box.style.display='block';
  if(!r){box.innerHTML='<p class="err">Kérjük, ellenőrizze a dátumokat — a mérés dátumának az utolsó menstruáció után és egy terhességi hosszúságú időszakon belül kell lennie.</p>';return;}
  box.innerHTML='<div class="resbig"><span>Ön </span><strong>'+r.weeks+' hét + '+r.days+' napos terhes</strong></div>'
- +'<table class="restbl"><tr><td>Trimester</td><td><strong>'+["","First","Second","Third"][r.trimester]+'</strong></td></tr>'
+ +'<table class="restbl"><tr><td>Trimester</td><td><strong>'+["","Első","Második","Harmadik"][r.trimester]+'</strong></td></tr>'
  +'<tr><td>Esedékesség dátuma</td><td><strong>'+dFmt(r.due)+'</strong></td></tr>'
  +'<tr><td>Hátralévő napok</td><td><strong>'+r.remaining+'</strong></td></tr></table>'
  +'<p class="resnote">Csak oktatási becslés — a kezelőcsapata által meghatározott dátum az irányadó.</p>';});

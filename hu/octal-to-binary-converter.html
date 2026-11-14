@@ -140,7 +140,7 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Beágyazókód másolása</button></p>
 </div>
 <script>
-(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='Beágyazási kód másolása';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Másolva!';setTimeout(function(){b.textContent='Beágyazási kód másolása';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
 </script>
 <footer><div class="fin">
 <div class="cols">
@@ -169,7 +169,7 @@ Kapcsolat: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com<
 var BA=8,BB=2,DIG="01234567";
 function nbRun(){var el=document.getElementById("nbIn");var s=el.value.trim().toUpperCase();var eq=document.getElementById("nbEq"),out=document.getElementById("nbOut"),err=document.getElementById("nbErr");
 if(!s){out.textContent="—";err.style.display="none";return;}
-for(var i=0;i<s.length;i++){if(DIG.indexOf(s[i])<0){err.textContent="Invalid digit '"+s[i]+"' for base "+BA+" (megengedett: "+DIG+").";err.style.display="block";out.textContent="—";return;}}
+for(var i=0;i<s.length;i++){if(DIG.indexOf(s[i])<0){err.textContent="Érvénytelen számjegy ('"+s[i]+"') ebben a számrendszerben: "+BA+" (megengedett: "+DIG+").";err.style.display="block";out.textContent="—";return;}}
 err.style.display="none";var v=parseInt(s,BA);if(!isFinite(v)){out.textContent="—";return;}
 eq.textContent=s+" =";out.textContent=v.toString(BB).toUpperCase();}
 document.getElementById("nbIn").addEventListener("input",nbRun);

@@ -169,7 +169,7 @@ Seed 8</textarea></div>
 <p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Beágyazókód másolása</button></p>
 </div>
 <script>
-(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='Beágyazási kód másolása';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Másolva!';setTimeout(function(){b.textContent='Beágyazási kód másolása';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
 </script>
 <footer><div class="fin">
 <div class="cols">
@@ -230,9 +230,9 @@ document.getElementById('tbForm').addEventListener('submit',function(e){e.preven
  var html='<div class="resbig"><span>Ágméret '+br.size+'</span><strong>'+br.rounds+' forduló'+(br.byes?' · '+br.byes+' bye'+(br.byes>1?'s':''):'')+'</strong></div>';
  br.matches.forEach(function(m,i){
    if(m.bye)html+='<p style="margin:7px 0"><strong>Bye:</strong> ('+m.a.seed+') '+esc(m.a.name)+' közvetlenül továbbjut</p>';
-   else html+='<p style="margin:7px 0"><strong>Match '+(i+1)+':</strong> ('+m.a.seed+') '+esc(m.a.name)+' vs ('+m.b.seed+') '+esc(m.b.name)+'</p>';
+   else html+='<p style="margin:7px 0"><strong>Match '+(i+1)+':</strong> ('+m.a.seed+') '+esc(m.a.name)+' vs. ('+m.b.seed+') '+esc(m.b.name)+'</p>';
  });
- var rn=["Final","Semi-finals","Quarter-finals","Round of 16","Round of 32"];
+ var rn=["Döntő","Elődöntő","Negyeddöntő","Nyolcaddöntő (16)","Tizenhatoddöntő (32)"];
  html+='<p class="resnote">A szomszédos mérkőzések győztesei a következő fordulóban találkoznak, végül a(z) '+rn[br.rounds-1]+' a két fél győztesei között.</p>';
  box.innerHTML=html;});
 

@@ -172,7 +172,7 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Beágyazókód másolása</button></p>
 </div>
 <script>
-(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='Beágyazási kód másolása';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Másolva!';setTimeout(function(){b.textContent='Beágyazási kód másolása';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
 </script>
 <footer><div class="fin">
 <div class="cols">
@@ -296,7 +296,7 @@ document.getElementById('sgPlanBtn').addEventListener('click',function(){
   var start=document.getElementById('sgPlanStart').value, days=parseInt(document.getElementById('sgPlanDays').value,10);
   if(!start||!(days>=1&&days<=180)){box.innerHTML='<p class="err">Adja meg a tervezett belépési dátumot és egy 1-180 napos időtartamot.</p>';return;}
   var r=planTripCheck(trips,start,days);
-  box.innerHTML='<div class="resbig"><span>A tervezett utazás értékelése</span><strong>'+(r.compliant?'COMPLIANT':'NOT COMPLIANT')+'</strong></div>'
+  box.innerHTML='<div class="resbig"><span>A tervezett utazás értékelése</span><strong>'+(r.compliant?'COMPLIANT':'NEM MEGFELELŐ')+'</strong></div>'
    +'<table class="restbl"><tr><td>Tervezett kilépési dátum</td><td><strong>'+r.planEnd+'</strong></td></tr>'
    +'<tr><td>A legmagasabb gördülő időszakbeli darabszám az utazás alatt</td><td><strong>'+r.maxPresence+' / 90</strong></td></tr>'
    +(r.firstViolation?'<tr><td>Első nap a határ felett</td><td><strong>'+r.firstViolation+'</strong></td></tr>':'')
