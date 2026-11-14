@@ -176,7 +176,7 @@ Kapcsolat: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com<
 <script>
 "use strict";
 function cvFmt(x){if(!isFinite(x))return"";if(x===0)return"0";var r=parseFloat(x.toPrecision(6));return String(r);}
-function cvRun(){var el=document.getElementById("cvIn");var v=parseFloat(el.value);var eq=document.getElementById("cvEq"),out=document.getElementById("cvOut");if(isNaN(v)){eq.textContent="";out.textContent="—";return;}var r=(v*1.6534391534391535e-09);eq.textContent=cvFmt(v)+" ms =";out.textContent=cvFmt(r)+" wk";}
+function cvRun(){var el=document.getElementById("cvIn");var v=parseFloat(el.value);var eq=document.getElementById("cvEq"),out=document.getElementById("cvOut");if(isNaN(v)){eq.textContent="";out.textContent="—";return;}var r=(v*1.6534391534391535e-09);eq.textContent=cvFmt(v)+" ms =";out.textContent=cvFmt(r)+" hét";}
 document.getElementById("cvIn").addEventListener("input",cvRun);
 document.getElementById("cvForm").addEventListener("submit",function(e){e.preventDefault();cvRun();});
 cvRun();

@@ -192,7 +192,7 @@ Kapcsolat: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com<
 
 function dParse(s){var p=s.split("-");return Date.UTC(+p[0],+p[1]-1,+p[2])/86400000;}
 function dISO(d){var x=new Date(d*86400000);return x.getUTCFullYear()+"-"+String(x.getUTCMonth()+1).padStart(2,"0")+"-"+String(x.getUTCDate()).padStart(2,"0");}
-function dFmt(s){var M=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];var p=s.split("-");return (+p[2])+" "+M[(+p[1])-1]+" "+p[0];}
+function dFmt(s){var M=["jan.","febr.","márc.","ápr.","máj.","jún.","júl.","aug.","szept.","okt.","nov.","dec."];var p=s.split("-");return (+p[2])+" "+M[(+p[1])-1]+" "+p[0];}
 
 /*TESTABLE_START*/
 function dParse(s){var p=s.split("-");return Date.UTC(+p[0],+p[1]-1,+p[2])/86400000;}

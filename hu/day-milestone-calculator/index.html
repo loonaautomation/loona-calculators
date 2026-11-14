@@ -151,7 +151,7 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 </div>
 <section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>Hogyan működik — a képlet</h2>
 <p><strong>Mérföldkő dátuma = kezdő dátum + N nap</strong>, pontos naptári aritmetikával számítva (a szökőéveket is beleértve). Életkor napokban ma = ma − kezdő dátum. A következő mérföldkő a listából {1,000, 2,500, 5,000, 7,500, 10,000, 15,000, 20,000, 25,000, 30,000, 40,000} a legkisebb kerek szám, amely még a jövőben van. Megállapodás: maga a kezdő dátum a 0. nap, tehát „10,000 napos" azt jelenti: kezdés + 10,000 nap.</p>
-<h3>Kidolgozott példa</h3><div class="exbox"><p><strong>Bemenet:</strong> 2000. jan. 1-jén született.</p><p><strong>Lépések:</strong> +1,000 nap: 2000 szökőév (366 nap 2001. január 1-jéig), marad 634; 2001 hozzáad 365-öt, marad 269 nap 2002-ben; 2002. január 1. utáni 269. nap 2002. szeptember 27. +10,000 nap: 27 év 2027. január 1-jéig = 27 × 365 + 7 szökőnap = 9,862 nap; további 138 nap 2027-ben (január 31, február 59, március 90, április 120, majd 18 nap májusba) május 19-re, 2027-re esik.</p><p><strong>Eredmény:</strong> 10,000. nap = <strong>19 May 2027</strong>; a 20,000. nap = <strong>4 okt. 2054</strong>.</p></div>
+<h3>Kidolgozott példa</h3><div class="exbox"><p><strong>Bemenet:</strong> 2000. jan. 1-jén született.</p><p><strong>Lépések:</strong> +1,000 nap: 2000 szökőév (366 nap 2001. január 1-jéig), marad 634; 2001 hozzáad 365-öt, marad 269 nap 2002-ben; 2002. január 1. utáni 269. nap 2002. szeptember 27. +10,000 nap: 27 év 2027. január 1-jéig = 27 × 365 + 7 szökőnap = 9,862 nap; további 138 nap 2027-ben (január 31, február 59, március 90, április 120, majd 18 nap májusba) május 19-re, 2027-re esik.</p><p><strong>Eredmény:</strong> 10,000. nap = <strong>2027. május 19.</strong>; a 20,000. nap = <strong>4 okt. 2054</strong>.</p></div>
 
 </section>
 <div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
@@ -190,7 +190,7 @@ Kapcsolat: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com<
 
 function dParse(s){var p=s.split("-");return Date.UTC(+p[0],+p[1]-1,+p[2])/86400000;}
 function dISO(d){var x=new Date(d*86400000);return x.getUTCFullYear()+"-"+String(x.getUTCMonth()+1).padStart(2,"0")+"-"+String(x.getUTCDate()).padStart(2,"0");}
-function dFmt(s){var M=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];var p=s.split("-");return (+p[2])+" "+M[(+p[1])-1]+" "+p[0];}
+function dFmt(s){var M=["jan.","febr.","márc.","ápr.","máj.","jún.","júl.","aug.","szept.","okt.","nov.","dec."];var p=s.split("-");return (+p[2])+" "+M[(+p[1])-1]+" "+p[0];}
 
 /*TESTABLE_START*/
 function dParse(s){var p=s.split("-");return Date.UTC(+p[0],+p[1]-1,+p[2])/86400000;}

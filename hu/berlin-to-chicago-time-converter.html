@@ -178,7 +178,7 @@ var o1=off("Europe/Berlin",utcGuess);var realUTC=utcGuess-o1*60000;
 var o2=off("America/Chicago",realUTC);var target=new Date(realUTC+o2*60000);
 function p(n){return String(n).padStart(2,"0");}
 eq.textContent="Berlin → Chicago";
-out.textContent=p(target.getUTCHours())+":"+p(target.getUTCMinutes())+" on "+target.getUTCDate()+" "+["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"][target.getUTCMonth()]+" "+target.getUTCFullYear();}
+out.textContent=p(target.getUTCHours())+":"+p(target.getUTCMinutes())+" on "+target.getUTCDate()+" "+["jan.","febr.","márc.","ápr.","máj.","jún.","júl.","aug.","szept.","okt.","nov.","dec."][target.getUTCMonth()]+" "+target.getUTCFullYear();}
 document.getElementById("tzIn").addEventListener("input",tzRun);
 document.getElementById("cvForm").addEventListener("submit",function(e){e.preventDefault();tzRun();});
 tzRun();

@@ -152,7 +152,7 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 </div>
 <section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>Hogyan működik — a képlet</h2>
 <p><strong>Egyenértékű LMP = transzfer dátuma − (14 + embrió kora) nap.</strong> <strong>Szülés várható időpontja = egyenértékű LMP + 280 nap</strong>, ami egyszerűsítve: transzfer + 263 nap (3. napi embrió) vagy transzfer + 261 nap (5. napi embrió). A terhességi kor bármely napon = az egyenértékű utolsó menstruáció óta eltelt napok száma, hetekben + napokban kifejezve.</p>
-<h3>Kidolgozott példa</h3><div class="exbox"><p><strong>Bemenetek:</strong> 5. napi átültetés 2026. márc. 2-án.</p><p><strong>Lépések:</strong> Egyenértékű LMP = márc. 2 − 19 nap = 2026. febr. 11. Szülési dátum = febr. 11 + 280 nap = 2026. nov. 18 (egyenértékűen márc. 2 + 261 nap: márc. 29 maradék + ápr. 30 + máj. 31 + jún. 30 + júl. 31 + aug. 31 + szept. 30 + okt. 31 = 243 nap okt. 31-ig, + 18 = nov. 18).</p><p><strong>Eredmény:</strong> Szülés várható időpontja <strong>18 November 2026</strong>.</p></div>
+<h3>Kidolgozott példa</h3><div class="exbox"><p><strong>Bemenetek:</strong> 5. napi átültetés 2026. márc. 2-án.</p><p><strong>Lépések:</strong> Egyenértékű LMP = márc. 2 − 19 nap = 2026. febr. 11. Szülési dátum = febr. 11 + 280 nap = 2026. nov. 18 (egyenértékűen márc. 2 + 261 nap: márc. 29 maradék + ápr. 30 + máj. 31 + jún. 30 + júl. 31 + aug. 31 + szept. 30 + okt. 31 = 243 nap okt. 31-ig, + 18 = nov. 18).</p><p><strong>Eredmény:</strong> Szülés várható időpontja <strong>2026. november 18.</strong>.</p></div>
 <p class="resnote"><strong>Egészségügyi felelősségkizárás:</strong> Csak oktatási célú becslés. Az Ön klinikájának dátumozása — beleértve minden dátumozó ultrahangot — elsőbbséget élvez.</p>
 </section>
 <div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
@@ -200,7 +200,7 @@ function ivfCalc(transferISO,embryoDay,todayISO){
   return {lmp:ivfISO(lmp),due:ivfISO(due),gestationalAtTransfer:"2 weeks + "+embryoDay+" nap",ga:ga};
 }
 /*TESTABLE_END*/
-function fmtD(s){var M=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];var p=s.split("-");return (+p[2])+" "+M[(+p[1])-1]+" "+p[0];}
+function fmtD(s){var M=["jan.","febr.","márc.","ápr.","máj.","jún.","júl.","aug.","szept.","okt.","nov.","dec."];var p=s.split("-");return (+p[2])+" "+M[(+p[1])-1]+" "+p[0];}
 document.getElementById('ivfForm').addEventListener('submit',function(e){e.preventDefault();
  var today=new Date().toISOString().slice(0,10);
  var r=ivfCalc(document.getElementById('ivfDate').value,parseInt(document.getElementById('ivfDay').value,10),today);

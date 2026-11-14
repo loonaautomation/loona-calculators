@@ -153,7 +153,7 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 </div>
 <section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>Hogyan működik — a képlet</h2>
 <p><strong>Következő periódus = LMP + ciklushossz.</strong> <strong>Ovuláció = következő periódus − 14 nap.</strong> <strong>Termékeny ablak = ovuláció − 5 naptól az ovuláció napjáig</strong> (a következő nap is szerepel, mivel a petesejt körülbelül 24 órán át életképes). A menstruáció előrejelzett vége LMP + ciklus hossza − 1 nap. Ugyanezt a ciklushosszt adjuk hozzá ismét a második és harmadik jövőbeli ciklus előrejelzéséhez.</p>
-<h3>Kidolgozott példa</h3><div class="exbox"><p><strong>Bemenetek:</strong> LMP 2026. október 1., ciklus 28 nap, menstruáció hossza 5 nap.</p><p><strong>Lépések:</strong> Következő periódus = 1 Oct + 28 nap = <strong>29 okt. 2026</strong>. Ovuláció = okt. 29. − 14 nap = <strong>15 okt. 2026</strong>. Termékeny időszak = okt. 15. − 5 nap = okt. 10-től okt. 15-ig (a kalkulátor okt. 16-át is megjegyzi). Menstruáció vége = okt. 1. + 5 − 1 = 2026. okt. 5. Következő menstruációk: okt. 29. + 28 = 2026. nov. 26., majd 2026. dec. 24.</p><p><strong>Eredmény:</strong> Következő periódus <strong>29 okt. 2026</strong>, ovuláció <strong>15 okt. 2026</strong>.</p></div>
+<h3>Kidolgozott példa</h3><div class="exbox"><p><strong>Bemenetek:</strong> LMP 2026. október 1., ciklus 28 nap, menstruáció hossza 5 nap.</p><p><strong>Lépések:</strong> Következő periódus = okt. 1. + 28 nap = <strong>29 okt. 2026</strong>. Ovuláció = okt. 29. − 14 nap = <strong>15 okt. 2026</strong>. Termékeny időszak = okt. 15. − 5 nap = okt. 10-től okt. 15-ig (a kalkulátor okt. 16-át is megjegyzi). Menstruáció vége = okt. 1. + 5 − 1 = 2026. okt. 5. Következő menstruációk: okt. 29. + 28 = 2026. nov. 26., majd 2026. dec. 24.</p><p><strong>Eredmény:</strong> Következő periódus <strong>29 okt. 2026</strong>, ovuláció <strong>15 okt. 2026</strong>.</p></div>
 <p class="resnote"><strong>Egészségügyi felelősségkizárás:</strong> Ez csak oktatási célú becslés, és nem orvosi tanács. Nem szabad önmagában támaszkodni rá fogamzásgátlási vagy terhességtervezési döntésekhez. Személyes tanácsért forduljon képzett egészségügyi szakemberhez.</p>
 </section>
 <div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
@@ -202,7 +202,7 @@ function periodCalc(lmp,cycle,plen){
     next2:addDaysISO(next,cycle), next3:addDaysISO(next,2*cycle)};
 }
 /*TESTABLE_END*/
-function fmtD(isoStr){var M=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];var W=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];var d=new Date(dUTC(isoStr));return W[d.getUTCDay()]+", "+d.getUTCDate()+" "+M[d.getUTCMonth()]+" "+d.getUTCFullYear();}
+function fmtD(isoStr){var M=["jan.","febr.","márc.","ápr.","máj.","jún.","júl.","aug.","szept.","okt.","nov.","dec."];var W=["vasárnap","hétfő","kedd","szerda","csütörtök","péntek","szombat"];var d=new Date(dUTC(isoStr));return W[d.getUTCDay()]+", "+d.getUTCDate()+" "+M[d.getUTCMonth()]+" "+d.getUTCFullYear();}
 document.getElementById('perForm').addEventListener('submit',function(e){e.preventDefault();
  var r=periodCalc(document.getElementById('perLmp').value, parseInt(document.getElementById('perCycle').value,10), parseInt(document.getElementById('perLen').value,10));
  var box=document.getElementById('perResult'); box.style.display='block';

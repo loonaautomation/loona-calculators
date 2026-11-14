@@ -221,14 +221,14 @@ function wdRow(l,v){return "<tr><td>"+l+"</td><td>"+v+"</td></tr>";}
 function wdRender(r,cn){
  var h="<div class=\"resbig\"><span>Munkanapok</span><strong>"+r.working+"</strong></div>";
  h+="<table class=\"restbl\">"+wdRow("Összes nap (mindkét dátummal együtt)",r.total)
-   +wdRow("Weekend days (Sat\u2013Sun)",r.weekend)
+   +wdRow("Hétvégi napok (szo–v)",r.weekend)
    +wdRow("Munkaszüneti napok a tartományban",r.holidays.length)
    +wdRow("ebből hétköznapra esik",r.holWeekday);
  if(r.extraWork>0)h+=wdRow("Plusz dolgozó szombatok a tartományban",r.extraWork);
  h+=wdRow("Kezdés",wdFmt(r.from))+wdRow("Befejezés",wdFmt(r.to))+"</table>";
  if(r.holidays.length){h+="<table class=\"restbl\">";for(var i=0;i<r.holidays.length;i++){var o=r.holidays[i];h+=wdRow(o.name,wdFmt(o.date)+(o.weekend?" (hétvége)":""));}h+="<tr><td><a href="working-days-in-bulgaria.html">🇧🇬 Bulgaria</a></td><td>18</td><td>13</td><td>248</td></tr><tr><td><a href="working-days-in-cyprus.html">🇨🇾 Cyprus</a></td><td>14</td><td>12</td><td>249</td></tr><tr><td><a href="working-days-in-estonia.html">🇪🇪 Estonia</a></td><td>12</td><td>9</td><td>252</td></tr><tr><td><a href="working-days-in-latvia.html">🇱🇻 Latvia</a></td><td>17</td><td>13</td><td>250</td></tr><tr><td><a href="working-days-in-lithuania.html">🇱🇹 Lithuania</a></td><td>16</td><td>10</td><td>251</td></tr><tr><td><a href="working-days-in-malta.html">🇲🇹 Malta</a></td><td>14</td><td>11</td><td>250</td></tr><tr><td><a href="working-days-in-slovakia.html">🇸🇰 Slovakia</a></td><td>11</td><td>7</td><td>254</td></tr><tr><td><a href="working-days-in-slovenia.html">🇸🇮 Slovenia</a></td><td>15</td><td>7</td><td>254</td></tr></table>";}
  var note="Munkanapok = hétfőtől péntekig, levonva "+cn+" szerepel ezen az oldalon.";
- if(r.from<new Date(2025,0,1)||r.to>new Date(2027,11,31))note+=" Holiday data covers 2025\u20132027; days outside that range are counted without holidays.";
+ if(r.from<new Date(2025,0,1)||r.to>new Date(2027,11,31))note+=" Az ünnepnap-adatok a 2025\u20132027-es évekre vonatkoznak; az ezen kívüli napokat ünnepnapok nélkül számoljuk.";
  h+="<p class=\"resnote\">"+note+"</p>";
  return h;}
 function wdRun(){
