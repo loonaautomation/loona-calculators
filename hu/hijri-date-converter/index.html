@@ -145,7 +145,7 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 </div>
 <section class="txt"><h2>Hogyan működik &mdash; a képlet</h2>
 <p>Az átváltó napok számolásával dolgozik. Egy hidzsri évnek 12 holdhónapja van, 29 vagy 30 napból, ami rendes évben 354 napot és szökőévben 355 napot tesz ki. A számított (táblázatos) iszlám naptárban &mdash; az Umm al-Qura-stílusú polgári naptárban &mdash; ezek a hóhosszak és szökőévek fix mintát követnek, ahelyett hogy a Hold megpillantására várnának, tehát bármely dátum átváltható pusztán számtannal.</p>
-<p><strong>A módszer:</strong> a dátumot a iszlám korszaktól (1 Muharram 1 AH) mért teljes napszámmá alakítják. Azt a számot ezután a hidzsri 30 éves ciklushoz illesztik &mdash; a 30 évből 11 szökőév 355 nappal &mdash; és hidzsri évre, hónapra és napra bontják. A 12 hónap: Muharram, Safar, Rabi' al-Awwal, Rabi' al-Thani, Jumada al-Ula, Jumada al-Akhirah, Rajab, Sha'ban, Ramadan, Shawwal, Dhul-Qa'dah és Dhul-Hijjah.</p>
+<p><strong>A módszer:</strong> a dátumot az iszlám korszaktól (1 Muharram 1 AH) mért teljes napszámmá alakítják. Azt a számot ezután a hidzsri 30 éves ciklushoz illesztik &mdash; a 30 évből 11 szökőév 355 nappal &mdash; és hidzsri évre, hónapra és napra bontják. A 12 hónap: Muharram, Safar, Rabi' al-Awwal, Rabi' al-Thani, Jumada al-Ula, Jumada al-Akhirah, Rajab, Sha'ban, Ramadan, Shawwal, Dhul-Qa'dah és Dhul-Hijjah.</p>
 <h3>Kidolgozott példa</h3>
 <div class="exbox"><strong>Példa:</strong> 2026. november 7. átváltva: <strong>Jumada al-Ula 28., 1448 AH</strong> az ebben az átváltóban használt számított naptárban. A nyomtatott naptárak egy nappal bármelyik oldalon mutathatnak &mdash; az Umm al-Qura naptár például ugyanazt a napot 27 Jumada al-Ula-ként sorolja fel &mdash; és egy helyben megpillantott dátum ismét eltérhet. Az egy napos különbség a naptárak között normális; ez nem azt jelenti, hogy az átváltás rossz.</div>
 <h3>Gyakori kérdések</h3></section>
@@ -1706,7 +1706,7 @@ Object.assign(CALCS,{
  run:function(v){
   var ML={"cup":236.588,"tbsp":14.787,"tsp":4.929,"ml":1,"l":1000};
   var G={"g":1,"oz":28.35,"lb":453.59};
-  var LAB={"cup":"amerikai csésze","tbsp":"tablespoon","tsp":"teaspoon","ml":"ml","l":"litre","g":"g","oz":"oz","lb":"lb"};
+  var LAB={"cup":"amerikai csésze","tbsp":"evőkanál","tsp":"teáskanál","ml":"ml","l":"liter","g":"g","oz":"oz","lb":"lb"};
   var amt=N(v.amt),dens=N(v.ing);
   if(amt<=0)return "ERR:Adja meg az átváltani kívánt összeget.";
   if(dens<=0)return "ERR:Kérjük, válasszon egy hozzávalót.";
