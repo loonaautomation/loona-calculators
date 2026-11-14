@@ -140,9 +140,9 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <p class="lead">Futtasson egymintás t-próbát összefoglaló statisztikákból: mintaközép, minta szórása, mintaméret és a vizsgált populációs átlag. Megkapja a t-statisztikát, a szabadságfokokat és az egy- és kétfarkú p-értékeket.</p>
 <div class="exbox"><strong>Gyors válasz:</strong> t = (x̄ − μ₀) ÷ (s ÷ √n), ahol df = n − 1. Mintaátlag 105, s = 15, n = 25, μ₀ = 100 tesztelése: t = 5 ÷ 3 = 1.667, 24 df mellett, kétoldali p ≈ 0.109 — 0.05 szinten nem szignifikáns.</div>
 <div class="toolbox"><form class="calcform" id="ttForm">
-<div class="fld"><label for="ttMean">Minta átlag (x̄)</label><input type="number" id="ttMean" value="105" step="any"></div>
-<div class="fld"><label for="ttSd">Minta szabványos eltérés (s)</label><input type="number" id="ttSd" value="15" step="any" min="0"></div>
-<div class="fld"><label for="ttN">Minta méret (n)</label><input type="number" id="ttN" value="25" min="2" max="1000000"></div>
+<div class="fld"><label for="ttMean">Mintaátlag (x̄)</label><input type="number" id="ttMean" value="105" step="any"></div>
+<div class="fld"><label for="ttSd">Mintaszórás (s)</label><input type="number" id="ttSd" value="15" step="any" min="0"></div>
+<div class="fld"><label for="ttN">Mintaméret (n)</label><input type="number" id="ttN" value="25" min="2" max="1000000"></div>
 <div class="fld"><label for="ttMu">Feltételezett átlag (μ₀)</label><input type="number" id="ttMu" value="100" step="any"></div>
 <button class="calcbtn" type="submit">t-próba futtatása</button>
 <div class="calcresult" id="ttResult" style="display:none"></div>
@@ -154,7 +154,7 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 </div>
 <section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>Hogyan működik — a képlet</h2>
 <p><strong>t = (x̄ − μ₀) ÷ (s ÷ √n)</strong>, df = n − 1. A p-értékek a t-eloszlás eloszlásfüggvényéből (CDF) származnak, a nem teljes béta-függvénnyel számítva — ugyanazok az értékek, amelyeket a statisztikai szoftverek adnak.</p>
-<h3>Kidolgozott példa</h3><div class="exbox"><p><strong>Bemenetek:</strong> x̄ = 105, s = 15, n = 25, μ₀ = 100.</p><p><strong>Lépések:</strong> Szabványos hiba = 15 ÷ √25 = 3. t = (105 − 100) ÷ 3 = 1.667. df = 24. A t-eloszlásból a kétoldali p ≈ 0.109.</p><p><strong>Eredmény:</strong> t = <strong>1.667</strong>, df 24, p ≈ <strong>0.109</strong> — 0.05 szinten nem szignifikáns.</p></div>
+<h3>Kidolgozott példa</h3><div class="exbox"><p><strong>Bemenetek:</strong> x̄ = 105, s = 15, n = 25, μ₀ = 100.</p><p><strong>Lépések:</strong> Standard hiba = 15 ÷ √25 = 3. t = (105 − 100) ÷ 3 = 1.667. df = 24. A t-eloszlásból a kétoldali p ≈ 0.109.</p><p><strong>Eredmény:</strong> t = <strong>1.667</strong>, df 24, p ≈ <strong>0.109</strong> — 0.05 szinten nem szignifikáns.</p></div>
 
 </section>
 <div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">

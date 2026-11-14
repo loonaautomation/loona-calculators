@@ -140,9 +140,9 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <p class="lead">Futtasson egy egymintás z-próbát arra az esetre, amikor a populáció szórása, σ, valóban ismert: adja meg a mintaátlagot, σ-t, a minta elemszámát és a feltételezett átlagot, hogy megkapja z-t és annak p-értékeit.</p>
 <div class="exbox"><strong>Gyors válasz:</strong> z = (x̄ − μ₀) ÷ (σ ÷ √n). Mintaátlag 105, σ = 15, n = 25, μ₀ = 100: z = 5 ÷ 3 = 1.667, kétfarkú p ≈ 0.0956 — közelebb a szignifikanciához, mint a t-próba ugyanazokon a számokon, mert a z feltételezi, hogy a σ pontosan ismert.</div>
 <div class="toolbox"><form class="calcform" id="ztForm">
-<div class="fld"><label for="ztMean">Minta átlag (x̄)</label><input type="number" id="ztMean" value="105" step="any"></div>
+<div class="fld"><label for="ztMean">Mintaátlag (x̄)</label><input type="number" id="ztMean" value="105" step="any"></div>
 <div class="fld"><label for="ztSd">Ismert populációs szórás (σ)</label><input type="number" id="ztSd" value="15" step="any" min="0"></div>
-<div class="fld"><label for="ztN">Minta méret (n)</label><input type="number" id="ztN" value="25" min="1" max="10000000"></div>
+<div class="fld"><label for="ztN">Mintaméret (n)</label><input type="number" id="ztN" value="25" min="1" max="10000000"></div>
 <div class="fld"><label for="ztMu">Feltételezett átlag (μ₀)</label><input type="number" id="ztMu" value="100" step="any"></div>
 <button class="calcbtn" type="submit">z-próba futtatása</button>
 <div class="calcresult" id="ztResult" style="display:none"></div>
@@ -154,7 +154,7 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 </div>
 <section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>Hogyan működik — a képlet</h2>
 <p><strong>z = (x̄ − μ₀) ÷ (σ ÷ √n)</strong>. A p-értékek a standard normális eloszlásfüggvényből, Φ-ből származnak: kétoldali p = 2 × (1 − Φ(|z|)).</p>
-<h3>Kidolgozott példa</h3><div class="exbox"><p><strong>Bemenetek:</strong> x̄ = 105, σ = 15, n = 25, μ₀ = 100.</p><p><strong>Lépések:</strong> Szabványos hiba = 15 ÷ 5 = 3. z = 5 ÷ 3 = 1.667. Φ(1.667) ≈ 0.9522. Kétoldali p = 2 × (1 − 0.9522) = 0.0956.</p><p><strong>Eredmény:</strong> z = <strong>1.667</strong>, p ≈ <strong>0.0956</strong>.</p></div>
+<h3>Kidolgozott példa</h3><div class="exbox"><p><strong>Bemenetek:</strong> x̄ = 105, σ = 15, n = 25, μ₀ = 100.</p><p><strong>Lépések:</strong> Standard hiba = 15 ÷ 5 = 3. z = 5 ÷ 3 = 1.667. Φ(1.667) ≈ 0.9522. Kétoldali p = 2 × (1 − 0.9522) = 0.0956.</p><p><strong>Eredmény:</strong> z = <strong>1.667</strong>, p ≈ <strong>0.0956</strong>.</p></div>
 
 </section>
 <div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">

@@ -141,9 +141,9 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <div class="exbox"><strong>Gyors válasz:</strong> Egy átlag 95%-os konfidenciaintervalluma x̄ ± 1.96 × σ ÷ √n, amikor σ ismert. Mintaátlag 100, σ = 15, n = 25: a hibahatár = 1.96 × 3 = 5.88, így az intervallum 94.12 és 105.88 között van.</div>
 <div class="toolbox"><form class="calcform" id="ciForm">
 <div class="fld"><label for="ciType">Intervallumtípus</label><select id="ciType"><option value="zmean">Átlag — népesség σ ismert (z)</option><option value="tmean">Átlag — minta SD (t)</option><option value="prop">Arány</option></select></div>
-<div class="fld"><label for="ciMean">Minta átlag / arány (0–1)</label><input type="number" id="ciMean" value="100" step="any"></div>
-<div class="fld"><label for="ciSd">Szabványos eltérés (σ vagy s)</label><input type="number" id="ciSd" value="15" step="any" min="0"></div>
-<div class="fld"><label for="ciN">Minta méret (n)</label><input type="number" id="ciN" value="25" min="2" max="10000000"></div>
+<div class="fld"><label for="ciMean">Mintaátlag / arány (0–1)</label><input type="number" id="ciMean" value="100" step="any"></div>
+<div class="fld"><label for="ciSd">Szórás (σ vagy s)</label><input type="number" id="ciSd" value="15" step="any" min="0"></div>
+<div class="fld"><label for="ciN">Mintaméret (n)</label><input type="number" id="ciN" value="25" min="2" max="10000000"></div>
 <div class="fld"><label for="ciLevel">Konfidenciaszint</label><select id="ciLevel"><option value="0.90">90%</option><option value="0.95" selected>95%</option><option value="0.99">99%</option></select></div>
 <button class="calcbtn" type="submit">Intervallum számítása</button>
 <div class="calcresult" id="ciResult" style="display:none"></div>
@@ -155,7 +155,7 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 </div>
 <section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>Hogyan működik — a képlet</h2>
 <p><strong>Átlag, σ ismert:</strong> x̄ ± z* × σ ÷ √n. <strong>Átlag, s ismert:</strong> x̄ ± t*(df = n − 1) × s ÷ √n, ahol a t* értékét a t CDF numerikus invertálásával kapjuk. <strong>Arány:</strong> p̂ ± z* × √(p̂(1 − p̂) ÷ n). Kritikus értékek: z* = Φ⁻¹((1 + szint) ÷ 2) — 1.645, 1.960, 2.576 a 90/95/99% szintekhez.</p>
-<h3>Kidolgozott példa</h3><div class="exbox"><p><strong>Bemenetek:</strong> átlag típus (σ ismert): x̄ = 100, σ = 15, n = 25, 95%.</p><p><strong>Lépések:</strong> Szabványos hiba = 15 ÷ √25 = 15 ÷ 5 = 3. Hibahatár = 1.960 × 3 = 5.88. Intervallum = 100 ± 5.88.</p><p><strong>Eredmény:</strong> <strong>94.12–105.88</strong>. T-módszeres ellenőrzés: ha ehelyett s = 15, akkor t*(24 szabadságfok) = 2.064, a hibahatár = 6.19, az intervallum 93.81-től 106.19-ig terjed — szélesebb, ahogyan annak lennie kell.</p></div>
+<h3>Kidolgozott példa</h3><div class="exbox"><p><strong>Bemenetek:</strong> átlag típus (σ ismert): x̄ = 100, σ = 15, n = 25, 95%.</p><p><strong>Lépések:</strong> Standard hiba = 15 ÷ √25 = 15 ÷ 5 = 3. Hibahatár = 1.960 × 3 = 5.88. Intervallum = 100 ± 5.88.</p><p><strong>Eredmény:</strong> <strong>94.12–105.88</strong>. T-módszeres ellenőrzés: ha ehelyett s = 15, akkor t*(24 szabadságfok) = 2.064, a hibahatár = 6.19, az intervallum 93.81-től 106.19-ig terjed — szélesebb, ahogyan annak lennie kell.</p></div>
 
 </section>
 <div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">

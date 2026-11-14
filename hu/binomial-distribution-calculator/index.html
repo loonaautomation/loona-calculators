@@ -140,9 +140,9 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <p class="lead">Adja meg a kísérletek számát n, a siker valószínűségét p és a k számot a pontos binomiális valószínűségekért: pontosan k siker, k vagy kevesebb, és k vagy több — az eloszlás átlagával és szórásával.</p>
 <div class="exbox"><strong>Gyors válasz:</strong> Binomiális: P(X = k) = C(n, k) × p^k × (1−p)^(n−k). 10 szabályos érmedobásra P(pontosan 5 fej) = 252 ÷ 1024 = 24.61%, és P(2 vagy kevesebb) = 5.47%.</div>
 <div class="toolbox"><form class="calcform" id="bnForm">
-<div class="fld"><label for="bnN">Trials (n)</label><input type="number" id="bnN" value="10" min="1" max="10000"></div>
-<div class="fld"><label for="bnP">Success valószínűség (p, 0–1)</label><input type="number" id="bnP" value="0.5" step="any" min="0" max="1"></div>
-<div class="fld"><label for="bnK">Successes (k)</label><input type="number" id="bnK" value="5" min="0" max="10000"></div>
+<div class="fld"><label for="bnN">Próbák (n)</label><input type="number" id="bnN" value="10" min="1" max="10000"></div>
+<div class="fld"><label for="bnP">Siker valószínűsége (p, 0–1)</label><input type="number" id="bnP" value="0.5" step="any" min="0" max="1"></div>
+<div class="fld"><label for="bnK">Sikerek (k)</label><input type="number" id="bnK" value="5" min="0" max="10000"></div>
 <button class="calcbtn" type="submit">Binomiális valószínűségek számítása</button>
 <div class="calcresult" id="bnResult" style="display:none"></div>
 </form></div>
