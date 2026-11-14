@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator ocjena",
+  "short_name": "Kalkulator ocjena",
+  "description": "Besplatni kalkulator ponderirane ocjene: unesite do 8 rezultata zadataka s njihovim težinama kako biste dobili ukupni postotak ocjene i slovnu ocjenu. Težine ne moraju ukupno iznositi 100.",
+  "id": "/loona-calculators/hr/grade-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

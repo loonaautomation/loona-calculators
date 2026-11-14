@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator normalne distribucije",
+  "short_name": "Kalkulator normalne distribucije",
+  "description": "Besplatni kalkulator normalne distribucije: za bilo koju srednju vrijednost i standardnu devijaciju pronađite P(X<x), P(X>x), P(a<X<b) i vrijednost pri danom percentilu.",
+  "id": "/loona-calculators/hr/normal-distribution-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

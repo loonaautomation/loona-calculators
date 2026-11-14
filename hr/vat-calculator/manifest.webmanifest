@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator PDV-a",
+  "short_name": "Kalkulator PDV-a",
+  "description": "Besplatni kalkulator PDV-a/GST-a: dodajte porez neto iznosu ili uklonite porez iz bruto iznosa po bilo kojoj stopi. Radi za PDV, GST i porez na prodaju u bilo kojoj zemlji.",
+  "id": "/loona-calculators/hr/vat-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator ciljanog CGPA-a",
+  "short_name": "Kalkulator ciljnog CGPA",
+  "description": "Besplatni kalkulator ciljnog CGPA: trenutačni CGPA, završeni krediti, ciljni CGPA i preostali krediti — pogledajte GPA koji morate postići ili maksimalni CGPA koji je još dostižan.",
+  "id": "/loona-calculators/hr/target-cgpa-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

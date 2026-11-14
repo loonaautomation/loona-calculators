@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator 10,000. dana",
+  "short_name": "Kalkulator 10,000. dana",
+  "description": "Besplatni kalkulator dana prekretnica: unesite datum rođenja kako biste pronašli svoj 10,000. dan, druge obljetnice okruglih dana, svoju dob u danima i datum sljedeće prekretnice.",
+  "id": "/loona-calculators/hr/day-milestone-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

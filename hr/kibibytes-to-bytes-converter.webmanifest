@@ -1,0 +1,29 @@
+{
+  "name": "Loona Pretvarač kibibajtova u bajtove",
+  "short_name": "Pretvarač kibibajtova u bajtove",
+  "description": "Pretvorite kibibajtova u bajtove odmah. Točna formula, potpuna tablica pretvorbe KiB u B, riješeni primjer i česta pitanja. Besplatno, bez registracije.",
+  "id": "/loona-calculators/hr/kibibytes-to-bytes-converter.html",
+  "start_url": "./kibibytes-to-bytes-converter.html",
+  "scope": "./kibibytes-to-bytes-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

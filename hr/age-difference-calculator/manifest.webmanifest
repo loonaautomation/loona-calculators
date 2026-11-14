@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator razlike u dobi",
+  "short_name": "Kalkulator razlike u dobi",
+  "description": "Besplatni kalkulator razlike u dobi: unesite dva datuma rođenja kako biste dobili točnu razliku u godinama, mjesecima i danima, ukupne dane među njima i tko je stariji.",
+  "id": "/loona-calculators/hr/age-difference-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

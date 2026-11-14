@@ -1,0 +1,29 @@
+{
+  "name": "Loona Pretvarač Chicaga u Singapur",
+  "short_name": "Iz Chicaga u Singapur (vrijeme)",
+  "description": "Pretvorite vrijeme u Chicagu u vrijeme u Singapuru. Singapur je 14 sati ispred Chicaga u siječnju i 13 sati ispred u srpnju, s datumima ljetnog računanja vremena, tablicom za 24 sata i najboljim terminom za sastanak. Uključen je pretvarač uživo.",
+  "id": "/loona-calculators/hr/chicago-to-singapore-time-converter.html",
+  "start_url": "./chicago-to-singapore-time-converter.html",
+  "scope": "./chicago-to-singapore-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

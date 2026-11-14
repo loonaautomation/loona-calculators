@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator mjesečevih mijena",
+  "short_name": "Kalkulator mjesečevih mijena",
+  "description": "Besplatni kalkulator Mjesečevih mijena: unesite bilo koji datum kako biste vidjeli naziv Mjesečeve mijene, postotak osvijetljenosti, starost Mjeseca i dane do sljedećeg mladog i punog mjeseca.",
+  "id": "/loona-calculators/hr/moon-phase-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

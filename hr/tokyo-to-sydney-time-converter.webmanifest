@@ -1,0 +1,29 @@
+{
+  "name": "Loona Pretvarač Tokija u Sydney",
+  "short_name": "Pretvarač Tokija u Sydney",
+  "description": "Pretvorite vrijeme u Tokiju u vrijeme u Sydneyju. Sydney je 2 sata ispred Tokija u siječnju i 1 sat ispred u srpnju, s datumima ljetnog računanja vremena, tablicom za 24 sata i najboljim terminom za sastanak. Uključen je pretvarač uživo.",
+  "id": "/loona-calculators/hr/tokyo-to-sydney-time-converter.html",
+  "start_url": "./tokyo-to-sydney-time-converter.html",
+  "scope": "./tokyo-to-sydney-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator izlaska i zalaska sunca",
+  "short_name": "Kalkulator izlaska i zalaska sunca",
+  "description": "Besplatni kalkulator izlaska i zalaska sunca: unesite datum i geografsku širinu/dužinu kako biste dobili izlazak sunca, zalazak sunca, duljinu dana i solarno podne u UTC-u i lokalnim solarnim pojmovima. NOAA matematika.",
+  "id": "/loona-calculators/hr/sunrise-sunset-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

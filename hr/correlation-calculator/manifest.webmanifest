@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator korelacije",
+  "short_name": "Kalkulator korelacije",
+  "description": "Besplatni kalkulator Pearsonove korelacije: zalijepite uparene podatke x,y kako biste dobili koeficijent korelacije r, r-kvadrat i jednostavno očitanje jakosti.",
+  "id": "/loona-calculators/hr/correlation-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona pretvarač decimalnog u heksadecimalni",
+  "short_name": "Decimalni u heksadecimalni",
+  "description": "Pretvorite decimalni (baza 10) u heksadecimalni (baza 16) uz validaciju, postupak po mjesnim vrijednostima i referentnu tablicu.",
+  "id": "/loona-calculators/hr/decimal-to-hexadecimal-converter.html",
+  "start_url": "./decimal-to-hexadecimal-converter.html",
+  "scope": "./decimal-to-hexadecimal-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

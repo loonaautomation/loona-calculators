@@ -1,0 +1,29 @@
+{
+  "name": "Loona Svjetski sat",
+  "short_name": "Svjetski sat",
+  "description": "Besplatni svjetski sat uživo: trenutačno lokalno vrijeme i datum u 24 velika grada, uključujući London, New York, Dubai, Karachi i Tokio, s ažuriranjem svake sekunde prema vremenskim zonama.",
+  "id": "/loona-calculators/hr/world-clock/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

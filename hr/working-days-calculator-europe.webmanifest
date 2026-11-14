@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator radnih dana za Europu",
+  "short_name": "Kalkulator radnih dana za Europu",
+  "description": "Kalkulator radnih dana za 20 europskih zemalja: brojite radne dane između dvaju datuma s uklonjenim vikendima i državnim praznicima svake zemlje za 2026.",
+  "id": "/loona-calculators/hr/working-days-calculator-europe.html",
+  "start_url": "./working-days-calculator-europe.html",
+  "scope": "./working-days-calculator-europe.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Južnoafrički hipotekarni kalkulator",
+  "short_name": "Hipoteka za Južnu Afriku",
+  "description": "Besplatni južnoafrički kalkulator stambenog kredita (bond) u randima: mjesečna rata, ukupna kamata i datum oslobađanja od duga za bilo koju cijenu nekretnine, depozit, kamatnu stopu i rok, plus usporedba dodatnih plaćanja.",
+  "id": "/loona-calculators/hr/south-africa-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

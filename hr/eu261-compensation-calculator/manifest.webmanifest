@@ -1,0 +1,29 @@
+{
+  "name": "Loona Provjera naknade prema EU261",
+  "short_name": "Provjera naknade EU261",
+  "description": "Besplatna provjera naknade EU261: unesite udaljenost leta i kašnjenje dolaska kako biste vidjeli duguje li vam se €250, €400 ili €600 prema EC 261/2004, uključujući pravilo smanjenja od 50 %.",
+  "id": "/loona-calculators/hr/eu261-compensation-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

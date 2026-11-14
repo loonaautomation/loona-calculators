@@ -1,0 +1,29 @@
+{
+  "name": "Loona Pretvarač gigabajtova u kilobajtove",
+  "short_name": "Pretvarač gigabajtova u kilobajtove",
+  "description": "Pretvorite gigabajtova u kilobajtove odmah. Točna formula, potpuna tablica pretvorbe GB u KB, riješeni primjer i česta pitanja. Besplatno, bez registracije.",
+  "id": "/loona-calculators/hr/gigabytes-to-kilobytes-converter.html",
+  "start_url": "./gigabytes-to-kilobytes-converter.html",
+  "scope": "./gigabytes-to-kilobytes-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator priuštivosti najma",
+  "short_name": "Kalkulator priuštivosti najma",
+  "description": "Besplatni kalkulator priuštivosti najma: unesite svoj bruto prihod, udio koji možete potrošiti na najam i mjesečne dugove kako biste vidjeli maksimalni najam koji si možete priuštiti — uz smjernicu 28/36.",
+  "id": "/loona-calculators/hr/rent-affordability-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

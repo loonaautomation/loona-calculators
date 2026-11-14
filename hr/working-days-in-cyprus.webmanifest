@@ -1,0 +1,29 @@
+{
+  "name": "Loona Radni dani u Cipru",
+  "short_name": "Radni dani u Cipru",
+  "description": "Kalkulator radnih dana za Cipar: brojite radne dane između dvaju datuma s uklonjenim vikendima i svih 14 ciparskih državnih praznika za 2026. Besplatni mrežni alat.",
+  "id": "/loona-calculators/hr/working-days-in-cyprus.html",
+  "start_url": "./working-days-in-cyprus.html",
+  "scope": "./working-days-in-cyprus.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

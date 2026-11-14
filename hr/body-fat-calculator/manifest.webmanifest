@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator tjelesne masti",
+  "short_name": "Kalkulator tjelesne masti",
+  "description": "Besplatni kalkulator tjelesne masti metodom opsega američke mornarice: visina, vrat, struk (i kuk za žene) daju postotak tjelesne masti, masu masti, nemasnu masu i ACE kategoriju.",
+  "id": "/loona-calculators/hr/body-fat-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

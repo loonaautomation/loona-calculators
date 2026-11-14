@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator povrata ulaganja (ROI)",
+  "short_name": "Kalkulator povrata ulaganja (ROI)",
+  "description": "Besplatni kalkulator ROI-ja: unesite iznos ulaganja, iznos povrata i godine držanja kako biste dobili ukupni postotak ROI-ja i anualizirani povrat za bilo koje ulaganje.",
+  "id": "/loona-calculators/hr/roi-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

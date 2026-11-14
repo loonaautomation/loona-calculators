@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator otpremnine",
+  "short_name": "Kalkulator otpremnine",
+  "description": "Besplatni kalkulator otpremnine: posljednja mjesečna plaća i navršene godine staža — procijenite otpremninu u iznosu jedne mjesečne plaće (plaća za 30 dana) po godini staža.",
+  "id": "/loona-calculators/hr/gratuity-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator VO2 max",
+  "short_name": "Kalkulator VO2 Max",
+  "description": "Besplatni kalkulator VO2 max: procijenite aerobnu kondiciju iz Cooperova 12-minutnog trčanja ili Rockportova testa hodanja od 1 milje. Obrazovna procjena kondicije.",
+  "id": "/loona-calculators/hr/vo2-max-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

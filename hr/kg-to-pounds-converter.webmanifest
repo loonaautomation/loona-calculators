@@ -1,0 +1,29 @@
+{
+  "name": "Loona Pretvarač kilograma u funte",
+  "short_name": "Pretvarač kilograma u funte",
+  "description": "Pretvorite kilograma u funte odmah. Točna formula, potpuna tablica pretvorbe kg to lb i riješeni primjeri. Besplatno, bez registracije.",
+  "id": "/loona-calculators/hr/kg-to-pounds-converter.html",
+  "start_url": "./kg-to-pounds-converter.html",
+  "scope": "./kg-to-pounds-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

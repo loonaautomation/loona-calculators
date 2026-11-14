@@ -1,0 +1,29 @@
+{
+  "name": "Loona Irski hipotekarni kalkulator",
+  "short_name": "Irski hipotekarni kalkulator",
+  "description": "Besplatni irski kalkulator hipoteke u eurima: mjesečna rata, ukupna kamata i datum oslobađanja od duga za bilo koju cijenu nekretnine, depozit, kamatnu stopu i rok, plus usporedba preplate.",
+  "id": "/loona-calculators/hr/ireland-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

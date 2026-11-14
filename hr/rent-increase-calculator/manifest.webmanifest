@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator povećanja najamnine",
+  "short_name": "Kalkulator povećanja najamnine",
+  "description": "Besplatni kalkulator povećanja najma: unesite trenutačni najam i postotno povećanje (ili novi najam) kako biste vidjeli novi mjesečni najam, dodatni trošak po mjesecu i godini te projekciju iz godine u godinu.",
+  "id": "/loona-calculators/hr/rent-increase-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

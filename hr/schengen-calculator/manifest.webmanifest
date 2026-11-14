@@ -1,0 +1,29 @@
+{
+  "name": "Loona Schengenski kalkulator 90/180",
+  "short_name": "Schengenski kalkulator 90/180",
+  "description": "Besplatni schengenski kalkulator 90/180: unesite prošla i planirana putovanja kako biste vidjeli iskorištene dane u bilo kojem pomičnom razdoblju od 180 dana, preostale dane, upozorenja o prekoračenju boravka i najraniji siguran ponovni ulazak.",
+  "id": "/loona-calculators/hr/schengen-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

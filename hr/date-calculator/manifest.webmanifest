@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator datuma",
+  "short_name": "Kalkulator datuma",
+  "description": "Besplatni kalkulator datuma: dodajte ili oduzmite dane, tjedne, mjesece i godine od bilo kojeg datuma i dobijte rezultirajući datum s njegovim danom u tjednu. Rokovi, vize i planiranje.",
+  "id": "/loona-calculators/hr/date-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

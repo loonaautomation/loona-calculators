@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator tjedana trudnoće",
+  "short_name": "Kalkulator tjedana trudnoće",
+  "description": "Besplatni kalkulator tjedana trudnoće: unesite datum posljednje menstruacije ili termin poroda kako biste vidjeli točno koliko ste tjedana i dana trudni, svoje tromjesečje i preostale dane.",
+  "id": "/loona-calculators/hr/weeks-pregnant-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

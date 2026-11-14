@@ -1,0 +1,29 @@
+{
+  "name": "Loona Generator kalendara za ispis",
+  "short_name": "Generator kalendara za ispis",
+  "description": "Besplatni generator kalendara za ispis: odaberite bilo koji mjesec i godinu (ili cijelu godinu) i generirajte čistu mrežu kalendara koju možete ispisati. Početak u ponedjeljak ili nedjelju.",
+  "id": "/loona-calculators/hr/printable-calendar-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

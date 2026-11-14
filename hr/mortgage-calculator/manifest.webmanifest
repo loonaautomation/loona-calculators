@@ -1,0 +1,29 @@
+{
+  "name": "Loona Hipotekarni kalkulator",
+  "short_name": "Hipotekarni kalkulator",
+  "description": "Besplatni kalkulator hipoteke: cijena kuće, predujam, kamatna stopa i rok — dobijte iznos kredita, mjesečnu ratu, ukupnu kamatu i ukupni trošak svog doma.",
+  "id": "/loona-calculators/hr/mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

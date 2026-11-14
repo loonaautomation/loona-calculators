@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator unosa vode",
+  "short_name": "Kalkulator unosa vode",
+  "description": "Besplatni kalkulator unosa vode: unesite svoju težinu i dnevnu tjelovježbu kako biste dobili preporučeni unos vode u litrama, mililitrima i čašama dnevno.",
+  "id": "/loona-calculators/hr/water-intake-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

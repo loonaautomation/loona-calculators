@@ -1,0 +1,29 @@
+{
+  "name": "Loona Pretvarač CAD u EUR",
+  "short_name": "Pretvarač CAD u EUR",
+  "description": "Pretvorite kanadski dolar (CAD) u euro (EUR). Referentni tečaj ECB-a od 06. studenoga 2026, inverzni tečaj, tablica pretvorbe i napomene o koridoru. Samo informativno.",
+  "id": "/loona-calculators/hr/cad-to-eur-converter.html",
+  "start_url": "./cad-to-eur-converter.html",
+  "scope": "./cad-to-eur-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

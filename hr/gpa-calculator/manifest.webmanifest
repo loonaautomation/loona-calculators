@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator GPA-a",
+  "short_name": "GPA kalkulator",
+  "description": "Besplatni kalkulator GPA: unesite do 8 kolegija sa slovnim ocjenama (od A do F) i kreditnim satima kako biste dobili svoj GPA na standardnoj ljestvici 4.0. Brzo, privatno, bez registracije.",
+  "id": "/loona-calculators/hr/gpa-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

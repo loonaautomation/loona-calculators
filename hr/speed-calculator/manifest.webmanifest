@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator brzine",
+  "short_name": "Kalkulator brzine",
+  "description": "Besplatni kalkulator brzine: unesite udaljenost u kilometrima ili miljama i potrebno vrijeme kako biste dobili brzinu u km/h i mph, plus tempo po kilometru i po milji.",
+  "id": "/loona-calculators/hr/speed-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

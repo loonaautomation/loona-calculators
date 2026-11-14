@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator linearne regresije",
+  "short_name": "Kalkulator linearne regresije",
+  "description": "Besplatni kalkulator linearne regresije: zalijepite uparene podatke kako biste dobili pravac najmanjih kvadrata y = a + bx, korelaciju, predviđanja i dijagram raspršenja s ucrtanim prilagođenim pravcem.",
+  "id": "/loona-calculators/hr/linear-regression-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Pretvarač gigabajtova u megabajtove",
+  "short_name": "Gigabajti u megabajte",
+  "description": "Pretvorite gigabajtove u megabajtove odmah (binarna konvencija: 1 GB = 1,024 MB). Točna formula, puna tablica pretvorbe GB u MB i obrađeni primjeri. Besplatno, bez registracije.",
+  "id": "/loona-calculators/hr/gigabytes-to-megabytes-converter.html",
+  "start_url": "./gigabytes-to-megabytes-converter.html",
+  "scope": "./gigabytes-to-megabytes-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

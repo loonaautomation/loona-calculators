@@ -1,0 +1,29 @@
+{
+  "name": "Loona kalkulator pretvorbe CGPA u postotak",
+  "short_name": "Kalkulator CGPA u postotak",
+  "description": "Besplatni pretvarač CGPA u postotak: pretvorite CGPA od 10 (formula ×9.5) ili GPA od 4 u postotak, s mogućnošću prilagođenog množitelja za bilo koji odbor ili sveučilište.",
+  "id": "/loona-calculators/hr/cgpa-to-percentage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

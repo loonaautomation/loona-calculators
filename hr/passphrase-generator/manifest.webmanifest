@@ -1,0 +1,29 @@
+{
+  "name": "Loona Generator lozinki u obliku fraza",
+  "short_name": "Generator lozinki u obliku fraza",
+  "description": "Besplatni generator zaporki (passphrase): izgradite snažne, pamtljive zaporke od nasumičnih pravih riječi, s opcijama broja riječi, razdjelnika, velikih slova i brojeva. Radi u vašem pregledniku.",
+  "id": "/loona-calculators/hr/passphrase-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

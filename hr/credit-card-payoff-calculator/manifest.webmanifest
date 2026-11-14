@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator otplate kreditne kartice",
+  "short_name": "Kalkulator otplate kreditne kartice",
+  "description": "Besplatni kalkulator otplate kreditne kartice: stanje, APR i fiksna mjesečna rata — pogledajte mjesece do otplate, ukupnu kamatu i ukupno plaćeno, uz upozorenje za premale rate.",
+  "id": "/loona-calculators/hr/credit-card-payoff-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

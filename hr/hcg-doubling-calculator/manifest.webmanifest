@@ -1,0 +1,29 @@
+{
+  "name": "Loona kalkulator vremena udvostručenja hCG-a",
+  "short_name": "Kalkulator vremena udvostručenja hCG-a",
+  "description": "Besplatni kalkulator udvostručenja hCG-a: unesite dva beta hCG rezultata i sate između krvnih pretraga kako biste dobili vrijeme udvostručenja, postotni porast i dnevni porast. Samo obrazovno.",
+  "id": "/loona-calculators/hr/hcg-doubling-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

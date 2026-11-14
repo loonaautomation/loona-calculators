@@ -1,0 +1,29 @@
+{
+  "name": "Loona Bingo izvlačenje brojeva",
+  "short_name": "Pozivatelj bingo brojeva",
+  "description": "Besplatni izvlačić brojeva za bingo za igre sa 75 kuglica (B-I-N-G-O) i 90 kuglica: izvlači brojeve bez ponavljanja, prikazuje trenutačnu kuglicu velikom i prati svaki izvučeni broj na ploči.",
+  "id": "/loona-calculators/hr/bingo-number-caller/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

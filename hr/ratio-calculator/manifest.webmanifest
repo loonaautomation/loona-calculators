@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator omjera",
+  "short_name": "Kalkulator omjera",
+  "description": "Besplatni kalkulator omjera: pojednostavnite bilo koji omjer na najniže članove i podijelite ukupni iznos u zadanom omjeru — oba udjela prikazana odmah.",
+  "id": "/loona-calculators/hr/ratio-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Pretvarač kilovat-sati u kilodžule",
+  "short_name": "Kilovat-sat u Kilodžul",
+  "description": "Pretvorite kilovat-sati u kilodžule odmah. Točna formula, potpuna tablica pretvorbe kWh u kJ, riješeni primjer i česta pitanja. Besplatno, bez registracije.",
+  "id": "/loona-calculators/hr/kilowatt-hours-to-kilojoules-converter.html",
+  "start_url": "./kilowatt-hours-to-kilojoules-converter.html",
+  "scope": "./kilowatt-hours-to-kilojoules-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

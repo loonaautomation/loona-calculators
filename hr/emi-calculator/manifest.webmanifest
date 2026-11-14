@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator mjesečne rate (EMI)",
+  "short_name": "Kalkulator mjesečne rate (EMI)",
+  "description": "Besplatni kalkulator EMI-ja i kredita: unesite iznos kredita, kamatnu ili profitnu stopu i rok kako biste dobili mjesečnu ratu, ukupnu kamatu i ukupno plaćanje. Za bankovne kredite, kredite za automobile i osobne kredite.",
+  "id": "/loona-calculators/hr/emi-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

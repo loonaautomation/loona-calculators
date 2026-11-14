@@ -1,0 +1,29 @@
+{
+  "name": "Loona Pretvarač Berlina u Tokio",
+  "short_name": "Pretvarač Berlina u Tokio",
+  "description": "Pretvorite vrijeme u Berlinu u vrijeme u Tokiju. Tokio je 8 sati ispred Berlina u siječnju i 7 sati ispred u srpnju, s datumima ljetnog računanja vremena, tablicom za 24 sata i najboljim terminom za sastanak. Uključen je pretvarač uživo.",
+  "id": "/loona-calculators/hr/berlin-to-tokyo-time-converter.html",
+  "start_url": "./berlin-to-tokyo-time-converter.html",
+  "scope": "./berlin-to-tokyo-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

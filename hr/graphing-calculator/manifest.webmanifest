@@ -1,0 +1,29 @@
+{
+  "name": "Loona Grafički kalkulator",
+  "short_name": "Grafički kalkulator",
+  "description": "Besplatni grafički kalkulator: nacrtajte jednu ili dvije funkcije poput x^2, sin(x) ili 2x+3 na mreži sa zumiranjem. Radi u vašem pregledniku, bez registracije.",
+  "id": "/loona-calculators/hr/graphing-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

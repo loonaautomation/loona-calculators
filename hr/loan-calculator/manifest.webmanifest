@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator kredita",
+  "short_name": "Kalkulator kredita",
+  "description": "Besplatni kalkulator kredita: unesite iznos, godišnju kamatnu stopu i rok kako biste dobili svoju mjesečnu ratu, ukupnu kamatu i ukupnu otplatu za bilo koji kredit.",
+  "id": "/loona-calculators/hr/loan-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

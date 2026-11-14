@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator dobi",
+  "short_name": "Kalkulator dobi",
+  "description": "Besplatni kalkulator dobi: unesite datum rođenja i dobit ćete točnu dob u godinama, mjesecima i danima, plus ukupne proživljene dane, tjedne i sate te vaš sljedeći rođendan. Bez registracije.",
+  "id": "/loona-calculators/hr/age-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

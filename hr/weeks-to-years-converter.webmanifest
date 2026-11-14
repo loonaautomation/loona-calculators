@@ -1,0 +1,29 @@
+{
+  "name": "Loona Pretvarač tjedana u godine",
+  "short_name": "Pretvarač tjedana u godine (julijanske)",
+  "description": "Pretvorite tjedne u godine odmah. Točna formula, puna tablica pretvorbe wk u yr, obrađeni primjer i česta pitanja. Besplatno, bez registracije.",
+  "id": "/loona-calculators/hr/weeks-to-years-converter.html",
+  "start_url": "./weeks-to-years-converter.html",
+  "scope": "./weeks-to-years-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

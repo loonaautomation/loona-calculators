@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator dugog dijeljenja",
+  "short_name": "Kalkulator dugog dijeljenja",
+  "description": "Besplatni kalkulator dugog dijeljenja koji prikazuje svaki korak: dijelite brojeve s ostatkom ili decimalama i pogledajte cijeli pisani postupak, znamenku po znamenku. Za učenike i učitelje.",
+  "id": "/loona-calculators/hr/long-division-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

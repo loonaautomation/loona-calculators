@@ -1,0 +1,29 @@
+{
+  "name": "Loona Provjera utikača i napona u Europi",
+  "short_name": "Provjera utikača i napona u Europi",
+  "description": "Besplatna provjera utikača i napona za Europu: odaberite europsku zemlju kako biste vidjeli njezine vrste utikača, napon i frekvenciju te trebate li adapter ili pretvarač.",
+  "id": "/loona-calculators/hr/europe-plug-voltage-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

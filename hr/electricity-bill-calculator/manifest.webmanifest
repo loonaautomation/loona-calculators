@@ -1,0 +1,29 @@
+{
+  "name": "Loona kalkulator računa za struju",
+  "short_name": "Kalkulator računa za struju",
+  "description": "Besplatni kalkulator računa za električnu energiju: unesite potrošene jedinice i stope po razredima kako biste procijenili mjesečni račun s GST-om. Stope se mogu uređivati za LESCO, IESCO, K-Electric i sve pakistanske elektroprivredne tvrtke.",
+  "id": "/loona-calculators/hr/electricity-bill-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

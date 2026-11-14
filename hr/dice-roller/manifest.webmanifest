@@ -1,0 +1,29 @@
+{
+  "name": "Loona Bacanje kockica",
+  "short_name": "Bacanje kocke",
+  "description": "Besplatno bacanje kockica na mreži: bacite 1 do 6 kockica — standardne d6, d20 i druge poliedarske kockice — s vizualnim kockicama, zbrojevima, prosjecima i poviješću bacanja.",
+  "id": "/loona-calculators/hr/dice-roller/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

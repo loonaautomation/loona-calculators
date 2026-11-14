@@ -1,0 +1,29 @@
+{
+  "name": "Loona Pretvarač DKK u ZAR",
+  "short_name": "Pretvarač DKK u ZAR",
+  "description": "Pretvorite dansku krunu (DKK) u južnoafrički rand (ZAR). Referentni tečaj ECB-a od 06. studenoga 2026, inverzni tečaj, tablica pretvorbe i napomene o koridoru. Samo informativno.",
+  "id": "/loona-calculators/hr/dkk-to-zar-converter.html",
+  "start_url": "./dkk-to-zar-converter.html",
+  "scope": "./dkk-to-zar-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

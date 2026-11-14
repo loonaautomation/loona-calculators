@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator idealne težine",
+  "short_name": "Kalkulator idealne težine",
+  "description": "Besplatni kalkulator idealne težine: unesite svoju visinu i spol kako biste dobili svoju idealnu težinu (Devineova formula) plus puni raspon zdrave BMI težine za vašu visinu.",
+  "id": "/loona-calculators/hr/ideal-weight-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Radni dani u Njemačkoj",
+  "short_name": "Radni dani u Njemačkoj",
+  "description": "Kalkulator radnih dana za Njemačku: brojite radne dane između dvaju datuma s uklonjenim vikendima i svih 9 njemačkih državnih praznika na razini cijele zemlje za 2026.",
+  "id": "/loona-calculators/hr/working-days-in-germany.html",
+  "start_url": "./working-days-in-germany.html",
+  "scope": "./working-days-in-germany.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

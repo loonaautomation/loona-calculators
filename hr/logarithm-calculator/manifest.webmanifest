@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator logaritama",
+  "short_name": "Kalkulator logaritama",
+  "description": "Besplatni kalkulator logaritama: pronađite log s bilo kojom bazom, plus obični log (baza 10), prirodni log (ln) i binarni log (baza 2), svaki provjeren svojim antilogaritmom. Objašnjena je i formula za promjenu baze.",
+  "id": "/loona-calculators/hr/logarithm-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

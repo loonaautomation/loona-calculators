@@ -1,0 +1,29 @@
+{
+  "name": "Loona Radni dani u Poljskoj",
+  "short_name": "Radni dani u Poljskoj",
+  "description": "Kalkulator radnih dana za Poljsku: brojite radne dane između dvaju datuma s uklonjenim vikendima i svih 14 poljskih državnih praznika za 2026. Besplatno, bez registracije.",
+  "id": "/loona-calculators/hr/working-days-in-poland.html",
+  "start_url": "./working-days-in-poland.html",
+  "scope": "./working-days-in-poland.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

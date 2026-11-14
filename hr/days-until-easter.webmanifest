@@ -1,0 +1,29 @@
+{
+  "name": "Loona Dani do Uskrsa",
+  "short_name": "Dani do Uskrsa",
+  "description": "Odbrojavanje uživo do Uskrsa: točni dani, sati, minute i sekunde koji preostaju, datum ove godine i sljedeće tri godine, činjenice i česta pitanja.",
+  "id": "/loona-calculators/hr/days-until-easter.html",
+  "start_url": "./days-until-easter.html",
+  "scope": "./days-until-easter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

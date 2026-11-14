@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator hi-kvadrat testa",
+  "short_name": "Kalkulator hi-kvadrat testa",
+  "description": "Besplatni kalkulator hi-kvadrat testa: unesite opaženu tablicu za test neovisnosti ili opažene i očekivane frekvencije za prilagodbu. Hi-kvadrat, df i p-vrijednost.",
+  "id": "/loona-calculators/hr/chi-square-test-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

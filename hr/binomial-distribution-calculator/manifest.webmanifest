@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator binomne distribucije",
+  "short_name": "Binomna raspodjela",
+  "description": "Besplatni kalkulator binomne distribucije: vjerojatnost točno k uspjeha, najviše k ili najmanje k, u n pokušaja s vjerojatnošću uspjeha p. Vrijednosti provjerene prema udžbenicima.",
+  "id": "/loona-calculators/hr/binomial-distribution-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

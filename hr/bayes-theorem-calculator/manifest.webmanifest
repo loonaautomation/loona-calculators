@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Bayesova teorema",
+  "short_name": "Kalkulator Bayesova teorema",
+  "description": "Besplatni kalkulator Bayesova teorema: priorna vjerojatnost, stopa stvarno pozitivnih i stopa lažno pozitivnih daju posteriornu vjerojatnost — klasični izračun medicinskog testa, objašnjen.",
+  "id": "/loona-calculators/hr/bayes-theorem-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

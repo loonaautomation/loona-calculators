@@ -1,0 +1,29 @@
+{
+  "name": "Loona Radni dani u Estoniji",
+  "short_name": "Radni dani u Estoniji",
+  "description": "Kalkulator radnih dana za Estoniju: brojite radne dane između dvaju datuma s uklonjenim vikendima i svih 12 estonskih državnih praznika za 2026. Besplatni mrežni alat.",
+  "id": "/loona-calculators/hr/working-days-in-estonia.html",
+  "start_url": "./working-days-in-estonia.html",
+  "scope": "./working-days-in-estonia.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

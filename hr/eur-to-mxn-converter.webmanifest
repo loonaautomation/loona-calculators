@@ -1,0 +1,29 @@
+{
+  "name": "Loona Pretvarač EUR u MXN",
+  "short_name": "Pretvarač EUR u MXN",
+  "description": "Pretvorite euro (EUR) u meksički peso (MXN). Referentni tečaj ECB-a od 06. studenoga 2026, inverzni tečaj, tablica pretvorbe i napomene o koridoru. Samo informativno.",
+  "id": "/loona-calculators/hr/eur-to-mxn-converter.html",
+  "start_url": "./eur-to-mxn-converter.html",
+  "scope": "./eur-to-mxn-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

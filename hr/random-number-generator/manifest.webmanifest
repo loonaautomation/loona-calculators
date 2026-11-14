@@ -1,0 +1,29 @@
+{
+  "name": "Loona Generator slučajnih brojeva",
+  "short_name": "Generator slučajnih brojeva",
+  "description": "Besplatni generator slučajnih brojeva koji koristi sigurnu slučajnost preglednika. Odaberite brojeve u bilo kojem rasponu, odaberite koliko ih, s opcijom samo jedinstvenih brojeva.",
+  "id": "/loona-calculators/hr/random-number-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

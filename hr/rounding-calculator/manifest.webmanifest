@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator zaokruživanja",
+  "short_name": "Kalkulator zaokruživanja",
+  "description": "Besplatni kalkulator zaokruživanja: zaokružite bilo koji broj na decimalna mjesta, na najbližih 10, 100 ili 1,000, ili na značajne znamenke, uz objašnjeno pravilo.",
+  "id": "/loona-calculators/hr/rounding-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

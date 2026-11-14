@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator broja tjedna",
+  "short_name": "Kalkulator broja tjedna",
+  "description": "Besplatni kalkulator broja tjedna: odaberite bilo koji datum kako biste dobili njegov ISO broj tjedna, ISO godinu tjedna, dan u godini, preostale dane u godini i kalendarsko tromjesečje.",
+  "id": "/loona-calculators/hr/week-number-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

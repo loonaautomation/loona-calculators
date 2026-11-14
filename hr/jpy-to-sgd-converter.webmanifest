@@ -1,0 +1,29 @@
+{
+  "name": "Loona Pretvarač JPY u SGD",
+  "short_name": "Pretvarač JPY u SGD",
+  "description": "Pretvorite japanski jen (JPY) u singapurski dolar (SGD). Referentni tečaj ECB-a od 06. studenoga 2026, inverzni tečaj, tablica pretvorbe i napomene o koridoru. Samo informativno.",
+  "id": "/loona-calculators/hr/jpy-to-sgd-converter.html",
+  "start_url": "./jpy-to-sgd-converter.html",
+  "scope": "./jpy-to-sgd-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

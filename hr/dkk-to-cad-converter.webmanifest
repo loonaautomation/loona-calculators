@@ -1,0 +1,29 @@
+{
+  "name": "Loona Pretvarač DKK u CAD",
+  "short_name": "Pretvarač DKK u CAD",
+  "description": "Pretvorite dansku krunu (DKK) u kanadski dolar (CAD). Referentni tečaj ECB-a od 06. studenoga 2026, inverzni tečaj, tablica pretvorbe i napomene o koridoru. Samo informativno.",
+  "id": "/loona-calculators/hr/dkk-to-cad-converter.html",
+  "start_url": "./dkk-to-cad-converter.html",
+  "scope": "./dkk-to-cad-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

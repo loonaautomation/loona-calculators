@@ -1,0 +1,29 @@
+{
+  "name": "Loona kalkulator maksimuma jednog ponavljanja (1RM)",
+  "short_name": "Kalkulator maksimuma jednog ponavljanja (1RM)",
+  "description": "Besplatni kalkulator maksimuma jednog ponavljanja: procijenite svoj 1RM iz težine i ponavljanja serije formulama Epley, Brzycki i Lombardi, plus postoci treninga.",
+  "id": "/loona-calculators/hr/one-rep-max-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

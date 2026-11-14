@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator najam ili kupnja",
+  "short_name": "Kalkulator najam ili kupnja",
+  "description": "Besplatni kalkulator najam naspram kupnje: usporedite ukupni trošak najma s neto troškom kupnje doma tijekom godina koje planirate ostati — uključeni su hipoteka, povećanja najma, rast cijena i vlasnički kapital.",
+  "id": "/loona-calculators/hr/rent-vs-buy-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

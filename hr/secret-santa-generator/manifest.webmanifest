@@ -1,0 +1,29 @@
+{
+  "name": "Loona Generator za Secret Santa",
+  "short_name": "Generator za Secret Santa",
+  "description": "Besplatni generator tajnog Djeda Božićnjaka (Secret Santa): dodajte imena, postavite izuzeća (parovi, prošlogodišnji parovi), izvlačite u tajnosti, a zatim svaka osoba otkriva samo svoj par. Privatno, u pregledniku.",
+  "id": "/loona-calculators/hr/secret-santa-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
