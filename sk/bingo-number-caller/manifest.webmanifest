@@ -1,0 +1,29 @@
+{
+  "name": "Loona vyvolávač čísel Bingo",
+  "short_name": "Vyvolávač čísel Bingo",
+  "description": "Vyvolávač čísel binga zadarmo pre hry s 75 guľôčkami (B-I-N-G-O) a 90 guľôčkami: žrebuje čísla bez opakovaní, zobrazuje aktuálnu guľôčku veľkú a sleduje každé vyvolané číslo na tabuli.",
+  "id": "/loona-calculators/sk/bingo-number-caller/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Generátor náhodných tímov",
+  "short_name": "Generátor náhodných tímov",
+  "description": "Generátor náhodných tímov zadarmo: vložte zoznam mien a rozdeľte ich do vyvážených náhodných tímov pre šport, triedy, hry a workshopy. Férové miešanie, bez registrácie.",
+  "id": "/loona-calculators/sk/random-team-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

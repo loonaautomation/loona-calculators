@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka jednoduchého úročenia",
+  "short_name": "Kalkulačka jednoduchého úroku",
+  "description": "Kalkulačka jednoduchého úroku zadarmo: zadajte istinu, ročnú sadzbu a čas (roky a mesiace) a vypočítajte získaný úrok a celkovú sumu. Jednoduchý vzorec I = P×R×T/100.",
+  "id": "/loona-calculators/sk/simple-interest-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

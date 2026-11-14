@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka úspor",
+  "short_name": "Kalkulačka sporenia",
+  "description": "Kalkulačka sporenia zadarmo: zadajte mesačný vklad, úrokovú sadzbu a roky a pozrite si budúcu hodnotu vašich úspor, celkovo vložené a získaný úrok.",
+  "id": "/loona-calculators/sk/savings-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

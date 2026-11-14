@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka VO2 max",
+  "short_name": "Kalkulačka VO2 Max",
+  "description": "Kalkulačka VO2 max zadarmo: odhadnite aeróbnu kondíciu z Cooperovho 12-minútového behu alebo Rockportovho testu chôdze na 1 míľu. Vzdelávací odhad kondície.",
+  "id": "/loona-calculators/sk/vo2-max-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka spánku",
+  "short_name": "Kalkulačka spánku",
+  "description": "Kalkulačka spánku zadarmo: zadajte čas vstávania a získajte najlepšie časy zaspania, alebo čas zaspania a získajte najlepšie časy vstávania — na základe 90-minútových spánkových cyklov plus času zaspávania.",
+  "id": "/loona-calculators/sk/sleep-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

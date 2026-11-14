@@ -1,0 +1,29 @@
+{
+  "name": "Loona kalkulačka alkoholu v krvi",
+  "short_name": "Kalkulačka alkoholu v krvi",
+  "description": "Kalkulačka alkoholu v krvi (BAC) zadarmo pomocou Widmarkovho vzorca: hmotnosť, pohlavie, nápoje a čas na odhad percenta BAC. Len vzdelávací odhad, nikdy nešoférujte.",
+  "id": "/loona-calculators/sk/blood-alcohol-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Prevodník GBP na NZD",
+  "short_name": "Prevodník GBP na NZD",
+  "description": "Preveďte britskú libru (GBP) na novozélandský dolár (NZD). Referenčná sadzba ECB z 06. novembra 2026, inverzná sadzba, prevodná tabuľka a poznámky ku koridoru. Len orientačné.",
+  "id": "/loona-calculators/sk/gbp-to-nzd-converter.html",
+  "start_url": "./gbp-to-nzd-converter.html",
+  "scope": "./gbp-to-nzd-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

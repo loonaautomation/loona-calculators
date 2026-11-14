@@ -1,0 +1,29 @@
+{
+  "name": "Loona Prevodník Watt na Kilowatt",
+  "short_name": "Prevodník Watt na Kilowatt",
+  "description": "Preveďte watty na kilowatty okamžite. Presný vzorec, úplná prevodná tabuľka W na kW, riešený príklad a časté otázky. Zadarmo, bez registrácie.",
+  "id": "/loona-calculators/sk/watts-to-kilowatts-converter.html",
+  "start_url": "./watts-to-kilowatts-converter.html",
+  "scope": "./watts-to-kilowatts-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

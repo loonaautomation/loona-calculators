@@ -1,0 +1,29 @@
+{
+  "name": "Loona kalkulačka Bayesovej vety",
+  "short_name": "Kalkulačka Bayesovej vety",
+  "description": "Kalkulačka Bayesovej vety zadarmo: predchádzajúca pravdepodobnosť, miera skutočne pozitívnych a miera falošne pozitívnych výsledkov dávajú zadnú pravdepodobnosť — klasický výpočet lekárskeho testu, vysvetlený.",
+  "id": "/loona-calculators/sk/bayes-theorem-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

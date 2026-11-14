@@ -1,0 +1,29 @@
+{
+  "name": "Loona kalkulačka dochádzky",
+  "short_name": "Kalkulačka dochádzky",
+  "description": "Kalkulačka dochádzky pre študentov zadarmo: zadajte uskutočnené a navštívené hodiny a získajte percento dochádzky, koľko hodín môžete vynechať, alebo koľko musíte navštíviť, aby ste dosiahli svoj cieľ.",
+  "id": "/loona-calculators/sk/attendance-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

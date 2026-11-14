@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka druhej odmocniny",
+  "short_name": "Kalkulačka druhej odmocniny",
+  "description": "Kalkulačka odmocnín zadarmo: zadajte akékoľvek číslo a získajte jeho odmocninu, tretiu odmocninu, 4. a 5. odmocninu — plus jeho druhú a tretiu mocninu — všetko naraz.",
+  "id": "/loona-calculators/sk/square-root-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

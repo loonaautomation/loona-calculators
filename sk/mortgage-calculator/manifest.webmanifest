@@ -1,0 +1,29 @@
+{
+  "name": "Loona Hypotekárna kalkulačka",
+  "short_name": "Hypotekárna kalkulačka",
+  "description": "Kalkulačka hypotéky zadarmo: cena domu, záloha, úroková sadzba a doba — získajte sumu úveru, mesačnú splátku, celkový úrok a celkové náklady vášho domu.",
+  "id": "/loona-calculators/sk/mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

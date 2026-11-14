@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka dní medzi dátumami",
+  "short_name": "Kalkulačka dní medzi dátumami",
+  "description": "Kalkulačka dní medzi dátumami zadarmo: spočítajte presný počet dní, týždňov a rokov medzi ľubovoľnými dvoma dátumami. Užitočné pre termíny, víza, zmluvy a odpočítavania.",
+  "id": "/loona-calculators/sk/days-between-dates-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

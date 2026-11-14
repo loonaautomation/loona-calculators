@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kontrola zástrčiek a napätia v Európe",
+  "short_name": "Kontrola európskych zásuviek a napätia",
+  "description": "Kontrola zásuviek a napätia v Európe zadarmo: vyberte európsku krajinu a pozrite si jej typy zásuviek, napätie a frekvenciu a či potrebujete adaptér alebo menič.",
+  "id": "/loona-calculators/sk/europe-plug-voltage-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

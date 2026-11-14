@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka zaokrúhľovania",
+  "short_name": "Kalkulačka zaokrúhľovania",
+  "description": "Kalkulačka zaokrúhľovania zadarmo: zaokrúhlite akékoľvek číslo na desatinné miesta, na najbližších 10, 100 alebo 1,000, alebo na platné číslice, s vysvetleným pravidlom.",
+  "id": "/loona-calculators/sk/rounding-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

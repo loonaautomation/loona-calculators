@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka GPA",
+  "short_name": "Kalkulačka GPA",
+  "description": "Kalkulačka GPA zadarmo: zadajte až 8 kurzov s písmenovými známkami (A až F) a kreditovými hodinami a získajte GPA na štandardnej stupnici 4.0. Rýchle, súkromné, bez registrácie.",
+  "id": "/loona-calculators/sk/gpa-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

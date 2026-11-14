@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka korelácie",
+  "short_name": "Kalkulačka korelácie",
+  "description": "Kalkulačka Pearsonovej korelácie zadarmo: vložte spárované údaje x,y a získajte korelačný koeficient r, r na druhú a jednoduchý opis sily vzťahu v bežnej reči.",
+  "id": "/loona-calculators/sk/correlation-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

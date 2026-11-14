@@ -1,0 +1,29 @@
+{
+  "name": "Loona Prevodník Stopy na Yardy",
+  "short_name": "Prevodník stôp na yardy",
+  "description": "Preveďte stopy na yardy okamžite. Presný vzorec, úplná prevodná tabuľka ft na yd a riešené príklady. Zadarmo, bez registrácie.",
+  "id": "/loona-calculators/sk/feet-to-yards-converter.html",
+  "start_url": "./feet-to-yards-converter.html",
+  "scope": "./feet-to-yards-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

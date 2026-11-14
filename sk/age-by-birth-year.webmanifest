@@ -1,0 +1,29 @@
+{
+  "name": "Loona vek podľa roku narodenia",
+  "short_name": "Vek podľa roku narodenia",
+  "description": "Vek, ktorý dovŕšite v roku 2026 pre každý rok narodenia 1946–2025, s označeniami generácií a míľnikovými rokmi.",
+  "id": "/loona-calculators/sk/age-by-birth-year.html",
+  "start_url": "./age-by-birth-year.html",
+  "scope": "./age-by-birth-year.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

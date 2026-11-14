@@ -1,0 +1,29 @@
+{
+  "name": "Loona Riešiteľ rovníc (lineárne a kvadratické)",
+  "short_name": "Riešiteľ rovníc (lineárne a",
+  "description": "Riešiteľ rovníc zadarmo pre lineárne (ax + b = cx + d) a kvadratické (ax² + bx + c = 0) rovnice, s úplným postupom krok za krokom, diskriminantom, komplexnými koreňmi a záverečnou kontrolou.",
+  "id": "/loona-calculators/sk/equation-solver/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona kalkulačka priemeru",
+  "short_name": "Kalkulačka priemeru",
+  "description": "Kalkulačka priemeru zadarmo: vložte zoznam čísel a získajte priemer, medián, modus, súčet, počet, minimum, maximum a rozsah — okamžite, až pre 50 čísel.",
+  "id": "/loona-calculators/sk/average-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

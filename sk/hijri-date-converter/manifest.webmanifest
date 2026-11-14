@@ -1,0 +1,29 @@
+{
+  "name": "Loona Prevodník dátumu hidžry",
+  "short_name": "Prevodník hidžri dátumu",
+  "description": "Prevodník hidžrského dátumu zadarmo: preveďte akýkoľvek gregoriánsky (anglický) dátum na islamský hidžrský dátum a späť pomocou kalendára Umm al-Qura. Kontroly Ramadánu, Eid a islamských dátumov jednoducho.",
+  "id": "/loona-calculators/sk/hijri-date-converter/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

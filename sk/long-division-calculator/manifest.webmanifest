@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka písomného delenia",
+  "short_name": "Kalkulačka dlhého delenia",
+  "description": "Kalkulačka dlhého delenia zadarmo so zobrazením každého kroku: deľte čísla so zvyškom alebo desatinnými miestami a pozrite si úplný písomný postup, číslicu po číslici. Pre študentov a učiteľov.",
+  "id": "/loona-calculators/sk/long-division-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

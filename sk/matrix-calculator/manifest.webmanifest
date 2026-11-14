@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka matíc",
+  "short_name": "Kalkulačka matíc",
+  "description": "Kalkulačka matíc zadarmo pre matice 2x2 a 3x3: sčítanie, odčítanie, násobenie, determinant a inverzná matica so zobrazenými hodnotami krokov. Bez registrácie, funguje vo vašom prehliadači.",
+  "id": "/loona-calculators/sk/matrix-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

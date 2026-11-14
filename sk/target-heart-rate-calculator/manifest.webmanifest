@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka cieľovej srdcovej frekvencie",
+  "short_name": "Kalkulačka cieľovej srdcovej frekvencie",
+  "description": "Kalkulačka cieľovej srdcovej frekvencie zadarmo: maximálna srdcová frekvencia a tréningové zóny podľa Karvonena z vášho veku a pokojovej srdcovej frekvencie. Vzdelávací sprievodca kondíciou.",
+  "id": "/loona-calculators/sk/target-heart-rate-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Prevodník GPA na Percento",
+  "short_name": "Prevodník GPA na percentá",
+  "description": "Preveďte GPA na percento a späť: pásma stupnice USA 4.0, India CBSE (CGPA × 9.5), indická univerzita (× 10) a klasifikácie titulov Spojeného kráľovstva, každé označené.",
+  "id": "/loona-calculators/sk/gpa-to-percentage/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

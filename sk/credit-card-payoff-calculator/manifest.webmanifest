@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka splatenia kreditnej karty",
+  "short_name": "Kalkulačka splatenia kreditnej karty",
+  "description": "Kalkulačka splatenia kreditnej karty zadarmo: zostatok, APR a fixná mesačná splátka — pozrite si mesiace do splatenia, celkový úrok a celkovú zaplatenú sumu, s varovaním pri príliš malých splátkach.",
+  "id": "/loona-calculators/sk/credit-card-payoff-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

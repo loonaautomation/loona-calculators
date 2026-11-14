@@ -1,0 +1,29 @@
+{
+  "name": "Loona Prevodník Kilobajt na Bajt",
+  "short_name": "Prevodník kilobajtov na bajty",
+  "description": "Preveďte kilobajty na bajty okamžite. Presný vzorec, úplná prevodná tabuľka KB na B, riešený príklad a časté otázky. Zadarmo, bez registrácie.",
+  "id": "/loona-calculators/sk/kilobytes-to-bytes-converter.html",
+  "start_url": "./kilobytes-to-bytes-converter.html",
+  "scope": "./kilobytes-to-bytes-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

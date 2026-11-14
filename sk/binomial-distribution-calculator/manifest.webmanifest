@@ -1,0 +1,29 @@
+{
+  "name": "Loona kalkulačka binomického rozdelenia",
+  "short_name": "Binomické rozdelenie",
+  "description": "Kalkulačka binomického rozdelenia zadarmo: pravdepodobnosť presne k úspechov, najviac k, alebo aspoň k, v n pokusoch s pravdepodobnosťou úspechu p. Hodnoty overené podľa učebníc.",
+  "id": "/loona-calculators/sk/binomial-distribution-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

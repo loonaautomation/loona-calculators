@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kontrola pravidiel jazdy v Európe",
+  "short_name": "Kontrola európskych pravidiel jazdy",
+  "description": "Kontrola pravidiel jazdy v Európe zadarmo: vyberte krajinu pre jej stranu jazdy, rýchlostný limit na diaľnici, limit alkoholu za volantom a kľúčové miestne pravidlá pre hosťujúcich vodičov.",
+  "id": "/loona-calculators/sk/europe-driving-rules-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Pracovné dni v Švajčiarsku",
+  "short_name": "Pracovné dni vo Švajčiarsku",
+  "description": "Kalkulačka pracovných dní pre Švajčiarsko: pracovné dni medzi dvoma dátumami mínus víkendy a 4 štátne sviatky dodržiavané v každom švajčiarskom kantóne 2026.",
+  "id": "/loona-calculators/sk/working-days-in-switzerland.html",
+  "start_url": "./working-days-in-switzerland.html",
+  "scope": "./working-days-in-switzerland.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

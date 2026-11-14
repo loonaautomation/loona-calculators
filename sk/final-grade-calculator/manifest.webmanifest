@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka výslednej známky",
+  "short_name": "Kalkulačka konečnej známky",
+  "description": "Kalkulačka konečnej známky zadarmo: zadajte svoju aktuálnu známku, váhu záverečnej skúšky a cieľovú známku a pozrite si presne, aké skóre potrebujete na záverečnej skúške.",
+  "id": "/loona-calculators/sk/final-grade-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

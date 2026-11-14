@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka rýchlosti",
+  "short_name": "Kalkulačka rýchlosti",
+  "description": "Kalkulačka rýchlosti zadarmo: zadajte vzdialenosť v kilometroch alebo míľach a čas a získajte rýchlosť v km/h a mph, plus tempo na kilometer a na míľu.",
+  "id": "/loona-calculators/sk/speed-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

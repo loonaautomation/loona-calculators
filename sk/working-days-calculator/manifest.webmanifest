@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka pracovných dní",
+  "short_name": "Kalkulačka pracovných dní",
+  "description": "Kalkulačka pracovných dní zadarmo: spočítajte celkové dni, pracovné dni (pondelok až piatok) a víkendové dni medzi ľubovoľnými dvoma dátumami. Pre dovolenku, termíny a projektové plány.",
+  "id": "/loona-calculators/sk/working-days-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

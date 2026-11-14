@@ -1,0 +1,29 @@
+{
+  "name": "Loona Prevodník SEK na TRY",
+  "short_name": "Prevodník SEK na TRY",
+  "description": "Preveďte švédsku korunu (SEK) na tureckú líru (TRY). Referenčná sadzba ECB z 06. novembra 2026, inverzná sadzba, prevodná tabuľka a poznámky ku koridoru. Len orientačné.",
+  "id": "/loona-calculators/sk/sek-to-try-converter.html",
+  "start_url": "./sek-to-try-converter.html",
+  "scope": "./sek-to-try-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

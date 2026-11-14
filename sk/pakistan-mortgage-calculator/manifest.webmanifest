@@ -1,0 +1,29 @@
+{
+  "name": "Loona Pakistanská hypotekárna kalkulačka",
+  "short_name": "Pakistanská hypotekárna kalkulačka",
+  "description": "Kalkulačka financovania domu pre Pakistan zadarmo v rupiách: mesačná splátka na klesajúcom zostatku, celková prirážka a dátum bez dlhu pre akúkoľvek cenu nehnuteľnosti, zálohu, sadzbu a dobu.",
+  "id": "/loona-calculators/sk/pakistan-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

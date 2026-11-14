@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka makroživín",
+  "short_name": "Kalkulačka makroživín",
+  "description": "Kalkulačka makier zadarmo: zadajte svoj denný cieľ kalórií a vyberte rozdelenie — Vyvážené, Vysoký obsah bielkovín, Nízky obsah sacharidov alebo Keto — a získajte sacharidy, bielkoviny a tuk v gramoch na deň.",
+  "id": "/loona-calculators/sk/macro-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

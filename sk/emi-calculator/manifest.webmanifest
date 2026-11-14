@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka EMI",
+  "short_name": "Kalkulačka EMI",
+  "description": "Kalkulačka EMI a úverov zadarmo: zadajte sumu úveru, úrokovú alebo ziskovú sadzbu a dobu splatnosti a získajte mesačnú splátku, celkový úrok a celkovú platbu. Pre bankové úvery, úvery na auto a osobné úvery.",
+  "id": "/loona-calculators/sk/emi-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

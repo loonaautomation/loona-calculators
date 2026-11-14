@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka percentilu BMI detí",
+  "short_name": "Percentil BMI dieťaťa",
+  "description": "Kalkulačka percentilu BMI dieťaťa zadarmo pomocou oficiálnych údajov rastových grafov CDC LMS pre vek 2 až 20: BMI, percentil, z-skóre a kategória hmotnosti pre chlapcov a dievčatá.",
+  "id": "/loona-calculators/sk/child-bmi-percentile-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

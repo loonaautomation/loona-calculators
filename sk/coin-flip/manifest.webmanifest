@@ -1,0 +1,29 @@
+{
+  "name": "Loona Hod mincou",
+  "short_name": "Hod mincou",
+  "description": "Hádzanie mince online zadarmo: hoďte virtuálnu mincu raz alebo desať naraz, s počtami panny/orla, percentami, štatistikami sérií a režimom zápasu best-of.",
+  "id": "/loona-calculators/sk/coin-flip/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

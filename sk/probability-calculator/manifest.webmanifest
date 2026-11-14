@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka pravdepodobnosti",
+  "short_name": "Kalkulačka pravdepodobnosti",
+  "description": "Kalkulačka pravdepodobnosti zadarmo: pravdepodobnosť A a B, A alebo B, žiadnej a presne jednej; prevod kurzov; kombinácie a permutácie. So vzorcami a príkladmi.",
+  "id": "/loona-calculators/sk/probability-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

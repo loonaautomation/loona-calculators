@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka zlomkov",
+  "short_name": "Kalkulačka zlomkov",
+  "description": "Kalkulačka zlomkov zadarmo: sčítajte, odčítajte, násobte alebo deľte dva zlomky a získajte zjednodušenú odpoveď ako zlomok, zmiešané číslo a desatinné číslo.",
+  "id": "/loona-calculators/sk/fraction-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

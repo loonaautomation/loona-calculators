@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kontrola oprávnenosti ETIAS",
+  "short_name": "Kontrola oprávnenosti ETIAS",
+  "description": "Kontrola oprávnenosti na ETIAS zadarmo: vyberte svoju národnosť a cestovnú situáciu a zistite, či budete potrebovať ETIAS, schengenské vízum alebo žiadne povolenie na krátke cesty do Európy.",
+  "id": "/loona-calculators/sk/etias-eligibility-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

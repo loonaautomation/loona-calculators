@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka trigonometrie",
+  "short_name": "Kalkulačka trigonometrie",
+  "description": "Kalkulačka trigonometrie zadarmo: zadajte uhol v stupňoch alebo radiánoch a získajte sin, cos, tan, csc, sec a cot, alebo použite inverzné sin, cos a tan na nájdenie uhla z pomeru. Tabuľka presných hodnôt zahrnutá.",
+  "id": "/loona-calculators/sk/trigonometry-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

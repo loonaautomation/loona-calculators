@@ -1,0 +1,29 @@
+{
+  "name": "Loona Výmenné kurzy mien",
+  "short_name": "Kurzy výmeny mien",
+  "description": "Referenčné výmenné kurzy ECB z 06. novembra 2026 pre 20 mien — všetkých 380 párov s prevodníkmi, inverznými kurzami a tabuľkami.",
+  "id": "/loona-calculators/sk/currency-exchange-rates.html",
+  "start_url": "./currency-exchange-rates.html",
+  "scope": "./currency-exchange-rates.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

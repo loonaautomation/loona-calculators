@@ -1,0 +1,29 @@
+{
+  "name": "Loona prevodník barov na PSI",
+  "short_name": "Prevodník barov na PSI",
+  "description": "Preveďte bary na libry na štvorcový palec okamžite. Presný vzorec, úplná prevodná tabuľka bar na psi a riešené príklady. Zadarmo, bez registrácie.",
+  "id": "/loona-calculators/sk/bar-to-psi-converter.html",
+  "start_url": "./bar-to-psi-converter.html",
+  "scope": "./bar-to-psi-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona hypotekárna kalkulačka pre Austráliu",
+  "short_name": "Kalkulačka hypotéky pre Austráliu",
+  "description": "Kalkulačka úveru na bývanie pre Austráliu zadarmo v AUD: mesačné splátky, celkový úrok a celkové náklady, plus porovnanie mimoriadnych splátok na rýchlejšie splatenie.",
+  "id": "/loona-calculators/sk/australia-mortgage-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

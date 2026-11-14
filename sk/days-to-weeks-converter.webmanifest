@@ -1,0 +1,29 @@
+{
+  "name": "Loona Prevodník Dni na Týždne",
+  "short_name": "Prevodník dní na týždne",
+  "description": "Preveďte dni na týždne okamžite. Presný vzorec, úplná prevodná tabuľka days na weeks a riešené príklady. Zadarmo, bez registrácie.",
+  "id": "/loona-calculators/sk/days-to-weeks-converter.html",
+  "start_url": "./days-to-weeks-converter.html",
+  "scope": "./days-to-weeks-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

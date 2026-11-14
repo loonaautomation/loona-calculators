@@ -1,0 +1,29 @@
+{
+  "name": "Loona Generátor Secret Santa",
+  "short_name": "Generátor tajného Santu",
+  "description": "Generátor Secret Santa zadarmo: pridajte mená, nastavte vylúčenia (páry, minuloročné dvojice), žrebujte v tajnosti a potom každý odhalí len svoju vlastnú dvojicu. Súkromné, v prehliadači.",
+  "id": "/loona-calculators/sk/secret-santa-generator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

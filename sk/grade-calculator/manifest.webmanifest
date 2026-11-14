@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka známok",
+  "short_name": "Kalkulačka známok",
+  "description": "Kalkulačka vážených známok zadarmo: zadajte až 8 skóre úloh s ich váhami a získajte celkové percento známky a písmenovú známku. Váhy nemusia dávať súčet 100.",
+  "id": "/loona-calculators/sk/grade-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

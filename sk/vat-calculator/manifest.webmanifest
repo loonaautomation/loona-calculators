@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka DPH",
+  "short_name": "Kalkulačka DPH",
+  "description": "Kalkulačka DPH/GST zadarmo: pripočítajte daň k čistej sume alebo odstráňte daň z hrubej sumy pri akejkoľvek sadzbe. Funguje pre DPH, GST a daň z predaja v akejkoľvek krajine.",
+  "id": "/loona-calculators/sk/vat-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

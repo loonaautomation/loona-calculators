@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kalkulačka t-testu jednej vzorky — T štatistika, DF a P-hodnota | Kalkulačky Loona</title>
+<meta name="description" content="Kalkulačka jednovýberového t-testu zadarmo: zadajte výberový priemer, SD, n a hypotetický priemer a získajte t štatistiku, stupne voľnosti a p-hodnoty.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/sk/t-test-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/t-test-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/t-test-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/t-test-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/t-test-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/t-test-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/t-test-calculator/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/t-test-calculator/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/t-test-calculator/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/t-test-calculator/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/t-test-calculator/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/t-test-calculator/"><link rel="alternate" hreflang="hi" href="https://loonaautomation.github.io/loona-calculators/hi/t-test-calculator/"><link rel="alternate" hreflang="ja" href="https://loonaautomation.github.io/loona-calculators/ja/t-test-calculator/"><link rel="alternate" hreflang="ko" href="https://loonaautomation.github.io/loona-calculators/ko/t-test-calculator/"><link rel="alternate" hreflang="pl" href="https://loonaautomation.github.io/loona-calculators/pl/t-test-calculator/"><link rel="alternate" hreflang="vi" href="https://loonaautomation.github.io/loona-calculators/vi/t-test-calculator/"><link rel="alternate" hreflang="id" href="https://loonaautomation.github.io/loona-calculators/id/t-test-calculator/"><link rel="alternate" hreflang="th" href="https://loonaautomation.github.io/loona-calculators/th/t-test-calculator/"><link rel="alternate" hreflang="ms" href="https://loonaautomation.github.io/loona-calculators/ms/t-test-calculator/"><link rel="alternate" hreflang="ro" href="https://loonaautomation.github.io/loona-calculators/ro/t-test-calculator/"><link rel="alternate" hreflang="cs" href="https://loonaautomation.github.io/loona-calculators/cs/t-test-calculator/"><link rel="alternate" hreflang="sv" href="https://loonaautomation.github.io/loona-calculators/sv/t-test-calculator/"><link rel="alternate" hreflang="nb" href="https://loonaautomation.github.io/loona-calculators/nb/t-test-calculator/"><link rel="alternate" hreflang="en-us" href="https://loonaautomation.github.io/loona-calculators/en-us/t-test-calculator/"><link rel="alternate" hreflang="en-gb" href="https://loonaautomation.github.io/loona-calculators/en-gb/t-test-calculator/"><link rel="alternate" hreflang="zh" href="https://loonaautomation.github.io/loona-calculators/zh/t-test-calculator/"><link rel="alternate" hreflang="bn" href="https://loonaautomation.github.io/loona-calculators/bn/t-test-calculator/"><link rel="alternate" hreflang="zh-hant" href="https://loonaautomation.github.io/loona-calculators/zh-hant/t-test-calculator/"><link rel="alternate" hreflang="pt-br" href="https://loonaautomation.github.io/loona-calculators/pt-br/t-test-calculator/"><link rel="alternate" hreflang="pt-pt" href="https://loonaautomation.github.io/loona-calculators/pt-pt/t-test-calculator/"><link rel="alternate" hreflang="da" href="https://loonaautomation.github.io/loona-calculators/da/t-test-calculator/"><link rel="alternate" hreflang="fi" href="https://loonaautomation.github.io/loona-calculators/fi/t-test-calculator/"><link rel="alternate" hreflang="he" href="https://loonaautomation.github.io/loona-calculators/he/t-test-calculator/"><link rel="alternate" hreflang="sw" href="https://loonaautomation.github.io/loona-calculators/sw/t-test-calculator/"><link rel="alternate" hreflang="uk" href="https://loonaautomation.github.io/loona-calculators/uk/t-test-calculator/"><link rel="alternate" hreflang="bg" href="https://loonaautomation.github.io/loona-calculators/bg/t-test-calculator/"><link rel="alternate" hreflang="sk" href="https://loonaautomation.github.io/loona-calculators/sk/t-test-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/t-test-calculator/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Kalkulačka t-testu jednej vzorky — T štatistika, DF a P-hodnota | Kalkulačky Loona">
+<meta property="og:description" content="Kalkulačka jednovýberového t-testu zadarmo: zadajte výberový priemer, SD, n a hypotetický priemer a získajte t štatistiku, stupne voľnosti a p-hodnoty.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/sk/t-test-calculator/"><meta property="og:locale" content="sk_SK">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Kalkulačka t-testu jednej vzorky — T štatistika, DF a P-hodnota | Kalkulačky Loona">
+<meta name="twitter:description" content="Kalkulačka jednovýberového t-testu zadarmo: zadajte výberový priemer, SD, n a hypotetický priemer a získajte t štatistiku, stupne voľnosti a p-hodnoty.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona Kalkulačka t-testu","url":"https://loonaautomation.github.io/loona-calculators/sk/t-test-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Kedy mám použiť t-test namiesto z-testu?","acceptedAnswer":{"@type":"Answer","text":"Keď je smerodajná odchýlka populácie neznáma a odhaduje sa zo vzorky — v praxi takmer vždy. Pri veľkých vzorkách sa obe takmer zhodujú; pri malých vzorkách sú širšie chvosty t-testu čestnou korekciou."}},{"@type":"Question","name":"Aké predpoklady robí?","acceptedAnswer":{"@type":"Answer","text":"Nezávislé pozorovania a približne normálna populácia (alebo dostatočne veľká vzorka pre centrálnu limitnú vetu). Silné zošikmenie pri malých vzorkách to narúša."}},{"@type":"Question","name":"Jednostranný alebo dvojstranný?","acceptedAnswer":{"@type":"Answer","text":"Dvojstranné, pokiaľ smer nebol stanovený pred zberom údajov a opačný smer je v kontexte nezmyselný. Táto stránka hlási obe, takže voľba je transparentná."}},{"@type":"Question","name":"Čo znamená df = n − 1?","acceptedAnswer":{"@type":"Answer","text":"Jeden stupeň voľnosti sa minie na odhad samotného priemeru, zostáva n − 1 nezávislých častí informácie o variabilite."}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/sk/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Kalkulačka T-testu",
+      "item": "https://loonaautomation.github.io/loona-calculators/sk/t-test-calculator/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Logo Loona Automation">
+<div class="brand">Loona <span>Kalkulačky</span></div>
+<nav>
+<a href="../">Domov</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">O nás</a>
+<a href="../contact.html">Kontakt</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › Matematika › Kalkulačka t-testu</div>
+<h1 class="pagetitle">📏 Kalkulačka T-testu</h1>
+<p class="lead">Spustite t-test s jednou vzorkou zo súhrnných štatistík: priemer vzorky, smerodajná odchýlka vzorky, veľkosť vzorky a priemer populácie, voči ktorému testujete. Získate štatistiku t, stupne voľnosti a jednostranné a dvojstranné hodnoty p.</p>
+<div class="exbox"><strong>Rýchla odpoveď:</strong> t = (x̄ − μ₀) ÷ (s ÷ √n), s df = n − 1. Priemer vzorky 105, s = 15, n = 25, testovanie μ₀ = 100: t = 5 ÷ 3 = 1.667 na 24 df, obojstranné p ≈ 0.109 — nevýznamné pri 0.05.</div>
+<div class="toolbox"><form class="calcform" id="ttForm">
+<div class="fld"><label for="ttMean">Priemer vzorky (x̄)</label><input type="number" id="ttMean" value="105" step="any"></div>
+<div class="fld"><label for="ttSd">Smerodajná odchýlka vzorky (s)</label><input type="number" id="ttSd" value="15" step="any" min="0"></div>
+<div class="fld"><label for="ttN">Veľkosť vzorky (n)</label><input type="number" id="ttN" value="25" min="2" max="1000000"></div>
+<div class="fld"><label for="ttMu">Hypotetický priemer (μ₀)</label><input type="number" id="ttMu" value="100" step="any"></div>
+<button class="calcbtn" type="submit">Spustiť t-test</button>
+<div class="calcresult" id="ttResult" style="display:none"></div>
+</form></div>
+<section class="txt"><h2>Ako používať kalkulačku t-testu</h2><ol><li>Zadajte výberový priemer a výberovú smerodajnú odchýlku.</li><li>Zadajte veľkosť vzorky a predpokladaný priemer populácie.</li><li>Prečítajte si t, df a hodnoty p; porovnajte ich s vašou hladinou významnosti.</li></ol>
+<div class="exbox"><strong>Príklad:</strong> Trieda má priemer 105 (s = 15, n = 25) voči národnému priemeru 100. t = 1.667, p ≈ 0.109 dvojstranne — rozdiel je zlučiteľný s náhodou na 5 % úrovni, napriek tomu, že vyzerá ako „o 5 bodov vyššie“.</div>
+<h2>Často kladené otázky</h2></section><div class="faq"><h3>Kedy mám použiť t-test namiesto z-testu?</h3><p>Keď je smerodajná odchýlka populácie neznáma a odhaduje sa zo vzorky — v praxi takmer vždy. Pri veľkých vzorkách sa obe takmer zhodujú; pri malých vzorkách sú širšie chvosty t-testu čestnou korekciou.</p></div><div class="faq"><h3>Aké predpoklady robí?</h3><p>Nezávislé pozorovania a približne normálna populácia (alebo dostatočne veľká vzorka pre centrálnu limitnú vetu). Silné zošikmenie pri malých vzorkách to narúša.</p></div><div class="faq"><h3>Jednostranný alebo dvojstranný?</h3><p>Dvojstranné, pokiaľ smer nebol stanovený pred zberom údajov a opačný smer je v kontexte nezmyselný. Táto stránka hlási obe, takže voľba je transparentná.</p></div><div class="faq"><h3>Čo znamená df = n − 1?</h3><p>Jeden stupeň voľnosti sa minie na odhad samotného priemeru, zostáva n − 1 nezávislých častí informácie o variabilite.</p></div>
+<h2 class="sec">Súvisiace kalkulačky</h2><div class="grid"><a class="card" href="../percentage-calculator/"><div class="ic">％</div><h3>Kalkulačka percent</h3><p>Matematika</p></a><a class="card" href="../statistics-calculator/"><div class="ic">📊</div><h3>Kalkulačka štatistiky</h3><p>Matematika</p></a><a class="card" href="../fraction-calculator/"><div class="ic">½</div><h3>Kalkulačka zlomkov</h3><p>Matematika</p></a><a class="card" href="../equation-solver/"><div class="ic">🧮</div><h3>Riešiteľ rovníc</h3><p>Matematika</p></a><a class="card" href="../scientific-calculator/"><div class="ic">🔬</div><h3>Vedecká kalkulačka</h3><p>Matematika</p></a><a class="card" href="../average-calculator/"><div class="ic">📐</div><h3>Kalkulačka priemeru</h3><p>Matematika</p></a><a class="card" href="../z-score-calculator/"><div class="ic">🔔</div><h3>Kalkulačka Z-skóre</h3><p>Matematika</p></a><a class="card" href="../probability-calculator/"><div class="ic">🎲</div><h3>Kalkulačka pravdepodobnosti</h3><p>Matematika</p></a></div>
+</div>
+<section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>Ako to funguje — vzorec</h2>
+<p><strong>t = (x̄ − μ₀) ÷ (s ÷ √n)</strong>, df = n − 1. P-hodnoty pochádzajú z CDF rozdelenia t, vypočítanej pomocou neúplnej beta funkcie — rovnaké hodnoty, ktoré uvádza štatistický softvér.</p>
+<h3>Vypracovaný príklad</h3><div class="exbox"><p><strong>Vstupy:</strong> x̄ = 105, s = 15, n = 25, μ₀ = 100.</p><p><strong>Kroky:</strong> Štandardná chyba = 15 ÷ √25 = 3. t = (105 − 100) ÷ 3 = 1.667. df = 24. Z rozdelenia t, dvojstranné p ≈ 0.109.</p><p><strong>Výsledok:</strong> t = <strong>1.667</strong>, df 24, p ≈ <strong>0.109</strong> — nevýznamné pri 0.05.</p></div>
+
+</section>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Vložte túto kalkulačku na svoju webovú stránku — zadarmo</h2>
+<p style="margin:0 0 12px;line-height:1.6">Pridajte túto kalkulačku na svoju vlastnú webovú stránku alebo blog — je úplne zadarmo, nevyžaduje registráciu a vždy zobrazuje najnovšiu verziu. Skopírujte kód nižšie a vložte ho do svojej stránky tam, kde chcete, aby sa kalkulačka zobrazila. Ponechanie malého riadka s pripisom &ldquo;Powered by Loona Automation&rdquo; pod vloženým prvkom pomáha udržať tento nástroj zadarmo &mdash; ale môžete ho ľubovoľne upraviť alebo odstrániť; nástroj funguje tak či tak.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/sk/t-test-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="T-Test Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Poskytuje &lt;a href="https://loonaautomation.github.io/loona-calculators/sk/t-test-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; zadarmo Kalkulačka T-testu&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Kopírovať kód na vloženie</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='Kopírovať kód na vloženie';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Populárne kalkulačky</h4><ul><li><a href="../age-calculator/">Kalkulačka veku</a></li>
+<li><a href="../zakat-calculator/">Kalkulačka zakátu</a></li>
+<li><a href="../cgpa-calculator/">Kalkulačka CGPA</a></li>
+<li><a href="../percentage-calculator/">Kalkulačka percent</a></li>
+<li><a href="../hijri-date-converter/">Prevodník hidžri dátumu</a></li>
+<li><a href="../emi-calculator/">Kalkulačka EMI a úverov</a></li></ul></div>
+<div><h4>Ďalšie nástroje Loona</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR kódy</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona Kompresor obrázkov</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI asistent</a></li>
+<li><a href="https://loonaautomation.github.io/">Všetky nástroje Loona</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">O nás</a></li>
+<li><a href="../contact.html">Kontakt</a></li>
+<li><a href="../privacy-policy.html">Zásady ochrany osobných údajov</a></li>
+<li><a href="../terms.html">Podmienky používania</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — <a href="https://loonaautomation.github.io/">Loona Automation</a> projekt. Bezplatné online kalkulačky, bez registrácie.
+Kontakt: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+/*TESTABLE_START*/
+function lgamma(x){
+  var c=[0.99999999999980993,676.5203681218851,-1259.1392167224028,771.32342877765313,-176.61502916214059,12.507343278686905,-0.13857109526572012,9.9843695780195716e-6,1.5056327351493116e-7];
+  if(x<0.5)return Math.log(Math.PI/Math.sin(Math.PI*x))-lgamma(1-x);
+  x-=1; var a=c[0], t=x+7.5;
+  for(var i=1;i<c.length;i++)a+=c[i]/(x+i);
+  return 0.5*Math.log(2*Math.PI)+(x+0.5)*Math.log(t)-t+Math.log(a);
+}
+function betacf(a,b,x){
+  var MAXIT=200,EPS=3e-12,FPMIN=1e-300;
+  var qab=a+b,qap=a+1,qam=a-1,c=1,d=1-qab*x/qap;
+  if(Math.abs(d)<FPMIN)d=FPMIN; d=1/d; var h=d;
+  for(var m=1;m<=MAXIT;m++){
+    var m2=2*m;
+    var aa=m*(b-m)*x/((qam+m2)*(a+m2));
+    d=1+aa*d; if(Math.abs(d)<FPMIN)d=FPMIN;
+    c=1+aa/c; if(Math.abs(c)<FPMIN)c=FPMIN;
+    d=1/d; h*=d*c;
+    aa=-(a+m)*(qab+m)*x/((a+m2)*(qap+m2));
+    d=1+aa*d; if(Math.abs(d)<FPMIN)d=FPMIN;
+    c=1+aa/c; if(Math.abs(c)<FPMIN)c=FPMIN;
+    d=1/d; var del=d*c; h*=del;
+    if(Math.abs(del-1)<EPS)break;
+  }
+  return h;
+}
+function betai(a,b,x){
+  if(x<=0)return 0; if(x>=1)return 1;
+  var bt=Math.exp(lgamma(a+b)-lgamma(a)-lgamma(b)+a*Math.log(x)+b*Math.log(1-x));
+  if(x<(a+1)/(a+b+2))return bt*betacf(a,b,x)/a;
+  return 1-bt*betacf(b,a,1-x)/b;
+}
+function normCdf(z){
+  var t=1/(1+0.2316419*Math.abs(z));
+  var poly=t*(0.319381530+t*(-0.356563782+t*(1.781477937+t*(-1.821255978+t*1.330274429))));
+  var phi=Math.exp(-z*z/2)/Math.sqrt(2*Math.PI);
+  var p=1-phi*poly;
+  return z>=0?p:1-p;
+}
+function normInv(p){
+  if(p<=0||p>=1)return NaN;
+  var a=[-3.969683028665376e+01,2.209460984245205e+02,-2.759285104469687e+02,1.383577518672690e+02,-3.066479806614716e+01,2.506628277459239e+00];
+  var b=[-5.447609879822406e+01,1.615858368580409e+02,-1.556989798598866e+02,6.680131188771972e+01,-1.328068155288572e+01];
+  var c=[-7.784894002430293e-03,-3.223964580411365e-01,-2.400758277161838e+00,-2.549732539343734e+00,4.374664141464968e+00,2.938163982698783e+00];
+  var d=[7.784695709041462e-03,3.224671290700398e-01,2.445134137142996e+00,3.754408661907416e+00];
+  var plow=0.02425, phigh=1-plow, q, r;
+  if(p<plow){q=Math.sqrt(-2*Math.log(p));return (((((c[0]*q+c[1])*q+c[2])*q+c[3])*q+c[4])*q+c[5])/((((d[0]*q+d[1])*q+d[2])*q+d[3])*q+1);}
+  if(p<=phigh){q=p-0.5;r=q*q;return (((((a[0]*r+a[1])*r+a[2])*r+a[3])*r+a[4])*r+a[5])*q/(((((b[0]*r+b[1])*r+b[2])*r+b[3])*r+b[4])*r+1);}
+  q=Math.sqrt(-2*Math.log(1-p));return -(((((c[0]*q+c[1])*q+c[2])*q+c[3])*q+c[4])*q+c[5])/((((d[0]*q+d[1])*q+d[2])*q+d[3])*q+1);
+}
+function tCdf(t,df){
+  var x=df/(df+t*t);
+  var ib=betai(df/2,0.5,x);
+  return t>=0?1-0.5*ib:0.5*ib;
+}
+function fCdf(f,d1,d2){
+  if(f<=0)return 0;
+  var x=(d1*f)/(d1*f+d2);
+  return betai(d1/2,d2/2,x);
+}
+function gammpSeries(a,x){
+  if(x===0)return 0;
+  var ap=a, sum=1/a, del=sum;
+  for(var n=1;n<=200;n++){ap++; del*=x/ap; sum+=del; if(Math.abs(del)<Math.abs(sum)*3e-12)break;}
+  return sum*Math.exp(-x+a*Math.log(x)-lgamma(a));
+}
+function gammqCf(a,x){
+  var FPMIN=1e-300, b=x+1-a, c=1/FPMIN, d=1/b, h=d;
+  for(var i=1;i<=200;i++){
+    var an=-i*(i-a); b+=2; d=an*d+b; if(Math.abs(d)<FPMIN)d=FPMIN;
+    c=b+an/c; if(Math.abs(c)<FPMIN)c=FPMIN;
+    d=1/d; var del=d*c; h*=del;
+    if(Math.abs(del-1)<3e-12)break;
+  }
+  return Math.exp(-x+a*Math.log(x)-lgamma(a))*h;
+}
+function gammp(a,x){if(x<0||a<=0)return NaN;return x<a+1?gammpSeries(a,x):1-gammqCf(a,x);}
+function chi2Cdf(x,df){if(x<=0)return 0;return gammp(df/2,x/2);}
+function factL(n){return Math.exp(lgamma(n+1));}
+function parseNums(s){var parts=String(s).split(/[\s,;]+/).filter(function(x){return x.length>0;});var out=[];for(var i=0;i<parts.length;i++){var v=Number(parts[i]);if(!isFinite(v))return null;out.push(v);}return out.length?out:null;}
+
+function tTest(mean,sd,n,mu){
+  if(!(sd>0)||!(n>=2))return null;
+  var t=(mean-mu)/(sd/Math.sqrt(n)), df=n-1;
+  var cdf=tCdf(t,df);
+  return {t:t,df:df,pTwo:2*(1-tCdf(Math.abs(t),df)),pRight:1-cdf,pLeft:cdf};
+}
+/*TESTABLE_END*/
+document.getElementById('ttForm').addEventListener('submit',function(e){e.preventDefault();
+ var r=tTest(parseFloat(document.getElementById('ttMean').value),parseFloat(document.getElementById('ttSd').value),parseInt(document.getElementById('ttN').value,10),parseFloat(document.getElementById('ttMu').value));
+ var box=document.getElementById('ttResult'); box.style.display='block';
+ if(!r){box.innerHTML='<p class="err">SD musí byť nad 0 a n aspoň 2.</p>';return;}
+ box.innerHTML='<div class="resbig"><span>štatistika t (df '+r.df+')</span><strong>'+r.t.toFixed(4)+'</strong></div>'
+ +'<table class="restbl"><tr><td>Dvojstranné p</td><td><strong>'+r.pTwo.toFixed(5)+'</strong></td></tr><tr><td>Jednostranné p (vpravo)</td><td><strong>'+r.pRight.toFixed(5)+'</strong></td></tr><tr><td>Jednostranné p (vľavo)</td><td><strong>'+r.pLeft.toFixed(5)+'</strong></td></tr><tr><td>Verdikt (dvojstranný, α=0.05)</td><td><strong>'+(r.pTwo<0.05?'Significant':'Not significant')+'</strong></td></tr></table>';});
+
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Inštalovať aplikáciu';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Nainštalujte si túto aplikáciu: klepnite na tlačidlo Zdieľať a potom vyberte „Pridať na plochu“.');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Prevodník veľkostí obuvi",
+  "short_name": "Prevodník veľkostí topánok",
+  "description": "Prevodník veľkostí topánok zadarmo pre mužov a ženy: prevádzajte medzi veľkosťami US, UK a EU a dĺžkou chodidla v cm a palcoch, pomocou štandardných prevodných tabuliek s najbližšou zhodou.",
+  "id": "/loona-calculators/sk/shoe-size-converter/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

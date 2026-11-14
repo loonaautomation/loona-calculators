@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka termínu pôrodu po IVF",
+  "short_name": "Kalkulačka termínu pôrodu pri IVF",
+  "description": "Kalkulačka termínu pôrodu IVF zadarmo: zadajte dátum transferu embrya a vek embrya (3. deň alebo 5. deň) a získajte odhadovaný termín pôrodu a aktuálny gestačný vek.",
+  "id": "/loona-calculators/sk/ivf-due-date-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

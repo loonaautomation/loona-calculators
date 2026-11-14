@@ -1,0 +1,29 @@
+{
+  "name": "Loona Prevodník času z Tokia do Sydney",
+  "short_name": "Prevodník času z Tokia do Sydney",
+  "description": "Preveďte čas v Tokiu na čas v Sydney. Sydney je v januári o 2 hodiny pred Tokiom a v júli o 1 hodinu pred ním, s dátumami letného času, 24-hodinovou tabuľkou a najlepším oknom na stretnutie. Zahrnutý je živý prevodník.",
+  "id": "/loona-calculators/sk/tokyo-to-sydney-time-converter.html",
+  "start_url": "./tokyo-to-sydney-time-converter.html",
+  "scope": "./tokyo-to-sydney-time-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

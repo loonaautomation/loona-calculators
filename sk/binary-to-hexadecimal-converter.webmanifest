@@ -1,0 +1,29 @@
+{
+  "name": "Loona prevodník binárnej sústavy na šestnástkovú",
+  "short_name": "Binárna na hexadecimálnu",
+  "description": "Preveďte binárne čísla (základ 2) na šestnástkové (základ 16) s kontrolou, rozpisom pozičných hodnôt a referenčnou tabuľkou.",
+  "id": "/loona-calculators/sk/binary-to-hexadecimal-converter.html",
+  "start_url": "./binary-to-hexadecimal-converter.html",
+  "scope": "./binary-to-hexadecimal-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

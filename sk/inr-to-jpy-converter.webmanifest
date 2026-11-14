@@ -1,0 +1,29 @@
+{
+  "name": "Loona Prevodník INR na JPY",
+  "short_name": "Prevodník INR na JPY",
+  "description": "Preveďte indickú rupiu (INR) na japonský jen (JPY). Referenčná sadzba ECB z 06. novembra 2026, inverzná sadzba, prevodná tabuľka a poznámky ku koridoru. Len orientačné.",
+  "id": "/loona-calculators/sk/inr-to-jpy-converter.html",
+  "start_url": "./inr-to-jpy-converter.html",
+  "scope": "./inr-to-jpy-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

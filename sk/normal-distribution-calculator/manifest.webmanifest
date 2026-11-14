@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka normálneho rozdelenia",
+  "short_name": "Kalkulačka normálneho rozdelenia",
+  "description": "Kalkulačka normálneho rozdelenia zadarmo: pre akýkoľvek priemer a smerodajnú odchýlku nájdite P(X<x), P(X>x), P(a<X<b) a hodnotu pri danom percentile.",
+  "id": "/loona-calculators/sk/normal-distribution-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

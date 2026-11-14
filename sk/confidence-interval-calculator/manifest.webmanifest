@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka intervalu spoľahlivosti",
+  "short_name": "Kalkulačka intervalu spoľahlivosti",
+  "description": "Kalkulačka intervalu spoľahlivosti zadarmo: IS pre priemer so známou sigma (z), s výberovou SD (t) a pre podiel, pri spoľahlivosti 90 %, 95 % alebo 99 %.",
+  "id": "/loona-calculators/sk/confidence-interval-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

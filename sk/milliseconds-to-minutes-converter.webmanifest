@@ -1,0 +1,29 @@
+{
+  "name": "Loona Prevodník Milisekunda na Minúta",
+  "short_name": "Milisekunda na Minúta",
+  "description": "Preveďte milisekundy na minúty okamžite. Presný vzorec, úplná prevodná tabuľka ms na min, riešený príklad a časté otázky. Zadarmo, bez registrácie.",
+  "id": "/loona-calculators/sk/milliseconds-to-minutes-converter.html",
+  "start_url": "./milliseconds-to-minutes-converter.html",
+  "scope": "./milliseconds-to-minutes-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

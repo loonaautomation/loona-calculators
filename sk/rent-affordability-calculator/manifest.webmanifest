@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka dostupnosti nájmu",
+  "short_name": "Kalkulačka dostupnosti nájmu",
+  "description": "Kalkulačka dostupnosti nájmu zadarmo: zadajte svoj hrubý príjem, podiel, ktorý môžete minúť na nájom, a svoje mesačné dlhy a pozrite si maximálny nájom, ktorý si môžete dovoliť — s usmernením 28/36.",
+  "id": "/loona-calculators/sk/rent-affordability-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

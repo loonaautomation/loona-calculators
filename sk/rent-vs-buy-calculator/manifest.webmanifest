@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka nájom vs. kúpa",
+  "short_name": "Kalkulačka nájom verzus kúpa",
+  "description": "Kalkulačka nájom vs kúpa zadarmo: porovnajte celkové náklady prenájmu s čistými nákladmi kúpy domu počas rokov, ktoré plánujete zostať — vrátane hypotéky, zvyšovaní nájmu, rastu cien a vlastného imania.",
+  "id": "/loona-calculators/sk/rent-vs-buy-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

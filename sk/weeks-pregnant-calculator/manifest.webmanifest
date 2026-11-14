@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka týždňov tehotenstva",
+  "short_name": "Kalkulačka týždňov tehotenstva",
+  "description": "Kalkulačka týždňov tehotenstva zadarmo: zadajte dátum poslednej menštruácie alebo termín pôrodu a pozrite si presne, koľko týždňov a dní ste tehotná, váš trimester a zostávajúce dni.",
+  "id": "/loona-calculators/sk/weeks-pregnant-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

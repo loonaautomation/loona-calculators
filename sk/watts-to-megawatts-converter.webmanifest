@@ -1,0 +1,29 @@
+{
+  "name": "Loona Prevodník Watt na Megawatt",
+  "short_name": "Prevodník Watt na Megawatt",
+  "description": "Preveďte watty na megawatty okamžite. Presný vzorec, úplná prevodná tabuľka W na MW, riešený príklad a časté otázky. Zadarmo, bez registrácie.",
+  "id": "/loona-calculators/sk/watts-to-megawatts-converter.html",
+  "start_url": "./watts-to-megawatts-converter.html",
+  "scope": "./watts-to-megawatts-converter.html",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

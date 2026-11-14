@@ -1,0 +1,29 @@
+{
+  "name": "Loona Nástroj na vážené rozhodovanie",
+  "short_name": "Rozhodovač s váhami",
+  "description": "Nástroj váženého rozhodovania zadarmo: uveďte možnosti s váhami a vyberte jednu s pravdepodobnosťou úmernou jej váhe. Zobrazuje presnú percentuálnu šancu každej možnosti.",
+  "id": "/loona-calculators/sk/weighted-decision-maker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

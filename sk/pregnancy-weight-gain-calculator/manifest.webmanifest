@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka priberania v tehotenstve",
+  "short_name": "Prírastok hmotnosti v tehotenstve",
+  "description": "Kalkulačka prírastku hmotnosti v tehotenstve zadarmo: odporúčané celkové a týždenné rozsahy prírastku podľa IOM na základe vašej kategórie BMI pred tehotenstvom. Len vzdelávací sprievodca.",
+  "id": "/loona-calculators/sk/pregnancy-weight-gain-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka chí-kvadrát testu",
+  "short_name": "Kalkulačka chí-kvadrát testu",
+  "description": "Kalkulačka chí-kvadrát testu zadarmo: zadajte pozorovanú tabuľku pre test nezávislosti, alebo pozorované vs očakávané počty pre dobrú zhodu. Chí-kvadrát, df a p-hodnota.",
+  "id": "/loona-calculators/sk/chi-square-test-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

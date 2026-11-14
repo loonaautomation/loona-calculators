@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka jednovýberového z-testu",
+  "short_name": "Kalkulačka z-testu jednej vzorky",
+  "description": "Kalkulačka jednovýberového z-testu zadarmo: výberový priemer, známa populačná SD, n a hypotetický priemer dávajú z štatistiku a p-hodnoty. Overené podľa učebníc.",
+  "id": "/loona-calculators/sk/z-test-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

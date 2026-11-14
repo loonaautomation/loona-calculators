@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka účtu za elektrinu",
+  "short_name": "Kalkulačka účtu za elektrinu",
+  "description": "Kalkulačka účtu za elektrinu zadarmo: zadajte spotrebované jednotky a sadzby pásiem a odhadnite svoj mesačný účet s GST. Upraviteľné sadzby pre LESCO, IESCO, K-Electric a všetky pakistanské elektrárenské spoločnosti.",
+  "id": "/loona-calculators/sk/electricity-bill-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
