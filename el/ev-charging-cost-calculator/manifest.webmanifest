@@ -1,0 +1,29 @@
+{
+  "name": "Loona Υπολογιστής κόστους φόρτισης EV",
+  "short_name": "Υπολογιστής κόστους φόρτισης EV",
+  "description": "Δωρεάν υπολογιστής κόστους φόρτισης EV: εισαγάγετε μέγεθος μπαταρίας, επίπεδα φόρτισης και το τιμολόγιο ηλεκτρικής ενέργειας (συμπεριλαμβανομένων των νυχτερινών τιμολογίων) για να λάβετε κόστος ανά φόρτιση, κόστος ανά 100 χλμ ή μίλια, μηνιαίο κόστος φόρτισης και εξοικονόμηση σε σχέση με τη βενζίνη.",
+  "id": "/loona-calculators/el/ev-charging-cost-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
