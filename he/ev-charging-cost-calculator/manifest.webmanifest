@@ -1,0 +1,29 @@
+{
+  "name": "Loona מחשבון עלות טעינת רכב חשמלי",
+  "short_name": "מחשבון עלות טעינת רכב חשמלי",
+  "description": "מחשבון חינמי לעלות טעינת רכב חשמלי: הזינו גודל סוללה, רמות טעינה ותעריף חשמל (כולל תעריפי לילה בשעות שפל) וקבלו עלות לטעינה, עלות ל-100 ק\"מ או מייל, עלות טעינה חודשית וחיסכון מול בנזין.",
+  "id": "/loona-calculators/he/ev-charging-cost-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
