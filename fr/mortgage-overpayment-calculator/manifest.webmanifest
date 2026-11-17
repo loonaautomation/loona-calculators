@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calculateur de remboursement anticipé hypothécaire",
+  "short_name": "Remboursement anticipé",
+  "description": "Calculateur gratuit de remboursement anticipé, réaménagement et refinancement hypothécaire : paiements supplémentaires, versements uniques, intérêt économisé, années retirées et mois de seuil du refinancement.",
+  "id": "/loona-calculators/fr/mortgage-overpayment-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

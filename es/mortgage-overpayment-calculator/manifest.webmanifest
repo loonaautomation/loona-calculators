@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calculadora de pagos extra de hipoteca",
+  "short_name": "Pagos extra hipoteca",
+  "description": "Calculadora gratuita de pagos extra, recálculo y refinanciación de hipoteca: pagos extra, pagos únicos, interés ahorrado, años recortados y el mes de equilibrio de la refinanciación.",
+  "id": "/loona-calculators/es/mortgage-overpayment-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
