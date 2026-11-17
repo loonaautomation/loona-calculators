@@ -1,0 +1,29 @@
+{
+  "name": "Loona Controllo della pressione arteriosa e diario",
+  "short_name": "Pressione arteriosa",
+  "description": "Controllo e diario della pressione arteriosa gratuiti: inserisci i valori sistolico e diastolico per vedere la tua categoria AHA ed ESC, salva le misurazioni mattina e sera e stampa un foglio con la media di 7 giorni per il tuo medico.",
+  "id": "/loona-calculators/blood-pressure-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

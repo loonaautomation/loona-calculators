@@ -1,0 +1,29 @@
+{
+  "name": "Loona Vérnyomás-ellenőrző és Napló",
+  "short_name": "Vérnyomás",
+  "description": "Ingyenes vérnyomás-ellenőrző és napló: adja meg szisztolés és diasztolés értékét, hogy lássa AHA és ESC kategóriáját, mentse a reggeli és esti méréseket, és nyomtasson 7 napos átlaglapot orvosának.",
+  "id": "/loona-calculators/blood-pressure-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

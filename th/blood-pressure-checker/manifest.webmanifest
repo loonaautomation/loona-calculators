@@ -1,0 +1,29 @@
+{
+  "name": "Loona เครื่องตรวจความดันโลหิต & บันทึก",
+  "short_name": "ความดันโลหิต",
+  "description": "เครื่องตรวจความดันโลหิตและบันทึกฟรี: ใส่ค่าซิสโตลิกและไดแอสโตลิกเพื่อดูหมวดหมู่ AHA และ ESC บันทึกค่าตอนเช้าและตอนเย็น และพิมพ์แผ่นค่าเฉลี่ย 7 วันสำหรับแพทย์ของคุณ",
+  "id": "/loona-calculators/blood-pressure-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

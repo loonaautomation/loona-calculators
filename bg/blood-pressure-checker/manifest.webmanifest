@@ -1,0 +1,29 @@
+{
+  "name": "Loona Проверка и дневник на кръвното налягане",
+  "short_name": "Кръвно налягане",
+  "description": "Безплатна проверка и дневник на кръвното налягане: въведете систоличната и диастоличната си стойност, за да видите категорията си по AHA и ESC, запазвайте сутрешни и вечерни измервания и отпечатайте лист със средна стойност за 7 дни за вашия лекар.",
+  "id": "/loona-calculators/blood-pressure-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Перевірка артеріального тиску та щоденник",
+  "short_name": "Тиск",
+  "description": "Безкоштовна перевірка артеріального тиску та щоденник: введіть систолічні та діастолічні значення, щоб побачити свою категорію за AHA та ESC, зберігайте ранкові та вечірні вимірювання й роздрукуйте аркуш із середнім значенням за 7 днів для лікаря.",
+  "id": "/loona-calculators/blood-pressure-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

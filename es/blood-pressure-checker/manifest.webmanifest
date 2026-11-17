@@ -1,0 +1,29 @@
+{
+  "name": "Loona Comprobador de presión arterial y registro",
+  "short_name": "Presión arterial",
+  "description": "Comprobador y registro de presión arterial gratuitos: introduce tus valores sistólico y diastólico para ver tu categoría AHA y ESC, guarda mediciones por la mañana y por la noche e imprime una hoja con la media de 7 días para tu médico.",
+  "id": "/loona-calculators/blood-pressure-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

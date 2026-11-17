@@ -1,0 +1,29 @@
+{
+  "name": "Loona 血压检查器与记录",
+  "short_name": "血压",
+  "description": "免费血压检查器与记录：输入您的收缩压和舒张压数值，查看您的 AHA 和 ESC 分类，保存晨间和晚间读数，并打印7天平均值表格给您的医生。",
+  "id": "/loona-calculators/blood-pressure-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

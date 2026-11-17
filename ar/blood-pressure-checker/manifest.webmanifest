@@ -1,0 +1,29 @@
+{
+  "name": "Loona فحص ضغط الدم والسجل",
+  "short_name": "ضغط الدم",
+  "description": "فحص مجاني لضغط الدم وسجل: أدخل قيمتي الانقباضي والانبساطي لترى فئتك وفق AHA و ESC، واحفظ القراءات الصباحية والمسائية، واطبع ورقة متوسط 7 أيام لطبيبك.",
+  "id": "/loona-calculators/blood-pressure-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

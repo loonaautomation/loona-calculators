@@ -1,0 +1,29 @@
+{
+  "name": "Loona Pemeriksa Tekanan Darah & Catatan",
+  "short_name": "Tekanan Darah",
+  "description": "Pemeriksa tekanan darah dan catatan gratis: masukkan angka sistolik dan diastolik Anda untuk melihat kategori AHA dan ESC, simpan hasil pagi dan malam, dan cetak lembar rata-rata 7 hari untuk dokter Anda.",
+  "id": "/loona-calculators/blood-pressure-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

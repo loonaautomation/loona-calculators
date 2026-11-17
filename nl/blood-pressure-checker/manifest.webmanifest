@@ -1,0 +1,29 @@
+{
+  "name": "Loona Bloeddrukchecker & Logboek",
+  "short_name": "Bloeddruk",
+  "description": "Gratis bloeddrukchecker en logboek: voer je systolische en diastolische waarden in om je AHA- en ESC-categorie te zien, sla ochtend- en avondmetingen op en print een blad met het 7-daags gemiddelde voor je arts.",
+  "id": "/loona-calculators/blood-pressure-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

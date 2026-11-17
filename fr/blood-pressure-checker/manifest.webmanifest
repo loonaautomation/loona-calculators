@@ -1,0 +1,29 @@
+{
+  "name": "Loona Vérificateur de tension artérielle et journal",
+  "short_name": "Tension artérielle",
+  "description": "Vérificateur et journal de tension artérielle gratuits : saisissez vos valeurs systolique et diastolique pour voir votre catégorie AHA et ESC, enregistrez vos mesures matin et soir et imprimez une feuille de moyenne sur 7 jours pour votre médecin.",
+  "id": "/loona-calculators/blood-pressure-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
