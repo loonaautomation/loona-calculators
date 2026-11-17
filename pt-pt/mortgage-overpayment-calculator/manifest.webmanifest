@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calculadora de amortização extra de crédito habitação",
+  "short_name": "Amortização extra",
+  "description": "Calculadora gratuita de amortização extra, reformulação e refinanciamento de crédito habitação: pagamentos extra, pagamentos únicos, juros poupados, anos cortados e o mês de equilíbrio do refinanciamento.",
+  "id": "/loona-calculators/pt-pt/mortgage-overpayment-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
