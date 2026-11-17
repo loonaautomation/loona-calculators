@@ -1,0 +1,29 @@
+{
+  "name": "Loona Numeroloji Hesaplayıcı",
+  "short_name": "Numeroloji Hesaplayıcı",
+  "description": "Ücretsiz numeroloji hesaplayıcı: Yaşam Yolu, İfade (Kader), Ruh Arzusu, Kişilik ve Kişisel Yıl sayılarınızı almak için doğum tarihinizi ve doğumdaki tam adınızı girin — hesaplamanın her adımı gösterilir. Artı iki kişilik uyum kontrolü.",
+  "id": "/loona-calculators/tr/numerology-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

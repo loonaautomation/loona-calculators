@@ -1,0 +1,29 @@
+{
+  "name": "Loona Numerologická kalkulačka",
+  "short_name": "Numerologická kalkulačka",
+  "description": "Bezplatná numerologická kalkulačka: zadajte dátum narodenia a celé rodné meno a získajte číslo životnej cesty, číslo vyjadrenia (osudu), číslo túžby duše, číslo osobnosti a osobný rok — so zobrazeným každým krokom výpočtu. Plus kontrola kompatibility pre dve osoby.",
+  "id": "/loona-calculators/sk/numerology-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Αριθμολογικός Υπολογιστής",
+  "short_name": "Αριθμολογικός Υπολογιστής",
+  "description": "Δωρεάν αριθμολογικός υπολογιστής: εισαγάγετε την ημερομηνία γέννησής σας και το πλήρες όνομα γέννησής σας για να λάβετε τους αριθμούς Μονοπατιού Ζωής, Έκφρασης (Πεπρωμένου), Επιθυμίας Ψυχής, Προσωπικότητας και Προσωπικού Έτους — με κάθε βήμα του υπολογισμού να εμφανίζεται. Συν έλεγχο συμβατότητας για δύο άτομα.",
+  "id": "/loona-calculators/el/numerology-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

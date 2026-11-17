@@ -1,0 +1,29 @@
+{
+  "name": "Loona Numerologie-Rechner",
+  "short_name": "Numerologie-Rechner",
+  "description": "Kostenloser Numerologie-Rechner: Gib dein Geburtsdatum und deinen vollständigen Geburtsnamen ein und erhalte deine Lebensweg-, Ausdrucks- (Schicksals-), Seelen-, Persönlichkeits- und Persönliches-Jahr-Zahl — mit jedem Schritt der Berechnung. Plus eine Kompatibilitätsprüfung für zwei Personen.",
+  "id": "/loona-calculators/de/numerology-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

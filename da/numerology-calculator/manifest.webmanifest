@@ -1,0 +1,29 @@
+{
+  "name": "Loona Numerologiberegner",
+  "short_name": "Numerologiberegner",
+  "description": "Gratis numerologiberegner: indtast din fødselsdato og dit fulde fødselsnavn, og få dine tal for livsvej, udtryk (skæbne), sjæletrang, personlighed og personligt år — med hvert trin i beregningen vist. Plus et kompatibilitetstjek for to personer.",
+  "id": "/loona-calculators/da/numerology-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

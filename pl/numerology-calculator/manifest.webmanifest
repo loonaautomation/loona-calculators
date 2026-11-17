@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator numerologiczny",
+  "short_name": "Kalkulator numerologiczny",
+  "description": "Darmowy kalkulator numerologiczny: wpisz datę urodzenia i pełne imię i nazwisko z urodzenia, aby otrzymać Drogę Życia, Ekspresję (Przeznaczenie), Pragnienie Duszy, Osobowość i Rok Osobisty — z pokazanym każdym krokiem obliczeń. Plus sprawdzenie zgodności dla dwóch osób.",
+  "id": "/loona-calculators/pl/numerology-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

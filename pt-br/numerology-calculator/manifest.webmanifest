@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calculadora de Numerologia",
+  "short_name": "Calculadora de Numerologia",
+  "description": "Calculadora de numerologia grátis: digite sua data de nascimento e seu nome completo de nascimento para obter os números do Caminho de Vida, Expressão (Destino), Desejo da Alma, Personalidade e Ano Pessoal — com cada passo do cálculo mostrado. Além de um teste de compatibilidade entre duas pessoas.",
+  "id": "/loona-calculators/pt-br/numerology-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona เครื่องคำนวณเลขศาสตร์",
+  "short_name": "เครื่องคำนวณเลขศาสตร์",
+  "description": "เครื่องคำนวณเลขศาสตร์ฟรี: กรอกวันเกิดและชื่อเต็มตอนเกิดของคุณเพื่อรับเลขเส้นทางชีวิต เลขการแสดงออก (โชคชะตา) เลขแรงปรารถนาในจิตวิญญาณ เลขบุคลิกภาพ และเลขปีส่วนตัว — พร้อมแสดงทุกขั้นตอนการคำนวณ และยังเช็กความเข้ากันของสองคนได้อีกด้วย",
+  "id": "/loona-calculators/th/numerology-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

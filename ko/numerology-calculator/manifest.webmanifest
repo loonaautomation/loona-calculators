@@ -1,0 +1,29 @@
+{
+  "name": "Loona 수비학 계산기",
+  "short_name": "수비학 계산기",
+  "description": "무료 수비학 계산기: 생년월일과 출생 시 전체 이름을 입력하면 인생 경로 수, 표현 수(운명 수), 영혼 소망 수, 성격 수, 개인 연도 수를 얻을 수 있습니다 — 계산의 모든 단계와 함께. 두 사람 궁합 확인 기능도 있습니다.",
+  "id": "/loona-calculators/ko/numerology-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Numerologikalkulator",
+  "short_name": "Numerologikalkulator",
+  "description": "Gratis numerologikalkulator: skriv inn fødselsdatoen og fullt fødselsnavn for å få livsveinummer, uttrykksnummer (skjebnetall), sjelens ønske, personlighetsnummer og personlig år — med hvert trinn i utregningen vist. Pluss en kompatibilitetssjekk for to personer.",
+  "id": "/loona-calculators/nb/numerology-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

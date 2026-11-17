@@ -1,0 +1,29 @@
+{
+  "name": "Loona Numerološki kalkulator",
+  "short_name": "Numerološki kalkulator",
+  "description": "Besplatni numerološki kalkulator: unesite datum rođenja i puno ime s rodnog lista i dobijte brojeve životnog puta, izražaja (sudbine), čežnje duše, osobnosti i osobne godine — uz prikazan svaki korak izračuna. Plus provjera kompatibilnosti za dvije osobe.",
+  "id": "/loona-calculators/hr/numerology-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
