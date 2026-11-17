@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calculator al costului de încărcare a vehiculelor electrice",
+  "short_name": "Calculator al costului de încărcare a vehiculelor electrice",
+  "description": "Calculator gratuit al costului de încărcare a vehiculelor electrice: introduceți dimensiunea bateriei, nivelurile de încărcare și tariful de electricitate (inclusiv tarifele de noapte în afara orelor de vârf) pentru a obține costul per încărcare, costul per 100 km sau mile, costul lunar de încărcare și economisirea față de benzină.",
+  "id": "/loona-calculators/ro/ev-charging-cost-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
