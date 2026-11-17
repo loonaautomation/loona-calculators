@@ -1,0 +1,29 @@
+{
+  "name": "Loona 电动车充电成本计算器",
+  "short_name": "电动车充电成本计算器",
+  "description": "免费电动车充电成本计算器：输入电池容量、充电电量和您的电价（包括谷时夜间电价），即可获得每次充电成本、每 100 公里或英里成本、每月充电成本以及与汽油相比的节省金额。",
+  "id": "/loona-calculators/zh/ev-charging-cost-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
