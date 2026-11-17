@@ -1,0 +1,29 @@
+{
+  "name": "Loona Elektrikli Araç Şarj Maliyeti Hesaplayıcı",
+  "short_name": "Elektrikli Araç Şarj Maliyeti Hesaplayıcı",
+  "description": "Ücretsiz elektrikli araç şarj maliyeti hesaplayıcı: batarya boyutunu, şarj seviyelerini ve elektrik tarifenizi (gece tarifesi dahil) girin; şarj başına maliyeti, 100 km veya mil başına maliyeti, aylık şarj maliyetini ve benzine kıyasla tasarrufu alın.",
+  "id": "/loona-calculators/tr/ev-charging-cost-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
