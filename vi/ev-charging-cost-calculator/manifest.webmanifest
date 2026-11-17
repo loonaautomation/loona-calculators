@@ -1,0 +1,29 @@
+{
+  "name": "Loona Máy tính chi phí sạc EV",
+  "short_name": "Máy tính chi phí sạc EV",
+  "description": "Máy tính chi phí sạc EV miễn phí: nhập dung lượng pin, mức sạc và giá điện của bạn (bao gồm giá ban đêm ngoài giờ cao điểm) để nhận chi phí mỗi lần sạc, chi phí mỗi 100 km hoặc dặm, chi phí sạc hàng tháng và số tiền tiết kiệm so với xăng.",
+  "id": "/loona-calculators/vi/ev-charging-cost-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
