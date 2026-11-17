@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калькулятор стоимости зарядки электромобиля",
+  "short_name": "Калькулятор стоимости зарядки электромобиля",
+  "description": "Бесплатный калькулятор стоимости зарядки электромобиля: введите размер батареи, уровни зарядки и тариф на электроэнергию (включая ночные внепиковые тарифы), чтобы получить стоимость за зарядку, стоимость за 100 km или миль, месячную стоимость зарядки и экономию по сравнению с бензином.",
+  "id": "/loona-calculators/ru/ev-charging-cost-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
