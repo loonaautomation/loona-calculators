@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator omjera za kuhanje kave",
+  "short_name": "Kalkulator omjera kave",
+  "description": "Besplatni kalkulator omjera za kuhanje kave: odaberite način pripreme (V60, French press, espresso, cold brew, moka lončić, AeroPress), unesite količinu vode i dobijte točnu količinu kave u gramima i žlicama — plus planer potrošnje pakiranja. Na temelju standarda SCA Golden Cup od 55 g po litri.",
+  "id": "/loona-calculators/hr/coffee-brew-ratio-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Koffiezetverhouding Calculator",
+  "short_name": "Koffiezetverhouding Calculator",
+  "description": "Gratis calculator voor de koffiezetverhouding: kies een zetmethode (V60, French press, espresso, cold brew, mokkapot, AeroPress), voer je water in en krijg de exacte hoeveelheid koffie in grammen en eetlepels — plus een planner voor de opbrengst per zak. Gebaseerd op de SCA Golden Cup-standaard van 55 g per liter.",
+  "id": "/loona-calculators/nl/coffee-brew-ratio-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

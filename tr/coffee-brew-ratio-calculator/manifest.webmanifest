@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kahve Demleme Oranı Hesaplayıcı",
+  "short_name": "Kahve Demleme Oranı Hesaplayıcı",
+  "description": "Ücretsiz kahve demleme oranı hesaplayıcı: demleme yönteminizi seçin (V60, French press, espresso, cold brew, moka pot, AeroPress), su miktarınızı girin ve tam olarak kaç gram ve kaç yemek kaşığı kahve gerektiğini öğrenin — ayrıca paket verimi planlayıcısı. Litre başına 55 g öngören SCA Golden Cup standardına dayanır.",
+  "id": "/loona-calculators/tr/coffee-brew-ratio-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

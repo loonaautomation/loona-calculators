@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калькулятор пропорцій заварювання кави",
+  "short_name": "Калькулятор пропорцій кави",
+  "description": "Безкоштовний калькулятор пропорцій заварювання кави: оберіть спосіб (V60, френч-прес, еспресо, колд брю, мока, AeroPress), введіть кількість води й отримайте точну кількість кави в грамах і столових ложках — плюс планувальник витрати пачки. На основі стандарту SCA Golden Cup — 55 г на літр.",
+  "id": "/loona-calculators/uk/coffee-brew-ratio-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

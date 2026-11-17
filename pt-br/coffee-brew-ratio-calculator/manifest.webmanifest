@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calculadora de proporção de café",
+  "short_name": "Calculadora de proporção de café",
+  "description": "Calculadora gratuita de proporção de café: escolha um método de preparo (V60, French press, espresso, cold brew, cafeteira moka, AeroPress), informe a água e obtenha o café exato em gramas e colheres de sopa — além de um planejador de rendimento por pacote. Baseada no padrão SCA Golden Cup de 55 g por litro.",
+  "id": "/loona-calculators/pt-br/coffee-brew-ratio-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

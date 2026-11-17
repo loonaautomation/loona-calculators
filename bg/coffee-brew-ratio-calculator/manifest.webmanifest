@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калкулатор за съотношение при варене на кафе",
+  "short_name": "Калкулатор за съотношение на кафе",
+  "description": "Безплатен калкулатор за съотношението при варене на кафе: изберете метод (V60, френч преса, еспресо, студено варене, мока пот, AeroPress), въведете количеството вода и получете точното количество кафе в грамове и супени лъжици — плюс планер за разхода на пакета. Въз основа на стандарта SCA Golden Cup от 55 г на литър.",
+  "id": "/loona-calculators/bg/coffee-brew-ratio-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

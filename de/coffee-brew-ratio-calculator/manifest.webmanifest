@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kaffee-Brühverhältnis-Rechner",
+  "short_name": "Kaffee-Brühverhältnis-Rechner",
+  "description": "Kostenloser Rechner für das Kaffee-Brühverhältnis: Brühmethode wählen (V60, French Press, Espresso, Cold Brew, Mokkakanne, AeroPress), Wassermenge eingeben und die genaue Kaffeemenge in Gramm und Esslöffeln erhalten — plus ein Planer für die Packungsausbeute. Basierend auf dem SCA Golden Cup Standard von 55 g pro Liter.",
+  "id": "/loona-calculators/de/coffee-brew-ratio-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

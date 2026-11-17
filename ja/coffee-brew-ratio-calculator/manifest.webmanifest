@@ -1,0 +1,29 @@
+{
+  "name": "Loona コーヒー抽出比率計算ツール",
+  "short_name": "コーヒー抽出比率計算ツール",
+  "description": "無料のコーヒー抽出比率計算ツール：抽出方法（V60、フレンチプレス、エスプレッソ、水出しコーヒー、モカポット、AeroPress）を選び、水の量を入力すると、必要なコーヒーの量をグラムと大さじで正確に表示。1袋で何杯淹れられるかのプランナー付き。1リットルあたり55 gのSCA Golden Cup基準に基づいています。",
+  "id": "/loona-calculators/ja/coffee-brew-ratio-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

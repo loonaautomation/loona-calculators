@@ -1,0 +1,29 @@
+{
+  "name": "Loona 咖啡冲泡比例计算器",
+  "short_name": "咖啡冲泡比例计算器",
+  "description": "免费咖啡冲泡比例计算器：选择冲泡方式（V60、法式压滤壶、意式浓缩、冷萃、摩卡壶、AeroPress），输入用水量，即可得到精确的咖啡用量（克和汤匙），还附带一袋咖啡产量规划工具。依据每升 55 g 的 SCA Golden Cup 标准。",
+  "id": "/loona-calculators/zh/coffee-brew-ratio-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona حاسبة نسبة تحضير القهوة",
+  "short_name": "حاسبة نسبة تحضير القهوة",
+  "description": "حاسبة مجانية لنسبة تحضير القهوة: اختر طريقة التحضير (V60 وFrench press والإسبريسو والتحضير البارد ووعاء الموكا وAeroPress)، وأدخل كمية الماء، واحصل على كمية القهوة الدقيقة بالغرام وملاعق الطعام — بالإضافة إلى مخطط لعائد الكيس. مبنية على معيار SCA Golden Cup البالغ 55 g لكل لتر.",
+  "id": "/loona-calculators/ar/coffee-brew-ratio-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

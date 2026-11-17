@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calculator pentru Raportul de Preparare a Cafelei",
+  "short_name": "Calculator Raport Preparare Cafea",
+  "description": "Calculator gratuit pentru raportul de preparare a cafelei: alegeți o metodă de preparare (V60, French press, espresso, cold brew, moka pot, AeroPress), introduceți cantitatea de apă și obțineți cantitatea exactă de cafea în grame și linguri — plus un planificator al randamentului pungii. Bazat pe standardul SCA Golden Cup de 55 g pe litru.",
+  "id": "/loona-calculators/ro/coffee-brew-ratio-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

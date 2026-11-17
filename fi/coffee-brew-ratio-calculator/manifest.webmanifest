@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kahvin uuttosuhteen laskuri",
+  "short_name": "Kahvin uuttosuhteen laskuri",
+  "description": "Ilmainen kahvin uuttosuhteen laskuri: valitse valmistusmenetelmä (V60, pressopannu, espresso, cold brew, mokkapannu, AeroPress), syötä vesi ja saat tarkan kahvimäärän grammoina ja ruokalusikallisina — sekä pussin tuoton suunnittelijan. Perustuu SCA Golden Cup -standardiin 55 g litraa kohden.",
+  "id": "/loona-calculators/fi/coffee-brew-ratio-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

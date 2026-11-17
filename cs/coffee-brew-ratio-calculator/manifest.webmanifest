@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka poměru pro přípravu kávy",
+  "short_name": "Kalkulačka poměru kávy",
+  "description": "Bezplatná kalkulačka poměru pro přípravu kávy: vyberte způsob přípravy (V60, french press, espresso, cold brew, moka konvička, AeroPress), zadejte množství vody a získáte přesné množství kávy v gramech i lžících — plus plánovač výtěžnosti balení. Na základě standardu SCA Golden Cup 55 g na litr.",
+  "id": "/loona-calculators/cs/coffee-brew-ratio-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

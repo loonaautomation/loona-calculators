@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calculateur de ratio d'infusion du café",
+  "short_name": "Calculateur de ratio d'infusion du café",
+  "description": "Calculateur gratuit de ratio d'infusion du café : choisissez une méthode d'infusion (V60, French press, espresso, cold brew, cafetière moka, AeroPress), saisissez votre eau et obtenez le café exact en grammes et en cuillères à soupe — plus un planificateur de rendement par sachet. Basé sur la norme SCA Golden Cup de 55 g par litre.",
+  "id": "/loona-calculators/fr/coffee-brew-ratio-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

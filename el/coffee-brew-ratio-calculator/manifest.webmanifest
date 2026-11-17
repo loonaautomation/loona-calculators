@@ -1,0 +1,29 @@
+{
+  "name": "Loona Υπολογιστής Αναλογίας Παρασκευής Καφέ",
+  "short_name": "Υπολογιστής Αναλογίας Παρασκευής Καφέ",
+  "description": "Δωρεάν υπολογιστής αναλογίας παρασκευής καφέ: διαλέξτε μέθοδο παρασκευής (V60, French press, εσπρέσο, cold brew, moka pot, AeroPress), εισαγάγετε το νερό σας και λάβετε την ακριβή ποσότητα καφέ σε γραμμάρια και κουταλιές της σούπας — συν έναν προγραμματιστή απόδοσης σακουλακιού. Βασισμένος στο πρότυπο SCA Golden Cup των 55 g ανά λίτρο.",
+  "id": "/loona-calculators/el/coffee-brew-ratio-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
