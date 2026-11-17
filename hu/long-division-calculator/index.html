@@ -231,7 +231,7 @@ document.getElementById('ldForm').addEventListener('submit',function(e){e.preven
  var rows=r.steps.map(function(s,i){return '<tr><td>'+(i+1)+'</td><td>'+s.current+'</td><td>'+s.q+'</td><td>'+s.prod+'</td><td>'+s.rem+'</td></tr>';}).join("");
  box.innerHTML='<div class="resbig"><span>Hányados</span><strong>'+r.quotient+(r.repeats?'… (repeating)':'')+'</strong></div>'
   +'<table class="restbl"><tr><td>Egész számú válasz</td><td><strong>'+r.quotientFull.split(".")[0]+' maradék '+r.remainder+'</strong></td></tr>'
-  +'<tr><td>Dolgozik ezen: '+r.scaledDividend+' ÷ '+r.scaledDivisor+'</strong></td></tr></table>'
+  +'<tr><td>Dolgozik ezen:</td><td><strong>'+r.scaledDividend+' ÷ '+r.scaledDivisor+'</strong></td></tr></table>'
   +'<h3 style="color:var(--teal);margin:10px 0 5px">Lépésenkénti levezetés</h3>'
   +'<table class="restbl"><tr><td><strong>Lépés</strong></td><td><strong>Aktuális ÷ osztó</strong></td><td><strong>Hányadosjegy</strong></td><td><strong>Szorzás</strong></td><td><strong>Maradék</strong></td></tr>'+rows+'</table>'
   +(r.repeats?'<p class="resnote">A maradék ismétlődik, így a tizedes rész örökké ismétlődik (végtelen szakaszos tizedes tört).</p>':'');

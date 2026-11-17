@@ -231,7 +231,7 @@ document.getElementById('ldForm').addEventListener('submit',function(e){e.preven
  var rows=r.steps.map(function(s,i){return '<tr><td>'+(i+1)+'</td><td>'+s.current+'</td><td>'+s.q+'</td><td>'+s.prod+'</td><td>'+s.rem+'</td></tr>';}).join("");
  box.innerHTML='<div class="resbig"><span>Iloraz</span><strong>'+r.quotient+(r.repeats?'… (repeating)':'')+'</strong></div>'
   +'<table class="restbl"><tr><td>Odpowiedź całkowita</td><td><strong>'+r.quotientFull.split(".")[0]+' reszta '+r.remainder+'</strong></td></tr>'
-  +'<tr><td>Praca w dniu '+r.scaledDividend+' ÷ '+r.scaledDivisor+'</strong></td></tr></table>'
+  +'<tr><td>Praca w dniu</td><td><strong>'+r.scaledDividend+' ÷ '+r.scaledDivisor+'</strong></td></tr></table>'
   +'<h3 style="color:var(--teal);margin:10px 0 5px">Rozwiązanie krok po kroku</h3>'
   +'<table class="restbl"><tr><td><strong>Krok</strong></td><td><strong>Bieżąca ÷ dzielnik</strong></td><td><strong>Cyfra ilorazu</strong></td><td><strong>Mnożenie</strong></td><td><strong>Reszta</strong></td></tr>'+rows+'</table>'
   +(r.repeats?'<p class="resnote">Reszta się powtarza, więc część dziesiętna powtarza się w nieskończoność (ułamek okresowy).</p>':'');

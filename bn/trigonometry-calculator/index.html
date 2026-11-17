@@ -259,7 +259,7 @@ if(typeof document!=="undefined"){
         var names=[["sin","sin θ"],["cos","cos θ"],["tan","tan θ"],["csc","csc θ (1 ÷ sin)"],["sec","sec θ (1 ÷ cos)"],["cot","cot θ (1 ÷ tan)"]];
         var h='<div class="resbig"><span>কোণ</span><strong>'+ftrig(ang)+(unit==="deg"?"°":" rad")+'</strong></div><table class="restbl">';
         names.forEach(function(p){h+='<tr><td>'+p[1]+'</td><td><strong>'+ftrig(r[p[0]])+'</strong></td></tr>';});
-        h+='</table><p class="resnote">অন্য এককে একই কোণ: '+(unit==="deg"?ftrig(r.rad)+" রেডিয়ান":ftrig(ang*180/Math.PI)+" ডিগ্রি")+'। একটি অনুপাত Undefined হিসেবে দেখানো হয় যখন এর হর 0 হয় (যেমন tan 90°)।';
+        h+='</table><p class="resnote">অন্য এককে একই কোণ: '+(unit==="deg"?ftrig(r.rad)+" রেডিয়ান":ftrig(ang*180/Math.PI)+" ডিগ্রি")+'। একটি অনুপাত Undefined হিসেবে দেখানো হয় যখন এর হর 0 হয় (যেমন tan 90°)।</p>';
         res.innerHTML=h;
       }catch(err){res.innerHTML='<p class="err">'+err.message+'</p>';}
     });

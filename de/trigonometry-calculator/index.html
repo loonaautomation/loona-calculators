@@ -259,7 +259,7 @@ if(typeof document!=="undefined"){
         var names=[["sin","sin θ"],["cos","cos θ"],["tan","tan θ"],["csc","csc θ (1 ÷ sin)"],["sec","sec θ (1 ÷ cos)"],["cot","cot θ (1 ÷ tan)"]];
         var h='<div class="resbig"><span>Winkel</span><strong>'+ftrig(ang)+(unit==="deg"?"°":" rad")+'</strong></div><table class="restbl">';
         names.forEach(function(p){h+='<tr><td>'+p[1]+'</td><td><strong>'+ftrig(r[p[0]])+'</strong></td></tr>';});
-        h+='</table><p class="resnote">Derselbe Winkel in der anderen Einheit: '+(unit==="deg"?ftrig(r.rad)+" Radiant":ftrig(ang*180/Math.PI)+" Grad")+'. Ein Verhältnis wird als Undefiniert angezeigt, wenn sein Nenner 0 ist (zum Beispiel tan 90°).';
+        h+='</table><p class="resnote">Derselbe Winkel in der anderen Einheit: '+(unit==="deg"?ftrig(r.rad)+" Radiant":ftrig(ang*180/Math.PI)+" Grad")+'. Ein Verhältnis wird als Undefiniert angezeigt, wenn sein Nenner 0 ist (zum Beispiel tan 90°).</p>';
         res.innerHTML=h;
       }catch(err){res.innerHTML='<p class="err">'+err.message+'</p>';}
     });

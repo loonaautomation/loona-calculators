@@ -210,7 +210,7 @@ function rsBuildRows(){
   var h = "";
   for (var i = 1; i <= n; i++){
     h += '<div class="subgrid"><div class="subrow"><div class="fld" style="margin:0"><label for="rsName' + i + '">Person ' + i + ' اسم (optional)</label><input type="text" id="rsName' + i + '" placeholder="Person ' + i + '"></div>'
-       + '<div class="fld" style="margin:0' + (mode === "equal" ? ";display:none" : "") + '" > < label لـ= " rsW' + i + '">' + wlabel + '</label><input type="number" step="any" min="0" id="rsW' + i + '" ></div></div></div>';
+       + '<div class="fld" style="margin:0' + (mode === "equal" ? ";display:none" : "") + '"><label for="rsW' + i + '">' + wlabel + '</label><input type="number" step="any" min="0" id="rsW' + i + '" ></div></div></div>';
   }
   rsRows.innerHTML = h;
 }
