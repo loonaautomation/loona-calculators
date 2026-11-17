@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator kosztów ładowania EV",
+  "short_name": "Kalkulator kosztów ładowania EV",
+  "description": "Darmowy kalkulator kosztów ładowania EV: wpisz pojemność baterii, poziomy ładowania i taryfę za energię elektryczną (w tym nocne taryfy pozaszczytowe), aby otrzymać koszt jednego ładowania, koszt na 100 km lub mil, miesięczny koszt ładowania i oszczędność względem benzyny.",
+  "id": "/loona-calculators/pl/ev-charging-cost-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
