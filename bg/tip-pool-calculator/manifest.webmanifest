@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калкулатор за общ фонд и отчисления от бакшиши",
+  "short_name": "Калкулатор за общ фонд и отчисления от бакшиши",
+  "description": "Безплатен калкулатор за общ фонд и отчисления от бакшиши за ресторанти, барове и кафенета: разпределете бакшишите от смяната справедливо по отработени часове и точки за ролята, с точност до стотинката — и изчислете колко сервитьорът отделя за бара, кухнята и помощник-сервитьорите, от бакшишите или от продажбите.",
+  "id": "/loona-calculators/bg/tip-pool-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

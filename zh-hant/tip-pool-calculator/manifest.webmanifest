@@ -1,0 +1,29 @@
+{
+  "name": "Loona 小費池與小費分配計算器",
+  "short_name": "小費池與小費分配計算器",
+  "description": "免費的小費池與小費分配計算器，適用於餐廳、酒吧和咖啡館：按工作時數和崗位點數公平分配班次小費，精確到分 — 並可按小費或銷售額計算服務員應分給酒吧、廚房和服務助理的金額。",
+  "id": "/loona-calculators/zh-hant/tip-pool-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

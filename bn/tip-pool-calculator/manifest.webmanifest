@@ -1,0 +1,29 @@
+{
+  "name": "Loona Tip ক্যালকুলেটর",
+  "short_name": "টিপ পুল ও টিপ-আউট ক্যালকুলেটর",
+  "description": "রেস্তোরাঁ, বার ও ক্যাফের জন্য বিনামূল্যে টিপ পুল ও টিপ-আউট ক্যালকুলেটর: শিফটের টিপস কাজের ঘণ্টা ও ভূমিকার পয়েন্ট অনুযায়ী ন্যায্যভাবে ভাগ করুন, সেন্ট পর্যন্ত হুবহু — এবং হিসাব করুন একজন সার্ভার বার, রান্নাঘর ও বাসারদের কত টিপ-আউট দেয়, টিপস থেকে বা বিক্রি থেকে।",
+  "id": "/loona-calculators/bn/tip-pool-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

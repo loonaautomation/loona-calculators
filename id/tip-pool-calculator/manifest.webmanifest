@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Tip Pool & Tip-Out",
+  "short_name": "Kalkulator Tip Pool & Tip-Out",
+  "description": "Kalkulator tip pool dan tip-out gratis untuk restoran, bar, dan kafe: bagi tip shift secara adil berdasarkan jam kerja dan poin peran, tepat hingga ke sen — dan hitung berapa yang diberikan pramusaji kepada bar, dapur, dan asisten pelayan, dari tip atau dari penjualan.",
+  "id": "/loona-calculators/id/tip-pool-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

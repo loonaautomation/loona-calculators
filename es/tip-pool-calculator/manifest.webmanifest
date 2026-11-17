@@ -1,0 +1,29 @@
+{
+  "name": "Calculadora de fondo de propinas y tip-out de Loona",
+  "short_name": "Calculadora de fondo de propinas y tip-out",
+  "description": "Calculadora gratuita de fondo de propinas y tip-out para restaurantes, bares y cafeterías: reparte las propinas del turno con justicia por horas trabajadas y puntos del puesto, exacto hasta el céntimo — y calcula lo que un camarero entrega a la barra, la cocina y los ayudantes, desde las propinas o desde las ventas.",
+  "id": "/loona-calculators/es/tip-pool-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

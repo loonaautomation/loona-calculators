@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калькулятор пулу чайових і відрахувань",
+  "short_name": "Калькулятор пулу чайових і відрахувань",
+  "description": "Безкоштовний калькулятор пулу чайових і відрахувань для ресторанів, барів і кафе: справедливо діліть чайові за зміну за відпрацьованими годинами та балами ролі, з точністю до цента, — і розраховуйте, скільки офіціант відраховує бару, кухні та помічникам, від чайових або від продажів.",
+  "id": "/loona-calculators/uk/tip-pool-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

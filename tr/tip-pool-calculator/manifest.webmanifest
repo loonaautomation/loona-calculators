@@ -1,0 +1,29 @@
+{
+  "name": "Loona Bahşiş Havuzu ve Dağıtım Hesaplayıcısı",
+  "short_name": "Bahşiş Havuzu ve Dağıtım Hesaplayıcısı",
+  "description": "Restoranlar, barlar ve kafeler için ücretsiz bahşiş havuzu ve dağıtım hesaplayıcısı: vardiyanın bahşişlerini çalışılan saate ve rol puanına göre adilce, kuruşuna kadar paylaştırın — ve bir garsonun bara, mutfağa ve komilere bahşişlerden veya satışlardan ne kadar dağıttığını hesaplayın.",
+  "id": "/loona-calculators/tr/tip-pool-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

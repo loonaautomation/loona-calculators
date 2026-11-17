@@ -1,0 +1,29 @@
+{
+  "name": "Loona เครื่องคำนวณทิปรวม & ทิปเอาต์",
+  "short_name": "เครื่องคำนวณทิปรวม & ทิปเอาต์",
+  "description": "เครื่องคำนวณทิปรวมและทิปเอาต์ฟรีสำหรับร้านอาหาร บาร์ และคาเฟ่: แบ่งทิปของกะอย่างยุติธรรมตามชั่วโมงทำงานและคะแนนตามตำแหน่ง แม่นยำถึงเซ็นต์ — และคำนวณว่าพนักงานเสิร์ฟต้องจ่ายทิปเอาต์ให้บาร์ ครัว และพนักงานผู้ช่วยเสิร์ฟเท่าไร จากทิปหรือจากยอดขาย",
+  "id": "/loona-calculators/th/tip-pool-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator puli napiwków i rozliczania napiwków",
+  "short_name": "Kalkulator puli napiwków i rozliczania napiwków",
+  "description": "Darmowy kalkulator puli napiwków i rozliczania napiwków (tip-out) dla restauracji, barów i kawiarni: dziel napiwki ze zmiany sprawiedliwie według przepracowanych godzin i punktów za stanowisko, dokładnie co do centa — i oblicz, ile kelner przekazuje barowi, kuchni i pomocnikom kelnera, od napiwków lub od sprzedaży.",
+  "id": "/loona-calculators/pl/tip-pool-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

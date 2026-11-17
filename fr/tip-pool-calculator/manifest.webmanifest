@@ -1,0 +1,29 @@
+{
+  "name": "Calculateur Loona de pourboire",
+  "short_name": "Calculateur de pot de pourboires et de tip-out",
+  "description": "Calculateur gratuit de pot de pourboires et de tip-out pour restaurants, bars et cafés : partagez les pourboires du service équitablement selon les heures travaillées et les points de poste, au centime exact — et calculez ce qu'un serveur reverse au bar, à la cuisine et aux commis, sur les pourboires ou sur les ventes.",
+  "id": "/loona-calculators/fr/tip-pool-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

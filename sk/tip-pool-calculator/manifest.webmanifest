@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulačka fondu prepitného a odvádzania prepitného",
+  "short_name": "Kalkulačka fondu prepitného a odvádzania prepitného",
+  "description": "Bezplatná kalkulačka fondu prepitného a odvádzania prepitného pre reštaurácie, bary a kaviarne: rozdeľte prepitné zo zmeny spravodlivo podľa odpracovaných hodín a bodov za pozíciu, presne na cent — a vypočítajte, koľko čašník odovzdáva baru, kuchyni a pomocným čašníkom, z prepitného alebo z tržieb.",
+  "id": "/loona-calculators/sk/tip-pool-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

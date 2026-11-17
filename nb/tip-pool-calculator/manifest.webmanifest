@@ -1,0 +1,29 @@
+{
+  "name": "Loona Drikkepengekalkulator",
+  "short_name": "Tipspott- & Tip-Out-Kalkulator",
+  "description": "Gratis tipspott- og tip-out-kalkulator for restauranter, barer og kaféer: del vaktens tips rettferdig etter arbeidede timer og rollepoeng, nøyaktig ned til centen — og regn ut hva en servitør gir i tip-out til baren, kjøkkenet og bordrydderne, fra tips eller fra salg.",
+  "id": "/loona-calculators/nb/tip-pool-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

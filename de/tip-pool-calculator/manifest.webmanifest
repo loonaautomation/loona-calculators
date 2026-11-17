@@ -1,0 +1,29 @@
+{
+  "name": "Loona Trinkgeld-Rechner",
+  "short_name": "Trinkgeld-Pool- & Tip-Out-Rechner",
+  "description": "Kostenloser Trinkgeld-Pool- und Tip-Out-Rechner für Restaurants, Bars und Cafés: Teile die Trinkgelder der Schicht fair nach Arbeitsstunden und Rollenpunkten, exakt bis auf den Cent — und berechne, was eine Servicekraft an Bar, Küche und Busser abgibt, vom Trinkgeld oder vom Umsatz.",
+  "id": "/loona-calculators/de/tip-pool-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
