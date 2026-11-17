@@ -1,0 +1,29 @@
+{
+  "name": "Loona EV Charging Cost Calculator",
+  "short_name": "EV Charging Cost Calculator",
+  "description": "Free EV charging cost calculator: enter battery size, charge levels and your electricity tariff (including off-peak night rates) to get cost per charge, cost per 100 km or miles, monthly charging cost and the saving versus petrol.",
+  "id": "/loona-calculators/en-gb/ev-charging-cost-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
