@@ -242,10 +242,10 @@ document.getElementById('nmForm').addEventListener('submit',function(e){e.preven
  var h="";
  h+=block(STR.resLifePath,lp.value,MEAN[lp.value],[STR.wkMonth+": "+lp.month.trace+mk(lp.month),STR.wkDay+": "+lp.day.trace+mk(lp.day),STR.wkYear+": "+lp.year.trace+mk(lp.year),STR.wkTotal+": "+lp.total.trace+mk(lp.total)]);
  var exLines=nn.words.map(function(w){return w.word+": "+w.parts.join(" + ")+" = "+w.sum;});
- exLines.push(STR.wkNameTotal+": "+nn.expression.sum+" \u2192 "+nn.expression.red.trace+mk(nn.expression.red));
+ exLines.push(STR.wkNameTotal+": "+nn.expression.red.trace+mk(nn.expression.red));
  h+=block(STR.resExpression,nn.expression.red.value,MEAN[nn.expression.red.value],exLines);
- h+=block(STR.resSoulUrge,nn.soul.red.value,MEAN[nn.soul.red.value],[STR.wkVowels+": "+(nn.soul.parts.join(" + ")||"—")+" = "+nn.soul.sum+" \u2192 "+nn.soul.red.trace+mk(nn.soul.red)]);
- h+=block(STR.resPersonality,nn.personality.red.value,MEAN[nn.personality.red.value],[STR.wkConsonants+": "+(nn.personality.parts.join(" + ")||"—")+" = "+nn.personality.sum+" \u2192 "+nn.personality.red.trace+mk(nn.personality.red)]);
+ h+=block(STR.resSoulUrge,nn.soul.red.value,MEAN[nn.soul.red.value],[STR.wkVowels+": "+(nn.soul.parts.join(" + ")||"—")+" = "+nn.soul.red.trace+mk(nn.soul.red)]);
+ h+=block(STR.resPersonality,nn.personality.red.value,MEAN[nn.personality.red.value],[STR.wkConsonants+": "+(nn.personality.parts.join(" + ")||"—")+" = "+nn.personality.red.trace+mk(nn.personality.red)]);
  if(py){h+=block(STR.resPersonalYear+" ("+yr+")",py.value,PYM[py.value],[STR.wkMonth+": "+py.month.trace,STR.wkDay+": "+py.day.trace,STR.wkForYear+" "+yr+": "+py.year.trace,STR.wkTotal+": "+py.total.trace]);}
  box.innerHTML=h;});
 document.getElementById('cpForm').addEventListener('submit',function(e){e.preventDefault();
