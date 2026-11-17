@@ -1,0 +1,29 @@
+{
+  "name": "Loona EV充電コスト計算ツール",
+  "short_name": "EV充電コスト計算ツール",
+  "description": "無料のEV充電コスト計算ツール：バッテリー容量、充電レベル、電気料金（深夜の夜間料金を含む）を入力して、1回の充電コスト、100 kmまたはマイルあたりのコスト、月額充電コスト、ガソリンとの節約額を取得できます。",
+  "id": "/loona-calculators/ja/ev-charging-cost-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
