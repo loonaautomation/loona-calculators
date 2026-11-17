@@ -1792,7 +1792,7 @@ function fieldHTML(f){
   if(f.t==="grow"){
     var gh='<div class="subgrid"><div class="subhead"><span>نتيجة%</span><span>وزن%</span></div>';
     for(var gi=1;gi<=8;gi++){
-      gh+='<div class="subrow"><input type="number" min="0" max="100" step="any" id="g'+gi+'s" placeholder="Assignment '+gi+' نتيجة " > < input اكتب = " عدد " min = " 0 " خطوة = " أي " id = " g'+gi+'w " placeholder = " وزن " ></div>';
+      gh+='<div class="subrow"><input type="number" min="0" max="100" step="any" id="g'+gi+'s" placeholder="Assignment '+gi+' نتيجة " > <input type="number" min="0" step="any" id="g'+gi+'w" placeholder="وزن"></div>';
     }
     return gh+"</div>";
   }
@@ -1808,7 +1808,7 @@ function fieldHTML(f){
   if(f.t==="sub"){
     var h='<div class="subgrid"><div class="subhead"><span>Marks / 100</span><span>Credit hrs</span></div>';
     for(var i=1;i<=8;i++){
-      h+='<div class="subrow"><input type="number" min="0" max="100" id="s'+i+'m" placeholder="Subject '+i+' marks " > < input اكتب = " عدد " min = " 0 " خطوة = " 0.5 " id = " s'+i+'c " placeholder = " Cr hrs " ></div>';
+      h+='<div class="subrow"><input type="number" min="0" max="100" id="s'+i+'m" placeholder="Subject '+i+' marks " > <input type="number" min="0" step="0.5" id="s'+i+'c" placeholder="Cr hrs"></div>';
     }
     return h+"</div>";
   }
