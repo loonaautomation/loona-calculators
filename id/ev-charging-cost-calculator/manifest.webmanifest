@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Biaya Pengisian Daya EV",
+  "short_name": "Kalkulator Biaya Pengisian Daya EV",
+  "description": "Kalkulator biaya pengisian daya EV gratis: masukkan ukuran baterai, level pengisian dan tarif listrik Anda (termasuk tarif malam di luar jam sibuk) untuk mendapatkan biaya per pengisian, biaya per 100 km atau mil, biaya pengisian bulanan dan penghematan dibandingkan bensin.",
+  "id": "/loona-calculators/id/ev-charging-cost-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
