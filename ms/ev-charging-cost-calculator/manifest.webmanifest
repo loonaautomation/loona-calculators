@@ -1,0 +1,29 @@
+{
+  "name": "Loona Kalkulator Kos Pengecasan EV",
+  "short_name": "Kalkulator Kos Pengecasan EV",
+  "description": "Kalkulator kos pengecasan EV percuma: masukkan saiz bateri, tahap cas dan tarif elektrik anda (termasuk kadar malam luar puncak) untuk mendapatkan kos setiap cas, kos setiap 100 km atau batu, kos pengecasan bulanan dan penjimatan berbanding petrol.",
+  "id": "/loona-calculators/ms/ev-charging-cost-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
