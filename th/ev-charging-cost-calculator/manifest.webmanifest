@@ -1,0 +1,29 @@
+{
+  "name": "Loona เครื่องคำนวณค่าชาร์จ EV",
+  "short_name": "เครื่องคำนวณค่าชาร์จ EV",
+  "description": "เครื่องคำนวณค่าชาร์จ EV ฟรี: กรอกขนาดแบตเตอรี่ ระดับการชาร์จ และอัตราค่าไฟของคุณ (รวมอัตรากลางคืนช่วงออฟพีค) เพื่อรับค่าชาร์จต่อครั้ง ค่าใช้จ่ายต่อ 100 km หรือไมล์ ค่าชาร์จรายเดือน และการประหยัดเมื่อเทียบกับน้ำมันเบนซิน",
+  "id": "/loona-calculators/th/ev-charging-cost-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
