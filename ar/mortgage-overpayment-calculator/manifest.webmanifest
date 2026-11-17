@@ -1,0 +1,29 @@
+{
+  "name": "Loona حاسبة السداد الزائد للرهن العقاري",
+  "short_name": "السداد الزائد للرهن",
+  "description": "حاسبة مجانية للسداد الزائد للرهن العقاري وإعادة الجدولة وإعادة التمويل: دفعات إضافية ومبالغ مقطوعة وفائدة موفرة وسنوات مختصرة وشهر نقطة تعادل إعادة التمويل.",
+  "id": "/loona-calculators/ar/mortgage-overpayment-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
