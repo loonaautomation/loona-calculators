@@ -1,0 +1,29 @@
+{
+  "name": "Loona Калькулятор вартості заряджання електромобіля",
+  "short_name": "Калькулятор вартості заряджання електромобіля",
+  "description": "Безкоштовний калькулятор вартості заряджання електромобіля: введіть розмір батареї, рівні заряджання та тариф на електроенергію (включно з нічними непіковими тарифами), щоб отримати вартість за заряджання, вартість за 100 km або миль, місячну вартість заряджання та економію порівняно з бензином.",
+  "id": "/loona-calculators/uk/ev-charging-cost-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
