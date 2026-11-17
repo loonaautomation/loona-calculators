@@ -1,0 +1,29 @@
+{
+  "name": "Loona EV 충전 비용 계산기",
+  "short_name": "EV 충전 비용 계산기",
+  "description": "무료 EV 충전 비용 계산기: 배터리 용량, 충전 수준 및 전기 요금(심야 야간 요금 포함)을 입력하면 1회 충전 비용, 100 km 또는 마일당 비용, 월 충전 비용 및 휘발유 대비 절감액을 확인할 수 있습니다.",
+  "id": "/loona-calculators/ko/ev-charging-cost-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
