@@ -1,0 +1,29 @@
+{
+  "name": "Loona 아기 수유, 수면 및 기저귀 트래커",
+  "short_name": "아기 트래커",
+  "description": "무료 아기 트래커: 한 번의 탭으로 수유(모유, 젖병, 이유식), 낮잠과 수면, 기저귀 교체를 기록하세요. 일일 및 주간 요약과 소아과 의사에게 보여줄 인쇄용 요약 제공. 모든 데이터는 기기에만 저장됩니다 — 가입도, 업로드도 없습니다.",
+  "id": "/loona-calculators/ko/baby-tracker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

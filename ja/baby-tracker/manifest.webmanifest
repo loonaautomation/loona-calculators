@@ -1,0 +1,29 @@
+{
+  "name": "Loona 赤ちゃんの授乳・睡眠・おむつ記録",
+  "short_name": "ベビー記録",
+  "description": "無料の赤ちゃん記録：授乳（母乳、哺乳瓶、離乳食）、お昼寝と睡眠、おむつ替えをワンタップで記録。日別・週別の集計と、小児科医向けの印刷用サマリー付き。すべてあなたのデバイス上に保存 — 登録不要、アップロードなし。",
+  "id": "/loona-calculators/ja/baby-tracker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

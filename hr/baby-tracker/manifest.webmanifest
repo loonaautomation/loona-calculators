@@ -1,0 +1,29 @@
+{
+  "name": "Loona Praćenje hranjenja, spavanja i pelena bebe",
+  "short_name": "Dnevnik bebe",
+  "description": "Besplatno praćenje bebe: jednim dodirom zabilježite hranjenja (dojenje, bočica, kruta hrana), drijemanja i spavanje te promjene pelena. Dnevni i tjedni sažeci te sažetak za ispis za vašeg pedijatra. Sve ostaje na vašem uređaju — bez registracije i bez prijenosa.",
+  "id": "/loona-calculators/hr/baby-tracker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

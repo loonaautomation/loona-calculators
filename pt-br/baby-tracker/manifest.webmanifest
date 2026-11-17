@@ -1,0 +1,29 @@
+{
+  "name": "Loona Registro do bebê: mamadas, sono e fraldas",
+  "short_name": "Registro do Bebê",
+  "description": "Registro gratuito para bebês: anote mamadas (peito, mamadeira, sólidos), sonecas e sono, e trocas de fralda com um só toque. Resumos diários e semanais e um resumo para imprimir para o pediatra. Tudo fica no seu aparelho — sem cadastro, sem envios.",
+  "id": "/loona-calculators/pt-br/baby-tracker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

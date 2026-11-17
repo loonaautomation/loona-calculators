@@ -1,0 +1,29 @@
+{
+  "name": "Loona Suivi bébé : alimentation, sommeil et couches",
+  "short_name": "Suivi bébé",
+  "description": "Suivi bébé gratuit : notez les repas (sein, biberon, solides), les siestes et le sommeil, ainsi que les changes, en un seul toucher. Résumés quotidiens et hebdomadaires et résumé imprimable pour votre pédiatre. Tout reste sur votre appareil : aucune inscription, aucun envoi.",
+  "id": "/loona-calculators/fr/baby-tracker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

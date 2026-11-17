@@ -1,0 +1,29 @@
+{
+  "name": "Loona Spårare för bebisens matning, sömn och blöjor",
+  "short_name": "Bebisspårare",
+  "description": "Gratis bebisspårare: logga matningar (bröst, flaska, fast föda), tupplurar och sömn samt blöjbyten med ett enda tryck. Dagliga och veckovisa sammanfattningar plus en utskrivbar sammanfattning till din barnläkare. Allt stannar på din enhet — ingen registrering, inga uppladdningar.",
+  "id": "/loona-calculators/sv/baby-tracker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

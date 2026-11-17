@@ -1,0 +1,29 @@
+{
+  "name": "Loona Registo do bebé: alimentação, sono e fraldas",
+  "short_name": "Registo do Bebé",
+  "description": "Registo gratuito para bebés: anote mamadas (peito, biberão, sólidos), sestas e sono, e mudanças de fralda com um só toque. Resumos diários e semanais e um resumo imprimível para o pediatra. Tudo fica no seu dispositivo — sem registo, sem carregamentos.",
+  "id": "/loona-calculators/pt-pt/baby-tracker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

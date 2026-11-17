@@ -1,0 +1,29 @@
+{
+  "name": "Loona শিশুর খাওয়ানো, ঘুম ও ডায়াপার ট্র্যাকার",
+  "short_name": "শিশু ট্র্যাকার",
+  "description": "ফ্রি শিশু ট্র্যাকার: এক ট্যাপে খাওয়ানো (বুকের দুধ, বোতল, শক্ত খাবার), ভাতঘুম ও ঘুম এবং ডায়াপার পরিবর্তন লগ করুন। দৈনিক ও সাপ্তাহিক সারাংশসহ আপনার শিশু বিশেষজ্ঞের জন্য ছাপানোর মতো সারাংশ। সবকিছু আপনার ডিভাইসেই থাকে — কোনো সাইন-আপ নেই, কোনো আপলোড নেই।",
+  "id": "/loona-calculators/bn/baby-tracker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

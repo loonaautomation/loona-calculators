@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>아기 수유, 수면 및 기저귀 트래커 — 무료 아기 기록 | Loona</title>
+<meta name="description" content="무료 아기 트래커: 한 번의 탭으로 수유(모유, 젖병, 이유식), 낮잠과 수면, 기저귀 교체를 기록하세요. 일일 및 주간 요약과 소아과 의사에게 보여줄 인쇄용 요약 제공. 모든 데이터는 기기에만 저장됩니다 — 가입도, 업로드도 없습니다.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/ko/baby-tracker/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="아기 수유, 수면 및 기저귀 트래커 — 무료 아기 기록 | Loona">
+<meta property="og:description" content="무료 아기 트래커: 한 번의 탭으로 수유(모유, 젖병, 이유식), 낮잠과 수면, 기저귀 교체를 기록하세요. 일일 및 주간 요약과 소아과 의사에게 보여줄 인쇄용 요약 제공. 모든 데이터는 기기에만 저장됩니다 — 가입도, 업로드도 없습니다.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/ko/baby-tracker/">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="아기 수유, 수면 및 기저귀 트래커 — 무료 아기 기록 | Loona">
+<meta name="twitter:description" content="무료 아기 트래커: 한 번의 탭으로 수유(모유, 젖병, 이유식), 낮잠과 수면, 기저귀 교체를 기록하세요. 일일 및 주간 요약과 소아과 의사에게 보여줄 인쇄용 요약 제공. 모든 데이터는 기기에만 저장됩니다 — 가입도, 업로드도 없습니다.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "Loona 아기 수유, 수면 및 기저귀 트래커", "url": "https://loonaautomation.github.io/loona-calculators/ko/baby-tracker/", "applicationCategory": "UtilitiesApplication", "operatingSystem": "Any", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "publisher": {"@type": "Organization", "name": "Loona Automation", "url": "https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "아기의 데이터는 비공개인가요?", "acceptedAnswer": {"@type": "Answer", "text": "네. 모든 내용은 이 기기의 이 브라우저에만 저장됩니다(로컬 스토리지). Loona는 여러분의 기록을 받지도, 업로드하지도, 보지도 않습니다. 계정도, 클라우드 복사본도 없습니다. 브라우저 데이터를 지우면 기록이 삭제되므로, 보관하려면 먼저 백업을 내보내세요."}}, {"@type": "Question", "name": "트래커가 오프라인에서도 작동하나요?", "acceptedAnswer": {"@type": "Answer", "text": "네. 첫 방문 후에는 인터넷 연결 없이도 페이지가 작동합니다. 기록은 기기에 저장되어 돌아왔을 때도 그대로 있습니다 — 새벽 3시에 한 손으로 기록할 수 있도록 만들었습니다."}}, {"@type": "Question", "name": "기록을 소아과 의사에게 어떻게 보여주나요?", "acceptedAnswer": {"@type": "Answer", "text": "&ldquo;소아과 의사용 요약 인쇄&rdquo;를 탭하세요. 아기의 이름과 나이, 오늘의 기록, 지난 7일간의 수유, 수면, 기저귀 내용이 담긴 깔끔한 한 페이지 요약이 만들어져 인쇄하거나 PDF로 저장할 수 있습니다."}}, {"@type": "Question", "name": "기록을 새 휴대폰으로 옮길 수 있나요?", "acceptedAnswer": {"@type": "Answer", "text": "네. 기존 휴대폰에서 백업 내보내기로 작은 파일을 저장한 다음, 새 휴대폰에서 백업 가져오기를 사용하세요. 파일은 여러분이 보내는 곳으로만 이동합니다 — Loona 서버를 거치는 것은 아무것도 없습니다. 그런 서버가 없기 때문입니다."}}, {"@type": "Question", "name": "쌍둥이나 두 아이를 기록할 수 있나요?", "acceptedAnswer": {"@type": "Answer", "text": "트래커는 브라우저당 한 아기의 기록을 보관합니다. 두 번째 아기는 다른 브라우저나 두 번째 기기 프로필을 사용하고, 인쇄물이 명확하도록 각 아기의 이름을 프로필 상자에 입력하세요."}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+
+.bt-h{font-size:19px;color:var(--teal);margin:20px 0 10px;border-left:5px solid var(--gold);padding-left:10px}
+.bt-prof{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.bt-age{grid-column:1/-1;font-size:14px;color:var(--mut)}
+.bt-quick{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}
+.bt-qbtn{background:#eef6f3;border:1.5px solid var(--teal2);color:var(--teal);border-radius:12px;padding:14px 8px;font-size:16px;font-weight:700;cursor:pointer}
+.bt-qbtn:hover{background:var(--teal);color:#fff}
+.bt-qbtn.on{background:var(--gold);border-color:var(--gold2);color:#231a00}
+.bt-form{margin-top:14px;border-top:1px dashed var(--line);padding-top:14px}
+.bt-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px}
+.bt-stat{background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:12px;text-align:center}
+.bt-stat b{display:block;font-size:22px;color:var(--teal)}
+.bt-stat span{font-size:13px;color:var(--mut)}
+.bt-daybar{display:flex;gap:10px;align-items:flex-end;flex-wrap:wrap;margin:8px 0}
+.bt-daybar .fld{flex:1;min-width:170px;margin-bottom:0}
+.bt-entry{display:flex;gap:10px;align-items:center;background:#fff;border:1px solid var(--line);border-radius:10px;padding:9px 12px;margin-bottom:8px;font-size:14.5px}
+.bt-entry .ic{font-size:20px}
+.bt-entry .grow{flex:1}
+.bt-entry small{color:var(--mut);display:block}
+.bt-mini{background:#fff;border:1px solid var(--line);border-radius:8px;padding:5px 10px;cursor:pointer;font-size:13px}
+.bt-mini:hover{border-color:var(--gold)}
+.bt-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px;align-items:stretch}
+.bt-actions button,.bt-imp{background:var(--teal);color:#fff;border:none;border-radius:10px;padding:11px 16px;font-size:14.5px;font-weight:700;cursor:pointer;display:inline-flex;align-items:center}
+.bt-actions .danger{background:#8d2020}
+.bt-msg{margin-top:10px;font-size:14px;color:var(--teal2);font-weight:600;min-height:20px}
+.bt-week{width:100%;border-collapse:collapse}
+.bt-week th,.bt-week td{border-bottom:1px solid var(--line);padding:7px 8px;font-size:14px;text-align:left}
+.bt-empty{color:var(--mut);font-size:14.5px;padding:8px 0}
+.bt-sleeping{font-size:14.5px;color:var(--teal2);font-weight:600;margin-top:10px}
+#btPrintArea{display:none}
+@media print{body>*{display:none!important}#btPrintArea{display:block!important;color:#000;font-family:Arial,sans-serif;padding:12px}#btPrintArea table{width:100%;border-collapse:collapse;margin:10px 0}#btPrintArea th,#btPrintArea td{border:1px solid #999;padding:6px 8px;font-size:13px;text-align:left}#btPrintArea h1{font-size:20px}#btPrintArea h2{font-size:16px;margin-top:14px}}
+
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "BreadcrumbList",
+ "itemListElement": [
+  {
+   "@type": "ListItem",
+   "position": 1,
+   "name": "Loona Automation",
+   "item": "https://loonaautomation.github.io/"
+  },
+  {
+   "@type": "ListItem",
+   "position": 2,
+   "name": "Loona Calculators",
+   "item": "https://loonaautomation.github.io/loona-calculators/"
+  },
+  {
+   "@type": "ListItem",
+   "position": 3,
+   "name": "아기 수유, 수면 및 기저귀 트래커",
+   "item": "https://loonaautomation.github.io/loona-calculators/ko/baby-tracker/"
+  }
+ ]
+}
+</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation 로고">
+<div class="brand">Loona <span>계산기</span></div>
+<nav>
+<a href="../">홈</a>
+<a href="https://loonaautomation.github.io/">Loona 오토메이션</a>
+<a href="../about.html">정보</a>
+<a href="../contact.html">연락처</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona 계산기</a> › 건강 › 아기 수유, 수면 및 기저귀 트래커</div>
+<h1 class="pagetitle">🍼 아기 수유, 수면 및 기저귀 트래커</h1>
+<p class="lead">아기가 먹거나, 자거나, 교체가 필요할 때마다 버튼을 탭하세요. 트래커는 이 기기에 일일 및 주간 합계가 포함된 비공개 기록을 보관합니다 — 소아과 의사를 위한 깔끔한 요약도 인쇄할 수 있습니다. 가입도, 설치할 앱도 없습니다.</p>
+<div class="exbox"><strong>빠른 답변:</strong> 한 번 탭하면 수유(모유, 젖병, 이유식), 낮잠 또는 기저귀 교체가 기록되고 시간이 자동 저장됩니다. 모든 기록을 편집하거나 삭제할 수 있고, 오늘의 합계와 지난 7일을 한눈에 볼 수 있으며, 아기의 의사를 위해 한 페이지 요약을 인쇄할 수 있습니다.</div>
+<div class="exbox" style="background:#fdfaf1;border-left-color:var(--gold)"><strong>🔒 프라이버시 설계:</strong> 기록하는 모든 내용은 이 브라우저, 이 기기에만 저장됩니다. 아기의 데이터는 <strong>절대 업로드되지 않습니다</strong> — Loona에는 이를 위한 서버가 없으며 데이터를 보지도 않습니다. 계정도, 클라우드 복사본도 없습니다.</div>
+<div class="toolbox" id="btApp">
+<div class="calcform">
+<div class="bt-prof">
+<div class="fld"><label for="btName">아기 이름</label><input type="text" id="btName" placeholder="예: 지아" autocomplete="off"></div>
+<div class="fld"><label for="btDob">출생일</label><input type="date" id="btDob"></div>
+<div class="bt-age" id="btAge"></div>
+</div>
+</div>
+<h3 class="bt-h">빠른 기록</h3>
+<div class="bt-quick">
+<button type="button" class="bt-qbtn" data-act="feed-breast">🤱 모유 수유</button>
+<button type="button" class="bt-qbtn" data-act="feed-bottle">🍼 젖병</button>
+<button type="button" class="bt-qbtn" data-act="feed-solid">🥣 이유식</button>
+<button type="button" class="bt-qbtn" data-act="sleep-toggle" id="btSleepBtn">😴 수면 시작</button>
+<button type="button" class="bt-qbtn" data-act="diaper-wet">💧 젖은 기저귀</button>
+<button type="button" class="bt-qbtn" data-act="diaper-dirty">💩 더러운 기저귀</button>
+<button type="button" class="bt-qbtn" data-act="diaper-both">🌀 젖음 + 더러움</button>
+</div>
+<p class="bt-sleeping" id="btSleeping" style="display:none"></p>
+<form class="calcform bt-form" id="btForm" style="display:none">
+<div class="fld"><label id="btFormTitle">새 기록</label></div>
+<input type="hidden" id="btEditId">
+<div class="fld" id="btSubRow"><label for="btSub">유형</label><select id="btSub"></select></div>
+<div class="fld"><label for="btWhen">시간</label><input type="datetime-local" id="btWhen"></div>
+<div class="fld" id="btWhenEndRow" style="display:none"><label for="btWhenEnd">기상 시간</label><input type="datetime-local" id="btWhenEnd"></div>
+<div class="fld" id="btAmtRow" style="display:none"><label for="btAmt">양</label><div style="display:flex;gap:8px"><input type="number" id="btAmt" min="0" step="1" placeholder="120" style="flex:1"><select id="btUnit" style="width:110px"><option value="ml">ml</option><option value="oz">fl oz</option></select></div></div>
+<div class="fld" id="btDurRow" style="display:none"><label for="btDur">시간(분, 선택 사항)</label><input type="number" id="btDur" min="0" step="1" placeholder="15"></div>
+<div class="fld"><label for="btNote">메모(선택 사항)</label><input type="text" id="btNote" placeholder="예: 먹자마자 잠들었어요"></div>
+<button class="calcbtn" type="submit" id="btSave">기록 저장</button>
+<button type="button" class="bt-mini" id="btCancel" style="margin-top:8px">취소</button>
+</form>
+<div class="bt-msg" id="btMsg" role="status"></div>
+<h3 class="bt-h">오늘</h3>
+<div class="bt-stats" id="btToday"></div>
+<h3 class="bt-h">기록</h3>
+<div class="calcform bt-daybar">
+<div class="fld"><label for="btDay">날짜</label><input type="date" id="btDay"></div>
+<button type="button" class="bt-mini" id="btTodayBtn">오늘</button>
+</div>
+<div id="btList"></div>
+<h3 class="bt-h">지난 7일</h3>
+<div id="btWeek"></div>
+<div class="bt-actions">
+<button type="button" id="btPrint">🖨️ 소아과 의사용 요약 인쇄</button>
+<button type="button" id="btExport">⬇️ 백업 내보내기</button>
+<label class="bt-imp" for="btImport">⬆️ 백업 가져오기</label>
+<input type="file" id="btImport" accept="application/json,.json" hidden>
+<button type="button" id="btClear" class="danger">🗑️ 모든 데이터 삭제</button>
+</div>
+<p class="resnote">🔒 <strong>데이터는 기기에만 남습니다.</strong> 기록은 이 브라우저의 로컬 스토리지에만 저장됩니다 — 절대 업로드되지 않고, 공유되지 않으며, 광고에 사용되지 않습니다. 브라우저 데이터를 지우면 기록이 삭제되므로, 보관하려면 먼저 백업을 내보내세요.</p>
+</div>
+<section class="txt"><h2>아기 트래커 사용 방법</h2><ol><li>(선택 사항) 아기의 이름과 출생일을 추가하세요 — 트래커가 나이를 표시하고 요약에 인쇄합니다.</li><li>수유가 시작되면 <strong>모유 수유</strong>, <strong>젖병</strong> 또는 <strong>이유식</strong>을 탭하고, 시간을 확인한 뒤, 원하면 쪽, 양 또는 메모를 추가하고 저장하세요.</li><li>아기가 잠들면 <strong>수면 시작</strong>을 탭하고, 깨어날 때 같은 버튼을 다시 탭하세요 — 기저귀 교체는 한 번의 탭으로 기록할 수 있습니다.</li><li><strong>오늘</strong> 패널에서 수유, 총 수면 시간, 기저귀 개수를 확인하고, <strong>지난 7일</strong> 표에서 소아과 의사가 물을 패턴을 확인하세요.</li><li>기록의 항목을 탭하면 시간이나 세부 정보를 편집하거나 삭제할 수 있습니다. 모든 내용이 즉시 업데이트되고 기기에 저장됩니다.</li></ol><div class="exbox"><strong>예시:</strong> 수유 3회, 낮잠 2회 총 2시간 30분, 기저귀 교체 4회인 하루는 오늘 패널에 정확히 그 합계가 표시됩니다 — 인쇄용 요약에도 같은 숫자가 나타납니다.</div>
+<h2>자주 묻는 질문</h2></section><div class="faq"><h3>아기의 데이터는 비공개인가요?</h3><p>네. 모든 내용은 이 기기의 이 브라우저에만 저장됩니다(로컬 스토리지). Loona는 여러분의 기록을 받지도, 업로드하지도, 보지도 않습니다. 계정도, 클라우드 복사본도 없습니다. 브라우저 데이터를 지우면 기록이 삭제되므로, 보관하려면 먼저 백업을 내보내세요.</p></div><div class="faq"><h3>트래커가 오프라인에서도 작동하나요?</h3><p>네. 첫 방문 후에는 인터넷 연결 없이도 페이지가 작동합니다. 기록은 기기에 저장되어 돌아왔을 때도 그대로 있습니다 — 새벽 3시에 한 손으로 기록할 수 있도록 만들었습니다.</p></div><div class="faq"><h3>기록을 소아과 의사에게 어떻게 보여주나요?</h3><p>&ldquo;소아과 의사용 요약 인쇄&rdquo;를 탭하세요. 아기의 이름과 나이, 오늘의 기록, 지난 7일간의 수유, 수면, 기저귀 내용이 담긴 깔끔한 한 페이지 요약이 만들어져 인쇄하거나 PDF로 저장할 수 있습니다.</p></div><div class="faq"><h3>기록을 새 휴대폰으로 옮길 수 있나요?</h3><p>네. 기존 휴대폰에서 백업 내보내기로 작은 파일을 저장한 다음, 새 휴대폰에서 백업 가져오기를 사용하세요. 파일은 여러분이 보내는 곳으로만 이동합니다 — Loona 서버를 거치는 것은 아무것도 없습니다. 그런 서버가 없기 때문입니다.</p></div><div class="faq"><h3>쌍둥이나 두 아이를 기록할 수 있나요?</h3><p>트래커는 브라우저당 한 아기의 기록을 보관합니다. 두 번째 아기는 다른 브라우저나 두 번째 기기 프로필을 사용하고, 인쇄물이 명확하도록 각 아기의 이름을 프로필 상자에 입력하세요.</p></div>
+<h2 class="sec">관련 계산기</h2><div class="grid"><a class="card" href="../child-bmi-percentile-calculator/"><div class="ic">🧒</div><h3>아동 BMI 백분위수 계산기</h3><p>건강</p></a><a class="card" href="../conception-calculator/"><div class="ic">👶</div><h3>수태일 계산기</h3><p>건강</p></a><a class="card" href="../pregnancy-due-date-calculator/"><div class="ic">🤰</div><h3>출산 예정일</h3><p>건강</p></a></div><h3>Child BMI Percentile Calculator</h3><p>Health</p></a><a class="card" href="../conception-calculator/"><div class="ic">👶</div><h3>Conception Calculator</h3><p>Health</p></a><a class="card" href="../pregnancy-due-date-calculator/"><div class="ic">🤰</div><h3>Pregnancy Due Date Calculator</h3><p>Health</p></a></div>
+</div>
+<section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>작동 방식 — 여러분의 기록, 여러분의 기기에</h2><p>모든 기록은 작은 항목입니다 — 유형(수유, 수면, 기저귀), 시간, 그리고 쪽, 젖병 양(ml), 메모 같은 선택 세부 정보. 기록은 브라우저의 <strong>로컬 스토리지</strong>에 저장됩니다. 이는 브라우저가 사이트 자체의 설정을 보관하는 것과 같은 비공개 공간입니다. 어떤 것도 어디로도 전송되지 않습니다: 페이지는 열 때마다 브라우저에서 로컬로 모든 계산을 수행합니다.</p><p><strong>합계 계산 방식:</strong> 기록은 시작된 달력 날짜에 속합니다. 하루의 수면 합계는 그날 시작된 완료된 낮잠과 밤 수면을 더합니다; 아직 진행 중인 수면은 기상이 기록될 때까지 별도로 표시됩니다. 젖병 양은 밀리리터로 합산됩니다(액량 온스는 1 fl oz = 29.5735 ml로 변환). &ldquo;젖음 + 더러움&rdquo; 교체는 세부 내역에서 기저귀 1개, 젖음 1개, 더러움 1개로 계산됩니다.</p><h3>계산 예시</h3><div class="exbox"><p><strong>기록:</strong> 07:10 젖병 120 ml, 10:05 모유 수유, 11:00–12:30 낮잠, 12:45 젖은 기저귀, 15:20 더러운 기저귀, 16:00–17:00 낮잠, 18:05 이유식, 19:30 젖음 + 더러움 기저귀.</p><p><strong>오늘 패널:</strong> 수유 <strong>3</strong>(젖병 합계 120 ml) · 수면 <strong>2시간 30분</strong>, 낮잠 2회 · 기저귀 <strong>3</strong>(세부 내역: 젖음 2 · 더러움 2).</p></div><p class="resnote"><strong>참고:</strong> 이 트래커는 부모를 위한 기억 보조 도구이며, 의료 기기나 의료 조언이 아닙니다. 수유와 수면 필요량은 아기마다 크게 다릅니다 — 아기의 건강에 대해서는 항상 소아과 의사의 지침을 따르세요.</p></section>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">이 트래커를 웹사이트에 삽입하세요 — 무료</h2>
+<p style="margin:0 0 12px;line-height:1.6">이 트래커를 웹사이트나 블로그에 추가하세요 — 완전히 무료이고, 가입이 필요 없으며, 항상 최신 버전이 표시됩니다. 아래 코드를 복사하여 트래커가 표시될 페이지 위치에 붙여넣으세요. 삽입 아래의 작은 &ldquo;Powered by Loona Automation&rdquo; 크레딧 줄을 유지하면 이 도구를 무료로 유지하는 데 도움이 됩니다 &mdash; 하지만 스타일을 바꾸거나 제거해도 자유입니다; 도구는 어느 경우에도 작동합니다.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/ko/baby-tracker/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Loona의 아기 수유, 수면 및 기저귀 트래커"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Powered by &lt;a href="https://loonaautomation.github.io/loona-calculators/ko/baby-tracker/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 무료 아기 수유, 수면 및 기저귀 트래커&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">삽입 코드 복사</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='복사 완료!';setTimeout(function(){b.textContent='삽입 코드 복사';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>인기 계산기</h4><ul><li><a href="../age-calculator/">나이 계산기</a></li>
+<li><a href="../zakat-calculator/">자카트 계산기</a></li>
+<li><a href="../cgpa-calculator/">CGPA 계산기</a></li>
+<li><a href="../percentage-calculator/">백분율 계산기</a></li>
+<li><a href="../hijri-date-converter/">히즈리 날짜 변환기</a></li>
+<li><a href="../emi-calculator/">EMI & 대출 계산기</a></li></ul></div>
+<div><h4>더 많은 Loona 도구</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR 코드</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona 이미지 압축 도구</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI 어시스턴트</a></li>
+<li><a href="https://loonaautomation.github.io/">모든 Loona 도구</a></li></ul></div>
+<div><h4>Loona 계산기</h4><ul>
+<li><a href="../about.html">정보</a></li>
+<li><a href="../contact.html">연락처</a></li>
+<li><a href="../privacy-policy.html">개인정보 처리방침</a></li>
+<li><a href="../terms.html">이용 약관</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — a <a href="https://loonaautomation.github.io/">Loona 오토메이션</a> 프로젝트. 무료 온라인 계산기, 가입 없음.\n연락처: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div><div id="loona-lang-strip" style="text-align:center;padding:16px 16px 6px;font-size:.93rem;line-height:2;color:#cfe0d6">🌐 Also available in: <a href="https://loonaautomation.github.io/loona-calculators/ar/" hreflang="ar" style="color:#cfe0d6;text-decoration:underline">العربية</a> · <a href="https://loonaautomation.github.io/loona-calculators/bn/" hreflang="bn" style="color:#cfe0d6;text-decoration:underline">বাংলা</a> · <a href="https://loonaautomation.github.io/loona-calculators/bg/" hreflang="bg" style="color:#cfe0d6;text-decoration:underline">Български</a> · <a href="https://loonaautomation.github.io/loona-calculators/zh/" hreflang="zh" style="color:#cfe0d6;text-decoration:underline">中文</a> · <a href="https://loonaautomation.github.io/loona-calculators/zh-hant/" hreflang="zh-hant" style="color:#cfe0d6;text-decoration:underline">繁體中文</a> · <a href="https://loonaautomation.github.io/loona-calculators/hr/" hreflang="hr" style="color:#cfe0d6;text-decoration:underline">Hrvatski</a> · <a href="https://loonaautomation.github.io/loona-calculators/cs/" hreflang="cs" style="color:#cfe0d6;text-decoration:underline">Čeština</a> · <a href="https://loonaautomation.github.io/loona-calculators/da/" hreflang="da" style="color:#cfe0d6;text-decoration:underline">Dansk</a> · <a href="https://loonaautomation.github.io/loona-calculators/nl/" hreflang="nl" style="color:#cfe0d6;text-decoration:underline">Nederlands</a> · <a href="https://loonaautomation.github.io/loona-calculators/fi/" hreflang="fi" style="color:#cfe0d6;text-decoration:underline">Suomi</a> · <a href="https://loonaautomation.github.io/loona-calculators/fr/" hreflang="fr" style="color:#cfe0d6;text-decoration:underline">Français</a> · <a href="https://loonaautomation.github.io/loona-calculators/de/" hreflang="de" style="color:#cfe0d6;text-decoration:underline">Deutsch</a> · <a href="https://loonaautomation.github.io/loona-calculators/el/" hreflang="el" style="color:#cfe0d6;text-decoration:underline">Ελληνικά</a> · <a href="https://loonaautomation.github.io/loona-calculators/he/" hreflang="he" style="color:#cfe0d6;text-decoration:underline">עברית</a> · <a href="https://loonaautomation.github.io/loona-calculators/hi/" hreflang="hi" style="color:#cfe0d6;text-decoration:underline">हिन्दी</a> · <a href="https://loonaautomation.github.io/loona-calculators/hu/" hreflang="hu" style="color:#cfe0d6;text-decoration:underline">Magyar</a> · <a href="https://loonaautomation.github.io/loona-calculators/id/" hreflang="id" style="color:#cfe0d6;text-decoration:underline">Bahasa Indonesia</a> · <a href="https://loonaautomation.github.io/loona-calculators/it/" hreflang="it" style="color:#cfe0d6;text-decoration:underline">Italiano</a> · <a href="https://loonaautomation.github.io/loona-calculators/ja/" hreflang="ja" style="color:#cfe0d6;text-decoration:underline">日本語</a> · <a href="https://loonaautomation.github.io/loona-calculators/ko/" hreflang="ko" style="color:#cfe0d6;text-decoration:underline">한국어</a> · <a href="https://loonaautomation.github.io/loona-calculators/ms/" hreflang="ms" style="color:#cfe0d6;text-decoration:underline">Bahasa Melayu</a> · <a href="https://loonaautomation.github.io/loona-calculators/nb/" hreflang="nb" style="color:#cfe0d6;text-decoration:underline">Norsk</a> · <a href="https://loonaautomation.github.io/loona-calculators/pl/" hreflang="pl" style="color:#cfe0d6;text-decoration:underline">Polski</a> · <a href="https://loonaautomation.github.io/loona-calculators/pt/" hreflang="pt" style="color:#cfe0d6;text-decoration:underline">Português</a> · <a href="https://loonaautomation.github.io/loona-calculators/ro/" hreflang="ro" style="color:#cfe0d6;text-decoration:underline">Română</a> · <a href="https://loonaautomation.github.io/loona-calculators/ru/" hreflang="ru" style="color:#cfe0d6;text-decoration:underline">Русский</a> · <a href="https://loonaautomation.github.io/loona-calculators/sk/" hreflang="sk" style="color:#cfe0d6;text-decoration:underline">Slovenčina</a> · <a href="https://loonaautomation.github.io/loona-calculators/es/" hreflang="es" style="color:#cfe0d6;text-decoration:underline">Español</a> · <a href="https://loonaautomation.github.io/loona-calculators/sw/" hreflang="sw" style="color:#cfe0d6;text-decoration:underline">Kiswahili</a> · <a href="https://loonaautomation.github.io/loona-calculators/sv/" hreflang="sv" style="color:#cfe0d6;text-decoration:underline">Svenska</a> · <a href="https://loonaautomation.github.io/loona-calculators/th/" hreflang="th" style="color:#cfe0d6;text-decoration:underline">ไทย</a> · <a href="https://loonaautomation.github.io/loona-calculators/tr/" hreflang="tr" style="color:#cfe0d6;text-decoration:underline">Türkçe</a> · <a href="https://loonaautomation.github.io/loona-calculators/uk/" hreflang="uk" style="color:#cfe0d6;text-decoration:underline">Українська</a> · <a href="https://loonaautomation.github.io/loona-calculators/ur/" hreflang="ur" style="color:#cfe0d6;text-decoration:underline">اردو</a> · <a href="https://loonaautomation.github.io/loona-calculators/vi/" hreflang="vi" style="color:#cfe0d6;text-decoration:underline">Tiếng Việt</a></div>
+</footer>
+<div id="btPrintArea"></div>
+<script>
+var BT_STR={
+ breastL:'모유(왼쪽)',
+ breastR:'모유(오른쪽)',
+ bottle:'젖병',
+ solid:'이유식',
+ wet:'젖음',
+ dirty:'더러움',
+ both:'젖음 + 더러움',
+ feedW:'수유',
+ sleepW:'수면',
+ diaperW:'기저귀',
+ newFeed:'새 수유',
+ newEntry:'새 기록',
+ editEntry:'기록 편집',
+ feeds:'수유',
+ sleep:'수면',
+ diapers:'기저귀',
+ bottleTotal:'젖병 합계',
+ lastFeed:'마지막 수유',
+ noFeedYet:'오늘 아직 수유 기록이 없습니다',
+ napOne:'회 낮잠',
+ napMany:'회 낮잠',
+ wetW:'젖음',
+ dirtyW:'더러움',
+ noEntries:'이 날짜에는 아직 기록이 없습니다.',
+ sleepingSince:'수면 시작',
+ wakeUp:'기상',
+ startSleep:'수면 시작',
+ saved:'저장되었습니다 ✓',
+ deleted:'기록이 삭제되었습니다.',
+ cleared:'모든 데이터가 삭제되었습니다.',
+ imported:'백업을 가져왔습니다 ✓',
+ importBad:'그 백업 파일을 읽을 수 없습니다 — 아무것도 변경되지 않았습니다.',
+ confirmClear:'이 기기에 저장된 모든 아기 트래커 데이터를 삭제할까요? 이 작업은 되돌릴 수 없습니다.',
+ confirmDelete:'이 기록을 삭제할까요?',
+ edit:'편집',
+ del:'삭제',
+ errTime:'종료 시간은 시작 시간보다 뒤여야 합니다.',
+ ageLabel:'나이',
+ bornToday:'오늘 태어났습니다',
+ notBornYet:'출생일이 미래입니다',
+ yearW:'세',
+ monthW:'개월',
+ weekW:'주',
+ dayW:'일',
+ printTitle:'아기 기록 요약',
+ printFor:'소아과 의사용 수유, 수면 및 기저귀 요약',
+ generatedOn:'생성일',
+ last7:'지난 7일',
+ dayEntries:'당일 기록',
+ colDay:'날짜',
+ colFeeds:'수유',
+ colSleep:'수면',
+ colDiapers:'기저귀',
+ printFoot:'무료 Loona 아기 트래커로 만들었습니다 — 기록은 부모의 기기에만 저장됩니다.',
+ babyNamePh:'아기'
+};
+/*TESTABLE_START*/
+var BT_KEY='loonaBabyTrackerV1';
+function btDayKey(ts){var d=new Date(ts);var m=('0'+(d.getMonth()+1)).slice(-2);var dd=('0'+d.getDate()).slice(-2);return d.getFullYear()+'-'+m+'-'+dd;}
+function btSummarize(entries,key){
+ var s={feeds:0,bottleMl:0,sleepMin:0,naps:0,diapers:0,wet:0,dirty:0,lastFeed:0};
+ for(var i=0;i<entries.length;i++){var e=entries[i];if(!e||btDayKey(e.ts)!==key)continue;
+  if(e.type==='feed'){s.feeds++;if(e.sub==='bottle'&&e.amtMl)s.bottleMl+=e.amtMl;if(e.ts>s.lastFeed)s.lastFeed=e.ts;}
+  else if(e.type==='sleep'){if(e.end&&e.end>e.ts){s.sleepMin+=Math.round((e.end-e.ts)/60000);s.naps++;}}
+  else if(e.type==='diaper'){s.diapers++;if(e.sub==='wet'||e.sub==='both')s.wet++;if(e.sub==='dirty'||e.sub==='both')s.dirty++;}
+ }
+ return s;
+}
+function btOpenSleep(entries){for(var i=0;i<entries.length;i++){if(entries[i].type==='sleep'&&!entries[i].end)return entries[i];}return null;}
+function btFmtDur(min){min=Math.max(0,Math.round(min));var h=Math.floor(min/60),m=min%60;if(h&&m)return h+' h '+m+' min';if(h)return h+' h';return m+' min';}
+function btAgeParts(dobStr,nowTs){
+ if(!dobStr)return null;var p=dobStr.split('-');if(p.length!==3)return null;
+ var dob=new Date(+p[0],+p[1]-1,+p[2]);var now=new Date(nowTs);
+ if(isNaN(dob.getTime()))return null;
+ var y=now.getFullYear()-dob.getFullYear(),mo=now.getMonth()-dob.getMonth(),d=now.getDate()-dob.getDate();
+ if(d<0){mo--;var prev=new Date(now.getFullYear(),now.getMonth(),0);d+=prev.getDate();}
+ if(mo<0){y--;mo+=12;}
+ if(y<0)return {future:true};
+ return {y:y,mo:mo,d:d};
+}
+function btWeekRows(entries,nowTs){
+ var rows=[];for(var i=6;i>=0;i--){var t=nowTs-i*86400000;var k=btDayKey(t);rows.push({key:k,ts:t,sum:btSummarize(entries,k)});}
+ return rows;
+}
+/*TESTABLE_END*/
+(function(){
+ var state={baby:{name:'',dob:''},entries:[]};
+ try{var raw=localStorage.getItem(BT_KEY);if(raw){var parsed=JSON.parse(raw);if(parsed&&parsed.entries)state=parsed;}}catch(e){}
+ var $=function(id){return document.getElementById(id);};
+ var formType='feed',formSub='bottle';
+ function save(){try{localStorage.setItem(BT_KEY,JSON.stringify(state));}catch(e){}}
+ function uid(){return 'e'+Date.now().toString(36)+Math.floor(Math.random()*1e6).toString(36);}
+ function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});}
+ function fmtTime(ts){return new Date(ts).toLocaleTimeString([],{hour:'2-digit',minute:'2-digit'});}
+ function fmtDay(ts){return new Date(ts).toLocaleDateString([],{weekday:'short',day:'numeric',month:'short'});}
+ function toLocalInput(ts){var d=new Date(ts);var p=function(n){return ('0'+n).slice(-2);};return d.getFullYear()+'-'+p(d.getMonth()+1)+'-'+p(d.getDate())+'T'+p(d.getHours())+':'+p(d.getMinutes());}
+ function fromLocalInput(v){var t=new Date(v).getTime();return isNaN(t)?null:t;}
+ function subLabel(e){
+  if(e.type==='feed'){if(e.sub==='breast-l')return BT_STR.breastL;if(e.sub==='breast-r')return BT_STR.breastR;if(e.sub==='bottle')return BT_STR.bottle;return BT_STR.solid;}
+  if(e.type==='diaper'){if(e.sub==='wet')return BT_STR.wet;if(e.sub==='dirty')return BT_STR.dirty;return BT_STR.both;}
+  return BT_STR.sleepW;
+ }
+ function subIcon(e){
+  if(e.type==='feed'){if(e.sub==='bottle')return '🍼';if(e.sub==='solid')return '🥣';return '🤱';}
+  if(e.type==='diaper'){if(e.sub==='wet')return '💧';if(e.sub==='dirty')return '💩';return '🌀';}
+  return '😴';
+ }
+ function entryDetail(e){
+  var parts=[];
+  if(e.type==='feed'&&e.sub==='bottle'&&e.amtMl)parts.push(Math.round(e.amtMl)+' ml');
+  if(e.type==='feed'&&(e.sub==='breast-l'||e.sub==='breast-r')&&e.durMin)parts.push(e.durMin+' min');
+  if(e.type==='sleep'){if(e.end)parts.push(fmtTime(e.ts)+' – '+fmtTime(e.end)+' · '+btFmtDur((e.end-e.ts)/60000));else parts.push(fmtTime(e.ts)+' · '+BT_STR.sleepingSince.toLowerCase()+'…');}
+  if(e.note)parts.push(esc(e.note));
+  return parts.join(' · ');
+ }
+ function msg(t){$('btMsg').textContent=t||'';}
+ function openSleep(){return btOpenSleep(state.entries);}
+ function renderProfile(){
+  var a=btAgeParts(state.baby.dob,Date.now());
+  var el=$('btAge');
+  if(!a){el.textContent='';return;}
+  if(a.future){el.textContent=BT_STR.notBornYet;return;}
+  var bits=[];
+  if(a.y)bits.push(a.y+' '+BT_STR.yearW);
+  if(a.mo)bits.push(a.mo+' '+BT_STR.monthW);
+  if(!a.y&&!a.mo){var days=Math.floor((Date.now()-new Date(state.baby.dob+'T12:00:00').getTime())/86400000);if(days<=0){el.textContent=BT_STR.bornToday;return;}if(days<14){el.textContent=BT_STR.ageLabel+': '+days+' '+BT_STR.dayW;return;}bits.push(Math.floor(days/7)+' '+BT_STR.weekW);bits.push((days%7)+' '+BT_STR.dayW);}
+  else if(a.d)bits.push(a.d+' '+BT_STR.dayW);
+  el.textContent=BT_STR.ageLabel+': '+bits.join(', ');
+ }
+ function renderToday(){
+  var key=btDayKey(Date.now());var s=btSummarize(state.entries,key);
+  var feedSub=s.bottleMl?Math.round(s.bottleMl)+' ml '+BT_STR.bottleTotal:'';
+  var lf=s.lastFeed?fmtTime(s.lastFeed):BT_STR.noFeedYet;
+  $('btToday').innerHTML=
+   '<div class="bt-stat"><b>'+s.feeds+'</b><span>'+BT_STR.feeds+(feedSub?'<br>'+feedSub:'')+'</span></div>'
+  +'<div class="bt-stat"><b>'+btFmtDur(s.sleepMin)+'</b><span>'+BT_STR.sleep+' · '+s.naps+' '+(s.naps===1?BT_STR.napOne:BT_STR.napMany)+'</span></div>'
+  +'<div class="bt-stat"><b>'+s.diapers+'</b><span>'+BT_STR.diapers+' · '+s.wet+' '+BT_STR.wetW+' / '+s.dirty+' '+BT_STR.dirtyW+'</span></div>'
+  +'<div class="bt-stat"><b style="font-size:17px">'+lf+'</b><span>'+BT_STR.lastFeed+'</span></div>';
+  var open=openSleep();var btn=$('btSleepBtn'),note=$('btSleeping');
+  if(open){btn.textContent='☀️ '+BT_STR.wakeUp;btn.classList.add('on');note.style.display='block';note.textContent='😴 '+BT_STR.sleepingSince+' '+fmtTime(open.ts);}
+  else{btn.textContent='😴 '+BT_STR.startSleep;btn.classList.remove('on');note.style.display='none';}
+ }
+ function renderList(){
+  var day=$('btDay').value||btDayKey(Date.now());
+  var list=state.entries.filter(function(e){return btDayKey(e.ts)===day;}).sort(function(a,b){return b.ts-a.ts;});
+  if(!list.length){$('btList').innerHTML='<p class="bt-empty">'+BT_STR.noEntries+'</p>';return;}
+  $('btList').innerHTML=list.map(function(e){
+   return '<div class="bt-entry"><div class="ic">'+subIcon(e)+'</div><div class="grow"><strong>'+esc(subLabel(e))+'</strong> · '+fmtTime(e.ts)+(e.type==='sleep'&&e.end?'':'')+'<small>'+entryDetail(e)+'</small></div>'
+   +'<button type="button" class="bt-mini" data-edit="'+e.id+'">'+BT_STR.edit+'</button>'
+   +'<button type="button" class="bt-mini" data-del="'+e.id+'">'+BT_STR.del+'</button></div>';
+  }).join('');
+ }
+ function renderWeek(){
+  var rows=btWeekRows(state.entries,Date.now());
+  var h='<table class="bt-week"><tr><th>'+BT_STR.colDay+'</th><th>'+BT_STR.colFeeds+'</th><th>'+BT_STR.colSleep+'</th><th>'+BT_STR.colDiapers+'</th></tr>';
+  rows.forEach(function(r){h+='<tr><td>'+fmtDay(r.ts)+'</td><td>'+r.sum.feeds+'</td><td>'+btFmtDur(r.sum.sleepMin)+'</td><td>'+r.sum.diapers+'</td></tr>';});
+  $('btWeek').innerHTML=h+'</table>';
+ }
+ function renderAll(){renderProfile();renderToday();renderList();renderWeek();}
+ function addEntry(e){e.id=uid();state.entries.push(e);save();renderAll();}
+ /* quick actions */
+ var quick=document.querySelectorAll('.bt-qbtn');
+ for(var i=0;i<quick.length;i++){quick[i].addEventListener('click',function(){
+  var act=this.getAttribute('data-act');
+  if(act==='diaper-wet'){addEntry({type:'diaper',ts:Date.now(),end:null,sub:'wet',amtMl:null,durMin:null,note:''});msg(BT_STR.saved);}
+  else if(act==='diaper-dirty'){addEntry({type:'diaper',ts:Date.now(),end:null,sub:'dirty',amtMl:null,durMin:null,note:''});msg(BT_STR.saved);}
+  else if(act==='diaper-both'){addEntry({type:'diaper',ts:Date.now(),end:null,sub:'both',amtMl:null,durMin:null,note:''});msg(BT_STR.saved);}
+  else if(act==='sleep-toggle'){var open=openSleep();if(open){open.end=Date.now();save();renderAll();}else{addEntry({type:'sleep',ts:Date.now(),end:null,sub:'sleep',amtMl:null,durMin:null,note:''});}msg(BT_STR.saved);}
+  else if(act==='feed-breast'){openForm('feed','breast-l',null);}
+  else if(act==='feed-bottle'){openForm('feed','bottle',null);}
+  else if(act==='feed-solid'){openForm('feed','solid',null);}
+ });}
+ function fillSubOptions(type,selected){
+  var opts=[];
+  if(type==='feed')opts=[['breast-l',BT_STR.breastL],['breast-r',BT_STR.breastR],['bottle',BT_STR.bottle],['solid',BT_STR.solid]];
+  else if(type==='diaper')opts=[['wet',BT_STR.wet],['dirty',BT_STR.dirty],['both',BT_STR.both]];
+  else opts=[['sleep',BT_STR.sleepW]];
+  $('btSub').innerHTML=opts.map(function(o){return '<option value="'+o[0]+'"'+(o[0]===selected?' selected':'')+'>'+esc(o[1])+'</option>';}).join('');
+ }
+ function syncFormFields(){
+  var sub=$('btSub').value;
+  $('btAmtRow').style.display=(formType==='feed'&&sub==='bottle')?'block':'none';
+  $('btDurRow').style.display=(formType==='feed'&&(sub==='breast-l'||sub==='breast-r'))?'block':'none';
+  $('btWhenEndRow').style.display=(formType==='sleep')?'block':'none';
+ }
+ function openForm(type,sub,entry){
+  formType=type;formSub=sub;
+  $('btForm').style.display='block';
+  $('btFormTitle').textContent=entry?BT_STR.editEntry:(type==='feed'?BT_STR.newFeed:BT_STR.newEntry);
+  $('btEditId').value=entry?entry.id:'';
+  fillSubOptions(type,entry?entry.sub:sub);
+  $('btWhen').value=toLocalInput(entry?entry.ts:Date.now());
+  $('btWhenEnd').value=entry&&entry.end?toLocalInput(entry.end):toLocalInput(Date.now());
+  $('btAmt').value=entry&&entry.amtMl?Math.round(entry.amtMl):'';
+  $('btUnit').value='ml';
+  $('btDur').value=entry&&entry.durMin?entry.durMin:'';
+  $('btNote').value=entry?entry.note||'':'';
+  syncFormFields();
+  $('btForm').scrollIntoView({behavior:'smooth',block:'center'});
+ }
+ $('btSub').addEventListener('change',syncFormFields);
+ $('btCancel').addEventListener('click',function(){$('btForm').style.display='none';});
+ $('btForm').addEventListener('submit',function(ev){
+  ev.preventDefault();
+  var ts=fromLocalInput($('btWhen').value);if(ts===null)return;
+  var sub=$('btSub').value;
+  var amt=null;if(formType==='feed'&&sub==='bottle'){var v=parseFloat($('btAmt').value);if(v>0)amt=$('btUnit').value==='oz'?v*29.5735:v;}
+  var dur=null;if(formType==='feed'&&(sub==='breast-l'||sub==='breast-r')){var dv=parseInt($('btDur').value,10);if(dv>0)dur=dv;}
+  var end=null;
+  if(formType==='sleep'){end=fromLocalInput($('btWhenEnd').value);if(end!==null&&end<=ts){msg(BT_STR.errTime);return;}}
+  var id=$('btEditId').value;
+  var data={type:formType,ts:ts,end:end,sub:sub,amtMl:amt,durMin:dur,note:$('btNote').value.trim()};
+  if(id){for(var j=0;j<state.entries.length;j++){if(state.entries[j].id===id){for(var k in data)state.entries[j][k]=data[k];break;}}}
+  else{data.id=uid();state.entries.push(data);}
+  save();renderAll();$('btForm').style.display='none';msg(BT_STR.saved);
+ });
+ $('btList').addEventListener('click',function(ev){
+  var t=ev.target;var eid=t.getAttribute('data-edit'),did=t.getAttribute('data-del');
+  if(eid){for(var j=0;j<state.entries.length;j++){if(state.entries[j].id===eid){var e=state.entries[j];openForm(e.type,e.sub,e);break;}}}
+  if(did){if(window.confirm(BT_STR.confirmDelete)){state.entries=state.entries.filter(function(e){return e.id!==did;});save();renderAll();msg(BT_STR.deleted);}}
+ });
+ $('btDay').addEventListener('change',renderList);
+ $('btTodayBtn').addEventListener('click',function(){$('btDay').value=btDayKey(Date.now());renderList();});
+ $('btName').addEventListener('change',function(){state.baby.name=this.value.trim();save();renderProfile();});
+ $('btDob').addEventListener('change',function(){state.baby.dob=this.value;save();renderProfile();});
+ $('btPrint').addEventListener('click',function(){
+  var rows=btWeekRows(state.entries,Date.now());
+  var a=btAgeParts(state.baby.dob,Date.now());
+  var ageTxt=a&&!a.future?$('btAge').textContent:'';
+  var h='<h1>'+BT_STR.printTitle+'</h1><p><strong>'+esc(state.baby.name||BT_STR.babyNamePh)+'</strong>'+(ageTxt?' · '+esc(ageTxt):'')+'</p>'
+   +'<p>'+BT_STR.printFor+' · '+BT_STR.generatedOn+' '+new Date().toLocaleDateString([],{day:'numeric',month:'long',year:'numeric'})+'</p>'
+   +'<h2>'+BT_STR.last7+'</h2><table><tr><th>'+BT_STR.colDay+'</th><th>'+BT_STR.colFeeds+'</th><th>'+BT_STR.colSleep+'</th><th>'+BT_STR.colDiapers+'</th></tr>';
+  rows.forEach(function(r){h+='<tr><td>'+fmtDay(r.ts)+'</td><td>'+r.sum.feeds+'</td><td>'+btFmtDur(r.sum.sleepMin)+'</td><td>'+r.sum.diapers+'</td></tr>';});
+  h+='</table><h2>'+BT_STR.dayEntries+' — '+fmtDay(Date.now())+'</h2>';
+  var today=state.entries.filter(function(e){return btDayKey(e.ts)===btDayKey(Date.now());}).sort(function(x,y){return x.ts-y.ts;});
+  if(today.length){h+='<table><tr><th>Time</th><th>'+BT_STR.feedW+' / '+BT_STR.sleepW+' / '+BT_STR.diaperW+'</th><th></th></tr>';
+   today.forEach(function(e){h+='<tr><td>'+fmtTime(e.ts)+'</td><td>'+esc(subLabel(e))+'</td><td>'+entryDetail(e)+'</td></tr>';});
+   h+='</table>';}
+  else h+='<p>'+BT_STR.noEntries+'</p>';
+  h+='<p style="font-size:12px;color:#555">'+BT_STR.printFoot+'</p>';
+  $('btPrintArea').innerHTML=h;
+  window.print();
+ });
+ $('btExport').addEventListener('click',function(){
+  var blob=new Blob([JSON.stringify(state,null,2)],{type:'application/json'});
+  var a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='baby-tracker-backup.json';document.body.appendChild(a);a.click();a.remove();
+  setTimeout(function(){URL.revokeObjectURL(a.href);},2000);
+ });
+ $('btImport').addEventListener('change',function(){
+  var f=this.files&&this.files[0];if(!f)return;
+  var r=new FileReader();
+  r.onload=function(){try{var p=JSON.parse(r.result);if(!p||!Array.isArray(p.entries))throw new Error('bad');state={baby:p.baby||{name:'',dob:''},entries:p.entries};save();$('btName').value=state.baby.name||'';$('btDob').value=state.baby.dob||'';renderAll();msg(BT_STR.imported);}catch(e){msg(BT_STR.importBad);}};
+  r.readAsText(f);this.value='';
+ });
+ $('btClear').addEventListener('click',function(){
+  if(window.confirm(BT_STR.confirmClear)){state={baby:{name:'',dob:''},entries:[]};try{localStorage.removeItem(BT_KEY);}catch(e){}$('btName').value='';$('btDob').value='';renderAll();msg(BT_STR.cleared);}
+ });
+ /* init */
+ $('btName').value=state.baby.name||'';
+ $('btDob').value=state.baby.dob||'';
+ $('btDay').value=btDayKey(Date.now());
+ renderAll();
+ setInterval(function(){renderToday();renderProfile();},60000);
+})();
+</script>
+
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' 앱 설치';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('이 앱을 설치하세요: 공유 버튼을 누르고, 그다음 "홈 화면에 추가"를 고르세요.');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

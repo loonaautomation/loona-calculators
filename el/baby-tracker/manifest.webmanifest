@@ -1,0 +1,29 @@
+{
+  "name": "Loona Παρακολούθηση Σίτισης, Ύπνου & Πάνας Μωρού",
+  "short_name": "Καταγραφή Μωρού",
+  "description": "Δωρεάν καταγραφή μωρού: σημειώστε τα γεύματα (στήθος, μπιμπερό, στερεές τροφές), τους υπνάκους και τον ύπνο, καθώς και τις αλλαγές πάνας, με ένα μόνο πάτημα. Ημερήσιες και εβδομαδιαίες περιλήψεις και μια εκτυπώσιμη περίληψη για τον παιδίατρό σας. Όλα παραμένουν στη συσκευή σας — χωρίς εγγραφή, χωρίς μεταφορτώσεις.",
+  "id": "/loona-calculators/el/baby-tracker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

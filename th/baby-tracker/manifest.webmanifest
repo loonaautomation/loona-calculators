@@ -1,0 +1,29 @@
+{
+  "name": "Loona เครื่องมือติดตามการให้นม การนอน และผ้าอ้อมของทารก",
+  "short_name": "ติดตามทารก",
+  "description": "เครื่องมือติดตามทารกฟรี: บันทึกการให้นม (เต้านม ขวดนม อาหารเสริม) การนอนกลางวันและการนอนหลับ และการเปลี่ยนผ้าอ้อมได้ด้วยการแตะเพียงครั้งเดียว สรุปรายวันและรายสัปดาห์ พร้อมสรุปแบบพิมพ์ได้สำหรับกุมารแพทย์ของคุณ ทุกอย่างอยู่บนอุปกรณ์ของคุณ — ไม่ต้องสมัครสมาชิก ไม่มีการอัปโหลด",
+  "id": "/loona-calculators/th/baby-tracker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

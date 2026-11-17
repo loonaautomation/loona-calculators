@@ -1,0 +1,29 @@
+{
+  "name": "Loona Registro del bebé: alimentación, sueño y pañales",
+  "short_name": "Registro del bebé",
+  "description": "Registro gratuito para bebés: anota las tomas (pecho, biberón, sólidos), las siestas y el sueño, y los cambios de pañal con un solo toque. Resúmenes diarios y semanales y un resumen imprimible para tu pediatra. Todo queda en tu dispositivo: sin registro y sin subidas.",
+  "id": "/loona-calculators/es/baby-tracker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

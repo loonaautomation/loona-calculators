@@ -1,0 +1,29 @@
+{
+  "name": "Loona Babaetetés-, Alvás- és Pelenkacsere-követő",
+  "short_name": "Babakövető",
+  "description": "Ingyenes babakövető: egyetlen koppintással rögzítheti az etetéseket (szopi, cumisüveg, szilárd étel), a szundikálásokat és az alvást, valamint a pelenkacseréket. Napi és heti összesítések, plusz egy nyomtatható összefoglaló a gyermekorvosnak. Minden az eszközén marad — regisztráció nélkül, feltöltés nélkül.",
+  "id": "/loona-calculators/hu/baby-tracker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

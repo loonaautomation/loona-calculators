@@ -1,0 +1,29 @@
+{
+  "name": "Loona מעקב האכלה, שינה וחיתולים לתינוק",
+  "short_name": "מעקב תינוק",
+  "description": "מעקב תינוק חינמי: רשמו האכלות (הנקה, בקבוק, מוצקים), תנומות ושינה, והחלפות חיתול בהקשה אחת. סיכומים יומיים ושבועיים וסיכום להדפסה לרופא הילדים. הכל נשאר במכשיר שלכם — בלי הרשמה, בלי העלאות.",
+  "id": "/loona-calculators/he/baby-tracker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
