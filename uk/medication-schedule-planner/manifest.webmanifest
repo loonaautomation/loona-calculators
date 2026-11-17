@@ -1,0 +1,29 @@
+{
+  "name": "Loona Планувальник розкладу прийому ліків",
+  "short_name": "Планувальник розкладу прийому ліків",
+  "description": "Безкоштовний планувальник розкладу прийому ліків: додайте всі ліки та дози й отримайте єдину добову таблицю прийому, друковану схему таблеток, дати поповнення запасу та файл календаря .ics. Приватно — ваші дані залишаються у браузері, без реєстрації.",
+  "id": "/loona-calculators/uk/medication-schedule-planner/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

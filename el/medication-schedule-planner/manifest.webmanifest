@@ -1,0 +1,29 @@
+{
+  "name": "Loona Προγραμματιστής ωραρίου φαρμάκων",
+  "short_name": "Προγραμματιστής ωραρίου φαρμάκων",
+  "description": "Δωρεάν προγραμματιστής ωραρίου φαρμάκων: προσθέστε όλα τα φάρμακα και τις δόσεις σας για να λάβετε ένα ενιαίο ημερήσιο πρόγραμμα, εκτυπώσιμο πίνακα χαπιών, ημερομηνίες ανανέωσης αποθέματος και αρχείο ημερολογίου .ics. Ιδιωτικό — τα δεδομένα σας παραμένουν στον φυλλομετρητή σας, χωρίς εγγραφή.",
+  "id": "/loona-calculators/el/medication-schedule-planner/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

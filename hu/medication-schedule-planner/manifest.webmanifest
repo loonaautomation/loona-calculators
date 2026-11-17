@@ -1,0 +1,29 @@
+{
+  "name": "Loona Gyógyszer-ütemtervező",
+  "short_name": "Gyógyszer-ütemtervező",
+  "description": "Ingyenes gyógyszer-ütemtervező: adja meg az összes gyógyszerét és adagját, és kapjon egyetlen összesített napi ütemtervet, nyomtatható tablettatáblázatot, utánpótlási dátumokat és egy .ics naptárfájlt. Privát — adatai a böngészőjében maradnak, regisztráció nélkül.",
+  "id": "/loona-calculators/hu/medication-schedule-planner/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

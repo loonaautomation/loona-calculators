@@ -1,0 +1,29 @@
+{
+  "name": "Loona מתכנן לוח זמנים לתרופות",
+  "short_name": "מתכנן לוח זמנים לתרופות",
+  "description": "מתכנן לוח זמנים לתרופות בחינם: הוסיפו את כל התרופות והמינונים שלכם וקבלו לוח זמנים יומי אחד ממוזג, טבלת כדורים להדפסה, תאריכי חידוש וקובץ יומן .ics. פרטי — הנתונים שלכם נשארים בדפדפן, ללא הרשמה.",
+  "id": "/loona-calculators/he/medication-schedule-planner/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

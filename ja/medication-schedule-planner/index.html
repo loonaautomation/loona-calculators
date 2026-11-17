@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>服薬スケジュールプランナー — 服薬時刻表、補充日とリマインダー | Loona 計算機</title>
+<meta name="description" content="無料の服薬スケジュールプランナー：すべての薬と用量を追加すると、1つに統合された毎日の時刻表、印刷できる服薬表、補充日、.ics カレンダーファイルが得られます。プライベート — データはブラウザ内に留まり、登録は不要です。">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/ja/medication-schedule-planner/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/medication-schedule-planner/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/medication-schedule-planner/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/medication-schedule-planner/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/medication-schedule-planner/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/medication-schedule-planner/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/medication-schedule-planner/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/medication-schedule-planner/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/medication-schedule-planner/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/medication-schedule-planner/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/medication-schedule-planner/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/medication-schedule-planner/"><link rel="alternate" hreflang="ja" href="https://loonaautomation.github.io/loona-calculators/ja/medication-schedule-planner/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/medication-schedule-planner/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="服薬スケジュールプランナー — 服薬時刻表、補充日とリマインダー | Loona 計算機">
+<meta property="og:description" content="無料の服薬スケジュールプランナー：すべての薬と用量を追加すると、1つに統合された毎日の時刻表、印刷できる服薬表、補充日、.ics カレンダーファイルが得られます。プライベート — データはブラウザ内に留まり、登録は不要です。">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/ja/medication-schedule-planner/"><meta property="og:locale" content="ja_JP">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="服薬スケジュールプランナー — 服薬時刻表、補充日とリマインダー | Loona 計算機">
+<meta name="twitter:description" content="無料の服薬スケジュールプランナー：すべての薬と用量を追加すると、1つに統合された毎日の時刻表、印刷できる服薬表、補充日、.ics カレンダーファイルが得られます。プライベート — データはブラウザ内に留まり、登録は不要です。">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona 服薬スケジュールプランナー","url":"https://loonaautomation.github.io/loona-calculators/ja/medication-schedule-planner/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "これは医療アドバイスですか？", "acceptedAnswer": {"@type": "Answer", "text": "いいえ。このプランナーは、入力したスケジュールを整理するだけです。用量、組み合わせ、相互作用はチェックしません。処方箋に書かれた通りに正確に従い、不明な点があれば医師または薬剤師に相談してください。"}}, {"@type": "Question", "name": "補充日はどのように決まりますか？", "acceptedAnswer": {"@type": "Answer", "text": "補充日 = 開始日 + 供給日数 − リマインダー日数。11月18日に開始し、30日分の供給があり、3日前のリマインダーを設定した場合、プランナーは12月17日に不足し、12月15日までに補充を注文すべきだと知らせます。"}}, {"@type": "Question", "name": "ここで「8時間ごと」とはどういう意味ですか？", "acceptedAnswer": {"@type": "Answer", "text": "最初の服薬は選択した時刻で、その後は24時間、8時間ごとに服薬します — 例えば06:00、14:00、22:00です。深夜を過ぎる時刻は、同じ毎日の表の早朝の時間に繰り越されます。"}}, {"@type": "Question", "name": "私の薬のリストはどこかにアップロードされますか？", "acceptedAnswer": {"@type": "Answer", "text": "いいえ。すべてはご自身のブラウザ内（ローカルストレージ）にのみ保存されるため、プランナーはこのデバイスであなたの薬を覚えています。サーバーに送信されることはなく、「保存データを消去」でいつでも削除できます。"}}, {"@type": "Question", "name": "スケジュールをスマートフォンのカレンダーに入れられますか？", "acceptedAnswer": {"@type": "Answer", "text": "はい。「カレンダーファイル（.ics）をダウンロード」を押し、ファイルを Google カレンダー、Apple カレンダー、または Outlook にインポートしてください — すべての服薬が繰り返しリマインダーになり、補充日には補充リマインダーが追加されます。"}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+
+.medcard{border:1.5px solid var(--line);border-radius:12px;padding:16px;margin-bottom:14px;background:#fbfdfd}
+.medhead{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px}
+.medhead strong{color:var(--teal);font-size:16px}
+.meddel{background:#fdecea;border:1px solid #f5c6c6;color:#8d2020;border-radius:8px;padding:6px 10px;font-size:13px;font-weight:700;cursor:pointer}
+.medbtn2{background:var(--teal);color:#fff;border:0;border-radius:9px;padding:11px 18px;font-size:15px;font-weight:700;cursor:pointer}
+.medbtn2:hover{background:var(--teal2)}
+.medfood{display:flex;align-items:center;gap:8px;font-weight:600;font-size:14px;color:var(--teal);margin:4px 0 12px}
+.medfood input{width:18px;height:18px}
+.medfoodtag{background:#eef6f3;border:1px solid var(--teal2);color:var(--teal);border-radius:12px;padding:1px 8px;font-size:12px;font-weight:700;white-space:nowrap}
+.medtimes{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:8px}
+.medtimes input{padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fff;width:100%}
+.calcform textarea{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+#medPrint{display:none}
+.medtick{width:100%;border-collapse:collapse;font-size:13px}
+.medtick th,.medtick td{border:1px solid #bbb;padding:6px 8px;text-align:left;vertical-align:top}
+.medtick th{background:#eef6f3}
+@media print{
+  body>*{display:none!important}
+  body>.wrap{display:block!important}
+  .wrap>*{display:none!important}
+  .wrap>.toolbox{display:block!important;border:0;box-shadow:none;padding:0;margin:0}
+  .toolbox>*{display:none!important}
+  .toolbox>#medPrint{display:block!important}
+  #medPrint{font-size:14px;color:#000}
+}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona 計算機",
+      "item": "https://loonaautomation.github.io/loona-calculators/ja/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "服薬スケジュールプランナー",
+      "item": "https://loonaautomation.github.io/loona-calculators/ja/medication-schedule-planner/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Loona Automation のロゴ">
+<div class="brand">Loona <span>計算機</span></div>
+<nav>
+<a href="../">ホーム</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">概要</a>
+<a href="../contact.html">連絡先</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona 計算機</a> › 健康 › 服薬スケジュールプランナー</div>
+<h1 class="pagetitle">💊 服薬スケジュールプランナー</h1>
+<p class="lead">複数の薬を異なる時刻に服用するのは、間違えやすいものです。下に各薬 — 用量、時刻、食事と一緒に服用するかどうか — を追加すると、このプランナーはそれらを1つの明確な毎日の時刻表に統合し、印刷できる服薬表、補充日、スマートフォンのカレンダーリマインダーを提供します。無料、登録不要、完全にプライベート：あなたのリストがブラウザの外に出ることはありません。</p>
+<div class="exbox"><strong>クイックな答え：</strong> 服薬スケジュールプランナーは、すべての薬を1つの毎日の時刻表に統合します：各薬、その用量と時刻 — X時間ごと、または決まった時刻 — を入力すると、統合された表を作成し、補充日を計算し、カレンダーリマインダーをエクスポートします。すべてはブラウザ内に留まります。</div>
+<div class="toolbox">
+<form class="calcform" id="medForm">
+<div id="medList"></div>
+<p style="margin:4px 0 14px"><button type="button" id="medAdd" class="medbtn2">＋ 別の薬を追加</button></p>
+<div class="fld"><label for="medStart">服用開始日</label><input type="date" id="medStart"></div>
+<div class="fld"><label for="medLead">不足する何日前に補充をリマインドするか</label><input type="number" id="medLead" min="0" max="30" step="1" value="3"></div>
+<button class="calcbtn" type="submit">💊 スケジュールを作成</button>
+</form>
+<div class="calcresult" id="medResult" style="display:none"></div>
+<div id="medActions" style="display:none;margin-top:14px;gap:10px;flex-wrap:wrap">
+<button type="button" id="medPrintBtn" class="medbtn2">🖨 服薬表を印刷</button>
+<button type="button" id="medIcsBtn" class="medbtn2">📅 カレンダーファイル（.ics）をダウンロード</button>
+<button type="button" id="medClearBtn" class="medbtn2">🗑 保存データを消去</button>
+</div>
+<p class="resnote"><strong>安全第一：</strong> このプランナーは、入力したスケジュールを整理するだけです — 医療アドバイスではなく、用量や薬の相互作用はチェックしません。処方箋に書かれた通りに正確に従い、不明な点があれば医師または薬剤師に相談してください。</p>
+<p class="resnote">🔒 <strong>プライバシー設計：</strong> あなたの薬はこのブラウザ内（ローカルストレージ）にのみ保存されるため、戻ってきたときにプランナーが覚えています。アップロードや送信は一切行われません。</p>
+<div id="medPrint"></div>
+</div>
+<section class="txt"><h2>服薬スケジュールプランナーの使い方</h2><ol><li>各薬を追加します：名前、用量（例：「500 mg — 1錠」）、そして服用頻度 — 最初の服薬時刻からX時間ごと、または毎日決まった時刻。</li><li>食事と一緒に服用しなければならない薬については「食事と一緒に服用」にチェックを入れ、補充日が必要な場合は手持ちの供給日数を入力します。</li><li>服用開始日と、不足する何日前に補充リマインダーを受け取るかを設定します。</li><li>「スケジュールを作成」を押します — すべての薬が1つの毎日の時刻表に統合され、印刷できる服薬表と、スマートフォンにインポートできるカレンダー（.ics）ファイルが得られます。</li></ol>
+<div class="exbox"><strong>例：</strong> パラセタモールを06:00から8時間ごとに服用すると、06:00、14:00、22:00に服薬します。食事と一緒に服用する1日2回の薬を08:00と20:00に追加すると、プランナーはすべてを1つのリストに統合します — 1日5回の服薬時刻で、漏れも重複もありません。</div>
+<h2>よくある質問</h2></section><div class="faq"><h3>これは医療アドバイスですか？</h3><p>いいえ。このプランナーは、入力したスケジュールを整理するだけです。用量、組み合わせ、相互作用はチェックしません。処方箋に書かれた通りに正確に従い、不明な点があれば医師または薬剤師に相談してください。</p></div><div class="faq"><h3>補充日はどのように決まりますか？</h3><p>補充日 = 開始日 + 供給日数 − リマインダー日数。11月18日に開始し、30日分の供給があり、3日前のリマインダーを設定した場合、プランナーは12月17日に不足し、12月15日までに補充を注文すべきだと知らせます。</p></div><div class="faq"><h3>ここで「8時間ごと」とはどういう意味ですか？</h3><p>最初の服薬は選択した時刻で、その後は24時間、8時間ごとに服薬します — 例えば06:00、14:00、22:00です。深夜を過ぎる時刻は、同じ毎日の表の早朝の時間に繰り越されます。</p></div><div class="faq"><h3>私の薬のリストはどこかにアップロードされますか？</h3><p>いいえ。すべてはご自身のブラウザ内（ローカルストレージ）にのみ保存されるため、プランナーはこのデバイスであなたの薬を覚えています。サーバーに送信されることはなく、「保存データを消去」でいつでも削除できます。</p></div><div class="faq"><h3>スケジュールをスマートフォンのカレンダーに入れられますか？</h3><p>はい。「カレンダーファイル（.ics）をダウンロード」を押し、ファイルを Google カレンダー、Apple カレンダー、または Outlook にインポートしてください — すべての服薬が繰り返しリマインダーになり、補充日には補充リマインダーが追加されます。</p></div>
+<h2 class="sec">関連計算機</h2><div class="grid"><a class="card" href="../bmi-calculator/"><div class="ic">⚖️</div><h3>BMI計算機</h3><p>健康</p></a><a class="card" href="../water-intake-calculator/"><div class="ic">💧</div><h3>水分摂取計算機</h3><p>健康</p></a><a class="card" href="../calorie-calculator/"><div class="ic">🔥</div><h3>カロリー計算機</h3><p>健康</p></a><a class="card" href="../body-fat-calculator/"><div class="ic">📊</div><h3>体脂肪計算機</h3><p>健康</p></a><a class="card" href="../ovulation-calculator/"><div class="ic">🌸</div><h3>排卵計算機</h3><p>健康</p></a></div>
+</div>
+<section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>仕組み — スケジュールの計算</h2>
+<p><strong>X時間ごと</strong>の薬については、プランナーは最初の服薬時刻から始めて、丸24時間をカバーするまでX時間を繰り返し加えます；深夜を過ぎる時刻は早朝の時間に繰り越され、リストは時計順に並べ替えられます。<strong>決まった時刻</strong>の薬については、入力した時刻をそのまま使用し、並べ替えて重複を取り除きます。その後、すべての薬は時刻をキーとして1つの時刻表に統合されます — 2つの薬が同じ時刻になる場合は1行を共有するため、何も隠されず、二重に数えられることもありません。</p>
+<p>補充の計算は次の通りです：<strong>最後のカバー日 = 開始日 + 供給日数 − 1</strong>、<strong>補充日 = 開始日 + 供給日数 − リマインダー日数</strong>。カレンダー（.ics）エクスポートは、各パターンを標準の繰り返しイベントに変換します — X時間ごとの薬は毎時繰り返し、決まった時刻の薬は毎日繰り返し — 最後のカバー日で終了し、補充日の09:00に補充リマインダーイベントが1つ追加されます。</p>
+<h3>計算例</h3><div class="exbox"><p><strong>入力：</strong> 薬Aは8時間ごと、初回06:00。薬Bは決まった時刻08:00と20:00、食事と一緒に。開始日2026年11月18日、両方とも30日分の供給、補充リマインダー3日。</p><p><strong>手順：</strong> Aは06:00、14:00、22:00。Bは08:00と20:00。統合：06:00 A · 08:00 B（食事と一緒に）· 14:00 A · 20:00 B（食事と一緒に）· 22:00 A — 1日5回。最後のカバー日 = 11月18日 + 29日 = 2026年12月17日。補充日 = 11月18日 +（30 − 3）日 = 2026年12月15日。</p><p><strong>結果：</strong> <strong>5回の服薬時刻</strong>の毎日の時刻表、7日間のチェック表、<strong>2026年12月15日</strong>までの補充、同じイベントの.icsファイル。</p></div>
+</section>
+<div style="max-width:780px;margin:18px auto 0;padding:0 16px"><p class="resnote"><strong>健康に関する免責事項：</strong> このプランナーは整理を助けるツールにすぎず、医療アドバイス、診断、治療ではありません。用量、タイミング、組み合わせが安全で正しいかどうかは検証しません。処方箋に常に従い、ご自身の薬については資格のある医療専門家に相談してください。</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">この計算機をあなたのウェブサイトに埋め込む — 無料</h2>
+<p style="margin:0 0 12px;line-height:1.6">この計算機を自分のウェブサイトやブログに加えましょう — 完全に無料で、登録は不要、常に最新バージョンが表示されます。下のコードをコピーして、計算機を表示したいページの場所に貼り付けます。埋め込みの下にある小さな &ldquo;Powered by Loona Automation&rdquo; のクレジット行を保持することは、このツールを無料に保つ助けになります &mdash; しかし、スタイルを変更したり削除したりしても自由です。ツールはどちらでも動作します。</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/ja/medication-schedule-planner/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="服薬スケジュールプランナー by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;提供 &lt;a href="https://loonaautomation.github.io/loona-calculators/ja/medication-schedule-planner/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; 無料の 服薬スケジュールプランナー&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">埋め込みコードをコピーする</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='埋め込みコードをコピー';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>人気の計算機</h4><ul><li><a href="../age-calculator/">年齢計算機</a></li>
+<li><a href="../zakat-calculator/">ザカート計算機</a></li>
+<li><a href="../cgpa-calculator/">CGPA計算機</a></li>
+<li><a href="../percentage-calculator/">パーセント計算機</a></li>
+<li><a href="../hijri-date-converter/">ヒジュラ暦日付変換</a></li>
+<li><a href="../emi-calculator/">EMI・ローン計算機</a></li></ul></div>
+<div><h4>その他の Loona ツール</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR コード</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Loona 画像圧縮</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Loona AI アシスタント</a></li>
+<li><a href="https://loonaautomation.github.io/">すべての Loona ツール</a></li></ul></div>
+<div><h4>Loona 計算機</h4><ul>
+<li><a href="../about.html">概要</a></li>
+<li><a href="../contact.html">連絡先</a></li>
+<li><a href="../privacy-policy.html">プライバシーポリシー</a></li>
+<li><a href="../terms.html">利用規約</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona 計算機 —  <a href="https://loonaautomation.github.io/">Loona Automation</a> プロジェクト。無料のオンライン計算機、サインアップなし。
+連絡先： <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+/* Loona Medication Schedule Planner — all data stays in localStorage. */
+var MED_STR={
+ medWord:"薬",removeTxt:"✕ 削除",nameLbl:"薬の名前",namePh:"例：パラセタモール",
+ doseLbl:"用量",dosePh:"例：500 mg — 1錠",freqLbl:"どのくらいの頻度で？",
+ optInterval:"X時間ごと",optTimes:"毎日決まった時刻",
+ hoursLbl:"間隔（時間）",firstLbl:"最初の服薬時刻",
+ timesLbl:"服薬時刻（必要なものを入力してください）",foodLbl:"食事と一緒に服用",
+ supplyLbl:"手持ちの供給日数（補充日の計算用）",supplyPh:"例：30",
+ errName:"すべての薬に名前を入力してください。",errHours:"有効な間隔がありません — 「間隔（時間）」を1から24の間に設定し、最初の服薬時刻を入力してください。",
+ errTimes:"服薬時刻がありません — 時刻を少なくとも1つ追加してください。",
+ ttTitle:"あなたの毎日の時刻表",dosesDay:"回/日",colTime:"時刻",colMed:"薬",colDose:"用量",
+ withFood:"食事と一緒に",summaryTitle:"薬ごとの内訳",colPerDay:"回数/日",colTimes:"時刻",
+ colRunsOut:"不足する日",colRefill:"補充の注文期限",noSupply:"—",
+ chartTitle:"私の服薬表",fromTxt:"開始：",tickTitle:"7日間のチェック表 — 服薬するたびにチェックしてください",
+ refillTitle:"補充リマインダー",safetyLine:"プランナーのみ — 医療アドバイスではありません。処方箋に正確に従い、不明な点があれば医師または薬剤師に相談してください。",
+ icsFood:"食事と一緒に服用してください。",icsRefill:"補充リマインダー：",
+ months:["1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"],
+ days:["日曜日", "月曜日", "火曜日", "水曜日", "木曜日", "金曜日", "土曜日"]
+};
+/*TESTABLE_START*/
+function medParseTime(s){var p=String(s||"").split(":");if(p.length<2)return null;var h=+p[0],m=+p[1];if(isNaN(h)||isNaN(m)||h<0||h>23||m<0||m>59)return null;return h*60+m;}
+function medFmtTime(mins){mins=((mins%1440)+1440)%1440;var h=Math.floor(mins/60),m=mins%60;return (h<10?"0":"")+h+":"+(m<10?"0":"")+m;}
+function medDoseTimes(med){
+  var out=[],seen={},i,v;
+  if(med.type==="interval"){
+    var step=Math.round(+med.hours)*60,t0=medParseTime(med.first);
+    if(!step||step<60||step>1440||t0===null)return [];
+    for(var t=t0;t<t0+1440;t+=step){v=t%1440;if(!seen[v]){seen[v]=1;out.push(v);}}
+  }else{
+    var list=med.times||[];
+    for(i=0;i<list.length;i++){v=medParseTime(list[i]);if(v!==null&&!seen[v]){seen[v]=1;out.push(v);}}
+  }
+  out.sort(function(a,b){return a-b;});
+  return out.map(medFmtTime);
+}
+function medAddDays(isoStr,n){var p=String(isoStr).split("-");var d=new Date(+p[0],+p[1]-1,+p[2]);d.setDate(d.getDate()+n);return d;}
+function medISODate(d){return d.getFullYear()+"-"+(d.getMonth()+1<10?"0":"")+(d.getMonth()+1)+"-"+(d.getDate()<10?"0":"")+d.getDate();}
+function medRefill(startISO,supply,lead){
+  supply=Math.floor(+supply);if(!supply||supply<1)return null;
+  lead=Math.floor(+lead);if(isNaN(lead)||lead<0)lead=0;
+  return {runsOut:medISODate(medAddDays(startISO,supply-1)),refill:medISODate(medAddDays(startISO,Math.max(0,supply-lead)))};
+}
+function medBuildEvents(meds){
+  var map={},order=[];
+  meds.forEach(function(med){
+    medDoseTimes(med).forEach(function(t){
+      if(!map[t]){map[t]=[];order.push(t);}
+      map[t].push({name:med.name,dose:med.dose||"",food:!!med.food});
+    });
+  });
+  order.sort();
+  return order.map(function(t){return {time:t,items:map[t]};});
+}
+function medEscICS(s){return String(s).replace(/\\/g,"\\\\").replace(/;/g,"\\;").replace(/,/g,"\\,").replace(/\r?\n/g,"\\n");}
+function medFoldLine(line){var out=[];while(line.length>75){out.push(line.slice(0,75));line=" "+line.slice(75);}out.push(line);return out.join("\r\n");}
+function medICSDateTime(isoStr,timeStr){return String(isoStr).replace(/-/g,"")+"T"+String(timeStr).replace(":","")+"00";}
+function medBuildICS(meds,opt,str){
+  var lines=["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//Loona Automation//Medication Schedule Planner//EN","CALSCALE:GREGORIAN"];
+  var uidN=0;
+  function ev(dtstart,rrule,summary,desc){
+    lines.push("BEGIN:VEVENT");
+    lines.push("UID:med-"+opt.stamp+"-"+(++uidN)+"@loonaautomation.github.io");
+    lines.push("DTSTAMP:"+opt.stamp);
+    lines.push("DTSTART:"+dtstart);
+    if(rrule)lines.push("RRULE:"+rrule);
+    lines.push("SUMMARY:"+medEscICS(summary));
+    if(desc)lines.push("DESCRIPTION:"+medEscICS(desc));
+    lines.push("END:VEVENT");
+  }
+  meds.forEach(function(med){
+    var supply=Math.floor(+med.supply);
+    var endISO=(supply&&supply>0)?medISODate(medAddDays(opt.start,supply-1)):medISODate(medAddDays(opt.start,59));
+    var until=endISO.replace(/-/g,"")+"T235959";
+    var desc=med.food?str.icsFood:"";
+    var sum=med.name+(med.dose?" — "+med.dose:"");
+    if(med.type==="interval"){
+      if(medParseTime(med.first)===null)return;
+      ev(medICSDateTime(opt.start,med.first),"FREQ=HOURLY;INTERVAL="+Math.round(+med.hours)+";UNTIL="+until,sum,desc);
+    }else{
+      medDoseTimes(med).forEach(function(t){ev(medICSDateTime(opt.start,t),"FREQ=DAILY;UNTIL="+until,sum,desc);});
+    }
+    var rf=medRefill(opt.start,med.supply,opt.lead);
+    if(rf)ev(rf.refill.replace(/-/g,"")+"T090000",null,str.icsRefill+" "+med.name,"");
+  });
+  lines.push("END:VCALENDAR");
+  return lines.map(medFoldLine).join("\r\n")+"\r\n";
+}
+/*TESTABLE_END*/
+var MED_KEY="loona-med-planner-v1";
+var medState={meds:[],start:"",lead:3};
+function medEsc(s){return String(s==null?"":s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");}
+function medTodayISO(){var d=new Date();return medISODate(d);}
+function medLongDate(isoStr){var d=medAddDays(isoStr,0);return MED_STR.days[d.getDay()]+" "+d.getDate()+" "+MED_STR.months[d.getMonth()]+" "+d.getFullYear();}
+function medBlank(){return {name:"",dose:"",type:"interval",hours:8,first:"06:00",times:["","","",""],food:false,supply:""};}
+function medRenderList(){
+  var box=document.getElementById("medList");box.innerHTML="";
+  medState.meds.forEach(function(med,i){
+    var card=document.createElement("div");card.className="medcard";
+    var timesHtml="";for(var k=0;k<4;k++){timesHtml+='<input type="time" class="m-t" value="'+medEsc(med.times&&med.times[k]?med.times[k]:"")+'">';}
+    card.innerHTML=
+     '<div class="medhead"><strong>'+MED_STR.medWord+' '+(i+1)+'</strong><button type="button" class="meddel">'+MED_STR.removeTxt+'</button></div>'
+    +'<div class="fld"><label>'+MED_STR.nameLbl+'</label><input type="text" class="m-name" placeholder="'+MED_STR.namePh+'" value="'+medEsc(med.name)+'"></div>'
+    +'<div class="fld"><label>'+MED_STR.doseLbl+'</label><input type="text" class="m-dose" placeholder="'+MED_STR.dosePh+'" value="'+medEsc(med.dose)+'"></div>'
+    +'<div class="fld"><label>'+MED_STR.freqLbl+'</label><select class="m-type"><option value="interval"'+(med.type==="interval"?" selected":"")+'>'+MED_STR.optInterval+'</option><option value="times"'+(med.type==="times"?" selected":"")+'>'+MED_STR.optTimes+'</option></select></div>'
+    +'<div class="m-int"'+(med.type==="interval"?"":' style="display:none"')+'><div class="fld"><label>'+MED_STR.hoursLbl+'</label><input type="number" class="m-hours" min="1" max="24" step="1" value="'+medEsc(med.hours)+'"></div>'
+    +'<div class="fld"><label>'+MED_STR.firstLbl+'</label><input type="time" class="m-first" value="'+medEsc(med.first)+'"></div></div>'
+    +'<div class="m-times"'+(med.type==="times"?"":' style="display:none"')+'><div class="fld"><label>'+MED_STR.timesLbl+'</label><div class="medtimes">'+timesHtml+'</div></div></div>'
+    +'<label class="medfood"><input type="checkbox" class="m-food"'+(med.food?" checked":"")+'> '+MED_STR.foodLbl+'</label>'
+    +'<div class="fld"><label>'+MED_STR.supplyLbl+'</label><input type="number" class="m-supply" min="0" max="365" step="1" placeholder="'+MED_STR.supplyPh+'" value="'+medEsc(med.supply)+'"></div>';
+    card.querySelector(".meddel").addEventListener("click",function(){medCollect();medState.meds.splice(i,1);if(!medState.meds.length)medState.meds.push(medBlank());medSave();medRenderList();});
+    card.querySelector(".m-type").addEventListener("change",function(){medCollect();medRenderList();});
+    card.addEventListener("input",function(){medCollect();medSave();});
+    card.addEventListener("change",function(){medCollect();medSave();});
+    box.appendChild(card);
+  });
+}
+function medCollect(){
+  var cards=document.querySelectorAll("#medList .medcard"),out=[];
+  cards.forEach(function(card){
+    var times=[];card.querySelectorAll(".m-t").forEach(function(inp){times.push(inp.value);});
+    out.push({
+      name:card.querySelector(".m-name").value.trim(),
+      dose:card.querySelector(".m-dose").value.trim(),
+      type:card.querySelector(".m-type").value,
+      hours:card.querySelector(".m-hours").value,
+      first:card.querySelector(".m-first").value,
+      times:times,
+      food:card.querySelector(".m-food").checked,
+      supply:card.querySelector(".m-supply").value
+    });
+  });
+  if(out.length)medState.meds=out;
+  medState.start=document.getElementById("medStart").value||medTodayISO();
+  medState.lead=document.getElementById("medLead").value;
+}
+function medSave(){try{localStorage.setItem(MED_KEY,JSON.stringify(medState));}catch(e){}}
+function medLoad(){
+  try{var raw=localStorage.getItem(MED_KEY);if(raw){var s=JSON.parse(raw);if(s&&s.meds&&s.meds.length){medState=s;return true;}}}catch(e){}
+  return false;
+}
+function medValidate(){
+  for(var i=0;i<medState.meds.length;i++){
+    var med=medState.meds[i];
+    if(!med.name)return MED_STR.errName;
+    if(med.type==="interval"){var h=Math.round(+med.hours);if(!h||h<1||h>24||medParseTime(med.first)===null)return (MED_STR.medWord+" "+(i+1)+" "+MED_STR.errHours);}
+    else if(!medDoseTimes(med).length)return (MED_STR.medWord+" "+(i+1)+" "+MED_STR.errTimes);
+  }
+  return "";
+}
+function medTimetableHTML(events){
+  var rows="";
+  events.forEach(function(ev){
+    var items=ev.items.map(function(it){return "<strong>"+medEsc(it.name)+"</strong>"+(it.dose?" — "+medEsc(it.dose):"")+(it.food?' <span class="medfoodtag">🍽 '+MED_STR.withFood+"</span>":"");}).join("<br>");
+    rows+="<tr><td><strong>"+ev.time+"</strong></td><td>"+items+"</td></tr>";
+  });
+  return '<table class="restbl"><tr><td><strong>'+MED_STR.colTime+"</strong></td><td><strong>"+MED_STR.colMed+" — "+MED_STR.colDose+"</strong></td></tr>"+rows+"</table>";
+}
+function medSummaryHTML(){
+  var rows="";
+  medState.meds.forEach(function(med){
+    var times=medDoseTimes(med);
+    var rf=medRefill(medState.start,med.supply,medState.lead);
+    rows+="<tr><td><strong>"+medEsc(med.name)+"</strong></td><td>"+times.length+"</td><td>"+times.join(", ")+"</td><td>"+(rf?medLongDate(rf.runsOut):MED_STR.noSupply)+"</td><td>"+(rf?medLongDate(rf.refill):MED_STR.noSupply)+"</td></tr>";
+  });
+  return "<h3 style='color:var(--teal);margin:14px 0 6px'>"+MED_STR.summaryTitle+'</h3><table class="restbl"><tr><td><strong>'+MED_STR.colMed+"</strong></td><td><strong>"+MED_STR.colPerDay+"</strong></td><td><strong>"+MED_STR.colTimes+"</strong></td><td><strong>"+MED_STR.colRunsOut+"</strong></td><td><strong>"+MED_STR.colRefill+"</strong></td></tr>"+rows+"</table>";
+}
+function medBuild(){
+  medCollect();
+  var box=document.getElementById("medResult"),act=document.getElementById("medActions");
+  var err=medValidate();
+  box.style.display="block";
+  if(err){box.innerHTML='<p class="err">'+medEsc(err)+"</p>";act.style.display="none";document.getElementById("medPrint").innerHTML="";return false;}
+  medSave();
+  var events=medBuildEvents(medState.meds);
+  var total=0;medState.meds.forEach(function(m){total+=medDoseTimes(m).length;});
+  box.innerHTML='<div class="resbig"><span>'+MED_STR.ttTitle+'</span><strong>'+total+" "+MED_STR.dosesDay+"</strong></div>"+medTimetableHTML(events)+medSummaryHTML();
+  act.style.display="flex";
+  medBuildPrint(events);
+  return true;
+}
+function medBuildPrint(events){
+  var start=medState.start;
+  var head='<h2 style="color:#062e2a;margin:0 0 4px">💊 '+MED_STR.chartTitle+'</h2><p style="margin:0 0 12px">'+MED_STR.fromTxt+" "+medLongDate(start)+"</p>";
+  var tick="<h3 style='color:#062e2a;margin:16px 0 6px'>"+MED_STR.tickTitle+"</h3>";
+  var dates=[];for(var d=0;d<7;d++)dates.push(medAddDays(start,d));
+  tick+='<table class="medtick"><tr><th>'+MED_STR.colTime+"</th>"+dates.map(function(dt){return "<th>"+MED_STR.days[dt.getDay()].slice(0,3)+" "+dt.getDate()+" "+MED_STR.months[dt.getMonth()]+"</th>";}).join("")+"</tr>";
+  events.forEach(function(ev){
+    tick+="<tr><td><strong>"+ev.time+"</strong></td>";
+    for(var d=0;d<7;d++){tick+="<td>"+ev.items.map(function(it){return medEsc(it.name)+" ☐";}).join("<br>")+"</td>";}
+    tick+="</tr>";
+  });
+  tick+="</table>";
+  var refills="";
+  medState.meds.forEach(function(med){var rf=medRefill(medState.start,med.supply,medState.lead);if(rf)refills+="<li><strong>"+medEsc(med.name)+"</strong>: "+MED_STR.colRunsOut+" "+medLongDate(rf.runsOut)+" — "+MED_STR.colRefill+" "+medLongDate(rf.refill)+"</li>";});
+  var refillBlock=refills?("<h3 style='color:#062e2a;margin:16px 0 6px'>"+MED_STR.refillTitle+"</h3><ul style='margin-left:20px'>"+refills+"</ul>"):"";
+  document.getElementById("medPrint").innerHTML=head+medTimetableHTML(events)+tick+refillBlock+'<p style="margin-top:14px;font-size:13px">'+MED_STR.safetyLine+"</p>";
+}
+document.getElementById("medAdd").addEventListener("click",function(){medCollect();medState.meds.push(medBlank());medSave();medRenderList();});
+document.getElementById("medForm").addEventListener("submit",function(e){e.preventDefault();medBuild();});
+document.getElementById("medStart").addEventListener("change",function(){medCollect();medSave();});
+document.getElementById("medLead").addEventListener("change",function(){medCollect();medSave();});
+document.getElementById("medPrintBtn").addEventListener("click",function(){window.print();});
+document.getElementById("medClearBtn").addEventListener("click",function(){try{localStorage.removeItem(MED_KEY);}catch(e){}medState={meds:[medBlank()],start:medTodayISO(),lead:3};document.getElementById("medStart").value=medState.start;document.getElementById("medLead").value="3";medRenderList();document.getElementById("medResult").style.display="none";document.getElementById("medActions").style.display="none";document.getElementById("medPrint").innerHTML="";});
+document.getElementById("medIcsBtn").addEventListener("click",function(){
+  if(!medBuild())return;
+  var now=new Date();
+  var stamp=now.getUTCFullYear()+""+(now.getUTCMonth()+1<10?"0":"")+(now.getUTCMonth()+1)+(now.getUTCDate()<10?"0":"")+now.getUTCDate()+"T"+(now.getUTCHours()<10?"0":"")+now.getUTCHours()+(now.getUTCMinutes()<10?"0":"")+now.getUTCMinutes()+(now.getUTCSeconds()<10?"0":"")+now.getUTCSeconds()+"Z";
+  var ics=medBuildICS(medState.meds,{start:medState.start,lead:medState.lead,stamp:stamp},MED_STR);
+  var blob=new Blob([ics],{type:"text/calendar"});
+  var a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download="loona-medication-schedule.ics";document.body.appendChild(a);a.click();setTimeout(function(){URL.revokeObjectURL(a.href);a.remove();},400);
+});
+(function(){
+  var had=medLoad();
+  if(!had){medState.meds=[medBlank()];medState.start=medTodayISO();medState.lead=3;}
+  document.getElementById("medStart").value=medState.start||medTodayISO();
+  document.getElementById("medLead").value=(medState.lead===undefined||medState.lead==="")?3:medState.lead;
+  medRenderList();
+  if(had)medBuild();
+})();
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' アプリをインストール';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('このアプリをインストールするには：共有ボタンをタップし、「ホーム画面に追加」を選んでください。');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

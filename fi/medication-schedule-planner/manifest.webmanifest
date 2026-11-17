@@ -1,0 +1,29 @@
+{
+  "name": "Loona Lääkeaikataulun suunnittelija",
+  "short_name": "Lääkeaikataulun suunnittelija",
+  "description": "Ilmainen lääkeaikataulun suunnittelija: lisää kaikki lääkkeesi ja annoksesi ja saat yhden yhdistetyn päiväaikataulun, tulostettavan lääketaulukon, täydennyspäivät ja .ics-kalenteritiedoston. Yksityinen — tietosi pysyvät selaimessasi, ei rekisteröitymistä.",
+  "id": "/loona-calculators/fi/medication-schedule-planner/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

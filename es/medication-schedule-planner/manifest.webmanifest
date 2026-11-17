@@ -1,0 +1,29 @@
+{
+  "name": "Loona Planificador de Horarios de Medicamentos",
+  "short_name": "Planificador de Horarios de Medicamentos",
+  "description": "Planificador de horarios de medicamentos gratuito: añade todos tus medicamentos y dosis para obtener un horario diario combinado, una tabla de pastillas imprimible, fechas de reposición y un archivo de calendario .ics. Privado: tus datos permanecen en tu navegador, sin registro.",
+  "id": "/loona-calculators/es/medication-schedule-planner/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

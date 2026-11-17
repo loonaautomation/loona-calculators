@@ -1,0 +1,29 @@
+{
+  "name": "Loona Medicatieschema-planner",
+  "short_name": "Medicatieschema-planner",
+  "description": "Gratis medicatieschema-planner: voeg al je medicijnen en doses toe en krijg één samengevoegd dagelijks schema, een afdrukbaar pillenschema, bijvuldata en een .ics-kalenderbestand. Privé — je gegevens blijven in je browser, geen registratie.",
+  "id": "/loona-calculators/nl/medication-schedule-planner/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

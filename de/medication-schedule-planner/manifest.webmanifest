@@ -1,0 +1,29 @@
+{
+  "name": "Loona Medikamenten-Zeitplaner",
+  "short_name": "Medikamenten-Zeitplaner",
+  "description": "Kostenloser Medikamenten-Zeitplaner: Tragen Sie alle Ihre Medikamente und Dosen ein und erhalten Sie einen zusammengeführten täglichen Einnahmeplan, eine ausdruckbare Tablettenübersicht, Nachfülldaten und eine .ics-Kalenderdatei. Privat — Ihre Daten bleiben in Ihrem Browser, keine Anmeldung.",
+  "id": "/loona-calculators/de/medication-schedule-planner/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

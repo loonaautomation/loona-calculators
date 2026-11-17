@@ -1,0 +1,29 @@
+{
+  "name": "Loona Perencana Jadwal Obat",
+  "short_name": "Perencana Jadwal Obat",
+  "description": "Perencana jadwal obat gratis: tambahkan semua obat dan dosis Anda untuk mendapatkan satu jadwal harian gabungan, bagan pil yang dapat dicetak, tanggal isi ulang, dan file kalender .ics. Pribadi — data Anda tetap di browser Anda, tanpa pendaftaran.",
+  "id": "/loona-calculators/id/medication-schedule-planner/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona दवा समय-सारणी योजनाकार",
+  "short_name": "दवा समय-सारणी योजनाकार",
+  "description": "मुफ़्त दवा समय-सारणी योजनाकार: अपनी सभी दवाएँ और खुराकें जोड़ें और एक ही मिली हुई दैनिक समय-सारणी, छपने योग्य गोली चार्ट, रीफ़िल तिथियाँ और .ics कैलेंडर फ़ाइल पाएँ। निजी — आपका डेटा आपके ब्राउज़र में रहता है, कोई साइन-अप नहीं।",
+  "id": "/loona-calculators/hi/medication-schedule-planner/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

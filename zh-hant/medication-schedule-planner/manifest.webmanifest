@@ -1,0 +1,29 @@
+{
+  "name": "Loona 用藥時間表規劃器",
+  "short_name": "用藥時間表規劃器",
+  "description": "免費用藥時間表規劃器：新增您的所有藥物和劑量，獲得一份合併的每日時間表、一張可列印的藥片表、續藥日期和一個 .ics 日曆文件。隱私——您的資料保留在瀏覽器中，無需註冊。",
+  "id": "/loona-calculators/zh-hant/medication-schedule-planner/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

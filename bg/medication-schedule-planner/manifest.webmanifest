@@ -1,0 +1,29 @@
+{
+  "name": "Loona Планировчик на графика за лекарства",
+  "short_name": "Планировчик на графика за лекарства",
+  "description": "Безплатен планировчик на графика за лекарства: добавете всичките си лекарства и дози, за да получите една обединена дневна таблица, печатна схема за хапчета, дати за зареждане и файл за календар .ics. Поверително — данните ви остават в браузъра ви, без регистрация.",
+  "id": "/loona-calculators/bg/medication-schedule-planner/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

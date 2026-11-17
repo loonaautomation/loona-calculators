@@ -1,0 +1,29 @@
+{
+  "name": "Loona ওষুধের সময়সূচি পরিকল্পনাকারী",
+  "short_name": "ওষুধের সময়সূচি পরিকল্পনাকারী",
+  "description": "বিনামূল্যে ওষুধের সময়সূচি পরিকল্পনাকারী: আপনার সব ওষুধ ও ডোজ যোগ করুন এবং একটি মিলিত দৈনিক সময়সূচি, ছাপানোর যোগ্য বড়ির চার্ট, রিফিলের তারিখ এবং .ics ক্যালেন্ডার ফাইল পান। গোপনীয় — আপনার ডেটা আপনার ব্রাউজারেই থাকে, সাইন-আপ ছাড়াই।",
+  "id": "/loona-calculators/bn/medication-schedule-planner/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

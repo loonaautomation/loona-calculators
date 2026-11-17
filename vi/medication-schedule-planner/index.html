@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Công cụ lập lịch uống thuốc — Lịch uống thuốc, Ngày mua bổ sung & Nhắc nhở | Loona Calculators</title>
+<meta name="description" content="Công cụ lập lịch uống thuốc miễn phí: thêm tất cả các loại thuốc và liều lượng của bạn để nhận một lịch trình hằng ngày hợp nhất, biểu đồ thuốc có thể in, ngày mua bổ sung và tệp lịch .ics. Riêng tư — dữ liệu của bạn ở lại trong trình duyệt, không cần đăng ký.">
+<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/vi/medication-schedule-planner/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/medication-schedule-planner/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/medication-schedule-planner/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/medication-schedule-planner/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/medication-schedule-planner/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/medication-schedule-planner/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/medication-schedule-planner/"><link rel="alternate" hreflang="nl" href="https://loonaautomation.github.io/loona-calculators/nl/medication-schedule-planner/"><link rel="alternate" hreflang="ar" href="https://loonaautomation.github.io/loona-calculators/ar/medication-schedule-planner/"><link rel="alternate" hreflang="ur" href="https://loonaautomation.github.io/loona-calculators/ur/medication-schedule-planner/"><link rel="alternate" hreflang="tr" href="https://loonaautomation.github.io/loona-calculators/tr/medication-schedule-planner/"><link rel="alternate" hreflang="ru" href="https://loonaautomation.github.io/loona-calculators/ru/medication-schedule-planner/"><link rel="alternate" hreflang="bn" href="https://loonaautomation.github.io/loona-calculators/bn/medication-schedule-planner/"><link rel="alternate" hreflang="vi" href="https://loonaautomation.github.io/loona-calculators/vi/medication-schedule-planner/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/medication-schedule-planner/">
+<meta name="theme-color" content="#062e2a">
+<link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
+<link rel="apple-touch-icon" href="../../apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Công cụ lập lịch uống thuốc — Lịch uống thuốc, Ngày mua bổ sung & Nhắc nhở | Loona Calculators">
+<meta property="og:description" content="Công cụ lập lịch uống thuốc miễn phí: thêm tất cả các loại thuốc và liều lượng của bạn để nhận một lịch trình hằng ngày hợp nhất, biểu đồ thuốc có thể in, ngày mua bổ sung và tệp lịch .ics. Riêng tư — dữ liệu của bạn ở lại trong trình duyệt, không cần đăng ký.">
+<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/vi/medication-schedule-planner/"><meta property="og:locale" content="vi_VN">
+<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Công cụ lập lịch uống thuốc — Lịch uống thuốc, Ngày mua bổ sung & Nhắc nhở | Loona Calculators">
+<meta name="twitter:description" content="Công cụ lập lịch uống thuốc miễn phí: thêm tất cả các loại thuốc và liều lượng của bạn để nhận một lịch trình hằng ngày hợp nhất, biểu đồ thuốc có thể in, ngày mua bổ sung và tệp lịch .ics. Riêng tư — dữ liệu của bạn ở lại trong trình duyệt, không cần đăng ký.">
+<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Loona Công cụ lập lịch uống thuốc","url":"https://loonaautomation.github.io/loona-calculators/vi/medication-schedule-planner/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Đây có phải là lời khuyên y tế không?", "acceptedAnswer": {"@type": "Answer", "text": "Không. Công cụ chỉ sắp xếp lịch trình bạn nhập vào. Nó không kiểm tra liều lượng, sự kết hợp hay tương tác. Luôn tuân theo đơn thuốc của bạn đúng như đã ghi, và hỏi bác sĩ hoặc dược sĩ nếu có điều gì chưa rõ."}},{"@type": "Question", "name": "Ngày mua bổ sung hoạt động như thế nào?", "acceptedAnswer": {"@type": "Answer", "text": "Ngày mua bổ sung = ngày bắt đầu + số ngày thuốc − số ngày nhắc nhở. Nếu bạn bắt đầu vào ngày 18 tháng 11 với lượng thuốc đủ 30 ngày và nhắc trước 3 ngày, công cụ sẽ cho biết thuốc của bạn hết vào ngày 17 tháng 12 và bạn nên đặt mua bổ sung chậm nhất vào ngày 15 tháng 12."}},{"@type": "Question", "name": "“Mỗi 8 giờ” ở đây nghĩa là gì?", "acceptedAnswer": {"@type": "Answer", "text": "Liều đầu tiên của bạn vào thời gian bạn chọn, sau đó một liều mỗi 8 giờ suốt ngày đêm — ví dụ 06:00, 14:00 và 22:00. Các giờ vượt qua nửa đêm sẽ chuyển sang những giờ đầu của cùng một biểu đồ hằng ngày."}},{"@type": "Question", "name": "Danh sách thuốc của tôi có được tải lên đâu không?", "acceptedAnswer": {"@type": "Answer", "text": "Không. Mọi thứ chỉ được lưu trong trình duyệt của chính bạn (bộ nhớ cục bộ) để công cụ ghi nhớ thuốc của bạn trên thiết bị này. Không có gì được gửi đến máy chủ, và bạn có thể xóa nó bất cứ lúc nào bằng “Xóa dữ liệu đã lưu”."}},{"@type": "Question", "name": "Tôi có thể đưa lịch vào lịch điện thoại của mình không?", "acceptedAnswer": {"@type": "Answer", "text": "Có. Nhấn “Tải tệp lịch (.ics)” và nhập tệp vào Google Calendar, Apple Calendar hoặc Outlook — mỗi liều trở thành một nhắc nhở lặp lại, cộng thêm một nhắc nhở mua bổ sung vào ngày mua bổ sung."}}]}</script>
+<style>
+:root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+a{color:var(--teal2)}
+header{background:var(--teal);color:#fff;padding:10px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:50;box-shadow:0 2px 10px rgba(0,0,0,.25)}
+header .logo{height:44px;width:44px;border-radius:10px}
+header .brand{font-size:20px;font-weight:800;letter-spacing:.3px}
+header .brand span{color:var(--gold)}
+header nav{margin-left:auto;display:flex;gap:14px;flex-wrap:wrap}
+header nav a{color:#eaf3f1;text-decoration:none;font-size:14px;font-weight:600}
+header nav a:hover{color:var(--gold)}
+.hero{background:linear-gradient(135deg,var(--teal),var(--teal2));color:#fff;text-align:center;padding:44px 16px 36px}
+.hero h1{font-size:32px;line-height:1.25;margin-bottom:10px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:720px;margin:0 auto 14px;color:#d7e8e4;font-size:16px}
+.hero .badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.hero .badges b{background:rgba(212,175,55,.15);border:1px solid var(--gold);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:13px}
+.wrap{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+.search{width:100%;padding:13px 16px;border:2px solid var(--line);border-radius:12px;font-size:16px;margin:6px 0 18px;background:#fff}
+h2.sec{font-size:22px;margin:26px 0 12px;color:var(--teal);border-left:5px solid var(--gold);padding-left:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 14px;text-decoration:none;color:var(--ink);display:block;transition:.15s;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);border-color:var(--gold);box-shadow:0 8px 20px rgba(6,46,42,.12)}
+.card .ic{font-size:30px}
+.card h3{font-size:16.5px;margin:6px 0 4px;color:var(--teal)}
+.card p{font-size:13px;color:var(--mut)}
+.toolbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 2px 8px rgba(0,0,0,.05);margin:14px 0 22px}
+.calcform .fld{margin-bottom:13px}
+.calcform label{display:block;font-weight:600;font-size:14px;margin-bottom:5px;color:var(--teal)}
+.calcform input,.calcform select{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+.calcform input:focus,.calcform select:focus{outline:none;border-color:var(--gold)}
+.calcbtn{background:var(--gold);color:#231a00;border:none;padding:13px 26px;border-radius:11px;font-size:17px;font-weight:800;cursor:pointer;width:100%;margin-top:4px}
+.calcbtn:hover{background:var(--gold2);color:#fff}
+.subgrid .subhead,.subgrid .subrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.subgrid .subhead{font-size:12.5px;color:var(--mut);font-weight:700}
+.calcresult{margin-top:18px;background:#f2f8f6;border:1.5px solid var(--teal2);border-radius:12px;padding:16px}
+.resbig{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;background:var(--teal);color:#fff;border-radius:10px;padding:13px 16px;margin-bottom:12px}
+.resbig span{font-size:14px;opacity:.9}
+.resbig strong{font-size:21px;color:var(--gold)}
+.restbl{width:100%;border-collapse:collapse;margin-bottom:10px}
+.restbl td{padding:8px 10px;border-bottom:1px solid var(--line);font-size:14.5px}
+.restbl td:last-child{text-align:right}
+.resnote,.err{font-size:13.5px;color:var(--mut);background:#fff8e1;border:1px solid #ffe082;border-radius:8px;padding:9px 12px;margin-top:8px}
+.err{color:#8d2020;background:#fdecea;border-color:#f5c6c6}
+section.txt h2{color:var(--teal);margin:20px 0 8px;font-size:21px}
+section.txt p,section.txt li{color:#2c3e3b;font-size:15.5px}
+section.txt ol,section.txt ul{margin:6px 0 6px 22px}
+.exbox{background:#eef6f3;border-left:5px solid var(--teal2);border-radius:8px;padding:13px 16px;margin:12px 0;font-size:15px}
+.faq{background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin-bottom:10px}
+.faq h3{font-size:16px;color:var(--teal);margin-bottom:5px}
+.faq p{font-size:14.5px;color:#2c3e3b}
+.crumb{font-size:13px;color:var(--mut);margin:4px 0 10px}
+footer{background:var(--teal);color:#cfe0dc;margin-top:38px;padding:26px 16px 20px}
+footer .fin{max-width:1080px;margin:0 auto}
+footer a{color:var(--gold);text-decoration:none}
+footer .cols{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:14px}
+footer h4{color:#fff;margin-bottom:7px;font-size:15px}
+footer li{list-style:none;font-size:13.5px;margin-bottom:4px}
+footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-size:13px;text-align:center}
+.view{display:none}.view.on{display:block}
+.pagetitle{font-size:27px;color:var(--teal);line-height:1.3;margin:8px 0 6px}
+.lead{color:#2c3e3b;font-size:16px;max-width:760px}
+@media(max-width:600px){.hero h1{font-size:25px}.pagetitle{font-size:23px}}
+
+.medcard{border:1.5px solid var(--line);border-radius:12px;padding:16px;margin-bottom:14px;background:#fbfdfd}
+.medhead{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px}
+.medhead strong{color:var(--teal);font-size:16px}
+.meddel{background:#fdecea;border:1px solid #f5c6c6;color:#8d2020;border-radius:8px;padding:6px 10px;font-size:13px;font-weight:700;cursor:pointer}
+.medbtn2{background:var(--teal);color:#fff;border:0;border-radius:9px;padding:11px 18px;font-size:15px;font-weight:700;cursor:pointer}
+.medbtn2:hover{background:var(--teal2)}
+.medfood{display:flex;align-items:center;gap:8px;font-weight:600;font-size:14px;color:var(--teal);margin:4px 0 12px}
+.medfood input{width:18px;height:18px}
+.medfoodtag{background:#eef6f3;border:1px solid var(--teal2);color:var(--teal);border-radius:12px;padding:1px 8px;font-size:12px;font-weight:700;white-space:nowrap}
+.medtimes{display:grid;grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:8px}
+.medtimes input{padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fff;width:100%}
+.calcform textarea{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:10px;font-size:16px;background:#fbfdfd}
+#medPrint{display:none}
+.medtick{width:100%;border-collapse:collapse;font-size:13px}
+.medtick th,.medtick td{border:1px solid #bbb;padding:6px 8px;text-align:left;vertical-align:top}
+.medtick th{background:#eef6f3}
+@media print{
+  body>*{display:none!important}
+  body>.wrap{display:block!important}
+  .wrap>*{display:none!important}
+  .wrap>.toolbox{display:block!important;border:0;box-shadow:none;padding:0;margin:0}
+  .toolbox>*{display:none!important}
+  .toolbox>#medPrint{display:block!important}
+  #medPrint{font-size:14px;color:#000}
+}
+</style>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1566440962454692" crossorigin="anonymous"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5L43M13ZYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5L43M13ZYT');
+</script>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "z599jkwoy9");
+</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Loona Automation",
+      "item": "https://loonaautomation.github.io/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Loona Calculators",
+      "item": "https://loonaautomation.github.io/loona-calculators/vi/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Công cụ lập lịch uống thuốc",
+      "item": "https://loonaautomation.github.io/loona-calculators/vi/medication-schedule-planner/"
+    }
+  ]
+}</script>
+<link rel="manifest" href="manifest.webmanifest">
+</head><body>
+<header>
+<img class="logo" src="../../icon-192.png" alt="Logo Loona Automation">
+<div class="brand">Loona <span>Máy tính</span></div>
+<nav>
+<a href="../">Trang chủ</a>
+<a href="https://loonaautomation.github.io/">Loona Automation</a>
+<a href="../about.html">Giới thiệu</a>
+<a href="../contact.html">Liên hệ</a>
+</nav>
+</header>
+<div class="wrap">
+<div class="crumb"><a href="../">Loona Calculators</a> › Sức khỏe › Công cụ lập lịch uống thuốc</div>
+<h1 class="pagetitle">💊 Công cụ lập lịch uống thuốc</h1>
+<p class="lead">Uống nhiều loại thuốc vào các thời điểm khác nhau rất dễ bị nhầm lẫn. Thêm từng loại thuốc bên dưới — liều lượng, thời gian uống và có uống cùng thức ăn hay không — và công cụ này sẽ hợp nhất chúng thành một lịch trình hằng ngày rõ ràng, với biểu đồ thuốc có thể in, ngày mua bổ sung và nhắc nhở trên lịch điện thoại. Miễn phí, không cần đăng ký và hoàn toàn riêng tư: danh sách của bạn không bao giờ rời khỏi trình duyệt.</p>
+<div class="exbox"><strong>Đáp án nhanh:</strong> Công cụ lập lịch uống thuốc hợp nhất tất cả các loại thuốc của bạn thành một lịch trình hằng ngày: nhập từng loại thuốc, liều lượng và thời gian uống — mỗi X giờ hoặc vào các giờ cố định — và công cụ sẽ xây dựng biểu đồ kết hợp, tính ngày mua bổ sung và xuất nhắc nhở lịch. Mọi thứ đều ở lại trong trình duyệt của bạn.</div>
+<div class="toolbox">
+<form class="calcform" id="medForm">
+<div id="medList"></div>
+<p style="margin:4px 0 14px"><button type="button" id="medAdd" class="medbtn2">＋ Thêm thuốc khác</button></p>
+<div class="fld"><label for="medStart">Ngày bắt đầu liệu trình</label><input type="date" id="medStart"></div>
+<div class="fld"><label for="medLead">Nhắc tôi mua bổ sung trước khi hết từng này ngày</label><input type="number" id="medLead" min="0" max="30" step="1" value="3"></div>
+<button class="calcbtn" type="submit">💊 Tạo lịch của tôi</button>
+</form>
+<div class="calcresult" id="medResult" style="display:none"></div>
+<div id="medActions" style="display:none;margin-top:14px;gap:10px;flex-wrap:wrap">
+<button type="button" id="medPrintBtn" class="medbtn2">🖨 In biểu đồ thuốc</button>
+<button type="button" id="medIcsBtn" class="medbtn2">📅 Tải tệp lịch (.ics)</button>
+<button type="button" id="medClearBtn" class="medbtn2">🗑 Xóa dữ liệu đã lưu</button>
+</div>
+<p class="resnote"><strong>An toàn là trên hết:</strong> Công cụ này chỉ sắp xếp lịch trình bạn nhập vào — nó không phải là lời khuyên y tế và không kiểm tra liều lượng hay tương tác thuốc. Luôn tuân theo đơn thuốc của bạn đúng như đã ghi, và hỏi bác sĩ hoặc dược sĩ nếu có điều gì chưa rõ.</p>
+<p class="resnote">🔒 <strong>Riêng tư theo thiết kế:</strong> Thuốc của bạn chỉ được lưu trong trình duyệt này (bộ nhớ cục bộ), để công cụ ghi nhớ khi bạn quay lại. Không có gì được tải lên hay gửi đi bất cứ đâu.</p>
+<div id="medPrint"></div>
+</div>
+<section class="txt"><h2>Cách sử dụng Công cụ lập lịch uống thuốc</h2><ol><li>Thêm từng loại thuốc: tên, liều lượng (ví dụ “500 mg — 1 viên”), và tần suất bạn uống — mỗi X giờ kể từ giờ liều đầu tiên, hoặc vào các giờ cố định mỗi ngày.</li><li>Đánh dấu “Uống cùng thức ăn” cho bất kỳ loại thuốc nào phải uống cùng bữa ăn, và nhập số ngày thuốc còn lại nếu bạn muốn có ngày mua bổ sung.</li><li>Đặt ngày bắt đầu liệu trình và số ngày trước khi hết thuốc mà bạn muốn được nhắc mua bổ sung.</li><li>Nhấn “Tạo lịch của tôi” — tất cả các loại thuốc của bạn sẽ được hợp nhất thành một lịch trình hằng ngày, với biểu đồ thuốc có thể in và tệp lịch (.ics) mà bạn có thể nhập vào điện thoại.</li></ol>
+<div class="exbox"><strong>Ví dụ:</strong> Paracetamol mỗi 8 giờ từ 06:00 cho các liều lúc 06:00, 14:00 và 22:00. Thêm một loại thuốc uống hai lần mỗi ngày cùng thức ăn lúc 08:00 và 20:00, và công cụ sẽ hợp nhất mọi thứ thành một danh sách — năm giờ uống thuốc mỗi ngày, không bỏ sót liều nào, không trùng lặp liều nào.</div>
+<h2>Câu hỏi thường gặp</h2></section><div class="faq"><h3>Đây có phải là lời khuyên y tế không?</h3><p>Không. Công cụ chỉ sắp xếp lịch trình bạn nhập vào. Nó không kiểm tra liều lượng, sự kết hợp hay tương tác. Luôn tuân theo đơn thuốc của bạn đúng như đã ghi, và hỏi bác sĩ hoặc dược sĩ nếu có điều gì chưa rõ.</p></div><div class="faq"><h3>Ngày mua bổ sung hoạt động như thế nào?</h3><p>Ngày mua bổ sung = ngày bắt đầu + số ngày thuốc − số ngày nhắc nhở. Nếu bạn bắt đầu vào ngày 18 tháng 11 với lượng thuốc đủ 30 ngày và nhắc trước 3 ngày, công cụ sẽ cho biết thuốc của bạn hết vào ngày 17 tháng 12 và bạn nên đặt mua bổ sung chậm nhất vào ngày 15 tháng 12.</p></div><div class="faq"><h3>“Mỗi 8 giờ” ở đây nghĩa là gì?</h3><p>Liều đầu tiên của bạn vào thời gian bạn chọn, sau đó một liều mỗi 8 giờ suốt ngày đêm — ví dụ 06:00, 14:00 và 22:00. Các giờ vượt qua nửa đêm sẽ chuyển sang những giờ đầu của cùng một biểu đồ hằng ngày.</p></div><div class="faq"><h3>Danh sách thuốc của tôi có được tải lên đâu không?</h3><p>Không. Mọi thứ chỉ được lưu trong trình duyệt của chính bạn (bộ nhớ cục bộ) để công cụ ghi nhớ thuốc của bạn trên thiết bị này. Không có gì được gửi đến máy chủ, và bạn có thể xóa nó bất cứ lúc nào bằng “Xóa dữ liệu đã lưu”.</p></div><div class="faq"><h3>Tôi có thể đưa lịch vào lịch điện thoại của mình không?</h3><p>Có. Nhấn “Tải tệp lịch (.ics)” và nhập tệp vào Google Calendar, Apple Calendar hoặc Outlook — mỗi liều trở thành một nhắc nhở lặp lại, cộng thêm một nhắc nhở mua bổ sung vào ngày mua bổ sung.</p></div>
+<h2 class="sec">Máy tính liên quan</h2><div class="grid"><a class="card" href="../bmi-calculator/"><div class="ic">⚖️</div><h3>Máy tính BMI</h3><p>Sức khỏe</p></a><a class="card" href="../water-intake-calculator/"><div class="ic">💧</div><h3>Máy tính lượng nước uống</h3><p>Sức khỏe</p></a><a class="card" href="../calorie-calculator/"><div class="ic">🔥</div><h3>Máy tính calo</h3><p>Sức khỏe</p></a><a class="card" href="../body-fat-calculator/"><div class="ic">📊</div><h3>Máy tính mỡ cơ thể</h3><p>Sức khỏe</p></a><a class="card" href="../ovulation-calculator/"><div class="ic">🌸</div><h3>Máy tính ngày rụng trứng</h3><p>Sức khỏe</p></a></div>
+</div>
+<section class="txt" style="max-width:1080px;margin:0 auto;padding:0 16px"><h2>Cách hoạt động — phép tính lịch trình</h2>
+<p>Đối với thuốc <strong>mỗi X giờ</strong>, công cụ bắt đầu từ giờ liều đầu tiên của bạn và cộng thêm X giờ lặp đi lặp lại cho đến khi bao phủ đủ 24 giờ; các giờ vượt qua nửa đêm sẽ quay lại những giờ đầu, và danh sách sau đó được sắp xếp theo thứ tự đồng hồ. Đối với thuốc <strong>giờ cố định</strong>, công cụ chỉ dùng các giờ bạn đã nhập, đã sắp xếp, và loại bỏ trùng lặp. Tất cả các loại thuốc sau đó được hợp nhất thành một lịch trình theo giờ trong ngày — nếu hai loại thuốc trùng vào cùng một giờ, chúng dùng chung một hàng, vì vậy không có gì bị ẩn và không có gì bị tính hai lần.</p>
+<p>Phép tính mua bổ sung là: <strong>ngày cuối cùng được bao phủ = ngày bắt đầu + số ngày thuốc − 1</strong>, và <strong>ngày mua bổ sung = ngày bắt đầu + số ngày thuốc − số ngày nhắc nhở</strong>. Xuất lịch (.ics) biến mỗi mẫu thành một sự kiện lặp lại tiêu chuẩn — lặp lại theo giờ đối với thuốc mỗi X giờ, lặp lại hằng ngày đối với thuốc giờ cố định — kết thúc vào ngày cuối cùng được bao phủ, cộng thêm một sự kiện nhắc mua bổ sung lúc 09:00 vào ngày mua bổ sung.</p>
+<h3>Ví dụ đã giải</h3><div class="exbox"><p><strong>Đầu vào:</strong> Thuốc A mỗi 8 giờ, liều đầu tiên 06:00. Thuốc B vào các giờ cố định 08:00 và 20:00, cùng thức ăn. Ngày bắt đầu 18 tháng 11 năm 2026, lượng thuốc đủ 30 ngày cho cả hai, nhắc mua bổ sung 3 ngày.</p><p><strong>Các bước:</strong> A cho 06:00, 14:00, 22:00. B cho 08:00 và 20:00. Hợp nhất: 06:00 A · 08:00 B (cùng thức ăn) · 14:00 A · 20:00 B (cùng thức ăn) · 22:00 A — 5 liều mỗi ngày. Ngày cuối cùng được bao phủ = 18 tháng 11 + 29 ngày = 17 tháng 12 năm 2026. Ngày mua bổ sung = 18 tháng 11 + (30 − 3) ngày = 15 tháng 12 năm 2026.</p><p><strong>Kết quả:</strong> Một lịch trình hằng ngày gồm <strong>5 giờ uống thuốc</strong>, biểu đồ đánh dấu 7 ngày, mua bổ sung chậm nhất <strong>15 tháng 12 năm 2026</strong>, và một tệp .ics với các sự kiện tương tự.</p></div>
+</section>
+<div style="max-width:780px;margin:18px auto 0;padding:0 16px"><p class="resnote"><strong>Tuyên bố miễn trừ về sức khỏe:</strong> Công cụ này chỉ là một công cụ hỗ trợ sắp xếp và không phải là lời khuyên y tế, chẩn đoán hay điều trị. Nó không xác minh rằng một liều lượng, thời gian hay sự kết hợp nào là an toàn hay đúng. Luôn tuân theo đơn thuốc của bạn và tham khảo ý kiến chuyên gia y tế có trình độ về thuốc của riêng bạn.</p></div>
+<div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
+<h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Nhúng máy tính này vào trang web của bạn — miễn phí</h2>
+<p style="margin:0 0 12px;line-height:1.6">Thêm máy tính này vào trang web hoặc blog của riêng bạn — nó hoàn toàn miễn phí, không cần đăng ký, và luôn hiển thị phiên bản mới nhất. Sao chép mã bên dưới và dán nó vào trang của bạn tại nơi bạn muốn máy tính xuất hiện. Việc giữ lại dòng ghi công nhỏ &ldquo;Powered by Loona Automation&rdquo; dưới phần nhúng giúp giữ công cụ này miễn phí &mdash; nhưng bạn tự do tạo kiểu hoặc xóa nó; công cụ hoạt động theo cả hai cách.</p>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/vi/medication-schedule-planner/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Công cụ lập lịch uống thuốc by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Được cung cấp bởi &lt;a href="https://loonaautomation.github.io/loona-calculators/vi/medication-schedule-planner/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; miễn phí Công cụ lập lịch uống thuốc&lt;/p&gt;</textarea>
+<p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Sao chép mã nhúng</button></p>
+</div>
+<script>
+(function(){var b=document.getElementById('loonaEmbedBtn'),t=document.getElementById('loonaEmbedCode');if(!b||!t)return;b.addEventListener('click',function(){var done=function(){b.textContent='Copied!';setTimeout(function(){b.textContent='Sao chép mã nhúng';},2000);};var fallback=function(){t.removeAttribute('readonly');t.select();try{document.execCommand('copy');}catch(e){}t.setAttribute('readonly','');done();};if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t.value).then(done,fallback);}else{fallback();}});})();
+</script>
+<footer><div class="fin">
+<div class="cols">
+<div><h4>Máy tính Phổ biến</h4><ul><li><a href="../age-calculator/">Máy tính Tuổi</a></li>
+<li><a href="../zakat-calculator/">Máy tính Zakat</a></li>
+<li><a href="../cgpa-calculator/">Máy tính CGPA</a></li>
+<li><a href="../percentage-calculator/">Máy tính Phần trăm</a></li>
+<li><a href="../hijri-date-converter/">Bộ chuyển đổi Ngày Hijri</a></li>
+<li><a href="../emi-calculator/">Máy tính EMI & Khoản vay</a></li></ul></div>
+<div><h4>Thêm Công cụ Loona</h4><ul>
+<li><a href="https://loonaautomation.github.io/loona-qr-codes/">Loona QR Codes</a></li>
+<li><a href="https://loonaautomation.github.io/loona-image-compressor/">Công cụ Nén Ảnh Loona</a></li>
+<li><a href="https://loonaautomation.github.io/loona-ai/">Trợ lý AI Loona</a></li>
+<li><a href="https://loonaautomation.github.io/">Tất cả các Công cụ Loona</a></li></ul></div>
+<div><h4>Loona Calculators</h4><ul>
+<li><a href="../about.html">Giới thiệu</a></li>
+<li><a href="../contact.html">Liên hệ</a></li>
+<li><a href="../privacy-policy.html">Chính sách Quyền riêng tư</a></li>
+<li><a href="../terms.html">Điều khoản Sử dụng</a></li></ul></div>
+</div>
+<div class="bar">© 2026 Loona Calculators — a <a href="https://loonaautomation.github.io/">Loona Automation</a> dự án. Các máy tính trực tuyến miễn phí, không đăng ký.
+Liên hệ: <a href="mailto:loonaautomation@gmail.com">loonaautomation@gmail.com</a></div>
+</div></footer>
+<script>
+/* Loona Medication Schedule Planner — all data stays in localStorage. */
+var MED_STR={
+ medWord:"Thuốc",removeTxt:"✕ Xóa",nameLbl:"Tên thuốc",namePh:"ví dụ Paracetamol",
+ doseLbl:"Liều lượng",dosePh:"ví dụ 500 mg — 1 viên",freqLbl:"Bao lâu một lần?",
+ optInterval:"Mỗi X giờ",optTimes:"Vào các giờ cố định mỗi ngày",
+ hoursLbl:"Mỗi (giờ)",firstLbl:"Liều đầu tiên lúc",
+ timesLbl:"Giờ uống thuốc (điền những giờ bạn cần)",foodLbl:"Uống cùng thức ăn",
+ supplyLbl:"Số ngày thuốc bạn có (cho ngày mua bổ sung)",supplyPh:"ví dụ 30",
+ errName:"Vui lòng đặt tên cho mỗi loại thuốc.",errHours:"không có khoảng cách hợp lệ — đặt “Mỗi (giờ)” từ 1 đến 24 và giờ liều đầu tiên.",
+ errTimes:"không có giờ uống thuốc — thêm ít nhất một giờ trong ngày.",
+ ttTitle:"Lịch trình hằng ngày của bạn",dosesDay:"liều mỗi ngày",colTime:"Giờ",colMed:"Thuốc",colDose:"Liều lượng",
+ withFood:"cùng thức ăn",summaryTitle:"Từng loại thuốc",colPerDay:"Liều/ngày",colTimes:"Giờ",
+ colRunsOut:"Hết vào",colRefill:"Đặt mua bổ sung chậm nhất",noSupply:"—",
+ chartTitle:"Biểu đồ thuốc của tôi",fromTxt:"từ",tickTitle:"Biểu đồ đánh dấu 7 ngày — đánh dấu mỗi liều khi bạn uống",
+ refillTitle:"Nhắc nhở mua bổ sung",safetyLine:"Chỉ là công cụ lập lịch — không phải lời khuyên y tế. Luôn tuân theo đơn thuốc của bạn một cách chính xác, và hỏi bác sĩ hoặc dược sĩ nếu có điều gì chưa rõ.",
+ icsFood:"Uống cùng thức ăn.",icsRefill:"Nhắc mua bổ sung:",
+ months:["thg 1","thg 2","thg 3","thg 4","thg 5","thg 6","thg 7","thg 8","thg 9","thg 10","thg 11","thg 12"],
+ days:["Chủ Nhật","Thứ Hai","Thứ Ba","Thứ Tư","Thứ Năm","Thứ Sáu","Thứ Bảy"]
+};
+/*TESTABLE_START*/
+function medParseTime(s){var p=String(s||"").split(":");if(p.length<2)return null;var h=+p[0],m=+p[1];if(isNaN(h)||isNaN(m)||h<0||h>23||m<0||m>59)return null;return h*60+m;}
+function medFmtTime(mins){mins=((mins%1440)+1440)%1440;var h=Math.floor(mins/60),m=mins%60;return (h<10?"0":"")+h+":"+(m<10?"0":"")+m;}
+function medDoseTimes(med){
+  var out=[],seen={},i,v;
+  if(med.type==="interval"){
+    var step=Math.round(+med.hours)*60,t0=medParseTime(med.first);
+    if(!step||step<60||step>1440||t0===null)return [];
+    for(var t=t0;t<t0+1440;t+=step){v=t%1440;if(!seen[v]){seen[v]=1;out.push(v);}}
+  }else{
+    var list=med.times||[];
+    for(i=0;i<list.length;i++){v=medParseTime(list[i]);if(v!==null&&!seen[v]){seen[v]=1;out.push(v);}}
+  }
+  out.sort(function(a,b){return a-b;});
+  return out.map(medFmtTime);
+}
+function medAddDays(isoStr,n){var p=String(isoStr).split("-");var d=new Date(+p[0],+p[1]-1,+p[2]);d.setDate(d.getDate()+n);return d;}
+function medISODate(d){return d.getFullYear()+"-"+(d.getMonth()+1<10?"0":"")+(d.getMonth()+1)+"-"+(d.getDate()<10?"0":"")+d.getDate();}
+function medRefill(startISO,supply,lead){
+  supply=Math.floor(+supply);if(!supply||supply<1)return null;
+  lead=Math.floor(+lead);if(isNaN(lead)||lead<0)lead=0;
+  return {runsOut:medISODate(medAddDays(startISO,supply-1)),refill:medISODate(medAddDays(startISO,Math.max(0,supply-lead)))};
+}
+function medBuildEvents(meds){
+  var map={},order=[];
+  meds.forEach(function(med){
+    medDoseTimes(med).forEach(function(t){
+      if(!map[t]){map[t]=[];order.push(t);}
+      map[t].push({name:med.name,dose:med.dose||"",food:!!med.food});
+    });
+  });
+  order.sort();
+  return order.map(function(t){return {time:t,items:map[t]};});
+}
+function medEscICS(s){return String(s).replace(/\\/g,"\\\\").replace(/;/g,"\\;").replace(/,/g,"\\,").replace(/\r?\n/g,"\\n");}
+function medFoldLine(line){var out=[];while(line.length>75){out.push(line.slice(0,75));line=" "+line.slice(75);}out.push(line);return out.join("\r\n");}
+function medICSDateTime(isoStr,timeStr){return String(isoStr).replace(/-/g,"")+"T"+String(timeStr).replace(":","")+"00";}
+function medBuildICS(meds,opt,str){
+  var lines=["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//Loona Automation//Medication Schedule Planner//EN","CALSCALE:GREGORIAN"];
+  var uidN=0;
+  function ev(dtstart,rrule,summary,desc){
+    lines.push("BEGIN:VEVENT");
+    lines.push("UID:med-"+opt.stamp+"-"+(++uidN)+"@loonaautomation.github.io");
+    lines.push("DTSTAMP:"+opt.stamp);
+    lines.push("DTSTART:"+dtstart);
+    if(rrule)lines.push("RRULE:"+rrule);
+    lines.push("SUMMARY:"+medEscICS(summary));
+    if(desc)lines.push("DESCRIPTION:"+medEscICS(desc));
+    lines.push("END:VEVENT");
+  }
+  meds.forEach(function(med){
+    var supply=Math.floor(+med.supply);
+    var endISO=(supply&&supply>0)?medISODate(medAddDays(opt.start,supply-1)):medISODate(medAddDays(opt.start,59));
+    var until=endISO.replace(/-/g,"")+"T235959";
+    var desc=med.food?str.icsFood:"";
+    var sum=med.name+(med.dose?" — "+med.dose:"");
+    if(med.type==="interval"){
+      if(medParseTime(med.first)===null)return;
+      ev(medICSDateTime(opt.start,med.first),"FREQ=HOURLY;INTERVAL="+Math.round(+med.hours)+";UNTIL="+until,sum,desc);
+    }else{
+      medDoseTimes(med).forEach(function(t){ev(medICSDateTime(opt.start,t),"FREQ=DAILY;UNTIL="+until,sum,desc);});
+    }
+    var rf=medRefill(opt.start,med.supply,opt.lead);
+    if(rf)ev(rf.refill.replace(/-/g,"")+"T090000",null,str.icsRefill+" "+med.name,"");
+  });
+  lines.push("END:VCALENDAR");
+  return lines.map(medFoldLine).join("\r\n")+"\r\n";
+}
+/*TESTABLE_END*/
+var MED_KEY="loona-med-planner-v1";
+var medState={meds:[],start:"",lead:3};
+function medEsc(s){return String(s==null?"":s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");}
+function medTodayISO(){var d=new Date();return medISODate(d);}
+function medLongDate(isoStr){var d=medAddDays(isoStr,0);return MED_STR.days[d.getDay()]+" "+d.getDate()+" "+MED_STR.months[d.getMonth()]+" "+d.getFullYear();}
+function medBlank(){return {name:"",dose:"",type:"interval",hours:8,first:"06:00",times:["","","",""],food:false,supply:""};}
+function medRenderList(){
+  var box=document.getElementById("medList");box.innerHTML="";
+  medState.meds.forEach(function(med,i){
+    var card=document.createElement("div");card.className="medcard";
+    var timesHtml="";for(var k=0;k<4;k++){timesHtml+='<input type="time" class="m-t" value="'+medEsc(med.times&&med.times[k]?med.times[k]:"")+'">';}
+    card.innerHTML=
+     '<div class="medhead"><strong>'+MED_STR.medWord+' '+(i+1)+'</strong><button type="button" class="meddel">'+MED_STR.removeTxt+'</button></div>'
+    +'<div class="fld"><label>'+MED_STR.nameLbl+'</label><input type="text" class="m-name" placeholder="'+MED_STR.namePh+'" value="'+medEsc(med.name)+'"></div>'
+    +'<div class="fld"><label>'+MED_STR.doseLbl+'</label><input type="text" class="m-dose" placeholder="'+MED_STR.dosePh+'" value="'+medEsc(med.dose)+'"></div>'
+    +'<div class="fld"><label>'+MED_STR.freqLbl+'</label><select class="m-type"><option value="interval"'+(med.type==="interval"?" selected":"")+'>'+MED_STR.optInterval+'</option><option value="times"'+(med.type==="times"?" selected":"")+'>'+MED_STR.optTimes+'</option></select></div>'
+    +'<div class="m-int"'+(med.type==="interval"?"":' style="display:none"')+'><div class="fld"><label>'+MED_STR.hoursLbl+'</label><input type="number" class="m-hours" min="1" max="24" step="1" value="'+medEsc(med.hours)+'"></div>'
+    +'<div class="fld"><label>'+MED_STR.firstLbl+'</label><input type="time" class="m-first" value="'+medEsc(med.first)+'"></div></div>'
+    +'<div class="m-times"'+(med.type==="times"?"":' style="display:none"')+'><div class="fld"><label>'+MED_STR.timesLbl+'</label><div class="medtimes">'+timesHtml+'</div></div></div>'
+    +'<label class="medfood"><input type="checkbox" class="m-food"'+(med.food?" checked":"")+'> '+MED_STR.foodLbl+'</label>'
+    +'<div class="fld"><label>'+MED_STR.supplyLbl+'</label><input type="number" class="m-supply" min="0" max="365" step="1" placeholder="'+MED_STR.supplyPh+'" value="'+medEsc(med.supply)+'"></div>';
+    card.querySelector(".meddel").addEventListener("click",function(){medCollect();medState.meds.splice(i,1);if(!medState.meds.length)medState.meds.push(medBlank());medSave();medRenderList();});
+    card.querySelector(".m-type").addEventListener("change",function(){medCollect();medRenderList();});
+    card.addEventListener("input",function(){medCollect();medSave();});
+    card.addEventListener("change",function(){medCollect();medSave();});
+    box.appendChild(card);
+  });
+}
+function medCollect(){
+  var cards=document.querySelectorAll("#medList .medcard"),out=[];
+  cards.forEach(function(card){
+    var times=[];card.querySelectorAll(".m-t").forEach(function(inp){times.push(inp.value);});
+    out.push({
+      name:card.querySelector(".m-name").value.trim(),
+      dose:card.querySelector(".m-dose").value.trim(),
+      type:card.querySelector(".m-type").value,
+      hours:card.querySelector(".m-hours").value,
+      first:card.querySelector(".m-first").value,
+      times:times,
+      food:card.querySelector(".m-food").checked,
+      supply:card.querySelector(".m-supply").value
+    });
+  });
+  if(out.length)medState.meds=out;
+  medState.start=document.getElementById("medStart").value||medTodayISO();
+  medState.lead=document.getElementById("medLead").value;
+}
+function medSave(){try{localStorage.setItem(MED_KEY,JSON.stringify(medState));}catch(e){}}
+function medLoad(){
+  try{var raw=localStorage.getItem(MED_KEY);if(raw){var s=JSON.parse(raw);if(s&&s.meds&&s.meds.length){medState=s;return true;}}}catch(e){}
+  return false;
+}
+function medValidate(){
+  for(var i=0;i<medState.meds.length;i++){
+    var med=medState.meds[i];
+    if(!med.name)return MED_STR.errName;
+    if(med.type==="interval"){var h=Math.round(+med.hours);if(!h||h<1||h>24||medParseTime(med.first)===null)return (MED_STR.medWord+" "+(i+1)+" "+MED_STR.errHours);}
+    else if(!medDoseTimes(med).length)return (MED_STR.medWord+" "+(i+1)+" "+MED_STR.errTimes);
+  }
+  return "";
+}
+function medTimetableHTML(events){
+  var rows="";
+  events.forEach(function(ev){
+    var items=ev.items.map(function(it){return "<strong>"+medEsc(it.name)+"</strong>"+(it.dose?" — "+medEsc(it.dose):"")+(it.food?' <span class="medfoodtag">🍽 '+MED_STR.withFood+"</span>":"");}).join("<br>");
+    rows+="<tr><td><strong>"+ev.time+"</strong></td><td>"+items+"</td></tr>";
+  });
+  return '<table class="restbl"><tr><td><strong>'+MED_STR.colTime+"</strong></td><td><strong>"+MED_STR.colMed+" — "+MED_STR.colDose+"</strong></td></tr>"+rows+"</table>";
+}
+function medSummaryHTML(){
+  var rows="";
+  medState.meds.forEach(function(med){
+    var times=medDoseTimes(med);
+    var rf=medRefill(medState.start,med.supply,medState.lead);
+    rows+="<tr><td><strong>"+medEsc(med.name)+"</strong></td><td>"+times.length+"</td><td>"+times.join(", ")+"</td><td>"+(rf?medLongDate(rf.runsOut):MED_STR.noSupply)+"</td><td>"+(rf?medLongDate(rf.refill):MED_STR.noSupply)+"</td></tr>";
+  });
+  return "<h3 style='color:var(--teal);margin:14px 0 6px'>"+MED_STR.summaryTitle+'</h3><table class="restbl"><tr><td><strong>'+MED_STR.colMed+"</strong></td><td><strong>"+MED_STR.colPerDay+"</strong></td><td><strong>"+MED_STR.colTimes+"</strong></td><td><strong>"+MED_STR.colRunsOut+"</strong></td><td><strong>"+MED_STR.colRefill+"</strong></td></tr>"+rows+"</table>";
+}
+function medBuild(){
+  medCollect();
+  var box=document.getElementById("medResult"),act=document.getElementById("medActions");
+  var err=medValidate();
+  box.style.display="block";
+  if(err){box.innerHTML='<p class="err">'+medEsc(err)+"</p>";act.style.display="none";document.getElementById("medPrint").innerHTML="";return false;}
+  medSave();
+  var events=medBuildEvents(medState.meds);
+  var total=0;medState.meds.forEach(function(m){total+=medDoseTimes(m).length;});
+  box.innerHTML='<div class="resbig"><span>'+MED_STR.ttTitle+'</span><strong>'+total+" "+MED_STR.dosesDay+"</strong></div>"+medTimetableHTML(events)+medSummaryHTML();
+  act.style.display="flex";
+  medBuildPrint(events);
+  return true;
+}
+function medBuildPrint(events){
+  var start=medState.start;
+  var head='<h2 style="color:#062e2a;margin:0 0 4px">💊 '+MED_STR.chartTitle+'</h2><p style="margin:0 0 12px">'+MED_STR.fromTxt+" "+medLongDate(start)+"</p>";
+  var tick="<h3 style='color:#062e2a;margin:16px 0 6px'>"+MED_STR.tickTitle+"</h3>";
+  var dates=[];for(var d=0;d<7;d++)dates.push(medAddDays(start,d));
+  tick+='<table class="medtick"><tr><th>'+MED_STR.colTime+"</th>"+dates.map(function(dt){return "<th>"+MED_STR.days[dt.getDay()].slice(0,3)+" "+dt.getDate()+" "+MED_STR.months[dt.getMonth()]+"</th>";}).join("")+"</tr>";
+  events.forEach(function(ev){
+    tick+="<tr><td><strong>"+ev.time+"</strong></td>";
+    for(var d=0;d<7;d++){tick+="<td>"+ev.items.map(function(it){return medEsc(it.name)+" ☐";}).join("<br>")+"</td>";}
+    tick+="</tr>";
+  });
+  tick+="</table>";
+  var refills="";
+  medState.meds.forEach(function(med){var rf=medRefill(medState.start,med.supply,medState.lead);if(rf)refills+="<li><strong>"+medEsc(med.name)+"</strong>: "+MED_STR.colRunsOut+" "+medLongDate(rf.runsOut)+" — "+MED_STR.colRefill+" "+medLongDate(rf.refill)+"</li>";});
+  var refillBlock=refills?("<h3 style='color:#062e2a;margin:16px 0 6px'>"+MED_STR.refillTitle+"</h3><ul style='margin-left:20px'>"+refills+"</ul>"):"";
+  document.getElementById("medPrint").innerHTML=head+medTimetableHTML(events)+tick+refillBlock+'<p style="margin-top:14px;font-size:13px">'+MED_STR.safetyLine+"</p>";
+}
+document.getElementById("medAdd").addEventListener("click",function(){medCollect();medState.meds.push(medBlank());medSave();medRenderList();});
+document.getElementById("medForm").addEventListener("submit",function(e){e.preventDefault();medBuild();});
+document.getElementById("medStart").addEventListener("change",function(){medCollect();medSave();});
+document.getElementById("medLead").addEventListener("change",function(){medCollect();medSave();});
+document.getElementById("medPrintBtn").addEventListener("click",function(){window.print();});
+document.getElementById("medClearBtn").addEventListener("click",function(){try{localStorage.removeItem(MED_KEY);}catch(e){}medState={meds:[medBlank()],start:medTodayISO(),lead:3};document.getElementById("medStart").value=medState.start;document.getElementById("medLead").value="3";medRenderList();document.getElementById("medResult").style.display="none";document.getElementById("medActions").style.display="none";document.getElementById("medPrint").innerHTML="";});
+document.getElementById("medIcsBtn").addEventListener("click",function(){
+  if(!medBuild())return;
+  var now=new Date();
+  var stamp=now.getUTCFullYear()+""+(now.getUTCMonth()+1<10?"0":"")+(now.getUTCMonth()+1)+(now.getUTCDate()<10?"0":"")+now.getUTCDate()+"T"+(now.getUTCHours()<10?"0":"")+now.getUTCHours()+(now.getUTCMinutes()<10?"0":"")+now.getUTCMinutes()+(now.getUTCSeconds()<10?"0":"")+now.getUTCSeconds()+"Z";
+  var ics=medBuildICS(medState.meds,{start:medState.start,lead:medState.lead,stamp:stamp},MED_STR);
+  var blob=new Blob([ics],{type:"text/calendar"});
+  var a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download="loona-medication-schedule.ics";document.body.appendChild(a);a.click();setTimeout(function(){URL.revokeObjectURL(a.href);a.remove();},400);
+});
+(function(){
+  var had=medLoad();
+  if(!had){medState.meds=[medBlank()];medState.start=medTodayISO();medState.lead=3;}
+  document.getElementById("medStart").value=medState.start||medTodayISO();
+  document.getElementById("medLead").value=(medState.lead===undefined||medState.lead==="")?3:medState.lead;
+  medRenderList();
+  if(had)medBuild();
+})();
+</script>
+<script>/*loona-pwa*/(function(){if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('../../sw.js').catch(function(){});});}var D=null;function S(){return window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;}function B(m){if(S()||document.getElementById('loona-install-btn'))return;var b=document.createElement('button');b.id='loona-install-btn';b.type='button';b.textContent=String.fromCodePoint(0x1F4F2)+' Cài đặt ứng dụng';b.setAttribute('style','position:fixed;right:16px;bottom:16px;z-index:2147483000;background:#062e2a;color:#fff;border:1px solid #c9a227;border-radius:999px;padding:11px 18px;font:600 14px/1.2 system-ui,-apple-system,sans-serif;box-shadow:0 6px 18px rgba(0,0,0,.35);cursor:pointer');b.addEventListener('click',function(){if(m==='p'&&D){D.prompt();D.userChoice.then(function(){D=null;b.remove();});}else{alert('Cài đặt ứng dụng này: chạm nút Chia sẻ, rồi chọn "Thêm vào Màn hình chính".');}});document.body.appendChild(b);}window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();D=e;B('p');});window.addEventListener('appinstalled',function(){var b=document.getElementById('loona-install-btn');if(b)b.remove();});if(/iphone|ipad|ipod/i.test(navigator.userAgent)&&!S()){window.addEventListener('load',function(){B('i');});}})();</script>
+</body>
+</html>

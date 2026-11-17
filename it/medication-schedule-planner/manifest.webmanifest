@@ -1,0 +1,29 @@
+{
+  "name": "Loona Pianificatore di Orari dei Farmaci",
+  "short_name": "Pianificatore di Orari dei Farmaci",
+  "description": "Pianificatore gratuito degli orari dei farmaci: aggiungi tutti i tuoi farmaci e le dosi per ottenere un unico orario giornaliero unificato, una tabella delle pillole stampabile, le date di riordino e un file calendario .ics. Privato — i tuoi dati restano nel tuo browser, senza registrazione.",
+  "id": "/loona-calculators/it/medication-schedule-planner/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
