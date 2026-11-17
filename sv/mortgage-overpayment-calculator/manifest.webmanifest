@@ -1,0 +1,29 @@
+{
+  "name": "Loona kalkylator för extra amortering på bolån",
+  "short_name": "Extra amortering på bolån",
+  "description": "Gratis kalkylator för extra amortering, omamortering och refinansiering av bolån: extra betalningar, engångsbelopp, sparad ränta, kapade år och brytpunkten för refinansiering.",
+  "id": "/loona-calculators/sv/mortgage-overpayment-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

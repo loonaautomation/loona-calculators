@@ -1,0 +1,29 @@
+{
+  "name": "Loona kalkulator for ekstra innbetaling på boliglån",
+  "short_name": "Ekstra innbetaling på boliglån",
+  "description": "Gratis kalkulator for ekstra innbetaling, ny nedbetalingsplan og refinansiering av boliglån: ekstra betalinger, engangsbeløp, spart rente, kuttede år og break-even-måneden for refinansiering.",
+  "id": "/loona-calculators/nb/mortgage-overpayment-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
