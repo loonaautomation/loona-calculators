@@ -1,0 +1,29 @@
+{
+  "name": "Loona Calculadora del Coste de Carga de un Vehículo Eléctrico",
+  "short_name": "Calculadora del Coste de Carga de un Vehículo Eléctrico",
+  "description": "Calculadora gratuita del coste de carga de un vehículo eléctrico: introduce el tamaño de la batería, los niveles de carga y tu tarifa eléctrica (incluidas las tarifas nocturnas en horas valle) para obtener el coste por carga, el coste por 100 km o millas, el coste mensual de carga y el ahorro frente a la gasolina.",
+  "id": "/loona-calculators/es/ev-charging-cost-calculator/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
