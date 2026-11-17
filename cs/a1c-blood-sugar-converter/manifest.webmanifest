@@ -1,0 +1,29 @@
+{
+  "name": "Loona Převodník A1C a glykémie",
+  "short_name": "Převodník A1C",
+  "description": "Bezplatný převodník A1C a glykémie: HbA1c % na mmol/mol (IFCC), A1C na odhadovanou průměrnou glukózu (eAG) a glukóza mg/dL na mmol/L — s rozmezími pro normu, prediabetes a diabetes. Bez registrace.",
+  "id": "/loona-calculators/cs/a1c-blood-sugar-converter/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Loona Pretvarač A1C i šećera u krvi",
+  "short_name": "Pretvarač A1C",
+  "description": "Besplatni pretvarač A1C i šećera u krvi: HbA1c % u mmol/mol (IFCC), A1C u procijenjenu prosječnu glukozu (eAG) i glukoza mg/dL u mmol/L — s rasponima za normalno stanje, predijabetes i dijabetes. Bez registracije.",
+  "id": "/loona-calculators/hr/a1c-blood-sugar-converter/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

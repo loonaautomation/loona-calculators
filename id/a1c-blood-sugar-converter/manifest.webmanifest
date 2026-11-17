@@ -1,0 +1,29 @@
+{
+  "name": "Loona Konverter A1C & Gula Darah",
+  "short_name": "Konverter A1C",
+  "description": "Konverter A1C dan gula darah gratis: HbA1c % menjadi mmol/mol (IFCC), A1C menjadi perkiraan rata-rata glukosa (eAG), dan glukosa mg/dL menjadi mmol/L — dengan rentang normal, prediabetes, dan diabetes. Tanpa pendaftaran.",
+  "id": "/loona-calculators/id/a1c-blood-sugar-converter/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

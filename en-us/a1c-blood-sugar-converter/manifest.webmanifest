@@ -1,0 +1,29 @@
+{
+  "name": "Loona A1C & Blood Sugar Converter",
+  "short_name": "A1C Converter",
+  "description": "Free A1C and blood sugar converter: HbA1c % to mmol/mol (IFCC), A1C to estimated average glucose (eAG), and glucose mg/dL to mmol/L — with normal, prediabetes and diabetes ranges. No signup.",
+  "id": "/loona-calculators/en-us/a1c-blood-sugar-converter/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

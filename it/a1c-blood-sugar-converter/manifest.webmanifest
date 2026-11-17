@@ -1,0 +1,29 @@
+{
+  "name": "Loona Convertitore di A1C e glicemia",
+  "short_name": "Convertitore di A1C",
+  "description": "Convertitore gratuito di A1C e glicemia: HbA1c % in mmol/mol (IFCC), A1C in glicemia media stimata (eAG) e glicemia da mg/dL a mmol/L — con intervalli normale, di prediabete e di diabete. Senza registrazione.",
+  "id": "/loona-calculators/it/a1c-blood-sugar-converter/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

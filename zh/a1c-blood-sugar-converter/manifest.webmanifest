@@ -1,0 +1,29 @@
+{
+  "name": "Loona A1C 和血糖转换器",
+  "short_name": "A1C 转换器",
+  "description": "免费 A1C 和血糖转换器：HbA1c % 转 mmol/mol (IFCC)，A1C 转预估平均血糖 (eAG)，血糖 mg/dL 转 mmol/L——附正常、糖尿病前期和糖尿病范围。无需注册。",
+  "id": "/loona-calculators/zh/a1c-blood-sugar-converter/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

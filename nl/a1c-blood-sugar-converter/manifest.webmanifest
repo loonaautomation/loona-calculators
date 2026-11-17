@@ -1,0 +1,29 @@
+{
+  "name": "Loona A1C- en bloedsuikeromzetter",
+  "short_name": "A1C-omzetter",
+  "description": "Gratis A1C- en bloedsuikeromzetter: HbA1c % naar mmol/mol (IFCC), A1C naar geschatte gemiddelde glucose (eAG) en glucose van mg/dL naar mmol/L — met bereiken voor normaal, prediabetes en diabetes. Geen aanmelding.",
+  "id": "/loona-calculators/nl/a1c-blood-sugar-converter/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

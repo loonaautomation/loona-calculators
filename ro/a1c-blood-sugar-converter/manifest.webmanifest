@@ -1,0 +1,29 @@
+{
+  "name": "Loona Convertor pentru A1C și glicemie",
+  "short_name": "Convertor A1C",
+  "description": "Convertor gratuit pentru A1C și glicemie: HbA1c % în mmol/mol (IFCC), A1C în glicemie medie estimată (eAG) și glicemie din mg/dL în mmol/L — cu intervale normal, de prediabet și de diabet. Fără înregistrare.",
+  "id": "/loona-calculators/ro/a1c-blood-sugar-converter/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

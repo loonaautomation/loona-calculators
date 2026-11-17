@@ -1,0 +1,29 @@
+{
+  "name": "Loona محول A1C وسكر الدم",
+  "short_name": "محول A1C",
+  "description": "محول مجاني لـ A1C وسكر الدم: HbA1c % إلى mmol/mol (IFCC)، و A1C إلى متوسط السكر التقديري (eAG)، وسكر الدم من mg/dL إلى mmol/L — مع نطاقات الطبيعي وما قبل السكري والسكري. بدون تسجيل.",
+  "id": "/loona-calculators/ar/a1c-blood-sugar-converter/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

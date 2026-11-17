@@ -1,0 +1,29 @@
+{
+  "name": "Loona A1C- og blodsukkeromregner",
+  "short_name": "A1C-omregner",
+  "description": "Gratis A1C- og blodsukkeromregner: HbA1c % til mmol/mol (IFCC), A1C til estimert gjennomsnittsglukose (eAG) og glukose mg/dL til mmol/L — med områder for normal, prediabetes og diabetes. Ingen registrering.",
+  "id": "/loona-calculators/nb/a1c-blood-sugar-converter/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

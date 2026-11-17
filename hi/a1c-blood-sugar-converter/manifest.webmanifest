@@ -1,0 +1,29 @@
+{
+  "name": "Loona A1C और ब्लड शुगर कनवर्टर",
+  "short_name": "A1C कनवर्टर",
+  "description": "मुफ़्त A1C और ब्लड शुगर कनवर्टर: HbA1c % से mmol/mol (IFCC), A1C से अनुमानित औसत ग्लूकोज़ (eAG), और ग्लूकोज़ mg/dL से mmol/L — सामान्य, प्रीडायबिटीज़ और मधुमेह सीमाओं के साथ। कोई साइनअप नहीं।",
+  "id": "/loona-calculators/hi/a1c-blood-sugar-converter/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "/loona-calculators/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/loona-calculators/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
