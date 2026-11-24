@@ -1,1 +1,29 @@
-{"background_color":"#062e2a","description":"Free medication schedule planner: add all your medicines and doses to get one merged daily timetable, a printable pill chart, refill dates and an .ics calendar file. Private — your data stays in your browser, no sign-up.","display":"standalone","icons":[{"sizes":"192x192","src":"/loona-calculators/icon-192.png","type":"image/png"},{"sizes":"512x512","src":"/loona-calculators/icon-512.png","type":"image/png"},{"purpose":"maskable","sizes":"512x512","src":"/loona-calculators/icon-maskable-512.png","type":"image/png"}],"id":"/loona-calculators/medication-schedule-planner/","name":"Loona Medication Schedule Planner","scope":".","short_name":"Medication Schedule Planner","start_url":".","theme_color":"#062e2a"}
+{
+  "background_color": "#062e2a",
+  "description": "Free medication schedule planner: add all your medicines and doses to get one merged daily timetable, a printable pill chart, refill dates and an .ics calendar file. Private — your data stays in your browser, no sign-up.",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "id": "/loona-calculators/medication-schedule-planner/",
+  "name": "Loona Medication Schedule Planner",
+  "scope": ".",
+  "short_name": "Medication Schedule Planner",
+  "start_url": ".",
+  "theme_color": "#062e2a"
+}

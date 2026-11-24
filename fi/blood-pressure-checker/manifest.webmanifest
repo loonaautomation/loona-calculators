@@ -1,29 +1,29 @@
 {
- "name": "Loona Verenpaineen tarkistus ja loki",
- "short_name": "Verenpaine",
- "description": "Ilmainen verenpaineen tarkistus ja loki: syötä systolinen ja diastolinen lukemasi nähdäksesi AHA- ja ESC-luokkasi, tallenna aamu- ja iltalukemat ja tulosta 7 päivän keskiarvolomake lääkärillesi.",
- "id": "/loona-calculators/blood-pressure-checker/",
- "start_url": ".",
- "scope": ".",
- "display": "standalone",
- "background_color": "#062e2a",
- "theme_color": "#062e2a",
- "icons": [
-  {
-   "src": "/loona-calculators/icon-192.png",
-   "sizes": "192x192",
-   "type": "image/png"
-  },
-  {
-   "src": "/loona-calculators/icon-512.png",
-   "sizes": "512x512",
-   "type": "image/png"
-  },
-  {
-   "src": "/loona-calculators/icon-maskable-512.png",
-   "sizes": "512x512",
-   "type": "image/png",
-   "purpose": "maskable"
-  }
- ]
+  "name": "Loona Verenpaineen tarkistus ja loki",
+  "short_name": "Verenpaine",
+  "description": "Ilmainen verenpaineen tarkistus ja loki: syötä systolinen ja diastolinen lukemasi nähdäksesi AHA- ja ESC-luokkasi, tallenna aamu- ja iltalukemat ja tulosta 7 päivän keskiarvolomake lääkärillesi.",
+  "id": "/loona-calculators/blood-pressure-checker/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#062e2a",
+  "theme_color": "#062e2a",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
 }
