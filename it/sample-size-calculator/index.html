@@ -5,20 +5,20 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Calcolatore della dimensione del campione — Per proporzioni e medie, con FPC | Loona Calculators</title>
 <meta name="description" content="Calcolatore gratuito della dimensione del campione: quante risposte ti servono per una proporzione o una media di un sondaggio, al tuo livello di confidenza e margine di errore, con correzione per popolazione finita.">
-<link rel="canonical" href="https://loonaautomation.github.io/loona-calculators/it/sample-size-calculator/"><link rel="alternate" hreflang="en" href="https://loonaautomation.github.io/loona-calculators/sample-size-calculator/"><link rel="alternate" hreflang="es" href="https://loonaautomation.github.io/loona-calculators/es/sample-size-calculator/"><link rel="alternate" hreflang="de" href="https://loonaautomation.github.io/loona-calculators/de/sample-size-calculator/"><link rel="alternate" hreflang="fr" href="https://loonaautomation.github.io/loona-calculators/fr/sample-size-calculator/"><link rel="alternate" hreflang="pt" href="https://loonaautomation.github.io/loona-calculators/pt/sample-size-calculator/"><link rel="alternate" hreflang="it" href="https://loonaautomation.github.io/loona-calculators/it/sample-size-calculator/"><link rel="alternate" hreflang="x-default" href="https://loonaautomation.github.io/loona-calculators/sample-size-calculator/">
+<link rel="canonical" href="https://calculators.loonaautomation.com/it/sample-size-calculator/"><link rel="alternate" hreflang="en" href="https://calculators.loonaautomation.com/sample-size-calculator/"><link rel="alternate" hreflang="es" href="https://calculators.loonaautomation.com/es/sample-size-calculator/"><link rel="alternate" hreflang="de" href="https://calculators.loonaautomation.com/de/sample-size-calculator/"><link rel="alternate" hreflang="fr" href="https://calculators.loonaautomation.com/fr/sample-size-calculator/"><link rel="alternate" hreflang="pt" href="https://calculators.loonaautomation.com/pt/sample-size-calculator/"><link rel="alternate" hreflang="it" href="https://calculators.loonaautomation.com/it/sample-size-calculator/"><link rel="alternate" hreflang="x-default" href="https://calculators.loonaautomation.com/sample-size-calculator/">
 <meta name="theme-color" content="#062e2a">
 <link rel="icon" type="image/png" sizes="32x32" href="../../favicon-32.png">
 <link rel="apple-touch-icon" href="../../apple-touch-icon.png">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Calcolatore della dimensione del campione — Per proporzioni e medie, con FPC | Loona Calculators">
 <meta property="og:description" content="Calcolatore gratuito della dimensione del campione: quante risposte ti servono per una proporzione o una media di un sondaggio, al tuo livello di confidenza e margine di errore, con correzione per popolazione finita.">
-<meta property="og:url" content="https://loonaautomation.github.io/loona-calculators/it/sample-size-calculator/"><meta property="og:locale" content="it_IT">
-<meta property="og:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
+<meta property="og:url" content="https://calculators.loonaautomation.com/it/sample-size-calculator/"><meta property="og:locale" content="it_IT">
+<meta property="og:image" content="https://calculators.loonaautomation.com/og-image.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Calcolatore della dimensione del campione — Per proporzioni e medie, con FPC | Loona Calculators">
 <meta name="twitter:description" content="Calcolatore gratuito della dimensione del campione: quante risposte ti servono per una proporzione o una media di un sondaggio, al tuo livello di confidenza e margine di errore, con correzione per popolazione finita.">
-<meta name="twitter:image" content="https://loonaautomation.github.io/loona-calculators/og-image.jpg">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Calcolatore Loona della dimensione del campione","url":"https://loonaautomation.github.io/loona-calculators/it/sample-size-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
+<meta name="twitter:image" content="https://calculators.loonaautomation.com/og-image.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Calcolatore Loona della dimensione del campione","url":"https://calculators.loonaautomation.com/it/sample-size-calculator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Loona Automation","url":"https://loonaautomation.github.io/"}}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Perché p = 0.5 dà il campione più grande?","acceptedAnswer":{"@type":"Answer","text":"La varianza p(1−p) è massima a p = 0.5. Se la proporzione vera è vicina a 0.5 ti servono più dati; se sai che è più vicina a 0.1 o 0.9, un campione più piccolo ottiene lo stesso margine."}},{"@type":"Question","name":"Cos'è la correzione per popolazione finita?","acceptedAnswer":{"@type":"Answer","text":"Quando il tuo campione è una frazione evidente di una popolazione finita, il campionamento senza reinserimento è più preciso di quanto presupponga la formula per popolazioni infinite. La correzione n_adj = n ÷ (1 + (n − 1) ÷ N) riduce il campione richiesto per le popolazioni piccole."}},{"@type":"Question","name":"Come si bilanciano margine di errore e costo?","acceptedAnswer":{"@type":"Answer","text":"Dimezzare il margine quadruplica il campione: ±5% richiede 385, ±2.5% richiede circa 1,537, ±1% richiede circa 9,604 (tutti al 95%, p = 0.5). La precisione si acquista quadraticamente."}},{"@type":"Question","name":"Una popolazione più grande richiede un campione più grande?","acceptedAnswer":{"@type":"Answer","text":"Appena, una volta che la popolazione è grande — un paese di 200 milioni ha bisogno quasi degli stessi 385 di una città di 200,000 per lo stesso margine. La dimensione del campione è guidata dal margine che richiedi, non dalla dimensione della popolazione."}}]}</script>
 <style>
 :root{--teal:#062e2a;--teal2:#0a423b;--gold:#d4af37;--gold2:#b8912a;--ink:#12211f;--mut:#5a6b68;--bg:#f6f8f7;--card:#fff;--line:#e2e9e7}
@@ -112,13 +112,13 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
       "@type": "ListItem",
       "position": 2,
       "name": "Loona Calculators",
-      "item": "https://loonaautomation.github.io/loona-calculators/it/"
+      "item": "https://calculators.loonaautomation.com/it/"
     },
     {
       "@type": "ListItem",
       "position": 3,
       "name": "Calcolatore della dimensione del campione",
-      "item": "https://loonaautomation.github.io/loona-calculators/it/sample-size-calculator/"
+      "item": "https://calculators.loonaautomation.com/it/sample-size-calculator/"
     }
   ]
 }</script>
@@ -162,8 +162,8 @@ footer .bar{border-top:1px solid rgba(255,255,255,.15);padding-top:12px;font-siz
 <div id="loona-embed" style="max-width:780px;margin:30px auto;padding:24px;background:#fdfaf1;border:1px solid #d9c98a;border-radius:14px;text-align:left">
 <h2 style="margin:0 0 10px;color:#062e2a;font-size:1.35rem;line-height:1.3">Incorpora questo calcolatore nel tuo sito web — gratis</h2>
 <p style="margin:0 0 12px;line-height:1.6">Aggiungi questa calcolatrice al tuo sito web o blog — è completamente gratuita, non richiede registrazione e mostra sempre la versione più recente. Copia il codice qui sotto e incollalo nella tua pagina nel punto in cui vuoi che appaia la calcolatrice. Mantenere la piccola riga di credito &ldquo;Powered by Loona Automation&rdquo; sotto l'incorporamento aiuta a mantenere gratuito questo strumento &mdash; ma sei libero di personalizzarla o rimuoverla; lo strumento funziona in ogni caso.</p>
-<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://loonaautomation.github.io/loona-calculators/it/sample-size-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Sample Size Calculator by Loona"&gt;&lt;/iframe&gt;
-&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Realizzato da &lt;a href="https://loonaautomation.github.io/loona-calculators/it/sample-size-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; gratuito Calcolatore della dimensione del campione&lt;/p&gt;</textarea>
+<textarea id="loonaEmbedCode" readonly rows="4" style="width:100%;box-sizing:border-box;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.45;padding:12px;border:1px solid #e4ddc8;border-radius:10px;background:#fff;color:#1c2422;resize:vertical">&lt;iframe src="https://calculators.loonaautomation.com/it/sample-size-calculator/" width="100%" height="720" style="border:1px solid #e5e7eb;border-radius:12px;max-width:760px" loading="lazy" title="Sample Size Calculator by Loona"&gt;&lt;/iframe&gt;
+&lt;p style="font-size:13px;font-family:Arial,sans-serif"&gt;Realizzato da &lt;a href="https://calculators.loonaautomation.com/it/sample-size-calculator/" target="_blank" rel="noopener"&gt;Loona Automation&lt;/a&gt; &mdash; gratuito Calcolatore della dimensione del campione&lt;/p&gt;</textarea>
 <p style="margin:10px 0 0"><button type="button" id="loonaEmbedBtn" style="background:#062e2a;color:#fff;border:0;border-radius:8px;padding:10px 18px;font-size:.95rem;font-weight:700;cursor:pointer">Copia il codice di incorporamento</button></p>
 </div>
 <script>
